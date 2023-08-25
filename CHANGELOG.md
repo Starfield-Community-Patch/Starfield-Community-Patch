@@ -8,8 +8,5 @@ Once the first version of this mod has been released, as changelog will be visib
 When adding items to the changelog try and use the template below:
 
 [YYYY-MM-DD] Version 1.0.0
-| Fix Details      | Contributor(s) |
-| ------------     | -----------    |
-| Fixed a bug with xyz <link to issue>     |  [Contributor Name](Profile URL)  |
-
+- *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
