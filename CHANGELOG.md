@@ -1,6 +1,6 @@
 <!-- When adding items to the changelog, please use H2 (##) and below only, otherwise this will render in a strange way on the Starfield Patch website -->
-## No changelogs available
-Once the first version of this mod has been released, as changelog will be visible here. 
+## [2023-09-02] Version 0.0.1
+- Fixed a typo in the English translation of the 3 Scan Jammer components in the ship builder. [Issue reported by Daymarr](https://www.starfieldpatch.dev/issues/22) 
 
 <!-- 
 ## Guidance
