@@ -15,8 +15,9 @@ keep on top of things.
 
 * Grab any issue in the `No Status` column and move it to `Vetting`.
   * Attempt to reproduce the issue.
-  * Add any additional notes or instructions to the ticket and, if it is
-    reproducible, move it to the `Vetted` column.
+  * Add a comment stating that you reproduced the issue, for the record.
+  * Add any additional notes or instructions to the ticket.
+  * If it is reproducible and seems relatively in scope, move it to the `Vetted` column.
 * Grab any issue in the `In Pull Request - QA` column and test that the
   issue has been resolved.
   * Add any additional notes to the ticket and, if it is resolved, sign off
