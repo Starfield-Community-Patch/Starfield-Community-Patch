@@ -1,0 +1,54 @@
+name: spriggit-out
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+jobs:
+  publish:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      
+      - name: Fetch spriggit
+        shell: bash
+        run: gh release download -O .github/spriggit.zip -p 'SpriggitLinuxCLI.zip' -R Mutagen-Modding/Spriggit ${{ inputs.spriggit_tool_version }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          
+      - name: Extract some files
+        shell: bash
+        run: 7z x .github/spriggit.zip -o.github/spriggit
+
+      - name: fix spriggit permission
+        shell: bash
+        run: chmod +x .github/spriggit/Spriggit.CLI
+
+      - name: run spriggit
+        shell: bash
+        run: .github/spriggit/Spriggit.CLI deserialize --InputPath "src/plugin" --OutputPath "${{ github.workspace }}/latest.esp" --PackageName Spriggit.Yaml.Skyrim
+
+      - name: Delete Existing Release
+        uses: dev-drprasad/delete-tag-and-release@v1.0
+        with:
+          tag_name: nightly
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          delete_release: true
+          
+      - name: Create Release
+        id: create_release
+        uses: ncipollo/release-action@v1.13.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          allowUpdates: true
+          name: Nightly
+          draft: false
+          body: Nightly release of the latest patch
+          tag: nightly
+          prerelease: true
+          makeLatest: true
+          removeArtifacts: true
+          replacesArtifacts: true
+          artifacts: ${{ github.workspace }}/latest.esp
