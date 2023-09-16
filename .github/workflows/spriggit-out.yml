@@ -27,7 +27,7 @@ jobs:
 
       - name: run spriggit
         shell: bash
-        run: .github/spriggit/Spriggit.CLI deserialize --InputPath "src/plugin" --OutputPath "${{ github.workspace }}/latest.esp" --PackageName Spriggit.Yaml.Skyrim
+        run: .github/spriggit/Spriggit.CLI deserialize --InputPath "src/plugin" --OutputPath "${{ github.workspace }}/StarfieldCommunityPatch.esm" --PackageName Spriggit.Yaml.Starfield
 
       - name: Delete Existing Release
         uses: dev-drprasad/delete-tag-and-release@v1.0
@@ -51,4 +51,4 @@ jobs:
           makeLatest: true
           removeArtifacts: true
           replacesArtifacts: true
-          artifacts: ${{ github.workspace }}/latest.esp
+          artifacts: ${{ github.workspace }}/StarfieldCommunityPatch.esm
