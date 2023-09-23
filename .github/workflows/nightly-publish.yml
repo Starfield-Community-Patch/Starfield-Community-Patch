@@ -1,4 +1,4 @@
-name: spriggit-out
+name: nightly-publish
 on:
   schedule:
     - cron: '0 9 * * *'
@@ -11,10 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Check for changes last 24 hours that modified src/plugin folder
+      - name: Check for changes last 24 hours that modified src folder
         id: should_run
         shell: bash
-        run: echo "should_run=$(git log --since="1 days ago" --name-only | grep 'src/plugin/.*' -c)" >> "$GITHUB_OUTPUT"
+        run: echo "should_run=$(git log --since="1 days ago" --name-only | grep 'src/.*' -c)" >> "$GITHUB_OUTPUT"
 
   publish:
     needs: check-changes
