@@ -1,4 +1,4 @@
-name: spriggit-out
+name: nightly-publish
 on:
   schedule:
     - cron: '0 9 * * *'
