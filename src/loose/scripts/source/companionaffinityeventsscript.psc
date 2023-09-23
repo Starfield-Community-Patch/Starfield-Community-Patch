@@ -149,7 +149,7 @@ Event ObjectReference.OnItemAdded(ObjectReference akSender, Form akBaseItem, Int
   If PlayerRef.IsOverEncumbered() ; #DEBUG_LINE_NO:
     Self.SendAffinityEvent(COM_Event_Action_BecomeOverEncumbered, None, False) ; #DEBUG_LINE_NO:
   EndIf ; #DEBUG_LINE_NO:
-  Self.GotoState("None") ; #DEBUG_LINE_NO:
+  Self.GotoState("") ; #DEBUG_LINE_NO:
 EndEvent
 
 Event OnTimer(Int aiTimerID)
@@ -193,7 +193,7 @@ Event OnQuestStarted()
   Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerCraftItem") ; #DEBUG_LINE_NO:246
   Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerModArmorWeapon") ; #DEBUG_LINE_NO:253
   Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerModifiedShip") ; #DEBUG_LINE_NO:259
-  Self.RegisterForMenuOpenCloseEvent("LooksMenu") ; #DEBUG_LINE_NO:264
+  Self.RegisterForMenuOpenCloseEvent("ChargenMenu") ; #DEBUG_LINE_NO:264 ; Formerly called for "LooksMenu", which is what ChargenMenu was called in Fallout 4 - Bobbyclue 9/21/23
   Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerFireWeapon") ; #DEBUG_LINE_NO:270
   Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerScannedObject") ; #DEBUG_LINE_NO:276
   Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnSpellCast") ; #DEBUG_LINE_NO:282
@@ -290,7 +290,7 @@ Event ObjectReference.OnSpellCast(ObjectReference akSender, Form akSpell)
   If akSpell.HasKeyword(Artifact_Power) ; #DEBUG_LINE_NO:494
     Self.SendAffinityEvent(COM_Event_Action_UseStarbornPower, None, False) ; #DEBUG_LINE_NO:495
   EndIf ; #DEBUG_LINE_NO:
-  Self.GotoState("None") ; #DEBUG_LINE_NO:497
+  Self.GotoState("") ; #DEBUG_LINE_NO:497
 EndEvent
 
 Event actor.OnPlayerCraftItem(Actor akSender, ObjectReference akBench, Location akLocation, Form akCreatedItem)
@@ -310,8 +310,8 @@ Event Actor.OnPlayerModifiedShip(Actor akSender, spaceshipreference akShip)
 EndEvent
 
 Event OnMenuOpenCloseEvent(String asMenuName, Bool abOpening)
-  If asMenuName == "LooksMenu" && abOpening == False ; #DEBUG_LINE_NO:534
-    Self.SendAffinityEvent(COM_Event_Action_Enhance_PlayerChangeAppearance, None, False) ; #DEBUG_LINE_NO:535
+  If asMenuName == "ChargenMenu" && abOpening == False ; #DEBUG_LINE_NO:534 ; Formerly called for "LooksMenu", which is what ChargenMenu was called in Fallout 4 - Bobbyclue 9/21/23
+    Self.SendAffinityEvent(COM_Event_Action_Enhance_PlayerChangeAppearance, None, False, True) ; #DEBUG_LINE_NO:535
   EndIf ; #DEBUG_LINE_NO:
 EndEvent
 
@@ -420,10 +420,13 @@ Event Actor.OnPickLock(Actor akSender, ObjectReference akLockedRef, Bool abCrime
   EndIf ; #DEBUG_LINE_NO:
 EndEvent
 
-Function SendAffinityEvent(affinityevent EventToSend, ObjectReference targetRef, Bool ignoreCooldown)
-  Bool PlayerInDialogue = Game.IsPlayerInDialogue() ; #DEBUG_LINE_NO:817
+Function SendAffinityEvent(affinityevent EventToSend, ObjectReference targetRef, Bool ignoreCooldown, Bool ignorePlayerInDialogue = False)
+  Bool PlayerInDialogue = False ; #DEBUG_LINE_NO:817
   Bool CompanionInScene = False ; #DEBUG_LINE_NO:819
   Actor CompanionRef = ActiveCompanion.GetActorReference() ; #DEBUG_LINE_NO:820
+  If !ignorePlayerInDialogue ; Added optional bypass of dialogue check for the sake of appearance change dialogue. All appearance changes occur in dialogue, and Game.IsPlayerInDialogue() can return true even if the dialogue menu is closed - Bobbyclue 9/22/23
+    PlayerInDialogue = Game.IsPlayerInDialogue()
+  EndIf
   If CompanionRef ; #DEBUG_LINE_NO:821
     CompanionInScene = CompanionRef.IsInScene() ; #DEBUG_LINE_NO:822
   EndIf ; #DEBUG_LINE_NO:
