@@ -11,10 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Check for changes last 24 hours that modified src folder
+      - name: Check for changes last 24 hours
         id: should_run
         shell: bash
-        run: echo "should_run=$(git log --since="1 days ago" --name-only | grep 'src/.*' -c)" >> "$GITHUB_OUTPUT"
+        run: |
+          git log --since="1 days ago" --name-only
+          echo "should_run=$(git log --since="1 days ago" --name-only | grep "" -c)" >> "$GITHUB_OUTPUT"
 
   publish:
     needs: check-changes
@@ -41,7 +43,7 @@ jobs:
 
       - name: run spriggit
         shell: bash
-        run: .github/spriggit/Spriggit.CLI deserialize --InputPath "src/plugin" --OutputPath "${{ github.workspace }}/StarfieldCommunityPatch.esm" --PackageName Spriggit.Yaml.Starfield
+        run: .github/spriggit/Spriggit.CLI deserialize --InputPath "spriggit" --OutputPath "${{ github.workspace }}/to-pack/StarfieldCommunityPatch.esm" --PackageName Spriggit.Yaml.Starfield
 
       - name: Delete Existing Release
         uses: dev-drprasad/delete-tag-and-release@v1.0
@@ -65,4 +67,4 @@ jobs:
           makeLatest: true
           removeArtifacts: true
           replacesArtifacts: true
-          artifacts: ${{ github.workspace }}/StarfieldCommunityPatch.esm
+          artifacts: ${{ github.workspace }}/to-pack/StarfieldCommunityPatch.esm
