@@ -39,7 +39,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           
-      - name: Extract some files
+      - name: Extract Spriggit Zip
         shell: bash
         run: 7z x .github/spriggit.zip -o.github/spriggit
 
