@@ -20,7 +20,7 @@ jobs:
 
   publish:
     needs: check-changes
-    if: ${{ needs.check-changes.outputs.should_run == 1 }}
+    if: ${{ needs.check-changes.outputs.should_run >= 1 }}
     permissions: write-all
     runs-on: ubuntu-latest
     steps:
