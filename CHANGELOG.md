@@ -2,6 +2,7 @@
 ## [2023-09-26] Version 0.0.1
 - Fixed a typo in the English translation of the 3 Scan Jammer components in the ship builder. [Issue reported by Daymarr](https://www.starfieldpatch.dev/issues/22)
 - Companions will now correctly comment on the player's appearance changing. (This was caused by a script referencing "LooksMenu" instead of "ChargenMenu") [Fix contributed by Bobbyclue](https://github.com/Starfield-Community-Patch/Starfield-Community-Patch/pull/259)
+- Fixed an issue where player characters would sometimes headtrack to the left while sprinting for a long time. [Fix contributed by Monitor144hz](https://www.nexusmods.com/starfield/users/118625818) - [Issue](https://www.starfieldpatch.dev/issues/247) - [v1.1.1 from Nexus Mods Page](https://www.nexusmods.com/starfield/mods/2370)
 
 <!-- 
 ## Guidance
