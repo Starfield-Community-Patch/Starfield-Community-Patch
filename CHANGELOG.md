@@ -7,6 +7,8 @@
 - Fixed a typo in a greeting line for Nikau Henderson in Deimos Staryard. [0027104E] [Reported by sleepysugarlump](https://www.starfieldpatch.dev/issues/41)
 - Fixed a typo in a dialogue line with The Hunter during MQ106 at Akila City. [0021B2A1] [Reported by tcranor](https://www.starfieldpatch.dev/issues/101)
 - Fixed a typo in the description of the Penetrator Rounds upgrade for several weapons co_gun_mod_HardTarget_Mag_Penetrator[000454B2], co_gun_mod_Lawgiver_Mag_Penetrator[00057561], co_gun_mod_MagSniper_Mag_Penetrator[00045BAF], co_gun_mod_Razorback_Mag_Penetrator[00044C30],co_gun_mod_Regulator_Mag_Penetrator[00057579], co_gun_mod_Tombstone_Mag_Penetrator[00044C4D],co_gun_mod_UrbanEagle_Mag_Penetrator[0007C747] [Reported by Krevil](https://www.starfieldpatch.dev/issues/136)
+- Fixed a misspelling of "pique" in Masako's Dialogue during "Sabotage". [0015E064] [Reported by wSkeever](https://www.starfieldpatch.dev/issues/260)
+- Fixed a typo in Andromeda Kepler's dialogue. [00146104] [Reported by disasterchief](https://www.starfieldpatch.dev/issues/284)
 
 <!-- 
 ## Guidance
