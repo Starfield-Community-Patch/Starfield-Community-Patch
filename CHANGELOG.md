@@ -1,6 +1,7 @@
 <!-- When adding items to the changelog, please use H2 (##) and below only, otherwise this will render in a strange way on the Starfield Patch website -->
 ## [2023-10-01] Version 0.0.1
-- Fixed a bug where Neon Security would say you have a bounty even if you've never been arrested, [Fix contributed by wSkeever](https://www.nexusmods.com/users/7064860) - [v0.0.1 from Nexus Mods Page](https://www.nexusmods.com/starfield/mods/4763)
+- Fixed a bug where companions would become angry at the player for boarding a hostile ship and attacking the crew. [Fix contributed by wSkeever](https://www.nexusmods.com/users/7064860) - [v0.0.1 from Nexus Mods Page](https://www.nexusmods.com/starfield/mods/4848) - [Reported by wSkeever](https://www.starfieldpatch.dev/issues/323)
+- Fixed a bug where Neon Security would say you have a bounty even if you've never been arrested. [Fix contributed by wSkeever](https://www.nexusmods.com/users/7064860) - [v0.0.1 from Nexus Mods Page](https://www.nexusmods.com/starfield/mods/4763) - [Reported by wSkeever](https://www.starfieldpatch.dev/issues/319)
 - Companions will now correctly comment on the player's appearance changing. (This was caused by 
 companionaffinityeventsscript referencing "LooksMenu" instead of "ChargenMenu") [Fix contributed by Bobbyclue](https://github.com/Starfield-Community-Patch/Starfield-Community-Patch/pull/259)
 - Fixed an issue where player characters would sometimes headtrack to the left while sprinting for a long time. [Fix contributed by Monitor144hz](https://www.nexusmods.com/starfield/users/118625818) - [Issue](https://www.starfieldpatch.dev/issues/247) - [v1.1.1 from Nexus Mods Page](https://www.nexusmods.com/starfield/mods/2370)
