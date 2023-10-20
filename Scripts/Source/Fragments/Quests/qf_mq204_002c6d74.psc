@@ -1582,27 +1582,27 @@ EndFunction
 Function Fragment_Stage_1000_Item_00()
   If MQ201B.GetStageDone(2000) == False && MQ404.GetStageDone(100) == False ; #DEBUG_LINE_NO:2140
     MQ206A.SetStage(5) ; #DEBUG_LINE_NO:2141
+	Actor SavedCompanionREF = MQ00_CompanionWhoLives.GetActorRef() ; #DEBUG_LINE_NO:2146
+	If SavedCompanionREF == Alias_Andreja.GetActorRef() ; #DEBUG_LINE_NO:2148
+	MQ_CompanionSaved.SetValueInt(COM_CompanionID_Andreja.GetValueInt()) ; #DEBUG_LINE_NO:2149
+	ElseIf SavedCompanionREF == Alias_Barrett.GetActorRef() ; #DEBUG_LINE_NO:2150
+	MQ_CompanionSaved.SetValueInt(COM_CompanionID_Barrett.GetValueInt()) ; #DEBUG_LINE_NO:2151
+	ElseIf SavedCompanionREF == Alias_SamCoe.GetActorRef() ; #DEBUG_LINE_NO:2152
+	MQ_CompanionSaved.SetValueInt(COM_CompanionID_SamCoe.GetValueInt()) ; #DEBUG_LINE_NO:2153
+	ElseIf SavedCompanionREF == Alias_SarahMorgan.GetActorRef() ; #DEBUG_LINE_NO:2154
+	MQ_CompanionSaved.SetValueInt(COM_CompanionID_SarahMorgan.GetValueInt()) ; #DEBUG_LINE_NO:2155
+	EndIf ; #DEBUG_LINE_NO:
+	Float currentGameTime = Utility.GetCurrentGameTime() ; #DEBUG_LINE_NO:2159
+	Float cooldownTime = currentGameTime + COM_WantsToTalk_CooldownDays.GetValue() ; #DEBUG_LINE_NO:2160
+	Int I = 0 ; #DEBUG_LINE_NO:2161
+	While I < Alias_Companions.Length ; #DEBUG_LINE_NO:2162
+	Alias_Companions[I].GetActorRef().SetValue(COM_WantsToTalk_MQ204_Cooldown, cooldownTime) ; #DEBUG_LINE_NO:2163
+	I += 1 ; #DEBUG_LINE_NO:2164
+	EndWhile ; #DEBUG_LINE_NO:
+	COM_WantsToTalkEvent_MQ204.Send(None) ; #DEBUG_LINE_NO:2166
+	Game.AddAchievement(6) ; #DEBUG_LINE_NO:2169
   EndIf ; #DEBUG_LINE_NO:
   Self.CompleteAllObjectives() ; #DEBUG_LINE_NO:2144
-  Actor SavedCompanionREF = MQ00_CompanionWhoLives.GetActorRef() ; #DEBUG_LINE_NO:2146
-  If SavedCompanionREF == Alias_Andreja.GetActorRef() ; #DEBUG_LINE_NO:2148
-    MQ_CompanionSaved.SetValueInt(COM_CompanionID_Andreja.GetValueInt()) ; #DEBUG_LINE_NO:2149
-  ElseIf SavedCompanionREF == Alias_Barrett.GetActorRef() ; #DEBUG_LINE_NO:2150
-    MQ_CompanionSaved.SetValueInt(COM_CompanionID_Barrett.GetValueInt()) ; #DEBUG_LINE_NO:2151
-  ElseIf SavedCompanionREF == Alias_SamCoe.GetActorRef() ; #DEBUG_LINE_NO:2152
-    MQ_CompanionSaved.SetValueInt(COM_CompanionID_SamCoe.GetValueInt()) ; #DEBUG_LINE_NO:2153
-  ElseIf SavedCompanionREF == Alias_SarahMorgan.GetActorRef() ; #DEBUG_LINE_NO:2154
-    MQ_CompanionSaved.SetValueInt(COM_CompanionID_SarahMorgan.GetValueInt()) ; #DEBUG_LINE_NO:2155
-  EndIf ; #DEBUG_LINE_NO:
-  Float currentGameTime = Utility.GetCurrentGameTime() ; #DEBUG_LINE_NO:2159
-  Float cooldownTime = currentGameTime + COM_WantsToTalk_CooldownDays.GetValue() ; #DEBUG_LINE_NO:2160
-  Int I = 0 ; #DEBUG_LINE_NO:2161
-  While I < Alias_Companions.Length ; #DEBUG_LINE_NO:2162
-    Alias_Companions[I].GetActorRef().SetValue(COM_WantsToTalk_MQ204_Cooldown, cooldownTime) ; #DEBUG_LINE_NO:2163
-    I += 1 ; #DEBUG_LINE_NO:2164
-  EndWhile ; #DEBUG_LINE_NO:
-  COM_WantsToTalkEvent_MQ204.Send(None) ; #DEBUG_LINE_NO:2166
-  Game.AddAchievement(6) ; #DEBUG_LINE_NO:2169
   Self.Stop() ; #DEBUG_LINE_NO:2171
 EndFunction
 

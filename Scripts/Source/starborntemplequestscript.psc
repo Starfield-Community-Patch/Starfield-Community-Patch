@@ -117,9 +117,11 @@ EndFunction
 
 Function SetPlayerAcquiredArtifact(Int ArtifactNumber)
   If ArtifactNumber >= 0 && ArtifactNumber < currentPlaythroughArtifacts.Length ; #DEBUG_LINE_NO:139
-    currentPlaythroughArtifacts[ArtifactNumber].HasAcquiredArtifact = True ; #DEBUG_LINE_NO:140
-    Int iTemples = MQUndiscoveredTemples.GetValueInt() ; #DEBUG_LINE_NO:141
-    MQUndiscoveredTemples.SetValue((iTemples + 1) as Float) ; #DEBUG_LINE_NO:142
+    If currentPlaythroughArtifacts[ArtifactNumber].HasAcquiredArtifact == False ; #DEBUG_LINE_NO:140
+		currentPlaythroughArtifacts[ArtifactNumber].HasAcquiredArtifact = True
+		Int iTemples = MQUndiscoveredTemples.GetValueInt() ; #DEBUG_LINE_NO:141
+		MQUndiscoveredTemples.SetValue((iTemples + 1) as Float) ; #DEBUG_LINE_NO:142
+	EndIf
   EndIf ; #DEBUG_LINE_NO:
 EndFunction
 
