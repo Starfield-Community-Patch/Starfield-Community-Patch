@@ -37,7 +37,6 @@ companionaffinityeventsscript referencing "LooksMenu" instead of "ChargenMenu") 
 - Fixed a misspelling of "pique" in Masako's Dialogue during "Sabotage". [0015E064] [Reported by wSkeever](https://www.starfieldpatch.dev/issues/260)
 - Fixed a typo in Andromeda Kepler's dialogue. [00146104] [Reported by disasterchief](https://www.starfieldpatch.dev/issues/284)
 - Fixed a typo in Helena Strickland's dialogue. [0018E0C1] [Reported by Drackore](https://www.starfieldpatch.dev/issues/339)
-<!-- Locales -->
 - Fixed a typo in the German translation of Joseph Manning's dialogue [0022D907] [Reported by SkyHorizon3](https://www.starfieldpatch.dev/issues/345)
 - Fixed a typo in the German translation of Issa Ekland's dialogue [002C33C5] [Reported by SkyHorizon3](https://www.starfieldpatch.dev/issues/345)
 - Fixed typos in the German translation of Lin's dialogue during the opening sequence [000131BB] [00019287] [Reported by SkyHorizon3](https://www.starfieldpatch.dev/issues/345)
