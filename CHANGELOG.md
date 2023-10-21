@@ -9,7 +9,7 @@ When adding items to the changelog try and use the template below:
 -->
 
 
-## [2023-10-01] Version 0.0.1
+## [2023-10-25] Version 0.0.1
 - EM Weapon Systems skill ranks 1-3 have been modified to multiply EM damage by 1.1x/1.2x/1.3x instead of all 3 ranks applying a 2.0x multiplier. This brings it in line with perk description. [002C53B2] [Fix contributed by rux616](https://nexusmods.com/users/124191) [Reported by rux616](https://www.starfieldpatch.dev/issues/357)
 - EM Weapon Systems skill rank 4 has been corrected to apply a boost to EM damage rather than hull damage. [002C53B2] [Fix contributed by rux616](https://nexusmods.com/users/124191) [Reported by rux616](https://www.starfieldpatch.dev/issues/357)
 - Missile Weapon Systems skill Rank 4 modified to add a recharge rate modifier of 1.2 and remove the reload speed modifier of 0.8 to correctly represent the increase from Rank 3. [002C5558] [Fix contributed by rux616](https://nexusmods.com/users/124191) [Reported by rux616](https://www.starfieldpatch.dev/issues/348)
@@ -41,6 +41,6 @@ companionaffinityeventsscript referencing "LooksMenu" instead of "ChargenMenu") 
 - Fixed a typo in the German translation of Joseph Manning's dialogue [0022D907] [Reported by SkyHorizon3](https://www.starfieldpatch.dev/issues/345)
 - Fixed a typo in the German translation of Issa Ekland's dialogue [002C33C5] [Reported by SkyHorizon3](https://www.starfieldpatch.dev/issues/345)
 - Fixed typos in the German translation of Lin's dialogue during the opening sequence [000131BB] [00019287] [Reported by SkyHorizon3](https://www.starfieldpatch.dev/issues/345)
-- Fixed inconsistencies in the German translation between text and audio in Gideo Anker's dialogue [00051A6F] [0027BC78] [0027BC76] [00219573] [Reported by SkyHorizon3](https://www.starfieldpatch.dev/issues/345)
-- Fixed inconsistencies in the German translation between text and audio in Yannick Legrande's dialogue [0012C632] [0021B170] [Reported by SkyHorizon3](https://www.starfieldpatch.dev/issues/345)
+- Fixed inconsistencies in the German translation between text and audio in Gideo Anker's dialogue [00051A7B] [00051A7B] [0027BC70] [0027BC6F] [00219542] [Reported by SkyHorizon3](https://www.starfieldpatch.dev/issues/345)
+- Fixed inconsistencies in the German translation between text and audio in Yannick Legrande's dialogue [0012C618] [0021B154] [Reported by SkyHorizon3](https://www.starfieldpatch.dev/issues/345)
 
