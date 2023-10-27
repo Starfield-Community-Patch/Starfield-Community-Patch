@@ -17,6 +17,7 @@ When adding items to the changelog try and use the template below:
 - Arches Overlook Apartments [00167935], Apartment Stack I [00169EC1] will now inherit the correct gravity multiplier from Gargarin rather than using 1.0. [Fix contributed by Krevil](https://nexusmods.com/users/7064860) [Reported by Krevil](https://www.starfieldpatch.dev/issues/363)
 - The Pit Stop [00295334], HopeTech [00295336] will now inherit the correct gravity multiplier from Polvo (Hope Town) rather than using 1.0. [Fix contributed by Krevil](https://nexusmods.com/users/7064860) [Reported by Krevil](https://www.starfieldpatch.dev/issues/363)
 - Fixed a typo in the player dialogue when talking to Barrett about Ryujin Industries [0035B249] [Reported by TheTritch](https://www.starfieldpatch.dev/issues/383)
+- Fixed an incorrect texture overlay on SysDef Ace Spacesuit [002AAF44] and SY-920 Pilot Spacesuit [00214769] [Report by grandvil](https://www.starfieldpatch.dev/issues/381)
 
 
 ## [2023-10-25] Version 0.0.1
