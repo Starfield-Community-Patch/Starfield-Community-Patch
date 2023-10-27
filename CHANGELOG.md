@@ -16,6 +16,7 @@ When adding items to the changelog try and use the template below:
 - The Eleos Retreat [002A4393] will now inherit the correct gravity multiplier from Ixyll II rather than using 1.0. [Fix contributed by Krevil](https://nexusmods.com/users/7064860) [Reported by Krevil](https://www.starfieldpatch.dev/issues/363)
 - Arches Overlook Apartments [00167935], Apartment Stack I [00169EC1] will now inherit the correct gravity multiplier from Gargarin rather than using 1.0. [Fix contributed by Krevil](https://nexusmods.com/users/7064860) [Reported by Krevil](https://www.starfieldpatch.dev/issues/363)
 - The Pit Stop [00295334], HopeTech [00295336] will now inherit the correct gravity multiplier from Polvo (Hope Town) rather than using 1.0. [Fix contributed by Krevil](https://nexusmods.com/users/7064860) [Reported by Krevil](https://www.starfieldpatch.dev/issues/363)
+- Fixed a typo in the player dialogue when talking to Barrett about Ryujin Industries [0035B249] [Reported by TheTritch](https://www.starfieldpatch.dev/issues/383)
 
 
 ## [2023-10-25] Version 0.0.1
