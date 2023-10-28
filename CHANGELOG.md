@@ -9,6 +9,7 @@ When adding items to the changelog try and use the template below:
 -->
 
 ## [Unreleased] Version 0.0.2
+- Fixed two instances of "with" being misspelt as "wth". [0033A879] [0010F644] - [Reported by AUGSpeed](https://www.starfieldpatch.dev/issues/49)
 - Gunslinger's Guide and Mining Monthly magazine perks no longer count toward the skill total for the Combat tree (this would allow skills further down the tree to be unlocked without the required prerequisities). [0020BB31] [0020B4B6] - [Fix contributed by Argonil](https://www.nexusmods.com/starfield/users/3424782) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5660) - [Reported by Argonil](https://www.starfieldpatch.dev/issues/433)
 - The Automated Weapon Systems skill rank 3 will no longer apply bonuses to non-turret weapons. [0027B9ED] - [Fix contributed by Argonil](https://www.nexusmods.com/starfield/users/3424782) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5660) - [Reported by Argonil](https://www.starfieldpatch.dev/issues/433)
 - The Decontamination skill rank 4 description now includes the further increase to recovery chance. [002CE2A0] - [Fix contributed by Argonil](https://www.nexusmods.com/starfield/users/3424782) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5660) - [Reported by Argonil](https://www.starfieldpatch.dev/issues/433)
