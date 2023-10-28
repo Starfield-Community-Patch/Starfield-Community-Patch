@@ -9,6 +9,7 @@ When adding items to the changelog try and use the template below:
 -->
 
 ## [Unreleased] Version 0.0.2
+- The chemical formula for Benzene has been corrected from C6Hn to C6H6 [00005585] [000057E7] - [Fix contributed by SarthesArai](https://www.nexusmods.com/starfield/users/3027236) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5874) - [Reported by SarthesArai](https://www.starfieldpatch.dev/issues/367)
 - Scenes with Andreja and Sam Coe will no longer start if the player has not started "Foreknowledge". [0003BD74] [000D3AE9] - [Fix contributed by Aurelianis](https://www.nexusmods.com/starfield/users/143884143) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5823) - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/423)
 - Added a new conditional check to verify if the player is yet to start "Foreknowledge". [XX000800] - [Fix contributed by Aurelianis](https://www.nexusmods.com/starfield/users/143884143) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5823) - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/423)
 - Sarah Morgan will no longer have dialogue about saving Barrett, Andreja or Sam Coe when they have died. [001D56B1] [001D56B2] [001D56B3] - [Fix contributed by Aurelianis](https://www.nexusmods.com/starfield/users/143884143) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5823) - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/375)
