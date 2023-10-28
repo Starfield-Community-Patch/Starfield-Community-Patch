@@ -48,74 +48,76 @@ mq401questscript:playerknowledgestruct[] Property PlayerKnowledgeArray Auto Cons
 ;-- Functions ---------------------------------------
 
 Function LoadPlayerKnowledge()
-  Actor PlayerREF = Game.GetPlayer() 
-  Int currentElement = 0 
-  While currentElement < PlayerKnowledgeArray.Length 
-    Float CurrentPlayerKnowledgeAVFloat = PlayerREF.GetValue(PlayerKnowledgeArray[currentElement].PlayerKnowledgeAV) 
-    GlobalVariable CurrentPlayerKnowledgeGlobal = PlayerKnowledgeArray[currentElement].PlayerKnowledgeGlobal 
-    CurrentPlayerKnowledgeGlobal.SetValue(CurrentPlayerKnowledgeAVFloat) 
-    currentElement += 1 
-  EndWhile 
+  Actor PlayerREF = Game.GetPlayer()
+  Int currentElement = 0
+  While currentElement < PlayerKnowledgeArray.Length
+    Float CurrentPlayerKnowledgeAVFloat = PlayerREF.GetValue(PlayerKnowledgeArray[currentElement].PlayerKnowledgeAV)
+    GlobalVariable CurrentPlayerKnowledgeGlobal = PlayerKnowledgeArray[currentElement].PlayerKnowledgeGlobal
+    CurrentPlayerKnowledgeGlobal.SetValue(CurrentPlayerKnowledgeAVFloat)
+    currentElement += 1
+  EndWhile
 EndFunction
 
 Event OnQuestInit()
-  MQ401_AlwaysOn.Start() 
-  Self.LoadPlayerKnowledge() 
-  SQ_GravitationalTraits.Stop() 
-  SQ_GravitationalTraits.Start() 
-  Int iVariantPercentChance = MQ401_VariantChance.GetValueInt() 
-  Int iVariantChanceRoll = Utility.RandomInt(0, 100) 
-  If Game.GetPlayer().GetValue(PlayerUnityTimesEntered) >= 2.0 && iVariantChanceRoll <= iVariantPercentChance 
-    Int iTotalVariants = MQ401VariantsArray.Length - 1 
-    Int iVariantNumberRoll = MQ401_ForceVariant.GetValueInt() 
-    If iVariantNumberRoll == -1 
-      iVariantNumberRoll = Utility.RandomInt(0, iTotalVariants) 
-    EndIf 
-    MQ401_VariantCurrent.SetValueInt(iVariantNumberRoll) 
-    MQ401VariantsArray[iVariantNumberRoll].Start() 
-  Else 
-    Self.NormalStart() 
-  EndIf 
+  MQ401_AlwaysOn.Start()
+  Self.LoadPlayerKnowledge()
+  SQ_GravitationalTraits.Stop()
+  SQ_GravitationalTraits.Start()
+  Int iVariantPercentChance = MQ401_VariantChance.GetValueInt()
+  Int iVariantChanceRoll = Utility.RandomInt(0, 100)
+  If Game.GetPlayer().GetValue(PlayerUnityTimesEntered) >= 2.0 && iVariantChanceRoll <= iVariantPercentChance
+    Int iTotalVariants = MQ401VariantsArray.Length - 1
+    Int iVariantNumberRoll = MQ401_ForceVariant.GetValueInt()
+    If iVariantNumberRoll == -1
+      iVariantNumberRoll = Utility.RandomInt(0, iTotalVariants)
+    EndIf
+    MQ401_VariantCurrent.SetValueInt(iVariantNumberRoll)
+    MQ401VariantsArray[iVariantNumberRoll].Start()
+  Else
+    Self.NormalStart()
+  EndIf
+  ; SFCP - Fix for potential soflock on arriving in a variant universe https://www.starfieldpatch.dev/issues/314
+  Game.SetInChargen(false, false, false) 
 EndEvent
 
 Function CleanUpNormalMainQuest()
-  MQ101.Stop() 
-  VecteraExteriorNPCEnableMarker.DisableNoWait(False) 
-  VecteraInteriorNPCEnableMarker.DisableNoWait(False) 
-  Heller.GetActorRef().Disable(False) 
-  Lin.GetActorRef().Disable(False) 
-  OroraSabine.GetActorRef().Disable(False) 
-  Vasco.GetActorRef().Disable(False) 
-  SarahMorgan.GetActorRef().Disable(False) 
-  WalterStroud.GetActorRef().Disable(False) 
-  MatteoKhatri.GetActorRef().Disable(False) 
-  Noel.GetActorRef().Disable(False) 
-  VladimirSall.GetActorRef().Disable(False) 
-  SamCoe.GetActorRef().Disable(False) 
-  CoraCoe.GetActorRef().Disable(False) 
-  Andreja.GetActorRef().Disable(False) 
-  Barrett.GetActorRef().Disable(False) 
-  MQ402.Start() 
-  Self.Stop() 
+  MQ101.Stop()
+  VecteraExteriorNPCEnableMarker.DisableNoWait(False)
+  VecteraInteriorNPCEnableMarker.DisableNoWait(False)
+  Heller.GetActorRef().Disable(False)
+  Lin.GetActorRef().Disable(False)
+  OroraSabine.GetActorRef().Disable(False)
+  Vasco.GetActorRef().Disable(False)
+  SarahMorgan.GetActorRef().Disable(False)
+  WalterStroud.GetActorRef().Disable(False)
+  MatteoKhatri.GetActorRef().Disable(False)
+  Noel.GetActorRef().Disable(False)
+  VladimirSall.GetActorRef().Disable(False)
+  SamCoe.GetActorRef().Disable(False)
+  CoraCoe.GetActorRef().Disable(False)
+  Andreja.GetActorRef().Disable(False)
+  Barrett.GetActorRef().Disable(False)
+  MQ402.Start()
+  Self.Stop()
 EndFunction
 
 Function NormalStart()
-  MQ101.SetStage(280) 
-  MQ101.SetStage(310) 
-  MQ101.SetStage(1310) 
-  MQ101.SetStage(1635) 
-  MQ402.Start() 
-  Actor VascoREF = Vasco.GetActorRef() 
-  VascoREF.EvaluatePackage(False) 
-  VascoREF.moveto(MQ101_VascoMarker01, 0.0, 0.0, 0.0, True, False) 
-  Armillary.GetRef().Enable(False) 
+  MQ101.SetStage(280)
+  MQ101.SetStage(310)
+  MQ101.SetStage(1310)
+  MQ101.SetStage(1635)
+  MQ402.Start()
+  Actor VascoREF = Vasco.GetActorRef()
+  VascoREF.EvaluatePackage(False)
+  VascoREF.moveto(MQ101_VascoMarker01, 0.0, 0.0, 0.0, True, False)
+  Armillary.GetRef().Enable(False)
 EndFunction
 
 Function MQ401DisablePlayerControls()
-  MQ401EnableLayer = inputenablelayer.Create() 
-  MQ401EnableLayer.DisablePlayerControls(True, True, False, False, False, True, True, False, True, True, False) 
+  MQ401EnableLayer = inputenablelayer.Create()
+  MQ401EnableLayer.DisablePlayerControls(True, True, False, False, False, True, True, False, True, True, False)
 EndFunction
 
 Function MQ401EnablePlayerControls()
-  MQ401EnableLayer = None 
+  MQ401EnableLayer = None
 EndFunction
