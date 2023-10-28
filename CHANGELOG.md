@@ -8,7 +8,7 @@ When adding items to the changelog try and use the template below:
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
 
-## [Unreleased] Version 0.0.2
+## [2023-10-28] Version 0.0.2
 - The UC Sec ships orbiting Toliman II will no longer hail the player about the planet being a "Biological Exclusion Zone" after completing stage 155 of UC08 [001C54EB] - [Fix contributed by Connerria](https://www.nexusmods.com/starfield/users/40981350) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5607) - [Reported by Connerria](https://www.starfieldpatch.dev/issues/408)
 - Fixed a potential softlock issue when arriving in a variant universe in NG+ [mq401questscript] - [Fix contributed by Connerria](https://www.nexusmods.com/starfield/users/40981350) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/4657) - [Reported by Connerria](https://www.starfieldpatch.dev/issues/314)
 - Fixed two instances of "with" being misspelt as "wth". [0033A879] [0010F644] - [Reported by AUGSpeed](https://www.starfieldpatch.dev/issues/49)
@@ -28,7 +28,6 @@ When adding items to the changelog try and use the template below:
 - The Concealment skill will no longer override the magazine perks from Va'ruun scriptures or interfere with Void Form. [002C555E] [002C5A53] [002C7788] [001336BF] [XX000804] - [Fix contributed by Argonil](https://www.nexusmods.com/starfield/users/3424782) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5660) - [Reported by Argonil](https://www.starfieldpatch.dev/issues/433)
 - The Armor Penetration skill will now apply bonuses to melee weapons. [0027DF94] - [Fix contributed by Argonil](https://www.nexusmods.com/starfield/users/3424782) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5660) - [Reported by Argonil](https://www.starfieldpatch.dev/issues/433)
 - Removed unnecessary check on the Lasers Skill level 4 that the current weapon is not Ballistic or EM based. [002C59DD] - [Fix contributed by Argonil](https://www.nexusmods.com/starfield/users/3424782) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5660) - [Reported by Argonil](https://www.starfieldpatch.dev/issues/433)
-
 - The Lasers skill will no longer incorrectly apply bonuses to Particle weapons too. [002C59DD] - [Fix contributed by AmpHound](https://www.nexusmods.com/starfield/users/84381438) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5649) - [Reported by AmpHound](https://www.starfieldpatch.dev/issues/358)
 - The chemical formula for Benzene has been corrected from C6Hn to C6H6 [00005585] [000057E7] - [Fix contributed by SarthesArai](https://www.nexusmods.com/starfield/users/3027236) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5874) - [Reported by SarthesArai](https://www.starfieldpatch.dev/issues/367)
 - Scenes with Andreja and Sam Coe will no longer start if the player has not started "Foreknowledge". [0003BD74] [000D3AE9] - [Fix contributed by Aurelianis](https://www.nexusmods.com/starfield/users/143884143) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5823) - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/423)
