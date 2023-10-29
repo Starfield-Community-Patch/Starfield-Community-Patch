@@ -1,0 +1,65 @@
+FormKey: 2C5A53:Starfield.esm
+EditorID: ArtifactPowerVoidForm_Spell
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Leere-Form
+  - Language: English
+    String: Void Form
+  - Language: Spanish
+    String: Forma del vacío
+  - Language: French
+    String: Forme du Néant
+  - Language: Italian
+    String: Forma del vuoto
+  - Language: Japanese
+    String: ヴォイドフォーム
+  - Language: Polish
+    String: Kształt pustki
+  - Language: Portuguese_Brazil
+    String: Forma Vazia
+Keywords:
+- 1EC4E4:Starfield.esm
+- 1FD3CF:Starfield.esm
+- 2C5A61:Starfield.esm
+EquipmentType: 013F43:Starfield.esm
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Verzerrt das Licht um dich und macht dich für eine gewisse Zeit fast unsichtbar. '
+  - Language: English
+    String: 'Warp the light around you, becoming nearly invisible for a duration. '
+  - Language: Spanish
+    String: 'Deforma la luz a tu alrededor, volviéndote invisible un tiempo determinado. '
+  - Language: French
+    String: 'Attire toute la lumière qui vous entoure et vous rend momentanément quasi invisible. '
+  - Language: Italian
+    String: 'Deforma la luce che ti attornia, diventando pressoché invisibile per un certo periodo. '
+  - Language: Japanese
+    String: '使用者周囲の光を屈曲させ、一定時間ほぼ不可視の状態となる '
+  - Language: Polish
+    String: 'Zakrzyw światło wokół siebie i na pewien czas zyskaj niemal całkowitą niewidzialność. '
+  - Language: Portuguese_Brazil
+    String: 'Você se envolve em luz e se torna praticamente invisível até o efeito acabar. '
+BaseCost: 45
+Flags:
+- ManualCostCalc
+CastType: FireAndForget
+Effects:
+- BaseEffect: 2C7788:Starfield.esm
+  Data:
+    Magnitude: 1000
+    Duration: 20
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectOrSpellKeywordConditionData
+      FirstParameter: 03E1E5:Starfield.esm
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 1

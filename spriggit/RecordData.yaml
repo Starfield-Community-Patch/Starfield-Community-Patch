@@ -1,18 +1,72 @@
 SpriggitSource:
   PackageName: Spriggit.Yaml.Starfield
-  Version: 0.7
+  Version: 0.9.0
 ModKey: StarfieldCommunityPatch.esm
 GameRelease: Starfield
 ModHeader:
   Flags:
   - Master
   - Localized
-  FormVersion: 555
   Stats:
-    Version: 0.96
-    NumRecords: 0
-    NextFormID: 2048
-  Author: Starfield Community
-  Description: Baseline bug fixes for Starfield
+    NumRecords: 338
+    NextFormID: 2053
+  Author: Starfield Modding Community
+  Description: A compilation of bug fixes assembled by Starfield Modders
   MasterReferences:
   - Master: Starfield.esm
+  - Master: BlueprintShips-Starfield.esm
+  OverriddenForms:
+  - 0109AD:Starfield.esm
+  - 0131B2:Starfield.esm
+  - 0131BB:Starfield.esm
+  - 019284:Starfield.esm
+  - 019287:Starfield.esm
+  - 03BD74:Starfield.esm
+  - 03BDD9:Starfield.esm
+  - 03BDDA:Starfield.esm
+  - 03BEF1:Starfield.esm
+  - 051A6F:Starfield.esm
+  - 051A7B:Starfield.esm
+  - 0D3AE9:Starfield.esm
+  - 10F644:Starfield.esm
+  - 12C618:Starfield.esm
+  - 12C632:Starfield.esm
+  - 146104:Starfield.esm
+  - 14610C:Starfield.esm
+  - 15E064:Starfield.esm
+  - 15E18B:Starfield.esm
+  - 18E0C1:Starfield.esm
+  - 18E0F5:Starfield.esm
+  - 1D56B1:Starfield.esm
+  - 1D56B2:Starfield.esm
+  - 1D56B3:Starfield.esm
+  - 1D5775:Starfield.esm
+  - 1E9CC0:Starfield.esm
+  - 1E9E43:Starfield.esm
+  - 1E9FC4:Starfield.esm
+  - 219542:Starfield.esm
+  - 219573:Starfield.esm
+  - 21B154:Starfield.esm
+  - 21B170:Starfield.esm
+  - 21B21A:Starfield.esm
+  - 21B2A1:Starfield.esm
+  - 22B6E4:Starfield.esm
+  - 22D907:Starfield.esm
+  - 22DAC4:Starfield.esm
+  - 23EB56:Starfield.esm
+  - 23ED95:Starfield.esm
+  - 23EE62:Starfield.esm
+  - 26C506:Starfield.esm
+  - 27104E:Starfield.esm
+  - 271076:Starfield.esm
+  - 27BC6F:Starfield.esm
+  - 27BC70:Starfield.esm
+  - 27BC76:Starfield.esm
+  - 27BC78:Starfield.esm
+  - 2B4AB4:Starfield.esm
+  - 2C334A:Starfield.esm
+  - 2C33C5:Starfield.esm
+  - 33A850:Starfield.esm
+  - 33A879:Starfield.esm
+  - 34B529:Starfield.esm
+  - 35B249:Starfield.esm
