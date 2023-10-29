@@ -1,0 +1,50 @@
+FormKey: 1AD84C:Starfield.esm
+EditorID: co_SMS_ScanJammer02_DualFrequency
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein Scanstörer, der deine Chance um 30 % erhöht, bei einem Schiffsscan durchzuschlüpfen, wenn du ein Frachtraumschild verwendest und Schmuggelware transportierst.
+  - Language: English
+    String: A Scan Jammer that increases your chance of evasion during a ship scan by 30% if you're using a shielded cargo module and carrying contraband.
+  - Language: Spanish
+    String: Inhibidor de escáneres que aumenta un 30 % tus probabilidades de evitar que las naves de defensa detecten tu contrabando si llevas un módulo de carga oculta.
+  - Language: French
+    String: Un brouilleur de scan qui diminue les chances de vous faire détecter de 30 % lorsque vous transportez de la contrebande lors d'un scan de vaisseau, à condition de posséder un module de soute blindée.
+  - Language: Italian
+    String: Un disturbatore scansioni che aumenta del 30% la tua probabilità di elusione durante una scansione della nave se usi un modulo di carico schermato e trasporti merce di contrabbando.
+  - Language: Japanese
+    String: スキャンジャマーは、シールド貨物モジュールで禁制品を運んでいる場合に、船のスキャンを回避できる確率を30%上げる
+  - Language: Polish
+    String: Zakłócacz skanerów, który zwiększa twoją szansę na uniknięcie wykrycia przewożonej kontrabandy o 30%, jeśli używasz osłanianego modułu ładowni.
+  - Language: Portuguese_Brazil
+    String: Um Bloqueador que aumenta em 30% suas chances de escapar de uma varredura de nave se você estiver usando um módulo de carga oculto e carregando contrabando.
+WorkbenchKeyword: 29C480:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17620
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    FirstParameter: 10C4AB:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Unknown2: 17620
+  Data:
+    MutagenObjectType: GetLevelConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 10
+RequiredPerks:
+- Perk: 2C59DC:Starfield.esm
+  Rank: 1
+CreatedObject: 1AD84F:Starfield.esm
+AmountProduced: 1
+MenuSortOrder: 55.375
+LearnMethod: DefaultOrConditions
+Value: 5000
+Categories:
+- 29C477:Starfield.esm
+RECF: 0

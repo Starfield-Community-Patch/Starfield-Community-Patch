@@ -1,0 +1,43 @@
+FormKey: 044C4D:Starfield.esm
+EditorID: co_gun_mod_Tombstone_Mag_Penetrator
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Unglaublich starke Geschosse, die mehrere Gegner durchdringen können.
+  - Language: English
+    String: Incredibly powerful rounds that can pass through multiple enemies.
+  - Language: Spanish
+    String: Munición con una potencia tremenda que puede atravesar a varios enemigos.
+  - Language: French
+    String: Munitions extrêmement puissantes qui peuvent traverser plusieurs adversaires.
+  - Language: Italian
+    String: Proiettili straordinariamente potenti in grado di trapassare più di un nemico.
+  - Language: Japanese
+    String: 複数の敵を貫通できる、とても強力な弾丸
+  - Language: Polish
+    String: Niezwykle potężna amunicja zdolna przebić kilku przeciwników.
+  - Language: Portuguese_Brazil
+    String: Munição incrivelmente forte que pode atravessar diversos inimigos.
+WorkbenchKeyword: 2CE1C0:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17620
+  Data:
+    MutagenObjectType: IsResearchCompleteConditionData
+    FirstParameter: 380C4D:Starfield.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 0057C1:Starfield.esm
+  Count: 3
+- Component: 0057D3:Starfield.esm
+  Count: 4
+- Component: 077828:Starfield.esm
+  Count: 3
+CreatedObject: 128C4C:Starfield.esm
+AmountProduced: 1
+LearnMethod: DefaultOrConditions
+Categories:
+- 2D01F2:Starfield.esm
+RECF: 0

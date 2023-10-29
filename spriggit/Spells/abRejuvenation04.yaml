@@ -1,0 +1,33 @@
+FormKey: 12601B:Starfield.esm
+EditorID: abRejuvenation04
+ODTY: 0
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+Type:
+- Ability
+Effects:
+- BaseEffect: 102149:Starfield.esm
+  Data:
+    Magnitude: 2
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: GetHealthPercentageConditionData
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 0622EA:Starfield.esm
+  Data:
+    Magnitude: 0.5
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: GetHealthPercentageConditionData
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 3

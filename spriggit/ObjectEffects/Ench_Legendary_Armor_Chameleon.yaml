@@ -1,0 +1,62 @@
+FormKey: 1336BF:Starfield.esm
+EditorID: Ench_Legendary_Armor_Chameleon
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Chamäleonpanzerung
+  - Language: English
+    String: Armor Chameleon
+  - Language: Spanish
+    String: Armadura camaleónica
+  - Language: French
+    String: Armure caméléon
+  - Language: Italian
+    String: Camaleonte corazza
+  - Language: Japanese
+    String: アーマーカメレオン
+  - Language: Polish
+    String: Pancerz kameleon
+  - Language: Portuguese_Brazil
+    String: Armadura Camaleão
+UnknownENIT: 0x000000000000000000000000000006000000000000000000000000
+Effects:
+- BaseEffect: 19AFF2:Starfield.esm
+  Data:
+    Magnitude: 50
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 269A0B:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      FirstParameter: 2C555E:Starfield.esm
+    ComparisonValue: 3
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 000804:StarfieldCommunityPatch.esm
+  Data:
+    Magnitude: 20
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 269A0B:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      FirstParameter: 2C555E:Starfield.esm
+    ComparisonValue: 3
+  EFIF: 0
+  MUID: 2
