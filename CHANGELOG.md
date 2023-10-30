@@ -7,6 +7,9 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
+## [Unreleased] Version 0.0.3
+- After finishing the quest "Bare Metal" Styx will no longer be covered in graffiti when displaying the dialogue option "How do you feel now that you're all cleaned up?" [000A91FE] [000A920E] - [Fix contributed by Krevil](https://www.nexusmods.com/starfield/users/1051880) - [Reported by WidgitLabs](https://www.starfieldpatch.dev/issues/32)
+
 
 ## [2023-10-28] Version 0.0.2
 - The UC Sec ships orbiting Toliman II will no longer hail the player about the planet being a "Biological Exclusion Zone" after completing stage 155 of UC08 [001C54EB] - [Fix contributed by Connerria](https://www.nexusmods.com/starfield/users/40981350) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5607) - [Reported by Connerria](https://www.starfieldpatch.dev/issues/408)
