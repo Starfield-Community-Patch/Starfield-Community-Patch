@@ -1,0 +1,476 @@
+FormKey: 20B4B6:Starfield.esm
+EditorID: MagPerk_MiningMonthly
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Skillmagazin: Mining Aktuell'
+  - Language: English
+    String: Magazine Perk Mining Monthly
+  - Language: Spanish
+    String: 'Ventaja de revista: Mining Monthly'
+  - Language: French
+    String: 'Atout de magazine : Accros du roc'
+  - Language: Italian
+    String: 'Rivista abilità: Scavi e ricavi'
+  - Language: Japanese
+    String: 雑誌Perk月刊マイニング
+  - Language: Polish
+    String: Profit z magazynu Miesięcznik Górniczy
+  - Language: Portuguese_Brazil
+    String: 'Bônus de Revista: Mineração Mensal'
+Description:
+  TargetLanguage: English
+Flags:
+- PcPlayable
+- 0x20
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.02
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhöht Schaden von Waffen mit Werkzeuggriff dauerhaft um 2 %.
+    - Language: English
+      String: Permanently increases tool-grip weapon damage by 2%.
+    - Language: Spanish
+      String: Aumenta permanentemente el daño de las armas con empuñadura un 2 %.
+    - Language: French
+      String: Augmente les dégâts infligés par les outils de 2 % de façon permanente.
+    - Language: Italian
+      String: Aumenta i danni da attrezzi impugnati del 2%.
+    - Language: Japanese
+      String: ツールグリップ武器のダメージが恒久的に2%増加する
+    - Language: Polish
+      String: Trwale zwiększa obrażenia zadawane bronią narzędziową o 2%.
+    - Language: Portuguese_Brazil
+      String: Aumenta permanentemente o dano de armas com punho em 2%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 2
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.04
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhöht Schaden von Waffen mit Werkzeuggriff dauerhaft zusätzlich um 2 %.
+    - Language: English
+      String: Permanently increases tool-grip weapon damage by an additional 2%.
+    - Language: Spanish
+      String: Aumenta permanentemente el daño de las armas con empuñadura un 2 % adicional.
+    - Language: French
+      String: Augmente les dégâts infligés par les outils de 2 % supplémentaires de façon permanente.
+    - Language: Italian
+      String: Aumenta i danni da attrezzi impugnati di un ulteriore 2%.
+    - Language: Japanese
+      String: ツールグリップ武器のダメージが恒久的に追加で2%増加する
+    - Language: Polish
+      String: Trwale zwiększa obrażenia zadawane bronią narzędziową o dodatkowe 2%.
+    - Language: Portuguese_Brazil
+      String: Aumenta permanentemente em mais 2% o dano de armas com punho.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 3
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.06
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhöht Schaden von Waffen mit Werkzeuggriff dauerhaft zusätzlich um 2 %.
+    - Language: English
+      String: Permanently increases tool-grip weapon damage by an additional 2%.
+    - Language: Spanish
+      String: Aumenta permanentemente el daño de las armas con empuñadura un 2 % adicional.
+    - Language: French
+      String: Augmente les dégâts infligés par les outils de 2 % supplémentaires de façon permanente.
+    - Language: Italian
+      String: Aumenta i danni da attrezzi impugnati di un ulteriore 2%.
+    - Language: Japanese
+      String: ツールグリップ武器のダメージが恒久的に追加で2%増加する
+    - Language: Polish
+      String: Trwale zwiększa obrażenia zadawane bronią narzędziową o dodatkowe 2%.
+    - Language: Portuguese_Brazil
+      String: Aumenta permanentemente em mais 2% o dano de armas com punho.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 4
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.08
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhöht Schaden von Waffen mit Werkzeuggriff dauerhaft zusätzlich um 2 %.
+    - Language: English
+      String: Permanently increases tool-grip weapon damage by an additional 2%.
+    - Language: Spanish
+      String: Aumenta permanentemente el daño de las armas con empuñadura un 2 % adicional.
+    - Language: French
+      String: Augmente les dégâts infligés par les outils de 2 % supplémentaires de façon permanente.
+    - Language: Italian
+      String: Aumenta i danni da attrezzi impugnati di un ulteriore 2%.
+    - Language: Japanese
+      String: ツールグリップ武器のダメージが恒久的に追加で2%増加する
+    - Language: Polish
+      String: Trwale zwiększa obrażenia zadawane bronią narzędziową o dodatkowe 2%.
+    - Language: Portuguese_Brazil
+      String: Aumenta permanentemente em mais 2% o dano de armas com punho.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 4
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 5
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.1
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhöht Schaden von Waffen mit Werkzeuggriff dauerhaft zusätzlich um 2 %.
+    - Language: English
+      String: Permanently increases tool-grip weapon damage by an additional 2%.
+    - Language: Spanish
+      String: Aumenta permanentemente el daño de las armas con empuñadura un 2 % adicional.
+    - Language: French
+      String: Augmente les dégâts infligés par les outils de 2 % supplémentaires de façon permanente.
+    - Language: Italian
+      String: Aumenta i danni da attrezzi impugnati di un ulteriore 2%.
+    - Language: Japanese
+      String: ツールグリップ武器のダメージが恒久的に追加で2%増加する
+    - Language: Polish
+      String: Trwale zwiększa obrażenia zadawane bronią narzędziową o dodatkowe 2%.
+    - Language: Portuguese_Brazil
+      String: Aumenta permanentemente em mais 2% o dano de armas com punho.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 5
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 6
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 1.12
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhöht Schaden von Waffen mit Werkzeuggriff dauerhaft zusätzlich um 2 %.
+    - Language: English
+      String: Permanently increases tool-grip weapon damage by an additional 2%.
+    - Language: Spanish
+      String: Aumenta permanentemente el daño de las armas con empuñadura un 2 % adicional.
+    - Language: French
+      String: Augmente les dégâts infligés par les outils de 2 % supplémentaires de façon permanente.
+    - Language: Italian
+      String: Aumenta i danni da attrezzi impugnati di un ulteriore 2%.
+    - Language: Japanese
+      String: ツールグリップ武器のダメージが恒久的に追加で2%増加する
+    - Language: Polish
+      String: Trwale zwiększa obrażenia zadawane bronią narzędziową o dodatkowe 2%.
+    - Language: Portuguese_Brazil
+      String: Aumenta permanentemente em mais 2% o dano de armas com punho.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 6
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 7
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.14
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhöht Schaden von Waffen mit Werkzeuggriff dauerhaft zusätzlich um 2 %.
+    - Language: English
+      String: Permanently increases tool-grip weapon damage by an additional 2%.
+    - Language: Spanish
+      String: Aumenta permanentemente el daño de las armas con empuñadura un 2 % adicional.
+    - Language: French
+      String: Augmente les dégâts infligés par les outils de 2 % supplémentaires de façon permanente.
+    - Language: Italian
+      String: Aumenta i danni da attrezzi impugnati di un ulteriore 2%.
+    - Language: Japanese
+      String: ツールグリップ武器のダメージが恒久的に追加で2%増加する
+    - Language: Polish
+      String: Trwale zwiększa obrażenia zadawane bronią narzędziową o dodatkowe 2%.
+    - Language: Portuguese_Brazil
+      String: Aumenta permanentemente em mais 2% o dano de armas com punho.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 7
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 8
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.16
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhöht Schaden von Waffen mit Werkzeuggriff dauerhaft zusätzlich um 2 %.
+    - Language: English
+      String: Permanently increases tool-grip weapon damage by an additional 2%.
+    - Language: Spanish
+      String: Aumenta permanentemente el daño de las armas con empuñadura un 2 % adicional.
+    - Language: French
+      String: Augmente les dégâts infligés par les outils de 2 % supplémentaires de façon permanente.
+    - Language: Italian
+      String: Aumenta i danni da attrezzi impugnati di un ulteriore 2%.
+    - Language: Japanese
+      String: ツールグリップ武器のダメージが恒久的に追加で2%増加する
+    - Language: Polish
+      String: Trwale zwiększa obrażenia zadawane bronią narzędziową o dodatkowe 2%.
+    - Language: Portuguese_Brazil
+      String: Aumenta permanentemente em mais 2% o dano de armas com punho.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 8
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 9
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 1.18
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhöht Schaden von Waffen mit Werkzeuggriff dauerhaft zusätzlich um 2 %.
+    - Language: English
+      String: Permanently increases tool-grip weapon damage by an additional 2%.
+    - Language: Spanish
+      String: Aumenta permanentemente el daño de las armas con empuñadura un 2 % adicional.
+    - Language: French
+      String: Augmente les dégâts infligés par les outils de 2 % supplémentaires de façon permanente.
+    - Language: Italian
+      String: Aumenta i danni da attrezzi impugnati di un ulteriore 2%.
+    - Language: Japanese
+      String: ツールグリップ武器のダメージが恒久的に追加で2%増加する
+    - Language: Polish
+      String: Trwale zwiększa obrażenia zadawane bronią narzędziową o dodatkowe 2%.
+    - Language: Portuguese_Brazil
+      String: Aumenta permanentemente em mais 2% o dano de armas com punho.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 9
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 10
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 1.2
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhöht Schaden von Waffen mit Werkzeuggriff dauerhaft zusätzlich um 2 %.
+    - Language: English
+      String: Permanently increases tool-grip weapon damage by an additional 2%.
+    - Language: Spanish
+      String: Aumenta permanentemente el daño de las armas con empuñadura un 2 % adicional.
+    - Language: French
+      String: Augmente les dégâts infligés par les outils de 2 % supplémentaires de façon permanente.
+    - Language: Italian
+      String: Aumenta i danni da attrezzi impugnati di un ulteriore 2%.
+    - Language: Japanese
+      String: ツールグリップ武器のダメージが恒久的に追加で2%増加する
+    - Language: Polish
+      String: Trwale zwiększa obrażenia zadawane bronią narzędziową o dodatkowe 2%.
+    - Language: Portuguese_Brazil
+      String: Aumenta permanentemente em mais 2% o dano de armas com punho.

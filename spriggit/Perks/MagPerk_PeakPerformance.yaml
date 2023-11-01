@@ -1,0 +1,344 @@
+FormKey: 202D9F:Starfield.esm
+EditorID: MagPerk_PeakPerformance
+Description:
+  TargetLanguage: English
+Flags:
+- PcPlayable
+- 0x20
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: SetMaxCarryWeight
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Modification: Add
+    Value: 5
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhöht die Tragekapazität dauerhaft um 5 kg.
+    - Language: English
+      String: Permanently increases carrying capacity by 5kg.
+    - Language: Spanish
+      String: Aumenta permanentemente 5 kg la capacidad de carga.
+    - Language: French
+      String: Augmente de façon permanente la charge maximale de 5 kg.
+    - Language: Italian
+      String: Aumenta la capacità di carico di 5 kg.
+    - Language: Japanese
+      String: 最大所持重量が恒久的に5kg増加する
+    - Language: Polish
+      String: Trwale zwiększa udźwig o 5 kg.
+    - Language: Portuguese_Brazil
+      String: Aumenta permanentemente a capacidade de carga em 5 kg.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitDamageMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.05
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: SetMaxCarryWeight
+    PerkConditionTabCount: 1
+    PerkEntryID: 5
+    Modification: Add
+    Value: 5
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhöht den Schaden durch kritische Treffer mit Nahkampfwaffen dauerhaft um 5 %.
+    - Language: English
+      String: Permanently adds 5% to melee weapon critical damage.
+    - Language: Spanish
+      String: Añade un 5 % más de daño crítico a las armas cuerpo a cuerpo permanentemente.
+    - Language: French
+      String: Augmente de façon permanente les dégâts critiques des armes de corps à corps de 5 %.
+    - Language: Italian
+      String: Aumenta i danni critici da arma da mischia del 5%.
+    - Language: Japanese
+      String: 近接武器のクリティカルダメージが恒久的に5%増加する
+    - Language: Polish
+      String: Trwale zwiększa o 5% obrażenia krytyczne zadawane bronią białą.
+    - Language: Portuguese_Brazil
+      String: Adiciona permanentemente 5% ao dano crítico de armas brancas.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitDamageMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.05
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: SetMaxCarryWeight
+    PerkConditionTabCount: 1
+    PerkEntryID: 7
+    Modification: Add
+    Value: 5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.05
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Waffenlose Angriffe verursachen dauerhaft 5 % mehr Schaden.
+    - Language: English
+      String: Permanently adds 5% to unarmed damage.
+    - Language: Spanish
+      String: Añade un 5 % más de daño sin armas permanentemente.
+    - Language: French
+      String: Augmente de façon permanente les dégâts à mains nues de 5 %.
+    - Language: Italian
+      String: Aumenta del 5% i danni a mani nude.
+    - Language: Japanese
+      String: 素手攻撃のダメージが恒久的に5%増加する
+    - Language: Polish
+      String: Trwale dodaje 5% do obrażeń zadawanych atakami bez broni.
+    - Language: Portuguese_Brazil
+      String: Adiciona permanentemente 5% ao dano desarmado.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitDamageMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 1.05
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: SetMaxCarryWeight
+    PerkConditionTabCount: 1
+    PerkEntryID: 10
+    Modification: Add
+    Value: 5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModAddictionChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 0.98
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.05
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Medikamente machen dauerhaft 2 % weniger süchtig.
+    - Language: English
+      String: Pharmaceuticals are permanently 2% less addictive.
+    - Language: Spanish
+      String: Los productos farmacéuticos son un 2 % menos adictivos permanentemente.
+    - Language: French
+      String: Réduit de façon permanente le potentiel addictif des produits pharmaceutiques de 2 %.
+    - Language: Italian
+      String: Dipendenza dai farmaci ridotta del 2%.
+    - Language: Japanese
+      String: 薬の中毒性が恒久的に2%減少する
+    - Language: Polish
+      String: Farmaceutyki trwale uzależniają o 2% mniej.
+    - Language: Portuguese_Brazil
+      String: Fármacos são permanentemente 2% menos viciantes.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 4
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitDamageMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 13
+    Modification: Multiply
+    Value: 1.05
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 4
+    EntryPoint: SetMaxCarryWeight
+    PerkConditionTabCount: 1
+    PerkEntryID: 14
+    Modification: Add
+    Value: 5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 4
+    EntryPoint: ModAddictionChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 11
+    Modification: Multiply
+    Value: 0.98
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 4
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 12
+    Modification: Multiply
+    Value: 1.05
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 4
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasPerkSkillGroupConditionData
+          SecondParameter: 1
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasPerkSkillGroupConditionData
+          SecondParameter: 2
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF0525F
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasPerkCategoryConditionData
+          FirstParameter: 4
+        ComparisonValue: 1
+    EntryPoint: ModActivityMaxRepetitions
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.98
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Physische Skills der Level „Einsteiger“ und „Lehrling“ werden zusätzlich zu anderen Boni dauerhaft 2 % schneller freigeschaltet.
+    - Language: English
+      String: Basic and Advanced Physical skills are permanently unlocked 2% faster (on top of any other bonuses).
+    - Language: Spanish
+      String: Las habilidades físicas básica y avanzada se desbloquean un 2 % más rápido permanentemente (además de otras bonificaciones).
+    - Language: French
+      String: Les compétences physiques basiques et avancées se débloquent 2 % plus vite. Effet permanent et cumulable avec d'autres bonus.
+    - Language: Italian
+      String: Abilità fisiche di base e avanzate sbloccate il 2% più rapidamente (oltre ai bonus attuali).
+    - Language: Japanese
+      String: ベーシックとアドバンス身体スキルのアンロックが恒久的に2%早くなる(あらゆるボーナスに加算)
+    - Language: Polish
+      String: Podstawowe i zaawansowane umiejętności fizyczne są trwale odblokowywane o 2% szybciej (sumuje się z innymi premiami).
+    - Language: Portuguese_Brazil
+      String: Habilidades Físicas Básicas e Avançadas se desbloqueiam permanentemente 2% mais rápido, além de outros bônus existentes.

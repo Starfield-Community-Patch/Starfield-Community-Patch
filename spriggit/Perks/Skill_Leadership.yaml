@@ -1,0 +1,245 @@
+FormKey: 2C890D:Starfield.esm
+EditorID: Skill_Leadership
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Führung
+  - Language: English
+    String: Leadership
+  - Language: Spanish
+    String: Liderazgo
+  - Language: French
+    String: Leadership
+  - Language: Italian
+    String: Leadership
+  - Language: Japanese
+    String: リーダーシップ
+  - Language: Polish
+    String: Przywództwo
+  - Language: Portuguese_Brazil
+    String: Liderança
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Man kann in der Galaxie oft nur durch Teamwork überleben, und nichts motiviert ein Team so gut wie ein ausgebildeter, entschlossener Anführer.
+  - Language: English
+    String: Teamwork is the cornerstone of galactic survival, and nothing motivates a team more than a trained, decisive leader.
+  - Language: Spanish
+    String: El trabajo en equipo es la piedra angular de la supervivencia galáctica, y nada motiva tanto a un equipo como un líder decidido y experimentado.
+  - Language: French
+    String: La coopération est capitale pour survivre dans l'espace, et rien ne motive autant une équipe qu'un chef compétent et capable de prendre des décisions.
+  - Language: Italian
+    String: Il lavoro di squadra è la pietra angolare della sopravvivenza galattica e niente sprona una squadra più di un leader addestrato e deciso.
+  - Language: Japanese
+    String: チームワークこそが宇宙で生き残るための基本だ。そしてチームを何よりも勇気づけるのは、経験豊富で決然としたリーダーだ
+  - Language: Polish
+    String: Współpraca to postawa przeżycia w galaktyce. Nic tak nie motywuje zespołu, jak przeszkolony, stanowczy przywódca.
+  - Language: Portuguese_Brazil
+    String: Trabalho em equipe é essencial para sobreviver no espaço, e nada motiva mais uma equipe do que um líder treinado e decisivo.
+Categroy: Social
+SkillGroup: Expert
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Social_Leadership
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModAffinityGain
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.25
+  Activities:
+  - ATAN: Sprint
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Begleiter gewinnen 25 % schneller Sympathie.
+      - Language: English
+        String: Companions gain affinity 25% faster.
+      - Language: Spanish
+        String: Los compañeros obtienen afinidad un 25 % más rápido.
+      - Language: French
+        String: L'affinité des compagnons augmente 25 % plus vite.
+      - Language: Italian
+        String: I compagni guadagnano affinità il 25% più velocemente.
+      - Language: Japanese
+        String: 仲間の親密度の上昇が25%早くなる
+      - Language: Polish
+        String: Towarzysze nawiązują więzi o 25% szybciej.
+      - Language: Portuguese_Brazil
+        String: Companheiros recebem afinidade 25% mais rápido.
+    ProgressionEvalutor:
+    - Name: On Start
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetGlobalValueConditionData
+          FirstParameter: 208DC1:Starfield.esm
+        ComparisonValue: 1
+    - Name: On Stop
+      Conditions: []
+    ANAM: res:B1C30AD6:0005E91D:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "1000"
+      	},
+      	"Type" : "BGSSprintActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModAffinityGain
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.25
+  Activities:
+  - ATAN: Sprint
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Begleiter haben 50 mehr Gesundheit und 50 kg mehr Tragekapazität.
+      - Language: English
+        String: Companions have 50 more health and 50kg more carrying capacity.
+      - Language: Spanish
+        String: Los compañeros tienen 50 puntos de salud más y su capacidad de carga aumenta 50 kg.
+      - Language: French
+        String: Les compagnons ont 50 points de vie de plus et peuvent porter 50 kg supplémentaires.
+      - Language: Italian
+        String: I compagni hanno 50 in più di salute e 50 kg in più di capacità di carico.
+      - Language: Japanese
+        String: 仲間の体力が50、最大所持重量が50kg増加する
+      - Language: Polish
+        String: Towarzysze mają dodatkowe 50 pkt. zdrowia i 50 kg udźwigu.
+      - Language: Portuguese_Brazil
+        String: Companheiros têm 50 a mais de vida e 50 kg de capacidade de carga adicional.
+    ProgressionEvalutor:
+    - Name: On Start
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetGlobalValueConditionData
+          FirstParameter: 208DC1:Starfield.esm
+        ComparisonValue: 1
+    - Name: On Stop
+      Conditions: []
+    ANAM: res:B727A649:0005E91D:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "2500"
+      	},
+      	"Type" : "BGSSprintActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Ability: 2BCFFB:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModAffinityGain
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.25
+  Activities:
+  - ATAN: Sprint
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Begleiter heilen gelegentlich, wenn deine Gesundheit auf einen niedrigen Stand fällt. '
+      - Language: English
+        String: 'Companions will occasionally heal you when you get low health. '
+      - Language: Spanish
+        String: 'En ocasiones, los compañeros te curarán cuando tu salud esté baja. '
+      - Language: French
+        String: 'Les compagnons vous soignent occasionnellement lorsque votre santé diminue. '
+      - Language: Italian
+        String: 'Occasionalmente, i compagni ti cureranno quando avrai un livello basso di salute. '
+      - Language: Japanese
+        String: '体力が低下すると仲間が回復してくれることがある '
+      - Language: Polish
+        String: 'Towarzysze będą cię czasem leczyć, gdy będziesz mieć niski poziom zdrowia. '
+      - Language: Portuguese_Brazil
+        String: 'Quando estiver com pouca vida, você ocasionalmente receberá cura de seus companheiros. '
+    ProgressionEvalutor:
+    - Name: On Start
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetGlobalValueConditionData
+          FirstParameter: 208DC1:Starfield.esm
+        ComparisonValue: 1
+    - Name: On Stop
+      Conditions: []
+    ANAM: res:B831B689:0005E91D:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "5000"
+      	},
+      	"Type" : "BGSSprintActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 3
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1504
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 2BCFFB:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModAffinityGain
+    PerkConditionTabCount: 2
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Verdoppelt die Boni von Kampf- und Physisch-Crew-Skills bei Begleitern. Begleiter haben eine Chance, sich von selbst zu erholen, wenn sie am Boden sind.
+    - Language: English
+      String: Doubles the bonuses of Combat and Physical Crew Skills on Companions. Companions have a chance to pick themselves up from a downed state.
+    - Language: Spanish
+      String: Duplica las bonificaciones de las habilidades de tripulación físicas y de combate en acompañantes. Hay cierta probabilidad de que los acompañantes se recuperen solos al caer en combate.
+    - Language: French
+      String: Double les bonus des compétences d'équipage de combat et physiques chez les compagnons. Ces derniers ont une chance de se relever seuls lorsqu'ils sont mis à terre.
+    - Language: Italian
+      String: Raddoppia i bonus delle abilità di combattimento e fisiche dell’equipaggio per i compagni. I compagni hanno una probabilità di rianimarsi da soli quando atterrati.
+    - Language: Japanese
+      String: 仲間の戦闘および身体クルースキルのボーナスが2倍になる。仲間はダウン状態から一定の確率で立ち上がるようになる
+    - Language: Polish
+      String: Podwojenie premii do bojowych i fizycznych umiejętności załogi u towarzyszy. Powaleni towarzysze mają szansę się podnieść.
+    - Language: Portuguese_Brazil
+      String: Dobra os bônus que os companheiros recebem de habilidades de tripulação físicas e de combate. Companheiros têm chance de se recuperarem sozinhos após serem derrubados.

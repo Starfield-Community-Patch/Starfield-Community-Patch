@@ -1,0 +1,648 @@
+FormKey: 2C555E:Starfield.esm
+EditorID: Skill_Concealment
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Tarnung
+  - Language: English
+    String: Concealment
+  - Language: Spanish
+    String: Discreción
+  - Language: French
+    String: Dissimulation
+  - Language: Italian
+    String: Occultamento
+  - Language: Japanese
+    String: 隠匿
+  - Language: Polish
+    String: Dyskrecja
+  - Language: Portuguese_Brazil
+    String: Ocultação
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Kaum eine Fähigkeit fasziniert die Menschen derart wie die von Attentätern, Geheimagenten und einfachen Dieben seit Jahrhunderten genutzte Fähigkeit, unbemerkt zu bleiben.
+  - Language: English
+    String: Few skills capture the imagination like the ability to remain undetected, used by assassins, special forces operatives, and simple thieves alike for centuries.
+  - Language: Spanish
+    String: Pocas habilidades cautivan la imaginación como la capacidad de evitar que te detecten, que han usado asesinos, agentes de las fuerzas especiales y ladrones comunes durante siglos.
+  - Language: French
+    String: Rares sont les capacités qui excitent autant l'imagination que celle de rester invisible aux yeux des autres, apanage des assassins, agents des forces spéciales et simples voleurs depuis des siècles.
+  - Language: Italian
+    String: Poche abilità catturano l’immaginazione come la capacità di non farsi notare, parimenti sfruttata per secoli da assassini, agenti delle forze speciali e semplici ladri.
+  - Language: Japanese
+    String: 暗殺者や特殊部隊の工作員、普通の泥棒にいたるまで、数百年も使われてきた隠遁術ほどロマンが掻き立てられるスキルは滅多にない
+  - Language: Polish
+    String: Niewiele jest umiejętności równie mocno pobudzających wyobraźnię, jak zdolność do pozostawania niezauważonym. Od stuleci korzystają z niej skrytobójcy, oddziały specjalne i zwyczajni złodzieje.
+  - Language: Portuguese_Brazil
+    String: Poucas habilidades fazem a imaginação das pessoas voar como a de poder passar despercebido, usada por assassinos, agentes das forças especiais e meros bandidos há séculos.
+Categroy: Physical
+SkillGroup: Master
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_Concealment
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModMineExplodeChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Value: 0
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 18
+    Value: 2.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 19
+    Value: 4
+  Activities:
+  - ATAN: Take Hit Damage
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Du löst keine gegnerischen Minen mehr aus. Fernkampf-Schleichangriffe verursachen das 2,5-fache des normalen Schadens, Nahkampf-Schleichangriffe das 4-fache des normalen Schadens.
+      - Language: English
+        String: You no longer set off enemy mines. Ranged sneak attacks do 2.5x normal damage and your melee sneak attacks do 4x normal damage.
+      - Language: Spanish
+        String: Ya no activas las minas enemigas. Los ataques a distancia con sigilo infligen 2,5 veces el daño normal y los ataques cuerpo a cuerpo con sigilo infligen 4 veces el daño normal.
+      - Language: French
+        String: Vous ne déclenchez plus les mines ennemies. Les attaques furtives à distance infligent 2,5 fois plus de dégâts, et vos attaques furtives au corps à corps, 4 fois plus.
+      - Language: Italian
+        String: Non fai più esplodere le mine nemiche. Gli attacchi furtivi a distanza infliggono 2,5x danni e gli attacchi furtivi in mischia infliggono 4x danni.
+      - Language: Japanese
+        String: 敵の地雷に引っかからなくなる。遠距離のステルスアタックは通常の2.5倍のダメージを与え、近距離のステルスアタックは通常の4倍のダメージを与える
+      - Language: Polish
+        String: Nie detonujesz wrogich min. Ataki dystansowe z zaskoczenia zadają 250% normalnych obrażeń, a ataki wręcz z zaskoczenia zadają 400% normalnych obrażeń.
+      - Language: Portuguese_Brazil
+        String: Você não ativa mais minas inimigas. Ataques surpresa à distância causam 2,5x o dano normal, e ataques surpresa corpo a corpo causam 4x o dano normal.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetDeadConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetFactionRelationConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 2
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetFactionRelationConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 3
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:D7740753:0005CA40:A5DDFB78
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "false",
+      		"Repetitions" : "10",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "true",
+      		"TrackShipHullDamage" : "false",
+      		"TrackShipShieldDamage" : "false",
+      		"TrackSneakAttacksOnly" : "true",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModMineExplodeChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Value: 0
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 2
+    EntryPoint: IgnoreRunningDuringDetection
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 16
+    Value: 3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 17
+    Value: 5
+  Activities:
+  - ATAN: Take Hit Damage
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wenn du im Schleichmodus läufst, wirkt sich das nicht auf deine Tarnung aus. Fernkampf-Schleichangriffe verursachen das 3-fache des normalen Schadens, Nahkampf-Schleichangriffe das 5-fache des normalen Schadens.
+      - Language: English
+        String: Running while sneaking doesn't affect stealth. Ranged sneak attacks do 3x normal damage and your melee sneak attacks do 5x normal damage.
+      - Language: Spanish
+        String: Correr a hurtadillas no afecta al sigilo. Los ataques a distancia con sigilo infligen 3 veces el daño normal y los ataques cuerpo a cuerpo con sigilo infligen 5 veces el daño normal.
+      - Language: French
+        String: La furtivité n'est plus interrompue lorsque vous courez. Les attaques furtives à distance infligent 3 fois plus de dégâts et les attaques furtives au corps à corps, 5 fois plus.
+      - Language: Italian
+        String: Correre mentre ti aggiri furtivamente non ti compromette. Gli attacchi furtivi a distanza infliggono 3x danni e gli attacchi furtivi in mischia infliggono 5x danni.
+      - Language: Japanese
+        String: ステルス中に走ってもステルス状態が解除されない。遠距離のステルスアタックは通常の3倍のダメージを与え、近距離のステルスアタックは通常の5倍のダメージを与える
+      - Language: Polish
+        String: Bieg podczas skradania się nie wpływa na wykrycie. Ataki dystansowe z zaskoczenia zadają 300% normalnych obrażeń, a ataki wręcz z zaskoczenia zadają 500% normalnych obrażeń.
+      - Language: Portuguese_Brazil
+        String: Correr não afeta a furtividade. Ataques surpresa à distância causam 3x o dano normal, e ataques surpresa corpo a corpo causam 5x o dano normal.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetDeadConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetFactionRelationConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 2
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetFactionRelationConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 3
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:F461D985:0005CA40:A5DDFB78
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "false",
+      		"Repetitions" : "30",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "true",
+      		"TrackShipHullDamage" : "false",
+      		"TrackShipShieldDamage" : "false",
+      		"TrackSneakAttacksOnly" : "true",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModMineExplodeChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 5
+    Value: 0
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 2
+    EntryPoint: IgnoreRunningDuringDetection
+    PerkConditionTabCount: 1
+    PerkEntryID: 7
+    Value: 1
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Priority: 3
+    Ability: 19AFE5:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 20
+    Value: 3.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 21
+    Value: 8
+  Activities:
+  - ATAN: Take Hit Damage
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Du erhältst eine chamäleonartige Fähigkeit, wenn du vollkommen stillstehst oder schleichst. Fernkampf-Schleichangriffe verursachen das 3,5-fache des normalen Schadens, Nahkampf-Schleichangriffe das 8-fache des normalen Schadens.
+      - Language: English
+        String: You gain a Chameleon-like ability when completely still and sneaking. Ranged sneak attacks do 3.5x normal damage and your melee sneak attacks do 8x normal damage.
+      - Language: Spanish
+        String: Obtienes una capacidad camaleónica al permanecer completamente inmóvil y a hurtadillas. Los ataques a distancia con sigilo infligen 3,5 veces el daño normal y los ataques cuerpo a cuerpo con sigilo infligen 8 veces el daño normal.
+      - Language: French
+        String: Vous devenez un véritable caméléon lorsque vous vous tenez complètement immobile en mode furtif. Les attaques furtives à distance infligent 3,5 fois plus de dégâts et les attaques furtives au corps à corps, 8 fois plus.
+      - Language: Italian
+        String: Diventi come un camaleonte quando sei completamente immobile e in modalità furtiva. Gli attacchi furtivi a distanza infliggono 3,5x danni e gli attacchi furtivi in mischia infliggono 8x danni.
+      - Language: Japanese
+        String: 完全に静止していて、ステルス中だとカメレオンのような能力を発揮する。遠距離のステルスアタックは通常の3.5倍のダメージを与え、近距離のステルスアタックは通常の8倍のダメージを与える
+      - Language: Polish
+        String: Zyskujesz kamuflaż, gdy się nie ruszasz podczas skradania się. Ataki dystansowe z zaskoczenia zadają 350% normalnych obrażeń, a ataki wręcz z zaskoczenia zadają 800% normalnych obrażeń.
+      - Language: Portuguese_Brazil
+        String: Você tem habilidades quase camaleônicas ao ficar imóvel ou esgueirar-se. Ataques surpresa à distância causam 3,5x o dano normal, e ataques surpresa corpo a corpo causam 8x o dano normal.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetDeadConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetFactionRelationConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 2
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetFactionRelationConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 3
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:F91CC16B:0005CA40:A5DDFB78
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "false",
+      		"Repetitions" : "75",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "true",
+      		"TrackShipHullDamage" : "false",
+      		"TrackShipShieldDamage" : "false",
+      		"TrackSneakAttacksOnly" : "true",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModMineExplodeChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Value: 0
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 2
+    EntryPoint: IgnoreRunningDuringDetection
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Value: 1
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Priority: 3
+    Ability: 059AE7:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Priority: 4
+    EntryPoint: ApplySneakingSpell
+    PerkConditionTabCount: 1
+    PerkEntryID: 15
+    Spell: 1E325A:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 22
+    Value: 4
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 23
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Wenn du in den Schleichmodus wechselst, verlieren Gegner in größerer Entfernung dich. Fernkampf-Schleichangriffe verursachen das 4-fache des normalen Schadens, Nahkampf-Schleichangriffe das 10-fache des normalen Schadens.
+    - Language: English
+      String: Engaging stealth causes distant enemies to lose you. Ranged sneak attacks do 4x normal damage and your melee sneak attacks do 10x normal damage.
+    - Language: Spanish
+      String: Usar el sigilo hace que los enemigos distantes te pierdan. Los ataques a distancia con sigilo infligen 4 veces el daño normal y los ataques cuerpo a cuerpo con sigilo infligen 10 veces el daño normal.
+    - Language: French
+      String: Passer en mode furtif vous fait disparaître aux yeux des adversaires lointains. Les attaques furtives à distance infligent 4 fois plus de dégâts et les attaques furtives au corps à corps, 10 fois plus.
+    - Language: Italian
+      String: Quando entri in modalità furtiva, i nemici lontani smettono di cercarti. Gli attacchi furtivi a distanza infliggono 4x danni e gli attacchi furtivi in mischia infliggono 10x danni.
+    - Language: Japanese
+      String: ステルス状態になると、遠くの敵から姿を隠せる。遠距離のステルスアタックは通常の4倍のダメージを与え、近距離のステルスアタックは通常の10倍のダメージを与える
+    - Language: Polish
+      String: Skradanie się sprawia, że oddaleni przeciwnicy cię gubią. Ataki dystansowe z zaskoczenia zadają 400% normalnych obrażeń, a ataki wręcz z zaskoczenia zadają 1000% normalnych obrażeń.
+    - Language: Portuguese_Brazil
+      String: Utilizar furtividade permite escapar de inimigos distantes. Ataques surpresa à distância causam 4x o dano normal, e ataques surpresa corpo a corpo causam 10x o dano normal.

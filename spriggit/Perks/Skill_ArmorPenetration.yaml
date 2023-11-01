@@ -1,0 +1,416 @@
+FormKey: 27DF94:Starfield.esm
+EditorID: Skill_ArmorPenetration
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Panzerungsdurchdringung
+  - Language: English
+    String: Armor Penetration
+  - Language: Spanish
+    String: Perforación de blindaje
+  - Language: French
+    String: Pénétration d'armure
+  - Language: Italian
+    String: Penetrazione corazza
+  - Language: Japanese
+    String: アーマー貫通
+  - Language: Polish
+    String: Przebicie pancerza
+  - Language: Portuguese_Brazil
+    String: Perfuração de Armadura
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Angreifer können sich im Kampf oft einen taktischen Vorteil verschaffen, indem sie Lücken oder Schwachstellen in der Panzerung des Gegners ausmachen.
+  - Language: English
+    String: By identifying gaps or weak points in body armor, an attacker can often gain a tactical advantage in combat.
+  - Language: Spanish
+    String: Al identificar huecos o puntos débiles en una armadura corporal, el atacante es capaz de obtener ventaja táctica en combate.
+  - Language: French
+    String: En identifiant les points faibles d'une armure, un assaillant peut souvent obtenir un avantage tactique en combat.
+  - Language: Italian
+    String: Identificando le carenze o i punti deboli della corazza nemica, un aggressore può spesso ottenere un vantaggio tattico in combattimento.
+  - Language: Japanese
+    String: ボディーアーマーの隙や弱点を見極めれば、戦闘において戦略的な有利性が得られることが多い
+  - Language: Polish
+    String: Znajdowanie luk lub słabych punktów w pancerzu pozwala atakującemu zyskać taktyczną przewagę w walce.
+  - Language: Portuguese_Brazil
+    String: Um atacante pode conseguir uma vantagem tática em combate ao identificar falhas ou pontos fracos em armadura corporal.
+Categroy: Combat
+SkillGroup: Master
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_ArmorPenetration
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 092A86:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTargetDamageResistance
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.85
+  Activities:
+  - ATAN: Kill
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Angriffe ignorieren 15 % der Panzerung eines Ziels.
+      - Language: English
+        String: Attacks ignore 15% of a target's armor.
+      - Language: Spanish
+        String: Los ataques ignoran el 15 % de la armadura del objetivo.
+      - Language: French
+        String: Les attaques ignorent 15 % de l'armure de la cible.
+      - Language: Italian
+        String: Gli attacchi ignorano il 15% della corazza del bersaglio.
+      - Language: Japanese
+        String: 相手のアーマーを15%無効化する
+      - Language: Polish
+        String: Ataki ignorują 15% pancerza wroga.
+      - Language: Portuguese_Brazil
+        String: Ataques ignoram 15% da armadura do alvo.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 2
+        ComparisonValue: 1
+    ANAM: res:956EF930:0005A849:A791608D
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "20"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 092A86:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTargetDamageResistance
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.7
+  Activities:
+  - ATAN: Kill
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Angriffe ignorieren 30 % der Panzerung eines Ziels.
+      - Language: English
+        String: Attacks ignore 30% of a target's armor.
+      - Language: Spanish
+        String: Los ataques ignoran el 30 % de la armadura del objetivo.
+      - Language: French
+        String: Les attaques ignorent 30 % de l'armure de la cible.
+      - Language: Italian
+        String: Gli attacchi ignorano il 30% della corazza del bersaglio.
+      - Language: Japanese
+        String: 相手のアーマーを30%無効化する
+      - Language: Polish
+        String: Ataki ignorują 30% pancerza wroga.
+      - Language: Portuguese_Brazil
+        String: Ataques ignoram 30% da armadura do alvo.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 2
+        ComparisonValue: 1
+    ANAM: res:971271C9:0005A849:A791608D
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "50"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 092A86:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTargetDamageResistance
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0.5
+  Activities:
+  - ATAN: Kill
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Angriffe ignorieren 50 % der Panzerung eines Ziels.
+      - Language: English
+        String: Attacks ignore 50% of a target's armor.
+      - Language: Spanish
+        String: Los ataques ignoran el 50 % de la armadura del objetivo.
+      - Language: French
+        String: Les attaques ignorent 50 % de l'armure de la cible.
+      - Language: Italian
+        String: Gli attacchi ignorano il 50% della corazza del bersaglio.
+      - Language: Japanese
+        String: 相手のアーマーを50%無効化する
+      - Language: Polish
+        String: Ataki ignorują 50% pancerza wroga.
+      - Language: Portuguese_Brazil
+        String: Ataques ignoram 50% da armadura do alvo.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 2
+        ComparisonValue: 1
+    ANAM: res:9471AA1D:0005C2A1:A5DDFB78
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "100"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 092A86:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTargetDamageResistance
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 0.5
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPGetLastCombatHitCriticalConditionData
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 092A86:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 18C35D:Starfield.esm
+    EntryPoint: ApplyCombatHitSpell
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Spell: 24301B:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Die Panzerung des Gegners wird nach einem kritischen Treffer 6 Sek. lang um 25 % verringert.
+    - Language: English
+      String: Enemy armor is decreased by 25% for 6 seconds after a critical hit.
+    - Language: Spanish
+      String: El enemigo tiene un 25 % menos de armadura durante 6 segundos tras un impacto crítico.
+    - Language: French
+      String: Après avoir réussi un coup critique, l'armure ennemie est réduite de 25 % pendant 6 secondes.
+    - Language: Italian
+      String: La corazza nemica viene ridotta del 25% per 6 secondi dopo un colpo critico.
+    - Language: Japanese
+      String: クリティカルヒットを受けた敵のアーマーが6秒間25%減少する
+    - Language: Polish
+      String: Trafienia krytyczne zmniejszają wartość pancerza wroga o 25% na 6 sekund.
+    - Language: Portuguese_Brazil
+      String: A armadura de inimigos é reduzida em 25% por 6 segundos depois de um acerto crítico.

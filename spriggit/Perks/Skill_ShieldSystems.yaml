@@ -1,0 +1,488 @@
+FormKey: 2C2C59:Starfield.esm
+EditorID: Skill_ShieldSystems
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Schildsysteme
+  - Language: English
+    String: Shield Systems
+  - Language: Spanish
+    String: Sistemas de escudos
+  - Language: French
+    String: Sys. boucliers
+  - Language: Italian
+    String: Sistema degli scudi
+  - Language: Japanese
+    String: シールドシステム
+  - Language: Polish
+    String: Systemy osłon
+  - Language: Portuguese_Brazil
+    String: Sistemas de Escudo
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Unabhängig davon, wie viel Energie durch den Reaktor bereitgestellt wird, können die Schilde eines Schiffs durch direkte Manipulation der Oberschwingungen des Systems weiter verstärkt werden.
+  - Language: English
+    String: Regardless of the power allocated by the reactor, a ship's shields can be further bolstered by direct manipulation of the system's harmonics.
+  - Language: Spanish
+    String: Al margen de la energía que distribuya el reactor, es posible reforzar los escudos de la nave mediante la manipulación directa de los armónicos del sistema.
+  - Language: French
+    String: Quelle que soit la puissance allouée par le réacteur, les boucliers d'un vaisseau peuvent être renforcés par une manipulation directe des harmoniques du système.
+  - Language: Italian
+    String: Indipendentemente dall’energia assegnata dal reattore, gli scudi di una nave si possono potenziare ulteriormente tramite la manipolazione diretta del sistema.
+  - Language: Japanese
+    String: リアクターから割り当てられた動力がどれほどであろうと、船のシールドはシステムの高調波を直接操作すれば強化できる
+  - Language: Polish
+    String: Niezależnie od tego, ile mocy dostarcza reaktor, osłony statku mogą być dodatkowo wzmocnione bezpośrednią manipulacją harmoniki systemów.
+  - Language: Portuguese_Brazil
+    String: Os escudos de uma nave podem ser ainda mais fortalecidos por manipulação direta das harmônicas do sistema sem importar a quantidade de energia destinada pelo reator.
+Categroy: Tech
+SkillGroup: Advanced
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Technology_ShieldSystems
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C2C59:Starfield.esm
+        ComparisonValue: 1
+    Ability: 23759C:Starfield.esm
+  Activities:
+  - ATAN: Take Hit Damage
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Schildkapazität deines Schiffs wird um 20 % erhöht.
+      - Language: English
+        String: Your ship has 20% increased shield capacity.
+      - Language: Spanish
+        String: Aumenta un 20 % la capacidad de los escudos de tu nave.
+      - Language: French
+        String: Les boucliers de votre vaisseau sont améliorés de 20 %.
+      - Language: Italian
+        String: La capacità dello scudo della tua nave è aumentata del 20%.
+      - Language: Japanese
+        String: 船のシールド量が20%増加する
+      - Language: Polish
+        String: Osłony twojego statku są o 20% silniejsze.
+      - Language: Portuguese_Brazil
+        String: Sua nave tem mais 20% de capacidade de escudo.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions: []
+    - Name: Weapon
+      Conditions: []
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:DB8A1D70:0005F3CE:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "150",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "false",
+      		"TrackShipHullDamage" : "false",
+      		"TrackShipShieldDamage" : "true",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnVictim"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C2C59:Starfield.esm
+        ComparisonValue: 2
+    Ability: 2268D1:Starfield.esm
+  Activities:
+  - ATAN: Take Hit Damage
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Schildkapazität deines Schiffs wird um 40 % erhöht.
+      - Language: English
+        String: Your ship has 40% increased shield capacity.
+      - Language: Spanish
+        String: Aumenta un 40 % la capacidad de los escudos de tu nave.
+      - Language: French
+        String: Les boucliers de votre vaisseau sont améliorés de 40 %.
+      - Language: Italian
+        String: La capacità dello scudo della tua nave è aumentata del 40%.
+      - Language: Japanese
+        String: 船のシールド量が40%増加する
+      - Language: Polish
+        String: Osłony twojego statku są o 40% silniejsze.
+      - Language: Portuguese_Brazil
+        String: Sua nave tem mais 40% de capacidade de escudo.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions: []
+    - Name: Weapon
+      Conditions: []
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:EFFFF529:0005F3CE:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "350",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "false",
+      		"TrackShipHullDamage" : "false",
+      		"TrackShipShieldDamage" : "true",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnVictim"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C2C59:Starfield.esm
+        ComparisonValue: 3
+    Ability: 226A11:Starfield.esm
+  Activities:
+  - ATAN: Take Hit Damage
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Schildkapazität deines Schiffs wird um 60 % erhöht.
+      - Language: English
+        String: Your ship has 60% increased shield capacity.
+      - Language: Spanish
+        String: Aumenta un 60 % la capacidad de los escudos de tu nave.
+      - Language: French
+        String: Les boucliers de votre vaisseau sont améliorés de 60 %.
+      - Language: Italian
+        String: La capacità dello scudo della tua nave è aumentata del 60%.
+      - Language: Japanese
+        String: 船のシールド量が60%増加する
+      - Language: Polish
+        String: Osłony twojego statku są o 60% silniejsze.
+      - Language: Portuguese_Brazil
+        String: Sua nave tem mais 60% de capacidade de escudo.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions: []
+    - Name: Weapon
+      Conditions: []
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:F12C4A24:0005F3CE:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "750",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "false",
+      		"TrackShipHullDamage" : "false",
+      		"TrackShipShieldDamage" : "true",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnVictim"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C2C59:Starfield.esm
+        ComparisonValue: 4
+    Ability: 226A12:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetActorInShipPilotSeatConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 5
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsSpaceshipShieldsDestroyedConditionData
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsCalculatingBaseDamageConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          RunOnType: 13
+          FirstParameter: 042E45:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 146B38:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1557AA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226A:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 022269:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModIncomingWeaponDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetActorInShipPilotSeatConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 5
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsSpaceshipShieldsDestroyedConditionData
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsCalculatingBaseDamageConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          RunOnType: 13
+          FirstParameter: 042E45:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 146B38:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1557AA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226A:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 022269:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 3
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedIncomingWeaponDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Deine Schilde absorbieren gelegentlich 100 % allen erlittenen Schadens.
+    - Language: English
+      String: Your shields will occasionally resist 100% of all damage received.
+    - Language: Spanish
+      String: Tus escudos resistirán de vez en cuando el 100 % del daño recibido.
+    - Language: French
+      String: Vos boucliers résisteront occasionnellement à 100 % des dégâts reçus.
+    - Language: Italian
+      String: Occasionalmente, i tuoi scudi resistono al 100% dei danni subiti.
+    - Language: Japanese
+      String: 受けたダメージを100%耐えることがある
+    - Language: Polish
+      String: Twoje osłony pochłoną co jakiś czas 100% przyjętych obrażeń.
+    - Language: Portuguese_Brazil
+      String: Seus escudos ocasionalmente resistem a 100% de todo o dano recebido.

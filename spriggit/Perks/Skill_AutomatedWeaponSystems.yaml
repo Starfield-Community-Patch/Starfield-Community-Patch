@@ -1,0 +1,603 @@
+FormKey: 27B9ED:Starfield.esm
+EditorID: Skill_AutomatedWeaponSystems
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Automatisierte Waffensysteme
+  - Language: English
+    String: Automated Weapon Systems
+  - Language: Spanish
+    String: Sistemas de armas automatizados
+  - Language: French
+    String: Systèmes balistiques automatisés
+  - Language: Italian
+    String: Armamenti automatizzati
+  - Language: Japanese
+    String: 自動兵器システム
+  - Language: Polish
+    String: Uzbrojenie zautomatyzowane
+  - Language: Portuguese_Brazil
+    String: Sistemas Automatizados de Armas
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Geschütze sind als unkomplizierte und autonome Waffen bekannt, doch durch bestimmte technische Anpassungen können sie sogar noch tödlicher gemacht werden.
+  - Language: English
+    String: Turret weapons are known for their easy-to-use, autonomous nature, but they can be made even deadlier with some specific technical adjustments.
+  - Language: Spanish
+    String: Las armas de torreta son famosas por su facilidad de uso y autonomía, pero pueden volverse aún más letales con ciertos ajustes técnicos.
+  - Language: French
+    String: Les tourelles sont réputées pour leur simplicité d'utilisation et leur autonomie, et peuvent être encore plus mortelles avec certains ajustements techniques.
+  - Language: Italian
+    String: Le torrette sono notoriamente autonome e facili da usare, ma si possono rendere ancora più letali con alcune specifiche regolazioni tecniche.
+  - Language: Japanese
+    String: タレット兵器は扱いやすく自律的に動作することで有名だが、特定の技術的な調整を行えば、その破壊力は増幅させられる
+  - Language: Polish
+    String: Wieżyczki automatyczne słyną z łatwości obsługi i autonomii działania, lecz wprowadzając pewne poprawki techniczne, można uczynić je jeszcze potężniejszymi.
+  - Language: Portuguese_Brazil
+    String: As torretas são conhecidas por sua natureza autônoma e de fácil uso e podem ficar ainda mais letais com certos ajustes técnicos específicos.
+Categroy: Tech
+SkillGroup: Master
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Technology_TurretWeaponSystems
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 32792C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 32792C:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 0.8
+  Activities:
+  - ATAN: Take Hit Damage
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Automatisierte Bordwaffen verursachen 10 % mehr Schaden und verringern alle Kosten des Zielmodus um 20 %.
+      - Language: English
+        String: Automated ship weapons do 10% more damage and reduce all targeting mode costs by 20%.
+      - Language: Spanish
+        String: Las armas automatizadas de la nave infligen un 10 % más de daño y se reducen todos los costes modo de apuntado un 20 %.
+      - Language: French
+        String: Augmente de 10 % les dégâts des armes de vaisseau automatisées et réduit de 20 % le coût de tous les modes Ciblage.
+      - Language: Italian
+        String: Le armi automatizzate della nave infliggono il 10% di danni in più e il costo per la modalità puntamento è ridotto del 20%.
+      - Language: Japanese
+        String: 船の自動兵器のダメージが10%上昇し、すべての照準モードの消費が20%減少する
+      - Language: Polish
+        String: Zautomatyzowana broń statku powoduje o 10% więcej uszkodzeń i zmniejsza koszt o 20% w trybie celowania.
+      - Language: Portuguese_Brazil
+        String: As armas automáticas da nave causam 10% a mais de dano e reduzem em 20% todos os custos do modo de mira.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions: []
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 32792C:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:FA76F7E6:0005F8B2:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "1000",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "true",
+      		"TrackShipHullDamage" : "true",
+      		"TrackShipShieldDamage" : "true",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 32792C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 32792C:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 0.7
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsPlayerInShipTargetingModeConditionData
+        ComparisonValue: 1
+    EntryPoint: ModIncomingWeaponDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 16
+    Modification: Multiply
+    Value: 0.8
+  Activities:
+  - ATAN: Take Hit Damage
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Automatisierte Bordwaffen verursachen 20 % mehr Schaden und verringern alle Kosten des Zielmodus um 30 %. Im Zielmodus erleidet dein Schiff 20 % weniger Schaden.
+      - Language: English
+        String: Automated ship weapons do 20% more damage and reduce all targeting mode costs by 30%. Your ship takes 20% less damage while in targeting mode.
+      - Language: Spanish
+        String: Las armas automatizadas de la nave infligen un 20 % más de daño y se reducen todos los costes del modo de apuntado un 30 %. Tu nave recibe un 20 % menos de daño en el modo de apuntado.
+      - Language: French
+        String: Augmente de 20 % les dégâts des armes de vaisseau automatisées et réduit de 30 % le coût du mode Ciblage. Votre vaisseau subit 20 % de dégâts en moins en mode Ciblage.
+      - Language: Italian
+        String: Le armi automatizzate della nave infliggono il 20% di danni in più e il costo per la modalità puntamento è ridotto del 30%. La nave subisce il 20% di danni in meno se in modalità puntamento.
+      - Language: Japanese
+        String: 船の自動兵器のダメージが20%上昇し、すべての照準モードの消費が30%減少する。また、照準モード中の船は受けるダメージが20%減少する
+      - Language: Polish
+        String: Zautomatyzowana broń statku powoduje o 20% więcej uszkodzeń i zmniejsza koszt celowania o 30%. W trybie celowania uszkodzenia odnoszone przez twój statek są zmniejszone o 20%.
+      - Language: Portuguese_Brazil
+        String: As armas automáticas da nave causam 20% a mais de dano e reduzem em 30% todos os custos do modo de mira. Sua nave sofre 20% a menos de dano no modo de mira.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions: []
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 32792C:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:096383A8:0005F8B3:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "4000",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "true",
+      		"TrackShipHullDamage" : "true",
+      		"TrackShipShieldDamage" : "true",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 32792C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 32792C:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsPlayerInShipTargetingModeConditionData
+        ComparisonValue: 1
+    EntryPoint: ModIncomingWeaponDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 0.8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsPlayerInShipTargetingModeConditionData
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 17
+    Modification: Multiply
+    Value: 1.2
+  Activities:
+  - ATAN: Take Hit Damage
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Automatisierte Bordwaffen verursachen 30 % mehr Schaden und verringern alle Kosten des Zielmodus um 40 %. Die Chance auf krit. Treffer gegen anvisierte Untersysteme wird um 20 % erhöht.
+      - Language: English
+        String: Automated ship weapons do 30% more damage and reduce all targeting mode costs by 40%. Increases crit chance against targeted sub-systems by 20%.
+      - Language: Spanish
+        String: Las armas automatizadas de la nave infligen un 30 % más de daño y se reducen todos los costes del modo de apuntado un 40 %. Aumenta la probabilidad de crítico contra los subsistemas apuntados un 20 %.
+      - Language: French
+        String: Augmente de 30 % les dégâts des armes de vaisseau automatisées et réduit de 40 % le coût du mode Ciblage. Augmente les chances de coup critique contre les sous-systèmes ciblés de 20 %.
+      - Language: Italian
+        String: Le armi automatizzate della nave infliggono il 30% di danni in più e il costo per la modalità puntamento è ridotto del 40%. Probabilità di colpo critico aumentata del 20% contro i sottosistemi presi di mira.
+      - Language: Japanese
+        String: 船の自動兵器のダメージが30%上昇し、すべての照準モードの消費が40%減少する。また、目標にしたサブシステムへのクリティカルヒットの確率が20%上昇する
+      - Language: Polish
+        String: Zautomatyzowana broń statku powoduje o 30% więcej uszkodzeń i zmniejsza koszt celowania o 40%. Szansa na trafienie krytyczne namierzonych podsystemów jest o 20% większa.
+      - Language: Portuguese_Brazil
+        String: As armas automáticas da nave causam 30% a mais de dano e reduzem em 40% todos os custos do modo de mira. Aumenta a chance de crítico contra subsistemas alvejados em 20%.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions: []
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 32792C:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:0EEAE108:0005F8B3:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "10000",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "true",
+      		"TrackShipHullDamage" : "true",
+      		"TrackShipShieldDamage" : "true",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 32792C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 13
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 32792C:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 10
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 14
+    Modification: Multiply
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsPlayerInShipTargetingModeConditionData
+        ComparisonValue: 1
+    EntryPoint: ModIncomingWeaponDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 18
+    Modification: Multiply
+    Value: 0.8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsPlayerInShipTargetingModeConditionData
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 19
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsPlayerInShipTargetingModeConditionData
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 20
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 32792C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipWeaponRechargeRate
+    PerkConditionTabCount: 2
+    PerkEntryID: 15
+    Modification: Multiply
+    Value: 1.4
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Schiffsgeschütze werden 40 % schneller aufgeladen und verursachen 20 % mehr Schaden gegen anvisierte Untersysteme.
+    - Language: English
+      String: Ship turret weapons recharge 40% faster and do 20% more damage to targeted sub-systems.
+    - Language: Spanish
+      String: Las armas de torreta de la nave recargan un 40 % más rápido e infligen un 20 % más de daño a los subsistemas apuntados.
+    - Language: French
+      String: Les tourelles de vaisseau se rechargent 40 % plus vite et infligent 20 % de dégâts supplémentaires aux sous-systèmes ciblés.
+    - Language: Italian
+      String: Le torrette si ricaricano il 40% più rapidamente e infliggono il 20% di danni in più ai sottosistemi presi di mira.
+    - Language: Japanese
+      String: 船のタレット兵器のリチャージ速度が40%上昇し、ターゲットとなるサブシステムへのダメージが20%増加する
+    - Language: Polish
+      String: Wieżyczki automatyczne statku przeładowują się o 40% szybciej i zadają o 20% więcej uszkodzeń namierzonym podsystemom.
+    - Language: Portuguese_Brazil
+      String: Armas de torretas de nave recarregam 40% mais rápido e causam 20% mais dano a subsistemas alvos.

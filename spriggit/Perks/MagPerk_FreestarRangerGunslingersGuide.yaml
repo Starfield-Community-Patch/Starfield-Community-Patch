@@ -1,0 +1,385 @@
+FormKey: 20BB31:Starfield.esm
+EditorID: MagPerk_FreestarRangerGunslingersGuide
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Skillmagazin: Ratgeber für Revolverhelden der Freestar-Ranger'
+  - Language: English
+    String: "Magazine Skill: Freestar Ranger Gunslinger's Guide"
+  - Language: Spanish
+    String: 'Revista de habilidad: Guía del pistolero de los comandos de Freestar'
+  - Language: French
+    String: 'Magazine de compétences : Le précis du pistolero de Liber Astra'
+  - Language: Italian
+    String: 'Rivista abilità: Guida del pistolero Freestar'
+  - Language: Japanese
+    String: 雑誌スキル：自由恒星レンジャーの射撃手の手引き
+  - Language: Polish
+    String: 'Umiejętność z magazynu: Poradnik Rewolwerowca Kolektywu Wolnych Gwiazd'
+  - Language: Portuguese_Brazil
+    String: 'Revista Habilidade: Guia do Pistoleiro da Patrulha Freestar'
+Description:
+  TargetLanguage: English
+Flags:
+- PcPlayable
+- 0x20
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 19
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20BB31:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 077C2C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMagazineDrawSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.05
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 20
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20BB31:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 077C2C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.05
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Laredo-Waffen werden dauerhaft 5 % schneller nachgeladen und gezogen.
+    - Language: English
+      String: Permanently reload and draw Laredo weapons 5% faster.
+    - Language: Spanish
+      String: Aumenta permanentemente la velocidad de recarga de las armas de Laredo un 5 %.
+    - Language: French
+      String: Les armes Laredo se rechargent et se dégainent 5 % plus vite de façon permanente.
+    - Language: Italian
+      String: Aumenta la velocità di ricarica ed estrazione delle armi Laredo del 5%.
+    - Language: Japanese
+      String: ラレドの武器のリロードと武器を抜く速度が恒久的に5%速くなる
+    - Language: Polish
+      String: Przeładowywanie i wyciąganie broni Laredo jest na stałe szybsze o 5%.
+    - Language: Portuguese_Brazil
+      String: Recarrega e saca armas Laredo com uma velocidade 5% maior de forma permanente.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 17
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20BB31:Starfield.esm
+        ComparisonValue: 2
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 077C2C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 18
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20BB31:Starfield.esm
+        ComparisonValue: 2
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 077C2C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMagazineDrawSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.1
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Laredo-Waffen werden dauerhaft zusätzlich 5 % schneller nachgeladen und gezogen.
+    - Language: English
+      String: Permanently reload and draw Laredo weapons an additional 5% faster.
+    - Language: Spanish
+      String: Aumenta permanentemente la velocidad de recarga de las armas de Laredo un 5 % adicional.
+    - Language: French
+      String: Les armes Laredo se rechargent et se dégainent 5 % supplémentaires plus vite de façon permanente.
+    - Language: Italian
+      String: Aumenta la velocità di ricarica ed estrazione delle armi Laredo di un ulteriore 5%.
+    - Language: Japanese
+      String: ラレドの武器のリロードと武器を抜く速度が恒久的に追加で5%速くなる
+    - Language: Polish
+      String: Przeładowywanie i wyciąganie broni Laredo jest na stałe szybsze o dodatkowe 5%.
+    - Language: Portuguese_Brazil
+      String: Recarrega e saca armas Laredo com mais 5% de velocidade de forma permanente.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 15
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20BB31:Starfield.esm
+        ComparisonValue: 3
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 077C2C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMagazineDrawSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 1.15
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 16
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20BB31:Starfield.esm
+        ComparisonValue: 3
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 077C2C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.15
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Laredo-Waffen werden dauerhaft zusätzlich 5 % schneller nachgeladen und gezogen.
+    - Language: English
+      String: Permanently reload and draw Laredo weapons an additional 5% faster.
+    - Language: Spanish
+      String: Aumenta permanentemente la velocidad de recarga de las armas de Laredo un 5 % adicional.
+    - Language: French
+      String: Les armes Laredo se rechargent et se dégainent 5 % supplémentaires plus vite de façon permanente.
+    - Language: Italian
+      String: Aumenta la velocità di ricarica ed estrazione delle armi Laredo di un ulteriore 5%.
+    - Language: Japanese
+      String: ラレドの武器のリロードと武器を抜く速度が恒久的に追加で5%速くなる
+    - Language: Polish
+      String: Przeładowywanie i wyciąganie broni Laredo jest na stałe szybsze o dodatkowe 5%.
+    - Language: Portuguese_Brazil
+      String: Recarrega e saca armas Laredo com mais 5% de velocidade de forma permanente.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 13
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20BB31:Starfield.esm
+        ComparisonValue: 4
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 077C2C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 14
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20BB31:Starfield.esm
+        ComparisonValue: 4
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 077C2C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMagazineDrawSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.2
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Laredo-Waffen werden dauerhaft zusätzlich 5 % schneller nachgeladen und gezogen.
+    - Language: English
+      String: Permanently reload and draw Laredo weapons an additional 5% faster.
+    - Language: Spanish
+      String: Aumenta permanentemente la velocidad de recarga de las armas de Laredo un 5 % adicional.
+    - Language: French
+      String: Les armes Laredo se rechargent et se dégainent 5 % supplémentaires plus vite de façon permanente.
+    - Language: Italian
+      String: Aumenta la velocità di ricarica ed estrazione delle armi Laredo di un ulteriore 5%.
+    - Language: Japanese
+      String: ラレドの武器のリロードと武器を抜く速度が恒久的に追加で5%速くなる
+    - Language: Polish
+      String: Przeładowywanie i wyciąganie broni Laredo jest na stałe szybsze o dodatkowe 5%.
+    - Language: Portuguese_Brazil
+      String: Recarrega e saca armas Laredo com mais 5% de velocidade de forma permanente.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 4
+    Priority: 11
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20BB31:Starfield.esm
+        ComparisonValue: 5
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 077C2C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 4
+    Priority: 12
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20BB31:Starfield.esm
+        ComparisonValue: 5
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 077C2C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMagazineDrawSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Laredo-Waffen werden dauerhaft zusätzlich 5 % schneller nachgeladen und gezogen.
+    - Language: English
+      String: Permanently reload and draw Laredo weapons an additional 5% faster.
+    - Language: Spanish
+      String: Aumenta permanentemente la velocidad de recarga de las armas de Laredo un 5 % adicional.
+    - Language: French
+      String: Les armes Laredo se rechargent et se dégainent 5 % supplémentaires plus vite de façon permanente.
+    - Language: Italian
+      String: Aumenta la velocità di ricarica ed estrazione delle armi Laredo di un ulteriore 5%.
+    - Language: Japanese
+      String: ラレドの武器のリロードと武器を抜く速度が恒久的に追加で5%速くなる
+    - Language: Polish
+      String: Przeładowywanie i wyciąganie broni Laredo jest na stałe szybsze o dodatkowe 5%.
+    - Language: Portuguese_Brazil
+      String: Recarrega e saca armas Laredo com mais 5% de velocidade de forma permanente.

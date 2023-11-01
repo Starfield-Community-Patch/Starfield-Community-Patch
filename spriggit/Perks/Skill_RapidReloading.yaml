@@ -1,0 +1,458 @@
+FormKey: 2C555A:Starfield.esm
+EditorID: Skill_RapidReloading
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Schnelles Nachladen
+  - Language: English
+    String: Rapid Reloading
+  - Language: Spanish
+    String: Recarga rápida
+  - Language: French
+    String: Rechargement rapide
+  - Language: Italian
+    String: Ricarica rapida
+  - Language: Japanese
+    String: 高速リロード
+  - Language: Polish
+    String: Szybkie przeładowanie
+  - Language: Portuguese_Brazil
+    String: Recarga Rápida
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Im Chaos des Kampfs können die Sekunden, die du für das Nachladen deiner Waffe benötigst, den Unterschied zwischen Leben und Tod ausmachen.
+  - Language: English
+    String: In the chaos of combat, the seconds needed to reload your weapon could be the difference between life and death.
+  - Language: Spanish
+    String: En el fragor de la batalla, los segundos que se necesitan para recargar el arma podrían marcar la diferencia entre la vida y la muerte.
+  - Language: French
+    String: Dans le chaos du combat, les quelques secondes nécessaires au rechargement de votre arme peuvent faire la différence entre la vie et la mort.
+  - Language: Italian
+    String: Nel caos del combattimento, i secondi necessari per ricaricare la tua arma possono fare la differenza tra la vita e la morte.
+  - Language: Japanese
+    String: 戦闘の混乱の中では、武器のリロードに必要な数秒の違いが生死を分かつかもしれない
+  - Language: Polish
+    String: W chaosie walki sekundy potrzebne na przeładowanie broni mogą stanowić różnicę między życiem a śmiercią.
+  - Language: Portuguese_Brazil
+    String: No caos do combate, os segundos necessários para recarregar sua arma podem ser a diferença entre a vida e a morte.
+Categroy: Combat
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_RapidReloading
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 092A86:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.3
+  Activities:
+  - ATAN: Reload Weapon
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Schnelles Nachladen
+      - Language: English
+        String: Rapid Reloading
+      - Language: Spanish
+        String: Recarga rápida
+      - Language: French
+        String: Rechargement rapide
+      - Language: Italian
+        String: Ricarica rapida
+      - Language: Japanese
+        String: 高速リロード
+      - Language: Polish
+        String: Szybkie przeładowanie
+      - Language: Portuguese_Brazil
+        String: Recarga Rápida
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ballistische Waffen werden 30 % schneller nachgeladen.
+      - Language: English
+        String: Reload Ballistic weapons 30% faster.
+      - Language: Spanish
+        String: Recarga las armas balísticas un 30 % más rápido.
+      - Language: French
+        String: Vitesse de rechargement des armes balistiques accrue de 30 %.
+      - Language: Italian
+        String: Ricarica le armi balistiche più velocemente del 30%.
+      - Language: Japanese
+        String: バリスティック兵器のリロード速度が30%上昇する
+      - Language: Polish
+        String: Przeładowanie broni balistycznej jest o 30% szybsze.
+      - Language: Portuguese_Brazil
+        String: Aumento de 30% na velocidade de recarga de armas balísticas.
+    ProgressionEvalutor:
+    - Name: Owner
+      Conditions: []
+    - Name: Weapon
+      Conditions: []
+    ANAM: res:2FE170B7:0005BD23:A5DDFB78
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"CountBulletsReloaded" : "false",
+      		"OnlyEmptyClips" : "true",
+      		"Repetitions" : "30"
+      	},
+      	"Type" : "BGSReloadWeaponActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 27DF95:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 092A86:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 092A84:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.3
+  Activities:
+  - ATAN: Reload Weapon
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Schnelles Nachladen
+      - Language: English
+        String: Rapid Reloading
+      - Language: Spanish
+        String: Recarga rápida
+      - Language: French
+        String: Rechargement rapide
+      - Language: Italian
+        String: Ricarica rapida
+      - Language: Japanese
+        String: 高速リロード
+      - Language: Polish
+        String: Szybkie przeładowanie
+      - Language: Portuguese_Brazil
+        String: Recarga Rápida
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Energie- und EM-Waffen werden 30 % schneller nachgeladen.
+      - Language: English
+        String: Reload Energy and EM weapons 30% faster.
+      - Language: Spanish
+        String: Las armas de energía y electromagnéticas se recargan un 30 % más rápido.
+      - Language: French
+        String: Vitesse de rechargement des armes à énergie et EM accrue de 30 %.
+      - Language: Italian
+        String: Ricarica le armi a energia ed EM più velocemente del 30%.
+      - Language: Japanese
+        String: エネルギーとEM兵器のリロード速度が30%上昇する
+      - Language: Polish
+        String: Przeładowanie broni EM i energetycznej jest o 30% szybsze.
+      - Language: Portuguese_Brazil
+        String: Aumento de 30% na velocidade de recarga de armas EM.
+    ProgressionEvalutor:
+    - Name: Owner
+      Conditions: []
+    - Name: Weapon
+      Conditions: []
+    ANAM: res:4BA78ABB:0005BD23:A5DDFB78
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"CountBulletsReloaded" : "false",
+      		"OnlyEmptyClips" : "true",
+      		"Repetitions" : "75"
+      	},
+      	"Type" : "BGSReloadWeaponActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 092A84:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 27DF95:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 092A86:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 27BAFE:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPCIsReloadingConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 50
+    EntryPoint: ModIncomingStagger
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Value: 0
+  Activities:
+  - ATAN: Reload Weapon
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Schnelles Nachladen
+      - Language: English
+        String: Rapid Reloading
+      - Language: Spanish
+        String: Recarga rápida
+      - Language: French
+        String: Rechargement rapide
+      - Language: Italian
+        String: Ricarica rapida
+      - Language: Japanese
+        String: 高速リロード
+      - Language: Polish
+        String: Szybkie przeładowanie
+      - Language: Portuguese_Brazil
+        String: Recarga Rápida
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Teilchenstrahl-Waffen werden 30 % schneller nachgeladen. Chance von 50 %, eine Unterbrechung beim Nachladen zu verhindern. '
+      - Language: English
+        String: 'Reload Particle Beam weapons 30% faster. 50% chance to avoid getting interrupted while reloading. '
+      - Language: Spanish
+        String: Las armas de rayos de partículas se recargan un 30 % más rápido. 50 % de probabilidad de evitar interrupciones al recargar.
+      - Language: French
+        String: "Le rechargement des armes à rayon à particules est plus rapide de 30 %. 50 % de chances d'éviter les interruptions lorsque vous rechargez. "
+      - Language: Italian
+        String: 'Ricarica le armi a raggio di particelle più velocemente del 30%. Probabilità del 50% di evitare un’interruzione di ricarica. '
+      - Language: Japanese
+        String: 粒子ビーム兵器のリロード速度が30%上昇する。リロード中に邪魔されても50%の確率で避けられる
+      - Language: Polish
+        String: Przeładowanie broni cząsteczkowej jest o 30% szybsze. 50% szans na uniknięcie przerwania przeładowania.
+      - Language: Portuguese_Brazil
+        String: Recarregue armas de feixe de partículas 30% mais rápido. Chance de 50% de evitar uma interrupção ao recarregar.
+    ProgressionEvalutor:
+    - Name: Owner
+      Conditions: []
+    - Name: Weapon
+      Conditions: []
+    ANAM: res:4E35B1EC:0005BD23:A5DDFB78
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"CountBulletsReloaded" : "false",
+      		"OnlyEmptyClips" : "true",
+      		"Repetitions" : "150"
+      	},
+      	"Type" : "BGSReloadWeaponActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 092A84:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 27DF95:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 092A86:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 27BAFE:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPCIsReloadingConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 50
+    EntryPoint: ModIncomingStagger
+    PerkConditionTabCount: 2
+    PerkEntryID: 5
+    Value: 0
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsSpellTargetConditionData
+          FirstParameter: 127561:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 8
+    EntryPoint: ApplyCombatHitSpellSelf
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Spell: 127561:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Chance, bei Treffern an Gegnern das Nachladetempo aller Waffen für 15 Sek. um 50 % zu erhöhen.
+    - Language: English
+      String: Chance on hitting enemies to increase reload speed for all weapons by 50% for 15 seconds.
+    - Language: Spanish
+      String: Al acertar a los enemigos, tienes la probabilidad de aumentar la velocidad de recarga de todas las armas un 50 % durante 15 segundos.
+    - Language: French
+      String: Chance d'augmenter la vitesse de rechargement de 50 % pour toutes les armes pendant 15 secondes en touchant les ennemis.
+    - Language: Italian
+      String: Probabilità, dopo ogni colpo andato a segno, di aumentare la velocità di ricarica di tutte le armi del 50% per 15 secondi.
+    - Language: Japanese
+      String: 敵に攻撃を当てると、一定の確率で15秒間すべての武器のリロード速度が50%上昇する
+    - Language: Polish
+      String: Po trafieniu wroga szansa na zwiększenie szybkości przeładowania każdego rodzaju broni wzrasta o 50% na 15 sekund.
+    - Language: Portuguese_Brazil
+      String: Chance de aumentar a velocidade de recarga de todas as armas em 50% por 15 segundos ao acertar inimigos.
