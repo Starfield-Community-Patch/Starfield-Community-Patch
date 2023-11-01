@@ -18,6 +18,7 @@ When adding items to the changelog try and use the template below:
 - Fixed a duplicate "is" in a dialogue subtitle. [0003C547] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/441)
 - Fixed a missing punctuation in a player dialogue option. [000A69C3] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/442)
 - Fixed a typo in the spelling of "misery". [0028FE4C] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/443)
+- Fixed a discrepancy between the subtitle and spoken dialogue. [000B85D3] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/452)
 - Fixed a missing comma in Sarah's dialogue subtitles. [002FAD44] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/453)
 - Fixed a discrepancy between the subtitle and spoken dialogue. [00299D6C] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/454)
 - Fixed a discrepancy between the subtitle and spoken dialogue. [00299D3A] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/455)
