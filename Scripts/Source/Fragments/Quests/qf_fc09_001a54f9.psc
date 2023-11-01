@@ -233,6 +233,14 @@ Function Fragment_Stage_2000_Item_00()
     workers[I].EnableNoWait(False)
     I += 1
   EndWhile
+
+  ; Added by Starfield Community Patch - Fix for guards remaining hostile
+  Alias_AllGuards.RemoveFromFaction(FC09_CombatMusicFaction)
+  Alias_AllGuards.AddToFaction(GuardFaction)
+  Alias_AllGuards.AddToFaction(HT_GenericSecurityFaction)
+  Alias_AllGuards.AddToFaction(CrimeFactionFreestar)
+  ; End
+
   Alias_Player.GetActorRef().SetValue(FreestarRangerRank, 2.0)
   Self.CompleteAllObjectives()
   Alias_Player.GetActorRef().AddItem(Spacesuit_Ranger_01 as Form, 1, False)
@@ -274,6 +282,14 @@ Function Fragment_Stage_2000_Item_01()
   Else
     MQ305_FSC_RonHopeJailed.SetValue(1.0)
   EndIf
+
+  ; Added by Starfield Community Patch - Fix for guards remaining hostile
+  Alias_AllGuards.RemoveFromFaction(FC09_CombatMusicFaction)
+  Alias_AllGuards.AddToFaction(GuardFaction)
+  Alias_AllGuards.AddToFaction(HT_GenericSecurityFaction)
+  Alias_AllGuards.AddToFaction(CrimeFactionFreestar)
+  ; End
+
   RAD02.SetStage(505)
   Alias_Player.GetActorRef().SetValue(FreestarRangerRank, 2.0)
   Alias_Player.GetActorRef().AddItem(Spacesuit_Ranger_01 as Form, 1, False)
