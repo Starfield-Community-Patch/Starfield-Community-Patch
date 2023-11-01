@@ -1,0 +1,311 @@
+FormKey: 28AE14:Starfield.esm
+EditorID: Skill_CellularRegeneration
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Zelluläre Regeneration
+  - Language: English
+    String: Cellular Regeneration
+  - Language: Spanish
+    String: Regeneración celular
+  - Language: French
+    String: Régénération cellulaire
+  - Language: Italian
+    String: Rigenerazione cellulare
+  - Language: Japanese
+    String: 細胞再生
+  - Language: Polish
+    String: Regeneracja komórkowa
+  - Language: Portuguese_Brazil
+    String: Regeneração Celular
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ob durch geheime Experimente oder einfach nur eine gesunde Lebensführung – eine verbesserte Heilfähigkeit des Körpers, kann den Unterschied zwischen Leben und Tod machen.
+  - Language: English
+    String: Whether through secret experiementation or just plain healthy living, boosting the body's ability to naturally recover from injuries can mean the difference between life and death.
+  - Language: Spanish
+    String: Ya sea gracias a experimentos secretos o a hábitos saludables, la capacidad de recuperarte de lesiones de forma natural puede salvarte de una muerte segura.
+  - Language: French
+    String: Que ce soit à travers des expériences secrètes ou un mode de vie sain, renforcer la capacité du corps à récupérer naturellement des blessures peut faire la différence entre la vie et la mort.
+  - Language: Italian
+    String: Per mezzo di sperimentazione segreta o di semplici sane abitudini, migliorare la capacità del corpo di guarire spontaneamente dalle lesioni può fare la differenza tra la vita e la morte.
+  - Language: Japanese
+    String: 秘密の実験を行う過程であれ、ただ健康的な生活を送る過程であれ、負傷から自然回復する能力を強化することは、生死をわける要素となるかもしれない
+  - Language: Polish
+    String: Wzmocnienie zdolności twojego ciała do naturalnego leczenia się z urazów - czy to poprzez eksperymenty, czy po prostu zdrowy tryb życia - może stanowić różnicę między życiem a śmiercią.
+  - Language: Portuguese_Brazil
+    String: Seja por meio da experimentação secreta ou apenas pela vida saudável, aumentar a capacidade corporal de se recuperar naturalmente de ferimentos pode fazer a diferença entre a vida e a morte.
+Categroy: Physical
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_Mindfulness
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Ability: 0DD789:Starfield.esm
+  Activities:
+  - ATAN: Actor Value
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Zelluläre Regeneration
+      - Language: English
+        String: Cellular Regeneration
+      - Language: Spanish
+        String: Regeneración celular
+      - Language: French
+        String: Régénération cellulaire
+      - Language: Italian
+        String: Rigenerazione cellulare
+      - Language: Japanese
+        String: 細胞再生
+      - Language: Polish
+        String: Regeneracja komórkowa
+      - Language: Portuguese_Brazil
+        String: Regeneração Celular
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Erhöht leicht die Wahrscheinlichkeit, ganz natürlich von Verletzungen zu genesen.
+      - Language: English
+        String: Slightly increased chance to recover from injuries naturally.
+      - Language: Spanish
+        String: La probabilidad de recuperarte de lesiones naturalmente aumenta de forma leve.
+      - Language: French
+        String: Augmentation légère des chances de récupérer naturellement des blessures.
+      - Language: Italian
+        String: Probabilità di guarire spontaneamente dalle lesioni leggermente aumentata.
+      - Language: Japanese
+        String: 負傷から自然回復する確率が少し上昇する
+      - Language: Polish
+        String: Nieco zwiększa się szansa na naturalne wyleczenie urazów.
+      - Language: Portuguese_Brazil
+        String: Aumento pequeno da chance de recuperar ferimentos naturalmente.
+    ProgressionEvalutor:
+    - Name: Trigger
+      Conditions: []
+    - Name: Reset
+      Conditions: []
+    ANAM: res:39EA1D6B:0005EEDD:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"AccumulateDelta" : "Positive",
+      		"ComparisonOperator" : "Any",
+      		"ComparisonTarget" : "Delta",
+      		"IncrementByDelta" : "false",
+      		"Repetitions" : "5",
+      		"RequiresReset" : "false",
+      		"ResetAccumulateDelta" : "Positive",
+      		"ResetComparisonOperator" : "Any",
+      		"ResetComparisonTarget" : "Delta",
+      		"ResetTargetValue" : "1",
+      		"TargetValue" : "1",
+      		"TrackDamageModifier" : "false",
+      		"TrackOnControlledRef" : "false",
+      		"TrackOnOwner" : "true",
+      		"UsePercentage" : "true",
+      		"pTrackedActorValue" : null
+      	},
+      	"Stream" : 
+      	[
+      		"363743"
+      	],
+      	"Type" : "BGSActorValueActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Ability: 0DD78A:Starfield.esm
+  Activities:
+  - ATAN: Actor Value
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Zelluläre Regeneration
+      - Language: English
+        String: Cellular Regeneration
+      - Language: Spanish
+        String: Regeneración celular
+      - Language: French
+        String: Régénération cellulaire
+      - Language: Italian
+        String: Rigenerazione cellulare
+      - Language: Japanese
+        String: 細胞再生
+      - Language: Polish
+        String: Regeneracja komórkowa
+      - Language: Portuguese_Brazil
+        String: Regeneração Celular
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Erhöht die Wahrscheinlichkeit, ganz natürlich von Verletzungen zu genesen.
+      - Language: English
+        String: Moderately increased chance to recover from injuries naturally.
+      - Language: Spanish
+        String: La probabilidad de recuperarte de lesiones naturalmente aumenta de forma moderada.
+      - Language: French
+        String: Augmentation modérée des chances de récupérer naturellement des blessures.
+      - Language: Italian
+        String: Probabilità di guarire spontaneamente dalle lesioni moderatamente aumentata.
+      - Language: Japanese
+        String: 負傷から自然回復する確率が中程度上昇する
+      - Language: Polish
+        String: Umiarkowanie zwiększa się szansa na naturalne wyleczenie urazów.
+      - Language: Portuguese_Brazil
+        String: Aumento moderado da chance de recuperar ferimentos naturalmente.
+    ProgressionEvalutor:
+    - Name: Trigger
+      Conditions: []
+    - Name: Reset
+      Conditions: []
+    ANAM: res:6ACB189E:0005EEDD:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"AccumulateDelta" : "Positive",
+      		"ComparisonOperator" : "Any",
+      		"ComparisonTarget" : "Delta",
+      		"IncrementByDelta" : "false",
+      		"Repetitions" : "10",
+      		"RequiresReset" : "false",
+      		"ResetAccumulateDelta" : "Negative",
+      		"ResetComparisonOperator" : "Any",
+      		"ResetComparisonTarget" : "Delta",
+      		"ResetTargetValue" : "1",
+      		"TargetValue" : "1",
+      		"TrackDamageModifier" : "false",
+      		"TrackOnControlledRef" : "false",
+      		"TrackOnOwner" : "true",
+      		"UsePercentage" : "true",
+      		"pTrackedActorValue" : null
+      	},
+      	"Stream" : 
+      	[
+      		"363743"
+      	],
+      	"Type" : "BGSActorValueActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Ability: 0DD78B:Starfield.esm
+  Activities:
+  - ATAN: Actor Value
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Zelluläre Regeneration
+      - Language: English
+        String: Cellular Regeneration
+      - Language: Spanish
+        String: Regeneración celular
+      - Language: French
+        String: Régénération cellulaire
+      - Language: Italian
+        String: Rigenerazione cellulare
+      - Language: Japanese
+        String: 細胞再生
+      - Language: Polish
+        String: Regeneracja komórkowa
+      - Language: Portuguese_Brazil
+        String: Regeneração Celular
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Erhöht deutlich die Wahrscheinlichkeit, ganz natürlich von Verletzungen zu genesen.
+      - Language: English
+        String: Noticeably increased chance to recover from injuries naturally.
+      - Language: Spanish
+        String: La probabilidad de recuperarte de lesiones naturalmente aumenta de forma considerable.
+      - Language: French
+        String: Augmentation notable des chances de récupérer naturellement des blessures.
+      - Language: Italian
+        String: Probabilità di guarire spontaneamente dalle lesioni considerevolmente aumentata.
+      - Language: Japanese
+        String: 負傷から自然回復する確率が大幅に上昇する
+      - Language: Polish
+        String: Zauważalnie zwiększa się szansa na naturalne wyleczenie urazów.
+      - Language: Portuguese_Brazil
+        String: Aumento perceptível da chance de recuperar ferimentos naturalmente.
+    ProgressionEvalutor:
+    - Name: Trigger
+      Conditions: []
+    - Name: Reset
+      Conditions: []
+    ANAM: res:6CCC6E3A:0005EEDD:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"AccumulateDelta" : "Positive",
+      		"ComparisonOperator" : "Any",
+      		"ComparisonTarget" : "Delta",
+      		"IncrementByDelta" : "false",
+      		"Repetitions" : "30",
+      		"RequiresReset" : "false",
+      		"ResetAccumulateDelta" : "Positive",
+      		"ResetComparisonOperator" : "Any",
+      		"ResetComparisonTarget" : "Delta",
+      		"ResetTargetValue" : "1",
+      		"TargetValue" : "1",
+      		"TrackDamageModifier" : "false",
+      		"TrackOnControlledRef" : "false",
+      		"TrackOnOwner" : "true",
+      		"UsePercentage" : "true",
+      		"pTrackedActorValue" : null
+      	},
+      	"Stream" : 
+      	[
+      		"363743"
+      	],
+      	"Type" : "BGSActorValueActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 0DD78C:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Deutlich erhöhte Chance, sich auf natürliche Weise von Infektionen zu erholen. Chance von 20 %, einer sicheren Verletzung zu entgehen.
+    - Language: English
+      String: Greatly increased chance to recover from injuries naturally. 20% chance of not gaining an injury when you otherwise would.
+    - Language: Spanish
+      String: Mayor probabilidad de recuperarse de infecciones de forma natural. 20 % de probabilidad de no sufrir una lesión que, de otro modo, sí sufrirías.
+    - Language: French
+      String: Chances considérablement accrues de se remettre naturellement des infections. 20 % de chance de ne pas subir de blessure.
+    - Language: Italian
+      String: Possibilità notevolmente aumentate di riprendersi dalle infezioni in modo naturale. Probabilità del 20% di non subire una lesione altrimenti inevitabile.
+    - Language: Japanese
+      String: 感染症から自然に回復する可能性が大幅に増加します。 本来であれば受ける負傷を20%の確率で受けなくなる
+    - Language: Polish
+      String: Znacznie zwiększona szansa na naturalne wyleczenie infekcji. Zapewnia 20% szans na uniknięcie urazu w sytuacji, w której by wystąpił.
+    - Language: Portuguese_Brazil
+      String: Maior chance de recuperação natural de infecções. 20% de chance de não sofrer ferimentos em situações de risco.

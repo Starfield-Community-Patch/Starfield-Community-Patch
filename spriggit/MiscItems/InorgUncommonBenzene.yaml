@@ -1,0 +1,61 @@
+FormKey: 005585:Starfield.esm
+EditorID: InorgUncommonBenzene
+ObjectBounds:
+  First: -0.098083496, -0.070419535, 0
+  Second: 0.09802246, 0.07075478, 0.2902832
+ODTY: 0
+Transforms:
+  Inventory: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Benzol
+  - Language: English
+    String: Benzene
+  - Language: Spanish
+    String: Benceno
+  - Language: French
+    String: Benzène
+  - Language: Italian
+    String: Benzene
+  - Language: Japanese
+    String: ベンゼン
+  - Language: Polish
+    String: Benzen
+  - Language: Portuguese_Brazil
+    String: Benzeno
+Model:
+  File: SetDressing\Outpost\lootcontainers\InorgUncommonBenzene.nif
+  FLLD: 0x01000000
+CraftingSound:
+  Start: afdb4c86-846f-6fa4-4b36-e473d658fbb5
+Keywords:
+- 06FDB5:Starfield.esm
+- 11A47A:Starfield.esm
+- 299548:Starfield.esm
+Resources:
+- Resource: 0057E7:Starfield.esm
+  Count: 1
+Value: 19
+Weight: 0.6
+FLAG: 0x01000000
+ShortName:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: C6Hn
+  - Language: English
+    String: C6H6
+  - Language: Spanish
+    String: C6Hn
+  - Language: French
+    String: C6H6
+  - Language: Italian
+    String: C6Hn
+  - Language: Japanese
+    String: C6Hn
+  - Language: Polish
+    String: C6Hn
+  - Language: Portuguese_Brazil
+    String: C6Hn

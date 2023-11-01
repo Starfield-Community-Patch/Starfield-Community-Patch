@@ -1,0 +1,580 @@
+FormKey: 2C5554:Starfield.esm
+EditorID: Skill_MartialArts
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Kampfkunst
+  - Language: English
+    String: Martial Arts
+  - Language: Spanish
+    String: Artes marciales
+  - Language: French
+    String: Arts martiaux
+  - Language: Italian
+    String: Arti marziali
+  - Language: Japanese
+    String: 武術
+  - Language: Polish
+    String: Sztuki walki
+  - Language: Portuguese_Brazil
+    String: Artes Marciais
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: In den Besiedelten Systemen gibt es Hunderte von Kampfsportarten. Einige davon stammen noch aus der Erdzeit, andere wurden neu entwickelt, aber fast alle sind im Kampf sehr effektiv.
+  - Language: English
+    String: There are currently hundreds of martial arts practiced in the Settled Systems, some originating on ancient Earth, some newly created, almost all effective in combat.
+  - Language: Spanish
+    String: Actualmente, se practican cientos de artes marciales en los Sistemas Colonizados; algunas datan de la antigua Tierra, otras son más recientes, pero casi todas son efectivas en combate.
+  - Language: French
+    String: Il existe des centaines d'arts martiaux différents dans les Systèmes occupés. Certains datent de la Terre, d'autres ont vu le jour plus récemment ; presque tous sont redoutables en combat.
+  - Language: Italian
+    String: 'Attualmente, le arti marziali praticate nei Sistemi Colonizzati sono centinaia: alcune originarie dell’antica Terra, altre di nuova creazione, e quasi tutte efficaci in combattimento.'
+  - Language: Japanese
+    String: 現在、有人星系では何百種類もの武術が実践されている。古代地球を起源とするものだけでなく、近年登場したものもあるが、ほぼ全てが戦闘で有効だ
+  - Language: Polish
+    String: W Zasiedlonych Układach praktykowane są setki sztuk walki. Część pochodzi ze starożytnej Ziemi, a część jest zupełnie nowa. Prawie wszystkie są efektywne w boju.
+  - Language: Portuguese_Brazil
+    String: No momento, existem centenas de artes marciais sendo praticadas nos Sistemas Colonizados, algumas originárias da antiga Terra e algumas criadas recentemente, e quase todas são efetivas em combate.
+Categroy: Physical
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_MartialArts
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsMeleeAttackingConditionData
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Modification: Add
+    Value: 15
+  Activities:
+  - ATAN: Take Hit Damage
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Kampfkunst
+      - Language: English
+        String: Martial Arts
+      - Language: Spanish
+        String: Artes marciales
+      - Language: French
+        String: Arts martiaux
+      - Language: Italian
+        String: Arti marziali
+      - Language: Japanese
+        String: 武術
+      - Language: Polish
+        String: Sztuki walki
+      - Language: Portuguese_Brazil
+        String: Artes Marciais
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Um 15 % erhöhte Chance, durch einen Nahkampfangriff oder waffenlosen Angriff einen kritischen Treffer zu erzielen.
+      - Language: English
+        String: 15% increased chance to crit with a melee or unarmed attack.
+      - Language: Spanish
+        String: 15 % más de probabilidad de infligir críticos con ataques sin armas o cuerpo a cuerpo.
+      - Language: French
+        String: 15 % de chances supplémentaires de critique avec une attaque au corps à corps ou à mains nues.
+      - Language: Italian
+        String: 15% di probabilità in più di infligge un colpo critico con un attacco in mischia o a mani nude.
+      - Language: Japanese
+        String: 近接や素手攻撃のクリティカルヒットの確率が15%増加する
+      - Language: Polish
+        String: Ataki bronią do walki wręcz lub bez broni zwiększają szansę na trafienie krytyczne o 15%.
+      - Language: Portuguese_Brazil
+        String: Chance de crítico 15% maior com um ataque corpo a corpo ou sem armas.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetDeadConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetFactionRelationConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 3
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetFactionRelationConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 2
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:DB833B1F:0005F31E:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "250",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "true",
+      		"TrackShipHullDamage" : "false",
+      		"TrackShipShieldDamage" : "false",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsMeleeAttackingConditionData
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 10
+    Modification: Add
+    Value: 15
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 1
+    Priority: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsPowerAttackingConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 15
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ApplyCombatHitSpell
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Spell: 1D33D6:Starfield.esm
+  Activities:
+  - ATAN: Apply Magic Effect
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Chance von 15 %, den Gegner durch einen Nahkampfangriff oder waffenlosen Kraftangriff zu entwaffnen.
+      - Language: English
+        String: 15% chance to disarm an opponent with a melee or unarmed power attack.
+      - Language: Spanish
+        String: 15 % de probabilidad de desarmar a un oponente con un ataque potente sin armas o cuerpo a cuerpo.
+      - Language: French
+        String: 15 % de chances de désarmer un adversaire avec une attaque au corps à corps ou à mains nues puissante.
+      - Language: Italian
+        String: 15% di probabilità di disarmare un avversario con un attacco in mischia o a mani nude potente.
+      - Language: Japanese
+        String: 近接や素手攻撃でのパワーアタックが、敵を15%の確率でよろめかせる
+      - Language: Polish
+        String: Ciosy bronią do walki wręcz i silne ataki bez broni mają 15% szans na rozbrojenie przeciwnika.
+      - Language: Portuguese_Brazil
+        String: 15% de chance de desarmar um oponente com um ataque potente corpo a corpo ou sem armas.
+    ProgressionEvalutor:
+    - Name: Spell
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetIsIDConditionData
+          FirstParameter: 1D33D6:Starfield.esm
+        ComparisonValue: 1
+    - Name: Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetDeadConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetFactionRelationConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 3
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetFactionRelationConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 2
+    - Name: Caster
+      Conditions: []
+    ANAM: res:6BB05948:0005BDAF:A5DDFB78
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"FirstApplyOnly" : "false",
+      		"Repetitions" : "10",
+      		"TrackTarget" : "TrackOnCaster",
+      		"TrackedEffects" : 
+      		{
+      			"Data" : null,
+      			"ElementType" : "pointer",
+      			"Type" : "<collection>"
+      		},
+      		"UniqueCasterTargets" : "true"
+      	},
+      	"Type" : "BGSApplyMagicEffectActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsMeleeAttackingConditionData
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 11
+    Modification: Add
+    Value: 15
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 2
+    Priority: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsPowerAttackingConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 15
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ApplyCombatHitSpell
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Spell: 1D33D6:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsWeaponInListConditionData
+          FirstParameter: 021AD2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModIncomingWeaponDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 0.9
+  Activities:
+  - ATAN: Apply Magic Effect
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Du erleidest 10 % weniger Schaden, wenn du unbewaffnet bist oder eine Nahkampfwaffe führst.
+      - Language: English
+        String: While unarmed or wielding a melee weapon, take 10% less damage.
+      - Language: Spanish
+        String: Sufres un 10 % menos de daño cuando vas sin armas o llevas un arma cuerpo a cuerpo.
+      - Language: French
+        String: Vous subissez 10 % de dégâts en moins lorsque vous maniez une arme de corps à corps ou vous battez à mains nues.
+      - Language: Italian
+        String: Subisci il 10% di danni in meno mentre brandisci un’arma da mischia o non brandisci armi.
+      - Language: Japanese
+        String: 素手または近接武器を装備中は受けるダメージが10%減少する
+      - Language: Polish
+        String: Nie mając żadnej broni albo posługując się bronią do walki wręcz, odnosisz o 10% mniej obrażeń.
+      - Language: Portuguese_Brazil
+        String: Você sofre 10% a menos de dano enquanto luta sem armas ou utiliza armas brancas.
+    ProgressionEvalutor:
+    - Name: Spell
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetIsIDConditionData
+          FirstParameter: 1D33D6:Starfield.esm
+        ComparisonValue: 1
+    - Name: Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetDeadConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetFactionRelationConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 3
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetFactionRelationConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 2
+    - Name: Caster
+      Conditions: []
+    ANAM: res:7C3955E8:0005C3BC:A5DDFB78
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"FirstApplyOnly" : "false",
+      		"Repetitions" : "30",
+      		"TrackTarget" : "TrackOnCaster",
+      		"TrackedEffects" : 
+      		{
+      			"Data" : null,
+      			"ElementType" : "pointer",
+      			"Type" : "<collection>"
+      		},
+      		"UniqueCasterTargets" : "true"
+      	},
+      	"Type" : "BGSApplyMagicEffectActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsMeleeAttackingConditionData
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 12
+    Modification: Add
+    Value: 15
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Priority: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsPowerAttackingConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 15
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ApplyCombatHitSpell
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Spell: 1D33D6:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsWeaponInListConditionData
+          FirstParameter: 021AD2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModIncomingWeaponDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 0.9
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Priority: 4
+    Ability: 1B1C3F:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Wenn du einen Nahkampfangriff oder waffenlosen Angriff blockst, reflektierst du 50 % Schaden zurück.
+    - Language: English
+      String: Reflect 50% damage back when blocking a melee or unarmed attack.
+    - Language: Spanish
+      String: Devuelve un 50 % del daño hacia el atacante al bloquear ataques cuerpo a cuerpo o sin armas.
+    - Language: French
+      String: Renvoie 50 % des dégâts en bloquant une attaque au corps à corps ou à mains nues.
+    - Language: Italian
+      String: Respingi il 50% dei danni quando pari un attacco in mischia o a mani nude.
+    - Language: Japanese
+      String: 近接や素手攻撃を防御すると50%のダメージではね返す
+    - Language: Polish
+      String: Odbijasz 50% obrażeń zablokowanego ataku bronią do walki wręcz lub ataku bez broni.
+    - Language: Portuguese_Brazil
+      String: Reflete 50% do dano ao bloquear um ataque corpo a corpo ou desarmado.

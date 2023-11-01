@@ -1,0 +1,392 @@
+FormKey: 2080FF:Starfield.esm
+EditorID: Skill_PistolCertification
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Pistolen-Zertifikat
+  - Language: English
+    String: Pistol Certification
+  - Language: Spanish
+    String: Certificación de pistola
+  - Language: French
+    String: Certification pistolet
+  - Language: Italian
+    String: Certificazione pistole
+  - Language: Japanese
+    String: ピストル免許
+  - Language: Polish
+    String: Certyfikacja pistoletu
+  - Language: Portuguese_Brazil
+    String: Certificação de Pistola
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Angesichts der Beliebtheit von Handwaffen in den Besiedelten Systemen wird es häufig als unverzichtbar angesehen, mit solchen Waffen umgehen zu können.
+  - Language: English
+    String: Considering the popularity of the personal sidearm in the Settled Systems, familiarity with such weapons is often considered essential.
+  - Language: Spanish
+    String: Debido a la popularidad de las armas de mano en los Sistemas Colonizados, se suele considerar esencial estar familiarizado con este tipo de armas.
+  - Language: French
+    String: Au vu de la popularité des armes de poing personnelles dans les Systèmes occupés, bien les connaître est souvent considéré comme essentiel.
+  - Language: Italian
+    String: Considerata la popolarità delle armi da fianco personali nei Sistemi Colonizzati, saperle usare è spesso considerato fondamentale.
+  - Language: Japanese
+    String: 有人星系では個人用のサイドアームが普及しているため、そのような武器の扱いに慣れている必要があると考えられる場合が多い
+  - Language: Polish
+    String: Biorąc pod uwagę popularność broni bocznej w Zasiedlonych Układach, umiejętność jej obsługi często uznawana jest za nieodzowną.
+  - Language: Portuguese_Brazil
+    String: Considerando a popularidade da arma secundária pessoal nos Sistemas Colonizados, familiarizar-se com essas armas é quase sempre essencial.
+Categroy: Combat
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_PistolCertification
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A0:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.1
+  Activities:
+  - ATAN: Kill
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Pistolen-Zertifikat
+      - Language: English
+        String: Pistol Certification
+      - Language: Spanish
+        String: Certificación de pistola
+      - Language: French
+        String: Certification pistolet
+      - Language: Italian
+        String: Certificazione pistole
+      - Language: Japanese
+        String: ピストル免許
+      - Language: Polish
+        String: Certyfikacja pistoletu
+      - Language: Portuguese_Brazil
+        String: Certificação de Pistola
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Pistolen verursachen 10 % mehr Schaden.
+      - Language: English
+        String: Pistols do 10% more damage.
+      - Language: Spanish
+        String: Las pistolas infligen un 10 % más de daño.
+      - Language: French
+        String: Les pistolets infligent 10 % de dégâts supplémentaires.
+      - Language: Italian
+        String: Le pistole infliggono il 10% di danni in più.
+      - Language: Japanese
+        String: ピストルのダメージが10%増加する
+      - Language: Polish
+        String: Pistolety zadają o 10% więcej obrażeń.
+      - Language: Portuguese_Brazil
+        String: Pistolas causam 10% a mais de dano.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 2
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 04A0A0:Starfield.esm
+        ComparisonValue: 1
+    ANAM: res:A92E96DF:0005C4EA:A5DDFB78
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "20"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A0:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.25
+  Activities:
+  - ATAN: Kill
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Pistolen-Zertifikat
+      - Language: English
+        String: Pistol Certification
+      - Language: Spanish
+        String: Certificación de pistola
+      - Language: French
+        String: Certification pistolet
+      - Language: Italian
+        String: Certificazione pistole
+      - Language: Japanese
+        String: ピストル免許
+      - Language: Polish
+        String: Certyfikacja pistoletu
+      - Language: Portuguese_Brazil
+        String: Certificação de Pistola
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Pistolen verursachen 25 % mehr Schaden.
+      - Language: English
+        String: Pistols do 25% more damage.
+      - Language: Spanish
+        String: Las pistolas infligen un 25 % más de daño.
+      - Language: French
+        String: Les pistolets infligent 25 % de dégâts supplémentaires.
+      - Language: Italian
+        String: Le pistole infliggono il 25% di danni in più.
+      - Language: Japanese
+        String: ピストルのダメージが25%増加する
+      - Language: Polish
+        String: Pistolety zadają o 25% więcej obrażeń.
+      - Language: Portuguese_Brazil
+        String: Pistolas causam 25% a mais de dano.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 2
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 04A0A0:Starfield.esm
+        ComparisonValue: 1
+    ANAM: res:B2973AA8:0005C4EA:A5DDFB78
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "50"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A0:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.5
+  Activities:
+  - ATAN: Kill
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Pistolen-Zertifikat
+      - Language: English
+        String: Pistol Certification
+      - Language: Spanish
+        String: Certificación de pistola
+      - Language: French
+        String: Certification pistolet
+      - Language: Italian
+        String: Certificazione pistole
+      - Language: Japanese
+        String: ピストル免許
+      - Language: Polish
+        String: Certyfikacja pistoletu
+      - Language: Portuguese_Brazil
+        String: Certificação de Pistola
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Pistolen verursachen 50 % mehr Schaden.
+      - Language: English
+        String: Pistols do 50% more damage.
+      - Language: Spanish
+        String: Las pistolas infligen un 50 % más de daño.
+      - Language: French
+        String: Les pistolets infligent 50 % de dégâts supplémentaires.
+      - Language: Italian
+        String: Le pistole infliggono il 50% di danni in più.
+      - Language: Japanese
+        String: ピストルのダメージが50%増加する
+      - Language: Polish
+        String: Pistolety zadają o 50% więcej obrażeń.
+      - Language: Portuguese_Brazil
+        String: Pistolas causam 50% a mais de dano.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 2
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 04A0A0:Starfield.esm
+        ComparisonValue: 1
+    ANAM: res:B491F6FD:0005C4EA:A5DDFB78
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "100"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 37331A:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Add
+    Value: 25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A0:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPGetLastCombatHitKillConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A0:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ApplyCombatHitSpellSelf
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Spell: 37331B:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kills mit Pistolen erhöhen für die nächsten 5 Sek. die Chance auf krit. Treffer um 25 %.
+    - Language: English
+      String: Pistol kills grant +25% critical hit chance for 5 seconds.
+    - Language: Spanish
+      String: Las muertes con pistola aumentan un 25 % la probabilidad de impacto crítico durante 5 segundos.
+    - Language: French
+      String: Les éliminations au pistolet confèrent +25 % de chances de critique pendant 5 secondes.
+    - Language: Italian
+      String: Le uccisioni con pistola forniscono il 25% di probabilità di colpo critico in più per 5 secondi.
+    - Language: Japanese
+      String: ピストルで敵を倒すと5秒間、クリティカル率が25%増加する
+    - Language: Polish
+      String: Zabójstwa z pistoletu zwiększają szansę na trafienie krytyczne o 25% na 5 sekund.
+    - Language: Portuguese_Brazil
+      String: Abates com pistola dão +25% de chance de acerto crítico por 5 segundos.

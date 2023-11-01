@@ -1,0 +1,38 @@
+FormKey: 1E8348:Starfield.esm
+EditorID: COM_CND_DIAL_Greeting_WantsToTalkQuest_MQ207
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 2BE3E4:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    FirstParameter: 2005424
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    FirstParameter: 826727
+  ComparisonValue: 000039:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    FirstParameter: 18AE76:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 005787:Starfield.esm
+  ComparisonValue: 1

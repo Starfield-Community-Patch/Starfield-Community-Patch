@@ -1,0 +1,319 @@
+FormKey: 2CE2A0:Starfield.esm
+EditorID: Skill_Decontamination
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Dekontaminierung
+  - Language: English
+    String: Decontamination
+  - Language: Spanish
+    String: Descontaminación
+  - Language: French
+    String: Décontamination
+  - Language: Italian
+    String: Decontaminazione
+  - Language: Japanese
+    String: 除染
+  - Language: Polish
+    String: Dekontaminacja
+  - Language: Portuguese_Brazil
+    String: Descontaminação
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: >+
+      Durch einen bewussten Einsatz von Konditionierung und Antikörpertherapie lassen sich selbst die unsichtbaren Bedrohungen der Besiedelten Systeme effektiv bekämpfen. 
+  - Language: English
+    String: >+
+      Through a deliberate regiment of conditioning and antibody therapy, one may effectively combat even the Settled Systems' unseen threats. 
+  - Language: Spanish
+    String: >+
+      Siguiendo una calculadísima combinación de condicionamiento y terapia de anticuerpos, es posible defenderse de los males invisibles que pululan por los Sistemas Colonizados. 
+  - Language: French
+    String: >+
+      En suivant un régime de conditionnement strict et un traitement par anticorps, il est possible de contrer jusqu'aux menaces invisibles des Systèmes occupés.
+  - Language: Italian
+    String: >+
+      Con un ponderato regime di condizionamento e terapia antibiotica, è possibile combattere efficacemente anche le minacce invisibili dei Sistemi Colonizzati. 
+  - Language: Japanese
+    String: >+
+      計画的なコンディション管理と抗体治療を用いれば、有人星系に潜む未知の脅威にも効率的にあらがえるかもしれない
+  - Language: Polish
+    String: >+
+      Odpowiednio wdrożone warunkowanie i terapia przeciwciałami pozwalają zwalczać nawet te niewidoczne zagrożenia z Zasiedlonych Układów. 
+  - Language: Portuguese_Brazil
+    String: >+
+      Por meio de um regime deliberado de condicionamento e terapia de anticorpos, é possível combater efetivamente até as ameaças invisíveis dos Sistemas Colonizados. 
+Categroy: Physical
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_Decontamination
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Ability: 0DD78D:Starfield.esm
+  Activities:
+  - ATAN: Actor Value
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Dekontaminierung
+      - Language: English
+        String: Decontamination
+      - Language: Spanish
+        String: Descontaminación
+      - Language: French
+        String: Décontamination
+      - Language: Italian
+        String: Decontaminazione
+      - Language: Japanese
+        String: 除染
+      - Language: Polish
+        String: Dekontaminacja
+      - Language: Portuguese_Brazil
+        String: Descontaminação
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Leichte Erhöhung der Wahrscheinlichkeit, ganz natürlich von Infektionen zu genesen.
+      - Language: English
+        String: Slightly increased chance to recover from infections naturally.
+      - Language: Spanish
+        String: La probabilidad de recuperarte de infecciones naturalmente aumenta de forma leve.
+      - Language: French
+        String: Augmentation légère des chances de récupérer naturellement des infections.
+      - Language: Italian
+        String: Probabilità di guarire spontaneamente dalle infezioni leggermente aumentata.
+      - Language: Japanese
+        String: 感染から自然回復する確率が少し上昇する
+      - Language: Polish
+        String: Nieco zwiększa się szansa na naturalne wyleczenie infekcji.
+      - Language: Portuguese_Brazil
+        String: Aumento pequeno da chance de se recuperar de infecções naturalmente.
+    ProgressionEvalutor:
+    - Name: Trigger
+      Conditions: []
+    - Name: Reset
+      Conditions: []
+    ANAM: res:A25EE6CB:0005EEDD:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"AccumulateDelta" : "Positive",
+      		"ComparisonOperator" : "Any",
+      		"ComparisonTarget" : "Delta",
+      		"IncrementByDelta" : "false",
+      		"Repetitions" : "5",
+      		"RequiresReset" : "false",
+      		"ResetAccumulateDelta" : "Negative",
+      		"ResetComparisonOperator" : "Any",
+      		"ResetComparisonTarget" : "Delta",
+      		"ResetTargetValue" : "1",
+      		"TargetValue" : "1",
+      		"TrackDamageModifier" : "false",
+      		"TrackOnControlledRef" : "false",
+      		"TrackOnOwner" : "true",
+      		"UsePercentage" : "true",
+      		"pTrackedActorValue" : null
+      	},
+      	"Stream" : 
+      	[
+      		"363744"
+      	],
+      	"Type" : "BGSActorValueActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Ability: 0DD78F:Starfield.esm
+  Activities:
+  - ATAN: Actor Value
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Dekontaminierung
+      - Language: English
+        String: Decontamination
+      - Language: Spanish
+        String: Descontaminación
+      - Language: French
+        String: Décontamination
+      - Language: Italian
+        String: Decontaminazione
+      - Language: Japanese
+        String: 除染
+      - Language: Polish
+        String: Dekontaminacja
+      - Language: Portuguese_Brazil
+        String: Descontaminação
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Mäßige Erhöhung der Wahrscheinlichkeit, ganz natürlich von Infektionen zu genesen.
+      - Language: English
+        String: Moderately increased chance to recover from infections naturally.
+      - Language: Spanish
+        String: La probabilidad de recuperarte de infecciones naturalmente aumenta de forma moderada.
+      - Language: French
+        String: Augmentation modérée des chances de récupérer naturellement des infections.
+      - Language: Italian
+        String: Probabilità di guarire spontaneamente dalle infezioni moderatamente aumentata.
+      - Language: Japanese
+        String: 感染から自然回復する確率が中程度上昇する
+      - Language: Polish
+        String: Umiarkowanie zwiększa się szansa na naturalne wyleczenie infekcji.
+      - Language: Portuguese_Brazil
+        String: Aumento moderado da chance de se recuperar de infecções naturalmente.
+    ProgressionEvalutor:
+    - Name: Trigger
+      Conditions: []
+    - Name: Reset
+      Conditions: []
+    ANAM: res:A4127CA7:0005EEDD:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"AccumulateDelta" : "Positive",
+      		"ComparisonOperator" : "Any",
+      		"ComparisonTarget" : "Delta",
+      		"IncrementByDelta" : "false",
+      		"Repetitions" : "15",
+      		"RequiresReset" : "false",
+      		"ResetAccumulateDelta" : "Negative",
+      		"ResetComparisonOperator" : "Any",
+      		"ResetComparisonTarget" : "Delta",
+      		"ResetTargetValue" : "1",
+      		"TargetValue" : "1",
+      		"TrackDamageModifier" : "false",
+      		"TrackOnControlledRef" : "false",
+      		"TrackOnOwner" : "true",
+      		"UsePercentage" : "true",
+      		"pTrackedActorValue" : null
+      	},
+      	"Stream" : 
+      	[
+      		"363744"
+      	],
+      	"Type" : "BGSActorValueActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Ability: 0DD790:Starfield.esm
+  Activities:
+  - ATAN: Actor Value
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Dekontaminierung
+      - Language: English
+        String: Decontamination
+      - Language: Spanish
+        String: Descontaminación
+      - Language: French
+        String: Décontamination
+      - Language: Italian
+        String: Decontaminazione
+      - Language: Japanese
+        String: 除染
+      - Language: Polish
+        String: Dekontaminacja
+      - Language: Portuguese_Brazil
+        String: Descontaminação
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Deutliche Erhöhung der Wahrscheinlichkeit, ganz natürlich von Infektionen zu genesen.
+      - Language: English
+        String: Noticeably increased chance to recover from infections naturally.
+      - Language: Spanish
+        String: La probabilidad de recuperarte de infecciones naturalmente aumenta de forma considerable.
+      - Language: French
+        String: Augmentation notable des chances de récupérer naturellement des infections.
+      - Language: Italian
+        String: Probabilità di guarire spontaneamente dalle infezioni considerevolmente aumentata.
+      - Language: Japanese
+        String: 感染から自然回復する確率が大幅に上昇する
+      - Language: Polish
+        String: Zauważalnie zwiększa się szansa na naturalne wyleczenie infekcji.
+      - Language: Portuguese_Brazil
+        String: Aumento perceptível da chance de se recuperar de infecções naturalmente.
+    ProgressionEvalutor:
+    - Name: Trigger
+      Conditions: []
+    - Name: Reset
+      Conditions: []
+    ANAM: res:A5953D83:0005EEDD:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"AccumulateDelta" : "Positive",
+      		"ComparisonOperator" : "Any",
+      		"ComparisonTarget" : "Delta",
+      		"IncrementByDelta" : "false",
+      		"Repetitions" : "30",
+      		"RequiresReset" : "false",
+      		"ResetAccumulateDelta" : "Negative",
+      		"ResetComparisonOperator" : "Any",
+      		"ResetComparisonTarget" : "Delta",
+      		"ResetTargetValue" : "1",
+      		"TargetValue" : "1",
+      		"TrackDamageModifier" : "false",
+      		"TrackOnControlledRef" : "false",
+      		"TrackOnOwner" : "true",
+      		"UsePercentage" : "true",
+      		"pTrackedActorValue" : null
+      	},
+      	"Stream" : 
+      	[
+      		"363744"
+      	],
+      	"Type" : "BGSActorValueActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 0DD791:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Deutlich erhöhte Chance, sich auf natürliche Weise von Infektionen zu erholen. Chance von 20 %, einer sicheren Infektion zu entgehen.
+    - Language: English
+      String: Greatly increased chance to recover from infections naturally. 20% chance of not gaining an infection when you otherwise would.
+    - Language: Spanish
+      String: Mayor probabilidad de recuperarse de infecciones de forma natural. 20 % de probabilidad de no sufrir una infección que, de otro modo, sí sufrirías.
+    - Language: French
+      String: Chances considérablement accrues de se remettre naturellement des infections. 20 % de chance de ne pas subir d'infection.
+    - Language: Italian
+      String: Possibilità notevolmente aumentate di riprendersi dalle infezioni in modo naturale. Probabilità del 20% di non contrarre un’infezione altrimenti inevitabile.
+    - Language: Japanese
+      String: 感染症から自然に回復する可能性が大幅に増加します。 本来であれば受ける感染を20%の確率で受けなくなる
+    - Language: Polish
+      String: Znacznie zwiększona szansa na naturalne wyleczenie infekcji. Zapewnia 20% szans na uniknięcie infekcji w sytuacji, w której by wystąpiła.
+    - Language: Portuguese_Brazil
+      String: Maior chance de recuperação natural de infecções. 20% de chance de não ter uma infecção em situações de risco.

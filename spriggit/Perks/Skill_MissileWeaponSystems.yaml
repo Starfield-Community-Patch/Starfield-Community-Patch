@@ -1,0 +1,623 @@
+FormKey: 2C5558:Starfield.esm
+EditorID: Skill_MissileWeaponSystems
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Raketen-Waffensysteme
+  - Language: English
+    String: Missile Weapon Systems
+  - Language: Spanish
+    String: Sistemas de armas de misiles
+  - Language: French
+    String: Systèmes d'armes à missiles
+  - Language: Italian
+    String: Armamenti missilistici
+  - Language: Japanese
+    String: ミサイル兵器システム
+  - Language: Polish
+    String: Uzbrojenie rakietowe
+  - Language: Portuguese_Brazil
+    String: Sistemas de Mísseis
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Im Weltall können nur wenige Waffen mit der Reichweite und Zerstörungskraft von Raketen mithalten, besonders wenn diese Raketen von einem fähigen Taktiker eingesetzt werden.
+  - Language: English
+    String: In space, few weapons can match the range and destructive power of missiles, especially in the hands of a skilled tactician.
+  - Language: Spanish
+    String: En el espacio, pocas armas están a la altura en alcance y poder destructivo de los misiles, sobre todo en manos de un estratega consumado.
+  - Language: French
+    String: Dans l'espace, peu d'armes peuvent rivaliser avec la portée et le potentiel de destruction des missiles, en particulier entre les mains des meilleurs tacticiens.
+  - Language: Italian
+    String: Nello spazio, poche armi possono eguagliare la portata e la potenza distruttiva dei missili, specialmente nelle mani di un abile stratega.
+  - Language: Japanese
+    String: 宇宙では、ミサイルの射程と破壊力を備えた兵器がほとんど存在しない。熟練した戦術家の手にかかると、この兵器はより恐ろしいものになる
+  - Language: Polish
+    String: W kosmosie niewiele jest broni mogących równać się zasięgiem i niszczycielską mocą z rakietami, zwłaszcza gdy te znajdują się w rękach uzdolnionych taktyków.
+  - Language: Portuguese_Brazil
+    String: No espaço, poucas armas conseguem se equiparar ao alcance e poder destrutivo de mísseis, ainda mais nas mãos de um estrategista habilidoso.
+Categroy: Tech
+SkillGroup: Expert
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Technology_MissileWeaponSystems
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 12
+    Modification: Multiply
+    Value: 1.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 0.8
+  Activities:
+  - ATAN: Take Hit Damage
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Raketen-Waffensysteme
+      - Language: English
+        String: Missile Weapon Systems
+      - Language: Spanish
+        String: Sistemas de armas de misiles
+      - Language: French
+        String: Systèmes d'armes à missiles
+      - Language: Italian
+        String: Armamenti missilistici
+      - Language: Japanese
+        String: ミサイル兵器システム
+      - Language: Polish
+        String: Uzbrojenie rakietowe
+      - Language: Portuguese_Brazil
+        String: Sistemas de Mísseis
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Schiffsraketen verursachen 10 % mehr Schaden, die Kosten im Zielmodus werden um 20 % verringert.
+      - Language: English
+        String: Ship missile weapons do 10% more damage, and their Targeting mode cost is reduced by 20%.
+      - Language: Spanish
+        String: Las armas de misiles de la nave infligen un 10 % más de daño y su coste del modo de apuntado se reduce un 20 %.
+      - Language: French
+        String: Les armes à missiles des vaisseaux infligent 10 % de dégâts supplémentaires et coûtent 20 % en moins en mode ciblage.
+      - Language: Italian
+        String: Le armi missilistiche della nave infliggono il 10% di danni in più e il costo per la modalità puntamento è ridotto del 20%.
+      - Language: Japanese
+        String: 船のミサイル兵器のダメージが10%増加し、照準モードの消費が20%減少する
+      - Language: Polish
+        String: Broń rakietowa statku powoduje o 10% więcej uszkodzeń, a jej tryb celowania kosztuje o 20% mniej.
+      - Language: Portuguese_Brazil
+        String: Armas de mísseis da nave causam 10% a mais de dano e o custo de PA do modo Mira é reduzido em 20%.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions: []
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:430EE573:0005F52A:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "1000",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "false",
+      		"TrackShipHullDamage" : "true",
+      		"TrackShipShieldDamage" : "true",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 13
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 0.6
+  Activities:
+  - ATAN: Take Hit Damage
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Raketen-Waffensysteme
+      - Language: English
+        String: Missile Weapon Systems
+      - Language: Spanish
+        String: Sistemas de armas de misiles
+      - Language: French
+        String: Systèmes d'armes à missiles
+      - Language: Italian
+        String: Armamenti missilistici
+      - Language: Japanese
+        String: ミサイル兵器システム
+      - Language: Polish
+        String: Uzbrojenie rakietowe
+      - Language: Portuguese_Brazil
+        String: Sistemas de Mísseis
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Schiffsraketen verursachen 20 % mehr Schaden, die Kosten im Zielmodus werden um 40 % verringert.
+      - Language: English
+        String: Ship missile weapons do 20% more damage, and their Targeting mode cost is reduced by 40%.
+      - Language: Spanish
+        String: Las armas de misiles de la nave infligen un 20 % más de daño y su coste del modo de apuntado se reduce un 40 %.
+      - Language: French
+        String: Les armes à missiles des vaisseaux infligent 20 % de dégâts supplémentaires et coûtent 40 % en moins en mode ciblage.
+      - Language: Italian
+        String: Le armi missilistiche della nave infliggono il 20% di danni in più e il costo per la modalità puntamento è ridotto del 40%.
+      - Language: Japanese
+        String: 船のミサイル兵器のダメージが20%増加し、照準モードの消費が40%減少する
+      - Language: Polish
+        String: Broń rakietowa statku powoduje o 20% więcej uszkodzeń, a jej tryb celowania kosztuje o 40% mniej.
+      - Language: Portuguese_Brazil
+        String: Armas de mísseis da nave causam 20% a mais de dano e o custo de PA do modo Mira é reduzido em 40%.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions: []
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:53A0F6B4:0005F52A:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "4000",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "false",
+      		"TrackShipHullDamage" : "true",
+      		"TrackShipShieldDamage" : "true",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 14
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 0.4
+  Activities:
+  - ATAN: Take Hit Damage
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Raketen-Waffensysteme
+      - Language: English
+        String: Missile Weapon Systems
+      - Language: Spanish
+        String: Sistemas de armas de misiles
+      - Language: French
+        String: Systèmes d'armes à missiles
+      - Language: Italian
+        String: Armamenti missilistici
+      - Language: Japanese
+        String: ミサイル兵器システム
+      - Language: Polish
+        String: Uzbrojenie rakietowe
+      - Language: Portuguese_Brazil
+        String: Sistemas de Mísseis
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Schiffsraketen verursachen 30 % mehr Schaden, die Kosten im Zielmodus werden um 60 % verringert.
+      - Language: English
+        String: Ship missile weapons do 30% more damage, and their Targeting mode cost is reduced by 60%.
+      - Language: Spanish
+        String: Las armas de misiles de la nave infligen un 30 % más de daño y su coste del modo de apuntado se reduce un 60 %.
+      - Language: French
+        String: Les armes à missiles des vaisseaux infligent 30 % de dégâts supplémentaires et coûtent 60 % en moins en mode ciblage.
+      - Language: Italian
+        String: Le armi missilistiche della nave infliggono il 30% di danni in più e il costo per la modalità puntamento è ridotto del 60%.
+      - Language: Japanese
+        String: 船のミサイル兵器のダメージが30%増加し、照準モードの消費が60%減少する
+      - Language: Polish
+        String: Broń rakietowa statku powoduje o 30% więcej uszkodzeń, a jej tryb celowania kosztuje o 60% mniej.
+      - Language: Portuguese_Brazil
+        String: Armas de mísseis da nave causam 60% a mais de dano e o custo de PA do modo Mira é reduzido em 60%.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions: []
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:5628840C:0005F52A:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "10000",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "false",
+      		"TrackShipHullDamage" : "true",
+      		"TrackShipShieldDamage" : "true",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 15
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 0.4
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModGunRangeMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipWeaponRechargeRate
+    PerkConditionTabCount: 2
+    PerkEntryID: 11
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointLegendaryMagicEffectEvent
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: OverrideWeaponProjectile
+    PerkConditionTabCount: 2
+    PerkEntryID: 10
+    Projectile: 034078:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Die Reichweite, das Reisetempo und das Nachladetempo von Schiffsraketen sind um 20 % erhöht.
+    - Language: English
+      String: Ship missiles have a 20% increased Range, Travel Speed, and Reload Speed.
+    - Language: Spanish
+      String: El alcance de los misiles de la nave, así como su velocidad de desplazamiento y su velocidad de recarga, aumenta un 20 %.
+    - Language: French
+      String: Augmente de 20 % la portée, la vitesse de déplacement et la vitesse de rechargement des missiles de vaisseau.
+    - Language: Italian
+      String: I missili della nave hanno portata, velocità di volo e velocità di ricarica aumentate del 20%.
+    - Language: Japanese
+      String: 船のミサイルの射程、速度、そしてリロード速度がそれぞれ20%上昇する
+    - Language: Polish
+      String: Rakiety statku mają o 20% większy zasięg, prędkość lotu i przeładowania.
+    - Language: Portuguese_Brazil
+      String: Os mísseis da nave têm mais 20% de alcance, velocidade de deslocamento e velocidade de recarga.

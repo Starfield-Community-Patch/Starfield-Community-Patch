@@ -1,0 +1,434 @@
+FormKey: 2C53B2:Starfield.esm
+EditorID: Skill_EMWeaponSystems
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: EM-Waffensysteme
+  - Language: English
+    String: EM Weapon Systems
+  - Language: Spanish
+    String: Sis. armas electromagnéticas
+  - Language: French
+    String: Sys. armes EM
+  - Language: Italian
+    String: Armamenti EM
+  - Language: Japanese
+    String: EM兵器システム
+  - Language: Polish
+    String: Uzbrojenie EM
+  - Language: Portuguese_Brazil
+    String: Sistemas de Arma EM
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Schneller als durch Waffen mit elektromagnetischem Schaden lässt sich ein gegnerisches Schiff nicht ausschalten.
+  - Language: English
+    String: In the hands of a capable pilot, no weapons can disable an enemy ship faster than those that deliver electromagnetic damage.
+  - Language: Spanish
+    String: En manos de un buen piloto, ninguna arma es capaz de incapacitar una nave enemiga más rápido que las que infligen daño electromagnético.
+  - Language: French
+    String: Entre les mains d'un bon pilote, aucune arme ne peut neutraliser un vaisseau ennemi plus vite que celles capables d'infliger des dégâts électromagnétiques.
+  - Language: Italian
+    String: Nelle mani di un pilota capace, nessun’arma può disabilitare una nave nemica più velocemente di quelle che infliggono danni elettromagnetici.
+  - Language: Japanese
+    String: 有能なパイロットの手にかかれば、電磁ダメージは敵艦を最も素早く無力化させられる
+  - Language: Polish
+    String: W rękach zdolnego pilota żadna inna broń nie potrafi unieszkodliwić wrogiego statku szybciej niż ta, która powoduje uszkodzenia elektromagnetyczne.
+  - Language: Portuguese_Brazil
+    String: Nas mãos de pilotos capazes, não existe arma que incapacite uma nave mais rápido do que as que podem causar dano eletromagnético.
+Categroy: Tech
+SkillGroup: Master
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Technology_EMWeaponSystems
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 1.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 0.85
+  Activities:
+  - ATAN: Take Hit Damage
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: EM-Bordwaffen verursachen 10 % mehr Schaden und die Kosten im Zielmodus werden um 15 % verringert.
+      - Language: English
+        String: EM ship weapons have 10% increased damage and cost 15% less to use in Targeting Mode.
+      - Language: Spanish
+        String: Las armas electromagnéticas de la nave infligen un 10 % más de daño y el coste del modo de apuntado se reduce un 15 %.
+      - Language: French
+        String: Les armes électromagnétiques des vaisseaux infligent 10 % de dégâts supplémentaires et coûtent 15 % en moins en mode Ciblage.
+      - Language: Italian
+        String: Le armi EM della nave infliggono il 10% di danni in più e il costo per la modalità puntamento è ridotto del 15%.
+      - Language: Japanese
+        String: 船のEM兵器のダメージが10%上昇し、照準モード時の消費が15%減少する
+      - Language: Polish
+        String: Broń elektromagnetyczna statku powoduje o 10% więcej uszkodzeń, a jej użycie w trybie celowania kosztuje o 15% mniej.
+      - Language: Portuguese_Brazil
+        String: As armas EM da nave têm 10% a mais de dano e custam 15% menos para serem usadas no modo Mira.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions: []
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:A305B78B:0005E7B7:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "1000",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "true",
+      		"TrackShipHullDamage" : "true",
+      		"TrackShipShieldDamage" : "true",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.7
+  Activities:
+  - ATAN: Take Hit Damage
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: EM-Bordwaffen verursachen 20 % mehr Schaden und die Kosten im Zielmodus werden um 30 % verringert.
+      - Language: English
+        String: EM ship weapons have 20% increased damage and cost 30% less to use in Targeting Mode.
+      - Language: Spanish
+        String: Las armas electromagnéticas de la nave infligen un 20 % más de daño y el coste del modo de apuntado se reduce un 30 %.
+      - Language: French
+        String: Les armes électromagnétiques des vaisseaux infligent 20 % de dégâts supplémentaires et coûtent 30 % en moins en mode Ciblage.
+      - Language: Italian
+        String: Le armi EM della nave infliggono il 20% di danni in più e il costo per la modalità puntamento è ridotto del 30%.
+      - Language: Japanese
+        String: 船のEM兵器のダメージが20%上昇し、照準モード時の消費が30%減少する
+      - Language: Polish
+        String: Broń elektromagnetyczna statku powoduje o 20% więcej uszkodzeń, a jej użycie w trybie celowania kosztuje o 30% mniej.
+      - Language: Portuguese_Brazil
+        String: As armas EM da nave têm 20% a mais de dano e custam 30% menos para serem usadas no modo Mira.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions: []
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:AB2BB17F:0005E7B7:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "4000",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "true",
+      		"TrackShipHullDamage" : "true",
+      		"TrackShipShieldDamage" : "true",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 10
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 0.55
+  Activities:
+  - ATAN: Take Hit Damage
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: EM-Bordwaffen verursachen 30 % mehr Schaden und die Kosten im Zielmodus werden um 45 % verringert.
+      - Language: English
+        String: EM ship weapons have 30% increased damage and cost 45% less to use in Targeting Mode.
+      - Language: Spanish
+        String: Las armas electromagnéticas de la nave infligen un 30 % más de daño y el coste del modo de apuntado se reduce un 45 %.
+      - Language: French
+        String: Les armes électromagnétiques des vaisseaux infligent 30 % de dégâts supplémentaires et coûtent 45 % en moins en mode Ciblage.
+      - Language: Italian
+        String: Le armi EM della nave infliggono il 30% di danni in più e il costo per la modalità puntamento è ridotto del 45%.
+      - Language: Japanese
+        String: 船のEM兵器のダメージが30%上昇し、照準モード時の消費が45%減少する
+      - Language: Polish
+        String: Broń elektromagnetyczna statku powoduje o 30% więcej uszkodzeń, a jej użycie w trybie celowania kosztuje o 45% mniej.
+      - Language: Portuguese_Brazil
+        String: As armas EM da nave têm 30% a mais de dano e custam 45% menos para serem usadas no modo Mira.
+    ProgressionEvalutor:
+    - Name: Source
+      Conditions: []
+    - Name: Target
+      Conditions: []
+    - Name: Weapon
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+    - Name: Aggressor
+      Conditions: []
+    ANAM: res:AE13935A:0005E7B7:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "10000",
+      		"TrackCriticalsOnly" : "false",
+      		"TrackElectroMagneticDamage" : "false",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackHealthDamage" : "true",
+      		"TrackShipHullDamage" : "true",
+      		"TrackShipShieldDamage" : "true",
+      		"TrackSneakAttacksOnly" : "false",
+      		"TrackTarget" : "TrackOnAggressor"
+      	},
+      	"Type" : "BGSTakeDamageActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ApplyCombatHitSpell
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Spell: 152D07:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 0.55
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: EM-Bordwaffen haben eine kleine Chance, gegnerische Antriebe sofort auszuschalten.
+    - Language: English
+      String: EM ship weapons have a small chance of instantly disabling enemy engines.
+    - Language: Spanish
+      String: Las armas electromagnéticas de la nave tienen una probabilidad de desactivar los motores del enemigo.
+    - Language: French
+      String: Les armes EM de vaisseau ont une légère chance de désactiver instantanément les moteurs ennemis.
+    - Language: Italian
+      String: Le armi EM della nave hanno una piccola probabilità di disattivare istantaneamente i motori nemici.
+    - Language: Japanese
+      String: 船のEM兵器が低確率で敵船のエンジンを即座に無力化する
+    - Language: Polish
+      String: Broń elektromagnetyczna statku ma niewielką szansę na natychmiastowe wyłączenie silników wroga.
+    - Language: Portuguese_Brazil
+      String: As armas EM da nave têm uma pequena chance de desativar instantaneamente os motores inimigos.

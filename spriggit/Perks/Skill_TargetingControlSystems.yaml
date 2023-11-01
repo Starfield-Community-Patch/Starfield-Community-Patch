@@ -1,0 +1,291 @@
+FormKey: 2C5559:Starfield.esm
+EditorID: Skill_TargetingControlSystems
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Zielsteuerungssysteme
+  - Language: English
+    String: Targeting Control Systems
+  - Language: Spanish
+    String: Control de puntería
+  - Language: French
+    String: Systèmes de ciblage
+  - Language: Italian
+    String: Controllo puntamento
+  - Language: Japanese
+    String: 照準制御システム
+  - Language: Polish
+    String: Systemy celownicze
+  - Language: Portuguese_Brazil
+    String: Sist. Controle de Mira
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Raketenwaffen sind so beliebt, weil sie ein gegnerisches Schiff automatisch als Ziel erfassen können. Eine genaue Kenntnis der Zielerfassungssysteme kann ihre Effektivität aber noch steigern.
+  - Language: English
+    String: Missile weapons are favored because they can lock onto an enemy ship, but an intimate knowledge of tracking systems can make them even more effective.
+  - Language: Spanish
+    String: Las armas de misiles gustan más porque pueden fijar a la nave enemiga, pero con un buen conocimiento de los sistemas de seguimiento pueden volverse aún más efectivas.
+  - Language: French
+    String: Les armes à missiles sont appréciées pour leur capacité à verrouiller les vaisseaux ennemis, mais une connaissance approfondie des systèmes de ciblage peut les rendre encore plus efficaces.
+  - Language: Italian
+    String: Le armi missilistiche sono apprezzate perché possono agganciare una nave nemica, ma una profonda conoscenza dei sistemi di tracciamento può renderle ancora più efficaci.
+  - Language: Japanese
+    String: ミサイル兵器は敵の船にロックオンできるため人気があるが、追跡システムを詳細に理解すれば、より効果的に使用できるようになる
+  - Language: Polish
+    String: Broń rakietowa jest lubiana z powodu możliwości namierzania wrogich statków, ale dogłębna znajomość systemów namierzania może jeszcze bardziej zwiększyć jej efektywność.
+  - Language: Portuguese_Brazil
+    String: As armas de mísseis são favorecidas pois podem ter sua mira travada em uma nave inimiga, e o conhecimento aprofundado dos sistemas de rastreamento as tornam ainda mais efetivas.
+Categroy: Tech
+SkillGroup: Basic
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Technology_TargetingControlSystems
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: EnablePlayerShipTargetingMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 4
+    Value: 1
+  Activities:
+  - ATAN: Destroy Ship
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Schaltet die Zielfunktion des Schiffs frei.
+      - Language: English
+        String: Unlocks ship targeting functionality.
+      - Language: Spanish
+        String: Desbloquea la función de apuntado de la nave.
+      - Language: French
+        String: Débloque la fonctionnalité de ciblage de vaisseau.
+      - Language: Italian
+        String: Sblocca la funzionalità di puntamento della nave.
+      - Language: Japanese
+        String: 宇宙船のロックオン機能を解除する
+      - Language: Polish
+        String: Odblokowuje funkcję brania statków na cel.
+      - Language: Portuguese_Brazil
+        String: Desbloqueia a funcionalidade de mira da nave.
+    ProgressionEvalutor:
+    - Name: Attack Pilot
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsPlayerInShipTargetingModeConditionData
+        ComparisonValue: 1
+    - Name: Default Target
+      Conditions: []
+    - Name: Destroyed Ship
+      Conditions: []
+    - Name: Attack Ship
+      Conditions: []
+    ANAM: res:F382CBFB:0005E881:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "5"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Ability: 123C01:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: EnablePlayerShipTargetingMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 5
+    Value: 1
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 1
+    Priority: 2
+    EntryPoint: ApplySpellonSpaceshipTargetLockAcquired
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Spell: 147BE8:Starfield.esm
+  Activities:
+  - ATAN: Destroy Ship
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Zeit, um gegnerische Schiffe anzuvisieren, ist um 15 % reduziert. Erfasste Schiffe feuern 25 % langsamer auf dich.
+      - Language: English
+        String: Time to lock onto enemy ships is reduced by 15%. Target-locked ships fire at you 25% slower.
+      - Language: Spanish
+        String: El tiempo de fijación de naves enemigas se reduce un 15 %. Las naves fijadas como objetivos disparan un 25 % más lento.
+      - Language: French
+        String: Réduit de 15 % le temps nécessaire pour verrouiller les vaisseaux ennemis. Vitesse d'attaque des vaisseaux verrouillés réduite de 25 % contre vous.
+      - Language: Italian
+        String: Il tempo di aggancio delle navi nemiche è ridotto del 15%. Le navi agganciate ti sparano il 25% più lentamente.
+      - Language: Japanese
+        String: 敵船にロックオンするのに要する時間が15%減少する。ターゲットロックオンした宇宙船の発射速度が25%減少する
+      - Language: Polish
+        String: Czas namierzania statków wroga spada o 15%. Namierzone statki strzelają do ciebie o 25% wolniej.
+      - Language: Portuguese_Brazil
+        String: O tempo para travar a mira nas naves inimigas é 15% menor. Naves sob mira travada disparam a uma velocidade 25% menor.
+    ProgressionEvalutor:
+    - Name: Attack Pilot
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsPlayerInShipTargetingModeConditionData
+        ComparisonValue: 1
+    - Name: Default Target
+      Conditions: []
+    - Name: Destroyed Ship
+      Conditions: []
+    - Name: Attack Ship
+      Conditions: []
+    ANAM: res:F7590F2D:0005E881:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "15"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Ability: 2CCF94:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: EnablePlayerShipTargetingMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 6
+    Value: 1
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 2
+    Priority: 2
+    EntryPoint: ApplySpellonSpaceshipTargetLockAcquired
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Spell: 147BE8:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 3
+    EntryPoint: ModCriticalChanceonTargetLockedSpaceship
+    PerkConditionTabCount: 2
+    PerkEntryID: 9
+    Modification: Add
+    Value: 10
+  Activities:
+  - ATAN: Destroy Ship
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Zeit, um gegnerische Schiffe anzuvisieren, ist um 30 % reduziert. Deine Chance, ein erfasstes Schiff kritisch zu treffen, ist um 10 % erhöht.
+      - Language: English
+        String: Time to lock onto enemy ships is reduced by 30%. You have a 10% increased chance of critically hitting a target-locked ship.
+      - Language: Spanish
+        String: El tiempo de fijación de naves enemigas se reduce un 30 %. Tienes un 10 % más de probabilidad de asestar un golpe crítico a una nave fijada como objetivo.
+      - Language: French
+        String: Réduit de 30 % le temps nécessaire pour verrouiller les vaisseaux ennemis. Augmente de 10 % les chances de coup critique contre un vaisseau verrouillé.
+      - Language: Italian
+        String: Il tempo di aggancio delle navi nemiche è ridotto del 30%. La probabilità di infliggere colpi critici alle navi agganciate è aumentata del 10%.
+      - Language: Japanese
+        String: 敵船にロックオンするのに要する時間が30%減少する。ターゲットロックオンした宇宙船にクリティカルヒットを与える確率が10%向上する
+      - Language: Polish
+        String: Czas namierzania statków wroga spada o 30%. Masz o 10% większą szansę na trafienie krytyczne namierzonego statku.
+      - Language: Portuguese_Brazil
+        String: O tempo para travar a mira nas naves inimigas é 30% menor. Você tem uma chance 10% maior de causar dano crítico quando trava a mira em uma nave.
+    ProgressionEvalutor:
+    - Name: Attack Pilot
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsPlayerInShipTargetingModeConditionData
+        ComparisonValue: 1
+    - Name: Default Target
+      Conditions: []
+    - Name: Destroyed Ship
+      Conditions: []
+    - Name: Attack Ship
+      Conditions: []
+    ANAM: res:F8B1940F:0005E881:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "30"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 2CCF95:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: EnablePlayerShipTargetingMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 7
+    Value: 1
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Priority: 2
+    EntryPoint: ApplySpellonSpaceshipTargetLockAcquired
+    PerkConditionTabCount: 2
+    PerkEntryID: 8
+    Spell: 147BE8:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 3
+    EntryPoint: ModCriticalChanceonTargetLockedSpaceship
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Add
+    Value: 10
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Priority: 4
+    Ability: 15C59B:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Die Zeit, um gegnerische Schiffe anzuvisieren, ist um 60 % reduziert. Der im Zielmodus verursachte Systemschaden ist um 20 % erhöht.
+    - Language: English
+      String: Time to lock onto enemy ships is reduced by 60%. Deal 20% increased system damage in targeting mode.
+    - Language: Spanish
+      String: El tiempo de fijación de naves enemigas se reduce un 60 %. El daño de los sistemas en el modo de apuntado aumenta un 20 %.
+    - Language: French
+      String: Réduit de 60 % le temps nécessaire pour verrouiller les vaisseaux ennemis. Vous infligez 20 % de dégâts supplémentaires aux systèmes en mode Ciblage.
+    - Language: Italian
+      String: Il tempo di aggancio delle navi nemiche è ridotto del 60%. Infliggi il 20% di danni ai sistemi in più in modalità puntamento.
+    - Language: Japanese
+      String: 敵船にロックオンするのに要する時間が60%減少する。照準モード時にシステムに与えるダメージが20%増加する
+    - Language: Polish
+      String: Czas namierzania statków wroga spada o 60%. Uszkodzenia powodowane w trybie celowania są wyższe o 20%.
+    - Language: Portuguese_Brazil
+      String: O tempo para travar a mira nas naves inimigas é 60% menor. Cause 20% mais dano no sistema no modo Mira.

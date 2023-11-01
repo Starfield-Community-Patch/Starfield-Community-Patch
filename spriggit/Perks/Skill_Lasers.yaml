@@ -1,0 +1,373 @@
+FormKey: 2C59DD:Starfield.esm
+EditorID: Skill_Lasers
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Laser
+  - Language: English
+    String: Lasers
+  - Language: Spanish
+    String: Láseres
+  - Language: French
+    String: Lasers
+  - Language: Italian
+    String: Laser
+  - Language: Japanese
+    String: レーザー
+  - Language: Polish
+    String: Lasery
+  - Language: Portuguese_Brazil
+    String: Lasers
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Persönliche Laserwaffen sind in den Besiedelten Systemen weitverbreitet. Durch eine spezialisierte Ausbildung kann ihre Effektivität stark gesteigert werden.
+  - Language: English
+    String: Personal laser weapons are in widespread use across the Settled Systems, and specialized training can greatly increase their effectiveness.
+  - Language: Spanish
+    String: El uso de armas láser personales está muy extendido por los Sistemas Colonizados, y un entrenamiento especializado puede mejorar en gran medida su efectividad.
+  - Language: French
+    String: Les armes laser personnelles sont extrêmement répandues dans les Systèmes occupés, et un entraînement spécialisé permet d'en améliorer grandement l'efficacité.
+  - Language: Italian
+    String: Le armi laser personali sono ampiamente utilizzate nei Sistemi Colonizzati e l’addestramento specializzato può aumentarne notevolmente l’efficacia.
+  - Language: Japanese
+    String: 有人星系では個人用のレーザー兵器が普及しているが、これに特化した訓練を受けると、より効果的に扱えるようになる
+  - Language: Polish
+    String: Osobista broń laserowa jest w szerokim użyciu w Zasiedlonych Układach. Przejście specjalistycznego szkolenia pozwala znacznie zwiększyć jej efektywność.
+  - Language: Portuguese_Brazil
+    String: Armas a laser pessoais são amplamente utilizadas por todos os Sistemas Colonizados, e o treino especializado nelas pode aumentar em muito sua efetividade.
+Categroy: Combat
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_Lasers
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 092A84:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.1
+  Activities:
+  - ATAN: Kill
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Laser
+      - Language: English
+        String: Lasers
+      - Language: Spanish
+        String: Láseres
+      - Language: French
+        String: Lasers
+      - Language: Italian
+        String: Laser
+      - Language: Japanese
+        String: レーザー
+      - Language: Polish
+        String: Lasery
+      - Language: Portuguese_Brazil
+        String: Lasers
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Laserwaffen verursachen 10 % mehr Schaden.
+      - Language: English
+        String: Laser weapons do 10% more damage.
+      - Language: Spanish
+        String: Las armas láser infligen un 10 % más de daño.
+      - Language: French
+        String: Les armes laser infligent 10 % de dégâts supplémentaires.
+      - Language: Italian
+        String: Le armi laser infliggono il 10% di danni in più.
+      - Language: Japanese
+        String: レーザー兵器のダメージが10%増加する
+      - Language: Polish
+        String: Broń laserowa zadaje o 10% więcej obrażeń.
+      - Language: Portuguese_Brazil
+        String: Armas a laser causam 10% a mais de dano.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 092A84:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 2
+        ComparisonValue: 1
+    ANAM: res:4C1BFE45:0005A849:A791608D
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "20"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 092A84:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.2
+  Activities:
+  - ATAN: Kill
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Laser
+      - Language: English
+        String: Lasers
+      - Language: Spanish
+        String: Láseres
+      - Language: French
+        String: Lasers
+      - Language: Italian
+        String: Laser
+      - Language: Japanese
+        String: レーザー
+      - Language: Polish
+        String: Lasery
+      - Language: Portuguese_Brazil
+        String: Lasers
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Laserwaffen verursachen 20 % mehr Schaden.
+      - Language: English
+        String: Laser weapons do 20% more damage.
+      - Language: Spanish
+        String: Las armas láser infligen un 20 % más de daño.
+      - Language: French
+        String: Les armes laser infligent 20 % de dégâts supplémentaires.
+      - Language: Italian
+        String: Le armi laser infliggono il 20% di danni in più.
+      - Language: Japanese
+        String: レーザー兵器のダメージが20%増加する
+      - Language: Polish
+        String: Broń laserowa zadaje o 20% więcej obrażeń.
+      - Language: Portuguese_Brazil
+        String: Armas a laser causam 20% a mais de dano.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 2
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 092A84:Starfield.esm
+        ComparisonValue: 1
+    ANAM: res:4E1EFCCD:0005A849:A791608D
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "50"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 092A84:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.3
+  Activities:
+  - ATAN: Kill
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Laser
+      - Language: English
+        String: Lasers
+      - Language: Spanish
+        String: Láseres
+      - Language: French
+        String: Lasers
+      - Language: Italian
+        String: Laser
+      - Language: Japanese
+        String: レーザー
+      - Language: Polish
+        String: Lasery
+      - Language: Portuguese_Brazil
+        String: Lasers
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Laserwaffen verursachen 30 % mehr Schaden.
+      - Language: English
+        String: Laser weapons do 30% more damage.
+      - Language: Spanish
+        String: Las armas láser infligen un 30 % más de daño.
+      - Language: French
+        String: Les armes laser infligent 30 % de dégâts supplémentaires.
+      - Language: Italian
+        String: Le armi laser infliggono il 30% di danni in più.
+      - Language: Japanese
+        String: レーザー兵器のダメージが30%増加する
+      - Language: Polish
+        String: Broń laserowa zadaje o 30% więcej obrażeń.
+      - Language: Portuguese_Brazil
+        String: Armas a laser causam 30% a mais de dano.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 2
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 092A84:Starfield.esm
+        ComparisonValue: 1
+    ANAM: res:4F743E98:0005A849:A791608D
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "100"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 092A84:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 5
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 092A84:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ApplyCombatHitSpell
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Spell: 13DEAB:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Laserwaffen haben eine Chance von 5 %, ein Ziel in Brand zu setzen.
+    - Language: English
+      String: Laser weapons have a 5% chance to set a target on fire.
+    - Language: Spanish
+      String: Las armas láser tienen un 5 % de probabilidad de prender fuego al objetivo.
+    - Language: French
+      String: Les armes laser ont 5 % de chances d'enflammer la cible.
+    - Language: Italian
+      String: Le armi laser hanno una probabilità del 5% di incendiare il bersaglio.
+    - Language: Japanese
+      String: レーザー兵器が5%の確率でターゲットを炎上させる
+    - Language: Polish
+      String: Broń laserowa ma 5% szans na podpalenie celu.
+    - Language: Portuguese_Brazil
+      String: Armas a laser têm 5% de chance de incendiar o alvo.

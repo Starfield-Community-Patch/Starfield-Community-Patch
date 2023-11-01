@@ -1,0 +1,618 @@
+FormKey: 2C59DA:Starfield.esm
+EditorID: Skill_Targeting
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Zielen
+  - Language: English
+    String: Targeting
+  - Language: Spanish
+    String: Preciso
+  - Language: French
+    String: Visée
+  - Language: Italian
+    String: Puntamento
+  - Language: Japanese
+    String: 照準
+  - Language: Polish
+    String: Pewna ręka
+  - Language: Portuguese_Brazil
+    String: Guiada
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Präzises Zielen ist im Kampf zwar meist vorzuziehen, doch das „Schießen aus der Hüfte“ kann mit ausreichend Übung eine schnelle und tödliche Alternative darstellen.
+  - Language: English
+    String: While careful aiming is generally preferred in combat, "shooting from the hip" can prove a fast and deadly alternative with sufficient training.
+  - Language: Spanish
+    String: Aunque normalmente se suele apuntar en combate, “disparar desde la cadera” puede ser una alternativa rápida y letal con el adiestramiento suficiente.
+  - Language: French
+    String: Bien qu'il soit généralement préférable de viser en situation de combat, les “tirs au jugé” sont parfois une alternative parfaitement efficace avec suffisamment d'entraînement.
+  - Language: Italian
+    String: Sebbene sparare prendendo la mira sia generalmente preferibile, farlo “senza prendere la mira” può rivelarsi un’alternativa altrettanto rapida e letale a patto di avere una preparazione adeguata.
+  - Language: Japanese
+    String: 通常、戦闘では慎重に狙いを定めることが推奨されているが、十分な訓練を受ければ"腰だめ撃ち"は素早く恐ろしい攻撃手段となる
+  - Language: Polish
+    String: Mimo że w walce lepiej jest uważnie celować, „strzelanie z biodra” po odpowiednim przeszkoleniu stanowi szybką, zabójczą alternatywę.
+  - Language: Portuguese_Brazil
+    String: Apesar de normalmente ser preferível mirar com cuidado em combates, atirar sem perder tempo para mirar pode ser uma alternativa letal para os bem treinados.
+Categroy: Combat
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_Targeting
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ModConeoffireMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.95
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionGlobal
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetValueConditionData
+          FirstParameter: 502325
+        ComparisonValue: 07F5AF:Starfield.esm
+    EntryPoint: ApplyCombatHitSpellAttacker
+    PerkConditionTabCount: 1
+    PerkEntryID: 6
+    Spell: 07AA32:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ModGunRangeMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.1
+  Activities:
+  - ATAN: Kill
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Erhöhte Präzision und Reichweite, wenn du ohne zu zielen schießt. Markiert bis zu einen Gegner innerhalb von 25 m, der dir Schaden zufügt.
+      - Language: English
+        String: Increased accuracy and range when shooting without aiming. Marks up to one enemy within 25m that damages you.
+      - Language: Spanish
+        String: Aumenta la precisión y el alcance al disparar sin apuntar. Marca a un enemigo que te dañe en un radio de 25 m.
+      - Language: French
+        String: Précision et portée des tirs au jugé améliorées. Marque un ennemi dans un rayon de 25 mètres.
+      - Language: Italian
+        String: Precisione e portata aumentate quando spari senza prendere la mira. Marca un nemico entro 25 m che ti sta attaccando.
+      - Language: Japanese
+        String: 照準を使用しない攻撃の精度が上昇し、射程も延びる。25m以内で攻撃を当ててきた敵を1体までマーキングする
+      - Language: Polish
+        String: Zwiększa celność i zasięg przy oddawaniu strzału bez celowania. Oznacza maksymalnie jednego wroga w odległości do 25 m, który zadaje ci obrażenia.
+      - Language: Portuguese_Brazil
+        String: Aumenta a precisão e o alcance ao disparar sem mirar. Marca até um inimigo que tenha lhe causado dano e esteja a até 25 metros de você.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 2
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 1
+        ComparisonValue: 1
+    ANAM: res:90EF0A7B:0005A849:A791608D
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "50"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 2
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ModConeoffireMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 0.9
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionGlobal
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetValueConditionData
+          FirstParameter: 502325
+        ComparisonValue: 07E7AB:Starfield.esm
+    EntryPoint: ApplyCombatHitSpellAttacker
+    PerkConditionTabCount: 1
+    PerkEntryID: 12
+    Spell: 07AA30:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 2
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ModGunRangeMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.2
+  Activities:
+  - ATAN: Kill
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Merklich erhöhte Präzision und Reichweite, wenn du ohne zu zielen schießt. Markiert bis zu zwei Gegner innerhalb von 50 m, die dir Schaden zufügen.
+      - Language: English
+        String: Notably increased accuracy and range when shooting without aiming. Marks up to two enemies within 50m that damage you.
+      - Language: Spanish
+        String: Aumenta notablemente la precisión y el alcance al disparar sin apuntar. Marca a hasta tres enemigos que te dañen en un radio de 50 m.
+      - Language: French
+        String: Précision et portée des tirs au jugé nettement améliorées. Marque jusqu'à deux ennemis dans un rayon de 50 mètres.
+      - Language: Italian
+        String: Precisione e portata percettibilmente aumentate quando spari senza prendere la mira. Marca fino a due nemici entro 50 m che ti stanno attaccando.
+      - Language: Japanese
+        String: 照準を使用しない攻撃の精度が著しく上昇し、射程も著しく延びる。50m以内で攻撃を当ててきた敵を2体までマーキングする
+      - Language: Polish
+        String: Zauważalnie zwiększa celność i zasięg przy oddawaniu strzału bez celowania. Oznacza maksymalnie dwóch wrogów w odległości do 50 m, którzy zadają ci obrażenia.
+      - Language: Portuguese_Brazil
+        String: Aumenta consideravelmente a precisão e o alcance ao disparar sem mirar. Marca até dois inimigos que tenham lhe causado dano e estejam a até 50 metros de você.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 2
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 1
+        ComparisonValue: 1
+    ANAM: res:92F85356:0005A849:A791608D
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "125"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 3
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ModConeoffireMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 0.85
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionGlobal
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetValueConditionData
+          FirstParameter: 502325
+        ComparisonValue: 13BA59:Starfield.esm
+    EntryPoint: ApplyCombatHitSpellAttacker
+    PerkConditionTabCount: 1
+    PerkEntryID: 13
+    Spell: 07AA2E:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 3
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ModGunRangeMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.3
+  Activities:
+  - ATAN: Kill
+    Name:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Zielen
+      - Language: English
+        String: Targeting
+      - Language: Spanish
+        String: Preciso
+      - Language: French
+        String: Visée
+      - Language: Italian
+        String: Puntamento
+      - Language: Japanese
+        String: 照準
+      - Language: Polish
+        String: Pewna ręka
+      - Language: Portuguese_Brazil
+        String: Guiada
+    Description:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Stark erhöhte Präzision und Reichweite, wenn du ohne zu zielen schießt. Markiert bis zu drei Gegner innerhalb von 75 m, die dir Schaden zufügen.
+      - Language: English
+        String: Greatly increased accuracy and range when shooting without aiming. Marks up to three enemies within 75m that damage you.
+      - Language: Spanish
+        String: Aumenta en gran medida la precisión y el alcance al disparar sin apuntar. Marca a hasta tres enemigos que te dañen en un radio de 75 m.
+      - Language: French
+        String: Précision et portée des tirs au jugé grandement améliorées. Marque jusqu'à trois ennemis dans un rayon de 75 mètres.
+      - Language: Italian
+        String: Precisione e portata notevolmente aumentate quando spari senza prendere la mira. Marca fino a tre nemici entro 75 m che ti stanno attaccando.
+      - Language: Japanese
+        String: 照準を使用しない攻撃の精度が大幅に上昇し、射程も大幅に延びる。75m以内で攻撃を当ててきた敵を3体までマーキングする
+      - Language: Polish
+        String: Znacząco zwiększa celność i zasięg przy oddawaniu strzału bez celowania. Oznacza maksymalnie trzech wrogów w odległości do 75 m, którzy zadają ci obrażenia.
+      - Language: Portuguese_Brazil
+        String: Aumenta em muito a precisão e o alcance ao disparar sem mirar. Marca até três inimigos que tenham lhe causado dano e estejam a até 75 metros de você.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 2
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetCauseofDeathConditionData
+          RunOnType: Target
+          FirstParameter: 1
+        ComparisonValue: 1
+    ANAM: res:5A029364:0005D9BE:A62F4552
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"Repetitions" : "250"
+      	},
+      	"Type" : "BGSActivity"
+      }
+    ATAF: '[]'
+  Description:
+    TargetLanguage: English
+    Value: ''
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 4
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ModConeoffireMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 0.85
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionGlobal
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetValueConditionData
+          FirstParameter: 502325
+        ComparisonValue: 13BA5A:Starfield.esm
+    EntryPoint: ApplyCombatHitSpellAttacker
+    PerkConditionTabCount: 1
+    PerkEntryID: 14
+    Spell: 07AA2C:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 4
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ModGunRangeMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Priority: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 4
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ApplyCombatHitSpell
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Spell: 0A9003:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Chance von 10 %, getroffene Ziele durch ungezielte Schüsse zu entwaffnen. Markiert bis zu fünf Gegner innerhalb von 100 m, die dir Schaden zufügen.
+    - Language: English
+      String: 10% chance to disarm targets hit when shooting without aiming. Marks up to four enemies within 100m that damage you.
+    - Language: Spanish
+      String: 10 % de probabilidad de desarmar al objetivo alcanzado al disparar sin apuntar. Marca a hasta cuatro enemigos que te dañen en un radio de 100 m.
+    - Language: French
+      String: 10 % de chances de désarmer les adversaires en tirant au jugé. Marque jusqu'à quatre ennemis dans un rayon de 100 mètres.
+    - Language: Italian
+      String: 10% di probabilità di disarmare i bersagli colpiti quando spari senza prendere la mira. Marca fino a quattro nemici entro 100 m che ti stanno attaccando.
+    - Language: Japanese
+      String: 照準を使用せずに攻撃を命中させると、10%の確率でターゲットを武装解除させる。100m以内で攻撃を当ててきた敵を4体までマーキングする
+    - Language: Polish
+      String: Zapewnia 10% szans na rozbrojenie przeciwników przy oddawaniu strzału bez celowania. Oznacza maksymalnie czterech wrogów w odległości do 100 m, którzy zadają ci obrażenia.
+    - Language: Portuguese_Brazil
+      String: 10% de chance de desarmar alvos ao disparar sem mirar. Marca até quatro inimigos que tenham lhe causado dano e estejam a até 100 metros de você.

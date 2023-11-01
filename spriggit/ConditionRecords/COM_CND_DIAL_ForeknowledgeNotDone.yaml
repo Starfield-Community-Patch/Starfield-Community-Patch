@@ -1,0 +1,9 @@
+FormKey: 000800:StarfieldCommunityPatch.esm
+EditorID: COM_CND_DIAL_ForeknowledgeNotDone
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 017CE8:Starfield.esm
+    SecondParameter: 2000
