@@ -31,6 +31,7 @@ When adding items to the changelog try and use the template below:
 - Fixed a discrepancy between the subtitle and spoken dialogue. [00330386] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/465)
 - Fixed a extra comma in dialogue subtitles. [00087C74] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/466)
 - Fixed a extra word in a dialogue line ("going"). [00021C749] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/467)
+- Fixed a grammatical error in the description of the GRUNT magazine perks [0021D059] - [Reported by Murvel3000](https://www.starfieldpatch.dev/issues/510)
 
 
 ## [2023-10-28] Version 0.0.2
