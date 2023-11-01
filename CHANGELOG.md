@@ -10,6 +10,7 @@ When adding items to the changelog try and use the template below:
 ## [Unreleased] Version 0.0.3
 - After finishing the quest "Bare Metal" Styx will no longer be covered in graffiti when displaying the dialogue option "How do you feel now that you're all cleaned up?" [000A91FE] [000A920E] - [Fix contributed by Krevil](https://www.nexusmods.com/starfield/users/1051880) - [Reported by WidgitLabs](https://www.starfieldpatch.dev/issues/32)
 - HopeTech guards no longer remain hostile after completing "The Hammer Falls" and choosing to attack Ron Hope. [qf_fc09_001a54f9] - [Fix contributed by Aurelianis](https://github.com/Starfield-Community-Patch/Starfield-Community-Patch/pull/512) - [Reported by EgoBallistic](https://www.starfieldpatch.dev/issues/344)
+- Mannequins will now spawn at the same level as the player rather than always being level 1. This will allow for proper levelled space suits to appear in their inventory. [001EE4D6] [Fix contributed by Livelynightmare](https://www.nexusmods.com/starfield/users/1872172) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6237) - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/513)
 
 
 ## [2023-10-28] Version 0.0.2
