@@ -53,22 +53,14 @@ Function Fragment_Stage_0007_Item_00()
   Self.SetObjectiveDisplayed(10, True, False)
   MQ_TurnOnTemples.SetValueInt(1)
   Alias_EyeScanner.GetRef().Disable(False)
-  If Alias_PlanetUnexploredTraitClose.GetLocation() == None && Alias_PlanetExploredTrait.GetLocation() == None
-    If Alias_PlayerShip.GetShipReference().GetGravJumpRange() < 28.0
-      Self.SetStage(12)
-    EndIf
-  EndIf
+  Alias_PlanetUnexploredTraitClose.GetLocation() == None && Alias_PlanetExploredTrait.GetLocation() == None && Alias_PlayerShip.GetShipReference().GetGravJumpRange() < 28.0 && Self.SetStage(12)
 EndFunction
 
 Function Fragment_Stage_0010_Item_00()
   Self.SetObjectiveCompleted(3, True)
   Self.SetObjectiveDisplayed(10, True, False)
   MQ_TurnOnTemples.SetValueInt(1)
-  If Alias_PlanetUnexploredTraitClose.GetLocation() == None && Alias_PlanetExploredTrait.GetLocation() == None
-    If Alias_PlayerShip.GetShipReference().GetGravJumpRange() < 28.0
-      Self.SetStage(12)
-    EndIf
-  EndIf
+  Alias_PlanetUnexploredTraitClose.GetLocation() == None && Alias_PlanetExploredTrait.GetLocation() == None && Alias_PlayerShip.GetShipReference().GetGravJumpRange() < 28.0 && Self.SetStage(12)
 EndFunction
 
 Function Fragment_Stage_0012_Item_00()

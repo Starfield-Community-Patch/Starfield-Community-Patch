@@ -8,6 +8,11 @@ When adding items to the changelog try and use the template below:
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
 ## [Unreleased] Version 0.0.3
+- Power from Beyond - Fixed quest markers not appearing, making it impossible to locate the temples. - [Fix contributed by Aurelianis](https://www.nexusmods.com/starfield/users/143884143) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6206) - [Reported by sebbyt](https://www.starfieldpatch.dev/issues/398)
+  - Updated the primary object (10) to say "Travel to `<Planet Name>`" rather than "Acquire the Power on `<Planet Name>`". This object now completes when arriving in orbit above the planet.
+  - Added a new objective (11) "Land at the Scanner Anomaly" which completes after leaving your ship on the surface.
+  - Added a new objective (12) "Follow Distortions on the Scanner" which completes on entering the temple. 
+  - Added a new objective (13) "Acquire the Power on `<Planet Name>`" which completes after solving the temple puzzle. 
 - Radiation damage was using the incorrect resistance value (Corrosive instead of Radiation) [0021BBD4] [002218DF] - [Reported by Naith](https://www.starfieldpatch.dev/issues/368)
 - The "Soak" environmental debuff was using the incorrect resistance value (Corrosive instead of Thermal) [003CBFE0] [001F7630] - [Reported by Naith](https://www.starfieldpatch.dev/issues/368)
 - After finishing the quest "Bare Metal" Styx will no longer be covered in graffiti when displaying the dialogue option "How do you feel now that you're all cleaned up?" [000A91FE] [000A920E] - [Fix contributed by Krevil](https://www.nexusmods.com/starfield/users/1051880) - [Reported by WidgitLabs](https://www.starfieldpatch.dev/issues/32)
