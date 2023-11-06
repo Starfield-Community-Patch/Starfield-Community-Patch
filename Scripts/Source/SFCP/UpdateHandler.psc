@@ -12,7 +12,11 @@ GlobalVariable Property SFCP_Version_Patch Auto Const
 string sCurrentVersion = ""
 ; What is the last saved version we have seen? 
 bool b001UndiscoveredTemplesFix = false
-; https://www.starfieldpatch.dev/issues/231 [00214707]
+; https://www.starfieldpatch.dev/issues/231
+bool b001CoraCoeFix = false
+; https://www.starfieldpatch.dev/issues/369
+bool b001CoeEstateFix = false
+; https://www.starfieldpatch.dev/issues/370
 
 ;-- Functions ---------------------------------------
 
@@ -39,8 +43,11 @@ Function ApplyMissingFixes(string sNewVersion)
     int minor = SFCP_Version_Minor.GetValue() as Int
     int patch = SFCP_Version_Patch.GetValue() as Int
 
+    ; Get NG+ count as this will be reused. 
+    int iTimesEnteredUnity = GetTimesEnteredUnity()
+
     ; Fix for https://www.starfieldpatch.dev/issues/231
-    if (!b001UndiscoveredTemplesFix || (CurrentVersionGTE(0,0,1) ))
+    if (!b001UndiscoveredTemplesFix || (CurrentVersionGTE(0,0,1)))
         SFCPUtil.WriteLog("Recounting undiscovered temples")
         StarbornTempleQuestScript templeManager = Game.GetForm(0x00214707) as StarbornTempleQuestScript
         int iDifference = templeManager.RecountUndiscoveredLocations()
@@ -49,8 +56,50 @@ Function ApplyMissingFixes(string sNewVersion)
         else
             SFCPUtil.WriteLog("Undiscovered temples are correct. Fix skipped.")
         endif
-        b001UndiscoveredTemplesFix = true
+        b001UndiscoveredTemplesFix = True
     endif
+
+    ; Fix for https://github.com/Starfield-Community-Patch/Starfield-Community-Patch/issues/369
+    if (!b001CoraCoeFix || (CurrentVersionGTE(0,0,1)))
+        Quest CREW_EliteCrewCoraCoe = Game.GetForm(0x00187A2C) as Quest
+        if (iTimesEnteredUnity > 0 && !CREW_EliteCrewCoraCoe.IsRunning())
+            SFCPUtil.WriteLog("Starting Cora Coe crew quest")
+            CREW_EliteCrewCoraCoe.Start()
+        else 
+            SFCPUtil.WriteLog("Cora Coe crew quest does not need to be manually started. Skipping Fix.")
+        endif
+        b001CoraCoeFix = True
+    endif
+
+    ; Fix for https://github.com/Starfield-Community-Patch/Starfield-Community-Patch/issues/370
+    if (!b001CoeEstateFix || (CurrentVersionGTE(0,0,1)))
+        ObjectReference CoeEstateFrontDoorREF = Game.GetForm(0x002FC83E) as ObjectReference
+        GlobalVariable MQ401_SkipMQ = Game.GetForm(0x0017E006) as GlobalVariable
+        ; Check if the player has entered Unity and if the doors are locked after skipping the main quest
+        if (iTimesEnteredUnity > 0 && CoeEstateFrontDoorREF.IsLocked() && MQ401_SkipMQ.GetValue() as Int == 1)
+            SFCPUtil.WriteLog("Unlocking Coe Estate doors")
+            ObjectReference CoeEstateBalconyDoorREF = Game.GetForm(0x002D044F) as ObjectReference
+            ObjectReference CoeEstateFirstFloorDoorREF = Game.GetForm(0x002FC753) as ObjectReference
+            ObjectReference CoeEstateFirstFloorDoorTwo = Game.GetForm(0x002D0418) as ObjectReference
+            Faction CoeEstateDoorFaction = Game.GetForm(0x001260C3) as Faction
+            ; Make the changes
+            CoeEstateBalconyDoorREF.Lock(False, False, True)
+            CoeEstateFrontDoorREF.Lock(False, False, True)
+            CoeEstateFirstFloorDoorREF.Lock(False, False, True)
+            CoeEstateFirstFloorDoorTwo.Lock(False, False, True)
+            Game.GetPlayer().AddToFaction(CoeEstateDoorFaction)
+        else
+            SFCPUtil.WriteLog("Coe Estate doors do not require unlocking.")
+        endif
+        b001CoeEstateFix = True
+    endif
+
+EndFunction
+
+int Function GetTimesEnteredUnity()
+    Actor player = Game.GetPlayer()
+    ActorValue PlayerUnityTimesEntered = Game.GetForm(0x00219529) as ActorValue
+    return player.GetValue(PlayerUnityTimesEntered) as Int
 EndFunction
 
 ; The current version is greater than or equal to the fix version
