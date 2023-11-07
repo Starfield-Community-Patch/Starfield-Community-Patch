@@ -7,9 +7,8 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
-## [Unreleased] Version 0.0.3
+## [2023-11-07] Version 0.0.3
 - Power from Beyond map markers will no longer disappear. This was caused by versions of the quest pointing to the wrong variant when evaluating if the "Acquire the Power on `<Alias=PlanetWithTrait>`" objective should be shown. [0001C075] [0001C076] [0001C077] [0001C078] - [Fix contributed by Pickysaurus](https://www.nexusmods.com/users/31179975) - [Reported by broekerisdabomb](https://www.starfieldpatch.dev/issues/214)
-- Fixed an invalid reference in the script properties of the Power From Beyond quests [0001C075] [0001C076] [0001C077] [0001C078] [0001C079] [000854E8] [00101043] - [Fix contributed by Aurelianis](https://www.nexusmods.com/starfield/users/143884143)
 - Improved the fix for Coe Estate not unlocking in NG+. This will now unlock without visiting Unity first. [SFCP:UpdateHandler]
 - Improved the fix for Cora Coe not joining the crew with Sam in NG+. This will now unlock without visiting Unity first. [SFCP:UpdateHandler]
 - Improved the fix for Undiscovered Temples. This will now unlock without visiting Unity first. [SFCP:UpdateHandler] [starborntemplequestscript]
@@ -25,6 +24,7 @@ When adding items to the changelog try and use the template below:
 - Davis Wilson will now correctly use his unique rifle [0x000806] [002161AE] - [Fix contributed by DankRafft](https://www.nexusmods.com/starfield/users/2547580) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6202) - [Reported by DankRafft](https://www.starfieldpatch.dev/issues/500)
 - Guards in New Atlantis and Neon will now correctly approach the player if they have a bounty and a weapon drawn. [0032C7CA] [0032C7CB] [0032C7CC] [0032C7CD] [0006B25B] [0021EAF7] [0021EAF8] [0021EAF9] - [Fix contributed by wSkeever](https://www.nexusmods.com/starfield/users/7064860) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/5724) - [Reported by wSkeever](https://www.starfieldpatch.dev/issues/321)
 - Replaced 4 books in The Clinic which were using a base form called `_BookHardback_Large01_DONOTUSE` these are now levelled large books instead. [00126335] [001275BA] [0012E038] [001316DC] - [Reported by Orvid](https://www.starfieldpatch.dev/issues/322)
+- Fixed an invalid reference in the script properties of the Power From Beyond quests [0001C075] [0001C076] [0001C077] [0001C078] [0001C079] [000854E8] [00101043] - [Fix contributed by Aurelianis](https://www.nexusmods.com/starfield/users/143884143)
 - Walter will no longer refer to Sarah as the head of Constellation if she has been killed. [002953F6] - [Fix contributed by EgoBallistic](https://github.com/EgoBallistic) - [Reported by EgoBallistic](https://www.starfieldpatch.dev/issues/468)
 - Fixed a typo in the "You can not eat quest items" messsage. [000D48DC] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/437)
 - Fixed a misplaced question mark and missing capital letter in dialogue subtitles. [000117E7] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/438)
