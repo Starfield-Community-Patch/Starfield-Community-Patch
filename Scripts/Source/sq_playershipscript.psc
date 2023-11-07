@@ -709,184 +709,184 @@ Int Function GetPassengerSlots(Bool returnBaseValue)
     If returnBaseValue
       slots = homeShipRef.GetBaseValue(SpaceshipPassengerSlots) as Int
     Else
-      slots = homeShipRef.GetValue(SpaceshipPassengerSlots) as Int1
+      slots = homeShipRef.GetValue(SpaceshipPassengerSlots) as Int
     EndIf
   EndIf
-  Return slots4
+  Return slots
 EndFunction
 
 Function CheckForDismissedCrew()
-  Location currentShipLocation = PlayerShip.GetShipRef().GetCurrentLocation()0
-  If DismissedCrew.GetCount() > 03
-    LandingLocation.ForceLocationTo(currentShipLocation)7
-    LandingLocationExitMarker.RefillAlias()8
-    If LandingLocationExitMarker.GetRef()0
-      DisembarkingCrew.AddRefCollection(DismissedCrew)1
+  Location currentShipLocation = PlayerShip.GetShipRef().GetCurrentLocation()
+  If DismissedCrew.GetCount() > 0
+    LandingLocation.ForceLocationTo(currentShipLocation)
+    LandingLocationExitMarker.RefillAlias()
+    If LandingLocationExitMarker.GetRef()
+      DisembarkingCrew.AddRefCollection(DismissedCrew)
     EndIf
   EndIf
 EndFunction
 
 Function UpdateDismissedCrew()
-  Int I = DismissedCrew.GetCount() - 19
-  While I > -10
-    Actor currentCrewMember = DismissedCrew.GetAt(I) as Actor1
-    If currentCrewMember2
-      If currentCrewMember.IsInLocation(playerShipInteriorLocation.GetLocation()) == False4
-        DismissedCrew.RemoveRef(currentCrewMember as ObjectReference)5
-        If currentCrewMember.HasKeyword(SQ_Crew.Crew_CrewTypeGeneric)8
-          SQ_Crew.SetRoleUnavailable(currentCrewMember, True)0
+  Int I = DismissedCrew.GetCount() - 1
+  While I > -1
+    Actor currentCrewMember = DismissedCrew.GetAt(I) as Actor
+    If currentCrewMember
+      If currentCrewMember.IsInLocation(playerShipInteriorLocation.GetLocation()) == False
+        DismissedCrew.RemoveRef(currentCrewMember as ObjectReference)
+        If currentCrewMember.HasKeyword(SQ_Crew.Crew_CrewTypeGeneric)
+          SQ_Crew.SetRoleUnavailable(currentCrewMember, True)
         EndIf
-        Self.MoveCrewToHome(currentCrewMember)3
-        SQ_Crew.TestAndHandleUnloadedUnassignedGenericCrew(currentCrewMember)6
+        Self.MoveCrewToHome(currentCrewMember)
+        SQ_Crew.TestAndHandleUnloadedUnassignedGenericCrew(currentCrewMember)
       EndIf
     EndIf
-    I -= 19
+    I -= 1
   EndWhile
-  DisembarkingCrew.RemoveAll()2
-  LandingLocationExitMarker.Clear()5
+  DisembarkingCrew.RemoveAll()
+  LandingLocationExitMarker.Clear()
 EndFunction
 
 Function MoveCrewToHome(Actor CrewActor)
-  If CrewActor.IsInFaction(CurrentFollowerFaction)1
-    Return 3
+  If CrewActor.IsInFaction(CurrentFollowerFaction)
+    Return 
   EndIf
-  ObjectReference homeMarkerRef = CrewActor.GetLinkedRef(SQ_LinkCompanionEliteCrewHomeMarker)7
-  If homeMarkerRef9
-    CrewActor.MoveTo(homeMarkerRef, 0.0, 0.0, 0.0, True, False)1
+  ObjectReference homeMarkerRef = CrewActor.GetLinkedRef(SQ_LinkCompanionEliteCrewHomeMarker)
+  If homeMarkerRef
+    CrewActor.MoveTo(homeMarkerRef, 0.0, 0.0, 0.0, True, False)
   Else
-    CrewActor.MoveToMyEditorLocation()4
+    CrewActor.MoveToMyEditorLocation()
   EndIf
 EndFunction
 
 Function CheckForShipAchievements()
-  Int playerShipCount = PlayerShips.GetCount()0
-  If playerShipCount >= CollectShipsAchievementCount1
-    Game.AddAchievement(CollectShipsAchievement)2
+  Int playerShipCount = PlayerShips.GetCount()
+  If playerShipCount >= CollectShipsAchievementCount
+    Game.AddAchievement(CollectShipsAchievement)
   EndIf
 EndFunction
 
 Bool Function IsPlayerShip(spaceshipreference shipToCheck)
-  Bool returnVal = False8
-  If shipToCheck9
-    spaceshipreference currentPlayerShip = PlayerShip.GetShipRef()0
-    If shipToCheck == currentPlayerShip1
-      returnVal = True2
+  Bool returnVal = False
+  If shipToCheck
+    spaceshipreference currentPlayerShip = PlayerShip.GetShipRef()
+    If shipToCheck == currentPlayerShip
+      returnVal = True
     Else
-      Int findShip = PlayerShips.Find(shipToCheck as ObjectReference)4
-      returnVal = findShip > -15
+      Int findShip = PlayerShips.Find(shipToCheck as ObjectReference)
+      returnVal = findShip > -1
     EndIf
   EndIf
-  Return returnVal0
+  Return returnVal
 EndFunction
 
 Function TestDismissedCrew(Actor crew)
-  DismissedCrew.AddRef(crew as ObjectReference)8
+  DismissedCrew.AddRef(crew as ObjectReference)
 EndFunction
 
 Function TestDisableTakeoff(Bool bEnable)
-  If myTestLayer == None3
-    myTestLayer = inputenablelayer.Create()4
+  If myTestLayer == None
+    myTestLayer = inputenablelayer.Create()
   EndIf
-  myTestLayer.EnableTakeoff(bEnable)6
+  myTestLayer.EnableTakeoff(bEnable)
 EndFunction
 
 Function debugMoveToPlayerShip()
-  spaceshipreference playerShipRef = PlayerShip.GetShipRef()0
-  If playerShipRef1
-    Game.GetPlayer().MoveTo(playerShipRef as ObjectReference, 0.0, 0.0, 0.0, True, False)2
+  spaceshipreference playerShipRef = PlayerShip.GetShipRef()
+  If playerShipRef
+    Game.GetPlayer().MoveTo(playerShipRef as ObjectReference, 0.0, 0.0, 0.0, True, False)
   EndIf
 EndFunction
 
 spaceshipreference Function DebugGetHomeShip()
-  spaceshipreference homeShipRef = HomeShip.GetShipRef()8
-  Int waitingFor = 02
-  Int maxWait = 103
-  While homeShipRef == None && waitingFor <= maxWait4
-    Utility.Wait(1.0)5
-    homeShipRef = HomeShip.GetShipRef()6
-    waitingFor += 17
+  spaceshipreference homeShipRef = HomeShip.GetShipRef()
+  Int waitingFor = 0
+  Int maxWait = 10
+  While homeShipRef == None && waitingFor <= maxWait
+    Utility.Wait(1.0)
+    homeShipRef = HomeShip.GetShipRef()
+    waitingFor += 1
   EndWhile
-  If homeShipRef == None0
-    String warnstring = "HomeShip alias not filled. Make sure player home ship exists before calling this function. (try calling: BAT \"Crew\\Homeship\" first."1
-    Return None5
+  If homeShipRef == None
+    String warnstring = "HomeShip alias not filled. Make sure player home ship exists before calling this function. (try calling: BAT \"Crew\\Homeship\" first."
+    Return None
   EndIf
-  Return homeShipRef8
+  Return homeShipRef
 EndFunction
 
 Function debugMoveToPlayerShipPilotSeat(Bool CallHandleTakeOff)
-  spaceshipreference ShipRef = Self.DebugGetHomeShip()3
-  If ShipRef == None4
-    Return 5
+  spaceshipreference ShipRef = Self.DebugGetHomeShip()
+  If ShipRef == None
+    Return 
   EndIf
-  Actor player = Game.GetPlayer()0
-  inputenablelayer myEnableLayer = inputenablelayer.Create()2
-  myEnableLayer.DisablePlayerControls(True, True, True, False, False, True, True, False, True, True, False)3
-  player.MoveTo(ShipRef as ObjectReference, 0.0, 0.0, 0.0, True, False)4
-  If CallHandleTakeOff5
-    Self.HandleShipTakeOff(True, False)6
+  Actor player = Game.GetPlayer()
+  inputenablelayer myEnableLayer = inputenablelayer.Create()
+  myEnableLayer.DisablePlayerControls(True, True, True, False, False, True, True, False, True, True, False)
+  player.MoveTo(ShipRef as ObjectReference, 0.0, 0.0, 0.0, True, False)
+  If CallHandleTakeOff
+    Self.HandleShipTakeOff(True, False)
   EndIf
-  PlayerShipPilotSeat.GetRef().Activate(player as ObjectReference, False)8
-  myEnableLayer.Delete()9
+  PlayerShipPilotSeat.GetRef().Activate(player as ObjectReference, False)
+  myEnableLayer.Delete()
 EndFunction
 
 spaceshipreference Function DebugCreateHomeShipInSpace(ObjectReference ReferenceToPutShipAt)
-  Self.ResetHomeShip(Frontier_ModularREF as spaceshipreference)3
-  If ReferenceToPutShipAt == None5
-    ReferenceToPutShipAt = NewGameShipMarkerREF6
+  Self.ResetHomeShip(Frontier_ModularREF as spaceshipreference)
+  If ReferenceToPutShipAt == None
+    ReferenceToPutShipAt = NewGameShipMarkerREF
   EndIf
-  spaceshipreference homeShipRef = Self.DebugGetHomeShip()9
-  homeShipRef.MoveTo(ReferenceToPutShipAt, 0.0, 0.0, 0.0, True, False)1
-  Return homeShipRef3
+  spaceshipreference homeShipRef = Self.DebugGetHomeShip()
+  homeShipRef.MoveTo(ReferenceToPutShipAt, 0.0, 0.0, 0.0, True, False)
+  Return homeShipRef
 EndFunction
 
 spaceshipreference Function DebugCreateHomeShipLanded(ObjectReference ReferenceToPutShipAt)
-  Self.ResetHomeShip(Frontier_ModularREF as spaceshipreference)7
-  If ReferenceToPutShipAt == None9
-    ReferenceToPutShipAt = NewAtlantisShipLandingMarker0
+  Self.ResetHomeShip(Frontier_ModularREF as spaceshipreference)
+  If ReferenceToPutShipAt == None
+    ReferenceToPutShipAt = NewAtlantisShipLandingMarker
   EndIf
-  spaceshipreference homeShipRef = Self.DebugGetHomeShip()3
-  Self.debugMovePlayerShip(homeShipRef, ReferenceToPutShipAt)7
-  Return homeShipRef9
+  spaceshipreference homeShipRef = Self.DebugGetHomeShip()
+  Self.debugMovePlayerShip(homeShipRef, ReferenceToPutShipAt)
+  Return homeShipRef
 EndFunction
 
 Function debugInitializeHomeShip(spaceshipreference frontierRef)
-  spaceshipreference homeShipRef = HomeShip.GetShipRef()5
-  If homeShipRef == None6
-    Self.ResetHomeShip(frontierRef)7
+  spaceshipreference homeShipRef = HomeShip.GetShipRef()
+  If homeShipRef == None
+    Self.ResetHomeShip(frontierRef)
   EndIf
 EndFunction
 
 Function debugUpdatePlayerShips()
-  spaceshipreference[] ownedShips = Game.GetPlayerOwnedShips()2
-  Int I = 03
-  While I < ownedShips.Length4
-    PlayerShips.AddRef(ownedShips[I] as ObjectReference)5
-    I += 16
+  spaceshipreference[] ownedShips = Game.GetPlayerOwnedShips()
+  Int I = 0
+  While I < ownedShips.Length
+    PlayerShips.AddRef(ownedShips[I] as ObjectReference)
+    I += 1
   EndWhile
 EndFunction
 
 Function debugMovePlayerShip(spaceshipreference frontierRef, ObjectReference ShipLandingMarker)
-  spaceshipreference ShipRef = frontierRef2
-  ShipRef.MoveTo(ShipLandingMarker, 0.0, 0.0, 0.0, True, False)3
-  ShipRef.SetLinkedRef(ShipLandingMarker, CurrentInteractionLinkedRefKeyword, True)4
-  ShipRef.Enable(False)5
+  spaceshipreference ShipRef = frontierRef
+  ShipRef.MoveTo(ShipLandingMarker, 0.0, 0.0, 0.0, True, False)
+  ShipRef.SetLinkedRef(ShipLandingMarker, CurrentInteractionLinkedRefKeyword, True)
+  ShipRef.Enable(False)
 EndFunction
 
 Function DebugAddPassengers(Int count)
-  ObjectReference passengerMarker = HomeShipPassengerMarker.GetRef()0
-  Int I = 01
-  While I < count2
-    Actor passengerRef = passengerMarker.PlaceActorAtMe(MissionBoardPassenger_Type06, 4, None, False, False, True, None, True)3
-    Self.AddPassenger(passengerRef)4
-    I += 15
+  ObjectReference passengerMarker = HomeShipPassengerMarker.GetRef()
+  Int I = 0
+  While I < count
+    Actor passengerRef = passengerMarker.PlaceActorAtMe(MissionBoardPassenger_Type06, 4, None, False, False, True, None, True)
+    Self.AddPassenger(passengerRef)
+    I += 1
   EndWhile
 EndFunction
 
 Bool Function Trace(ScriptObject CallingObject, String asTextToPrint, Int aiSeverity, String MainLogName, String SubLogName, Bool bShowWarning, Bool bPrefixTraceWithLogNames)
-  Return Debug.TraceLog(CallingObject, asTextToPrint, MainLogName, SubLogName, aiSeverity, bShowNormalTrace, bShowWarning, bPrefixTraceWithLogNames, True)4
+  Return Debug.TraceLog(CallingObject, asTextToPrint, MainLogName, SubLogName, aiSeverity, bShowNormalTrace, bShowWarning, bPrefixTraceWithLogNames, True)
 EndFunction
 
 ; Fixup hacks for debug-only function: warning
 Bool Function warning(ScriptObject CallingObject, String asTextToPrint, Int aiSeverity, String MainLogName, String SubLogName, Bool bShowWarning, Bool bPrefixTraceWithLogNames)
-  Return false8
+  Return false
 EndFunction
