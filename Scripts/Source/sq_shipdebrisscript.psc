@@ -13,18 +13,18 @@ Location Property theOrbitLocation Auto Hidden ; Added location property to stor
 ;-- Functions ---------------------------------------
 
 Event OnQuestStarted()
-  Self.AddKeywordToLocation(True) ; #DEBUG_LINE_NO:10
+  Self.AddKeywordToLocation(True)
 EndEvent
 
 Event OnQuestShutdown()
-  Self.AddKeywordToLocation(False) ; #DEBUG_LINE_NO:14
+  Self.AddKeywordToLocation(False)
 EndEvent
 
 Function AddKeywordToLocation(Bool addKeyword)
-  If addKeyword ; #DEBUG_LINE_NO:20
+  If addKeyword
     theOrbitLocation = OrbitLocation.GetLocation() ; Moved inside of keyword check and changed to reference property instead of local var - Bobbyclue 10/1/23
-    theOrbitLocation.addKeyword(SQ_ShipDebrisKeyword) ; #DEBUG_LINE_NO:21
-  Else ; #DEBUG_LINE_NO:
-    theOrbitLocation.RemoveKeyword(SQ_ShipDebrisKeyword) ; #DEBUG_LINE_NO:23
-  EndIf ; #DEBUG_LINE_NO:
+    theOrbitLocation.addKeyword(SQ_ShipDebrisKeyword)
+  Else
+    theOrbitLocation.RemoveKeyword(SQ_ShipDebrisKeyword)
+  EndIf
 EndFunction

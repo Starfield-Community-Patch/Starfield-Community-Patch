@@ -130,358 +130,358 @@ Keyword Property BEHostileBoardingEncounterKeyword Auto Const mandatory
 ;-- Functions ---------------------------------------
 
 Event ObjectReference.OnItemAdded(ObjectReference akSender, Form akBaseItem, Int aiItemCount, ObjectReference akItemReference, ObjectReference akSourceContainer, Int aiTransferReason)
-  Self.GotoState("Processing") ; #DEBUG_LINE_NO:
-  Actor containerActor = akSourceContainer as Actor ; #DEBUG_LINE_NO:
-  If containerActor as Bool && containerActor.IsDead() ; #DEBUG_LINE_NO:
-    If akBaseItem.HasKeyword(ResourceTypeOrganic) ; #DEBUG_LINE_NO:
-      Self.SendAffinityEvent(COM_Event_Action_Harvest_Animal, None, False) ; #DEBUG_LINE_NO:
-    Else ; #DEBUG_LINE_NO:
-      Self.SendAffinityEvent(COM_Event_Action_LootCorpse, akSourceContainer, False) ; #DEBUG_LINE_NO:
-    EndIf ; #DEBUG_LINE_NO:
-  EndIf ; #DEBUG_LINE_NO:
-  If akSourceContainer ; #DEBUG_LINE_NO:
-    If akSourceContainer.HasKeyword(FloraTypeInorganic) ; #DEBUG_LINE_NO:
-      Self.SendAffinityEvent(COM_Event_Action_Harvest_Mineral, None, False) ; #DEBUG_LINE_NO:
-    ElseIf akSourceContainer.HasKeyword(FloraTypeOrganic) ; #DEBUG_LINE_NO:
-      Self.SendAffinityEvent(COM_Event_Action_Harvest_Plant, None, False) ; #DEBUG_LINE_NO:
-    EndIf ; #DEBUG_LINE_NO:
-  EndIf ; #DEBUG_LINE_NO:
-  If PlayerRef.IsOverEncumbered() ; #DEBUG_LINE_NO:
-    Self.SendAffinityEvent(COM_Event_Action_BecomeOverEncumbered, None, False) ; #DEBUG_LINE_NO:
-  EndIf ; #DEBUG_LINE_NO:
-  Self.GotoState("") ; #DEBUG_LINE_NO:
+  Self.GotoState("Processing")
+  Actor containerActor = akSourceContainer as Actor
+  If containerActor as Bool && containerActor.IsDead()
+    If akBaseItem.HasKeyword(ResourceTypeOrganic)
+      Self.SendAffinityEvent(COM_Event_Action_Harvest_Animal, None, False)
+    Else
+      Self.SendAffinityEvent(COM_Event_Action_LootCorpse, akSourceContainer, False)
+    EndIf
+  EndIf
+  If akSourceContainer
+    If akSourceContainer.HasKeyword(FloraTypeInorganic)
+      Self.SendAffinityEvent(COM_Event_Action_Harvest_Mineral, None, False)
+    ElseIf akSourceContainer.HasKeyword(FloraTypeOrganic)
+      Self.SendAffinityEvent(COM_Event_Action_Harvest_Plant, None, False)
+    EndIf
+  EndIf
+  If PlayerRef.IsOverEncumbered()
+    Self.SendAffinityEvent(COM_Event_Action_BecomeOverEncumbered, None, False)
+  EndIf
+  Self.GotoState("")
 EndEvent
 
 Event OnTimer(Int aiTimerID)
-  If aiTimerID == TimerID_Poll ; #DEBUG_LINE_NO:168
-    If NextPollEvent == 0 ; #DEBUG_LINE_NO:169
-      Self.CheckAndSendGravityEvents() ; #DEBUG_LINE_NO:170
-      NextPollEvent = 1 ; #DEBUG_LINE_NO:171
-      Self.StartTimer(TimerDur_Poll, TimerID_Poll) ; #DEBUG_LINE_NO:172
-    ElseIf NextPollEvent == 1 ; #DEBUG_LINE_NO:173
-      Self.CheckAndSendTemperatureEvents() ; #DEBUG_LINE_NO:174
-      NextPollEvent = 0 ; #DEBUG_LINE_NO:175
-    EndIf ; #DEBUG_LINE_NO:
-  ElseIf aiTimerID == TimerID_CoolDown ; #DEBUG_LINE_NO:178
-    CoolingDown = False ; #DEBUG_LINE_NO:180
-  ElseIf aiTimerID == TimerID_RecentlyDisembarked ; #DEBUG_LINE_NO:181
-    SQ_Companions_RecentlyDisembarked.SetValue(0.0) ; #DEBUG_LINE_NO:183
-  EndIf ; #DEBUG_LINE_NO:
+  If aiTimerID == TimerID_Poll
+    If NextPollEvent == 0
+      Self.CheckAndSendGravityEvents()
+      NextPollEvent = 1
+      Self.StartTimer(TimerDur_Poll, TimerID_Poll)
+    ElseIf NextPollEvent == 1
+      Self.CheckAndSendTemperatureEvents()
+      NextPollEvent = 0
+    EndIf
+  ElseIf aiTimerID == TimerID_CoolDown
+    CoolingDown = False
+  ElseIf aiTimerID == TimerID_RecentlyDisembarked
+    SQ_Companions_RecentlyDisembarked.SetValue(0.0)
+  EndIf
 EndEvent
 
 Function StartCoolDownTimer()
-  Float duration = COM_ActionEventScriptFilter_CoolDownMinutes.GetValue() * 60.0 ; #DEBUG_LINE_NO:188
-  Self.StartTimer(duration, TimerID_CoolDown) ; #DEBUG_LINE_NO:190
-  CoolingDown = True ; #DEBUG_LINE_NO:191
+  Float duration = COM_ActionEventScriptFilter_CoolDownMinutes.GetValue() * 60.0
+  Self.StartTimer(duration, TimerID_CoolDown)
+  CoolingDown = True
 EndFunction
 
 Event OnQuestStarted()
-  PlayerRef = Game.GetPlayer() ; #DEBUG_LINE_NO:200
-  Self.RegisterForRemoteEvent(ActiveCompanion as ScriptObject, "OnLocationChange") ; #DEBUG_LINE_NO:209
-  Self.RegisterForRemoteEvent(ActiveCompanion as ScriptObject, "OnExitShipInterior") ; #DEBUG_LINE_NO:210
-  Self.RegisterForRemoteEvent(ActiveEliteCrew as ScriptObject, "OnLocationChange") ; #DEBUG_LINE_NO:212
-  Self.RegisterForRemoteEvent(ActiveEliteCrew as ScriptObject, "OnExitShipInterior") ; #DEBUG_LINE_NO:213
-  Self.RegisterForRemoteEvent(PlayerShip as ScriptObject, "OnShipGravJump") ; #DEBUG_LINE_NO:217
-  Self.RegisterForRemoteEvent(PlayerShip as ScriptObject, "OnShipFarTravel") ; #DEBUG_LINE_NO:218
-  Self.RegisterForMagicEffectApplyEvent(PlayerRef as ScriptObject, None, COM_AddictionEffect as Form, True) ; #DEBUG_LINE_NO:227
-  Self.RegisterForMagicEffectApplyEvent(PlayerRef as ScriptObject, None, ENV_EnvDamageType_Airborne as Form, True) ; #DEBUG_LINE_NO:228
-  Self.RegisterForMagicEffectApplyEvent(PlayerRef as ScriptObject, None, ENV_EnvDamageType_Corrosive as Form, True) ; #DEBUG_LINE_NO:229
-  Self.RegisterForMagicEffectApplyEvent(PlayerRef as ScriptObject, None, ENV_EnvDamageType_Radiation as Form, True) ; #DEBUG_LINE_NO:230
-  Self.RegisterForMagicEffectApplyEvent(PlayerRef as ScriptObject, None, ENV_EnvDamageType_Thermal as Form, True) ; #DEBUG_LINE_NO:231
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerUseWorkBench") ; #DEBUG_LINE_NO:236
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerSwimming") ; #DEBUG_LINE_NO:241
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerCraftItem") ; #DEBUG_LINE_NO:246
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerModArmorWeapon") ; #DEBUG_LINE_NO:253
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerModifiedShip") ; #DEBUG_LINE_NO:259
-  Self.RegisterForMenuOpenCloseEvent("ChargenMenu") ; #DEBUG_LINE_NO:264 ; Formerly called for "LooksMenu", which is what ChargenMenu was called in Fallout 4 - Bobbyclue 9/21/23
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerFireWeapon") ; #DEBUG_LINE_NO:270
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerScannedObject") ; #DEBUG_LINE_NO:276
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnSpellCast") ; #DEBUG_LINE_NO:282
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerFallLongDistance") ; #DEBUG_LINE_NO:288
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerHealTeammate") ; #DEBUG_LINE_NO:293
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerJail") ; #DEBUG_LINE_NO:298
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnItemEquipped") ; #DEBUG_LINE_NO:307
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnItemRemoved") ; #DEBUG_LINE_NO:313
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnItemAdded") ; #DEBUG_LINE_NO:326
-  Self.AddInventoryEventFilter(None) ; #DEBUG_LINE_NO:327
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerItemAdded") ; #DEBUG_LINE_NO:334
-  Self.AddInventoryEventFilter(None) ; #DEBUG_LINE_NO:335
-  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPickLock") ; #DEBUG_LINE_NO:342
+  PlayerRef = Game.GetPlayer()
+  Self.RegisterForRemoteEvent(ActiveCompanion as ScriptObject, "OnLocationChange")
+  Self.RegisterForRemoteEvent(ActiveCompanion as ScriptObject, "OnExitShipInterior")
+  Self.RegisterForRemoteEvent(ActiveEliteCrew as ScriptObject, "OnLocationChange")
+  Self.RegisterForRemoteEvent(ActiveEliteCrew as ScriptObject, "OnExitShipInterior")
+  Self.RegisterForRemoteEvent(PlayerShip as ScriptObject, "OnShipGravJump")
+  Self.RegisterForRemoteEvent(PlayerShip as ScriptObject, "OnShipFarTravel")
+  Self.RegisterForMagicEffectApplyEvent(PlayerRef as ScriptObject, None, COM_AddictionEffect as Form, True)
+  Self.RegisterForMagicEffectApplyEvent(PlayerRef as ScriptObject, None, ENV_EnvDamageType_Airborne as Form, True)
+  Self.RegisterForMagicEffectApplyEvent(PlayerRef as ScriptObject, None, ENV_EnvDamageType_Corrosive as Form, True)
+  Self.RegisterForMagicEffectApplyEvent(PlayerRef as ScriptObject, None, ENV_EnvDamageType_Radiation as Form, True)
+  Self.RegisterForMagicEffectApplyEvent(PlayerRef as ScriptObject, None, ENV_EnvDamageType_Thermal as Form, True)
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerUseWorkBench")
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerSwimming")
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerCraftItem")
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerModArmorWeapon")
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerModifiedShip")
+  Self.RegisterForMenuOpenCloseEvent("ChargenMenu") ; Formerly called for "LooksMenu", which is what ChargenMenu was called in Fallout 4 - Bobbyclue 9/21/23
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerFireWeapon")
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerScannedObject")
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnSpellCast")
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerFallLongDistance")
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerHealTeammate")
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerJail")
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnItemEquipped")
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnItemRemoved")
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnItemAdded")
+  Self.AddInventoryEventFilter(None)
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerItemAdded")
+  Self.AddInventoryEventFilter(None)
+  Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPickLock")
 EndEvent
 
 Event Actor.OnPlayerJail(Actor akSender, ObjectReference akGuard, Form akFaction, Location akLocation, Int aeCrimeGold)
-  Self.SendAffinityEvent(COM_Event_Action_JailComplete, akGuard, False) ; #DEBUG_LINE_NO:350
+  Self.SendAffinityEvent(COM_Event_Action_JailComplete, akGuard, False)
 EndEvent
 
 Function SetShipMovedTimestamp()
-  Timestamp_ShipMoved = Utility.GetCurrentRealTime() ; #DEBUG_LINE_NO:363
+  Timestamp_ShipMoved = Utility.GetCurrentRealTime()
 EndFunction
 
 Function SetRecentlyDisembarked(Bool CheckShipMoved)
-  Float now = Utility.GetCurrentRealTime() ; #DEBUG_LINE_NO:368
-  Float timeSinceMoved = now - Timestamp_ShipMoved ; #DEBUG_LINE_NO:369
-  If CheckShipMoved == False || timeSinceMoved < 30.0 ; #DEBUG_LINE_NO:372
-    Self.StartTimer(timerDur_RecentlyDisembarked, TimerID_RecentlyDisembarked) ; #DEBUG_LINE_NO:373
-    SQ_Companions_RecentlyDisembarked.SetValue(1.0) ; #DEBUG_LINE_NO:374
-  Else ; #DEBUG_LINE_NO:
-    Self.CancelTimer(TimerID_RecentlyDisembarked) ; #DEBUG_LINE_NO:376
-    SQ_Companions_RecentlyDisembarked.SetValue(0.0) ; #DEBUG_LINE_NO:377
-  EndIf ; #DEBUG_LINE_NO:
+  Float now = Utility.GetCurrentRealTime()
+  Float timeSinceMoved = now - Timestamp_ShipMoved
+  If CheckShipMoved == False || timeSinceMoved < 30.0
+    Self.StartTimer(timerDur_RecentlyDisembarked, TimerID_RecentlyDisembarked)
+    SQ_Companions_RecentlyDisembarked.SetValue(1.0)
+  Else
+    Self.CancelTimer(TimerID_RecentlyDisembarked)
+    SQ_Companions_RecentlyDisembarked.SetValue(0.0)
+  EndIf
 EndFunction
 
 Event ReferenceAlias.OnExitShipInterior(ReferenceAlias akSender, ObjectReference akShip)
-  Self.SetRecentlyDisembarked(False) ; #DEBUG_LINE_NO:384
-  Self.SendAffinityEvent(COM_Event_Action_Arrival, None, False) ; #DEBUG_LINE_NO:385
+  Self.SetRecentlyDisembarked(False)
+  Self.SendAffinityEvent(COM_Event_Action_Arrival, None, False)
 EndEvent
 
 Event ReferenceAlias.OnShipGravJump(ReferenceAlias akSender, Location aDestination, Int aState)
-  Self.SetShipMovedTimestamp() ; #DEBUG_LINE_NO:390
+  Self.SetShipMovedTimestamp()
 EndEvent
 
 Event ReferenceAlias.OnShipFarTravel(ReferenceAlias akSender, Location aDepartureLocation, Location aArrivalLocation, Int aState)
-  Self.SetShipMovedTimestamp() ; #DEBUG_LINE_NO:395
+  Self.SetShipMovedTimestamp()
 EndEvent
 
 Event ReferenceAlias.OnLocationChange(ReferenceAlias akSender, Location akOldLoc, Location akNewLoc)
-  Int iClothingSlot = 3 ; #DEBUG_LINE_NO:403
-  Int iSpacesuitSlot = 35 ; #DEBUG_LINE_NO:404
-  If PlayerRef.WornCoversBipedSlot(iClothingSlot) == False && PlayerRef.WornCoversBipedSlot(iSpacesuitSlot) == False ; #DEBUG_LINE_NO:405
-    Self.SendAffinityEvent(COM_Event_Action_WalkAroundNaked, None, False) ; #DEBUG_LINE_NO:406
-  EndIf ; #DEBUG_LINE_NO:
-  If akNewLoc ; #DEBUG_LINE_NO:409
-    spaceshipreference shipRef = akSender.GetReference().GetCurrentShipRef() ; #DEBUG_LINE_NO:411
-    If shipRef as Bool && shipRef.HasKeyword(BEHostileBoardingEncounterKeyword) ; #DEBUG_LINE_NO:412
-      Self.SendAffinityEvent(COM_Event_Action_ShipBoardingOther, None, False) ; #DEBUG_LINE_NO:413
-    ElseIf shipRef ; #DEBUG_LINE_NO:
-      Self.SendAffinityEvent(COM_Event_Action_ShipEmbark, None, False) ; #DEBUG_LINE_NO:415
-    ElseIf akNewLoc.IsChild(akOldLoc) == False ; #DEBUG_LINE_NO:416
-      Self.SetRecentlyDisembarked(True) ; #DEBUG_LINE_NO:418
-      Bool ignoreCooldown = COM_IgnoreAffinityEventCooldownOnChangeLocation_Locations.Find(akNewLoc as Form) > -1 ; #DEBUG_LINE_NO:420
-      Self.SendAffinityEvent(COM_Event_Action_Arrival, None, ignoreCooldown) ; #DEBUG_LINE_NO:423
-    EndIf ; #DEBUG_LINE_NO:
-  EndIf ; #DEBUG_LINE_NO:
-  Self.StartTimer(TimerDur_Poll, TimerID_Poll) ; #DEBUG_LINE_NO:428
+  Int iClothingSlot = 3
+  Int iSpacesuitSlot = 35
+  If PlayerRef.WornCoversBipedSlot(iClothingSlot) == False && PlayerRef.WornCoversBipedSlot(iSpacesuitSlot) == False
+    Self.SendAffinityEvent(COM_Event_Action_WalkAroundNaked, None, False)
+  EndIf
+  If akNewLoc
+    spaceshipreference shipRef = akSender.GetReference().GetCurrentShipRef()
+    If shipRef as Bool && shipRef.HasKeyword(BEHostileBoardingEncounterKeyword)
+      Self.SendAffinityEvent(COM_Event_Action_ShipBoardingOther, None, False)
+    ElseIf shipRef
+      Self.SendAffinityEvent(COM_Event_Action_ShipEmbark, None, False)
+    ElseIf akNewLoc.IsChild(akOldLoc) == False
+      Self.SetRecentlyDisembarked(True)
+      Bool ignoreCooldown = COM_IgnoreAffinityEventCooldownOnChangeLocation_Locations.Find(akNewLoc as Form) > -1
+      Self.SendAffinityEvent(COM_Event_Action_Arrival, None, ignoreCooldown)
+    EndIf
+  EndIf
+  Self.StartTimer(TimerDur_Poll, TimerID_Poll)
 EndEvent
 
 Event OnMagicEffectApply(ObjectReference akTarget, ObjectReference akCaster, MagicEffect akEffect)
-  If akTarget == PlayerRef as ObjectReference ; #DEBUG_LINE_NO:443
-    If akEffect == COM_AddictionEffect ; #DEBUG_LINE_NO:445
-      Self.SendAffinityEvent(COM_Event_Action_ChemAddiction, None, False) ; #DEBUG_LINE_NO:446
-    ElseIf akEffect.HasKeyword(ENV_EnvDamageType_Airborne) ; #DEBUG_LINE_NO:448
-      Self.SendAffinityEvent(COM_Event_Action_EnvironmentalDamage_Airborne, akCaster, False) ; #DEBUG_LINE_NO:449
-    ElseIf akEffect.HasKeyword(ENV_EnvDamageType_Corrosive) ; #DEBUG_LINE_NO:451
-      Self.SendAffinityEvent(COM_Event_Action_EnvironmentalDamage_Corrosive, akCaster, False) ; #DEBUG_LINE_NO:452
-    ElseIf akEffect.HasKeyword(ENV_EnvDamageType_Radiation) ; #DEBUG_LINE_NO:454
-      Self.SendAffinityEvent(COM_Event_Action_EnvironmentalDamage_Radiation, akCaster, False) ; #DEBUG_LINE_NO:455
-    ElseIf akEffect.HasKeyword(ENV_EnvDamageType_Thermal) ; #DEBUG_LINE_NO:457
-      Self.SendAffinityEvent(COM_Event_Action_EnvironmentalDamage_Thermal, akCaster, False) ; #DEBUG_LINE_NO:458
-    ElseIf akEffect.HasKeyword(ENV_EffectTypeEnvironmentalDamageSoak) ; #DEBUG_LINE_NO:460
-      Self.SendAffinityEvent(COM_Event_Action_EnvironmentalHazardWarning, akCaster, False) ; #DEBUG_LINE_NO:461
-    EndIf ; #DEBUG_LINE_NO:
-  EndIf ; #DEBUG_LINE_NO:
+  If akTarget == PlayerRef as ObjectReference
+    If akEffect == COM_AddictionEffect
+      Self.SendAffinityEvent(COM_Event_Action_ChemAddiction, None, False)
+    ElseIf akEffect.HasKeyword(ENV_EnvDamageType_Airborne)
+      Self.SendAffinityEvent(COM_Event_Action_EnvironmentalDamage_Airborne, akCaster, False)
+    ElseIf akEffect.HasKeyword(ENV_EnvDamageType_Corrosive)
+      Self.SendAffinityEvent(COM_Event_Action_EnvironmentalDamage_Corrosive, akCaster, False)
+    ElseIf akEffect.HasKeyword(ENV_EnvDamageType_Radiation)
+      Self.SendAffinityEvent(COM_Event_Action_EnvironmentalDamage_Radiation, akCaster, False)
+    ElseIf akEffect.HasKeyword(ENV_EnvDamageType_Thermal)
+      Self.SendAffinityEvent(COM_Event_Action_EnvironmentalDamage_Thermal, akCaster, False)
+    ElseIf akEffect.HasKeyword(ENV_EffectTypeEnvironmentalDamageSoak)
+      Self.SendAffinityEvent(COM_Event_Action_EnvironmentalHazardWarning, akCaster, False)
+    EndIf
+  EndIf
 EndEvent
 
 Event Actor.OnPlayerSwimming(Actor akSender)
-  Self.SendAffinityEvent(COM_Event_Action_Swim, None, False) ; #DEBUG_LINE_NO:485
+  Self.SendAffinityEvent(COM_Event_Action_Swim, None, False)
 EndEvent
 
 Event ObjectReference.OnSpellCast(ObjectReference akSender, Form akSpell)
-  Self.GotoState("Processing") ; #DEBUG_LINE_NO:493
-  If akSpell.HasKeyword(Artifact_Power) ; #DEBUG_LINE_NO:494
-    Self.SendAffinityEvent(COM_Event_Action_UseStarbornPower, None, False) ; #DEBUG_LINE_NO:495
-  EndIf ; #DEBUG_LINE_NO:
-  Self.GotoState("") ; #DEBUG_LINE_NO:497
+  Self.GotoState("Processing")
+  If akSpell.HasKeyword(Artifact_Power)
+    Self.SendAffinityEvent(COM_Event_Action_UseStarbornPower, None, False)
+  EndIf
+  Self.GotoState("")
 EndEvent
 
 Event actor.OnPlayerCraftItem(Actor akSender, ObjectReference akBench, Location akLocation, Form akCreatedItem)
-  Self.SendAffinityEvent(COM_Event_Action_Crafting_CreateItem, None, False) ; #DEBUG_LINE_NO:506
+  Self.SendAffinityEvent(COM_Event_Action_Crafting_CreateItem, None, False)
 EndEvent
 
 Event Actor.OnPlayerModArmorWeapon(Actor akSender, Form akBaseObject, objectmod akModBaseObject)
-  If akBaseObject is Weapon ; #DEBUG_LINE_NO:515
-    Self.SendAffinityEvent(COM_Event_Action_Crafting_Mod_Weapon, None, False) ; #DEBUG_LINE_NO:516
-  ElseIf akBaseObject is Armor ; #DEBUG_LINE_NO:517
-    Self.SendAffinityEvent(COM_Event_Action_Crafting_Mod_Armor, None, False) ; #DEBUG_LINE_NO:518
-  EndIf ; #DEBUG_LINE_NO:
+  If akBaseObject is Weapon
+    Self.SendAffinityEvent(COM_Event_Action_Crafting_Mod_Weapon, None, False)
+  ElseIf akBaseObject is Armor
+    Self.SendAffinityEvent(COM_Event_Action_Crafting_Mod_Armor, None, False)
+  EndIf
 EndEvent
 
 Event Actor.OnPlayerModifiedShip(Actor akSender, spaceshipreference akShip)
-  Self.SendAffinityEvent(COM_Event_Action_Crafting_CreateShipModule, akShip as ObjectReference, False) ; #DEBUG_LINE_NO:527
+  Self.SendAffinityEvent(COM_Event_Action_Crafting_CreateShipModule, akShip as ObjectReference, False)
 EndEvent
 
 Event OnMenuOpenCloseEvent(String asMenuName, Bool abOpening)
-  If asMenuName == "ChargenMenu" && abOpening == False ; #DEBUG_LINE_NO:534 ; Formerly called for "LooksMenu", which is what ChargenMenu was called in Fallout 4 - Bobbyclue 9/21/23
-    Self.SendAffinityEvent(COM_Event_Action_Enhance_PlayerChangeAppearance, None, False, True) ; #DEBUG_LINE_NO:535
-  EndIf ; #DEBUG_LINE_NO:
+  If asMenuName == "ChargenMenu" && abOpening == False ; Formerly called for "LooksMenu", which is what ChargenMenu was called in Fallout 4 - Bobbyclue 9/21/23
+    Self.SendAffinityEvent(COM_Event_Action_Enhance_PlayerChangeAppearance, None, False, True)
+  EndIf
 EndEvent
 
 Event Actor.OnPlayerFireWeapon(Actor akSender, Form akBaseObject)
-  Location locToTest = akSender.GetCurrentLocation() ; #DEBUG_LINE_NO:555
-  If (locToTest as Bool && akBaseObject as Bool) && commonarrayfunctions.CheckFormAgainstKeywordArray(akBaseObject, DischargeWeapon_WeaponKeywordExceptions, False) == False ; #DEBUG_LINE_NO:557
-    If commonarrayfunctions.CheckFormAgainstKeywordArray(locToTest as Form, DischargeWeapon_LocationKeywordRequirements, False) ; #DEBUG_LINE_NO:559
-      ObjectReference[] NPCs = akSender.FindAllReferencesWithKeyword(ActorTypeNPC as Form, DischargeWeapon_RadiusToLookForHostileActors) ; #DEBUG_LINE_NO:562
-      Bool AnyHostiles = commonarrayfunctions.IsActorInArrayHostileToActor(akSender, NPCs) ; #DEBUG_LINE_NO:564
-      If AnyHostiles == False ; #DEBUG_LINE_NO:566
-        Self.SendAffinityEvent(COM_Event_Action_DischargeWeapon, None, False) ; #DEBUG_LINE_NO:569
-      EndIf ; #DEBUG_LINE_NO:
-    EndIf ; #DEBUG_LINE_NO:
-  EndIf ; #DEBUG_LINE_NO:
+  Location locToTest = akSender.GetCurrentLocation()
+  If (locToTest as Bool && akBaseObject as Bool) && commonarrayfunctions.CheckFormAgainstKeywordArray(akBaseObject, DischargeWeapon_WeaponKeywordExceptions, False) == False
+    If commonarrayfunctions.CheckFormAgainstKeywordArray(locToTest as Form, DischargeWeapon_LocationKeywordRequirements, False)
+      ObjectReference[] NPCs = akSender.FindAllReferencesWithKeyword(ActorTypeNPC as Form, DischargeWeapon_RadiusToLookForHostileActors)
+      Bool AnyHostiles = commonarrayfunctions.IsActorInArrayHostileToActor(akSender, NPCs)
+      If AnyHostiles == False
+        Self.SendAffinityEvent(COM_Event_Action_DischargeWeapon, None, False)
+      EndIf
+    EndIf
+  EndIf
 EndEvent
 
 Event Actor.OnPlayerScannedObject(Actor akSender, ObjectReference akScannedRef)
-  Self.SendAffinityEvent(COM_Event_Action_UseHandScanner, akScannedRef, False) ; #DEBUG_LINE_NO:582
+  Self.SendAffinityEvent(COM_Event_Action_UseHandScanner, akScannedRef, False)
 EndEvent
 
 Event Actor.OnPlayerFallLongDistance(Actor akSender, Float afDamage)
-  Self.SendAffinityEvent(COM_Event_Action_JumpFromHeight, None, False) ; #DEBUG_LINE_NO:591
+  Self.SendAffinityEvent(COM_Event_Action_JumpFromHeight, None, False)
 EndEvent
 
 Event Actor.OnPlayerHealTeammate(Actor akSender, Actor akTeammate)
-  If akTeammate == Alias_CurrentCompanion.GetActorReference() ; #DEBUG_LINE_NO:599
-    Self.SendAffinityEvent(COM_Event_Action_HealCompanion, akTeammate as ObjectReference, False) ; #DEBUG_LINE_NO:600
-  EndIf ; #DEBUG_LINE_NO:
+  If akTeammate == Alias_CurrentCompanion.GetActorReference()
+    Self.SendAffinityEvent(COM_Event_Action_HealCompanion, akTeammate as ObjectReference, False)
+  EndIf
 EndEvent
 
 Event Actor.OnItemEquipped(Actor akSender, Form akBaseObject, ObjectReference akReference)
-  If akBaseObject.HasKeyword(COM_ObjType_ChemBad) ; #DEBUG_LINE_NO:610
-    Self.SendAffinityEvent(COM_Event_Action_Consume_Drugs, None, False) ; #DEBUG_LINE_NO:611
-  ElseIf akBaseObject.HasKeyword(COM_ObjType_Drink) ; #DEBUG_LINE_NO:612
-    Self.SendAffinityEvent(COM_Event_Action_Consume_Alcohol, None, False) ; #DEBUG_LINE_NO:613
-  EndIf ; #DEBUG_LINE_NO:
+  If akBaseObject.HasKeyword(COM_ObjType_ChemBad)
+    Self.SendAffinityEvent(COM_Event_Action_Consume_Drugs, None, False)
+  ElseIf akBaseObject.HasKeyword(COM_ObjType_Drink)
+    Self.SendAffinityEvent(COM_Event_Action_Consume_Alcohol, None, False)
+  EndIf
 EndEvent
 
 Event ObjectReference.OnItemRemoved(ObjectReference akSender, Form akBaseItem, Int aiItemCount, ObjectReference akItemReference, ObjectReference akDestContainer, Int aiTransferReason)
-  If aiTransferReason == iDroppingItemIntoWorld && akBaseItem.HasKeywordInFormList(COM_DropUsefulItemList_Ignored) == False && akBaseItem.HasKeywordInFormList(COM_DropUsefulItemList) && Game.GetPlayer().IsInCombat() == False ; #DEBUG_LINE_NO:624
-    Self.SendAffinityEvent(COM_Event_Action_DropUsefulItem, None, False) ; #DEBUG_LINE_NO:625
-  EndIf ; #DEBUG_LINE_NO:
+  If aiTransferReason == iDroppingItemIntoWorld && akBaseItem.HasKeywordInFormList(COM_DropUsefulItemList_Ignored) == False && akBaseItem.HasKeywordInFormList(COM_DropUsefulItemList) && Game.GetPlayer().IsInCombat() == False
+    Self.SendAffinityEvent(COM_Event_Action_DropUsefulItem, None, False)
+  EndIf
 EndEvent
 
 Event Actor.OnPlayerItemAdded(Actor akSender, Form akBaseObject, ObjectReference akOwner, ObjectReference akSourceContainer, Int aeAcquireType)
-  Actor CompanionRef = ActiveCompanion.GetActorRef() ; #DEBUG_LINE_NO:681
-  If aeAcquireType == 1 && CompanionRef.HasDetectionLOS(PlayerRef as ObjectReference) ; #DEBUG_LINE_NO:682
-    Self.SendAffinityEvent(COM_Event_Action_Steal, None, False) ; #DEBUG_LINE_NO:683
-  ElseIf aeAcquireType == 3 && CompanionRef.HasDetectionLOS(PlayerRef as ObjectReference) ; #DEBUG_LINE_NO:684
-    Self.SendAffinityEvent(COM_Event_Action_StealPickpocket, None, False) ; #DEBUG_LINE_NO:685
-  EndIf ; #DEBUG_LINE_NO:
+  Actor CompanionRef = ActiveCompanion.GetActorRef()
+  If aeAcquireType == 1 && CompanionRef.HasDetectionLOS(PlayerRef as ObjectReference)
+    Self.SendAffinityEvent(COM_Event_Action_Steal, None, False)
+  ElseIf aeAcquireType == 3 && CompanionRef.HasDetectionLOS(PlayerRef as ObjectReference)
+    Self.SendAffinityEvent(COM_Event_Action_StealPickpocket, None, False)
+  EndIf
 EndEvent
 
 Function OutpostObjectPlaced(ObjectReference placedRef)
-  Self.SendAffinityEvent(COM_Event_Action_Crafting_CreateOutpostModule, placedRef, False) ; #DEBUG_LINE_NO:697
+  Self.SendAffinityEvent(COM_Event_Action_Crafting_CreateOutpostModule, placedRef, False)
 EndFunction
 
 Function CheckAndSendGravityEvents()
-  Actor CompanionRef = ActiveCompanion.GetActorReference() ; #DEBUG_LINE_NO:710
-  If CompanionRef ; #DEBUG_LINE_NO:711
-    Float companionGravityScale = CompanionRef.GetGravityScale() ; #DEBUG_LINE_NO:712
-    If companionGravityScale != lastCompanionGravityScale ; #DEBUG_LINE_NO:715
-      lastCompanionGravityScale = companionGravityScale ; #DEBUG_LINE_NO:716
-      If companionGravityScale > COM_Event_Action_GravityHigh_Threshold ; #DEBUG_LINE_NO:719
-        Self.SendAffinityEvent(COM_Event_Action_GravityHigh, None, False) ; #DEBUG_LINE_NO:721
-      ElseIf companionGravityScale < COM_Event_Action_GravityLow_Threshold ; #DEBUG_LINE_NO:722
-        Self.SendAffinityEvent(COM_Event_Action_GravityLow, None, False) ; #DEBUG_LINE_NO:724
-      ElseIf companionGravityScale <= 0.0 ; #DEBUG_LINE_NO:725
-        Self.SendAffinityEvent(COM_Event_Action_ZeroG, None, False) ; #DEBUG_LINE_NO:727
-      EndIf ; #DEBUG_LINE_NO:
-    EndIf ; #DEBUG_LINE_NO:
-  EndIf ; #DEBUG_LINE_NO:
+  Actor CompanionRef = ActiveCompanion.GetActorReference()
+  If CompanionRef
+    Float companionGravityScale = CompanionRef.GetGravityScale()
+    If companionGravityScale != lastCompanionGravityScale
+      lastCompanionGravityScale = companionGravityScale
+      If companionGravityScale > COM_Event_Action_GravityHigh_Threshold
+        Self.SendAffinityEvent(COM_Event_Action_GravityHigh, None, False)
+      ElseIf companionGravityScale < COM_Event_Action_GravityLow_Threshold
+        Self.SendAffinityEvent(COM_Event_Action_GravityLow, None, False)
+      ElseIf companionGravityScale <= 0.0
+        Self.SendAffinityEvent(COM_Event_Action_ZeroG, None, False)
+      EndIf
+    EndIf
+  EndIf
 EndFunction
 
 Function CheckAndSendTemperatureEvents()
-  Actor CompanionRef = ActiveCompanion.GetActorReference() ; #DEBUG_LINE_NO:748
-  If CompanionRef ; #DEBUG_LINE_NO:749
-    If COM_CREW_CND_Comment_TemperatureCommentsAllowed.IsTrue(CompanionRef as ObjectReference, None) == False ; #DEBUG_LINE_NO:751
-       ; #DEBUG_LINE_NO:
-    Else ; #DEBUG_LINE_NO:
-      Int temperature = iTemp_Normal ; #DEBUG_LINE_NO:754
-      If CompanionRef.GetCurrentPlanet().HasKeywordInFormList(COM_LocationKeywords_VeryHot) ; #DEBUG_LINE_NO:756
-        temperature = iTemp_Hot ; #DEBUG_LINE_NO:757
-      ElseIf CompanionRef.GetCurrentPlanet().HasKeywordInFormList(COM_LocationKeywords_VeryCold) ; #DEBUG_LINE_NO:758
-        temperature = iTemp_Cold ; #DEBUG_LINE_NO:759
-      EndIf ; #DEBUG_LINE_NO:
-      If temperature != lastCompanionTemperature ; #DEBUG_LINE_NO:763
-        lastCompanionTemperature = temperature ; #DEBUG_LINE_NO:764
-        If temperature >= iTemp_Hot ; #DEBUG_LINE_NO:767
-          Self.SendAffinityEvent(COM_Event_Action_TempHigh, None, False) ; #DEBUG_LINE_NO:769
-        ElseIf temperature <= iTemp_Cold ; #DEBUG_LINE_NO:770
-          Self.SendAffinityEvent(COM_Event_Action_TempLow, None, False) ; #DEBUG_LINE_NO:772
-        EndIf ; #DEBUG_LINE_NO:
-      EndIf ; #DEBUG_LINE_NO:
-    EndIf ; #DEBUG_LINE_NO:
-  EndIf ; #DEBUG_LINE_NO:
+  Actor CompanionRef = ActiveCompanion.GetActorReference()
+  If CompanionRef
+    If COM_CREW_CND_Comment_TemperatureCommentsAllowed.IsTrue(CompanionRef as ObjectReference, None) == False
+      
+    Else
+      Int temperature = iTemp_Normal
+      If CompanionRef.GetCurrentPlanet().HasKeywordInFormList(COM_LocationKeywords_VeryHot)
+        temperature = iTemp_Hot
+      ElseIf CompanionRef.GetCurrentPlanet().HasKeywordInFormList(COM_LocationKeywords_VeryCold)
+        temperature = iTemp_Cold
+      EndIf
+      If temperature != lastCompanionTemperature
+        lastCompanionTemperature = temperature
+        If temperature >= iTemp_Hot
+          Self.SendAffinityEvent(COM_Event_Action_TempHigh, None, False)
+        ElseIf temperature <= iTemp_Cold
+          Self.SendAffinityEvent(COM_Event_Action_TempLow, None, False)
+        EndIf
+      EndIf
+    EndIf
+  EndIf
 EndFunction
 
 Event Actor.OnPickLock(Actor akSender, ObjectReference akLockedRef, Bool abCrime, Bool abSucceeded, terminalmenu akLockedTerminalMenu, Int aiTerminalMenuItem)
-  If abSucceeded ; #DEBUG_LINE_NO:791
-    If akLockedRef.GetBaseObject() is terminal ; #DEBUG_LINE_NO:792
-      Self.SendAffinityEvent(COM_Event_Action_Hack, None, False) ; #DEBUG_LINE_NO:794
-    Else ; #DEBUG_LINE_NO:
-      Self.SendAffinityEvent(COM_Event_Action_PickLock, None, False) ; #DEBUG_LINE_NO:797
-    EndIf ; #DEBUG_LINE_NO:
-  EndIf ; #DEBUG_LINE_NO:
+  If abSucceeded
+    If akLockedRef.GetBaseObject() is terminal
+      Self.SendAffinityEvent(COM_Event_Action_Hack, None, False)
+    Else
+      Self.SendAffinityEvent(COM_Event_Action_PickLock, None, False)
+    EndIf
+  EndIf
 EndEvent
 
 Function SendAffinityEvent(affinityevent EventToSend, ObjectReference targetRef, Bool ignoreCooldown, Bool ignorePlayerInDialogue = False)
-  Bool PlayerInDialogue = False ; #DEBUG_LINE_NO:817
-  Bool CompanionInScene = False ; #DEBUG_LINE_NO:819
-  Actor CompanionRef = ActiveCompanion.GetActorReference() ; #DEBUG_LINE_NO:820
+  Bool PlayerInDialogue = False
+  Bool CompanionInScene = False
+  Actor CompanionRef = ActiveCompanion.GetActorReference()
   If !ignorePlayerInDialogue ; Added optional bypass of dialogue check for the sake of appearance change dialogue. All appearance changes occur in dialogue, and Game.IsPlayerInDialogue() can return true even if the dialogue menu is closed - Bobbyclue 9/22/23
     PlayerInDialogue = Game.IsPlayerInDialogue()
   EndIf
-  If CompanionRef ; #DEBUG_LINE_NO:821
-    CompanionInScene = CompanionRef.IsInScene() ; #DEBUG_LINE_NO:822
-  EndIf ; #DEBUG_LINE_NO:
-  If ignoreCooldown ; #DEBUG_LINE_NO:825
-    CoolingDown = False ; #DEBUG_LINE_NO:826
-  EndIf ; #DEBUG_LINE_NO:
-  If CoolingDown == False && PlayerInDialogue == False && CompanionInScene == False && Self.IsNearImportantScene(True, True) == False ; #DEBUG_LINE_NO:832
-    EventToSend.send(targetRef) ; #DEBUG_LINE_NO:834
-    Self.StartCoolDownTimer() ; #DEBUG_LINE_NO:835
-  EndIf ; #DEBUG_LINE_NO:
+  If CompanionRef
+    CompanionInScene = CompanionRef.IsInScene()
+  EndIf
+  If ignoreCooldown
+    CoolingDown = False
+  EndIf
+  If CoolingDown == False && PlayerInDialogue == False && CompanionInScene == False && Self.IsNearImportantScene(True, True) == False
+    EventToSend.send(targetRef)
+    Self.StartCoolDownTimer()
+  EndIf
 EndFunction
 
 Bool Function IsNearImportantScene(Bool CheckPlayer, Bool CheckCompanion)
-  Bool returnVal = False ; #DEBUG_LINE_NO:844
-  Int I = 0 ; #DEBUG_LINE_NO:846
-  While returnVal == False && I < ImportantSceneData.Length ; #DEBUG_LINE_NO:847
-    companionaffinityeventsscript:importantscenedatum currentDatum = ImportantSceneData[I] ; #DEBUG_LINE_NO:848
-    Bool sceneIsPlaying = currentDatum.ImportantScene.IsPlaying() ; #DEBUG_LINE_NO:850
-    If sceneIsPlaying ; #DEBUG_LINE_NO:853
-      ObjectReference refToCheck = currentDatum.AliasToCheck.GetReference() ; #DEBUG_LINE_NO:855
-      If CheckPlayer && Game.GetPlayer().GetDistance(refToCheck) <= SceneNearDistance ; #DEBUG_LINE_NO:857
-        returnVal = True ; #DEBUG_LINE_NO:859
-      ElseIf CheckCompanion ; #DEBUG_LINE_NO:
-        ObjectReference CompanionRef = ActiveCompanion.GetReference() ; #DEBUG_LINE_NO:862
-        If CompanionRef as Bool && CompanionRef.GetDistance(refToCheck) <= SceneNearDistance ; #DEBUG_LINE_NO:864
-          returnVal = True ; #DEBUG_LINE_NO:866
-        EndIf ; #DEBUG_LINE_NO:
-      EndIf ; #DEBUG_LINE_NO:
-    EndIf ; #DEBUG_LINE_NO:
-    I += 1 ; #DEBUG_LINE_NO:871
-  EndWhile ; #DEBUG_LINE_NO:
-  Return returnVal ; #DEBUG_LINE_NO:875
+  Bool returnVal = False
+  Int I = 0
+  While returnVal == False && I < ImportantSceneData.Length
+    companionaffinityeventsscript:importantscenedatum currentDatum = ImportantSceneData[I]
+    Bool sceneIsPlaying = currentDatum.ImportantScene.IsPlaying()
+    If sceneIsPlaying
+      ObjectReference refToCheck = currentDatum.AliasToCheck.GetReference()
+      If CheckPlayer && Game.GetPlayer().GetDistance(refToCheck) <= SceneNearDistance
+        returnVal = True
+      ElseIf CheckCompanion
+        ObjectReference CompanionRef = ActiveCompanion.GetReference()
+        If CompanionRef as Bool && CompanionRef.GetDistance(refToCheck) <= SceneNearDistance
+          returnVal = True
+        EndIf
+      EndIf
+    EndIf
+    I += 1
+  EndWhile
+  Return returnVal
 EndFunction
 
 Function DebugResetActionFilterCooldown()
-  CoolingDown = False ; #DEBUG_LINE_NO:882
+  CoolingDown = False
 EndFunction
 
 Bool Function Trace(ScriptObject CallingObject, String asTextToPrint, Int aiSeverity, String MainLogName, String SubLogName, Bool bShowNormalTrace, Bool bShowWarning, Bool bPrefixTraceWithLogNames)
-  Return Debug.TraceLog(CallingObject, asTextToPrint, MainLogName, SubLogName, aiSeverity, bShowNormalTrace, bShowWarning, bPrefixTraceWithLogNames, True) ; #DEBUG_LINE_NO:889
+  Return Debug.TraceLog(CallingObject, asTextToPrint, MainLogName, SubLogName, aiSeverity, bShowNormalTrace, bShowWarning, bPrefixTraceWithLogNames, True)
 EndFunction
 
 ; Fixup hacks for debug-only function: warning
 Bool Function warning(ScriptObject CallingObject, String asTextToPrint, Int aiSeverity, String MainLogName, String SubLogName, Bool bShowNormalTrace, Bool bShowWarning, Bool bPrefixTraceWithLogNames)
-  Return false ; #DEBUG_LINE_NO:893
+  Return false
 EndFunction
 
 ;-- State -------------------------------------------
 State Processing
 
   Event ObjectReference.OnItemAdded(ObjectReference akSender, Form akBaseItem, Int aiItemCount, ObjectReference akItemReference, ObjectReference akSourceContainer, Int aiTransferReason)
-    ; Empty function ; #DEBUG_LINE_NO:
+    ; Empty function
   EndEvent
 
   Event ObjectReference.OnSpellCast(ObjectReference akSender, Form akSpell)
-    ; Empty function ; #DEBUG_LINE_NO:
+    ; Empty function
   EndEvent
 EndState
