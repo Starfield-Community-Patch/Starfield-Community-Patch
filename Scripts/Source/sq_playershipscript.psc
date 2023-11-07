@@ -210,6 +210,10 @@ Function LoadCrewInterior()
       If crewList == None
         crewList = new Actor[0]
       EndIf
+      ; SFCP Fix https://www.starfieldpatch.dev/issues/523
+      ; Recount the SpaceshipCrew Actor value on the home ship as it is double-decremented when taking over an enemy ship.
+      homeShipRef.ModValueTo(Game.GetForm(0x40CE0) As ActorValue, crewList.Length)
+      ; End Fix
       Actor[] dismissedCrewList = DismissedCrew.GetActorArray()
       Int I = 0
       While I < dismissedCrewList.Length
