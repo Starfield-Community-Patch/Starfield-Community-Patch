@@ -44,7 +44,7 @@ When adding items to the changelog try and use the template below:
 - Fixed a extra word in a dialogue line ("going"). [00021C749] - [Reported by Livelynightmare](https://www.starfieldpatch.dev/issues/467)
 - Fixed a grammatical error in the description of the GRUNT magazine perks [0021D059] - [Reported by Murvel3000](https://www.starfieldpatch.dev/issues/510)
 - Fixed a unused keyword with a missing editor ID `Neon_LightSwap_Keyword` [0014C02B] - [Reported by Fuzzlesz](https://www.starfieldpatch.dev/issues/514)
-- Fixed a grammatical error in Sam Coe's dialogue while the play does not pick an option [0026C574] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/549)
+- Fixed a grammatical error in Sam Coe's dialogue while the player does not pick an option [0026C574] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/549)
 - Fixed a mispelling of "Ron Hope" as "Rob Hope" [0008CD36] - [Reported by TheDarkFurie](https://www.starfieldpatch.dev/issues/556)
 
 
