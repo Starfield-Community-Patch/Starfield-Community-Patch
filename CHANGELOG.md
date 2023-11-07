@@ -8,9 +8,13 @@ When adding items to the changelog try and use the template below:
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
 ## [Unreleased] Version 0.0.3
-- Improved the fix for Undiscovered Temples by allowing it to also fix your current save. [starborntemplequestscript]
-- Players can check the patch has been loaded correctly using the command `cgf "SFCP:SFCPUtil.ShowSFCPVersion"` in the console (PC only) [SFCPUtil]
-- Added a new update handler to apply select fixes to the current save without requiring the player to enter NG+. [PlayerLoadGameAliasScript] [UpdateHandler] [0x000805] - [Contributed by Pickysaurus](https://www.starfieldpatch.dev/issues/553)
+- Power from Beyond map markers will no longer disappear. This was caused by versions of the quest pointing to the wrong variant when evaluating if the "Acquire the Power on `<Alias=PlanetWithTrait>`" objective should be shown. [0001C075] [0001C076] [0001C077] [0001C078] - [Fix contributed by Pickysaurus](https://www.nexusmods.com/users/31179975) - [Reported by broekerisdabomb](https://www.starfieldpatch.dev/issues/214)
+- Fixed an invalid reference in the script properties of the Power From Beyond quests [0001C075] [0001C076] [0001C077] [0001C078] [0001C079] [000854E8] [00101043] - [Fix contributed by Aurelianis](https://www.nexusmods.com/starfield/users/143884143)
+- Improved the fix for Coe Estate not unlocking in NG+. This will now unlock without visiting Unity first. [SFCP:UpdateHandler]
+- Improved the fix for Cora Coe not joining the crew with Sam in NG+. This will now unlock without visiting Unity first. [SFCP:UpdateHandler]
+- Improved the fix for Undiscovered Temples. This will now unlock without visiting Unity first. [SFCP:UpdateHandler] [starborntemplequestscript]
+- Players can check the patch has been loaded correctly using the command `cgf "SFCP:SFCPUtil.ShowSFCPVersion"` in the console (PC only) [SFCP:SFCPUtil]
+- Added a new update handler to apply select fixes to the current save without requiring the player to enter NG+. [SFCP:PlayerLoadGameAliasScript] [SFCP:UpdateHandler] [0x000805] - [Contributed by Pickysaurus](https://www.starfieldpatch.dev/issues/553)
 - Radiation damage was using the incorrect resistance value (Corrosive instead of Radiation) [0021BBD4] [002218DF] - [Reported by Naith](https://www.starfieldpatch.dev/issues/368)
 - The "Soak" environmental debuff was using the incorrect resistance value (Corrosive instead of Thermal) [003CBFE0] [001F7630] - [Reported by Naith](https://www.starfieldpatch.dev/issues/368)
 - After finishing the quest "Bare Metal" Styx will no longer be covered in graffiti when displaying the dialogue option "How do you feel now that you're all cleaned up?" [000A91FE] [000A920E] - [Fix contributed by Krevil](https://www.nexusmods.com/starfield/users/1051880) - [Reported by WidgitLabs](https://www.starfieldpatch.dev/issues/32)
