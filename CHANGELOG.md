@@ -50,6 +50,7 @@ When adding items to the changelog try and use the template below:
 - Fixed a unused keyword with a missing editor ID `Neon_LightSwap_Keyword` [0014C02B] - [Reported by Fuzzlesz](https://www.starfieldpatch.dev/issues/514)
 - Fixed a grammatical error in Sam Coe's dialogue while the player does not pick an option [0026C574] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/549)
 - Fixed a mispelling of "Ron Hope" as "Rob Hope" [0008CD36] - [Reported by TheDarkFurie](https://www.starfieldpatch.dev/issues/556)
+- The chemical formula for Benzene has been corrected from C6Hn to C6H6 in all locales. - [Reported by Pickysaurus](https://www.starfieldpatch.dev/issues/508)
 
 
 ## [2023-10-28] Version 0.0.2
