@@ -18,4 +18,4 @@ jobs:
         with: 
           script: |
             const tagFunc = require('./.github/workflows/tagFunc.js')
-            tagFunc({ github, context })
+            await tagFunc({ github, context })
