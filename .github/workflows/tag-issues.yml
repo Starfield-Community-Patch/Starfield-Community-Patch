@@ -1,3 +1,4 @@
+name: tag-github-issues
 on: 
   issues:
     types: [opened]
@@ -10,4 +11,5 @@ jobs:
         with: 
           script: |
             const tagFunc = require('./tagFunc.js')
+            console.log({ context, github })
             tagFunc({ github, context })
