@@ -48,7 +48,7 @@ body:
         - label: Ships
         - label: Textures
       validations:
-      required: true
+        required: true
   - type: textarea
     id: summary
     attributes:
