@@ -31,7 +31,7 @@ body:
       description: Which DLC(s) do you have installed?
       options:
         - label: Shattered Space
-  - type: checkboxes
+  - type: dropdown
     id: category
     attributes:
       label: Category
@@ -39,20 +39,20 @@ body:
         issue falls into more than one category, pick the one you feel is most
         revelant.
       options:
-        - label: Animations
-        - label: Audio
-        - label: Interface
-        - label: Items
-        - label: Locations
-        - label: Meshes
-        - label: Missions & Dialogue
-        - label: NPCs
-        - label: Outposts
-        - label: Perks & Skills
-        - label: Placed Objects
-        - label: Scripts
-        - label: Ships
-        - label: Textures
+        - Animations
+        - Audio
+        - Interface
+        - Items
+        - Locations
+        - Meshes
+        - Missions & Dialogue
+        - NPCs
+        - Outposts
+        - Perks & Skills
+        - Placed Objects
+        - Scripts
+        - Ships
+        - Textures
     validations:
       required: true
   - type: textarea
@@ -79,20 +79,20 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: language
+    id: dropdown
     attributes:
       label: Language
       description: Which locale are you playing the game in?
       options:
-        - label: English (EN)
-        - label: French (FR)
-        - label: German (DE)
-        - label: Italian (IT)
-        - label: Spanish (ES)
-        - label: Polish (PL)
-        - label: Japanese (JA)
-        - label: Brazilian Portuguese (PTBR)
-        - label: Chinese - Simplified (ZHHANS)
+        - English (EN)
+        - French (FR)
+        - German (DE)
+        - Italian (IT)
+        - Spanish (ES)
+        - Polish (PL)
+        - Japanese (JA)
+        - Brazilian Portuguese (PTBR)
+        - Chinese - Simplified (ZHHANS)
     validations:
       required: true
   - type: checkboxes
