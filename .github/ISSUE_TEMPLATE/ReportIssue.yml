@@ -1,6 +1,6 @@
 name: Issue Report
 description: Create a new issue related to Starfield.
-title: " "
+title: "[New Issue]"
 body:
   - type: markdown
     attributes:
@@ -53,8 +53,8 @@ body:
         - label: Scripts
         - label: Ships
         - label: Textures
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: summary
     attributes:
@@ -93,8 +93,8 @@ body:
         - label: Japanese (JA)
         - label: Brazilian Portuguese (PTBR)
         - label: Chinese - Simplified (ZHHANS)
-      validations:
-        required: true
+    validations:
+      required: true
   - type: checkboxes
     id: newgame
     attributes:
@@ -104,8 +104,8 @@ body:
       options:
         - label: Yes, I can recreate this issue.
         - label: No, I cannot recreated this issue.
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: recreate-steps
     attributes:
