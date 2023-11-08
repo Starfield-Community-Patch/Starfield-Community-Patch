@@ -95,15 +95,15 @@ body:
         - Chinese - Simplified (ZHHANS)
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: newgame
     attributes:
       label: Have you recreated this issue on a new game?
       description: "Warning: If you cannot explain how to recreate the issue from a
         new game, the community may not be able to identify and fix it."
       options:
-        - label: Yes, I can recreate this issue.
-        - label: No, I cannot recreated this issue.
+        - Yes, I can recreate this issue.
+        - No, I cannot recreated this issue.
     validations:
       required: true
   - type: textarea
