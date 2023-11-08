@@ -10,6 +10,6 @@ jobs:
       - uses: actions/github-script@v6
         with: 
           script: |
-            const tagFunc = require('./tagFunc.js')
+            const tagFunc = require('./.github/workflows/tagFunc.js')
             console.log({ context, github })
             tagFunc({ github, context })
