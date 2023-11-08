@@ -74,7 +74,7 @@ module.exports = async ({ github, context }) => {
     // Update issue text
     const summaryLine = splitBody.findIndex(l => l === '### Summary');
     if (summaryLine !== -1) {
-        let newBody = splitBody.slice(summaryLine + 1).join('\n');
+        let newBody = splitBody.slice(summaryLine + 1, nexusModsIdLine !== -1 ? nexusModsIdLine -1 : undefined).join('\n');
         if (nexusModsId !== undefined) newBody += `\n\n<!-- NexusMods:${nexusModsId} -->`
 
         try {
