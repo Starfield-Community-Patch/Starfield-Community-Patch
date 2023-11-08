@@ -1,7 +1,6 @@
 module.exports = async ({ github, context }) => {
     const issueSummary = context.issue; // contains owner, repo, number
     const issue = context.payload.issue; // full object
-    console.log('GitHub issue opened', { issueSummary, issue });
 
     // Ignore VASCO, he only posts via the website with labels pre-set.
     if (issue.user.login === 'Constellation-VASCO' || issue.user.login === 'VASCO') {
@@ -34,6 +33,7 @@ module.exports = async ({ github, context }) => {
             console.log('Found DLCs', dlcLabels)
             labels = [...dlcLabels, ...labels];
         }
+        else console.log('No DLCs detected', splitBody.slice(dlcLineId, categoryLineId))
 
         const category = splitBody[categoryLineId + 2];
         console.log('Found Category', category)
@@ -51,6 +51,7 @@ module.exports = async ({ github, context }) => {
             console.log('Found Nexus Mods ID', nexusModsId)
         }
     }
+    else console.log('Nexus Mods ID not found')
 
     // Apply Labels
     if (labels.length) {
@@ -78,7 +79,7 @@ module.exports = async ({ github, context }) => {
 
         try {
             console.log('Updating issue body');
-            await github.rest.issue.update({
+            await github.rest.issues.update({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
