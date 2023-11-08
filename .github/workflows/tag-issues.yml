@@ -7,7 +7,14 @@ jobs:
   apply-label:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/github-script@v6
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+            sparse-checkout: |
+              .github
+
+      - name: Apply tags
+        uses: actions/github-script@v6
         with: 
           script: |
             const tagFunc = require('./.github/workflows/tagFunc.js')
