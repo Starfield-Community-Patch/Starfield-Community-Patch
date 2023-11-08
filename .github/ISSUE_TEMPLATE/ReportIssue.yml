@@ -78,8 +78,8 @@ body:
         [here](https://modding.wiki/en/starfield/users/find-version).
     validations:
       required: true
-  - type: checkboxes
-    id: dropdown
+  - type: dropdown
+    id: language
     attributes:
       label: Language
       description: Which locale are you playing the game in?
