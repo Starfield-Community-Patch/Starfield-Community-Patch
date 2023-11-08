@@ -1,0 +1,114 @@
+name: Issue Report
+description: Create a new issue related to Starfield.
+title: " "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remember, the Community Patch is only intended to fix bugs and errors in the base game. Your report should not ask for:
+        - New content (new quests, missions, characters, items, etc)
+        - Balance changes (outside of correcting obvious errors)
+        - Any tweaks that are not inkeeping with the original vision for game
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform are you playing on?
+      options:
+        - PC (Steam)
+        - PC (Xbox)
+        - Xbox
+    validations:
+      required: true
+  - type: checkboxes
+    id: dlcs
+    attributes:
+      label: DLCs
+      description: Which DLC(s) do you have installed?
+      options:
+        - label: Shattered Space
+  - type: checkboxes
+    id: category
+    attributes:
+      label: Category
+      description: Which category represents the issue you are reporting? If your issue falls into more than one category, pick the one you feel is most revelant.
+      options:
+        - label: Animations
+        - label: Audio
+        - label: Interface
+        - label: Items
+        - label: Locations
+        - label: Meshes
+        - label: Missions & Dialogue
+        - label: NPCs
+        - label: Outposts
+        - label: Perks & Skills
+        - label: Placed Objects
+        - label: Scripts
+        - label: Ships
+        - label: Textures
+      validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Described the issue as clearly and concisely as possible
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+    - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Provide any technical details such as item IDs, quest IDs or asset paths
+    validations:
+      required: true
+    - type: input
+    id: version
+    attributes:
+      label: Game Version
+      description: You can learn how to find your game version [here](https://modding.wiki/en/starfield/users/find-version).
+    validations:
+      required: true
+   - type: checkboxes
+    id: language
+    attributes:
+      label: Language
+      description: Which locale are you playing the game in?
+      options:
+        - label: English (EN)
+        - label: French (FR)
+        - label: German (DE)
+        - label: Italian (IT)
+        - label: Spanish (ES)
+        - label: Polish (PL)
+        - label: Japanese (JA)
+        - label: Brazilian Portuguese (PTBR)
+        - label: Chinese - Simplified (ZHHANS)
+      validations:
+        required: true
+  - type: checkboxes
+    id: newgame
+    attributes:
+      label: Have you recreated this issue on a new game?
+      description: Warning: If you cannot explain how to recreate the issue from a new game, the community may not be able to identify and fix it.
+      options:
+        - label: Yes, I can recreate this issue.
+        - label: No, I cannot recreated this issue. 
+      validations:
+        required: true
+  - type: textarea
+    id: recreate-steps
+    attributes:
+      label: Reproduction Steps
+      description: What are the steps to recreate it?
+    validations:
+      required: true
+  - type: input
+    id: nexusmods
+    attributes:
+      label: Nexus Mods ID (Optional)
+      description: Enter your numerical user ID to associate this issue with your Nexus Mods account.
+    validations:
+      required: false
