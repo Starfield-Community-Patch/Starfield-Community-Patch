@@ -1,4 +1,11 @@
 module.exports = ({ github, context }) => {
-    console.log('GitHub issue opened', { context, github, issue: context.issue });
-    
+    const issueSummary = context.issue;
+    const issueFull = context.payload.issue;
+    console.log('GitHub issue opened', { issueSummary, issueFull });
+    // github.rest.issues.addLabels({
+    //     issue_number: context.issue.number,
+    //     owner: context.repo.owner,
+    //     repo: context.repo.repo,
+    //     labels: ['']
+    // })
 }
