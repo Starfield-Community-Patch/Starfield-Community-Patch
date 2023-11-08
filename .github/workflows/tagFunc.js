@@ -27,9 +27,9 @@ module.exports = async ({ github, context }) => {
     const categoryLineId = splitBody.findIndex(l => l === '### Category');
 
     if (dlcLineId !== -1 && categoryLineId !== -1) {
-        const dlcs = splitBody.slice(dlcLineId, categoryLineId).filter(d => d.startsWith('- [x]'))
+        const dlcs = splitBody.slice(dlcLineId, categoryLineId).filter(d => d.startsWith('- [X]'))
         if (dlcs.length) {
-            const dlcLabels = dlcs.map(d => `DLC: ${d.replace('- [x] ', '').trim()}`);
+            const dlcLabels = dlcs.map(d => `DLC: ${d.replace('- [X] ', '').trim()}`);
             console.log('Found DLCs', dlcLabels)
             labels = [...dlcLabels, ...labels];
         }
