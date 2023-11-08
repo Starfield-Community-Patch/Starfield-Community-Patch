@@ -4,11 +4,15 @@ title: " "
 body:
   - type: markdown
     attributes:
-      value: |
-        Remember, the Community Patch is only intended to fix bugs and errors in the base game. Your report should not ask for:
+      value: >
+        Remember, the Community Patch is only intended to fix bugs and errors in
+        the base game. Your report should not ask for:
+
         - New content (new quests, missions, characters, items, etc)
+
         - Balance changes (outside of correcting obvious errors)
-        - Any tweaks that are not inkeeping with the original vision for game
+
+        - Any tweaks that are not in keeping with the original vision for game
   - type: dropdown
     id: platform
     attributes:
@@ -31,7 +35,9 @@ body:
     id: category
     attributes:
       label: Category
-      description: Which category represents the issue you are reporting? If your issue falls into more than one category, pick the one you feel is most revelant.
+      description: Which category represents the issue you are reporting? If your
+        issue falls into more than one category, pick the one you feel is most
+        revelant.
       options:
         - label: Animations
         - label: Audio
@@ -57,21 +63,22 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: true
-    - type: textarea
+  - type: textarea
     id: details
     attributes:
       label: Details
       description: Provide any technical details such as item IDs, quest IDs or asset paths
     validations:
       required: true
-    - type: input
+  - type: input
     id: version
     attributes:
       label: Game Version
-      description: You can learn how to find your game version [here](https://modding.wiki/en/starfield/users/find-version).
+      description: You can learn how to find your game version
+        [here](https://modding.wiki/en/starfield/users/find-version).
     validations:
       required: true
-   - type: checkboxes
+  - type: checkboxes
     id: language
     attributes:
       label: Language
@@ -92,10 +99,11 @@ body:
     id: newgame
     attributes:
       label: Have you recreated this issue on a new game?
-      description: Warning: If you cannot explain how to recreate the issue from a new game, the community may not be able to identify and fix it.
+      description: "Warning: If you cannot explain how to recreate the issue from a
+        new game, the community may not be able to identify and fix it."
       options:
         - label: Yes, I can recreate this issue.
-        - label: No, I cannot recreated this issue. 
+        - label: No, I cannot recreated this issue.
       validations:
         required: true
   - type: textarea
@@ -109,6 +117,7 @@ body:
     id: nexusmods
     attributes:
       label: Nexus Mods ID (Optional)
-      description: Enter your numerical user ID to associate this issue with your Nexus Mods account.
+      description: Enter your numerical user ID to associate this issue with your
+        Nexus Mods account.
     validations:
       required: false
