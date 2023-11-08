@@ -7,6 +7,11 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
+
+## [Unreleased] Version 0.0.4
+- During My North Star Sivan will now correctly stop following you in certain instances. The StopFollowConditions property of the DefaultFollowerToggleQuestScript was pointing to an invalid Form. [000D2499] - [Reported by Bobbyclue](https://www.starfieldpatch.dev/issues/279)
+
+
 ## [2023-11-07] Version 0.0.3
 - Power from Beyond map markers will no longer disappear. This was caused by versions of the quest pointing to the wrong variant when evaluating if the "Acquire the Power on `<Alias=PlanetWithTrait>`" objective should be shown. [0001C075] [0001C076] [0001C077] [0001C078] - [Fix contributed by Pickysaurus](https://www.nexusmods.com/users/31179975) - [Reported by broekerisdabomb](https://www.starfieldpatch.dev/issues/214)
 - Improved the fix for Coe Estate not unlocking in NG+. This will now unlock without visiting Unity first. [SFCP:UpdateHandler]
