@@ -10,6 +10,7 @@ When adding items to the changelog try and use the template below:
 
 ## [Unreleased] Version 0.0.4
 - During My North Star Sivan will now correctly stop following you in certain instances. The StopFollowConditions property of the DefaultFollowerToggleQuestScript was pointing to an invalid Form. [000D2499] - [Reported by Bobbyclue](https://www.starfieldpatch.dev/issues/279)
+- Reverted Neon Security Dialogue fix by wSkeever [0032C7C0] [QF_DialogueNeonConvo_Securit_0032C7C0] as this fix is on longer required follow the changes in 0.0.3 [Reported by wSkeever](https://www.starfieldpatch.dev/issues/321)
 
 
 ## [2023-11-07] Version 0.0.3
