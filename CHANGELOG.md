@@ -11,8 +11,8 @@ When adding items to the changelog try and use the template below:
 ## [Unreleased] Version 0.0.4
 - During My North Star Sivan will now correctly stop following you in certain instances. The StopFollowConditions property of the DefaultFollowerToggleQuestScript was pointing to an invalid Form. [000D2499] - [Reported by Bobbyclue](https://www.starfieldpatch.dev/issues/279)
 - Reverted Neon Security Dialogue fix by wSkeever [0032C7C0] [QF_DialogueNeonConvo_Securit_0032C7C0] as this fix is on longer required following the changes in 0.0.3 [Reported by wSkeever](https://www.starfieldpatch.dev/issues/563)
-- Reverted the NG+ softlock fix as Bethesda have addressed this themselves in 1.8.83.0 [mq401questscript] [Reported by Connerria](https://www.starfieldpatch.dev/issues/314)
-
+- Reverted the NG+ softlock fix as Bethesda have addressed this themselves in [1.8.83.0](https://bethesda.net/en/game/starfield/article/6BV2LYrp98qW4F15zfejEA/starfield-beta-update-1-8-83-notes-november-8-2023) [mq401questscript] [Reported by Connerria](https://www.starfieldpatch.dev/issues/314)
+- Forwarded changes to One Small Step from [1.8.83.0](https://bethesda.net/en/game/starfield/article/6BV2LYrp98qW4F15zfejEA/starfield-beta-update-1-8-83-notes-november-8-2023) [00019287]
 
 ## [2023-11-07] Version 0.0.3
 - Power from Beyond map markers will no longer disappear. This was caused by versions of the quest pointing to the wrong variant when evaluating if the "Acquire the Power on `<Alias=PlanetWithTrait>`" objective should be shown. [0001C075] [0001C076] [0001C077] [0001C078] - [Fix contributed by Pickysaurus](https://www.nexusmods.com/users/31179975) - [Reported by broekerisdabomb](https://www.starfieldpatch.dev/issues/214)
