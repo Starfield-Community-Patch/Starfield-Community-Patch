@@ -15,6 +15,7 @@ When adding items to the changelog try and use the template below:
 - Red Harvest Single Malt Whiskey is now considered a Liquor component in crafting [0003614C] - [Fix contributed by ArkangelCorvus](https://www.nexusmods.com/starfield/users/136181948) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6532) - [Reported by ArkangelCorvus](https://www.starfieldpatch.dev/issues/318)
 - Reverted Neon Security Dialogue fix by wSkeever [0032C7C0] [QF_DialogueNeonConvo_Securit_0032C7C0] as this fix is no longer required following the changes in 0.0.3 [Reported by wSkeever](https://www.starfieldpatch.dev/issues/563)
 - Reverted the NG+ softlock fix as Bethesda have addressed this themselves in [1.8.83.0](https://bethesda.net/en/game/starfield/article/6BV2LYrp98qW4F15zfejEA/starfield-beta-update-1-8-83-notes-november-8-2023) [mq401questscript] [Reported by Connerria](https://www.starfieldpatch.dev/issues/314)
+- Reverted the fixes applied to the Lasers skill rank 4 as this unintentionally caused EM weapons to deal burn damage to targets. [002C59DD] - [Reported by Argonil](https://www.starfieldpatch.dev/issues/592)
 - Forwarded changes to One Small Step from [1.8.83.0](https://bethesda.net/en/game/starfield/article/6BV2LYrp98qW4F15zfejEA/starfield-beta-update-1-8-83-notes-november-8-2023) [00019287]
 - Fixed a duplicate "as" in a dialogue subtitle. [00260E66] - [Reported by grndkntrl](https://www.starfieldpatch.dev/issues/596)
 
