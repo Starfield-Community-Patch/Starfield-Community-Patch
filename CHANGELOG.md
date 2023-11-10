@@ -9,6 +9,7 @@ When adding items to the changelog try and use the template below:
 -->
 
 ## [Unreleased] Version 0.0.4
+- Power from Beyond temple map markers will now show up as expected. This was caused by versions of the quest pointing to the wrong variant when evaluating if the "Acquire the Power on `<Alias=PlanetWithTrait>`" objective should be shown after reaching the temple. [0001C075] [0001C076] [0001C077] [0001C078] - [Fix contributed by Aurelianis](https://www.nexusmods.com/users/143884143) - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/600)
 - During My North Star Sivan will now correctly stop following you in certain instances. The StopFollowConditions property of the DefaultFollowerToggleQuestScript was pointing to an invalid Form. [000D2499] - [Reported by Bobbyclue](https://www.starfieldpatch.dev/issues/279)
 - CAN-uck! Double Double is now considered a Coffee component in crafting [00249C49] - [Fix contributed by ArkangelCorvus](https://www.nexusmods.com/starfield/users/136181948) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6532) - [Reported by ArkangelCorvus](https://www.starfieldpatch.dev/issues/318)
 - Red Harvest Double Malt Whiskey is now considered a Liquor component in crafting [0003614B] - [Fix contributed by ArkangelCorvus](https://www.nexusmods.com/starfield/users/136181948) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6532) - [Reported by ArkangelCorvus](https://www.starfieldpatch.dev/issues/318)
