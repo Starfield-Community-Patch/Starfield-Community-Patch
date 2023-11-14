@@ -9,21 +9,25 @@ When adding items to the changelog try and use the template below:
 -->
 
 ## [Unreleased] Version 0.0.4
+### Quest Fixes
 - Background Checks will no longer fail to start if the player has killed the elevator guard before starting the quest. The guard is now an optional component on the quest. [0033DC61] - [Fix contributed by Korodic](https://nexusmods.com/users/360983) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6779) - [Reported by Korodic](https://www.starfieldpatch.dev/issues/615)
 - Guilty Parties will no longer fail to start if the player has killed Ularu's door guard before starting the quest. The guard is now an optional component on the quest. [001EE0C8] [Fragments:Quests:QF_RI05_001EE0C8] - [Fix contributed by Korodic](https://nexusmods.com/users/360983) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6782) - [Reported by Korodic](https://www.starfieldpatch.dev/issues/616)
 - Executive Level will no longer fail to start if the player has killed Ularu's door guard before starting the quest. The guard is now an optional component on the quest. [0018B717] [Fragments:Quests:QF_RI08_0018B717] - [Fix contributed by Korodic](https://nexusmods.com/users/360983) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6819) - [Reported by Korodic](https://www.starfieldpatch.dev/issues/618)
 - Power from Beyond temple map markers will now show up as expected. This was caused by versions of the quest pointing to the wrong variant when evaluating if the "Acquire the Power on `<Alias=PlanetWithTrait>`" objective should be shown after reaching the temple. [0001C075] [0001C076] [0001C077] [0001C078] - [Fix contributed by Aurelianis](https://www.nexusmods.com/users/143884143) - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/600)
 - During My North Star Sivan will now correctly stop following you in certain instances. The StopFollowConditions property of the DefaultFollowerToggleQuestScript was pointing to an invalid Form. [000D2499] - [Reported by Bobbyclue](https://www.starfieldpatch.dev/issues/279)
+### Item Fixes
 - CAN-uck! Double Double is now considered a Coffee component in crafting [00249C49] - [Fix contributed by ArkangelCorvus](https://www.nexusmods.com/starfield/users/136181948) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6532) - [Reported by ArkangelCorvus](https://www.starfieldpatch.dev/issues/318)
 - Red Harvest Double Malt Whiskey is now considered a Liquor component in crafting [0003614B] - [Fix contributed by ArkangelCorvus](https://www.nexusmods.com/starfield/users/136181948) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6532) - [Reported by ArkangelCorvus](https://www.starfieldpatch.dev/issues/318)
 - Red Harvest Single Malt Whiskey is now considered a Liquor component in crafting [0003614C] - [Fix contributed by ArkangelCorvus](https://www.nexusmods.com/starfield/users/136181948) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6532) - [Reported by ArkangelCorvus](https://www.starfieldpatch.dev/issues/318)
+### Beta compatibility fixes
 - Reverted Neon Security Dialogue fix by wSkeever [0032C7C0] [QF_DialogueNeonConvo_Securit_0032C7C0] as this fix is no longer required following the changes in 0.0.3 [Reported by wSkeever](https://www.starfieldpatch.dev/issues/563)
 - Reverted the NG+ softlock fix as Bethesda have addressed this themselves in [1.8.83.0](https://bethesda.net/en/game/starfield/article/6BV2LYrp98qW4F15zfejEA/starfield-beta-update-1-8-83-notes-november-8-2023) [mq401questscript] [Reported by Connerria](https://www.starfieldpatch.dev/issues/314)
 - Reverted the fixes applied to the Lasers skill rank 4 as this unintentionally caused EM weapons to deal burn damage to targets. [002C59DD] - [Reported by Argonil](https://www.starfieldpatch.dev/issues/592)
 - Forwarded changes to One Small Step from [1.8.83.0](https://bethesda.net/en/game/starfield/article/6BV2LYrp98qW4F15zfejEA/starfield-beta-update-1-8-83-notes-november-8-2023) [00019287]
+### Text Fixes (English)
 - Fixed a duplicate "as" in a dialogue subtitle. [00260E66] - [Reported by grndkntrl](https://www.starfieldpatch.dev/issues/596)
-### Locale Fixes
-- [IT] Fixed a mistranslation of "Canna pesante" [00094C5C] [001230EF] - [Reported by DEADFURY](https://www.starfieldpatch.dev/issues/607)
+### Text Fixes (Italian)
+- Fixed a mistranslation of "Canna pesante" [00094C5C] [001230EF] - [Reported by DEADFURY](https://www.starfieldpatch.dev/issues/607)
 
 
 ## [2023-11-07] Version 0.0.3
