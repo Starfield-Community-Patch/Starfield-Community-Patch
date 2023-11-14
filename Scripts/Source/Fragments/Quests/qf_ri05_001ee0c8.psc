@@ -1071,7 +1071,10 @@ EndFunction
 Function Fragment_Stage_1070_Item_00()
   RI05_UlaruDead.SetValue(1.0)
   Alias_Maeve.GetRef().MoveTo(Alias_MaeveSceneMarker.GetRef(), 0.0, 0.0, 0.0, True, False)
-  Alias_MaeveGuard.GetRef().MoveTo(Alias_MaeveGuardFurniture.GetRef(), 0.0, 0.0, 0.0, True, False)
+  ; Alias_MaeveGuard.GetRef().MoveTo(Alias_MaeveGuardFurniture.GetRef(), 0.0, 0.0, 0.0, True, False)
+  ; SFCP Fix https://www.starfieldpatch.dev/issues/616
+  ; This guard can be dead, which would fail to fill the alias. Using TryToMoveTo() instead of MoveTo() to avoid errors.
+  Alias_MaeveGuard.TryToMoveTo(Alias_MaeveGuardFurniture.GetRef())
   Self.SetObjectiveCompleted(1000, True)
   Alias_Ularu.Clear()
   Alias_UlaruDoor.GetRef().BlockActivation(False, False)
