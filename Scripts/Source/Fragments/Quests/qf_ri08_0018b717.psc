@@ -688,7 +688,10 @@ Function Fragment_Stage_1000_Item_00()
   Actor UlaruRef = Alias_Ularu.GetActorRef()
   UlaruRef.MoveTo(Alias_UlaruOfficeQS.GetRef(), 0.0, 0.0, 0.0, True, False)
   UlaruRef.EvaluatePackage(False)
-  Alias_RyujinIndustriesSecurity.GetRef().MoveTo(Alias_SecurityPostFurniture.GetRef(), 0.0, 0.0, 0.0, True, False)
+  ; Alias_RyujinIndustriesSecurity.GetRef().MoveTo(Alias_SecurityPostFurniture.GetRef(), 0.0, 0.0, 0.0, True, False)
+  ; SFCP Fix https://www.starfieldpatch.dev/issues/618
+  ; Alias_RyujinIndustriesSecurity is now optional so instead of GetRef().MoveTo() we'll use TryToMoveTo() to prevent errors
+  Alias_RyujinIndustriesSecurity.TryToMoveTo(Alias_SecurityPostFurniture.GetRef())
   Game.GetPlayer().GetFurnitureUsing().Activate(Game.GetPlayer() as ObjectReference, False)
   Alias_Masako.GetActorRef().EvaluatePackage(False)
   Alias_Alexis.GetActorRef().EvaluatePackage(False)
@@ -707,7 +710,10 @@ Function Fragment_Stage_1100_Item_00()
   Actor MasakoRef = Alias_Masako.GetActorRef()
   MasakoRef.MoveTo(Alias_MasakoOfficeQS.GetRef(), 0.0, 0.0, 0.0, True, False)
   MasakoRef.EvaluatePackage(False)
-  Alias_RyujinIndustriesSecurity.GetRef().MoveTo(Alias_SecurityGuardMasakoFurniture.GetRef(), 0.0, 0.0, 0.0, True, False)
+  ; Alias_RyujinIndustriesSecurity.GetRef().MoveTo(Alias_SecurityGuardMasakoFurniture.GetRef(), 0.0, 0.0, 0.0, True, False)
+  ; SFCP Fix https://www.starfieldpatch.dev/issues/618
+  ; Alias_RyujinIndustriesSecurity is now optional so instead of GetRef().MoveTo() we'll use TryToMoveTo() to prevent errors
+  Alias_RyujinIndustriesSecurity.TryToMoveTo(Alias_SecurityGuardMasakoFurniture.GetRef())
   Game.GetPlayer().GetFurnitureUsing().Activate(Game.GetPlayer() as ObjectReference, False)
   Alias_Alexis.GetActorRef().EvaluatePackage(False)
   Alias_Dalton.GetActorRef().EvaluatePackage(False)
