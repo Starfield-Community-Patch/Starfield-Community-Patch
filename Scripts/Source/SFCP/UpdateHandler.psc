@@ -61,7 +61,7 @@ Function ApplyMissingFixes(string sNewVersion)
 
     ; Fix for https://github.com/Starfield-Community-Patch/Starfield-Community-Patch/issues/369
     if (!b001CoraCoeFix || (CurrentVersionGTE(0,0,1)))
-        Quest CREW_EliteCrewCoraCoe = Game.GetForm(0x00187A2C) as Quest
+        Quest CREW_EliteCrewCoraCoe = Game.GetForm(0x00187BF1) as Quest
         if (iTimesEnteredUnity > 0 && !CREW_EliteCrewCoraCoe.IsRunning())
             SFCPUtil.WriteLog("Starting Cora Coe crew quest")
             CREW_EliteCrewCoraCoe.Start()
