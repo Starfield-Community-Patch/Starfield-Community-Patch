@@ -8,11 +8,6 @@ When adding items to the changelog try and use the template below:
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
 <!-- ## [Unreleased] Version 0.0.5
-- During A Tree Grows in New Atlantis, the sensor acquired from Wen at UC Distribution will no longer be marked as stolen if the player manages to obtain it by purchasing it or by persuasion. [Fragments:Quests:QF_City_NA_Botany01_00270718] - [Fix contributed by Pickysaurus](https://www.nexusmods.com/users/31179975) - [Reported by TheTrueDovahki1n](https://www.starfieldpatch.dev/issues/601)
-- Fixed an incorrect reference to the "Akila System" where it should have been "Cheyenne System". [001A8B64] - [Reported by translucentfocus](https://www.starfieldpatch.dev/issues/637)
-- Fixed two gramatical errors in player dialogue with Rayna Marquez during The Devils You Know. [00248C2F] [001D7CCF] - [Reported by thefirebirdman](https://www.starfieldpatch.dev/issues/627)
-- Fixed a misspelling of "Crimson Fleet" in David Barron's SSNN dialogue [0033DD16] - [Reported by KingNewbs](https://www.starfieldpatch.dev/issues/626)
-- Added Emergency Kit to the list of healing items which trigger an animation if NPCs heal each other [0024DDC1] - [Reported by Wartortle](https://www.starfieldpatch.dev/issues/617)
 -->
 ## [2023-11-14] Version 0.0.4
 ### Quest Fixes
