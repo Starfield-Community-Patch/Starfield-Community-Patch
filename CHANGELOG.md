@@ -7,8 +7,10 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
-
-## [Unreleased] Version 0.0.4
+<!-- ## [Unreleased] Version 0.0.5
+- Fixed an incorrect reference to the "Akila System" where it should have been "Cheyenne System". [001A8B64] - [Reported by translucentfocus](https://www.starfieldpatch.dev/issues/637)
+-->
+## [2023-11-14] Version 0.0.4
 ### Quest Fixes
 - Background Checks will no longer fail to start if the player has killed the elevator guard before starting the quest. The guard is now an optional component on the quest. [0033DC61] - [Fix contributed by Korodic](https://nexusmods.com/users/360983) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6779) - [Reported by Korodic](https://www.starfieldpatch.dev/issues/615)
 - Guilty Parties will no longer fail to start if the player has killed Ularu's door guard before starting the quest. The guard is now an optional component on the quest. [001EE0C8] [Fragments:Quests:QF_RI05_001EE0C8] - [Fix contributed by Korodic](https://nexusmods.com/users/360983) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6782) - [Reported by Korodic](https://www.starfieldpatch.dev/issues/616)
@@ -26,6 +28,8 @@ When adding items to the changelog try and use the template below:
 - Forwarded changes to One Small Step from [1.8.83.0](https://bethesda.net/en/game/starfield/article/6BV2LYrp98qW4F15zfejEA/starfield-beta-update-1-8-83-notes-november-8-2023) [00019287]
 ### Text Fixes (English)
 - Fixed a duplicate "as" in a dialogue subtitle. [00260E66] - [Reported by grndkntrl](https://www.starfieldpatch.dev/issues/596)
+- Fixed an incorrect reference to the "Akila System" where it should have been "Cheyenne System". [001A8B64] - [Reported by translucentfocus](https://www.starfieldpatch.dev/issues/637)
+
 ### Text Fixes (Italian)
 - Fixed a mistranslation of "Canna pesante" [00094C5C] [001230EF] - [Reported by DEADFURY](https://www.starfieldpatch.dev/issues/607)
 
