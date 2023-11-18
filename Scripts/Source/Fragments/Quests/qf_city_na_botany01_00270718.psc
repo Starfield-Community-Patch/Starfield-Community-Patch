@@ -95,6 +95,11 @@ Function Fragment_Stage_0063_Item_00()
 EndFunction
 
 Function Fragment_Stage_0065_Item_00()
+  ; SFCP Fix https://www.starfieldpatch.dev/issues/601
+  ; Remove the ownership of the sensor if Wen sells it to the player. 
+  Alias_Sensor_Commercial.GetReference().SetActorOwner(NONE)
+  Alias_Sensor_Commercial.GetReference().SetFactionOwner(NONE)
+  ; End fix
   Game.GetPlayer().Additem(Alias_Sensor_Commercial.GetReference() as Form, 1, False)
   Game.GetPlayer().RemoveItem(Credits as Form, City_NA_Botany01_WenPayment.GetValue() as Int, False, None)
   Self.SetStage(70)
@@ -104,6 +109,11 @@ Function Fragment_Stage_0065_Item_00()
 EndFunction
 
 Function Fragment_Stage_0066_Item_00()
+  ; SFCP Fix https://www.starfieldpatch.dev/issues/601
+  ; Remove the ownership of the sensor if Wen gives it to the player. 
+  Alias_Sensor_Commercial.GetReference().SetActorOwner(NONE)
+  Alias_Sensor_Commercial.GetReference().SetFactionOwner(NONE)
+  ; End fix
   Game.GetPlayer().Additem(Alias_Sensor_Commercial.GetReference() as Form, 1, False)
   Self.SetStage(70)
   If Self.IsObjectiveDisplayed(69)
