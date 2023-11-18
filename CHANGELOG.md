@@ -11,6 +11,7 @@ When adding items to the changelog try and use the template below:
 - Fixed an incorrect reference to the "Akila System" where it should have been "Cheyenne System". [001A8B64] - [Reported by translucentfocus](https://www.starfieldpatch.dev/issues/637)
 - Fixed two gramatical errors in player dialogue with Rayna Marquez during The Devils You Know. [00248C2F] [001D7CCF] - [Reported by thefirebirdman](https://www.starfieldpatch.dev/issues/627)
 - Fixed a misspelling of "Crimson Fleet" in David Barron's SSNN dialogue [0033DD16] - [Reported by KingNewbs](https://www.starfieldpatch.dev/issues/626)
+- Added Emergency Kit to the list of healing items which trigger an animation if NPCs heal each other [0024DDC1] - [Reported by Wartortle](https://www.starfieldpatch.dev/issues/617)
 -->
 ## [2023-11-14] Version 0.0.4
 ### Quest Fixes
@@ -20,6 +21,7 @@ When adding items to the changelog try and use the template below:
 - Power from Beyond temple map markers will now show up as expected. This was caused by versions of the quest pointing to the wrong variant when evaluating if the "Acquire the Power on `<Alias=PlanetWithTrait>`" objective should be shown after reaching the temple. [0001C075] [0001C076] [0001C077] [0001C078] - [Fix contributed by Aurelianis](https://www.nexusmods.com/users/143884143) - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/600)
 - During My North Star Sivan will now correctly stop following you in certain instances. The StopFollowConditions property of the DefaultFollowerToggleQuestScript was pointing to an invalid Form. [000D2499] - [Reported by Bobbyclue](https://www.starfieldpatch.dev/issues/279)
 ### Item Fixes
+- Added Emergency Kit to the list of healing items which trigger an animation if NPCs heal each other [0024DDC1] - [Reported by Wartortle](https://www.starfieldpatch.dev/issues/617)
 - CAN-uck! Double Double is now considered a Coffee component in crafting [00249C49] - [Fix contributed by ArkangelCorvus](https://www.nexusmods.com/starfield/users/136181948) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6532) - [Reported by ArkangelCorvus](https://www.starfieldpatch.dev/issues/318)
 - Red Harvest Double Malt Whiskey is now considered a Liquor component in crafting [0003614B] - [Fix contributed by ArkangelCorvus](https://www.nexusmods.com/starfield/users/136181948) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6532) - [Reported by ArkangelCorvus](https://www.starfieldpatch.dev/issues/318)
 - Red Harvest Single Malt Whiskey is now considered a Liquor component in crafting [0003614C] - [Fix contributed by ArkangelCorvus](https://www.nexusmods.com/starfield/users/136181948) - [Nexus Mods Page](https://www.nexusmods.com/starfield/mods/6532) - [Reported by ArkangelCorvus](https://www.starfieldpatch.dev/issues/318)
