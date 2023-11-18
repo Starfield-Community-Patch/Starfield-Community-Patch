@@ -10,6 +10,7 @@ When adding items to the changelog try and use the template below:
 <!-- ## [Unreleased] Version 0.0.5
 - Fixed an incorrect reference to the "Akila System" where it should have been "Cheyenne System". [001A8B64] - [Reported by translucentfocus](https://www.starfieldpatch.dev/issues/637)
 - Fixed two gramatical errors in player dialogue with Rayna Marquez during The Devils You Know. [00248C2F] [001D7CCF] - [Reported by thefirebirdman](https://www.starfieldpatch.dev/issues/627)
+- Fixed a misspelling of "Crimson Fleet" in David Barron's SSNN dialogue [0033DD16] - [Reported by KingNewbs](https://www.starfieldpatch.dev/issues/626)
 -->
 ## [2023-11-14] Version 0.0.4
 ### Quest Fixes
@@ -31,6 +32,7 @@ When adding items to the changelog try and use the template below:
 - Fixed a duplicate "as" in a dialogue subtitle. [00260E66] - [Reported by grndkntrl](https://www.starfieldpatch.dev/issues/596)
 - Fixed an incorrect reference to the "Akila System" where it should have been "Cheyenne System". [001A8B64] - [Reported by translucentfocus](https://www.starfieldpatch.dev/issues/637)
 - Fixed two gramatical errors in player dialogue with Rayna Marquez during The Devils You Know. [00248C2F] [001D7CCF] - [Reported by thefirebirdman](https://www.starfieldpatch.dev/issues/627)
+- Fixed a misspelling of "Crimson Fleet" in David Barron's SSNN dialogue [0033DD16] - [Reported by KingNewbs](https://www.starfieldpatch.dev/issues/626)
 ### Text Fixes (Italian)
 - Fixed a mistranslation of "Canna pesante" [00094C5C] [001230EF] - [Reported by DEADFURY](https://www.starfieldpatch.dev/issues/607)
 
