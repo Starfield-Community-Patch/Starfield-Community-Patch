@@ -872,829 +872,832 @@ Function Fragment_Stage_0145_Item_00()
   If CompanionAtLodgeREF != SamCoeREF
     kmyQuest.MQ204MoveActor(SamCoeREF, EyeMarker)
   EndIf
-  CompanionAtLodgeREF.moveto(EyeMarker, 0.0, 0.0, 0.0, True, False)0
-  CompanionWhoLivesREF.BlockActivation(True, True)2
-  CompanionWhoLivesREF.SetGhost(True)5
-  CompanionWhoDiesREF.SetGhost(True)6
-  kmyQuest.SetActorHunterAttacked(VladimirREF, True)9
-  If CompanionWhoDiesREF == AndrejaREF || CompanionWhoLivesREF == AndrejaREF0
+  CompanionAtLodgeREF.moveto(EyeMarker, 0.0, 0.0, 0.0, True, False)
+  CompanionWhoLivesREF.BlockActivation(True, True)
+  CompanionWhoLivesREF.SetGhost(True)
+  CompanionWhoDiesREF.SetGhost(True)
+  kmyQuest.SetActorHunterAttacked(VladimirREF, True)
+  If CompanionWhoDiesREF == AndrejaREF || CompanionWhoLivesREF == AndrejaREF
     
   Else
-    kmyQuest.SetActorHunterAttacked(AndrejaREF, True)3
+    kmyQuest.SetActorHunterAttacked(AndrejaREF, True)
   EndIf
-  If CompanionWhoDiesREF == BarrettREF || CompanionWhoLivesREF == BarrettREF6
+  If CompanionWhoDiesREF == BarrettREF || CompanionWhoLivesREF == BarrettREF
     
   Else
-    kmyQuest.SetActorHunterAttacked(BarrettREF, True)9
+    kmyQuest.SetActorHunterAttacked(BarrettREF, True)
   EndIf
-  If CompanionWhoDiesREF == SamCoeREF || CompanionWhoLivesREF == SamCoeREF2
+  If CompanionWhoDiesREF == SamCoeREF || CompanionWhoLivesREF == SamCoeREF
     
   Else
-    kmyQuest.SetActorHunterAttacked(SamCoeREF, True)5
+    kmyQuest.SetActorHunterAttacked(SamCoeREF, True)
   EndIf
-  If CompanionWhoDiesREF == SarahMorganREF || CompanionWhoLivesREF == SarahMorganREF8
+  If CompanionWhoDiesREF == SarahMorganREF || CompanionWhoLivesREF == SarahMorganREF
     
   Else
-    kmyQuest.SetActorHunterAttacked(SarahMorganREF, True)1
+    kmyQuest.SetActorHunterAttacked(SarahMorganREF, True)
   EndIf
-  Self.SetStage(140)4
+  Self.SetStage(140)
 EndFunction
 
 Function Fragment_Stage_0150_Item_00()
-  MQ204A_013_HunterScene01.Start()2
+  MQ204A_013_HunterScene01.Start()
 EndFunction
 
 Function Fragment_Stage_0152_Item_00()
-  Actor HunterREF = Alias_TheHunter.GetActorRef()0
-  Actor PlayerREF = Game.Getplayer()1
-  HunterREF.EvaluatePackage(False)2
-  HunterREF.StartCombat(PlayerREF as ObjectReference, True)3
+  Actor HunterREF = Alias_TheHunter.GetActorRef()
+  Actor PlayerREF = Game.Getplayer()
+  HunterREF.EvaluatePackage(False)
+  HunterREF.StartCombat(PlayerREF as ObjectReference, True)
 EndFunction
 
 Function Fragment_Stage_0153_Item_00()
-  MQ204A_013_HunterScene01.Stop()1
-  MQ204A_013_HunterScene01b.Start()2
+  MQ204A_013_HunterScene01.Stop()
+  MQ204A_013_HunterScene01b.Start()
 EndFunction
 
 Function Fragment_Stage_0154_Item_00()
-  Actor HunterREF = Alias_TheHunter.GetActorRef()0
-  Actor PlayerREF = Game.Getplayer()1
-  HunterREF.EvaluatePackage(False)2
-  HunterREF.StartCombat(PlayerREF as ObjectReference, True)3
+  Actor HunterREF = Alias_TheHunter.GetActorRef()
+  Actor PlayerREF = Game.Getplayer()
+  HunterREF.EvaluatePackage(False)
+  HunterREF.StartCombat(PlayerREF as ObjectReference, True)
 EndFunction
 
 Function Fragment_Stage_0155_Item_00()
-  MQ204A_013_HunterScene01.Stop()1
-  MQ204A_013_HunterScene01b.Stop()2
-  MQ204A_013_HunterScene02.Start()3
+  MQ204A_013_HunterScene01.Stop()
+  MQ204A_013_HunterScene01b.Stop()
+  MQ204A_013_HunterScene02.Start()
 EndFunction
 
 Function Fragment_Stage_0157_Item_00()
-  Actor HunterREF = Alias_TheHunter.GetActorRef()1
-  Actor PlayerREF = Game.Getplayer()2
-  HunterREF.EvaluatePackage(False)3
-  HunterREF.StartCombat(PlayerREF as ObjectReference, True)4
+  Actor HunterREF = Alias_TheHunter.GetActorRef()
+  Actor PlayerREF = Game.Getplayer()
+  HunterREF.EvaluatePackage(False)
+  HunterREF.StartCombat(PlayerREF as ObjectReference, True)
 EndFunction
 
 Function Fragment_Stage_0170_Item_00()
-  Self.SetObjectiveCompleted(120, True)2
-  Self.SetObjectiveDisplayed(140, True, False)3
-  Actor VladimirREF = Alias_Vladimir.GetActorRef()5
-  VladimirREF.EvaluatePackage(False)6
-  Alias_Noel.GetActorRef().moveto(MQ204_Stage200EyeMarker_Noel, 0.0, 0.0, 0.0, True, False)0
+  Self.SetObjectiveCompleted(120, True)
+  Self.SetObjectiveDisplayed(140, True, False)
+  Actor VladimirREF = Alias_Vladimir.GetActorRef()
+  VladimirREF.EvaluatePackage(False)
+  Alias_Noel.GetActorRef().moveto(MQ204_Stage200EyeMarker_Noel, 0.0, 0.0, 0.0, True, False)
 EndFunction
 
 Function Fragment_Stage_0200_Item_00()
-  MQ204A_016_ReturnScene.Start()8
-  Self.SetObjectiveCompleted(140, True)0
-  Self.SetObjectiveDisplayed(150, True, False)1
+  MQ204A_016_ReturnScene.Start()
+  Self.SetObjectiveCompleted(140, True)
+  Self.SetObjectiveDisplayed(150, True, False)
 EndFunction
 
 Function Fragment_Stage_0300_Item_00()
-  Actor AndrejaREF = Alias_Andreja.GetActorRef()9
-  Actor BarrettREF = Alias_Barrett.GetActorRef()0
-  Actor SamCoeREF = Alias_SamCoe.GetActorRef()1
-  Actor SarahMorganREF = Alias_SarahMorgan.GetActorRef()2
-  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()3
-  DeadCompanionREF.BlockActivation(True, True)5
-  DeadCompanionREF.SetUnconscious(True)6
-  DeadCompanionREF.SetValue(COM_IsRomantic, 0.0)7
-  DeadCompanionREF.SetValue(COM_IsCommitted, 0.0)8
-  Game.RemoveFromAvailableCrew(DeadCompanionREF)9
-  If DeadCompanionREF == AndrejaREF2
-    MQ_CompanionDead.SetValueInt(COM_CompanionID_Andreja.GetValueInt())3
-    If COM_Quest_Andreja_Q01.IsRunning()5
-      COM_Quest_Andreja_Q01.SetStage(20000)6
+  Actor AndrejaREF = Alias_Andreja.GetActorRef()
+  Actor BarrettREF = Alias_Barrett.GetActorRef()
+  Actor SamCoeREF = Alias_SamCoe.GetActorRef()
+  Actor SarahMorganREF = Alias_SarahMorgan.GetActorRef()
+  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()
+  DeadCompanionREF.BlockActivation(True, True)
+  DeadCompanionREF.SetUnconscious(True)
+  DeadCompanionREF.SetValue(COM_IsRomantic, 0.0)
+  DeadCompanionREF.SetValue(COM_IsCommitted, 0.0)
+  Game.RemoveFromAvailableCrew(DeadCompanionREF)
+  If DeadCompanionREF == AndrejaREF
+    MQ_CompanionDead.SetValueInt(COM_CompanionID_Andreja.GetValueInt())
+    If COM_Quest_Andreja_Q01.IsRunning()
+      COM_Quest_Andreja_Q01.SetStage(20000)
     EndIf
-    If COM_Companion_Andreja.IsObjectiveDisplayed(10)9
-      COM_Companion_Andreja.SetObjectiveDisplayed(10, False, False)0
+    If COM_Companion_Andreja.IsObjectiveDisplayed(10)
+      COM_Companion_Andreja.SetObjectiveDisplayed(10, False, False)
     EndIf
-  ElseIf DeadCompanionREF == BarrettREF3
-    MQ_CompanionDead.SetValueInt(COM_CompanionID_Barrett.GetValueInt())4
-    If COM_Quest_Barrett_Q01.IsRunning()6
-      COM_Quest_Barrett_Q01.SetStage(20000)7
+  ElseIf DeadCompanionREF == BarrettREF
+    MQ_CompanionDead.SetValueInt(COM_CompanionID_Barrett.GetValueInt())
+    If COM_Quest_Barrett_Q01.IsRunning()
+      COM_Quest_Barrett_Q01.SetStage(20000)
     EndIf
-    If COM_Quest_Barrett_Q02.IsRunning()0
-      COM_Quest_Barrett_Q02.SetStage(20000)1
+    If COM_Quest_Barrett_Q02.IsRunning()
+      COM_Quest_Barrett_Q02.SetStage(20000)
     EndIf
-    If Com_Companion_Barrett.IsObjectiveDisplayed(900)4
-      Com_Companion_Barrett.SetObjectiveDisplayed(900, False, False)5
+    If Com_Companion_Barrett.IsObjectiveDisplayed(900)
+      Com_Companion_Barrett.SetObjectiveDisplayed(900, False, False)
     EndIf
-  ElseIf DeadCompanionREF == SamCoeREF8
-    MQ_CompanionDead.SetValueInt(COM_CompanionID_SamCoe.GetValueInt())9
-    If COM_Quest_SamCoe_Q01.IsRunning()1
-      COM_Quest_SamCoe_Q01.SetStage(20000)2
+  ElseIf DeadCompanionREF == SamCoeREF
+    MQ_CompanionDead.SetValueInt(COM_CompanionID_SamCoe.GetValueInt())
+    If COM_Quest_SamCoe_Q01.IsRunning()
+      COM_Quest_SamCoe_Q01.SetStage(20000)
     EndIf
-    If COM_Companion_SamCoe.IsObjectiveDisplayed(10)5
-      COM_Companion_SamCoe.SetObjectiveDisplayed(10, False, False)6
+    If COM_Companion_SamCoe.IsObjectiveDisplayed(10)
+      COM_Companion_SamCoe.SetObjectiveDisplayed(10, False, False)
     EndIf
-    If COM_Companion_SamCoe.IsObjectiveDisplayed(798)9
-      COM_Companion_SamCoe.SetObjectiveDisplayed(798, False, False)0
+    If COM_Companion_SamCoe.IsObjectiveDisplayed(798)
+      COM_Companion_SamCoe.SetObjectiveDisplayed(798, False, False)
     EndIf
-    If COM_Companion_SamCoe.IsObjectiveDisplayed(801)3
-      COM_Companion_SamCoe.SetObjectiveDisplayed(801, False, False)4
+    If COM_Companion_SamCoe.IsObjectiveDisplayed(801)
+      COM_Companion_SamCoe.SetObjectiveDisplayed(801, False, False)
     EndIf
-    If COM_Companion_SamCoe.IsObjectiveDisplayed(802)7
-      COM_Companion_SamCoe.SetObjectiveDisplayed(802, False, False)8
+    If COM_Companion_SamCoe.IsObjectiveDisplayed(802)
+      COM_Companion_SamCoe.SetObjectiveDisplayed(802, False, False)
     EndIf
-  ElseIf DeadCompanionREF == SarahMorganREF1
-    MQ_CompanionDead.SetValueInt(COM_CompanionID_SarahMorgan.GetValueInt())2
-    If COM_Quest_SarahMorgan_Q01.IsRunning()4
-      COM_Quest_SarahMorgan_Q01.SetStage(20000)5
+  ElseIf DeadCompanionREF == SarahMorganREF
+    MQ_CompanionDead.SetValueInt(COM_CompanionID_SarahMorgan.GetValueInt())
+    If COM_Quest_SarahMorgan_Q01.IsRunning()
+      COM_Quest_SarahMorgan_Q01.SetStage(20000)
     EndIf
-    If COM_Companion_SarahMorgan.IsObjectiveDisplayed(10)8
-      COM_Companion_SarahMorgan.SetObjectiveDisplayed(10, False, False)9
+    If COM_Companion_SarahMorgan.IsObjectiveDisplayed(10)
+      COM_Companion_SarahMorgan.SetObjectiveDisplayed(10, False, False)
     EndIf
   EndIf
-  Actor CompanionWhoLivesREF = MQ00_CompanionWhoLives.GetActorRef()5
-  (SQ_Companions as sq_companionsscript).SetRoleActive(CompanionWhoLivesREF, True, True, 0.0, 0.0)6
-  (SQ_Companions as sq_companionsscript).LockInCompanion(CompanionWhoLivesREF as companionactorscript, True, MQ204CompanionLockInMSG, None)7
-  CompanionWhoLivesREF.EvaluatePackage(False)8
-  CompanionWhoLivesREF.BlockActivation(False, False)9
-  CompanionWhoLivesREF.SetGhost(False)0
-  If AndrejaREF != DeadCompanionREF2
-    AndrejaREF.SetValue(CrewReassignDisabled, 0.0)3
+  Actor CompanionWhoLivesREF = MQ00_CompanionWhoLives.GetActorRef()
+  (SQ_Companions as sq_companionsscript).SetRoleActive(CompanionWhoLivesREF, True, True, 0.0, 0.0)
+  (SQ_Companions as sq_companionsscript).LockInCompanion(CompanionWhoLivesREF as companionactorscript, True, MQ204CompanionLockInMSG, None)
+  CompanionWhoLivesREF.EvaluatePackage(False)
+  CompanionWhoLivesREF.BlockActivation(False, False)
+  CompanionWhoLivesREF.SetGhost(False)
+  If AndrejaREF != DeadCompanionREF
+    AndrejaREF.SetValue(CrewReassignDisabled, 0.0)
   EndIf
-  If BarrettREF != DeadCompanionREF5
-    BarrettREF.SetValue(CrewReassignDisabled, 0.0)6
+  If BarrettREF != DeadCompanionREF
+    BarrettREF.SetValue(CrewReassignDisabled, 0.0)
   EndIf
-  If SamCoeREF != DeadCompanionREF8
-    SamCoeREF.SetValue(CrewReassignDisabled, 0.0)9
+  If SamCoeREF != DeadCompanionREF
+    SamCoeREF.SetValue(CrewReassignDisabled, 0.0)
   EndIf
-  If SarahMorganREF != DeadCompanionREF1
-    SarahMorganREF.SetValue(CrewReassignDisabled, 0.0)2
+  If SarahMorganREF != DeadCompanionREF
+    SarahMorganREF.SetValue(CrewReassignDisabled, 0.0)
   EndIf
 EndFunction
 
 Function Fragment_Stage_0305_Item_00()
-  Quest __temp = Self as Quest1
-  mq204script kmyQuest = __temp as mq204script2
-  Actor VladimirREF = Alias_Vladimir.GetActorRef()5
-  VladimirREF.SetActivateTextOverride(None)6
-  VladimirREF.EvaluatePackage(False)7
-  kmyQuest.CheckEyeActors()0
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor VladimirREF = Alias_Vladimir.GetActorRef()
+  VladimirREF.SetActivateTextOverride(None)
+  VladimirREF.EvaluatePackage(False)
+  kmyQuest.CheckEyeActors()
 EndFunction
 
 Function Fragment_Stage_0310_Item_00()
-  Quest __temp = Self as Quest8
-  mq204script kmyQuest = __temp as mq204script9
-  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()2
-  Actor LivesCompanionREF = MQ00_CompanionWhoLives.GetActorRef()3
-  Actor AndrejaREF = Alias_Andreja.GetActorRef()4
-  If DeadCompanionREF == AndrejaREF7
-    Self.SetStage(300)8
-  ElseIf LivesCompanionREF == AndrejaREF9
-    Self.SetStage(440)0
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()
+  Actor LivesCompanionREF = MQ00_CompanionWhoLives.GetActorRef()
+  Actor AndrejaREF = Alias_Andreja.GetActorRef()
+  If DeadCompanionREF == AndrejaREF
+    Self.SetStage(300)
+  ElseIf LivesCompanionREF == AndrejaREF
+    Self.SetStage(440)
   EndIf
-  kmyQuest.RescuedActor(AndrejaREF)4
+  kmyQuest.RescuedActor(AndrejaREF)
 EndFunction
 
 Function Fragment_Stage_0320_Item_00()
-  Quest __temp = Self as Quest2
-  mq204script kmyQuest = __temp as mq204script3
-  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()6
-  Actor LivesCompanionREF = MQ00_CompanionWhoLives.GetActorRef()7
-  Actor BarrettREF = Alias_Barrett.GetActorRef()8
-  If DeadCompanionREF == BarrettREF1
-    Self.SetStage(300)2
-  ElseIf LivesCompanionREF == BarrettREF3
-    Self.SetStage(440)4
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()
+  Actor LivesCompanionREF = MQ00_CompanionWhoLives.GetActorRef()
+  Actor BarrettREF = Alias_Barrett.GetActorRef()
+  If DeadCompanionREF == BarrettREF
+    Self.SetStage(300)
+  ElseIf LivesCompanionREF == BarrettREF
+    Self.SetStage(440)
   EndIf
-  kmyQuest.RescuedActor(BarrettREF)8
+  kmyQuest.RescuedActor(BarrettREF)
 EndFunction
 
 Function Fragment_Stage_0322_Item_00()
-  Actor SamCoeREF = Alias_SamCoe.GetActorRef()7
-  If MQ00_CompanionWhoDies.GetActorRef() == SamCoeREF8
-    Self.SetStage(324)9
+  Actor SamCoeREF = Alias_SamCoe.GetActorRef()
+  If MQ00_CompanionWhoDies.GetActorRef() == SamCoeREF
+    Self.SetStage(324)
   EndIf
 EndFunction
 
 Function Fragment_Stage_0325_Item_00()
-  Actor SamCoeREF = Alias_SamCoe.GetActorRef()9
-  If MQ00_CompanionWhoDies.GetActorRef() == SamCoeREF0
-    MQ204A_030a_DeathCoraScene.Start()1
-  ElseIf Alias_Companion.GetActorRef() != SamCoeREF2
-    MQ204A_020a_MedstimSam.Start()3
+  Actor SamCoeREF = Alias_SamCoe.GetActorRef()
+  If MQ00_CompanionWhoDies.GetActorRef() == SamCoeREF
+    MQ204A_030a_DeathCoraScene.Start()
+  ElseIf Alias_Companion.GetActorRef() != SamCoeREF
+    MQ204A_020a_MedstimSam.Start()
   EndIf
 EndFunction
 
 Function Fragment_Stage_0330_Item_00()
-  Quest __temp = Self as Quest2
-  mq204script kmyQuest = __temp as mq204script3
-  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()6
-  Actor LivesCompanionREF = MQ00_CompanionWhoLives.GetActorRef()7
-  Actor SamCoeREF = Alias_SamCoe.GetActorRef()8
-  Actor CoraREF = Alias_CoraCoe.GetActorRef()9
-  If DeadCompanionREF == SamCoeREF2
-    Game.Getplayer().SetValue(MQ204SamDied, 1.0)3
-    Self.SetStage(300)4
-  ElseIf LivesCompanionREF == SamCoeREF5
-    Self.SetStage(440)6
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()
+  Actor LivesCompanionREF = MQ00_CompanionWhoLives.GetActorRef()
+  Actor SamCoeREF = Alias_SamCoe.GetActorRef()
+  Actor CoraREF = Alias_CoraCoe.GetActorRef()
+  If DeadCompanionREF == SamCoeREF
+    Game.Getplayer().SetValue(MQ204SamDied, 1.0)
+    Self.SetStage(300)
+  ElseIf LivesCompanionREF == SamCoeREF
+    Self.SetStage(440)
   EndIf
-  kmyQuest.RescuedActor(SamCoeREF)0
-  CoraREF.SetGhost(False)3
-  CoraREF.SetActivateTextOverride(None)4
+  kmyQuest.RescuedActor(SamCoeREF)
+  CoraREF.SetGhost(False)
+  CoraREF.SetActivateTextOverride(None)
 EndFunction
 
 Function Fragment_Stage_0340_Item_00()
-  Quest __temp = Self as Quest2
-  mq204script kmyQuest = __temp as mq204script3
-  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()6
-  Actor LivesCompanionREF = MQ00_CompanionWhoLives.GetActorRef()7
-  Actor SarahMorganREF = Alias_SarahMorgan.GetActorRef()8
-  If DeadCompanionREF == SarahMorganREF1
-    Self.SetStage(300)2
-  ElseIf LivesCompanionREF == SarahMorganREF3
-    Self.SetStage(440)4
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()
+  Actor LivesCompanionREF = MQ00_CompanionWhoLives.GetActorRef()
+  Actor SarahMorganREF = Alias_SarahMorgan.GetActorRef()
+  If DeadCompanionREF == SarahMorganREF
+    Self.SetStage(300)
+  ElseIf LivesCompanionREF == SarahMorganREF
+    Self.SetStage(440)
   EndIf
-  kmyQuest.RescuedActor(SarahMorganREF)8
+  kmyQuest.RescuedActor(SarahMorganREF)
 EndFunction
 
 Function Fragment_Stage_0350_Item_00()
-  Quest __temp = Self as Quest6
-  mq204script kmyQuest = __temp as mq204script7
-  Actor MatteoREF = Alias_MatteoKhatri.GetActorRef()0
-  MatteoREF.SetActivateTextOverride(None)1
-  MatteoREF.SetGhost(False)2
-  kmyQuest.CheckLodgeActors()4
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor MatteoREF = Alias_MatteoKhatri.GetActorRef()
+  MatteoREF.SetActivateTextOverride(None)
+  MatteoREF.SetGhost(False)
+  kmyQuest.CheckLodgeActors()
 EndFunction
 
 Function Fragment_Stage_0360_Item_00()
-  Quest __temp = Self as Quest2
-  mq204script kmyQuest = __temp as mq204script3
-  Actor WalterREF = Alias_WalterStroud.GetActorRef()6
-  WalterREF.SetActivateTextOverride(None)7
-  WalterREF.SetGhost(False)8
-  kmyQuest.CheckLodgeActors()0
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor WalterREF = Alias_WalterStroud.GetActorRef()
+  WalterREF.SetActivateTextOverride(None)
+  WalterREF.SetGhost(False)
+  kmyQuest.CheckLodgeActors()
 EndFunction
 
 Function Fragment_Stage_0370_Item_00()
-  Quest __temp = Self as Quest8
-  mq204script kmyQuest = __temp as mq204script9
-  Actor VascoREF = Alias_Vasco.GetActorRef()2
-  kmyQuest.SetActorRecovered(VascoREF)3
-  VascoREF.SetActivateTextOverride(None)4
-  VascoREF.SetGhost(False)5
-  kmyQuest.CheckLodgeActors()7
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor VascoREF = Alias_Vasco.GetActorRef()
+  kmyQuest.SetActorRecovered(VascoREF)
+  VascoREF.SetActivateTextOverride(None)
+  VascoREF.SetGhost(False)
+  kmyQuest.CheckLodgeActors()
 EndFunction
 
 Function Fragment_Stage_0390_Item_00()
-  If Self.GetStageDone(100)6
-    Self.SetStage(170)7
+  If Self.GetStageDone(100)
+    Self.SetStage(170)
   EndIf
-  If Self.GetStageDone(400)1
-    Self.SetStage(450)2
+  If Self.GetStageDone(400)
+    Self.SetStage(450)
   EndIf
-  Alias_Vladimir.GetActorRef().EvaluatePackage(False)5
+  Alias_Vladimir.GetActorRef().EvaluatePackage(False)
 EndFunction
 
 Function Fragment_Stage_0400_Item_00()
-  Quest __temp = Self as Quest3
-  mq204script kmyQuest = __temp as mq204script4
-  kmyQuest.MQ204EnableLayer = None7
-  Game.Getplayer().addtoFaction(EyeBoardingFaction)0
-  Self.SetObjectiveDisplayed(55, False, False)2
-  Self.SetObjectiveDisplayed(80, False, False)3
-  Self.SetObjectiveDisplayed(60, True, True)4
-  ObjectReference FrontDoorREF = Alias_LodgeFrontDoor.GetRef()7
-  ObjectReference RoofDoorREF = Alias_LodgeRoofDoor.GetRef()8
-  ObjectReference FrontDoorExtREF = Alias_LodgeFrontDoorExterior.GetRef()9
-  ObjectReference RoofDoorExtREF = Alias_LodgeRoofDoorExterior.GetRef()0
-  FrontDoorREF.BlockActivation(True, False)2
-  FrontDoorREF.Lock(True, False, True)3
-  FrontDoorREF.SetLockLevel(254)4
-  RoofDoorREF.BlockActivation(True, False)5
-  RoofDoorREF.Lock(True, False, True)6
-  RoofDoorREF.SetLockLevel(254)7
-  FrontDoorExtREF.BlockActivation(True, False)8
-  FrontDoorExtREF.Lock(True, False, True)9
-  FrontDoorExtREF.SetLockLevel(254)0
-  RoofDoorExtREF.BlockActivation(True, False)1
-  RoofDoorExtREF.Lock(True, False, True)2
-  RoofDoorExtREF.SetLockLevel(254)3
-  MQ204A_007_ActivateDoor.Stop()5
-  Actor CompanionAtLodgeREF = MQ00_CompanionAtLodge.GetActorRef()8
-  Actor CompanionAtEyeREF = MQ00_CompanionAtEye.GetActorRef()9
-  MQ00_CompanionWhoDies.ForceRefTo(CompanionAtLodgeREF as ObjectReference)0
-  MQ00_CompanionWhoLives.ForceRefTo(CompanionAtEyeREF as ObjectReference)1
-  MQ204LodgeCompanionDeadEnableMarker.EnableNoWait(False)3
-  kmyQuest.SetDeathFurnitureKeywords(CompanionAtLodgeREF, CompanionAtEyeREF, MQ204LodgeDeathMarker)5
-  CompanionAtLodgeREF.ChangeAnimFaceArchetype(AnimFaceArchetypeEyesClosed)8
-  Alias_TheHunter.GetActorRef().moveto(MQHoldingCellCenterMarker, 0.0, 0.0, 0.0, True, False)1
-  If MQ00_CompanionAtLodge.GetActorRef() == Alias_SamCoe.GetActorRef()4
-    Self.SetStage(323)5
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  kmyQuest.MQ204EnableLayer = None
+  Game.Getplayer().addtoFaction(EyeBoardingFaction)
+  Self.SetObjectiveDisplayed(55, False, False)
+  Self.SetObjectiveDisplayed(80, False, False)
+  Self.SetObjectiveDisplayed(60, True, True)
+  ObjectReference FrontDoorREF = Alias_LodgeFrontDoor.GetRef()
+  ObjectReference RoofDoorREF = Alias_LodgeRoofDoor.GetRef()
+  ObjectReference FrontDoorExtREF = Alias_LodgeFrontDoorExterior.GetRef()
+  ObjectReference RoofDoorExtREF = Alias_LodgeRoofDoorExterior.GetRef()
+  FrontDoorREF.BlockActivation(True, False)
+  FrontDoorREF.Lock(True, False, True)
+  FrontDoorREF.SetLockLevel(254)
+  RoofDoorREF.BlockActivation(True, False)
+  RoofDoorREF.Lock(True, False, True)
+  RoofDoorREF.SetLockLevel(254)
+  FrontDoorExtREF.BlockActivation(True, False)
+  FrontDoorExtREF.Lock(True, False, True)
+  FrontDoorExtREF.SetLockLevel(254)
+  RoofDoorExtREF.BlockActivation(True, False)
+  RoofDoorExtREF.Lock(True, False, True)
+  RoofDoorExtREF.SetLockLevel(254)
+  MQ204A_007_ActivateDoor.Stop()
+  Actor CompanionAtLodgeREF = MQ00_CompanionAtLodge.GetActorRef()
+  Actor CompanionAtEyeREF = MQ00_CompanionAtEye.GetActorRef()
+  MQ00_CompanionWhoDies.ForceRefTo(CompanionAtLodgeREF as ObjectReference)
+  MQ00_CompanionWhoLives.ForceRefTo(CompanionAtEyeREF as ObjectReference)
+  MQ204LodgeCompanionDeadEnableMarker.EnableNoWait(False)
+  kmyQuest.SetDeathFurnitureKeywords(CompanionAtLodgeREF, CompanionAtEyeREF, MQ204LodgeDeathMarker)
+  CompanionAtLodgeREF.ChangeAnimFaceArchetype(AnimFaceArchetypeEyesClosed)
+  Alias_TheHunter.GetActorRef().moveto(MQHoldingCellCenterMarker, 0.0, 0.0, 0.0, True, False)
+  If MQ00_CompanionAtLodge.GetActorRef() == Alias_SamCoe.GetActorRef()
+    Self.SetStage(323)
   EndIf
-  If MQ00_CompanionAtLodge.GetActorRef() != Alias_SamCoe.GetActorRef()9
-    Self.SetStage(322)0
+  If MQ00_CompanionAtLodge.GetActorRef() != Alias_SamCoe.GetActorRef()
+    Self.SetStage(322)
   EndIf
-  MQ204LodgeAttackClutterEnableMarker.Enable(False)4
-  Actor SavedCompanionREF = MQ00_CompanionWhoLives.GetActorRef()6
-  If SavedCompanionREF == Alias_Andreja.GetActorRef()8
-    MQ_CompanionSaved.SetValueInt(COM_CompanionID_Andreja.GetValueInt())9
-  ElseIf SavedCompanionREF == Alias_Barrett.GetActorRef()0
-    MQ_CompanionSaved.SetValueInt(COM_CompanionID_Barrett.GetValueInt())1
-  ElseIf SavedCompanionREF == Alias_SamCoe.GetActorRef()2
-    MQ_CompanionSaved.SetValueInt(COM_CompanionID_SamCoe.GetValueInt())3
-  ElseIf SavedCompanionREF == Alias_SarahMorgan.GetActorRef()4
-    MQ_CompanionSaved.SetValueInt(COM_CompanionID_SarahMorgan.GetValueInt())5
+  MQ204LodgeAttackClutterEnableMarker.Enable(False)
+  Actor SavedCompanionREF = MQ00_CompanionWhoLives.GetActorRef()
+  If SavedCompanionREF == Alias_Andreja.GetActorRef()
+    MQ_CompanionSaved.SetValueInt(COM_CompanionID_Andreja.GetValueInt())
+  ElseIf SavedCompanionREF == Alias_Barrett.GetActorRef()
+    MQ_CompanionSaved.SetValueInt(COM_CompanionID_Barrett.GetValueInt())
+  ElseIf SavedCompanionREF == Alias_SamCoe.GetActorRef()
+    MQ_CompanionSaved.SetValueInt(COM_CompanionID_SamCoe.GetValueInt())
+  ElseIf SavedCompanionREF == Alias_SarahMorgan.GetActorRef()
+    MQ_CompanionSaved.SetValueInt(COM_CompanionID_SarahMorgan.GetValueInt())
   EndIf
-  MQ204A_004_NoelAmbient.Stop()8
-  MQ204A_008b_WalterGrabbed.Stop()9
+  MQ204A_004_NoelAmbient.Stop()
+  MQ204A_008b_WalterGrabbed.Stop()
 EndFunction
 
 Function Fragment_Stage_0420_Item_00()
-  Quest __temp = Self as Quest7
-  mq204script kmyQuest = __temp as mq204script8
-  Self.SetObjectiveCompleted(60, True)1
-  Self.SetObjectiveDisplayed(120, True, False)2
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Self.SetObjectiveCompleted(60, True)
+  Self.SetObjectiveDisplayed(120, True, False)
 EndFunction
 
 Function Fragment_Stage_0425_Item_00()
-  Quest __temp = Self as Quest0
-  mq204script kmyQuest = __temp as mq204script1
-  Actor AndrejaREF = Alias_Andreja.GetActorRef()4
-  Actor BarrettREF = Alias_Barrett.GetActorRef()5
-  Actor SamCoeREF = Alias_SamCoe.GetActorRef()6
-  Actor CoraCoeREF = Alias_CoraCoe.GetActorRef()7
-  Actor SarahMorganREF = Alias_SarahMorgan.GetActorRef()8
-  Actor VladimirREF = Alias_Vladimir.GetActorRef()9
-  Actor WalterREF = Alias_WalterStroud.GetActorRef()0
-  Actor MatteoREF = Alias_MatteoKhatri.GetActorRef()1
-  Actor VascoREF = Alias_Vasco.GetActorRef()2
-  Actor NoelREF = Alias_Noel.GetActorRef()3
-  Actor CompanionAtLodgeREF = MQ00_CompanionAtLodge.GetActorRef()4
-  If CompanionAtLodgeREF == AndrejaREF6
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor AndrejaREF = Alias_Andreja.GetActorRef()
+  Actor BarrettREF = Alias_Barrett.GetActorRef()
+  Actor SamCoeREF = Alias_SamCoe.GetActorRef()
+  Actor CoraCoeREF = Alias_CoraCoe.GetActorRef()
+  Actor SarahMorganREF = Alias_SarahMorgan.GetActorRef()
+  Actor VladimirREF = Alias_Vladimir.GetActorRef()
+  Actor WalterREF = Alias_WalterStroud.GetActorRef()
+  Actor MatteoREF = Alias_MatteoKhatri.GetActorRef()
+  Actor VascoREF = Alias_Vasco.GetActorRef()
+  Actor NoelREF = Alias_Noel.GetActorRef()
+  Actor CompanionAtLodgeREF = MQ00_CompanionAtLodge.GetActorRef()
+  If CompanionAtLodgeREF == AndrejaREF
     
   Else
-    kmyQuest.MQ204MoveActor(AndrejaREF, EyeMarker)9
+    kmyQuest.MQ204MoveActor(AndrejaREF, EyeMarker)
   EndIf
-  If CompanionAtLodgeREF == BarrettREF2
+  If CompanionAtLodgeREF == BarrettREF
     
   Else
-    kmyQuest.MQ204MoveActor(BarrettREF, EyeMarker)5
+    kmyQuest.MQ204MoveActor(BarrettREF, EyeMarker)
   EndIf
-  If CompanionAtLodgeREF == SamCoeREF8
+  If CompanionAtLodgeREF == SamCoeREF
     
   Else
-    kmyQuest.MQ204MoveActor(SamCoeREF, EyeMarker)1
-    kmyQuest.MQ204MoveActor(CoraCoeREF, EyeMarker)2
+    kmyQuest.MQ204MoveActor(SamCoeREF, EyeMarker)
+    kmyQuest.MQ204MoveActor(CoraCoeREF, EyeMarker)
   EndIf
-  If CompanionAtLodgeREF == SarahMorganREF5
+  If CompanionAtLodgeREF == SarahMorganREF
     
   Else
-    kmyQuest.MQ204MoveActor(SarahMorganREF, EyeMarker)8
+    kmyQuest.MQ204MoveActor(SarahMorganREF, EyeMarker)
   EndIf
-  kmyQuest.MQ204MoveActor(VladimirREF, EyeMarker)1
-  Self.SetStage(420)3
+  kmyQuest.MQ204MoveActor(VladimirREF, EyeMarker)
+  Self.SetStage(420)
 EndFunction
 
 Function Fragment_Stage_0440_Item_00()
-  Actor CompanionWhoLivesREF = MQ00_CompanionWhoLives.GetActorRef()1
-  CompanionWhoLivesREF.EvaluatePackage(False)2
-  Alias_CoraCoe.GetActorRef().EvaluatePackage(False)4
+  Actor CompanionWhoLivesREF = MQ00_CompanionWhoLives.GetActorRef()
+  CompanionWhoLivesREF.EvaluatePackage(False)
+  Alias_CoraCoe.GetActorRef().EvaluatePackage(False)
 EndFunction
 
 Function Fragment_Stage_0450_Item_00()
-  Quest __temp = Self as Quest2
-  mq204script kmyQuest = __temp as mq204script3
-  Self.SetObjectiveCompleted(120, True)6
-  Self.SetObjectiveDisplayed(300, True, False)7
-  Actor NoelREF = Alias_Noel.GetActorRef()9
-  NoelREF.Disable(False)1
-  NoelREF.moveto(MQ204_NoelHidingMarker, 0.0, 0.0, 0.0, True, False)2
-  NoelREF.EvaluatePackage(False)3
-  NoelREF.Enable(False)4
-  ObjectReference ArmillaryREF = Alias_ArtifactCollectionTrigger.GetRef()6
-  (ArmillaryREF as armillaryscript).PackupArmillary(NoelREF)7
-  Alias_Armillary.GetRef().DisableNoWait(False)8
-  ArmillaryREF.BlockActivation(True, True)9
-  ObjectReference FrontDoorREF = Alias_LodgeFrontDoor.GetRef()2
-  ObjectReference RoofDoorREF = Alias_LodgeRoofDoor.GetRef()3
-  ObjectReference FrontDoorExtREF = Alias_LodgeFrontDoorExterior.GetRef()4
-  ObjectReference RoofDoorExtREF = Alias_LodgeRoofDoorExterior.GetRef()5
-  FrontDoorREF.BlockActivation(False, False)8
-  FrontDoorREF.Lock(False, False, True)9
-  FrontDoorREF.SetLockLevel(0)0
-  RoofDoorREF.BlockActivation(False, False)1
-  RoofDoorREF.Lock(False, False, True)2
-  RoofDoorREF.SetLockLevel(0)3
-  FrontDoorExtREF.BlockActivation(False, False)4
-  FrontDoorExtREF.Lock(False, False, True)5
-  FrontDoorExtREF.SetLockLevel(0)6
-  RoofDoorExtREF.BlockActivation(False, False)7
-  RoofDoorExtREF.Lock(False, False, True)8
-  RoofDoorExtREF.SetLockLevel(0)9
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Self.SetObjectiveCompleted(120, True)
+  Self.SetObjectiveDisplayed(300, True, False)
+  Actor NoelREF = Alias_Noel.GetActorRef()
+  NoelREF.Disable(False)
+  NoelREF.moveto(MQ204_NoelHidingMarker, 0.0, 0.0, 0.0, True, False)
+  NoelREF.EvaluatePackage(False)
+  NoelREF.Enable(False)
+  ObjectReference ArmillaryREF = Alias_ArtifactCollectionTrigger.GetRef()
+  (ArmillaryREF as armillaryscript).PackupArmillary(NoelREF)
+  Alias_Armillary.GetRef().DisableNoWait(False)
+  ArmillaryREF.BlockActivation(True, True)
+  ObjectReference FrontDoorREF = Alias_LodgeFrontDoor.GetRef()
+  ObjectReference RoofDoorREF = Alias_LodgeRoofDoor.GetRef()
+  ObjectReference FrontDoorExtREF = Alias_LodgeFrontDoorExterior.GetRef()
+  ObjectReference RoofDoorExtREF = Alias_LodgeRoofDoorExterior.GetRef()
+  FrontDoorREF.BlockActivation(False, False)
+  FrontDoorREF.Lock(False, False, True)
+  FrontDoorREF.SetLockLevel(0)
+  RoofDoorREF.BlockActivation(False, False)
+  RoofDoorREF.Lock(False, False, True)
+  RoofDoorREF.SetLockLevel(0)
+  FrontDoorExtREF.BlockActivation(False, False)
+  FrontDoorExtREF.Lock(False, False, True)
+  FrontDoorExtREF.SetLockLevel(0)
+  RoofDoorExtREF.BlockActivation(False, False)
+  RoofDoorExtREF.Lock(False, False, True)
+  RoofDoorExtREF.SetLockLevel(0)
 EndFunction
 
 Function Fragment_Stage_0455_Item_00()
-  Quest __temp = Self as Quest7
-  mq204script kmyQuest = __temp as mq204script8
-  Actor CompanionAtEyeREF = MQ00_CompanionAtEye.GetActorRef()1
-  Actor CoraCoeREF = Alias_CoraCoe.GetActorRef()2
-  Actor SamCoeREF = Alias_SamCoe.GetActorRef()3
-  ObjectReference PassengerMarkerREF = Alias_PlayerPassengerMarker.GetRef()4
-  kmyQuest.MQ204MoveActor(CompanionAtEyeREF, PassengerMarkerREF)6
-  If CompanionAtEyeREF == SamCoeREF8
-    kmyQuest.MQ204MoveActor(CoraCoeREF, PassengerMarkerREF)9
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor CompanionAtEyeREF = MQ00_CompanionAtEye.GetActorRef()
+  Actor CoraCoeREF = Alias_CoraCoe.GetActorRef()
+  Actor SamCoeREF = Alias_SamCoe.GetActorRef()
+  ObjectReference PassengerMarkerREF = Alias_PlayerPassengerMarker.GetRef()
+  kmyQuest.MQ204MoveActor(CompanionAtEyeREF, PassengerMarkerREF)
+  If CompanionAtEyeREF == SamCoeREF
+    kmyQuest.MQ204MoveActor(CoraCoeREF, PassengerMarkerREF)
   EndIf
 EndFunction
 
 Function Fragment_Stage_0460_Item_00()
-  Quest __temp = Self as Quest8
-  mq204script kmyQuest = __temp as mq204script9
-  Actor AndrejaREF = Alias_Andreja.GetActorRef()2
-  Actor BarrettREF = Alias_Barrett.GetActorRef()3
-  Actor SamCoeREF = Alias_SamCoe.GetActorRef()4
-  Actor CoraCoeREF = Alias_CoraCoe.GetActorRef()5
-  Actor SarahMorganREF = Alias_SarahMorgan.GetActorRef()6
-  Actor VladimirREF = Alias_Vladimir.GetActorRef()7
-  Actor WalterREF = Alias_WalterStroud.GetActorRef()8
-  Actor MatteoREF = Alias_MatteoKhatri.GetActorRef()9
-  Actor VascoREF = Alias_Vasco.GetActorRef()0
-  Actor NoelREF = Alias_Noel.GetActorRef()1
-  Actor CompanionWhoLivesREF = MQ00_CompanionWhoLives.GetActorRef()2
-  Actor CompanionWhoDiesREF = MQ00_CompanionWhoDies.GetActorRef()3
-  kmyQuest.MQ204EnableLayer = inputenablelayer.Create()5
-  kmyQuest.MQ204EnableLayer.EnableFastTravel(False)6
-  kmyQuest.MQ204EnableLayer.EnableGravJump(False)7
-  Self.SetObjectiveCompleted(300, True)9
-  Self.SetObjectiveDisplayed(310, True, False)0
-  MQ204_BarricadeEnableMarker.Enable(False)3
-  loadelevatormanagerscript wellElevatorManagerToMAST = Alias_WellElevatorManagerToMAST.GetRef() as loadelevatormanagerscript6
-  wellElevatorManagerToMAST.SetElevatorOperational(False)7
-  loadelevatorfloorscript wellElevatorFloorWaterfall = Alias_WellElevatorFloor_Waterfall.GetRef() as loadelevatorfloorscript9
-  wellElevatorFloorWaterfall.SetAccessible(False)0
-  CompanionWhoLivesREF.EvaluatePackage(False)3
-  CompanionWhoLivesREF.BlockActivation(True, True)4
-  CompanionWhoLivesREF.SetGhost(True)5
-  CompanionWhoDiesREF.SetGhost(True)6
-  CompanionWhoLivesREF.moveto(LodgeStartMarker, 0.0, 0.0, 0.0, True, False)8
-  kmyQuest.MQ204MoveActor(CompanionWhoDiesREF, MQ204LodgeDeathNearMarker)9
-  If CompanionWhoDiesREF == SamCoeREF0
-    kmyQuest.MQ204MoveActor(CoraCoeREF, LodgeStartMarker)1
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor AndrejaREF = Alias_Andreja.GetActorRef()
+  Actor BarrettREF = Alias_Barrett.GetActorRef()
+  Actor SamCoeREF = Alias_SamCoe.GetActorRef()
+  Actor CoraCoeREF = Alias_CoraCoe.GetActorRef()
+  Actor SarahMorganREF = Alias_SarahMorgan.GetActorRef()
+  Actor VladimirREF = Alias_Vladimir.GetActorRef()
+  Actor WalterREF = Alias_WalterStroud.GetActorRef()
+  Actor MatteoREF = Alias_MatteoKhatri.GetActorRef()
+  Actor VascoREF = Alias_Vasco.GetActorRef()
+  Actor NoelREF = Alias_Noel.GetActorRef()
+  Actor CompanionWhoLivesREF = MQ00_CompanionWhoLives.GetActorRef()
+  Actor CompanionWhoDiesREF = MQ00_CompanionWhoDies.GetActorRef()
+  kmyQuest.MQ204EnableLayer = inputenablelayer.Create()
+  kmyQuest.MQ204EnableLayer.EnableFastTravel(False)
+  kmyQuest.MQ204EnableLayer.EnableGravJump(False)
+  Self.SetObjectiveCompleted(300, True)
+  Self.SetObjectiveDisplayed(310, True, False)
+  MQ204_BarricadeEnableMarker.Enable(False)
+  loadelevatormanagerscript wellElevatorManagerToMAST = Alias_WellElevatorManagerToMAST.GetRef() as loadelevatormanagerscript
+  wellElevatorManagerToMAST.SetElevatorOperational(False)
+  loadelevatorfloorscript wellElevatorFloorWaterfall = Alias_WellElevatorFloor_Waterfall.GetRef() as loadelevatorfloorscript
+  wellElevatorFloorWaterfall.SetAccessible(False)
+  CompanionWhoLivesREF.EvaluatePackage(False)
+  CompanionWhoLivesREF.BlockActivation(True, True)
+  CompanionWhoLivesREF.SetGhost(True)
+  CompanionWhoDiesREF.SetGhost(True)
+  CompanionWhoLivesREF.moveto(LodgeStartMarker, 0.0, 0.0, 0.0, True, False)
+  kmyQuest.MQ204MoveActor(CompanionWhoDiesREF, MQ204LodgeDeathNearMarker)
+  If CompanionWhoDiesREF == SamCoeREF
+    kmyQuest.MQ204MoveActor(CoraCoeREF, LodgeStartMarker)
   EndIf
-  kmyQuest.MQ204MoveActor(WalterREF, LodgeStartMarker)4
-  kmyQuest.MQ204MoveActor(MatteoREF, LodgeStartMarker)5
-  kmyQuest.MQ204MoveActor(VascoREF, LodgeStartMarker)6
-  kmyQuest.SetActorInBleedOut(VascoREF)9
-  kmyQuest.SetActorHunterAttacked(MatteoREF, True)1
-  kmyQuest.SetActorHunterAttacked(VascoREF, True)2
-  kmyQuest.SetActorHunterAttacked(WalterREF, True)3
-  WalterREF.SetGhost(False)6
-  WalterREF.BlockActivation(False, False)7
+  kmyQuest.MQ204MoveActor(WalterREF, LodgeStartMarker)
+  kmyQuest.MQ204MoveActor(MatteoREF, LodgeStartMarker)
+  kmyQuest.MQ204MoveActor(VascoREF, LodgeStartMarker)
+  kmyQuest.SetActorInBleedOut(VascoREF)
+  kmyQuest.SetActorHunterAttacked(MatteoREF, True)
+  kmyQuest.SetActorHunterAttacked(VascoREF, True)
+  kmyQuest.SetActorHunterAttacked(WalterREF, True)
+  WalterREF.SetGhost(False)
+  WalterREF.BlockActivation(False, False)
 EndFunction
 
 Function Fragment_Stage_0470_Item_00()
-  Self.SetObjectiveCompleted(310, True)5
-  Self.SetObjectiveDisplayed(320, True, False)6
-  MQ204SecretDoorREF.BlockActivation(False, False)9
-  MQ204SecretDoorREF.SetFactionOwner(ConstellationFaction, False)0
-  MQ204SecretDoorREF.Unlock(False)1
+  Self.SetObjectiveCompleted(310, True)
+  Self.SetObjectiveDisplayed(320, True, False)
+  MQ204SecretDoorREF.BlockActivation(False, False)
+  MQ204SecretDoorREF.SetFactionOwner(ConstellationFaction, False)
+  MQ204SecretDoorREF.Unlock(False)
 EndFunction
 
 Function Fragment_Stage_0480_Item_00()
-  Quest __temp = Self as Quest9
-  mq204script kmyQuest = __temp as mq204script0
-  Game.StopDialogueCamera(False, False)3
-  kmyQuest.MQ204EnableLayer.EnableFastTravel(False)6
-  kmyQuest.MQ204EnableLayer.EnableGravJump(False)7
-  kmyQuest.MQ204EnableLayer.EnableFarTravel(False)8
-  MQ204DoortoLodgeREF.BlockActivation(True, False)1
-  MQ204DoortoLodgeREF.Lock(True, False, True)2
-  MQ204DoortoLodgeREF.SetLockLevel(254)3
-  JemisonGuardShipsEnableMarker.DisableNoWait(False)6
-  SQ_GuardShips.Stop()9
-  SQ_GuardShips00.Stop()0
-  SQ_GuardShips01.Stop()1
-  Actor NoelREF = Alias_Noel.GetActorRef()4
-  NoelREF.SetGhost(True)5
-  Self.SetStage(105)0
-  Self.SetStage(310)3
-  Self.SetStage(320)4
-  Self.SetStage(330)5
-  Self.SetStage(340)6
-  Self.SetStage(470)7
-  Self.SetObjectiveCompleted(320, True)9
-  Self.SetObjectiveDisplayed(330, True, False)0
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Game.StopDialogueCamera(False, False)
+  kmyQuest.MQ204EnableLayer.EnableFastTravel(False)
+  kmyQuest.MQ204EnableLayer.EnableGravJump(False)
+  kmyQuest.MQ204EnableLayer.EnableFarTravel(False)
+  MQ204DoortoLodgeREF.BlockActivation(True, False)
+  MQ204DoortoLodgeREF.Lock(True, False, True)
+  MQ204DoortoLodgeREF.SetLockLevel(254)
+  JemisonGuardShipsEnableMarker.DisableNoWait(False)
+  SQ_GuardShips.Stop()
+  SQ_GuardShips00.Stop()
+  SQ_GuardShips01.Stop()
+  Actor NoelREF = Alias_Noel.GetActorRef()
+  NoelREF.SetGhost(True)
+  Self.SetStage(105)
+  Self.SetStage(310)
+  Self.SetStage(320)
+  Self.SetStage(330)
+  Self.SetStage(340)
+  Self.SetStage(470)
+  Self.SetObjectiveCompleted(320, True)
+  Self.SetObjectiveDisplayed(330, True, False)
 EndFunction
 
 Function Fragment_Stage_0485_Item_00()
-  Actor HunterREF = Alias_TheHunter.GetActorRef()8
-  HunterREF.RemoveSpell(MQ204HunterInvisibility)9
+  Actor HunterREF = Alias_TheHunter.GetActorRef()
+  HunterREF.RemoveSpell(MQ204HunterInvisibility)
 EndFunction
 
 Function Fragment_Stage_0487_Item_00()
-  Alias_Noel.GetActorRef().moveto(MQ204NoelRuntoSpaceport, 0.0, 0.0, 0.0, True, False)7
+  Alias_Noel.GetActorRef().moveto(MQ204NoelRuntoSpaceport, 0.0, 0.0, 0.0, True, False)
 EndFunction
 
 Function Fragment_Stage_0488_Item_00()
-  Alias_Noel.GetActorRef().EvaluatePackage(False)5
+  Alias_Noel.GetActorRef().EvaluatePackage(False)
 EndFunction
 
 Function Fragment_Stage_0490_Item_00()
-  MQ204A_037_PlayerInShip.Start()3
-  Self.SetObjectiveCompleted(330, True)5
-  Self.SetObjectiveDisplayed(340, True, False)6
-  Alias_SpaceportShip.GetRef().DisableNoWait(False)9
+  MQ204A_037_PlayerInShip.Start()
+  Self.SetObjectiveCompleted(330, True)
+  Self.SetObjectiveDisplayed(340, True, False)
+  Alias_SpaceportShip.GetRef().DisableNoWait(False)
 EndFunction
 
 Function Fragment_Stage_0490_Item_01()
-  Alias_CoraCoe.GetActorRef().moveto(Alias_PlayerPassengerMarker.GetRef(), 0.0, 0.0, 0.0, True, False)7
+  Alias_CoraCoe.GetActorRef().moveto(Alias_PlayerPassengerMarker.GetRef(), 0.0, 0.0, 0.0, True, False)
 EndFunction
 
 Function Fragment_Stage_0492_Item_00()
-  Self.SetObjectiveCompleted(340, True)5
-  Self.SetObjectiveDisplayed(350, True, False)6
+  Self.SetObjectiveCompleted(340, True)
+  Self.SetObjectiveDisplayed(350, True, False)
 EndFunction
 
 Function Fragment_Stage_0495_Item_00()
-  Quest __temp = Self as Quest4
-  mq204script kmyQuest = __temp as mq204script5
-  Actor NoelREF = Alias_Noel.GetActorRef()8
-  kmyQuest.MQ204MoveActor(NoelREF, EyeMarker)9
-  Alias_Vladimir.GetActorRef().EvaluatePackage(False)1
-  Self.SetObjectiveCompleted(350, True)3
-  Self.SetObjectiveDisplayed(360, True, False)4
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor NoelREF = Alias_Noel.GetActorRef()
+  kmyQuest.MQ204MoveActor(NoelREF, EyeMarker)
+  Alias_Vladimir.GetActorRef().EvaluatePackage(False)
+  Self.SetObjectiveCompleted(350, True)
+  Self.SetObjectiveDisplayed(360, True, False)
 EndFunction
 
 Function Fragment_Stage_0510_Item_00()
-  Quest __temp = Self as Quest2
-  mq204script kmyQuest = __temp as mq204script3
-  MQAlllowArmillaryGravDrive.SetValueInt(1)6
-  Alias_HomeShipArmillaryScreenTrigger.GetRef().Enable(False)7
-  Self.SetObjectiveCompleted(150, True)9
-  Self.SetObjectiveCompleted(360, True)0
-  Self.SetObjectiveDisplayed(500, True, False)1
-  Self.SetObjectiveDisplayedAtTop(500)2
-  Self.SetObjectiveDisplayed(510, True, False)3
-  kmyQuest.PlayerReceivesArtifacts()6
-  Game.Getplayer().additem(Mfg_Tier01_Structural_Frame as Form, 2, False)9
-  Actor VascoREF = Alias_Vasco.GetActorRef()2
-  If VascoREF.IsDisabled()3
-    VascoREF.EvaluatePackage(False)4
-    VascoREF.moveto(LodgeStartMarker, 0.0, 0.0, 0.0, True, False)5
-    VascoREF.Enable(False)6
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  MQAlllowArmillaryGravDrive.SetValueInt(1)
+  Alias_HomeShipArmillaryScreenTrigger.GetRef().Enable(False)
+  Self.SetObjectiveCompleted(150, True)
+  Self.SetObjectiveCompleted(360, True)
+  Self.SetObjectiveDisplayed(500, True, False)
+  Self.SetObjectiveDisplayedAtTop(500)
+  Self.SetObjectiveDisplayed(510, True, False)
+  kmyQuest.PlayerReceivesArtifacts()
+  Game.Getplayer().additem(Mfg_Tier01_Structural_Frame as Form, 2, False)
+  Actor VascoREF = Alias_Vasco.GetActorRef()
+  If VascoREF.IsDisabled()
+    VascoREF.EvaluatePackage(False)
+    VascoREF.moveto(LodgeStartMarker, 0.0, 0.0, 0.0, True, False)
+    VascoREF.Enable(False)
   EndIf
-  MQ204ArmillaryBuildMSG.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)9
+  MQ204ArmillaryBuildMSG.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
 EndFunction
 
 Function Fragment_Stage_0600_Item_00()
-  Quest __temp = Self as Quest7
-  mq204script kmyQuest = __temp as mq204script8
-  Game.SetInChargen(True, False, False)1
-  kmyQuest.MQ204EnableLayer.DisablePlayerControls(True, True, False, False, False, True, True, False, True, True, False)2
-  spaceshipreference ScorpiusREF = Alias_TheScorpius.GetShipReference()5
-  spaceshipreference PlayerShipREF = Alias_PlayerShip.GetShipReference()6
-  ScorpiusREF.SetGhost(True)7
-  ScorpiusREF.MoveNear(PlayerShipREF as ObjectReference, 1, 0, 0)8
-  ScorpiusREF.EnableWithGravJump()9
-  MQ204A_052_ScorpiusScene.Start()1
-  MUSGenesisStingerStarbornAppearC.Add()3
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Game.SetInChargen(True, False, False)
+  kmyQuest.MQ204EnableLayer.DisablePlayerControls(True, True, False, False, False, True, True, False, True, True, False)
+  spaceshipreference ScorpiusREF = Alias_TheScorpius.GetShipReference()
+  spaceshipreference PlayerShipREF = Alias_PlayerShip.GetShipReference()
+  ScorpiusREF.SetGhost(True)
+  ScorpiusREF.MoveNear(PlayerShipREF as ObjectReference, 1, 0, 0)
+  ScorpiusREF.EnableWithGravJump()
+  MQ204A_052_ScorpiusScene.Start()
+  MUSGenesisStingerStarbornAppearC.Add()
 EndFunction
 
 Function Fragment_Stage_0610_Item_00()
-  Quest __temp = Self as Quest1
-  mq204script kmyQuest = __temp as mq204script2
-  Actor PlayerREF = Game.Getplayer()5
-  Actor TheHunterREF = Alias_TheHunter.GetActorRef()6
-  MUSGenesisStingerStarbornAppearC.Remove()9
-  MUSGenesisCombatBoss_MQ204_A_Hunter.Remove()0
-  PlayerREF.RemoveFromFaction(MQ204UCAllyFaction)3
-  Game.SetPlayerReportCrime(True)6
-  TheHunterREF.RemoveFromFaction(PlayerEnemyFaction)9
-  PlayerREF.StopCombatAlarm()0
-  TheHunterREF.Disable(False)1
-  MQ204_BarricadeEnableMarker.DisableNoWait(False)4
-  loadelevatormanagerscript wellElevatorManagerToMAST = Alias_WellElevatorManagerToMAST.GetRef() as loadelevatormanagerscript7
-  wellElevatorManagerToMAST.SetElevatorOperational(True)8
-  loadelevatorfloorscript wellElevatorFloorWaterfall = Alias_WellElevatorFloor_Waterfall.GetRef() as loadelevatorfloorscript0
-  wellElevatorFloorWaterfall.SetAccessible(True)1
-  spaceshipreference ScorpiusREF = Alias_TheScorpius.GetShipReference()4
-  ScorpiusREF.SetGhost(False)5
-  ScorpiusREF.DisableWithGravJumpNoWait()6
-  Game.SetInChargen(False, False, False)9
-  kmyQuest.MQ204EnableLayer.EnableFastTravel(True)0
-  kmyQuest.MQ204EnableLayer.EnableGravJump(True)1
-  kmyQuest.MQ204EnableLayer.EnableFarTravel(True)2
-  kmyQuest.MQ204EnableLayer = None3
-  NewAtlantisMapMarkerLodge.DisableNoWait(False)6
-  NewAtlantisMapMarkerCommercialDistrict.DisableNoWait(False)7
-  NewAtlantisMapMarkerWestEnd.DisableNoWait(False)8
-  NewAtlantisMapMarkerEmbassy.DisableNoWait(False)9
-  NewAtlantisMapMarkerResidentialDistrict.DisableNoWait(False)0
-  ObjectReference FrontDoorREF = Alias_LodgeFrontDoor.GetRef()4
-  ObjectReference RoofDoorREF = Alias_LodgeRoofDoor.GetRef()5
-  ObjectReference FrontDoorExtREF = Alias_LodgeFrontDoorExterior.GetRef()6
-  ObjectReference RoofDoorExtREF = Alias_LodgeRoofDoorExterior.GetRef()7
-  FrontDoorREF.BlockActivation(False, False)0
-  FrontDoorREF.Lock(False, False, True)1
-  FrontDoorREF.SetLockLevel(0)2
-  RoofDoorREF.BlockActivation(False, False)3
-  RoofDoorREF.Lock(False, False, True)4
-  RoofDoorREF.SetLockLevel(0)5
-  FrontDoorExtREF.BlockActivation(False, False)6
-  FrontDoorExtREF.Lock(False, False, True)7
-  FrontDoorExtREF.SetLockLevel(0)8
-  RoofDoorExtREF.BlockActivation(False, False)9
-  RoofDoorExtREF.Lock(False, False, True)0
-  RoofDoorExtREF.SetLockLevel(0)1
-  MQ204DoortoLodgeREF.BlockActivation(False, False)3
-  MQ204DoortoLodgeREF.Lock(False, False, True)4
-  MQ204DoortoLodgeREF.SetLockLevel(0)5
-  If Self.GetStageDone(480)8
-    Self.SetStage(492)9
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor PlayerREF = Game.Getplayer()
+  Actor TheHunterREF = Alias_TheHunter.GetActorRef()
+  MUSGenesisStingerStarbornAppearC.Remove()
+  MUSGenesisCombatBoss_MQ204_A_Hunter.Remove()
+  PlayerREF.RemoveFromFaction(MQ204UCAllyFaction)
+  Game.SetPlayerReportCrime(True)
+  TheHunterREF.RemoveFromFaction(PlayerEnemyFaction)
+  PlayerREF.StopCombatAlarm()
+  TheHunterREF.Disable(False)
+  MQ204_BarricadeEnableMarker.DisableNoWait(False)
+  loadelevatormanagerscript wellElevatorManagerToMAST = Alias_WellElevatorManagerToMAST.GetRef() as loadelevatormanagerscript
+  wellElevatorManagerToMAST.SetElevatorOperational(True)
+  loadelevatorfloorscript wellElevatorFloorWaterfall = Alias_WellElevatorFloor_Waterfall.GetRef() as loadelevatorfloorscript
+  wellElevatorFloorWaterfall.SetAccessible(True)
+  spaceshipreference ScorpiusREF = Alias_TheScorpius.GetShipReference()
+  ScorpiusREF.SetGhost(False)
+  ScorpiusREF.DisableWithGravJumpNoWait()
+  Game.SetInChargen(False, False, False)
+  kmyQuest.MQ204EnableLayer.EnableFastTravel(True)
+  kmyQuest.MQ204EnableLayer.EnableGravJump(True)
+  kmyQuest.MQ204EnableLayer.EnableFarTravel(True)
+  kmyQuest.MQ204EnableLayer = None
+  NewAtlantisMapMarkerLodge.DisableNoWait(False)
+  NewAtlantisMapMarkerCommercialDistrict.DisableNoWait(False)
+  NewAtlantisMapMarkerWestEnd.DisableNoWait(False)
+  NewAtlantisMapMarkerEmbassy.DisableNoWait(False)
+  NewAtlantisMapMarkerResidentialDistrict.DisableNoWait(False)
+  ObjectReference FrontDoorREF = Alias_LodgeFrontDoor.GetRef()
+  ObjectReference RoofDoorREF = Alias_LodgeRoofDoor.GetRef()
+  ObjectReference FrontDoorExtREF = Alias_LodgeFrontDoorExterior.GetRef()
+  ObjectReference RoofDoorExtREF = Alias_LodgeRoofDoorExterior.GetRef()
+  FrontDoorREF.BlockActivation(False, False)
+  FrontDoorREF.Lock(False, False, True)
+  FrontDoorREF.SetLockLevel(0)
+  RoofDoorREF.BlockActivation(False, False)
+  RoofDoorREF.Lock(False, False, True)
+  RoofDoorREF.SetLockLevel(0)
+  FrontDoorExtREF.BlockActivation(False, False)
+  FrontDoorExtREF.Lock(False, False, True)
+  FrontDoorExtREF.SetLockLevel(0)
+  RoofDoorExtREF.BlockActivation(False, False)
+  RoofDoorExtREF.Lock(False, False, True)
+  RoofDoorExtREF.SetLockLevel(0)
+  MQ204DoortoLodgeREF.BlockActivation(False, False)
+  MQ204DoortoLodgeREF.Lock(False, False, True)
+  MQ204DoortoLodgeREF.SetLockLevel(0)
+  If Self.GetStageDone(480)
+    Self.SetStage(492)
   EndIf
-  MQ204xPostQuest.Start()3
-  CityNewAtlantisLocation.Reset()6
-  CityNewAtlantisWellLocation.Reset()7
-  Actor NoelREF = Alias_Noel.GetActorRef()0
-  NoelREF.SetGhost(False)1
-  MQ204_NA_StateChangeHandler.SetStageNoWait(10)4
-  MQ204_TurnOffCF01Arrest.SetValueInt(0)7
-  JemisonGuardShipsEnableMarker.EnableNoWait(False)0
-  NewAtlantisMapMarkerLodge.EnableFastTravel(True)3
-  NewAtlantisMapMarkerCommercialDistrict.EnableFastTravel(True)4
-  NewAtlantisMapMarkerWestEnd.EnableFastTravel(True)5
-  NewAtlantisMapMarkerEmbassy.EnableFastTravel(True)6
-  NewAtlantisMapMarkerResidentialDistrict.EnableFastTravel(True)7
-  NewAtlantisMapMarkerSpaceport.EnableFastTravel(True)8
+  MQ204xPostQuest.Start()
+  CityNewAtlantisLocation.Reset()
+  CityNewAtlantisWellLocation.Reset()
+  Actor NoelREF = Alias_Noel.GetActorRef()
+  NoelREF.SetGhost(False)
+  MQ204_NA_StateChangeHandler.SetStageNoWait(10)
+  MQ204_TurnOffCF01Arrest.SetValueInt(0)
+  JemisonGuardShipsEnableMarker.EnableNoWait(False)
+  NewAtlantisMapMarkerLodge.EnableFastTravel(True)
+  NewAtlantisMapMarkerCommercialDistrict.EnableFastTravel(True)
+  NewAtlantisMapMarkerWestEnd.EnableFastTravel(True)
+  NewAtlantisMapMarkerEmbassy.EnableFastTravel(True)
+  NewAtlantisMapMarkerResidentialDistrict.EnableFastTravel(True)
+  NewAtlantisMapMarkerSpaceport.EnableFastTravel(True)
 EndFunction
 
 Function Fragment_Stage_0620_Item_00()
-  Quest __temp = Self as Quest6
-  mq204script kmyQuest = __temp as mq204script7
-  Self.SetObjectiveCompleted(500, True)0
-  Self.SetObjectiveCompleted(510, True)1
-  Self.SetObjectiveDisplayed(520, True, False)2
-  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()5
-  DeadCompanionREF.KillEssential(None)6
-  DeadCompanionREF.Disable(False)7
-  MQ204EyeCompanionDeadEnableMarker.DisableNoWait(False)8
-  MQ204LodgeCompanionDeadEnableMarker.DisableNoWait(False)9
-  MQ204ArmillaryAttackMSG.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)1
-  MQ204_TurnOffCF01Arrest.SetValueInt(0)4
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Self.SetObjectiveCompleted(500, True)
+  Self.SetObjectiveCompleted(510, True)
+  Self.SetObjectiveDisplayed(520, True, False)
+  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()
+  DeadCompanionREF.KillEssential(None)
+  DeadCompanionREF.Disable(False)
+  MQ204EyeCompanionDeadEnableMarker.DisableNoWait(False)
+  MQ204LodgeCompanionDeadEnableMarker.DisableNoWait(False)
+  MQ204ArmillaryAttackMSG.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+  MQ204_TurnOffCF01Arrest.SetValueInt(0)
 EndFunction
 
 Function Fragment_Stage_0650_Item_00()
-  Quest __temp = Self as Quest2
-  mq204script kmyQuest = __temp as mq204script3
-  Actor AndrejaREF = Alias_Andreja.GetActorRef()6
-  Actor BarrettREF = Alias_Barrett.GetActorRef()7
-  Actor SamCoeREF = Alias_SamCoe.GetActorRef()8
-  Actor CoraCoeREF = Alias_CoraCoe.GetActorRef()9
-  Actor SarahMorganREF = Alias_SarahMorgan.GetActorRef()0
-  Actor VladimirREF = Alias_Vladimir.GetActorRef()1
-  Actor WalterREF = Alias_WalterStroud.GetActorRef()2
-  Actor MatteoREF = Alias_MatteoKhatri.GetActorRef()3
-  Actor VascoREF = Alias_Vasco.GetActorRef()4
-  Actor NoelREF = Alias_Noel.GetActorRef()5
-  kmyQuest.MQ204MoveActor(AndrejaREF, LodgeStartMarker)8
-  kmyQuest.MQ204MoveActor(BarrettREF, LodgeStartMarker)9
-  kmyQuest.MQ204MoveActor(SamCoeREF, LodgeStartMarker)0
-  kmyQuest.MQ204MoveActor(CoraCoeREF, LodgeStartMarker)1
-  kmyQuest.MQ204MoveActor(SarahMorganREF, LodgeStartMarker)2
-  kmyQuest.MQ204MoveActor(WalterREF, LodgeStartMarker)3
-  kmyQuest.MQ204MoveActor(MatteoREF, LodgeStartMarker)4
-  kmyQuest.MQ204MoveActor(VascoREF, LodgeStartMarker)5
-  kmyQuest.MQ204MoveActor(NoelREF, LodgeStartMarker)6
-  JemisonGuardShipsEnableMarker.EnableNoWait(False)9
-  MQ206B.Start()0
-  NewAtlantisMapMarkerLodge.EnableNoWait(False)3
-  NewAtlantisMapMarkerCommercialDistrict.EnableNoWait(False)4
-  NewAtlantisMapMarkerWestEnd.EnableNoWait(False)5
-  NewAtlantisMapMarkerEmbassy.EnableNoWait(False)6
-  NewAtlantisMapMarkerResidentialDistrict.EnableNoWait(False)7
-  MQMisc02.SetStage(10)0
-  MQ204A_051_LodgeReturnScene.Start()2
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor AndrejaREF = Alias_Andreja.GetActorRef()
+  Actor BarrettREF = Alias_Barrett.GetActorRef()
+  Actor SamCoeREF = Alias_SamCoe.GetActorRef()
+  Actor CoraCoeREF = Alias_CoraCoe.GetActorRef()
+  Actor SarahMorganREF = Alias_SarahMorgan.GetActorRef()
+  Actor VladimirREF = Alias_Vladimir.GetActorRef()
+  Actor WalterREF = Alias_WalterStroud.GetActorRef()
+  Actor MatteoREF = Alias_MatteoKhatri.GetActorRef()
+  Actor VascoREF = Alias_Vasco.GetActorRef()
+  Actor NoelREF = Alias_Noel.GetActorRef()
+  kmyQuest.MQ204MoveActor(AndrejaREF, LodgeStartMarker)
+  kmyQuest.MQ204MoveActor(BarrettREF, LodgeStartMarker)
+  kmyQuest.MQ204MoveActor(SamCoeREF, LodgeStartMarker)
+  kmyQuest.MQ204MoveActor(CoraCoeREF, LodgeStartMarker)
+  kmyQuest.MQ204MoveActor(SarahMorganREF, LodgeStartMarker)
+  kmyQuest.MQ204MoveActor(WalterREF, LodgeStartMarker)
+  kmyQuest.MQ204MoveActor(MatteoREF, LodgeStartMarker)
+  kmyQuest.MQ204MoveActor(VascoREF, LodgeStartMarker)
+  kmyQuest.MQ204MoveActor(NoelREF, LodgeStartMarker)
+  JemisonGuardShipsEnableMarker.EnableNoWait(False)
+  MQ206B.Start()
+  NewAtlantisMapMarkerLodge.EnableNoWait(False)
+  NewAtlantisMapMarkerCommercialDistrict.EnableNoWait(False)
+  NewAtlantisMapMarkerWestEnd.EnableNoWait(False)
+  NewAtlantisMapMarkerEmbassy.EnableNoWait(False)
+  NewAtlantisMapMarkerResidentialDistrict.EnableNoWait(False)
+  MQMisc02.SetStage(10)
+  MQ204A_051_LodgeReturnScene.Start()
 EndFunction
 
 Function Fragment_Stage_0660_Item_00()
-  Self.SetObjectiveCompleted(520, True)0
-  Self.SetObjectiveDisplayed(530, True, False)1
+  Self.SetObjectiveCompleted(520, True)
+  Self.SetObjectiveDisplayed(530, True, False)
 EndFunction
 
 Function Fragment_Stage_0700_Item_00()
-  MQ204A_060_HunterGoneScene.Start()9
-  Game.SetPlayerReportCrime(True)2
+  MQ204A_060_HunterGoneScene.Start()
+  Game.SetPlayerReportCrime(True)
 EndFunction
 
 Function Fragment_Stage_1000_Item_00()
-  If MQ201B.GetStageDone(2000) == False && MQ404.GetStageDone(100) == False0
-    MQ206A.SetStage(5)1
-	Actor SavedCompanionREF = MQ00_CompanionWhoLives.GetActorRef()6
-	If SavedCompanionREF == Alias_Andreja.GetActorRef()8
-	MQ_CompanionSaved.SetValueInt(COM_CompanionID_Andreja.GetValueInt())9
-	ElseIf SavedCompanionREF == Alias_Barrett.GetActorRef()0
-	MQ_CompanionSaved.SetValueInt(COM_CompanionID_Barrett.GetValueInt())1
-	ElseIf SavedCompanionREF == Alias_SamCoe.GetActorRef()2
-	MQ_CompanionSaved.SetValueInt(COM_CompanionID_SamCoe.GetValueInt())3
-	ElseIf SavedCompanionREF == Alias_SarahMorgan.GetActorRef()4
-	MQ_CompanionSaved.SetValueInt(COM_CompanionID_SarahMorgan.GetValueInt())5
-	EndIf
-	Float currentGameTime = Utility.GetCurrentGameTime()9
-	Float cooldownTime = currentGameTime + COM_WantsToTalk_CooldownDays.GetValue()0
-	Int I = 01
-	While I < Alias_Companions.Length2
-	Alias_Companions[I].GetActorRef().SetValue(COM_WantsToTalk_MQ204_Cooldown, cooldownTime)3
-	I += 14
-	EndWhile
-	COM_WantsToTalkEvent_MQ204.Send(None)6
-	Game.AddAchievement(6)9
+  If MQ201B.GetStageDone(2000) == False && MQ404.GetStageDone(100) == False
+    ; SFCP Fix https://www.starfieldpatch.dev/issues/164
+    ; These actions should only be carried out if the player goes the foreknowledge route
+    ; This avoids any weird conversations when no member of constellation dies. 
+    MQ206A.SetStage(5)
+    Actor SavedCompanionREF = MQ00_CompanionWhoLives.GetActorRef()
+    If SavedCompanionREF == Alias_Andreja.GetActorRef()
+      MQ_CompanionSaved.SetValueInt(COM_CompanionID_Andreja.GetValueInt())
+    ElseIf SavedCompanionREF == Alias_Barrett.GetActorRef()
+      MQ_CompanionSaved.SetValueInt(COM_CompanionID_Barrett.GetValueInt())
+    ElseIf SavedCompanionREF == Alias_SamCoe.GetActorRef()
+      MQ_CompanionSaved.SetValueInt(COM_CompanionID_SamCoe.GetValueInt())
+    ElseIf SavedCompanionREF == Alias_SarahMorgan.GetActorRef()
+      MQ_CompanionSaved.SetValueInt(COM_CompanionID_SarahMorgan.GetValueInt())
+    EndIf
+	  Float currentGameTime = Utility.GetCurrentGameTime()
+	  Float cooldownTime = currentGameTime + COM_WantsToTalk_CooldownDays.GetValue()
+	  Int I = 0
+	  While I < Alias_Companions.Length
+	    Alias_Companions[I].GetActorRef().SetValue(COM_WantsToTalk_MQ204_Cooldown, cooldownTime)
+	    I += 1
+	  EndWhile
+	  COM_WantsToTalkEvent_MQ204.Send(None)
+	  Game.AddAchievement(6)
   EndIf
-  Self.CompleteAllObjectives()4
-  Self.Stop()1
+  Self.CompleteAllObjectives()
+  Self.Stop()
 EndFunction
 
 Function Fragment_Stage_2000_Item_00()
-  Quest __temp = Self as Quest9
-  mq204script kmyQuest = __temp as mq204script0
-  Actor PlayerREF = Game.Getplayer()3
-  PlayerREF.addtoFaction(EyeBoardingFaction)5
-  JemisonGuardShipsEnableMarker.EnableNoWait(False)8
-  Game.SetPlayerReportCrime(True)1
-  MUSGenesisCombatBoss_MQ204_A_Hunter.Remove()4
-  NewAtlantisMapMarkerLodge.EnableNoWait(False)7
-  NewAtlantisMapMarkerCommercialDistrict.EnableNoWait(False)8
-  NewAtlantisMapMarkerWestEnd.EnableNoWait(False)9
-  NewAtlantisMapMarkerEmbassy.EnableNoWait(False)0
-  NewAtlantisMapMarkerResidentialDistrict.EnableNoWait(False)1
-  UC04_Spaceport_WarningSign_EnableMarker.EnableNoWait(False)4
-  PlayerREF.RemoveFromFaction(MQ204UCAllyFaction)7
-  ObjectReference FrontDoorREF = Alias_LodgeFrontDoor.GetRef()0
-  ObjectReference RoofDoorREF = Alias_LodgeRoofDoor.GetRef()1
-  ObjectReference FrontDoorExtREF = Alias_LodgeFrontDoorExterior.GetRef()2
-  ObjectReference RoofDoorExtREF = Alias_LodgeRoofDoorExterior.GetRef()3
-  FrontDoorREF.BlockActivation(False, False)5
-  FrontDoorREF.Lock(False, False, True)6
-  FrontDoorREF.SetLockLevel(0)7
-  RoofDoorREF.BlockActivation(False, False)8
-  RoofDoorREF.Lock(False, False, True)9
-  RoofDoorREF.SetLockLevel(0)0
-  FrontDoorExtREF.BlockActivation(False, False)1
-  FrontDoorExtREF.Lock(False, False, True)2
-  FrontDoorExtREF.SetLockLevel(0)3
-  RoofDoorExtREF.BlockActivation(False, False)4
-  RoofDoorExtREF.Lock(False, False, True)5
-  RoofDoorExtREF.SetLockLevel(0)6
-  MQ204DoortoLodgeREF.BlockActivation(False, False)8
-  MQ204DoortoLodgeREF.Lock(False, False, True)9
-  MQ204DoortoLodgeREF.SetLockLevel(0)0
-  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()3
-  DeadCompanionREF.KillEssential(None)4
-  DeadCompanionREF.Disable(False)5
-  Actor WalterREF = Alias_WalterStroud.GetActorRef()8
-  kmyQuest.SetActorRecovered(WalterREF)9
-  Actor VascoREF = Alias_Vasco.GetActorRef()2
-  kmyQuest.SetActorRecovered(VascoREF)3
-  Actor HunterREF = Alias_TheHunter.GetActorRef()6
-  HunterREF.RemoveSpell(MQ204HunterInvisibility)7
-  Actor MatteoREF = Alias_MatteoKhatri.GetActorRef()0
-  Actor VladimirREF = Alias_Vladimir.GetActorRef()1
-  Actor BarrettREF = Alias_Barrett.GetActorRef()2
-  Actor SarahREF = Alias_SarahMorgan.GetActorRef()3
-  Actor SamREF = Alias_SamCoe.GetActorRef()4
-  Actor CoraREF = Alias_CoraCoe.GetActorRef()5
-  Actor NoelREF = Alias_Noel.GetActorRef()6
-  Actor AndrejaREF = Alias_Andreja.GetActorRef()7
-  If DeadCompanionREF != AndrejaREF9
-    (SQ_Companions as sq_companionsscript).SetRoleAvailable(AndrejaREF, False)0
+  Quest __temp = Self as Quest
+  mq204script kmyQuest = __temp as mq204script
+  Actor PlayerREF = Game.Getplayer()
+  PlayerREF.addtoFaction(EyeBoardingFaction)
+  JemisonGuardShipsEnableMarker.EnableNoWait(False)
+  Game.SetPlayerReportCrime(True)
+  MUSGenesisCombatBoss_MQ204_A_Hunter.Remove()
+  NewAtlantisMapMarkerLodge.EnableNoWait(False)
+  NewAtlantisMapMarkerCommercialDistrict.EnableNoWait(False)
+  NewAtlantisMapMarkerWestEnd.EnableNoWait(False)
+  NewAtlantisMapMarkerEmbassy.EnableNoWait(False)
+  NewAtlantisMapMarkerResidentialDistrict.EnableNoWait(False)
+  UC04_Spaceport_WarningSign_EnableMarker.EnableNoWait(False)
+  PlayerREF.RemoveFromFaction(MQ204UCAllyFaction)
+  ObjectReference FrontDoorREF = Alias_LodgeFrontDoor.GetRef()
+  ObjectReference RoofDoorREF = Alias_LodgeRoofDoor.GetRef()
+  ObjectReference FrontDoorExtREF = Alias_LodgeFrontDoorExterior.GetRef()
+  ObjectReference RoofDoorExtREF = Alias_LodgeRoofDoorExterior.GetRef()
+  FrontDoorREF.BlockActivation(False, False)
+  FrontDoorREF.Lock(False, False, True)
+  FrontDoorREF.SetLockLevel(0)
+  RoofDoorREF.BlockActivation(False, False)
+  RoofDoorREF.Lock(False, False, True)
+  RoofDoorREF.SetLockLevel(0)
+  FrontDoorExtREF.BlockActivation(False, False)
+  FrontDoorExtREF.Lock(False, False, True)
+  FrontDoorExtREF.SetLockLevel(0)
+  RoofDoorExtREF.BlockActivation(False, False)
+  RoofDoorExtREF.Lock(False, False, True)
+  RoofDoorExtREF.SetLockLevel(0)
+  MQ204DoortoLodgeREF.BlockActivation(False, False)
+  MQ204DoortoLodgeREF.Lock(False, False, True)
+  MQ204DoortoLodgeREF.SetLockLevel(0)
+  Actor DeadCompanionREF = MQ00_CompanionWhoDies.GetActorRef()
+  DeadCompanionREF.KillEssential(None)
+  DeadCompanionREF.Disable(False)
+  Actor WalterREF = Alias_WalterStroud.GetActorRef()
+  kmyQuest.SetActorRecovered(WalterREF)
+  Actor VascoREF = Alias_Vasco.GetActorRef()
+  kmyQuest.SetActorRecovered(VascoREF)
+  Actor HunterREF = Alias_TheHunter.GetActorRef()
+  HunterREF.RemoveSpell(MQ204HunterInvisibility)
+  Actor MatteoREF = Alias_MatteoKhatri.GetActorRef()
+  Actor VladimirREF = Alias_Vladimir.GetActorRef()
+  Actor BarrettREF = Alias_Barrett.GetActorRef()
+  Actor SarahREF = Alias_SarahMorgan.GetActorRef()
+  Actor SamREF = Alias_SamCoe.GetActorRef()
+  Actor CoraREF = Alias_CoraCoe.GetActorRef()
+  Actor NoelREF = Alias_Noel.GetActorRef()
+  Actor AndrejaREF = Alias_Andreja.GetActorRef()
+  If DeadCompanionREF != AndrejaREF
+    (SQ_Companions as sq_companionsscript).SetRoleAvailable(AndrejaREF, False)
   EndIf
-  If DeadCompanionREF != BarrettREF3
-    (SQ_Companions as sq_companionsscript).SetRoleAvailable(BarrettREF, False)4
+  If DeadCompanionREF != BarrettREF
+    (SQ_Companions as sq_companionsscript).SetRoleAvailable(BarrettREF, False)
   EndIf
-  If DeadCompanionREF != SamREF7
-    (SQ_Companions as sq_companionsscript).SetRoleAvailable(SamREF, False)8
+  If DeadCompanionREF != SamREF
+    (SQ_Companions as sq_companionsscript).SetRoleAvailable(SamREF, False)
   EndIf
-  If DeadCompanionREF != SarahREF1
-    (SQ_Companions as sq_companionsscript).SetRoleAvailable(SarahREF, False)2
+  If DeadCompanionREF != SarahREF
+    (SQ_Companions as sq_companionsscript).SetRoleAvailable(SarahREF, False)
   EndIf
-  (SQ_Crew as sq_crewscript).SetRoleAvailable(VascoREF, False)5
-  WalterREF.ChangeAnimFaceArchetype(None)7
-  MatteoREF.ChangeAnimFaceArchetype(None)8
-  VladimirREF.ChangeAnimFaceArchetype(None)9
-  BarrettREF.ChangeAnimFaceArchetype(None)0
-  SarahREF.ChangeAnimFaceArchetype(None)1
-  SamREF.ChangeAnimFaceArchetype(None)2
-  CoraREF.ChangeAnimFaceArchetype(None)3
-  NoelREF.ChangeAnimFaceArchetype(None)4
-  AndrejaREF.ChangeAnimFaceArchetype(None)5
-  WalterREF.SetActivateTextOverride(None)7
-  MatteoREF.SetActivateTextOverride(None)8
-  VladimirREF.SetActivateTextOverride(None)9
-  BarrettREF.SetActivateTextOverride(None)0
-  SarahREF.SetActivateTextOverride(None)1
-  SamREF.SetActivateTextOverride(None)2
-  CoraREF.SetActivateTextOverride(None)3
-  NoelREF.SetActivateTextOverride(None)4
-  AndrejaREF.SetActivateTextOverride(None)5
-  NoelREF.SetGhost(False)8
-  Actor CompanionWhoLivesREF = MQ00_CompanionWhoLives.GetActorRef()1
-  (SQ_Companions as sq_companionsscript).LockInCompanion(CompanionWhoLivesREF as companionactorscript, False, MQ204CompanionLockInOverMSG, None)2
-  MQ204_TurnOffCF01Arrest.SetValueInt(0)5
-  MQ204_WellEnableState.EnableNoWait(False)7
-  Alias_TheScorpius.GetShipRef().SetGhost(False)9
-  If COM_SQ01_SonaLeft.GetValueInt() == 12
-    Alias_Sona.GetActorRef().EnableNoWait(False)3
+  (SQ_Crew as sq_crewscript).SetRoleAvailable(VascoREF, False)
+  WalterREF.ChangeAnimFaceArchetype(None)
+  MatteoREF.ChangeAnimFaceArchetype(None)
+  VladimirREF.ChangeAnimFaceArchetype(None)
+  BarrettREF.ChangeAnimFaceArchetype(None)
+  SarahREF.ChangeAnimFaceArchetype(None)
+  SamREF.ChangeAnimFaceArchetype(None)
+  CoraREF.ChangeAnimFaceArchetype(None)
+  NoelREF.ChangeAnimFaceArchetype(None)
+  AndrejaREF.ChangeAnimFaceArchetype(None)
+  WalterREF.SetActivateTextOverride(None)
+  MatteoREF.SetActivateTextOverride(None)
+  VladimirREF.SetActivateTextOverride(None)
+  BarrettREF.SetActivateTextOverride(None)
+  SarahREF.SetActivateTextOverride(None)
+  SamREF.SetActivateTextOverride(None)
+  CoraREF.SetActivateTextOverride(None)
+  NoelREF.SetActivateTextOverride(None)
+  AndrejaREF.SetActivateTextOverride(None)
+  NoelREF.SetGhost(False)
+  Actor CompanionWhoLivesREF = MQ00_CompanionWhoLives.GetActorRef()
+  (SQ_Companions as sq_companionsscript).LockInCompanion(CompanionWhoLivesREF as companionactorscript, False, MQ204CompanionLockInOverMSG, None)
+  MQ204_TurnOffCF01Arrest.SetValueInt(0)
+  MQ204_WellEnableState.EnableNoWait(False)
+  Alias_TheScorpius.GetShipRef().SetGhost(False)
+  If COM_SQ01_SonaLeft.GetValueInt() == 1
+    Alias_Sona.GetActorRef().EnableNoWait(False)
   EndIf
 EndFunction
