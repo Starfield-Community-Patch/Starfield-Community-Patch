@@ -46,6 +46,9 @@ When adding items to the changelog try and use the template below:
 - Fixed missing LocTypeStarstation [KYWD:0001674D] and LocTypeStarstationInterior [KYWD:0001674E] keywords for The Eye [002B0801] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
 - Fixed missing LocTypeStarstation [KYWD:0001674D] keyword for Trident Luxury Lines Staryard [002B20C5] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
 - Fixed missing LocTypeStarstation [KYWD:0001674D] and LocTypeStarstationExterior [KYWD:0008A8F9] keywords for Polvo Station [00331890] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
+### Item Fixes
+- Fixed an error with the Ecliptic Backpack that would cause the wrong mods to be applied to it. [00166407] - [Fix Contributed by Gambit77](https://www.starfieldpatch.dev/issues/664)
+- Fixed an error in the levelled lists for SysDef armour which would lead to heavy armour spawning where the recon (light armour) variant should be used. [000042D9] [00228D12] - [Fix Contributed by Gambit77](https://www.starfieldpatch.dev/issues/671)
 ### Text Fixes (English)
 - Fixed multiple places where "poring" (to study) was misspelt as "pouring" (to tip liquid). [001886D1] [0014612E] [001E3F53] [001E3F57] - [Reported by Jay33721](https://www.starfieldpatch.dev/issues/602)
 ### Misc Fixes
