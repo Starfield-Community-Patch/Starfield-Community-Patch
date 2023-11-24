@@ -8,6 +8,12 @@ When adding items to the changelog try and use the template below:
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
 ## [Unreleased] Version 0.0.5
+### Actor Fixes
+- Hadrian is now correctly assigned to CrimFactionUC rather than ConstellationFaction. This fix will also apply mid-save. [0029C17F] - [Fix contributed by SKK50](https://nexusmods.com/users/46256407) - [Reported by SKK50](https://www.starfieldpatch.dev/issues/669)
+- Gideo Aker will now have unlimited ammo when recruited as a follower. (Missing TeammateDontUseAmmoKeyword [KYWD:0023F1CA]) - [Reported by SamusKnight2K](https://www.starfieldpatch.dev/issues/588)
+### Text Fixes (English)
+- Fixed multiple places where "poring" (to study) was misspelt as "pouring" (to tip liquid). [001886D1] [0014612E] [001E3F53] [001E3F57] - [Reported by Jay33721](https://www.starfieldpatch.dev/issues/602)
+### Misc Fixes
 - Added a couple of missing dialogue conditions ommited from a previous fix [0032C7CA] [0032C7CB] [0032C7CC] [0032C7CD] - [Reported by TareliusKosmos](https://www.starfieldpatch.dev/issues/666)
 
 

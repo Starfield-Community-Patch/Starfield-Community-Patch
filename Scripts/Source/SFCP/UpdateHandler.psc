@@ -17,6 +17,8 @@ bool b001CoraCoeFix = false
 ; https://www.starfieldpatch.dev/issues/369
 bool b001CoeEstateFix = false
 ; https://www.starfieldpatch.dev/issues/370
+bool b005HadrianFactionFix = false
+; https://www.starfieldpatch.dev/issues/669
 
 ;-- Functions ---------------------------------------
 
@@ -92,6 +94,17 @@ Function ApplyMissingFixes(string sNewVersion)
             SFCPUtil.WriteLog("Coe Estate doors do not require unlocking.")
         endif
         b001CoeEstateFix = True
+    endif
+
+    ; Fix for https://www.starfieldpatch.dev/issues/669
+    if (!b005HadrianFactionFix || (CurrentVersionGTE(0,0,5)))
+        SFCPUtil.WriteLog("Fixing Hadrian's faction assignments")
+        Actor Crew_Elite_Hadrian = Game.GetFormFromFile(0x002B17C4, "Starfield.esm") as Actor
+        Faction ConstellationFaction  = Game.GetFormFromFile(0x000191DC, "Starfield.esm") as Faction
+        Faction CrimeFactionUC = Game.GetFormFromFile(0x0005BD93, "Starfield.esm") as Faction
+        Crew_Elite_Hadrian.RemoveFromfaction(ConstellationFaction)
+        Crew_Elite_Hadrian.AddToFaction(CrimeFactionUC)
+        b005HadrianFactionFix = true
     endif
 
 EndFunction
