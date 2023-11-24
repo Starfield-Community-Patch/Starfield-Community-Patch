@@ -7,8 +7,10 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
-<!-- ## [Unreleased] Version 0.0.5
--->
+## [Unreleased] Version 0.0.5
+- Added a couple of missing dialogue conditions ommited from a previous fix [0032C7CA] [0032C7CB] [0032C7CC] [0032C7CD] - [Reported by TareliusKosmos](https://www.starfieldpatch.dev/issues/666)
+
+
 ## [2023-11-14] Version 0.0.4
 ### Quest Fixes
 - During A Tree Grows in New Atlantis, the sensor acquired from Wen at UC Distribution will no longer be marked as stolen if the player manages to obtain it by purchasing it or by persuasion. [Fragments:Quests:QF_City_NA_Botany01_00270718] - [Fix contributed by Pickysaurus](https://www.nexusmods.com/users/31179975) - [Reported by TheTrueDovahki1n](https://www.starfieldpatch.dev/issues/601)
