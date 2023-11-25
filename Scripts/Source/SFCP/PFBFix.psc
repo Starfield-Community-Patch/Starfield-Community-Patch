@@ -26,11 +26,34 @@ EndGroup
 
 Keyword Property SFCPowerFromBeyondFix Auto
 Keyword Property MQTempleQuestActive Auto
+FormList Property SFCP_PowerFromBeyondInvalidPlanets Auto
 SFCP:PFBFix:PowerFromBeyondQuestData[] Property QuestsToFix Auto
 {An array of Power From Beyond quests to look at fixing}
+MQ_Temple_Subscript Property MQ_TempleSubscript Auto
+Quest Property StarbornTempleQuest Auto
+
+; int iStartAlias = 6
+; int iEndAlias = 28
 
 Event OnQuestStarted()
     Debug.Messagebox("OnInit for PFBFix "+QuestsToFix.Length)
+    ; Check existing planets
+    starborntemplequestscript sbt = (StarbornTempleQuest as starborntemplequestscript)
+    starborntemplequestscript:artifactpower[] currentPlaythroughArtifacts = sbt.currentPlaythroughArtifacts
+    int i = 0
+    while (i < currentPlaythroughArtifacts.length)
+        starborntemplequestscript:artifactpower artifactData = currentPlaythroughArtifacts[i]
+        Location loc = artifactData.TempleName.GetLocation()
+        if (loc != NONE)
+            Location planetLoc = loc.GetCurrentPlanet().GetLocation()
+            SFCPUtil.WriteLog("Excluding planet from artifact ID "+i+": "+planetLoc)
+            SFCP_PowerFromBeyondInvalidPlanets.AddForm(planetLoc)
+        else
+            SFCPUtil.WriteLog("No planet for artifact ID "+i)
+        endif
+        i += 1
+    endwhile
+
     ; Apply fixes
     int idx = 0
     while (idx < QuestsToFix.length)
@@ -45,23 +68,14 @@ Event OnQuestStarted()
         endif
         idx += 1
     endwhile
+    SFCP_PowerFromBeyondInvalidPlanets.Revert()
 EndEvent
 
 Function ResetFixQuest()
     SFCP_MQ_TempleQuest_Fix.Reset()
     SFCP_MQ_TempleQuest_Fix.Stop()
     Utility.WaitMenuPause(0.1)
-    SFCPUtil.WriteLog("Reset fixer quest "+!SFCP_MQ_TempleQuest_Fix.IsRunning(), 0)
-EndFunction
-
-Function RemoveKeywordInvalidPlanet()
-    const planetLoc = data.PlanetWithTrait.GetLocation().GetCurrentPlanet().GetLocation()
-    if (planetLoc.HasKeyword(MQTempleQuestActive))
-        SFCPUtil.WriteLog("Removing keyword from invalid planet "+planetLoc, 0)
-        planetLoc.RemoveKeyword(MQTempleQuestActive)
-    else
-        SFCPUtil.WriteLog("Invalid planet is missing MQTempleQuestActive keyword "+planetLoc, 0)
-    endif
+    SFCPUtil.WriteLog("Reset fixer quest", 0)
 EndFunction
 
 Bool Function CheckAndFixQuest(SFCP:PFBFix:PowerFromBeyondQuestData data)
@@ -87,29 +101,61 @@ Bool Function CheckAndFixQuest(SFCP:PFBFix:PowerFromBeyondQuestData data)
     LocationAlias Option3 = data.PlanetFallback
     ; Try the Option 2
     SFCPUtil.WriteLog("(Attempt 1) "+Option2.GetLocation(), 1)
-    if (Option2.GetLocation() != NONE && SendEventAndCheck(Option2.GetLocation(), data))
+    if (Option2.GetLocation() != NONE && !SFCP_PowerFromBeyondInvalidPlanets.HasForm(Option2.GetLocation()) && SendEventAndCheck(Option2.GetLocation(), data))
         SFCPUtil.WriteLog("Fix applied successfully to Power From Beyond (Attempt 1) "+data.Mission, 1)
         return true
     endif
     ; Try Option 3
-    SFCPUtil.WriteLog("(Attempt 2) "+Option2.GetLocation(), 1)
+    SFCPUtil.WriteLog("(Attempt 2) "+Option3.GetLocation(), 1)
     ResetFixQuest()
-    if (Option3.GetLocation() != NONE && SendEventAndCheck(Option3.GetLocation(), data))
+    if (Option3.GetLocation() != NONE && !SFCP_PowerFromBeyondInvalidPlanets.HasForm(Option3.GetLocation()) &&  SendEventAndCheck(Option3.GetLocation(), data))
         SFCPUtil.WriteLog("Fix applied successfully to Power From Beyond (Attempt 2) "+data.Mission, 1)
         return true
     endif
     
     ; Try with the backup planet from the newly started quest
-    SFCPUtil.WriteLog("(Attempt 3 (FINAL)) "+Option2.GetLocation(), 1)
-    Location backup = BackupPlanet.GetLocation()
-    if (backup != NONE && SendEventAndCheck(backup, data)) 
-        SFCPUtil.WriteLog("Fix applied successfully to Power From Beyond (Last resort) "+data.Mission, 1) 
+    SFCPUtil.WriteLog("(Attempt 3 (Fallback)) - Checking multiple planets", 1)
+    if (!SFCP_MQ_TempleQuest_Fix.IsRunning())
+        if (!SFCPowerFromBeyondFix.SendStoryEventAndWait(NONE, NONE, NONE, 0, 0))
+            SFCPUtil.WriteLog("Failed to boot the fixer quest for the final attempt", 2)
+        endif
+    endif
+    if (CheckAndInvalidatePlanets(data))
+        SFCPUtil.WriteLog("Fix applied successfully to Power From Beyond "+data.Mission, 1) 
         return true
     else
         SFCPUtil.WriteLog("Fix for Power From Beyond failed. Fallback aliases are also invalid planets. "+data.Mission, 1) 
         return false
     endif
+EndFunction
 
+; A final fallback for Planet check, keep trying to find a valid planet and add it to the invalid list each time it fails
+Bool Function CheckAndInvalidatePlanets(SFCP:PFBFix:PowerFromBeyondQuestData data)  
+    int iAttempts = 3
+    Location validLocation = NONE
+    bool bKeepTrying = true
+    while (validLocation == NONE && bKeepTrying)
+        Location backup = BackupPlanet.GetLocation()
+        SFCPUtil.WriteLog("Checking planet: "+backup+". Attempt "+iAttempts, 1)
+        ResetFixQuest()
+        if (backup != NONE && !SFCP_PowerFromBeyondInvalidPlanets.HasForm(backup) && SendEventAndCheck(backup, data))
+            SFCPUtil.WriteLog("Found a valid planet! "+backup+". Attempt "+iAttempts, 1)
+            validLocation = backup
+        elseif (backup == NONE)
+            SFCPUtil.WriteLog("Run out of planets to check. Total checked: "+SFCP_PowerFromBeyondInvalidPlanets.GetSize()+". Attempt "+iAttempts, 1)
+            bKeepTrying = false
+        else 
+            SFCPUtil.WriteLog("Invalid location marked invalid: "+backup+". Attempt "+iAttempts, 1)
+            iAttempts += 1 
+            SFCP_PowerFromBeyondInvalidPlanets.AddForm(backup)
+        endif    
+    endwhile
+
+    if (validLocation != NONE)
+        return true
+    else
+        return false
+    endif
 EndFunction
 
 Bool Function SendEventAndCheck(Location newPlanet, SFCP:PFBFix:PowerFromBeyondQuestData data)
@@ -119,13 +165,14 @@ Bool Function SendEventAndCheck(Location newPlanet, SFCP:PFBFix:PowerFromBeyondQ
                 New_AnomalyLocation.GetLocation() != NONE \
                 && New_AnomalyMapMarker.GetReference() != NONE \
                 && New_PlanetWithTrait.GetLocation() != NONE \
-                && New_TargetSystemLocation.GetLocation() != NONE \
-                && New_TempleLocation.GetLocation() != NONE \
-                && New_TempleMapMarker.GetReference() != NONE\
-                )
+                && New_TargetSystemLocation.GetLocation() != NONE )
+                ; && New_TempleLocation.GetLocation() != NONE \
+                ; && New_TempleMapMarker.GetReference() != NONE\
+                ; )
                 data.PlanetWithTrait.ForceLocationTo(newPlanet)
                 data.AnomalyLocation.ForceLocationTo(New_AnomalyLocation.GetLocation())
                 data.AnomalyMapMarker.ForceRefTo(New_AnomalyMapMarker.GetReference())
+                MQ_TempleSubscript.SetMapMarkerFlags(New_AnomalyMapMarker.GetReference())
                 data.TargetSystemLocation.ForceLocationTo(New_TargetSystemLocation.GetLocation())
                 data.TempleLocation.ForceLocationTo(New_TempleLocation.GetLocation())
                 data.TempleMapMarker.ForceRefTo(New_TempleMapMarker.GetReference())
