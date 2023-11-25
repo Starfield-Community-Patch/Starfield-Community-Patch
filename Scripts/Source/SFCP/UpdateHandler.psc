@@ -22,7 +22,7 @@ bool b005HadrianFactionFix = false
 
 ;-- Functions ---------------------------------------
 
-Event OnInit()
+Event OnQuestInit()
     ; When the quest starts up for the very first time, we need to check for updates.
     Self.CheckForUpdates()
 EndEvent
