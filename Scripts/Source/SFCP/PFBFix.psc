@@ -9,8 +9,6 @@ Struct PowerFromBeyondQuestData
     LocationAlias PlanetUnexploredTraitClose ; Not always present
     LocationAlias PlanetWithTrait
     LocationAlias TargetSystemLocation
-;    LocationAlias TempleLocation
-;    ReferenceAlias TempleMapMarker
 EndStruct
 
 Group FixData
@@ -28,6 +26,10 @@ FormList Property SFCP_PowerFromBeyondInvalidPlanets Auto
 SFCP:PFBFix:PowerFromBeyondQuestData[] Property QuestsToFix Auto
 {An array of Power From Beyond quests to look at fixing}
 Quest Property StarbornTempleQuest Auto
+Message Property SFCP_PowerFromBeyondFixPlanetReassigned Auto
+Message Property SFCP_PowerFromBeyondFixDone Auto
+LocationAlias Property FixedPlanet Auto
+LocationAlias Property InvalidPlanet Auto
 
 Event OnQuestStarted()
     SFCPUtil.WriteLog("----- Power from Beyond fix starting -----")
@@ -62,18 +64,21 @@ Event OnQuestStarted()
         ; Stop the fix quest if it's currently running.
         ResetFixQuest()
         SFCP:PFBFix:PowerFromBeyondQuestData entry = QuestsToFix[idx]
-        SFCPUtil.WriteLog("Checking status "+entry.Mission)
+        ; SFCPUtil.WriteLog("Checking status "+entry.Mission)
         if (CheckAndFixQuest(entry))
             ; SFCPUtil.WriteLog("Fix complete "+entry.Mission)
         else
             ; Failed, we should probably shut down the broken quest?
             Debug.MessageBox("Fix failed for quest at index "+idx)
         endif
+        InvalidPlanet.Clear()
+        FixedPlanet.Clear()
         idx += 1
     endwhile
     SFCP_PowerFromBeyondInvalidPlanets.Revert()
     SFCPUtil.WriteLog("----- Power from Beyond fix completed -----")
-    Debug.MessageBox("Power from Beyond Fix has finished running.")
+    SFCP_PowerFromBeyondFixDone.Show(0,0,0,0,0,0,0,0,0)
+    Self.Stop()
 EndEvent
 
 Function ResetFixQuest()
@@ -99,7 +104,8 @@ Bool Function CheckAndFixQuest(SFCP:PFBFix:PowerFromBeyondQuestData data)
     SFCPUtil.WriteLog("Applying fix for Power From Beyond "+data.Mission+" "+data.PlanetWithTrait, 1)
 
     ; Decide which planet(s) to check
-    ; LocationAlias Selected = data.PlanetWithTrait
+    LocationAlias Selected = data.PlanetWithTrait
+    InvalidPlanet.ForceLocationTo(Selected.GetLocation())
     LocationAlias Option1 = data.PlanetFallback ; Not on all quests
     ; Try the Option 1
     ; SFCPUtil.WriteLog("(Attempt 1) "+Option2.GetLocation(), 1)
@@ -127,15 +133,17 @@ EndFunction
 
 ; A final fallback for Planet check, keep trying to find a valid planet and add it to the invalid list each time it fails
 Bool Function CheckAndInvalidatePlanets(SFCP:PFBFix:PowerFromBeyondQuestData data)  
-    int iAttempts = 3
+    int iAttempts = 1
     Location validLocation = NONE
     bool bKeepTrying = true
     while (validLocation == NONE && bKeepTrying)
         Location backup = BackupPlanet.GetLocation()
-        SFCPUtil.WriteLog("Checking planet: "+backup+". Attempt "+iAttempts, 1)
+        ; SFCPUtil.WriteLog("Checking planet: "+backup+". Attempt "+iAttempts, 1)
         ResetFixQuest()
         if (backup != NONE && !SFCP_PowerFromBeyondInvalidPlanets.HasForm(backup) && SendEventAndCheck(backup, data))
+            FixedPlanet.ForceLocationTo(backup)
             SFCPUtil.WriteLog("Found a valid planet! "+backup+". Attempt "+iAttempts, 1)
+            SFCP_PowerFromBeyondFixPlanetReassigned.Show(0, 0, 0, 0, 0, 0, 0, 0, 0)
             validLocation = backup
         elseif (backup == NONE)
             SFCPUtil.WriteLog("Run out of planets to check. Total checked: "+SFCP_PowerFromBeyondInvalidPlanets.GetSize()+". Attempt "+iAttempts, 1)
