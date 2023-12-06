@@ -1,0 +1,865 @@
+FormKey: 26C5ED:Starfield.esm
+EditorID: COM_Companion_SamCoe
+VirtualMachineAdapter:
+  Scripts:
+  - Name: com_companionquestscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 26C5ED:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShipCrewMarker
+      Object: 26C5ED:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShipInteriorLocation
+      Object: 26C5ED:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentQuest
+      Object: 0DF7AD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CompanionCheckPerk
+      Object: 1C514D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Companion_Andreja
+      Object: 0059A7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_1_Friendship
+      Object: 00D84F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_2_Affection
+      Object: 00D84E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_3_Commitment
+      Object: 2B5EC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerCoolDownTimerExpired
+      Object: 2C8DF2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerSceneCompleted
+      Object: 2C7AE3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerSecondChances
+      Object: 2C7AE7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentDesired
+      Object: 27B78B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentPossible
+      Object: 03016D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentQuest_Started
+      Object: 030167:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentRefusedPermanently
+      Object: 2B5ED0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CurrentStoryGateTimerExpired
+      Object: 2B9007:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_PlayerBecomesRomantic_AndrejaJealous
+      Object: 3EAD2E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtChoice
+      Object: 1EA0D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCooldownDays
+      Object: 1EA0D5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCooldownExpiry
+      Object: 1EA0D6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCount
+      Object: 2C8E56:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_HasBeenRomantic
+      Object: 2B4321:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsCommitted
+      Object: 27B78C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsRomantic
+      Object: 2BFAB9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PersonalQuest_Finished
+      Object: 073743:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PersonalQuest_Started
+      Object: 073742:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_StarbornSaveActorValue_MaxStoryGate
+      Object: 31C39C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_StoryGatesCompleted
+      Object: 2B9006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PersonalQuest
+      Object: 263262:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: PrioritizedAngerReasons
+      Objects:
+      - Name: ''
+        Object: 2C2A36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: StoryGateData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 1
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9008:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9011:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9012:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9013:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 5
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9014:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 6
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9015:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 7
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9016:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 8
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9017:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WantsToTalkAnnouncementScene
+      Object: 26BDB4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WantsToTalkConditionForm
+      Object: 2BCB91:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SamCoe
+      Object: 26C5ED:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SamCoe_Commitment
+      Object: 0DF7AD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SamCoe_Q01
+      Object: 263262:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Geology
+      Object: 21B8CC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_RifleCertification
+      Object: 21B8E1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_Ship_Piloting
+      Object: 2CE1A0:Starfield.esm
+  Fragments:
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0105_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0115_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 205
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0205_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 215
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0215_Item_00
+  - Stage: 305
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0305_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 315
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0315_Item_00
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0320_Item_00
+  - Stage: 505
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0505_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0510_Item_00
+  - Stage: 515
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0515_Item_00
+  - Stage: 605
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0605_Item_00
+  - Stage: 610
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0610_Item_00
+  - Stage: 615
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0615_Item_00
+  - Stage: 620
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0620_Item_00
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0650_Item_00
+  - Stage: 750
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0750_Item_00
+  - Stage: 798
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0798_Item_00
+  - Stage: 799
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0799_Item_00
+  - Stage: 801
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0801_Item_00
+  - Stage: 802
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0802_Item_00
+  - Stage: 820
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0820_Item_00
+  - Stage: 825
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0825_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Begleiter – Sam Coe
+  - Language: English
+    String: Companion - Sam Coe
+  - Language: Spanish
+    String: 'Acompañante: Sam Coe'
+  - Language: French
+    String: Compagnon - Sam Coe
+  - Language: Italian
+    String: Compagno - Sam Coe
+  - Language: Japanese
+    String: 仲間 - サム・コー
+  - Language: Polish
+    String: 'Towarzysz: Sam Coe'
+  - Language: Portuguese_Brazil
+    String: Companheiro - Sam Coe
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+Filter: Followers\COM\Companion\SamCoe\
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Unknown2: 17620
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+  ComparisonValue: 1
+UnusedConditions: []
+Stages:
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene 01 - Memory Value chosen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG01 - Chose "Parents want children to learn from mistakes"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG01 - Chose to joke about Cora
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 115
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG01 - Chose "Stay out of parenting"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG01 - Chose "Doing a good job"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene 02 - Memory Value chosen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 205
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG02 - Chose "Cora is thriving"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG02 - Chose "Part Time Cora Elsewhere"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 215
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG02 - Chose "Bad idea to be on the ship"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene 03 - Memory Value chosen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 305
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG03 - Chose "Lillian is part of Cora's life"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG03 - Chose "Give Lillian a chance"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 315
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG03 - Chose "Better Cora is with us"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG03 - Chose "Neutral Response"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG04 - Post
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene 05 - Memory Value Chosen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 505
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG05 - Chose "Better for it"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG05 - Chose "Stupid stuff"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 515
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG05 - Chose "Truly live = make mistakes"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene 06 - Memory Value Chosen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 605
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG06 - Chose "Jacob might surprise"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG06 - Chose "Shoot him down"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 615
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG06 - Chose "It's Cora's Choice"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 620
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG06 - Chose "Jacob's Bad News"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 650
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start Personal Quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Romance Choice Made
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 705
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Romance - Chose "You did all the hard work. I just listened."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Romance - Chose "We're both the lucky ones. Lucky to find each other."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 715
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Romance - Chose "Someone's feeling sappy today."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 750
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Finish up "Family Matters"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 798
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG07 - Cora isn't near Sam
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 799
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG07 - Cora is near Sam
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene 07 - Memory Value Chosen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 801
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: First Talk w/Sam
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 802
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked with Cora
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 803
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Cora Gave Blessing
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 805
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG07 - Chose "Your blessing means the world to me."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG07 - Chose "This is so awkward."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 815
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG07 - Chose "I could never replace Lillian, but maybe one day..."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG08 Scenes completed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 825
+  LogEntries:
+  - Flags: []
+    Note: Start up Commitment Quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Anger Scene - Speech Challenge Win
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5010
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Anger Scene - Speech Challenge Lose
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Sam Coe.
+    - Language: English
+      String: Talk with Sam Coe
+    - Language: Spanish
+      String: Habla con Sam Coe.
+    - Language: French
+      String: Parlez à Sam Coe.
+    - Language: Italian
+      String: Parla con Sam Coe
+    - Language: Japanese
+      String: サム・コーと話す
+    - Language: Polish
+      String: Porozmawiaj z Samem Coe
+    - Language: Portuguese_Brazil
+      String: Fale com Sam Coe
+  Targets:
+  - {}
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: QuestAlias
+        Unknown3: 4
+        UseAliases: True
+        FirstParameter: 4294967294
+      ComparisonValue: 7
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: QuestAlias
+        Unknown3: 4
+        UseAliases: True
+      ComparisonValue: 15
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 26C5ED:Starfield.esm
+        SecondParameter: 799
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 26C5ED:Starfield.esm
+        SecondParameter: 650
+- Index: 798
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich in der Nähe von Cora mit Sam Coe.
+    - Language: English
+      String: Talk to Sam near Cora
+    - Language: Spanish
+      String: Habla con Sam Coe cerca de Cora.
+    - Language: French
+      String: Parlez à Sam Coe près de Cora.
+    - Language: Italian
+      String: Parla con Sam in presenza di Cora
+    - Language: Japanese
+      String: コラの近くでサムと話す
+    - Language: Polish
+      String: Porozmawiaj z Samem przy Corze
+    - Language: Portuguese_Brazil
+      String: Fale com Sam Coe perto de Cora
+  Targets:
+  - AliasID: 4
+- Index: 801
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Cora Coe.
+    - Language: English
+      String: Talk with Cora Coe
+    - Language: Spanish
+      String: Habla con Cora Coe.
+    - Language: French
+      String: Parlez à Cora Coe.
+    - Language: Italian
+      String: Parla con Cora Coe
+    - Language: Japanese
+      String: コラ・コーと話す
+    - Language: Polish
+      String: Porozmawiaj z Corą Coe
+    - Language: Portuguese_Brazil
+      String: Fale com Cora Coe
+  Targets:
+  - AliasID: 4
+- Index: 802
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Sam Coe.
+    - Language: English
+      String: Talk with Sam Coe
+    - Language: Spanish
+      String: Habla con Sam Coe.
+    - Language: French
+      String: Parlez à Sam Coe.
+    - Language: Italian
+      String: Parla con Sam Coe
+    - Language: Japanese
+      String: サム・コーと話す
+    - Language: Polish
+      String: Porozmawiaj z Samem Coe
+    - Language: Portuguese_Brazil
+      String: Fale com Sam Coe
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: SamCoe
+  Flags: []
+  ALFG: 0
+  UniqueActor: 005999:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: ActiveCompanion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: PlayerShipCrewMarker
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 6
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 3
+  Name: playerShipInteriorLocation
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  ExternalAliasLocation:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 9
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Cora
+  Flags: []
+  ALFG: 0
+  UniqueActor: 00D653:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: FinaleMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 21D003:Starfield.esm
+  VoiceTypes: Null

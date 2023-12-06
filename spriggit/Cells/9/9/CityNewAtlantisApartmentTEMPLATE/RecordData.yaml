@@ -1,0 +1,263 @@
+FormKey: 21966F:Starfield.esm
+EditorID: CityNewAtlantisApartmentTEMPLATE
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Spieler-Unterkunft: Wohnung'
+  - Language: English
+    String: Player House Apartment
+  - Language: Spanish
+    String: Apartamento del jugador
+  - Language: French
+    String: Appartement du joueur
+  - Language: Italian
+    String: Appartamento del giocatore
+  - Language: Japanese
+    String: プレイヤーの家 アパート
+  - Language: Polish
+    String: Dom gracza - mieszkanie
+  - Language: Portuguese_Brazil
+    String: Apartamento da Pessoa Jogadora
+Flags:
+- IsInteriorCell
+- CantTravelFromHere
+- 0x20000
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  DirectionalFade: 1
+  FogFarColor: '#00000000'
+  Unknown1: 659456
+  ForColorHighNear: '#00000000'
+  ForColorHighFar: '#00000000'
+  Unknown2: 1986358272
+WaterHeight: 3.4028235E+38
+XILS: 1
+AcousticSpace: 1CB751:Starfield.esm
+ImageSpace: 0432DF:Starfield.esm
+Music: 01BA72:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
+Traversals:
+- From: -5.0042787, 31.472498, -1.9073486E-06
+  To: -5.8080835, 31.209082, 4.0000005
+  UnknownVector: 0.7323766, 9.1284075, 1.4907373
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0x65446544007C007C
+- Unknown1: 1
+  From: -4.932157, 43.040115, -2.402456E-07
+  To: -5.8450847, 43.05073, 3.9999998
+  UnknownVector: 0.78934497, 9.131617, 1.4845698
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB944B944007C007C
+- Unknown1: 2
+  From: -5.0073466, 44.82076, 0
+  To: -5.81053, 44.82853, 4.0000005
+  UnknownVector: 0.6960585, 9.126491, 1.4946758
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB944B944007C007C
+- Unknown1: 3
+  From: -4.7173996, 43.954132, 0
+  To: -5.8273115, 43.964867, 4
+  UnknownVector: 0.9550101, 9.142445, 1.4667149
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB944B944007C007C
+- Unknown1: 4
+  From: -4.6178594, 34.672764, 0
+  To: -5.852811, 34.668713, 4
+  UnknownVector: 1.0588486, 9.1503935, 1.4555925
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB644B644007C007C
+- Unknown1: 5
+  From: -4.899741, 33.127403, 0
+  To: -5.8540325, 33.12427, 4
+  UnknownVector: 0.82427746, 9.133715, 1.4807945
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB644B644007C007C
+- Unknown1: 6
+  From: -4.8998685, 32.474686, -5.2397684E-07
+  To: -5.8551946, 32.47673, 4
+  UnknownVector: 0.82514846, 9.13377, 1.4807005
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB744B744007C007C
+- Unknown1: 7
+  From: -4.71646, 31.945795, -1.4976522E-06
+  To: -5.856141, 31.94823, 4
+  UnknownVector: 0.97979397, 9.14426, 1.4640551
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB744B744007C007C
+- Unknown1: 8
+  From: -4.8874474, 38.73543, 1.2933194E-07
+  To: -5.8276753, 38.750023, 4
+  UnknownVector: 0.812487, 9.132996, 1.4820682
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xBA44BA44007C007C
+- Unknown1: 9
+  From: -4.9057655, 37.225597, 1.3125474E-07
+  To: -5.85063, 37.24026, 3.9999995
+  UnknownVector: 0.81640524, 9.133234, 1.4816449
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xBA44BA44007C007C
+- Unknown1: 10
+  From: -4.9398785, 36.38901, 0
+  To: -5.85304, 36.429955, 4
+  UnknownVector: 0.79026765, 9.131671, 1.48447
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xC244C244007C007C
+- Unknown1: 11
+  From: -4.883786, 35.48615, 0
+  To: -5.8527727, 35.52959, 4
+  UnknownVector: 0.8374981, 9.134535, 1.4793671
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xC244C244007C007C
+- Unknown1: 12
+  From: -4.9316845, 41.19055, -6.771136E-07
+  To: -5.8638597, 41.16553, 4
+  UnknownVector: 0.80586606, 9.132598, 1.4827837
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB044B044007C007C
+- Unknown1: 13
+  From: -4.9112306, 40.36533, -3.5979457E-07
+  To: -5.8542533, 40.34001, 4.0000005
+  UnknownVector: 0.8150403, 9.133152, 1.4817923
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB044B044007C007C
+- Unknown1: 14
+  From: -4.98707, 39.537514, -7.4868346E-08
+  To: -5.832658, 39.514812, 4
+  UnknownVector: 0.73239833, 9.128406, 1.4907349
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB044B044007C007C
+- Unknown1: 15
+  From: -5.839271, 43.351654, 4.0000005
+  To: -4.596839, 43.326515, -9.886637E-08
+  UnknownVector: 1.1265762, 1.7842712, 1.0076131
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0x5D3E5D3E007C007C
+- Unknown1: 15
+  From: -4.894156, 43.33253, -9.602356E-08
+  To: -5.839271, 43.351654, 4.0000005
+  UnknownVector: 0.8166855, 9.133251, 1.4816146
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xBC44BC44007C007C
+- Unknown1: 16
+  From: -5.9181237, 44.282784, 4.0000005
+  To: -4.5831585, 44.255775, 0
+  UnknownVector: 0.89622456, 4.622866, 1.379304
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0x5D3E5D3E007C007C
+- Unknown1: 16
+  From: -4.387506, 44.251816, 0
+  To: -6.015031, 44.284744, 4.0000005
+  UnknownVector: 1.0971929, 9.97338, 1.4612248
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xBC44BC44007C007C
+- Unknown1: 17
+  From: -5.8031626, 45.209988, 4.0000005
+  To: -4.855788, 45.19082, 0
+  UnknownVector: 0.852268, 1.8557688, 1.140274
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0x5D3E5D3E007C007C
+- Unknown1: 17
+  From: -4.955664, 45.19284, 0
+  To: -5.8031626, 45.209988, 4.0000005
+  UnknownVector: 0.7339121, 9.128489, 1.4905709
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xBC44BC44007C007C
+- Unknown1: 18
+  From: -5.857561, 39.14369, 4
+  To: -4.624931, 39.147633, 2.2038242E-07
+  UnknownVector: 1.1184009, 1.7767099, 1.0089829
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0x453E453E007C007C
+- Unknown1: 18
+  From: -4.915525, 39.1467, 1.08233415E-07
+  To: -5.857561, 39.14369, 4
+  UnknownVector: 0.8139236, 9.133083, 1.481913
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB644B644007C007C
+- Unknown1: 19
+  From: -5.860084, 39.945442, 4.0000005
+  To: -4.623801, 39.949398, -1.03829485E-07
+  UnknownVector: 1.1213741, 1.7794569, 1.0084823
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0x453E453E007C007C
+- Unknown1: 19
+  From: -4.819377, 39.948772, -1.7136594E-07
+  To: -5.860084, 39.945442, 4.0000005
+  UnknownVector: 0.8970357, 9.138401, 1.4729487
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB644B644007C007C
+- Unknown1: 20
+  From: -5.862607, 40.747192, 4
+  To: -4.622936, 40.75116, -4.0494123E-07
+  UnknownVector: 1.1241299, 1.7820082, 1.0080214
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0x453E453E007C007C
+- Unknown1: 20
+  From: -4.918871, 40.750214, -5.0713413E-07
+  To: -5.862607, 40.747192, 4
+  UnknownVector: 0.8153603, 9.133171, 1.4817578
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB644B644007C007C
+- Unknown1: 21
+  From: -5.85304, 35.444714, 4
+  To: -4.608989, 35.445408, 0
+  UnknownVector: 1.1276859, 1.7852982, 1.0074284
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0x483E483E007C007C
+- Unknown1: 21
+  From: -4.9076066, 35.445244, 0
+  To: -5.85304, 35.444714, 4
+  UnknownVector: 0.8167904, 9.133258, 1.4816033
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB644B644007C007C
+- Unknown1: 22
+  From: -5.853337, 36.443615, 4
+  To: -4.6129403, 36.44431, 2.5369024E-08
+  UnknownVector: 1.1247149, 1.7825478, 1.0079232
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0x483E483E007C007C
+- Unknown1: 22
+  From: -4.9090133, 36.44414, 0
+  To: -5.853337, 36.443615, 4
+  UnknownVector: 0.81585234, 9.133201, 1.4817046
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB644B644007C007C
+- Unknown1: 23
+  From: -5.8578277, 31.006708, 4.0000005
+  To: -4.646053, 31.00464, -1.9073486E-06
+  UnknownVector: 1.1013865, 1.7610096, 1.0118885
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0x4A3E4A3E007C007C
+- Unknown1: 23
+  From: -4.9200053, 31.005108, -1.9073486E-06
+  To: -5.8578277, 31.006708, 4.0000005
+  UnknownVector: 0.8103591, 9.13287, 1.4822981
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB744B744007C007C
+- Unknown1: 24
+  From: -5.759889, 31.846668, 4.0000005
+  To: -4.815402, 31.845057, -1.6691113E-06
+  UnknownVector: 0.6422608, 4.493102, 1.4288144
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0x4A3E4A3E007C007C
+- Unknown1: 24
+  From: -4.6209135, 31.844725, -1.6900461E-06
+  To: -5.8563223, 31.846832, 4
+  UnknownVector: 0.8414497, 9.925926, 1.4862256
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB744B744007C007C
+- Unknown1: 25
+  From: -5.854818, 32.686954, 4
+  To: -4.6190653, 32.684845, -1.4272297E-07
+  UnknownVector: 1.1209388, 1.7790548, 1.0085555
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0x4A3E4A3E007C007C
+- Unknown1: 25
+  From: -4.9111094, 32.68534, -1.2736693E-07
+  To: -5.854818, 32.686954, 4
+  UnknownVector: 0.8153338, 9.133169, 1.4817606
+  Traversal: 00AFF2:Starfield.esm
+  Unknown: 0xB744B744007C007C

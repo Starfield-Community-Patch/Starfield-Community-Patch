@@ -1,0 +1,786 @@
+FormKey: 18E0F9:Starfield.esm
+EditorID: City_GG_Connections
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_City_GG_Connections_0018E0F9
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bonifac
+      Object: 18E0F9:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_GG_Connections_Companion_250_RxnToCorpse
+      Object: 153DA3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Package
+      Object: 18E0F9:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_GG_Connect_HelenaKnowsCourierIsDead
+      Object: 1434E4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ScanPoints
+      Object: 18E0F9:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_GG_Connect_DebugMarker01
+      Object: 18E0A7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_GG_Connect_Misc
+      Object: 14AFC2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_GG_Connect_DebugMarker02
+      Object: 18E0A6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_GG_Mark
+      Object: 18BC56:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MurderEnableMarker
+      Object: 18E0F9:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_GG_Connect_Debug_RoomFullOfBlood
+      Object: 18E0A3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CourierCorpse
+      Object: 18E0F9:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CourierSlate
+      Object: 18E0F9:Starfield.esm
+      Alias: 2
+  Fragments:
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_GG_Connections_0018E0F9
+    FragmentName: Fragment_Stage_0250_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_GG_Connections_0018E0F9
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_GG_Connections_0018E0F9
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_GG_Connections_0018E0F9
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_GG_Connections_0018E0F9
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 315
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_GG_Connections_0018E0F9
+    FragmentName: Fragment_Stage_0315_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_GG_Connections_0018E0F9
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_GG_Connections_0018E0F9
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_GG_Connections_0018E0F9
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_GG_Connections_0018E0F9
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_GG_Connections_0018E0F9
+    FragmentName: Fragment_Stage_0120_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 18E0F9:Starfield.esm
+      Alias: 3
+    Scripts:
+    - Name: UC_GG_Connect_CorpseAliasScript
+  - Property:
+      Name: ''
+      Object: 18E0F9:Starfield.esm
+      Alias: 4
+    Scripts:
+    - Name: UC_GG_Connect_EmptyTriggerCollScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC_GG_Connect_StopsCompleted
+        Object: 18E0AD:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 18E0F9:Starfield.esm
+      Alias: 6
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 300
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 250
+  - Property:
+      Name: ''
+      Object: 18E0F9:Starfield.esm
+      Alias: 10
+    Scripts:
+    - Name: DefaultAliasOnItemAddedScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: itemFilter
+        Object: 153DA4:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 300
+  - Property:
+      Name: ''
+      Object: 18E0F9:Starfield.esm
+      Alias: 12
+    Scripts:
+    - Name: UC_GG_Connect_ScannerRefColScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ScanTargetsObjectives
+        Object: 18E0F9:Starfield.esm
+        Alias: 14
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC_GG_Connect_ActiveScanner_Unscanned_Keyword
+        Object: 1434D5:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC_GG_CheckIn_Scanned
+        Object: 142D54:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC_GG_CheckIn_Unscanned
+        Object: 142D55:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UnvisitedScanPoints
+        Object: 18E0F9:Starfield.esm
+        Alias: 13
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC_GG_Connect_ActiveScanner_Objective_Keyword
+        Object: 1434E3:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC_GG_Connect_StopsCompleted
+        Object: 18E0AD:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Sendungsverfolgung
+  - Language: English
+    String: Missed Connections
+  - Language: Spanish
+    String: Conexiones perdidas
+  - Language: French
+    String: Étape manquante
+  - Language: Italian
+    String: Collegamenti persi
+  - Language: Japanese
+    String: 配送遅れ
+  - Language: Polish
+    String: Niewykonane połączenia
+  - Language: Portuguese_Brazil
+    String: Conexões Perdidas
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  Priority: 50
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+TextDisplayGlobals:
+- 18E0AD:Starfield.esm
+- 18E0AE:Starfield.esm
+Summary: The player has agreed to help Helena Strickland - a high-powered executive at Reliant Medical - to find a courier, who was carrying a very important package, that's gone missing. The player find the courier - dead - and returns with the empty package to Helena.
+UnusedConditions: []
+Stages:
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Start quest. Move player to Helena.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: Jump the player right to the courier's corpse."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: Quest started!'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe zugestimmt, Helena Strickland bei der Suche nach ihrem vermissten Kurier zu helfen. Sie hat mich gebeten, ihr zu folgen.
+      - Language: English
+        String: I've agreed to help Helena Strickland find her missing courier. She's asked me to follow her.
+      - Language: Spanish
+        String: He accedido a ayudar a Helena Strickland a encontrar al correo desaparecido. Me ha pedido que la siga.
+      - Language: French
+        String: J'ai accepté d'aider Helena Strickland à retrouver son coursier disparu. Elle m'a demandé de la suivre.
+      - Language: Italian
+        String: Ho accettato di aiutare Helena Strickland a trovare il suo corriere scomparso. Mi ha chiesto di seguirla.
+      - Language: Japanese
+        String: ヘレナ・ストリックランドを手伝い、行方不明の配達人を捜索することに同意した。彼女について来るように言われた
+      - Language: Polish
+        String: Helena Strickland poprosiła mnie o odnalezienie zaginionego kuriera. Muszę za nią pójść.
+      - Language: Portuguese_Brazil
+        String: Concordei em ajudar Helena Strickland a procurar seu mensageiro desaparecido. Ela me pediu para segui-la.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: Player accepted the job. Get Helena headed towards her next scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P1: Intercom scene complete. Try to start the hand off scene if the player's close enough."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: Strickland handed over the slate. Get the player headed to the next section of the quest.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 18E0F9:Starfield.esm
+        SecondParameter: 250
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 18E0F9:Starfield.esm
+        SecondParameter: 300
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Helena hat mir die heutige Route des Kuriers gegeben. Ich sollte die einzelnen Halte prüfen und herausfinden, was mit ihm passiert ist.
+      - Language: English
+        String: Helena's provided me with the courier's route for the day. I need to check his various stops and see where he might've gotten waylaid.
+      - Language: Spanish
+        String: Helena me ha dado la ruta del día del correo. Tengo que comprobar sus paradas y ver en qué momento pudo haber desaparecido.
+      - Language: French
+        String: Helena m'a fourni l'itinéraire du coursier pour la journée. Je dois contrôler ses différentes étapes pour voir où il aurait pris du retard.
+      - Language: Italian
+        String: Helena mi ha indicato la rotta del corriere. Devo controllare le varie tappe e scoprire dove può aver deviato.
+      - Language: Japanese
+        String: 配達人の一日のルートをヘレナに教えてもらった。彼の停留所を確認していき、どこで待ち伏せされたのか調べよう
+      - Language: Polish
+        String: Helena przekazała mi informacje o trasie kuriera z dnia, w którym zaginął. Muszę sprawdzić poszczególne przystanki i ustalić, gdzie zaginął.
+      - Language: Portuguese_Brazil
+        String: Helena me forneceu a rota do dia do mensageiro. Preciso conferir as várias paradas dele e ver onde ele pode ter caído em uma emboscada.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P1: Player found the Courier's body. Direct them to check him for the data"
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Tja, das erklärt wohl, warum der Kurier nicht aufgetaucht ist: Er ist tot. Ich sollte seine Leiche nach Helenas Paket durchsuchen.'
+      - Language: English
+        String: Well, I suppose this explains why the courier never showed up - he's dead. I should check his body for Helena's package.
+      - Language: Spanish
+        String: Bueno, es lógico que el correo no haya dado señales de vida, porque está muerto. Debería registrar su cuerpo por si tiene el paquete de Helena.
+      - Language: French
+        String: "Ceci explique sans doute pourquoi le coursier ne s'est jamais présenté : il est mort. Je devrais chercher le paquet d'Helena sur son cadavre."
+      - Language: Italian
+        String: 'Beh, immagino che questo spieghi perché il corriere non è mai arrivato a destinazione: è morto. Devo controllare se il pacco di Helena è intorno al cadavere.'
+      - Language: Japanese
+        String: これで配達人が現れなかった理由がわかった。死んでいたからだ。遺体にヘレナの荷物がないか調べてみよう
+      - Language: Polish
+        String: To by wyjaśniało, dlaczego kurier nie dotarł na miejsce - nie żyje. Muszę przeszukać jego zwłoki. Może ma przy sobie przesyłkę Heleny.
+      - Language: Portuguese_Brazil
+        String: 'Bem, suponho que isso explique por que o mensageiro nunca apareceu: ele morreu. Vou procurar o pacote da Helena no corpo dele.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: Player collected the empty package. Direct them back to Helena.'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Die guten Neuigkeiten: Ich habe Helenas Paket gefunden. Die schlechten: Die Inhalte des Pakets sind spurlos verschwunden. Ich sollte es trotzdem zu Helena bringen.'
+      - Language: English
+        String: Good news - I've recovered Helena's package. Bad news - whatever was inside it has gone missing. I should return this to Helena anyway.
+      - Language: Spanish
+        String: 'Buenas noticias: he recuperado el paquete de Helena. Malas noticias: lo que hubiera dentro ha desaparecido. Debería ir a informar a Helena aun así.'
+      - Language: French
+        String: Bonne nouvelle, j'ai récupéré le paquet d'Helena. Mauvaise nouvelle, ce qu'il contenait a disparu. Je dois tout de même le lui rapporter.
+      - Language: Italian
+        String: 'Buone notizie: ho recuperato il pacco di Helena. La cattiva notizia è che qualsiasi cosa contenesse, non c’è più. Devo comunque tornare da Helena con quello che ho trovato.'
+      - Language: Japanese
+        String: 幸い、ヘレナの荷物を入手できた。だが悪いことに、中身がなくなってしまっている。それでも、これは一旦ヘレナに返すべきだろう
+      - Language: Polish
+        String: Dobra wiadomość! Udało mi się odzyskać przesyłkę Heleny. Zła wiadomość - zawartość przesyłki zaginęła. Mimo wszystko lepiej zwrócić to Helenie.
+      - Language: Portuguese_Brazil
+        String: 'Boa notícia: recuperei o pacote da Helena. Má notícia: o que havia dentro dele desapareceu. É melhor eu devolvê-lo para Helena de qualquer forma.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 301
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: Player hit Helena's 1st choice in wrap up scene. Get them back to that point if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 302
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: Player hit Helena's 2nd choice in wrap up scene. Get them back to that point if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: Playey has made a selection in informing Helena about her package. Take the package from the player.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 315
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Helena learns the courier is dead. Unlocks hellos in the next quest'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: Give the player their money for the quest.'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Helena hat mich dafür bezahlt, dass ich den Kurier gefunden habe. Jetzt soll ich aber ihren Mitarbeiter, Bonifác Maksimow, aufspüren, der womöglich etwas mit dem Tod des Kuriers und den vermissten Inhalten des Pakets zu tun hat.
+      - Language: English
+        String: Helena's paid me for finding the courier, but is now asking I track down her employee - Bonifac Maksimov - who she suspects might have something to do with the courier's death and the missing package contents.
+      - Language: Spanish
+        String: Helena me ha pagado por encontrar al correo, pero ahora me ha pedido que busque a Bonifác Maksimov, un empleado suyo que cree que puede tener algo que ver con la muerte del correo y el contenido del paquete desaparecido.
+      - Language: French
+        String: Helena me paie pour retrouver le coursier, mais elle me demande maintenant de retrouver son employé, Bonifác Maksimov, qu'elle soupçonne d'être impliqué dans la mort du coursier et du paquet disparu.
+      - Language: Italian
+        String: Helena mi ha pagato per aver trovato il corriere, ma ora mi chiede di rintracciare il suo dipendente Bonifác Maksimov, sospettato di avere qualcosa a che fare con la morte del corriere e la scomparsa del contenuto del pacco.
+      - Language: Japanese
+        String: 配達人を発見した報酬をヘレナから受け取ったが、今度は彼女の従業員、ボニファツ・マクシモフを探すよう頼まれた。ヘレナは配達人の死となくなった荷物の中身に、彼が関係していることを疑っている
+      - Language: Polish
+        String: Helena zapłaciła mi za odnalezienie kuriera, a teraz prosi o namierzenie swojego pracownika, Bonifácego Maksimowa, którego podejrzewa o maczanie palców w śmierci kuriera i zaginięciu zawartości przesyłki.
+      - Language: Portuguese_Brazil
+        String: Helena me pagou para encontrar o mensageiro, mas agora está me pedindo para rastrear o funcionário dela, Bonifác Maksimov. Ela suspeita que ele possa ter algo a ver com a morte do mensageiro e com o desaparecimento do conteúdo do pacote.
+    StageCompleteDatas:
+    - QSRD: 0x02000000
+      RewardDatas:
+      - XpAwarded: Null
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B10:Starfield.esm
+          Count: 1
+      - XpAwarded: Null
+        BonusCredits: 153DA6:Starfield.esm
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: GetGlobalValueConditionData
+            FirstParameter: 153DA5:Starfield.esm
+          ComparisonValue: 1
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: 'P1: Player completed the quest.'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Ich habe den vermissten Kurier von Reliant Medical gefunden – tot. Von Helenas wichtigem Paket fehlt aber immer noch jede Spur. Wir haben allerdings einen Verdächtigen: Bonifác Maksimow, eine Nachwuchskraft bei Reliant Medical und kürzlich aus der Stadt geflohen. Laut Helena befindet er sich in der Nähe auf dem Planeten Hawley – das ist wohl mein nächstes Ziel.'
+      - Language: English
+        String: "I found Reliant Medical's missing courier - dead - but Helena's important package is still at large. We do have a possible suspect, though: Bonifác Maksimov, Reliant Medical's own junior executive, who recently fled the city. Helena's tracked him to the nearby planet Hawley. Looks like that's where I'm headed next."
+      - Language: Spanish
+        String: 'He encontrado al correo desaparecido de Reliant Medical. Ha fallecido, pero el paquete de Helena aún está en paradero desconocido. Tenemos a un posible sospechoso, al menos: Bonifác Maksimov, el ejecutivo júnior de Reliant Medical, que se ha ido de la ciudad hace poco. Según Helena, está cerca, en el planeta Hawley. Parece que ya tengo próximo destino.'
+      - Language: French
+        String: "J'ai trouvé le cadavre du coursier disparu de Reliant Medical, mais pas le paquet important d'Helena. Nous avons toutefois un suspect potentiel : Bonifác Maksimov, le cadre junior de la boîte, qui a récemment quitté la ville. Helena l'a retrouvé sur la planète Hawley. On dirait que c'est ma prochaine destination."
+      - Language: Italian
+        String: 'Ho trovato il corriere della Reliant Medical scomparso. Morto. Ma non ho ancora messo le mani sul pacco importante di Helena. Però abbiamo un sospettato: Bonifác Maksimov, il dirigente junior della stessa Reliant Medical, che ha recentemente lasciato la città. Helena ha scoperto che si trova sul vicino pianeta Hawley. A quanto pare, è lì che devo andare.'
+      - Language: Japanese
+        String: リライアント・メディカルの行方不明の配達人を、死亡した状態で発見した。ヘレナの重要な荷物はまだ見つかっていないが、疑わしい人物はいる。最近街から逃げたリライアント・メディカルの下級管理職、ボニファツ・マクシモフだ。ヘレナは彼を近くの惑星ホーリーまで追跡した。次はそこへ向かうべきだろう
+      - Language: Polish
+        String: 'Udało mi się odnaleźć zaginionego kuriera Reliant Medical - martwego. Niestety ważna przesyłka Heleny się nie odnalazła. Mamy jednak potencjalnego podejrzanego: Bonifáca Maksimowa, młodszego kierownika Reliant Medical, który uciekł z miasta. Helena namierzyła go w pobliżu planety Hawley. Wygląda na to, że muszę się tam wybrać.'
+      - Language: Portuguese_Brazil
+        String: 'Encontrei o mensageiro desaparecido da Reliant Medical. Ele estava morto, mas o pacote importante da Helena ainda está desaparecido. Contudo, temos um possível suspeito: Bonifác Maksimov, executivo júnior da própria Reliant Medical, que recentemente fugiu da cidade. Helena o rastreou no planeta vizinho Hawley. Parece que é para lá que eu vou agora.'
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E7:Starfield.esm
+        BonusCredits: Null
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Helena Strickland.
+    - Language: English
+      String: Speak to Helena Strickland
+    - Language: Spanish
+      String: Habla con Helena Strickland
+    - Language: French
+      String: Parlez à Helena Strickland.
+    - Language: Italian
+      String: Parla con Helena Strickland
+    - Language: Japanese
+      String: ヘレナ・ストリックランドと話す
+    - Language: Polish
+      String: Porozmawiaj z Heleną Strickland
+    - Language: Portuguese_Brazil
+      String: Fale com Helena Strickland
+  Targets:
+  - {}
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Helena.
+    - Language: English
+      String: Follow Helena
+    - Language: Spanish
+      String: Sigue a Helena.
+    - Language: French
+      String: Suivez Helena.
+    - Language: Italian
+      String: Segui Helena
+    - Language: Japanese
+      String: ヘレナについて行く
+    - Language: Polish
+      String: Podążaj za Heleną
+    - Language: Portuguese_Brazil
+      String: Siga Helena
+  Targets:
+  - {}
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Helena.
+    - Language: English
+      String: Speak to Helena
+    - Language: Spanish
+      String: Habla con Helena.
+    - Language: French
+      String: Parlez à Helena.
+    - Language: Italian
+      String: Parla con Helena
+    - Language: Japanese
+      String: ヘレナと話す
+    - Language: Polish
+      String: Porozmawiaj z Heleną
+    - Language: Portuguese_Brazil
+      String: Fale com Helena
+  Targets:
+  - {}
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Suche entlang seiner Route nach dem Kurier. (<Global=UC_GG_Connect_StopsCompleted>/<Global=UC_GG_Connect_TotalStops>)
+    - Language: English
+      String: Search for the courier along his route (<Global=UC_GG_Connect_StopsCompleted>/<Global=UC_GG_Connect_TotalStops>)
+    - Language: Spanish
+      String: Busca al correo por su ruta (<Global=UC_GG_Connect_StopsCompleted>/<Global=UC_GG_Connect_TotalStops>).
+    - Language: French
+      String: Cherchez le coursier sur son itinéraire (<Global=UC_GG_Connect_StopsCompleted>/<Global=UC_GG_Connect_TotalStops>).
+    - Language: Italian
+      String: Cerca il corriere lungo la sua rotta (<Global=UC_GG_Connect_StopsCompleted>/<Global=UC_GG_Connect_TotalStops>)
+    - Language: Japanese
+      String: ルートを辿って配達人を探す(<Global=UC_GG_Connect_StopsCompleted>/<Global=UC_GG_Connect_TotalStops>)
+    - Language: Polish
+      String: Poszukaj kuriera na jego trasie (<Global=UC_GG_Connect_StopsCompleted>/<Global=UC_GG_Connect_TotalStops>)
+    - Language: Portuguese_Brazil
+      String: Procure o mensageiro na rota dele (<Global=UC_GG_Connect_StopsCompleted>/<Global=UC_GG_Connect_TotalStops>)
+  Targets:
+  - AliasID: 14
+- Index: 250
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Durchsuche die Leiche des Kuriers nach dem Paket.
+    - Language: English
+      String: Search the courier's body for the package
+    - Language: Spanish
+      String: Registra el cuerpo del correo y busca del paquete.
+    - Language: French
+      String: Cherchez le paquet sur le cadavre du coursier.
+    - Language: Italian
+      String: Perquisisci il corpo del corriere in cerca del pacco
+    - Language: Japanese
+      String: 配達人の遺体に荷物がないか調べる
+    - Language: Polish
+      String: Poszukaj przesyłki przy zwłokach kuriera
+    - Language: Portuguese_Brazil
+      String: Procure o pacote no corpo do mensageiro
+  Targets:
+  - AliasID: 3
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Helena über das Paket.
+    - Language: English
+      String: Speak to Helena about the package
+    - Language: Spanish
+      String: Habla con Helena sobre el paquete.
+    - Language: French
+      String: Posez des questions sur le paquet à Helena.
+    - Language: Italian
+      String: Parla del pacco con Helena
+    - Language: Japanese
+      String: 荷物についてヘレナと話す
+    - Language: Polish
+      String: Porozmawiaj z Heleną o przesyłce
+    - Language: Portuguese_Brazil
+      String: Fale com Helena sobre o pacote
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 5
+  Name: SettleGagarinLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 265018:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: Helena
+  Flags: []
+  ALFG: 0
+  UniqueActor: 265029:Starfield.esm
+  PackageData:
+  - 18E0A5:Starfield.esm
+  - 18E0B1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: SlateSpawnMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 18E0AF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: CourierSlate
+  Flags:
+  - QuestObject
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 18E0B2:Starfield.esm
+    AliasID: 1
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: CourierCorpse
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 18E0B6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 4
+    ALAM: 0
+    ReferenceAlias:
+      ID: 4
+      Name: EmptyTriggers
+      Flags: []
+      ALFG: 0
+      Location:
+        AliasID: 5
+        RefType: 18E0BC:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: TriggerStage250
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 5
+    RefType: 18E0A8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Bonifac
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 265031:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: Package
+  Flags:
+  - QuestObject
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 153DA4:Starfield.esm
+    AliasID: 3
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: Panel01
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: 215DB9:Starfield.esm
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 12
+    ALAM: 0
+    ReferenceAlias:
+      ID: 12
+      Name: ScanPoints
+      Flags:
+      - Optional
+      ALFG: 0
+      Location:
+        AliasID: 5
+        RefType: 143467:Starfield.esm
+      Keywords:
+      - 143491:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 13
+    ALAM: 0
+    ReferenceAlias:
+      ID: 13
+      Name: UnvisitedScanPoints
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      ALFG: 0
+      Location:
+        AliasID: 5
+        RefType: 14346B:Starfield.esm
+      Keywords:
+      - 1434D5:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 14
+    ALAM: 0
+    ReferenceAlias:
+      ID: 14
+      Name: ScanTargetsObjectives
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      ALFG: 0
+      Location:
+        AliasID: 5
+        RefType: 143467:Starfield.esm
+      Keywords:
+      - 1434E3:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: MurderEnableMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 5
+    RefType: 3385E6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: HelenaIntercomLookAt
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0DD7A0:Starfield.esm
+  VoiceTypes: Null

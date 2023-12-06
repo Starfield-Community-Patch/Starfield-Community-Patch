@@ -1,0 +1,4769 @@
+FormKey: 0192D2:Starfield.esm
+EditorID: CF02
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 22EEDB:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 110
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 200
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 100
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01B758:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 600
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 300
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 310
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 22EEDB:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 730
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 700
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 257104:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1100
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 1200
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 1000
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 2BF36E:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1200
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 1300
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 1100
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01535B:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 1500
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 1700
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1600
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: CheckPlayerShip
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1700
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01535A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 1500
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 1800
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: cf02_layerscript
+  Script:
+    Name: Fragments:Quests:QF_CF02_000192D2
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ComTriggerKey
+      Object: 0192D2:Starfield.esm
+      Alias: 111
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_JustinRake
+      Object: 0192D2:Starfield.esm
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionUnitedColoniesSysDefPerk
+      Object: 147DBD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_OpsGuard03
+      Object: 0192D2:Starfield.esm
+      Alias: 124
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_0700_Naeva_CallForHelp
+      Object: 1105F6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_DelgadoQS
+      Object: 0192D2:Starfield.esm
+      Alias: 66
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_DelgadoStanding
+      Object: 0192D2:Starfield.esm
+      Alias: 80
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_TheKeyMapMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 65
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaToShinyaMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02SuppliesValue
+      Object: 0C90E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_OpsGuard04
+      Object: 0192D2:Starfield.esm
+      Alias: 125
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_JasmineSpeaker
+      Object: 0192D2:Starfield.esm
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_MedicalSupplies
+      Object: 22EF02:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SysDefHallway
+      Object: 0192D2:Starfield.esm
+      Alias: 93
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1900_Shinya_IntroScene
+      Object: 22EEFE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_Ragana_SpeechChallenge03
+      Object: 10A75C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_KibweMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_TheVigilanceStart
+      Object: 0192D2:Starfield.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_MedicalSuppliesContainer
+      Object: 22EEDE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_OpsGuard02
+      Object: 0192D2:Starfield.esm
+      Alias: 123
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_OpsGuard05
+      Object: 0192D2:Starfield.esm
+      Alias: 127
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipCrew
+      Object: 040CE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_310_Ragana_HailScene
+      Object: 22EF07:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_CargoContainer
+      Object: 0192D2:Starfield.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1845_Naeva_Tour05ClinicScene
+      Object: 229D6E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_TheKey_GenericNPCFaction
+      Object: 1C2250:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Toft
+      Object: 0192D2:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_0400_Ragana_AcceptHailScene_Action03_Choice05
+      Object: 050C98:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFKey_TerminalQuest
+      Object: 1FE5C5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CargoBayDoor
+      Object: 0192D2:Starfield.esm
+      Alias: 120
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaToDelgadoMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_Ragana_SpeechChallenge01
+      Object: 110F35:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LocTypeSENotAllowed
+      Object: 2253D1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaShip
+      Object: 0192D2:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Mathis
+      Object: 0192D2:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DockingPermission
+      Object: 00039D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_Ragana_SpeechChallenge04
+      Object: 10A75C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaIntroMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_RaganaEscort
+      Object: 0192D2:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1200_Kibwe_ReportScene
+      Object: 22EF00:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_0600_Companion_CommentScene
+      Object: 2288A9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC082
+      Object: 2BF365:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_EnceladusOrbit
+      Object: 0192D2:Starfield.esm
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Aid_Any_Leveled
+      Object: 160D2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCVigilance
+      Object: 1ACBBA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_Ragana_SpaceEncounter
+      Object: 22EF4E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MarinePatrol
+      Object: 0192D2:Starfield.esm
+      Alias: 98
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_110_Naeva_HailScene
+      Object: 22EF0A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC088_Quickstart_Voss
+      Object: 21FD02:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaDelgadoSceneTrigger
+      Object: 0192D2:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_OpsGuard01
+      Object: 0192D2:Starfield.esm
+      Alias: 122
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_0310_Ragana_HailScene
+      Object: 22EF07:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_TheRaganaShip
+      Object: 22EF0F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_PlayerShip
+      Object: 0192D2:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BE_CF02_RaganaShipKeyword
+      Object: 10CB7C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_TheVigilanceShip
+      Object: 0192D2:Starfield.esm
+      Alias: 73
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02RaganaValue
+      Object: 0C82C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SysDefRecruit
+      Object: 0192D2:Starfield.esm
+      Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Delgado
+      Object: 0192D2:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCFTheKey_EstablishingScene
+      Object: 1C224F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DockingBayActor02
+      Object: 0192D2:Starfield.esm
+      Alias: 129
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Jasmine
+      Object: 0192D2:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_KibweFurniture01
+      Object: 0192D2:Starfield.esm
+      Alias: 75
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03
+      Object: 24EEF8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_TheRaganaShip
+      Object: 0192D2:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_MathisMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MauraderFurniture
+      Object: 0192D2:Starfield.esm
+      Alias: 116
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetFaction
+      Object: 010B30:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LvlShip_Ecliptic_A_Fighter
+      Object: 17EEF0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_JasmineAnnouncementSceneTrigger
+      Object: 0192D2:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_NaevaTeleportMarkerREF
+      Object: 10DC3C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_TheKeyStart
+      Object: 0192D2:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Kibwe
+      Object: 0192D2:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1840_Naeva_Tour04TradeAuthorityScene
+      Object: 229D6B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030LockLocation
+      Object: 2B2BAA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_ToftMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_ShinyaChair
+      Object: 0192D2:Starfield.esm
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1860_Naeva_DoorAnnouncementScene
+      Object: 229D69:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1810_Naeva_Tour01JasmineScene
+      Object: 229D70:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1885_Naeva_CalloutScene
+      Object: 229D59:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Loot_Mfg_Any_Same_Stack
+      Object: 1C7190:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1895_Naeva_Tour11DelgadoIntroScene
+      Object: 0FE0A4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF08_NaevaSurrenderWaitMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 100
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_Main
+      Object: 178B1E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_EuropaOrbit
+      Object: 0192D2:Starfield.esm
+      Alias: 132
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Reaver
+      Object: 0192D2:Starfield.esm
+      Alias: 115
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCSysDefFaction
+      Object: 2733AF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JasmineClashChair
+      Object: 0192D2:Starfield.esm
+      Alias: 131
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Clothes_CrimsonFleet_SpacePirate_02
+      Object: 16D50B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaOperationsSceneTrigger
+      Object: 0192D2:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Enceladus_ArrivalMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 61
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1850_Naeva_Tour06ShinyaScene
+      Object: 229D6A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1820_Naeva_Tour02DepotScene
+      Object: 229D6D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_600_Companion_CommentScene
+      Object: 2288A9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1800_Naeva_Tour00StartScene
+      Object: 229D71:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaToElevator
+      Object: 0192D2:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaToOperationsMarker01
+      Object: 0192D2:Starfield.esm
+      Alias: 79
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaTourTeleportMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 114
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCFTheKey
+      Object: 015358:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFKey
+      Object: 297E3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaUpperElevatorMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaOrbitMapMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: DebugPerks
+      Objects:
+      - Name: ''
+        Object: 2C555F:Starfield.esm
+      - Name: ''
+        Object: 22EC78:Starfield.esm
+      - Name: ''
+        Object: 2C59DE:Starfield.esm
+      - Name: ''
+        Object: 227FD6:Starfield.esm
+      - Name: ''
+        Object: 22EC7F:Starfield.esm
+      - Name: ''
+        Object: 22EC7E:Starfield.esm
+      - Name: ''
+        Object: 2CFCB1:Starfield.esm
+      - Name: ''
+        Object: 2C59DC:Starfield.esm
+      - Name: ''
+        Object: 2AC953:Starfield.esm
+      - Name: ''
+        Object: 227FD3:Starfield.esm
+      - Name: ''
+        Object: 22EC6F:Starfield.esm
+      - Name: ''
+        Object: 227FD7:Starfield.esm
+      - Name: ''
+        Object: 2C5555:Starfield.esm
+      - Name: ''
+        Object: 147DBD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SysDefPatrolLink
+      Object: 0192D2:Starfield.esm
+      Alias: 99
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DockingBayActor01
+      Object: 0192D2:Starfield.esm
+      Alias: 128
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Naeva
+      Object: 0192D2:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TheKey
+      Object: 0192D2:Starfield.esm
+      Alias: 134
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1700_Naeva_KeyIntroScene
+      Object: 22EEFF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: alias_CF02_MarineEscort
+      Object: 0192D2:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1830_Naeva_Tour03ZuriScene
+      Object: 229D6C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_Ragana_SpeechChallenge02
+      Object: 10D427:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_EclipticShips
+      Object: 0192D2:Starfield.esm
+      Alias: 69
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Aludra
+      Object: 0192D2:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Shinya
+      Object: 0192D2:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_MedicalSupplies
+      Object: 0192D2:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1900_Shinya_ChairScene
+      Object: 0E2AB0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BE_CF02_Ragana_BoardingQuest
+      Object: 10CB89:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_CF_CriminalProfiles
+      Object: 29384D:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 740
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0740_Item_00
+  - Stage: 299
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0299_Item_00
+  - Stage: 1300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1300_Item_00
+  - Stage: 760
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0760_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 1900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1900_Item_00
+  - Stage: 1200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1200_Item_00
+  - Stage: 509
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0509_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0420_Item_00
+  - Stage: 1800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1800_Item_00
+  - Stage: 1876
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1876_Item_00
+  - Stage: 470
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0470_Item_00
+  - Stage: 690
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0690_Item_00
+  - Stage: 520
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0520_Item_00
+  - Stage: 1899
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1899_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 1600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1600_Item_00
+  - Stage: 1600
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1600_Item_01
+  - Stage: 1400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1400_Item_00
+  - Stage: 309
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0309_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0450_Item_00
+  - Stage: 998
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0998_Item_00
+  - Stage: 404
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0404_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 1875
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1875_Item_00
+  - Stage: 1500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1500_Item_00
+  - Stage: 1195
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1195_Item_00
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0013_Item_00
+  - Stage: 1700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1700_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0008_Item_00
+  - Stage: 468
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0468_Item_00
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0011_Item_00
+  - Stage: 810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0810_Item_00
+  - Stage: 1350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1350_Item_00
+  - Stage: 1890
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1890_Item_00
+  - Stage: 480
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0480_Item_00
+  - Stage: 18
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0018_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 755
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0755_Item_00
+  - Stage: 14
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0014_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 1895
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1895_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 1100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1100_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 1795
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1795_Item_00
+  - Stage: 1150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1150_Item_00
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0009_Item_00
+  - Stage: 1870
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1870_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 1000
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1000_Item_02
+  - Stage: 1000
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1000_Item_01
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 405
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0405_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0510_Item_00
+  - Stage: 820
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0820_Item_00
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 415
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0415_Item_00
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0090_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 830
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0830_Item_00
+  - Stage: 390
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0390_Item_00
+  - Stage: 1796
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1796_Item_00
+  - Stage: 999
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0999_Item_00
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0006_Item_00
+  - Stage: 1898
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1898_Item_00
+  - Stage: 610
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0610_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 1860
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1860_Item_00
+  - Stage: 305
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0305_Item_00
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 750
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0750_Item_00
+  - Stage: 10000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_10000_Item_00
+  - Stage: 730
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0730_Item_00
+  - Stage: 430
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0430_Item_00
+  - Stage: 1815
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1815_Item_00
+  - Stage: 1855
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1855_Item_00
+  - Stage: 1885
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_1885_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 1
+    Scripts:
+    - Name: CF02_RestartTourOnActivate
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: TourScenes
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: requiredStage
+            Data: 1800
+          - MutagenObjectType: ScriptObjectProperty
+            Name: SceneToStart
+            Object: 229D71:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: TurnOffStage
+            Data: 1810
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: requiredStage
+            Data: 1810
+          - MutagenObjectType: ScriptObjectProperty
+            Name: SceneToStart
+            Object: 229D70:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: TurnOffStage
+            Data: 1815
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: requiredStage
+            Data: 1815
+          - MutagenObjectType: ScriptObjectProperty
+            Name: SceneToStart
+            Object: 229D6D:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: TurnOffStage
+            Data: 1825
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: requiredStage
+            Data: 1825
+          - MutagenObjectType: ScriptIntProperty
+            Name: TurnOffStage
+            Data: 1835
+          - MutagenObjectType: ScriptObjectProperty
+            Name: SceneToStart
+            Object: 229D6C:Starfield.esm
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: requiredStage
+            Data: 1835
+          - MutagenObjectType: ScriptObjectProperty
+            Name: SceneToStart
+            Object: 229D6B:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: TurnOffStage
+            Data: 1834
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: requiredStage
+            Data: 1834
+          - MutagenObjectType: ScriptIntProperty
+            Name: TurnOffStage
+            Data: 1833
+          - MutagenObjectType: ScriptObjectProperty
+            Name: SceneToStart
+            Object: 229D6E:Starfield.esm
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: requiredStage
+            Data: 1833
+          - MutagenObjectType: ScriptObjectProperty
+            Name: SceneToStart
+            Object: 229D6A:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: TurnOffStage
+            Data: 1855
+      - MutagenObjectType: ScriptIntProperty
+        Name: DoneStage
+        Data: 1855
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 5
+    Scripts:
+    - Name: defaultaliasonload
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 14
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 61
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 30000
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 0192D2:Starfield.esm
+        Alias: 58
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 300
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 305
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 9
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 12
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 13
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 510
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 500
+    - Name: defaultaliasonload
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 309
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 300
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 10
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 690
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 20
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1840
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: AliasesToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 0192D2:Starfield.esm
+          Alias: 1
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 22
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1845
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: AliasesToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 0192D2:Starfield.esm
+          Alias: 1
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 26
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1885
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1880
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 27
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1895
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: AliasesToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 0192D2:Starfield.esm
+          Alias: 1
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 58
+    Scripts:
+    - Name: DefaultAliasOnShipDockA
+    - Name: DefaultAliasOnShipDock
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: WhichShipToCheck
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1700
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1600
+      - MutagenObjectType: ScriptBoolProperty
+        Name: ShowTraces
+        Data: True
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 69
+    Scripts:
+    - Name: defaultcollectionaliasondeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 750
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SQ_PlayerShip
+        Object: 0174A2:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 78
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1898
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 2000
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1898
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 113
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1800
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1810
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 15
+  - Property:
+      Name: ''
+      Object: 0192D2:Starfield.esm
+      Alias: 133
+    Scripts:
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 104
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 103
+    - Name: defaultaliasonload
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Turm trifft König
+  - Language: English
+    String: Rook Meets King
+  - Language: Spanish
+    String: Grumete conoce al jefe
+  - Language: French
+    String: Entretien avec le roi
+  - Language: Italian
+    String: La torre incontra il re
+  - Language: Japanese
+    String: ルーキー、キングと対面
+  - Language: Polish
+    String: Szczur trafia do kanałów
+  - Language: Portuguese_Brazil
+    String: Recruta Encontra o Rei
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475FD:Starfield.esm
+QuestFaction: 0546E0:Starfield.esm
+TextDisplayGlobals:
+- 0C90E8:Starfield.esm
+- 0C82C8:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 77
+  LogEntries:
+  - Flags: []
+    Note: 'Start: Beginning'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "Start: Return to Naeva in Europa's Orbit"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Start: Report to the Vigilance'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Start: Speak to Kibwe'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Start: The Key - Speak to Naeva'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Start: The Key - Speak to Shinya'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Start: The Key - Speak to Delgado'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Debug: Add Medical Supplies to Ship'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Debug: Ragana'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quickstart
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start Quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 11
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Start: Board the Vigilance'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 12
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetValueConditionData
+        RunOnType: QuestAlias
+        Unknown3: 9
+        FirstParameter: 265440
+    Note: Disable Ragana
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 13
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetValueConditionData
+        RunOnType: QuestAlias
+        Unknown3: 9
+        FirstParameter: 265440
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetCombatStateConditionData
+        RunOnType: QuestAlias
+        Unknown3: 9
+    Note: Disable Ragana hail
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 14
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetOpenStateConditionData
+        RunOnType: QuestAlias
+        Unknown3: 130
+      ComparisonValue: 3
+    Note: Backup doors close
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0192D2:Starfield.esm
+        SecondParameter: 1815
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0192D2:Starfield.esm
+        SecondParameter: 90
+    Note: Naeva to Atrium
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 18
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SysDef Shutdown Handling
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Criminal Profiles
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 90
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Disable Reaver and Furniture
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 97
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kibwe dialogue skip
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 98
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kibwe dialogue skip
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 99
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Companion Comment 1 Played
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Flags:
+  - RunOnStart
+  Unknown: 77
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Meet Naeva Mora At The Europa Coordinates'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nachdem ich einen Auftrag für Adler Kemp ausgeführt habe, hat er beschlossen, mich an eine seiner Vorgesetzten zu verweisen. Ich muss mich nach Europa begeben, wo ich Naeva Mora treffen soll.
+      - Language: English
+        String: After doing a job for Adler Kemp, he's decided to refer me to one of his superiors. I need to go to Europa where I'll meet Naeva Mora.
+      - Language: Spanish
+        String: Tras trabajar para Adler Kemp, este ha decidido ponerme al servicio de su superior. Debo dirigirme a Europa, donde me reuniré con Naeva Mora.
+      - Language: French
+        String: J'ai accompli une mission pour Adler Kemp, et il a décidé de me recommander à un de ses supérieurs. Je dois me rendre près d'Europe, où m'attend Naeva Mora.
+      - Language: Italian
+        String: Dopo aver completato un lavoro per lui, Adler Kemp ha deciso di segnalarmi a uno dei suoi superiori. Devo recarmi su Europa e incontrare Naeva Mora.
+      - Language: Japanese
+        String: アドラー・ケンプの仕事を完了させると、彼の上官を紹介すると言われた。エウロパへ向かい、ネイヴァ・モーラと会おう
+      - Language: Polish
+        String: Na skutek pomyślnie wykonanego przeze mnie zlecenia Adler Kemp postanowił odesłać mnie do swojej przełożonej. Muszę udać się na orbitę Europy, gdzie będzie na mnie czekać Naeva Mora.
+      - Language: Portuguese_Brazil
+        String: Adler Kemp decidiu me indicar para um de seus superiores depois que fiz um trabalho para ele. Preciso ir até Europa encontrar Naeva Mora.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "Space Encounter: Spawn Naeva's ship"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 113
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Denied job from Naeva
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 114
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Custom Response to Naeva 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 115
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Custom Response to Naeva 02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 116
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Custom Response to Naeva 03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 117
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Custom Response to Naeva 04
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 118
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has asked about Austin and learned he changed his face
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 119
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has said they are Crimson Fleet
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player didn't immediately accept Naeva's hail
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 121
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Naeva lie check
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 125
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player refused hail.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player exits dialogue early
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Naeva talks about Rake
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Speak to Naeva Mora'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Naeva Mora in der Nähe von Europa im Sol-System kontaktiert.
+      - Language: English
+        String: I made contact with Naeva Mora near Europa in the Sol System.
+      - Language: Spanish
+        String: He establecido contacto con Naeva Mora cerca de Europa, en el sistema de Sol.
+      - Language: French
+        String: J'ai pris contact avec Naeva Mora près d'Europe, dans le système Sol.
+      - Language: Italian
+        String: Ho preso contatti con Naeva Mora vicino a Europa nel Sistema solare.
+      - Language: Japanese
+        String: 太陽系のエウロパ付近でネイヴァ・モーラと接触した
+      - Language: Polish
+        String: Nieopodal Europy w układzie Sol nawiązała ze mną kontakt Naeva Mora.
+      - Language: Portuguese_Brazil
+        String: Entrei em contato com Naeva Mora perto de Europa, no sistema solar.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 299
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ragana alias backup fill
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Find The Ragana near Enceladus'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Naeva Mora will, dass ich die Ragana zerstöre, um einen Crimson-Fleet-Verräter an Bord zu töten. Ich kann ihren Befehl ausführen oder versuchen, eine andere Möglichkeit zu finden, die Sache beizulegen.
+      - Language: English
+        String: Naeva Mora wants me to destroy the Ragana in order to kill a Crimson Fleet traitor on board. I can follow her order or try to find another way to resolve the situation.
+      - Language: Spanish
+        String: Naeva Mora quiere que destruya la Ragana para liquidar así a un traidor a la Flota Carmesí que viaja a bordo. Puedo obedecer o buscar una solución alternativa.
+      - Language: French
+        String: Naeva Mora veut que je détruise le Ragana pour éliminer un traître à la Flotte écarlate qui se trouve à son bord. Je peux lui obéir ou chercher une autre solution pour résoudre le problème.
+      - Language: Italian
+        String: Naeva Mora vuole che distrugga la Ragana per uccidere un traditore della Flotta Cremisi che si trova a bordo della nave. Posso seguire i suoi ordini o provare a trovare un altro modo per risolvere la situazione.
+      - Language: Japanese
+        String: ラガナを破壊し、中にいる紅の艦隊の裏切り者を倒すようネイヴァ・モーラに指示された。そのまま従ってもいいし、別の解決策も模索できる
+      - Language: Polish
+        String: Naeva Mora oczekuje, że zniszczę Raganę, aby zabić przebywającego na pokładzie zdrajcę z Karmazynowej Floty. Mogę wykonać jej rozkaz lub znaleźć inny sposób na rozwiązanie sytuacji.
+      - Language: Portuguese_Brazil
+        String: A Naeva Mora quer que eu destrua a Ragana para matar um traidor da Frota Escarlate que está a bordo. Posso seguir a ordem dela ou tentar achar outra forma de resolver a situação.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 305
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInSpaceshipConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        FirstParameter: 01B758:Starfield.esm
+      ComparisonValue: 1
+    Note: Backtup spawn
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 309
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Delete control block
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Space Encounter: Spawn the Ragana ship'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 390
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hail kill
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to the Captain'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin nach Enceladus gereist und auf das Schiff Ragana mit dem Ziel New Homestead getroffen.
+      - Language: English
+        String: I traveled to Enceladus and encountered the Ragana ship destined for New Homestead.
+      - Language: Spanish
+        String: He viajado a Encélado y me he cruzado con la nave Ragana, con destino a Nueva Hacienda.
+      - Language: French
+        String: J'ai voyagé vers Encelade et croisé le vaisseau Ragana qui se dirigeait vers Nouveau-Départ.
+      - Language: Italian
+        String: Ho raggiunto Encelado e ho trovato la Ragana in viaggio verso Seconda Casa.
+      - Language: Japanese
+        String: エンセラデスに行くとニューホームステッドへ向かう船、ラガナに遭遇した
+      - Language: Polish
+        String: Zmierzający do Nowej Osady statek Ragana dotarł na orbitę Enceladusa.
+      - Language: Portuguese_Brazil
+        String: Viajei para Encélado e encontrei a nave Ragana com destino ao Novo Lar.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 404
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Ragana Successful Speech Challenge - Rake is taken off the manifest'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe den Piloten der Ragana überredet, Austin Rake zu verschonen und ihn aus der Passagierliste des Schiffs zu entfernen. Als Zeichen des Danks hat er mir überschüssiges medizinisches Material angeboten, das ich benutzen könnte, um Naeva Mora zu beschwichtigen.
+      - Language: English
+        String: I convinced the pilot of the Ragana to spare Austin Rake and strip him off the ship's manifest. As a token of thanks, they offered me their surplus medical supplies, which I can use to potentially assuage Naeva Mora.
+      - Language: Spanish
+        String: He convencido al piloto de la Ragana para que le perdonara la vida a Austin Rake y le borrase del manifiesto de la nave. Como muestra de agradecimiento, me han cedido su excedente de suministros médicos, que me puede servir para aplacar a Naeva Mora.
+      - Language: French
+        String: J'ai convaincu le pilote du Ragana d'épargner Austin Rake et de l'effacer du manifeste du vaisseau. En guise de remerciement, ils m'ont offert leur surplus de matériel médical, qui servira peut-être à me faire pardonner par Naeva Mora.
+      - Language: Italian
+        String: Ho convinto il pilota della Ragana a risparmiare Austin Rake e cancellarlo dalla distinta di carico. Come segno di ringraziamento, mi ha offerto le loro scorte mediche in eccedenza, che posso usare per provare a placare Naeva Mora.
+      - Language: Japanese
+        String: オースティン・レイクを助け、船の名簿から彼の名前を消すようラガナのパイロットを説得した。感謝の印として、余っていた医療物資を渡された。これを使って、ネイヴァ・モーラを丸め込めるかもしれない
+      - Language: Polish
+        String: Pilot Ragany dał się przekonać do oszczędzenia Austina Rake'a i usunięcia go z listy pasażerów. Mam teraz podarowane w zamian zapasy medyczne, które być może pomogą obłaskawić Naevę Morę.
+      - Language: Portuguese_Brazil
+        String: Convenci quem pilotava a Ragana a poupar o Austin Rake e tirá-lo do manifesto da nave. Como agradecimento, me deram os suprimentos médicos que tinham sobrando, que vão ser úteis para atender a Naeva Mora.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 405
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Ragana Unsuccessful Speech Challenge - Rake is not taken off the manifest'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich konnte den Piloten der Ragana nicht überreden, Austin Rake zu verschonen und ihn aus der Passagierliste des Schiffs zu entfernen. Ich muss eine andere Möglichkeit finden, die Sache beizulegen.
+      - Language: English
+        String: I tried and failed to convince the pilot of the Ragana to spare Austin Rake and strip him off the ship's manifest. I'll need to find an alternative way to resolve this situation.
+      - Language: Spanish
+        String: No he logrado convencer a quien pilota la Ragana para que perdone la vida a Austin Rake y le borre del manifiesto de la nave. Voy a tener que idear otra manera de resolver esta situación.
+      - Language: French
+        String: J'ai essayé et échoué à convaincre le pilote du Ragana d'épargner Austin Rake et de l'effacer du manifeste du vaisseau. Je vais devoir trouver une autre solution à cette affaire.
+      - Language: Italian
+        String: Non sono riuscito a convincere il pilota della Ragana a risparmiare Austin Rake e cancellarlo dalla distinta di carico. Dovrò trovare una soluzione alternativa per risolvere la situazione.
+      - Language: Japanese
+        String: オースティン・レイクを助け、船の名簿から彼の名前を消すようラガナのパイロットを説得することに失敗した。状況を解決する、別の方法を考えなくてはならない
+      - Language: Polish
+        String: Pilot Ragany nie dał się przekonać do oszczędzenia Austina Rake'a i usunięcia go z listy pasażerów. Muszę znaleźć inny sposób na rozwiązanie tej sytuacji.
+      - Language: Portuguese_Brazil
+        String: Eu tentei, mas não consegui convencer o piloto da Ragana a poupar o Austin Rake e retirá-lo do manifesto da nave. Preciso encontrar uma alternativa para resolver a situação.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 406
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Ragana Unsuccessful Speech Challenge - Rake is not taken off the manifest'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player chose to talk first
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 414
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player was asked to give up credits
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 415
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player gave up credits
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Ragana Speech Check Success - Rake dies'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin nach Enceladus gereist und auf das Schiff Ragana mit dem Ziel New Homestead getroffen. Ich habe den Piloten überredet, im Austausch gegen das Verschonen der restlichen Crew Austin Rake zu töten.
+      - Language: English
+        String: I traveled to Enceladus and encountered the Ragana ship destined for New Homestead. I convinced the pilot to kill Austin Rake in exchange for sparing the rest of the crew.
+      - Language: Spanish
+        String: He viajado a Encélado y me he cruzado con la nave Ragana, con destino a Nueva Hacienda. He convencido a su piloto para que matasen a Austin Rake, y a cambio he dejado vivir al resto de la tripulación.
+      - Language: French
+        String: J'ai voyagé vers Encelade et croisé le vaisseau Ragana qui se dirigeait vers Nouveau-Départ. J'ai convaincu le pilote de tuer Austin Rake en échange de la vie du reste de l'équipage.
+      - Language: Italian
+        String: Ho raggiunto Encelado e ho trovato la Ragana in viaggio verso Seconda Casa. Ho convinto il pilota a uccidere Austin Rake in cambio della vita del resto dell’equipaggio.
+      - Language: Japanese
+        String: エンセラデスに行くとニューホームステッドへ向かう船、ラガナに遭遇した。パイロットを説得し、他のクルーを見逃すことと引き換えに、オースティン・レイクを殺させた
+      - Language: Polish
+        String: Zmierzający do Nowej Osady statek Ragana dotarł na orbitę Enceladusa. Udało mi się przekonać pilota, aby w zamian za oszczędzenie reszty załogi zabił Austina Rake'a.
+      - Language: Portuguese_Brazil
+        String: Viajei para Encélado e encontrei a nave Ragana com destino ao Novo Lar. Convenci o piloto a matar Austin Rake em troca de poupar o resto da tripulação.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 430
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Ragana Speech Check Fail - Rake lives'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin nach Enceladus gereist und auf das Schiff Ragana mit dem Ziel New Homestead getroffen. Ich habe versucht, den Piloten zu überreden, im Austausch gegen das Verschonen der restlichen Crew Austin Rake zu töten, allerdings hat er sich geweigert.
+      - Language: English
+        String: I traveled to Enceladus and encountered the Ragana ship destined for New Homestead. I tried to convince the pilot to kill Austin Rake in exchange for sparing the rest of the crew, but he refused.
+      - Language: Spanish
+        String: He viajado a Encélado y me he cruzado con la nave Ragana, con destino a Nueva Hacienda. Aun prometiendo que dejaría vivir al resto de la tripulación si mataban a Austin Rake, su piloto no ha aceptado mi oferta.
+      - Language: French
+        String: J'ai voyagé vers Encelade et croisé le vaisseau Ragana qui se dirigeait vers Nouveau-Départ. J'ai essayé de persuader le pilote de tuer Austin Rake en échange de la vie du reste de l'équipage, mais il a refusé.
+      - Language: Italian
+        String: Ho raggiunto Encelado e ho trovato la Ragana in viaggio verso Seconda Casa. Ho convinto il pilota a uccidere Austin Rake in cambio della vita del resto dell’equipaggio, ma si è rifiutato.
+      - Language: Japanese
+        String: エンセラデスに行くとニューホームステッドへ向かう船、ラガナに遭遇した。パイロットを説得し、他のクルーを見逃すことと引き換えにオースティン・レイクを殺させようとしたが、断られた
+      - Language: Polish
+        String: Zmierzający do Nowej Osady statek Ragana dotarł na orbitę Enceladusa. Moje próby przekonania pilota, aby w zamian za oszczędzenie reszty załogi zabił Austina Rake'a, spełzły na niczym.
+      - Language: Portuguese_Brazil
+        String: Viajei para Encélado e encontrei a nave Ragana com destino ao Novo Lar. Tentei convencer o piloto a matar Austin Rake em troca de poupar o resto da tripulação, mas ele recusou.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 440
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player paragon route to spare the Homestead and Justin Rake
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe den Piloten der Ragana überredet, Austin Rake zu verschonen und ihn aus der Passagierliste des Schiffs zu entfernen. Als Zeichen des Danks hat er mir überschüssiges medizinisches Material angeboten, das ich benutzen könnte, um Naeva Mora zu beschwichtigen.
+      - Language: English
+        String: I convinced the pilot of the Ragana to spare Austin Rake and strip him off the ship's manifest. As a token of thanks, they offered me their surplus medical supplies, which I can use to potentially assuage Naeva Mora.
+      - Language: Spanish
+        String: He convencido al piloto de la Ragana para que le perdonara la vida a Austin Rake y le borrase del manifiesto de la nave. Como muestra de agradecimiento, me han cedido su excedente de suministros médicos, que me puede servir para aplacar a Naeva Mora.
+      - Language: French
+        String: J'ai convaincu le pilote du Ragana d'épargner Austin Rake et de l'effacer du manifeste du vaisseau. En guise de remerciement, ils m'ont offert leur surplus de matériel médical, qui servira peut-être à me faire pardonner par Naeva Mora.
+      - Language: Italian
+        String: Ho convinto il pilota della Ragana a risparmiare Austin Rake e cancellarlo dalla distinta di carico. Come segno di ringraziamento, mi ha offerto le loro scorte mediche in eccedenza, che posso usare per provare a placare Naeva Mora.
+      - Language: Japanese
+        String: オースティン・レイクを助け、船の名簿から彼の名前を消すようラガナのパイロットを説得した。感謝の印として、余っていた医療物資を渡された。これを使って、ネイヴァ・モーラを丸め込めるかもしれない
+      - Language: Polish
+        String: Pilot Ragany dał się przekonać do oszczędzenia Austina Rake'a i usunięcia go z listy pasażerów. Mam teraz podarowane w zamian zapasy medyczne, które być może pomogą obłaskawić Naevę Morę.
+      - Language: Portuguese_Brazil
+        String: Convenci quem pilotava a Ragana a poupar o Austin Rake e tirá-lo do manifesto da nave. Como agradecimento, me deram os suprimentos médicos que tinham sobrando, que vão ser úteis para atender a Naeva Mora.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0192D2:Starfield.esm
+        SecondParameter: 480
+    Note: Player has convinced the Ragana to contact UC SysDef and remove him from the manifest.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe den Piloten der Ragana überredet, Austin Rake zu verschonen und ihn aus der Passagierliste des Schiffs zu entfernen. Als Zeichen des Danks hat er mir überschüssiges medizinisches Material angeboten, das ich benutzen könnte, um Naeva Mora zu beschwichtigen.
+      - Language: English
+        String: I convinced the pilot of the Ragana to spare Austin Rake and strip him off the ship's manifest. As a token of thanks, they offered me their surplus medical supplies, which I can use to potentially assuage Naeva Mora.
+      - Language: Spanish
+        String: He convencido al piloto de la Ragana para que le perdonara la vida a Austin Rake y le borrase del manifiesto de la nave. Como muestra de agradecimiento, me han cedido su excedente de suministros médicos, que me puede servir para aplacar a Naeva Mora.
+      - Language: French
+        String: J'ai convaincu le pilote du Ragana d'épargner Austin Rake et de l'effacer du manifeste du vaisseau. En guise de remerciement, ils m'ont offert leur surplus de matériel médical, qui servira peut-être à me faire pardonner par Naeva Mora.
+      - Language: Italian
+        String: Ho convinto il pilota della Ragana a risparmiare Austin Rake e cancellarlo dalla distinta di carico. Come segno di ringraziamento, mi ha offerto le loro scorte mediche in eccedenza, che posso usare per provare a placare Naeva Mora.
+      - Language: Japanese
+        String: オースティン・レイクを助け、船の名簿から彼の名前を消すようラガナのパイロットを説得した。感謝の印として、余っていた医療物資を渡された。これを使って、ネイヴァ・モーラを丸め込めるかもしれない
+      - Language: Polish
+        String: Pilot Ragany dał się przekonać do oszczędzenia Austina Rake'a i usunięcia go z listy pasażerów. Mam teraz podarowane w zamian zapasy medyczne, które być może pomogą obłaskawić Naevę Morę.
+      - Language: Portuguese_Brazil
+        String: Convenci quem pilotava a Ragana a poupar o Austin Rake e tirá-lo do manifesto da nave. Como agradecimento, me deram os suprimentos médicos que tinham sobrando, que vão ser úteis para atender a Naeva Mora.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0192D2:Starfield.esm
+        SecondParameter: 480
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe den Piloten der Ragana überredet, Austin Rake zu verschonen und ihn aus der Passagierliste des Schiffs zu entfernen. Als Zeichen des Danks hat er mir überschüssiges medizinisches Material angeboten, das ich benutzen könnte, um Naeva Mora zu beschwichtigen.
+      - Language: English
+        String: I convinced the pilot of the Ragana to spare Austin Rake and strip him off the ship's manifest. As a token of thanks, they offered me their surplus medical supplies, which I can use to potentially assuage Naeva Mora.
+      - Language: Spanish
+        String: He convencido al piloto de la Ragana para que le perdonara la vida a Austin Rake y le borrase del manifiesto de la nave. Como muestra de agradecimiento, me han cedido su excedente de suministros médicos, que me puede servir para aplacar a Naeva Mora.
+      - Language: French
+        String: J'ai convaincu le pilote du Ragana d'épargner Austin Rake et de l'effacer du manifeste du vaisseau. En guise de remerciement, ils m'ont offert leur surplus de matériel médical, qui servira peut-être à me faire pardonner par Naeva Mora.
+      - Language: Italian
+        String: Ho convinto il pilota della Ragana a risparmiare Austin Rake e cancellarlo dalla distinta di carico. Come segno di ringraziamento, mi ha offerto le loro scorte mediche in eccedenza, che posso usare per provare a placare Naeva Mora.
+      - Language: Japanese
+        String: オースティン・レイクを助け、船の名簿から彼の名前を消すようラガナのパイロットを説得した。感謝の印として、余っていた医療物資を渡された。これを使って、ネイヴァ・モーラを丸め込めるかもしれない
+      - Language: Polish
+        String: Pilot Ragany dał się przekonać do oszczędzenia Austina Rake'a i usunięcia go z listy pasażerów. Mam teraz podarowane w zamian zapasy medyczne, które być może pomogą obłaskawić Naevę Morę.
+      - Language: Portuguese_Brazil
+        String: Convenci quem pilotava a Ragana a poupar o Austin Rake e tirá-lo do manifesto da nave. Como agradecimento, me deram os suprimentos médicos que tinham sobrando, que vão ser úteis para atender a Naeva Mora.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 460
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Cargo dump check
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 464
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player wins speech challenge to board Ragana
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin nach Enceladus gereist und auf das Ragana-Schiff mit dem Ziel New Homestead getroffen. Ich habe den Piloten überredet, mich an Bord kommen und persönlich mit ihm sprechen zu lassen.
+      - Language: English
+        String: I traveled to Enceladus and encountered the Ragana ship destined for New Homestead. I convinced the pilot to let me board the ship and speak to them in person.
+      - Language: Spanish
+        String: He viajado a Encélado y me he cruzado con la nave Ragana, con destino a Nueva Hacienda. He convencido a su piloto para que me dejara abordar la nave y hablar en persona.
+      - Language: French
+        String: J'ai voyagé vers Encelade et croisé le vaisseau Ragana qui se dirigeait vers Nouveau-Départ. J'ai persuadé le pilote de me laisser monter à bord pour discuter avec lui en personne.
+      - Language: Italian
+        String: Ho raggiunto Encelado e ho trovato la Ragana in viaggio verso Seconda Casa. Ho convinto il pilota a farmi salire a bordo per parlargli di persona.
+      - Language: Japanese
+        String: エンセラデスに行くとニューホームステッドへ向かう船、ラガナに遭遇した。パイロットを説得し、ラガナの中で直接話をすることになった
+      - Language: Polish
+        String: Zmierzający do Nowej Osady statek Ragana dotarł na orbitę Enceladusa. Pilot dał się przekonać i pozwolił mi wejść na pokład, aby porozmawiać osobiście.
+      - Language: Portuguese_Brazil
+        String: Viajei para Encélado e encontrei a nave Ragana com destino ao Novo Lar. Convenci o piloto a me deixar entrar na nave para conversarmos pessoalmente.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 465
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player fails speech check to board Ragana
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin nach Enceladus gereist und auf das Ragana-Schiff mit dem Ziel New Homestead getroffen. Ich habe den Piloten überredet, mich an Bord kommen und persönlich mit ihm sprechen zu lassen.
+      - Language: English
+        String: I traveled to Enceladus and encountered the Ragana ship destined for New Homestead. I convinced the pilot to let me board the ship and speak to them in person.
+      - Language: Spanish
+        String: He viajado a Encélado y me he cruzado con la nave Ragana, con destino a Nueva Hacienda. He convencido a su piloto para que me dejara abordar la nave y hablar en persona.
+      - Language: French
+        String: J'ai voyagé vers Encelade et croisé le vaisseau Ragana qui se dirigeait vers Nouveau-Départ. J'ai persuadé le pilote de me laisser monter à bord pour discuter avec lui en personne.
+      - Language: Italian
+        String: Ho raggiunto Encelado e ho trovato la Ragana in viaggio verso Seconda Casa. Ho convinto il pilota a farmi salire a bordo per parlargli di persona.
+      - Language: Japanese
+        String: エンセラデスに行くとニューホームステッドへ向かう船、ラガナに遭遇した。パイロットを説得し、ラガナの中で直接話をすることになった
+      - Language: Polish
+        String: W przestrzeni wokół Enceladusa znajdował się zmierzający do Nowej Osady statek Ragana. Pilot dał się przekonać i pozwolił mi wejść na pokład, aby porozmawiać osobiście.
+      - Language: Portuguese_Brazil
+        String: Viajei para Encélado e encontrei a nave Ragana com destino ao Novo Lar. Convenci o piloto a me deixar entrar na nave para conversarmos pessoalmente.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 468
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Affinity bump
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 469
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Convinced Ragana to board
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 470
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player opts to dock onto the ship.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 475
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Rake spared while boarding
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 480
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player is given medical supplies
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Destroy the Ragana'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 509
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Disable controls
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player chose to attack at any time
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin nach Enceladus gereist und auf das Schiff Ragana mit dem Ziel New Homestead getroffen. Ich habe das Schiff angegriffen, um dafür zu sorgen, dass Austin Rake stirbt.
+      - Language: English
+        String: I traveled to Enceladus and encountered the Ragana ship destined for New Homestead. I attacked the ship to ensure Austin Rake dies.
+      - Language: Spanish
+        String: He viajado a Encélado y me he cruzado con la nave Ragana, con destino a Nueva Hacienda. Para cerciorarme de que Austin Rake muriera, he atacado la nave.
+      - Language: French
+        String: J'ai voyagé vers Encelade et croisé le vaisseau Ragana, qui se dirigeait vers Nouveau-Départ. J'ai attaqué le vaisseau pour m'assurer qu'Austin Rake meure.
+      - Language: Italian
+        String: Ho raggiunto Encelado e ho trovato la Ragana in viaggio verso Seconda Casa. Ho attaccato la nave per fare in modo che Austin Rake muoia.
+      - Language: Japanese
+        String: エンセラデスに行くとニューホームステッドへ向かう船、ラガナに遭遇した。オースティン・レイクが確実に死ぬよう、船を攻撃した
+      - Language: Polish
+        String: Zmierzający do Nowej Osady statek Ragana dotarł na orbitę Enceladusa. Po zaatakowaniu statku mam pewność, że Austin Rake nie żyje.
+      - Language: Portuguese_Brazil
+        String: Viajei para Encélado e encontrei a nave Ragana com destino ao Novo Lar. Ataquei a nave para garantir a morte de Austin Rake.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 515
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SetStage CF_Main 250
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 520
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ragana destroyed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 530
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player exits dialogue early
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 540
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Play exits dialogue just before the end
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Get the Medical Supplies'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin nach Enceladus gereist und auf das Schiff Ragana mit dem Ziel New Homestead getroffen. Ich habe die Crew angewiesen, Austin Rake zu verstecken und aus der Passagierliste zu entfernen, um ihn zu schützen. Im Gegenzug hat mir der Pilot eine Kiste mit überschüssigem medizinischem Material gegeben.
+      - Language: English
+        String: I traveled to Enceladus and encountered the Ragana ship destined for New Homestead. I instructed the crew to hide Austin Rake and strip him from the manifest to protect him. In exchange, the pilot gave me a crate of surplus medical supplies.
+      - Language: Spanish
+        String: He viajado a Encélado y me he cruzado con la nave Ragana, con destino a Nueva Hacienda. He explicado a la tripulación que debía esconder a Austin Rake y borrarle del manifiesto para protegerle. A cambio, su piloto me ha entregado una caja de suministros médicos excedentes.
+      - Language: French
+        String: J'ai voyagé vers Encelade et croisé le vaisseau Ragana qui se dirigeait vers Nouveau-Départ. J'ai dit à l'équipage de cacher Austin Rake et de l'effacer du manifeste pour le protéger. En retour, le pilote m'a donné une caisse de surplus de matériel médical.
+      - Language: Italian
+        String: Ho raggiunto Encelado e ho trovato la nave Ragana in viaggio verso Seconda Casa. Ho ordinato all’equipaggio di nascondere Austin Rake e di cancellarlo dalla distinta di carico per proteggerlo. In cambio, il pilota mi ha dato una cassa di scorte mediche che gli avanzava.
+      - Language: Japanese
+        String: エンセラデスに行くとニューホームステッドへ向かう船、ラガナに遭遇した。オースティン・レイクを守るため、彼を匿って名簿から名前を消すようクルーに指示した。引き換えに、パイロットから余っていた医療物資の入った箱を渡された
+      - Language: Polish
+        String: Zmierzający do Nowej Osady statek Ragana dotarł na orbitę Enceladusa. Za moją namową załoga ukryła Austina Rake'a i usunęła go z listy pasażerów w celu jego ochrony. W zamian pilot dał mi nadmiarową skrzynię zapasów medycznych.
+      - Language: Portuguese_Brazil
+        String: Viajei para Encélado e encontrei a nave Ragana com destino ao Novo Lar. Instruí a tripulação a esconder Austin Rake e tirá-lo do manifesto para protegê-lo. Em troca, o piloto me deu uma caixa de suprimentos médicos que estava sobrando.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ragana spaces Justin Rake
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 620
+  Unknown: 142
+  LogEntries:
+  - Flags: []
+    Note: Austin Rake killed speech variable
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 690
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up medical supplies
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: "QO: Return to Naeva in Europa's Orbit"
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nachdem ich mich um die Ragana gekümmert habe, muss ich zu Naeva Mora im Orbit um Europa zurückkehren.
+      - Language: English
+        String: After dealing with the Ragana, I need to return to Naeva Mora in orbit around Europa.
+      - Language: Spanish
+        String: Tras ocuparme de la Ragana he vuelto con Naeva Mora, que se encontraba en la órbita de Europa.
+      - Language: French
+        String: Après mon interaction avec le Ragana, je dois retourner auprès de Naeva Mora, en orbite autour d'Europe.
+      - Language: Italian
+        String: Dopo aver sistemato la Ragana, devo tornare da Naeva Mora nell’orbita attorno a Europa.
+      - Language: Japanese
+        String: ラガナに対処したら、エウロパの軌道にいるネイヴァ・モーラのところに戻ろう
+      - Language: Polish
+        String: Sprawa Ragany została załatwiona. Muszę wrócić do Naevy Mory na orbicie Europy.
+      - Language: Portuguese_Brazil
+        String: Depois de lidar com a Ragana, precisei voltar para Naeva Mora, na órbita de Europa.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Naeva Successful Speech Challenge'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 720
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Naeva Unsuccessful Speech Challenge'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 725
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Naeva has requested help against the Ecliptics
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 730
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Arrived back at The Astraea
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nachdem ich mich um die Ragana gekümmert habe, bin ich zu Naeva Mora zurückgekehrt, die von Ecliptic angegriffen wurde.
+      - Language: English
+        String: After dealing with the Ragana, I returned to Naeva Mora only to find her being attacked by Ecliptic mercenaries.
+      - Language: Spanish
+        String: Al regresar donde Naeva Mora tras ocuparme de la Ragana, me la he encontrado repeliendo un ataque de Ecliptic.
+      - Language: French
+        String: Après mon interaction avec le Ragana, j'ai retrouvé Naeva Mora aux prises avec des mercenaires de l'Éclipse.
+      - Language: Italian
+        String: Dopo aver sistemato la Ragana, ho raggiunto Naeva Mora mentre gli Ecliptic la stavano attaccando.
+      - Language: Japanese
+        String: ラガナに対処してネイヴァ・モーラのところに戻ると、彼女はエクリプティクに襲撃されていた
+      - Language: Polish
+        String: Po załatwieniu sprawy Ragany i moim powrocie do Naevy Mory okazało się, że atakują ją właśnie najemnicy z Ecliptica.
+      - Language: Portuguese_Brazil
+        String: Depois de lidar com a Ragana, voltei até Naeva Mora e acabei sofrendo um ataque dos mercenários da Ecliptic.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 735
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ecliptic aggression
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 740
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Clear the Medical Supplies alias if player convinced Naeva without having to give them up
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 750
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Speak to Naeva'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nachdem ich mich um die Ragana gekümmert habe, bin ich zu Naeva Mora zurückgekehrt, die von Ecliptic angegriffen wurde. Ich habe ihr geholfen, den Angriff abzuwehren, und sollte jetzt mit ihr sprechen.
+      - Language: English
+        String: After dealing with the Ragana, I returned to Naeva Mora only to find her being attacked by Ecliptic mercenaries. I helped fend off the attack and should now speak to Naeva.
+      - Language: Spanish
+        String: Al regresar donde Naeva Mora tras ocuparme de la Ragana, me la he encontrado repeliendo un ataque de Ecliptic. La he ayudado a librarse de los agresores. Será mejor que hable con Naeva.
+      - Language: French
+        String: Après mon interaction avec le Ragana, j'ai retrouvé Naeva Mora aux prises avec des mercenaires de l'Éclipse. Je l'ai aidée à se défendre et dois à présent lui parler.
+      - Language: Italian
+        String: Dopo aver sistemato la Ragana, ho raggiunto Naeva Mora mentre gli Ecliptic la stavano attaccando. Ho aiutato a respingere l’attacco e ora dovrei parlare con Naeva.
+      - Language: Japanese
+        String: ラガナに対処してネイヴァ・モーラのところに戻ると、彼女はエクリプティクに襲撃されていた。襲撃を食い止めたので、ネイヴァと話をしよう
+      - Language: Polish
+        String: Po załatwieniu sprawy Ragany i moim powrocie do Naevy Mory okazało się, że atakują ją właśnie najemnicy z Ecliptica. Z moją pomocą zdołała odeprzeć atak - możemy teraz porozmawiać.
+      - Language: Portuguese_Brazil
+        String: Depois de lidar com a Ragana, voltei até Naeva Mora e acabei sofrendo um ataque dos mercenários da Ecliptic. Ajudei a conter a ofensiva e agora preciso falar com a Naeva.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 755
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hailed Astraea
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 760
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player returns supplies to Kibwe
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Fend off the Ecliptic Fighters'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nachdem ich mich um die Ragana gekümmert habe, bin ich zu Naeva Mora zurückgekehrt und wurde von Ecliptic angegriffen.
+      - Language: English
+        String: After dealing with the Ragana, I returned to Naeva Mora and was attacked by Ecliptic.
+      - Language: Spanish
+        String: Tras ocuparme de la Ragana he vuelto con Naeva Mora y sufrido un ataque de Ecliptic.
+      - Language: French
+        String: Après mon interaction avec le Ragana, je me suis fait attaquer par l'Éclipse lors de mon retour auprès de Naeva Mora.
+      - Language: Italian
+        String: Dopo aver sistemato la Ragana, siamo tornati da Naeva Mora e siamo stati attaccati dagli Ecliptic.
+      - Language: Japanese
+        String: ラガナに対処してネイヴァ・モーラのところに戻ると、エクリプティクに襲撃された
+      - Language: Polish
+        String: Po załatwieniu sprawy Ragany i moim powrocie do Naevy Mory zaatakował mnie Ecliptic.
+      - Language: Portuguese_Brazil
+        String: Depois de lidar com a Ragana, voltei até Naeva Mora e fui atacado pela Ecliptic.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Remove medical supplies
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Pay Credits
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 830
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Pay Holding
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Lock the door temporarily
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 998
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Docking permission change
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 999
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Block Key docking
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 77
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 216625:Starfield.esm
+    Note: 'QO: Report to the Vigilance - SysDef route'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich soll UC-Commander Kibwe Ikande auf der Vigilance Meldung erstatten.
+      - Language: English
+        String: I'm to report to UC Commander Kibwe Ikande on the Vigilance.
+      - Language: Spanish
+        String: Debo informar al comandante de las CU Kibwe Ikande, que está en la Vigilance.
+      - Language: French
+        String: Je dois me présenter au commandant de l'UC Kibwe Ikande, à bord du Vigilance.
+      - Language: Italian
+        String: Devo fare rapporto al comandante dell’UC Kibwe Ikande sulla Vigilance.
+      - Language: Japanese
+        String: ヴィジランスへ行き、UC司令官のキブウェ・イカンデへ報告しよう
+      - Language: Polish
+        String: Mam zameldować się u komandora ZK Kibwego Ikandego na Vigilansie.
+      - Language: Portuguese_Brazil
+        String: Preciso conversar com o comandante Kibwe Ikande da UC, na Vigilance.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Note: Both routes need these things set
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 216625:Starfield.esm
+      ComparisonValue: 1
+    Note: Skip to The Key
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Board the Vigilance'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Speak to Ikande'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1195
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 036E00:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 216625:Starfield.esm
+    Note: CUT - Ikande briefing forcegreet. He has to exit furniture first and thus it looks like a bug. The player can walk away and then get FG from another room
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1200
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Speak to Kibwe Ikande'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1300
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Speak to Lieutenant Toft'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Complete objective to Speak to Lieutenant Toft
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Escape the Vigilance'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has asked Kibwe about Crimson Fleet
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1500
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Travel to The Key'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Naeva Mora wird mich auf dem Schlüssel treffen, dem Hauptquartier der Crimson Fleet im Kryx-System.
+      - Language: English
+        String: Naeva Mora will meet me at the Key, the Crimson Fleet's headquarters in the Kryx System.
+      - Language: Spanish
+        String: Naeva Mora me recibirá en la Llave, base de la Flota Carmesí en el sistema de Kryx.
+      - Language: French
+        String: Naeva Mora me retrouvera sur la Clé, le quartier général de la Flotte écarlate dans le système Kryx.
+      - Language: Italian
+        String: Naeva Mora mi incontrerà alla Chiave, il quartier generale della Flotta Cremisi nel sistema Kryx.
+      - Language: Japanese
+        String: クリクス星系にある紅の艦隊の本部、〈キー〉でネイヴァ・モーラと会うことになっている
+      - Language: Polish
+        String: Naeva Mora spotka się ze mną na Kluczu, siedzibie Karmazynowej Floty w układzie Kryx.
+      - Language: Portuguese_Brazil
+        String: Naeva Mora vai me encontrar na Chave, o quartel-general da Frota Escarlate no sistema Kryx.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Dock at The Key'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1700
+  Unknown: 77
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Speak to Naeva'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1790
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jasmin scene done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1795
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Naeva FG
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1796
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Stop Key scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1800
+  Unknown: 77
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Follow Naeva'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mich mit Naeva Mora auf dem Schlüssel getroffen, dem Hauptquartier der Crimson Fleet im Kryx-System.
+      - Language: English
+        String: I met Naeva Mora at the Key, the Crimson Fleet's headquarters in the Kryx System.
+      - Language: Spanish
+        String: Me he reunido con Naeva Mora en la Llave, base de la Flota Carmesí en el sistema de Kryx.
+      - Language: French
+        String: J'ai rencontré Naeva Mora sur la Clé, le quartier général de la Flotte écarlate dans le système Kryx.
+      - Language: Italian
+        String: Ho incontrato Naeva Mora sulla Chiave, il quartier generale della Flotta Cremisi nel sistema Kryx.
+      - Language: Japanese
+        String: クリクス星系にある紅の艦隊の本部、〈キー〉でネイヴァ・モーラと会った
+      - Language: Polish
+        String: Jestem po spotkaniu z Naevą Morą na Kluczu, siedzibie Karmazynowej Floty w układzie Kryx.
+      - Language: Portuguese_Brazil
+        String: Encontrei com Naeva Mora na Chave, o quartel-general da Frota Escarlate no sistema Kryx.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1805
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Tour: Naeva path to doors'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Tour: Start Jasmine scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1815
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Tour: Naeva path to Depot'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Tour: Start Depot scene - Basics'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1825
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Tour: Naeva path to Zuri'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Note: Crimson Fleet profiles
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1830
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Tour: Start Zuri scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1833
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Samina scene check
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1834
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Radley scene check
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1835
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Tour: Naeva path to Shinya'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1840
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Tour: Start Trade Authority scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1845
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Tour: Start Clinic scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1850
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Tour: Start Shinya scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1855
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Naeva path to elevators
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1860
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start Jasmine announcement scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1865
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Shinya dialogue
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1870
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Naeva's pathed to the elevator
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1875
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Load Shinya into furniture for now
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1876
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Shinya Chair Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1880
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Move Naeva to Delgado
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1885
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Naeva callout to player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1890
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Naeva path to Delgado
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1895
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start Delgado scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1898
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Elevator QT
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1899
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Shinya Intro
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Speak to Shinya Voss'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Auf dem Schlüssel hat Naeva mich Shinya Voss vorgestellt, der das Geld der Crimson Fleet verwaltet.
+      - Language: English
+        String: At the Key, Naeva introduced me to Shinya Voss, who controls the Crimson Fleet's purse strings.
+      - Language: Spanish
+        String: En la Llave, Naeva me presentó a Shinya Voss, que maneja las finanzas de la Flota Carmesí.
+      - Language: French
+        String: Sur la Clé, Naeva m'a présenté Shinya Voss, le responsable des finances de la Flotte écarlate.
+      - Language: Italian
+        String: Presso la Chiave, Naeva mi ha presentato Shinya Voss, che gestisce le finanze della Flotta Cremisi.
+      - Language: Japanese
+        String: 〈キー〉でネイヴァがシンヤ・ヴォスを紹介してくれた。彼は紅の艦隊の経理を担当しているらしい
+      - Language: Polish
+        String: Naeva przedstawiła mi na Kluczu Shinyę Voss, która kontroluje finanse Karmazynowej Floty.
+      - Language: Portuguese_Brazil
+        String: Na Chave, Naeva me apresentou a Shinya Voss, que controla as finanças da Frota Escarlate.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Speak to Delgado'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nach meiner Tour auf dem Schlüssel muss ich Delgado treffen, den Anführer der Crimson Fleet.
+      - Language: English
+        String: Having finished my tour of the Key, I need to meet with Delgado, the leader of the Crimson Fleet.
+      - Language: Spanish
+        String: Ahora que me he familiarizado con la Llave, tengo que hablar con Delgado, cabecilla de la Flota Carmesí.
+      - Language: French
+        String: J'ai terminé ma visite de la Clé et dois à présent aller rencontrer Delgado, le chef de la Flotte écarlate.
+      - Language: Italian
+        String: Concluso il mio giro della Chiave, devo incontrare Delgado, il capo della Flotta Cremisi.
+      - Language: Japanese
+        String: 〈キー〉の探索も終わったので、紅の艦隊のリーダーであるデルガドに会いに行こう
+      - Language: Polish
+        String: Po zakończeniu obchodu Klucza muszę spotkać się z Delgado, przywódcą Karmazynowej Floty.
+      - Language: Portuguese_Brazil
+        String: Depois do meu tour pela Chave, preciso encontrar Delgado, o líder da Frota Escarlate.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Complete Quest
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mich der Crimson Fleet angeschlossen.
+      - Language: English
+        String: I've successfully joined the Crimson Fleet.
+      - Language: Spanish
+        String: He logrado incorporarme a la Flota Carmesí.
+      - Language: French
+        String: J'ai réussi à rejoindre la Flotte écarlate.
+      - Language: Italian
+        String: Faccio ufficialmente parte della Flotta Cremisi.
+      - Language: Japanese
+        String: 紅の艦隊へ加入することに成功した
+      - Language: Polish
+        String: Udało mi się dołączyć do Karmazynowej Floty.
+      - Language: Portuguese_Brazil
+        String: Me juntei à Frota Escarlate com sucesso.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF3B:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0C:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Triff dich auf Europa mit der Astraea.
+    - Language: English
+      String: Rendezvous with the Astraea at Europa
+    - Language: Spanish
+      String: Reúnete con la Astraea en Europa.
+    - Language: French
+      String: Retrouvez l'Astraea près d'Europe.
+    - Language: Italian
+      String: Raggiungi l’Astraea su Europa
+    - Language: Japanese
+      String: エウロパでアストライアと合流する
+    - Language: Polish
+      String: Dotrzyj do Astraei orbitującej wokół Europy
+    - Language: Portuguese_Brazil
+      String: Encontre-se com a Astraea em Europa
+  Targets:
+  - AliasID: 8
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Rufe die Astraea.
+    - Language: English
+      String: Hail the Astraea
+    - Language: Spanish
+      String: Saluda a la Astraea.
+    - Language: French
+      String: Contactez l'Astraea.
+    - Language: Italian
+      String: Contatta l’Astraea
+    - Language: Japanese
+      String: アストライアと交信する
+    - Language: Polish
+      String: Połącz się z Astraeą
+    - Language: Portuguese_Brazil
+      String: Faça contato com a Astraea
+  Targets:
+  - AliasID: 8
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde die Ragana in der Nähe von Enceladus.
+    - Language: English
+      String: Find the Ragana Near Enceladus
+    - Language: Spanish
+      String: Busca la Ragana cerca de Encélado.
+    - Language: French
+      String: Localisez le Ragana près d'Encelade.
+    - Language: Italian
+      String: Trova la Ragana nelle vicinanze di Encelado
+    - Language: Japanese
+      String: エンセラデス付近でラガナを探す
+    - Language: Polish
+      String: Znajdź Raganę nieopodal Enceladusa
+    - Language: Portuguese_Brazil
+      String: Encontre a Ragana perto de Encélado
+  Targets:
+  - AliasID: 61
+- Index: 310
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Warte auf die Ragana.
+    - Language: English
+      String: Wait for the Ragana to arrive
+    - Language: Spanish
+      String: Espera a que llegue la Ragana.
+    - Language: French
+      String: Attendez le Ragana.
+    - Language: Italian
+      String: Attendi l’arrivo della Ragana
+    - Language: Japanese
+      String: ラガナの到着を待つ
+    - Language: Polish
+      String: Poczekaj na przybycie Ragany
+    - Language: Portuguese_Brazil
+      String: Espere a Ragana chegar
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Rufe die Ragana.
+    - Language: English
+      String: Hail the Ragana
+    - Language: Spanish
+      String: Saluda a la Ragana.
+    - Language: French
+      String: Contactez le Ragana.
+    - Language: Italian
+      String: Contatta la Ragana
+    - Language: Japanese
+      String: ラガナと交信する
+    - Language: Polish
+      String: Wywołaj Raganę
+    - Language: Portuguese_Brazil
+      String: Contate a Ragana
+  Targets:
+  - AliasID: 9
+- Index: 500
+  Flags:
+  - OrWithPrevious
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Greife die Ragana an.
+    - Language: English
+      String: Attack the Ragana
+    - Language: Spanish
+      String: Ataca la Ragana.
+    - Language: French
+      String: Attaquez le Ragana.
+    - Language: Italian
+      String: Attacca la Ragana
+    - Language: Japanese
+      String: ラガナを攻撃する
+    - Language: Polish
+      String: Zaatakuj Raganę
+    - Language: Portuguese_Brazil
+      String: Ataque a Ragana
+  Targets:
+  - AliasID: 9
+- Index: 501
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Zerstöre die Ragana.
+    - Language: English
+      String: Destroy the Ragana
+    - Language: Spanish
+      String: Destruye la Ragana.
+    - Language: French
+      String: Détruisez le Ragana.
+    - Language: Italian
+      String: Distruggi la Ragana
+    - Language: Japanese
+      String: ラガナを破壊する
+    - Language: Polish
+      String: Zniszcz Raganę
+    - Language: Portuguese_Brazil
+      String: Destrua a Ragana
+  Targets:
+  - AliasID: 9
+- Index: 550
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Gehe an Bord der Ragana.
+    - Language: English
+      String: Board the Ragana
+    - Language: Spanish
+      String: Sube a bordo de la Ragana.
+    - Language: French
+      String: Montez à bord du Ragana.
+    - Language: Italian
+      String: Abborda la Ragana
+    - Language: Japanese
+      String: ラガナに乗り込む
+    - Language: Polish
+      String: Wejdź na pokład Ragany
+    - Language: Portuguese_Brazil
+      String: Entre na Ragana
+  Targets:
+  - AliasID: 9
+- Index: 560
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Dmitri.
+    - Language: English
+      String: Talk to Dmitri
+    - Language: Spanish
+      String: Habla con Dmitri.
+    - Language: French
+      String: Parlez à Dmitri.
+    - Language: Italian
+      String: Parla con Dmitri
+    - Language: Japanese
+      String: ディミトリと話す
+    - Language: Polish
+      String: Porozmawiaj z Dmitrijem
+    - Language: Portuguese_Brazil
+      String: Fale com Dmitri
+  Targets:
+  - AliasID: 71
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Überzeuge die Ragana, Austin Rake zu töten.
+    - Language: English
+      String: Convince the Ragana to kill Austin Rake
+    - Language: Spanish
+      String: Convence a la Ragana para que liquiden a Rake.
+    - Language: French
+      String: Persuadez le Ragana de tuer Austin Rake.
+    - Language: Italian
+      String: Convinci la Ragana a eliminare Austin Rake
+    - Language: Japanese
+      String: オースティン・レイクを殺すようラガナを説得する
+    - Language: Polish
+      String: Przekonaj Raganę, by zabili Austina Rake'a
+    - Language: Portuguese_Brazil
+      String: Convença a Ragana a matar Austin Rake
+  Targets:
+  - AliasID: 9
+    Flags:
+    - UseStraightLinePathing
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationAliasConditionData
+        FirstParameter: 110
+      ComparisonValue: 1
+  - AliasID: 71
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationAliasConditionData
+        FirstParameter: 110
+- Index: 605
+  Flags:
+  - OrWithPrevious
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde eine Möglichkeit, Austin Rake zu verschonen.
+    - Language: English
+      String: Find a way to spare Austin Rake
+    - Language: Spanish
+      String: Busca el modo de perdonarle la vida a Rake.
+    - Language: French
+      String: Trouvez un moyen d'épargner Austin Rake.
+    - Language: Italian
+      String: Trova un modo per risparmiare Austin Rake
+    - Language: Japanese
+      String: オースティン・レイクを救う方法を探す
+    - Language: Polish
+      String: Znajdź sposób na oszczędzenie Austina Rake'a
+    - Language: Portuguese_Brazil
+      String: Encontre uma forma de poupar Austin Rake
+  Targets:
+  - AliasID: 9
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationAliasConditionData
+        FirstParameter: 110
+      ComparisonValue: 1
+  - AliasID: 71
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationAliasConditionData
+        FirstParameter: 110
+- Index: 606
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Töte Austin Rake.
+    - Language: English
+      String: Kill Austin Rake
+    - Language: Spanish
+      String: Mata a Austin Rake.
+    - Language: French
+      String: Tuez Austin Rake.
+    - Language: Italian
+      String: Uccidi Austin Rake
+    - Language: Japanese
+      String: オースティン・レイクを倒す
+    - Language: Polish
+      String: Zabij Austina Rake'a
+    - Language: Portuguese_Brazil
+      String: Mate Austin Rake
+- Index: 610
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Besorge das medizinische Material.
+    - Language: English
+      String: Get the Medical Supplies
+    - Language: Spanish
+      String: Coge los suministros médicos.
+    - Language: French
+      String: Obtenez le matériel médical.
+    - Language: Italian
+      String: Ottieni le scorte mediche
+    - Language: Japanese
+      String: 医療物資を手に入れる
+    - Language: Polish
+      String: Zdobądź zapasy medyczne
+    - Language: Portuguese_Brazil
+      String: Pegue os suprimentos médicos
+  Targets:
+  - AliasID: 10
+  - AliasID: 33
+- Index: 700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kehre zur Naeva im Orbit um Europa zurück.
+    - Language: English
+      String: Return to Naeva in Europa's Orbit
+    - Language: Spanish
+      String: Vuelve con Naeva, en la órbita de Europa.
+    - Language: French
+      String: Retournez voir Naeva en orbite autour d'Europe.
+    - Language: Italian
+      String: Torna da Naeva nell’orbita di Europa
+    - Language: Japanese
+      String: エウロパの軌道にいるネイヴァのところに戻る
+    - Language: Polish
+      String: Wróć do Naevy na orbicie Europy
+    - Language: Portuguese_Brazil
+      String: Volte a Naeva, na órbita de Europa
+  Targets:
+  - AliasID: 8
+- Index: 740
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: <Global=CF02SuppliesValue> Credit(s) an Naeva zahlen
+    - Language: English
+      String: Pay <Global=CF02SuppliesValue> Credits to Naeva
+    - Language: Spanish
+      String: Paga <Global=CF02SuppliesValue> créditos a Naeva.
+    - Language: French
+      String: Payez <Global=CF02SuppliesValue> crédits à Naeva.
+    - Language: Italian
+      String: Paga <Global=CF02SuppliesValue> crediti a Naeva
+    - Language: Japanese
+      String: ネイヴァに<Global=CF02SuppliesValue>クレジットを支払う
+    - Language: Polish
+      String: Zapłać <Global=CF02SuppliesValue> kr. Naevie
+    - Language: Portuguese_Brazil
+      String: Pague <Global=CF02SuppliesValue> créditos a Naeva
+  Targets:
+  - AliasID: 8
+- Index: 750
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Wehre die Ecliptic-Kämpfer ab.
+    - Language: English
+      String: Fend off the Ecliptic Fighters
+    - Language: Spanish
+      String: Ahuyenta a los cazas de Ecliptic.
+    - Language: French
+      String: Repoussez les soldats de l'Éclipse.
+    - Language: Italian
+      String: Respingi i caccia Ecliptic
+    - Language: Japanese
+      String: エクリプティクの戦闘員を撃退する
+    - Language: Polish
+      String: Odeprzyj atak myśliwców Ecliptica
+    - Language: Portuguese_Brazil
+      String: Afaste os caças da Ecliptic
+  Targets:
+  - AliasID: 69
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+- Index: 800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Rufe die Astraea.
+    - Language: English
+      String: Hail the Astraea
+    - Language: Spanish
+      String: Saluda a la Astraea.
+    - Language: French
+      String: Contactez l'Astraea.
+    - Language: Italian
+      String: Contatta l’Astraea
+    - Language: Japanese
+      String: アストライアと交信する
+    - Language: Polish
+      String: Połącz się z Astraeą
+    - Language: Portuguese_Brazil
+      String: Faça contato com Astraea
+  Targets:
+  - AliasID: 8
+- Index: 900
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Wirf das medizinische Material ab.
+    - Language: English
+      String: Jettison the Medical Supplies
+    - Language: Spanish
+      String: Arroja los suministros médicos.
+    - Language: French
+      String: Éjectez le matériel médical.
+    - Language: Italian
+      String: Espelli le scorte mediche
+    - Language: Japanese
+      String: 医療物資を捨てる
+    - Language: Polish
+      String: Wyrzuć zapasy medyczne
+    - Language: Portuguese_Brazil
+      String: Alije os suprimentos médicos
+- Index: 1000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erstatte der Vigilance Bericht.
+    - Language: English
+      String: Report to the Vigilance
+    - Language: Spanish
+      String: Informa a la Vigilance.
+    - Language: French
+      String: Présentez-vous au Vigilance.
+    - Language: Italian
+      String: Fai rapporto sulla Vigilance
+    - Language: Japanese
+      String: ヴィジランスに報告する
+    - Language: Polish
+      String: Zamelduj się na Vigilansie
+    - Language: Portuguese_Brazil
+      String: Apresente-se à Vigilance
+  Targets:
+  - AliasID: 45
+- Index: 1100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Gehe an Bord der Vigilance.
+    - Language: English
+      String: Board the Vigilance
+    - Language: Spanish
+      String: Sube a bordo de la Vigilance.
+    - Language: French
+      String: Montez à bord du Vigilance.
+    - Language: Italian
+      String: Sali a bordo della Vigilance
+    - Language: Japanese
+      String: ヴィジランスに乗り込む
+    - Language: Polish
+      String: Wejdź na pokład Vigilance'a
+    - Language: Portuguese_Brazil
+      String: Embarque na Vigilance
+  Targets:
+  - AliasID: 13
+  - AliasID: 73
+- Index: 1150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Folge: <Alias=CF02_MarineEscort>.'
+    - Language: English
+      String: Follow the <Alias=CF02_MarineEscort>
+    - Language: Spanish
+      String: Sigue a la <Alias=CF02_MarineEscort>.
+    - Language: French
+      String: 'Suivez : <Alias=CF02_MarineEscort>.'
+    - Language: Italian
+      String: 'Segui: <Alias=CF02_MarineEscort>'
+    - Language: Japanese
+      String: <Alias=CF02_MarineEscort>について行く
+    - Language: Polish
+      String: Idź, gdzie eskortuje cię <Alias=CF02_MarineEscort>
+    - Language: Portuguese_Brazil
+      String: Siga <Alias=CF02_MarineEscort>
+  Targets:
+  - AliasID: 52
+- Index: 1200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Commander Ikande.
+    - Language: English
+      String: Speak to Commander Ikande
+    - Language: Spanish
+      String: Habla con el comandante Ikande.
+    - Language: French
+      String: Parlez au commandant Ikande.
+    - Language: Italian
+      String: Parla col comandante Ikande
+    - Language: Japanese
+      String: イカンデ司令官と話す
+    - Language: Polish
+      String: Porozmawiaj z komandorem Ikandem
+    - Language: Portuguese_Brazil
+      String: Fale com o comandante Ikande
+  Targets:
+  - AliasID: 13
+- Index: 1300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Lieutenant Toft.
+    - Language: English
+      String: Speak to Lieutenant Toft
+    - Language: Spanish
+      String: Habla con la teniente Toft.
+    - Language: French
+      String: Parlez au lieutenant Toft.
+    - Language: Italian
+      String: Parla con la tenente Toft
+    - Language: Japanese
+      String: トフト大尉と話す
+    - Language: Polish
+      String: Porozmawiaj z porucznik Toft
+    - Language: Portuguese_Brazil
+      String: Converse com a Tenente Toft
+  Targets:
+  - AliasID: 14
+- Index: 1400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Entkomme von der Vigilance.
+    - Language: English
+      String: Escape the Vigilance
+    - Language: Spanish
+      String: Escapa de la Vigilance.
+    - Language: French
+      String: Échappez-vous du Vigilance.
+    - Language: Italian
+      String: Fuggi dalla Vigilance
+    - Language: Japanese
+      String: ヴィジランスから逃げる
+    - Language: Polish
+      String: Ucieknij z Vigilance'a
+    - Language: Portuguese_Brazil
+      String: Fuja da Vigilance
+- Index: 1500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Reise zum Schlüssel.
+    - Language: English
+      String: Travel to the Key
+    - Language: Spanish
+      String: Viaja a la Llave.
+    - Language: French
+      String: Allez jusqu'à la Clé.
+    - Language: Italian
+      String: Raggiungi la Chiave
+    - Language: Japanese
+      String: 〈キー〉へ向かう
+    - Language: Polish
+      String: Udaj się na Klucz
+    - Language: Portuguese_Brazil
+      String: Viaje para a Chave
+  Targets:
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCurrentLocationFormListConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 1C223E:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCurrentLocationFormListConditionData
+        RunOnType: PlayerShip
+        FirstParameter: 1C223E:Starfield.esm
+      ComparisonValue: 1
+  - AliasID: 65
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCurrentLocationFormListConditionData
+        RunOnType: PlayerShip
+        FirstParameter: 1C223E:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCurrentLocationFormListConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 1C223E:Starfield.esm
+- Index: 1600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Docke am Schlüssel an.
+    - Language: English
+      String: Dock at the Key
+    - Language: Spanish
+      String: Atraca en la Llave.
+    - Language: French
+      String: Amarrez-vous à la Clé.
+    - Language: Italian
+      String: Attracca alla Chiave
+    - Language: Japanese
+      String: 〈キー〉にドッキングする
+    - Language: Polish
+      String: Zadokuj do Klucza
+    - Language: Portuguese_Brazil
+      String: Acople com a Chave
+  Targets:
+  - AliasID: 1
+- Index: 1700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Naeva.
+    - Language: English
+      String: Speak to Naeva
+    - Language: Spanish
+      String: Habla con Naeva.
+    - Language: French
+      String: Parlez à Naeva.
+    - Language: Italian
+      String: Parla con Naeva
+    - Language: Japanese
+      String: ネイヴァと話す
+    - Language: Polish
+      String: Porozmawiaj z Naevą
+    - Language: Portuguese_Brazil
+      String: Fale com Naeva
+  Targets:
+  - AliasID: 1
+- Index: 1800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Naeva.
+    - Language: English
+      String: Follow Naeva
+    - Language: Spanish
+      String: Sigue a Naeva.
+    - Language: French
+      String: Suivez Naeva.
+    - Language: Italian
+      String: Segui Naeva
+    - Language: Japanese
+      String: ネイヴァについて行く
+    - Language: Polish
+      String: Podążaj za Naevą
+    - Language: Portuguese_Brazil
+      String: Siga Naeva
+  Targets:
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThan
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 1
+      ComparisonValue: 10
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsMovingConditionData
+        RunOnType: QuestAlias
+        Unknown3: 1
+      ComparisonValue: 1
+- Index: 1900
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Shinya Voss.
+    - Language: English
+      String: Speak to Shinya Voss
+    - Language: Spanish
+      String: Habla con Shinya Voss.
+    - Language: French
+      String: Parlez à Shinya Voss.
+    - Language: Italian
+      String: Parla con Shinya Voss
+    - Language: Japanese
+      String: シンヤ・ヴォスと話す
+    - Language: Polish
+      String: Porozmawiaj z Shinyą Vossem
+    - Language: Portuguese_Brazil
+      String: Fale com Shinya Voss
+  Targets:
+  - AliasID: 7
+- Index: 2000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Delgado.
+    - Language: English
+      String: Speak to Delgado
+    - Language: Spanish
+      String: Habla con Delgado.
+    - Language: French
+      String: Parlez à Delgado.
+    - Language: Italian
+      String: Parla con Delgado
+    - Language: Japanese
+      String: デルガドと話す
+    - Language: Polish
+      String: Porozmawiaj z Delgado
+    - Language: Portuguese_Brazil
+      String: Fale com Delgado
+  Targets:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0192D2:Starfield.esm
+        SecondParameter: 1885
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0192D2:Starfield.esm
+        SecondParameter: 1898
+      ComparisonValue: 1
+  - AliasID: 78
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0192D2:Starfield.esm
+        SecondParameter: 1885
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0192D2:Starfield.esm
+        SecondParameter: 1898
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 95
+  Name: LC082VigilanceLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2BF36E:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: CF02_Naeva
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 009138:Starfield.esm
+  PackageData:
+  - 229D5A:Starfield.esm
+  - 229D5B:Starfield.esm
+  - 229D63:Starfield.esm
+  - 0FE932:Starfield.esm
+  - 02A6CC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  Name: CF02_Delgado
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 015399:Starfield.esm
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 80
+  PackageData:
+  - 1C4E73:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: CF02_Mathis
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 018947:Starfield.esm
+  PackageData:
+  - 21FE55:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: CF02_Aludra
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 01539F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: CF02_Radley
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 01539B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: CF02_Jasmine
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 01539E:Starfield.esm
+  PackageData:
+  - 0FE93D:Starfield.esm
+  - 107AEA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: CF02_Fergus
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0153A1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: CF02_Shinya
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 22EF19:Starfield.esm
+  PackageData:
+  - 0C1ABE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: CF02_Isra
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22EEEA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: CF02_Taryn
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22EEE8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: CF02_Zuri
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22EEE9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: CF02_Samina
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22EEEB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: CF02_Kibwe
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 009137:Starfield.esm
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 46
+  PackageData:
+  - 084946:Starfield.esm
+  - 1C4E73:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: CF02_Toft
+  Flags: []
+  ALFG: 0
+  UniqueActor: 018946:Starfield.esm
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 47
+  PackageData:
+  - 1C4E73:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 44
+  Name: CF02_Companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 35
+  Name: CF02_NaevaOrbitLocation
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 22EEDB:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 110
+  Name: CF02_PlayerShipLocation
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - ExternalAliasLinked
+  ALFG: 0
+  ExternalAliasLocation:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 9
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: CF02_NaevaShipTravelMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 35
+    RefType: 22E534:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: CF02_NaevaOrbitMapMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 35
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: CF02_NaevaShip
+  Flags:
+  - Essential
+  - AllowDisabled
+  - ExternalAliasLinked
+  ALFG: 0
+  Location:
+    AliasID: 35
+    RefType: 22EC3D:Starfield.esm
+  Factions:
+  - 106C31:Starfield.esm
+  PackageData:
+  - 01118C:Starfield.esm
+  - 22E533:Starfield.esm
+  VoiceTypes: 00D364:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 54
+  Name: CF02_EnceladusOrbit
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01B758:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 132
+  Name: CF02_EuropaOrbit
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01B749:Starfield.esm
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 62
+    MaxInitialFillCount: 1
+    ReferenceAlias:
+      ID: 62
+      Name: CF02_Enceladus_SpaceCell
+      Flags:
+      - CreateRefTemp
+      ALFG: 0
+      CreateReferenceToObject:
+        Object: 212179:Starfield.esm
+        AliasID: 54
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 61
+  Name: CF02_Enceladus_ArrivalMarker
+  Flags:
+  - CreateRefTemp
+  ALFG: 0
+  ReferenceCollectionAliasID: 62
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 16625
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      FirstParameter: 212148:Starfield.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: CF02_TheRaganaShip
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - InitiallyDisabled
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 22EF0F:Starfield.esm
+    AliasID: 61
+  PackageData:
+  - 13C22B:Starfield.esm
+  VoiceTypes: 22EF0B:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 11
+  Name: CF02_HoldingCellLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 1D7D7A:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: CF02_HoldingContainer
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 11
+    RefType: 22EF03:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: CF02_MedicalSupplies
+  Flags:
+  - Optional
+  - QuestObject
+  - CreateRefTemp
+  - 0x4000000
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 22EF02:Starfield.esm
+    AliasID: 12
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: CF02_CargoContainer
+  Flags:
+  - Optional
+  - CreateRefTemp
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 21
+  Name: CF02_TheKeyLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01535A:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: CF02_TheKeyStart
+  Flags: []
+  ALFG: 0
+  ForcedReference: 229D62:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: CF02_NaevaIntroMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 22EEF8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: CF02_NaevaToDoorMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 22EEF7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 114
+  Name: CF02_NaevaTourTeleportMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 25C902:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: CF02_NaevaToJasmineMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 22EEF6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: CF02_NaevaToDepotMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 22EEF5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: CF02_NaevaToZuriMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 22EEF4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: CF02_NaevaTradeAuthoritySceneTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 21
+    RefType: 22EEFA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: CF02_NaevaDepotSceneTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 21
+    RefType: 22EEF9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: CF02_NaevaToShinyaMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 22EEF1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: CF02_ShinyaTourMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 22EEF0:Starfield.esm
+  Keywords:
+  - 0EE934:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 48
+  Name: CF02_ShinyaChair
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 21
+    RefType: 21FE5A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: CF02_JasmineAnnouncementSceneTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 21
+    RefType: 22EEFB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: CF02_JasmineSpeaker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 21
+    RefType: 229D67:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: CF02_NaevaToElevatorMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 22EEEF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: CF02_NaevaElevatorTrigger_REMOVE
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 21
+    RefType: 229D5E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 43
+  Name: CF02_NaevaUpperLevelMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 03522B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: CF02_NaevaOperationsSceneTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 21
+    RefType: 22EEED:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 42
+  Name: CF02_NaevaToOperationsMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 229D5C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 79
+  Name: CF02_NaevaToOperationsMarker01
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0F499B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: CF02_NaevaDelgadoSceneTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 21
+    RefType: 22EEFC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 41
+  Name: CF02_NaevaToDelgadoMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 229D5D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 45
+  Name: CF02_TheVigilanceStart
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2C6B59:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 73
+  Name: CF02_TheVigilanceShip
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 257103:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: CF02_KibweMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2251CF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 47
+  Name: CF02_ToftMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2251D0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 49
+  Name: CF02_ShinyaExitChairMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 21FE59:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 50
+  Name: CF02_DelgadoMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 21FE58:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 80
+  Name: CF02_DelgadoStanding
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 035228:Starfield.esm
+  Keywords:
+  - 0DB9EB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 51
+  Name: CF02_MathisMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 03522A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 52
+  Name: CF02_MarineEscort
+  Flags:
+  - StoresText
+  ALFG: 0
+  ForcedReference: 1CF1B0:Starfield.esm
+  PackageData:
+  - 1CF1B2:Starfield.esm
+  - 1CF1B1:Starfield.esm
+  VoiceTypes: 245EB2:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 58
+  Name: CF02_PlayerShip
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - CreateRefTemp
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 59
+  Name: CF02_RaganaEscort
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 1CF1B0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 64
+  Name: CF02_TheKeyExteriorLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01535B:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 65
+  Name: CF02_TheKeyMapMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 64
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 66
+  Name: CF02_DelgadoQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 117A10:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 69
+    MaxInitialFillCount: 3
+    ALAM: 0
+    ReferenceAlias:
+      ID: 69
+      Name: CF02_EclipticShips
+      Flags:
+      - Optional
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      ALFG: 0
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF64899
+        Unknown2: 16625
+        Data:
+          MutagenObjectType: GetInCellConditionData
+          FirstParameter: 22EF35:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF64899
+        Unknown2: 16625
+        Data:
+          MutagenObjectType: GetInFactionConditionData
+          FirstParameter: 27028D:Starfield.esm
+        ComparisonValue: 1
+      Factions:
+      - 106C2F:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 70
+  Name: CF02_JustinRake
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 1105F7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 71
+  Name: CF02_Dmitri
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 72
+  Name: CF02_JasmineSitMarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 0FE93E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 75
+  Name: CF02_KibweFurniture01
+  Flags:
+  - Optional
+  - InitiallyDisabled
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 21FE54:Starfield.esm
+    AliasID: 46
+  Keywords:
+  - 0EE934:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 76
+  Name: CF02_FoyerPerson
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 1BF9A1:Starfield.esm
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 77
+  PackageData:
+  - 1EE90F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 77
+  Name: CF02_FoyerMarker
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 13370F:Starfield.esm
+  PackageData:
+  - 1EE90F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 78
+  Name: CF02_ElevatorQT
+  Flags: []
+  ALFG: 0
+  ForcedReference: 087D7A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 93
+  Name: SysDefHallway
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 26DBA3:Starfield.esm
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 102
+  PackageData:
+  - 107AEA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 96
+  Name: SysDefRecruit
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 26DB91:Starfield.esm
+  PackageData:
+  - 107AEA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 94
+  Name: SysDefHallwayChair
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 95
+    RefType: 078296:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 97
+  Name: SysDefOpChair01
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 95
+    RefType: 078297:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 99
+  Name: SysDefPatrolLink
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 95
+    RefType: 078298:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 103
+  Name: SysDefOpChair04
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 95
+    RefType: 078299:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 101
+  Name: SysDefOpChair02
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 95
+    RefType: 07829A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 102
+  Name: SysDefOpChair03
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 95
+    RefType: 07829B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 98
+  Name: MarinePatrol
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 95
+    RefType: 26DB85:Starfield.esm
+  LinkedAliases:
+  - AliasID: 99
+  PackageData:
+  - 14DA09:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 100
+  Name: CF08_NaevaSurrenderWaitMarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 143447:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 111
+    MaxInitialFillCount: 2
+    ReferenceAlias:
+      ID: 111
+      Name: ComTriggerKey
+      Flags:
+      - Optional
+      ALFG: 0
+      Location:
+        AliasID: 21
+        RefType: 2A2CA3:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 113
+  Name: StationEntryNaevaTeleport
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 24948D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 115
+  Name: Reaver
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 015358:Starfield.esm
+    AliasID: 20
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 116
+  Name: MauraderFurniture
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 0C1AD2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 117
+  Name: CF02_NaevaTourHeadTrack01
+  Flags: []
+  ALFG: 0
+  ForcedReference: 180DF3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 118
+  Name: CF02_NaevaTourHeadTrack02
+  Flags: []
+  ALFG: 0
+  ForcedReference: 180DF4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 120
+  Name: CargoBayDoor
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1A4272:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 122
+  Name: CF02_OpsGuard01
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0E4024:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 123
+  Name: CF02_OpsGuard02
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0E4025:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 124
+  Name: CF02_OpsGuard03
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0E4022:Starfield.esm
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 122
+  PackageData:
+  - 02CB37:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 125
+  Name: CF02_OpsGuard04
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0E4023:Starfield.esm
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 123
+  PackageData:
+  - 02CB37:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 127
+  Name: CF02_OpsGuard05
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0C1AC1:Starfield.esm
+  PackageData:
+  - 1BC8FD:Starfield.esm
+  - 018A0C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 128
+  Name: DockingBayActor01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 0C1AD0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 129
+  Name: DockingBayActor02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 0C1AD4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 130
+  Name: JasmineDoorRef
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 297E43:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 131
+  Name: JasmineClashChair
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 160EF6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 133
+  Name: IntroScene_Marauder
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 21
+    RefType: 1C2247:Starfield.esm
+  Keywords:
+  - 04B0AB:Starfield.esm
+  CombatOverridePackageList: 1591F6:Starfield.esm
+  Factions:
+  - 15923E:Starfield.esm
+  PackageData:
+  - 38CF2C:Starfield.esm
+  VoiceTypes: 1C224D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 134
+  Name: TheKey
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueBaseForm: 032406:Starfield.esm
+  VoiceTypes: Null

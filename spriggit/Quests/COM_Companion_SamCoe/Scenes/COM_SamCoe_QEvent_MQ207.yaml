@@ -1,0 +1,301 @@
+FormKey: 0D3AE9:Starfield.esm
+EditorID: COM_SamCoe_QEvent_MQ207
+VirtualMachineAdapter:
+  ScriptFragments:
+    Script:
+      Name: Fragments:Scenes:SF_COM_SamCoe_QEvent_MQ207_000D3AE9
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: COM_WantsToTalk_MQ207
+        Object: 1E99B0:Starfield.esm
+    PhaseFragments:
+    - Flags:
+      - OnCompletion
+      Index: 12
+      Unknown: 16777216
+      ScriptName: Fragments:Scenes:SF_COM_SamCoe_QEvent_MQ207_000D3AE9
+      FragmentName: Fragment_Phase_13_End
+Flags:
+- Interruptable
+- DisableDialogueCamera
+- NoFollowerIdleChatter
+Phases:
+- Name: ''
+  EditorWidth: 500
+- Name: 1st
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: 2nd
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ROMANCE
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 2882233
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: NO ROMANCE
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 2882233
+  EditorWidth: 500
+- Name: 3rd
+  EditorWidth: 500
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 000800:StarfieldCommunityPatch.esm
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 000800:StarfieldCommunityPatch.esm
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 000800:StarfieldCommunityPatch.esm
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: 4th
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 000800:StarfieldCommunityPatch.esm
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 1
+  Flags: []
+  Topic: 0D3C09:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 326C36:Starfield.esm
+    NpcResponse: 326C35:Starfield.esm
+  - PlayerChoice: 0D3C0A:Starfield.esm
+    NpcResponse: 0D3C0B:Starfield.esm
+  - PlayerChoice: 0D3C06:Starfield.esm
+    NpcResponse: 0D3C07:Starfield.esm
+  - PlayerChoice: 0D3C08:Starfield.esm
+    NpcResponse: 0D3C1A:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 3
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  Topic: 0D3C0C:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 4
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 0D3C0D:Starfield.esm
+    NpcResponse: 0D3C0E:Starfield.esm
+  - PlayerChoice: 0D3C1B:Starfield.esm
+    NpcResponse: 0D3C1C:Starfield.esm
+  - PlayerChoice: 0D3C1D:Starfield.esm
+    NpcResponse: 0D3C1E:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 5
+  Flags: []
+  StartPhase: 4
+  EndPhase: 4
+  Topic: 0D3C0F:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 6
+  Flags: []
+  StartPhase: 5
+  EndPhase: 5
+  Topic: 0D3C10:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 7
+  Flags: []
+  StartPhase: 6
+  EndPhase: 6
+  Topic: 0D3C11:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 8
+  Flags: []
+  StartPhase: 7
+  EndPhase: 7
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 0D3C12:Starfield.esm
+    NpcResponse: 0D3C13:Starfield.esm
+  - PlayerChoice: 0D3C1F:Starfield.esm
+    NpcResponse: 0D3C20:Starfield.esm
+  - PlayerChoice: 0D3C21:Starfield.esm
+    NpcResponse: 0D3C22:Starfield.esm
+  - PlayerChoice: 0D3C23:Starfield.esm
+    NpcResponse: 0D3C24:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 9
+  Flags: []
+  StartPhase: 8
+  EndPhase: 8
+  Topic: 0D3C14:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 10
+  Flags: []
+  StartPhase: 9
+  EndPhase: 9
+  Topic: 0D3C15:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 11
+  Flags: []
+  StartPhase: 10
+  EndPhase: 10
+  Topic: 0D3C16:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 12
+  Flags: []
+  StartPhase: 11
+  EndPhase: 11
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 0D3C17:Starfield.esm
+    NpcResponse: 0D3C18:Starfield.esm
+  - PlayerChoice: 0D3C25:Starfield.esm
+    NpcResponse: 0D3C26:Starfield.esm
+  - PlayerChoice: 0D3C27:Starfield.esm
+    NpcResponse: 0D3C28:Starfield.esm
+  - PlayerChoice: 0D3C29:Starfield.esm
+    NpcResponse: 0D3C2A:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 13
+  Flags: []
+  StartPhase: 12
+  EndPhase: 12
+  Topic: 0D3C19:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+Quest: 26C5ED:Starfield.esm
+LastActionIndex: 13
+VNAM: 0x0300000003000000030000000300000003000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: QuestAlias
+    Unknown3: 0
+    FirstParameter: 1E8348:Starfield.esm
+  ComparisonValue: 1
+Notes: In this scene Sam is reacting to learning out the truth about the Starborn. They're actually humans that have gone through the Unity and gone to a different universe. Heady stuff. Sam is enough of an explorer - that the idea of seeing a different universe is hard to say no, too. But he's also disgusted at how reprehensible the Starborn actually are.
+BOLV: '[]'
+Index: 0

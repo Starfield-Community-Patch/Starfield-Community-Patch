@@ -1,0 +1,1811 @@
+FormKey: 1C7187:Starfield.esm
+EditorID: Com_Companion_Barrett
+VirtualMachineAdapter:
+  Scripts:
+  - Name: com_companionquestscript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: WantsToTalkObjective
+      Data: 900
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtChoice
+      Object: 1EA0D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CompanionCheckPerk
+      Object: 1C514E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_PlayerBecomesRomantic_AndrejaJealous
+      Object: 3EAD2E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCount
+      Object: 2C8E56:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCooldownDays
+      Object: 1EA0D5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_StoryGatesCompleted
+      Object: 2B9006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_HasBeenRomantic
+      Object: 2B4321:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PersonalQuest_Started
+      Object: 073742:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShipInteriorLocation
+      Object: 1C7187:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerCoolDownTimerExpired
+      Object: 2C8DF2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WantsToTalkAnnouncementScene
+      Object: 1C6E20:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsRomantic
+      Object: 2BFAB9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCooldownExpiry
+      Object: 1EA0D6:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: StoryGateData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 1
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9008:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9011:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9012:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9013:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 5
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9014:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9015:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 6
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 7
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9016:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9017:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentRefusedPermanently
+      Object: 2B5ED0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_3_Commitment
+      Object: 2B5EC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentQuest
+      Object: 1C7185:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_StarbornSaveActorValue_MaxStoryGate
+      Object: 31C39A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_2_Affection
+      Object: 00D84E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentDesired
+      Object: 27B78B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentQuest_Started
+      Object: 030167:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsCommitted
+      Object: 27B78C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShipCrewMarker
+      Object: 1C7187:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PersonalQuest_Finished
+      Object: 073743:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 1C7187:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WantsToTalkConditionForm
+      Object: 2BCB91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_1_Friendship
+      Object: 00D84F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerSceneCompleted
+      Object: 2C7AE3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerSecondChances
+      Object: 2C7AE7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentPossible
+      Object: 03016D:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: PrioritizedAngerReasons
+      Objects:
+      - Name: ''
+        Object: 2C2A37:Starfield.esm
+      - Name: ''
+        Object: 2C2A36:Starfield.esm
+      - Name: ''
+        Object: 2AAE98:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CurrentStoryGateTimerExpired
+      Object: 2B9007:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PersonalQuest
+      Object: 0369AB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Companion_Andreja
+      Object: 0059A7:Starfield.esm
+  - Name: COM_Barrett_EpilogueTimerScript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: idNumber
+      Data: 316
+    - MutagenObjectType: ScriptIntProperty
+      Name: cooldownHours
+      Data: 168
+    - MutagenObjectType: ScriptIntProperty
+      Name: StageToSet
+      Data: 450
+  Script:
+    Name: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OnPlayerShip
+      Object: 2C4C96:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Affinity
+      Object: 0A1B80:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SmallCredits
+      Object: 275226:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Quest_Reward_Credits_Faction_02_Medium
+      Object: 026B0C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Robotics
+      Object: 21B8CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Quest_Reward_Credits_Faction_01_Small
+      Object: 026B0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MediumCredits
+      Object: 275225:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Barrett_QuestEvent_FrontierDestroyed_Like
+      Object: 2CB07A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_Ship_StarshipEngineering
+      Object: 222F88:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Ship_Weapons_ParticleBeam
+      Object: 222F85:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ02_PQ_AdvancingQuestWarning
+      Object: 005BA4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_2_Affection
+      Object: 00D84E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BarrettShip
+      Object: 1C7187:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_WantsToTalkEvent_COM_Barrett_PersonalQuestFollowup
+      Object: 127C31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q02
+      Object: 002FAE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_3_Commitment
+      Object: 2B5EC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Barrett
+      Object: 1C7187:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Quest_Reward_Credits_Faction_03_Large
+      Object: 026B0D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q01
+      Object: 0369AB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_1_Friendship
+      Object: 00D84F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LargeCredits
+      Object: 275224:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Commitment
+      Object: 1C7185:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Barrett_QuestEvent_FrontierDestroyed
+      Object: 3B246F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_StoryGatesCompleted
+      Object: 2B9006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AV_TimesRomanced
+      Object: 2EBE56:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AV_TimesMarried
+      Object: 2EBE44:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
+  Fragments:
+  - Stage: 421
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0421_Item_00
+  - Stage: 740
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0740_Item_00
+  - Stage: 290
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0290_Item_00
+  - Stage: 221
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0221_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 540
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0540_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0550_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 69
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0069_Item_00
+  - Stage: 390
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0390_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 111
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0111_Item_00
+  - Stage: 121
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0121_Item_00
+  - Stage: 114
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0114_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 205
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0205_Item_00
+  - Stage: 112
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0112_Item_00
+  - Stage: 950
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0950_Item_00
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0220_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 832
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0832_Item_00
+  - Stage: 750
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0750_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 840
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0840_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 222
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0222_Item_00
+  - Stage: 213
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0213_Item_00
+  - Stage: 208
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0208_Item_00
+  - Stage: 560
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0560_Item_00
+  - Stage: 831
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0831_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 216
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0216_Item_00
+  - Stage: 19
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0019_Item_00
+  - Stage: 19
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0019_Item_02
+  - Stage: 19
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0019_Item_01
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0450_Item_00
+  - Stage: 52
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0052_Item_00
+  - Stage: 425
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0425_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 731
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0731_Item_00
+  - Stage: 490
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0490_Item_00
+  - Stage: 122
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0122_Item_00
+  - Stage: 113
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0113_Item_00
+  - Stage: 530
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0530_Item_00
+  - Stage: 51
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0051_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 3
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0003_Item_01
+  - Stage: 732
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0732_Item_00
+  - Stage: 690
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_Barrett_001C7187
+    FragmentName: Fragment_Stage_0690_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1C7187:Starfield.esm
+      Alias: 14
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 3
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Begleiter: Barrett'
+  - Language: English
+    String: Companion - Barrett
+  - Language: Spanish
+    String: 'Compañero: Barrett'
+  - Language: French
+    String: Compagnon - Barrett
+  - Language: Italian
+    String: Compagno - Barrett
+  - Language: Japanese
+    String: 仲間 - バレット
+  - Language: Polish
+    String: 'Towarzysz: Barrett'
+  - Language: Portuguese_Brazil
+    String: Companheiro - Barrett
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+TextDisplayGlobals:
+- 275225:Starfield.esm
+- 275224:Starfield.esm
+Filter: Followers\COM\Companion\
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17620
+  Data:
+    MutagenObjectType: GetQuestRunningConditionData
+    FirstParameter: 003448:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17620
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+  ComparisonValue: 1
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '--- Debug ---'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * DEBUG: start first scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '*STARTUP: Add Bonus Affinity'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsTrueForConditionFormConditionData
+        FirstParameter: 2AF54B:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsTrueForConditionFormConditionData
+        FirstParameter: 2AF546:Starfield.esm
+      ComparisonValue: 1
+    Note: Frontier Destroyed - Dislike
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsTrueForConditionFormConditionData
+        FirstParameter: 2AF549:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsTrueForConditionFormConditionData
+        FirstParameter: 2AF54A:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsTrueForConditionFormConditionData
+        FirstParameter: 2AF548:Starfield.esm
+      ComparisonValue: 1
+    Note: Frontier Destroyed - Like
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '--- Trial Outcomes ---'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: " * VERDICT: Ervin's name is cleared. (A)"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * VERDICT: Hephaestus is guilty. (B)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: " * VERDICT: Helgi's name is cleared. (C)"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Listened to Ervin's slate
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * END: Corrupt Judge is in jail. (D)'
+    ScriptFlagComment: Affects Overall Score
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 11
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * END: Ellie will hire Helgi.'
+    ScriptFlagComment: Affects Overall Score
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 12
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * BONUS: Gave Apartment to Ellie'
+    ScriptFlagComment: Affects the Reward Bonus
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 13
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * BONUS: Gave Apartment to Helgi'
+    ScriptFlagComment: Affects the Reward Bonus
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 14
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: " * Extra: Paid Helgi's debt (gang)"
+    ScriptFlagComment: Affects the XP Bonus
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: " * Extra: Paid Helgi's debt (Clint)"
+    ScriptFlagComment: Affects the XP Bonus
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 16
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Barrett Personal Quest Followup Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 19
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1C7187:Starfield.esm
+        SecondParameter: 6
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1C7187:Starfield.esm
+        SecondParameter: 7
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1C7187:Starfield.esm
+        SecondParameter: 8
+      ComparisonValue: 1
+    Note: Cash reward
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1C7187:Starfield.esm
+        SecondParameter: 6
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1C7187:Starfield.esm
+        SecondParameter: 7
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1C7187:Starfield.esm
+        SecondParameter: 8
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1C7187:Starfield.esm
+        SecondParameter: 6
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1C7187:Starfield.esm
+        SecondParameter: 7
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1C7187:Starfield.esm
+        SecondParameter: 8
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '--- Trial Flags ---'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 23
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * REWARD: Normal'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 24
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * REWARD: High'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 25
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * PENALTY: Cyber Runner was Detected'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '--- Evidence ---'
+    ScriptFlagComment: Set by SG02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 31
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * INFO: Hephaestus paid off the Judge. (SG04)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 32
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * INFO: Witness withdrew evidence. (SG04)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 33
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * INFO: Contact sent Ellie the Foundry Passcode. (SG04)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 35
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: NGPlus_Convo
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 49
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '--- Topic Unlocks ---'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * UNLOCK: Top Level -- Ervin Topic'
+    ScriptFlagComment: Set by SG01 phase 8 and 19
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 51
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "    * Topic Unlocked: Ervin's Death"
+    ScriptFlagComment: 'Set by SG01 '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 52
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "    * Topic Unlocked: Ervin's Personality"
+    ScriptFlagComment: 'Set by SG01 '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 55
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' * UNLOCK: Top Level -- Constellation Topic'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 56
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   *  Topic Unlocked: Joined'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Set Barrett's quest stage
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 69
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Barrett quest end
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 98
+  Unknown: 171
+- Index: 99
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '--- Scenes ---'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG01 Scene Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Intro (SG01)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 111
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Trust Constellation. (Starborn)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 112
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Trust No One. (Introvert)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 113
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Trust Teams.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 114
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Trust Individuals.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Midway (SG01)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 121
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Encouraged Barrett to talk about Ervin.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 122
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Encouraged Barrett to move on.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: End (SG01)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 190
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG01 Scene Ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 199
+  Unknown: 171
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG02 Scene Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 205
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Barrett quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 207
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: MQ207 checkpoint
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 208
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Barrett power quest start
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Intro (SG02)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 211
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Player promised coordinates to mine as reward.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 212
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Constellation pays the contact.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 213
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Player pays the contact.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 214
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Barrett pays the contact.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 215
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Nobody paid the contact.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 216
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * PAID: Player pays the contact. (SG04)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Midway (SG02)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 221
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: "Ervin matters."'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 222
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: "Ervin is gone."'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 230
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: End (SG02)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 290
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG02 Scene Ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 299
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG03 Scene Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Intro (SG03)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Midway (SG03)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 330
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: End (SG03)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 331
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Investigate Hephaestus (SG03)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 332
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Investigate Witness (SG03)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG03 Scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 390
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG03 Scene Ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 399
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG04 Scene Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Intro (SG04)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Midway (SG04)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 421
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: illegal route approved. (SG04)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 422
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Legal route only. (SG04)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 425
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * PAID: Paid Cyber Runner. (SG04)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 430
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: End (SG04)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 431
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Pressured Barrett to get Power. (SG04)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Cooldown expired
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 490
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG04 Scene Ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 499
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG05 Scene Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Intro (SG05)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 515
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * RISK: Assess Cyber Runner risks for detection.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 520
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Midway (SG05)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 521
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Use Detective for Barrett. (SG05)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 522
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Use Detective for Player. (SG05)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 525
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "      * CHOICE: Ervin's Apartment Known. (SG05)"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 530
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: End (SG05)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 540
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG05 Scene Ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 549
+  Unknown: 171
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Personal Quest Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 560
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Personal Quest Ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 599
+  Unknown: 171
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG06 Scene Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Intro (SG06)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 620
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Midway (SG06)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 630
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: End (SG06)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 690
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG06 Scene Ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 699
+  Unknown: 171
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG07 Scene Progress
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Intro (SG07)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 720
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Midway (SG07)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 730
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: End (SG07)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 731
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Friendship Option Selected.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 732
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Romance Option Selected.'
+    ScriptFlagComment: Increment Romance
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 733
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Romance Option Started'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 740
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG07 Scene Ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 749
+  Unknown: 171
+- Index: 750
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Romance Decision Made
+    ScriptFlagComment: Sets and Actor Value if the player and Barrett get involved in a romance.COM_Companion_Barrett_AV_PlayerRomancedBarrettBefore
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 799
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG08 Scene Progress
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Intro (SG08)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 811
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Player interested in Commitment.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 812
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Starborn optional checkpoint.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 815
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player postponed commitment
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: Midway (SG08)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 821
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Player has cold feet. (SG08)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 830
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '   Checkpoint: End (SG08)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 831
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Vasco will officiate. (SG08)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 832
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Ellie will officiate. (SG08)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 833
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '      * CHOICE: Player suggested Ellie as an officiant. (SG08)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 840
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG08 Scene Ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 849
+  Unknown: 171
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Commitment Quest Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 950
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Commitment BREAKUP
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Commitment Quest Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 171
+- Index: 5000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Anger Scene - Speech Challenge Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5010
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Anger Scene - Speech Challenge Fail
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9999
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 900
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Barrett.
+    - Language: English
+      String: Talk with Barrett
+    - Language: Spanish
+      String: Habla con Barrett.
+    - Language: French
+      String: Parlez à Barrett.
+    - Language: Italian
+      String: Parla con Barrett
+    - Language: Japanese
+      String: バレットと話す
+    - Language: Polish
+      String: Porozmawiaj z Barrettem
+    - Language: Portuguese_Brazil
+      String: Fale com Barrett
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Barrett
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 005787:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: ActiveCompanion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: PlayerShipCrewMarker
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 6
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 4
+  Name: playerShipInteriorLocation
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  ExternalAliasLocation:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 9
+- MutagenObjectType: QuestLocationAlias
+  ID: 12
+  Name: BarrettTempleLocation
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: HarveyGiftName
+  Flags:
+  - Optional
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  ALFG: 0
+  DisplayName: 02643D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: BarrettShip
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 03F7E8:Starfield.esm
+  VoiceTypes: Null

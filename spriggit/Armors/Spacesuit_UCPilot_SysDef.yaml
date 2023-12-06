@@ -1,0 +1,148 @@
+FormKey: 2AAF44:Starfield.esm
+MajorRecordFlagsRaw: 64
+EditorID: Spacesuit_UCPilot_SysDef
+StarfieldMajorRecordFlags:
+- 0x40
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EB9:Starfield.esm
+  Workbench: 276B9B:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Anzug: SysDef (Ass)'
+  - Language: English
+    String: SysDef Ace Spacesuit
+  - Language: Spanish
+    String: Traje espacial de as del SisDef
+  - Language: French
+    String: Combinaison de pilote chevronné du SysDef
+  - Language: Italian
+    String: Tuta spaziale Asso DifSis
+  - Language: Japanese
+    String: 防衛システムエース用宇宙服
+  - Language: Polish
+    String: Skafander asa SysObu
+  - Language: Portuguese_Brazil
+    String: Traje Espacial de Ás da DefSis
+WorldModel:
+  Male:
+    File: SetDressing\SpaceSuitContainer_Green.nif
+  Female:
+    File: SetDressing\SpaceSuitContainer_Green.nif
+FirstPersonFlags: SSBODY
+PickupSound:
+  Start: de17433a-89a8-16f1-86d6-7114a3b197bb
+DropdownSound:
+  Start: c02d4adb-7d05-caf3-0f67-b157fe214496
+Race: 00347D:Starfield.esm
+Keywords:
+- 03ED74:Starfield.esm
+- 0E8D7B:Starfield.esm
+- 11A479:Starfield.esm
+- 23C7C0:Starfield.esm
+- 30C1EF:Starfield.esm
+Description:
+  TargetLanguage: English
+InstanceNaming: 184BC1:Starfield.esm
+Armatures:
+- AddonIndex: 0
+  AddonModel: 009ECC:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 009ECB:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 009ECD:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 162B9D:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 398092:Starfield.esm
+Value: 6325
+Weight: 7.4
+ArmorRating: 64
+Unused: 0x000000
+Resistances:
+- DamageType: 023190:Starfield.esm
+  Value: 64
+- DamageType: 060A81:Starfield.esm
+  Value: 64
+AttachParentSlots:
+- 11E2C1:Starfield.esm
+- 088C9C:Starfield.esm
+- 0B2642:Starfield.esm
+- 0B2646:Starfield.esm
+- 0B2649:Starfield.esm
+- 1E32C8:Starfield.esm
+- 329ABC:Starfield.esm
+- 329ABD:Starfield.esm
+- 1AEB52:Starfield.esm
+- 157D41:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Standard
+    - Language: English
+      String: Default
+    - Language: Spanish
+      String: Predeterminado
+    - Language: French
+      String: Par défaut
+    - Language: Italian
+      String: Predefinita
+    - Language: Japanese
+      String: デフォルト
+    - Language: Polish
+      String: Domyślny
+    - Language: Portuguese_Brazil
+      String: Padrão
+  Default: True
+  Includes:
+  - Mod: 11E2BB:Starfield.esm
+    DontUseAll: True
+  - Mod: 1CFA0B:Starfield.esm
+    DontUseAll: True
+  - Mod: 380C54:Starfield.esm
+    DontUseAll: True
+  - Mod: 380C55:Starfield.esm
+    DontUseAll: True
+  - Mod: 380C56:Starfield.esm
+    DontUseAll: True
+  - Mod: 1E94CC:Starfield.esm
+    DontUseAll: True
+  - Mod: 1AEB54:Starfield.esm
+    DontUseAll: True
+  - Mod: 157D48:Starfield.esm
+    DontUseAll: True
+  Properties:
+  - MutagenObjectType: ObjectModFormLinkIntProperty`1
+    Property: 14
+    Record: 2AAF46:Starfield.esm
+- IsEditorOnly: True
+  AddonIndex: 0
+  Keywords:
+  - 11E2BF:Starfield.esm
+  Includes:
+  - Mod: 11E2BC:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  AddonIndex: 0
+  Keywords:
+  - 11E2BE:Starfield.esm
+  Includes:
+  - Mod: 11E2BA:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  AddonIndex: 0
+  Keywords:
+  - 11E2BD:Starfield.esm
+  Includes:
+  - Mod: 11E2B9:Starfield.esm
+    DontUseAll: True
+Footstep:
+  Category: b8164525-fc08-5327-a25f-c16a7b3878a8
+  Value: 1c904579-7883-d9f9-a82c-befbe65318a8
+MajorFlags:
+- Shield

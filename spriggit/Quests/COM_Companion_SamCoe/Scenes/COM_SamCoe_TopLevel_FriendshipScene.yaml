@@ -1,0 +1,167 @@
+FormKey: 23EB56:Starfield.esm
+EditorID: COM_SamCoe_TopLevel_FriendshipScene
+Flags:
+- ShowAllText
+- Interruptable
+- 0x20
+- DisableDialogueCamera
+- 0x2000
+Phases:
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: 1st
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 2835233
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: 2nd
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 2835233
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 2835233
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      RunOnType: QuestAlias
+      Unknown3: 0
+      FirstParameter: 2835233
+    ComparisonValue: 1
+  EditorWidth: 500
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+- ID: 4294967294
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: -2
+  Index: 1
+  Flags: []
+  Topic: 23EEDA:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 23EEDB:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 3
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 23EEF1:Starfield.esm
+    NpcResponse: 23EEF2:Starfield.esm
+  - PlayerChoice: 23EEDC:Starfield.esm
+    NpcResponse: 23EEDD:Starfield.esm
+  - PlayerChoice: 23EEDE:Starfield.esm
+    NpcResponse: 23EEDF:Starfield.esm
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 4
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 23EEE0:Starfield.esm
+    NpcResponse: 23EEE1:Starfield.esm
+  - PlayerChoice: 23EEE2:Starfield.esm
+    NpcResponse: 23EEE3:Starfield.esm
+- MutagenObjectType: StartSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 6
+  Flags: []
+  StartPhase: 4
+  EndPhase: 4
+  StartScenes:
+  - LCEPScene: 23EB57:Starfield.esm
+    INTTPhaseIndex: 10
+    StartPhaseForScene: Romance Previously Flirted
+    Conditions: []
+- MutagenObjectType: StartSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 7
+  Flags: []
+  StartPhase: 5
+  EndPhase: 5
+  StartScenes:
+  - LCEPScene: 23EB54:Starfield.esm
+    StartPhaseForScene: Start Phase
+    Conditions: []
+Quest: 26C5ED:Starfield.esm
+LastActionIndex: 7
+VNAM: 0x0300000003000000030000000300000000000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0xB40C00
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 26B9EB:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0xB40C00
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 2AF54B:Starfield.esm
+BOLV: '[]'
+Index: 0
+SCPI: 0x3300

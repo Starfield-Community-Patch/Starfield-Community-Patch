@@ -1,0 +1,32 @@
+FormKey: 1E9E43:Starfield.esm
+MajorRecordFlagsRaw: 64
+EditorID: COM_Andreja_ShipEmbark
+StarfieldMajorRecordFlags:
+- 0x40
+Flags:
+  Flags:
+  - ChildInfosDontInheritResetData
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 073E58:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsOnPlayerHomeSpaceShipConditionData
+    RunOnType: QuestAlias
+    Unknown3: 0
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 214D8A:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: 0
+MajorFlags:
+- InfoGroup

@@ -1,0 +1,560 @@
+FormKey: 009E99:Starfield.esm
+EditorID: COM_Companion_SarahMorgan
+VirtualMachineAdapter:
+  Scripts:
+  - Name: com_companionquestscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 009E99:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShipCrewMarker
+      Object: 009E99:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShipInteriorLocation
+      Object: 009E99:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentQuest
+      Object: 27B667:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CompanionCheckPerk
+      Object: 1C514C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Companion_Andreja
+      Object: 0059A7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_1_Friendship
+      Object: 00D84F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_2_Affection
+      Object: 00D84E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_3_Commitment
+      Object: 2B5EC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerCoolDownTimerExpired
+      Object: 2C8DF2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerSceneCompleted
+      Object: 2C7AE3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerSecondChances
+      Object: 2C7AE7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentDesired
+      Object: 27B78B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentPossible
+      Object: 03016D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentQuest_Started
+      Object: 030167:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentRefusedPermanently
+      Object: 2B5ED0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CurrentStoryGateTimerExpired
+      Object: 2B9007:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_PlayerBecomesRomantic_AndrejaJealous
+      Object: 3EAD2E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtChoice
+      Object: 1EA0D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCooldownDays
+      Object: 1EA0D5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCooldownExpiry
+      Object: 1EA0D6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCount
+      Object: 2C8E56:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_HasBeenRomantic
+      Object: 2B4321:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsCommitted
+      Object: 27B78C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsRomantic
+      Object: 2BFAB9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PersonalQuest_Finished
+      Object: 073743:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PersonalQuest_Started
+      Object: 073742:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_StarbornSaveActorValue_MaxStoryGate
+      Object: 31C39D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_StoryGatesCompleted
+      Object: 2B9006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PersonalQuest
+      Object: 2C7C11:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: PrioritizedAngerReasons
+      Objects:
+      - Name: ''
+        Object: 2C2A36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: StoryGateData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 1
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9008:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9011:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9012:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9013:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 5
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9014:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 6
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9015:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 7
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9016:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: GateNumber
+          Data: 8
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9017:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WantsToTalkAnnouncementScene
+      Object: 2BCB8F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WantsToTalkConditionForm
+      Object: 2BCB91:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SarahMorgan
+      Object: 009E99:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SarahMorgan_Q01
+      Object: 2C7C11:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Botany
+      Object: 21B8CA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Lasers
+      Object: 21B8E4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_Ship_Astrodynamics
+      Object: 01BF38:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+  Fragments:
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0105_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0115_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 205
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0205_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 405
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0405_Item_00
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 415
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0415_Item_00
+  - Stage: 705
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0705_Item_00
+  - Stage: 710
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0710_Item_00
+  - Stage: 715
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0715_Item_00
+  - Stage: 750
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0750_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Begleiterin – Sarah Morgan
+  - Language: English
+    String: Companion - Sarah Morgan
+  - Language: Spanish
+    String: 'Acompañante: Sarah Morgan'
+  - Language: French
+    String: Compagnon - Sarah Morgan
+  - Language: Italian
+    String: Compagno - Sarah Morgan
+  - Language: Japanese
+    String: 仲間 - サラ・モーガン
+  - Language: Polish
+    String: 'Towarzyszka: Sara Morgan'
+  - Language: Portuguese_Brazil
+    String: Companheira - Sarah Morgan
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+Filter: Followers\COM\Companion\
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17620
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+  ComparisonValue: 1
+UnusedConditions: []
+Stages:
+- Index: 100
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG01 Scene Choice Made
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 105
+  Unknown: 114
+  LogEntries:
+  - Flags: []
+    Note: SG01 Scene - Player chose "Body and mind out of sync"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG01 Scene - Player chose "Raw energy through body"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 115
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG01 Scene - Player chose "Pushed through galaxy"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 128
+  LogEntries:
+  - Flags: []
+    Note: SG01 Scene - Player chose "Too overwhelmed to feel anything"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG02 Scene Choice Made
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 205
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG02 Scene - Player chose "Like Journey"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG02 Scene - Player chose "Like Destinations"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 215
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG02 Scene - Player chose "Pilgrim"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG03 Scene Choice Made
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 305
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG03 Scene - Player chose "Pushed harder"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG03 Scene - Player chose "Battles Cant Win"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 315
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG03 Scene - Player chose "Military Calling"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG03 Scene - Post
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG04 Scene Choice Made
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 405
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG04 Scene - Player chose "Would have stayed"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG04 Scene - Player chose "Would have run"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 415
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: SG04 Scene - Player chose "Don't know"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SG04 Scene - Player chose "Starship Command Comment"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Romance Scene Choice Made
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 705
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Romance Scene - Player chose "Focus on the now"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Romance Scene - Player chose "Deserve to be with someone..."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 715
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Romance Scene - Player chose "Lost and needs help"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 750
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Set COM_Quest_SarahMorgan_Q01 Stage
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Anger Scene - Speech Challenge Win
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5010
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Anger Scene - Speech Challenge Lose
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Sarah Morgan.
+    - Language: English
+      String: Talk with Sarah Morgan
+    - Language: Spanish
+      String: Habla con Sarah Morgan.
+    - Language: French
+      String: Parlez à Sarah Morgan.
+    - Language: Italian
+      String: Parla con Sarah Morgan
+    - Language: Japanese
+      String: サラ・モーガンと話す
+    - Language: Polish
+      String: Porozmawiaj z Sarą Morgan
+    - Language: Portuguese_Brazil
+      String: Fale com Sarah Morgan
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: SarahMorgan
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 005983:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: ActiveCompanion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: PlayerShipCrewMarker
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 6
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 4
+  Name: playerShipInteriorLocation
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  ExternalAliasLocation:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 9

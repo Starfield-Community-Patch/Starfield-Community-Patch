@@ -1,0 +1,118 @@
+FormKey: 0C5993:Starfield.esm
+EditorID: CityAkilaCityHenryFilburnHouse
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Henry Filburns Haus
+  - Language: English
+    String: Henry Filburn's House
+  - Language: Spanish
+    String: Casa de Henry Filburn
+  - Language: French
+    String: Maison d'Henry Filburn
+  - Language: Italian
+    String: Casa di Henry Filburn
+  - Language: Japanese
+    String: ヘンリー・フィルバーンの家
+  - Language: Polish
+    String: Dom Henry'ego Filburn'a
+  - Language: Portuguese_Brazil
+    String: Casa de Henry Filburn
+Flags:
+- IsInteriorCell
+- CantTravelFromHere
+- 0x10000
+- 0x20000
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 0.7
+  FogFarColor: '#002C2418'
+  Unknown1: 659731
+  ForColorHighNear: '#00000080'
+  ForColorHighFar: '#00635F4B'
+  HighDensityScale: 0.7
+  FarHeightMid: 10000
+LightingTemplate: 0300E2:Starfield.esm
+WaterHeight: 3.4028235E+38
+XILS: 1
+Location: 31D696:Starfield.esm
+AcousticSpace: 1CB751:Starfield.esm
+ImageSpace: 1BF2FB:Starfield.esm
+Music: 02428C:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
+Traversals:
+- Unknown1: 5
+  From: -17.670969, -2.5803177, -3.86384
+  To: -18.801384, -2.257347, -3.9039028
+  UnknownVector: 0.88585514, 6.479401, 1.4349201
+  Unknown: 0xFE44FE44E9347335
+- Unknown1: 58
+  From: -19.268816, -4.664546, -3.9039028
+  To: -22.253426, -4.47801, -3.903903
+  UnknownVector: 2.283514, 6.423467, 1.2292341
+  Unknown: 0xC644C64498379D39
+- Unknown1: 154
+  From: -27.469236, -4.022049, -3.9039025
+  To: -27.469236, -5.545222, -3.9039025
+  UnknownVector: 1.8346028, 4.0723605, 1.1475258
+  Unknown: 0x484248426A340034
+- Unknown1: 195
+  From: -25.519236, -3.362958, -3.9039025
+  To: -25.519236, -4.3879576, -3.88062
+  UnknownVector: 2.2022693, 2.3329523, 0.8142053
+  Unknown: 0x484248429A359D35
+- Unknown1: 243
+  From: -27.12743, -5.527168, -3.9039023
+  To: -28.035713, -3.407846, -3.9039025
+  UnknownVector: 2.2814872, 4.9571724, 1.1394598
+  Unknown: 0xE145E1458E367F34
+- Unknown1: 199
+  From: -19.172832, -4.670545, -3.9039028
+  To: -22.28169, -4.476244, -3.9039025
+  UnknownVector: 2.3881671, 6.39767, 1.2135283
+  Unknown: 0xC644C644D5368039
+- Unknown1: 272
+  From: -24.055826, -2.5825944, -3.8721514
+  To: -21.078344, -1.391597, -3.9039025
+  UnknownVector: 3.1445243, 4.971082, 1.0067767
+  Unknown: 0xC33CC33C55363934
+- Unknown1: 282
+  From: -23.964235, -1.9796246, -3.88979
+  To: -21.137985, -1.9796246, -3.9039025
+  UnknownVector: 2.6492202, 5.21954, 1.1011205
+  Unknown: 0x483E483ED7368D34
+- Unknown1: 309
+  From: -25.539995, -4.387094, -3.8841724
+  To: -25.454723, -3.3638215, -3.9039025
+  UnknownVector: 2.2047327, 2.2420628, 0.7937928
+  Unknown: 0x522D522D93363834
+- Unknown1: 339
+  From: -17.769236, -1.912958, -3.870569
+  To: -18.724371, -1.912958, -3.9039025
+  UnknownVector: 0.721408, 6.4689817, 1.4597372
+  Unknown: 0xB644B6449A35F535
+- Unknown1: 419
+  From: -21.022644, -1.5379579, -3.9039025
+  To: -24.154236, -1.5379579, -3.887869
+  UnknownVector: 3.237069, 4.761749, 0.97375184
+  Unknown: 0xB644B64485345235
+- Unknown1: 383
+  From: -22.351023, -4.4518647, -3.9039025
+  To: -19.162077, -4.8270373, -3.9039025
+  UnknownVector: 2.4821308, 6.3452163, 1.1979152
+  Unknown: 0xC03EC03E2D390137
+- Unknown1: 436
+  From: -21.133818, -2.1546245, -3.903903
+  To: -23.964235, -2.1546245, -3.8862054
+  UnknownVector: 2.6491914, 5.257106, 1.104013
+  Unknown: 0xB644B644A334D736
+- Unknown1: 439
+  From: -24.059237, -1.4129579, -3.8959138
+  To: -21.052872, -1.4129579, -3.9039025
+  UnknownVector: 3.0318878, 4.855653, 1.0126259
+  Unknown: 0x483E483E14360934

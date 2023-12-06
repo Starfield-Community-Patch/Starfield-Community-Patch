@@ -1,0 +1,124 @@
+FormKey: 33B76B:Starfield.esm
+EditorID: CityAkilaCityEnhance
+Flags:
+- IsInteriorCell
+- CantTravelFromHere
+- 0x10000
+- 0x20000
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 0.7
+  FogFarColor: '#002C2418'
+  Unknown1: 659731
+  ForColorHighNear: '#00000080'
+  ForColorHighFar: '#00635F4B'
+  HighDensityScale: 0.7
+  FarHeightMid: 10000
+LightingTemplate: 0300E2:Starfield.esm
+WaterHeight: 3.4028235E+38
+XILS: 1
+Location: 33B8B1:Starfield.esm
+AcousticSpace: 04724C:Starfield.esm
+ImageSpace: 1BF2FB:Starfield.esm
+Music: 02428C:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
+Traversals:
+- Unknown1: 22
+  From: -0.13228571, -7.7050724, 3.9443734
+  To: -1.731934, -7.6565986, 3.9443731
+  UnknownVector: 1.5989215, 4.909482, 1.2559493
+  Unknown: 0xBE44BE44F8372E34
+- Unknown1: 10
+  From: -0.76298475, -10.063549, 3.944373
+  To: -0.76298475, -6.6897993, 3.996873
+  UnknownVector: 3.2302208, 5.173211, 1.0126191
+  Unknown: 0x00000000833D8F34
+- Unknown1: 7
+  From: -0.13497883, -6.991793, 3.9610066
+  To: -2.9859743, -9.842789, 3.9443731
+  UnknownVector: 3.571051, 5.5232882, 0.9968542
+  Unknown: 0xDB43DB4350363B3B
+- Unknown1: 52
+  From: -1.4748197, -10.033752, 3.9443734
+  To: -1.3586216, -7.0125933, 3.9699736
+  UnknownVector: 2.8356602, 5.253742, 1.0758636
+  Unknown: 0xEC28EC28B23D2537
+- Unknown1: 106
+  From: 0.4025994, -7.721281, 3.9443731
+  To: -2.9701715, -7.619076, 3.9443734
+  UnknownVector: 3.5627751, 4.645546, 0.9165523
+  Unknown: 0xBE44BE445D34E534
+- Unknown1: 108
+  From: -3.3304656, -12.001049, 3.9443731
+  To: -6.21491, -12.001049, 3.9443731
+  UnknownVector: 1.9183975, 7.375009, 1.3163146
+  Unknown: 0xB644B644B43CFE3A
+- Unknown1: 206
+  From: -2.438854, -9.711137, 3.9443731
+  To: -2.3453248, -7.279379, 3.9443731
+  UnknownVector: 1.8582276, 6.423643, 1.2892038
+  Unknown: 0xEC28EC28263F2B34
+- Unknown1: 207
+  From: 1.3259044, -3.144799, 3.9486055
+  To: -3.2412834, -3.144799, 3.9657178
+  UnknownVector: 2.7501924, 8.155936, 1.2455686
+  Unknown: 0xB644B6440E349037
+- Unknown1: 240
+  From: -3.3342135, -12.788549, 3.9443731
+  To: -6.05516, -12.788549, 3.9443736
+  UnknownVector: 1.8167655, 7.3461585, 1.3283527
+  Unknown: 0xB644B644F83ABE3B
+- Unknown1: 371
+  From: -3.4328623, -10.167854, 3.9443731
+  To: -3.323591, -7.3268023, 3.9443731
+  UnknownVector: 3.070684, 4.5415506, 0.97626996
+  Unknown: 0xEC28EC28F03B5F35
+- Unknown1: 379
+  From: -0.96298456, -6.6897993, 3.996873
+  To: -0.96298456, -10.063549, 3.9443731
+  UnknownVector: 3.2357535, 5.0638328, 1.0021979
+  Unknown: 0x484248428F34833D
+- Unknown1: 347
+  From: -6.3821683, -12.308893, 3.9443731
+  To: -3.0432246, -12.599234, 3.9443731
+  UnknownVector: 2.2535586, 7.294828, 1.2711712
+  Unknown: 0xA13EA13E5E3AA13A
+- Unknown1: 405
+  From: -2.6332676, -7.273103, 3.9443736
+  To: -2.226681, -9.712615, 3.944373
+  UnknownVector: 1.8781003, 6.4591103, 1.287831
+  Unknown: 0xF441F4413334953E
+- Unknown1: 424
+  From: -3.4328623, -10.167854, 3.9443731
+  To: -3.323591, -7.3268023, 3.9443731
+  UnknownVector: 3.070684, 4.5415506, 0.97626996
+  Unknown: 0xEC28EC28F03B5F35
+- Unknown1: 487
+  From: -1.6374979, -7.704205, 3.9443731
+  To: -0.2242943, -7.7925305, 3.9443731
+  UnknownVector: 1.292181, 5.374859, 1.3348618
+  Unknown: 0x883E883E6C34A238
+- Unknown1: 444
+  From: -3.058573, -7.6168575, 3.9443734
+  To: -0.45465502, -9.569799, 3.9443727
+  UnknownVector: 2.1763911, 7.335667, 1.2823825
+  Unknown: 0x6E406E408E34433D
+- Unknown1: 486
+  From: -1.6196718, -6.929161, 3.9711637
+  To: -3.6975725, -9.838221, 3.9443731
+  UnknownVector: 3.2250996, 5.412919, 1.0334595
+  Unknown: 0x864386432437FC38
+- Unknown1: 467
+  From: -6.197848, -11.745573, 3.9443731
+  To: -3.323006, -11.995558, 3.944373
+  UnknownVector: 1.918955, 7.3760514, 1.3162782
+  Unknown: 0xA13EA13E073B8B3C
+- Unknown1: 549
+  From: -3.5306215, -6.924578, 3.9479933
+  To: -5.8810263, -7.0314145, 3.9443731
+  UnknownVector: 1.5728786, 7.3348527, 1.3595564
+  Unknown: 0xAB44AB440F340D3C

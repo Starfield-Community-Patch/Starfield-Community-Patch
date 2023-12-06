@@ -1,0 +1,108 @@
+FormKey: 27BC6F:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 198BC6:Starfield.esm
+  WEMFile: 3304492
+  TRDAUnknown: 6.266667
+  TROTs:
+  - UnknownVoiceType: 014E5A:Starfield.esm
+    UnknownFloat: 5.1000004
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Laut ihrem offiziellen Profil fördert die Handelsaufsicht „den freien Handel und sorgt für wirtschaftliche Stabilität in der gesamten Galaxie“.
+    - Language: English
+      String: According to their official profile, the Trade Authority "promote free trade and provide economic stability across the galaxy."
+    - Language: Spanish
+      String: Según su perfil oficial, la Autoridad Comercial “promueve el comercio libre y aporta estabilidad económica a toda la galaxia”.
+    - Language: French
+      String: D'après leur plaquette, l'Autorité commerciale “promeut le libre-échange et œuvre pour la stabilité économique de la galaxie.”
+    - Language: Italian
+      String: Ufficialmente, l’Autorità Commerciale “promuove il libero commercio e fornisce stabilità economica in tutta la galassia”.
+    - Language: Japanese
+      String: 公式プロフィールには、貿易管理局は「自由貿易を促進し、銀河系全体に経済的安定をもたらす」ってある
+    - Language: Polish
+      String: Według oficjalnego profilu to instytucja, która „promuje wolny handel i zapewnia w galaktyce ekonomiczną stabilność”.
+    - Language: Portuguese_Brazil
+      String: De acordo com o perfil oficial dela, a Autoridade Comercial “promove o livre comércio e oferece estabilidade econômica por toda a galáxia”.
+  ScriptNotes: a little sarcasm on the quote, since everyone knows it isn't true
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x8077C03BC839D601
+- Emotion: 0C866C:Starfield.esm
+  WEMFile: 6602893
+  TRDAUnknown: 7.7000003
+  TROTs:
+  - UnknownVoiceType: 014E5A:Starfield.esm
+    UnknownFloat: 5.8
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: In Wahrheit betreiben sie das größte Schmugglernetzwerk in den Besiedelten Systemen.
+    - Language: English
+      String: Truth is, they run the largest contraband network in the Settled Systems.
+    - Language: Spanish
+      String: Pero llevan la red de contrabando más grande de los Sistemas Colonizados.
+    - Language: French
+      String: En vérité, ils dirigent le plus grand réseau de contrebande des Systèmes occupés.
+    - Language: Italian
+      String: La verità è che gestisce la più grande rete di contrabbando dei Sistemi Colonizzati.
+    - Language: Japanese
+      String: でも真実は、有人星系で最大の禁制品ネットワークを運営してる
+    - Language: Polish
+      String: A tak naprawdę to największa siatka przemytnicza w Zasiedlonych Układach.
+    - Language: Portuguese_Brazil
+      String: A verdade é que ela controla a maior rede de contrabando dos Sistemas Colonizados.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x40DFB843C839D601
+  BNAM: 2C02F2:Starfield.esm
+  STRV: $(Subgraph)\Relaxed_Lib_Shock_L02.af
+  VCLR: Null
+  FLMV: 0x00000000
+  FLAV: 0x00000000
+  QUAL: True
+  LVCR: 0
+  ATAC: 0x00000000
+  XNAM: True
+- Emotion: 0C866C:Starfield.esm
+  WEMFile: 16471220
+  TRDAUnknown: 5.866667
+  TROTs:
+  - UnknownVoiceType: 014E5A:Starfield.esm
+    UnknownFloat: 1.4333334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Mech-Teile, Biotechnologie, Drogen ... nichts ist tabu. Sogar die Crimson Fleet macht Geschäfte mit ihnen.
+    - Language: English
+      String: Mech parts, biotech, drugs... nothing's off limits. And they do business with anybody, even the Crimson Fleet.
+    - Language: Spanish
+      String: Piezas de mecas, biotecnología, drogas... De todo. Y hacen tratos con cualquiera, incluso con la Flota Carmesí.
+    - Language: French
+      String: Pièces détachées de mécas, biotechnologies, drogues... tout ce qu'on peut imaginer. Même la Flotte écarlate fait affaire avec eux.
+    - Language: Italian
+      String: Parti di mech, biotecnologie, droga... non esistono limiti. E fanno affari con tutti, perfino con la Flotta Cremisi.
+    - Language: Japanese
+      String: メックのパーツ、バイオテック、ドラッグ… 何でもありさ。なんたって、紅の艦隊も取引してるぐらいだしな
+    - Language: Polish
+      String: Części do mechów, biotechnologia, narkotyki... Nie unikają niczego. Robią interesy z każdym - nawet z Karmazynową Flotą.
+    - Language: Portuguese_Brazil
+      String: Peças de mecha, biotecnologia, drogas... tem de tudo. E eles fazem negócio com todo mundo, até a Frota Escarlate.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x408874D58439D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 014E55:Starfield.esm
+    SecondParameter: 450
+StartScenePhase: TOPLEVELNEST
+SubtitlePriority: Low

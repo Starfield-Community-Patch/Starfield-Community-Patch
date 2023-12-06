@@ -1,0 +1,83 @@
+FormKey: 117A0B:Starfield.esm
+EditorID: CityAkilaCityPlayerHouseNice
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Kern: Spieler-Unterkunft'
+  - Language: English
+    String: Player House The Core
+  - Language: Spanish
+    String: Apartamento del jugador en el Núcleo
+  - Language: French
+    String: Maison du joueur - Le Noyau
+  - Language: Italian
+    String: Appartamento del giocatore Il Nucleo
+  - Language: Japanese
+    String: プレイヤーの家 コア
+  - Language: Polish
+    String: Dom gracza w Rdzeniu
+  - Language: Portuguese_Brazil
+    String: Casa do Jogador - Núcleo
+Flags:
+- IsInteriorCell
+- CantTravelFromHere
+- 0x10000
+- 0x20000
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 0.7
+  FogFarColor: '#002C2418'
+  Unknown1: 659731
+  ForColorHighNear: '#00000080'
+  ForColorHighFar: '#00635F4B'
+  HighDensityScale: 0.7
+  FarHeightMid: 10000
+LightingTemplate: 0300E2:Starfield.esm
+WaterHeight: 3.4028235E+38
+XILS: 1
+Location: 04B9E2:Starfield.esm
+AcousticSpace: 1CB751:Starfield.esm
+ImageSpace: 1BF2FB:Starfield.esm
+Music: 02428C:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
+Traversals:
+- Unknown1: 239
+  From: 4.283317, -6.471115, 0.087500006
+  To: 1.5926914, -6.471115, 0.0875
+  UnknownVector: 2.7427273, 4.811824, 1.0527297
+  Unknown: 0xB644B64453383E40
+- Unknown1: 331
+  From: 1.5926914, -7.2586155, 0.087500006
+  To: 4.2874184, -7.2586155, 0.087500006
+  UnknownVector: 2.7451138, 4.8149686, 1.0526366
+  Unknown: 0x483E483E403D5C38
+- Unknown1: 396
+  From: 4.2880044, -7.371115, 0.087500006
+  To: 1.5926914, -7.371115, 0.087500006
+  UnknownVector: 2.7454548, 4.8154173, 1.0526233
+  Unknown: 0xB644B6445D38CD3C
+- Unknown1: 447
+  From: 1.5926914, -6.283615, 0.087500006
+  To: 4.2823405, -6.283615, 0.087500006
+  UnknownVector: 2.7421587, 4.8110743, 1.0527519
+  Unknown: 0x483E483EA8405138
+- Unknown1: 530
+  From: 1.5926914, -5.3086157, 0.087500006
+  To: 4.277262, -5.3086157, 0.087500006
+  UnknownVector: 2.7392006, 4.807176, 1.0528675
+  Unknown: 0x483E483E71424738
+- Unknown1: 102
+  From: 4.261546, -4.821883, 0.08750001
+  To: 1.598483, -5.1547666, 0.087500006
+  UnknownVector: 2.738744, 4.806575, 1.0528854
+  Unknown: 0x9744974460380D42
+- Unknown1: 100
+  From: 4.2786293, -5.571115, 0.087500006
+  To: 1.5926914, -5.571115, 0.087500006
+  UnknownVector: 2.739997, 4.808226, 1.0528364
+  Unknown: 0xB644B6444A38F941

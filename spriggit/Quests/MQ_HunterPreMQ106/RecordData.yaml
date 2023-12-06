@@ -1,0 +1,161 @@
+FormKey: 21B201:Starfield.esm
+EditorID: MQ_HunterPreMQ106
+VirtualMachineAdapter:
+  Scripts:
+  - Name: MQHunterPreMQ106Script
+  Script:
+    Name: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hunter
+      Object: 21B201:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC165_ScriptedTeleportSourceExplosion
+      Object: 12033D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQHoldingCellCenterMarker
+      Object: 2A04E3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PreMQ106_Akila_HunterMarker
+      Object: 21C5BB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PreMQ106_NA_HunterMarker
+      Object: 0008B8:Starfield.esm
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 125
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
+    FragmentName: Fragment_Stage_0125_Item_00
+  - Stage: 225
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
+    FragmentName: Fragment_Stage_0225_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
+    FragmentName: Fragment_Stage_1000_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 21B201:Starfield.esm
+      Alias: 0
+    Scripts:
+    - Name: DefaultAliasOnUnload
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 100
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 125
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 700
+    - Name: defaultaliasonunloada
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 225
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 700
+    - Name: MQ204HunterScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Health
+        Object: 0002D4:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LC165_ScriptedTeleportSourceExplosion
+        Object: 12033D:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQHoldingCellCenterMarker
+        Object: 2A04E3:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Starborn_DeathShader
+        Object: 02E550:Starfield.esm
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 80
+  Unused: 0x000000
+UnusedConditions: []
+Stages:
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest Init
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: First scene done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 125
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: First scene done Hunter unloads
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Second scene done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 225
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Second scene done Hunter unloads
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hunter somehow loses half his health
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: MQ106 Started, kill all scenes
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Hunter
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 21C5B4:Starfield.esm
+  VoiceTypes: Null

@@ -1,0 +1,65 @@
+FormKey: 0131BB:Starfield.esm
+Flags:
+  Flags:
+  - 0x2000
+Responses:
+- WEMFile: 9076214
+  TRDAUnknown: 7.466667
+  TROTs:
+  - UnknownVoiceType: 005637:Starfield.esm
+    UnknownFloat: 7.966667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Hm, auch wieder war. Hier unten gibt's zwar keines, aber allein die Metallvorkommen finanzieren unser eigenes Helium.
+    - Language: English
+      String: Not untrue. A shame we won't find any down here, but the metal deposits alone should pay for our OWN helium.
+    - Language: Spanish
+      String: Muy cierto. Es una pena que no haya aquí abajo. Solo con los depósitos de metal ya pagaríamos nuestro propio helio.
+    - Language: French
+      String: C'est pas faux. C'est dommage qu'on en trouve pas ici. Mais grâce aux gisements de métal, on pourra payer notre PROPRE hélium.
+    - Language: Italian
+      String: Non dici il falso. Peccato che qui non ne troveremo. Ma i depositi di metallo dovrebbero bastare a farci acquistare una bella scorta di elio.
+    - Language: Japanese
+      String: ふっ、確かに。残念ながらここにはないけどね。でも、ここの鉱床だけでも私たちのヘリウムはまかなえる
+    - Language: Polish
+      String: To fakt. Szkoda, że akurat helu tutaj nie mamy, ale złoża metali powinny wystarczyć na jego kupno.
+    - Language: Portuguese_Brazil
+      String: Não mentiu. Pena que não tem nenhum aqui embaixo, mas os depósitos de metal vão pagar por nosso hélio.
+  ScriptNotes: Re-record. Need to match the previous recording's time for animations. Only change is "iron" to "metal"
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x9032BA0837EED501
+- WEMFile: 10827125
+  TRDAUnknown: 5.2333336
+  TROTs:
+  - UnknownVoiceType: 005637:Starfield.esm
+    UnknownFloat: 6.2333336
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nach der Aktion, haben wir genug Treibstoff, um vom einen Ende der Besiedelten Systeme zum anderen zu springen.
+    - Language: English
+      String: Hell, after this, we'll have enough jump fuel to bounce from one end of the Settled Systems to the next.
+    - Language: Spanish
+      String: Después de esto, tendremos suficiente combustible para saltar de un extremo a otro de los Sistemas Colonizados.
+    - Language: French
+      String: Et puis après ça, on aura assez de carburant pour passer d'un des Systèmes occupés à l'autre sans problème.
+    - Language: Italian
+      String: Diamine, quando avremo finito qui avremo abbastanza carburante da salto per visitare tutti i Sistemi Colonizzati.
+    - Language: Japanese
+      String: これが終われば、きっと有人星系の端までジャンプできるだけの燃料が手に入る
+    - Language: Polish
+      String: Jak już tu skończymy, będziemy mieli dość paliwa, aby przeskoczyć z jednego końca Zasiedlonych Układów na drugi.
+    - Language: Portuguese_Brazil
+      String: Daí, a gente vai ter combustível suficiente pra dobrar os Sistemas Colonizados de uma ponta à outra.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA0F0A8FB8B0FD301
+WED0:
+  Start: df8e4716-3fce-3eca-3bf9-7ec4b2a89ab9
+StartScenePhase: ''
+SubtitlePriority: Low

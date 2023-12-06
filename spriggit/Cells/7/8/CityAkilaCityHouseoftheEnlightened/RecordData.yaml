@@ -1,0 +1,103 @@
+FormKey: 1A0B23:Starfield.esm
+EditorID: CityAkilaCityHouseoftheEnlightened
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Haus der Aufklärung
+  - Language: English
+    String: House of the Enlightened
+  - Language: Spanish
+    String: Casa de la Iluminación
+  - Language: French
+    String: Maison des Lumières
+  - Language: Italian
+    String: Casa degli Illuminati
+  - Language: Japanese
+    String: 覚醒者の家
+  - Language: Polish
+    String: Dom Oświecenia
+  - Language: Portuguese_Brazil
+    String: Casa Iluminista
+Flags:
+- IsInteriorCell
+- CantTravelFromHere
+- 0x10000
+- 0x20000
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 0.7
+  FogFarColor: '#002C2418'
+  Unknown1: 659731
+  ForColorHighNear: '#00000080'
+  ForColorHighFar: '#00635F4B'
+  HighDensityScale: 0.7
+  FarHeightMid: 10000
+LightingTemplate: 0300E2:Starfield.esm
+WaterHeight: 3.4028235E+38
+XILS: 1
+Location: 33D001:Starfield.esm
+AcousticSpace: 1CB751:Starfield.esm
+ImageSpace: 1BF2FB:Starfield.esm
+Music: 02428C:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
+Traversals:
+- Unknown1: 644
+  From: -5.294053, -7.096209, 0.853769
+  To: -4.9251223, -8.203003, 0.6605967
+  UnknownVector: 2.0140975, 2.507727, 0.89413357
+  Unknown: 0xA441A441D03AA335
+- Unknown1: 648
+  From: -4.6899962, -5.9583797, 0.63640314
+  To: -4.6899962, -3.650463, 0.61059666
+  UnknownVector: 2.4279814, 4.635297, 1.0882883
+  Unknown: 0x000000007A39223B
+- Unknown1: 681
+  From: -5.6855516, -5.4333797, 0.7757116
+  To: -4.128885, -5.4333797, 0.6605967
+  UnknownVector: 1.93485, 3.803194, 1.1001785
+  Unknown: 0x483E483E233EEE38
+- Unknown1: 708
+  From: -4.661543, -7.381845, 0.62101895
+  To: -6.1524324, -8.044462, 0.6579373
+  UnknownVector: 1.9079881, 4.237405, 1.1477156
+  Unknown: 0x4B444B44C93BD436
+- Unknown1: 717
+  From: -4.6319833, -7.9220543, 0.66059667
+  To: -5.9553385, -7.0398192, 0.80724245
+  UnknownVector: 2.009244, 4.0679493, 1.1120241
+  Unknown: 0x4D454D45DA39BB3D
+- Unknown1: 213
+  From: 1.5350041, -1.7226653, 0.61059666
+  To: 1.5350041, -2.664309, 0.74090976
+  UnknownVector: 1.0795931, 4.4276485, 1.3316332
+  Unknown: 0x4842484266344C35
+- Unknown1: 323
+  From: -3.0166385, -6.4449015, 0.66059667
+  To: -2.5362084, -3.0818362, 0.6105966
+  UnknownVector: 3.5771875, 4.605565, 0.9104189
+  Unknown: 0x8A308A3039346A3A
+- Unknown1: 347
+  From: -4.1459494, -5.537613, 0.66059667
+  To: -5.3760924, -5.2642465, 0.6396698
+  UnknownVector: 1.4467587, 4.2483125, 1.2425658
+  Unknown: 0xEE44EE447D391734
+- Unknown1: 361
+  From: -5.1950936, -4.023293, 0.63184977
+  To: -4.172499, -4.932266, 0.6605967
+  UnknownVector: 1.6083912, 4.2062564, 1.2055707
+  Unknown: 0x98409840443C6139
+- Unknown1: 380
+  From: -4.1711607, -4.089545, 0.61394346
+  To: -5.129174, -5.047557, 0.6177199
+  UnknownVector: 2.0359867, 3.2696772, 1.0138618
+  Unknown: 0xDB43DB432F394E36
+- Unknown1: 477
+  From: -4.1711607, -4.089545, 0.61394346
+  To: -5.1838355, -5.102218, 0.62685263
+  UnknownVector: 2.0993776, 3.3649795, 1.0129955
+  Unknown: 0xDB43DB432F393838

@@ -1,0 +1,123 @@
+FormKey: 098046:Starfield.esm
+EditorID: CityAkilaCityMidtownMinerals
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Midtown Minerals
+  - Language: English
+    String: Midtown Minerals
+  - Language: Spanish
+    String: Midtown Minerals
+  - Language: French
+    String: Midtown Minerals
+  - Language: Italian
+    String: Midtown Minerals
+  - Language: Japanese
+    String: ミッドタウン・ミネラルズ
+  - Language: Polish
+    String: Midtown Minerals
+  - Language: Portuguese_Brazil
+    String: Midtown Minerals
+Flags:
+- IsInteriorCell
+- CantTravelFromHere
+- 0x10000
+- 0x20000
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 0.7
+  FogFarColor: '#002C2418'
+  Unknown1: 659731
+  ForColorHighNear: '#00000080'
+  ForColorHighFar: '#00635F4B'
+  HighDensityScale: 0.7
+  FarHeightMid: 10000
+LightingTemplate: 0300E2:Starfield.esm
+WaterHeight: 3.4028235E+38
+XILS: 1
+Location: 34985C:Starfield.esm
+AcousticSpace: 1CB751:Starfield.esm
+ImageSpace: 1BF2FB:Starfield.esm
+Music: 02428C:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
+Traversals:
+- Unknown1: 295
+  From: -3.6662638, -10.8463, 0.55911094
+  To: -5.2072773, -10.503853, 0.5591109
+  UnknownVector: 1.5131398, 5.117211, 1.2832927
+  Unknown: 0xEE44EE441238A038
+- Unknown1: 267
+  From: -4.9097104, -7.0447154, 0.5591109
+  To: -3.7998893, -10.374167, 0.5591109
+  UnknownVector: 3.305074, 5.2084618, 1.005353
+  Unknown: 0xA441A4415D36F536
+- Unknown1: 334
+  From: -3.5246143, -8.733333, 0.5591109
+  To: -5.2496142, -8.733333, 0.5591109
+  UnknownVector: 1.7621788, 4.8015127, 1.2190534
+  Unknown: 0xB644B6449A366638
+- Unknown1: 358
+  From: -5.2496142, -8.424999, 0.5591109
+  To: -3.5246143, -8.424999, 0.55911094
+  UnknownVector: 1.7621788, 4.8015127, 1.2190534
+  Unknown: 0x483E483E66389A36
+- Unknown1: 367
+  From: -3.2246141, -9.275, 0.5591109
+  To: -1.5705963, -9.275, 0.5591109
+  UnknownVector: 1.5955722, 5.0846705, 1.2667271
+  Unknown: 0x483E483E9A36E639
+- Unknown1: 388
+  From: -3.616281, -9.449999, 0.5591109
+  To: -5.1496143, -9.449999, 0.5591109
+  UnknownVector: 1.5554061, 4.8353925, 1.2595782
+  Unknown: 0xB644B6445537CD38
+- Unknown1: 276
+  From: -4.2432246, -7.167491, 0.5591108
+  To: -4.7409534, -11.647037, 0.5591109
+  UnknownVector: 3.5674968, 6.196891, 1.0484426
+  Unknown: 0x81428142673A553A
+- Unknown1: 346
+  From: -1.1798414, -9.049999, 0.559111
+  To: -5.5496144, -9.049999, 0.5591109
+  UnknownVector: 3.7332704, 5.741276, 0.9942447
+  Unknown: 0xB644B644FF376636
+- Unknown1: 400
+  From: -3.5246143, -10.166666, 0.5591109
+  To: -5.2496142, -10.166666, 0.5591109
+  UnknownVector: 1.7621788, 4.8015127, 1.2190534
+  Unknown: 0xB644B6449A366638
+- Unknown1: 298
+  From: -4.3246145, -11.825, 0.5591109
+  To: -4.3246145, -7.0582714, 0.55911076
+  UnknownVector: 3.9173596, 5.9685106, 0.98997855
+  Unknown: 0x000000009A395A39
+- Unknown1: 65
+  From: -4.6996145, -1.5249996, 0.85911083
+  To: -4.6996145, -2.2249994, 0.5591108
+  UnknownVector: 0.7333285, 4.3677917, 1.4044532
+  Unknown: 0x484248427F342C35
+- Unknown1: 83
+  From: -4.6996145, -2.2249994, 0.5591108
+  To: -4.6996145, -1.5249996, 0.85911083
+  UnknownVector: 0.73714507, 4.9737544, 1.4236604
+  Unknown: 0x000000002C357F34
+- Unknown1: 238
+  From: -5.2496142, -10.424999, 0.5591109
+  To: -3.5246143, -10.424999, 0.5591109
+  UnknownVector: 1.7621788, 4.8015127, 1.2190534
+  Unknown: 0x483E483E66389A36
+- Unknown1: 235
+  From: -4.7988257, -11.746843, 0.5591109
+  To: -3.8463225, -7.936839, 0.55911076
+  UnknownVector: 3.3995378, 5.6664257, 1.030418
+  Unknown: 0xD733D733013A473C
+- Unknown1: 204
+  From: -1.2138721, -8.299999, 0.55911094
+  To: -5.456757, -8.299999, 0.5591109
+  UnknownVector: 3.550982, 5.8607316, 1.0260543
+  Unknown: 0xB644B64485362537

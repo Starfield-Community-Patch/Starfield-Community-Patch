@@ -1,0 +1,118 @@
+FormKey: 27A4F1:Starfield.esm
+EditorID: Staryard_Deimos_Dialogue
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_Staryard_Deimos_Dialogue_0027A4F1
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SY_Deimos_100_IntroPA
+      Object: 271034:Starfield.esm
+  Fragments:
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_Staryard_Deimos_Dialogue_0027A4F1
+    FragmentName: Fragment_Stage_0100_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Deimos: Siedlungsdialog'
+  - Language: English
+    String: Deimos - Settlement Dialogue
+  - Language: Spanish
+    String: 'Deimos: diálogo de asentamiento'
+  - Language: French
+    String: Deimos - Settlement Dialogue
+  - Language: Italian
+    String: Deimos - Dialogo insediamento
+  - Language: Japanese
+    String: ダイモス - 入植地の会話
+  - Language: Polish
+    String: Deimos - dialog z osiedla
+  - Language: Portuguese_Brazil
+    String: Deimos - Diálogo de Colônia
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+Location: 27A9A3:Starfield.esm
+Filter: Staryard\
+UnusedConditions: []
+Stages:
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: First time at Deimos
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Met Nikau
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Met Sandra
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Sofia Ruiz
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Found out Nikau was in forty-three combat missions. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: NikuaHenderson
+  Flags: []
+  ALFG: 0
+  UniqueActor: 27A992:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: SandraFullerton
+  Flags: []
+  ALFG: 0
+  UniqueActor: 27A991:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: SofiaRuiz
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 27A990:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: DeimosPA
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 02C8EF:Starfield.esm
+  ForcedVoice: 271035:Starfield.esm
+  VoiceTypes: 271035:Starfield.esm

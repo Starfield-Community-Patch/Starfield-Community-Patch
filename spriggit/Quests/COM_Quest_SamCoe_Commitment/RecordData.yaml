@@ -1,0 +1,755 @@
+FormKey: 0DF7AD:Starfield.esm
+EditorID: COM_Quest_SamCoe_Commitment
+VirtualMachineAdapter:
+  Scripts:
+  - Name: com_commitmentquestscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentGift
+      Object: 17C04D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentGiftAlias
+      Object: 0DF7AD:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CompanionAlias
+      Object: 0DF7AD:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 800
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 9000
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 0DF7AD:Starfield.esm
+          Alias: 7
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 100
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 150
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 0DF7AD:Starfield.esm
+          Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AhnjongSinclair
+      Object: 0DF7AD:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoraCoe
+      Object: 0DF7AD:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EliasCartwright
+      Object: 0DF7AD:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JacobCoe
+      Object: 0DF7AD:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LillianHart
+      Object: 0DF7AD:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SamCoe
+      Object: 0DF7AD:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentCeremonyEnableMarker
+      Object: 0E56D1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentCeremonyMarker_Elias
+      Object: 0DF487:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentCeremonyMarker_Jacob
+      Object: 0DF484:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentCeremonyMarker_Player
+      Object: 0DF486:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentCeremonyMarker_Sam
+      Object: 0DF485:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_OverrideMarker
+      Object: 1BE9E7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_0325_CoraSinclair_BarkScene
+      Object: 0DF48B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_Cora_Start_Marker
+      Object: 1BE9EA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_Marker_RoundUp_Cora
+      Object: 0DF47A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_Marker_RoundUp_Lillian
+      Object: 0DF47B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_Player_Start_Marker
+      Object: 1BE9E9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_PreCeremony
+      Object: 0DF481:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_RoundUp
+      Object: 0DF47F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_State
+      Object: 0DF47D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CQ_TxtReplace_QuestName_SamCoe
+      Object: 2CCF99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrewReassignDisabled
+      Object: 172F8E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DisembarkingCrew
+      Object: 0174A2:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DismissedCrew
+      Object: 0174A2:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SamCoe_CommitmentForeknowledgeAV
+      Object: 326C6E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 325
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0325_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 9000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_9000_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0DF7AD:Starfield.esm
+      Alias: 5
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 325
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 0DF7AD:Starfield.esm
+        Alias: 8
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 20
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Bindung: Sam Coe'
+  - Language: English
+    String: 'Commitment: Sam Coe'
+  - Language: Spanish
+    String: 'Compromiso: Sam Coe'
+  - Language: French
+    String: 'Engagement : Sam Coe'
+  - Language: Italian
+    String: 'Impegno: Sam Coe'
+  - Language: Japanese
+    String: 結婚：サム・コー
+  - Language: Polish
+    String: 'Związek: Sam Coe'
+  - Language: Portuguese_Brazil
+    String: 'Compromisso: Sam Coe'
+Data:
+  Flags:
+  - RunOnce
+  Priority: 40
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+Filter: FollowersSupport\SamCoe\
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG START
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Flags:
+  - RunOnStart
+  LogEntries:
+  - Flags: []
+    Note: Received quest
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sam Coe und ich halten eine Bindungszeremonie in Akila City im Coe-Anwesen ab!
+      - Language: English
+        String: Sam Coe and I are going to have a commitment ceremony! It's going to held in Akila City at the Coe Estate.
+      - Language: Spanish
+        String: ¡Sam Coe y yo vamos a celebrar una ceremonia de compromiso! Será en la finca Coe, en la ciudad de Akila.
+      - Language: French
+        String: Sam Coe et moi allons nous engager mutuellement ! La cérémonie aura lieu à Akila City, au domaine Coe.
+      - Language: Italian
+        String: Sam Coe e io avremo una cerimonia di impegno! Avrà luogo ad Akila City, nella tenuta dei Coe.
+      - Language: Japanese
+        String: サム・コーと誓約式をすることになった！ 会場はアキラ・シティにあるコー家の屋敷だ
+      - Language: Polish
+        String: Wkrótce w posiadłości rodziny Coe w mieście Akila odbędzie ceremonia przyrzeczenia - moja i Sama Coe!
+      - Language: Portuguese_Brazil
+        String: Eu e o Sam vamos oficializar a nossa união com uma cerimônia! Ela será realizada na Propriedade Coe, na cidade de Akila.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  LogEntries:
+  - Flags: []
+    Note: Landed on Akila City
+    ScriptFlagComment: 'CT: Added the line "Alias_CoraCoe.GetActorRef().MoveTo(Commitment_SamCoe_Marker_RoundUp_Cora)" to address and issue for GEN-522930.'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nachdem ich auf Akila eingetroffen bin, sollte ich mich zum Coe-Anwesen begeben und mit Jacob Coe sprechen, damit unsere Bindungszeremonie beginnen kann.
+      - Language: English
+        String: Now that I've arrived on Akila, I should proceed to the Coe Estate and speak to Jacob Coe to get our commitment ceremony started.
+      - Language: Spanish
+        String: Ahora que estoy en Akila, debo dirigirme a la finca Coe y hablar con Jacob Coe para que dé comienzo nuestra ceremonia de compromiso.
+      - Language: French
+        String: Maintenant que je suis sur Akila, je dois rejoindre le domaine Coe et parler à Jacob Coe pour commencer notre cérémonie d'engagement.
+      - Language: Italian
+        String: Ora che mi trovo su Akila, dovrei raggiungere la Tenuta Coe e parlare con Jacob Coe per dare inizio alla cerimonia di impegno.
+      - Language: Japanese
+        String: アキラに到着した。コーの屋敷へ行ってジェイコブ・コーと話し、誓約式を開始しよう
+      - Language: Polish
+        String: Jestem w Akili. Muszę teraz udać się do posiadłości rodziny Coe i porozmawiać z Jacobem Coe, aby rozpocząć ceremonię przyrzeczenia.
+      - Language: Portuguese_Brazil
+        String: Agora que cheguei à Akila, vou seguir para a Propriedade Coe e falar com Jacob Coe para iniciar nossa cerimônia de compromisso.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  LogEntries:
+  - Flags: []
+    Note: Talked to Jacob
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Jakob und der Zeremonieleiter sind bereit, doch Cora ist noch in Sinclairs Buchladen und Lillian Hart wartet am Raumhafen auf mich.
+      - Language: English
+        String: Jacob and the officiate are ready for the ceremony. But Cora is over at Sinclair's bookstore and Lillian Hart needs to be picked up at the Starport.
+      - Language: Spanish
+        String: Jacob y el oficiante están preparados para la ceremonia. Pero Cora está en la librería Sinclair's y también tengo que recoger a Lillian Hart en el espaciopuerto.
+      - Language: French
+        String: Jacob et l'officier sont prêts pour la cérémonie. Mais Cora est à la librairie de Sinclair, et il faut chercher Lillian Hart au port spatial.
+      - Language: Italian
+        String: Jacob e la persona che dovrà celebrare la cerimonia sono pronti, ma Cora è ancora alla libreria di Sinclair e qualcuno deve passare a prendere Lillian Hart allo spazioporto.
+      - Language: Japanese
+        String: ジェイコブと司会は式の準備ができている。だがコラはシンクレア・ブックスにおり、リリアン・ハートは宇宙港まで迎えにいかなければならない
+      - Language: Polish
+        String: Jacob i osoba, która poprowadzi ceremonię, są gotowi. Brakuje tylko Cory, która jest w księgarni Sinclair, oraz Lillian Hart, którą trzeba odebrać z portu kosmicznego.
+      - Language: Portuguese_Brazil
+        String: Jacob e a pessoa que vai oficializar a cerimônia já estão prontos para começar, mas a Cora está na Sinclair's Books e Lillian Hart precisa ser recebida no porto sideral.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 230
+  LogEntries:
+  - Flags: []
+    Note: PC told Jacob they're responsible for no Cora visits
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Fetched Cora
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 325
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Sinclair scene when getting close to Cora
+    ScriptFlagComment: Fired off of Sinclar's alias script
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Fetched Lillian
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Everyone has been picked up
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Cora Coe und Lillian Hart hergeholt. Ich sollte mich zum Coe-Anwesen begeben.
+      - Language: English
+        String: I've rounded up Cora Coe and Lillian Hart. Time to head back to the Coe Estate.
+      - Language: Spanish
+        String: He reunido a Cora Coe y a Lillian Hart. Toca volver a la finca Coe.
+      - Language: French
+        String: J'ai cherché Cora Coe et Lillian Hart. Il est temps de retourner au domaine Coe.
+      - Language: Italian
+        String: Ho recuperato Cora Coe e Lillian Hart. È tempo di tornare alla tenuta dei Coe.
+      - Language: Japanese
+        String: コラ・コーとリリアン・ハートを連れてきた。コーの屋敷へ戻ろう
+      - Language: Polish
+        String: Mam Corę Coe i Lilian Hart. Pora wracać do posiadłości Coe.
+      - Language: Portuguese_Brazil
+        String: Falei com a Cora Coe e com a Lillian Hart. É hora de voltar pra Propriedade Coe.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Arrived at the Ceremony - everyone is now present
+    ScriptFlagComment: On SamCoe's alias - when you get close to him
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin beim Coe-Anwesen eingetroffen. Die Bindungszeremonie kann beginnen.
+      - Language: English
+        String: I've arrived at the Coe Estate. The commitment ceremony is now ready to begin.
+      - Language: Spanish
+        String: He llegado a la finca Coe. La ceremonia de compromiso está a punto de comenzar.
+      - Language: French
+        String: J'ai rejoint le domaine Coe. La cérémonie d'engagement peut commencer.
+      - Language: Italian
+        String: Ho raggiunto la Tenuta Coe. Ora la cerimonia di impegno potrà iniziare.
+      - Language: Japanese
+        String: コーの屋敷に到着した。これで誓約式を開始できる
+      - Language: Polish
+        String: Jestem w posiadłości rodziny Coe. Możemy rozpoczynać ceremonię przyrzeczenia.
+      - Language: Portuguese_Brazil
+        String: Cheguei na Propriedade Coe. A cerimônia de compromisso está pronta para começar.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked with Sam to start ceremony
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: (QC) Ceremony is complete
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF34:Starfield.esm
+        BonusCredits: 23DF2D:Starfield.esm
+    - QSRD: '[]'
+- Index: 9000
+  LogEntries:
+  - Flags: []
+    Note: QUEST ENDS
+    ScriptFlagComment: On the location script
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich nach Akila City.
+    - Language: English
+      String: Go to Akila City
+    - Language: Spanish
+      String: Ve a la ciudad de Akila.
+    - Language: French
+      String: Rendez-vous à Akila City.
+    - Language: Italian
+      String: Raggiungi Akila City
+    - Language: Japanese
+      String: アキラ・シティに行く
+    - Language: Polish
+      String: Udaj się do miasta Akila
+    - Language: Portuguese_Brazil
+      String: Vá à cidade de Akila
+  Targets:
+  - AliasID: 2
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Jacob Coe.
+    - Language: English
+      String: Speak to Jacob Coe
+    - Language: Spanish
+      String: Habla con Jacob Coe.
+    - Language: French
+      String: Parlez à Jacob Coe.
+    - Language: Italian
+      String: Parla con Jacob Coe
+    - Language: Japanese
+      String: ジェイコブ・コーと話す
+    - Language: Polish
+      String: Porozmawiaj z Jacobem Coe
+    - Language: Portuguese_Brazil
+      String: Fale com Jacob Coe
+  Targets:
+  - AliasID: 2
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Bring Cora Coe zur Zeremonie.
+    - Language: English
+      String: Gather Cora Coe for the ceremony
+    - Language: Spanish
+      String: Lleva a Cora Coe a la ceremonia.
+    - Language: French
+      String: Cherchez Cora Coe pour la cérémonie.
+    - Language: Italian
+      String: Recupera Cora Coe per la cerimonia
+    - Language: Japanese
+      String: 式の前にコラ・コーと合流する
+    - Language: Polish
+      String: Zabierz Corę Coe na ceremonię
+    - Language: Portuguese_Brazil
+      String: Direcione Cora Coe à cerimônia
+  Targets:
+  - AliasID: 1
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Bring Lillian Hart zur Zeremonie.
+    - Language: English
+      String: Gather Lillian Hart for the ceremony
+    - Language: Spanish
+      String: Lleva a Lillian Hart a la ceremonia.
+    - Language: French
+      String: Cherchez Lillian Hart pour la cérémonie.
+    - Language: Italian
+      String: Recupera Lillian Hart per la cerimonia
+    - Language: Japanese
+      String: 式の前にリリアン・ハートと合流する
+    - Language: Polish
+      String: Zabierz Lillian Hart na ceremonię
+    - Language: Portuguese_Brazil
+      String: Direcione Lillian Hart à cerimônia
+  Targets:
+  - AliasID: 3
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zur Bindungszeremonie.
+    - Language: English
+      String: Proceed to the commitment ceremony
+    - Language: Spanish
+      String: Ve a la ceremonia de compromiso.
+    - Language: French
+      String: Rendez-vous à la cérémonie d'engagement.
+    - Language: Italian
+      String: Raggiungi la cerimonia di impegno
+    - Language: Japanese
+      String: 誓約式に進む
+    - Language: Polish
+      String: Udaj się na ceremonię przyrzeczenia
+    - Language: Portuguese_Brazil
+      String: Vá à cerimônia de compromisso
+  Targets:
+  - AliasID: 2
+- Index: 700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich innerhalb des Coe-Anwesens mit Sam Coe.
+    - Language: English
+      String: Speak to Sam Coe within the Coe Estate
+    - Language: Spanish
+      String: Habla con Sam Coe en la finca Coe.
+    - Language: French
+      String: Parlez à Sam Coe dans le domaine Coe.
+    - Language: Italian
+      String: Parla con Sam Coe alla tenuta Coe
+    - Language: Japanese
+      String: コーの屋敷にいるサム・コーと話す
+    - Language: Polish
+      String: Porozmawiaj z Samem Coe w posiadłości jego rodziny
+    - Language: Portuguese_Brazil
+      String: Fale com Sam Coe na Propriedade Coe
+  Targets:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 2A07D2:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0DF7AD:Starfield.esm
+        SecondParameter: 700
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 2A07D2:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0DF7AD:Starfield.esm
+        SecondParameter: 700
+      ComparisonValue: 1
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 2A07D2:Starfield.esm
+- Index: 800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nimm an der Bindungszeremonie teil.
+    - Language: English
+      String: Attend the commitment ceremony
+    - Language: Spanish
+      String: Asiste a la ceremonia de compromiso.
+    - Language: French
+      String: Participez à la cérémonie d'engagement.
+    - Language: Italian
+      String: Partecipa alla cerimonia di impegno
+    - Language: Japanese
+      String: 誓約式に出席する
+    - Language: Polish
+      String: Weź udział w ceremonii przyrzeczenia
+    - Language: Portuguese_Brazil
+      String: Participe da cerimônia de compromisso
+  Targets:
+  - AliasID: 4
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: SamCoe
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005999:Starfield.esm
+  PackageData:
+  - 0DF47E:Starfield.esm
+  ScriptComment: 600
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: CoraCoe
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00D653:Starfield.esm
+  PackageData:
+  - 1BE9E5:Starfield.esm
+  - 1BE9E6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: JacobCoe
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0124B8:Starfield.esm
+  PackageData:
+  - 1BE9E1:Starfield.esm
+  - 1BE9E2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: LillianHart
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 2631B0:Starfield.esm
+  PackageData:
+  - 07B14E:Starfield.esm
+  - 07B1D3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: EliasCartwright
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 224859:Starfield.esm
+  PackageData:
+  - 1BE9E3:Starfield.esm
+  - 1BE9E4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: AhnjongSinclair
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 1B2627:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 7
+  Name: akilacity
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 010DFB:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 6
+  Name: CoeEstate
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 0124EA:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: Player
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: CommitmentGiftAlias
+  Flags:
+  - Optional
+  - QuestObject
+  - 0x80000000
+  - 0x0
+  ALFG: 0
+  VoiceTypes: Null

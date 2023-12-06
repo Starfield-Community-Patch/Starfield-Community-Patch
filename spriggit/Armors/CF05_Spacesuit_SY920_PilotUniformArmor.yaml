@@ -1,0 +1,131 @@
+FormKey: 214769:Starfield.esm
+MajorRecordFlagsRaw: 64
+EditorID: CF05_Spacesuit_SY920_PilotUniformArmor
+StarfieldMajorRecordFlags:
+- 0x40
+ObjectBounds:
+  First: -0.37475586, -0.27148438, -0.0026855469
+  Second: 0.37475586, 0.28295898, 0.27197266
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EB9:Starfield.esm
+  Workbench: 276B9B:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Anzug: SY-920-Pilot'
+  - Language: English
+    String: SY-920 Pilot Spacesuit
+  - Language: Spanish
+    String: Traje espacial de piloto de la SY-920
+  - Language: French
+    String: Combinaison de pilote de SY-920
+  - Language: Italian
+    String: Tuta spaziale pilota SY-920
+  - Language: Japanese
+    String: SY-920パイロット用宇宙服
+  - Language: Polish
+    String: Skafander pilota SY-920
+  - Language: Portuguese_Brazil
+    String: Traje Espacial de Piloto SY-920
+WorldModel:
+  Male:
+    File: SetDressing\SpaceSuitContainer_Green.nif
+  Female:
+    File: SetDressing\SpaceSuitContainer_Green.nif
+FirstPersonFlags: SSBODY
+PickupSound:
+  Start: de17433a-89a8-16f1-86d6-7114a3b197bb
+DropdownSound:
+  Start: c02d4adb-7d05-caf3-0f67-b157fe214496
+Race: 00347D:Starfield.esm
+Keywords:
+- 03ED74:Starfield.esm
+- 07FACA:Starfield.esm
+- 0E8D7B:Starfield.esm
+- 0F4C08:Starfield.esm
+- 11A479:Starfield.esm
+- 23C7C0:Starfield.esm
+- 30C1EF:Starfield.esm
+Description:
+  TargetLanguage: English
+InstanceNaming: 184BC1:Starfield.esm
+Armatures:
+- AddonIndex: 0
+  AddonModel: 05954D:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 009ECC:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 009ECB:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 009ECD:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 162B9D:Starfield.esm
+Value: 4275
+Weight: 7.4
+ArmorRating: 53
+Unused: 0x000000
+Resistances:
+- DamageType: 023190:Starfield.esm
+  Value: 53
+- DamageType: 060A81:Starfield.esm
+  Value: 53
+AttachParentSlots:
+- 11E2C1:Starfield.esm
+- 088C9C:Starfield.esm
+- 0B2642:Starfield.esm
+- 0B2646:Starfield.esm
+- 0B2649:Starfield.esm
+- 1E32C8:Starfield.esm
+- 329ABC:Starfield.esm
+- 329ABD:Starfield.esm
+- 1AEB52:Starfield.esm
+- 157D41:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Default: True
+  Includes:
+  - Mod: 11E2BB:Starfield.esm
+    DontUseAll: True
+  - Mod: 1CFA0B:Starfield.esm
+    DontUseAll: True
+  - Mod: 380C54:Starfield.esm
+    DontUseAll: True
+  - Mod: 380C55:Starfield.esm
+    DontUseAll: True
+  - Mod: 380C56:Starfield.esm
+    DontUseAll: True
+  - Mod: 1B049F:Starfield.esm
+    DontUseAll: True
+  - Mod: 113578:Starfield.esm
+    DontUseAll: True
+  - Mod: 157D48:Starfield.esm
+    DontUseAll: True
+  Properties:
+  - MutagenObjectType: ObjectModFormLinkIntProperty`1
+    Property: 14
+    Record: 1773BA:Starfield.esm
+- AddonIndex: 0
+  Keywords:
+  - 11E2BF:Starfield.esm
+  Includes:
+  - Mod: 11E2BC:Starfield.esm
+    DontUseAll: True
+- AddonIndex: 0
+  Keywords:
+  - 11E2BE:Starfield.esm
+  Includes:
+  - Mod: 11E2BA:Starfield.esm
+    DontUseAll: True
+- AddonIndex: 0
+  Keywords:
+  - 11E2BD:Starfield.esm
+  Includes:
+  - Mod: 11E2B9:Starfield.esm
+    DontUseAll: True
+Footstep:
+  Category: b8164525-fc08-5327-a25f-c16a7b3878a8
+  Value: 1c904579-7883-d9f9-a82c-befbe65318a8
+MajorFlags:
+- Shield
