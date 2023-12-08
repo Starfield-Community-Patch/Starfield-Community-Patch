@@ -10,7 +10,7 @@ When adding items to the changelog try and use the template below:
 ## [2023-08-12] Version 0.0.5
 ### Actor Fixes
 - Hadrian is now correctly assigned to CrimFactionUC rather than ConstellationFaction. This fix will also apply mid-save. [0029C17F] - [Fix contributed by SKK50](https://nexusmods.com/users/46256407) - [Reported by SKK50](https://www.starfieldpatch.dev/issues/669)
-- Gideo Aker will now have unlimited ammo when recruited as a follower. (Missing TeammateDontUseAmmoKeyword [KYWD:0023F1CA]) - [Reported by SamusKnight2K](https://www.starfieldpatch.dev/issues/588)
+- Gideon Aker will now have unlimited ammo when recruited as a follower. (Missing TeammateDontUseAmmoKeyword [KYWD:0023F1CA]) - [Reported by SamusKnight2K](https://www.starfieldpatch.dev/issues/588)
 ### Location Fixes
 - Fixed missing LocTypeStarstationInterior [KYWD:0001674E] keyword for Starstation RE-939 [0002E373] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
 - Fixed missing LocTypeStarstation [KYWD:0001674D] and LocTypeStarstationInterior [KYWD:0001674E] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)keywords for Starstation UCN-48 [0009B0CA] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
