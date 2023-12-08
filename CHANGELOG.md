@@ -58,6 +58,7 @@ When adding items to the changelog try and use the template below:
 - Fixed "any more" misspelt as "anymore" in Pascual Logan's dialogue [002D1C78] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/729)
 - Fixed a load screen about smuggling referring to the "Payloads" skill rather than the "Deception" skill for increased chance of evading contraband scans. [00185667] - [Reported by TheTrueDovahki1n](https://www.starfieldpatch.dev/issues/706)
 - Fixed a misplaced ellipsis in Vae Victis' dialogue [00248C66] - [Reported by Norseman048](https://www.starfieldpatch.dev/issues/680)
+- Fixed missing "to" in Sarah's dialogue [00068926] - [Reported by dodexahedron](https://www.starfieldpatch.dev/issues/676)
 ### Misc Fixes
 - Added a couple of missing dialogue conditions ommited from a previous fix [0032C7CA] [0032C7CB] [0032C7CC] [0032C7CD] - [Reported by TareliusKosmos](https://www.starfieldpatch.dev/issues/666)
 - The update handler for the Starfield Community Patch will now only fire on first startup and each time the player loads the game. Now using OnQuestInit() as it was incorrectly using OnInit() which triggers every time the game starts up. [SFCP:UpdateHandler] 
