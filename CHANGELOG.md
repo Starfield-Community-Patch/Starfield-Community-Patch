@@ -60,6 +60,8 @@ When adding items to the changelog try and use the template below:
 - Fixed a misplaced ellipsis in Vae Victis' dialogue [00248C66] - [Reported by Norseman048](https://www.starfieldpatch.dev/issues/680)
 - Fixed missing "to" in Sarah's dialogue [00068926] - [Reported by dodexahedron](https://www.starfieldpatch.dev/issues/676)
 - Fixed a misspelling of "Scalding Liquid" on the Spell entry for this effect. [001D5CF5] - [Reported by SpacePigeonTV](https://www.starfieldpatch.dev/issues/675)
+### Text Fixes (German)
+- Fixes a mismatch between dialogue and subtitles in an audio log encountered in the NASA launch facility.  [000B11CF] - [Reported by SkyHorizon3](https://www.starfieldpatch.dev/issues/721)
 ### Misc Fixes
 - Added a couple of missing dialogue conditions ommited from a previous fix [0032C7CA] [0032C7CB] [0032C7CC] [0032C7CD] - [Reported by TareliusKosmos](https://www.starfieldpatch.dev/issues/666)
 - The update handler for the Starfield Community Patch will now only fire on first startup and each time the player loads the game. Now using OnQuestInit() as it was incorrectly using OnInit() which triggers every time the game starts up. [SFCP:UpdateHandler] 
