@@ -1,0 +1,866 @@
+FormKey: 1E7A0B:Starfield.esm
+EditorID: DialogueRedDevilsHQ
+VirtualMachineAdapter:
+  Scripts:
+  - Name: RHQ_QuestScript
+  Script:
+    Name: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hadrian
+      Object: 1E7A0B:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PostQuestline_HadrianScene
+      Object: 1A2F81:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_EliteCrew_Hadrian
+      Object: 1B3F7E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_RHQ_TMDNameOverride
+      Object: 0B968A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09
+      Object: 1FC858:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExteriorGuard
+      Object: 1E7A0B:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_General_Stage03_PostUC09
+      Object: 1E7A0B:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_DebugMarker
+      Object: 1E79A7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_Mine_Stage03_PostUC09
+      Object: 1E7A0B:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_IntroSceneNPCs
+      Object: 1E7A0B:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQ_FloorMarker_Int
+      Object: 1E7A0B:Starfield.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_InteriorCellNameOverride
+      Object: 1E7A0B:Starfield.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQ_FloorMarker_Ext
+      Object: 1E7A0B:Starfield.esm
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_RedDevilsHQKey
+      Object: 257EB6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RHQ_ExtDebugMarker
+      Object: 1617FF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC05_HadrianSandboxing_PostUC05
+      Object: 20B7C0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_POI064RedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_Aliens_Stage02_LateUC07
+      Object: 1E7A0B:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQElevatorManager
+      Object: 1E7A0B:Starfield.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04
+      Object: 1E7A0A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jakob
+      Object: 1E7A0B:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_General_Stage01_PostUC06_Objects
+      Object: 1E7A0B:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Kaiser
+      Object: 1E7A0B:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_Aliens_Stage03_PostUC09
+      Object: 1E7A0B:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_MiscPointer
+      Object: 17C672:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ShipServices
+      Object: 1E7A0B:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_RHQ_RCAllowed
+      Object: 182C49:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_FCObservers_Stage03_PostUC09
+      Object: 1E7A0B:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_General_Stage01_PostUC06_Freight
+      Object: 1E7A0B:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_KaiserSandboxing_PostUC08
+      Object: 1E79AA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HQMapMarker
+      Object: 1E7A0B:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_General_Stage02_LateUC07
+      Object: 1E7A0B:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_KaiserTeleportMarker
+      Object: 1E79A9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LandingCellNameOverride
+      Object: 1E7A0B:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_FCObservers_Stage01_PostUC06
+      Object: 1E7A0B:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC07
+      Object: 215E93:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExteriorMarine
+      Object: 1E7A0B:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LC028FreightElevatorLoc
+      Object: 1E7A0B:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueRedDevilsHQ_000_Hadrian_IntroScene
+      Object: 182DE2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_FreightElevator_Stage03_PostUC09
+      Object: 1E7A0B:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCNewAtlantisUCFaction
+      Object: 2C5402:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08
+      Object: 2062C3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_General_Stage01_PostUC06
+      Object: 1E7A0B:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC07_JakobTeleportMarker
+      Object: 20B7DB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_General_Stage01_PostUC06_DeepMines
+      Object: 1E7A0B:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_JakobSandboxing_PostUC03
+      Object: 20B7DC:Starfield.esm
+  Fragments:
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0035_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 505
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0505_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0510_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 401
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0401_Item_00
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 32
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0032_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
+    FragmentName: Fragment_Stage_0600_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1E7A0B:Starfield.esm
+      Alias: 8
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 500
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 505
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+QuestFaction: 0546DC:Starfield.esm
+Location: 224C11:Starfield.esm
+Summary: This quest contains all the various NPC and character dialogue for the the scientists and guards inside the Red Devils Headquarters - a highly secure facility full of dangerous aliens.
+UnusedConditions: []
+Stages:
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Get the player set up to player UCR04 (post-UC09 state)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Get the player set up to for the post-UC06 state'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Get the player set up to for the late UC07 state'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Get all Freestar oberservers turned on'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: Jump the player to outside the Red Devils HQ, as though they've just finished UC09"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5: Make the RDHQ load elevator accessible'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: RHQ: State change one - get the base line people in place and get things cleaned up.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 12
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: RHQ: State change one - turn on the first batch of Freestar Observers if merited'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: RHQ: State change two - more NPCs, some aliens start showing up'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: RHQ: State change three - more NPCs, more aliens, name change'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 32
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: RHQ: State change three - additional Freestar observers if warranted'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 35
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5+: Override the name of the Red Devils HQ to swap to TMD HQ'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P1: UCR04: Player hit Jakob's first dialogue loop. Get 'em back there"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 115
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P1: UCR04: Player hit Jakob's second dialogue loop. Get 'em back there"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: EC: Percival told the player to go collect Hadrian. Start up her misc pointer and the Elite Crew quest'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P1: UCR04: Player started up UCR04 for the first time. Turn off Jakob's intro scene and get him into the main scene."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: UCR04: KAISER: Jakob directed the player to collect Kaiser. Used to get the right objective popping up when the player restarts the quest. Set from UCR04.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: UCR04: Player picked up Kaiser. Complete that objective in UCR04.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: PERCY TL: Player made any choice in Percy's TL. Shuts down the rest of the options on repeat."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 401
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: PERCY TL: Player exited Percy's scene after making a selection. Set stage 400 to turn off the earlier dialogue"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 405
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: PERCY TL: Player equivocated during the "tell me about the Xenowarfare team" conversation. Changes up the dialogue on future playthroughs.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: PERCY TL: Player sided with Percival during the "tell me about the Xenowarfare team" conversation. Changes up the dialogue on future playthroughs.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 415
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: PERCY TL: Player chose to chastize Percival during the "tell me about the Xenowarfare team" conversation. Changes up the dialogue on future playthroughs.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P1: RHQ: Hadrian loaded out of UC09. Get her in place for her intro scene,  and everyone in the right spots. Set from Hadrian's support script, post-UC09."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 505
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: RHQ: Player hit the trigger. Start up the intro scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: RHQ: Intro scene complete. Get all the scientists back in their places.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player wrapped up Gualter's "
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 601
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Gualter's TL kick off scene completed. Close that out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 602
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Get player back to the first dialogue loop in Gualter's scene."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 603
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Get player back to the second dialogue loop in Gualter's scene."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 604
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Get player back to the third dialogue loop in Gualter's scene."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: "I was in New Atlantis line" kicked off. Turn that off for everyone else.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 701
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 9
+  Name: POI064RedDevilsHQ
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 2CE18D:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 24
+  Name: LC028RedDevilMinesLoc
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 28DF7F:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 25
+  Name: LC028FreightElevatorLoc
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 224C11:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: Jakob
+  Flags: []
+  ALFG: 0
+  UniqueActor: 29D01D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Kaiser
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 20DBAD:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Hadrian
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 29C17F:Starfield.esm
+  PackageData:
+  - 182DDE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: SceneScientist01
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 182E12:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: SceneScientist02
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 182E04:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: SceneScientist03
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 182E08:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: HadrianLookatMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 182DDC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: TriggerStage505
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 182DDA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: ExteriorGuard
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 182DE8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: ExteriorMarine
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 1617C5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: RHQEnableMarker_General_Stage01_PostUC06
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 2119BF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: RHQEnableMarker_General_Stage01_PostUC06_Objects
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 161781:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: RHQEnableMarker_General_Stage01_PostUC06_DeepMines
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 24
+    RefType: 3CBC2A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: RHQEnableMarker_General_Stage01_PostUC06_Freight
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 25
+    RefType: 3CCCAE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: RHQEnableMarker_General_Stage02_LateUC07
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 182E18:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: RHQEnableMarker_General_Stage03_PostUC09
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 182E19:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: RHQEnableMarker_FCObservers_Stage01_PostUC06
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 182E14:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: RHQEnableMarker_FCObservers_Stage03_PostUC09
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 182E13:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: RHQEnableMarker_Aliens_Stage02_LateUC07
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 182E0F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: RHQEnableMarker_Aliens_Stage03_PostUC09
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 182DEE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: RHQEnableMarker_FreightElevator_Stage03_PostUC09
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 25
+    RefType: 0163EC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: RHQEnableMarker_Mine_Stage03_PostUC09
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 24
+    RefType: 0163EE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: Gualter
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 098F9A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 28
+    ALAM: 0
+    ReferenceAlias:
+      ID: 28
+      Name: IntroSceneNPCs
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      - AllowDestroyed
+      ALFG: 0
+      Location:
+        AliasID: 9
+        RefType: 093A59:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: ShipServices
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 064EE9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: HQMapMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 2239D4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 31
+  Name: LandingCellNameOverride
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - StoresText
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  DisplayName: 0B968A:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 32
+  Name: InteriorCellNameOverride
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - StoresText
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  DisplayName: 0B968A:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: RHQElevatorManager
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 0B968E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: RHQ_FloorMarker_Int
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 0B96BB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 35
+  Name: RHQ_FloorMarker_Ext
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 25
+    RefType: 0B96C1:Starfield.esm
+  VoiceTypes: Null

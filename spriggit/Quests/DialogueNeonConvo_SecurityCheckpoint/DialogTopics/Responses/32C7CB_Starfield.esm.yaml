@@ -1,0 +1,87 @@
+FormKey: 32C7CB:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0FA849:Starfield.esm
+  WEMFile: 1568936
+  TROTs:
+  - UnknownVoiceType: 15636D:Starfield.esm
+    UnknownFloat: 1.8666668
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Die Waffe muss ins Halfter ... und auf dich ist ein Kopfgeld ausgesetzt. Das musst du unverzüglich klären.
+    - Language: English
+      String: You're going to need to holster that weapon... and you've got a bounty. Get that cleared up immediately.
+    - Language: Spanish
+      String: Vas a tener que enfundar esa arma... y hay una recompensa por ti. Salda esa deuda inmediatamente.
+    - Language: French
+      String: Il va falloir ranger cette arme... et je vois que votre tête est mise à prix. Réglez ça sur-le-champ.
+    - Language: Italian
+      String: Devi rinfoderare quell’arma. E c’è una taglia sulla tua testa. È una questione che va risolta immediatamente.
+    - Language: Japanese
+      String: その武器をしまって… あなたには賞金がかかってる。すぐに清算するのね
+    - Language: Polish
+      String: Schowaj broń do kabury... I wystawiono za tobą list gończy. Musisz to jak najszybciej wyjaśnić.
+    - Language: Portuguese_Brazil
+      String: Você vai ter que botar essa arma no coldre... E tem uma recompensa pela sua cabeça. Resolve isso aí imediatamente.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xE088E2FC6B96D601
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: QuestAlias
+    Unknown3: 1
+    FirstParameter: 26FDEA:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 05BD93:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0638E5:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 26FDEA:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 26310C:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,22 @@
+FormKey: 0042D9:Starfield.esm
+EditorID: LL_Spacesuit_UCMarine_LightArmored_SysDef_Body_AnyQuality
+ODTY: 0
+MaxCount: 0
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Level: 1
+  Reference: 122827:Starfield.esm
+  Count: 1
+- Level: 14
+  Reference: 122826:Starfield.esm
+  Count: 1
+- Level: 20
+  Reference: 122825:Starfield.esm
+  Count: 1
+- Level: 26
+  Reference: 122824:Starfield.esm
+  Count: 1
+Model:
+  FLLD: 0x01000000

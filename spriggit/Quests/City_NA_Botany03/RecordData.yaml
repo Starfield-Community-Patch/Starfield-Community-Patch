@@ -1,0 +1,1196 @@
+FormKey: 270717:Starfield.esm
+EditorID: City_NA_Botany03
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_City_NA_Botany03_00270717
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Botany01
+      Object: 270718:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Botany03_005_Kelton
+      Object: 25E05D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RAD02_InterviewCount
+      Object: 1829F7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Botany03Pointer
+      Object: 0980E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TreeSoundMarker
+      Object: 0E997D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KioskSoundMarker
+      Object: 0E997C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Botany02
+      Object: 27071B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TreeSap_Enabler
+      Object: 04DA43:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pCity_NA_Botany03_FlowerStateChange
+      Object: 06D59B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DebugAkilaMarker01
+      Object: 270717:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KeltonFrush
+      Object: 270717:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Branch
+      Object: 270717:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DebugStartMarker
+      Object: 270717:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DebugAkilaMarker02
+      Object: 270717:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EarlFulton
+      Object: 270717:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SSNNDebugMarker
+      Object: 270717:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Kelton_Slate
+      Object: 270717:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Leah_Safe
+      Object: 270717:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Branch_Earl
+      Object: 270717:Starfield.esm
+      Alias: 9
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 46
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0046_Item_00
+  - Stage: 56
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0056_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0055_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 42
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0042_Item_00
+  - Stage: 48
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0048_Item_00
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0080_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 47
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0047_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0075_Item_00
+  - Stage: 74
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0074_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
+    FragmentName: Fragment_Stage_0065_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 270717:Starfield.esm
+      Alias: 9
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 270717:Starfield.esm
+      Alias: 15
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Spätentwickler
+  - Language: English
+    String: Late Bloomer
+  - Language: Spanish
+    String: De floración tardía
+  - Language: French
+    String: Floraison tardive
+  - Language: Italian
+    String: Tarda fioritura
+  - Language: Japanese
+    String: 遅咲き
+  - Language: Polish
+    String: Opóźniony rozkwit
+  - Language: Portuguese_Brazil
+    String: Florescer Tardio
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 60
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+TextDisplayGlobals:
+- 092FE9:Starfield.esm
+UnusedConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17623
+  Data:
+    MutagenObjectType: GetQuestRunningConditionData
+    FirstParameter: 270717:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17623
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 270717:Starfield.esm
+    SecondParameter: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17623
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    FirstParameter: 27071B:Starfield.esm
+  ComparisonValue: 1
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start up stage
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG - Akila City Museum
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Honest Earl's
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG - SSNN '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has talked to Kelton, but hasn't accepted quest
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Kelton sagte, dass der Ast eines Baums aus Akila City diesen Baum beruhigen könnte. Ich sollte mit ihm sprechen, wenn ich bereit bin.
+      - Language: English
+        String: Kelton told me that getting a tree branch from Akila City will help calm the tree down. I should speak to him when I'm ready.
+      - Language: Spanish
+        String: Kelton me ha dicho que una rama de árbol de Akila servirá para que se calme el árbol. Debería hablar con él en cuanto pueda.
+      - Language: French
+        String: D'après Kelton, obtenir une branche d'un arbre d'Akila City pourrait apaiser cet arbre-ci. Je dois lui parler quand je me sentirai d'attaque.
+      - Language: Italian
+        String: Kelton ha detto che recuperare un ramo da Akila City aiuterà a placare l’albero. Devo parlargli appena me la sento di partire.
+      - Language: Japanese
+        String: ケルトンによると、アキラ・シティから木の枝を持ってくれば木を落ち着かせられるそうだ。準備ができたら、彼と話そう
+      - Language: Polish
+        String: Kelton powiedział mi, że gałąź z miasta Akila pomoże uspokoić drzewo. Muszę z nim porozmawiać, kiedy wszystko będzie gotowe.
+      - Language: Portuguese_Brazil
+        String: Kelton me disse que conseguir um galho de árvore na cidade de Akila ajudará a acalmar a árvore. É melhor eu falar com ele assim que puder.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player Directed to Museum on Akila
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich muss den Ast von Leah Casler beschaffen.
+      - Language: English
+        String: I need to go get the tree branch from Leah Casler.
+      - Language: Spanish
+        String: Tengo que ir a por la rama del árbol de Leah Casler.
+      - Language: French
+        String: Je dois aller chercher la branche d'arbre de Leah Casler.
+      - Language: Italian
+        String: Devo andare a recuperare il ramo dell’albero da Leah Casler.
+      - Language: Japanese
+        String: リー・カスラーから木の枝を手に入れよう
+      - Language: Polish
+        String: Muszę zdobyć gałąź drzewa od Lei Casler.
+      - Language: Portuguese_Brazil
+        String: Preciso conseguir o galho com Leah Casler.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Arrived at museum, directed to Leah Casler
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has talked to Leah, needs to convince her to hand over branch
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich muss irgendwie an Leahs Ast kommen. Ich könnte es mit Argumenten versuchen, oder ich könnte den Ast einfach stehlen ...
+      - Language: English
+        String: I need to get the tree branch from Leah somehow. I could try to convince her to give it to me, or I could try to steal it...
+      - Language: Spanish
+        String: Tengo que conseguir la rama del árbol de Leah como sea. Podría tratar de convencerla de que me la entregue, o podría robársela...
+      - Language: French
+        String: Je dois obtenir la branche de Leah. Je pourrais la convaincre de me la donner, ou tenter de la voler...
+      - Language: Italian
+        String: Non so come, ma devo impossessarmi del ramo di Leah. Potrei provare a convincerla, oppure potrei rubarlo...
+      - Language: Japanese
+        String: どうにかしてリーから枝を入手しなくてはならない。渡すよう説得するか、あるいは盗むか…
+      - Language: Polish
+        String: Muszę jakoś zdobyć gałąź od Lei. Może da się przekonać i odda ją po dobroci? Mogę też spróbować kradzieży...
+      - Language: Portuguese_Brazil
+        String: Preciso conseguir o galho com a Leah de alguma forma. Posso tentar convencê-la a entregá-lo ou posso tentar roubá-lo...
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 41
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Leah Casler Speech challenge - player won
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich konnte Leah überzeugen, mir den Ast zu überlassen.
+      - Language: English
+        String: I was able to convince Leah to hand over the branch.
+      - Language: Spanish
+        String: He conseguido convencer a Leah de que me entregase la rama.
+      - Language: French
+        String: J'ai réussi à convaincre Leah de me donner la branche.
+      - Language: Italian
+        String: Ho convinto Leah a consegnarmi il ramo.
+      - Language: Japanese
+        String: 枝を渡すよう、リーを説得できた
+      - Language: Polish
+        String: Lea dała się przekonać i dała mi gałąź.
+      - Language: Portuguese_Brazil
+        String: Consegui convencer Leah a me entregar o galho.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 42
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Leah Casler Speech challenge - player lost
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 46
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player directed to Earl Fulton
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Leah sagte, dass Earl vielleicht einen Ast für mich haben könnte. Ich sollte mich bei ihm melden.
+      - Language: English
+        String: Leah told me that Earl might have a branch for me. I should check in with him.
+      - Language: Spanish
+        String: Leah me ha dicho que tal vez Earl tenga una rama para mí. Debería hablar con él.
+      - Language: French
+        String: Leah m'a dit qu'Earl pourrait avoir une branche pour moi. Il faut que j'aille le voir.
+      - Language: Italian
+        String: Leah mi ha detto che Earl potrebbe avere un altro ramo. Dovrei fare un salto da lui.
+      - Language: Japanese
+        String: リーによれば、アールが枝を持っているかもしれないらしい。彼に聞こう
+      - Language: Polish
+        String: Lea powiedziała, że Earl może mieć dla mnie gałąź. Lepiej z nim porozmawiam.
+      - Language: Portuguese_Brazil
+        String: Leah me disse que Earl pode ter um galho. É melhor eu ir falar com ele.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 47
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Earl, objective updated to buy branch
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich muss Earl den Ast abkaufen, wenn ich genug Credits habe.
+      - Language: English
+        String: I need to buy the branch from Earl when I have enough credits.
+      - Language: Spanish
+        String: Tengo que comprarle la rama a Earl en cuanto tenga los créditos.
+      - Language: French
+        String: Je dois acheter la branche à Earl quand j'aurai assez de crédits.
+      - Language: Italian
+        String: Con la giusta somma, potrò comprare il ramo da Earl.
+      - Language: Japanese
+        String: クレジットが十分溜まったら、アールから枝を買い取ろう
+      - Language: Polish
+        String: Kiedy zaoszczędzę nieco kredytów, muszę kupić od Earla gałąź.
+      - Language: Portuguese_Brazil
+        String: Preciso comprar o galho do Earl assim que tiver créditos suficientes.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 48
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player bought branch from Earl Fulton
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 08D2BA:Starfield.esm
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Directed back to Kelton
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe den Ast. Ich sollte schnellstmöglich zu Kelton zurückkehren.
+      - Language: English
+        String: I have the branch. I should get back to Kelton as soon as I can.
+      - Language: Spanish
+        String: Tengo la rama. Debería volver con Kelton en cuanto pueda.
+      - Language: French
+        String: J'ai la branche. Je dois retourner voir Kelton au plus vite.
+      - Language: Italian
+        String: Ho il ramo. Devo tornare da Kelton il prima possibile.
+      - Language: Japanese
+        String: 枝を手に入れた。できるだけ早くケルトンのところに戻ろう
+      - Language: Polish
+        String: Mam gałąź. Muszę wrócić do Keltona tak szybko, jak to możliwe.
+      - Language: Portuguese_Brazil
+        String: Consegui o galho. É melhor eu ir falar com o Kelton assim que for possível.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 55
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Branch delivered to Kelton, waiting for update
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich muss warten, bis Kelton seine Analyse abgeschlossen hat.
+      - Language: English
+        String: I need to wait for Kelton to complete his analysis.
+      - Language: Spanish
+        String: Tengo que esperar a que Kelton termine el análisis.
+      - Language: French
+        String: Je dois attendre que Kelton ait terminé son analyse.
+      - Language: Italian
+        String: Devo aspettare che Kelton completi l’analisi.
+      - Language: Japanese
+        String: ケルトンが分析を終えるまで待とう
+      - Language: Polish
+        String: Muszę poczekać, aż Kelton dokończy swoją analizę.
+      - Language: Portuguese_Brazil
+        String: Preciso esperar para que Kelton conclua sua análise
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 56
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: directed to speak to Kelton after analysis
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Kelton hat seine Analyse abgeschlossen. Ich sollte mich bei ihm melden.
+      - Language: English
+        String: Kelton has completed his analysis. I should check in with him.
+      - Language: Spanish
+        String: Kelton ha completado el análisis. Debería hablar con él.
+      - Language: French
+        String: Kelton a terminé son analyse. Il faut que j'aille le voir.
+      - Language: Italian
+        String: Kelton ha completato l’analisi. È ora di fare il punto della situazione.
+      - Language: Japanese
+        String: ケルトンの分析が終わった。彼と話そう
+      - Language: Polish
+        String: Kelton zakończył swoją analizę. Muszę go o nią spytać.
+      - Language: Portuguese_Brazil
+        String: Kelton concluiu sua análise. É melhor eu ir falar com ele.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Directed to hack SSNN Terminal
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Ich muss mir Zugang zu einem SNN-Terminal verschaffen, um die von Kelton synthetisierte Audio-Datei hochzuladen. '
+      - Language: English
+        String: 'I need to get into an SSNN terminal and upload the audio that Kelton synthesized. '
+      - Language: Spanish
+        String: 'Tengo que usar un terminal de la NSC para subir el audio que sintetizó Kelton. '
+      - Language: French
+        String: 'Je dois me connecter à un terminal de SOTV et charger le fichier audio synthétisé par Kelton. '
+      - Language: Italian
+        String: 'Devo accedere a un terminale SCNN e caricare l’audio sintetizzato da Kelton. '
+      - Language: Japanese
+        String: 'SSNNのターミナルに行き、ケルトンが合成した音声をアップロードしよう '
+      - Language: Polish
+        String: 'Muszę dostać się do terminala ZUinfo i przesłać audio, które zsyntetyzował Kelton. '
+      - Language: Portuguese_Brazil
+        String: 'Preciso entrar em um terminal da ANSC e enviar o áudio que Kelton sintetizou. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 65
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has uploaded file to terminal, needs to run diagnostic
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich muss eine Diagnose durchführen, um sicherzustellen, dass der Upload funktioniert.
+      - Language: English
+        String: I have to run a diagnostic to make sure the upload is working.
+      - Language: Spanish
+        String: Tengo que ejecutar un diagnóstico para asegurarme de que la carga está funcionando.
+      - Language: French
+        String: Je dois faire un diagnostic pour m'assurer que le chargement a fonctionné.
+      - Language: Italian
+        String: Devo eseguire una diagnostica per assicurarmi che il caricamento funzioni.
+      - Language: Japanese
+        String: アップロードが順調か、診断を行って確かめよう
+      - Language: Polish
+        String: Muszę przeprowadzić diagnostykę i upewnić się, że przesyłanie działa.
+      - Language: Portuguese_Brazil
+        String: Tenho que realizar um diagnóstico para garantir que o envio funcionou.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 70
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Optional objective to talk to Nadia
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 74
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player got Nadia to take care of the broadcast
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich konnte Nadia Muffaz davon überzeugen, die Übertragung für mich zu übernehmen.
+      - Language: English
+        String: I was able to get Nadia Muffaz to handle the broadcast for me.
+      - Language: Spanish
+        String: He conseguido que Nadia Muffaz se ocupara de la transmisión.
+      - Language: French
+        String: J'ai réussi à convaincre Nadia Muffaz de s'occuper de la diffusion pour moi.
+      - Language: Italian
+        String: Ho convinto Nadia Muffaz a organizzare la trasmissione per me.
+      - Language: Japanese
+        String: ナディア・マファズに、代わって放送を任せることができた
+      - Language: Polish
+        String: Nadia Muffaz dała się przekonać i zajmie się dla mnie transmisją.
+      - Language: Portuguese_Brazil
+        String: Eu consegui fazer com que Nadia Muffaz lidasse com a transmissão para mim.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 75
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Broadcast is set to run
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Übertragung kann jetzt gesendet werden. Ich sollte zum Baum zurückkehren.
+      - Language: English
+        String: The broadcast is all set to run. I should return to the tree.
+      - Language: Spanish
+        String: Ya está todo listo para la transmisión. Debo volver al árbol.
+      - Language: French
+        String: La diffusion est prête. Je dois retourner près de l'arbre.
+      - Language: Italian
+        String: La trasmissione è stata impostata. Devo tornare all’albero.
+      - Language: Japanese
+        String: 放送の準備が整った。木の場所に戻ろう
+      - Language: Polish
+        String: Transmisja jest gotowa do nadania. Czas wrócić do drzewa.
+      - Language: Portuguese_Brazil
+        String: A transmissão está pronta para ser iniciada. Melhor voltar para a árvore.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 79
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has returned to tree area, we're good to run broadcast
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 80
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Done with everything, directed back to Kelton
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Es ... scheint funktioniert zu haben? Ich sollte mich bei Kelton melden und ihn fragen, wie er die Sache sieht.
+      - Language: English
+        String: That... seems to have worked? I should check in with Kelton and see what he thinks.
+      - Language: Spanish
+        String: Parece que ha funcionado... Debería ver cómo está Kelton, a ver qué piensa.
+      - Language: French
+        String: On dirait... que ça a fonctionné ? Je ferais bien d'aller voir ce que Kelton en pense.
+      - Language: Italian
+        String: Pare che... abbia funzionato. Dovrei parlare con Kelton per sapere che ne pensa.
+      - Language: Japanese
+        String: これで… 上手くいったのだろうか？ ケルトンと話して、考えを聞こう
+      - Language: Polish
+        String: To chyba... zadziałało? Lepiej porozmawiam z Keltonem, spytam, co o tym sądzi.
+      - Language: Portuguese_Brazil
+        String: Isso... parece ter funcionado? É melhor eu ir falar com Kelton e ver o que ele acha.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Completed
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Übertragung der Audiodatei hat den Baum beruhigt. Es sieht ganz danach aus, als wäre eine mögliche Katastrophe verhindert worden. Jetzt kann Kelton wieder ruhiger schlafen.
+      - Language: English
+        String: The audio broadcast helped to calm the tree down, and it looks like a potential disaster has been avoided. Kelton can finally rest easy.
+      - Language: Spanish
+        String: La transmisión del audio ayudó a que se calmara el árbol, y parece que hemos evitado un posible desastre. Al fin, Kelton puede quedarse tranquilo.
+      - Language: French
+        String: La diffusion audio a contribué à apaiser l'arbre, et on dirait qu'une catastrophe potentielle a été évitée. Kelton peut enfin être tranquille.
+      - Language: Italian
+        String: La trasmissione audio ha contribuito a placare l’albero e un potenziale disastro è stato evitato. Kelton può finalmente dormire sonni tranquilli.
+      - Language: Japanese
+        String: 放送の効果で木は落ち着き、災害の可能性を回避できたようだ。ケルトンもこれでようやく安心できるだろう
+      - Language: Polish
+        String: Nadawany dźwięk pozwolił na uspokojenie drzewa i wygląda na to, że potencjalna katastrofa została zażegnana. Kelton może wreszcie spać spokojnie.
+      - Language: Portuguese_Brazil
+        String: A transmissão de áudio ajudou a acalmar a árvore e parece que o possível desastre foi evitado. Kelton finalmente pode se acalmar.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF34:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 2BCBE8:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Kelton Frush.
+    - Language: English
+      String: Speak to Kelton Frush
+    - Language: Spanish
+      String: Habla con Kelton Frush.
+    - Language: French
+      String: Parlez à Kelton Frush.
+    - Language: Italian
+      String: Parla con Kelton Frush
+    - Language: Japanese
+      String: ケルトン・フラッシュと話す
+    - Language: Polish
+      String: Porozmawiaj z Keltonem Frushem
+    - Language: Portuguese_Brazil
+      String: Fale com Kelton Frush
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Leah Casler.
+    - Language: English
+      String: Speak to Leah Casler
+    - Language: Spanish
+      String: Habla con Leah Casler.
+    - Language: French
+      String: Parlez à Leah Casler.
+    - Language: Italian
+      String: Parla con Leah Casler
+    - Language: Japanese
+      String: リー・カスラーと話す
+    - Language: Polish
+      String: Porozmawiaj z Leą Casler
+    - Language: Portuguese_Brazil
+      String: Fale com Leah Casler
+  Targets:
+  - AliasID: 1
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Überzeuge Leah, dir den Ast zu geben.
+    - Language: English
+      String: Convince Leah to hand over the branch
+    - Language: Spanish
+      String: Convence a Leah de que te entregue la rama.
+    - Language: French
+      String: Convainquez Leah de vous donner la branche.
+    - Language: Italian
+      String: Convinci Leah a consegnarti il ramo
+    - Language: Japanese
+      String: 枝を渡すようリーを説得する
+    - Language: Polish
+      String: Przekonaj Leę, żeby dała ci gałąź
+    - Language: Portuguese_Brazil
+      String: Convença Leah a entregar o galho
+  Targets:
+  - AliasID: 1
+- Index: 45
+  Flags:
+  - OrWithPrevious
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Stiehl den Ast aus dem Museum.
+    - Language: English
+      String: Steal the branch from the museum
+    - Language: Spanish
+      String: Roba la rama del museo.
+    - Language: French
+      String: Volez la branche dans le musée.
+    - Language: Italian
+      String: Ruba il ramo dal museo
+    - Language: Japanese
+      String: 博物館から枝を盗む
+    - Language: Polish
+      String: Wykradnij gałąź z muzeum
+    - Language: Portuguese_Brazil
+      String: Roube o galho do museu
+  Targets:
+  - AliasID: 14
+- Index: 46
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Earl Fulton.
+    - Language: English
+      String: Speak to Earl Fulton
+    - Language: Spanish
+      String: Habla con Earl Fulton.
+    - Language: French
+      String: Parlez à Earl Fulton.
+    - Language: Italian
+      String: Parla con Earl Fulton
+    - Language: Japanese
+      String: アール・フルトンと話す
+    - Language: Polish
+      String: Porozmawiaj z Earlem Fultonem
+    - Language: Portuguese_Brazil
+      String: Fale com Earl Fulton
+  Targets:
+  - AliasID: 8
+- Index: 47
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kaufe den Ast von Earl Fulton.
+    - Language: English
+      String: Buy branch from Earl Fulton
+    - Language: Spanish
+      String: Cómprale la rama a Earl Fulton.
+    - Language: French
+      String: Achetez la branche à Earl Fulton.
+    - Language: Italian
+      String: Acquista il ramo da Earl Fulton
+    - Language: Japanese
+      String: アール・フルトンから枝を購入する
+    - Language: Polish
+      String: Kup gałąź od Earla Fultona
+    - Language: Portuguese_Brazil
+      String: Compre o galho de Earl Fulton
+  Targets:
+  - AliasID: 8
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Bringe Kelton Frush den Ast.
+    - Language: English
+      String: Deliver the branch to Kelton Frush
+    - Language: Spanish
+      String: Entrégale la rama a Kelton Frush.
+    - Language: French
+      String: Apportez la branche à Kelton Frush.
+    - Language: Italian
+      String: Consegna il ramo a Kelton Frush
+    - Language: Japanese
+      String: ケルトン・フラッシュに枝を届ける
+    - Language: Polish
+      String: Dostarcz gałąź Keltonowi Frushowi
+    - Language: Portuguese_Brazil
+      String: Entregue o galho para Kelton Frush
+  Targets:
+  - {}
+- Index: 55
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Warte auf Kelton.
+    - Language: English
+      String: Wait for Kelton
+    - Language: Spanish
+      String: Espera a Kelton.
+    - Language: French
+      String: Attendez Kelton.
+    - Language: Italian
+      String: Aspetta Kelton
+    - Language: Japanese
+      String: ケルトンを待つ
+    - Language: Polish
+      String: Poczekaj na Keltona
+    - Language: Portuguese_Brazil
+      String: Espere por Kelton
+  Targets:
+  - {}
+- Index: 56
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Kelton Frush.
+    - Language: English
+      String: Speak to Kelton Frush
+    - Language: Spanish
+      String: Habla con Kelton Frush.
+    - Language: French
+      String: Parlez à Kelton Frush.
+    - Language: Italian
+      String: Parla con Kelton Frush
+    - Language: Japanese
+      String: ケルトン・フラッシュと話す
+    - Language: Polish
+      String: Porozmawiaj z Keltonem Frushem
+    - Language: Portuguese_Brazil
+      String: Fale com Kelton Frush
+  Targets:
+  - {}
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Lade die Audiodatei über ein SNN-Terminal hoch.
+    - Language: English
+      String: Upload audio to an SSNN Terminal
+    - Language: Spanish
+      String: Sube el audio a un terminal de la NSC.
+    - Language: French
+      String: Chargez l'audio sur un terminal de SOTV.
+    - Language: Italian
+      String: Carica l’audio su un terminale della SCNN
+    - Language: Japanese
+      String: SSNNのターミナルに音声をアップロードする
+    - Language: Polish
+      String: Prześlij dźwięk do terminala ZUinfo
+    - Language: Portuguese_Brazil
+      String: Envie o áudio para um terminal da ANSC
+  Targets:
+  - AliasID: 4
+- Index: 65
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Führe eine Diagnose durch.
+    - Language: English
+      String: Run a Diagnostic
+    - Language: Spanish
+      String: Ejecuta un diagnóstico.
+    - Language: French
+      String: Faites un diagnostic.
+    - Language: Italian
+      String: Esegui una diagnostica
+    - Language: Japanese
+      String: 診断を行う
+    - Language: Polish
+      String: Przeprowadź diagnostykę
+    - Language: Portuguese_Brazil
+      String: Realize um diagnóstico
+  Targets:
+  - AliasID: 4
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Sprich mit Nadia Muffaz.
+    - Language: English
+      String: (Optional) Talk to Nadia Muffaz
+    - Language: Spanish
+      String: (Opcional) Habla con Nadia Muffaz.
+    - Language: French
+      String: (Optionnel) Parlez à Nadia Muffaz.
+    - Language: Italian
+      String: (Opzionale) Parla con Nadia Muffaz
+    - Language: Japanese
+      String: (オプション)ナディア・マファズと話す
+    - Language: Polish
+      String: (Opcj.) Porozmawiaj z Nadią Muffaz
+    - Language: Portuguese_Brazil
+      String: (Opc.) Fale com Nadia Muffaz
+  Targets:
+  - AliasID: 6
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kehre zum Baum zurück.
+    - Language: English
+      String: Return to the Tree
+    - Language: Spanish
+      String: Vuelve al árbol.
+    - Language: French
+      String: Retournez auprès de l'arbre.
+    - Language: Italian
+      String: Torna all’albero
+    - Language: Japanese
+      String: 木に戻る
+    - Language: Polish
+      String: Wróć do drzewa
+    - Language: Portuguese_Brazil
+      String: Volte para a árvore
+  Targets:
+  - {}
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Kelton Frush.
+    - Language: English
+      String: Speak to Kelton Frush
+    - Language: Spanish
+      String: Habla con Kelton Frush.
+    - Language: French
+      String: Parlez à Kelton Frush.
+    - Language: Italian
+      String: Parla con Kelton Frush
+    - Language: Japanese
+      String: ケルトン・フラッシュと話す
+    - Language: Polish
+      String: Porozmawiaj z Keltonem Frushem
+    - Language: Portuguese_Brazil
+      String: Fale com Kelton Frush
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 5
+  Name: CityNewAtlantisLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01295A:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 13
+  Name: AkilaCityCoeMuseumLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 33B8B2:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: KeltonFrush
+  Flags: []
+  ALFG: 0
+  UniqueActor: 26B04F:Starfield.esm
+  PackageData:
+  - 24EF23:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: LeahCasler
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 3393A7:Starfield.esm
+  VoiceTypes: 261A48:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: DebugStartMarker
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 26B047:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: SSNN_Terminal
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 5
+    RefType: 25E056:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: NadiaMuffaz
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124AC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Kelton_Slate
+  Flags:
+  - QuestObject
+  - CreateRefTemp
+  - NoPickpocket
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 168568:Starfield.esm
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: EarlFulton
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22484E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: Branch_Earl
+  Flags:
+  - QuestObject
+  - CreateRefTemp
+  - NoPickpocket
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 092FEA:Starfield.esm
+    AliasID: 8
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: DebugAkilaMarker01
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 33DC49:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: DebugAkilaMarker02
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 168564:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: SSNNDebugMarker
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 168562:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: Leah's Safe
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 092FEB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: Ancient Branch
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  - InitiallyDisabled
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 092FEA:Starfield.esm
+    AliasID: 14
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm

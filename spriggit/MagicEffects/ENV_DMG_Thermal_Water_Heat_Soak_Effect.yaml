@@ -1,0 +1,51 @@
+FormKey: 1F7630:Starfield.esm
+EditorID: ENV_DMG_Thermal_Water_Heat_Soak_Effect
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Anzugschutz aktiviert
+  - Language: English
+    String: Suit Protection Engaged
+  - Language: Spanish
+    String: Protección del traje activa
+  - Language: French
+    String: Protection de la combinaison activée
+  - Language: Italian
+    String: Protezione tuta attivata
+  - Language: Japanese
+    String: スーツの防御が有効
+  - Language: Polish
+    String: Aktywowano ochronę skafandra
+  - Language: Portuguese_Brazil
+    String: Proteção de Traje Ativada
+Keywords:
+- 1EBE83:Starfield.esm
+- 1EBE84:Starfield.esm
+- 248D2E:Starfield.esm
+- 281ECC:Starfield.esm
+ImageSpaceModifier: 231F8B:Starfield.esm
+ActorValue2: 000313:Starfield.esm
+ResistValue: 248D32:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+UnkownInt2: 3
+UnkownInt3: 1065353216
+Flags:
+- Hostile
+- Detrimental
+- 0x20
+- NoArea
+- FXPersist
+- Painless
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16667
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 223D0B:Starfield.esm
+  ComparisonValue: 1

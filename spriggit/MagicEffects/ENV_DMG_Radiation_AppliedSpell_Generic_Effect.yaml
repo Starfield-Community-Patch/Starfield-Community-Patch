@@ -1,0 +1,53 @@
+FormKey: 2218DF:Starfield.esm
+EditorID: ENV_DMG_Radiation_AppliedSpell_Generic_Effect
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Strahlung
+  - Language: English
+    String: Radiation
+  - Language: Spanish
+    String: Radiación
+  - Language: French
+    String: Radiation
+  - Language: Italian
+    String: Radiazioni
+  - Language: Japanese
+    String: 放射能
+  - Language: Polish
+    String: Promieniowanie
+  - Language: Portuguese_Brazil
+    String: Radiação
+Keywords:
+- 1EBE85:Starfield.esm
+- 21BBD5:Starfield.esm
+- 248D2E:Starfield.esm
+ImageSpaceModifier: 243B20:Starfield.esm
+ActorValue2: 0002E1:Starfield.esm
+ResistValue: 248D2F:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+UnkownInt2: 3
+CastType: FireAndForget
+TargetType: TargetActor
+UnkownInt3: 1065353216
+Flags:
+- Hostile
+- Detrimental
+- 0x20
+- NoArea
+- FXPersist
+- 0x80000
+- Painless
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16667
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 223D0B:Starfield.esm
+  ComparisonValue: 1

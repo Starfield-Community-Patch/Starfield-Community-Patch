@@ -1,0 +1,2382 @@
+FormKey: 248CF0:Starfield.esm
+EditorID: UC06
+VirtualMachineAdapter:
+  Scripts:
+  - Name: uc06_questscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EthereaTurrets
+      Object: 248CF0:Starfield.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HideShipFromHUDValue
+      Object: 1A62C4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipCrew
+      Object: 040CE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFriendFaction
+      Object: 106C31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_OrlaseID
+      Object: 248C06:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_UC06_00248CF0
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_430_OrlaseBoardingScene
+      Object: 215DBD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrlaseCaptainLocker
+      Object: 248CF0:Starfield.esm
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_DebugMarker02
+      Object: 246B86:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Orlase
+      Object: 248CF0:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_OrlaseFaction
+      Object: 215DB8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_BE_ShipCaptainsLockerLoot_Small
+      Object: 2BADC6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FloorManager
+      Object: 248CF0:Starfield.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_90_VaeVictis_Attract
+      Object: 246B85:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TransferSystemTrigger
+      Object: 248CF0:Starfield.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_570_System_TransferAccepted
+      Object: 0ADE00:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_Debug_TroubleTravelingToDen
+      Object: 2129FF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MacIntyreSlateLookMarker
+      Object: 248CF0:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_140_PlayerExitsVVChamber
+      Object: 1D7CC5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_560_VV_ApproachTransfer
+      Object: 0ADE1B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VaeVictis
+      Object: 248CF0:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipEngineHealth
+      Object: 1EF0CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MacIntyre
+      Object: 248CF0:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EthereaMines
+      Object: 248CF0:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NewAtlantisShipLandingMarker
+      Object: 023605:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrlaseShip
+      Object: 248CF0:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_95_SS7Guard_PlayerApproachesDoor
+      Object: 0ADE05:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_Orlase_Ship_HostileTransmission_WEF
+      Object: 0348D5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TutorialQuest
+      Object: 045640:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_DebugMarker01
+      Object: 246B87:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TestMQ101HelperQuest
+      Object: 019089:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipEnabledLandingLink
+      Object: 01448D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_420_OrlaseEngineDisabled
+      Object: 215DBC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_400_OrlaseGreetingScene
+      Object: 248C09:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_PlayerKnows_VVSurvivedExecution
+      Object: 1F42E6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipCrew
+      Object: 040CE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EthereaTurrets
+      Object: 248CF0:Starfield.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_Debug_DebrisField
+      Object: 212A02:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_500_OrlaseDeath
+      Object: 248C07:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_OrlaseCabinKey
+      Object: 212A00:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VVChamberDoor
+      Object: 248CF0:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC07
+      Object: 215E93:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC05_DebugMarker01
+      Object: 2A0E42:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrlaseCabinDoor
+      Object: 248CF0:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShip
+      Object: 248CF0:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_PlayerKnows_HowVVFoundResearchTeam
+      Object: 1F3238:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_PlayerKnows_KaiserIsARobot
+      Object: 20B7D9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrlaseID
+      Object: 248CF0:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Health
+      Object: 0002D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_Debug_TravelingToOrlase
+      Object: 2129F8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_100_VaeVictisIntro
+      Object: 248C11:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChiefYasin
+      Object: 248CF0:Starfield.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NamelessAlias
+      Object: 248CF0:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC07_HadrianVVRevealQuest
+      Object: 1F44B2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_SpaceBattleTeleportMarker
+      Object: 248BF9:Starfield.esm
+  Fragments:
+  - Stage: 430
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0430_Item_00
+  - Stage: 135
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0135_Item_00
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0140_Item_00
+  - Stage: 580
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0580_Item_00
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0160_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0105_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0550_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 560
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0560_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 131
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0131_Item_00
+  - Stage: 553
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0553_Item_00
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0006_Item_00
+  - Stage: 451
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0451_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 441
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0441_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 570
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0570_Item_00
+  - Stage: 99
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0099_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0008_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0095_Item_00
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0115_Item_00
+  - Stage: 133
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0133_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0450_Item_00
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0420_Item_00
+  - Stage: 136
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0136_Item_00
+  - Stage: 403
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0403_Item_00
+  - Stage: 445
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0445_Item_00
+  - Stage: 440
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC06_00248CF0
+    FragmentName: Fragment_Stage_0440_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 248CF0:Starfield.esm
+      Alias: 3
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 5000
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 300
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 248CF0:Starfield.esm
+        Alias: 26
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 350
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 400
+    - Name: DefaultAliasOnShipSystemDamaged
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: SystemDamageStages
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptBoolProperty
+            Name: SetStageOnlyWhenFullyDamaged
+            Data: True
+          - MutagenObjectType: ScriptObjectProperty
+            Name: targetSystem
+            Object: 00ACD9:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 420
+    - Name: DefaultAliasOnDestroyed
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 300
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 500
+    - Name: UC06_OrlaseShipAliasScript
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: HealthData
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: playerLevel
+            Data: 22
+          - MutagenObjectType: ScriptFloatProperty
+            Name: UpdatedHealthValue
+            Data: 853
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetValue
+            Object: 0002D4:Starfield.esm
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: playerLevel
+            Data: 38
+          - MutagenObjectType: ScriptFloatProperty
+            Name: UpdatedHealthValue
+            Data: 1095
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetValue
+            Object: 0002D4:Starfield.esm
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: playerLevel
+            Data: 46
+          - MutagenObjectType: ScriptFloatProperty
+            Name: UpdatedHealthValue
+            Data: 1145
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetValue
+            Object: 0002D4:Starfield.esm
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: playerLevel
+            Data: 64
+          - MutagenObjectType: ScriptFloatProperty
+            Name: UpdatedHealthValue
+            Data: 1364
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetValue
+            Object: 0002D4:Starfield.esm
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: playerLevel
+            Data: 72
+          - MutagenObjectType: ScriptFloatProperty
+            Name: UpdatedHealthValue
+            Data: 1516
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetValue
+            Object: 0002D4:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC06_OnHitDebugEnabled
+        Object: 0ADDFF:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 248CF0:Starfield.esm
+      Alias: 7
+    Scripts:
+    - Name: defaultaliasonlocationchange
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 2CE1ED:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 102
+      - MutagenObjectType: ScriptBoolProperty
+        Name: CheckNewLocation
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 99
+    - Name: DefaultAliasOnItemAddedScriptA
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: itemFilter
+        Object: 212A00:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 451
+    - Name: DefaultAliasOnItemAddedScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: itemFilter
+        Object: 248C06:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 300
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 550
+    - Name: DefaultAliasOnSit
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SitTarget
+        Object: 248CF0:Starfield.esm
+        Alias: 30
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 115
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NotAllowedDuringCombat
+        Object: 1413FD:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 248CF0:Starfield.esm
+      Alias: 12
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 100
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 105
+  - Property:
+      Name: ''
+      Object: 248CF0:Starfield.esm
+      Alias: 18
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 430
+  - Property:
+      Name: ''
+      Object: 248CF0:Starfield.esm
+      Alias: 39
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 430
+  - Property:
+      Name: ''
+      Object: 248CF0:Starfield.esm
+      Alias: 24
+    Scripts:
+    - Name: UC06_OrlaseCabinDoorAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC06_OrlaseCabinKey
+        Object: 212A00:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 248CF0:Starfield.esm
+      Alias: 25
+    Scripts:
+    - Name: defaultaliasonlockstatechanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 450
+  - Property:
+      Name: ''
+      Object: 248CF0:Starfield.esm
+      Alias: 31
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 500
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 140
+  - Property:
+      Name: ''
+      Object: 248CF0:Starfield.esm
+      Alias: 34
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: ShouldDisableAfterSuccessfulActivation
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 570
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 560
+  - Property:
+      Name: ''
+      Object: 248CF0:Starfield.esm
+      Alias: 40
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 95
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 105
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Das geringere Übel
+  - Language: English
+    String: The Devils You Know
+  - Language: Spanish
+    String: Los Diablos que conoces
+  - Language: French
+    String: Des démons connus
+  - Language: Italian
+    String: Diavoli famigerati
+  - Language: Japanese
+    String: 既知の悪魔
+  - Language: Polish
+    String: Lepsze znane zło
+  - Language: Portuguese_Brazil
+    String: Diabos Familiares
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475FD:Starfield.esm
+QuestFaction: 0546DC:Starfield.esm
+Summary: >-
+  The player's presence is requested by Vae Victis, the once-executed, now jailed former Admiral of the UC. Vae Victis has a proposal for the player - he'll give the player the location of Hadrian's Xenowarfare team if the player will kill someone for him. The player can either agree to help or offer to bring the criminal in question - Dr. Reginald Orlase - to justice. 
+
+
+  They're directed to The Den to speak to the local Vanguard, then out to an old debris field where Orlase has been hiding. After a dogfight where they can either destory Orlase's ship, killing the doctor, or board it and he'll do the job himself, and the collect his ID to return to Vae Victis, completing the task.
+UnusedConditions: []
+Stages:
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Jump player to Long Term Storage'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Jump player to the Den'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Jump player to space.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Jump player to Orlase'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Jump player back to VV to close out'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: Jump player to MacIntyre's scene"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: Damage Orlase's ship"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: Jump Orlase's ship to the player's ship"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Give the player a ship. Set by all debug stages'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 95
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player hit the trigger in front of the Marine. Get 'em taking."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 99
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Marine finished his scene. Unlock the door to VV's chamber."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest started. Direct the player into the basement.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Jemand möchte mit mir reden, aber Vizeministerin MacIntyre will mir nicht sagen, wer es ist. Sie meinte, ich könnte diesen Jemand unten in Untersektion Sieben finden.
+      - Language: English
+        String: Someone's requested to speak with me, but Deputy MacIntyre won't tell me who. She said I can find them down in Subsection Seven.
+      - Language: Spanish
+        String: Alguien ha pedido hablar conmigo, pero la diputada MacIntyre se niega a revelarme quién. Dice que me espera en la subsección siete.
+      - Language: French
+        String: Quelqu'un a demandé à me parler, mais l'adjointe MacIntyre refuse de me dire qui. Elle m'a dit que je pouvais trouver cette personne dans la sous-section sept.
+      - Language: Italian
+        String: Qualcuno ha fatto richiesta di parlare con me, ma la vice MacIntyre non vuole dirmi di chi si tratta. Mi ha detto che posso trovare questa persona nella sottosezione 7.
+      - Language: Japanese
+        String: 誰かに面会を求められているが、マッキンタイア補佐官は相手が誰なのか教えてくれない。サブセクション7に行けばわかると言われた
+      - Language: Polish
+        String: Ktoś chce ze mną rozmawiać, ale zastępczyni MacIntyre nie chce mi powiedzieć kto. Powiedziała, że znajdę tę osobę w podsekcji siódmej.
+      - Language: Portuguese_Brazil
+        String: Alguém pediu para falar comigo, mas a suplente MacIntyre não quer me dizer quem é. Ela disse que vou encontrar a pessoa se descer até a Subseção Sete.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 102
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P4+: Player left Subsection seven after hearing the Guard's scene for the first time. Unlock the repeating scene on the NA Faction quest."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player entered VV's holding chamber. Play his intro scene.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Hier unten lebt jemand ... und er möchte mit mir reden. '
+      - Language: English
+        String: "There's someone living down here... and he's asked to speak to me. "
+      - Language: Spanish
+        String: 'Alguien vive ahí abajo... y ha pedido hablar conmigo. '
+      - Language: French
+        String: "Quelqu'un vit par ici... et souhaite me parler. "
+      - Language: Italian
+        String: 'Qualcuno vive qui sotto... e ha chiesto di parlarmi. '
+      - Language: Japanese
+        String: '誰かがここに住んでいる… 話をしたいと言われた '
+      - Language: Polish
+        String: Ktoś tutaj mieszka... I chce ze mną rozmawiać.
+      - Language: Portuguese_Brazil
+        String: 'Tem alguém morando aqui embaixo... e ele pediu para falar comigo. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player approached Vae Victis. Update the objective.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 115
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P 2.5: OBJ: VV INTRO: Player sat in the chair across from VV. Start his scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Vae Victis introduced himself. Give him his name back.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 125
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: VV INTRO: Player selected the \"UC Native\" option in VV's intro, which adjusts som existing dialogue."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 126
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: VV INTRO: Player hit VV's second loop"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 127
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: VV INTRO: VV hit player's third loop"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 128
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: VV INTRO: Player opened up VV's follow-up question on Hadrian"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 129
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: VV INTRO: Player hit VV's next fourth loop"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: VV INTRO: Player hit VV's final loop"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 131
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: VV INTRO: Player asked about VV's execution. Change up their player options when they return."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 132
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: VV INTRO: Player asked VV about bringing Orlase to justice.  Changes up the player's \"I'm not killing him\" line and VV's response."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 133
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: VV INTRO: Player asked "how do I know I can trust you". Direct the player to MacIntyre'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 134
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: VV INTRO: Player hit VV's \"Hadrian's a clone\" loop"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 135
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: VV INTRO: Player learned VV survived his execution'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 136
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: VV INTRO: Player was told by VV he's good at finding things. Used to change dialogue in UC07/VV-Hadrian reveal scene"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 140
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2.5: VV INTRO: Player left VV's chamber after speaking to him. Play the \"sealing the chamber\" line."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 151
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: MAC CHECK: Player hit second loop. Close that off and get player later into scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 152
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: MAC CHECK: Player hit main loop. Get player back here from now on.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 153
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: MAC CHECK: Mac told player head of the Vanguard is Rayna. Close that off and change up her follow up line in that scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 155
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2 (UC09): MAC CHECK: Player informed MacIntyre of VV's request. Unlocks different dialogue during UC09 final scene."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 160
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: STG: MAC CHECK: Player got sign-off from MacIntyre. Close out the objective to speak with her'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Player finished the scene with VV. '
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mit dem ehemaligen UC-Admiral Vae Victis gesprochen, der eigentlich tot sein sollte. Ich soll einen abtrünnigen Militärwissenschaftler namens Reginald Orlase finden und mich um ihn kümmern. Er soll sich nahe des Planeten Etherea im Wolf-System aufhalten. Nähere Informationen bekomme ich von Captain Marquez, der lokalen Anführerin der Vanguard.
+      - Language: English
+        String: I just spoke to Vae Victis, a former UC admiral and a man who's supposed to be dead. He asked me to track down - and "deal with" - a rogue weapons scientist named Reginald Orlase. He believes Orlase is hiding near the planet of Etherea in the Wolf system, and that I should speak to the local head of the Vanguard - Captain Marquez - to get specifics.
+      - Language: Spanish
+        String: Acabo de hablar con Vae Victis, un antiguo almirante de las CU que supuestamente estaba muerto. Me ha pedido que rastree y “me encargue” de un díscolo científico llamado Reginald Orlase. Cree que Orlase se esconde cerca del planeta Etérea, en el sistema de Lobo, y me ha dicho que hable con la líder de la Vanguardia en la zona, la capitana Marquez, para que me dé los detalles.
+      - Language: French
+        String: Je viens de parler à Vae Victis, un ancien amiral de l'UC supposé être mort. Il m'a demandé de retrouver la trace et de “m'occuper” d'un spécialiste en armement renégat du nom de Reginald Orlase. Il pense que ce dernier se cache près de la planète Etherea, dans le système Wolf. Il m'a conseillé de m'adresser à la responsable locale de l'Avant-garde, le capitaine Marquez, pour obtenir davantage d'informations.
+      - Language: Italian
+        String: Ho appena parlato con Vae Victis, un ex ammiraglio dell’UC che dovrebbe essere morto da un pezzo. Mi ha chiesto di rintracciare (e “sistemare”) uno scienziato di armamenti corrotto di nome Reginald Orlase. Crede che Orlase si nasconda vicino al pianeta Etherea, nel sistema Lupo, e che io debba parlare col capo locale dell’Avanguardia, la capitana Marquez, per ricevere ulteriori dettagli.
+      - Language: Japanese
+        String: UCの元提督で、死んだはずのヴェイ・ヴィクティスと話をした。レジナルド・オーラスというはぐれ兵器科学者を見つけ出し、"対処する"よう頼まれた。オーラスはウルフ星系の惑星エセリアの近くに隠れているらしい。詳しい情報については、現地のバンガードのトップ、マルケズ大尉と話をするように言われた
+      - Language: Polish
+        String: Jestem po rozmowie z Vae Victisem, byłym admirałem ZK i człowiekiem, który powinien być martwy. Poprosił mnie o znalezienie naukowca zajmującego się bronią, Reginalda Orlase'a, i „rozprawienie się” z nim. Victis uważa, że Orlase kryje się w pobliżu Etherei, planety w układzie Wolf. Kapitan Marquez, szefowa tamtejszego oddziału Gwardii, przekaże mi więcej szczegółów.
+      - Language: Portuguese_Brazil
+        String: Eu acabei de falar com Vae Victis, um ex-almirante da UC que deveria estar morto. Ele me pediu para rastrear e “cuidar” de um cientista de armas desgarrado chamado Reginald Orlase. Ele acredita que Orlase está se escondendo perto do planeta Etérea, no sistema Lobo, e sugeriu que eu falasse com a comandante Marquez, líder local da Vanguarda, para saber mais detalhes.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 201
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: RAYNA: Player hit second loop. Get them back there.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 202
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: RAYNA: Player hit third loop. Get them back there.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 203
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: RAYNA: Player ducked into "tell me about Orlase" scene. Get them back there.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 204
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: RAYNA: Player hit "You talking about the Warlock" point. Get them back there.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 205
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: RAYNA: Player hit final loop. Get them back there.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 206
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: RAYNA: Rayna came to the conclusion people are just disappearing out in the debris fields. Get them back there.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 212
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player told Rayna they're looking for Orlase. Used to change some dialogue down the line.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 215
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player told Rayna they're going after Orlase, gave his name. Used to condition some dialogue in her scene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Direct the player to find Orlase
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Captain Marquez hat mir die Koordinaten der „Warlock“ gegeben, auf der sich Orlase aufhalten könnte. Doch sie hat mich gewarnt, dass in dem Trümmerfeld, in dem sich die Warlock befinden soll, schon einige Schiffe verschwunden sind. '
+      - Language: English
+        String: "Captain Marquez has given me the coordinates I need to find \"The Warlock,\" a ship that may be home to Orlase. But she warned me to be careful - a number of ships have been lost in the debris fields where the Warlock's been seen. "
+      - Language: Spanish
+        String: 'La capitana Marquez me ha dado las coordenadas que necesito para encontrar la “Warlock”, una nave que podría ser el hogar de Orlase. Me ha advertido que vaya con cuidado: unas cuantas naves se han perdido en los campos de restos en el que se ha avistado a la Warlock. '
+      - Language: French
+        String: "Le capitaine Marquez m'a donné les coordonnées dont j'avais besoin pour trouver le “Warlock”, un vaisseau sur lequel pourrait se trouver Orlase. Elle m'a conseillé de faire attention : de nombreux vaisseaux ont été perdus dans le champ de débris où le Warlock a été vu. "
+      - Language: Italian
+        String: 'La capitana Marquez mi ha dato le coordinate necessarie per trovare la “Warlock”, una nave che potrebbe ospitare Orlase. Ma mi ha detto di fare attenzione: molte navi sono andate perse nei campi di detriti dov’è stata avvistata la Warlock. '
+      - Language: Japanese
+        String: 'マルケズ大尉からオーラスがいる可能性がある船、"ウォーロック"を見つけるために必要な座標を受け取った。だが注意するよう警告された。ウォーロックが目撃されたデブリ帯では、多くの船が失われている '
+      - Language: Polish
+        String: "Kapitan Marquez przekazała mi współrzędne, które pomogą mi znaleźć „Warlocka”, statek należący do Orlase'a, ale zaleciła mi ostrożność. W polu szczątków - w okolicy, w której widziano Warlocka - przepadło sporo statków. "
+      - Language: Portuguese_Brazil
+        String: 'A Comandante Marquez me deu as coordenadas necessárias para encontrar a “Warlock”, uma nave que pode estar abrigando Orlase. Mas ela me alertou para tomar cuidado: inúmeras naves já se perderam nos campos de destroços em que a Warlock foi vista. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 301
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P-Late: Orlase loaded in once. Update his health to something more level appropriate'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has gotten within 5000 meters of Orlase's ship. Wake the ship up
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player engaged Orlase's ship. Change objectives and have him say his intro line.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Ich habe die Warlock gefunden. Und der Pilot scheint darüber nicht erfreut zu sein. Entweder schalte ich den Antrieb aus und nehme ihn gefangen (unter Einsatz einer EM-Waffe oder des Zielsteuerungssysteme-Skills) ... oder ich zerstöre das Schiff. '
+      - Language: English
+        String: "I've found the Warlock. And whoever's piloting it doesn't sound pleased I'm here. Time to either disable his engines to capture him (using an EM Weapon or the Targeting Control Systems skill)... or shoot him out of the sky. "
+      - Language: Spanish
+        String: He encontrado la Warlock y quienquiera que la pilote no parece muy contento de que esté aquí. Es hora de desactivar los motores para capturarle —empleando un arma electromagnética o la habilidad Sistemas de control de puntería— o derribarle.
+      - Language: French
+        String: "J'ai trouvé le Warlock, et son pilote ne semble pas apprécier ma présence. Deux issues s'offrent à moi : je peux désactiver ses moteurs afin de le capturer (à l'aide d'une arme EM ou de la compétence Systèmes de ciblage), ou abattre son vaisseau. "
+      - Language: Italian
+        String: 'Ho trovato la Warlock. E chiunque la stia pilotando non sembra contento della mia presenza. Sarà meglio disabilitargli i motori per catturarlo (usando armamenti EM o l’abilità Controllo puntamento)... o spedirlo al creatore. '
+      - Language: Japanese
+        String: ウォーロックを見つけた。パイロットは歓迎してくれない。エンジンを停止させて確保するか(EM兵器や照準制御システムスキルを使って)… 撃破するか、どちらかだ
+      - Language: Polish
+        String: 'Udało mi się znaleźć Warlocka. Jego pilot wydaje się niezbyt zadowolony z mojej obecności. Czas wyłączyć silniki Warlocka (za pomocą broni EM albo umiejętności systemów celowniczych), by go pojmać... albo zestrzelić. '
+      - Language: Portuguese_Brazil
+        String: Eu encontrei a Warlock, e seja lá quem for o piloto, não parece nada feliz de eu estar aqui. Hora de desativar os motores dele para capturá-lo, com uma arma EM ou a habilidade Sistemas de Controle de Mira... ou derrubar a nave a tiros.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 401
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Orlase's intro scene kicked off.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 402
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Orlase's line actually played
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 403
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Orlase's intro scene completed. Wake up the turrets
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: OBJ: ORLASE FIGHT: Player disabled Orlase's engine. Update objectives to direct the player to board"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 248CF0:Starfield.esm
+        SecondParameter: 500
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe den Antrieb der Warlock ausgeschaltet. Jetzt sollte ich an Bord gehen und versuchen, den Piloten gefangen zu nehmen!
+      - Language: English
+        String: I've disabled the Warlock's engines. Now I should be able to board his ship and see if I can't capture its pilot!
+      - Language: Spanish
+        String: He desactivado los motores de la Warlock. Ahora podré subir a su nave y ver si puedo capturar a su piloto.
+      - Language: French
+        String: J'ai désactivé les moteurs du Warlock. Je devrais pouvoir monter à bord du vaisseau afin de capturer son pilote !
+      - Language: Italian
+        String: Ho disattivato i motori della Warlock. Ora dovrei riuscire a salire a bordo e vedere se riesco a catturarne il pilota!
+      - Language: Japanese
+        String: ウォーロックのエンジンを停止した。船に乗り込んで、パイロットを捕獲してみよう！
+      - Language: Polish
+        String: Silniki Warlocka zostały zniszczone. Mogę teraz wejść na pokład statku i zobaczyć, czy uda mi się pojmać jego pilota!
+      - Language: Portuguese_Brazil
+        String: Eu desativei os motores da Warlock. Agora vou poder abordar a nave e tentar capturar seu piloto!
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 430
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: OBJ: ORLASE SHIP: Player hit \"boarding trigger\" in Orlase's ship. Update objectives and play his scene."
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin an Bord der Warlock! Zeit, den Piloten zur Rede zu stellen!
+      - Language: English
+        String: I'm onboard the Warlock! Time to confront the pilot!
+      - Language: Spanish
+        String: ¡Estoy a bordo de la Warlock! ¡Es hora de enfrentarse al piloto!
+      - Language: French
+        String: Je suis à bord du Warlock ! Il est temps de mettre les choses au clair avec son pilote !
+      - Language: Italian
+        String: Sono a bordo della Warlock! Devo affrontare il pilota!
+      - Language: Japanese
+        String: ウォーロックに乗船した！ パイロットと対決だ！
+      - Language: Polish
+        String: Jestem na pokładzie Warlocka! Czas zmierzyć się z pilotem!
+      - Language: Portuguese_Brazil
+        String: Estou a bordo da Warlock! Hora de confrontar o piloto!
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 435
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DON'T USE: 440 used instead!"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 440
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: OBJ: ORLASE FIGHT: Orlase's scene completed. He's now officially \"dead\" (though he's actually dead the whole time)."
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Da Orlase sich nicht gefangen nehmen lassen wollte, hat er sich umgebracht. Ich sollte ihn nach Beweisen durchsuchen, die ich Vae Victis zeigen kann.
+      - Language: English
+        String: Orlase killed himself rather than be captured. I guess I should check him for evidence I could show to Vae Victis.
+      - Language: Spanish
+        String: Orlase prefirió suicidarse a que le capturaran. Supongo que tendré que registrarle para encontrar pruebas que pueda mostrar a Vae Victis.
+      - Language: French
+        String: Orlase a préféré se donner la mort plutôt que d'être capturé. Je dois le fouiller pour trouver une preuve à présenter à Vae Victis.
+      - Language: Italian
+        String: Orlase ha preferito uccidersi piuttosto che farsi catturare. Mi conviene controllare se ci sono prove da mostrare a Vae Victis.
+      - Language: Japanese
+        String: オーラスは捕まることを拒んで死んだ。ヴェイ・ヴィクティスに見せる証拠を探すべきだ
+      - Language: Polish
+        String: Orlase wolał samobójstwo, aniżeli dać się złapać. Muszę poszukać dowodów, które mogę pokazać Vae Victisowi.
+      - Language: Portuguese_Brazil
+        String: Orlase preferiu se matar a ser capturado. Acho que preciso buscar evidências dele para mostrar ao Vae Victis.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 441
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Player heard the "Pilot deatch detected" line. Unlock the door.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 445
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: OBJ: ORLASE SHIP: Player approached the door to the cabin without a key. Direct them to go find it.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: OBJ: OLRASE SHIP: Player unlocked Orlase's cabin door. Close out the objective to find a key if it hasn't been already."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 451
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: OBL: ORLASE SHIP: Player acquired Orlase's cabin key. Clean up related objectives if they're displayed."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Orlase's ship is destroyed. Direct the player to collect a piece of his ship.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Warlock zerstört, der Pilot war noch im Schiff. Ich sollte das Wrack nach Beweisen durchsuchen, dass es sich um Orlase handelte.
+      - Language: English
+        String: I destroyed the Warlock - and its pilot with it. I need to search the wreckage, find evidence this was Orlase.
+      - Language: Spanish
+        String: He destruido la Warlock y, con ella, a su piloto. Tengo que buscar pruebas entre los restos de que era Orlase.
+      - Language: French
+        String: J'ai détruit le Warlock, ainsi que son pilote. Je dois explorer l'épave pour trouver des preuves qu'il s'agissait bien d'Orlase.
+      - Language: Italian
+        String: Ho distrutto la Warlock, pilota compreso. Devo cercare tra i rottami se ci sono prove che attestino che si trattava di Orlase.
+      - Language: Japanese
+        String: ウォーロックを破壊した。パイロットと共に。残骸を捜索して、オーラスだったという証拠を探そう
+      - Language: Polish
+        String: Warlock został zniszczony, a wraz z nim jego pilot. Muszę przeszukać wrak, aby znaleźć dowody na to, że był tam Orlase.
+      - Language: Portuguese_Brazil
+        String: Eu destruí a Warlock com seu piloto dentro. Preciso examinar os destroços para obter evidências de que era o Orlase.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player of their ship acquired the ID. Direct them back to VV.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Orlases alte United-Colonies-ID gefunden. Damit sollte auch für Vae Victis der Job erledigt sein.
+      - Language: English
+        String: I found Orlase's old United Colonies ID. This should be sufficient evidence to prove to Vae Victis the job is done.
+      - Language: Spanish
+        String: He encontrado la antigua identificación de Orlase de las CU. Esto debería bastar para demostrar a Vae Victis que el trabajo está hecho.
+      - Language: French
+        String: J'ai trouvé l'ancien identifiant de l'Union coloniale d'Orlase. Cela devrait suffire pour prouver à Vae Victis que ma tâche est accomplie.
+      - Language: Italian
+        String: Ho trovato il vecchio documento d’identità dell’Unione Coloniale di Orlase. Dovrebbe essere una prova sufficiente per dimostrare a Vae Victis che il gioco è fatto.
+      - Language: Japanese
+        String: オーラスのコロニー連合時代のIDを見つけた。仕事が完了したと、ヴェイ・ヴィクティスに証明できる
+      - Language: Polish
+        String: Udało mi się znaleźć stary identyfikator Zjednoczonych Kolonii Orlase'a. Powinien wystarczyć, aby Vae Victis uwierzył, że robota została wykonana.
+      - Language: Portuguese_Brazil
+        String: Encontrei a antiga identificação da União das Colônias de Orlase. Isso deve bastar como evidência para provar a Vae Victis que o trabalho está feito.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 551
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: VV WRAP: Player hit second loop. Get them back there.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 552
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: VV WRAP: Player hit final loop. Get them back there.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 553
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: VV WRAP: Player learned Kaiser's a robot. Flag that global (used in UC07 to change up dialogue)"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 560
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: VV directed the player to hand over Orlase's ID."
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Vae Victis bat mich, ihm meine Beweise für Orlases Tod zu übergeben. Das sollte ich über das Transfersystem tun.
+      - Language: English
+        String: Vae Victis has asked me to hand over the evidence I collected that Orlase is dead. I should approach the transfer system.
+      - Language: Spanish
+        String: Vae Victis me ha pedido que le entregue las pruebas que he recopilado sobre la muerte de Orlase. Tendré que ir al sistema de transferencias.
+      - Language: French
+        String: Vae Victis m'a demandé de lui donner une preuve de la mort d'Orlase. Je dois m'approcher du système de transfert.
+      - Language: Italian
+        String: Vae Victis mi ha chiesto di consegnare la prova della morte di Orlase. Devo usare il sistema di trasferimento.
+      - Language: Japanese
+        String: ヴェイ・ヴィクティスに、オーラスが死んだ証拠を渡すように言われた。転送システムへ近づこう
+      - Language: Polish
+        String: Vae Victis poprosił mnie o przekazanie dowodu na to, że Orlase nie żyje. Mam go włożyć do pojemnika transferowego.
+      - Language: Portuguese_Brazil
+        String: Vae Victis me pediu para entregar a evidência de que Orlase está morto. Tenho que me aproximar do sistema de transferência.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 570
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: The player activated the transfer system. Take the ID from them, let VV's scene proceed, then "
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 575
+  LogEntries:
+  - Flags: []
+    Note: "P3: System transfer line completed. VV's now got the card in his hand. Start his line."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 580
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: VV scene completed. '
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die ID. Jetzt sollte ich mich zu Hadrians und Percivals Forschungsteam begeben.
+      - Language: English
+        String: I've handed over the ID. Time to get the location of Hadrian and Percival's research team.
+      - Language: Spanish
+        String: He entregado la identificación. Es el momento de localizar al equipo de investigación de Hadrian y Percival.
+      - Language: French
+        String: J'ai rendu l'identifiant. Il est temps pour moi de savoir où se trouve l'équipe de recherche d'Hadrian et de Percival.
+      - Language: Italian
+        String: Ho consegnato il documento. È ora di scoprire la posizione della squadra di ricerca di Hadrian e Percival.
+      - Language: Japanese
+        String: IDを引き渡した。ヘイドリアンとパーシバルの研究チームの居場所を突き止めよう
+      - Language: Polish
+        String: Identyfikator przekazany. Czas dowiedzieć się, gdzie znajduje się ekipa badawcza Hadrian i Percivala.
+      - Language: Portuguese_Brazil
+        String: Eu entreguei a identificação. Hora de descobrir a localização da equipe de pesquisa de Hadrian e Percival.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest done. On to the next one!
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Vae Victis sorgt dafür, dass das Forschungsteam sich zum Hauptquartier der Red Devils begibt. Nur Kaiser müssen wir von Niira abholen. Vae Victis meinte, ich soll Hadrian nach ihm fragen, da sie voraussichtlich mehr über ihn weiß.
+      - Language: English
+        String: Vae Victis is going to arrange to have the research team arrive at the Red Devils HQ. All but one - Kaiser - who I'll need to recover from Niira. Vae Victis suggested I check in with Hadrian first, as she'll likely have more information about this missing teammate.
+      - Language: Spanish
+        String: Vae Victis va a organizar la llegada del equipo de investigación a la sede de los Diablos Rojos. Todos menos uno, Kaiser, a quien tengo que recoger en Niira. Vae Victis me ha recomendado que hable antes con Hadrian, ya que seguro que ella tiene más información del compañero desaparecido.
+      - Language: French
+        String: Vae Victis va s'arranger pour que l'équipe de recherche arrive au QG des Diables ardents. Tous sauf un, Kaiser, que je dois aller chercher sur Niira. Vae Victis m'a conseillé d'en parler avec Hadrian, qui pourrait avoir des informations sur ce coéquipier disparu.
+      - Language: Italian
+        String: Vae Victis farà in modo che la squadra di ricerca arrivi al quartier generale dei Diavoli Rossi. Tutti i membri tranne uno, Kaiser, che dovrò recuperare su Niira. Vae Victis mi ha innanzitutto suggerito di parlare con Hadrian, che quasi certamente avrà informazioni sul compagno di squadra smarrito.
+      - Language: Japanese
+        String: 研究チームがレッド・デビルズ本部に到着するように、ヴェイ・ヴィクティスが手配してくれる。ただしカイザーは例外で、ニーラから救出しなければならない。まず行方不明のチームメイトについて知っている、ヘイドリアンと話をするようヴェイ・ヴィクティスに言われた
+      - Language: Polish
+        String: Vae Victis zadba, by ekipa badawcza dotarła do centrali Czerwonych Diabłów. Wszyscy poza jednym, Kaiserem, którego mam uratować z Niiry. Zasugerował, by porozmawiać najpierw z Hadrian, jako że może mieć więcej informacji na temat zagubionego członka ekipy.
+      - Language: Portuguese_Brazil
+        String: Vae Victis vai providenciar que a equipe de pesquisa chegue no QG dos Diabos Vermelhos. Todos os integrantes com exceção de um, Kaiser, que eu preciso recuperar em Niira. Vae Victis sugeriu que eu procurasse Hadrian primeiro, pois é provável que ela tenha mais informações sobre o colega de equipe perdido.
+    StageCompleteDatas:
+    - QSRD: 0x02000000
+      RewardDatas:
+      - XpAwarded: 0DF3DE:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0B:Starfield.esm
+          Count: 1
+      - XpAwarded: Null
+        BonusCredits: 1460FE:Starfield.esm
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: HasPerkConditionData
+            FirstParameter: 227FD4:Starfield.esm
+          ComparisonValue: 1
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Geh zu deinem Meeting (Untersektion Sieben).
+    - Language: English
+      String: Proceed to your meeting (Subsection Seven)
+    - Language: Spanish
+      String: Dirígete a la reunión (subsección siete)
+    - Language: French
+      String: Allez au rendez-vous (Sous-section sept).
+    - Language: Italian
+      String: Raggiungi il luogo dell’incontro (sottosezione 7)
+    - Language: Japanese
+      String: 話し合いに向かう(サブセクション7)
+    - Language: Polish
+      String: Udaj się na spotkanie (podsekcja siódma)
+    - Language: Portuguese_Brazil
+      String: Siga para a sua reunião (Subseção Sete)
+  Targets:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 248CF0:Starfield.esm
+        SecondParameter: 99
+      ComparisonValue: 1
+  - AliasID: 41
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 248CF0:Starfield.esm
+        SecondParameter: 99
+- Index: 105
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nutze das Intercom.
+    - Language: English
+      String: Use the intercom
+    - Language: Spanish
+      String: Usa el intercomunicador.
+    - Language: French
+      String: Utilisez l'intercom.
+    - Language: Italian
+      String: Usa l’interfono
+    - Language: Japanese
+      String: インターコムを使う
+    - Language: Polish
+      String: Użyj interkomu
+    - Language: Portuguese_Brazil
+      String: Use o comunicador
+  Targets:
+  - AliasID: 33
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit der fremden Person.
+    - Language: English
+      String: Speak to the stranger
+    - Language: Spanish
+      String: Habla con el desconocido.
+    - Language: French
+      String: Parlez à l'étranger.
+    - Language: Italian
+      String: Parla con lo sconosciuto
+    - Language: Japanese
+      String: 謎の人物と話す
+    - Language: Polish
+      String: Porozmawiaj z nieznajomym
+    - Language: Portuguese_Brazil
+      String: Fale com a pessoa desconhecida
+  Targets:
+  - AliasID: 33
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Vae Victis.
+    - Language: English
+      String: Speak to Vae Victis
+    - Language: Spanish
+      String: Habla con Vae Victis.
+    - Language: French
+      String: Parlez à Vae Victis.
+    - Language: Italian
+      String: Parla con Vae Victis
+    - Language: Japanese
+      String: ヴェイ・ヴィクティスと話す
+    - Language: Polish
+      String: Porozmawiaj z Vae Victisem
+    - Language: Portuguese_Brazil
+      String: Fale com Vae Victis
+  Targets:
+  - AliasID: 33
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Sprich mit Vizeministerin MacIntyre.
+    - Language: English
+      String: (Optional) Speak to Deputy MacIntyre
+    - Language: Spanish
+      String: (Opcional) Habla con la diputada MacIntyre.
+    - Language: French
+      String: (Optionnel) Parlez à l'adjointe MacIntyre.
+    - Language: Italian
+      String: (Opzionale) Parla con la vice MacIntyre
+    - Language: Japanese
+      String: (オプション)マッキンタイア補佐官と話す
+    - Language: Polish
+      String: (Opcj.) Porozmawiaj z zastępczynią MacIntyre
+    - Language: Portuguese_Brazil
+      String: (Opc.) Fale com a suplente MacIntyre
+  Targets:
+  - AliasID: 15
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Captain Marquez.
+    - Language: English
+      String: Speak to Captain Marquez
+    - Language: Spanish
+      String: Habla con la capitana Marquez.
+    - Language: French
+      String: Parlez au capitaine Marquez.
+    - Language: Italian
+      String: Parla con la capitana Marquez
+    - Language: Japanese
+      String: マルケズ大尉と話す
+    - Language: Polish
+      String: Porozmawiaj z kapitan Marquez
+    - Language: Portuguese_Brazil
+      String: Fale com a comandante Marquez
+  Targets:
+  - AliasID: 2
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde die „Warlock“.
+    - Language: English
+      String: Find "The Warlock"
+    - Language: Spanish
+      String: Busca la “Warlock”.
+    - Language: French
+      String: Trouvez le “Warlock”.
+    - Language: Italian
+      String: Trova la “Warlock”
+    - Language: Japanese
+      String: '"ウォーロック"を見つける'
+    - Language: Polish
+      String: Znajdź „Warlocka”
+    - Language: Portuguese_Brazil
+      String: Encontre a “Warlock”
+  Targets:
+  - AliasID: 3
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Zerstöre das Schiff.
+    - Language: English
+      String: Destroy the ship
+    - Language: Spanish
+      String: Destruye la nave.
+    - Language: French
+      String: Détruisez le vaisseau.
+    - Language: Italian
+      String: Distruggi la nave
+    - Language: Japanese
+      String: 船を破壊する
+    - Language: Polish
+      String: Zniszcz statek
+    - Language: Portuguese_Brazil
+      String: Destrua a nave
+  Targets:
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsDockedWithConditionData
+        RunOnType: PlayerShip
+        UseAliases: True
+        FirstParameter: 3
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+- Index: 401
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: ODER schalte den Antrieb aus.
+    - Language: English
+      String: OR Disable the engines
+    - Language: Spanish
+      String: O desactiva los motores.
+    - Language: French
+      String: OU Désactivez les moteurs.
+    - Language: Italian
+      String: O disattiva i motori
+    - Language: Japanese
+      String: もしくはエンジンを停止させる
+    - Language: Polish
+      String: ALBO wyłącz silniki
+    - Language: Portuguese_Brazil
+      String: OU desligue os motores
+- Index: 420
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: ODER gehe an Bord der „Warlock“.
+    - Language: English
+      String: OR Board "The Warlock"
+    - Language: Spanish
+      String: O aborda la “Warlock”.
+    - Language: French
+      String: OU Montez à bord du “Warlock”.
+    - Language: Italian
+      String: O abborda la “Warlock”
+    - Language: Japanese
+      String: もしくは"ウォーロック"に乗り込む
+    - Language: Polish
+      String: ALBO wejdź na pokład „Warlocka”
+    - Language: Portuguese_Brazil
+      String: OU embarque na “Warlock”
+  Targets:
+  - AliasID: 17
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsDockedWithConditionData
+        RunOnType: PlayerShip
+        UseAliases: True
+        FirstParameter: 3
+      ComparisonValue: 1
+- Index: 430
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: ODER verhafte den Piloten.
+    - Language: English
+      String: OR Arrest the pilot
+    - Language: Spanish
+      String: O arresta a su piloto.
+    - Language: French
+      String: OU Arrêtez le pilote.
+    - Language: Italian
+      String: O arresta il pilota
+    - Language: Japanese
+      String: もしくはパイロットを逮捕する
+    - Language: Polish
+      String: ALBO aresztuj pilota
+    - Language: Portuguese_Brazil
+      String: OU prenda o piloto
+  Targets:
+  - AliasID: 17
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetLockedConditionData
+        RunOnType: QuestAlias
+        Unknown3: 25
+  - AliasID: 25
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetLockedConditionData
+        RunOnType: QuestAlias
+        Unknown3: 25
+      ComparisonValue: 1
+- Index: 445
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Finde einen Kabinenschlüssel im Schiff.
+    - Language: English
+      String: (Optional) Search the ship for a cabin key
+    - Language: Spanish
+      String: (Opcional) Busca la llave en la nave.
+    - Language: French
+      String: (Opt.) Cherchez la clé de cabine dans le vaisseau.
+    - Language: Italian
+      String: (Opzionale) Trova la chiave della cabina sulla nave
+    - Language: Japanese
+      String: (オプション)キャビンの鍵を探す
+    - Language: Polish
+      String: (Opcj.) Znajdź klucz do kabiny
+    - Language: Portuguese_Brazil
+      String: (Opc.) Ache a chave da cabine na nave
+  Targets:
+  - AliasID: 23
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 1452C0:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 23
+      ComparisonValue: 5
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nimm den Beweis an dich.
+    - Language: English
+      String: Collect the evidence
+    - Language: Spanish
+      String: Hazte con las pruebas.
+    - Language: French
+      String: Récupérez les preuves.
+    - Language: Italian
+      String: Recupera le prove
+    - Language: Japanese
+      String: 証拠を回収する
+    - Language: Polish
+      String: Zbierz dowody
+    - Language: Portuguese_Brazil
+      String: Obtenha a evidência
+  Targets:
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDestroyedConditionData
+        RunOnType: QuestAlias
+        Unknown3: 3
+      ComparisonValue: 1
+  - AliasID: 17
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDestroyedConditionData
+        RunOnType: QuestAlias
+        Unknown3: 3
+- Index: 550
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Gib Vae Victis die Beweise zurück.
+    - Language: English
+      String: Return the evidence to Vae Victis
+    - Language: Spanish
+      String: Devuelve las pruebas a Vae Victis.
+    - Language: French
+      String: Rapportez vos preuves à Vae Victis.
+    - Language: Italian
+      String: Consegna la prova a Vae Victis
+    - Language: Japanese
+      String: ヴェイ・ヴィクティスに証拠を渡す
+    - Language: Polish
+      String: Przekaż dowód Vae Victisowi
+    - Language: Portuguese_Brazil
+      String: Entregue a evidência a Vae Victis
+  Targets:
+  - AliasID: 33
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInSameCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 39
+  - AliasID: 39
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInSameCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 39
+      ComparisonValue: 1
+- Index: 560
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Gib Vae Victis die ID.
+    - Language: English
+      String: Transfer the ID to Vae Victis
+    - Language: Spanish
+      String: Pásale la identificación a Vae Victis.
+    - Language: French
+      String: Transférez l'identifiant à Vae Victis.
+    - Language: Italian
+      String: Trasferisci a Vae Victis il documento d’identità
+    - Language: Japanese
+      String: 身分証をヴェイ・ヴィクティスに転送する
+    - Language: Polish
+      String: Przekaż identyfikator Vae Victisowi
+    - Language: Portuguese_Brazil
+      String: Transfira a identificação para Vae Victis
+  Targets:
+  - AliasID: 34
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 248CF0:Starfield.esm
+        SecondParameter: 570
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 2CAA01:Starfield.esm
+- Index: 580
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Vae Victis.
+    - Language: English
+      String: Speak to Vae Victis
+    - Language: Spanish
+      String: Habla con Vae Victis.
+    - Language: French
+      String: Parlez à Vae Victis.
+    - Language: Italian
+      String: Parla con Vae Victis
+    - Language: Japanese
+      String: ヴェイ・ヴィクティスと話す
+    - Language: Polish
+      String: Porozmawiaj z Vae Victisem
+    - Language: Portuguese_Brazil
+      String: Fale com Vae Victis
+  Targets:
+  - AliasID: 33
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 19
+  Name: UC06OrlaseShipLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 215DBF:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 13
+  Name: POI063SubsectionSevenLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2CE1ED:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 9
+  Name: S_UC06_EthereaOrbitLocation
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 246B88:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 46
+  Name: EthereaOrbitLocation
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 224C68:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: VaeVictis
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2CE229:Starfield.esm
+  PackageData:
+  - 0ADE13:Starfield.esm
+  - 1D708C:Starfield.esm
+  - 246B81:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: NamelessAlias
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ALFG: 0
+  UniqueActor: 2CE229:Starfield.esm
+  DisplayName: 248C14:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: RaynaMarquez
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2A0EAA:Starfield.esm
+  PackageData:
+  - 246B80:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: OrlaseShipSpawn
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 246B89:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: OrlaseShip
+  Flags:
+  - AllowDisabled
+  - InitiallyDisabled
+  ALFG: 0
+  UniqueBaseForm: 14A8BC:Starfield.esm
+  LinkedAliases:
+  - AliasID: 8
+  VoiceTypes: 246AD8:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: OrlaseIDSpawn
+  Flags: []
+  ALFG: 0
+  ForcedReference: 248C05:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: Orlase
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 248C08:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: OrlaseID
+  Flags:
+  - QuestObject
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 248C06:Starfield.esm
+    AliasID: 4
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: Scene90Source
+  Flags: []
+  ALFG: 0
+  ForcedReference: 246B84:Starfield.esm
+  VoiceTypes: 2CE227:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: TriggerStage90
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 246B82:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  Factions:
+  - 3B0019:Starfield.esm
+  PackageData:
+  - 04613C:Starfield.esm
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: MacIntyre
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2A3960:Starfield.esm
+  PackageData:
+  - 215DC3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: MacIntyreSlateLookMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 215DC4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: OrlaseShipInteriorTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 215DBE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: OrlaseShipHatch
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 0ADE02:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: OrlaseShipInteriorPASource
+  Flags: []
+  ALFG: 0
+  ForcedReference: 215DBB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: MinisterElevator
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 2AADC2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: RaynaSlateLookAtMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2129F9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: OrlaseCabinKey
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 2129F6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: OrlaseShipCabinTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 2129F5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: OrlaseCabinDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 2129F4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 47
+  Name: OrlaseCaptainLocker
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 2B565B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: PlayerShip
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: PlayerShipSeat
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 3
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: Scene140Source
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1D7CC6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: PlayerSeat
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 1D7CBE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: TriggerStage140
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 1D7CBC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: FloorManager
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 0E53C4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: VVIntercom
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 0ADE1E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: TransferSystemTrigger
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 0ADE15:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 35
+  Name: TransferSystemVoiceSource
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0ADE16:Starfield.esm
+  VoiceTypes: 215DBA:Starfield.esm
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 36
+    ALAM: 0
+    ReferenceAlias:
+      ID: 36
+      Name: EthereaMines
+      Flags:
+      - Optional
+      - AllowDisabled
+      ALFG: 0
+      ForcedReference: 0D8C50:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 37
+    ALAM: 0
+    ReferenceAlias:
+      ID: 37
+      Name: EthereaTurrets
+      Flags:
+      - AllowDisabled
+      ALFG: 0
+      Location:
+        AliasID: 9
+        RefType: 0ADE0F:Starfield.esm
+      Factions:
+      - 106C31:Starfield.esm
+      - 215DB8:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: SS7Marine
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0ADE21:Starfield.esm
+  PackageData:
+  - 0ADE03:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: TriggerStage95
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 19FF88:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 41
+  Name: VVChamberDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 0ADE01:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 42
+  Name: ChiefYasin
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 0124B4:Starfield.esm
+  VoiceTypes: Null

@@ -1,0 +1,52 @@
+FormKey: 33E8EC:Starfield.esm
+EditorID: COM_Companion_Barrett_Convo_Neon01
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Barretts NPC-Chat
+  - Language: English
+    String: Barrett NPC Chat
+  - Language: Spanish
+    String: Conversación de PNJ Barrett
+  - Language: French
+    String: Barrett NPC Chat
+  - Language: Italian
+    String: Chat PNG Barrett
+  - Language: Japanese
+    String: バレットNPC会話
+  - Language: Polish
+    String: Barrett - rozmowa z PN
+  - Language: Portuguese_Brazil
+    String: 'Barrett: Diálogo de NPC'
+Data:
+  Flags:
+  - RunOnce
+  Unused: 0x000000
+Event: SCPT
+UnusedConditions: []
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: SaburoOkadigbo
+  Flags: []
+  ALFG: 0
+  UniqueActor: 26FDE4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Barrett
+  Flags: []
+  ALFG: 0
+  UniqueActor: 005787:Starfield.esm
+  Conditions:
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThanOrEqualTo
+    Unknown1: 0xFFFFFF
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      UseAliases: True
+      FirstParameter: 1
+    ComparisonValue: 297E24:Starfield.esm
+  VoiceTypes: Null

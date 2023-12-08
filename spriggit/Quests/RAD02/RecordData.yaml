@@ -1,0 +1,1149 @@
+FormKey: 29EF60:Starfield.esm
+EditorID: RAD02
+VirtualMachineAdapter:
+  Scripts:
+  - Name: RAD02Script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RAD02_InterviewCount
+      Object: 1829F7:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_RAD02_0029EF60
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RAD02_0010_TommyWave
+      Object: 08CCBF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TommyBitlow
+      Object: 29EF60:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NewAtlantis_Z_PrimarySources
+      Object: 115CC3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NadiaMuffaz
+      Object: 29EF60:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RAD02_InterviewCount
+      Object: 1829F7:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 299
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0299_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 799
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0799_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0025_Item_00
+  - Stage: 399
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0399_Item_00
+  - Stage: 8100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_8100_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 9000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_9000_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 8000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_8000_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 599
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0599_Item_00
+  - Stage: 699
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0699_Item_00
+  - Stage: 505
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0505_Item_00
+  - Stage: 499
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0499_Item_00
+  - Stage: 199
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RAD02_0029EF60
+    FragmentName: Fragment_Stage_0199_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein Licht in der Dunkelheit
+  - Language: English
+    String: A Light in the Darkness
+  - Language: Spanish
+    String: Una luz en la oscuridad
+  - Language: French
+    String: Une lumière dans les ténèbres
+  - Language: Italian
+    String: Una luce nell’oscurità
+  - Language: Japanese
+    String: 暗闇の中の光
+  - Language: Polish
+    String: Światełko w ciemności
+  - Language: Portuguese_Brazil
+    String: Uma Luz da Escuridão
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 50
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: STAGE 0
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ON START
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tommy is queued up to talk to the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tommy has forcegreeted
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ein Fremder will mit mir reden. Ich sollte herausfinden, worum es geht.
+      - Language: English
+        String: A stranger wants to talk to me. I should see what he has to say.
+      - Language: Spanish
+        String: Un desconocido quiere hablar conmigo. Debería ir a ver lo que tenga que decir.
+      - Language: French
+        String: Un inconnu souhaite me parler. Je ferais bien de voir ce qu'il a à me dire.
+      - Language: Italian
+        String: Uno sconosciuto vuole parlarmi. Dovrei capire che cos’ha da dire.
+      - Language: Japanese
+        String: 謎の人物が話をしたがっている。どういう内容か聞いてみよう
+      - Language: Polish
+        String: Nieznajomy chce ze mną porozmawiać. Zobaczę, co ma mi do powiedzenia.
+      - Language: Portuguese_Brazil
+        String: Um estranho quer falar comigo. Vou ver o que ele tem a dizer.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 25
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Pointed to Nadia Muffaz
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nadia Muffaz ist für SNN in der Recherche tätig. Sie sucht nach Informationen über den Angriff auf Vectera und ist bereit, dafür zu bezahlen.
+      - Language: English
+        String: Nadia Muffaz is a researcher for SSNN. She's looking for information on the attack on Vectera and is willing to pay for it.
+      - Language: Spanish
+        String: Nadia Muffaz es periodista de investigación de la NSC. Busca información sobre el ataque de Vectera y está dispuesta a pagar unos créditos.
+      - Language: French
+        String: Nadia Muffaz est chercheuse chez SOTV. Elle voudrait des informations sur l'attaque sur Vectera et est prête à payer pour les obtenir.
+      - Language: Italian
+        String: Nadia Muffaz è una ricercatrice della SCNN. Sta cercando informazioni sull’attacco di Vectera ed è disposta a pagarle.
+      - Language: Japanese
+        String: ナディア・マファズはSSNNの調査員だ。ベクテラに対する攻撃に関する情報を求めていて、報酬を支払う用意がある
+      - Language: Polish
+        String: Nadia Muffaz gromadzi informacje dla ZUinfo. Szuka wieści o ataku na Vecterę i jest gotowa za nie zapłacić.
+      - Language: Portuguese_Brazil
+        String: Nadia Muffaz é uma pesquisadora para a ANSC. Ela está buscando informações sobre o ataque em Vectera e está disposta a pagar por elas.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Met Nadia Muffaz
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: SNN ist das wichtigste Nachrichtenmedium in den Besiedelten Systemen. Ihre Rechercheleiterin Nadia Muffaz ist bereit, mir gutes Geld für Geschichten zu bezahlen, auf die ich während meiner Reisen stoße.
+      - Language: English
+        String: SSNN is the main news outlet in the Settled Systems. Their lead researcher, Nada Muffaz, is willing to pay me good money for stories I may encounter in my journeys.
+      - Language: Spanish
+        String: La NSC es la principal agencia de noticias de los Sistemas Colonizados. Nadia Muffaz, su jefa de investigación, está dispuesta a pagarme una buena cantidad por lo que descubra en mis viajes.
+      - Language: French
+        String: SOTV est le média d'information principal des Systèmes occupés. Leur directrice de recherche, Nadia Muffaz, est prête à me payer une grosse somme pour des histoires sur lesquelles je pourrais tomber pendant mes voyages.
+      - Language: Italian
+        String: La SCNN è la principale fonte di notizie dei Sistemi Colonizzati. La loro ricercatrice capo, Nadia Muffaz, è disposta a pagarmi per le storie in cui potrei imbattermi nei miei viaggi.
+      - Language: Japanese
+        String: SSNNは有人星系の中心的な報道機関だ。主任調査員のナディア・マファズは、これからの旅で出くわす物語に大金を払う用意がある
+      - Language: Polish
+        String: ZUinfo jest głównym źródłem wiadomości w Zasiedlonych Układach. Kierowniczka ich działu gromadzenia informacji, Nadia Muffaz, dobrze mi zapłaci za historie, których doświadczę podczas swoich podróży.
+      - Language: Portuguese_Brazil
+        String: A ANSC é a principal rede de notícias dos Sistemas Colonizados. Nadia Muffaz, sua líder de pesquisa, está disposta a pagar bem por histórias que eu venha a encontrar nas minhas jornadas.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: === MQ101 "One Small Step" Completed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 111
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - Crimson Fleet attacked Constellation
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 112
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - No Idea
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 113
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - Crimson Fleet after minerals
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 121
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Anonymous
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 122
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Supervisor
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 123
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Miner
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 124
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Constellation/Miner
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 131
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - PC led defense
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 132
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - Team Effort
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 133
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - Don't Remember
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 134
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - Constellation helped
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 199
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '"One Small Step" Interviewed'
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 1ECA51:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: === MQ202 "No Sudden Moves" Completed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 211
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - No diea what was stolen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 212
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - Giraffe Statue stolen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 213
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - Artifact stolen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 221
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Confirmed Zoo Gone Wild
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 222
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Denied Zoo Gone Wild
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Lied about the giraffe statue
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 275
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player admits to robbing the Scow
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 299
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '"No Sudden Moves" Interviewed'
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 1ECA51:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: === FC01 "Job Gone Wrong" Completed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 311
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - Player mopped up survivors
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 312
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - Player was a hostage negotiator
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 313
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - Player worked with Rangers to arrest the Gang
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 321
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Rangers stopped massacre
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 322
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Rangers can't protect backyard
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 399
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '"Job Gone Wrong" Interviewed'
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 1ECA51:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: === UC04 "Eye Witness" Completed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 411
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - Personally killed Terrormorphs
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 412
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - Together wih SysDef
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 413
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - Vanguard Investigation
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 421
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - PC Terrified
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 422
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Protect Civvies
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 423
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Felt Alive
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 431
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - Can't Sleep
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 432
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - TMD is here now
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 433
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - Won't Rest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 499
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '"Eye Witness" Interviewed'
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 1ECA51:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: === FC09 "The Hammer Falls" Completed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 505
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: FC09 has been completed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 521
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Failed Bribe
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 522
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Got what he deserved
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 523
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Cover up
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 531
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - Other Scandals
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 532
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - HopeTech is great
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 533
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - Not my job
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 599
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '"The Hammer Falls" Interviewed'
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 1ECA51:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: === CF08_Fleet - "Legacy's End" Completed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 621
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Captured Vigilance
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 622
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - SysDef Attacked
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 623
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Balance of Power
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 624
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - SysDef underestimated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 631
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - Happy they attacked
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 632
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - I'm a Pirate
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 633
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - Cold Hard Credits
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 699
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "\"Legacy's End\" Interviewed - Crimson Fleet"
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 1ECA51:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: === CF08_SysDef - "Legacy's End" Completed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 711
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st - Undercover
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 721
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Captured Key
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 722
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Treasure Trove
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 723
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd - Coordinated Effort
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 731
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - Righting Wrongs
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 732
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - Ikande Rocks
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 733
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd - PC Instrumental
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 799
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "\"Legacy's End\" Interviewed - SysDef"
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 1ECA51:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 8000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ending Queued Up
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8100
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: (QC) Last talk with Nadia
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mein letztes Interview für SNN und Nadia Muffaz absolviert. Nadia Muffaz hat mir einen netten Bonus für meine Hilfe bezahlt.
+      - Language: English
+        String: I did my final interview with SSNN and Nadia Muffaz. Nadia gave me a nice bonus for all my help.
+      - Language: Spanish
+        String: He tenido mi última entrevista con la NSC y Nadia Muffaz, quien me ha dado una buena bonificación por mi trabajo.
+      - Language: French
+        String: J'ai fait ma dernière interview avec Nadia Muffaz pour SOTV. Nadia m'a donné un joli bonus pour toute mon aide.
+      - Language: Italian
+        String: Ho fatto l’ultimo colloquio con la SCNN e Nadia Muffaz. Nadia mi ha dato un bonus per il mio aiuto.
+      - Language: Japanese
+        String: SSNNとナディア・マファズの最後のインタビューが終わった。ナディアは貢献に対してかなりのボーナスをくれた
+      - Language: Polish
+        String: Jestem po ostatnim wywiadzie dla ZUinfo i Nadii Muffaz. Dała mi niezłą premię za pomoc.
+      - Language: Portuguese_Brazil
+        String: Fiz minha última entrevista com a ANSC e Nadia Muffaz. Ela me deu um bom bônus em troca da minha ajuda.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E2:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B11:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 9000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: QUEST STOP
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Tommy Bitlow.
+    - Language: English
+      String: Talk to Tommy Bitlow
+    - Language: Spanish
+      String: Habla con Tommy Bitlow.
+    - Language: French
+      String: Parlez à Tommy Bitlow.
+    - Language: Italian
+      String: Parla con Tommy Bitlow
+    - Language: Japanese
+      String: トミー・ビットロウと話す
+    - Language: Polish
+      String: Porozmawiaj z Tommym Bitlowem
+    - Language: Portuguese_Brazil
+      String: Fale com Tommy Bitlow
+  Targets:
+  - AliasID: 2
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Nadia Muffaz.
+    - Language: English
+      String: Talk to Nadia Muffaz
+    - Language: Spanish
+      String: Habla con Nadia Muffaz.
+    - Language: French
+      String: Parlez à Nadia Muffaz.
+    - Language: Italian
+      String: Parla con Nadia Muffaz
+    - Language: Japanese
+      String: ナディア・マファズと話す
+    - Language: Polish
+      String: Porozmawiaj z Nadią Muffaz
+    - Language: Portuguese_Brazil
+      String: Fale com Nadia Muffaz
+  Targets:
+  - {}
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde neue Storys für SNN.
+    - Language: English
+      String: Find new stories for SSNN
+    - Language: Spanish
+      String: Descubre nuevas historias de la NSC.
+    - Language: French
+      String: Trouvez des infos pour SOTV.
+    - Language: Italian
+      String: Trova nuove storie per la SCNN
+    - Language: Japanese
+      String: SSNNのために新しい物語を探す
+    - Language: Polish
+      String: Znajdź nowe materiały dla ZUinfo
+    - Language: Portuguese_Brazil
+      String: Encontre novas histórias para a ANSC
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Berichte von dem Angriff auf Vectera.
+    - Language: English
+      String: Deliver news about the Vectera Mining Attack
+    - Language: Spanish
+      String: Informa sobre el ataque minero de Vectera.
+    - Language: French
+      String: Racontez l'attaque de la mine sur Vectera.
+    - Language: Italian
+      String: Dai informazioni sull’attacco alle miniere di Vectera
+    - Language: Japanese
+      String: ベクテラ鉱山への攻撃について伝える
+    - Language: Polish
+      String: Przekaż wieści o ataku na kopalnię na Vecterze
+    - Language: Portuguese_Brazil
+      String: Relate sobre o ataque nas minas em Vectera
+  Targets:
+  - {}
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Berichte von der Scow und Captain Petrow.
+    - Language: English
+      String: Deliver news about the Scow and Captain Petrov
+    - Language: Spanish
+      String: Informa sobre la Scow y el capitán Petrov.
+    - Language: French
+      String: Racontez l'histoire du Scow et du capit. Petrov.
+    - Language: Italian
+      String: Dai informazioni sulla Scow e sul capitano Petrov
+    - Language: Japanese
+      String: スカウとペトロフ船長について伝える
+    - Language: Polish
+      String: Przekaż wieści o Scowie i kapitanie Petrowie
+    - Language: Portuguese_Brazil
+      String: Relate sobre a Barcaça e o comandante Petrov
+  Targets:
+  - {}
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Berichte von dem GalBank-Überfall in Akila City.
+    - Language: English
+      String: Deliver news about the GalBank robbery in Akila City
+    - Language: Spanish
+      String: Informa sobre el robo de GalBank en Akila.
+    - Language: French
+      String: Racontez l'histoire de la GalBank à Akila City.
+    - Language: Italian
+      String: Dai informazioni sulla rapina alla GalBank di Akila City
+    - Language: Japanese
+      String: アキラ・シティのガルバンク強盗について伝える
+    - Language: Polish
+      String: Przekaż wieści o napadzie na GalBank w Akili
+    - Language: Portuguese_Brazil
+      String: Relate sobre o roubo em GalBank na cidade de Akila
+  Targets:
+  - {}
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Berichte von dem Terrormorph-Angriff auf New Atlantis.
+    - Language: English
+      String: Deliver news about the Terrormorph attack on New Atlantis
+    - Language: Spanish
+      String: Informa del ataque de los horromorfos en Nueva Atlántida.
+    - Language: French
+      String: Racontez l'attaque des horrimorphes à N. Atlantis.
+    - Language: Italian
+      String: Dai informazioni sui terrormorfi a Nuova Atlantide
+    - Language: Japanese
+      String: テラーモーフによるニューアトランティスの襲撃について伝える
+    - Language: Polish
+      String: Przekaż wieści o ataku terrormorfów na Nową Atlantydę
+    - Language: Portuguese_Brazil
+      String: Relate sobre os terrormorfos em Nova Atlântida
+  Targets:
+  - {}
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Berichte von Ron Hopes Tod.
+    - Language: English
+      String: Deliver news about Ron Hope's death
+    - Language: Spanish
+      String: Informa sobre la muerte de Ron Hope.
+    - Language: French
+      String: Racontez l'histoire de la mort de Ron Hope.
+    - Language: Italian
+      String: Dai informazioni sulla morte di Ron Hope
+    - Language: Japanese
+      String: ロン・ホープの死について伝える
+    - Language: Polish
+      String: Przekaż wieści o śmierci Rona Hope’a
+    - Language: Portuguese_Brazil
+      String: Relate sobre a morte de Ron Hope
+  Targets:
+  - {}
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Berichte vom SysDef-Angriff auf den Schlüssel.
+    - Language: English
+      String: Deliver news about SysDef's attack on the Key
+    - Language: Spanish
+      String: Informa sobre el ataque del SisDef en la Llave.
+    - Language: French
+      String: Racontez l'attaque du SysDef contre la Clé.
+    - Language: Italian
+      String: Dai informazioni sull’attacco DifSis alla Chiave
+    - Language: Japanese
+      String: 防衛システムによる〈キー〉の襲撃について伝える
+    - Language: Polish
+      String: Przekaż wieści o ataku SysObu na Klucz
+    - Language: Portuguese_Brazil
+      String: Relate sobre o ataque da DefSis na Chave
+  Targets:
+  - {}
+- Index: 8000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Nadia Muffaz.
+    - Language: English
+      String: Talk with Nadia Muffaz
+    - Language: Spanish
+      String: Habla con Nadia Muffaz.
+    - Language: French
+      String: Parlez à Nadia Muffaz.
+    - Language: Italian
+      String: Parla con Nadia Muffaz
+    - Language: Japanese
+      String: ナディア・マファズと話す
+    - Language: Polish
+      String: Porozmawiaj z Nadią Muffaz
+    - Language: Portuguese_Brazil
+      String: Fale com Nadia Muffaz
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: NadiaMuffaz
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124AC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: TommyBitlow
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 1829FC:Starfield.esm
+  PackageData:
+  - 1829F9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null

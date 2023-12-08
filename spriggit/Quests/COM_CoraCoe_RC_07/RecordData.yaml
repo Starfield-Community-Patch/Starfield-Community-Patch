@@ -1,0 +1,74 @@
+FormKey: 187BF5:Starfield.esm
+EditorID: COM_CoraCoe_RC_07
+Data:
+  Priority: 15
+  Unused: 0x000000
+Event: ADIA
+UnusedConditions:
+- MutagenObjectType: ConditionGlobal
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 2BB89F:Starfield.esm
+  ComparisonValue: 2BE2D6:Starfield.esm
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: CoraCoe
+  Flags:
+  - MatchingRefInLoadedArea
+  - MatchingRefForActorsOnly
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x005C00
+    Unknown2: 17671
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      FirstParameter: 00D653:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown1: 0x005C00
+    Unknown2: 17671
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      UseAliases: True
+      FirstParameter: 4294967294
+    ComparisonValue: 25D171:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x005C00
+    Unknown2: 17671
+    Data:
+      MutagenObjectType: ActorPackageHasRandomConversationsFlagOnConditionData
+    ComparisonValue: 1
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: SamCoe
+  Flags:
+  - MatchingRefInLoadedArea
+  - MatchingRefForActorsOnly
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0xFFFFFF
+    Unknown2: 16626
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      FirstParameter: 005999:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0xFFFFFF
+    Unknown2: 16626
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      UseAliases: True
+    ComparisonValue: 20
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0xFFFFFF
+    Unknown2: 16626
+    Data:
+      MutagenObjectType: ActorPackageHasRandomConversationsFlagOnConditionData
+    ComparisonValue: 1
+  VoiceTypes: Null

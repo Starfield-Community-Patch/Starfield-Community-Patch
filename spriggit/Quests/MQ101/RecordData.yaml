@@ -495,6 +495,9 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Crew
       Object: 2A567D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101SaveOff
+      Object: 049420:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_MQ101_00003448
     Properties:
@@ -1421,6 +1424,9 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_ActorRoles_SuppressMessages
       Object: 2073D9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101SaveOff
+      Object: 049420:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448

@@ -1,0 +1,801 @@
+FormKey: 17C02D:Starfield.esm
+EditorID: SQ_ClearBountyTerminalMenu_Deskop
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SQ_ClearBountyTerminalScript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: CrimeFactions
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: currentBounty
+          Object: 17C031:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theFaction
+          Object: 05BD93:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: currentBounty
+          Object: 17C032:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theFaction
+          Object: 0638E5:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: currentBounty
+          Object: 17C036:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theFaction
+          Object: 26FDEA:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: currentBounty
+          Object: 0C997B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theFaction
+          Object: 010B30:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: currentBounty
+          Object: 0C997C:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theFaction
+          Object: 299F72:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: currentBounty
+          Object: 0C997D:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theFaction
+          Object: 28B3AE:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: currentBounty
+          Object: 0C997F:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theFaction
+          Object: 26310C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KioskTerminalNoSaleFlag
+      Object: 0D0F42:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ClearBountyConvenienceFee
+      Object: 04297B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ClearBountyTerminalMenu_Deskop
+      Object: 17C02D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ClearBountyTerminalMenu_Submenu
+      Object: 17C02F:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Trackerallianz – Kopfgeldentfernungsservice
+  - Language: English
+    String: Trackers Alliance Bounty Clearance Service
+  - Language: Spanish
+    String: Servicio de eliminación de recompensas de la Alianza de Rastreadores
+  - Language: French
+    String: Service d'annulation de prime de l'Alliance des traqueurs
+  - Language: Italian
+    String: Servizio cancellazione taglie dell’Alleanza dei Liquidatori
+  - Language: Japanese
+    String: 追跡者同盟賞金抹消サービス
+  - Language: Polish
+    String: Usługa usuwania listów gończych świadczona przez Przymierze Tropicieli
+  - Language: Portuguese_Brazil
+    String: Serviço de Eliminação de Recompensa da Aliança de Rastreadores
+TMVT: 0x01000000
+DNAM: 0x03
+SNAM: 0x01000000
+INAM:
+  TargetLanguage: English
+BodyTexts:
+- Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Der Kopfgeldentfernungsservice-Automat der Trackerallianz
+
+
+        (Sollte irgendwo in den Besiedelten Systemen Kopfgeld auf dir ausgesetzt sein, keine Sorge. Für eine geringe Gebühr entfernen wir dieses.)
+
+
+        Welche Fraktion sollen wir für dich kontaktieren?
+    - Language: English
+      String: >-
+        The Trackers Alliance Self-Service Bounty Clearance Kiosk
+
+
+        (If you have bounty with anyone in the Settled Systems, don't worry. For a small convenience fee, we can clear that up for you.)
+
+
+        Which Faction would you like us to contact on your behalf?
+    - Language: Spanish
+      String: >-
+        El quiosco de autoeliminación de recompensas de la Alianza de Rastreadores
+
+
+        (Si alguien en los Sistemas Colonizados ofrece una recompensa por usted, no se preocupe: nosotros la eliminaremos a cambio de una pequeña tarifa).
+
+
+        ¿Con qué facción le gustaría que contactásemos?
+    - Language: French
+      String: >-
+        Le kiosque de service automatique d'annulation de prime de l'Alliance des traqueurs
+
+
+        (Si votre tête est mise à prix dans n'importe quelle région des Systèmes occupés, ne vous inquiétez pas. Nous pouvons régler ce problème contre une somme modique.)
+
+
+        Quelle faction souhaitez-vous que nous contactions de votre part ?
+    - Language: Italian
+      String: >-
+        Il chiosco self-service per la cancellazione delle taglie dell’Alleanza dei Liquidatori
+
+
+        (Se qualcuno nei Sistemi Colonizzati ha messo una taglia sulla tua testa, non temere. Per una cifra irrisoria, possiamo cancellarla per te.)
+
+
+        Quale fazione desideri che sia contattata al posto tuo?
+    - Language: Japanese
+      String: >-
+        追跡者同盟賞金抹消セルフサービスキオスク
+
+
+        (有人星系のどんな相手に賞金をかけられたとしても、ご心配なく。少額の手数料をいただければ、その賞金を抹消いたします)
+
+
+        あなたの代理として、我々にどの勢力への接触をお望みですか？
+    - Language: Polish
+      String: >-
+        Samoobsługowy kiosk Przymierza Tropicieli do usuwania listów gończych
+
+
+        (Jeśli ktoś w Zasiedlonych Układach wyznaczył nagrodę za twoją głowę, to nie martw się. Rozwiążemy dla ciebie ten problem za niewielką opłatą).
+
+
+        Z którą frakcją mamy się skontaktować w twoim imieniu?
+    - Language: Portuguese_Brazil
+      String: >-
+        Guichê de Eliminação de Recompensa da Aliança de Rastreadores
+
+
+        (Se alguém nos Sistemas Colonizados ofereceu uma recompensa por você, não se preocupe: por uma pequena taxa de serviço, nós resolvemos o problema para você.)
+
+
+        Qual facção devemos contatar em seu nome?
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 17C032:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 17C036:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 17C031:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 0C997B:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 0C997C:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 0C997D:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 0C997F:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 0C997E:Starfield.esm
+  UseTemplatedText: False
+- Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Der Kopfgeldentfernungsservice-Automat der Trackerallianz
+
+
+        (Sollte irgendwo in den Besiedelten Systemen Kopfgeld auf dir ausgesetzt sein, keine Sorge. Für eine geringe Gebühr entfernen wir dieses.)
+
+
+        Unseren Aufzeichnungen zufolge wirst du derzeit von keiner Fraktion in den Besiedelten Systemen gesucht.
+
+
+        Bei Bedarf kannst du uns gerne erneut kontaktieren.
+    - Language: English
+      String: >-
+        The Trackers Alliance Self-Service Bounty Clearance Kiosk
+
+
+        (If you have bounty with anyone in the Settled Systems, don't worry. For a small convenience fee, we can clear that up for you.)
+
+
+        Our records indicate that you are not wanted by any Faction within the Settled Systems at this time.
+
+
+        Please visit us again should you need us.
+    - Language: Spanish
+      String: >-
+        El quiosco de autoeliminación de recompensas de la Alianza de Rastreadores
+
+
+        (Si alguien en los Sistemas Colonizados ofrece una recompensa por usted, no se preocupe: nosotros la eliminaremos a cambio de una pequeña tarifa).
+
+
+        Nuestros registros indican que en este momento ninguna de las facciones de los Sistemas Colonizados ofrece una recompensa por usted.
+
+
+        Vuelva a visitarnos en caso de que lo necesite.
+    - Language: French
+      String: >-
+        Le kiosque de service automatique d'annulation de prime de l'Alliance des traqueurs
+
+
+        (Si votre tête est mise à prix dans n'importe quelle région des Systèmes occupés, ne vous inquiétez pas. Nous pouvons régler ce problème contre une somme modique.)
+
+
+        Nos registres indiquent que votre tête n'est actuellement mise à prix par personne au sein des Systèmes occupés.
+
+
+        N'hésitez pas à revenir nous voir si vous avez besoin d'aide ultérieurement.
+    - Language: Italian
+      String: >-
+        Il chiosco self-service per la cancellazione delle taglie dell’Alleanza dei Liquidatori
+
+
+        (Se qualcuno nei Sistemi Colonizzati ha messo una taglia sulla tua testa, non temere. Per una cifra irrisoria, possiamo cancellarla per te.)
+
+
+        I nostri registri indicano che non ci sono taglie sulla tua testa da parte di nessuna fazione all’interno dei Sistemi Colonizzati in questo momento.
+
+
+        Torna pure a trovarci se hai bisogno di noi.
+    - Language: Japanese
+      String: >-
+        追跡者同盟賞金抹消セルフサービスキオスク
+
+
+        (有人星系のどんな相手に賞金をかけられたとしても、ご心配なく。少額の手数料をいただければ、その賞金を抹消いたします)
+
+
+        我々の記録によれば、現在あなたは有人星系のどの勢力からも指名手配されていません。
+
+
+        またご用があればお越しください
+    - Language: Polish
+      String: >-
+        Samoobsługowy kiosk Przymierza Tropicieli do usuwania listów gończych
+
+
+        (Jeśli ktoś w Zasiedlonych Układach wyznaczył nagrodę za twoją głowę, to nie martw się. Rozwiążemy dla ciebie ten problem za niewielką opłatą).
+
+
+        Z naszych danych wynika, że w tej chwili nie poszukuje cię żadna z frakcji Zasiedlonych Układów.
+
+
+        Zapraszamy do ponownej wizyty w celu skorzystania z naszych usług.
+    - Language: Portuguese_Brazil
+      String: >-
+        Guichê de Eliminação de Recompensa da Aliança de Rastreadores
+
+
+        (Se alguém nos Sistemas Colonizados ofereceu uma recompensa por você, não se preocupe: por uma pequena taxa de serviço, nós resolvemos o problema para você.)
+
+
+        Nossos registros indicam que nenhuma facção dos Sistemas Colonizados está à sua caça no momento.
+
+
+        Volte sempre que precisar.
+  UseTemplatedText: False
+MenuItems:
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: '<Token.Name=Faction0>: <Token=Faction0Bounty> Credits Kopfgeld'
+    - Language: English
+      String: '<Token.Name=Faction0> : bounty of <Token=Faction0Bounty> credits'
+    - Language: Spanish
+      String: '<Token.Name=Faction0>: recompensa de <Token=Faction0Bounty> créditos'
+    - Language: French
+      String: '<Token.Name=Faction0> : prime de <Token=Faction0Bounty> crédits'
+    - Language: Italian
+      String: '<Token.Name=Faction0>: taglia di <Token=Faction0Bounty> crediti'
+    - Language: Japanese
+      String: <Token.Name=Faction0>：賞金<Token=Faction0Bounty>クレジット
+    - Language: Polish
+      String: '<Token.Name=Faction0>: nagroda w wysokości <Token=Faction0Bounty> kr.'
+    - Language: Portuguese_Brazil
+      String: '<Token.Name=Faction0>: <Token=Faction0Bounty> créditos de recompensa'
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0100ABAB0C000000
+  Submenu: 17C02F:Starfield.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: SystemHasKeywordConditionData
+      FirstParameter: 05BD8B:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 17C031:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: '<Token.Name=Faction1>: <Token=Faction1Bounty> Credits Kopfgeld'
+    - Language: English
+      String: '<Token.Name=Faction1> : bounty of <Token=Faction1Bounty> credits'
+    - Language: Spanish
+      String: '<Token.Name=Faction1>: recompensa de <Token=Faction1Bounty> créditos'
+    - Language: French
+      String: '<Token.Name=Faction1> : prime de <Token=Faction1Bounty> crédits'
+    - Language: Italian
+      String: '<Token.Name=Faction1>: taglia di <Token=Faction1Bounty> crediti'
+    - Language: Japanese
+      String: <Token.Name=Faction1>：賞金<Token=Faction1Bounty>クレジット
+    - Language: Polish
+      String: '<Token.Name=Faction1>: nagroda w wysokości <Token=Faction1Bounty> kr.'
+    - Language: Portuguese_Brazil
+      String: '<Token.Name=Faction1>: <Token=Faction1Bounty> créditos de recompensa'
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0100ABAB0C000000
+  ItemId: 1
+  Submenu: 17C02F:Starfield.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 17C032:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: SystemHasKeywordConditionData
+      FirstParameter: 1E79B9:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: '<Token.Name=Faction2>: <Token=Faction2Bounty> Credits Kopfgeld'
+    - Language: English
+      String: '<Token.Name=Faction2> : bounty of <Token=Faction2Bounty> credits'
+    - Language: Spanish
+      String: '<Token.Name=Faction2>: recompensa de <Token=Faction2Bounty> créditos'
+    - Language: French
+      String: '<Token.Name=Faction2> : prime de <Token=Faction2Bounty> crédits'
+    - Language: Italian
+      String: '<Token.Name=Faction2>: taglia di <Token=Faction2Bounty> crediti'
+    - Language: Japanese
+      String: <Token.Name=Faction2>：賞金<Token=Faction2Bounty>クレジット
+    - Language: Polish
+      String: '<Token.Name=Faction2>: nagroda w wysokości <Token=Faction2Bounty> kr.'
+    - Language: Portuguese_Brazil
+      String: '<Token.Name=Faction2>: <Token=Faction2Bounty> créditos de recompensa'
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0100ABAB0C000000
+  ItemId: 2
+  Submenu: 17C02F:Starfield.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 17C036:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: SystemHasKeywordConditionData
+      FirstParameter: 1E79B9:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: '<Token.Name=Faction3>: <Token=Faction3Bounty> Credits Kopfgeld'
+    - Language: English
+      String: '<Token.Name=Faction3> : bounty of <Token=Faction3Bounty> credits'
+    - Language: Spanish
+      String: '<Token.Name=Faction3>: recompensa de <Token=Faction3Bounty> créditos'
+    - Language: French
+      String: '<Token.Name=Faction3> : prime de <Token=Faction3Bounty> crédits'
+    - Language: Italian
+      String: '<Token.Name=Faction3>: taglia di <Token=Faction3Bounty> crediti'
+    - Language: Japanese
+      String: <Token.Name=Faction3>：賞金<Token=Faction3Bounty>クレジット
+    - Language: Polish
+      String: '<Token.Name=Faction3>: nagroda w wysokości <Token=Faction3Bounty> kr.'
+    - Language: Portuguese_Brazil
+      String: '<Token.Name=Faction3>: <Token=Faction3Bounty> créditos de recompensa'
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0100ABAB0C000000
+  ItemId: 3
+  Submenu: 17C02F:Starfield.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 0C997B:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: SystemHasKeywordConditionData
+      FirstParameter: 1E79B8:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: '<Token.Name=Faction4>: <Token=Faction4Bounty> Credits Kopfgeld'
+    - Language: English
+      String: '<Token.Name=Faction4> : bounty of <Token=Faction4Bounty> credits'
+    - Language: Spanish
+      String: '<Token.Name=Faction4>: recompensa de <Token=Faction4Bounty> créditos'
+    - Language: French
+      String: '<Token.Name=Faction4> : prime de <Token=Faction4Bounty> crédits'
+    - Language: Italian
+      String: '<Token.Name=Faction4>: taglia di <Token=Faction4Bounty> crediti'
+    - Language: Japanese
+      String: <Token.Name=Faction4>：賞金<Token=Faction4Bounty>クレジット
+    - Language: Polish
+      String: '<Token.Name=Faction4>: nagroda w wysokości <Token=Faction4Bounty> kr.'
+    - Language: Portuguese_Brazil
+      String: '<Token.Name=Faction4>: <Token=Faction4Bounty> créditos de recompensa'
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0100ABAB0C000000
+  ItemId: 4
+  Submenu: 17C02F:Starfield.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 0C997C:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: '<Token.Name=Faction5>: <Token=Faction5Bounty> Credits Kopfgeld'
+    - Language: English
+      String: '<Token.Name=Faction5> : bounty of <Token=Faction5Bounty> credits'
+    - Language: Spanish
+      String: '<Token.Name=Faction5>: recompensa de <Token=Faction5Bounty> créditos'
+    - Language: French
+      String: '<Token.Name=Faction5> : prime de <Token=Faction5Bounty> crédits'
+    - Language: Italian
+      String: '<Token.Name=Faction5>: taglia di <Token=Faction5Bounty> crediti'
+    - Language: Japanese
+      String: <Token.Name=Faction5>：賞金<Token=Faction5Bounty>クレジット
+    - Language: Polish
+      String: '<Token.Name=Faction5>: nagroda w wysokości <Token=Faction5Bounty> kr.'
+    - Language: Portuguese_Brazil
+      String: '<Token.Name=Faction5>: <Token=Faction5Bounty> créditos de recompensa'
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0100ABAB0C000000
+  ItemId: 5
+  Submenu: 17C02F:Starfield.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 0C997D:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: '<Token.Name=Faction6>: <Token=Faction6Bounty> Credits Kopfgeld'
+    - Language: English
+      String: '<Token.Name=Faction6> : bounty of <Token=Faction6Bounty> credits'
+    - Language: Spanish
+      String: '<Token.Name=Faction6>: recompensa de <Token=Faction6Bounty> créditos'
+    - Language: French
+      String: '<Token.Name=Faction6> : prime de <Token=Faction6Bounty> crédits'
+    - Language: Italian
+      String: '<Token.Name=Faction6>: taglia di <Token=Faction6Bounty> crediti'
+    - Language: Japanese
+      String: <Token.Name=Faction6>：賞金<Token=Faction6Bounty>クレジット
+    - Language: Polish
+      String: '<Token.Name=Faction6>: nagroda w wysokości <Token=Faction6Bounty> kr.'
+    - Language: Portuguese_Brazil
+      String: '<Token.Name=Faction6>: <Token=Faction6Bounty> créditos de recompensa'
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0100ABAB0C000000
+  ItemId: 6
+  Submenu: 17C02F:Starfield.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 0C997F:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: '<Token.Name=Faction7>: <Token=Faction7Bounty> Credits Kopfgeld'
+    - Language: English
+      String: '<Token.Name=Faction7> : bounty of <Token=Faction7Bounty> credits'
+    - Language: Spanish
+      String: '<Token.Name=Faction7>: recompensa de <Token=Faction7Bounty> créditos'
+    - Language: French
+      String: '<Token.Name=Faction7> : prime de <Token=Faction7Bounty> crédits'
+    - Language: Italian
+      String: '<Token.Name=Faction7>: taglia di <Token=Faction7Bounty> crediti'
+    - Language: Japanese
+      String: <Token.Name=Faction7>：賞金<Token=Faction7Bounty>クレジット
+    - Language: Polish
+      String: '<Token.Name=Faction7>: nagroda w wysokości <Token=Faction7Bounty> kr.'
+    - Language: Portuguese_Brazil
+      String: '<Token.Name=Faction7>: <Token=Faction7Bounty> créditos de recompensa'
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0100ABAB0C000000
+  ItemId: 7
+  Submenu: 17C02F:Starfield.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 0C997E:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: SystemHasKeywordConditionData
+      FirstParameter: 1E79B6:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: '<Token.Name=Faction0>: <Token=Faction0Bounty> Credits Kopfgeld'
+    - Language: English
+      String: '<Token.Name=Faction0> : bounty of <Token=Faction0Bounty> credits'
+    - Language: Spanish
+      String: '<Token.Name=Faction0>: recompensa de <Token=Faction0Bounty> créditos'
+    - Language: French
+      String: '<Token.Name=Faction0> : prime de <Token=Faction0Bounty> crédits'
+    - Language: Italian
+      String: '<Token.Name=Faction0>: taglia di <Token=Faction0Bounty> crediti'
+    - Language: Japanese
+      String: <Token.Name=Faction0>：賞金<Token=Faction0Bounty>クレジット
+    - Language: Polish
+      String: '<Token.Name=Faction0>: nagroda w wysokości <Token=Faction0Bounty> kr.'
+    - Language: Portuguese_Brazil
+      String: '<Token.Name=Faction0>: <Token=Faction0Bounty> créditos de recompensa'
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000ABAB08000000
+  ItemId: 8
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Leider hindern uns die örtlichen Bestimmungen daran, unsere Dienste innerhalb des Gebiets der United Colonies anbieten zu können. Bitte kontaktiere die Behörden der United Colonies, um mehr über die rechtlichen Problemstellungen zu erfahren.
+    - Language: English
+      String: Unfortunately, local regulations prevent us from offering this service within United Colonies space. Please contact the United Colonies authorities to clear up any legal difficulties.
+    - Language: Spanish
+      String: Por desgracia, la legislación local nos impide ofrecer este servicio en el espacio de las Colonias Unidas. Contacte con las autoridades de las CU para solucionar cualquier contratiempo legal.
+    - Language: French
+      String: Malheureusement, les lois locales nous empêchent d'offrir ce type de service au sein de l'espace de l'Union coloniale. Veuillez contacter les autorités de l'UC en cas de difficultés d'ordre juridique.
+    - Language: Italian
+      String: Purtroppo, le normative locali ci impediscono di offrire questo servizio all’interno dello spazio dell’Unione Coloniale. Si prega di contattare le autorità dell’Unione per chiarire eventuali problematiche legali.
+    - Language: Japanese
+      String: 残念ながら、現地の規制によってコロニー連合の宙域内でこのサービスを提供することはできません。法律上の問題解決にあたってはぜひコロニー連合当局へご連絡ください
+    - Language: Polish
+      String: Niestety miejscowe przepisy nie pozwalają nam na oferowanie tej usługi w przestrzeni Zjednoczonych Kolonii. Prosimy o kontakt z władzami ZK, aby rozwiązać wszelkie problemy prawne.
+    - Language: Portuguese_Brazil
+      String: Infelizmente, as normas locais nos impedem de oferecer este serviço dentro do espaço da União das Colônias. Entre em contato com as autoridades da União das Colônias para esclarecer quaisquer questões jurídicas.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: SystemHasKeywordConditionData
+      FirstParameter: 05BD8B:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 17C031:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: '<Token.Name=Faction1>: <Token=Faction1Bounty> Credits Kopfgeld'
+    - Language: English
+      String: '<Token.Name=Faction1> : bounty of <Token=Faction1Bounty> credits'
+    - Language: Spanish
+      String: '<Token.Name=Faction1>: recompensa de <Token=Faction1Bounty> créditos'
+    - Language: French
+      String: '<Token.Name=Faction1> : prime de <Token=Faction1Bounty> crédits'
+    - Language: Italian
+      String: '<Token.Name=Faction1>: taglia di <Token=Faction1Bounty> crediti'
+    - Language: Japanese
+      String: <Token.Name=Faction1>：賞金<Token=Faction1Bounty>クレジット
+    - Language: Polish
+      String: '<Token.Name=Faction1>: nagroda w wysokości <Token=Faction1Bounty> kr.'
+    - Language: Portuguese_Brazil
+      String: '<Token.Name=Faction1>: <Token=Faction1Bounty> créditos de recompensa'
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000ABAB08000000
+  ItemId: 9
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Leider hindern uns die örtlichen Bestimmungen daran, unsere Dienste innerhalb des Gebiets des Freestar Collective anbieten zu können. Bitte kontaktiere die Behörden des Freestar Collective, um mehr über die rechtlichen Problemstellungen zu erfahren.
+    - Language: English
+      String: Unfortunately, local regulations prevent us from offering this service within Freestar Collective space. Please contact the Freestar Collective authorities to clear up any legal difficulties.
+    - Language: Spanish
+      String: Por desgracia, la legislación local nos impide ofrecer este servicio en el espacio del Colectivo Freestar. Contacte con las autoridades del Colectivo para solucionar cualquier contratiempo legal.
+    - Language: French
+      String: Malheureusement, les lois locales nous empêchent d'offrir ce type de service au sein de l'espace de la Confédération Liber Astra. Veuillez contacter les autorités de Liber Astra en cas de difficultés d'ordre juridique.
+    - Language: Italian
+      String: Purtroppo, le normative locali ci impediscono di offrire questo servizio all’interno dello spazio del Collettivo Freestar. Si prega di contattare le autorità Freestar per chiarire eventuali problematiche legali.
+    - Language: Japanese
+      String: 残念ながら、現地の規制によって自由恒星同盟の宙域内でこのサービスを提供することはできません。法律上の問題解決にあたってはぜひ自由恒星同盟当局へご連絡ください
+    - Language: Polish
+      String: Niestety miejscowe przepisy nie pozwalają nam na oferowanie tej usługi w przestrzeni Kolektywu Wolnych Gwiazd. Prosimy o kontakt z władzami KWG, aby rozwiązać wszelkie problemy prawne.
+    - Language: Portuguese_Brazil
+      String: Infelizmente, as normas locais nos impedem de oferecer este serviço dentro do espaço da Confederação Freestar. Entre em contato com as autoridades da Confederação Freestar para esclarecer quaisquer questões jurídicas.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: SystemHasKeywordConditionData
+      FirstParameter: 1E79B9:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 17C032:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: '<Token.Name=Faction2>: <Token=Faction2Bounty> Credits Kopfgeld'
+    - Language: English
+      String: '<Token.Name=Faction2> : bounty of <Token=Faction2Bounty> credits'
+    - Language: Spanish
+      String: '<Token.Name=Faction2>: recompensa de <Token=Faction2Bounty> créditos'
+    - Language: French
+      String: '<Token.Name=Faction2> : prime de <Token=Faction2Bounty> crédits'
+    - Language: Italian
+      String: '<Token.Name=Faction2>: taglia di <Token=Faction2Bounty> crediti'
+    - Language: Japanese
+      String: <Token.Name=Faction2>：賞金<Token=Faction2Bounty>クレジット
+    - Language: Polish
+      String: '<Token.Name=Faction2>: nagroda w wysokości <Token=Faction2Bounty> kr.'
+    - Language: Portuguese_Brazil
+      String: '<Token.Name=Faction2>: <Token=Faction2Bounty> créditos de recompensa'
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000ABAB08000000
+  ItemId: 10
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Leider hindern uns die örtlichen Bestimmungen daran, unsere Dienste innerhalb des Gebiets des Freestar Collective anbieten zu können. Bitte kontaktiere die Behörden des Freestar Collective, um mehr über die rechtlichen Problemstellungen zu erfahren.
+    - Language: English
+      String: Unfortunately, local regulations prevent us from offering this service within Freestar Collective space. Please contact the Freestar Collective authorities to clear up any legal difficulties.
+    - Language: Spanish
+      String: Por desgracia, la legislación local nos impide ofrecer este servicio en el espacio del Colectivo Freestar. Contacte con las autoridades del Colectivo para solucionar cualquier contratiempo legal.
+    - Language: French
+      String: Malheureusement, les lois locales nous empêchent d'offrir ce type de service au sein de l'espace de la Confédération Liber Astra. Veuillez contacter les autorités de Liber Astra en cas de difficultés d'ordre juridique.
+    - Language: Italian
+      String: Purtroppo, le normative locali ci impediscono di offrire questo servizio all’interno dello spazio del Collettivo Freestar. Si prega di contattare le autorità Freestar per chiarire eventuali problematiche legali.
+    - Language: Japanese
+      String: 残念ながら、現地の規制によって自由恒星同盟の宙域内でこのサービスを提供することはできません。法律上の問題解決にあたってはぜひ自由恒星同盟当局へご連絡ください
+    - Language: Polish
+      String: Niestety miejscowe przepisy nie pozwalają nam na oferowanie tej usługi w przestrzeni Kolektywu Wolnych Gwiazd. Prosimy o kontakt z władzami KWG, aby rozwiązać wszelkie problemy prawne.
+    - Language: Portuguese_Brazil
+      String: Infelizmente, as normas locais nos impedem de oferecer este serviço dentro do espaço da Confederação Freestar. Entre em contato com as autoridades da Confederação Freestar para esclarecer quaisquer questões jurídicas.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: SystemHasKeywordConditionData
+      FirstParameter: 1E79B9:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Unknown2: 16667
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 17C036:Starfield.esm

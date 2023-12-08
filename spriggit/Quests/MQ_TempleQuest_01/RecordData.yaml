@@ -1,0 +1,960 @@
+FormKey: 0854E8:Starfield.esm
+EditorID: MQ_TempleQuest_01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 10
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 20
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 0854E8:Starfield.esm
+          Alias: 2
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: CheckPlayerShip
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 30
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 50
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 0854E8:Starfield.esm
+          Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: MQCheckGravJumpQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 0854E8:Starfield.esm
+      Alias: 8
+  - Name: MQ_Temple_SubScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnomalyMapMarker
+      Object: 0854E8:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LocTypeMajorOrbital
+      Object: 070A54:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LvlStarborn_Boss_Aggro
+      Object: 15E245:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ106
+      Object: 021BEF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_SkipMQ
+      Object: 17E006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQTempleQuestActive
+      Object: 08691D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TempleQuest_SpawnTemple
+      Object: 032898:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TempleTutorial_DistanceMSG
+      Object: 0328A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSGenesisStingerStarbornAppearB
+      Object: 1BC2BF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OutpostScannerMultiplier
+      Object: 2CBE73:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetTrait26GravitationalAnomaly
+      Object: 111F62:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetWithTrait
+      Object: 0854E8:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 0854E8:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptIntProperty
+      Name: QuestInitStage
+      Data: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StarbornTempleQuest
+      Object: 214707:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleLocation
+      Object: 0854E8:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleMapMarker
+      Object: 0854E8:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TemplePowerTrigger
+      Object: 0854E8:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptStructListProperty
+      Name: TempleScanImods
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: distortionLevel
+          Data: 3
+        - MutagenObjectType: ScriptFloatProperty
+          Name: loopTime
+          Data: 1
+        - MutagenObjectType: ScriptFloatProperty
+          Name: requiredAngleExtent
+          Data: 20
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: distortionLevel
+          Data: 2
+        - MutagenObjectType: ScriptFloatProperty
+          Name: loopTime
+          Data: 3
+        - MutagenObjectType: ScriptFloatProperty
+          Name: requiredAngleExtent
+          Data: 50
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: loopTime
+          Data: 6
+        - MutagenObjectType: ScriptFloatProperty
+          Name: requiredAngleExtent
+          Data: 85
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleStarborn
+      Object: 0854E8:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleStarbornMarker
+      Object: 0854E8:Starfield.esm
+      Alias: 19
+  Script:
+    Name: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AnomalyMapMarker
+      Object: 0854E8:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EyeScanner
+      Object: 0854E8:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlanetExploredTrait
+      Object: 0854E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlanetUnexploredTrait
+      Object: 0854E8:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlanetUnexploredTraitClose
+      Object: 0854E8:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShip
+      Object: 0854E8:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TempleLocation
+      Object: 0854E8:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TempleMapMarker
+      Object: 0854E8:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TemplePrayMarker
+      Object: 0854E8:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TempleStarborn
+      Object: 0854E8:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VladimirSall
+      Object: 0854E8:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LvlStarborn_Boss_Aggro
+      Object: 15E245:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ104A
+      Object: 0160A9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401EyeScanMSG
+      Object: 07C802:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQTempleQuest_HaveTempleObj
+      Object: 12AB19:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TempleTutorialMSG
+      Object: 10F8F2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TurnOnTemples
+      Object: 07CC50:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TutorialQuest
+      Object: 045640:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StarbornTempleQuest
+      Object: 214707:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 5
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0005_Item_01
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0013_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 60
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0060_Item_01
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0854E8:Starfield.esm
+      Alias: 8
+    Scripts:
+    - Name: MQCheckGravCrewAssignScript
+  - Property:
+      Name: ''
+      Object: 0854E8:Starfield.esm
+      Alias: 17
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 7
+  - Property:
+      Name: ''
+      Object: 0854E8:Starfield.esm
+      Alias: 23
+    Scripts:
+    - Name: MQ207BPlayerScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerShip
+        Object: 0854E8:Starfield.esm
+        Alias: 8
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Kraft aus dem Jenseits
+  - Language: English
+    String: Power from Beyond
+  - Language: Spanish
+    String: Poder del más allá
+  - Language: French
+    String: Un pouvoir venu d'ailleurs
+  - Language: Italian
+    String: Potere dall’altro mondo
+  - Language: Japanese
+    String: 果てからの力
+  - Language: Polish
+    String: Moc nie z tego świata
+  - Language: Portuguese_Brazil
+    String: Poder do Além
+Data:
+  Flags:
+  - 0x10000
+  Priority: 80
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+QuestFaction: 0546E1:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG - give player multiple artifacts and start quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0854E8:Starfield.esm
+        SecondParameter: 10
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetDisabledConditionData
+        RunOnType: QuestAlias
+        Unknown3: 16
+    Note: Quest begins
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte Vladimir fragen, ob er noch weitere Tempel gefunden hat.
+      - Language: English
+        String: I should check in with Vladimir and see if he's located anymore Temples.
+      - Language: Spanish
+        String: Será mejor que hable con Vladimir, a ver si ha localizado más Templos.
+      - Language: French
+        String: Je ferais bien de rendre visite à Vladimir pour voir s'il a localisé d'autres temples.
+      - Language: Italian
+        String: Dovrei sentire Vladimir per capire se abbia trovato altri Templi.
+      - Language: Japanese
+        String: 他にも聖堂の位置を特定していないか、ウラジミールに聞いてみよう
+      - Language: Polish
+        String: Muszę zapytać Vladimira, czy udało mu się znaleźć jakieś świątynie.
+      - Language: Portuguese_Brazil
+        String: Preciso falar com Vladimir pra ver se ele conseguiu localizar mais algum Templo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDisabledConditionData
+        RunOnType: QuestAlias
+        Unknown3: 16
+      ComparisonValue: 1
+    Note: Quest begins - Vlad disabled
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte mit der Ausrüstung auf dem Auge versuchen, weitere Tempel zu finden.
+      - Language: English
+        String: I should use the equipment on the Eye to try and locate more Temples.
+      - Language: Spanish
+        String: Tengo que utilizar el equipo del Ojo para tratar de localizar más Templos.
+      - Language: French
+        String: Je pourrais utiliser les instruments de l'Iris pour localiser davantage de temples.
+      - Language: Italian
+        String: Dovrei usare l’equipaggiamento sull’Occhio per provare a individuare altri Templi.
+      - Language: Japanese
+        String: 〈アイ〉にある装備を使って、他にも聖堂の位置を特定しよう
+      - Language: Polish
+        String: Muszę spróbować znaleźć kolejne świątynie za pomocą sprzętu na Oku.
+      - Language: Portuguese_Brazil
+        String: Preciso usar o equipamento no Olho pra tentar localizar mais Templos.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player activates Eye trigger
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Auf einem fernen Planeten gibt es eine große Anomalie, die zur Signatur eines der Artefakte passt. Ich muss sie finden.
+      - Language: English
+        String: There's a large anomaly on a distant planet that matches the signature of one of the Artifacts. I need to find it.
+      - Language: Spanish
+        String: En un planeta lejano hay una anomalía considerable que encaja con las características de uno de los Artefactos. Tengo que ir en su busca.
+      - Language: French
+        String: Une énorme anomalie sur une planète lointaine correspond à la signature de l'un des artefacts. Je dois le trouver.
+      - Language: Italian
+        String: C’è una grossa anomalia su un pianeta distante che corrisponde alla traccia di uno dei Manufatti. Devo trovarla.
+      - Language: Japanese
+        String: 遠くの惑星に、あるアーティファクトの信号と一致する大きな異常がある。見つけなければならない
+      - Language: Polish
+        String: Wiem, gdzie w odległym kosmosie mogę znaleźć dużą anomalię, której sygnatura pasuje do jednego z artefaktów. Muszę ją zbadać.
+      - Language: Portuguese_Brazil
+        String: Tem uma grande anomalia em um planeta distante que corresponde à assinatura de um dos artefatos. Preciso encontrá-la.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talks to Vladimir
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Auf einem fernen Planeten gibt es eine große Anomalie, die zur Signatur eines der Artefakte passt. Ich muss sie finden.
+      - Language: English
+        String: There's a large anomaly on a distant planet that matches the signature of one of the Artifacts. I need to find it.
+      - Language: Spanish
+        String: En un planeta lejano hay una anomalía considerable que encaja con las características de uno de los Artefactos. Tengo que ir en su busca.
+      - Language: French
+        String: Une énorme anomalie sur une planète lointaine correspond à la signature de l'un des artefacts. Je dois le trouver.
+      - Language: Italian
+        String: C’è una grossa anomalia su un pianeta distante che corrisponde alla traccia di uno dei Manufatti. Devo trovarla.
+      - Language: Japanese
+        String: 遠くの惑星に、あるアーティファクトの信号と一致する大きな異常がある。見つけなければならない
+      - Language: Polish
+        String: Wiem, gdzie w odległym kosmosie mogę znaleźć dużą anomalię, której sygnatura pasuje do jednego z artefaktów. Muszę ją zbadać.
+      - Language: Portuguese_Brazil
+        String: Tem uma grande anomalia em um planeta distante que corresponde à assinatura de um dos artefatos. Preciso encontrá-la.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 12
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player needs to upgrade grav drive
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 13
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Grav Drive upgraded
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player arrives in orbit at the planet
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Auf einem fernen Planeten gibt es eine große Anomalie, die zur Signatur eines der Artefakte passt. Ich muss sie finden.
+      - Language: English
+        String: There's a large anomaly on a distant planet that matches the signature of one of the Artifacts. I need to find it.
+      - Language: Spanish
+        String: En un planeta lejano hay una anomalía considerable que encaja con las características de uno de los Artefactos. Tengo que ir en su busca.
+      - Language: French
+        String: Une énorme anomalie sur une planète lointaine correspond à la signature de l'un des artefacts. Je dois le trouver.
+      - Language: Italian
+        String: C’è una grossa anomalia su un pianeta distante che corrisponde alla traccia di uno dei Manufatti. Devo trovarla.
+      - Language: Japanese
+        String: 遠くの惑星に、あるアーティファクトの信号と一致する大きな異常がある。見つけなければならない
+      - Language: Polish
+        String: Wiem, gdzie w odległym kosmosie mogę znaleźć dużą anomalię, której sygnatura pasuje do jednego z artefaktów. Muszę ją zbadać.
+      - Language: Portuguese_Brazil
+        String: Tem uma grande anomalia em um planeta distante que corresponde à assinatura de um dos artefatos. Preciso encontrá-la.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player lands at the overlay and leaves their ship
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Mein Scanner erfasst ein paar Verzerrungen. Ich sollte ihn im Auge behalten und die Quelle der Verzerrungen lokalisieren.
+      - Language: English
+        String: My scanner is picking up some distortions. I should keep my scanner up and follow the distortions to the source.
+      - Language: Spanish
+        String: Mi escáner detecta algunas distorsiones. Debería dejarlo activado y seguir las distorsiones hasta el origen.
+      - Language: French
+        String: Mon scanner a relevé des distorsions. Je devrais le garder à portée de main et remonter ces distorsions jusqu'à leur source.
+      - Language: Italian
+        String: Il mio scanner rileva alcune distorsioni. Devo tenerlo in funzione e seguire le distorsioni fino alla fonte.
+      - Language: Japanese
+        String: スキャナーが何らかの歪みを検出している。スキャナーを稼働したままにして、歪みを発生源までたどろう
+      - Language: Polish
+        String: Mój skaner wykrywa jakieś zakłócenia. Muszę iść za jego wskazaniami do ich źródła.
+      - Language: Portuguese_Brazil
+        String: Meu leitor está detectando distorções. Preciso mantê-lo ativo e seguir a direção das distorções até a origem.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player arrives at Temple Location
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDisabledConditionData
+        RunOnType: QuestAlias
+        Unknown3: 16
+    Note: Player acquires power
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Vladimir sagt, er kann mir in Zukunft helfen, weitere Tempel aufzuspüren, wenn wir Artefakte finden.
+      - Language: English
+        String: Vladimir says he can help track down more of the Temples in the future for any Artifacts we find.
+      - Language: Spanish
+        String: Vladimir se ha prestado a ayudarnos a localizar más Templos y conseguir, de este modo, Artefactos.
+      - Language: French
+        String: Vladimir dit qu'à l'avenir, il pourra m'aider à localiser d'autres temples contenant des artefacts.
+      - Language: Italian
+        String: Vladimir sostiene di potermi aiutare a rintracciare altri Templi in futuro per ogni Manufatto che troviamo.
+      - Language: Japanese
+        String: ウラジミールはアーティファクトを見つければ、他の聖堂を見つけ出す支援ができると言っている
+      - Language: Polish
+        String: Vladimir dał znać, że w przyszłości może pomóc znaleźć świątynie korespondujące ze wszystkimi artefaktami, które znajdziemy.
+      - Language: Portuguese_Brazil
+        String: O Vladimir disse que pode ajudar a encontrar mais templos futuramente com os artefatos que encontrarmos.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF35:Starfield.esm
+        BonusCredits: Null
+    - QSRD: '[]'
+  - Flags:
+    - CompleteQuest
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDisabledConditionData
+        RunOnType: QuestAlias
+        Unknown3: 16
+      ComparisonValue: 1
+    Note: Player acquires power - Vladimir disabled
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich kann in Zukunft weitere Tempel ausfindig machen, indem ich zum Auge zurückkehre und von dort aus Gravitationsanomalien orte.
+      - Language: English
+        String: I can track down more of the Temples in the future by returning to the Eye and locating any Gravitational Anomalies it can find.
+      - Language: Spanish
+        String: En lo sucesivo, podré encontrar más Templos si regreso al Ojo e identifico todas las anomalías gravitacionales que pueda.
+      - Language: French
+        String: Si je veux trouver d'autres temples, je n'aurai qu'à revenir à l'Iris pour localiser les anomalies gravitationnelles qu'il relève.
+      - Language: Italian
+        String: In futuro, posso rintracciare altri Templi tornando all’Occhio e localizzando le anomalie gravitazionali che riesce a trovare.
+      - Language: Japanese
+        String: 今後は、〈アイ〉に戻って重力異常を見つけることで、他の聖堂を見つけ出すことができる
+      - Language: Polish
+        String: Mogę w przyszłości znaleźć więcej świątyń poprzez powrót na Oko i lokalizację wszelkich znalezionych przez nie anomalii grawitacyjnych.
+      - Language: Portuguese_Brazil
+        String: Posso encontrar mais templos futuramente voltando ao Olho e encontrando as anomalias gravitacionais que ele indicar.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF35:Starfield.esm
+        BonusCredits: Null
+    - QSRD: '[]'
+Objectives:
+- Index: 3
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Vladimir, um Tempel zu finden.
+    - Language: English
+      String: Talk to Vladimir to Locate Temples
+    - Language: Spanish
+      String: Habla con Vladimir para localizar Templos.
+    - Language: French
+      String: Parlez à Vladimir pour localiser des temples.
+    - Language: Italian
+      String: Parla con Vladimir per individuare i Templi
+    - Language: Japanese
+      String: ウラジミールと話して聖堂の位置を特定する
+    - Language: Polish
+      String: Porozmawiaj z Vladimirem, aby znaleźć świątynie
+    - Language: Portuguese_Brazil
+      String: Fale com Vladimir para localizar Templos
+  Targets:
+  - AliasID: 16
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde mithilfe des Auges Tempel.
+    - Language: English
+      String: Use the Eye to Locate Temples
+    - Language: Spanish
+      String: Usa el Ojo para localizar Templos.
+    - Language: French
+      String: Localisez des temples avec l'Iris.
+    - Language: Italian
+      String: Usa l’Occhio per localizzare i Templi
+    - Language: Japanese
+      String: 〈アイ〉を使って聖堂を探す
+    - Language: Polish
+      String: Użyj Oka do lokalizowania świątyń
+    - Language: Portuguese_Brazil
+      String: Use o Olho para localizar templos
+  Targets:
+  - AliasID: 17
+- Index: 7
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhalte ein Schiff mit einer Grav-Sprung-Reichweite von 28 LJ.
+    - Language: English
+      String: Obtain a Ship with a 28LY Grav Jump Range
+    - Language: Spanish
+      String: Obtén una nave con alcance de salto gravitacional de 28 A. L.
+    - Language: French
+      String: Procurez-vous un vaisseau doté d'une portée d'astroportation de 28 AL.
+    - Language: Italian
+      String: Ottieni una nave con portata del gravisalto di 28 AL
+    - Language: Japanese
+      String: グラヴ・ジャンプの範囲が28光年の船を手に入れる
+    - Language: Polish
+      String: Zdobądź statek z zasięgiem skoku grawitonowego 28 lat świetlnych
+    - Language: Portuguese_Brazil
+      String: Obtenha uma nave com alcance de dobra grav de 28 anos-luz
+  Targets:
+  - AliasID: 22
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erwirb die Kraft auf <Alias=PlanetWithTrait>.
+    - Language: English
+      String: Acquire the Power on <Alias=PlanetWithTrait>
+    - Language: Spanish
+      String: Adquiere el poder en <Alias=PlanetWithTrait>.
+    - Language: French
+      String: Obtenez le pouvoir sur <Alias=PlanetWithTrait>.
+    - Language: Italian
+      String: 'Ottieni il potere presso: <Alias=PlanetWithTrait>'
+    - Language: Japanese
+      String: <Alias=PlanetWithTrait>にある力を得る
+    - Language: Polish
+      String: Zdobądź moc, którą skrywa <Alias=PlanetWithTrait>
+    - Language: Portuguese_Brazil
+      String: Consiga o poder em <Alias=PlanetWithTrait>
+  Targets:
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0854E8:Starfield.esm
+        SecondParameter: 50
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationAliasConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 2
+  - AliasID: 13
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInSameCellConditionData
+        FirstParameter: 000014:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0854E8:Starfield.esm
+        SecondParameter: 50
+      ComparisonValue: 1
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge den Verzerrungen auf dem Scanner.
+    - Language: English
+      String: Follow Distortions on the Scanner
+    - Language: Spanish
+      String: Sigue las distorsiones del escáner.
+    - Language: French
+      String: Suivez les distorsions sur votre scanner.
+    - Language: Italian
+      String: Segui le distorsioni sullo scanner
+    - Language: Japanese
+      String: スキャナーの歪みを追う
+    - Language: Polish
+      String: Podążaj za zakłóceniami widocznymi na skanerze
+    - Language: Portuguese_Brazil
+      String: Siga as distorções exibidas no leitor
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 18
+  Name: StarStationTheEyeLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2B0801:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 24
+  Name: PlanetFallBack
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x10000000
+  ALFG: 0
+  AliasIDToForceIntoWhenFilled: 2
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x880024
+    Data:
+      MutagenObjectType: BodyHasKeywordConditionData
+      FirstParameter: 08691D:Starfield.esm
+  LocationTypeKeyword: 111F62:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 21
+  Name: PlanetUnexploredTrait
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - 0x10000000
+  ALFG: 0
+  AliasIDToForceIntoWhenFilled: 2
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x880024
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: BodyHasKeywordConditionData
+      FirstParameter: 08691D:Starfield.esm
+  LocationTypeKeyword: 111F62:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  Name: PlanetUnexploredTraitClose
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - 0x10000000
+  ALFG: 0
+  AliasIDToForceIntoWhenFilled: 2
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x880024
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: BodyHasKeywordConditionData
+      FirstParameter: 08691D:Starfield.esm
+  LocationTypeKeyword: 28515F:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 2
+  Name: PlanetWithTrait
+  Flags:
+  - StoresText
+  - ForcedByAliases
+  ALFG: 0
+- MutagenObjectType: QuestLocationAlias
+  ID: 3
+  Name: TempleLocation
+  Flags:
+  - Optional
+  - 0x40000000
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x880024
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 20C59F:Starfield.esm
+    ComparisonValue: 1
+  ParentSystemLocationAliasID: 2
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: TempleMapMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 4
+  Name: AnomalyLocation
+  Flags:
+  - Optional
+  - 0x40000000
+  ALFG: 0
+  ALPS:
+    PcmTypeKeyword: 111EA7:Starfield.esm
+  ParentSystemLocationAliasID: 2
+  DisplayName: 10ADA9:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: AnomalyMapMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 7
+  Name: TargetSystemLocation
+  Flags:
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 00149F:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: PlayerShip
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: TemplePuzzle
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 2450B8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: TemplePowerTrigger
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 1E46F1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: VladimirSall
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0059AA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: EyeScanner
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 18
+    RefType: 07C803:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: TempleStarbornMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 002390:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: TempleStarborn
+  Flags:
+  - Optional
+  ALFG: 0
+  PackageData:
+  - 1F94FB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: ShipServicesTech
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 05C81C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: Player
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null

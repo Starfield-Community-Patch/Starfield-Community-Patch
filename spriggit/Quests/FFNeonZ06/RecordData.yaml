@@ -1,0 +1,547 @@
+FormKey: 082D5A:Starfield.esm
+EditorID: FFNeonZ06
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonGuardPointer_Z06
+      Object: 363164:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Timer
+      Object: 00D56B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DaysPassed
+      Object: 000039:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueQuest
+      Object: 22DAD6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rusty
+      Object: 082D5A:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ06_TevinPayment
+      Object: 082D09:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    FragmentName: Fragment_Stage_0011_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 32
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNeonZ06_00082D5A
+    FragmentName: Fragment_Stage_0032_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 082D5A:Starfield.esm
+      Alias: 0
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ungerechtfertigt
+  - Language: English
+    String: Unjustified
+  - Language: Spanish
+    String: Sin justificación
+  - Language: French
+    String: Meurtre gratuit
+  - Language: Italian
+    String: Ingiustificato
+  - Language: Japanese
+    String: 不正義
+  - Language: Polish
+    String: Nieusprawiedliwione
+  - Language: Portuguese_Brazil
+    String: Não justificado
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 50
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+TextDisplayGlobals:
+- 082D09:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player goes to question Tevin
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Katherine will herausfinden, was ihrem Mann wirklich zugestoßen ist. Ich habe ihr meine Hilfe angeboten und muss nun den Zeugen befragen – Tevin Anastas.
+      - Language: English
+        String: I've offered to help Katherine figure out what really happened to her husband. I need to go question the witness, Tevin Anastas.
+      - Language: Spanish
+        String: Me he ofrecido a ayudar a Katherine a averiguar qué le ocurrió a su marido. Tengo que interrogar al testigo, Tevin Anastas.
+      - Language: French
+        String: J'ai proposé mon aide à Katherine pour découvrir ce qui est réellement arrivé à son mari. Je dois aller interroger le témoin, Tevin Anastas.
+      - Language: Italian
+        String: Ho detto a Katherine che l’avrei aiutata a capire cos’è successo davvero a suo marito. Devo interrogare il testimone, Tevin Anastas.
+      - Language: Japanese
+        String: キャサリンに、夫の身に起きたことを明らかにする手伝いをすると申し出た。目撃者のテヴィン・アナスタスに話を聞こう
+      - Language: Polish
+        String: Chcę się dowiedzieć w imieniu Katherine, co się stało z jej mężem. Muszę przesłuchać w tej sprawie świadka, Tevina Anastasa.
+      - Language: Portuguese_Brazil
+        String: Ofereci ajuda à Katherine para descobrir o que realmente aconteceu com o marido dela. Preciso interrogar a testemunha, Tevin Anastas.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player leaves initial questioning scene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player intimidated Tevin
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Mit Tevin war es anfangs etwas schwierig, aber ich konnte ihn per Einschüchterung dazu bringen, mir zu sagen, was er über Thomas weiß. '
+      - Language: English
+        String: 'Tevin was difficult at first, but I was able to intimidate him into telling me what he knows about Thomas. '
+      - Language: Spanish
+        String: 'Tevin se resistía al principio, pero logré que me contara lo que sabe de Thomas a base de amenazas. '
+      - Language: French
+        String: "Tevin était récalcitrant au début, mais j'ai réussi à l'intimider suffisamment pour qu'il me dise ce qu'il sait sur Thomas. "
+      - Language: Italian
+        String: 'Tevin non voleva parlare, quindi l’ho minacciato per convincerlo a dirmi ciò che sa su Thomas. '
+      - Language: Japanese
+        String: '初めこそテヴィンには手を焼いたが、脅してやるとトーマスについて聞き出すことができた '
+      - Language: Polish
+        String: 'Tevin robił z początku problemy, ale zastraszony opowiedział mi, co wie o Thomasie. '
+      - Language: Portuguese_Brazil
+        String: 'Tevin resistiu no início, mas depois consegui intimidá-lo e obrigar ele a contar o que sabe sobre o Thomas. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player bribed Tevin
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Mit Tevin war es anfangs etwas schwierig, aber ich musste ihn nur bestechen, um ihn dazu zu bringen, über Thomas zu reden. '
+      - Language: English
+        String: 'Tevin was difficult at first, but bribing him was enough to get him to talk about Thomas. '
+      - Language: Spanish
+        String: 'Tevin se resistía al principio, pero ha bastado un soborno para que me contara lo que sabe de Thomas. '
+      - Language: French
+        String: 'Tevin était récalcitrant au début, mais il a accepté de me parler de Thomas contre quelques crédits. '
+      - Language: Italian
+        String: 'Tevin non voleva parlare, ma dopo averlo corrotto si è deciso a dirmi ciò che sa su Thomas. '
+      - Language: Japanese
+        String: '初めこそテヴィンには手を焼いたが、賄賂さえ渡せばトーマスについて聞き出すことができた '
+      - Language: Polish
+        String: 'Tevin robił z początku problemy, ale łapówka wystarczyła, żeby nakłonić go do porozmawiania o Thomasie. '
+      - Language: Portuguese_Brazil
+        String: 'Tevin resistiu no início, mas nada como um suborno pra fazer ele falar sobre o Thomas. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 11
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speech Challenge Lost
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Bei Tevin muss ich noch Überzeugungsarbeit leisten. Wenn es nicht anders geht, kann ich ihn vielleicht bestechen, um an die Informationen zu gelangen. 1.000 Credits wären doch ein ganz guter Betrag ...
+      - Language: English
+        String: Tevin is going to need some more convincing. If nothing else works, maybe I can bribe him to give me the information. 1000 credits seems like a good number...
+      - Language: Spanish
+        String: Voy a tener que convencer a Tevin. Si no lo logro por otros medios, podría sobornarle para que me dé la información que busco. 1000 créditos me parece una suma adecuada...
+      - Language: French
+        String: Ça ne va pas être facile de convaincre Tevin. En dernier recours, je pourrais toujours le soudoyer pour qu'il crache le morceau. 1 000 crédits semblent être une somme raisonnable...
+      - Language: Italian
+        String: Dovrò trovare un modo per convincere Tevin. Se non dovessi trovare altro, forse potrei corromperlo per farmi dare le informazioni che cerco. 1.000 crediti dovrebbero andar bene...
+      - Language: Japanese
+        String: どうにかしてテヴィンを説得しなければならない。他に手段がなければ、金で喋らせることができるかもしれない。1,000クレジットあれば十分だろう…
+      - Language: Polish
+        String: Tevin potrzebuje solidniejszych argumentów. Jeśli nic go nie przekona, może łapówka nakłoni go do zdradzenia informacji. 1000 kredytów brzmi jak dobra kwota...
+      - Language: Portuguese_Brazil
+        String: Vou ter que continuar tentando convencer o Tevin. Se nada mais funcionar, talvez eu tente um suborno pra conseguir as informações. Acho que 1000 créditos seriam suficientes...
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 12
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speech challenge won
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tevin reveals Thomas was murdered.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich konnte Tevin dazu bringen, mir zu sagen, was er über Thomas' Tod weiß.
+      - Language: English
+        String: I was able to get Tevin to tell me what he knows about the death of Thomas.
+      - Language: Spanish
+        String: He conseguido que Tevin me cuente lo que sabe de la muerte de Thomas.
+      - Language: French
+        String: J'ai réussi à convaincre Tevin de me dire ce qu'il sait au sujet de la mort de Thomas.
+      - Language: Italian
+        String: Ho convinto Tevin a dirmi ciò che sa sulla morte di Thomas.
+      - Language: Japanese
+        String: トーマスの死について知っていることについて、テヴィンから聞き出すことができた
+      - Language: Polish
+        String: Udało mi się wyciągnąć z Tevina wszystko, co wie o śmierci Thomasa.
+      - Language: Portuguese_Brazil
+        String: Consegui obrigar o Tevin a me contar o que sabe sobre a morte do Thomas.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player goes to Rusty
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Tevin hat mir verraten, dass Katherines Mann von jemandem namens Rusty getötet wurde. Ich muss diesen Rusty finden.
+      - Language: English
+        String: Tevin told me that Katherine's husband was killed by a man named Rusty. I need to find him.
+      - Language: Spanish
+        String: Tevin me ha contado que el marido de Katherine fue asesinado por un tal Rusty. Tengo que encontrarle.
+      - Language: French
+        String: Tevin m'a dit que le mari de Katherine avait été tué par un nommé Rusty. Je dois le trouver.
+      - Language: Italian
+        String: Tevin mi ha detto che il marito di Katherine è stato ucciso da un uomo di nome Rusty. Ora devo trovarlo.
+      - Language: Japanese
+        String: テヴィンによると、キャサリンの夫はラスティという男に殺されたらしい。彼を探し出そう
+      - Language: Polish
+        String: Tevin powiedział mi, że mąż Katherine został zabity przez mężczyznę imieniem Rusty. Muszę go znaleźć.
+      - Language: Portuguese_Brazil
+        String: Tevin me disse que o marido da Katherine foi morto por um homem chamado Rusty. Preciso encontrá-lo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 32
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Rusty Forcegreet done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spares Rusty
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 07D829:Starfield.esm
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player Kills Rusty
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 07D828:Starfield.esm
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player intimidates Rusty.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 70
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player returns to Katherine
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mich um Rusty gekümmert. Jetzt muss ich Katherine sagen, was wirklich passiert ist.
+      - Language: English
+        String: I've taken care of Rusty. Now to tell Katherine the truth about what happened.
+      - Language: Spanish
+        String: Me he encargado de Rusty. Ahora, debo contarle la verdad a Katherine.
+      - Language: French
+        String: J'ai réglé le cas de Rusty. Maintenant, il va falloir raconter la vérité à Katherine.
+      - Language: Italian
+        String: Ho sistemato Rusty. Ora devo dire a Katherine la verità su ciò che è successo.
+      - Language: Japanese
+        String: ラスティに対処した。あとはキャサリンに真実を知らせなければならない
+      - Language: Polish
+        String: Sprawa Rusty'ego jest już załatwiona. Teraz muszę powiedzieć Katherine prawdę o tym, co się wydarzyło.
+      - Language: Portuguese_Brazil
+        String: Dei um jeito no Rusty. Agora tenho que contar o que aconteceu para a Katherine.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 80
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asks Katherine how Thomas knew Rusty
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Complete
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Ich habe herausgefunden, was Katherines Mann wirklich zugestoßen ist. Er wurde bei einem Erpressungsfall von einem Mann namens Rusty ermordet und die Security wollte alles vertuschen. Da sie nun die Wahrheit kennt und Rusty erledigt ist, kann sie die Sache hoffentlich verarbeiten und irgendwann wieder nach vorne blicken. '
+      - Language: English
+        String: "I was able to find out the truth about what happened to Katherine's husband. He was murdered in a shakedown by a man named Rusty, and Security tried to cover everything up. Hopefully now that she knows the truth, and that Rusty's been taken care of, she can start focusing on healing. "
+      - Language: Spanish
+        String: 'Logré averiguar qué le ocurrió al marido de Katherine. Fue asesinado por un tal Rusty, que trataba de chantajearle, y las autoridades se esmeraron en ocultar la verdad. Ahora que Katherine por fin está al corriente y Rusty ha recibido su merecido, espero que ella pueda empezar a sanar por fin. '
+      - Language: French
+        String: "J'ai pu faire la lumière sur ce qui est réellement arrivé au mari de Katherine. Il a été tué lorsqu'un certain Rusty a cherché à le racketter, et la sécurité a essayé d'étouffer l'affaire. Maintenant qu'elle sait la vérité, et que le cas de Rusty a été réglé, j'espère qu'elle pourra faire son deuil en paix. "
+      - Language: Italian
+        String: 'Ho scoperto la verità su cos’è accaduto al marito di Katherine. È stato ucciso durante una perquisizione da un uomo di nome Rusty, e la Sicurezza ha provato a insabbiare tutto. Mi auguro che ora che sa la verità, e che Rusty è stato sistemato, possa ricominciare a vivere serenamente. '
+      - Language: Japanese
+        String: 'キャサリンの夫に何があったのか知ることができた。ラスティという男に金を無心されていた過程で殺害され、セキュリティがそれを隠蔽しようとした。真実が明らかになり、ラスティにも対処したことで、彼女も前に進めるようになったことを願おう '
+      - Language: Polish
+        String: Udało mi się poznać prawdę o losie męża Katherine. Został zamordowany przez niejakiego Rusty'ego, który próbował wymusić od niego kredyty. Ochrona zaś próbowała zamieść sprawę pod dywan. Miejmy nadzieję, że skoro poznała już prawdę, a Rusty nikomu już nie zagrozi, rana w jej sercu zacznie się zabliźniać.
+      - Language: Portuguese_Brazil
+        String: 'Consegui descobrir a verdade sobre o que aconteceu com o marido da Katherine. Ele foi assassinado em um assalto por um homem chamado Rusty, e a segurança tentou esconder tudo. Espero que ela comece a tentar se recuperar agora que sabe a verdade e que foi dado um jeito no Rusty. '
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF34:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B11:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest complete, player didn't accept payment
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Ich habe herausgefunden, was Katherines Mann wirklich zugestoßen ist. Er wurde bei einem Erpressungsfall von einem Mann namens Rusty ermordet und die Security wollte alles vertuschen. Da sie nun die Wahrheit kennt und Rusty erledigt ist, kann sie die Sache hoffentlich verarbeiten und irgendwann wieder nach vorne blicken. '
+      - Language: English
+        String: "I was able to find out the truth about what happened to Katherine's husband. He was murdered in a shakedown by a man named Rusty, and Security tried to cover everything up. Hopefully now that she knows the truth, and that Rusty's been taken care of, she can start focusing on healing. "
+      - Language: Spanish
+        String: 'Logré averiguar qué le ocurrió al marido de Katherine. Fue asesinado por un tal Rusty, que trataba de chantajearle, y las autoridades se esmeraron en ocultar la verdad. Ahora que Katherine por fin está al corriente y Rusty ha recibido su merecido, espero que ella pueda empezar a sanar por fin. '
+      - Language: French
+        String: "J'ai pu faire la lumière sur ce qui est réellement arrivé au mari de Katherine. Il a été tué lorsqu'un certain Rusty a cherché à le racketter, et la sécurité a essayé d'étouffer l'affaire. Maintenant qu'elle sait la vérité, et que le cas de Rusty a été réglé, j'espère qu'elle pourra faire son deuil en paix. "
+      - Language: Italian
+        String: 'Ho scoperto la verità su cos’è accaduto al marito di Katherine. È stato ucciso durante una perquisizione da un uomo di nome Rusty, e la Sicurezza ha provato a insabbiare tutto. Mi auguro che ora che sa la verità, e che Rusty è stato sistemato, possa ricominciare a vivere serenamente. '
+      - Language: Japanese
+        String: 'キャサリンの夫に何があったのか知ることができた。ラスティという男に金を無心されていた過程で殺害され、セキュリティがそれを隠蔽しようとした。真実が明らかになり、ラスティにも対処したことで、彼女も前に進めるようになったことを願おう '
+      - Language: Polish
+        String: Udało mi się poznać prawdę o losie męża Katherine. Został zamordowany przez niejakiego Rusty'ego, który próbował wymusić od niego kredyty. Ochrona zaś próbowała zamieść sprawę pod dywan. Miejmy nadzieję, że skoro poznała już prawdę, a Rusty nikomu już nie zagrozi, rana w jej sercu zacznie się zabliźniać.
+      - Language: Portuguese_Brazil
+        String: 'Consegui descobrir a verdade sobre o que aconteceu com o marido da Katherine. Ele foi assassinado em um assalto por um homem chamado Rusty, e a segurança tentou esconder tudo. Espero que ela comece tentar se recuperar agora que sabe a verdade e que foi dado um jeito no Rusty. '
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF3C:Starfield.esm
+        BonusCredits: Null
+    - QSRD: '[]'
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Tevin Anastas.
+    - Language: English
+      String: Talk to Tevin Anastas
+    - Language: Spanish
+      String: Habla con Tevin Anastas.
+    - Language: French
+      String: Parlez à Tevin Anastas.
+    - Language: Italian
+      String: Parla con Tevin Anastas
+    - Language: Japanese
+      String: テヴィン・アナスタスと話す
+    - Language: Polish
+      String: Porozmawiaj z Tevinem Anastasem
+    - Language: Portuguese_Brazil
+      String: Fale com Tevin Anastas
+  Targets:
+  - AliasID: 2
+- Index: 13
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Bestich Tevin, um an Informationen zu gelangen.
+    - Language: English
+      String: Bribe Tevin for information
+    - Language: Spanish
+      String: Soborna a Tevin para obtener información.
+    - Language: French
+      String: Soudoyez Tevin pour obtenir des informations.
+    - Language: Italian
+      String: Corrompi Tevin per ottenere informazioni
+    - Language: Japanese
+      String: テヴィンを買収して情報を得る
+    - Language: Polish
+      String: Przekupstwem wyciągnij informacje z Tevina
+    - Language: Portuguese_Brazil
+      String: Suborne Tevin para obter informações
+  Targets:
+  - AliasID: 2
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde Rusty.
+    - Language: English
+      String: Find Rusty
+    - Language: Spanish
+      String: Busca a Rusty.
+    - Language: French
+      String: Trouvez Rusty.
+    - Language: Italian
+      String: Trova Rusty
+    - Language: Japanese
+      String: ラスティを探す
+    - Language: Polish
+      String: Znajdź Rusty'ego
+    - Language: Portuguese_Brazil
+      String: Encontre Rusty
+  Targets:
+  - {}
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kehre zu Katherine zurück.
+    - Language: English
+      String: Return to Katherine
+    - Language: Spanish
+      String: Vuelve con Katherine.
+    - Language: French
+      String: Retournez voir Katherine.
+    - Language: Italian
+      String: Torna da Katherine
+    - Language: Japanese
+      String: キャサリンのところに戻る
+    - Language: Polish
+      String: Wróć do Katherine
+    - Language: Portuguese_Brazil
+      String: Volte a Katherine
+  Targets:
+  - AliasID: 1
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Rusty
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - InitiallyDisabled
+  ALFG: 0
+  UniqueActor: 082D0C:Starfield.esm
+  PackageData:
+  - 082D05:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Katherine
+  Flags: []
+  ALFG: 0
+  UniqueActor: 26FDC8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Tevin
+  Flags: []
+  ALFG: 0
+  UniqueActor: 26FDE8:Starfield.esm
+  VoiceTypes: Null

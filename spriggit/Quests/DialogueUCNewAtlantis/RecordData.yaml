@@ -1,0 +1,787 @@
+FormKey: 013497:Starfield.esm
+EditorID: DialogueUCNewAtlantis
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DialogueUCNewAtlantisQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pPlayerVisited_NewAtlantis
+      Object: 01E44F:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_DialogueUCNewAtlantis_00013497
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerHouseSystem
+      Object: 1ABF4E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WellApartmentActivator
+      Object: 013497:Starfield.esm
+      Alias: 60
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerHouse_NA_HomeCost
+      Object: 0A62BB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_NA_Home_Well_Misc
+      Object: 0D37B6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerHouse_NA_WellCost
+      Object: 0A62BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerPenthouseDoor
+      Object: 013497:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCFactionNewAtlantis
+      Object: 2C5402:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityNewAtlantisPenthouseKey
+      Object: 0C368B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityNewAtlantisWellApartmentKey
+      Object: 119AA8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_NA_Home_Penthouse_Misc
+      Object: 0C3689:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ZoeKaminski
+      Object: 013497:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RAD03
+      Object: 21710A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ZoraSangweni
+      Object: 013497:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PenthouseDoor
+      Object: 1B1365:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerHouseDoor
+  Fragments:
+  - Stage: 365
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCNewAtlantis_00013497
+    FragmentName: Fragment_Stage_0365_Item_00
+  - Stage: 341
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCNewAtlantis_00013497
+    FragmentName: Fragment_Stage_0341_Item_00
+  - Stage: 360
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCNewAtlantis_00013497
+    FragmentName: Fragment_Stage_0360_Item_00
+  - Stage: 364
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCNewAtlantis_00013497
+    FragmentName: Fragment_Stage_0364_Item_00
+  - Stage: 34
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCNewAtlantis_00013497
+    FragmentName: Fragment_Stage_0034_Item_00
+  - Stage: 363
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCNewAtlantis_00013497
+    FragmentName: Fragment_Stage_0363_Item_00
+  - Stage: 366
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCNewAtlantis_00013497
+    FragmentName: Fragment_Stage_0366_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: New Atlantis Main Dialogue
+  - Language: English
+    String: New Atlantis Main Dialogue
+  - Language: Spanish
+    String: Diálogo principal de Nueva Atlántida
+  - Language: French
+    String: New Atlantis Main Dialogue
+  - Language: Italian
+    String: Dialogo principale Nuova Atlantide
+  - Language: Japanese
+    String: ニューアトランティスのメインの会話
+  - Language: Polish
+    String: Główny dialog sprzedawców z Nowej Atlantydy
+  - Language: Portuguese_Brazil
+    String: Diálogo Principal de Nova Atlântida
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 15
+  Unused: 0x000000
+Location: 01295A:Starfield.esm
+TextDisplayGlobals:
+- 0A62BB:Starfield.esm
+- 0A62BC:Starfield.esm
+- 32DEA9:Starfield.esm
+Summary: Base settlement dialogue for New Atlantis
+UnusedConditions: []
+Stages:
+- Index: 34
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Debug Stage: Move player to Zoe'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Cornelius Townard greeting scene done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Amoli Bava greeting done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Antonio Bianchi Greeting done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 330
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Anya Griffon Greeting Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 340
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Zoe Kaminski greeting done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 341
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Zoe Kaminski grants the RAD03 quest when the player asks her about work.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Warner Connell greeting scene done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 360
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Zora Sangweni greeting done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 361
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Zora Sangweni - Player isn't UC Citizen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 362
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Zora Sangweni - Player is UC Citizen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 363
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Zora Sangweni - Penthouse offered
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 364
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Zora Sangweni - player purchased Well apartment
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 365
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Zora Sangweni - Player acquired Penthouse from UC Questline
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 366
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Zora Sangweni - player purchased New Atlantis House
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 370
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Farad Kallob greeting done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 390
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player knows Tony has a girlfriend. Unlock TL about Donna
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player finds out Donna is trying to leave New Atlantis with Tony
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Solomon for the first time.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 430
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: player learned that Guillaume likes collecting and gambling. Unlock TL about his collection.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 440
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asked Nilesh a top level, opening up another question
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asked Nilesh a top level, opening up 2nd question
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 460
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Muria Greeting done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 470
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Muria mentioned job interview
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 480
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Zawadi asked about her life
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 490
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Zawadi asked if dying
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Altagracia mentions the CEC
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Logan Cullen reveals that she and her family are worried about her brother
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 520
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Agent Plato name-dropped Aegis, allows for player follow-up
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: ViewportBartender
+  Flags: []
+  ALFG: 0
+  UniqueActor: 01E44A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: HyperloopVoice
+  Flags:
+  - Optional
+  ALFG: 0
+  UniqueActor: 004D62:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: AmoliBava
+  Flags: []
+  ALFG: 0
+  UniqueActor: 009FFB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: RedressOfficer
+  Flags:
+  - Optional
+  ALFG: 0
+  UniqueActor: 01E434:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: ShipServices
+  Flags: []
+  ALFG: 0
+  UniqueActor: 05C81C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: AnyaGriffon
+  Flags: []
+  ALFG: 0
+  UniqueActor: 012486:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: DoctorLebedev
+  Flags: []
+  ALFG: 0
+  UniqueActor: 012487:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: WenTseng
+  Flags: []
+  ALFG: 0
+  UniqueActor: 012489:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: Jake
+  Flags: []
+  ALFG: 0
+  UniqueActor: 01291D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: TaliaOShea
+  Flags: []
+  ALFG: 0
+  UniqueActor: 01291E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: CorneliusTownard
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2A0EF3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: ZoeKaminski
+  Flags: []
+  ALFG: 0
+  UniqueActor: 01291F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: AtonioBianchi
+  Flags: []
+  ALFG: 0
+  UniqueActor: 012920:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: ResourceOfficer
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ALFG: 0
+  UniqueActor: 2AADF3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: DawnsRoostServer
+  Flags: []
+  ALFG: 0
+  UniqueActor: 1C2BAF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: CurtisJulien
+  Flags: []
+  ALFG: 0
+  UniqueActor: 19A5C7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: WarnerConnell
+  Flags: []
+  ALFG: 0
+  UniqueActor: 19A5C4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: ZoraSangweni
+  Flags: []
+  ALFG: 0
+  UniqueActor: 1A5287:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: HenrikZuran
+  Flags: []
+  ALFG: 0
+  UniqueActor: 195774:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: VicenteSalinas
+  Flags: []
+  ALFG: 0
+  UniqueActor: 1A1C5A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: FaradKallob
+  Flags: []
+  ALFG: 0
+  UniqueActor: 19576C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: DeziZhang
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 15DF24:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 24
+  Name: NewAtlantisCityLocation
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 01295A:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: PlayerPenthouseDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 24
+    RefType: 134FC4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: RickDuran
+  Flags: []
+  ALFG: 0
+  UniqueActor: 115A47:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: GeorgeSaintGeorge
+  Flags: []
+  ALFG: 0
+  UniqueActor: 115A48:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: AveryTel
+  Flags: []
+  ALFG: 0
+  UniqueActor: 113712:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: TonyCowl
+  Flags: []
+  ALFG: 0
+  UniqueActor: 11370D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: Donna Rain
+  Flags: []
+  ALFG: 0
+  UniqueActor: 113905:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: SamsonCebrail
+  Flags: []
+  ALFG: 0
+  UniqueActor: 113D6F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: KarsonEndler
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 110AEA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: SergeantYumi
+  Flags: []
+  ALFG: 0
+  UniqueActor: 24C49F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: BrodieJiang
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0DBC0E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: Altagracia
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0DA258:Starfield.esm
+  PackageData:
+  - 0DA257:Starfield.esm
+  - 107AEA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 35
+  Name: Zawadi
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0D6ECA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: Markieff
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0D249A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: Guillaume DeGarmo
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0C821B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: Nilesh
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0C5913:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: Muria
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0C480F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: Johann
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0C8218:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 41
+  Name: EvieMartinez
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0C068B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 42
+  Name: Kelton Frush
+  Flags: []
+  ALFG: 0
+  UniqueActor: 26B04F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 43
+  Name: LoganCullen
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0316FF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 44
+  Name: KeeperAquilus
+  Flags: []
+  ALFG: 0
+  UniqueActor: 01E5D6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 45
+  Name: TheresaMason
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2AD22A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: AndySingh
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 012921:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 48
+  Name: AlaraKatrango
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0A12FB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 49
+  Name: SashaAlessio
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 240825:Starfield.esm
+  PackageData:
+  - 1080BA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 50
+  Name: AgentPlato
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124B7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 51
+  Name: AdministratorRookes
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124B6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 52
+  Name: Spaceport_Tech03
+  Flags: []
+  ALFG: 0
+  UniqueActor: 254215:Starfield.esm
+  Factions:
+  - 10AD9D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 53
+  Name: Spaceport_Tech04
+  Flags: []
+  ALFG: 0
+  UniqueActor: 254219:Starfield.esm
+  Factions:
+  - 10AD9D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 54
+  Name: Spaceport_Tech05
+  Flags: []
+  ALFG: 0
+  UniqueActor: 254218:Starfield.esm
+  Factions:
+  - 10AD9D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 55
+  Name: Terrabrew_Customer_01
+  Flags: []
+  ALFG: 0
+  UniqueActor: 064E8A:Starfield.esm
+  Factions:
+  - 10AD9D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 56
+  Name: TradeAuthorityJanitor
+  Flags: []
+  ALFG: 0
+  UniqueActor: 3AAA6D:Starfield.esm
+  Factions:
+  - 10AD9D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 59
+  Name: WellLocation
+  Flags:
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 19A5C2:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 60
+  Name: WellApartmentActivator
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 59
+    RefType: 024DC8:Starfield.esm
+  VoiceTypes: Null

@@ -1,0 +1,36 @@
+FormKey: 0A69C3:Starfield.esm
+Flags: {}
+Responses:
+- WEMFile: 8268711
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ich bin <Alias=Player>. Ich wurde eingestellt, um Peter zu helfen.
+    - Language: English
+      String: I'm <Alias=Player>. I was hired as Peter's assistant.
+    - Language: Spanish
+      String: Soy <Alias=Player>. Me contrataron como ayudante de Peter.
+    - Language: French
+      String: Je suis <Alias=Player>, je vais assister Peter.
+    - Language: Italian
+      String: Mi chiamo <Alias=Player> e lavoro come assistente di Peter.
+    - Language: Japanese
+      String: <Alias=Player>、ピーターのアシスタントとして雇われた
+    - Language: Polish
+      String: Jestem <Alias=Player>. Zatrudnili mnie jako asystenta Petera.
+    - Language: Portuguese_Brazil
+      String: Sou <Alias=Player>, me contrataram como assistente do Peter.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x30A5B671F1BED701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    FirstParameter: 237490:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

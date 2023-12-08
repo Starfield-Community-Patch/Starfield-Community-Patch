@@ -1,0 +1,85 @@
+FormKey: 1D5CF5:Starfield.esm
+EditorID: ENV_DMG_Water_Ability_Heat
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Brühheiße Flüssigkeit
+  - Language: English
+    String: Scalding Liquid
+  - Language: Spanish
+    String: Líquido abrasador
+  - Language: French
+    String: Liquide brûlant
+  - Language: Italian
+    String: Liquido rovente
+  - Language: Japanese
+    String: 高温の液体
+  - Language: Polish
+    String: Parząca ciecz
+  - Language: Portuguese_Brazil
+    String: Líquido Escaldante
+Keywords:
+- 1D5CF9:Starfield.esm
+- 24465D:Starfield.esm
+- 281ECC:Starfield.esm
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+Type:
+- Disease
+Effects:
+- BaseEffect: 1F7630:Starfield.esm
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 2452A6:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1F761A:Starfield.esm
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 3CBFDF:Starfield.esm
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 248D23:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1F761A:Starfield.esm
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 0F4F2D:Starfield.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 248D23:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1F761A:Starfield.esm
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 3

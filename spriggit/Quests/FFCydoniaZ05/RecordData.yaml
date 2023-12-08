@@ -1,0 +1,954 @@
+FormKey: 0D6927:Starfield.esm
+EditorID: FFCydoniaZ05
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DefaultFollowerToggleQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FollowConditions
+      Object: 1077DA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialFollower
+      Object: 0D6927:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StopFollowConditions
+      Object: 1077DA:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Triggering_LocationAliases
+      Objects:
+      - Name: ''
+        Object: 0D6927:Starfield.esm
+        Alias: 15
+      - Name: ''
+        Object: 0D6927:Starfield.esm
+        Alias: 5
+      - Name: ''
+        Object: 0D6927:Starfield.esm
+        Alias: 18
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 5
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 10
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 015FF7:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 30
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 15
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01B737:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 40
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 30
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 15
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01B73A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 40
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 30
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 15
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01B73F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 40
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 30
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 25
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 0D6927:Starfield.esm
+          Alias: 20
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 40
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 60
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 70
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 015FF7:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 70
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 150
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 200
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01B735:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 66
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 200
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01B735:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CaptainMarker
+      Object: 0D6927:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_passengerMarker
+      Object: 0D6927:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RailLeanMarker
+      Object: 0D6927:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sivan
+      Object: 0D6927:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NewAtlantis_Z_PartingGift
+      Object: 0D5430:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ05_Scene01_Space
+      Object: 0C9F4F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ05_SceneIntro
+      Object: 0D2499:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SivanActorBase
+      Object: 0D2875:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_GuardShipsScene
+      Object: 2CE195:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0025_Item_00
+  - Stage: 25
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0025_Item_01
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0035_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 66
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0066_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 70
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0070_Item_01
+  - Stage: 70
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0070_Item_02
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0200_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0D6927:Starfield.esm
+      Alias: 0
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 66
+    - Name: DefaultAliasOnUnload
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 150
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 200
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Mein Nordstern
+  - Language: English
+    String: My North Star
+  - Language: Spanish
+    String: Mi estrella polar
+  - Language: French
+    String: Mon étoile polaire
+  - Language: Italian
+    String: La mia stella polare
+  - Language: Japanese
+    String: 私の北極星
+  - Language: Polish
+    String: Moja polarna gwiazda
+  - Language: Portuguese_Brazil
+    String: Minha Estrela do Norte
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug stage
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Condition stage
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest start
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Cydonia visited once
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Cydonia visited twice
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 0D6927:Starfield.esm
+      ComparisonValue: 20
+    Note: Start quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0D6927:Starfield.esm
+        SecondParameter: 30
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0D6927:Starfield.esm
+        SecondParameter: 40
+    Note: Check if Sivan is in space
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Convo had once
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 25
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0D6927:Starfield.esm
+        SecondParameter: 30
+      ComparisonValue: 1
+    Note: MoveTo Player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: PlayerShip
+        FirstParameter: 01B73F:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: PlayerShip
+        FirstParameter: 01B73A:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: PlayerShip
+        FirstParameter: 01B737:Starfield.esm
+      ComparisonValue: 1
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Escort Sivan to space'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin einer Person begegnet, die das Sternbild des Schwans gerne aus der Nähe sehen würde.
+      - Language: English
+        String: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close.
+      - Language: Spanish
+        String: Conocí a una persona a la que le gustaba observar las estrellas y que quería viajar al espacio para poder ver la constelación de Cygnus de cerca
+      - Language: French
+        String: J'ai fait la connaissance d'une personne fascinée par les étoiles qui souhaite se rendre dans l'espace, afin d'admirer de près la constellation du Cygne.
+      - Language: Italian
+        String: Ho incontrato una persona amante delle stelle che vuole viaggiare nello spazio per vedere da vicino la costellazione del Cigno.
+      - Language: Japanese
+        String: 星を見つめる人に出会った。白鳥座を間近で見るために、宇宙に行きたがっている
+      - Language: Polish
+        String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała się wybrać w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus.
+      - Language: Portuguese_Brazil
+        String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 35
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Complete space objective
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0D6927:Starfield.esm
+        SecondParameter: 35
+    Note: Start scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Sivan'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin einer Person begegnet, die das Sternbild des Schwans gerne aus der Nähe sehen würde. Ich brachte sie in den Orbit, damit sie einen besseren Blick hat.
+      - Language: English
+        String: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. I then took them into orbit so they could see the stars.
+      - Language: Spanish
+        String: Conocí a una persona a la que le gustaba observar las estrellas y que quería viajar al espacio para poder ver la constelación de Cygnus de cerca. La llevé a la órbita para que pudiese ver las estrellas.
+      - Language: French
+        String: J'ai fait la connaissance d'une personne fascinée par les étoiles qui souhaitait se rendre dans l'espace, afin d'admirer de près la constellation du Cygne. Je l'ai emmenée en orbite, afin qu'elle puisse admirer les astres.
+      - Language: Italian
+        String: Ho incontrato una persona amante delle stelle che vuole viaggiare nello spazio per vedere da vicino la costellazione del Cigno. L’ho portata in orbita per farle ammirare le stelle.
+      - Language: Japanese
+        String: 星を見つめる人に出会った。白鳥座を間近で見るために、宇宙に行きたがっていた。星を見られるよう、軌道に連れて行った
+      - Language: Polish
+        String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała się wybrać w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Dzięki mojej pomocy mogła podziwiać gwiazdy z orbity.
+      - Language: Portuguese_Brazil
+        String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus, então eu a levei até a órbita de Marte para ver as estrelas.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Return to Cydonia'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin einer Person begegnet, die das Sternbild des Schwans gerne aus der Nähe sehen würde. Ich muss sie in den Orbit und dann zurück nach Cydonia bringen.
+      - Language: English
+        String: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. After taking them into orbit, I need to escort them back to Cydonia.
+      - Language: Spanish
+        String: Conocí a una persona a la que le gustaba observar las estrellas y que quería viajar al espacio para poder ver la constelación de Cygnus de cerca. Tras llevarla a la órbita, ahora tengo que acompañarla de vuelta a Cidonia.
+      - Language: French
+        String: J'ai fait la connaissance d'une personne fascinée par les étoiles qui souhaitait se rendre dans l'espace, afin d'admirer de près la constellation du Cygne. Je l'ai emmenée en orbite, et dois à présent la raccompagner à Cydonia.
+      - Language: Italian
+        String: Ho incontrato una persona amante delle stelle che vuole viaggiare nello spazio per vedere da vicino la costellazione del Cigno. Dopo averla portata in orbita, devo scortarla di nuovo a Cydonia.
+      - Language: Japanese
+        String: 星を見つめる人に出会った。白鳥座を間近で見るために、宇宙に行きたがっていた。乗せて軌道を飛んでから、シドニアに連れて帰らなくては
+      - Language: Polish
+        String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała wybrać się w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Po naszej wspólnej wyprawie na orbitę muszę eskortować ją z powrotem do Cydonii.
+      - Language: Portuguese_Brazil
+        String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus. Após levá-la até a órbita de Marte, preciso escoltá-la de volta a Cydonia.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: PlayerShip
+        FirstParameter: 015FF7:Starfield.esm
+      ComparisonValue: 1
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: PlayerShip
+        FirstParameter: 015FF7:Starfield.esm
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 66
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Death
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 70
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Sivan'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin einer Person begegnet, die das Sternbild des Schwans gerne aus der Nähe sehen würde. Ich brachte sie in den Orbit und dann zurück nach Cydonia.
+      - Language: English
+        String: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. After taking them into orbit, I escorted them back to Cydonia.
+      - Language: Spanish
+        String: Conocí a una persona a la que le gustaba observar las estrellas y que quería viajar al espacio para poder ver la constelación de Cygnus de cerca. Tras llevarla a la órbita, la acompañé de vuelta a Cidonia.
+      - Language: French
+        String: J'ai fait la connaissance d'une personne fascinée par les étoiles qui souhaitait se rendre dans l'espace, afin d'admirer de près la constellation du Cygne. Après l'avoir emmenée en orbite, je l'ai raccompagnée à Cydonia.
+      - Language: Italian
+        String: Ho incontrato una persona amante delle stelle che vuole viaggiare nello spazio per vedere da vicino la costellazione del Cigno. Dopo averla portata in orbita, l’ho scortata di nuovo a Cydonia.
+      - Language: Japanese
+        String: 星を見つめる人に出会った。白鳥座を間近で見るために、宇宙に行きたがっていた。乗せて軌道を飛んでから、シドニアに連れて帰った
+      - Language: Polish
+        String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała wybrać się w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Po naszej wspólnej wyprawie na orbitę wróciliśmy do Cydonii.
+      - Language: Portuguese_Brazil
+        String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus. Após levá-la até a órbita de Marte, eu a escoltei de volta a Cydonia.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInSpaceshipConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+      ComparisonValue: 1
+    Note: Player landed in spaceship
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInSpaceshipConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 80
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Condition stage
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 90
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Note: Mission Failed
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin einer Person begegnet, die das Sternbild des Schwans gerne aus der Nähe sehen würde. Leider hat sie die Begegnung nicht überlebt.
+      - Language: English
+        String: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. Unfortunately, they did not survive the encounter.
+      - Language: Spanish
+        String: Conocí a una persona a la que le gustaba observar las estrellas y que quería viajar al espacio para poder ver la constelación de Cygnus de cerca. Por desgracia, no sobrevivió al encuentro.
+      - Language: French
+        String: J'ai fait la connaissance d'une personne fascinée par les étoiles qui souhaitait se rendre dans l'espace, afin d'admirer de près la constellation du Cygne. Hélas, elle n'a pas survécu au voyage.
+      - Language: Italian
+        String: Ho incontrato una persona amante delle stelle che vuole viaggiare nello spazio per vedere da vicino la costellazione del Cigno. Sfortunatamente non è sopravvissuta all’incontro.
+      - Language: Japanese
+        String: 星を見つめる人に出会った。白鳥座を間近で見るために、宇宙に行きたがっていた。だが残念ながら、生き延びることはできなかった
+      - Language: Polish
+        String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała się wybrać w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Niestety nie przetrwała tego.
+      - Language: Portuguese_Brazil
+        String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus. Infelizmente, ela não sobreviveu.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Complete Quest
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin einer Person begegnet, die das Sternbild des Schwans gerne aus der Nähe sehen würde. Ich brachte sie in den Orbit und dann zurück nach Cydonia.
+      - Language: English
+        String: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. After taking them into orbit, I escorted them back to Cydonia.
+      - Language: Spanish
+        String: Conocí a una persona a la que le gustaba observar las estrellas y que quería viajar al espacio para poder ver la constelación de Cygnus de cerca. Tras llevarla a la órbita, la acompañé de vuelta a Cidonia.
+      - Language: French
+        String: J'ai fait la connaissance d'une personne fascinée par les étoiles qui souhaitait se rendre dans l'espace, afin d'admirer de près la constellation du Cygne. Après l'avoir emmenée en orbite, je l'ai raccompagnée à Cydonia.
+      - Language: Italian
+        String: Ho incontrato una persona amante delle stelle che vuole viaggiare nello spazio per vedere da vicino la costellazione del Cigno. Dopo averla portata in orbita, l’ho scortata di nuovo a Cydonia.
+      - Language: Japanese
+        String: 星を見つめる人に出会った。白鳥座を間近で見るために、宇宙に行きたがっていた。乗せて軌道を飛んでから、シドニアに連れて帰った
+      - Language: Polish
+        String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała wybrać się w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Po naszej wspólnej wyprawie na orbitę wróciliśmy do Cydonii.
+      - Language: Portuguese_Brazil
+        String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus. Após levá-la até a órbita de Marte, eu a escoltei de volta a Cydonia.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF35:Starfield.esm
+        BonusCredits: 23DF2E:Starfield.esm
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Prerequisite
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest Stopped
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Bring Sivan in den Orbit des Mars.
+    - Language: English
+      String: Take Sivan to Mars' Orbit
+    - Language: Spanish
+      String: Lleva a Sivan a la órbita de Marte.
+    - Language: French
+      String: Emmenez Sivan en orbite de Mars.
+    - Language: Italian
+      String: Porta Sivan in orbita intorno a Marte
+    - Language: Japanese
+      String: シヴァンを火星の軌道に連れていく
+    - Language: Polish
+      String: Zabierz Sivanu na orbitę Marsa
+    - Language: Portuguese_Brazil
+      String: Leve Sivan até a órbita de Marte
+  Targets:
+  - AliasID: 16
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Sivan.
+    - Language: English
+      String: Talk to Sivan
+    - Language: Spanish
+      String: Habla con Sivan.
+    - Language: French
+      String: Parlez à Sivan.
+    - Language: Italian
+      String: Parla con Sivan
+    - Language: Japanese
+      String: シヴァンと話す
+    - Language: Polish
+      String: Porozmawiaj z Sivanum
+    - Language: Portuguese_Brazil
+      String: Fale com Sivan
+  Targets:
+  - {}
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kehre nach Cydonia zurück.
+    - Language: English
+      String: Return to Cydonia
+    - Language: Spanish
+      String: Vuelve a Cidonia.
+    - Language: French
+      String: Retournez à Cydonia.
+    - Language: Italian
+      String: Torna a Cydonia
+    - Language: Japanese
+      String: シドニアに戻る
+    - Language: Polish
+      String: Wróć do Cydonii
+    - Language: Portuguese_Brazil
+      String: Volte para Cydonia
+  Targets:
+  - AliasID: 3
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Sivan.
+    - Language: English
+      String: Talk to Sivan
+    - Language: Spanish
+      String: Habla con Sivan.
+    - Language: French
+      String: Parlez à Sivan.
+    - Language: Italian
+      String: Parla con Sivan
+    - Language: Japanese
+      String: シヴァンと話す
+    - Language: Polish
+      String: Porozmawiaj z Sivanum
+    - Language: Portuguese_Brazil
+      String: Fale com Sivan
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: RailLeanMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 203C1B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: HeadTrackRef
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 0C9F51:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  Name: Sivan
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 0D2875:Starfield.esm
+  Keywords:
+  - 09C16D:Starfield.esm
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 3
+  - Keyword: 1D3029:Starfield.esm
+    AliasID: 11
+  - AliasID: 11
+  Factions:
+  - 106C31:Starfield.esm
+  PackageData:
+  - 0C908D:Starfield.esm
+  - 024F61:Starfield.esm
+  - 19227E:Starfield.esm
+  - 0D2876:Starfield.esm
+  - 0C9F54:Starfield.esm
+  - 0C9F53:Starfield.esm
+  - 192280:Starfield.esm
+  - 225310:Starfield.esm
+  - 0C908E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 5
+  Name: TargetLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 015FF7:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 15
+  Name: SpaceLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01B737:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 18
+  Name: MarsLocation
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01B735:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: DestinationMarker
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - StoresText
+  ALFG: 0
+  Location:
+    AliasID: 5
+    RefType: 06C422:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: SpaceMarker
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - StoresText
+  ALFG: 0
+  Location:
+    AliasID: 15
+    RefType: 0713BF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: PlayerShip
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: Cockpit
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 3
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: passengerMarker
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 6
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 20
+  Name: ShipLocation
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - ExternalAliasLinked
+  ALFG: 0
+  ExternalAliasLocation:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 9
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: CaptainMarker
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 20
+    RefType: 2C0FDB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: DisembarkMarker
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 024F48:Starfield.esm
+  VoiceTypes: Null

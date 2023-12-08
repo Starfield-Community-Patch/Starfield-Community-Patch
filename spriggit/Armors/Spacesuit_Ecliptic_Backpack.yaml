@@ -1,0 +1,138 @@
+FormKey: 166407:Starfield.esm
+MajorRecordFlagsRaw: 64
+EditorID: Spacesuit_Ecliptic_Backpack
+StarfieldMajorRecordFlags:
+- 0x40
+ObjectBounds:
+  First: -0.18518066, -0.28857422, -0.0009460449
+  Second: 0.18518066, 0.2866211, 0.23693848
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EB5:Starfield.esm
+  Preview: 1BF566:Starfield.esm
+  Workbench: 0060B3:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: '[Ecliptic]'
+  - Language: English
+    String: Ecliptic
+  - Language: Spanish
+    String: '[Ecliptic]'
+  - Language: French
+    String: '[Éclipse]'
+  - Language: Italian
+    String: '[Ecliptic]'
+  - Language: Japanese
+    String: エクリプティク用
+  - Language: Polish
+    String: '[Ecliptic]'
+  - Language: Portuguese_Brazil
+    String: '[Eclíptico]'
+WorldModel:
+  Male:
+    File: Clothes\Spacesuit_Ecliptic\SpaceSuit_Ecliptic_Backpack_GO.nif
+  Female: {}
+FirstPersonFlags: SSBackpack
+PickupSound:
+  Start: de17433a-89a8-16f1-86d6-7114a3b197bb
+DropdownSound:
+  Start: c02d4adb-7d05-caf3-0f67-b157fe214496
+Race: 00347D:Starfield.esm
+Keywords:
+- 03ED75:Starfield.esm
+- 11A479:Starfield.esm
+- 23C7BF:Starfield.esm
+- 30C1AE:Starfield.esm
+- 3E612E:Starfield.esm
+Description:
+  TargetLanguage: English
+InstanceNaming: 184BC1:Starfield.esm
+Armatures:
+- AddonIndex: 0
+  AddonModel: 166408:Starfield.esm
+Value: 3125
+Weight: 8.3
+ArmorRating: 29
+Unused: 0x000000
+Resistances:
+- DamageType: 023190:Starfield.esm
+  Value: 29
+- DamageType: 060A81:Starfield.esm
+  Value: 29
+AttachParentSlots:
+- 3E612D:Starfield.esm
+- 088C9C:Starfield.esm
+- 0B2642:Starfield.esm
+- 0B2646:Starfield.esm
+- 0B2649:Starfield.esm
+- 1AEB52:Starfield.esm
+- 11E2C1:Starfield.esm
+- 157D41:Starfield.esm
+- 1E32C8:Starfield.esm
+- 329ABC:Starfield.esm
+- 329ABD:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Einstieg
+    - Language: English
+      String: Entry
+    - Language: Spanish
+      String: Entrada
+    - Language: French
+      String: Entrée
+    - Language: Italian
+      String: Base
+    - Language: Japanese
+      String: エントリー
+    - Language: Polish
+      String: Pozycja
+    - Language: Portuguese_Brazil
+      String: Registro
+  Default: True
+  Includes:
+  - Mod: 23F862:Starfield.esm
+    DontUseAll: True
+  - Mod: 07D4E8:Starfield.esm
+    DontUseAll: True
+  - Mod: 34BAA5:Starfield.esm
+    DontUseAll: True
+  - Mod: 3E94BD:Starfield.esm
+    DontUseAll: True
+  - Mod: 1E94C6:Starfield.esm
+    DontUseAll: True
+  - Mod: 1C1E03:Starfield.esm
+    DontUseAll: True
+  - Mod: 157D48:Starfield.esm
+    DontUseAll: True
+- AddonIndex: 0
+  Keywords:
+  - 11E2BF:Starfield.esm
+  Includes:
+  - Mod: 1CAE34:Starfield.esm
+    DontUseAll: True
+- AddonIndex: 0
+  Keywords:
+  - 11E2BE:Starfield.esm
+  Includes:
+  - Mod: 1CAE35:Starfield.esm
+    DontUseAll: True
+- AddonIndex: 0
+  Keywords:
+  - 11E2BD:Starfield.esm
+  Includes:
+  - Mod: 1CAE36:Starfield.esm
+    DontUseAll: True
+- AddonIndex: 0
+  Keywords:
+  - 00BF54:Starfield.esm
+  Includes:
+  - Mod: 03AF7F:Starfield.esm
+    DontUseAll: True
+MajorFlags:
+- Shield

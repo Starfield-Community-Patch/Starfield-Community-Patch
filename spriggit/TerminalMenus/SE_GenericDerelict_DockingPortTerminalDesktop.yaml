@@ -1,0 +1,2906 @@
+FormKey: 1886D1:Starfield.esm
+EditorID: SE_GenericDerelict_DockingPortTerminalDesktop
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SE_DerelictTextReplacementScript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: LargeIntMax
+      Data: 100
+    - MutagenObjectType: ScriptIntProperty
+      Name: LargeIntMin
+      Data: 50
+    - MutagenObjectType: ScriptIntProperty
+      Name: MediumIntMax
+      Data: 12
+    - MutagenObjectType: ScriptIntProperty
+      Name: MediumIntMin
+      Data: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SE_GenericDerelict_TerminalGlobal
+      Object: 0171CC:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: SmallIntMax
+      Data: 9
+    - MutagenObjectType: ScriptIntProperty
+      Name: SmallIntMin
+      Data: 2
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: TextReplacement00
+      Objects:
+      - Name: ''
+        Object: 1886A3:Starfield.esm
+      - Name: ''
+        Object: 1886A5:Starfield.esm
+      - Name: ''
+        Object: 1886C8:Starfield.esm
+      - Name: ''
+        Object: 1886BD:Starfield.esm
+      - Name: ''
+        Object: 1886A6:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: TextReplacement01
+      Objects:
+      - Name: ''
+        Object: 137322:Starfield.esm
+      - Name: ''
+        Object: 137325:Starfield.esm
+      - Name: ''
+        Object: 1886B8:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: TextReplacement02
+      Objects:
+      - Name: ''
+        Object: 1886C2:Starfield.esm
+      - Name: ''
+        Object: 1886C0:Starfield.esm
+      - Name: ''
+        Object: 1886BE:Starfield.esm
+      - Name: ''
+        Object: 1886B9:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: TextReplacement03
+      Objects:
+      - Name: ''
+        Object: 20676B:Starfield.esm
+      - Name: ''
+        Object: 20675F:Starfield.esm
+      - Name: ''
+        Object: 206763:Starfield.esm
+      - Name: ''
+        Object: 206764:Starfield.esm
+      - Name: ''
+        Object: 20676D:Starfield.esm
+      - Name: ''
+        Object: 206770:Starfield.esm
+      - Name: ''
+        Object: 2543B7:Starfield.esm
+      - Name: ''
+        Object: 2543B8:Starfield.esm
+      - Name: ''
+        Object: 1EE441:Starfield.esm
+      - Name: ''
+        Object: 1EDDE5:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: TextReplacement04
+      Objects:
+      - Name: ''
+        Object: 01295A:Starfield.esm
+      - Name: ''
+        Object: 015FF7:Starfield.esm
+      - Name: ''
+        Object: 010DFB:Starfield.esm
+      - Name: ''
+        Object: 015FFE:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: TextReplacement05
+      Objects:
+      - Name: ''
+        Object: 265ADA:Starfield.esm
+      - Name: ''
+        Object: 265AF7:Starfield.esm
+      - Name: ''
+        Object: 265AE0:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Schiffscomputer
+  - Language: English
+    String: Ship Computer
+  - Language: Spanish
+    String: Ordenador de la nave
+  - Language: French
+    String: Ordinateur de bord
+  - Language: Italian
+    String: Computer di bordo
+  - Language: Japanese
+    String: 船のコンピューター
+  - Language: Polish
+    String: Komputer pokładowy
+  - Language: Portuguese_Brazil
+    String: Computador da Nave
+TMVT: 0x01000000
+DNAM: 0x01
+SNAM: 0x00000000
+INAM:
+  TargetLanguage: English
+BodyTexts: []
+MenuItems:
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Status der Dockingschleuse
+    - Language: English
+      String: Docking Port Status
+    - Language: Spanish
+      String: Estado del muelle
+    - Language: French
+      String: État du port d'amarrage
+    - Language: Italian
+      String: Stato porto d’attracco
+    - Language: Japanese
+      String: ドッキングポートの状況
+    - Language: Polish
+      String: Status portu dokowania
+    - Language: Portuguese_Brazil
+      String: Status do Porto de Acoplagem
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000ABAB08000000
+  ItemId: 1
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >+
+        <Alias=DerelictShipName>Primäre Dockingschleuse
+
+        ===============================================
+
+
+        Status der Dockingschleuse
+
+        ====================
+
+        Status: Besetzt
+
+        Freigabe: N/A
+
+
+        Informationen zum Schiff
+
+        ====================
+
+        Schiff: <Alias=PlayerShip>
+
+        Schiffsstatus: Einsatzbereit
+    - Language: English
+      String: >+
+        <Alias=DerelictShipName> Primary Docking Port
+
+        ===============================================
+
+
+        Docking Port Status
+
+        ====================
+
+        Status: Occupied
+
+        Clearance: N/A
+
+
+        Ship Information
+
+        ====================
+
+        Ship: <Alias=PlayerShip>
+
+        Ship Status: Operational
+    - Language: Spanish
+      String: >+
+        <Alias=DerelictShipName> Muelle principal
+
+        ===============================================
+
+
+        Estado del muelle
+
+        ====================
+
+        Estado: ocupado
+
+        Acceso: N/D
+
+
+        Información de la nave
+
+        ====================
+
+        Nave: <Alias=PlayerShip>
+
+        Estado de la nave: operativa
+    - Language: French
+      String: >+
+        <Alias=DerelictShipName> Port d'amarrage principal
+
+        ===============================================
+
+
+        Statut du port d'amarrage
+
+        ====================
+
+        Statut : occupé
+
+        Autorisation : N/A
+
+
+        Informations du vaisseau
+
+        ====================
+
+        Vaisseau : <Alias=PlayerShip>
+
+        Statut du vaisseau : opérationnel
+    - Language: Italian
+      String: >+
+        Porto d’attracco primario <Alias=DerelictShipName>
+
+        ===============================================
+
+
+        Stato porto d’attracco
+
+        ====================
+
+        Stato: occupato
+
+        Autorizzazione: N/D
+
+
+        Informazioni nave
+
+        ====================
+
+        Nave: <Alias=PlayerShip>
+
+        Stato: operativa
+    - Language: Japanese
+      String: >+
+        <Alias=DerelictShipName>主要ドッキング港
+
+        ===============================================
+
+
+        ドッキング港状況
+
+        ====================
+
+        状況：空きなし
+
+        許可状況：該当なし
+
+
+        船舶情報
+
+        ====================
+
+        船舶：<Alias=PlayerShip>
+
+        船舶状況：稼働可能
+    - Language: Polish
+      String: >+
+        <Alias=DerelictShipName> - główny port dokowania
+
+        ===============================================
+
+
+        Status portu dokowania
+
+        ====================
+
+        Stan: zajęty
+
+        Poziom zezwolenia: nie dotyczy
+
+
+        Informacje o statku
+
+        ====================
+
+        Statek: <Alias=PlayerShip>
+
+        Stan statku: funkcjonujący
+    - Language: Portuguese_Brazil
+      String: >+
+        <Alias=DerelictShipName> Porto de Acoplagem Primário
+
+        ===============================================
+
+
+        Status do Porto de Acoplagem
+
+        ====================
+
+        Status: Ocupado
+
+        Autorização: N/A
+
+
+        Informações da Nave
+
+        ====================
+
+        Nave: <Alias=PlayerShip>
+
+        Status da Nave: Operante
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Schwarzes Brett
+    - Language: English
+      String: Bulletin Board
+    - Language: Spanish
+      String: Tablón de anuncios
+    - Language: French
+      String: Panneau d'affichage
+    - Language: Italian
+      String: Bacheca
+    - Language: Japanese
+      String: 掲示板
+    - Language: Polish
+      String: Tablica ogłoszeń
+    - Language: Portuguese_Brazil
+      String: Quadro de Avisos
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0200000008000000
+  ItemId: 24
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 036E00:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Probleme mit Temperaturregulierung
+    - Language: English
+      String: Temperature regulation issues
+    - Language: Spanish
+      String: Problemas de regulación de temperatura
+    - Language: French
+      String: Problèmes de régulation de la température
+    - Language: Italian
+      String: Problemi nella regolazione della temperatura
+    - Language: Japanese
+      String: 温度調整の問題
+    - Language: Polish
+      String: Problemy z regulacją temperatury
+    - Language: Portuguese_Brazil
+      String: Problemas de controle térmico
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000ABAB08000000
+  ItemId: 4
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Der <Alias.CurrentName=DerelictCaptain> hat uns mitgeteilt, dass die Schilde unten sind. Der Grund könnte hohe EM-Strahlung sein, vielleicht aufgrund von <Token.Title=MiscText01> in der Nähe.
+
+
+        Es hat zwar eine niedrigere Priorität, aber ich glaube, dass mit den Temperaturregulatoren im Schiff irgendwas nicht stimmt. Alle beschweren sich, weil es kalt ist, und die Messanzeigen der Instrumente leiden ebenfalls unter den Temperaturen. Die Werte weichen extrem ab. Ich muss mir die Wartungsprotokolle ansehen und einen Diagnosescan durchführen.
+
+
+        <Token.Title=MiscText00>.
+    - Language: English
+      String: >-
+        The <Alias.CurrentName=DerelictCaptain> gave us notice the shields are down. The cause was likely heavy EM radiation, we think from a nearby <Token.Title=MiscText01>.
+
+
+        Also, this is lower priority, but I think something's wrong with the temperature regulators inside the ship. Everyone's been complaining about the cold, and it's clear its had an effect on the instrument gauges. The readings are way off. I'm going to need to check the maintenance logs and run a diagnostic. 
+
+
+        <Token.Title=MiscText00>.
+    - Language: Spanish
+      String: >-
+        La persona al mando nos ha avisado de que los escudos han caído. Seguramente la causa haya sido la intensa radiación EM procedente de una fuente cercana: <Token.Title=MiscText01>.
+
+
+        Además, aunque no sea prioritario, creo que les pasa algo a los reguladores de la temperatura de la nave. Todos se quejan del frío, y está claro que tiene que ver con los indicadores de los instrumentos. Las lecturas no son correctas. Voy a tener que mirar los registros de mantenimiento y ejecutar un diagnóstico.
+
+
+        <Token.Title=MiscText00>.
+    - Language: French
+      String: >-
+        Le <Alias.CurrentName=DerelictCaptain> nous a prévenus que les boucliers étaient indisponibles. Certainement à cause de lourds rayonnements électromagnétiques dus à la proximité d'une sorte de <Token.Title=MiscText01>.
+
+
+        De plus, même si ça n'est pas aussi prioritaire, je crois que quelque chose cloche avec les régulateurs de température du vaisseau. Tout le monde se plaint du froid et il est évident que cela affecte les instruments. Les mesures sont complètement faussées. Je vais devoir vérifier les journaux de maintenance et lancer un diagnostic.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Italian
+      String: >-
+        Il <Alias.CurrentName=DerelictCaptain> ci ha avvisato che gli scudi sono fuori uso. La causa è stata probabilmente una pesante radiazione EM, causata da qualche <Token.Title=MiscText01> nei paraggi.
+
+
+        Inoltre, anche se di minor priorità, credo ci sia qualcosa che non va con i regolatori termici a bordo. Si stanno lamentando tutti del freddo, quindi è chiaro che abbia avuto delle ripercussioni sulla strumentazione. Le letture sono completamente sballate. Dovrò controllare i registri di manutenzione ed eseguire una diagnostica.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Japanese
+      String: >-
+        <Alias.CurrentName=DerelictCaptain>からシールドが停止していると連絡がきた。原因はおそらく近隣の<Token.Title=MiscText01>から放たれた激しい電磁波だろう
+
+
+        また、これは優先度は高くないが、船内の温度調整装置にも不具合があるようだ。皆が寒さに不平を漏らしており、これが計器のゲージに影響を及ぼしたことは明白だ。測定値があまりにもかけ離れている。整備ログを確認して、診断を実行する必要がありそうだ
+
+
+        <Token.Title=MiscText00>
+    - Language: Polish
+      String: >-
+        <Alias.CurrentName=DerelictCaptain> mówi, że osłony nie działają. Przyczyną było prawdopodobnie potężne promieniowanie elektromagnetyczne - niedaleko znajduje się <Token.Title=MiscText01>.
+
+
+        Z pomniejszych problemów - coś chyba jest nie tak z regulatorami temperatury na statku. Wszyscy narzekają na zimno, a nawet widać jego wpływ na wskaźniki przyrządów. Odczyty zupełnie się nie zgadzają. Muszę sprawdzić dzienniki konserwacyjne i przeprowadzić diagnostykę. 
+
+
+        <Token.Title=MiscText00>.
+    - Language: Portuguese_Brazil
+      String: >-
+        <Alias.CurrentName=DerelictCaptain> nos avisou que os escudos estão desativados. A provável causa foi radiação eletromagnética pesada, talvez de algum tipo de <Token.Title=MiscText01> nas redondezas.
+
+
+        E isso é de menor prioridade, mas acho que tem algo errado com os reguladores de temperatura dentro da nave. Tá todo mundo reclamando do frio, e está claro que os acontecimentos tiveram algum impacto nos medidores de instrumentos. As leituras estão muito fora da casinha. Vou ter que verificar os registros de manutenção e rodar um diagnóstico. 
+
+
+        <Token.Title=MiscText00>.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Lebenserhaltungssysteme beschädigt
+    - Language: English
+      String: Life support systems damaged
+    - Language: Spanish
+      String: Sistemas de soporte vital dañados
+    - Language: French
+      String: Systèmes de support de vie endommagés
+    - Language: Italian
+      String: Sistemi di supporto vitale danneggiati
+    - Language: Japanese
+      String: 生命維持システム破損
+    - Language: Polish
+      String: Systemy podtrzymywania życia uszkodzone
+    - Language: Portuguese_Brazil
+      String: Sistemas de suporte vital danificados
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000ABAB08000000
+  ItemId: 5
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Die Crimson Fleet hat uns ziemlich böse erwischt. <Token.Title=MiscText02>.
+
+
+        Die Netzwerksysteme sind außer Betrieb und uns fehlen Teile, um alle nötigen Reparaturen durchzuführen. Wenn sich nichts ändert, können wir uns zwischen einem Tod durch Erfrieren oder Verstrahlung entscheiden. Die Chancen stehen zwar schlecht, aber vielleicht kann ich über den Mainframe irgendwas bewirken.
+
+
+        <Token.Title=MiscText00>.
+    - Language: English
+      String: >-
+        We got hit pretty hard by the Crimson Fleet. <Token.Title=MiscText02>. 
+
+
+        Network systems are down, and we're missing the parts for a full repair. At this rate we're going to have to choose between freezing to death or being bombarded by radiation. It's a longshot, but maybe I can get the mainframe computer to do a fix.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Spanish
+      String: >-
+        La Flota Carmesí nos ha dejado para el arrastre.<Token.Title=MiscText02>. 
+
+
+        Los sistemas de red están caídos y nos faltan piezas para realizar una reparación completa. A este paso, vamos a tener que elegir entre congelarnos o freírnos por la radiación. Es improbable, pero igual puedo hacer que el ordenador central repare algo.
+
+
+        <Token.Title=MiscText00>.
+    - Language: French
+      String: >-
+        La Flotte écarlate nous a fait très mal. <Token.Title=MiscText02>.
+
+
+        Les systèmes réseau sont détraqués et nous n'avons pas les pièces pour les réparer correctement. À ce train-là, nous allons bientôt devoir choisir entre la mort par congélation ou par radiations. Rien ne dit que ça aboutira, mais je peux peut-être demander à l'ordinateur central de procéder à des réparations.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Italian
+      String: >-
+        La Flotta Cremisi ci ha colpito duramente. <Token.Title=MiscText02>.
+
+
+        I sistemi di rete sono fuori uso e non abbiamo i pezzi per ripararli. Di questo passo dovremo scegliere tra morire di freddo o essere bombardati dalle radiazioni. È azzardato, ma forse riuscirò a far riparare il mainframe.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Japanese
+      String: >-
+        紅の艦隊に手痛くやられてしまった。<Token.Title=MiscText02>
+
+
+        ネットワークシステムはダウンし、完全に補修するための資材も不足している。このままでは、凍死するか放射線に被曝するかのどちかだ。大きな賭けになってしまうが、メインフレームコンピューターに修理を任せることができるかもしれない
+
+
+        <Token.Title=MiscText00>
+    - Language: Polish
+      String: >-
+        Karmazynowa Flota mocno nas poobijała. <Token.Title=MiscText02>. 
+
+
+        Systemy sieciowe nie działają, brakuje nam części do przeprowadzenia pełnych napraw. Jeśli tak dalej pójdzie, będziemy musieli wybierać między zamarznięciem a napromieniowaniem. Szanse są nikłe, ale może uda mi się wymusić na komputerze głównym naprawienie problemu.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Portuguese_Brazil
+      String: >-
+        A Frota Escarlate nos atingiu em cheio. <Token.Title=MiscText02>. 
+
+
+        Os sistemas de rede estão fora do ar, e estamos sem as peças necessárias para um reparo completo. Se continuar assim, vamos ter que escolher entre congelar até a morte ou sermos bombardeados por radiação. É um tiro no escuro, mas talvez eu consiga fazer com que o computador mainframe inicie os reparos.
+
+
+        <Token.Title=MiscText00>.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 2
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Lebenserhaltungssysteme beschädigt
+    - Language: English
+      String: Life support systems damaged
+    - Language: Spanish
+      String: Sistemas de soporte vital dañados
+    - Language: French
+      String: Systèmes de support de vie endommagés
+    - Language: Italian
+      String: Sistemi di supporto vitale danneggiati
+    - Language: Japanese
+      String: 生命維持システム破損
+    - Language: Polish
+      String: Systemy podtrzymywania życia uszkodzone
+    - Language: Portuguese_Brazil
+      String: Sistemas de suporte vital danificados
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000ABAB08000000
+  ItemId: 6
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Durch den Asteroideneinschlag haben viele der Systeme auf der <Alias=DerelictShipName> Schaden genommen. Die Antriebe scheinen schon mal kaputt zu sein und die Lebenserhaltungssysteme versagen ebenfalls. Die Sauerstoff- und Temperaturwerte sind zwar gerade stabil, aber wer weiß, wie lange noch.
+
+
+        Wir haben nicht genügend Material, um die Reparaturen durchzuführen, und der Mainframe ist auch noch außer Betrieb. Die Crew reißt sich ein Bein aus, um eine Lösung zu finden.
+
+
+        <Token.Title=MiscText00>
+    - Language: English
+      String: >-
+        The asteroid collision left a lot of systems on the <Alias=DerelictShipName> damaged. For starters, it looks like the engines are busted and life support systems are failing. While oxygen and temperatures are stable for now, we don't know for how long.
+
+
+        We don't have enough materials to fire up the repairs, and the mainframe computer network is down. The crew is scrambling at the moment trying to find a solution.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Spanish
+      String: >-
+        La colisión del asteroide ha dañado muchos de los sistemas de la <Alias=DerelictShipName>. Para empezar, parece que los motores no funcionan y que los sistemas de soporte vital están fallando. El oxígeno y la temperatura están estables de momento, pero no sabemos lo que durará.
+
+
+        Nos faltan materiales para poner en marcha las reparaciones, y la red del ordenador central está caída. La tripulación está frenética intentando encontrar una solución.
+
+
+        <Token.Title=MiscText00>.
+    - Language: French
+      String: >-
+        La collision avec l'astéroïde a laissé de nombreux systèmes de notre <Alias=DerelictShipName> endommagés. Pour commencer, il semblerait que les moteurs soient morts, et les systèmes de support de vie sont en train de faiblir. Les températures et le niveau d'oxygène sont stables pour l'instant, mais qui sait pour combien de temps ?
+
+
+        Nous n'avons pas les pièces nécessaires pour les réparations et le réseau de l'ordinateur central est indisponible. L'équipage peine à trouver une solution pour l'instant.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Italian
+      String: >-
+        La collisione con l’asteroide ha danneggiato numerosi sistemi della <Alias=DerelictShipName>. Per cominciare, sembra che i motori siano guasti e che i sistemi di supporto vitale siano prossimi al collasso. Anche se per ora l’ossigeno e le temperature sono stabili, non sappiamo per quanto reggeranno.
+
+
+        Siamo a corto di materiali per le riparazioni, e la rete del mainframe è fuori uso. L’ intero equipaggio è impegnato nella ricerca di una soluzione.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Japanese
+      String: >-
+        小惑星との衝突によって、<Alias=DerelictShipName>のシステムの多くが損傷を被った。まずはエンジンが壊れて生命維持システムも動作不良を起こしているようだ。酸素と温度は今のところ安定しているようだが、それもいつま保つかはわからない
+
+
+        修理に必要な資材が不足しており、メインフレームコンピューターのネットワークもダウンしている。クルーは目下、解決策を見つけようと奮闘中だ
+
+
+        <Token.Title=MiscText00>
+    - Language: Polish
+      String: >-
+        Doszło do zderzenia z asteroidą i <Alias=DerelictShipName> ma teraz masę uszkodzonych systemów. Silniki przestały działać, podtrzymywanie życia też sobie nie radzi. Chwilowo ilość tlenu i temperatura pozostają w normie, ale nie wiemy, jak długo ten stan się utrzyma.
+
+
+        Nie posiadamy dość materiałów, żeby rozpocząć naprawy, a sieć głównego komputera nie działa. Załoga próbuje za wszelką cenę znaleźć jakieś rozwiązanie.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Portuguese_Brazil
+      String: >-
+        A colisão com asteroides danificou vários sistemas da <Alias=DerelictShipName>. Para começar, parece que os motores pifaram, e os sistemas de suporte vital estão falhando. O oxigênio e a temperatura estão estáveis por enquanto, mas não sabemos até quando.
+
+
+        Não temos materiais o bastante para ativar os reparos, e a rede do computador mainframe está fora do ar. A tripulação está fazendo de tudo no momento para encontrar uma solução.
+
+
+        <Token.Title=MiscText00>.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 1
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kein Grund zur Panik
+    - Language: English
+      String: No need to panic
+    - Language: Spanish
+      String: Que no cunda el pánico
+    - Language: French
+      String: Inutile de paniquer
+    - Language: Italian
+      String: Niente panico
+    - Language: Japanese
+      String: 慌てる必要はない
+    - Language: Polish
+      String: Nie ma powodów do paniki
+    - Language: Portuguese_Brazil
+      String: Não precisa entrar em pânico
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000DD7F08000000
+  ItemId: 7
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Wegen einer Sonneneruption sind mehrere wichtige Systeme offline. Der Sauerstoffwert ist niedrig, aber noch besteht kein Grund zur Panik.
+
+
+        Wir haben die <Alias=DerelictShipName> erst mal im <Alias=targetSystem>-System geparkt, um eine vollständige Inspektion durchzuführen. Außerdem hat der <Alias.CurrentName=DerelictCaptain> gerade ein paar Leute damit beauftragt, den Mainframe zu überprüfen – sie führen jetzt einen Diagnosescan durch. Das Selbstreparatursystem sollte alles Weitere regeln.
+
+
+        <Token.Title=MiscText00>.
+    - Language: English
+      String: >-
+        A solar flare's put several key systems offline. Oxygen levels are low, but there's no need to panic just yet.
+
+
+        Right now we've parked the <Alias=DerelictShipName> in the <Alias=targetSystem> so we can do a full audit. Also, the <Alias.CurrentName=DerelictCaptain> just sent a few people to check on the mainframe computer, and they're doing a diagnostic now. The auto-repair system should handle things.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Spanish
+      String: >-
+        Una llamarada solar ha dejado fuera de servicio varios sistemas esenciales. Los niveles de oxígeno son bajos, pero aún no hay motivo para que cunda el pánico.
+
+
+        Acabamos de estacionar la <Alias=DerelictShipName> en <Alias=targetSystem> para llevar a cabo una revisión. Además, la persona al mando acaba de mandar que se compruebe el ordenador central; están haciendo ahora un diagnóstico. El sistema de autorreparación se encargará de todo.
+
+
+        <Token.Title=MiscText00>
+    - Language: French
+      String: >-
+        Une éruption solaire a détraqué plusieurs systèmes clés du vaisseau. Les niveaux d'oxygène sont bas, mais pas de quoi paniquer pour l'instant.
+
+
+        Pour l'heure, nous avons mis notre <Alias=DerelictShipName> dans le système <Alias=targetSystem> pour lancer un audit complet. Le <Alias.CurrentName=DerelictCaptain> a aussi mis quelques membres d'équipage sur l'ordinateur central, ils sont en train d'effectuer un diagnostic en ce moment même. Le système de réparation automatique devrait pouvoir se charger de tout ça.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Italian
+      String: >-
+        Un’eruzione solare ha messo fuori uso diversi sistemi chiave. I livelli di ossigeno sono bassi, ma sarebbe prematuro farsi prendere dal panico.
+
+
+        Al momento, la <Alias=DerelictShipName> è ferma nel sistema <Alias=targetSystem>, così da poter eseguire una revisione completa. Inoltre, il <Alias.CurrentName=DerelictCaptain> ha appena inviato alcuni di noi a controllare il mainframe, per eseguire una diagnostica. Il sistema di auto-riparazione dovrebbe riuscire a gestire il problema.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Japanese
+      String: >-
+        ソーラーフレアによっていくつかの重要システムがオフラインになった。酸素レベルが低下しているが、まだ慌てる必要はない
+
+
+        全面監査を行うため、現在<Alias=DerelictShipName>を<Alias=targetSystem>に停泊させている。さらに、<Alias.CurrentName=DerelictCaptain>がメインフレームコンピューターの確認に何人か向かわせた。今頃診断を実行しているはずだ。自動修復システムが対処してくれることだろう
+
+
+        <Token.Title=MiscText00>
+    - Language: Polish
+      String: >-
+        Rozbłysk słoneczny doprowadził do wyłączenia się kilku ważnych systemów. Poziomy tlenu są niskie, ale nie ma jeszcze powodów do paniki.
+
+
+        Obecnie <Alias=DerelictShipName> znajduje się w układzie <Alias=targetSystem>, a my przeprowadzamy pełen audyt. <Alias.CurrentName=DerelictCaptain> czeka, aż wysłani do głównego komputera ludzie zakończą diagnostykę. System autonaprawczy powinien rozwiązać nasz problem.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Portuguese_Brazil
+      String: >-
+        Um clarão solar desativou vários dos nossos sistemas-chave. Os níveis de oxigênio estão baixos, mas não precisamos entrar em pânico ainda.
+
+
+        No momento, a <Alias=DerelictShipName> está estacionada no <Alias=targetSystem> para uma vistoria completa. Além disso, <Alias.CurrentName=DerelictCaptain> mandou algumas pessoas verificarem o computador mainframe, que está sendo diagnosticado. O sistema de autorreparo deve dar conta de tudo.
+
+
+        <Token.Title=MiscText00>.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Lebenserhaltungssysteme beschädigt
+    - Language: English
+      String: Life support systems damaged
+    - Language: Spanish
+      String: Sistemas de soporte vital dañados
+    - Language: French
+      String: Systèmes de support de vie endommagés
+    - Language: Italian
+      String: Sistemi di supporto vitale danneggiati
+    - Language: Japanese
+      String: 生命維持システム破損
+    - Language: Polish
+      String: Systemy podtrzymywania życia uszkodzone
+    - Language: Portuguese_Brazil
+      String: Sistemas de suporte vital danificados
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x00009D4808000000
+  ItemId: 8
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Spacer haben unseren Grav-Antrieb und das Netzwerk ausgeschaltet, das wir für Reparaturen brauchen. <Token.Title=MiscText02>.
+
+
+        Zuallererst müssen wir uns jetzt aber um die grundlegenden Lebenserhaltungssysteme kümmern. Solange die funktionieren, kommen wir durch.
+
+
+        Der Hersteller meinte, dass dieses Schiff über die allerneueste Generation an Selbstreparatursystemen verfügt, es sollte also kein Grund zur Sorge bestehen.
+    - Language: English
+      String: >-
+        Spacers took out our Grav Drive and the network we rely on for repairs. <Token.Title=MiscText02>. 
+
+
+        But right now, the most pressing concern is our basic life support systems. So long as those are working, we'll be fine. 
+
+
+        The company told us the auto-repair systems on this ship are state of the art, so there should be no reason for concern.
+    - Language: Spanish
+      String: >-
+        Los espacistas se han cargado el motor gravitacional y la red de la que dependemos para las reparaciones . <Token.Title=MiscText02>. 
+
+
+        Pero, ahora mismo, nuestra mayor preocupación son los sistemas de soporte vital básicos. Mientras sigan funcionando, no pasa nada. 
+
+
+        La empresa nos dijo que los sistemas de autorreparación de la nave son punteros, así que no debería haber problema.
+    - Language: French
+      String: >-
+        Les spatiards ont détruit notre astromoteur et le réseau dont nous dépendons pour le réparer. <Token.Title=MiscText02>.
+
+
+        Mais pour l'instant, la priorité, ce sont nos systèmes de support de vie. Tant qu'ils fonctionneront, ça ira.
+
+
+        L'entreprise nous a dit que le vaisseau était doté de systèmes de réparation automatique dernier cri, donc il ne devrait pas y avoir de raison de s'inquiéter.
+    - Language: Italian
+      String: >-
+        Gli spazianti hanno messo fuori uso il nostro gravimotore e la rete a cui ci affidiamo per le riparazioni. <Token.Title=MiscText02>.
+
+
+        Ma a preoccupare maggiormente sono i nostri sistemi di supporto vitale. Se smettono di funzionare, sono guai.
+
+
+        L’azienda dice che i sistemi di auto-riparazione della nave sono all’avanguardia, quindi non vedo perché farsi prendere dal panico.
+    - Language: Japanese
+      String: >-
+        グラヴ・ドライブと修復に不可欠なネットワークをスペーサーに破壊されてしまった。<Token.Title=MiscText02>
+
+
+        だがそれ以上に差し迫った懸念は、基本的な生命維持システムである。これさえ機能していれば、私たちは大丈夫だ
+
+
+        船の自動修復装置は最新型だと会社からは聞いている。だから、不安を抱く理由などないはずだ
+    - Language: Polish
+      String: >-
+        Odrzuty rozwaliły nam napęd grawitonowy i sieć, którą wykorzystujemy do napraw. <Token.Title=MiscText02>.
+
+
+        Teraz jednak najważniejsze jest działanie podstawowych systemów podtrzymywania życia. Dopóki działają, nic nam się nie stanie.
+
+
+        Firma mówiła, że systemy autonaprawcze na statku są najwyższej klasy, więc nie powinniśmy mieć powodu do zmartwień.
+    - Language: Portuguese_Brazil
+      String: >-
+        Siderais derrubaram o nosso Motor Grav e a rede que usamos para fazer reparos. <Token.Title=MiscText02>. 
+
+
+        Mas no momento o problema mais urgente são os nossos sistemas de suporte vital. Enquanto eles funcionarem, estará tudo bem. 
+
+
+        A empresa disse que os sistemas de autorreparo desta nave são de última geração, então não precisamos nos precoupar.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 1
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Schäden an der <Alias=DerelictShipName> '
+    - Language: English
+      String: 'Damage to the <Alias=DerelictShipName> '
+    - Language: Spanish
+      String: 'Daños en la <Alias=DerelictShipName> '
+    - Language: French
+      String: 'Notre <Alias=DerelictShipName> est endommagé '
+    - Language: Italian
+      String: 'Danni alla <Alias=DerelictShipName> '
+    - Language: Japanese
+      String: '<Alias=DerelictShipName>の破損 '
+    - Language: Polish
+      String: '<Alias=DerelictShipName> - uszkodzenia '
+    - Language: Portuguese_Brazil
+      String: 'Dano a <Alias=DerelictShipName> '
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000000008000000
+  ItemId: 9
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Die Strahlungswerte im Schiff sind jenseits von Gut und Böse. Ich weiß nicht, was uns da erwischt hat, aber das Team meint, es könnte ein <Token.Title=MiscText01> gewesen sein.
+
+
+        Ich bin auf dem Weg zum Mainframe, um einen vollständigen Diagnosescan durchzuführen. Hoffentlich laufen die Netzwerksysteme noch.
+
+
+        <Token.Title=MiscText00>.
+    - Language: English
+      String: >-
+        Radiation levels inside the ship are off the charts. I'm not sure what hit us, but the team thinks it might've been a <Token.Title=MiscText01>.
+
+
+        I'm headed to the mainframe computer now to run a full diagnostic, hopefully the network systems are still functioning.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Spanish
+      String: >-
+        Los niveles de radiación en la nave están disparados. No sé qué nos ha golpeado, pero el equipo tiene una teoría: <Token.Title=MiscText01>.
+
+
+        Me dirijo ahora al ordenador central para llevar a cabo un diagnóstico completo; esperemos que los sistemas de red sigan funcionando.
+
+
+        <Token.Title=MiscText00>.
+    - Language: French
+      String: >-
+        Les niveaux de radiation à l'intérieur du vaisseau sont démesurés. Je ne sais pas ce qui nous a frappés, mais l'équipe pense que c'était peut-être une sorte de <Token.Title=MiscText01>.
+
+
+        Je vais lancer un diagnostic complet sur l'ordinateur central. Avec un peu de chance les systèmes réseaux fonctionnent encore.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Italian
+      String: >-
+        I livelli di radioattività all’interno della nave sono fuori scala. Non ho idea di cosa ci abbia colpito, ma la squadra pensa che possa trattarsi di qualche <Token.Title=MiscText01>.
+
+
+        Sto andando al mainframe per eseguire una diagnostica completa, sperando che i sistemi di rete siano ancora funzionanti.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Japanese
+      String: >-
+        船内の放射線量は測定できないほど高い。何が衝突したのかは定かでないが、<Token.Title=MiscText01>だった可能性があるとチームは考えている
+
+
+        今からメインフレームコンピューターに向かって、詳細な分析を行うつもりだ。ネットワークシステムがまだ機能していればいいのだが
+
+
+        <Token.Title=MiscText00>
+    - Language: Polish
+      String: >-
+        Promieniowanie na statku wykracza poza skalę. Nie wiem, co nas uderzyło, ale załoga podejrzewa, że <Token.Title=MiscText01>.
+
+
+        Idę do głównego komputera przeprowadzić diagnostykę. Miejmy nadzieję, że funkcje sieciowe wciąż są sprawne.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Portuguese_Brazil
+      String: >-
+        Os níveis de radiação na nave estã fora de controle. Não sei o que nos atingiu, mas a equipe acha que pode ter sido algum tipo de <Token.Title=MiscText01>.
+
+
+        Estou indo agora para o computador mainframe rodar um diagnóstico, e espero que os sistemas de rede ainda estejam funcionando.
+
+
+        <Token.Title=MiscText00>.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Schäden an der <Alias=DerelictShipName> '
+    - Language: English
+      String: 'Damage to the <Alias=DerelictShipName> '
+    - Language: Spanish
+      String: 'Daños en la <Alias=DerelictShipName> '
+    - Language: French
+      String: 'Notre <Alias=DerelictShipName> est endommagé '
+    - Language: Italian
+      String: 'Danni alla <Alias=DerelictShipName> '
+    - Language: Japanese
+      String: '<Alias=DerelictShipName>の破損 '
+    - Language: Polish
+      String: '<Alias=DerelictShipName> - uszkodzenia '
+    - Language: Portuguese_Brazil
+      String: 'Dano a <Alias=DerelictShipName> '
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000000008000000
+  ItemId: 10
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >+
+        Wir dachten, sie wären ein Schiff in Not. Aber als wir angedockt hatten, begannen sie sofort, uns zu entern. Verdammte Fanatiker. <Token.Title=MiscText02>.
+
+
+        Wir konnten gerade noch entkommen, sind aber direkt in eine Sonneneruption gesprungen. Die Hälfte unserer Strahlungsabschirmung ist hin, es sieht schlecht für uns aus.
+
+
+        Bei derart hohen Strahlungswerten könnten Nahrung und Wasser an Bord schon kontaminiert sein. Ich habe versucht, <Token.Name=MiscText03> zu essen, und mich danach <Token.Value=RandomInt01> Stunden lang übergeben.
+
+    - Language: English
+      String: >+
+        We thought they were a distressed ship. But as soon as we docked, they tried to board us.  Damn zealots. <Token.Title=MiscText02>. 
+
+
+        We managed to escape but jumped right into a solar flare. With half our radiation shielding disabled, things are looking grim.
+
+
+        With levels so high, the food and water on the ship could be contaminated. I tried eating a<Token.Name=MiscText03> and was vomiting for the next <Token.Value=RandomInt01> hours.
+
+    - Language: Spanish
+      String: >+
+        Pensamos que se trataba de una nave en apuros, pero en cuanto nos acoplamos, intentaron abordarnos. Malditos fanáticos. <Token.Title=MiscText02>. 
+
+
+        Nos las ingeniamos para escapar, pero saltamos justo dentro de una llamarada solar. Tenemos inutilizados la mitad de los escudos de radiación, así que la cosa pinta mal.
+
+
+        Con niveles tan altos, la comida y el agua de la nave podrían contaminarse. He intentado comer algo —<Token.Name=MiscText03>— y me pasé las siguientes <Token.Value=RandomInt01> horas vomitando.
+
+    - Language: French
+      String: >+
+        On croyait qu'il s'agissait d'un vaisseau en détresse, mais au moment où nous nous sommes amarrés, ils ont essayé de monter à bord. Foutus zélotes. <Token.Title=MiscText02>.
+
+
+        On a réussi à s'échapper, tout ça pour atterrir en pleine éruption solaire. Avec la moitié de nos boucliers antiradiations HS, ça ne sent vraiment pas bon.
+
+
+        Vu les niveaux, la nourriture et l'eau contenues sur le vaisseau pourraient déjà être contaminées. J'ai essayé de manger un bout de <Token.Name=MiscText03> et me suis retrouvé à vomir pendant <Token.Value=RandomInt01> heures.
+
+    - Language: Italian
+      String: >+
+        Pensavamo che fosse una nave in difficoltà. Ma non appena abbiamo attraccato, hanno tentato di abbordarci. Maledetti zeloti. <Token.Title=MiscText02>.
+
+
+        Siamo riusciti a fuggire, purtroppo finendo dritti in un’eruzione solare. Con metà della nostra schermatura anti-radiazioni offline, le cose si stanno mettendo male.
+
+
+        Radiazioni così elevate potrebbero contaminare tutto il cibo e l’acqua a bordo. Ho provato a consumare qualche <Token.Name=MiscText03> e ho vomitato per <Token.Value=RandomInt01> ore filate.
+
+    - Language: Japanese
+      String: >+
+        遭難船だと思っていたが、奴らはドッキングするや否やこちらに乗り込もうとしてきた。忌々しい狂信者どもめ。<Token.Title=MiscText02>
+
+
+        脱出することはできたが、ソーラーフレアが発生してしまった。放射線遮蔽装置の半分が停止してしまい、深刻な状況だ
+
+
+        これほど高い放射線量では、船内の食料や水も汚染されてしまったかもしれない。<Token.Name=MiscText03>を食べてみたが、その後<Token.Value=RandomInt01>時間も嘔吐がとまらなかった
+
+    - Language: Polish
+      String: >+
+        Myśleliśmy, że to wzywający pomocy statek. Ale jak tylko zadokowaliśmy, podjęli próbę abordażu. Cholerni fanatycy. <Token.Title=MiscText02>.
+
+
+        Zdołaliśmy uciec, jednak wpadliśmy prosto w rozbłysk słoneczny. Nasza osłona antyradiacyjna straciła połowę sprawności i nie wygląda to dobrze.
+
+
+        Przy tak wysokim poziomie promieniowania żywność oraz woda na statku mogą być skażone. <Token.Name=MiscText03> po zjedzeniu potrafi wywołać u mnie torsje przez <Token.Value=RandomInt01> godzin.
+
+    - Language: Portuguese_Brazil
+      String: >+
+        Achamos que era uma nave pedindo socorro, mas, assim que acoplamos, eles tentaram nos invadir. Malditos fanáticos. <Token.Title=MiscText02>. 
+
+
+        A gente escapou, mas entrou direto num clarão solar. Com metade dos nossos escudos de radiação desativados, a coisa tá ficando feia.
+
+
+        Com esse nível de radiação, a comida e a água na dave podem ficar contaminadas. Tentei comer um pouco de <Token.Name=MiscText03> e vomitei por <Token.Value=RandomInt01> horas.
+
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 2
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Schäden an Kühlkörpern
+    - Language: English
+      String: Heat sink damage
+    - Language: Spanish
+      String: Daño en sumidero de calor
+    - Language: French
+      String: Dissipateurs thermiques endommagés
+    - Language: Italian
+      String: Danni al dissipatore di calore
+    - Language: Japanese
+      String: ヒートシンク破損
+    - Language: Polish
+      String: Uszkodzenie radiatora
+    - Language: Portuguese_Brazil
+      String: Dano ao dissipador de calor
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000F14008000000
+  ItemId: 2
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Wir sind mit umherfliegenden Trümmerteilen kollidiert. Das Team war sich nicht sicher, woher die Trümmer kamen, vielleicht von einem verlassenen Schiff oder einem deaktivierten Satelliten.
+
+
+        Einige unserer zentralen Systeme sind offline, laut Diagnosescan ist der Kühlkörper ebenfalls offline – das würde die Hitze erklären. Wir glauben, dass wir die Temperatur senken können, indem wir Energie von den Lebenserhaltungssystemen umleiten.
+
+
+        <Token.Title=MiscText00>.
+    - Language: English
+      String: >-
+        We collided with some debris orbiting the area. It might've been a derelict ship or abandoned satellite, the team isn't sure.
+
+
+        Some of our core systems are offline, and diagnostic says the radiator is offline, which explains the heat. We think diverting some power from the Life Support Systems might help keep temperatures down.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Spanish
+      String: >-
+        Hemos colisionado con restos espaciales que orbitaban por la zona. Puede que fuera un pecio o un satélite abandonado, el equipo no puede asegurarlo.
+
+
+        Algunos de nuestros sistemas centrales están inactivos, y el diagnóstico indica que el radiador está roto, lo que explica el calor. Creemos que desviar energía de los sistemas de soporte vital puede ayudar a bajar la temperatura
+
+
+        <Token.Title=MiscText00>.
+    - Language: French
+      String: >-
+        Nous sommes entrés en collision avec des débris en orbite autour de la zone. Peut-être un vieux vaisseau ou un satellite abandonné, l'équipe ne sait pas trop.
+
+
+        Certains de nos systèmes cruciaux sont en panne, et le diagnostic annonce que le radiateur est HS, ce qui explique la chaleur. Nous pensons qu'en déviant un peu de l'alimentation des systèmes de support de vie, nous pourrons peut-être réduire la température.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Italian
+      String: >-
+        Ci siamo scontrati con alcuni detriti in orbita nell’area. Forse il relitto di una nave, o un satellite alla deriva. La squadra non ne è sicura.
+
+
+        Alcuni dei nostri sistemi principali sono offline e la diagnostica segnala che il radiatore non è in funzione, cosa che spiega il calore. Crediamo che dirottare parte dell’energia dai sistemi di supporto vitale possa aiutarci a ridurre le temperature.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Japanese
+      String: >-
+        辺りの軌道にいたデブリと衝突してしまった。遺棄船や放棄されたサテライトの可能性もあるが、確証は持てない
+
+
+        船の中枢システムの一部がオフラインになっている。分析によるとラジエーターがオフラインとなっており、熱の件はそれで説明がつく。生命維持システムからいくらか電力を回せば、温度を下げられるかもしれない
+
+
+        <Token.Title=MiscText00>
+    - Language: Polish
+      String: >-
+        Zderzyliśmy się z jakimiś orbitalnymi śmieciami; z porzuconym statkiem albo satelitą. Załoga nie ma pewności.
+
+
+        Niektóre z naszych głównych systemów straciły sprawność. Diagnostyka wykazuje nieaktywność chłodnicy, co wyjaśnia, czemu jest tak gorąco. Zdaje się, że przekierowanie części mocy z systemów podtrzymywania życia może pomóc w utrzymaniu niższej temperatury.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Portuguese_Brazil
+      String: >-
+        Colidimos com uns destroços na órbita da região. Talvez tenha sido uma carcaça de nave ou um satélite abandonado, mas a equipe não tem certeza.
+
+
+        Alguns dos nossos sistemas centrais estão offline, e o diagnóstico diz que o radiador foi desativado, o que explica o calor. Achamos que, se canalizarmos parte da energia dos sistemas de suporte vital, talvez a temperatura baixe
+
+
+        <Token.Title=MiscText00>.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Lüftungssysteme beschädigt
+    - Language: English
+      String: Ventilation systems damaged
+    - Language: Spanish
+      String: Sistemas de ventilación dañados
+    - Language: French
+      String: Système de ventilation endommagé
+    - Language: Italian
+      String: Sistemi di ventilazione danneggiati
+    - Language: Japanese
+      String: 換気システム破損
+    - Language: Polish
+      String: Systemy wentylacji uszkodzone
+    - Language: Portuguese_Brazil
+      String: Sistemas de ventilação danificados
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000000008000000
+  ItemId: 3
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Das Schiff hat eine richtige Pechsträhne. Gleich nach unserer Ankunft wurden wir von Va'ruun-Fanatikern angegriffen. Es ergibt alles keinen Sinn. Welcher Gott greift bitte ein ziviles Schiff an und überlässt die Besatzung dem sicheren Tod?
+
+
+        Wir sind zwar entkommen, aber das heißt nicht, dass wir überleben. Laut Diagnosescan scheint das Lüftungssystem nicht in der Lage zu sein, überschüssige Wärme von der <Alias=DerelictShipName> abzuleiten. Es fühlt sich an, als würden wir bei lebendigem Leibe gekocht. Der <Alias.CurrentName=DerelictCaptain> glaubt, dass wir das wieder hinkriegen, aber mittlerweile sind schon <Token.Title=RandomInt03> Stunden vergangen und wir sind keinen Schritt weitergekommen.
+
+
+        <Token.Title=MiscText00>.
+    - Language: English
+      String: >-
+        This ship has the worst luck. We were attacked by Va'ruun zealots the moment we arrived. There's no rhyme or reason to any of it. What kind of god attacks a civilian ship and leaves it for dead?
+
+
+        At least we managed to escape, but that doesn't mean we're going to survive. Running a diagnostic, it looks like the ventilation system is having trouble removing excess heat from the <Alias=DerelictShipName>. It feels like we're being boiled alive in here. The <Alias.CurrentName=DerelictCaptain> thinks we can fix it, but it's been <Token.Title=RandomInt03> hours and we have nothing to show for it.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Spanish
+      String: >-
+        Esta nave tiene la negra. Nos atacaron fanáticos Va'ruun justo cuando llegamos. Sin motivo alguno. ¿Qué clase de dios ataca una nave civil y da a todos por muertos?
+
+
+        Al menos pudimos escapar, pero eso no quiere decir que vayamos a sobrevivir. Tras un diagnóstico, parece que el sistema de ventilación tiene problemas para eliminar el exceso de calor de la <Alias=DerelictShipName>. Me da que nos vamos a abrasar vivos aquí dentro. La persona al mando cree que podemos arreglarlo, pero han pasado <Token.Title=RandomInt03> horas y estamos igual.
+
+
+        <Token.Title=MiscText00>.
+    - Language: French
+      String: >-
+        Ce vaisseau a la pire des déveines. On a été attaqués par des zélotes de Va'ruun au moment où on arrivait. Sans aucune raison. Quel genre de dieu attaquerait des civils pour les laisser à crever dans l'espace ?
+
+
+        Au moins, on a réussi à s'échapper, mais ça ne veut pas dire qu'on est tirés d'affaire. D'après le diagnostic, il semblerait que le système de ventilation a du mal à éliminer la chaleur excessive de notre <Alias=DerelictShipName>. On a l'impression de cuire à l'étouffée ici. Le <Alias.CurrentName=DerelictCaptain> pense qu'on peut le réparer, mais ça fait <Token.Title=RandomInt03> heures et on n'a toujours pas avancé.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Italian
+      String: >-
+        La sfortuna ci perseguita. Senza logica o ragione, al nostro arrivo siamo stati aggrediti dagli zeloti Va’ruun. Che razza di dio ti spinge ad attaccare una nave civile?
+
+
+        Almeno siamo riusciti a fuggire, ma questo non significa che sopravvivremo. Dalla diagnostica risulta che il sistema di ventilazione della <Alias=DerelictShipName> non riesce a dissipare il calore in eccesso. Sembra di essere bolliti vivi. Il <Alias.CurrentName=DerelictCaptain> è convinto che si possa riparare, ma sono passate <Token.Title=RandomInt03> ore e non abbiamo ancora risolto nulla.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Japanese
+      String: >-
+        この船はまるで運がない。到着した直後にヴァルーン狂信者の襲撃を受けた。なんの道理も分別もなく。民間船を襲わせて見捨てるなど、いったいどんな神の仕業だというのだ？
+
+
+        とりあえず脱出には成功したが、生き延びるとは限らない。どうやら換気システムは<Alias=DerelictShipName>から余剰の熱を放出するのに手間取っているようだ。ここにいると、まるで生きたまま茹でられているような気分になる。<Alias.CurrentName=DerelictCaptain>は修理が可能だと考えているが、もう<Token.Title=RandomInt03>時間経過したのになんの成果も得られていない
+
+
+        <Token.Title=MiscText00>
+    - Language: Polish
+      String: >-
+        Ależ nasz statek ma pecha. Jak tylko przybyliśmy, zaatakowali nas fanatycy Va'ruun. I to bez żadnego powodu. Jaki bóg każe swoim wyznawcom napaść cywilny statek i zostawić go na śmierć?
+
+
+        Zdołaliśmy uciec, ale to nie znaczy, że przetrwamy. Diagnostyka wskazuje, że system wentylacji nie daje rady usuwać nadmiaru ciepła i <Alias=DerelictShipName> się przegrzewa. Mam wrażenie, jakbyśmy gotowali się żywcem. <Alias.CurrentName=DerelictCaptain> uważa, że zdołamy to naprawić, ale po <Token.Title=RandomInt03> godzinach nie poczyniliśmy żadnych postępów.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Portuguese_Brazil
+      String: >-
+        Essa nave é azarada demais. Fomos atacados por fanáticos da Va'ruun assim que chegamos. Não tem muita explicação. Que tipo de deus ataca uma nave civil e abandona ela à própria sorte?
+
+
+        Ao menos conseguimos escapar, mas não significa que vamos sobreviver. Rodei um diagnóstico e parece que o sistema de ventilação está tendo dificuldades de remover o excesso de valor da <Alias=DerelictShipName>. A gente tá cozinhando vivo aqui dentro. <Alias.CurrentName=DerelictCaptain> acha que podemos consertar, mas já faz <Token.Title=RandomInt03> horas e ainda não chegamos a lugar nenhum.
+
+
+        <Token.Title=MiscText00>.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x020000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x020000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 1
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Temperaturkontrollsysteme offline
+    - Language: English
+      String: Thermal Control Systems offline
+    - Language: Spanish
+      String: Sistemas de control térmico desconectados
+    - Language: French
+      String: Système de gestion de la température désactivé
+    - Language: Italian
+      String: Sistemi di controllo termico offline
+    - Language: Japanese
+      String: 熱制御システムオフライン
+    - Language: Polish
+      String: Systemy kontroli temperatury nieaktywne
+    - Language: Portuguese_Brazil
+      String: Sistemas de Controle Térmico offline
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000000008000000
+  ItemId: 11
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Ein Spacer-Schiff hat uns mit ein paar Raketen erwischt und unsere Temperaturkontrollsysteme außer Kraft gesetzt. <Token.Title=MiscText02>.
+
+
+        Die Temperaturen spielen verrückt. Es ist kaum auszuhalten. Jetzt geben wir unser Bestes, die Antriebssysteme online zu kriegen, um aus dem <Alias=targetSystem>-System heraus zu einem nahe gelegenen Weltraumhafen zu springen.
+
+
+        <Token.Title=MiscText00>.
+    - Language: English
+      String: >-
+        A spacer ship hit us with a few missiles and knocked out our Thermal Control Systems.  <Token.Title=MiscText02>. 
+
+
+        Temperatures are out of control. Right now, we're trying our best to get the propulsion systems online so we can grav jump out of the <Alias=targetSystem> system and to a nearby spaceport.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Spanish
+      String: >-
+        Una nave de espacistas nos atacó con misiles que destruyeron los sistemas de control térmico. <Token.Title=MiscText02>. 
+
+
+        La temperatura está fuera de control. Estamos esforzándonos al máximo para recuperar los sistemas de propulsión y poder saltar del sistema de <Alias=targetSystem> hasta un espaciopuerto cercano.
+
+
+        <Token.Title=MiscText00>.
+    - Language: French
+      String: >-
+        Un vaisseau spatiard nous a bombardés avec des missiles et a détruit nos systèmes de contrôle thermique. <Token.Title=MiscText02>.
+
+
+        Impossible de contrôler la température. Pour le moment, la priorité est de remettre en état les systèmes de propulsion afin de nous astroporter hors du système <Alias=targetSystem> jusqu'à un port spatial.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Italian
+      String: >-
+        Una nave spaziante ci ha colpito con alcuni missili, mettendo fuori uso i nostri sistemi di controllo termico. <Token.Title=MiscText02>.
+
+
+        Le temperature sono fuori controllo. Ora stiamo facendo del nostro meglio per mettere in funzione i sistemi di propulsione in modo da poter effettuare un gravisalto fuori dal sistema <Alias=targetSystem>.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Japanese
+      String: >-
+        スペーサーの船により放たれたミサイルがいくつか命中し、熱制御システムが破損してしまった。<Token.Title=MiscText02>
+
+
+        温度の制御が効かなくなっている。現在、<Alias=targetSystem>星系からグラヴ・ジャンプで脱出して最寄りの宇宙港へ非難するために、全力で推進システムのオンライン復旧を試みている
+
+
+        <Token.Title=MiscText00>
+    - Language: Polish
+      String: >-
+        Odrzut trafił nas kilkoma rakietami i zniszczył systemy kontroli temperatury. <Token.Title=MiscText02>. 
+
+
+        Nie mamy jak kontrolować termiki. Staramy się w tym momencie naprawić napęd w celu wykonania skok z układu <Alias=targetSystem> do najbliższego portu kosmicznego.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Portuguese_Brazil
+      String: >-
+        Uma nave sideral nos acertou com uns mísseis e derrubou os nossos sistemas de controle térmico.  <Token.Title=MiscText02>. 
+
+
+        As temperaturas estão fora de controle. No momento, estamos fazendo o possível para reativar os sistemas de propulsão, fazer uma dobra grav de <Alias=targetSystem> e ir até um espaçoporto nas proximidades.
+
+
+        <Token.Title=MiscText00>.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 2
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Schäden an der <Alias=DerelictShipName> '
+    - Language: English
+      String: 'Damage to the <Alias=DerelictShipName> '
+    - Language: Spanish
+      String: 'Daños en la <Alias=DerelictShipName> '
+    - Language: French
+      String: 'Notre <Alias=DerelictShipName> est endommagé '
+    - Language: Italian
+      String: 'Danni alla <Alias=DerelictShipName> '
+    - Language: Japanese
+      String: '<Alias=DerelictShipName>の破損 '
+    - Language: Polish
+      String: '<Alias=DerelictShipName> - uszkodzenia '
+    - Language: Portuguese_Brazil
+      String: 'Dano a <Alias=DerelictShipName> '
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000000008000000
+  ItemId: 12
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >+
+        Die <Alias=DerelictShipName> ist beim letzten Grav-Sprung in Mitleidenschaft gezogen worden. Ich muss mir die Wartungsprotokolle ansehen, aber vermutlich war es eine Art <Token.Title=MiscText01>.
+
+
+        Es hieß, dass irgendwo Schadgas ausströmt, aber wir wissen nicht, wo.
+
+
+        <Token.Title=MiscText00>.
+    - Language: English
+      String: >+
+        The <Alias=DerelictShipName> suffered some damage after the last grav jump. I'll have to check the maintenance logs, but it was likely some kind of <Token.Title=MiscText01>.
+
+
+        There's been reports of a corrosive gas leak, but we don't know the source.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Spanish
+      String: >+
+        La <Alias=DerelictShipName> ha sufrido daños tras el último salto gravitacional. Tengo que comprobar los registros de mantenimiento, pero parece algún tipo de <Token.Title=MiscText01>.
+
+
+        Ha habido informes de una fuga de gas corrosivo, pero desconocemos su origen.
+
+
+        <Token.Title=MiscText00>.
+    - Language: French
+      String: >+
+        Notre <Alias=DerelictShipName> a subi des dégâts lors de la dernière astroportation. Je dois vérifier les journaux de maintenance, mais il y a sans doute une sorte de <Token.Title=MiscText01>.
+
+
+        Il y a des rapports concernant une fuite de gaz corrosif, mais nous n'en connaissons pas la source.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Italian
+      String: >+
+        La <Alias=DerelictShipName> ha subito danni in seguito all’ultimo gravisalto. Dovrò esaminare i registri di manutenzione, ma probabilmente si è trattato di qualche <Token.Title=MiscText01>.
+
+
+        I sistemi segnalano una fuga di gas corrosivo, ma non ne conosciamo la fonte.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Japanese
+      String: >+
+        <Alias=DerelictShipName>は前回のグラヴ・ジャンプ後にいくらか損傷を被った。整備ログを確認する必要があるが、なんらかの<Token.Title=MiscText01>であった可能性が高い
+
+
+        腐食性ガスの漏れが報告されているが、発生源は判明していない
+
+
+        <Token.Title=MiscText00>
+    - Language: Polish
+      String: >+
+        Nasz statek, <Alias=DerelictShipName>, uległ uszkodzeniu po ostatnim skoku grawitonowym. Muszę sprawdzić dzienniki konserwacyjne, ale najprawdopodobniejsza przyczyną jest <Token.Title=MiscText01>.
+
+
+        Mamy meldunki o wycieku żrącego gazu, jednak nie znamy jego źródła.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Portuguese_Brazil
+      String: >+
+        A <Alias=DerelictShipName> sofreu danos após a última dobra grav. Vou ter que olhar os registros de manutenção, mas provavelmente foi algum tipo de <Token.Title=MiscText01>.
+
+
+        Houve relatos de um vazamento de gás corrosivo, mas não sabemos a fonte.
+
+
+        <Token.Title=MiscText00>.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 4
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Rohrbrüche durch Trümmereinschlag
+    - Language: English
+      String: Pipe damage from debris
+    - Language: Spanish
+      String: Daños en los conductos por detritos
+    - Language: French
+      String: Les débris ont endommagé la tuyauterie
+    - Language: Italian
+      String: Danni da detriti alle tubazioni
+    - Language: Japanese
+      String: デブリによるパイプ破損
+    - Language: Polish
+      String: Uszkodzenia rur od kosmicznych śmieci
+    - Language: Portuguese_Brazil
+      String: Canos danificados por destroços
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000000008000000
+  ItemId: 13
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >+
+        Die <Alias=DerelictShipName> wurde von Trümmerteilen getroffen, als die Crew gerade dabei war, Wartungsarbeiten durchzuführen. Heute Morgen haben wir ein korrosives Leck an einem der Rohre beim Dockingmodul entdeckt.
+
+
+        Ich muss mir den Mainframe ansehen und einen vollständigen Diagnosescan durchführen, aber unsere Vorräte neigen sich dem Ende zu und wir benötigen vielleicht Hilfe, um das wieder hinzukriegen.
+
+
+        Es ist zwar so, als würden wir die berühmte Nadel im Heuhaufen suchen, aber die Crew setzt in Schichten Rufe ab und versucht, auf gut Glück Schiffe zu kontaktieren, die ins <Alias=targetSystem>-System springen könnten.
+
+
+
+    - Language: English
+      String: >+
+        The <Alias=DerelictShipName> got hit by some debris while the crew was doing maintenance. This morning we found a corrosive leak in one of the pipes near the docking module. 
+
+
+        I'll have to check the mainframe computer and run a full diagnostic check, but we're running low on supplies and we may need outside help to get this repaired.
+
+
+        It's a hail mary, but the crew is taking shifts on the comms and hailing any ship that might grav jump into <Alias=targetSystem> system.
+
+
+
+    - Language: Spanish
+      String: >+
+        La <Alias=DerelictShipName> ha recibido el impacto de restos espaciales mientras la tripulación hacía tareas de mantenimiento. Esta mañana, hemos dado con una fuga corrosiva en uno de los conductos junto al módulo de atraque. 
+
+
+        Tengo que revisar el ordenador central y ejecutar un diagnóstico completo, pero andamos escasos de suministros y puede que tengamos que salir al exterior para reparar esto.
+
+
+        Es un recurso desesperado, pero estamos haciendo turnos en los comunicadores para pedir ayuda a cualquier nave que salte al sistema de <Alias=targetSystem>.
+
+
+
+    - Language: French
+      String: >+
+        Notre <Alias=DerelictShipName> a été touché par des débris alors que l'équipage procédait à une maintenance de routine. Nous avons trouvé une fuite de gaz corrosif dans l'un des conduits près du module d'amarrage.
+
+
+        Je vais devoir lancer un diagnostic complet du vaisseau sur l'ordinateur central, mais nous n'avons pas beaucoup de matériel. Il nous faudra peut-être de l'aide extérieure pour le réparer.
+
+
+        C'est une tentative désespérée, mais l'équipage se relaie aux communications pour envoyer des signaux à tous les vaisseaux qui pourraient arriver dans le système <Alias=targetSystem>.
+
+
+
+    - Language: Italian
+      String: >+
+        La <Alias=DerelictShipName> è stata colpita da alcuni detriti durante il turno di manutenzione. Purtroppo, abbiamo scoperto che una delle condutture nei pressi del modulo d’attracco presenta una perdita corrosiva.
+
+
+        Dovrò esaminare il mainframe ed eseguire un controllo diagnostico completo, ma potrebbe servirci un aiuto esterno per le riparazioni, e le scorte scarseggiano.
+
+
+        È un tentativo disperato, ma l’equipaggio sta facendo i turni alle comunicazioni per contattare ogni nave vicina che potrebbe gravisaltare nel sistema <Alias=targetSystem>.
+
+
+
+    - Language: Japanese
+      String: >+
+        クルーがメンテナンス作業を行っていると、<Alias=DerelictShipName>にデブリが激突した。今朝になってドッキングモジュール付近のパイプから腐食性ガスの漏れが見つかった
+
+
+        メインフレームコンピューターを調べて、詳細な分析を行う必要があるが、物資が底をつきかけており修復には外部の助けが必要となるかもしれない
+
+
+        追い詰められた状況だが、クルーは交代で通信を行い、<Alias=targetSystem>にグラヴ・ジャンプしてくる可能性があるあらゆる船に呼び掛けている
+
+
+
+    - Language: Polish
+      String: >+
+        Nasz statek, <Alias=DerelictShipName>, został trafiony przez kosmiczne śmieci, kiedy załoga wykonywała prace konserwacyjne. Tego ranka znaleźliśmy żrący wyciek z jednej z rur nieopodal modułu dokującego.
+
+
+        Musimy sprawdzić główny komputer i przeprowadzić pełną diagnostykę. Kończą nam się jednak zapasy i możemy potrzebować pomocy z zewnątrz, by to naprawić.
+
+
+        Choć szanse powodzenia są marne, załoga na zmianę dyżuruje na stanowisku łącznościowym i wywołuje każdy statek, który może wykonać skok grawitonowy do układu <Alias=targetSystem>.
+
+
+
+    - Language: Portuguese_Brazil
+      String: >+
+        A <Alias=DerelictShipName> foi atingida por destroços enquanto a tripulação fazia uma manutenção de rotina. Hoje de manhã, encontramos um vazameno corrosivo em um dos canos perto do módulo de acoplagem. 
+
+
+        Vou ter que verificar o computador mainframe e fazer um diagnóstico completo, mas estamos ficando sem suprimentos e talvez precisemos de ajuda externa para consertar o problema.
+
+
+        É um deus-nos-acuda, mas a tripulação está se alternando na comunicação e enviando sinais a qualquer nave que possa dobrar até o sistema <Alias=targetSystem>.
+
+
+
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 4
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 1
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Schäden an der <Alias=DerelictShipName> '
+    - Language: English
+      String: 'Damage to the <Alias=DerelictShipName> '
+    - Language: Spanish
+      String: 'Daños en la <Alias=DerelictShipName> '
+    - Language: French
+      String: 'Notre <Alias=DerelictShipName> est endommagé '
+    - Language: Italian
+      String: 'Danni alla <Alias=DerelictShipName> '
+    - Language: Japanese
+      String: '<Alias=DerelictShipName>の破損 '
+    - Language: Polish
+      String: '<Alias=DerelictShipName> - uszkodzenia '
+    - Language: Portuguese_Brazil
+      String: 'Dano a <Alias=DerelictShipName> '
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000000008000000
+  ItemId: 14
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Die <Alias=DerelictShipName> wurde von Trümmerteilen getroffen, während die Crew schlief. Der Einschlag hat alle aus den Betten geworfen, aber das war noch das Geringste.
+
+
+        Heute Morgen haben wir bei einer Überprüfung ein Leck in der Nähe des Cockpits gefunden. Sieht so aus, als würden wir das Schiff erst mal im <Alias=targetSystem>-System ruhen lassen, bis wir das Problem im Griff haben. Wir müssen den Mainframe-Computer überprüfen und einen vollständigen Diagnosescan durchführen.
+
+
+        <Token.Title=MiscText00>
+    - Language: English
+      String: >-
+        The <Alias=DerelictShipName> got hit by some debris while the crew was asleep. The collision shook up the entire crew, but that was just the start of things.
+
+
+        After an inspection this morning we found a corrosive leak near the cockpit. It looks like we're parking the ship in the <Alias=targetSystem> system until we address the problem. We'll have to check the mainframe computer and run a full diagnostic check.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Spanish
+      String: >-
+        La <Alias=DerelictShipName> ha recibido el impacto de restos espaciales mientras la tripulación dormía. La colisión ha conmocionado a todo el mundo, pero eso solo ha sido el principio.
+
+
+        Esta mañana, tras una inspección, hemos dado con una fuga corrosiva cerca de la cabina. Parece que vamos a inmovilizar la nave en el sistema de <Alias=targetSystem> hasta que solucionemos el problema. Tendremos que revisar el ordenador central y ejecutar un diagnóstico completo.
+
+
+        <Token.Title=MiscText00>.
+    - Language: French
+      String: >-
+        Le <Alias=DerelictShipName> a été touché par des débris alors que l'équipage dormait. La collision a réveillé tout le monde, mais ça n'était que le début.
+
+
+        Après avoir tout inspecté, nous avons découvert une fuite de gaz corrosif près du cockpit. Apparemment, nous allons rester dans le système <Alias=targetSystem> jusqu'à ce que nous trouvions une solution au problème. Il va falloir aller sur l'ordinateur central pour lancer un diagnostic complet du vaisseau.
+
+
+        <Token.Title=MiscText00>
+    - Language: Italian
+      String: >-
+        La <Alias=DerelictShipName> è stata colpita da alcuni detriti durante il turno di riposo. La collisione ha scosso l’intero equipaggio, ma è stato solo l’inizio del problema.
+
+
+        Dopo l’ispezione di questa mattina, abbiamo individuato una perdita corrosiva in prossimità della cabina di pilotaggio. Temo ci tocchi parcheggiare la nave nel sistema <Alias=targetSystem> finché non risolveremo il problema. Dobbiamo esaminare il mainframe ed eseguire un controllo diagnostico completo.
+
+
+        <Token.Title=MiscText00>
+    - Language: Japanese
+      String: >-
+        クルーが寝ていると、<Alias=DerelictShipName>にデブリが激突した。クルー全体に衝撃を及ぼしたそれは、単なる始まりに過ぎなかった
+
+
+        今朝の点検で、コックピット付近から腐食性ガスの漏れが見つかったのだ。どうやら、問題が片付くまでは船を<Alias=targetSystem>星系に停泊させることになりそうだ。メインフレームコンピューターを調べて、詳細な分析を行おう
+
+
+        <Token.Title=MiscText00>
+    - Language: Polish
+      String: >-
+        Nasz statek, <Alias=DerelictShipName>, został trafiony przez kosmiczne śmieci, kiedy załoga spała. Zderzenie wstrząsnęło wszystkimi jej członkami, ale to był zaledwie początek.
+
+
+        Po porannej inspekcji znaleźliśmy nieopodal kokpitu wyciek żrącej substancji. Wygląda na to, że musimy zatrzymać się w układzie <Alias=targetSystem>, dopóki nie zajmiemy się tym problemem. Będzie trzeba sprawdzić główny komputer i przeprowadzić pełną diagnostykę.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Portuguese_Brazil
+      String: >-
+        <Alias=DerelictShipName> foi atingida por destroços enquanto a tripulação dormia. A colisão abalou todo mundo, mas isso foi só o começo.
+
+
+        Após uma inspeção hoje de manhã, encontramos um vazamento corrosivo perto da cabine. Parece que vamos estacionar a nave no sistema <Alias=targetSystem> até lidarmos com o problema. Vamos ter que verificar o computador mainframe e fazer um diagnóstico completo.
+
+
+        <Token.Title=MiscText00>.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 4
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 2
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Schäden an der <Alias=DerelictShipName> '
+    - Language: English
+      String: 'Damage to the <Alias=DerelictShipName> '
+    - Language: Spanish
+      String: 'Daños en la <Alias=DerelictShipName> '
+    - Language: French
+      String: 'Notre <Alias=DerelictShipName> est endommagé '
+    - Language: Italian
+      String: 'Danni alla <Alias=DerelictShipName> '
+    - Language: Japanese
+      String: '<Alias=DerelictShipName>の破損 '
+    - Language: Polish
+      String: '<Alias=DerelictShipName> - uszkodzenia '
+    - Language: Portuguese_Brazil
+      String: 'Dano à <Alias=DerelictShipName> '
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000000008000000
+  ItemId: 15
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >+
+        Alles fing damit an, dass wir von Spacern angegriffen wurden. Ihr Schiff kam angesprungen, während wir gerade mit Routinewartungsarbeiten beschäftigt waren.<Token.Title=MiscText02>.
+
+
+        Die Schilde sind offline. Wir laufen zwar auf minimaler Energie, aber ohne unseren Antrieb werden wir erst mal eine Weile im <Alias=targetSystem>-System festhängen.
+
+
+        Wir leiten alles auf die Lebenserhaltungssysteme um, viel mehr können wir nicht tun. Jetzt hat das Schiff auch noch ein Leck entdeckt, aus dem giftiges Gas entweicht. Ich werde mir mal den Mainframe ansehen, vielleicht können wir die genaue Stelle lokalisieren.
+
+
+        <Token.Title=MiscText00>.
+    - Language: English
+      String: >+
+        This all started when we got attacked by Spacers. Their ship jumped in while we were doing routine maintenance. <Token.Title=MiscText02>. 
+
+
+        The shields are offline and power is minimal, but without engine support we're stuck in the <Alias=targetSystem> system for the foreseeable future.
+
+
+        We're funneling everything to the life support systems but there's only so much we can do. And now the ship's detecting a toxic gas leak. I'm going to check the mainframe computer and see if we can't pinpoint the source. 
+
+
+        <Token.Title=MiscText00>.
+    - Language: Spanish
+      String: >+
+        Todo empezó cuando nos atacaron los espacistas. Su nave se abalanzó sobre nosotros cuando realizábamos un mantenimiento rutinario. <Token.Title=MiscText02>. 
+
+
+        Los escudos están desactivados y estamos en mínimos de energía, pero sin motores operativos estaremos atrapados en el sistema de <Alias=targetSystem> un periodo indeterminado.
+
+
+        Estamos canalizando todo a los sistemas de soporte vital, pero no tenemos mucho margen. Y ahora la nave ha detectado una fuga de gas tóxico. Voy a comprobar el ordenador central a ver si puedo localizar su origen. 
+
+
+        <Token.Title=MiscText00>.
+    - Language: French
+      String: >-
+        Tout a commencé quand nous nous sommes fait attaquer par les spatiards. Leur vaisseau a surgi alors que nous procédions à de la maintenance de routine. <Token.Title=MiscText02>.
+
+
+        Les boucliers sont désactivés et la puissance est minimale, mais sans moteur, notre avenir proche se résume à être coincés dans le système <Alias=targetSystem>.
+
+
+        Nous redirigeons tout ce que nous pouvons aux systèmes de support de vie, mais ça n'est pas illimité. Et maintenant, le vaisseau détecte une fuite de gaz toxique. Je vais vérifier l'ordinateur central pour voir si je peux en localiser la source.
+
+
+        <Token.Title=MiscText00>
+    - Language: Italian
+      String: >+
+        È iniziato tutto quando gli spazianti ci hanno attaccato. La loro nave è apparsa dal nulla mentre eseguivamo la manutenzione di routine. <Token.Title=MiscText02>.
+
+
+        Gli scudi sono fuori uso e l’energia è ai minimi storici, ma senza il supporto dei motori siamo bloccati nel sistema <Alias=targetSystem>.
+
+
+        Stiamo reindirizzando la potenza verso i sistemi di supporto vitale, ma non possiamo fare più di tanto. E ora stiamo rilevando una perdita di gas tossico. Esaminerò il mainframe per vedere se riusciamo a individuarne la fonte.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Japanese
+      String: >+
+        すべてはスペーサーに襲われるところから始まった。定期整備を行っている最中に、奴らの船がジャンプして現れたのだ。<Token.Title=MiscText02>
+
+
+        シールドはオフラインで動力は最低限だがが、エンジンのサポートがなければ当面の間<Alias=targetSystem>星系に足止めを食らうことになる
+
+
+        今はすべてを生命維持システムに回しているが、できることには限りがある。そして、船からは有毒ガスが漏れ始めた。メインフレームコンピューターを調べて、発生源を特定できないか試してみるつもりだ
+
+
+        <Token.Title=MiscText00>
+    - Language: Polish
+      String: >+
+        Wszystko zaczęło się od ataku odrzutów. Ich statek pojawił się, kiedy przeprowadzaliśmy rutynową konserwację. <Token.Title=MiscText02>.
+
+
+        Osłony nie działają, zasilanie funkcjonuje na minimalnym poziomie, ale bez sprawnych silników utknęliśmy w układzie <Alias=targetSystem> chyba na dobre.
+
+
+        Kierujemy całą moc do systemów podtrzymywania życia, ale wiele nie możemy zdziałać. Teraz dodatkowo statek wykrył wyciek toksycznego gazu. Spróbuję za pomocą głównego komputera znaleźć jego źródło.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Portuguese_Brazil
+      String: >+
+        Tudo começou quando fomos atacados por siderais. A nave deles surgiu do nada enquanto fazíamos uma manutenção de rotina. <Token.Title=MiscText02>. 
+
+
+        Os escudos estão desativados, e a energia está no nível mínimo, mas, sem o suporte do motor, estamos presos no sistema <Alias=targetSystem> sabe-se lá por quanto tempo.
+
+
+        Estamos canalizando tudo para os sistemas de suporte vital, mas as soluções são limitadas. E agora a nave está detectando um vazamento de gás tóxico. Vou verificar o computador mainframe e ver se localizamos a fonte. 
+
+
+        <Token.Title=MiscText00>.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x020000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 5
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x020000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Schäden durch Asteroidenfeld
+    - Language: English
+      String: Damage from an asteroid field
+    - Language: Spanish
+      String: Daño de un campo de asteroides
+    - Language: French
+      String: Dégâts d'un champ d'astéroïdes
+    - Language: Italian
+      String: Danni da campo di asteroidi
+    - Language: Japanese
+      String: 小惑星帯による破損
+    - Language: Polish
+      String: Uszkodzenia przez pole asteroid
+    - Language: Portuguese_Brazil
+      String: Danos por um campo de asteroides
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000000008000000
+  ItemId: 16
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >+
+        Der <Alias.CurrentName=DerelictCaptain> hat den Verstand verloren. Zuerst hatten wir mit Verspätungen zu kämpfen. Um diese wieder reinzuholen, hat der <Alias.Pronoun=DerelictCaptain> uns eine sogenannte Abkürzung durch ein Asteroidenfeld nehmen lassen, und jetzt zahlen wir den Preis dafür.
+
+
+        Das Problem sind nicht nur die Schäden, die wir finden, sondern die ganzen Systeme, die gerade so noch laufen aber jeden Moment abstürzen könnten. Sobald wir wieder zu Hause sind, werde ich eine vollständige Überprüfung des Schiffs vorschlagen. Ich hoffe nur, dass es dafür noch nicht zu spät ist.
+
+    - Language: English
+      String: >+
+        The <Alias.CurrentName=DerelictCaptain>'s lost their mind. First there were the delays. Then to make up for it, <Alias.Pronoun=DerelictCaptain> had us take a so-called shortcut through the asteroid field, and now we're paying for it in spades. 
+
+
+        It's not just the damage we can detect, it's all the systems that are still functioning but on the verge of collapse. I'm going to propose a full audit of the ship once we get back home. I just hope it's not too late for that.
+
+    - Language: Spanish
+      String: >+
+        La persona al mando ha perdido la razón. Primero vinieron los retrasos. Luego, para compensarlos, nos hizo tomar un supuesto atajo a través de un campo de asteroides. Ahora estamos pagando las consecuencias. 
+
+
+        No es solo el daño que hemos detectado, es que los sistemas siguen funcionando pero están al borde del colapso. Voy a proponer un chequeo completo de la nave, cuando volvamos a casa. Espero que no sea demasiado tarde.
+
+    - Language: French
+      String: >+
+        Le <Alias.CurrentName=DerelictCaptain> a perdu l'esprit. D'abord les retards, ensuite un soi-disant raccourci à travers le champ d'astéroïdes pour rattraper le temps perdu. Et maintenant, nous payons le prix fort. 
+
+
+        Il n'y a pas que les dégâts détectés, il y a aussi tous les systèmes qui fonctionnent encore, mais sont à deux doigts de lâcher. Une fois rentré, je proposerai un audit complet du vaisseau. J'espère simplement que ça ne sera pas trop tard.
+
+    - Language: Italian
+      String: >+
+        Il <Alias.CurrentName=DerelictCaptain> ha perso il senno. Prima ci sono stati i ritardi, poi, per rimediare, ci ha costretti a prendere una fantomatica scorciatoia attraverso un campo di asteroidi, e ora ne stiamo pagando le conseguenze.
+
+
+        E non parlo solo dei danni superficiali, ma di tutti i sistemi di bordo ormai sull’orlo del collasso. Proporrò una revisione completa della nave una volta rientrati in porto. Sempre se ce la facciamo.
+
+    - Language: Japanese
+      String: >+
+        <Alias.CurrentName=DerelictCaptain>は乱心してしまった。遅延が発生してしまったため、それを埋め合わせるために<Alias.Pronoun=DerelictCaptain>は私たちに小惑星帯を通過する近道とやらを取らせたのだ。そして、今その大きなツケを支払うことになってしまった
+
+
+        問題は損傷だけではない、機能中のシステムもすべて崩壊間近となっている。本部へ帰還できたら、船の全面監査を提案しよう。すでに手遅れでないことを願うばかりだ
+
+    - Language: Polish
+      String: >+
+        <Alias.CurrentName=DerelictCaptain> ma chyba nie po kolei w głowie. Zaczęło się od opóźnień. Potem, by je nadrobić, zgodnie z rozkazem polecieliśmy tak zwanym skrótem przez pas asteroid, a teraz słono za to płacimy.
+
+
+        Wykrywamy nie tylko uszkodzenia, ale też to, że wszystkie nadal działające systemy są o krok od wyłączenia się. Zamierzam zaproponować po powrocie pełen audyt statku. Mam tylko nadzieję, że nie jest na to za późno.
+
+    - Language: Portuguese_Brazil
+      String: >+
+        <Alias.CurrentName=DerelictCaptain> perdeu a cabeça. Primeiro, aqueles atrasos. Depois, para compensar, <Alias.Pronoun=DerelictCaptain> nos fez pegar um chamado “atalho” pelo campo de asteroides, e agora estamos pagando por isso. 
+
+
+        O problema não é só o dano detectável, e sim todos os sistemas que ainda funcionam, mas que estão à beira do colapso. Vou propor uma vistoria completa da nave quando voltarmos pra casa. Só espero que não seja tarde demais.
+
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 5
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 1
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nachzügler aufgesammelt
+    - Language: English
+      String: Picked up some stragglers
+    - Language: Spanish
+      String: Hemos recogido a unos rezagados
+    - Language: French
+      String: Vous avez récupéré des survivants
+    - Language: Italian
+      String: Abbiamo raccolto gente in difficoltà
+    - Language: Japanese
+      String: 残党を数名回収した
+    - Language: Polish
+      String: Zgarnęliśmy trochę niedobitków
+    - Language: Portuguese_Brazil
+      String: Peguei uns retardatários
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000FF0008000000
+  ItemId: 17
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Der <Alias.CurrentName=DerelictCaptain> hat uns auf dem Weg nach <Alias=targetSystem> einen Notruf in einem benachbarten System untersuchen lassen. Nachdem wir an das Schiff angedockt hatten, haben wir ein paar Leute von der Crew aufgenommen. Die Wohlfahrt zu spielen, ist zwar nicht Teil der Missionsparameter, aber sie schienen wirklich in Not zu sein.
+
+
+        Tatsächlich beklagten sich einige darüber, seit <Token.Value=RandomInt01> Tagen nichts gegessen zu haben.
+
+
+        Das glaube ich ihnen sofort. Als ich einem von ihnen <Token.Name=MiscText03> angeboten geben wollte, hat er mir fast den Arm ausgerissen.
+    - Language: English
+      String: >-
+        The <Alias.CurrentName=DerelictCaptain> had us investigate a distress call in a neighboring system on our way to <Alias=targetSystem>. After docking with their ship, we ended up taking on some of the crew. It's not within mission parameters to take on charity cases, but they looked like they were in dire straits. 
+
+
+        In fact, a few them complained they hadn't eaten for <Token.Value=RandomInt01> days.
+
+
+        I believe it. I offered one of them a <Token.Name=MiscText03> and they nearly took my arm off grabbing it from my hand.
+    - Language: Spanish
+      String: >-
+        La persona al mando nos puso a investigar una llamada de socorro en un sistema cercano, de camino a <Alias=targetSystem>. Tras acoplarnos a su nave, acabamos acogiendo a parte de la tripulación. No entra dentro de los parámetros de la misión realizar obras de caridad, pero parecían estar pasándolo muy mal. 
+
+
+        De hecho, algunos se quejaban de no haber comido desde hacía <Token.Value=RandomInt01> días.
+
+
+        Me lo creo. Le ofrecí a uno de ellos comida —<Token.Name=MiscText03>— y casi me arranca el brazo al cogerla.
+    - Language: French
+      String: >-
+        Alors que nous étions en route pour <Alias=targetSystem>, le<Alias.CurrentName=DerelictCaptain> nous a déviés vers un système voisin pour examiner la source d'un signal de détresse. Après nous être amarrés au vaisseau, nous avons finalement récupéré certains membres de son équipage. Faire de la charité ne fait pas partie des paramètres de la mission, mais ils avaient l'air d'être dans de sales draps.
+
+
+        Certains se sont même plaints de ne pas avoir mangé depuis <Token.Value=RandomInt01> jours.
+
+
+        Je les crois. J'ai offert un morceau de <Token.Name=MiscText03> à l'un d'eux et il a bien failli m'emporter le bras dans sa hâte de me l'arracher des mains.
+    - Language: Italian
+      String: >-
+        Mentre ci dirigevamo verso <Alias=targetSystem>, il <Alias.CurrentName=DerelictCaptain> ha preteso che indagassimo su una richiesta di soccorso in un sistema vicino. Dopo aver attraccato con la nave in questione, abbiamo accolto a bordo alcuni membri dell’equipaggio. Sebbene la carità non rientri tra i nostri parametri di missione, sembravano in grave difficoltà.
+
+
+        Alcuni di loro lamentavano perfino di non aver mangiato per <Token.Value=RandomInt01> giorni.
+
+
+        Non fatico a credergli. Gli ho offerto qualche <Token.Name=MiscText03> e per poco non mi staccavano tutto il braccio.
+    - Language: Japanese
+      String: >-
+        <Alias.CurrentName=DerelictCaptain>により、<Alias=targetSystem>へ向かう途中に近隣星系で入った救難通信について調査するよう命じられた。彼らの船とドッキングしてから、向こうのクルー何人かを迎え入れることとなった。慈善活動は任務に含まれていないが、彼らはかなり困窮していたためだ
+
+
+        実際、何人かはもう<Token.Value=RandomInt01>日間何も食べていないと不平を漏らしていた
+
+
+        嘘ではないだろう。一人に<Token.Name=MiscText03>を与えてやると、私の腕を引きちぎらんばかりの勢いでつかみ取ったのだ
+    - Language: Polish
+      String: >-
+        W drodze do układu <Alias=targetSystem> odpowiedzieliśmy na wezwanie pomocy nieopodal - <Alias.CurrentName=DerelictCaptain> zawsze sprawdza w takiej sytuacji, co się dzieje. Po zadokowaniu do statku uratowaliśmy kilka osób z załogi. Taka pomoc nie mieści się w parametrach misji, ale ci ludzie naprawdę jej potrzebowali.
+
+
+        Narzekali nawet, że od <Token.Value=RandomInt01> dni nie mieli nic w ustach.
+
+
+        Wierzę. Kiedy jeden z nich zobaczył <Token.Name=MiscText03> w mojej wyciągniętej ręce, prawie mi ją urwał z łapczywości.
+    - Language: Portuguese_Brazil
+      String: >-
+        <Alias.CurrentName=DerelictCaptain> nos fez investigar um pedido de socorro em um sistema vizinho a caminho de <Alias=targetSystem>. Após acoplarmos na nave deles, acabamos assumindo parte da tripulação. Os parâmetros da missão não incluem assumir casos de caridade, mas eles pareciam estar numa situação terrível. 
+
+
+        Alguns reclamaram até que não comiam há <Token.Value=RandomInt01> dias.
+
+
+        Eu acredito neles. Ofereci <Token.Name=MiscText03> a um deles e quase arrancaram meu braço.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x020000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 5
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x020000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 2
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Seltsame Ereignisse
+    - Language: English
+      String: Odd happenings
+    - Language: Spanish
+      String: Sucesos extraños
+    - Language: French
+      String: Événements curieux
+    - Language: Italian
+      String: Strani avvenimenti
+    - Language: Japanese
+      String: 奇妙な出来事
+    - Language: Polish
+      String: Dziwne wydarzenia
+    - Language: Portuguese_Brazil
+      String: Acontecimentos estranhos
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000FF0008000000
+  ItemId: 18
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Es fing alles vor ungefähr <Token.Value=RandomInt00> Tagen mit diesen Kratzgeräuschen bei der Dockingschleuse an.
+
+
+        Ich dachte, es wären vielleicht Thermoparasiten oder einfach nur Geräusche, weil das Schiff so alt ist.
+
+
+        Aber jetzt spielen die internen Schiffssysteme verrückt. Ich frage mich, ob das, was das Geräusch verursacht hat, es vielleicht ins Innere geschafft hat.
+    - Language: English
+      String: >-
+        The whole thing started about <Token.Value=RandomInt00> days ago, with scratching noises by the docking port.
+
+
+        Thought it might've been heat leeches, or just the ship being old. 
+
+
+        But now the ship's internal systems are going haywire. I'm wondering if whatever that noise is, it's gotten inside.
+    - Language: Spanish
+      String: >-
+        Todo empezó hace unos <Token.Value=RandomInt00> días, con ruidos de arañazos en la zona del muelle.
+
+
+        Pensé que igual eran sanguijuelas térmicas, o que a la nave se le notaban los años. 
+
+
+        Pero ahora los sistemas internos se han vuelto locos. No sé lo que será ese ruido, pero se ha metido dentro.
+    - Language: French
+      String: >-
+        Tout a commencé il y a environ <Token.Value=RandomInt00> jours, avec des grattements vers le port d'amarrage.
+
+
+        Je me suis dit que ça devait être des calovores ou des bruits d'usure normaux vu l'âge du vaisseau.
+
+
+        Mais à présent, les systèmes internes du vaisseau deviennent fous. Je me demande si la source de ce bruit, quelle qu'elle soit, ne s'est pas infiltrée.
+    - Language: Italian
+      String: >-
+        Il tutto è iniziato circa <Token.Value=RandomInt00> giorni fa, con un rumore di graffi nei pressi del porto d’attracco.
+
+
+        Pensavo che potesse trattarsi di succhiavita, o semplicemente che la nave fosse vecchia.
+
+
+        Ma ora i sistemi di bordo stanno andando in tilt. Mi chiedo se qualunque cosa abbia prodotto quel rumore ora sia salita a bordo.
+    - Language: Japanese
+      String: >-
+        すべては<Token.Value=RandomInt00>日前に始まった。ドッキングポートの側から引っかき音が聞こえた時に
+
+
+        原因はヒートリーチかもしれないし、船の老朽化かもしれない
+
+
+        いずれにせよ、船の内部システムはめちゃくちゃになってしまった。あの音の主が中に入り込んでしまったのだろうか
+    - Language: Polish
+      String: >-
+        Wszystko zaczęło się <Token.Value=RandomInt00> dni temu - jakieś drapanie przy porcie dokowania.
+
+
+        Przeszło mi przez myśl, że to ciepłopijce albo po prostu daje o sobie znać wiek statku.
+
+
+        Teraz jednak systemy statku szaleją. Myślę sobie, że być może to, co robiło ten hałas, dostało się do środka.
+    - Language: Portuguese_Brazil
+      String: >-
+        Tudo começou <Token.Value=RandomInt00> dias atrás, com uns barulhos de arranhões perto do porto de acoplagem.
+
+
+        Pensei que eram termossugas, ou só umas engrenagens velhas. 
+
+
+        Mas agora os sistemas internos estão ficando malucos. O que quer que tenha sido o barulho, me pergunto se agora está dentro da nave.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 6
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Notsignal
+    - Language: English
+      String: Distress signal
+    - Language: Spanish
+      String: Señal de socorro
+    - Language: French
+      String: Signal de détresse
+    - Language: Italian
+      String: Segnale di soccorso
+    - Language: Japanese
+      String: 救難信号
+    - Language: Polish
+      String: Sygnał wezwania pomocy
+    - Language: Portuguese_Brazil
+      String: Pedido de socorro
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000CF5F08000000
+  ItemId: 19
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Der <Alias=DerelictCaptain> hat uns mitgeteilt, dass wir unseren Kurs geändert haben. Angesichts der Missionsparameter war das ziemlich ungewöhnlich, aber scheinbar haben wir einen Notruf von einem Schiff in der Nähe erhalten.
+
+
+        Leider war Schiff schon aufgegeben worden, als wir ankamen.
+
+
+        Das ist jetzt <Token.Value=RandomInt00> Tage her und wir arbeiten wieder ganz normal, aber irgendwas stimmt nicht. Es gab weder Kollisionen, noch sind wir durch irgendwelche Stürme durchgeflogen, und trotzdem scheint das Schiff beschädigt worden zu sein. Wir sollten einen Diagnosescan durchführen und die Wartungsprotokolle überprüfen. Vielleicht finden die Scans ja irgendwas.
+    - Language: English
+      String: >-
+        The <Alias=DerelictCaptain> notified us we were changing course. It was pretty unusual given the mission parameters, but apparently we got a distress hail from a nearby ship.
+
+
+        Unfortunately, by the time we got there, the ship was derelict. 
+
+
+        It's been <Token.Value=RandomInt00> days since, and we're back doing our jobs. But something's off. We haven't had any collisions or storms coming through, but there's been damage to the ship nonetheless. We should run a diagnostic and check the maintenance logs. The scans might detect something.
+    - Language: Spanish
+      String: >-
+        La persona al mando nos notificó que íbamos a variar el curso. Es algo inusual, dados los parámetros de la misión, pero al parecer recibimos una llamada de socorro de una nave cercana.
+
+
+        Por desgracia, cuando llegamos a su posición, ya era un pecio. 
+
+
+        Han transcurrido <Token.Value=RandomInt00> días desde entonces y hemos vuelto a nuestras tareas, pero hay algo extraño. No ha habido ninguna colisión ni tormenta, pero hay daños en la nave. Habrá que hacer diagnóstico y comprobar los registros de mantenimiento. Quizá un escaneo detecte algo.
+    - Language: French
+      String: >-
+        Le <Alias=DerelictCaptain> nous a prévenus que nous changions de cap. C'était assez inhabituel vu les paramètres de la mission, mais nous avions apparemment reçu le signal de détresse d'un vaisseau non loin.
+
+
+        Malheureusement, le temps qu'on l'atteigne, le vaisseau était déjà abandonné.
+
+
+        Ça fait maintenant <Token.Value=RandomInt00> jours, et nous sommes retournés à nos tâches habituelles, mais quelque chose cloche. Nous n'avons rien percuté ni rencontré de tempêtes, mais le vaisseau montre quand même des dégâts. Nous devrions lancer un diagnostic et vérifier les journaux de maintenance. Le scanner détectera peut-être quelque chose.
+    - Language: Italian
+      String: >-
+        Il <Alias=DerelictCaptain> ci ha comunicato un cambio di rotta. È stato piuttosto insolito, considerati i parametri della missione, ma a quanto pare abbiamo ricevuto una richiesta di soccorso da una nave nelle vicinanze.
+
+
+        Purtroppo, quando siamo arrivati, la nave era già in stato di abbandono.
+
+
+        Da allora sono passati <Token.Value=RandomInt00> giorni e siamo tornati a occuparci dei nostri incarichi. Ma c’è qualcosa che non mi torna. Non ci sono state collisioni né tempeste, eppure la nostra nave risulta danneggiata. Dovremmo eseguire una diagnostica e controllare i registri di manutenzione. Le scansioni potrebbero dirci di più.
+    - Language: Japanese
+      String: >-
+        <Alias=DerelictCaptain>が進路を変更すると知らせてきた。任務の要件からするとずいぶんと珍しいことだったが、どうやら付近の船から救難要請を受けたようだ
+
+
+        残念ながら、現場に着いた頃には船は遺棄船となっていた
+
+
+        あれから<Token.Value=RandomInt00>日が経過し、私たちは通常の業務に戻っている。だが、何かがおかしい。衝突にも嵐にも遭遇していないのに、船が損傷を被っているのだ。診断プログラムを実行して、整備ログを確認するべきだろう。スキャンすれば何かが検知されるかもしれない
+    - Language: Polish
+      String: >-
+        <Alias=DerelictCaptain> rozkazuje, my wykonujemy - zmieniliśmy kurs. To dość dziwne, biorąc pod uwagę parametry misji, ale dostaliśmy wezwanie pomocy od pobliskiego statku.
+
+
+        Niestety, kiedy dotarliśmy na miejsce, nie było tam już nikogo żywego.
+
+
+        To było <Token.Value=RandomInt00> dni temu. Teraz po prostu wykonujemy swoją pracę. Tyle że coś jest nie tak. Nie doszło do żadnych zderzeń, nie było burz, a statek mimo to jest uszkodzony. Trzeba przeprowadzić diagnostykę i sprawdzić dzienniki konserwacyjne. Skany mogą coś wykryć.
+    - Language: Portuguese_Brazil
+      String: >-
+        <Alias=DerelictCaptain> disse que estávamos mudando de rumo. Isso é bastante incomum, dados os parâmetros da missão, mas aparentemente recebemos um pedido de ajuda de uma nave próxima.
+
+
+        Infelizmente, quando chegamos lá, ela já estava abandonada. 
+
+
+        Isso já faz <Token.Value=RandomInt00> dias, e agora estamos de volta ao trabalho. Mas tem algo errado. Não tivemos nenhuma colisão ou tempestade, mas mesmo assim houve danos à nave. Deveríamos fazer um diagnóstico e verificar os registros de manutenção. Talvez as varreduras detectem algo.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x020000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 6
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x020000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 1
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Haustier-Kleinkreaturen
+    - Language: English
+      String: Pet critters
+    - Language: Spanish
+      String: Criaturas mascotas
+    - Language: French
+      String: Bestioles apprivoisées
+    - Language: Italian
+      String: Accarezzare le bestie
+    - Language: Japanese
+      String: ペットのクリッター
+    - Language: Polish
+      String: Udomowione stworzenia
+    - Language: Portuguese_Brazil
+      String: Bichos de estimação
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000CF5F08000000
+  ItemId: 20
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Wir haben ein paar Kleinkreaturen von dem Planeten mitgebracht, auf dem wir unsere Vorräte zuletzt aufgefüllt haben. Süße kleine Viecher, aber hungriger als sämtliche Xenofauna, die ich bisher gesehen habe.
+
+
+        Sie fressen praktisch alles. Ich habe ihnen <Token.Name=MiscText03> gegeben. Das war weg wie nichts.
+
+
+        Der <Alias.CurrentName=DerelictCaptain> sagt, wir sollen aufhören, sie zu füttern, aber ich sehe nicht, was das Problem dabei sein soll.
+    - Language: English
+      String: >+
+        We brought home some critters we picked up from the last planet we restocked at. Cute little things, but hungrier than any xenofauna I've ever encountered. 
+
+
+        They'll eat just about anything. I've been giving them <Token.Name=MiscText03> and they inhale it pretty quickly. 
+
+
+        The <Alias.CurrentName=DerelictCaptain> says to stop it but I don't see the harm.
+    - Language: Spanish
+      String: >+
+        Hemos traído algunas criaturas que recogimos en el último planeta en el que nos reabastecimos. Son muy monas, pero tienen más hambre que ningún ejemplar de xenofauna que haya visto antes. 
+
+
+        Comen de todo. He intentado darles <Token.Name=MiscText03> y lo inhalan rápidamente. 
+
+
+        La persona al mando dice que no lo hagamos, pero no veo por qué no.
+    - Language: French
+      String: >+
+        Nous avons ramené des créatures de la dernière planète sur laquelle nous avons refait le plein. Des trucs vraiment mignons, mais plus affamés que n'importe quelle xénofaune que j'ai jamais vue.
+
+
+        Ils mangent tout et n'importe quoi. Je leur ai donné des morceaux de <Token.Name=MiscText03> et ils les descendent en moins de deux.
+
+
+        Le <Alias.CurrentName=DerelictCaptain> m'a dit d'arrêter, mais je ne vois pas où est le problème.
+    - Language: Italian
+      String: >+
+        Abbiamo riportato alla base alcune creature prelevate dall’ultimo pianeta in cui abbiamo fatto rifornimento. Bestiole adorabili, ma più affamate di qualsiasi xenofauna abbia mai incontrato.
+
+
+        Mangiano praticamente di tutto. Assimilano piuttosto bene <Token.Name=MiscText03> e altri prodotti simili.
+
+
+        Il <Alias.CurrentName=DerelictCaptain> dice di smetterla, ma non ci vedo nulla di male.
+    - Language: Japanese
+      String: >+
+        前回補給をした惑星でいくつか生物を拾い、持ち帰った。可愛らしい小動物だが、これまでに遭遇したどんな異星動物相よりも食欲が旺盛だ
+
+
+        なんだって食べてしまう。<Token.Name=MiscText03>を与えているが、すぐに飲み込んでしまうのだ
+
+
+        <Alias.CurrentName=DerelictCaptain>はやめるよう言ってくるが、特に害があるとは思えない
+    - Language: Polish
+      String: >+
+        Przywieźliśmy ze sobą z ostatniej planety, na której uzupełnialiśmy zapasy, trochę zwierzaków. Śliczne istotki, ale bardziej żarłoczne niż jakakolwiek znana mi ksenofauna.
+
+
+        Są gotowe zjeść wszystko - <Token.Name=MiscText03> znika przy nich w moment.
+
+
+        <Alias.CurrentName=DerelictCaptain> mówi, by przestać je karmić, ale nie wiem, w czym mogłoby to zaszkodzić.
+    - Language: Portuguese_Brazil
+      String: >+
+        Trouxemos pra casa uns bichinhos que pegamos no último planeta em que reabastecemos. Umas coisinhas bonitinhas, mas mais famintas que qualquer xenofauna que já vi. 
+
+
+        Eles comem quase tudo. Tenho dado <Token.Name=MiscText03>, que eles inalam de uma só vez. 
+
+
+        <Alias.CurrentName=DerelictCaptain> diz para eu parar, mas não vejo por quê.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 6
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 2
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: <Alias=Robots[0]> verhalten sich seltsam
+    - Language: English
+      String: <Alias=Robots[0]>s are acting strangely
+    - Language: Spanish
+      String: Los modelos <Alias=Robots[0]> actúan de forma extraña
+    - Language: French
+      String: Les <Alias=Robots[0]>s ont un comportement étrange
+    - Language: Italian
+      String: I <Alias=Robots[0]> si comportano in modo bizzarro
+    - Language: Japanese
+      String: <Alias=Robots[0]>が奇妙な行動をしている
+    - Language: Polish
+      String: Maszyny typu <Alias=Robots[0]> dziwnie się zachowują
+    - Language: Portuguese_Brazil
+      String: <Alias=Robots[0]>s agindo estranho
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000F75F08000000
+  ItemId: 21
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Die Sonneneruption scheint die Systeme durcheinandergebracht zu haben. Die Fehler haben sich auch auf die Roboter an Bord ausgeweitet.
+
+
+        Alles, was mir aufgefallen ist, habe ich aufgeschrieben – vom Ignorieren von Befehlen bis zur fehlerhaften Ausführung einfacher Tätigkeiten.
+
+
+        Ich denke, es wäre das Beste, ihre Systeme einmal herunterzufahren und neu zu kalibrieren, aber der <Alias.CurrentName=DerelictCaptain> denkt, dass wir sie brauchen, um mit den Reparaturen fertig zu werden. Ich müsste ziemlich bald befördert werden, daher werde ich mich sicher nicht mit <Alias.PronounObj=DerelictCaptain> streiten oder irgendwelche Einwände vorbringen. Sorgen mache ich mir natürlich trotzdem.
+    - Language: English
+      String: >-
+        The solar flare seems to have done a number on the systems. Worse yet, the bug's extended to the robot personnel on board.
+
+
+        I've documented some of what I've noticed, from ignoring commands to botching basic tasks.
+
+
+        I'm thinking it may be wise to have their systems shut down and recalibrated, but the <Alias.CurrentName=DerelictCaptain> feels we need their support to finish the repairs. I'm due for a promotion soon, so I'm not going to argue with <Alias.PronounObj=DerelictCaptain> or raise any further objections. But that doesn't mean I'm not worried.
+    - Language: Spanish
+      String: >-
+        La llamarada solar parece haber estropeado unos cuantos sistemas. Lo peor que es que parece haberse contagiado a los robots de a bordo.
+
+
+        He documentado los fenómenos que he observado, desde ignorar órdenes a pifiarla en tareas básicas.
+
+
+        Creo que lo mejor es apagar y recalibrar sus sistemas, pero la persona al mando dice necesitar su apoyo para completar las reparaciones. Estoy a punto de conseguir un ascenso, así que no pienso llevarle la contraria, ni poner objeciones, pero eso no elimina mi preocupación.
+    - Language: French
+      String: >-
+        L'éruption solaire semble avoir grillé les systèmes. Pire encore, les problèmes se sont étendus au personnel robotisé à bord.
+
+
+        J'ai documenté ce que j'ai pu remarquer, ils ignorent les commandes ou bâclent les tâches de base.
+
+
+        Il serait peut-être plus sage de désactiver et recalibrer leurs systèmes, mais le <Alias.CurrentName=DerelictCaptain> pense que nous avons besoin de leur aide pour terminer les réparations. J'attends ma promotion, alors je ne le contredirai pas. Mais l'inquiétude me ronge malgré tout.
+    - Language: Italian
+      String: >-
+        L’eruzione solare sembra aver danneggiato i sistemi. Peggio ancora, il bug si è esteso al personale robotico di bordo.
+
+
+        Ho documentato alcune delle problematiche, dall’ignorare i comandi al fallire le operazioni di base.
+
+
+        Penso che sarebbe saggio spegnere e ricalibrare i loro sistemi, ma il <Alias.CurrentName=DerelictCaptain> ritiene il loro supporto essenziale per completare le riparazioni. A breve riceverò una promozione, quindi non intendo discutere con <Alias.PronounObj=DerelictCaptain> né sollevare ulteriori obiezioni. Ma la mia preoccupazione resta.
+    - Language: Japanese
+      String: >-
+        ソーラーフレアがシステムに大打撃を与えたようだ。さらにまずいことに、バグは船に搭載されているロボットたちにまで広まってしまった
+
+
+        命令の無視から基本的タスクのしくじりまで、気づいたことをいくつか文書にまとめておいた
+
+
+        私は彼らのシステムをシャットダウンして再調整したほうがいいと考えているが、<Alias.CurrentName=DerelictCaptain>は修理には彼らの助けが必要だと思っている。私は昇進を控えているので、<Alias.PronounObj=DerelictCaptain>に口答えをしたりこれ以上反対意見を出すつもりはない。とはいえ、心配は残る
+    - Language: Polish
+      String: >-
+        Rozbłysk słoneczny zrobił z naszych systemów niezłą kaszankę. Co gorsza, błędy dotknęły też robotów na pokładzie.
+
+
+        Mam dokumentację części z zauważonych problemów - od ignorowania komend po błędne wykonywanie podstawowych zadań.
+
+
+        Myślę, że najrozsądniej będzie wyłączyć i skalibrować ich systemy, ale <Alias.CurrentName=DerelictCaptain> upiera się, że potrzebujemy ich pomocy do dokończenia napraw. Niedługo czeka mnie awans, więc nie będę się kłócić ani zgłaszać sprzeciwu. Ale nie oznacza to, że się nie martwię.
+    - Language: Portuguese_Brazil
+      String: >-
+        O clarão solar parece ter debilitado os sistemas. O pior é que o bug se estendeu ao tripulantes robôs a bordo.
+
+
+        Eu documentei um pouco do que observei neles, desde ignorar comandos até falhar em tarefas básicas.
+
+
+        Ando pensando se não seria inteligente desligar e recalibrar seus sistemas, mas <Alias.CurrentName=DerelictCaptain> acha que precisamos da ajuda deles para terminar os reparos. E eu estou prestes a ganhar uma promoção, então não vou discutir com <Alias.PronounObj=DerelictCaptain> ou fazer mais objeções. Mas isso não significa que eu não tenha minhas preocupações.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x020000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 7
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x020000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Netzwerkfehler?
+    - Language: English
+      String: Network errors?
+    - Language: Spanish
+      String: ¿Errores de red?
+    - Language: French
+      String: Des erreurs réseau ?
+    - Language: Italian
+      String: Errori di rete?
+    - Language: Japanese
+      String: ネットワークエラー？
+    - Language: Polish
+      String: Błędy sieciowe?
+    - Language: Portuguese_Brazil
+      String: Erros de rede?
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000E87F08000000
+  ItemId: 22
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Seit dem Unfall machen die Netzwerksysteme an Bord ständig Probleme.
+
+
+        Das Technikpersonal versucht, herauszufinden, was los ist, aber die Maschinen haben schon mit einfachen Befehlen Schwierigkeiten. Wir durchforsten gerade die Handbücher, um eine Lösung zu finden.
+
+
+        <Token.Title=MiscText00>.
+    - Language: English
+      String: >-
+        Ever since the accident we've been having trouble with the network systems on board. 
+
+
+        The technicians are looking into it but the machines are having trouble responding to basic commands. Right now we're poring over the handbooks looking for a solution.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Spanish
+      String: >-
+        Desde el accidente, estamos teniendo problemas con los sistemas de red de abordo. 
+
+
+        Los técnicos están investigándolo, pero las máquinas no responden a los comandos básicos. Ahora mismo, estamos revisando los manuales en busca de una solución.
+
+
+        <Token.Title=MiscText00>.
+    - Language: French
+      String: >-
+        Depuis l'accident, nous rencontrons un tas de problèmes avec les systèmes réseau à bord.
+
+
+        Les techniciens sont sur le coup, mais les machines ne répondent presque plus aux commandes de base. Pour le moment, nous cherchons une solution dans les manuels.
+
+
+        <Token.Title=MiscText00>
+    - Language: Italian
+      String: >-
+        Fin dall’incidente abbiamo avuto problemi coi sistemi di rete di bordo.
+
+
+        I tecnici stanno indagando, ma le macchine faticano a rispondere persino ai comandi di base. Stiamo consultando i manuali alla ricerca di una soluzione.
+
+
+        <Token.Title=MiscText00>
+    - Language: Japanese
+      String: >-
+        事故以来、搭載されたネットワークシステムに問題が発生している
+
+
+        技師たちが原因を調査中だが、マシンは基本的な命令に反応していない模様だ。現在、私たちはハンドブックを熟読して解決策を探している
+
+
+        <Token.Title=MiscText00>
+    - Language: Polish
+      String: >-
+        Od momentu wypadku mamy kłopoty z systemami sieci pokładowej.
+
+
+        Technicy przyglądają się sprawie, niemniej maszyny mają problemy z reagowaniem nawet na najprostsze komendy. Przeglądamy obecnie podręczniki i szukamy jakiegoś rozwiązania.
+
+
+        <Token.Title=MiscText00>.
+    - Language: Portuguese_Brazil
+      String: >-
+        Desde o acidente, temos tido problemas com os sistemas de rede a bordo. 
+
+
+        Os técnicos estão investigando, mas as máquinas não estão respondendo direito a comandos básicos. Estamos buscando desesperadamente uma solução nos manuais.
+
+
+        <Token.Title=MiscText00>
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 7
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 1
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Reparaturassistenz-<Alias=Robots[0]>
+    - Language: English
+      String: <Alias=Robots[0]>s to help with repairs
+    - Language: Spanish
+      String: Modelos <Alias=Robots[0]> para ayudar en las reparaciones
+    - Language: French
+      String: Les <Alias=Robots[0]>s vous aident à réparer
+    - Language: Italian
+      String: <Alias=Robots[0]> per aiutare con le riparazioni
+    - Language: Japanese
+      String: <Alias=Robots[0]>が修理を支援
+    - Language: Polish
+      String: maszyny typu <Alias=Robots[0]>, aby pomogły w naprawie
+    - Language: Portuguese_Brazil
+      String: <Alias=Robots[0]>s para ajudar com reparos
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000000008000000
+  ItemId: 23
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Das Navigationssystem ist aufgrund von <Token.Title=MiscText01> in der Nähe völlig durcheinander.
+
+
+        Der <Alias.CurrentName=DerelictCaptain> hat bereits den Abbruch der Mission eingeleitet, aber es ist fraglich, ob das angesichts des aktuellen Zustands der Grav-Systeme überhaupt etwas nützt.
+
+
+        Ich werde in der Zwischenzeit ein paar Einheiten der Robotercrew hochfahren, damit sie uns helfen, die Systeme wieder online zu kriegen. Hoffentlich haben sie den Sturm unbeschadet überstanden.
+    - Language: English
+      String: >-
+        The ship's navigational system's completely messed up right now thanks to the nearby <Token.Title=MiscText01>.
+
+
+        The <Alias.CurrentName=DerelictCaptain>'s started the process of aborting the mission, but with the grav systems in disrepair it might be a moot point. 
+
+
+        In the meantime, I'm going to fire up some of the robot crew to help us getting some of these systems online. Hopefully they weren't damaged in the storm.
+    - Language: Spanish
+      String: >-
+        <Token.Title=MiscText01>. El motivo por el que los sistemas de navegación de la nave se han vuelto totalmente locos.
+
+
+        La persona al mando ha empezado el proceso de abortar la misión, pero los sistemas de gravedad en mal estado pueden ser una traba. 
+
+
+        Mientras tanto, voy a conectar algunos robots para que nos ayuden a recuperar algunos de esos sistemas. Esperemos que la tormenta no los dañase.
+    - Language: French
+      String: >-
+        Le système de navigation du vaisseau est complètement HS grâce au <Token.Title=MiscText01> proche.
+
+
+        Le <Alias.CurrentName=DerelictCaptain> a lancé le processus d'abandon de la mission, mais le mauvais état du système d'astroportation pourrait rendre la chose compliquée. 
+
+
+        En attendant, je vais mettre l'équipage robotique sur le coup histoire de réactiver les systèmes. Espérons qu'ils n'aient pas été endommagés par la tempête.
+    - Language: Italian
+      String: >-
+        Sistema di navigazione della nave integralmente fuori uso. Causa: prossimità <Token.Title=MiscText01>.
+
+
+        Il <Alias.CurrentName=DerelictCaptain> ha avviato il processo di abbandono della missione, ma con i sistemi gravitazionali in cattivo stato, potrebbe essere un tentativo vano.
+
+
+        Nel frattempo, attiverò parte dei robot di bordo per aiutarci a ripristinare alcuni dei succitati sistemi, sperando che la tempesta non li abbia danneggiati irreparabilmente.
+    - Language: Japanese
+      String: >-
+        本船の航行システムは近くにある<Token.Title=MiscText01>のせいで、完全におかしくなってしまった
+
+
+        <Alias.CurrentName=DerelictCaptain>は任務中断のプロセスを開始したが、グラヴ・システムが破損している以上、無駄なあがきになるかもしれない
+
+
+        その間、私はロボットクルーを数体起動し、いくつかのシステムをオンラインに戻してみようと思う。嵐のせいで損傷していなければいいのだが
+    - Language: Polish
+      String: >-
+        <Token.Title=MiscText01> jest przyczyną, dla której system nawigacyjny statku kompletnie się posypał.
+
+
+        <Alias.CurrentName=DerelictCaptain> prowadzi procedurę przerwania misji, lecz uszkodzenie systemów grawitacyjnych może oznaczać, że to strata czasu.
+
+
+        W międzyczasie uruchomię część robotów, by pomogły w przywracaniu sprawności części z tych systemów. Miejmy nadzieję, że burza ich nie uszkodziła.
+    - Language: Portuguese_Brazil
+      String: >-
+        O sistema de navegação da nave está completamente bagunçado neste momento. <Token.Title=MiscText01> nas proximidades.
+
+
+        <Alias.CurrentName=DerelictCaptain> iniciou o abortamento da missão, mas, com os sistemas grav se desintegrando, talvez não adiante de nada. 
+
+
+        Enquanto isso, vou ativar uns tripulantes robôs para nos ajudar a recuperar alguns dos sistemas. Espero que eles não tenham sido danificados na tempestade.
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AE:Starfield.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010000
+    Unknown2: 16669
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 37E1AD:Starfield.esm
+    ComparisonValue: 7

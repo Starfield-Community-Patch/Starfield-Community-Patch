@@ -342,6 +342,22 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17623
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 092A86:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17623
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 27DF95:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
         Unknown1: 0x000000
         Unknown2: 17620
         Data:

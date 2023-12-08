@@ -1,0 +1,104 @@
+FormKey: 03614C:Starfield.esm
+EditorID: Drink_Alc_Boxed_RedHarvest_WhiskeySingleMalt
+ObjectBounds:
+  First: -0.051879883, -0.023651123, 0
+  Second: 0.051879883, 0.023651123, 0.14038086
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 091C34:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Red Harvest: Single-Malt-Whiskey'
+  - Language: English
+    String: Red Harvest Single Malt Whiskey
+  - Language: Spanish
+    String: Whiskey de malta simple Red Harvest
+  - Language: French
+    String: Whisky single malt Red Harvest
+  - Language: Italian
+    String: Whisky a malto singolo Red Harvest
+  - Language: Japanese
+    String: レッド・ハーベストのシングルモルトウィスキー
+  - Language: Polish
+    String: Whiskey single malt Red Harvest
+  - Language: Portuguese_Brazil
+    String: Uísque Malte Único Red Harvest
+Keywords:
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+- 14253C:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragedrinkpack_redh_singlem_whiskey.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 9c0b4bd9-94a3-2830-95b8-a81a1a60e791
+DropdownSound:
+  Start: 9f4d405b-17a2-133b-d6b8-9f02bc4afa91
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein milder raffinierter Single-Malt-Whiskey von Red Harvest.
+  - Language: English
+    String: A smooth, sophisticated single malt whiskey, brewed by Red Harvest.
+  - Language: Spanish
+    String: Un whiskey de malta simple suave y sofisticado, elaborado por Red Harvest.
+  - Language: French
+    String: Un whisky single malt doux et sophistiqué, élaboré par Red Harvest.
+  - Language: Italian
+    String: Un whisky a malto singolo dal gusto morbido e sofisticato, prodotto da Red Harvest.
+  - Language: Japanese
+    String: 飲みやすく、洗練されたシングルモルトのウィスキー。レッド・ハーベストの醸造によるもの
+  - Language: Polish
+    String: Gładka i wyrafinowana whiskey single malt produkowana przez Red Harvest.
+  - Language: Portuguese_Brazil
+    String: Um uísque suave e sofisticado de malte único, feito na Red Harvest.
+Resources:
+- Resource: 29B02D:Starfield.esm
+  Count: 1
+Weight: 0.3
+Value: 240
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: f96641c4-fd61-393a-cfc9-7f25fc5ae988
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BB407:Starfield.esm
+  Data:
+    Magnitude: 6
+    Duration: 300
+  Magnitude: 2B980C:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 4

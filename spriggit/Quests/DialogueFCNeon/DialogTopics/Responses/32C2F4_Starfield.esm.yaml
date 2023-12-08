@@ -1,0 +1,36 @@
+FormKey: 32C2F4:Starfield.esm
+Flags:
+  Flags:
+  - Random
+DialogGroup: 330385:Starfield.esm
+Responses:
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 6583083
+  TROTs:
+  - UnknownVoiceType: 01E25A:Starfield.esm
+    UnknownFloat: 10.000001
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Fertig? Gut.
+    - Language: English
+      String: Are we done? Good.
+    - Language: Spanish
+      String: ¿Ya está? Bien.
+    - Language: French
+      String: Vous avez fini ? Bien.
+    - Language: Italian
+      String: Abbiamo finito? Bene.
+    - Language: Japanese
+      String: 終わりか？ よし
+    - Language: Polish
+      String: To wszystko? Dobrze.
+    - Language: Portuguese_Brazil
+      String: Deu aqui? Que bom.
+  ScriptNotes: dismissive goodbye
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x905AA09D313AD801
+StartScenePhase: ''
+SubtitlePriority: Low

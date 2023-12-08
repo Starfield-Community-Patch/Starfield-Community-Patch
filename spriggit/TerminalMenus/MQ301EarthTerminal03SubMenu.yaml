@@ -1,0 +1,1024 @@
+FormKey: 0B11CF:Starfield.esm
+EditorID: MQ301EarthTerminal03SubMenu
+VirtualMachineAdapter:
+  ScriptFragments:
+    Script:
+      Name: Fragments:Terminals:TERM_MQ301EarthTerminal03Sub_000B11CF
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: AudioLogsQuest_MQ301_Earth06
+        Object: 2A805D:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: AudioLogsQuest_MQ301_Earth07
+        Object: 2A805C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: AudioLogsQuest_MQ301_Earth08
+        Object: 2A805B:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: AudioLogsQuest_MQ301_Earth09
+        Object: 2A805A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: AudioLogsQuest_MQ301_Earth10
+        Object: 2A8059:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ301
+        Object: 2A8001:Starfield.esm
+    Fragments:
+    - FragmentIndex: 1
+      Unknown2: 1
+      ScriptName: Fragments:Terminals:TERM_MQ301EarthTerminal03Sub_000B11CF
+      FragmentName: Fragment_TerminalMenu_01
+    - FragmentIndex: 2
+      Unknown2: 1
+      ScriptName: Fragments:Terminals:TERM_MQ301EarthTerminal03Sub_000B11CF
+      FragmentName: Fragment_TerminalMenu_02
+    - FragmentIndex: 3
+      Unknown2: 1
+      ScriptName: Fragments:Terminals:TERM_MQ301EarthTerminal03Sub_000B11CF
+      FragmentName: Fragment_TerminalMenu_03
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Zugangsstation-Logbücher
+  - Language: English
+    String: Access Station Logs
+  - Language: Spanish
+    String: Registros de acceso a estación
+  - Language: French
+    String: Accès aux journaux de la station
+  - Language: Italian
+    String: Accesso ai registri della stazione
+  - Language: Japanese
+    String: ステーションログにアクセス
+  - Language: Polish
+    String: Dostęp do logów stacji
+  - Language: Portuguese_Brazil
+    String: Registros da Estação de Acesso
+TMVT: 0x01000000
+DNAM: 0x00
+SNAM: 0x00000000
+INAM:
+  TargetLanguage: English
+BodyTexts:
+- Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        FEHLER – ARCHIVE BESCHÄDIGT. SYSTEMWIEDERHERSTELLUNG LÄUFT ...
+
+
+        ARCHIVE TEILWEISE WIEDERHERGESTELLT
+    - Language: English
+      String: >-
+        ERROR - ARCHIVES DAMAGED. RUNNING SYSTEM RECOVERY...
+
+
+        PARTIAL ARCHIVES RETRIEVED
+    - Language: Spanish
+      String: >-
+        ERROR: ARCHIVOS DAÑADOS. EJECUTANDO RECUPERACIÓN DEL SISTEMA...
+
+
+        ARCHIVOS PARCIALES RECUPERADOS
+    - Language: French
+      String: >-
+        ERREUR - ARCHIVES ENDOMMAGÉES. RÉCUPÉRATION SYSTÈME EN COURS...
+
+
+        ARCHIVES PARTIELLEMENT RESTAURÉES
+    - Language: Italian
+      String: >-
+        ERRORE - ARCHIVI DANNEGGIATI. ESECUZIONE RIPRISTINO DEL SISTEMA IN CORSO...
+
+
+        ARCHIVI INCOMPLETI RECUPERATI
+    - Language: Japanese
+      String: >-
+        エラー - アーカイブに損傷。システムリカバリーを実施…
+
+
+        アーカイブの一部を復旧
+    - Language: Polish
+      String: >-
+        BŁĄD - USZKODZENIE ARCHIWUM. TRWA ODZYSKIWANIE SYSTEMU...
+
+
+        ARCHIWA CZĘŚCIOWO ODTWORZONE
+    - Language: Portuguese_Brazil
+      String: >-
+        ERRO - ARQUIVOS DANIFICADOS. EXECUTANDO RECUPERAÇÃO DO SISTEMA...
+
+
+        ARQUIVOS PARCIALMENTE RECUPERADOS
+  UseTemplatedText: False
+MenuItems:
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 12. Februar 2149
+    - Language: English
+      String: February 12, 2149
+    - Language: Spanish
+      String: 12 de febrero de 2149
+    - Language: French
+      String: 12 février 2149
+    - Language: Italian
+      String: 12 febbraio 2149
+    - Language: Japanese
+      String: 2149年2月12日
+    - Language: Polish
+      String: 12 lutego 2149
+    - Language: Portuguese_Brazil
+      String: 12 de fevereiro de 2149
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000ABAB08000000
+  ItemId: 1
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Lan Hsu: Als wir an den Grav-Antrieb-Projekten gearbeitet hatten, war ich nie in euren Laboren.
+
+
+        Victor Aiza: Das ist eine gefühlte Ewigkeit her. Inzwischen schießen wir nur noch Wettersatelliten hoch.
+
+
+        Lan Hsu: Na ja, ist ein ganz akzeptabler Ruhestand. Und jetzt das Demeter-Projekt. Wir sollen mithelfen, Scanner zu bauen, die diese neuen meteorologischen Muster besser überwachen?
+
+
+        Judith Tatienne: Wir vermuten, dass die Pole sich auf natürlichem Wege verlagern, was zu Gravitationsschwankungen führt, die unsere alten Modelle überfordern.
+
+
+        Lan Hsu: Warum müssen die Scantoleranzen so gering sein? Was versucht ihr zu finden?
+
+
+        Victor Aiza: Ich ... will einfach sichergehen. Wir machen sowieso kaum mehr was. Die goldenen Zeiten sind vorbei. Also suchen wir uns eine Herausforderung, bevor man uns in die Geschichtsbücher verbannt.
+    - Language: English
+      String: >-
+        Lan Hsu: I never actually got to visit your labs back when we were working on the Grav Drive projects.
+
+
+        Victor Aiza: Seems like ancient history now. Only thing we're doing these days is launching weather satellites.
+
+
+        Lan Hsu: Guess this is as good a retirement as any. Now Project Demeter. You want our help manufacturing scanners to better track these new meteorological patterns we're seeing?
+
+
+        Judith Tatienne: Our guess is that the poles might be naturally shifting, causing some gravitational fluctuations that are throwing off our old models.
+
+
+        Lan Hsu: Why do you need the scanning tolerances to be so small? What are you trying to find?
+
+
+        Victor Aiza: I... just want to be sure. It's not like we're doing much these days, anyway. The glory days are over. Why not give ourselves a challenge before they write us off in the history books?
+    - Language: Spanish
+      String: >-
+        Lan Hsu: Nunca tuve ocasión de visitar vuestros laboratorios cuando trabajábamos en los proyectos de motores gravitacionales.
+
+
+        Victor Aiza: Ahora parece historia antigua. Hoy en día lo único que hacemos es lanzar satélites meteorológicos.
+
+
+        Lan Hsu: Supongo que no es mala jubilación. Ahora, hablemos del proyecto Deméter. ¿Queréis ayuda para fabricar escáneres que mejoren el seguimiento de estas nuevas tendencias meteorológicas que estamos observando?
+
+
+        Judith Tatienne: Creemos que los polos podrían estar desplazándose de forma natural y provocando fluctuaciones gravitacionales que confunden a nuestros modelos antiguos.
+
+
+        Lan Hsu: ¿Por qué necesitáis unas tolerancias de escaneo tan pequeñas? ¿Qué pretendéis encontrar?
+
+
+        Victor Aiza: Es que... quiero estar seguro. Ahora mismo tampoco es que hagamos gran cosa. Los días de gloria pasaron. ¿Por qué no plantearnos un reto antes de que nos borren de los libros de historia?
+    - Language: French
+      String: >-
+        Lan Hsu : Je me rends compte que je n'ai jamais visité vos laboratoires à l'époque où nous travaillions sur les projets d'astromoteurs.
+
+
+        Victor Aiza : C'est presque de l'histoire ancienne désormais. La seule chose que nous faisons aujourd'hui, c'est lancer des satellites météorologiques.
+
+
+        Lan Hsu : Une retraite comme une autre, je suppose. À propos du projet Demeterm vous avez besoin de notre aide pour concevoir des scanners qui suivront mieux ces nouveaux effets météorologiques que nous voyons ?
+
+
+        Judith Tatienne : Nous pensons que les pôles sont en train de s'inverser naturellement, provoquant des fluctuations gravitationnelles qui mettent à mal nos anciens modèles.
+
+
+        Lan Hsu : Pourquoi faut-il que les seuils de tolérance des scanners soient si bas ? Qu'essayez-vous de trouver ?
+
+
+        Victor Aiza : Je... veux juste être sûr. Ce n'est pas comme si nous faisions grand-chose en ce moment, de toute façon. Nos jours de gloire sont derrière nous. Pourquoi ne pas relever un petit défi avant qu'ils n'effacent nos noms des livres d'histoire ?
+    - Language: Italian
+      String: >-
+        Lan Hsu: Non ero mai riuscito a visitare i vostri laboratori nel periodo in cui lavoravamo al progetto del gravimotore.
+
+
+        Victor Aiza: Sembrano passati secoli. Ormai non facciamo altro che lanciare satelliti meteorologici.
+
+
+        Lan Hsu: Non male, in attesa del pensionamento. E ora il Progetto Demetra. Volete il nostro aiuto per produrre degli scanner in grado di analizzare con più accuratezza i nuovi schemi meteorologici che stanno emergendo?
+
+
+        Judith Tatienne: La nostra ipotesi è che i poli magnetici si stiano spostando per cause naturali, generando fluttuazioni gravitazionali che scompigliano i nostri vecchi modelli.
+
+
+        Lan Hsu: Perché avete bisogno di scanner con una tolleranza così bassa? Cosa pensate di trovare?
+
+
+        Victor Aiza: Voglio solo... essere sicuro. E poi... non è che abbiamo chissà cosa da fare. I giorni di gloria sono un ricordo del passato, ormai. Perché non porci un’ultima sfida, prima di essere cancellati dai libri di storia?
+    - Language: Japanese
+      String: >-
+        ラン・スー：グラヴ・ドライブプロジェクトに取り組んでた時、研究室には一度も入れてもらえなかったのに
+
+
+        ヴィクター・アイザー：今となっては大昔のことに思えるな。最近は気象衛星の打ち上げばかりだ
+
+
+        ラン・スー：まるで引退した気分だよ。さて、プロジェクト・デメテルについてだ。例の新しい気象パターンをもっと追跡するために、スキャナーの製造を手伝ってほしいということか？
+
+
+        ジュディス・タティエンヌ：ポールシフトが自然発生しつつあり、そのために重力の変動が発生し、従来のモデルが崩れ始めてるのかもしれないと思っているの
+
+
+        ラン・スー： どうしてスキャンの誤差をこれほど搾る必要がある？ 何を見つけようというんだ？
+
+
+        ヴィクター・アイザー：念のため... 確認しておきたいんだ。最近は特に何かをしているっていうわけでもないしな。栄光の日々は終わったんだ。歴史の遺物にされてしまう前に、挑戦してみようじゃないか
+    - Language: Polish
+      String: >-
+        Lan Hsu: Nigdy nie odwiedziłem waszego laboratorium, gdy pracowaliśmy nad napędem grawitonowym.
+
+
+        Victor Aiza: Wydaje się, jakby to była zamierzchła przeszłość. Teraz tylko wysyłamy na orbitę satelity pogodowe.
+
+
+        Lan Hsu: W sumie jest to jakiś pomysł na emeryturę. Projekt Demeter. Potrzebujecie naszej pomocy w produkcji skanerów, które będą lepiej śledziły te nowe meteorologiczne wzorce?
+
+
+        Judith Tatienne: Przypuszczamy, że naturalny ruch biegunów magnetycznych powoduje fluktuacje grawitacyjne, które zakłócają działanie dawnych modeli.
+
+
+        Lan Hsu: Dlaczego zależy wam na tak małym marginesie błędu? Co próbujecie znaleźć?
+
+
+        Victor Aiza: Ja... po prostu chcę się upewnić. W końcu i tak nie mamy już nic lepszego do roboty. Dni chwały przeminęły. Czemu nie podjąć się wyzwania, zanim skończymy jako wzmianka w podręcznikach historii?
+    - Language: Portuguese_Brazil
+      String: >-
+        Lan Hsu: Eu nem cheguei a visitar os laboratórios quando estávamos trabalhando nos projetos do Motor Grav.
+
+
+        Victor Aiza: Parece coisa de outra era. Só o que fazemos hoje em dia é lançar satélites meteorológicos.
+
+
+        Lan Hsu: Me soa como uma boa aposentadoria. Agora, o Projeto Deméter. Querem nossa ajuda pra produzir leitores para rastrear os novos padrões meteorológicos que estamos observando?
+
+
+        Judith Tatienne: Nossa hipótese é que os polos estão mudando naturalmente, e isso provoca flutuações gravitacionais que atrapalham os modelos antigos.
+
+
+        Lan Hsu: Por que quer margens de leitura tão pequenas? O que está tentando encontrar?
+
+
+        Victor Aiza: Eu... só quero ter certeza. A gente tá com tempo livre mesmo. Os dias de glória acabaram. Por que não nos propomos um desafio antes que encerrem esse capítulo da História?
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 21. August 2149
+    - Language: English
+      String: August 21, 2149
+    - Language: Spanish
+      String: 21 de agosto de 2149
+    - Language: French
+      String: 21 août 2149
+    - Language: Italian
+      String: 21 agosto 2149
+    - Language: Japanese
+      String: 2149年8月21日
+    - Language: Polish
+      String: 21 sierpnia 2149
+    - Language: Portuguese_Brazil
+      String: 21 de agosto de 2149
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000ABAB08000000
+  ItemId: 4
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        An: Judith Tatienne, Victor Aiza, Lan Hsu
+
+
+        Das Astrophysik-Forschungsteam hat wie gewünscht eine vollständige Analyse der Daten vorgenommen, die Sie uns haben zukommen lassen. Die Messungen der Magnetosphäre der Erde weisen klare Anzeichen von Fluktuation auf, oftmals in Korrelation zu Phasen häufig auftretender und großer Gravitationswellen-Spitzen, die ihren Ursprung auf dem Mond haben.
+
+
+        Diese Gravitationswellen scheinen das vom inneren Erdkern verursachte Magnetschild zu beeinflussen und, angesichts der Nähe der Quelle, vielleicht auch den Kern selbst. Die Daten weisen darauf hin, dass sich die Wechselrate exponentiell erhöht.
+
+
+        Mit der Schwächung unserer Magnetosphäre verringert sich auch ihre Fähigkeit, uns vor Sonnenwinden zu schützen. Jenseits der verheerenden Effekte der Sonneneinstrahlung führt dies auch zu etwas noch Fatalerem – der Zerstäubung, also dem Abbau unserer Atmosphäre. Dies ist zuvor schon auf dem Mars passiert, einem Planeten, der seit den frühen Tagen der Weltraumforschung studiert wird und einen Blick in die mögliche Zukunft der Erde erlaubt. Wir befürchten, dass diese Zukunft näher sein könnte, als wir uns es jemals hätten vorstellen können.
+
+
+        Manche mögen diese Daten als normal betrachten. Es gab früher bereits Fluktuationen und Polaritätswechsel des Erdkerns, aber dies hier ist um ein Vielfaches gewaltiger. Wir kennen die Debatten früherer Generationen um die globale Erwärmung, und wir wollen, dass die Wissenschaft hier deutlich ist. Wie Wellen im Ozean bauen sich diese Gravitationswellen auf und werden schließlich an der Küste, der Erde, anbranden, und zwar mit verheerenden Konsequenzen.
+
+
+        Dr. Luke Andrews
+
+        Leitender Wissenschaftler, ART
+    - Language: English
+      String: >-
+        To: Judith Tatienne, Victor Aiza, Lan Hsu
+
+
+        As requested, the Astrophysics Research Team has done a full analysis of the data you provided us. The measurements of the Earth's magnetosphere show clear signs of fluctuation, often in correlation to the periods of frequent and large gravity wave spikes emanating from the Moon.
+
+
+        These gravity waves seem to be affecting the magnetic shield provided by the Earth's inner core and may be affecting the core itself give the proximity to the source. The data indicates the change rate is increasing exponentially.
+
+
+        As our magnetosphere falters, its ability to protect us from the Sun's solar wind falters. Beyond the devastating effects of solar radiation, this will lead to something more dire - the sputtering, or stripping away, of our atmosphere. This has happened before, to Mars, a planet studied since the earliest days of space, to see into Earth's possible future. We are afraid this future may be closer than we ever thought imaginable.
+
+
+        Some may view this data as normal. There have been historical fluctuations and polarity changes of Earth's core, but this is orders of magnitude greater. We see echos of previous generation's debates over global warming, and we want the science here to be clear. Like waves in the ocean, these gravity waves rise and eventually crash into shore, the Earth, with devastating consequences.
+
+
+        Dr. Luke Andrews
+
+        ART Chief Scientist
+    - Language: Spanish
+      String: >-
+        Para: Judith Tatienne, Victor Aiza, Lan Hsu
+
+
+        Cumpliendo con lo solicitado, el equipo de investigación astrofísica ha sometido los datos que nos facilitasteis a un análisis exhaustivo. Las mediciones de la magnetosfera terrestre revelan claros indicios de fluctuación, a menudo asociados a periodos de grandes picos de ondas gravitacionales que proceden de la Luna.
+
+
+        Al parecer, estas ondas gravitacionales están haciendo mella en el escudo magnético que el núcleo de la Tierra genera y, dada la proximidad de su origen, podrían afectar al núcleo en sí. Los datos apuntan a que ese cambio se está acelerando de forma exponencial.
+
+
+        Si flaquea nuestra magnetosfera, flaqueará también la protección que nos brinda ante el viento solar. Además de exponernos a los efectos devastadores de la radiación solar, esto daría lugar a una catástrofe aún mayor: la atenuación y consiguiente extinción de nuestra atmósfera. Este fenómeno ya se produjo en Marte, planeta que estudiamos desde los albores de la era espacial a fin de pronosticar el posible futuro de la Tierra. Tememos que dicho futuro esté más cerca de lo que ni tan siquiera estimábamos imaginable.
+
+
+        A ojos de muchos, estos datos son normales; existen antecedentes demostrados de fluctuación y cambios en la polaridad del núcleo terrestre, pero nunca de la presente magnitud. Aún resuena el eco de los debates que la generación anterior a la nuestra mantuvo con respecto al calentamiento global, por lo que exigimos a la ciencia claridad y transparencia plenas: como las olas de un mar embravecido, estas ondas gravitacionales crecerán en intensidad y chocarán contra la costa, el planeta Tierra en este caso, con consecuencias desastrosas.
+
+
+        Dr. Luke Andrews
+
+        Científico jefe de ART
+    - Language: French
+      String: >-
+        À : Judith Tatienne, Victor Aiza, Lan Hsu
+
+
+        Comme demandé, l'équipe de recherche astrophysique a procédé à une analyse complète des données que vous nous avez fournies. Les mesures de la magnétosphère de la Terre montrent de nets signes de fluctuations, bien souvent en corrélation avec les périodes de gros pics gravitationnels fréquents qui émanent de la Lune.
+
+
+        Ces ondes gravitationnelles semblent affecter le bouclier magnétique du noyau de la Terre, et affectent peut-être le noyau lui-même étant donné leur proximité. Les données indiquent que la courbe de modification augmente de façon exponentielle.
+
+
+        Plus notre magnétosphère faiblit, plus sa capacité à nous protéger des vents solaires se réduit. Au-delà même des effets dévastateurs des radiations, cela risque d'entraîner une conséquence encore plus terrible : la pulvérisation, ou la dissolution, de notre atmosphère. C'est déjà arrivé auparavant, à Mars, une planète étudiée depuis les prémisses de la conquête spatiale pour tenter de prédire le futur de la Terre. Nous avons peur que ce futur soit d'ores et déjà bien plus proche que nous ne le pensions possible.
+
+
+        Certains considéreront peut-être ces données comme normales. Le noyau terrestre a déjà connu des fluctuations historiques et des changements de polarité, mais leur magnitude est ici bien plus grande. Nous revivons les échos des débats de la génération précédente sur le réchauffement climatique, et nous souhaitons donc que la science apporte des réponses claires. Comme les ondes de l'océan, ces ondes de gravité se lèvent pour venir s'écraser sur le rivage, la Terre, avec des conséquences dévastatrices.
+
+
+        Dr Luke Andrews
+
+        Responsable de l'équipe de recherche astrophysique
+    - Language: Italian
+      String: >-
+        A: Judith Tatienne, Victor Aiza, Lan Hsu
+
+
+        Come richiesto, la Squadra di Ricerca di Astrofisica ha effettuato un’analisi completa dei dati da voi forniti. Le misurazioni della magnetosfera terrestre mostrano evidenti segni di fluttuazioni, spesso correlate ai periodi di frequenti e alti picchi di onde gravitazionali provenienti dalla Luna.
+
+
+        Tali onde gravitazionali sembrano influenzare lo scudo magnetico fornito dal nucleo della Terra e, data la vicinanza della fonte, potrebbero avere effetti sul nucleo stesso. I dati indicano che il tasso di cambiamento sta aumentando in maniera esponenziale.
+
+
+        Se la nostra magnetosfera viene meno, anche la sua capacità di proteggerci dai venti solari viene meno. Tralasciando gli effetti devastanti della radiazione solare, questa eventualità porterebbe a qualcosa di ancora più terribile: la polverizzazione della nostra atmosfera. È già successo prima, a Marte, un pianeta studiato fin dalle prime esperienze nello spazio per prevedere il futuro della Terra. Temiamo che questo futuro sia più vicino di quanto potessimo immaginare.
+
+
+        Alcuni potrebbero considerare questi dati valori normali. Ci sono già state fluttuazioni e alterazioni della polarità del nucleo terrestre, ma qui parliamo di ordini di grandezza maggiori. Sentiamo gli echi dei dibattiti della generazione precedente in merito al riscaldamento globale e vogliamo che la scienza, in questo caso, sia chiara. Come quelle dell’oceano, queste onde gravitazionali si alzano e, inevitabilmente, si infrangeranno contro la costa, ossia la Terra. Con conseguenze devastanti.
+
+
+        Dott. Luke Andrews
+
+        Scienziato capo SRA
+    - Language: Japanese
+      String: >-
+        ジュディス・タティエンヌ、ヴィクター・アイザー、ラン・スーへ
+
+
+        要請に従って、君たちが提供してくれたデータは天体物理学研究チームが詳細分析を行った。地球磁気圏の観測結果を見ると、何らかの変動が起きていることは明白だ。特に、月から放出される重力波が高頻度で急激に強まる時期との相関が見られる。
+
+
+        この重力波は地球の内核から生じている磁気シールドに影響を及ぼしているようだが、放出源からの近さを踏まえると、内核自体にも影響を与えている可能性が高い。そして、この変動率は指数関数的に上昇していることがデータから読み取れる。
+
+
+        我々の磁気圏が弱まるということは、太陽風から我々を保護する能力が弱まることを意味する。これは太陽放射による壊滅的な被害だけでなく、もっと恐ろしい――地球の大気の一部が吹き飛ぶ、下手すると完全に剥ぎ取られてしまうようなことになりかねない。これは以前、火星でも起こったことだ。火星は地球の未来を見通すため、宇宙の最初期から研究されてきた惑星だが、我々はこの未来がこれまで想像してきた以上に近く訪れるのではないかと懸念している。
+
+
+        このデータに異常はないと見る者もいるかもしれない。地球の内核における歴史的な変動や極性の変化はこれまでもあったが、これは桁違いの規模だ。前の世代における地球温暖化をめぐる議論を見ているようだが、現代の科学は明らかなものであってほしい。この重力波は海の波のようにその高さを増し、いずれ海岸、つまり地球に押し寄せる。壊滅的な結果を伴って。
+
+
+        ART主任研究員
+
+        ルーク・アンドリュー博士
+    - Language: Polish
+      String: >-
+        Do: Judith Tatienne, Victor Aiza, Lan Hsu
+
+
+        Zespół Badań Astrofizycznych przeprowadził pełną analizę dostarczonych nam danych. Pomiary ziemskiej magnetosfery wykazują wyraźne oznaki fluktuacji, często w korelacji z okresami częstych i dużych skoków fal grawitacyjnych pochodzących z Księżyca.
+
+
+        Te fale grawitacyjne wydają się wpływać na osłonę magnetyczną zapewnianą przez jądro Ziemi i mogą też oddziaływać na samo jądro (biorąc pod uwagę to, jak blisko znajduje się ich źródło). Z danych wynika, że tempo zmian rośnie wykładniczo.
+
+
+        Wraz ze słabnięciem naszej magnetosfery słabnie jej zdolność do ochrony nas przed wiatrem słonecznym. Oprócz niszczycielskich skutków promieniowania słonecznego grozi nam też coś znacznie gorszego - utrata atmosfery. Zdarzyło się to już wcześniej na Marsie, planecie, którą badaliśmy od najwcześniejszych dni kosmicznej eksploracji, aby dowiedzieć się więcej o możliwej przyszłości Ziemi. Obawiamy się, że ta przyszłość może nastąpić szybciej, niż nam się wydawało.
+
+
+        Niektórzy mogą postrzegać te dane jako normalne. W przeszłości występowały już fluktuacje i zmiany biegunowości jądra Ziemi, ale to, co obserwujemy obecnie, jest o rzędy wielkości drastyczniejsze. Dostrzegamy echa debat poprzedniego pokolenia na temat globalnego ocieplenia i chcemy, aby po naukowej stronie nie było żadnych wątpliwości. Podobnie jak fale oceanu - fale grawitacyjne wznoszą się i ostatecznie uderzają w brzeg, czyli w Ziemię, niosąc ze sobą katastrofalne konsekwencje.
+
+
+        Doktor Luke Andrews
+
+        Kierownik naukowy ZBA
+    - Language: Portuguese_Brazil
+      String: >-
+        Para: Judith Tatienne, Victor Aiza, Lan Hsu
+
+
+        Como solicitado, a Equipe de Pesquisa em Astrofísica realizou a análise completa dos dados fornecidos. As medições da magnetosfera da Terra apresentam claros sinais de flutuação, frequentemente em correlação com os períodos de grandes e frequentes picos de ondas gravíticas que emanam da Lua.
+
+
+        Essas ondas gravíticas parecem estar afetando o escudo magnético fornecido pelo núcleo interno da Terra e podem estar afetando o próprio núcleo, considerando a proximidade da fonte. Os dados indicam que a taxa de alteração está aumentando exponencialmente.
+
+
+        A cada vez que a magnetosfera treme, sua capacidade de nos proteger do vento solar diminui. Além dos efeitos devastadores da radiação solar, isso pode levar a algo muito mais terrível: a crepitação, ou a dilaceração, da nossa atmosfera. Isso já aconteceu antes com Marte, um planeta estudado desde os primórdios da observação espacial para fins de revelar um possível futuro da Terra. Tememos que esse futuro esteja mais próximo do que pensávamos ser possível.
+
+
+        Algumas pessoas podem considerar esses dados normais. Historicamente, já houve flutuações e alterações de polaridade do núcleo da Terra, mas desta vez são de magnitudes muito maiores. Vemos ecos dos debates sobre o aquecimento global das gerações anteriores e queremos que a ciência aqui seja clara. Como as ondas do oceano, essas ondas gravíticas se elevam e acabam por quebrar na costa, a Terra, com consequências devastadoras.
+
+
+        Dr. Luke Andrews
+
+        Cientista-Chefe da EPA
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 22. August 2149
+    - Language: English
+      String: August 22, 2149
+    - Language: Spanish
+      String: 22 de agosto de 2149
+    - Language: French
+      String: 22 août 2149
+    - Language: Italian
+      String: 22 agosto 2149
+    - Language: Japanese
+      String: 2149年8月22日
+    - Language: Polish
+      String: 22 sierpnia 2149
+    - Language: Portuguese_Brazil
+      String: 22 de agosto de 2149
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000ABAB08000000
+  ItemId: 2
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: "Judith Tatienne: Ich weiß, was ich sehe, Victor. Die Daten der Satelliten sind eindeutig und es sind Grav-Antriebe.\r\n \r\nLan Hsu: Die ganzen Sprünge vom Mond. Wenn das so weitergeht, wird die Atmosphäre der Erde bald ins All sickern.\r\n \r\nVictor Aiza: Kann man die Antriebe reparieren?\r\n \r\nLan Hsu: Ich arbeite an ein paar Ansätzen, die das Problem ... diskret lösen müssten, getarnt als Notfallupdate für die Treibstoffpumpen.\r\n \r\nJudith Tatienne: Wir reden hier vom Ende der Erde und du versuchst, diskret vorzugehen?\r\n \r\nVictor Aiza: Judith. Die Leute dürfen das Vertrauen in den Grav-Antrieb nicht verlieren. Das ist vielleicht unsere einzige Option.\r\n \r\nJudith Tatienne: Für was? Schlägst du ernsthaft vor, die Erde aufzugeben?\r\n \r\nLan Hsu: Uns bleiben weniger als 50 Jahre. Ein Wimpernschlag für einen Planeten, aber mehr als genug für einen Exodus.\r\n \r\nJudith Tatienne: Und was sagen wir den Leuten?\r\n \r\nVictor Aiza: Dass es höhere Gewalt ist, aber die Wissenschaft hat eine Lösung gefunden. Es ist Zeit, dass die Menschheit zu den Sternen fliegt.\r\n \r\nJudith Tatienne: Du wusstest es ...? Oder? Du hast mich angelogen!\r\n \r\nVictor Aiza: Ich ...\r\n \r\nJudith Tatienne: Von Anfang an! Ich habe mein Leben dieser Entdeckung gewidmet, Victor! Und du wusstest, dass wir unseren Planeten töten!\r\n \r\nVictor Aiza: Ich habe die Zukunft gesehen! Du nicht! Da draußen warten unendliche Versprechungen. Es hätte einen Meteoriteneinschlag geben können. Eine Seuche. Einen Weltkrieg. Andere Galaxien zu kolonisieren, sichert die Zukunft der Menschheit für alle Zeiten!\r\n \r\nJudith Tatienne: Und kostet uns unsere Heimat!\r\n \r\nLan Hsu: Hört auf! Alle beide! Es zählt nur eines: Genügend Schiffe zu bauen, um alle vom Planeten zu bringen. Wir müssen sofort anfangen.\r\n \r\nVictor Aiza: Ich ... setze eine Erklärung auf. Wir müssen die internationale Gemeinschaft ansprechen. Es tut mir leid, Judith ...\r\n \r\nJudith Tatienne: Es gibt in diesem Universum keinen Planeten, der weit genug von dir entfernt ist, Victor. Wenn das vorbei ist, reden wir nie wieder miteinander."
+    - Language: English
+      String: >-
+        Judith Tatienne: I know what I'm seeing, Victor. The data coming back from the satellites is very clear. It's the Grav Drives.
+
+
+        Lan Hsu: All those jumps from the Moon. At this rate, Earth's atmosphere is going to start sputtering out into space.
+
+
+        Victor Aiza: Can the drives be fixed?
+
+
+        Lan Hsu: I'm working on some designs that should... discretely solve the problem under the guise of an emergency update to the fueling pumps.
+
+
+        Judith Tatienne: We're talking about the end of Earth and you're trying to be subtle about it?
+
+
+        Victor Aiza: Judith. The last thing we need is people losing faith in Grav Drive technology. That might be our only option.
+
+
+        Judith Tatienne: To what? Are you seriously saying we should abandon Earth?
+
+
+        Lan Hsu: The timeline is under 50 years. A blink of an eye for a planet, but more than enough time for a human exodus.
+
+
+        Judith Tatienne: And what do we tell people?
+
+
+        Victor Aiza: We say it's an act of God. One that science has found a solution for. Time for humanity to take its place in the stars.
+
+
+        Judith Tatienne: ...You knew? Didn't you? You lied to me!
+
+
+        Victor Aiza: I...
+
+
+        Judith Tatienne: All this time! I dedicated my LIFE to this discovery, Victor! And you KNEW we were going to kill off our planet!
+
+
+        Victor Aiza: You haven't seen the future I've seen! There's an infinite expanse of promise out there. A meteor could've hit Earth. A plague. Another world war. Colonizing other galaxies secures humanity's future for all coming generations across all time!
+
+
+        Judith Tatienne: At the expense of our home!
+
+
+        Lan Hsu: Stop it! Both of you! All that matters is building enough ships to get everyone off this planet. And we need to start now.
+
+
+        Victor Aiza: I'll... draft up a statement. We'll need to address the entire international community. I'm sorry, Judith...
+
+
+        Judith Tatienne: There isn't a planet in this universe that will be far enough away from you, Victor. We are never speaking again after this is over.
+    - Language: Spanish
+      String: >-
+        Judith Tatienne: Sé lo que veo, Victor. Los datos que llegan de los satélites son muy claros. Son los motores gravitacionales.
+
+
+        Lan Hsu: Con tantos saltos desde la Luna, a este paso la atmósfera de la Tierra va a empezar a derramarse al espacio.
+
+
+        Victor Aiza: ¿Se pueden arreglar los motores?
+
+
+        Lan Hsu: Estoy preparando unos diseños para... resolver discretamente el problema aparentando una mejora de emergencia para las bombas de combustible.
+
+
+        Judith Tatienne: ¿Estamos hablando de la destrucción de la Tierra y te preocupa la sutileza?
+
+
+        Victor Aiza: Judith. Lo que menos nos interesa es que se pierda la fe en la tecnología de motores gravitacionales. Podría ser nuestra única opción.
+
+
+        Judith Tatienne: ¿Ante qué? ¿Estás diciendo en serio que deberíamos abandonar la Tierra?
+
+
+        Lan Hsu: La previsión es de menos de 50 años. En la vida de un planeta no es nada, pero es suficiente tiempo para un éxodo humano.
+
+
+        Judith Tatienne: ¿Y qué le decimos a la gente?
+
+
+        Victor Aiza: Les decimos que es una catástrofe natural. Y que la ciencia tiene una solución. Que ha llegado el momento de que la humanidad ocupe su lugar en las estrellas.
+
+
+        Judith Tatienne: ¿Lo sabías? Sí, ¿verdad? ¡Me mentiste!
+
+
+        Victor Aiza: Yo...
+
+
+        Judith Tatienne: ¡Todo este tiempo! ¡He dedicado mi vida entera a este descubrimiento, Victor! ¡Y tú sabiendo que íbamos a acabar con el planeta!
+
+
+        Victor Aiza: ¡Tú no has visto el futuro que he visto yo! Ahí fuera hay una superficie infinita llena de posibilidades. Podría haber caído un meteorito en la Tierra. Una plaga. Una guerra con otro mundo. ¡Colonizando otras galaxias aseguraremos el futuro de la humanidad para todas las siguientes generaciones!
+
+
+        Judith Tatienne: ¡A costa de nuestro hogar!
+
+
+        Lan Hsu: ¡Parad ya los dos! Lo único que importa es construir suficientes naves para sacar a todo el mundo de este planeta. Y hay que empezar ya.
+
+
+        Victor Aiza: Prepararé... una declaración. Tenemos que dirigirnos a toda la comunidad internacional. Lo siento, Judith...
+
+
+        Judith Tatienne: No hay un planeta al que pueda ir en este universo para estar lo suficientemente lejos de ti, Victor. No volveremos a hablar cuando esto acabe.
+    - Language: French
+      String: >-
+        Judith Tatienne : Je sais ce que je vois, Victor. Les données qui reviennent des satellites sont très claires. Ce sont les astromoteurs.
+
+
+        Lan Hsu : Tous ces sauts depuis la Lune... À ce rythme, l'atmosphère de la Terre va commencer à s'évaporer dans l'espace.
+
+
+        Victor Aiza : Les moteurs peuvent-ils être corrigés ?
+
+
+        Lan Hsu : Je travaille sur des concepts qui pourraient... résoudre discrètement le problème en faisant passer ça pour une mise à jour d'urgence qui corrigerait les pompes à carburant.
+
+
+        Judith Tatienne : On parle de la fin de la Terre et vous cherchez à rester subtil ?
+
+
+        Victor Aiza : Judith... La dernière chose dont nous avons besoin est que les gens perdent la foi en cette technologie. C'est peut-être notre seule alternative.
+
+
+        Judith Tatienne : Une alternative à quoi ? Êtes-vous sérieusement en train de dire que nous devrions abandonner la Terre ?
+
+
+        Lan Hsu : Les projections nous donnent moins de 50 ans. Un battement de paupière à l'échelle d'une planète, mais suffisamment de temps pour organiser un exode de l'humanité.
+
+
+        Judith Tatienne : Et qu'allons-nous dire aux gens ?
+
+
+        Victor Aiza : Que c'est un acte de Dieu. Un acte auquel la science a trouvé une solution. Il est temps pour l'humanité de prendre sa place dans les étoiles.
+
+
+        Judith Tatienne : ... Vous le saviez ? Vous le saviez, n'est-ce pas ? Vous m'avez menti !
+
+
+        Victor Aiza : Je...
+
+
+        Judith Tatienne : Tout ce temps ! J'ai dédié ma VIE à cette découverte, Victor ! Et vous SAVIEZ que nous allions tuer notre propre planète !
+
+
+        Victor Aiza : Vous n'avez pas vu l'avenir que j'ai aperçu ! Un potentiel infini nous attend, là-haut. Une météorite pourrait frapper la Terre. Une épidémie. Une nouvelle guerre mondiale. Coloniser d'autres galaxies assurera l'avenir de l'humanité pour les générations à venir, pour l'éternité !
+
+
+        Judith Tatienne : Tout ça en échange de notre monde natal.
+
+
+        Lan Hsu : Ça suffit ! Tous les deux ! Tout ce qui compte maintenant, c'est de construire assez de vaisseaux pour évacuer toute la planète. Et nous devons commencer maintenant.
+
+
+        Victor Aiza : Je vais... rédiger une déclaration. Nous devons en faire part à l'ensemble de la communauté internationale. Je suis désolé, Judith...
+
+
+        Judith Tatienne : Il n'y a aucune planète dans cet univers qui sera assez éloignée de vous, Victor. Quand tout ceci sera derrière nous, plus jamais je ne vous adresserai la parole.
+    - Language: Italian
+      String: >-
+        Judith Tatienne: Sono certa di non sbagliarmi, Victor. I dati provenienti dai satelliti sono molto chiari. Sono i gravimotori.
+
+
+        Lan Hsu: Tutti quei salti dalla Luna... Se va avanti così, l’atmosfera della Terra inizierà a disperdersi nello spazio.
+
+
+        Victor Aiza: È possibile correggere i progetti del motore?
+
+
+        Lan Hsu: Sto lavorando ad alcune modifiche che dovrebbero... risolvere il problema con discrezione, col pretesto di una correzione urgente alle pompe del serbatoio.
+
+
+        Judith Tatienne: C’è in ballo la fine del mondo e tu vuoi agire con discrezione?
+
+
+        Victor Aiza: Judith. L’ultima cosa che vogliamo è che si perda fiducia nella tecnologia del gravimotore. Potrebbe rappresentare la nostra unica opzione.
+
+
+        Judith Tatienne: Per cosa? Stai davvero dicendo che dovremmo abbandonare la Terra?
+
+
+        Lan Hsu: Stimiamo che restino meno di 50 anni. Un batter d’occhio per un pianeta, ma un tempo sufficiente per organizzare un esodo massiccio.
+
+
+        Judith Tatienne: E cosa diremo alla popolazione?
+
+
+        Victor Aiza: Diremo che è stato un atto divino. Al quale però la scienza ha trovato rimedio. Che è tempo che l’umanità colonizzi lo spazio.
+
+
+        Judith Tatienne: ...Tu sapevi, non è vero? Mi hai mentito!
+
+
+        Victor Aiza: Io...
+
+
+        Judith Tatienne: Sin dall’inizio! Io ho dedicato la mia vita a questa scoperta, Victor! E tu sapevi che avremmo ucciso il nostro pianeta!
+
+
+        Victor Aiza: Non hai visto il futuro che ho visto io! Là fuori ci aspetta un’infinita distesa di possibilità! Avrebbe potuto colpirci un meteorite. Una pestilenza. Un’altra guerra mondiale. Colonizzare altre galassie è un’assicurazione sul futuro dell’umanità per tutte le generazioni a venire!
+
+
+        Judith Tatienne: A scapito di quella che è la nostra casa!
+
+
+        Lan Hsu: Smettetela! Tutti e due! L’unica cosa che conta è costruire abbastanza navi da permettere a tutti di lasciare il pianeta. E bisogna cominciare subito.
+
+
+        Victor Aiza: Preparerò... un comunicato. Dovremo rivolgerci all’intera comunità internazionale. Mi dispiace, Judith...
+
+
+        Judith Tatienne: Non esiste pianeta nell’universo che sia sufficientemente lontano da te, Victor. Quando questa storia sarà finita, non avremo più niente da dirci.
+    - Language: Japanese
+      String: >-
+        ジュディス・タティエンヌ：自分が何を目にしているかわかっているわ、ヴィクター。衛星から戻ってきているデータも明白。グラヴ・ドライブのせいよ
+
+
+        ラン・スー：月からさんざんジャンプを繰り返したからだ。この勢いだと、地球の大気が宇宙に吐き出されてしまう
+
+
+        ヴィクター・アイザー：ドライブを修理できないか？
+
+
+        ラン・スー：燃料ポンプへの緊急アップデートに見せかけて、問題を… 表沙汰にせずに解決する作業に取り掛かっているところだ
+
+
+        ジュディス・タティエンヌ：地球の終末の話だというのに、あなたはそれを隠そうとしてるの？
+
+
+        ヴィクター・アイザー：ジュディス、何より避けるべきなのは人々がグラヴ・ドライブ技術への信頼を失うことだ。我々の唯一のオプションかもしれない
+
+
+        ジュディス・タティエンヌ：何のための？ 本気で地球を捨てようと言っているの？
+
+
+        ラン・スー：期限は50年以内だ。惑星からすれば瞬く間だが、人類が脱出するには十分な期間だ
+
+
+        ジュディス・タティエンヌ：で、人々にはなんと説明するの？
+
+
+        ヴィクター・アイザー：神の御業だというのさ。科学がもう解決策を見つけてあると。人類が宇宙へと歩を進める時がきたとね
+
+
+        ジュディス・タティエンヌ：知っていたのね？ そうでしょう。騙してたのね！
+
+
+        ヴィクター・アイザー:私は… 
+
+
+        ジュディス・タティエンヌ：ずっと今まで！ 私はこの発見に人生を捧げてきたのよ、ヴィクター！ それなのに、あなたは我々が惑星を殺してしまうと知っていた！
+
+
+        ヴィクター・アイザー：君は私が見た未来をまだ見ていない！ 宇宙には、可能性が無限に広がっているんだ。地球は隕石にやられていたかもしれない。疫病にやられたかも、いや世界大戦かもしれない。他の銀河を植民地化すれば永遠に、今後の世代のためにも人類の未来を時を越えて確保できる！
+
+
+        ジュディス・タティエンヌ：私たちの故郷を犠牲にしてね！
+
+
+        ラン・スー：やめるんだ！ 2人とも！ 重要なことは人々が惑星から脱出できるのに十分な船を建造することだ。それは、今から始めなければならない
+
+
+        ヴィクター・アイザー：私は… 声明を準備しよう。全国際コミュニティに報せねばならない。すまない、ジュディス…
+
+
+        ジュディス・タティエンヌ：あなたの側にいたくない。宇宙の最果ての惑星に行ってなおまだ距離を取りたいくらいよ。あなたとは二度と口をきかないわ
+    - Language: Polish
+      String: >-
+        Judith Tatienne: Wiem, co widzę, Victor. Dane z satelitów są jednoznaczne. To napędy grawitonowe.
+
+
+        Lan Hsu: Wszystko przez te skoki z Księżyca. Jak tak dalej pójdzie, Ziemia zacznie tracić atmosferę.
+
+
+        Victor Aiza: Czy napęd da się poprawić?
+
+
+        Lan Hsu: Pracuję nad zmianami, które powinny... dyskretnie rozwiązać problem pod pozorem pilnej aktualizacji pomp paliwa.
+
+
+        Judith Tatienne: My tu mówimy o zagładzie Ziemi, a ty próbujesz być dyskretny?
+
+
+        Victor Aiza: Judith. Ostatnie, czego potrzebujemy, to odwrót od technologii napędu grawitonowego. To nasza jedyna szansa.
+
+
+        Judith Tatienne: Na co? Naprawdę uważasz, że powinniśmy porzucić Ziemię?
+
+
+        Lan Hsu: Mówimy o około 50 latach. To mrugnięcie oka dla planety, ale dość czasu na zorganizowanie exodusu ludzkości.
+
+
+        Judith Tatienne: I co powiemy ludziom?
+
+
+        Victor Aiza: Że to siła wyższa. I że nauka znalazła rozwiązanie. Pora, by ludzkość zajęła swoje miejsce wśród gwiazd.
+
+
+        Judith Tatienne: Ty wiedziałeś, prawda? Okłamywałeś mnie!
+
+
+        Victor Aiza: Ja...
+
+
+        Judith Tatienne: Przez cały ten czas! Poświęciłam całe życie temu odkryciu, Victor! A ty wiedziałeś, że zabijemy naszą planetę!
+
+
+        Victor Aiza: Nie widziałaś przyszłości, którą ujrzałem! Tam czekają na nas nieskończone możliwości. Ziemię mógł zniszczyć meteoryt. Epidemia. Kolejna wojna światowa. Kolonizacja innych galaktyk zabezpieczy przyszłość kolejnych pokoleń ludzkości!
+
+
+        Judith Tatienne: Kosztem naszego domu!
+
+
+        Lan Hsu: Przestańcie! Oboje! Najważniejsze to zbudować dość statków, aby zabrać wszystkich z tej planety. I musimy zacząć już teraz.
+
+
+        Victor Aiza: No to... przygotuję oświadczenie. Trzeba zwrócić się do społeczności międzynarodowej. Przykro mi, Judith...
+
+
+        Judith Tatienne: Nie istnieje w tym wszechświecie planeta, która byłaby wystarczająco daleko od ciebie, Victor. Gdy będzie po wszystkim, już nigdy się do ciebie nie odezwę.
+    - Language: Portuguese_Brazil
+      String: >-
+        Judith Tatienne: Eu sei o que estou vendo, Victor. Os dados dos satélites são claros. São os Motores Grav.
+
+
+        Lan Hsu: Todas aquelas dobras da Lua. Nesse ritmo, a atmosfera da Terra vai começar a se despedaçar.
+
+
+        Victor Aiza: Dá pra consertar os motores?
+
+
+        Lan Hsu: Estou trabalhando em alguns designs que devem... resolver o problema discretamente, como um reparo emergencial das bombas de combustível.
+
+
+        Judith Tatienne: Estamos falando do fim da Terra e você falando em discrição?
+
+
+        Victor Aiza: Judith, a última coisa de que as pessoas precisam agora é perder a fé no Motor Grav. Talvez seja nossa única opção.
+
+
+        Judith Tatienne: De quê? Você tá mesmo considerando abandonar a Terra?
+
+
+        Lan Hsu: A linha do tempo não passa dos 50 anos. Um piscar de olhos pra um planeta, mas o suficiente pra um êxodo humano.
+
+
+        Judith Tatienne: E o que vamos dizer pras pessoas?
+
+
+        Victor Aiza: Dizemos que é um ato divino. E que a ciência encontrou uma solução. Hora de a humanidade assumir seu lugar nas estrelas.
+
+
+        Judith Tatienne: ... Você sabia? Não sabia? Você mentiu pra mim!
+
+
+        Victor Aiza: Eu...
+
+
+        Judith Tatienne: Esse tempo todo...! Dediquei minha vida a essa descoberta, Victor! E você sabia que isso ia destruir nosso planeta!
+
+
+        Victor Aiza: Você não viu o futuro que eu vi! Existe uma possibilidade infinita de promessas no espaço. Um meteoro poderia ter atingido a Terra. Uma peste. Outra guerra mundial. Colonizar outras galáxias garante o futuro da humanidade pras gerações futuras!
+
+
+        Judith Tatienne: Às custas da nossa casa!
+
+
+        Lan Hsu: Para com isso! Vocês dois! Agora só nos interessa construir naves pra evacuar todo mundo desse planeta. E temos que começar já.
+
+
+        Victor Aiza: Vou... escrever um comunicado. Vamos ter que nos dirigir a toda a comunidade internacional. Sinto muito Judith...
+
+
+        Judith Tatienne: Não existe planeta neste universo que seja longe demais pra você, Victor. Depois que isso terminar, eu nunca mais vou falar com você.
+- ItemText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 8. September 2160
+    - Language: English
+      String: September 8, 2160
+    - Language: Spanish
+      String: 8 de septiembre de 2160
+    - Language: French
+      String: 8 septembre 2160
+    - Language: Italian
+      String: 8 settembre 2160
+    - Language: Japanese
+      String: 2160年9月8日
+    - Language: Polish
+      String: 8 września 2160
+    - Language: Portuguese_Brazil
+      String: 8 de setembro de 2160
+  ItemShortText:
+    TargetLanguage: English
+  ISET: 0x0000ABAB08000000
+  ItemId: 3
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: >-
+        Mein Name ist Dr. Victor Aiza, und wenn Sie das hören, dann kennen Sie die Wahrheit vermutlich schon. Als junger Mann war ich Leiter eines Teams, das eine merkwürdige Gravitationsanomalie vom Mars bergen sollte. Aber was damals wirklich passiert ist, habe ich nur einer anderen Person erzählt. Nicht einmal sie hat mir anfangs geglaubt, aber warum sollte ich noch lügen? Ich hoffe also, Sie akzeptieren dieses ... Geständnis, wer Sie auch sind.
+
+
+        Durch die Anomalie habe ich zwölf Tage verloren. Bin ... mir selbst begegnet. Er hat mir alles erzählt, was seitdem wahr geworden ist. Die Grav-Antrieb-Gleichungen. Die Tests auf dem Mond. Dass die Erdatmosphäre wegen unserer Arbeit ins All sickert. Aber er erzählte mir auch von einer Stadt, die auf einem Planeten im Orbit eines fernen Sterns erblüht. Menschliche Kultur, Kunst, Musik, menschliches Leben im gesamten All.
+
+
+        Welchen Preis wäre ich bereit, für diese Zukunft zu bezahlen?
+
+
+        Vielleicht glauben Sie mir nicht. Vielleicht hatte Judith recht und ich bin nur ein Feigling, der seine Fehler rechtfertigen will. Aber alle haben den wahren Ursprung des Grav-Antriebs vergessen. Dieses ... Artefakt. Vom Mars.
+
+
+        Ich hoffe, Sie nutzen es besser als ich.
+    - Language: English
+      String: >-
+        My name is Doctor Victor Aiza, and if you're listening to this, then you probably already know the truth. I was young when I first headed the retrieval team of an odd gravitational anomaly on Mars, but I kept what really happened that day hidden from everyone except... one other person. Even she didn't believe me at first, but I have no reason to lie to anyone now, so I hope you'll accept this... confession, whoever you are.
+
+
+        When I touched the anomaly, I experienced 12 days of lost time. I met... myself. He told me everything that has since come true. The Grav Drive equations. The tests on the Moon. Earth's atmosphere sputtering away because of what we had done. But he also told me about a city, thriving on a planet orbiting a distant star. Human culture, art, music, lifestyles evolving and shining brightly across all of space. 
+
+
+        What price would I be willing to pay for that future?
+
+
+        Maybe you don't believe me. Maybe Judith was right, and I'm just a coward who wants to believe his mistakes were justified.  But everyone has forgotten about the real origins of the Grav Drive. This... Artifact, from Mars.
+
+
+        I hope you make better use of it than I did.
+    - Language: Spanish
+      String: >-
+        Soy el doctor Victor Aiza y, si estás escuchando esto, lo más seguro es que ya sepas la verdad. Era joven cuando me puse al frente del equipo de recuperación encargado de una extraña anomalía gravitacional en Marte, pero no hablé a nadie de lo que ocurrió aquel día excepto... a una persona. Ni siquiera ella me creyó al principio, pero ya no tengo motivos para mentir a nadie, así que espero que aceptes esta... confesión, quienquiera que seas.
+
+
+        Cuando toqué la anomalía, sufrí una pérdida de doce días. Me encontré... conmigo mismo. Me contó todo lo que desde entonces se ha hecho realidad. Las ecuaciones del motor gravitacional. Las pruebas en la Luna. La atmósfera terrestre desparramándose por lo que habíamos hecho. Pero también me habló de una ciudad que florecía en un planeta que orbitaba alrededor de una estrella lejana. Cultura, arte, música y estilo de vida humanos evolucionando y brillando por el espacio. 
+
+
+        ¿Qué precio estaba dispuesto a pagar por ese futuro?
+
+
+        Puede que no me creas. Puede que Judith tuviera razón y que yo solo sea un cobarde que quiere creer que sus errores estaban justificados. Pero todo el mundo se ha olvidado del origen real del motor gravitacional. Este... Artefacto de Marte.
+
+
+        Espero que le des mejor uso que yo.
+    - Language: French
+      String: >-
+        Je suis le docteur Victor Aiza, et si vous écoutez ce message, alors vous connaissez probablement déjà la vérité. J'étais jeune lorsque j'ai mené l'équipe de récupération d'une étrange anomalie gravitationnelle sur Mars, mais j'ai caché ce qui s'est vraiment passé ce jour-là à tout le monde... à l'exception d'une personne. Même elle ne m'a pas cru au début, mais je n'ai plus aucune raison de mentir à quiconque aujourd'hui ; alors qui que vous soyez, j'espère que vous accepterez cette... confession.
+
+
+        Quand j'ai touché l'anomalie, je suis tombé dans le coma pendant 12 jours. J'ai fait la rencontre de... moi-même. Il m'a dit tout ce qui s'est réalisé depuis. Les équations de l'astromoteur. Les essais sur la Lune. L'évaporation de l'atmosphère terrestre en raison de ce que nous avions fait. Mais il m'a également parlé d'une ville florissante sur une planète en orbite autour d'une étoile lointaine. De culture, d'art, de musique et de modes de vie humains évoluant et rayonnant dans l'espace tout entier.
+
+
+        Quel prix serais-je prêt à payer pour cet avenir ?
+
+
+        Peut-être ne me croyez-vous pas. Peut-être que Judith avait raison, peut-être ne suis-je qu'un lâche qui veut croire que ses erreurs étaient justifiées. Mais tout le monde a oublié la véritable origine de l'astromoteur. Cet... artefact, sur Mars.
+
+
+        J'espère que vous en ferez un meilleur usage que moi.
+    - Language: Italian
+      String: >-
+        Sono il dottor Victor Aiza e, se stai ascoltando questo messaggio, probabilmente già conosci la verità. Da giovane guidai una squadra di recupero presso una strana anomalia gravitazionale su Marte. Non ho mai rivelato a nessuno quel che successe davvero quel giorno... tranne che a una persona. Anche lei all’inizio non mi credeva, ma ormai non ho più motivo di mentire a nessuno, quindi... chiunque tu sia, spero tu voglia accettare questa... confessione.
+
+
+        Dopo aver toccato l’anomalia, ho perso cognizione del tempo per 12 giorni. Ho incontrato me stesso. E mi ha detto tutto ciò che poi si sarebbe verificato. Le equazioni del gravimotore. I test sulla Luna. La dispersione dell’atmosfera terrestre nello spazio a causa nostra... Ma mi ha anche parlato di una fiorente città su un pianeta orbitante una stella lontana. Arte, musica, cultura e stili di vita umani in continua evoluzione e risplendenti in tutto il cosmo.
+
+
+        Quale prezzo sarei stato disposto a pagare per quel futuro?
+
+
+        Forse non mi crederai. Forse Judith ha ragione e sono solo un codardo che vuole credere che i suoi errori possano essere giustificati. Ma si sono tutti dimenticati delle reali origini del gravimotore. Questo... Manufatto, trovato su Marte.
+
+
+        Mi auguro che tu possa farne un uso migliore.
+    - Language: Japanese
+      String: >-
+        私の名前はドクター・ヴィクター・アイザー。これを聞いている君は、すでに真実をご存知だろう。火星で発生した奇妙な重力異常。その復旧チームのトップに就任した時、私はまだ若かった。だがあの日の真実は、これまで誰にも話していない… ある人物を除いては。彼女ですら、初めは信じてくれなかった。だが、今の私に嘘をつく理由などない。君が何者であれ、どうかこの… 懺悔を聞いてほしい
+
+
+        あの重力異常に触れたとき、驚くべき体験をした。時間にして12日間。私は… 自分自身に出会ったのだ。彼が話してくれた内容は、すべて現実となった。グラヴ・ドライブの方程式。月での試験。我々の行いが原因で起こった、地球の大気流出。だが彼は、遠く離れた惑星の、ある街の話もしてくれた。人間の文化、芸術、音楽、生活様式などが進化し、宇宙全体で繁栄を極めているというのだ
+
+
+        そんな未来が手に入るのなら、私はどんな代償でも支払うだろう
+
+
+        信じてもらえないかもしれない。ジュディスが正しかったのかもしれない。私は過ちを正当化したいだけの臆病者なのかもしれない。だが、グラヴ・ドライブの… あの火星のアーティファクトの真の起源を、忘れてしまってはいないだろうか
+
+
+        君が私よりも上手く活用してくれることを願う
+    - Language: Polish
+      String: >-
+        Jestem doktor Victor Aiza i jeśli tego słuchasz, pewnie znasz już prawdę. Byłem młody, gdy stanąłem na czele zespołu badającego anomalię grawitacyjną na Marsie, ale prawdę o tym, co tamtego dnia się wydarzyło, ukrywałem przed wszystkimi... poza jedną osobą. Nawet ona początkowo nie chciała mi uwierzyć, ale już nie mam powodów, by kłamać, więc mam nadzieję, że - kimkolwiek jesteś - przyjmiesz to... wyznanie.
+
+
+        Gdy dotknąłem anomalii, doświadczyłem 12 dni utraconego czasu. Spotkałem... siebie. Wszystko, co mi powiedział, okazało się prawdą. Równania napędu grawitonowego. Testy na Księżycu. Utrata ziemskiej atmosfery spowodowana tym, co zrobiliśmy. Ale opowiedział też o mieście tętniącym życiem na planecie krążącej wokół odległej gwiazdy. O ludzkiej kulturze, sztuce, muzyce, stylu życia ewoluującym i jaśniejącym wśród gwiazd. 
+
+
+        Jaką cenę byłbym skłonny zapłacić za tę przyszłość?
+
+
+        Może mi nie wierzysz. Może Judith miała rację, a ja jestem zwykłym tchórzem, który chce wierzyć, że jego błędy są usprawiedliwione. Ale wszyscy zapomnieli o prawdziwych początkach napędu grawitonowego. O tym... artefakcie z Marsa.
+
+
+        Mam nadzieję, że wykorzystasz go lepiej niż ja.
+    - Language: Portuguese_Brazil
+      String: >-
+        Meu nome é Doutor Victor Aiza e, caso esteja ouvindo isto, é provável que você já saiba toda a verdade. Eu era jovem quando assumi a liderança de uma equipe de resgate numa anomalia gravitacional em Marte, mas escondi o que de fato aconteceu naquele dia de todo mundo menos... uma outra pessoa. No início, nem ela acreditou em mim, mas não tenho mais motivos pra mentir, por isso espero que aceite essa... confissão, seja lá quem você for.
+
+
+        Quando toquei a anomalia, fiquei inconsciente por 12 dias. Eu... me encontrei. Ele me relatou tudo o que veio de fato a acontecer. As equações do Motor Grav. Os testes na Lua. A atmosfera da Terra se esvaindo por causa do que a gente fez... Mas ele também me falou de uma cidade próspera, num planeta que orbita uma estrela distante. Cultura, arte, música e estilos de vida humanos evoluindo e iluminando todo o espaço. 
+
+
+        Que preço eu estaria disposto a pagar por esse futuro?
+
+
+        Talvez você não acredite em mim. Talvez a Judith tivesse razão quando disse que sou um covarde que acha que pode justificar seus erros. Mas todo mundo se esqueceu da origem do Motor Grav. Esse... artefato de Marte.
+
+
+        Tomara que você faça uso dele melhor do que eu.

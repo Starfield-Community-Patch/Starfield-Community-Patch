@@ -1,0 +1,980 @@
+FormKey: 21710B:Starfield.esm
+EditorID: FFNewHomesteadZ01
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour01
+      Object: 00B536:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour05
+      Object: 00B53D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_TourTip
+      Object: 00B51B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour04
+      Object: 00B53F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour03
+      Object: 00B53E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour09
+      Object: 00B532:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour02
+      Object: 00B54B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour06
+      Object: 00B53A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour07
+      Object: 00B538:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bill
+      Object: 21710B:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01Misc
+      Object: 00B78A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour08
+      Object: 00B534:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Foreknowledge_AV
+      Object: 00B554:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+  Fragments:
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0250_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0550_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 999
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0999_Item_00
+  - Stage: 950
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0950_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 750
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0750_Item_00
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0450_Item_00
+  - Stage: 850
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0850_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
+    FragmentName: Fragment_Stage_0650_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Starsap Tours
+  - Language: English
+    String: Starsap Tours
+  - Language: Spanish
+    String: Starsap Tours
+  - Language: French
+    String: Starsap Tours
+  - Language: Italian
+    String: Starsap Tours
+  - Language: Japanese
+    String: スターサップツアー
+  - Language: Polish
+    String: Wycieczki Wędrogwiazda
+  - Language: Portuguese_Brazil
+    String: Starsap Turismo
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  Priority: 50
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+TextDisplayGlobals:
+- 00B51B:Starfield.esm
+Summary: The player takes a tour of New Homestead with Bill Stasap of Starsap Tours. He will tell them facts about the settlement along the way, and stop at each point of interest to allow the player to ask questions.
+UnusedConditions: []
+Stages:
+- Index: 100
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Follow Bill. Tour01 - Domocile
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mich entschlossen, eine Tour durch New Homestead mit Bill Starsap mitzumachen, um mehr über die Geschichte der Kolonie zu erfahren.
+      - Language: English
+        String: I decided to take a tour of New Homestead with Bill Starsap, so I can learn more about its history.
+      - Language: Spanish
+        String: Decidí hacer un recorrido por Nueva Hacienda con Bill Starsap para conocer mejor su historia.
+      - Language: French
+        String: J'ai accepté de visiter Nouveau-Départ avec Bill Starsap, pour en apprendre davantage sur l'histoire de la colonie.
+      - Language: Italian
+        String: Ho deciso di fare un tour di Seconda Casa con Bill Starsap per apprendere di più sulla storia della colonia.
+      - Language: Japanese
+        String: ニューホームステッドの歴史を知るため、ビル・スターサップに案内してもらうことにした
+      - Language: Polish
+        String: Chcę zwiedzić Nową Osadę z Billem Wędrogwiazdem i dowiedzieć się więcej o jej historii.
+      - Language: Portuguese_Brazil
+        String: Decidi fazer um passeio turístico por Novo Lar com Bill Starsap para aprender mais sobre a história.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Bill starts walking
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Bill. Tour01 - Domocile
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Follow Bill. Tour02 - Farms
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Bill. Tour02 - Farms
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Follow Bill. Tour03 - Biolab
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Bill. Tour03 - Biolab
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 360
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Bill explained that scientists found no signs of life here
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Follow Bill. Tour04 - Wind Farm
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Bill. Tour04 - Wind Farm
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Follow Bill. Tour05 - Methane
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Bill. Tour05 - Methane
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 560
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Bill mentions oxygen production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Follow Bill. Tour06 - Ymir's Horn
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 650
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Bill. Tour06 - Ymir's Horn
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Follow Bill. Tour07 - Ice Mines
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 750
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Bill. Tour07 - Ice Mines
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Follow Bill. Tour08 - Brown Horse Tavern
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 850
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Bill. Tour08 - Brown Horse Tavern
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Follow Bill. Tour09 - Museum/End
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 950
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Bill. Tour09 - Museum/End
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 999
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player tipped Bill some extra credits
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest End
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mich von Bill Starsap durch New Homestead führen lassen und er hat mir von der Geschichte der Kolonie erzählt.
+      - Language: English
+        String: I took a tour of New Homestead with Bill Starsap, where he taught me about the colony's history.
+      - Language: Spanish
+        String: Hice un recorrido por Nueva Hacienda con Bill Starsap, quien me enseñó la historia de la colonia.
+      - Language: French
+        String: J'ai visité Nouveau-Départ avec Bill Starsap, qui m'a raconté l'histoire de la colonie.
+      - Language: Italian
+        String: Ho fatto un tour di Seconda Casa con Bill Starsap, che mi ha dato molte informazioni sulla storia della colonia.
+      - Language: Japanese
+        String: ビル・スターサップにニューホームステッドを案内してもらい、このコロニーについて教わった
+      - Language: Polish
+        String: Bill Wędrogwiazd oprowadził mnie po Nowej Osadzie i opowiedział o historii kolonii.
+      - Language: Portuguese_Brazil
+        String: Fiz um passeio turístico por Novo Lar com Bill Starsap em que ele me ensinou sobre a história da colônia.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF3C:Starfield.esm
+        BonusCredits: Null
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Bill.
+    - Language: English
+      String: Follow Bill
+    - Language: Spanish
+      String: Sigue a Bill.
+    - Language: French
+      String: Suivez Bill.
+    - Language: Italian
+      String: Segui Bill
+    - Language: Japanese
+      String: ビルについて行く
+    - Language: Polish
+      String: Podążaj za Billem
+    - Language: Portuguese_Brazil
+      String: Siga Bill
+  Targets:
+  - AliasID: 2
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Bill.
+    - Language: English
+      String: Speak with Bill
+    - Language: Spanish
+      String: Habla con Bill.
+    - Language: French
+      String: Parlez à Bill.
+    - Language: Italian
+      String: Parla con Bill
+    - Language: Japanese
+      String: ビルと話す
+    - Language: Polish
+      String: Porozmawiaj z Billem
+    - Language: Portuguese_Brazil
+      String: Fale com Bill
+  Targets:
+  - AliasID: 2
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Bill.
+    - Language: English
+      String: Follow Bill
+    - Language: Spanish
+      String: Sigue a Bill.
+    - Language: French
+      String: Suivez Bill.
+    - Language: Italian
+      String: Segui Bill
+    - Language: Japanese
+      String: ビルについて行く
+    - Language: Polish
+      String: Podążaj za Billem
+    - Language: Portuguese_Brazil
+      String: Siga Bill
+  Targets:
+  - AliasID: 2
+- Index: 250
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Bill.
+    - Language: English
+      String: Speak with Bill
+    - Language: Spanish
+      String: Habla con Bill.
+    - Language: French
+      String: Parlez à Bill.
+    - Language: Italian
+      String: Parla con Bill
+    - Language: Japanese
+      String: ビルと話す
+    - Language: Polish
+      String: Porozmawiaj z Billem
+    - Language: Portuguese_Brazil
+      String: Fale com Bill
+  Targets:
+  - AliasID: 2
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Bill.
+    - Language: English
+      String: Follow Bill
+    - Language: Spanish
+      String: Sigue a Bill.
+    - Language: French
+      String: Suivez Bill.
+    - Language: Italian
+      String: Segui Bill
+    - Language: Japanese
+      String: ビルについて行く
+    - Language: Polish
+      String: Podążaj za Billem
+    - Language: Portuguese_Brazil
+      String: Siga Bill
+  Targets:
+  - AliasID: 2
+- Index: 350
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Bill.
+    - Language: English
+      String: Speak with Bill
+    - Language: Spanish
+      String: Habla con Bill.
+    - Language: French
+      String: Parlez à Bill.
+    - Language: Italian
+      String: Parla con Bill
+    - Language: Japanese
+      String: ビルと話す
+    - Language: Polish
+      String: Porozmawiaj z Billem
+    - Language: Portuguese_Brazil
+      String: Fale com Bill
+  Targets:
+  - AliasID: 2
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Bill.
+    - Language: English
+      String: Follow Bill
+    - Language: Spanish
+      String: Sigue a Bill.
+    - Language: French
+      String: Suivez Bill.
+    - Language: Italian
+      String: Segui Bill
+    - Language: Japanese
+      String: ビルについて行く
+    - Language: Polish
+      String: Podążaj za Billem
+    - Language: Portuguese_Brazil
+      String: Siga Bill
+  Targets:
+  - AliasID: 2
+- Index: 450
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Bill.
+    - Language: English
+      String: Speak with Bill
+    - Language: Spanish
+      String: Habla con Bill.
+    - Language: French
+      String: Parlez à Bill.
+    - Language: Italian
+      String: Parla con Bill
+    - Language: Japanese
+      String: ビルと話す
+    - Language: Polish
+      String: Porozmawiaj z Billem
+    - Language: Portuguese_Brazil
+      String: Fale com Bill
+  Targets:
+  - AliasID: 2
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Bill.
+    - Language: English
+      String: Follow Bill
+    - Language: Spanish
+      String: Sigue a Bill.
+    - Language: French
+      String: Suivez Bill.
+    - Language: Italian
+      String: Segui Bill
+    - Language: Japanese
+      String: ビルについて行く
+    - Language: Polish
+      String: Podążaj za Billem
+    - Language: Portuguese_Brazil
+      String: Siga Bill
+  Targets:
+  - AliasID: 2
+- Index: 550
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Bill.
+    - Language: English
+      String: Speak with Bill
+    - Language: Spanish
+      String: Habla con Bill.
+    - Language: French
+      String: Parlez à Bill.
+    - Language: Italian
+      String: Parla con Bill
+    - Language: Japanese
+      String: ビルと話す
+    - Language: Polish
+      String: Porozmawiaj z Billem
+    - Language: Portuguese_Brazil
+      String: Fale com Bill
+  Targets:
+  - AliasID: 2
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Bill.
+    - Language: English
+      String: Follow Bill
+    - Language: Spanish
+      String: Sigue a Bill.
+    - Language: French
+      String: Suivez Bill.
+    - Language: Italian
+      String: Segui Bill
+    - Language: Japanese
+      String: ビルについて行く
+    - Language: Polish
+      String: Podążaj za Billem
+    - Language: Portuguese_Brazil
+      String: Siga Bill
+  Targets:
+  - AliasID: 2
+- Index: 650
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Bill.
+    - Language: English
+      String: Speak with Bill
+    - Language: Spanish
+      String: Habla con Bill.
+    - Language: French
+      String: Parlez à Bill.
+    - Language: Italian
+      String: Parla con Bill
+    - Language: Japanese
+      String: ビルと話す
+    - Language: Polish
+      String: Porozmawiaj z Billem
+    - Language: Portuguese_Brazil
+      String: Fale com Bill
+  Targets:
+  - AliasID: 2
+- Index: 700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Bill.
+    - Language: English
+      String: Follow Bill
+    - Language: Spanish
+      String: Sigue a Bill.
+    - Language: French
+      String: Suivez Bill.
+    - Language: Italian
+      String: Segui Bill
+    - Language: Japanese
+      String: ビルについて行く
+    - Language: Polish
+      String: Podążaj za Billem
+    - Language: Portuguese_Brazil
+      String: Siga Bill
+  Targets:
+  - AliasID: 2
+- Index: 750
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Bill.
+    - Language: English
+      String: Speak with Bill
+    - Language: Spanish
+      String: Habla con Bill.
+    - Language: French
+      String: Parlez à Bill.
+    - Language: Italian
+      String: Parla con Bill
+    - Language: Japanese
+      String: ビルと話す
+    - Language: Polish
+      String: Porozmawiaj z Billem
+    - Language: Portuguese_Brazil
+      String: Fale com Bill
+  Targets:
+  - AliasID: 2
+- Index: 800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Bill.
+    - Language: English
+      String: Follow Bill
+    - Language: Spanish
+      String: Sigue a Bill.
+    - Language: French
+      String: Suivez Bill.
+    - Language: Italian
+      String: Segui Bill
+    - Language: Japanese
+      String: ビルについて行く
+    - Language: Polish
+      String: Podążaj za Billem
+    - Language: Portuguese_Brazil
+      String: Siga Bill
+  Targets:
+  - AliasID: 2
+- Index: 850
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Bill.
+    - Language: English
+      String: Speak with Bill
+    - Language: Spanish
+      String: Habla con Bill.
+    - Language: French
+      String: Parlez à Bill.
+    - Language: Italian
+      String: Parla con Bill
+    - Language: Japanese
+      String: ビルと話す
+    - Language: Polish
+      String: Porozmawiaj z Billem
+    - Language: Portuguese_Brazil
+      String: Fale com Bill
+  Targets:
+  - AliasID: 2
+- Index: 900
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Bill.
+    - Language: English
+      String: Follow Bill
+    - Language: Spanish
+      String: Sigue a Bill.
+    - Language: French
+      String: Suivez Bill.
+    - Language: Italian
+      String: Segui Bill
+    - Language: Japanese
+      String: ビルについて行く
+    - Language: Polish
+      String: Podążaj za Billem
+    - Language: Portuguese_Brazil
+      String: Siga Bill
+  Targets:
+  - AliasID: 2
+- Index: 950
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Bill.
+    - Language: English
+      String: Speak with Bill
+    - Language: Spanish
+      String: Habla con Bill.
+    - Language: French
+      String: Parlez à Bill.
+    - Language: Italian
+      String: Parla con Bill
+    - Language: Japanese
+      String: ビルと話す
+    - Language: Polish
+      String: Porozmawiaj z Billem
+    - Language: Portuguese_Brazil
+      String: Fale com Bill
+  Targets:
+  - AliasID: 2
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  Name: NewHomestead
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 21702B:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Bill
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEAE:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  PackageData:
+  - 019AA2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: FarmPathMarker01
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 00B541:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: FarmMarker
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 00B54A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: BiolabMarker
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 00B545:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: WindPathMarker01
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 03C55F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: WindMarker
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 00B548:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: MethaneMarker
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 00B549:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: MethanePathMarker01
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 03C563:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: YmirHornMarker
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 00B546:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: DomocileMarker
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 00B544:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: IceMinesPathMarker01
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 03C55D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: IceMinesPathMarker02
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 03C566:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: IceMinesMarker
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 00B547:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: BrownHorseMarker
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 00B543:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: MuseumMarker
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 00B542:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
