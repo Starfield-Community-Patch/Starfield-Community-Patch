@@ -56,6 +56,7 @@ When adding items to the changelog try and use the template below:
 ### Text Fixes (English)
 - Fixed multiple places where "poring" (to study) was misspelt as "pouring" (to tip liquid). [001886D1] [0014612E] [001E3F53] [001E3F57] - [Reported by Jay33721](https://www.starfieldpatch.dev/issues/602)
 - Fixed "any more" misspelt as "anymore" in Pascual Logan's dialogue [002D1C78] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/729)
+- Fixed a load screen about smuggling referring to the "Payloads" skill rather than the "Deception" skill for increased chance of evading contraband scans. [00185667] - [Reported by TheTrueDovahki1n](https://www.starfieldpatch.dev/issues/706)
 ### Misc Fixes
 - Added a couple of missing dialogue conditions ommited from a previous fix [0032C7CA] [0032C7CB] [0032C7CC] [0032C7CD] - [Reported by TareliusKosmos](https://www.starfieldpatch.dev/issues/666)
 - The update handler for the Starfield Community Patch will now only fire on first startup and each time the player loads the game. Now using OnQuestInit() as it was incorrectly using OnInit() which triggers every time the game starts up. [SFCP:UpdateHandler] 
