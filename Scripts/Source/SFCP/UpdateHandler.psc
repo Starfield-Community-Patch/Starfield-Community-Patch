@@ -7,6 +7,8 @@ GlobalVariable Property SFCP_Version_Minor Auto Const
 { Minor SFCP Version }
 GlobalVariable Property SFCP_Version_Patch Auto Const
 { Patch SFCP Version }
+ConditionForm Property SFCP_CND_AllResearchCompleted Auto Const
+{ Has the player completed all current research projects }
 
 ;-- Variables  --------------------------------------
 string sCurrentVersion = ""
@@ -19,6 +21,8 @@ bool b001CoeEstateFix = false
 ; https://www.starfieldpatch.dev/issues/370
 bool b005HadrianFactionFix = false
 ; https://www.starfieldpatch.dev/issues/669
+bool b005ResearchTutorialFix = false
+; https://www.starfieldpatch.dev/issues/725
 
 ;-- Functions ---------------------------------------
 
@@ -105,6 +109,16 @@ Function ApplyMissingFixes(string sNewVersion)
         Crew_Elite_Hadrian.RemoveFromfaction(ConstellationFaction)
         Crew_Elite_Hadrian.AddToFaction(CrimeFactionUC)
         b005HadrianFactionFix = true
+    endif
+
+    ; Fix for https://www.starfieldpatch.dev/issues/725
+    if (!b005ResearchTutorialFix || (CurrentVersionGTE(0,0,5)))
+        Quest MQ_TutorialQuest_Misc06 = Game.GetForm(0x0000118F) as Quest
+        if (MQ_TutorialQuest_Misc06.IsObjectiveDisplayed(10) && SFCP_CND_AllResearchCompleted.IsTrue(NONE, NONE))
+            SFCPUtil.WriteLog("Shutting down research tutorial quest")
+            MQ_TutorialQuest_Misc06.SetStage(100)
+        endif
+        b005ResearchTutorialFix = true
     endif
 
 EndFunction

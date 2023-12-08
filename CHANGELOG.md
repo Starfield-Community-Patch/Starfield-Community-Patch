@@ -7,10 +7,10 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
-## [Unreleased] Version 0.0.5
+## [2023-08-12] Version 0.0.5
 ### Actor Fixes
 - Hadrian is now correctly assigned to CrimFactionUC rather than ConstellationFaction. This fix will also apply mid-save. [0029C17F] - [Fix contributed by SKK50](https://nexusmods.com/users/46256407) - [Reported by SKK50](https://www.starfieldpatch.dev/issues/669)
-- Gideo Aker will now have unlimited ammo when recruited as a follower. (Missing TeammateDontUseAmmoKeyword [KYWD:0023F1CA]) - [Reported by SamusKnight2K](https://www.starfieldpatch.dev/issues/588)
+- Gideon Aker will now have unlimited ammo when recruited as a follower. (Missing TeammateDontUseAmmoKeyword [KYWD:0023F1CA]) - [Reported by SamusKnight2K](https://www.starfieldpatch.dev/issues/588)
 ### Location Fixes
 - Fixed missing LocTypeStarstationInterior [KYWD:0001674E] keyword for Starstation RE-939 [0002E373] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
 - Fixed missing LocTypeStarstation [KYWD:0001674D] and LocTypeStarstationInterior [KYWD:0001674E] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)keywords for Starstation UCN-48 [0009B0CA] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
@@ -51,8 +51,17 @@ When adding items to the changelog try and use the template below:
 - Fixed an error in the levelled lists for SysDef armour which would lead to heavy armour spawning where the recon (light armour) variant should be used. [000042D9] [00228D12] - [Fix Contributed by Gambit77](https://www.starfieldpatch.dev/issues/671)
 ### Scene Fixes
 - Cora and Sam will no longer have a conversation about telling Barrett a joke if he has been killed [00187BF5] - [Reported by X2357](https://www.starfieldpatch.dev/issues/638)
+### Quest Fixes
+- The "Complete a research project" tutorial objective will no longer display if the player has completed all available research. A new conditional form has been added to check if the player has completed the highest rank of all research projects SFCP_CND_AllResearchCompleted [CNDF:02000808][Fragments:Quests:QF_MQ_TutorialQuest_Misc06_0000118F] [0x000808] [SFCP:UpdateHandler] - [Reported by TheIrreverentReverend](https://www.starfieldpatch.dev/issues/725)
 ### Text Fixes (English)
 - Fixed multiple places where "poring" (to study) was misspelt as "pouring" (to tip liquid). [001886D1] [0014612E] [001E3F53] [001E3F57] - [Reported by Jay33721](https://www.starfieldpatch.dev/issues/602)
+- Fixed "any more" misspelt as "anymore" in Pascual Logan's dialogue [002D1C78] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/729)
+- Fixed a load screen about smuggling referring to the "Payloads" skill rather than the "Deception" skill for increased chance of evading contraband scans. [00185667] - [Reported by TheTrueDovahki1n](https://www.starfieldpatch.dev/issues/706)
+- Fixed a misplaced ellipsis in Vae Victis' dialogue [00248C66] - [Reported by Norseman048](https://www.starfieldpatch.dev/issues/680)
+- Fixed missing "to" in Sarah's dialogue [00068926] - [Reported by dodexahedron](https://www.starfieldpatch.dev/issues/676)
+- Fixed a misspelling of "Scalding Liquid" on the Spell entry for this effect. [001D5CF5] - [Reported by SpacePigeonTV](https://www.starfieldpatch.dev/issues/675)
+### Text Fixes (German)
+- Fixes a mismatch between dialogue and subtitles in an audio log encountered in the NASA launch facility.  [000B11CF] - [Reported by SkyHorizon3](https://www.starfieldpatch.dev/issues/721)
 ### Misc Fixes
 - Added a couple of missing dialogue conditions ommited from a previous fix [0032C7CA] [0032C7CB] [0032C7CC] [0032C7CD] - [Reported by TareliusKosmos](https://www.starfieldpatch.dev/issues/666)
 - The update handler for the Starfield Community Patch will now only fire on first startup and each time the player loads the game. Now using OnQuestInit() as it was incorrectly using OnInit() which triggers every time the game starts up. [SFCP:UpdateHandler] 
