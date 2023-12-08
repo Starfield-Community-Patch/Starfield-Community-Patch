@@ -13,7 +13,7 @@ When adding items to the changelog try and use the template below:
 - Gideon Aker will now have unlimited ammo when recruited as a follower. (Missing TeammateDontUseAmmoKeyword [KYWD:0023F1CA]) - [Reported by SamusKnight2K](https://www.starfieldpatch.dev/issues/588)
 ### Location Fixes
 - Fixed missing LocTypeStarstationInterior [KYWD:0001674E] keyword for Starstation RE-939 [0002E373] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
-- Fixed missing LocTypeStarstation [KYWD:0001674D] and LocTypeStarstationInterior [KYWD:0001674E] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)keywords for Starstation UCN-48 [0009B0CA] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
+- Fixed missing LocTypeStarstation [KYWD:0001674D] and LocTypeStarstationInterior [KYWD:0001674E] keywords for Starstation UCN-48 [0009B0CA] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
 - Fixed missing LocTypeStarstation [KYWD:0001674D] keyword for Nova Galactic Staryard [0009B0CB] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
 - Fixed missing LocTypeStarstation [KYWD:0001674D] and LocTypeStarstationExterior [KYWD:0008A8F9] keywords for The Eye [0009C57D] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
 - Fixed missing LocTypeStarstationInterior [KYWD:0001674E] keyword for Starstation RE-939 [0009C6C6] - [Fix contributed by VarekRaith](https://www.starfieldpatch.dev/issues/640)
