@@ -1,0 +1,2687 @@
+FormKey: 1FB85C:Starfield.esm
+EditorID: RI04
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ri_crimetrackingquestscript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: iCompletionStage
+      Data: 10000
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RewardGlobal
+      Object: 23DF3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_MasakoRemainedCEO
+      Object: 17F175:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsReward
+      Object: 03EECF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsRewardDeductionLarge
+      Object: 03EED0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsRewardDeductionMedium
+      Object: 0BCFBE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsRewardDeductionSmall
+      Object: 0E5193:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CrimeCountLarge
+      Object: 03EED7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CrimeCountMedium
+      Object: 03EED5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CrimeCountSmall
+      Object: 03EED6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalArrestCount
+      Object: 23DE15:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalBodyCount
+      Object: 23DE16:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalBountiesCount
+      Object: 3B3CC1:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_RI04_001FB85C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CamdenQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CraneButton
+      Object: 1FB85C:Starfield.esm
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dalton
+      Object: 1FB85C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DaltonQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DRONESanitationBot
+      Object: 1FB85C:Starfield.esm
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DRONESecurityBot
+      Object: 1FB85C:Starfield.esm
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MadameSauvageQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Masako
+      Object: 1FB85C:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MasakoOfficeDoor
+      Object: 1FB85C:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MasakoQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NovablastDisrupter
+      Object: 1FB85C:Starfield.esm
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nyx
+      Object: 1FB85C:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxApartmentQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxBackpack
+      Object: 1FB85C:Starfield.esm
+      Alias: 57
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxEncryptedData
+      Object: 1FB85C:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxExteriorApartmentDoor
+      Object: 1FB85C:Starfield.esm
+      Alias: 63
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxFurniture
+      Object: 1FB85C:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxLapTopEnableMarker
+      Object: 1FB85C:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxMonitor01
+      Object: 1FB85C:Starfield.esm
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxMonitor02
+      Object: 1FB85C:Starfield.esm
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxMonitor03
+      Object: 1FB85C:Starfield.esm
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxMoveToMarker
+      Object: 1FB85C:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxProgram
+      Object: 1FB85C:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinTowerQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VentEntrance
+      Object: 1FB85C:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VentFinalExit
+      Object: 1FB85C:Starfield.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AmmoNeuralDisrupter
+      Object: 2B558B:Starfield.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: cooldownDays
+      Data: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Disruptor
+      Object: 26D968:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionRyujinIndustriesPerk
+      Object: 1C5152:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC044
+      Object: 22F264:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC044RyujinGuardCrimeFaction
+      Object: 22F214:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Large
+      Object: 275224:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Medium
+      Object: 275225:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Small
+      Object: 275226:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_JobAdRadio
+      Object: 2C9C96:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_0000_Masako_DaltonIntercomScene
+      Object: 1D36CF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_0400_Companion_InfiltrationCompleteScene
+      Object: 1D218E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_EncryptedFiles
+      Object: 1FAC99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_NyxProgram
+      Object: 1FB79A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_RyujinTowerArrestsCount
+      Object: 1D2198:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_RyujinTowerBodyCount
+      Object: 1D2199:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_TowerGuardsEnteredCombat
+      Object: 16AF6A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_Track_PlayerStoleCamdenChoInfo
+      Object: 1A798D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05
+      Object: 1EE0C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_Support
+      Object: 2A8318:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalArrestCount
+      Object: 23DE15:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalBodyCount
+      Object: 23DE16:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SE_Player_ZW13_Timestamp
+      Object: 1EFCF3:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0006_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0008_Item_00
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0009_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 330
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0330_Item_00
+  - Stage: 335
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0335_Item_00
+  - Stage: 340
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0340_Item_00
+  - Stage: 360
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0360_Item_00
+  - Stage: 375
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0375_Item_00
+  - Stage: 380
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0380_Item_00
+  - Stage: 385
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0385_Item_00
+  - Stage: 390
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0390_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 405
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0405_Item_00
+  - Stage: 406
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0406_Item_00
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0450_Item_00
+  - Stage: 460
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0460_Item_00
+  - Stage: 480
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0480_Item_00
+  - Stage: 499
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0499_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0550_Item_00
+  - Stage: 575
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0575_Item_00
+  - Stage: 590
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0590_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 750
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0750_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0810_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 910
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_0910_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 1100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_1100_Item_00
+  - Stage: 1110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_1110_Item_00
+  - Stage: 1200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_1200_Item_00
+  - Stage: 1300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_1300_Item_00
+  - Stage: 1310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_1310_Item_00
+  - Stage: 9000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_9000_Item_00
+  - Stage: 10000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI04_001FB85C
+    FragmentName: Fragment_Stage_10000_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1FB85C:Starfield.esm
+      Alias: 9
+    Scripts:
+    - Name: DefaultAliasOnMenuItemRun
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: MenuItemData
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: itemID
+            Data: 1
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 550
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetTerminalMenu
+            Object: 1FB783:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 1FB85C:Starfield.esm
+      Alias: 13
+    Scripts:
+    - Name: DefaultAliasOnMenuItemRun
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: MenuItemData
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: itemID
+            Data: 1
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 499
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetTerminalMenu
+            Object: 227D01:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 1FB85C:Starfield.esm
+      Alias: 24
+    Scripts:
+    - Name: DefaultCollectionOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: CombatStateToCheckFor
+        Data: 1
+      - MutagenObjectType: ScriptBoolProperty
+        Name: OnFirstRef
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 375
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 405
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1000
+  - Property:
+      Name: ''
+      Object: 1FB85C:Starfield.esm
+      Alias: 26
+    Scripts:
+    - Name: defaultaliasonlocationchange
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: CheckNewLocation
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 29B71E:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 575
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 590
+    - Name: defaultaliasonlocationchangeA
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 29B71E:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 375
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 390
+    - Name: RI_CrimeTrackingPlayerAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeHuman
+        Object: 25E194:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: iPreReqTrackingStage
+        Data: 375
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStartTrackingStage
+        Data: 400
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStopTrackingStage
+        Data: 1000
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RadiantLocation
+        Object: 1FB85C:Starfield.esm
+        Alias: 10
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI_BountyTrackingPerk
+        Object: 2AEE3B:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 1FB85C:Starfield.esm
+      Alias: 38
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 375
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 380
+  - Property:
+      Name: ''
+      Object: 1FB85C:Starfield.esm
+      Alias: 40
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 575
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 580
+  - Property:
+      Name: ''
+      Object: 1FB85C:Starfield.esm
+      Alias: 44
+    Scripts:
+    - Name: defaultaliasonequipped
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 400
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 406
+  - Property:
+      Name: ''
+      Object: 1FB85C:Starfield.esm
+      Alias: 45
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 400
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 430
+  - Property:
+      Name: ''
+      Object: 1FB85C:Starfield.esm
+      Alias: 46
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 375
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 380
+  - Property:
+      Name: ''
+      Object: 1FB85C:Starfield.esm
+      Alias: 60
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 375
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 385
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Backgroundchecks
+  - Language: English
+    String: Background Checks
+  - Language: Spanish
+    String: Comprobación de antecedentes
+  - Language: French
+    String: Vérification d'antécédents
+  - Language: Italian
+    String: Scheletri nell’armadio
+  - Language: Japanese
+    String: 身元調査
+  - Language: Polish
+    String: Prześwietlenie
+  - Language: Portuguese_Brazil
+    String: Verificações de Antecedentes
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475FD:Starfield.esm
+QuestFaction: 0546DD:Starfield.esm
+TextDisplayGlobals:
+- 275224:Starfield.esm
+- 275225:Starfield.esm
+- 275226:Starfield.esm
+Summary: The player is sent to speak and meet with Dalton Fiennes, Ryujin Industries Chief Security Officer. Dalton tells the player he and Masako are enacting Security Directive Theta. This means that every single Ryujin employee is going to be fully investigated by a third party company. The only "exception" to this is Ularu Chen who requires special attention due to her own skills as an ex-operative and current Chief Operations Officer. Because Ularu would be so good at covering any tracks, Dalton has contractd out a man named Nyx, the best hacker in the Settled Systems and the only one to ever breach Ryujin Security. Nyx is going to give the player a program to run on Ularu's computer, but the catch is that no one, not even Ryujin's own security can know this investigation is going on... so the player needs to infiltrate Ryujin Tower. Dalton informs the player their keycard will not be good during this time and any guards will consider them to be trespassing. He warns against killing any of the guards and arms the player with a Disurptor, a non-lethal weapon. He also says he'll ensure all non-essential personnel have left the building, so only the security guards will be there. The player infiltrates Ryujin through a vent system and does their best to avoid the guards, running Nyx's program on Ularu's computer and potentially that of another, Camden Cho. Once complete, the player returns to Nyx who analyzes the information and puts anything pertinent on a new slate for Dalton. The player returns to Dalton at a now normal Ryujin Tower where he quickly sees the evidence points to Imogene Salzo.
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Start at Masako
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Talk to Dalton Fiennes
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Meet Nyx at Madame Sauvage's Place
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Run Nyx's Program
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Ularu Chen's PC
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Camden Cho's PC
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Meet Nyx at his apatment
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Talk to Nyx at his apatment - Post scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Return to Dalton
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Talk to Dalton - Post scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 99
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asked Masako about Neuroamps
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Dalton Fiennes'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte zu Dalton Fiennes in seinem Büro auf der Chefetage gehen, um herauszufinden, wie ich den Maulwurf bei Ryujin Industries finden kann.
+      - Language: English
+        String: I need to find Dalton Fiennes in his office on the Executive Floor and see what I can do to help find the mole at Ryujin Industries.
+      - Language: Spanish
+        String: Tengo que buscar a Dalton Fiennes en su despacho de la planta de ejecutivos y ver qué puedo hacer para ayudarle a encontrar al topo de Ryujin Industries.
+      - Language: French
+        String: Je dois trouver Dalton Fiennes dans son bureau à l'étage de la direction et voir ce que je peux faire pour aider à découvrir la taupe chez Ryujin Industries.
+      - Language: Italian
+        String: Devo andare nell’ufficio di Dalton Fiennes al piano dirigenziale per farmi dire cosa posso fare per aiutare a scovare la talpa nelle Ryujin Industries.
+      - Language: Japanese
+        String: 役員フロアのオフィスでダルトン・ファインズを見つけて、リュウジン・インダストリーズに潜り込んだ内通者を見つける手助けをしよう
+      - Language: Polish
+        String: Muszę znaleźć Daltona Fiennesa w jego biurze na piętrze kierownictwa i dowiedzieć się, jak mogę pomóc w odnalezieniu kreta w korporacji Ryujin Industries.
+      - Language: Portuguese_Brazil
+        String: Preciso falar com Dalton Fiennes em sua sala no andar executivo e perguntar o que posso fazer para ajudar a achar o espião na Ryujin Industries.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton Scene Tracking 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 102
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton Scene Tracking 02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 103
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton Scene Tracking 03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Masako Intercom scene done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "QO: Meet Nyx at Madame Sauvage's Place"
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich soll in Madame Sauvage's Place in Neon jemanden namens Nyx treffen. Er sollte bereits wissen, dass Direktive Theta aktiviert wurde.
+      - Language: English
+        String: I need to meet a person named Nyx at Madame Sauvage's Place in Neon. He should already know that Directive Theta has been enacted.
+      - Language: Spanish
+        String: Tengo que reunirme con una persona llamada Nyx en Madame Sauvage's Place, en Neón. Ya debería saber que la directiva Zeta está en marcha.
+      - Language: French
+        String: Je dois rencontrer un certain Nyx chez Madame Sauvage à Néon. Il devrait déjà être au courant que la directive Thêta a été déclenchée.
+      - Language: Italian
+        String: Devo incontrare un certo Nyx al Madame Sauvage di Neon. Dovrebbe già sapere che la Direttiva Teta è stata promulgata.
+      - Language: Japanese
+        String: ネオンにあるマダム・ソバージュの店でニックスという名の人物と話す必要がある。彼は既にシータ指令が発令されたことを知っているはずだ
+      - Language: Polish
+        String: Muszę spotkać się z niejakim Nyxem w Madame Sauvage's Place w Neonie. On powinien już wiedzieć, że uruchomiono Dyrektywę Theta.
+      - Language: Portuguese_Brazil
+        String: Preciso encontrar uma pessoa chamada Nyx no Madame Sauvage's, em Neon. Ele já deve saber que a diretiva Theta foi aplicada.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Nyx'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Nyx in Madame Sauvage's Place getroffen. Ich sollte ihn fragen, was ich für Direktive Theta tun soll.
+      - Language: English
+        String: I met Nyx at Madame Sauvage's Place. I need to speak to him to find out what I need to do for Directive Theta.
+      - Language: Spanish
+        String: Me reuní con Nyx en Madame Sauvage's Place. Debo hablar con él para descubrir lo que tengo que hacer para la directiva Zeta.
+      - Language: French
+        String: J'ai retrouvé Nyx chez Madame Sauvage. Je dois lui parler pour savoir ce que je dois faire dans le cadre de la directive Thêta.
+      - Language: Italian
+        String: Ho incontrato Nyx al Madame Sauvage. Devo parlargli per farmi dire cosa devo fare per la Direttiva Teta.
+      - Language: Japanese
+        String: マダム・ソバージュの店でニックスに会った。シータ指令を受けて何をすべきか調べるために彼と話す必要がある
+      - Language: Polish
+        String: Udało mi się znaleźć Nyxa w Madame Sauvage's Place w Neonie. Muszę z nim porozmawiać, aby dowiedzieć się, jakie działania mam wykonać w ramach Dyrektywy Theta.
+      - Language: Portuguese_Brazil
+        String: Encontrei o Nyx no Madame Sauvage's. Preciso falar com ele e saber o que preciso fazer para a diretiva Theta.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 301
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Nyx Scene Tracking 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 302
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Nyx Scene Tracking 02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 303
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Nyx Scene Tracking 03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 304
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Nyx Scene Tracking 04
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 305
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Nyx Scene Tracking 05
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Nyx Speech Challenge: Pass'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Nyx Speech Challenge: Fail'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 330
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player pays SMALL amount
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 335
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player pays MEDIUM amount
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 340
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player pays LARGE amount
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player chose additional job
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 360
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player finished speaking to Nyx
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 375
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Find a way into Ryujin Tower'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Da Dalton meinte, dass ich zu den Aufzügen vorübergehend keinen Zugang habe, muss ich einen anderen Weg in den Ryujin Tower finden. '
+      - Language: English
+        String: 'I need to find an alternate way into Ryujin Tower since Dalton said my access to the elevators will be temporarily disabled. '
+      - Language: Spanish
+        String: 'Tengo que encontrar otra forma de acceder a la Torre Ryujin, ya que Dalton dijo que no podría acceder temporalmente a los ascensores. '
+      - Language: French
+        String: "Je dois trouver un autre moyen de pénétrer dans la tour Ryujin puisque Dalton m'a informé que mon accès aux ascenseurs avait été temporairement désactivé. "
+      - Language: Italian
+        String: 'Devo trovare un modo alternativo per entrare nella Torre Ryujin, dato che i miei permessi per usare gli ascensori sono temporaneamente revocati. '
+      - Language: Japanese
+        String: 'ダルトンによると一時的にエレベーターを使用できなくなっている。リュウジン・タワーに入る他の方法を見つけなければ '
+      - Language: Polish
+        String: 'Muszę znaleźć alternatywną metodę dostania się do wnętrza Wieży Ryujina, ponieważ z tego, co powiedział Dalton, wynika, że tymczasowo utracę dostęp do wind. '
+      - Language: Portuguese_Brazil
+        String: 'Preciso achar outro jeito de entrar na Torre Ryujin, pois o Dalton disse que meu acesso aos elevadores vai estar temporariamente desativado. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 380
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player used crane button
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 385
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player entered crane button trigger - make sure it's set to be usable
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 390
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player entered Ryujin Tower
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "QO: Run Nyx's Program on Ularu's Computer, Equip Disruptor"
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte bei Ryujin Industries auf Ularus Computer das Programm von Nyx ausführen.
+      - Language: English
+        String: I need to enter Ryujin Industries and run the program Nyx gave me on Ularu's computer.
+      - Language: Spanish
+        String: Tengo que entrar en Ryujin Industries y ejecutar el programa que me dio Nyx en el ordenador de Ularu.
+      - Language: French
+        String: Je dois pénétrer dans Ryujin Industries et exécuter le programme que Nyx m'a donné sur l'ordinateur d'Ularu.
+      - Language: Italian
+        String: Devo entrare nelle Ryujin Industries ed eseguire il programma di Nyx sul computer di Ularu.
+      - Language: Japanese
+        String: リュウジン・インダストリーズ社に侵入して、ニックスのプログラムをウラルのコンピューターで実行しよう
+      - Language: Polish
+        String: Muszę dostać się do siedziby korporacji Ryujin Industries i uruchomić na komputerze Ularu program, który dał mi Nyx.
+      - Language: Portuguese_Brazil
+        String: Preciso entrar na Ryujin Industries e executar o programa que o Nyx me passou no computador da Ularu.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 405
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player entered combat
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 406
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player equipped the Disrupter
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Breadcrumb: Floor 4'
+    ScriptFlagComment: Set by Stage 27 in Quest LC044Jail.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 415
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Breadcrumb: Floor 5'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Breadcrumb: Floor 6'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 430
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player entered Ularu's office - clear breadcrumbs if any remain
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ryujin Security Speech Challenge Pass
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 460
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ryujin Security Speech Challenge Fail
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 470
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player completed guard scene and PASSED the speech challenge.
+    ScriptFlagComment: Set by Stage 800 in Quest DialogueCrimeGuards.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 480
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Set guards to Hostile
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 499
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player ran program on Ularu's computer
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "QO: Run Nyx's Program on Camden Cho's Computer"
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte bei Ryujin Industries auf Ularus und Camdens Computern das Programm von Nyx ausführen.
+      - Language: English
+        String: I need to enter Ryujin Industries and run the program Nyx gave me on Ularu's and Camden's computers.
+      - Language: Spanish
+        String: Tengo que entrar en Ryujin Industries y ejecutar el programa que me dio Nyx en los ordenadores de Ularu y Camden.
+      - Language: French
+        String: Je dois pénétrer dans Ryujin Industries et exécuter le programme que Nyx m'a donné sur les ordinateurs d'Ularu et de Camden.
+      - Language: Italian
+        String: Devo entrare nelle Ryujin Industries ed eseguire il programma di Nyx sui computer di Ularu e Camden.
+      - Language: Japanese
+        String: リュウジン・インダストリーズ社に侵入して、ニックスのプログラムをウラルとカムデンのコンピューターで実行しよう
+      - Language: Polish
+        String: Muszę dostać się do siedziby korporacji Ryujin Industries i uruchomić na komputerach Ularu i Camdena program, który dał mi Nyx.
+      - Language: Portuguese_Brazil
+        String: Preciso entrar na Ryujin Industries e executar o programa que o Nyx me passou nos computadores da Ularu e do Camden.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player ran program on Camden's computer
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 575
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Exit Ryujin Tower'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Da ich Nyx' Programm ausgeführt habe, sollte ich den Ryujin Tower verlassen und in seiner Wohnung mit ihm reden.
+      - Language: English
+        String: Now that I've finished running Nyx's program, I should leave Ryujin Tower and return to him at his apartment.
+      - Language: Spanish
+        String: Ahora que he terminado de ejecutar el programa de Nyx, debería irme de la Torre Ryujin y volver con él, a su apartamento.
+      - Language: French
+        String: Maintenant que j'ai exécuté le programme de Nyx, je dois quitter la tour Ryujin et retourner le voir dans son appartement.
+      - Language: Italian
+        String: Ora che ho finito di eseguire il programma di Nyx, devo andarmene dalla Torre Ryujin e tornare al suo appartamento.
+      - Language: Japanese
+        String: ニックスのプログラムを実行し終えた。リュウジン・タワーを離れて彼のアパートへ戻ろう
+      - Language: Polish
+        String: Program Nyxa zrobił swoje, więc pora opuścić Wieżę Ryujina i spotkać się z nim w jego mieszkaniu.
+      - Language: Portuguese_Brazil
+        String: Agora que terminei de executar o programa do Nyx, preciso sair da Torre Ryujin e voltar ao apartamento dele.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 580
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player went through ceiling trigger
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 590
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player exited Ryujin Tower
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Meet Nyx at his Apartment'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Da ich Nyx' Programm ausgeführt habe, sollte ich in seiner Wohnung mit ihm reden und sehen, was ich herausfinden kann.
+      - Language: English
+        String: Now that I've finished running Nyx's program, I need to return to him at his apartment and see what he can find.
+      - Language: Spanish
+        String: Ahora que he terminado de ejecutar el programa de Nyx, tengo que volver a su apartamento, a ver qué descubre.
+      - Language: French
+        String: Maintenant que j'ai exécuté le programme de Nyx, je dois retourner le voir dans son appartement pour découvrir les résultats.
+      - Language: Italian
+        String: Ora che ho finito di eseguire il programma di Nyx, devo tornare al suo appartamento e vedere cosa riesce a scoprire.
+      - Language: Japanese
+        String: ニックスのプログラムを実行し終えた。彼のアパートへ戻って何があるか探してみよう
+      - Language: Polish
+        String: Program Nyxa zrobił swoje, więc pora spotkać się z nim w jego mieszkaniu i zobaczyć, co jest w stanie odkryć.
+      - Language: Portuguese_Brazil
+        String: Agora que terminei de executar o programa do Nyx, preciso voltar ao apartamento dele e ver o que ele descobre.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 601
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Nyx Scene Tracking 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Nyx'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte Nyx in seiner Wohnung das Programm zurückgeben, das er mir gegeben hat.
+      - Language: English
+        String: I need to speak to Nyx at his apartment to hand back the program he gave me.
+      - Language: Spanish
+        String: Tengo que hablar con Nyx en su apartamento para devolverle el programa que me dio.
+      - Language: French
+        String: Je dois aller voir Nyx dans son appartement pour lui rendre le programme qu'il m'a donné.
+      - Language: Italian
+        String: Devo tornare all’appartamento di Nyx per riconsegnargli il programma.
+      - Language: Japanese
+        String: ニックスのアパートまで行って、彼が渡してくれたプログラムを返そう
+      - Language: Polish
+        String: Muszę porozmawiać z Nyxem w jego mieszkaniu, aby oddać mu jego program.
+      - Language: Portuguese_Brazil
+        String: Tenho que falar com Nyx em seu apartamento para devolver o programa que ele me deu.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 750
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Remove Nyx's Program
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Wait for Nyx'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte abwarten, bis Nyx die Daten von mir analysiert hat.
+      - Language: English
+        String: I need to wait for Nyx to analyze the data I gave him.
+      - Language: Spanish
+        String: Tengo que esperar a que Nyx analice los datos que le di.
+      - Language: French
+        String: Je dois attendre que Nyx ait fini d'analyser les données que je lui ai données.
+      - Language: Italian
+        String: Devo aspettare che Nyx analizzi i dati che gli ho dato.
+      - Language: Japanese
+        String: 提供したデータをニックスが分析し終えるまでを待とう
+      - Language: Polish
+        String: Muszę poczekać, aż Nyx przeanalizuje otrzymane ode mnie dane.
+      - Language: Portuguese_Brazil
+        String: Tenho que esperar Nyx analisar os dados que entreguei.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start monitor animations
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Nyx'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nyx hat die Daten analysiert und sie auf eine Slate geladen, die ich Dalton geben sollte. Ich sollte ihn fragen, was er herausgefunden hat.
+      - Language: English
+        String: Nyx finished analyzing the data and downloaded it onto a slate that I need to give to Dalton. I should talk to him about what he found.
+      - Language: Spanish
+        String: Nyx terminó de analizar los datos y los descargó en una tábula que tengo que darle a Dalton. Debería hablar con él acerca de lo que descubrió.
+      - Language: French
+        String: Nyx a fini d'analyser les données et les a transférées sur une tablette que je dois donner à Dalton. Je devrais lui demander ce qu'il a trouvé.
+      - Language: Italian
+        String: Nyx ha ultimato l’analisi dei dati e li ha caricati su una tabula che devo consegnare a Dalton. Devo farmi dire cos’ha scoperto.
+      - Language: Japanese
+        String: ニックスはデータの分析を終え、スレートにダウンロードした。このスレートをダルトンに渡そう。発見した情報について彼に話をしなければ
+      - Language: Polish
+        String: Nyx zakończył analizowanie danych i przesłał wynik na tabliczkę, którą mam przekazać Daltonowi. Muszę zapytać go o to, co znalazł.
+      - Language: Portuguese_Brazil
+        String: Nyx terminou de analisar os dados e baixou tudo num códice que eu devo entregar ao Dalton. Tenho que falar com ele sobre o que ele achou.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 901
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Nyx Scene Tracking 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 910
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Add Encrypted Files
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Return to Dalton at Ryujin Tower'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Daten, die Dalton für Direktive Theta haben wollte. Ich sollte im Ryujin Tower mit ihm sprechen.
+      - Language: English
+        String: I have the data that Dalton wanted as part of Directive Theta. I need to return to him at Ryujin Tower.
+      - Language: Spanish
+        String: Tengo los datos que Dalton quería para la directiva Zeta. Debo volver con él, en la Torre Ryujin.
+      - Language: French
+        String: J'ai les données que voulait Dalton concernant la directive Thêta. Je dois retourner le voir à la tour Ryujin.
+      - Language: Italian
+        String: Ho i dati richiesti da Dalton, nell’ambito della Direttiva Teta. Devo tornare da lui alla Torre Ryujin.
+      - Language: Japanese
+        String: ダルトンが求めていたシータ指令のデータを手に入れた。リュウジン・タワーに戻って彼に渡そう
+      - Language: Polish
+        String: Mam dane, których Dalton potrzebuje w ramach Dyrektywy Theta. Muszę wrócić do niego - czeka na mnie w Wieży Ryujina.
+      - Language: Portuguese_Brazil
+        String: Estou com os dados que Dalton pediu como parte da diretiva Theta. Tenho que voltar até ele na Torre Ryujin.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Dalton'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte Dalton nach den Daten fragen, die ich ihm für Direktive Theta gegeben habe.
+      - Language: English
+        String: I need to speak to Dalton about the data I've brought him for Directive Theta.
+      - Language: Spanish
+        String: Tengo que hablar con Dalton sobre los datos que le llevé para la directiva Zeta.
+      - Language: French
+        String: Je dois parler à Dalton au sujet des données que je lui ai apportées pour la directive Thêta.
+      - Language: Italian
+        String: Devo discutere con Dalton dei dati per la Direttiva Teta che gli ho portato.
+      - Language: Japanese
+        String: ダルトンに渡したシータ指令のデータについて彼と話をしよう
+      - Language: Polish
+        String: Muszę porozmawiać z Daltonem o dostarczonych mu przeze mnie danych związanych z Dyrektywą Theta.
+      - Language: Portuguese_Brazil
+        String: Tenho que falar com Dalton sobre os dados que trouxe da diretiva Theta.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player responded with collateral damage.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 12975C:Starfield.esm
+- Index: 1110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Remove Encrypted Files
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Wait for Dalton'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich muss abwarten, bis Dalton die Daten von Nyx analysiert hat.
+      - Language: English
+        String: I need to wait for Dalton to analyze the data Nyx provided.
+      - Language: Spanish
+        String: Tengo que esperar a que Dalton analice los datos que proporcionó Nyx.
+      - Language: French
+        String: Je dois attendre que Dalton ait fini d'analyser les données fournies par Nyx.
+      - Language: Italian
+        String: Devo aspettare che Dalton analizzi i dati fornitici da Nyx.
+      - Language: Japanese
+        String: ニックスが提供したデータをダルトンが分析し終えるまでを待とう
+      - Language: Polish
+        String: Muszę poczekać, aż Dalton przeanalizuje dane dostarczone przez Nyxa.
+      - Language: Portuguese_Brazil
+        String: Tenho que esperar o Dalton analisar os dados fornecidos por Nyx.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Dalton'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Dalton hat die Daten analysiert. Ich sollte ihn fragen, was er herausgefunden hat.
+      - Language: English
+        String: Dalton has finished analyzing the information. I need to speak to him to see what he's discovered.
+      - Language: Spanish
+        String: Dalton ha terminado de analizar la información. Tengo que hablar con él para ver qué ha descubierto.
+      - Language: French
+        String: Dalton a fini d'analyser les informations. Je dois aller le voir pour savoir ce qu'il a découvert.
+      - Language: Italian
+        String: Dalton ha ultimato l’analisi dei dati. Devo farmi dire cos’ha scoperto.
+      - Language: Japanese
+        String: ダルトンはデータの分析を終えた。どんな発見があったのか聞きに行こう
+      - Language: Polish
+        String: Dalton zakończył analizę informacji. Muszę z nim porozmawiać, aby dowiedzieć się, co odkrył.
+      - Language: Portuguese_Brazil
+        String: Daltou terminou de analisar as informações. Devo falar com ele para ver o que ele descobriu.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1301
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton Scene Tracking 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1302
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton Scene Tracking 02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton Forcegreeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Calculate Rewards
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Complete Quest
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Im Rahmen von Sicherheitsdirektive Theta habe ich den Ryujin Tower infiltriert, um herauszufinden, ob Ularu Chen ein Maulwurf ist. Ein Freelancer-Hacker namens Nyx hat allerdings Daten analysiert, die zu Imogene Salzo führen.
+      - Language: English
+        String: I infiltrated Ryujin Tower as part of something called Security Directive Theta to investigate Ularu Chen as the potential mole. A contract hacker, Nyx, analyzed the data which pointed to Imogene Salzo.
+      - Language: Spanish
+        String: Me infiltré en la Torre Ryujin como parte de la directiva de seguridad Zeta para investigar a Ularu Chen, sospechosa de ser el topo. Nyx, un hacker al que habían contratado, analizó los datos que apuntaban a Imogene Salzo.
+      - Language: French
+        String: J'ai infiltré la tour Ryujin dans le cadre de la directive de sécurité Thêta pour enquêter sur Ularu Chen qui est suspectée d'être la taupe. Un hacker indépendant du nom de Nyx a analysé les données qui pointaient dans la direction d'Imogene Salzo.
+      - Language: Italian
+        String: Ho completato l’infiltrazione nella Torre Ryujin, nell’ambito della cosiddetta Direttiva Teta, per scoprire se Ularu Chen è la talpa. Un hacker mercenario, Nyx, ha analizzato i dati, i quali puntano a Imogene Salzo.
+      - Language: Japanese
+        String: 内通者の疑いのあるウラル・チェンを捜査するために、シータ指令という保安措置に便乗してリュウジン・タワーに潜入した。雇われハッカーのニックスがデータを解析すると、イモジェン・サルゾの名が指摘された
+      - Language: Polish
+        String: Infiltruję Wieżę Ryujina w ramach procedury bezpieczeństwa o nazwie „Dyrektywa Theta”, aby sprawdzić, czy Ularu Chen nie jest kretem. Wynajęty haker, Nyx, przeanalizował dane, z których wynikło, że zdrajczynią może być Imogene Salzo.
+      - Language: Portuguese_Brazil
+        String: Eu me infiltrei na Torre Ryujin como parte de uma tal “diretiva Theta de segurança” para investigar se Ularu Chen é uma espiã corporativa. A análise dos dados, feita por Nyx, um hacker de aluguel, apontou para Imogene Salzo.
+    StageCompleteDatas:
+    - QSRD: 0x02000000
+      RewardDatas:
+      - XpAwarded: 23DF3B:Starfield.esm
+        BonusCredits: 03EECF:Starfield.esm
+        Rewards:
+        - Item: 08C792:Starfield.esm
+          Count: 1
+      - XpAwarded: Null
+        BonusCredits: 1460FE:Starfield.esm
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: HasPerkConditionData
+            FirstParameter: 227FD3:Starfield.esm
+          ComparisonValue: 1
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Dalton Fiennes.
+    - Language: English
+      String: Talk to Dalton Fiennes
+    - Language: Spanish
+      String: Habla con Dalton Fiennes.
+    - Language: French
+      String: Parlez à Dalton Fiennes.
+    - Language: Italian
+      String: Parla con Dalton Fiennes
+    - Language: Japanese
+      String: ダルトン・ファインズと話す
+    - Language: Polish
+      String: Porozmawiaj z Daltonem Fiennesem
+    - Language: Portuguese_Brazil
+      String: Fale com Dalton Fiennes
+  Targets:
+  - {}
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Triff Nyx in Madame Sauvage's Place.
+    - Language: English
+      String: Meet Nyx at Madame Sauvage's Place
+    - Language: Spanish
+      String: Reúnete con Nyx en Madame Sauvage's Place.
+    - Language: French
+      String: Rencontrez Nyx chez Madame Sauvage.
+    - Language: Italian
+      String: Incontra Nyx al Madame Sauvage
+    - Language: Japanese
+      String: マダム・ソバージュの店でニックスに会う
+    - Language: Polish
+      String: Spotkaj się z Nyxem w Madame Sauvage's Place
+    - Language: Portuguese_Brazil
+      String: Encontre Nyx no Madame Sauvage's
+  Targets:
+  - AliasID: 5
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Nyx.
+    - Language: English
+      String: Talk to Nyx
+    - Language: Spanish
+      String: Habla con Nyx.
+    - Language: French
+      String: Parlez à Nyx.
+    - Language: Italian
+      String: Parla con Nyx
+    - Language: Japanese
+      String: ニックスと話す
+    - Language: Polish
+      String: Porozmawiaj z Nyxem
+    - Language: Portuguese_Brazil
+      String: Fale com Nyx
+  Targets:
+  - AliasID: 5
+- Index: 375
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde einen Weg in den Ryujin Tower.
+    - Language: English
+      String: Find a way into Ryujin Tower
+    - Language: Spanish
+      String: Averigua cómo entrar en la Torre Ryujin.
+    - Language: French
+      String: Trouvez le moyen d'entrer dans la tour Ryujin.
+    - Language: Italian
+      String: Trova un modo per entrare nella Torre Ryujin
+    - Language: Japanese
+      String: リュウジン・タワーに行く方法を見つける
+    - Language: Polish
+      String: Dostań się do Wieży Ryujina
+    - Language: Portuguese_Brazil
+      String: Encontre um jeito de entrar na Torre Ryujin
+  Targets:
+  - AliasID: 38
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 375
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 380
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 390
+  - AliasID: 39
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 375
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 380
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 390
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Führe Nyx' Programm auf Ularus Computer aus.
+    - Language: English
+      String: Run Nyx's Program on Ularu's Computer
+    - Language: Spanish
+      String: Ejecuta el programa de Nyx en el ordenador de Ularu.
+    - Language: French
+      String: Exécutez le programme de Nyx sur l'ordinateur d'Ularu.
+    - Language: Italian
+      String: Esegui il programma di Nyx sul computer di Ularu
+    - Language: Japanese
+      String: ウラルのコンピューターでニックスのプログラムを実行する
+    - Language: Polish
+      String: Uruchom program Nyxa na komputerze Ularu
+    - Language: Portuguese_Brazil
+      String: Execute o programa do Nyx no computador de Ularu
+  Targets:
+  - AliasID: 30
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 400
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 410
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 430
+  - AliasID: 31
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 430
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 410
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 415
+  - AliasID: 32
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 430
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 415
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 420
+  - AliasID: 13
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 499
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 420
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 430
+      ComparisonValue: 1
+  - AliasID: 59
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 278F1A:Starfield.esm
+        SecondParameter: 40
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 278F1A:Starfield.esm
+        SecondParameter: 30
+- Index: 405
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Rüste den Arboron NovaBlast Disruptor aus.
+    - Language: English
+      String: (Optional) Equip the Arboron Novablast Disrupter
+    - Language: Spanish
+      String: (Opcional) Equipa el disruptor NovaBlast de Arboron.
+    - Language: French
+      String: (Optionnel) Équipez le disrupteur Novablast Arboron.
+    - Language: Italian
+      String: (Opzionale) Equipaggia il Disruptor Novablast della Arboron
+    - Language: Japanese
+      String: (オプション)アルボロンのノバブラスト・ディスラプターを装備する
+    - Language: Polish
+      String: (Opcj.) Wyposaż się w zakłócacz Arboron Novablast
+    - Language: Portuguese_Brazil
+      String: (Opc.) Equipe o subversor Novablast
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Führe Nyx' Programm auf Camden Chos Computer aus.
+    - Language: English
+      String: Run Nyx's Program on Camden Cho's computer
+    - Language: Spanish
+      String: Ejecuta el programa de Nyx en el ordenador de Camden Cho.
+    - Language: French
+      String: Exécutez le programme de Nyx sur l'ordinateur de Camden Cho.
+    - Language: Italian
+      String: Esegui il programma di Nyx sul computer di Camden Cho
+    - Language: Japanese
+      String: カムデン・チョウのコンピューターでニックスのプログラムを実行する
+    - Language: Polish
+      String: Uruchom program Nyxa na komputerze Camdena Cho
+    - Language: Portuguese_Brazil
+      String: Execute o programa do Nyx no computador de Camden
+  Targets:
+  - AliasID: 30
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 500
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 410
+  - AliasID: 9
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 500
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 410
+      ComparisonValue: 1
+  - AliasID: 59
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 278F1A:Starfield.esm
+        SecondParameter: 40
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 278F1A:Starfield.esm
+        SecondParameter: 30
+- Index: 575
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Verlasse den Ryujin Tower.
+    - Language: English
+      String: Exit Ryujin Tower
+    - Language: Spanish
+      String: Sal de la Torre Ryujin.
+    - Language: French
+      String: Quittez la tour Ryujin.
+    - Language: Italian
+      String: Lascia la Torre Ryujin
+    - Language: Japanese
+      String: リュウジン・タワーから出る
+    - Language: Polish
+      String: Wyjdź z Wieży Ryujina
+    - Language: Portuguese_Brazil
+      String: Saia da Torre Ryujin
+  Targets:
+  - AliasID: 40
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 575
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 580
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 590
+  - AliasID: 41
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 575
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 580
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FB85C:Starfield.esm
+        SecondParameter: 590
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Triff Nyx in seiner Wohnung.
+    - Language: English
+      String: Meet Nyx at his Apartment
+    - Language: Spanish
+      String: Reúnete con Nyx en su apartamento.
+    - Language: French
+      String: Retrouvez Nyx dans son appartement.
+    - Language: Italian
+      String: Incontra Nyx al suo appartamento
+    - Language: Japanese
+      String: アパートでニックスに会う
+    - Language: Polish
+      String: Spotkaj się z Nyxem w jego mieszkaniu
+    - Language: Portuguese_Brazil
+      String: Encontre Nyx no apartamento dele
+  Targets:
+  - AliasID: 5
+- Index: 700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Nyx.
+    - Language: English
+      String: Talk to Nyx
+    - Language: Spanish
+      String: Habla con Nyx.
+    - Language: French
+      String: Parlez à Nyx.
+    - Language: Italian
+      String: Parla con Nyx
+    - Language: Japanese
+      String: ニックスと話す
+    - Language: Polish
+      String: Porozmawiaj z Nyxem
+    - Language: Portuguese_Brazil
+      String: Fale com Nyx
+  Targets:
+  - AliasID: 5
+- Index: 800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Warte auf Nyx.
+    - Language: English
+      String: Wait for Nyx
+    - Language: Spanish
+      String: Espera a Nyx.
+    - Language: French
+      String: Attendez Nyx.
+    - Language: Italian
+      String: Attendi aggiornamenti da Nyx
+    - Language: Japanese
+      String: ニックスを待つ
+    - Language: Polish
+      String: Poczekaj na Nyxa
+    - Language: Portuguese_Brazil
+      String: Espere Nyx
+  Targets:
+  - AliasID: 5
+- Index: 900
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Nyx.
+    - Language: English
+      String: Talk to Nyx
+    - Language: Spanish
+      String: Habla con Nyx.
+    - Language: French
+      String: Parlez à Nyx.
+    - Language: Italian
+      String: Parla con Nyx
+    - Language: Japanese
+      String: ニックスと話す
+    - Language: Polish
+      String: Porozmawiaj z Nyxem
+    - Language: Portuguese_Brazil
+      String: Fale com Nyx
+  Targets:
+  - AliasID: 5
+- Index: 1000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kehre zu Dalton im Ryujin Tower zurück.
+    - Language: English
+      String: Return to Dalton at Ryujin Tower
+    - Language: Spanish
+      String: Vuelve con Dalton, en la Torre Ryujin.
+    - Language: French
+      String: Retournez voir Dalton à la tour Ryujin.
+    - Language: Italian
+      String: Torna da Dalton alla Torre Ryujin
+    - Language: Japanese
+      String: リュウジン・タワーにいるダルトンのところに戻る
+    - Language: Polish
+      String: Wróć do Daltona w Wieży Ryujina
+    - Language: Portuguese_Brazil
+      String: Volte para falar com Dalton na Torre Ryujin
+  Targets:
+  - {}
+- Index: 1100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Dalton.
+    - Language: English
+      String: Talk to Dalton
+    - Language: Spanish
+      String: Habla con Dalton.
+    - Language: French
+      String: Parlez à Dalton.
+    - Language: Italian
+      String: Parla con Dalton
+    - Language: Japanese
+      String: ダルトンと話す
+    - Language: Polish
+      String: Porozmawiaj z Daltonem
+    - Language: Portuguese_Brazil
+      String: Fale com Dalton
+  Targets:
+  - {}
+- Index: 1200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Warte auf Dalton.
+    - Language: English
+      String: Wait for Dalton
+    - Language: Spanish
+      String: Espera a Dalton.
+    - Language: French
+      String: Attendez Dalton.
+    - Language: Italian
+      String: Attendi aggiornamenti da Dalton
+    - Language: Japanese
+      String: ダルトンを待つ
+    - Language: Polish
+      String: Poczekaj na Daltona
+    - Language: Portuguese_Brazil
+      String: Espere Dalton
+  Targets:
+  - {}
+- Index: 1300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Dalton.
+    - Language: English
+      String: Talk to Dalton
+    - Language: Spanish
+      String: Habla con Dalton.
+    - Language: French
+      String: Parlez à Dalton.
+    - Language: Italian
+      String: Parla con Dalton
+    - Language: Japanese
+      String: ダルトンと話す
+    - Language: Polish
+      String: Porozmawiaj z Daltonem
+    - Language: Portuguese_Brazil
+      String: Fale com Dalton
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: RI04Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  Name: Dalton
+  Flags: []
+  ALFG: 0
+  UniqueActor: 295EDE:Starfield.esm
+  PackageData:
+  - 089469:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Nyx
+  Flags: []
+  ALFG: 0
+  UniqueActor: 1FB7A6:Starfield.esm
+  PackageData:
+  - 251080:Starfield.esm
+  - 122C0F:Starfield.esm
+  - 1FB781:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Masako
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2BA8B3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Ularu
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2BA8B2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Imogene
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2C9BFB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: '----- Ryujin Tower Interior Aliases -----'
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 10
+  Name: Location_RyujinTower
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 29B71E:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: DaltonQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1FB797:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: MasakoQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1D218C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: UlaruQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1D218B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: CamdenQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1D218A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: RyujinTowerQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2707DF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 44
+  Name: NovablastDisrupter
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: CamdenComputer
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1FB7A4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: UlaruComputer
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1FB7A5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: UlaruOfficeExit
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1105EA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 45
+  Name: UlaruOfficeTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 086EF7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 41
+  Name: VentExit
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1105E9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: DaltonComputer
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 186E27:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 61
+  Name: DaltonForceGreetMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 03FADB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: MasakoIntercom
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 295EE5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 54
+  Name: MasakoIntercomFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 003B40:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 58
+  Name: MasakoOfficeDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 18D7EA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: BCObjFloor03
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1879D1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: BCObjFloor04
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1879D0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: BCObjFloor05
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1879CF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: BCObjFloor06
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1879CE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 55
+  Name: DRONESanitationBot
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 028DB0:Starfield.esm
+  PackageData:
+  - 0C16B0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 56
+  Name: DRONESecurityBot
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 028EED:Starfield.esm
+  PackageData:
+  - 0C16B0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 59
+  Name: HoldingCellDoor
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 00CCA6:Starfield.esm
+  PackageData:
+  - 0C16B0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 24
+    MaxInitialFillCount: 99
+    ALAM: 0
+    ReferenceAlias:
+      ID: 24
+      Name: RyujinSecurityGuards
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowDestroyed
+      ALFG: 0
+      Location:
+        AliasID: 10
+        RefType: 278F14:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: "----- Madame Sauvage's Place Aliases -----"
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 11
+  Name: Location_MadameSauvagesPlace
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 22F281:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: MadameSauvageQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1FB799:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 52
+  Name: NyxLapTopEnableMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 11
+    RefType: 122C16:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: NyxFurniture
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 11
+    RefType: 1FB79B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: NyxProgram
+  Flags:
+  - QuestObject
+  - CreateRefTemp
+  - NoPickpocket
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 1FB79A:Starfield.esm
+    AliasID: 5
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: "----- Nyx's Apartment Aliases -----"
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 12
+  Name: Location_NyxsApartment
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 1FB7A0:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 62
+  Name: Location_NyxsApartmentExterior
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 015FFE:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: NyxApartmentQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1FB798:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 51
+  Name: NyxStartFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 12
+    RefType: 1FB77F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: NyxComputerChair
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 12
+    RefType: 1FB79D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: NyxMoveToMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1FB780:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 50
+  Name: NyxTravelMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 25107C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: NyxEncryptedData
+  Flags:
+  - Optional
+  - QuestObject
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 47
+  Name: NyxMonitor01
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 12
+    RefType: 25107D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 48
+  Name: NyxMonitor02
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 12
+    RefType: 25107E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 49
+  Name: NyxMonitor03
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 12
+    RefType: 25107F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 57
+  Name: NyxBackpack
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 12
+    RefType: 047552:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 63
+  Name: NyxExteriorApartmentDoor
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 62
+    RefType: 1D9FEE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: '----- Ryujin Tower Exterior Aliases -----'
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 37
+  Name: Location_RyujinTowerExterior
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 17CFC9:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: VentEntrance
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 37
+    RefType: 1105EB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 53
+  Name: VentFinalExit
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 37
+    RefType: 03415E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: CraneButton
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 37
+    RefType: 1105EC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 60
+  Name: CheckCraneButtonTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 37
+    RefType: 09420C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 42
+  Name: '----- Ryujin Tower Lobby Aliases -----'
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 43
+  Name: Location_Neon
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 015FFE:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: ElevatorGuard
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 43
+    RefType: 3E2D79:Starfield.esm
+  VoiceTypes: 2BCA48:Starfield.esm

@@ -1,0 +1,76 @@
+FormKey: 20614D:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0FA84C:Starfield.esm
+  WEMFile: 13572650
+  TROTs:
+  - UnknownVoiceType: 005B85:Starfield.esm
+    UnknownFloat: 6.433334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Vielleicht hat es so angefangen, aber er hat seine eigenen Soldaten getötet.
+    - Language: English
+      String: Maybe that was how it started, but he killed his own soldiers. People who trusted him.
+    - Language: Spanish
+      String: Tal vez empezó así, pero mató a sus propios soldados, a gente que confiaba en él.
+    - Language: French
+      String: Peut-être que ça a commencé ainsi, mais il a tué ses propres soldats. Des gens qui croyaient en lui.
+    - Language: Italian
+      String: Forse ha iniziato così, ma poi ha ucciso i suoi stessi soldati. Persone che si fidavano di lui.
+    - Language: Japanese
+      String: 最初はそうだったのかもな。だが自分の兵士を殺したんだ。彼を信頼していただろうに
+    - Language: Polish
+      String: Może na początku tak było, ale zabił własnych żołnierzy. Ludzi, którzy mu ufali.
+    - Language: Portuguese_Brazil
+      String: Talvez no início fosse assim, mas ele matou seus próprios soldados. Pessoas que confiavam nele.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x107849B3544CD801
+- Emotion: 0C8674:Starfield.esm
+  WEMFile: 12443341
+  TROTs:
+  - UnknownVoiceType: 005B85:Starfield.esm
+    UnknownFloat: 9.3
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Das ist kein Trolley-Problem, sondern einfach Mord.
+    - Language: English
+      String: This isn't a trolley problem here, it's just murder.
+    - Language: Spanish
+      String: No es un experimento de ética, sino un asesinato puro y duro.
+    - Language: French
+      String: Ce n'est pas une question de moindre mal, c'est un meurtre.
+    - Language: Italian
+      String: Questo non è un dilemma etico, è solo un omicidio.
+    - Language: Japanese
+      String: これは倫理ゲームなどではない。ただの殺人だ
+    - Language: Polish
+      String: To nie jest dylemat wagonika. To zwykłe morderstwo.
+    - Language: Portuguese_Brazil
+      String: Isso não é um dilema do bonde, é só assassinato mesmo.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x50FB6DC6544CD801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    FirstParameter: 005B85:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetDistanceConditionData
+    FirstParameter: 000014:Starfield.esm
+  ComparisonValue: 00D8A9:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low
+NAM8: 2060C1:Starfield.esm

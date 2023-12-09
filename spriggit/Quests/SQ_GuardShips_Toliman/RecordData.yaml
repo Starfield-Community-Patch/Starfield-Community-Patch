@@ -1,0 +1,252 @@
+FormKey: 1C54EB:Starfield.esm
+EditorID: SQ_GuardShips_Toliman
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1000
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 1C54EB:Starfield.esm
+          Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_SQ_GuardShips_Toliman_001C54EB
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShip
+      Object: 1C54EB:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ship01
+      Object: 1C54EB:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pUC08_TolimanGuardShipsSceneOnce
+      Object: 1C5389:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08
+      Object: 2062C3:Starfield.esm
+  Fragments:
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_SQ_GuardShips_Toliman_001C54EB
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_SQ_GuardShips_Toliman_001C54EB
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_SQ_GuardShips_Toliman_001C54EB
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_SQ_GuardShips_Toliman_001C54EB
+    FragmentName: Fragment_Stage_1000_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Dialog: Verbrechen des Wachschiffs'
+  - Language: English
+    String: Guard ship crime dialogue
+  - Language: Spanish
+    String: Diálogo de crimen de nave de defensa
+  - Language: French
+    String: Dialogue de crime du garde de vaisseau
+  - Language: Italian
+    String: Dialogo guardia crimine nave
+  - Language: Japanese
+    String: 警備船の犯罪会話
+  - Language: Polish
+    String: Przestępczy dialog okrętu strażniczego
+  - Language: Portuguese_Brazil
+    String: Diálogo de crime com nave de defesa
+Data:
+  Flags:
+  - AllowRepeatedStages
+  Priority: 90
+  Unused: 0x000000
+Event: CLOC
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16667
+  Data:
+    MutagenObjectType: GetIsCurrentLocationConditionData
+    FirstParameter: 3D9E19:Starfield.esm
+  ComparisonValue: 1
+UnusedConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16667
+  Data:
+    MutagenObjectType: GetEventDataConditionData
+    RunOnType: PlayerShip
+    Member: NewLocation
+    Record: 3D9E19:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 2062C3:Starfield.esm
+    SecondParameter: 155
+Stages:
+- Index: 20
+  Unknown: 129
+  LogEntries:
+  - Flags: []
+    Note: Player accepted hailing. Tag the global to mark they've spoken to these ships before
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player declined hailing. Mark global that the player's spoken to these ships before
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player hit the section during UC08 and is now cleared to visit the planet whenever they like (preventing this scene from starting up again in the future).
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 129
+  LogEntries:
+  - Flags: []
+    Note: stop quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: PlayerShip
+  Flags: []
+  ALFG: 0
+  ClosestToAlias: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0xFFFFFF
+    Unknown2: 16625
+    Data:
+      MutagenObjectType: ShipContainsRefConditionData
+      FirstParameter: 000014:Starfield.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 14
+  Name: PlanetOrbitLocation
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  FindMatchingRefFromEvent:
+    FromEvent: CLOC
+    EventData: 0x4C320000
+- MutagenObjectType: QuestLocationAlias
+  ID: 15
+  Name: PlanetLocation
+  Flags:
+  - Optional
+  - 0x40000000
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x020000
+    Data:
+      MutagenObjectType: IsInSameCurrentLocationAsAliasConditionData
+      FirstParameter: 8
+      SecondParameter: 070A54:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x020000
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 070A54:Starfield.esm
+    ComparisonValue: 1
+  ParentSystemLocationAliasID: 8
+  LocationTypeKeyword: 062F2F:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Ship01
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 1B9BEA:Starfield.esm
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 11
+  ForcedVoice: 052C15:Starfield.esm
+  Spells:
+  - 05C528:Starfield.esm
+  - 05DD98:Starfield.esm
+  VoiceTypes: 052C15:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: Ship02
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 1B9BEA:Starfield.esm
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 11
+  Spells:
+  - 05C528:Starfield.esm
+  - 05DD98:Starfield.esm
+  VoiceTypes: 052C15:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: PlanetApproachMarker
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 0713BF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: GravJumpArrivalMarker
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 0713BC:Starfield.esm
+  VoiceTypes: Null

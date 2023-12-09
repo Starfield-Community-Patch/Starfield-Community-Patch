@@ -1,0 +1,250 @@
+FormKey: 014E55:Starfield.esm
+EditorID: CREW_EliteCrew_GideonAker
+VirtualMachineAdapter:
+  Scripts:
+  - Name: Crew_EliteCrewQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_HireSpeechChallengeAttempted
+      Object: 2636B7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CrewMember
+      Object: 014E55:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_RecruitCost_TextReplacementValue
+      Object: 27072B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TRAIT_Taskmaster
+      Object: 227FE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 0174A2:Starfield.esm
+      Alias: 0
+  Script:
+    Name: Fragments:Quests:QF_CRWGideonAker_00014E55
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialCrewFaction
+      Object: 0143A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gideon
+      Object: 014E55:Starfield.esm
+      Alias: 0
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CRWGideonAker_00014E55
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CRWGideonAker_00014E55
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CRWGideonAker_00014E55
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CRWGideonAker_00014E55
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 100
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CRWGideonAker_00014E55
+    FragmentName: Fragment_Stage_0100_Item_01
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CRWGideonAker_00014E55
+    FragmentName: Fragment_Stage_0001_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Gideon Aker
+  - Language: English
+    String: Gideon Aker
+  - Language: Spanish
+    String: Gideon Aker
+  - Language: French
+    String: Gideon Aker
+  - Language: Italian
+    String: Gideon Aker
+  - Language: Japanese
+    String: ギデオン・アケル
+  - Language: Polish
+    String: Gideon Aker
+  - Language: Portuguese_Brazil
+    String: Gideon Aker
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+TextDisplayGlobals:
+- 27072B:Starfield.esm
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17620
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 014E5B:Starfield.esm
+  ComparisonValue: 1
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG STAGE
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Gideon recruitable as crew
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kalinda mentioned
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 014312:Starfield.esm
+    Note: Gideon Aker Hired
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 227FE0:Starfield.esm
+    Note: Discount Speech Challenge Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 227FE0:Starfield.esm
+      ComparisonValue: 1
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Discount Speech Challenge Failure
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debt info TL toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Family and TA info toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player went through TA top level once
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player went through TA Backstory TL once
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player can unlock time-locked TL
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: GideonAker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 014E5B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: ActiveCompanion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: ActiveEliteCrew
+  Flags:
+  - Optional
+  - CreateRefTemp
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567D:Starfield.esm
+    AliasID: 30
+  VoiceTypes: Null

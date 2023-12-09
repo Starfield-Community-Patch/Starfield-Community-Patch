@@ -1,0 +1,1072 @@
+FormKey: 238837:Starfield.esm
+EditorID: City_Neon_Chem01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 22F276:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 125
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 21B123:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 400
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 500
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: City_Neon_Drug01_QuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Drug01_NeonJailDoor
+      Object: 238837:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Drug01_NesharAlias
+      Object: 238837:Starfield.esm
+      Alias: 0
+  Script:
+    Name: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NesharStart
+      Object: 238837:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XenofreshFisheriesDoor
+      Object: 238837:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Neon_EvictedSleepcrate_Global
+      Object: 0246D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Drug02_AmpResearch
+      Object: 238226:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BadGuys
+      Object: 238837:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Yannick
+      Object: 238837:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Neshar
+      Object: 238837:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Drug01_NesharDoorRef
+      Object: 11FB4D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_C153Container
+      Object: 238837:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XenofreshGuard00
+      Object: 238837:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueFCNeon
+      Object: 22DAD6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Felix
+      Object: 238837:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NesharsPackage
+      Object: 238837:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XenofreshGuard_NoTrespass01
+      Object: 238837:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XenofreshGuard_NoTrespass
+      Object: 238837:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Neon_Drug01_NesharCrateDoor
+      Object: 0443D5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Neon_Drug01_Package
+      Object: 2387A4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XenofreshGuard01
+      Object: 238837:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_Neon_Drug02
+      Object: 235C27:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SleepcrateMinigameQuest
+      Object: 0246D2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_C203Container
+      Object: 238837:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Drug01_550_SyndicateGreeting
+      Object: 12C5F9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimArchetypeDepressed
+      Object: 03D292:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 125
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0125_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0550_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 575
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0575_Item_00
+  - Stage: 790
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0790_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 9000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_9000_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 710
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0710_Item_00
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 730
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0730_Item_00
+  - Stage: 720
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0720_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
+    FragmentName: Fragment_Stage_0420_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 238837:Starfield.esm
+      Alias: 1
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 730
+  - Property:
+      Name: ''
+      Object: 238837:Starfield.esm
+      Alias: 6
+    Scripts:
+    - Name: defaultcollectionaliasondeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 600
+  - Property:
+      Name: ''
+      Object: 238837:Starfield.esm
+      Alias: 8
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 350
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Offene Fragen
+  - Language: English
+    String: Loose Ends
+  - Language: Spanish
+    String: Cabos sueltos
+  - Language: French
+    String: Derniers détails
+  - Language: Italian
+    String: Faccende in sospeso
+  - Language: Japanese
+    String: 緩んだ結び目
+  - Language: Polish
+    String: Niedokończone sprawy
+  - Language: Portuguese_Brazil
+    String: Pontas Soltas
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 50
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+TextDisplayGlobals:
+- 275226:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: STAGE 0
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ON START
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Skip to turn in'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Saw the scene with Neshar
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nach meiner Landung in Neon sah ich, wie ein Mann namens Neshar Omani festgenommen wurde, weil er Aurora besaß. Ich sollte vielleicht bei der Neon Security mit ihm sprechen.
+      - Language: English
+        String: After landing on Neon, I encountered a man named Neshar Omani being apprehended by security for possessing Aurora. It might be worth talking to him in Neon Security.
+      - Language: Spanish
+        String: Después de aterrizar en Neón, vi cómo la seguridad apresaba a un hombre llamado Neshar Omani por posesión de Aurora. Podría ir donde la seguridad de Neón para hablar con él.
+      - Language: French
+        String: À mon arrivée à Néon, j'ai assisté à l'arrestation d'un homme nommé Neshar Omani par la sécurité pour possession d'Aurore. Je crois que ça peut valoir le coup d'aller lui parler dans les bâtiments de la sécurité.
+      - Language: Italian
+        String: Dopo l’atterraggio a Neon, ho incontrato un uomo di nome Neshar Omani che è stato arrestato per possesso di aurora. Forse dovrei raggiungerlo nella prigione della sicurezza di Neon e scambiarci due chiacchiere.
+      - Language: Japanese
+        String: ネオンへ着陸した後、ネシャー・オマニという男がオーロラの所持で逮捕される現場に遭遇した。ネオン・セキュリティでネシャーと話す価値があるかもしれない
+      - Language: Polish
+        String: Po wylądowaniu w Neonie było mi dane zobaczyć zatrzymanie Neshara Osmaniego za posiadanie aurory. Może warto zajść do ochrony Neonu i z nim porozmawiać.
+      - Language: Portuguese_Brazil
+        String: Após aterrissar em Neon, vi um homem chamado Neshar Omani sendo preso por posse de Aurora. Talvez valha a pena falar com ele na segurança de Neon.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 125
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Entered Security
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked with Neshar - really on a quest now
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Neshar Omani hat während seiner Zusammenarbeit mit Yannick Legrande Chems geschmuggelt. Er sollte ein Paket abliefern und hat nun Angst, dass ihm etwas zustoßen könnte, wenn er nicht liefert. Er bat mich, das Paket aus seiner Sleepcrate zu holen und gab mir seinen Passcode, damit mich der Sleepcrate-Manager reinlässt.
+      - Language: English
+        String: Neshar Omani was smuggling chems while working with Yannick Legrande. He was supposed to deliver a package, and he's worried what will come of him if he doesn't deliver. He asked me to get the package from his Sleepcrate. He gave me his passcode so the Sleepcrate manager will let me in.
+      - Language: Spanish
+        String: Neshar Omani traficaba con estupefacientes mientras trabajaba con Yannick Legrande. Se suponía que debía entregar un paquete, y le preocupa lo que pueda pasarle si no lo hace. Me pidió que fuera a por el paquete de su cubículo de sueño. Me dio su contraseña, así que podré pasar sin problemas.
+      - Language: French
+        String: Neshar Omani faisait de la contrebande de drogues avec Yannick Legrande. Il était censé lui livrer un paquet et a peur de ce qui risque de lui arriver s'il ne le fait pas. Il m'a demandé de récupérer la livraison dans sa chambre-caisson et m'a donné son mot de passe pour que le gardien des chambres-caissons me laisse entrer.
+      - Language: Italian
+        String: Neshar Omani trasportava sostanze mentre lavorava con Yannick Legrande. Gli è stato ordinato di consegnare un pacco, ma è preoccupato per quello che potrebbe succedergli se la consegna non andasse a buon fine. Mi ha chiesto di recuperare il pacco dalla sua sonnocassa, dandomi il codice di accesso da presentare alla responsabile.
+      - Language: Japanese
+        String: ネシャー・オマニはヤニック・レグランドと協力して薬品を密輸していた。ネシャーはブツを届けるはずだったが、無事に届けられなかった場合に自分の身に何が起きるのか心配している。彼は自分のスリープクレートから配達品を回収するよう頼んできた。パスコードは教わったため、スリープクレートマネージャーはとおしてくれるだろう
+      - Language: Polish
+        String: Neshar Osmani przemycał farmaceutyki podczas współpracy z Yannickiem Legrande'em. Miał dostarczyć paczkę i martwi się, co się z nim stanie, jeżeli tego nie zrobi. Poprosił mnie o zgarnięcie jej z jego kontenera noclegowego. Dał mi swoje hasło, więc kierowniczka kontenerów raczej mnie wpuści.
+      - Language: Portuguese_Brazil
+        String: Neshar Omani contrabandeava drogas a serviço de Yannick Legrande. Ele tinha um pacote para entregar e se preocupa com o que pode lhe acontecer caso não o entregue. Ele me pediu para pegar o pacote no seu dormículo. Tenho a senha para que a gerente de lá me deixe entrar.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked with Sleepcrate Manager
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mit dem Sleepcrate-Manager gesprochen und Zugang zu Neshars Sleepcrate erhalten. Jetzt sollte ich den winzigen Mietbereich nach Yannicks Paket durchsuchen.
+      - Language: English
+        String: I've spoken to the Sleepcrate Manager and they've given me access to Neshar's Sleepcrate. I should now search the tiny rental space for Yannick's package.
+      - Language: Spanish
+        String: He hablado con el administrador de cubículos, que me ha procurado acceso al cubículo de sueño de Neshar. Debo registrar el minúsculo alojamiento en busca del paquete de Yannick.
+      - Language: French
+        String: J'ai parlé au gardien des chambres-caissons pour pouvoir accéder à celui de Neshar. Je dois fouiller cet espace minuscule à la recherche du paquet de Yannick.
+      - Language: Italian
+        String: Dopo aver parlato con il responsabile, ho ottenuto l’accesso alla sonnocassa di Neshar. Ora non mi resta che ispezionarla alla ricerca del pacco di Yannick.
+      - Language: Japanese
+        String: スリープクレートの管理人と話し、ネシャーのスリープクレートへのアクセス権を手に入れた。次は、ヤニックの小包用の小さなレンタル空間を探そう
+      - Language: Polish
+        String: Kierowniczka kontenerów noclegowych dała mi dostęp do kontenera Neshara. Muszę teraz poszukać w tym maleńkim lokum paczki dla Yannicka.
+      - Language: Portuguese_Brazil
+        String: Falei com a pessoa responsável pela gerência dos dormículos e ela me deu acesso ao dormículo de Neshar. Agora preciso procurar o pacote do Yannick no cubículo alugado.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Paid to access the other container
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Got Yannick's Package
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Neshars Paket und muss es jetzt nur noch Yannick Legrande bringen.
+      - Language: English
+        String: I have Neshar's package - now I just need to deliver it to Yannick Legrande.
+      - Language: Spanish
+        String: Tengo el paquete de Neshar. Ahora solo tengo que entregárselo a Yannick Legrande.
+      - Language: French
+        String: J'ai le paquet de Neshar. Je n'ai plus qu'à le remettre à Yannick Legrande.
+      - Language: Italian
+        String: Ho recuperato il pacco di Neshar... non mi resta che consegnarlo a Yannick Legrande.
+      - Language: Japanese
+        String: ネシャーの配達品が手に入った。あとはヤニック・レグランドに届けるだけだ
+      - Language: Polish
+        String: Mam paczkę Neshara. Muszę ją teraz dostarczyć Yannickowi Legrande'owi.
+      - Language: Portuguese_Brazil
+        String: Estou com o pacote de Neshar. Agora só preciso entregá-lo a Yannick Legrande.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Yannick
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Yannick ist in den Aurora-Schmuggel involviert, weil er die Droge für Yannick's Blend benötigt. Nach Neshars Festnahme macht er sich jetzt Sorgen wegen seiner Geschäfte. Er will, dass du Felix Sadler dazu bringst, Neon zu verlassen. Und falls das nicht klappt, sollst du ihn töten. Verwalter Bayu wäre alles andere als begeistert, wenn er davon erfahren sollte.
+      - Language: English
+        String: Yannick is involved in Aurora smuggling in order to make Yannick's Blend. He's worried about his operation after Neshar's arrest and wants you to either convince Felix Sadler to leave Neon or kill him. Administrator Bayu would not look on any of this kindly if he finds out.
+      - Language: Spanish
+        String: Yannick está involucrado en el tráfico de Aurora para producir el Blend de Yannick. Le preocupa la operación después del arresto de Neshar y quiere que convenzas a Felix Sadler de que se vaya de Neón o que le mates. Como lo descubra el administrador Bayu, no se lo tomará nada bien.
+      - Language: French
+        String: Yannick est impliqué dans de la contrebande d'Aurore pour fabriquer son Blend. Suite à l'arrestation de Neshar, il craint pour ses affaires, et souhaite que je persuade Felix Sadler de quitter Néon, ou que je le tue s'il refuse. L'administrateur Bayu ne sera pas très content s'il l'apprend.
+      - Language: Italian
+        String: 'Yannick si è dato al traffico di aurora per la produzione del suo Blend. Teme che l’arresto di Neshar possa compromettere la sua operazione e mi ha chiesto di occuparmi di Felix Sadler: ora posso decidere se convincerlo a lasciare Neon o ucciderlo. Se l’amministratore Bayu lo scoprisse sarebbe un bel guaio.'
+      - Language: Japanese
+        String: ヤニックは「ヤニックのブレンド」を作るためにオーロラの密輸に関わっている。彼はネシャーの逮捕を受けて流通がどうなるか心配しており、フェリックス・サドラーを説得してネオンから追い出すか、殺してほしいと願っている。この件がバユー行政官の耳に入ったら快く思わないだろう
+      - Language: Polish
+        String: Yannick przemyca aurorę, aby produkować melanż. Martwi się o swój interes po aresztowaniu Neshara. Poprosił cię o przekonanie Felixa Sadlera do opuszczenia Neonu lub o zabicie go. Administrator Bayu z pewnością nie ucieszy się z żadnej z tych opcji, jeżeli się o nich dowie.
+      - Language: Portuguese_Brazil
+        String: Yannick está envolvido no contrabando de Aurora para fabricar sua Blend. Após a prisão de Neshar, ele ficou preocupado com a operação, e quer que eu mate Felix Sadler ou o convença a sair de Neon. O gestor Bayu não vai gostar nada disso se descobrir.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Got paid for delivering Neshar's package
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: Null
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B10:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Got some extra pay
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: Null
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Arrived at Felix's house
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin bei Felix eingetroffen. Auf Yannicks Wunsch hin sollte ich Felix entweder dazu bringen, Neon zu verlassen ... oder ihn töten.
+      - Language: English
+        String: I've arrived at Felix's location. As per Yannick's request, I should either convince Felix to leave Neon... or kill him.
+      - Language: Spanish
+        String: He llegado al paradero de Felix. Como me pidió Yannick, puedo convencer a Felix para que se marche de Neón... o bien, matarlo.
+      - Language: French
+        String: J'ai trouvé Felix. Yannick m'a demandé de le convaincre de quitter Néon... ou de le tuer.
+      - Language: Italian
+        String: Ho raggiunto la posizione di Felix. Come richiesto da Yannick, devo scegliere se convincere Felix ad abbandonare Neon... o ucciderlo.
+      - Language: Japanese
+        String: フェリックスの居場所に到着した。ヤニックに頼まれたとおり、フェリックスにネオンから立ち去るように説得するか… 彼を始末しなければならない
+      - Language: Polish
+        String: Jestem już w miejscu pobytu Felixa. Jak prosił Yannick, muszę przekonać go, aby opuścił Neon... albo go zabić.
+      - Language: Portuguese_Brazil
+        String: Cheguei onde o Felix está. De acordo com o pedido de Yannick, eu preciso convencer o Felix a ir embora de Neon... ou matá-lo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Syndicate conversation starts
+    ScriptFlagComment: Set by a trigger
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 575
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Syndicate attacks
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Killed the Seokguh thugs
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dealt with Felix
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Sache mit Felix ist geklärt. Ich sollte Yannick Legrande jetzt die Neuigkeiten überbringen.
+      - Language: English
+        String: The Felix situation is dealt with, so it's time to return to Yannick Legrande and give him the news.
+      - Language: Spanish
+        String: Una vez resuelto el asunto de Felix, es hora de volver con Yannick Legrande y darle la noticia.
+      - Language: French
+        String: La situation avec Felix est réglée, il est temps de retourner voir Yannick Legrande pour lui en faire part.
+      - Language: Italian
+        String: La questione di Felix è stata sistemata. È ora di tornare da Yannick Legrande e riferirgli quanto è successo.
+      - Language: Japanese
+        String: フェリックスの件はケリがついた。ヤニック・レグランドの元へ戻って状況を伝えよう
+      - Language: Polish
+        String: Sprawa z Felixem załatwiona. Czas wracać do Yannicka Legrande'a i przekazać mu wieści.
+      - Language: Portuguese_Brazil
+        String: A situação com Felix foi resolvida. Hora de voltar até Yannick Legrande e contar as novidades.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Spared Felix
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 720
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Chose to attack Felix
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 730
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Felix is dead
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 790
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Given mats for Amp
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: 'COMPLETE: Talked with Yannick'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Yannick Legrande Neshars Paket gebracht. Das freute Yannick so sehr, dass er mich noch stärker in seine Geschäfte einbinden wollte.
+      - Language: English
+        String: I delivered Neshar's stash to Yannick Legrande. Yannick was pleased and wanted to rope me into more of his business.
+      - Language: Spanish
+        String: Entregué el alijo de Neshar a Yannick Legrande, lo que le hizo muy feliz, y quiere que participe en más de sus asuntos.
+      - Language: French
+        String: J'ai livré la came de Neshar à Yannick Legrande. Il était ravi et veut que je m'investisse plus dans ses affaires.
+      - Language: Italian
+        String: Ho consegnato il pacco di Neshar a Yannick Legrande. Yannick è rimasto soddisfatto e vorrebbe che lo aiutassi con altre faccende.
+      - Language: Japanese
+        String: ネシャーの隠していた配達品をヤニック・レグランドへ届けた。ヤニックは喜び、商売に引き込んで今後も手伝わせようとしている
+      - Language: Polish
+        String: Paczka Neshara została dostarczona Yannickowi Legrande'owi. Ucieszył się i chce wciągnąć mnie w kolejny biznes.
+      - Language: Portuguese_Brazil
+        String: Entreguei o estoque de Neshar a Yannick Legrande. Yannick gostou e quer me envolver em mais negócios seus.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 2BCBE8:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 9000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: QUEST END
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich im Gefängnis mit Neshar.
+    - Language: English
+      String: Speak to Neshar in Jail
+    - Language: Spanish
+      String: Habla con Neshar en la cárcel.
+    - Language: French
+      String: Parlez à Neshar en prison.
+    - Language: Italian
+      String: Parla con Neshar in prigione
+    - Language: Japanese
+      String: 牢の中にいるネシャーと話す
+    - Language: Polish
+      String: Porozmawiaj z Nesharem w więzieniu
+    - Language: Portuguese_Brazil
+      String: Fale com Neshar na prisão
+  Targets:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsLocationLoadedConditionData
+        FirstParameter: 22F276:Starfield.esm
+      ComparisonValue: 1
+  - AliasID: 11
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsLocationLoadedConditionData
+        FirstParameter: 22F276:Starfield.esm
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit dem Sleepcrate-Manager.
+    - Language: English
+      String: Talk to the Sleepcrate Manager
+    - Language: Spanish
+      String: Habla con el administrador de cubículos.
+    - Language: French
+      String: Parlez au gardien des chambres-caissons.
+    - Language: Italian
+      String: Parla con la responsabile della sonnocassa
+    - Language: Japanese
+      String: スリープクレートのマネージャーと話す
+    - Language: Polish
+      String: Porozmawiaj z kierowniczką kontenerów noclegowych
+    - Language: Portuguese_Brazil
+      String: Fale com a gerente do dormículo
+  Targets:
+  - AliasID: 4
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde das Paket in Sleepcrate C-153.
+    - Language: English
+      String: Find package in Sleepcrate C-153
+    - Language: Spanish
+      String: Busca el paquete en el cubículo de sueño C-153.
+    - Language: French
+      String: Trouvez le paquet dans la chambre-caisson C-153.
+    - Language: Italian
+      String: Recupera il pacco nella sonnocassa C-153
+    - Language: Japanese
+      String: スリープクレートC-153内の配達品を見つける
+    - Language: Polish
+      String: Znajdź paczkę w kontenerze noclegowym C-153
+    - Language: Portuguese_Brazil
+      String: Ache o pacote no dormículo C-153
+  Targets:
+  - AliasID: 8
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Yannick Legrande.
+    - Language: English
+      String: Speak to Yannick Legrande
+    - Language: Spanish
+      String: Habla con Yannick Legrande.
+    - Language: French
+      String: Parlez à Yannick Legrande.
+    - Language: Italian
+      String: Parla con Yannick Legrande
+    - Language: Japanese
+      String: ヤニック・レグランドと話す
+    - Language: Polish
+      String: Porozmawiaj z Yannickiem Legrande'em
+    - Language: Portuguese_Brazil
+      String: Fale com Yannick Legrande
+  Targets:
+  - AliasID: 2
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Suche Felix Sadler auf.
+    - Language: English
+      String: Find Felix Sadler
+    - Language: Spanish
+      String: Busca a Felix Sadler.
+    - Language: French
+      String: Trouvez Felix Sadler.
+    - Language: Italian
+      String: Trova Felix Sadler
+    - Language: Japanese
+      String: フェリックス・サドラーを探す
+    - Language: Polish
+      String: Znajdź Felixa Sadlera
+    - Language: Portuguese_Brazil
+      String: Encontre Felix Sadler
+  Targets:
+  - AliasID: 1
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Eliminiere die Schläger des Seokga-Syndikats.
+    - Language: English
+      String: Eliminate Seokguh Syndicate thugs
+    - Language: Spanish
+      String: Elimina a los matones del Sindicato Seokguh.
+    - Language: French
+      String: Éliminez les forces du clan Seokguh.
+    - Language: Italian
+      String: Elimina i sicari del Clan Seokguh
+    - Language: Japanese
+      String: ソッカ・シンジケートのごろつきを排除する
+    - Language: Polish
+      String: Wyeliminuj zbirów syndykatu Seokga
+    - Language: Portuguese_Brazil
+      String: Elimine capangas do Sindicato Seokguh
+  Targets:
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+- Index: 700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kümmere dich um Felix.
+    - Language: English
+      String: Deal with Felix
+    - Language: Spanish
+      String: Encárgate de Felix.
+    - Language: French
+      String: Marchandez avec Felix.
+    - Language: Italian
+      String: Occupati di Felix
+    - Language: Japanese
+      String: フェリックスに対処する
+    - Language: Polish
+      String: Zajmij się Felixem
+    - Language: Portuguese_Brazil
+      String: Lide com Felix
+  Targets:
+  - AliasID: 1
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+- Index: 800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Yannick Legrande.
+    - Language: English
+      String: Speak to Yannick Legrande
+    - Language: Spanish
+      String: Habla con Yannick Legrande.
+    - Language: French
+      String: Parlez à Yannick Legrande.
+    - Language: Italian
+      String: Parla con Yannick Legrande
+    - Language: Japanese
+      String: ヤニック・レグランドと話す
+    - Language: Polish
+      String: Porozmawiaj z Yannickiem Legrande'em
+    - Language: Portuguese_Brazil
+      String: Fale com Yannick Legrande
+  Targets:
+  - AliasID: 2
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Neshar
+  Flags:
+  - Optional
+  ALFG: 0
+  UniqueActor: 2387B3:Starfield.esm
+  PackageData:
+  - 21B12C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: SleepcrateManager
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2387AF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Yannick
+  Flags: []
+  ALFG: 0
+  UniqueActor: 26FDE2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Felix
+  Flags:
+  - AllowDisabled
+  - Protected
+  - InitiallyDisabled
+  ALFG: 0
+  UniqueActor: 2387B2:Starfield.esm
+  PackageData:
+  - 0719F5:Starfield.esm
+  - 02E852:Starfield.esm
+  - 003641:Starfield.esm
+  ScriptComment: 730
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 14
+  Name: NeonCityLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 015FFE:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: C153Container
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 07828B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: C203Container
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 07828C:Starfield.esm
+  Items:
+  - Item:
+      Item: 00000F:Starfield.esm
+      Count: 139
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 15
+  Name: Warehouse01
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 21B123:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: BadGuysMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2387A6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: BadGuysLeader
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 15
+    RefType: 07828C:Starfield.esm
+  ForcedVoice: 00002D:Starfield.esm
+  VoiceTypes: 00002D:Starfield.esm
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 6
+    MaxInitialFillCount: 10
+    ALAM: 0
+    ReferenceAlias:
+      ID: 6
+      Name: BadGuys
+      Flags:
+      - AllowReuseInQuest
+      - AllowDisabled
+      - InitiallyDisabled
+      - CreateRefTemp
+      - 0x2000000
+      ALFG: 0
+      Location:
+        AliasID: 15
+        RefType: 07828B:Starfield.esm
+      PackageData:
+      - 03AC4A:Starfield.esm
+      ScriptComment: 600
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: SleepcrateContainer
+  Flags: []
+  ALFG: 0
+  ForcedReference: 21B129:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: NesharsPackage
+  Flags:
+  - QuestObject
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 3402A6:Starfield.esm
+    AliasID: 17
+    Create: In
+  ScriptComment: 350
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: NesharStart
+  Flags: []
+  ALFG: 0
+  ForcedReference: 21B12D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: XenofreshFisheriesDoor
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 13E3F1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: XenofreshGuard00
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 078296:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: XenofreshGuard01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 078299:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: XenofreshGuard_NoTrespass
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 078297:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: XenofreshGuard_NoTrespass01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 078298:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: NeonJailDoor
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 11FB4D:Starfield.esm
+  VoiceTypes: Null

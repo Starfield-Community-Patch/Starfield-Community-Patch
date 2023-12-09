@@ -1,0 +1,1802 @@
+FormKey: 24AFED:Starfield.esm
+EditorID: DialogueCydonia
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 24AFED:Starfield.esm
+          Alias: 0
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 12
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1130
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 24AFED:Starfield.esm
+          Alias: 0
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 1120
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 510
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 24AFED:Starfield.esm
+          Alias: 0
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 500
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: defaultquestdistancecheckscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: DistanceCheckStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: TargetDistance
+          Data: 10
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetAlias
+          Object: 24AFED:Starfield.esm
+          Alias: 28
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 10
+  - Name: DialogueCydoniaQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AllMiners
+      Object: 24AFED:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCydonia_HorusAid_CooldownTime
+      Object: 0A6967:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_CY_HorusGift
+      Object: 24348C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cutter
+      Object: 016758:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ07Misc
+      Object: 30270A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_PlayerKnows_RedDevils
+      Object: 25CDF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ08
+      Object: 30B819:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aid_MedPack
+      Object: 00ABF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_RedTape01_Misc
+      Object: 11500C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCydonia_Detonation_Helper
+      Object: 0FB71F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_Psych01_Foreknowledge_AV
+      Object: 0E8D3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SaoirseBowden
+      Object: 24AFED:Starfield.esm
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCydonia_EstablishingScene02
+      Object: 11500B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AllMiners
+      Object: 24AFED:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_Psych01
+      Object: 225130:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReneeShelby
+      Object: 24AFED:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RivkahOvadia
+      Object: 24AFED:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OldMiningEquipment
+      Object: 24AFED:Starfield.esm
+      Alias: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ08Misc
+      Object: 30B81A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ04
+      Object: 23F810:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCydoniaDetonationQuestStartKeyword
+      Object: 0FB72B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DenisAverin
+      Object: 24AFED:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GillySeong
+      Object: 24AFED:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JaneWeller
+      Object: 24AFED:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_RedTape03
+      Object: 23748F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CY_Anna_CreditsAmount
+      Object: 243491:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCydonia_Rivkah_Greeting_CityCYRunaway01_Start
+      Object: 2266DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_Runaway01_Whiskey
+      Object: 2266DB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CY_Hurst_Donation
+      Object: 20B4B9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCydonia_Trevor_City_CY_Runaway01_Topic
+      Object: 041175:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCydonia_EstablishingScene01
+      Object: 24AFD5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ01
+      Object: 22E140:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_CY_HorusGift
+      Object: 24348C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CY_DetonationCountConditionForm
+      Object: 0FB72E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TrevorMarker
+      Object: 24AFED:Starfield.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_Runaway01
+      Object: 22686C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CY_HurstGone
+      Object: 23481C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_RedTape02_Blackmail
+      Object: 0F437A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ07
+      Object: 30270B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RAD03
+      Object: 21710A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ04Misc
+      Object: 1E7A5A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_Runaway01_Misc
+      Object: 0E2802:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCydonia_RedEyes
+      Object: 20B4C3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCydonia_ErickJane_NoShip
+      Object: 0B214B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_RedTape02_HurstNote
+      Object: 23591C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TrackerAgent
+      Object: 24AFED:Starfield.esm
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TRAIT_Extrovert
+      Object: 227FD7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaR03_Foreknowledge_BooksAV
+      Object: 0DBD6F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RAD04
+      Object: 216D3D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_Psych01Misc
+      Object: 20217B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_RedTape01
+      Object: 237490:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TiaWu
+      Object: 24AFED:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCydonia_Psych01_Tia_OverhearTopic
+      Object: 0E8D4C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TrevorPetyarre
+      Object: 24AFED:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MitchBenjamin
+      Object: 24AFED:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_StartUp01
+      Object: 222E40:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundIndustrialist
+      Object: 22EC7A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_Runaway01_Foreknowledge_RivkahSickAV
+      Object: 0E27DA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LaylahPulaski
+      Object: 24AFED:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SupervisorIntroMarker
+      Object: 24AFED:Starfield.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0011_Item_00
+  - Stage: 801
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0801_Item_00
+  - Stage: 810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0810_Item_00
+  - Stage: 1002
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1002_Item_00
+  - Stage: 1200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1200_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0009_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 2400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_2400_Item_00
+  - Stage: 212
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0212_Item_00
+  - Stage: 1402
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1402_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 1400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1400_Item_00
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0006_Item_00
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0013_Item_00
+  - Stage: 2500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_2500_Item_00
+  - Stage: 1321
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1321_Item_00
+  - Stage: 1700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1700_Item_00
+  - Stage: 1110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1110_Item_00
+  - Stage: 1300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1300_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 2600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_2600_Item_00
+  - Stage: 1302
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1302_Item_00
+  - Stage: 2405
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_2405_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 2410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_2410_Item_00
+  - Stage: 2301
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_2301_Item_00
+  - Stage: 2510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_2510_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0008_Item_00
+  - Stage: 17
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0017_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 1150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1150_Item_00
+  - Stage: 1550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1550_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 1501
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1501_Item_00
+  - Stage: 1500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1500_Item_00
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 1320
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1320_Item_00
+  - Stage: 1130
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1130_Item_00
+  - Stage: 1800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1800_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 902
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_0902_Item_00
+  - Stage: 1310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
+    FragmentName: Fragment_Stage_1310_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 24AFED:Starfield.esm
+      Alias: 11
+    Scripts:
+    - Name: DialogueCydoniaHurstAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_CY_RedTape02
+        Object: 237491:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CY_HurstGone
+        Object: 23481C:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 24AFED:Starfield.esm
+      Alias: 20
+    Scripts:
+    - Name: DialogueCydoniaNoamAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Health
+        Object: 0002D4:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 24AFED:Starfield.esm
+      Alias: 30
+    Scripts:
+    - Name: NHAliasDisableOnUnloadScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StagePrereq
+        Data: 11
+  - Property:
+      Name: ''
+      Object: 24AFED:Starfield.esm
+      Alias: 31
+    Scripts:
+    - Name: NHAliasDisableOnUnloadScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StagePrereq
+        Data: 11
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+Location: 015FF7:Starfield.esm
+TextDisplayGlobals:
+- 2373F5:Starfield.esm
+- 2373F6:Starfield.esm
+- 32DEA9:Starfield.esm
+- 20B4B9:Starfield.esm
+- 243491:Starfield.esm
+Summary: Cydonia, on Mars, is the first major planetary colony in the Settled Systems, first established by the Deimos Staryards corporation. It's still heavily influenced by their mining operations, but now formally under the United Colonies banner. Much of the population here are transient miners who work for a set of years on a highly profitble contract basis, then move on, but there are some permanent locals as well. It's formeost an industrial city, with a mining town/industrial vibe. Like a Pittsburgh, or a Detroit. It's old and run down, with few frills and not a lot to do, but it's still a healthy, somewhat prosperous community. There's also a strong military presence here, where UC Marines train.
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug Stage to the start of City_CY_RedTape01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug Stage to the start of FFCydoniaZ01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug Stage to the start of FFCydoniaR02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug Stage to the start of FFCydoniaR03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug Stage to start FFCydoniaZ04.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug Stage to the start of City_CY_Runaway01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug stage to start of City_CY_Psych01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug stage to start of City_CY_StartUp01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug stage to the start of FFCydoniaZ07
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug stage to the start of FFCydoniaZ08
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start establishing scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 11
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Establishing Scene ends
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 12
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Move Trevor for Establishing Scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 13
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player heard about Rivkah
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: EstablishingScene02 ends. Start the first detonation sequence.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 17
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Move the player to Saoirse Bowden for RAD03'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player has encountered someone with red eyes
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Anna Imani Intro Scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asked about Keith
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player offered credits to Anna
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 121
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Taye knows that the player helped him and his mom.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Governor Hurst Intro Scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Governor Hurst finished greeting the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 211
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Governor hurst mentioned Donors
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 212
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player donated to Hurst
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 213
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asked about Hurst's inferred bribe
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Horus Gamal Intro scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player Accepted Horus' gift
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: Null
+        BonusCredits: Null
+        Rewards:
+        - Item: 24348C:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 311
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player declined Horus' gift
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Horus mentioned that God brought people to the stars
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Charlie greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player turned in evidence against Governor Hurst
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 244
+  LogEntries:
+  - Flags: []
+    Note: The player left Cydonia after turning in evidence against Giovernor Hurst. Woodard moves into the Governor's office.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asked Gauri what she does
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player met Taye and he mentioned his mother.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 701
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Taye greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asked Vincent Woodard about his military service
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 801
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Vincent Woodard explained about the Red Devils
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Vincent Woodard greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Renee about Space Frog. Start FFCydoniaZ04.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 901
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Renee and she asked for help.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 902
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player heard Renee ask for help, or heard a miner mention Renee. This starts the misc pointer quest, FFCydoniaZ04Misc
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 910
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Renee greets the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mitch greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1001
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mitch mentioned movies
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1002
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mitch Explained to the player what he needs help with
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1003
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1005
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mitch told the player he's looking to make new friends
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Trevor about the job.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player backed out before agreeing to Trevor's plan.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Trevor. Player had enough Iron on them from the start.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start City_CY_RedTape01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player completed the RedTape Quests from Trevor
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Swap the old mining equipment for the new mining equipment
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Trevor greeted the player.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start FFCydoniaZ01.  Player spoke to Denis about the shipment.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1201
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Denis mentioned he could use some help. For FFCydoniaZ01.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Denis finishes his greeting scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: For FFCydoniaR02. Denis tells the player he has another job for them.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1251
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has heard Denis say both "Friendo" and "Buddy"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start City_CY_Runaway01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1301
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Rivkah told the player about her mother
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1302
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player gave Rivkah a Medpak
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1303
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player tried to give Rivkah a medpak, but didn't have one
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1305
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Rivkah greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1306
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player came back to offer help to Rivkah after speaking to her already.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player got Rivkah to trust them
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player returned the whiskey to Jack (Normal Price)
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: Null
+        BonusCredits: 2266D6:Starfield.esm
+    - QSRD: '[]'
+- Index: 1321
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player returned the whiskey to Jack (Reduced Price)
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: Null
+        BonusCredits: 2266D5:Starfield.esm
+    - QSRD: '[]'
+- Index: 1350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Rivkah Forcegreets the player, after completing RedTape03
+    ScriptFlagComment: We now use CY_RivkahForceGreet to trigger the scene instead.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start City_CY_Psych01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1401
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player did not choose to take on City_Cydonia_Psych01 yet, but talked to Gilly about it
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1402
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player heard about Gilly Seong
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1403
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Psycho01: Tia overhears Gilly'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1404
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Psych01: Tia finishes her line'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start City_CY_StartUp01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1501
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jane delivered her Greeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1502
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player backed out of talking with Jane before getting the quest.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1503
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asked Jane if she's the owner
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Erick Returned but Jane's ship was not recovered. Start a scene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1551
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Erick finished his scene with Jane
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1601
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Samund mentioned his past
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Saoirse Bowden grants the RAD03 quest when the player asks her about work.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Andres greets the player.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1801
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Andres mentions retirement.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Leona greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Samund greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Manaaki greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Manaaki told the player what he knows about the Trade Authority
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Demelza greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Booth Greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2301
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Booth mentioned the Red Devils
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Waylon reveals he's been thinking about writing an apology letter.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2315
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: spoke to Chris for the first time.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Chris mentioned his life on New Atlantis
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Laylah greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2401
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Laylah mentioned the red eyes
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2402
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player told Laylah they're a miner
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2405
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player heard someone mention Laylah's interest in the Brotherlode. This starts the misc pointer quest, FFCydoniaZ07Misc
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start FFCydoniaZ07
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2411
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Laylah asked the player if they want to go for the Brotherlode.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player heard that the Tracker Agent needs help. Start FFCydoniaZ08Misc.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2501
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tracker Agent greeted the player before giving FFCydoniaZ08
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start FFCydoniaZ08
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Trevor mentions Rivkah after competing RedTape03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  Name: Cydonia
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 015FF7:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: AndresJensen
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D21:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: AnnaImani
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D12:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: MitchBenjamin
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D20:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Booth
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D1F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: CharlieFlynn
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D11:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: DemelzaMyers
+  Flags: []
+  ALFG: 0
+  UniqueActor: 09B6B3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: DenisAverin
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D1E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: ErickVonPrice
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D1D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: GauriLimsong
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D10:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: GillySeong
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D0F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: GlenHurst
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D1C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: HenryFerraro
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D1A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: HorusGamal
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D19:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: IfeanyiAdigwe
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D18:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: Jack
+  Flags: []
+  ALFG: 0
+  UniqueActor: 28A2B9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: JaneWeller
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D0E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: JoyBryant
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D0D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: LaylahPulaski
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D0C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: LeonaHawkes
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D0B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 45
+  Name: ManaakiAlmonte
+  Flags: []
+  ALFG: 0
+  UniqueActor: 09DBA3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: Noam
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D07:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: PeterBrennan
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D17:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: ReneeShelby
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D0A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: RivkahOvadia
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D09:Starfield.esm
+  PackageData:
+  - 2F17EB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: SamundBergRamirez
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D16:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 44
+  Name: SaoirseBowden
+  Flags: []
+  ALFG: 0
+  UniqueActor: 262CC5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: TayeImani
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D15:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: TiaWu
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D08:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: TrevorPetyarre
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D14:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: VincentWoodard
+  Flags: []
+  ALFG: 0
+  UniqueActor: 255D13:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: SupervisorIntroMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 24AFD8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: Miner01IntroMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 24AFD6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: Miner02IntroMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 24AFD7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: IntroMiner01
+  Flags:
+  - UsesStoredText
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 2CCF9F:Starfield.esm
+    AliasID: 37
+  Keywords:
+  - 3CA246:Starfield.esm
+  DisplayName: 203182:Starfield.esm
+  Factions:
+  - 203BC3:Starfield.esm
+  PackageData:
+  - 20B4BF:Starfield.esm
+  - 240488:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: IntroMiner02
+  Flags:
+  - UsesStoredText
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 2CCF9E:Starfield.esm
+    AliasID: 34
+  Keywords:
+  - 3CA246:Starfield.esm
+  DisplayName: 203182:Starfield.esm
+  Factions:
+  - 203BC3:Starfield.esm
+  PackageData:
+  - 20B4BE:Starfield.esm
+  - 240488:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: IntroChair01
+  Flags:
+  - CreateRefTemp
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 20B4C1:Starfield.esm
+  PackageData:
+  - 240488:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: IntroChair02
+  Flags:
+  - CreateRefTemp
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 20B4C0:Starfield.esm
+  PackageData:
+  - 240488:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 35
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 41
+    ALAM: 0
+    ReferenceAlias:
+      ID: 41
+      Name: PatrolGuards
+      Flags: []
+      ALFG: 0
+      Location:
+        AliasID: 0
+        RefType: 2066CA:Starfield.esm
+      PackageData:
+      - 2066CB:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 42
+    ALAM: 0
+    ReferenceAlias:
+      ID: 42
+      Name: StationarylGuards
+      Flags: []
+      ALFG: 0
+      Location:
+        AliasID: 0
+        RefType: 20668B:Starfield.esm
+      PackageData:
+      - 20668C:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 43
+  Name: TrevorMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 1FA6BB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 47
+  Name: ChrisCullen
+  Flags: []
+  ALFG: 0
+  UniqueActor: 031AC8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 48
+  Name: WaylonParker
+  Flags: []
+  ALFG: 0
+  UniqueActor: 02DD56:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 49
+  Name: TrackerAgent
+  Flags: []
+  ALFG: 0
+  UniqueActor: 1D8BDF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 50
+    ReferenceAlias:
+      ID: 50
+      Name: OldMiningEquipment
+      Flags:
+      - AllowReuseInQuest
+      - AllowDisabled
+      - AllowReserved
+      ALFG: 0
+      Location:
+        AliasID: 0
+        RefType: 0880B1:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 51
+    ALAM: 0
+    ReferenceAlias:
+      ID: 51
+      Name: AllMiners
+      Flags:
+      - AllowReuseInQuest
+      - AllowReserved
+      ALFG: 0
+      Location:
+        AliasID: 0
+        RefType: 18DD98:Starfield.esm
+      VoiceTypes: Null

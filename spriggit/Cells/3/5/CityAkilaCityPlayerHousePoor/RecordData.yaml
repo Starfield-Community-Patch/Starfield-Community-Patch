@@ -1,0 +1,118 @@
+FormKey: 11FC1D:Starfield.esm
+EditorID: CityAkilaCityPlayerHousePoor
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Stretch: Spieler-Unterkunft'
+  - Language: English
+    String: Player House The Stretch
+  - Language: Spanish
+    String: Apartamento del jugador en la Extensión
+  - Language: French
+    String: Maison du joueur - La Bande
+  - Language: Italian
+    String: Appartamento del giocatore La Distesa
+  - Language: Japanese
+    String: プレイヤーの家 ストレッチ
+  - Language: Polish
+    String: Dom gracza w Odcinku
+  - Language: Portuguese_Brazil
+    String: Casa do Jogador - Extensão
+Flags:
+- IsInteriorCell
+- CantTravelFromHere
+- 0x10000
+- 0x20000
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 0.7
+  FogFarColor: '#002C2418'
+  Unknown1: 659731
+  ForColorHighNear: '#00000080'
+  ForColorHighFar: '#00635F4B'
+  HighDensityScale: 0.7
+  FarHeightMid: 10000
+LightingTemplate: 0300E2:Starfield.esm
+WaterHeight: 3.4028235E+38
+XILS: 1
+Location: 04B9E3:Starfield.esm
+AcousticSpace: 1CB751:Starfield.esm
+ImageSpace: 1BF2FB:Starfield.esm
+Music: 02428C:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
+Traversals:
+- Unknown1: 6
+  From: 1.1618696, 0.019795805, 0.10167337
+  To: 1.3493484, 0.863447, 0.053874135
+  UnknownVector: 0.6484766, 6.5010753, 1.4713761
+  Unknown: 0xFF32FF325135103A
+- Unknown1: 12
+  From: 1.0488304, 1.0236323, 0.053874135
+  To: 1.2668092, -0.06625697, 0.103874214
+  UnknownVector: 0.82734656, 6.6266904, 1.4465884
+  Unknown: 0xE341E3415C398834
+- Unknown1: 148
+  From: -4.6972203, 2.2288885, 0.106162496
+  To: -4.6972203, 0.9788885, 0.10016267
+  UnknownVector: 2.4346778, 2.5066142, 0.79995537
+  Unknown: 0x48424842A6362737
+- Unknown1: 93
+  From: 0.93899053, 1.5728296, 0.053874135
+  To: 1.8146809, -2.8056054, 0.053874142
+  UnknownVector: 2.8394272, 7.713367, 1.218073
+  Unknown: 0xE341E34111386C38
+- Unknown1: 178
+  From: -5.6406546, 1.7158409, 0.053874128
+  To: -2.6252348, 1.4645575, 0.10365982
+  UnknownVector: 1.9482553, 7.6501017, 1.3214267
+  Unknown: 0x9E3E9E3EAC3C233D
+- Unknown1: 543
+  From: 1.5277796, 0.9788887, 0.053874135
+  To: 1.5277796, -0.060054153, 0.10387421
+  UnknownVector: 0.7734111, 6.6262317, 1.4546025
+  Unknown: 0x484248428C397D34
+- Unknown1: 585
+  From: 1.7896248, 0.024362408, 0.10387421
+  To: 1.8222013, 0.8713622, 0.05387413
+  UnknownVector: 0.6291862, 6.570792, 1.4753324
+  Unknown: 0xEC28EC282A35CE38
+- Unknown1: 107
+  From: -2.1388872, -2.3680873, 0.080691606
+  To: -2.1388872, 0.7783947, 0.0839801
+  UnknownVector: 2.0334, 7.5921216, 1.3091079
+  Unknown: 0x00000000223F993C
+- Unknown1: 572
+  From: -1.5069425, 2.1913881, 0.08783115
+  To: 1.7777796, 2.1913881, 0.053874135
+  UnknownVector: 2.1264653, 7.554703, 1.2964197
+  Unknown: 0x483E483E083B6634
+- Unknown1: 611
+  From: 1.7860782, -0.067848206, 0.10387421
+  To: 1.8604282, 1.8652802, 0.053874135
+  UnknownVector: 1.2104146, 7.8081827, 1.4170017
+  Unknown: 0xEC28EC286E34A334
+- Unknown1: 595
+  From: 1.5277796, 1.5788887, 0.053874135
+  To: 1.5277796, -2.8578408, 0.05387414
+  UnknownVector: 2.8280647, 7.69507, 1.2186027
+  Unknown: 0x484248425636003D
+- Unknown1: 713
+  From: 2.0277796, 0.9788887, 0.053874135
+  To: 2.0277796, -0.07447702, 0.10387421
+  UnknownVector: 0.78167677, 6.646948, 1.4537346
+  Unknown: 0x48424842A6376034
+- Unknown1: 653
+  From: -2.8722205, -2.3666005, 0.11089917
+  To: -2.8722205, 0.7729671, 0.10706565
+  UnknownVector: 2.0309584, 7.579939, 1.3090068
+  Unknown: 0x00000000343C663C
+- Unknown1: 728
+  From: 2.0277796, 1.6788888, 0.05387413
+  To: 2.0277796, -3.0575671, 0.053874135
+  UnknownVector: 3.0436475, 7.6330504, 1.1913716
+  Unknown: 0x48424842CD34003A

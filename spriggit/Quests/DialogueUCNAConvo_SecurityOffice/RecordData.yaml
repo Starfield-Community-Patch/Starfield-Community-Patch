@@ -1,0 +1,45 @@
+FormKey: 06422E:Starfield.esm
+EditorID: DialogueUCNAConvo_SecurityOffice
+Data:
+  Priority: 15
+  Unused: 0x000000
+Location: 01295A:Starfield.esm
+UnusedConditions: []
+Stages:
+- Index: 10
+  Unknown: 116
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Guard02
+  Flags:
+  - MatchingRefInLoadedArea
+  - MatchingRefForActorsOnly
+  ALFG: 0
+  ForcedReference: 052C1F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Guard01
+  Flags:
+  - MatchingRefInLoadedArea
+  - MatchingRefForActorsOnly
+  ALFG: 0
+  ForcedReference: 06423E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Vasco
+  Flags:
+  - Optional
+  ALFG: 0
+  External:
+    Quest: 003448:Starfield.esm
+    AliasID: 5
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Guard03
+  Flags: []
+  ALFG: 0
+  ForcedReference: 06CC3E:Starfield.esm
+  VoiceTypes: Null

@@ -1,0 +1,103 @@
+FormKey: 1A0D71:Starfield.esm
+EditorID: CityAkilaCitySanctumUniversum
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Sanctum Universum
+  - Language: English
+    String: Sanctum Universum
+  - Language: Spanish
+    String: Sanctum Universum
+  - Language: French
+    String: Sanctum Universum
+  - Language: Italian
+    String: Sanctum Universum
+  - Language: Japanese
+    String: サンクタム・ユニバーサム
+  - Language: Polish
+    String: Sanctum Universum
+  - Language: Portuguese_Brazil
+    String: Sanctum Universum
+Flags:
+- IsInteriorCell
+- CantTravelFromHere
+- 0x10000
+- 0x20000
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 0.7
+  FogFarColor: '#002C2418'
+  Unknown1: 659731
+  ForColorHighNear: '#00000080'
+  ForColorHighFar: '#00635F4B'
+  HighDensityScale: 0.7
+  FarHeightMid: 10000
+LightingTemplate: 0300E2:Starfield.esm
+WaterHeight: 3.4028235E+38
+XILS: 1
+Location: 1A7F27:Starfield.esm
+AcousticSpace: 1CB751:Starfield.esm
+ImageSpace: 1BF2FB:Starfield.esm
+Music: 02428C:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
+Traversals:
+- Unknown1: 23
+  From: -1.5778298, -2.314859, -0.39705288
+  To: -0.49253875, -1.2295679, -0.39705303
+  UnknownVector: 1.4529474, 5.181438, 1.2974038
+  Unknown: 0x483A483A123DA634
+- Unknown1: 6
+  From: -1.7808508, -1.7500224, -0.4009447
+  To: -0.19387615, -1.7500224, -0.39705303
+  UnknownVector: 1.5528282, 5.0166683, 1.270616
+  Unknown: 0x483E483E1C3C003B
+- Unknown1: 8
+  From: -0.19387615, -1.7500224, -0.39705303
+  To: -1.7808508, -1.7500224, -0.4009447
+  UnknownVector: 1.5536892, 5.0062714, 1.2698727
+  Unknown: 0xB644B644003B1C3C
+- Unknown1: 32
+  From: -0.26495525, -2.448058, -0.4043035
+  To: -1.6230865, -1.0899354, -0.40814152
+  UnknownVector: 1.8852794, 4.993339, 1.2097842
+  Unknown: 0x7F457F450A3E6B38
+- Unknown1: 21
+  From: -0.98799324, -2.5240505, -0.40466362
+  To: -0.98799324, -1.2000227, -0.4079764
+  UnknownVector: 1.3477092, 4.8154407, 1.2979059
+  Unknown: 0x000000006D3D8038
+- Unknown1: 138
+  From: 1.2220526, -6.907967, -0.44705296
+  To: -0.022358634, -8.401261, -0.43320602
+  UnknownVector: 2.4886703, 3.8488915, 0.9968192
+  Unknown: 0xAC43AC436138FF3E
+- Unknown1: 114
+  From: -0.06299353, -6.8965745, -0.44705302
+  To: -0.06299353, -3.6975226, -0.42429805
+  UnknownVector: 2.0545557, 7.651958, 1.3084825
+  Unknown: 0x000000000137C73B
+- Unknown1: 253
+  From: 0.38736242, -8.896816, -0.43816474
+  To: 0.59529847, -7.0253997, -0.44705296
+  UnknownVector: 2.4466555, 3.763313, 0.99432737
+  Unknown: 0x152F152F753CA936
+- Unknown1: 221
+  From: 1.5079743, -7.455301, -0.44705302
+  To: -0.22827968, -7.7709846, -0.4470529
+  UnknownVector: 2.5168636, 3.4391809, 0.9390319
+  Unknown: 0x884488440F39893F
+- Unknown1: 139
+  From: 1.4544914, -8.237439, -0.44705293
+  To: 0.38143754, -2.8721895, -0.40884846
+  UnknownVector: 3.4988575, 7.6948566, 1.1440401
+  Unknown: 0x16461646E539DD3A
+- Unknown1: 625
+  From: -4.4569845, -8.748093, -0.3027558
+  To: -4.621822, -7.429401, -0.43549958
+  UnknownVector: 2.163328, 2.797105, 0.9124762
+  Unknown: 0x29462946FB3DB23D

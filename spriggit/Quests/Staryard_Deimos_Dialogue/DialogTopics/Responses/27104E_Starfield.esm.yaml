@@ -1,0 +1,90 @@
+FormKey: 27104E:Starfield.esm
+Flags: {}
+Responses:
+- WEMFile: 6385960
+  TRDAUnknown: 5.8
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Was ist das denn? Ein Zivilist in meiner Sternenwerft?
+    - Language: English
+      String: What do we have here? A civilian in my Staryard?
+    - Language: Spanish
+      String: ¿Qué tenemos aquí? ¿Civiles en mi astillero?
+    - Language: French
+      String: Qu'avons-nous là ? Mon chantier spatial n'est pas un endroit pour les civils...
+    - Language: Italian
+      String: Cos’abbiamo qui? Un civile nel mio astrocantiere?
+    - Language: Japanese
+      String: どういうことだ？ 私のスターヤードに民間人がいるとは
+    - Language: Polish
+      String: Co my tu mamy? Cywil w mojej stoczni?
+    - Language: Portuguese_Brazil
+      String: O que temos aqui? Uma presença civil no meu astroleiro?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x7090AA22B540D601
+  BNAM: 2C02F2:Starfield.esm
+  STRV: $(Subgraph)\Relaxed_Lib_Greeting_S01.af
+  VCLR: Null
+  FLMV: 0x00000000
+  FLAV: 0x00000000
+  QUAL: True
+  LVCR: 0
+  ATAC: 0x00000000
+  XNAM: True
+- WEMFile: 3414994
+  TRDAUnknown: 5.7000003
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Deimos rühmt sich, die erste und letzte Verteidigungslinie der UC im All zu sein.
+    - Language: English
+      String: Deimos prides itself on being the UC's first and last line of defense in space.
+    - Language: Spanish
+      String: Deimos se enorgullece de ser la primera y última línea de defensa de las CU en el espacio.
+    - Language: French
+      String: Deimos se flatte d'être la première et la dernière ligne de défense de l'UC dans l'espace.
+    - Language: Italian
+      String: La Deimos è orgogliosa di essere la prima e l’ultima difesa dell’UC nello spazio.
+    - Language: Japanese
+      String: UC防衛の第一線であり、最後の砦でもあることがダイモスの誇り
+    - Language: Polish
+      String: Deimos z dumą stoi na pierwszej i ostatniej linii obrony ZK.
+    - Language: Portuguese_Brazil
+      String: A Deimos se orgulha de ser a primeira e a última linha de defesa da UC no espaço.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x40DB7E24B540D601
+- Emotion: 0C866F:Starfield.esm
+  WEMFile: 3348599
+  TRDAUnknown: 4.9
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Aber wir schützen und bewaffnen auch gerne mutige Unternehmer, die ihre Geschäfte in den Sternen machen.
+    - Language: English
+      String: But we're more than happy to protect and arm bold entrepreneurs that do their business among the stars.
+    - Language: Spanish
+      String: Pero es un placer armar y proteger a gente valiente y emprendedora que hace negocios entre las estrellas.
+    - Language: French
+      String: Mais nous sommes toujours prêts à protéger et armer les âmes courageuses qui s'aventurent dans les étoiles.
+    - Language: Italian
+      String: Ma siamo più che felici di proteggere e armare gli audaci imprenditori che svolgono i loro affari tra le stelle.
+    - Language: Japanese
+      String: だが宇宙で商売する勇敢な企業家を武装させ、守ることもまた、我々の喜びだ
+    - Language: Polish
+      String: Ale z radością chronimy i dozbrajamy śmiałych przedsiębiorców, którzy robią interesy wśród gwiazd.
+    - Language: Portuguese_Brazil
+      String: Mas é um grande prazer proteger e armar empreendedores corajosos que fazem negócios entre as estrelas.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x80A7472CB540D601
+StartScenePhase: ''
+SubtitlePriority: Low

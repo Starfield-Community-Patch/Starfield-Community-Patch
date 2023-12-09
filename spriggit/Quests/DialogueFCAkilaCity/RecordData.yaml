@@ -1,0 +1,979 @@
+FormKey: 22342E:Starfield.esm
+EditorID: DialogueFCAkilaCity
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 22342E:Starfield.esm
+          Alias: 32
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_AkilaLife08
+      Object: 2D2517:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC01_BankRobbersEnableMarker
+      Object: 20C554:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AkilaCityLife_2010_Davis
+      Object: 2798F4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JustinSnead
+      Object: 22342E:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityAkilaCityCoreHouseKey
+      Object: 0C368D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_AC_LowHouseDonation
+      Object: 2AB31E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_AkilaLife03
+      Object: 112373:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 22342E:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC01
+      Object: 29A8F0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_AC_Home_CoreHouse_Misc
+      Object: 0C3688:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_AkilaLife02
+      Object: 112ACE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DuncanLynch
+      Object: 22342E:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerHouseSystem
+      Object: 1ABF4E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_Akila_Jansen
+      Object: 1A8B64:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_AkilaLife07
+      Object: 00DBE9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_AkilaLife06
+      Object: 2E18CE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC_AC_Home_MidtownHouse_Misc
+      Object: 0C3687:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AkilaCity_Earl_SnuckIn
+      Object: 095D2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AugustBowen
+      Object: 22342E:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_AkilaLife04
+      Object: 0F24FA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_AC_FAB_Quest18
+      Object: 37C5A7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RAD03
+      Object: 21710A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityAkilaCityMidtownHouseKey
+      Object: 0C3690:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_AkilaLife01
+      Object: 11463F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerHouse_AC_MidtownCost
+      Object: 09B0F4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EarlFulton
+      Object: 22342E:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerHouse_AC_CoreCost
+      Object: 09B0F3:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0810_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0105_Item_00
+  - Stage: 2015
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_2015_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 112
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0112_Item_00
+  - Stage: 119
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0119_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 117
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0117_Item_00
+  - Stage: 820
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0820_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0115_Item_00
+  - Stage: 525
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
+    FragmentName: Fragment_Stage_0525_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 22342E:Starfield.esm
+      Alias: 7
+    Scripts:
+    - Name: FABStartSceneScript
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 15
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SceneToStart
+        Object: 27991D:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: ShutdownStage
+        Data: 2051
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 22342E:Starfield.esm
+        Alias: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2050
+  - Property:
+      Name: ''
+      Object: 22342E:Starfield.esm
+      Alias: 38
+    Scripts:
+    - Name: FABStartSceneScript
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2040
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 22342E:Starfield.esm
+        Alias: 4
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SceneToStart
+        Object: 279904:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 22342E:Starfield.esm
+      Alias: 21
+    Scripts:
+    - Name: FABStartSceneScript
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 25
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2060
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 22342E:Starfield.esm
+        Alias: 4
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SceneToStart
+        Object: 27991F:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 22342E:Starfield.esm
+      Alias: 33
+    Scripts:
+    - Name: FABStartSceneScript
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2010
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 22342E:Starfield.esm
+        Alias: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: ShutdownStage
+        Data: 2015
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SceneToStart
+        Object: 2798F4:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 22342E:Starfield.esm
+      Alias: 35
+    Scripts:
+    - Name: FABStartSceneScript
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 30
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SceneToStart
+        Object: 279902:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 22342E:Starfield.esm
+        Alias: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2020
+  - Property:
+      Name: ''
+      Object: 22342E:Starfield.esm
+      Alias: 41
+    Scripts:
+    - Name: FABStartSceneScript
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 8
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2070
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 22342E:Starfield.esm
+        Alias: 4
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SceneToStart
+        Object: 27991E:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 22342E:Starfield.esm
+      Alias: 42
+    Scripts:
+    - Name: FABStartSceneScript
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 10
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SceneToStart
+        Object: 279920:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 22342E:Starfield.esm
+        Alias: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2080
+  - Property:
+      Name: ''
+      Object: 22342E:Starfield.esm
+      Alias: 43
+    Scripts:
+    - Name: FABStartSceneScript
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2090
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 22342E:Starfield.esm
+        Alias: 4
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SceneToStart
+        Object: 279921:Starfield.esm
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - 0x10000
+  Priority: 15
+  Unused: 0x000000
+Location: 010DFB:Starfield.esm
+TextDisplayGlobals:
+- 09B0F3:Starfield.esm
+- 09B0F4:Starfield.esm
+- 32DEA9:Starfield.esm
+- 2AB31E:Starfield.esm
+Filter: '\Settlement\AkilaCity\'
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug playtest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Move the player to Duncan Lynch for RAD03'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player arrives at Akila City (1st Time)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Annie greeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Elias greeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Amira greeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 112
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Donate to Amira
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 1AF6D6:Starfield.esm
+- Index: 115
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Earl greeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 117
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Pay Earl
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 119
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Snuck into zoo
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Duncan Lynch grants the RAD03 quest when the player asks him about work.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jacob Coe greeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jacob ticked off
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Frank Langston greeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Met Sarah Filburn
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 525
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Sarah: Queue up Akila04'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Met Coma
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Reisha revealed she owns Laredo
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mr. Tate greeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Bought Midtown House
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Bought Core House
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Rose greeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has completed FC01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Met Marko
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2010
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'LIFE: Wilson/Bailey start'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2015
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Wilson/Bailey scene - don't play
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2020
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'LIFE: Soccer Practice'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2030
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'LIFE: Fran/Elizabeth'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2040
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'LIFE: Kate/Eloise'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2050
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'LIFE: Reisha/Justin'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2051
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Set from City_ER_Peace, stage 200, to skip Reisha's city life scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2060
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'LIFE: Aggie/Justin'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2070
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'LIFE: GateGuard'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2080
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'LIFE: Aaron/Guard'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2090
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'LIFE: Mooch/Guard'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'LIFE: ChunkChat'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'LIFE: Tourists'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  Name: AnnieWilcox
+  Flags: []
+  ALFG: 0
+  UniqueActor: 225488:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: EliasCartwright
+  Flags: []
+  ALFG: 0
+  UniqueActor: 224859:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: AmiraWolf
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22547C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: EarlFulton
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22484E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: AlejandraKane
+  Flags: []
+  ALFG: 0
+  UniqueActor: 225482:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: AugustBowen
+  Flags: []
+  ALFG: 0
+  UniqueActor: 223D0C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: ReishaLance
+  Flags: []
+  ALFG: 0
+  UniqueActor: 225487:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: JustinSnead
+  Flags: []
+  ALFG: 0
+  UniqueActor: 224855:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: JadenRoss
+  Flags: []
+  ALFG: 0
+  UniqueActor: 223D0D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: EmersonShepherd
+  Flags: []
+  ALFG: 0
+  UniqueActor: 224856:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: EloiseReed
+  Flags: []
+  ALFG: 0
+  UniqueActor: 225481:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: KateFoley
+  Flags: []
+  ALFG: 0
+  UniqueActor: 225480:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: BelleRowland
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2233F7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: WilliamCrowley
+  Flags: []
+  ALFG: 0
+  UniqueActor: 295949:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: AntonGoraya
+  Flags: []
+  ALFG: 0
+  UniqueActor: 224854:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: FrankLangston
+  Flags: []
+  ALFG: 0
+  UniqueActor: 224857:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: ElizabethCardwell
+  Flags: []
+  ALFG: 0
+  UniqueActor: 225483:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: DuncanLynch
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22484D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: JacobCoe
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124B8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: SarahFilburn
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22547F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: HenryFilburn
+  Flags: []
+  ALFG: 0
+  UniqueActor: 224853:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: Sammie
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22547D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: EthanNash
+  Flags: []
+  ALFG: 0
+  UniqueActor: 224849:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: Aggie
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21EAD8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: LeahCasler
+  Flags:
+  - Optional
+  ALFG: 0
+  UniqueActor: 261A49:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: MarkoJansen
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22484A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: MaryCartwright
+  Flags: []
+  ALFG: 0
+  UniqueActor: 225485:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: AaronScott
+  Flags: []
+  ALFG: 0
+  UniqueActor: 224858:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: Coma
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22484F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: AhnjongSinclair
+  Flags: []
+  ALFG: 0
+  UniqueActor: 1B2627:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: NgodupTate
+  Flags: []
+  ALFG: 0
+  UniqueActor: 09B0FA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: Rose
+  Flags: []
+  ALFG: 0
+  UniqueActor: 095D37:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 32
+  Name: AkilaCityLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 010DFB:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: DavisWilson
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2161AE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: Bailey Kirklin
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21619F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 35
+  Name: SoccerMom
+  Flags: []
+  ALFG: 0
+  UniqueActor: 095D10:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: SoccerKid
+  Flags: []
+  ALFG: 0
+  UniqueActor: 095D14:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 41
+  Name: NorthWallGuard
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 32
+    RefType: 279928:Starfield.esm
+  ForcedVoice: 2BCA44:Starfield.esm
+  VoiceTypes: 2BCA44:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 42
+  Name: ConsulateGuard
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 32
+    RefType: 279929:Starfield.esm
+  ForcedVoice: 2BCA41:Starfield.esm
+  PackageData:
+  - 27992A:Starfield.esm
+  VoiceTypes: 2BCA41:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: Mooch
+  Flags: []
+  ALFG: 0
+  UniqueActor: 224850:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 43
+  Name: MoochGuard
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 32
+    RefType: 279925:Starfield.esm
+  ForcedVoice: 2BCA42:Starfield.esm
+  PackageData:
+  - 325D66:Starfield.esm
+  VoiceTypes: 2BCA42:Starfield.esm

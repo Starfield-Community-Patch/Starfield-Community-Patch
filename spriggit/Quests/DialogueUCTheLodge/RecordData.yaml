@@ -1,0 +1,255 @@
+FormKey: 2956BB:Starfield.esm
+EditorID: DialogueUCTheLodge
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_DialogueUCTheLodge_002956BB
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TutorialQuest_Misc05
+      Object: 001190:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vasco
+      Object: 2956BB:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TutorialQuest_Misc06
+      Object: 00118F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TutorialQuest_Misc02
+      Object: 021355:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFLodge_MB
+      Object: 12E159:Starfield.esm
+  Fragments:
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCTheLodge_002956BB
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCTheLodge_002956BB
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 42
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCTheLodge_002956BB
+    FragmentName: Fragment_Stage_0042_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCTheLodge_002956BB
+    FragmentName: Fragment_Stage_0150_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Die Loge: Dialog'
+  - Language: English
+    String: The Lodge Dialogue
+  - Language: Spanish
+    String: Diálogo de la Logia
+  - Language: French
+    String: Dialogue de la Loge
+  - Language: Italian
+    String: Dialogo della Loggia
+  - Language: Japanese
+    String: ロッジの会話
+  - Language: Polish
+    String: Dialog w Loży
+  - Language: Portuguese_Brazil
+    String: Diálogo da Guarida
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  - 0x10000
+  Priority: 15
+  Unused: 0x000000
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16667
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 003448:Starfield.esm
+    SecondParameter: 1800
+  ComparisonValue: 1
+UnusedConditions: []
+Stages:
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Noel Greeting Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Walter Greeting done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Matteo greeting done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Vasco Greeting done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 42
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Vasco forcegreeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 99
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Noel Research intro TL available
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Noel Research TL intro done, vendor available
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Noel Mission Board Pointer fires
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Vlad Vendor topic available
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: SarahMorgan
+  Flags: []
+  ALFG: 0
+  UniqueActor: 005983:Starfield.esm
+  PackageData:
+  - 042B0A:Starfield.esm
+  - 2953E6:Starfield.esm
+  - 2953E7:Starfield.esm
+  - 0D9C13:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: SamCoe
+  Flags: []
+  ALFG: 0
+  UniqueActor: 005999:Starfield.esm
+  PackageData:
+  - 2A04E4:Starfield.esm
+  - 042B0B:Starfield.esm
+  - 1F0B84:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: CoraCoe
+  Flags: []
+  ALFG: 0
+  UniqueActor: 00D653:Starfield.esm
+  PackageData:
+  - 2A04E5:Starfield.esm
+  - 042B09:Starfield.esm
+  - 1F0B85:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: MatteoKhatri
+  Flags: []
+  ALFG: 0
+  UniqueActor: 00599F:Starfield.esm
+  PackageData:
+  - 2953EA:Starfield.esm
+  - 042B12:Starfield.esm
+  - 2953E9:Starfield.esm
+  - 0D9C12:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Noel
+  Flags: []
+  ALFG: 0
+  UniqueActor: 00598C:Starfield.esm
+  PackageData:
+  - 042B14:Starfield.esm
+  - 2953E3:Starfield.esm
+  - 08C3ED:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: WalterStroud
+  Flags: []
+  ALFG: 0
+  UniqueActor: 005996:Starfield.esm
+  PackageData:
+  - 2953E5:Starfield.esm
+  - 042B16:Starfield.esm
+  - 2953E4:Starfield.esm
+  - 0D9C12:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: VladimirSall
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0059AA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Vasco
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0057BB:Starfield.esm
+  PackageData:
+  - 1A1220:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: Andreja
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0059A7:Starfield.esm
+  PackageData:
+  - 0D1B83:Starfield.esm
+  - 042B08:Starfield.esm
+  - 1F0B86:Starfield.esm
+  - 08C3EC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: Barrett
+  Flags: []
+  ALFG: 0
+  UniqueActor: 005787:Starfield.esm
+  PackageData:
+  - 1F0B87:Starfield.esm
+  VoiceTypes: Null

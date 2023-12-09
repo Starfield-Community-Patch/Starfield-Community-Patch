@@ -1,0 +1,3279 @@
+FormKey: 18B717:Starfield.esm
+EditorID: RI08
+VirtualMachineAdapter:
+  Scripts:
+  - Name: Ri08_QuestScript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: iMasakoFired
+      Data: 990
+    - MutagenObjectType: ScriptIntProperty
+      Name: iSetStage
+      Data: 920
+    - MutagenObjectType: ScriptIntProperty
+      Name: iUlaruFired
+      Data: 980
+    - MutagenObjectType: ScriptIntProperty
+      Name: iUlaruNOInfinityLTD
+      Data: 685
+    - MutagenObjectType: ScriptIntProperty
+      Name: iUlaruNOMasako
+      Data: 695
+    - MutagenObjectType: ScriptIntProperty
+      Name: iUlaruNONeuroamps
+      Data: 675
+    - MutagenObjectType: ScriptIntProperty
+      Name: iUlaruYESInfinityLTD
+      Data: 680
+    - MutagenObjectType: ScriptIntProperty
+      Name: iUlaruYESMasako
+      Data: 690
+    - MutagenObjectType: ScriptIntProperty
+      Name: iUlaruYESNeuroamps
+      Data: 670
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_UlaruDead
+      Object: 19B08A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_AcquiredInfinity
+      Object: 17F177:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_ContinuedNeuroampResearch
+      Object: 17F179:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_InfinityNayCount
+      Object: 150208:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_InfinityYayCount
+      Object: 150209:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_MasakoNayCount
+      Object: 150204:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_MasakoRemainedCEO
+      Object: 17F175:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_MasakoYayCount
+      Object: 150205:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_NeuroampNayCount
+      Object: 150207:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_NeuroampYayCount
+      Object: 150206:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_RadiantQuestGiver
+      Object: 2BA8AC:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_RI08_0018B717
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alexis
+      Object: 18B717:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AlexisConferenceChair
+      Object: 18B717:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ConferenceRoomChairsEnableMarker
+      Object: 18B717:Starfield.esm
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ConferenceRoomQS
+      Object: 18B717:Starfield.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dalton
+      Object: 18B717:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DaltonConferenceChair
+      Object: 18B717:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DaltonConferencePlayerChair
+      Object: 18B717:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExecutiveGenericNPCs
+      Object: 18B717:Starfield.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Genevieve
+      Object: 18B717:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GenevieveConferenceChair
+      Object: 18B717:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Linden
+      Object: 18B717:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LindenConferenceChair
+      Object: 18B717:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Masako
+      Object: 18B717:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MasakoOfficeChair
+      Object: 18B717:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MasakoOfficeQS
+      Object: 18B717:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MasakoUlaruMoveToMarker
+      Object: 18B717:Starfield.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerEnteredConferenceRoomTrigger
+      Object: 18B717:Starfield.esm
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerOfficeDoor
+      Object: 18B717:Starfield.esm
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinIndustriesSecurity
+      Object: 18B717:Starfield.esm
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SecurityGuardMasakoFurniture
+      Object: 18B717:Starfield.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SecurityPostFurniture
+      Object: 18B717:Starfield.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ularu
+      Object: 18B717:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruChairSwapMarker
+      Object: 18B717:Starfield.esm
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruConferenceChair
+      Object: 18B717:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruConferencePlayerChair
+      Object: 18B717:Starfield.esm
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruOfficeChair
+      Object: 18B717:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruOfficeQS
+      Object: 18B717:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Veena
+      Object: 18B717:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VeenaConferenceChair
+      Object: 18B717:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VeenaConferencePlayerChair
+      Object: 18B717:Starfield.esm
+      Alias: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_WantsToTalkEvent_RyujinFaction
+      Object: 1E99A1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionRyujinIndustriesPerk
+      Object: 1C5152:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC044
+      Object: 22F264:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Manipulation
+      Object: 2C5555:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MissionBoardAccessAllowed_RI
+      Object: 13F72B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_RI_NeuroampNotPromoted
+      Object: 1F8192:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_RI_NeuroampPromoted
+      Object: 1F8198:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_ImogeneDead
+      Object: 1EDF5B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_PlayerSidedWithMasako
+      Object: 18B5E9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_PlayerSidedWithUlaru
+      Object: 18B5EA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_UlaruDead
+      Object: 19B08A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07
+      Object: 18B718:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_PlayerHasInternalNeuroamp
+      Object: 0D6B04:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_0910_Meeting_MasakoWinsScene
+      Object: 17F7B0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_0910_Meeting_UlaruWinsScene
+      Object: 144B04:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_AcquiredInfinity
+      Object: 17F177:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_BoardMemberCount
+      Object: 17F7BF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_BoardMemberTotal
+      Object: 17F7BE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_ContinuedNeuroampResearch
+      Object: 17F179:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_Foreknowledge_QuestLineCompletedAV
+      Object: 32F8DA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_InfinityNayCount
+      Object: 150208:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_InfinityYayCount
+      Object: 150209:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_MasakoNayCount
+      Object: 150204:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_MasakoRemainedCEO
+      Object: 17F175:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_MasakoYayCount
+      Object: 150205:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_NeuroampNayCount
+      Object: 150207:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_NeuroampYayCount
+      Object: 150206:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_PlayerFurnitureKeyword
+      Object: 006366:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_PostQuest
+      Object: 0C41A4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_UlaruRemainedCFO
+      Object: 1EEA44:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_RadiantQuestGiver
+      Object: 2BA8AC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_Support
+      Object: 2A8318:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RyujinIndustriesFaction
+      Object: 2C9BF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Skill_Manipulation_InternalNeuroampBonus
+      Object: 184968:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0006_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 270
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0270_Item_00
+  - Stage: 275
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0275_Item_00
+  - Stage: 280
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0280_Item_00
+  - Stage: 285
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0285_Item_00
+  - Stage: 290
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0290_Item_00
+  - Stage: 295
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0295_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 370
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0370_Item_00
+  - Stage: 375
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0375_Item_00
+  - Stage: 380
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0380_Item_00
+  - Stage: 385
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0385_Item_00
+  - Stage: 390
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0390_Item_00
+  - Stage: 395
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0395_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 470
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0470_Item_00
+  - Stage: 475
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0475_Item_00
+  - Stage: 480
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0480_Item_00
+  - Stage: 485
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0485_Item_00
+  - Stage: 490
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0490_Item_00
+  - Stage: 495
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0495_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 570
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0570_Item_00
+  - Stage: 575
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0575_Item_00
+  - Stage: 580
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0580_Item_00
+  - Stage: 585
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0585_Item_00
+  - Stage: 590
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0590_Item_00
+  - Stage: 595
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0595_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 670
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0670_Item_00
+  - Stage: 675
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0675_Item_00
+  - Stage: 680
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0680_Item_00
+  - Stage: 685
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0685_Item_00
+  - Stage: 690
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0690_Item_00
+  - Stage: 695
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0695_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 770
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0770_Item_00
+  - Stage: 775
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0775_Item_00
+  - Stage: 780
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0780_Item_00
+  - Stage: 785
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0785_Item_00
+  - Stage: 790
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0790_Item_00
+  - Stage: 795
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0795_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 901
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0901_Item_00
+  - Stage: 905
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0905_Item_00
+  - Stage: 909
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0909_Item_00
+  - Stage: 910
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0910_Item_00
+  - Stage: 911
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0911_Item_00
+  - Stage: 912
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0912_Item_00
+  - Stage: 913
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0913_Item_00
+  - Stage: 914
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0914_Item_00
+  - Stage: 915
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0915_Item_00
+  - Stage: 916
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0916_Item_00
+  - Stage: 917
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0917_Item_00
+  - Stage: 918
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0918_Item_00
+  - Stage: 920
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0920_Item_00
+  - Stage: 925
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0925_Item_00
+  - Stage: 927
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0927_Item_00
+  - Stage: 980
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0980_Item_00
+  - Stage: 985
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0985_Item_00
+  - Stage: 990
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_0990_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 1100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_1100_Item_00
+  - Stage: 1200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_1200_Item_00
+  - Stage: 10000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI08_0018B717
+    FragmentName: Fragment_Stage_10000_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 18B717:Starfield.esm
+      Alias: 0
+    Scripts:
+    - Name: DefaultAliasOnSit
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NotAllowedDuringCombat
+        Object: 1413FD:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 900
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SitTarget
+        Object: 18B717:Starfield.esm
+        Alias: 9
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 917
+  - Property:
+      Name: ''
+      Object: 18B717:Starfield.esm
+      Alias: 1
+    Scripts:
+    - Name: DefaultAliasOnSit
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NotAllowedDuringCombat
+        Object: 1413FD:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 900
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SitTarget
+        Object: 18B717:Starfield.esm
+        Alias: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 915
+  - Property:
+      Name: ''
+      Object: 18B717:Starfield.esm
+      Alias: 2
+    Scripts:
+    - Name: DefaultAliasOnSit
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NotAllowedDuringCombat
+        Object: 1413FD:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 900
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SitTarget
+        Object: 18B717:Starfield.esm
+        Alias: 11
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 916
+  - Property:
+      Name: ''
+      Object: 18B717:Starfield.esm
+      Alias: 3
+    Scripts:
+    - Name: DefaultAliasOnSit
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NotAllowedDuringCombat
+        Object: 1413FD:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 900
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SitTarget
+        Object: 18B717:Starfield.esm
+        Alias: 12
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 911
+  - Property:
+      Name: ''
+      Object: 18B717:Starfield.esm
+      Alias: 4
+    Scripts:
+    - Name: DefaultAliasOnSit
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NotAllowedDuringCombat
+        Object: 1413FD:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 900
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SitTarget
+        Object: 18B717:Starfield.esm
+        Alias: 13
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 912
+  - Property:
+      Name: ''
+      Object: 18B717:Starfield.esm
+      Alias: 5
+    Scripts:
+    - Name: DefaultAliasOnSit
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NotAllowedDuringCombat
+        Object: 1413FD:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 900
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SitTarget
+        Object: 18B717:Starfield.esm
+        Alias: 14
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 914
+  - Property:
+      Name: ''
+      Object: 18B717:Starfield.esm
+      Alias: 6
+    Scripts:
+    - Name: DefaultAliasOnSit
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NotAllowedDuringCombat
+        Object: 1413FD:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 900
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SitTarget
+        Object: 18B717:Starfield.esm
+        Alias: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 913
+  - Property:
+      Name: ''
+      Object: 18B717:Starfield.esm
+      Alias: 18
+    Scripts:
+    - Name: RI08_PlayerChairsAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: iPreReqStage01
+        Data: 918
+      - MutagenObjectType: ScriptIntProperty
+        Name: iPreReqStage02
+        Data: 900
+      - MutagenObjectType: ScriptIntProperty
+        Name: iPreReqStage03
+        Data: 918
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStageToSet01
+        Data: 910
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStageToSet02
+        Data: 909
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStageToSet03
+        Data: 905
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStartSceneStage
+        Data: 910
+      - MutagenObjectType: ScriptIntProperty
+        Name: iTurnOffStage02
+        Data: 918
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI05_Track_PlayerSidedWithMasako
+        Object: 18B5E9:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI05_Track_PlayerSidedWithUlaru
+        Object: 18B5EA:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI05_UlaruDead
+        Object: 19B08A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI08_0910_Meeting_MasakoWinsScene
+        Object: 17F7B0:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI08_0910_Meeting_UlaruWinsScene
+        Object: 144B04:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 18B717:Starfield.esm
+      Alias: 54
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 900
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 901
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 917
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Chefetage
+  - Language: English
+    String: Executive Level
+  - Language: Spanish
+    String: Planta ejecutiva
+  - Language: French
+    String: Étage de la direction
+  - Language: Italian
+    String: Piano della dirigenza
+  - Language: Japanese
+    String: 役員フロア
+  - Language: Polish
+    String: Piętro kierownicze
+  - Language: Portuguese_Brazil
+    String: Nível Executivo
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475FD:Starfield.esm
+QuestFaction: 0546DD:Starfield.esm
+TextDisplayGlobals:
+- 17F7BF:Starfield.esm
+- 17F7BE:Starfield.esm
+- 150208:Starfield.esm
+- 150209:Starfield.esm
+- 150207:Starfield.esm
+- 150206:Starfield.esm
+- 150204:Starfield.esm
+- 150205:Starfield.esm
+Summary: The player has some time to discuss the fate of Infinity LTD with Ryujin board members. Due to what the player has learned, each outcome will have negatives and positives that they’ll need to weigh. Depending on previous choices, they may also have the ability to sway the Board on keeping Masako as CEO and shelving Project Dominion, aka the Internal Neuroamp.
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Initial set up
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Talk to Ularu ----- Use Set RI05_Track_PlayerSidedWithUlaru to 1 prior to running.
+    ScriptFlagComment: 'Global RI05_Track_PlayerSidedWithUlaru MUST be set to 1 BEFORE using this debug stage for it to work. Paste this into console: Set RI05_Track_PlayerSidedWithUlaru to 1'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - (Masako) Talk to the Board Members
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - (Ularu) Talk to the Board Members ----- Use Set RI05_Track_PlayerSidedWithUlaru to 1 prior to running.
+    ScriptFlagComment: 'Global RI05_Track_PlayerSidedWithUlaru MUST be set to 1 BEFORE using this debug stage for it to work. Paste this into console: Set RI05_Track_PlayerSidedWithUlaru to 1'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - (Masako) Attend the Meeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - (Ularu) Attend the Meeting ----- Use Set RI05_Track_PlayerSidedWithUlaru to 1 prior to running.
+    ScriptFlagComment: 'Global RI05_Track_PlayerSidedWithUlaru MUST be set to 1 BEFORE using this debug stage for it to work. Paste this into console: Set RI05_Track_PlayerSidedWithUlaru to 1'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Talk to Masako
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Talk to Ularu ----- Use Set RI05_Track_PlayerSidedWithUlaru to 1 prior to running.
+    ScriptFlagComment: 'Global RI05_Track_PlayerSidedWithUlaru MUST be set to 1 BEFORE using this debug stage for it to work. Paste this into console: Set RI05_Track_PlayerSidedWithUlaru to 1'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Ularu'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die gefälschten Beweise haben ihren Dienst getan und Masako wurde vom SNN als Mitverantwortliche an den Taten von Infinity LTD präsentiert. Ich sollte mit Ularu über das anstehende Meeting sprechen.
+      - Language: English
+        String: The false evidence worked, and SSNN broadcasted Masako's involvement with Infinity LTD. I should talk to Ularu about this upcoming meeting.
+      - Language: Spanish
+        String: Las pruebas falsas han surtido efecto y la NSC ha difundido que Masako e Infinity LTD estaban confabulados. Debería ir a hablar con Ularu sobre la próxima reunión.
+      - Language: French
+        String: La fausse preuve a fonctionné et SOTV a diffusé la nouvelle de l'implication de Masako envers Infinity LTD. Je devrais aller voir Ularu au sujet de la future réunion.
+      - Language: Italian
+        String: Le prove false hanno funzionato e la SCNN ha parlato del coinvolgimento di Masako con l’Infinity LTD. Devo parlare con Ularu di questa riunione imminente.
+      - Language: Japanese
+        String: 偽の証拠が効いて、SSNNがマサコとインフィニティ・リミテッドの関係を報じた。今度の会議についてウラルと話そう
+      - Language: Polish
+        String: Fałszywe dowody zadziałały i ZUinfo poinformowało o współpracy Masako z Infinity LTD. Muszę porozmawiać z Ularu na temat nadchodzącego spotkania.
+      - Language: Portuguese_Brazil
+        String: As evidências falsas funcionaram e a ANSC transmitiu o envolvimento de Masako com a Infinity LTD. Preciso falar com a Ularu sobre a reunião.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu intro scene re-entry 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 102
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu intro scene re-entry 02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 103
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu intro scene re-entry 03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 104
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu intro scene re-entry 04
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to the Board Members'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 18B5E9:Starfield.esm
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Es wird Zeit, die Vorstandsmitglieder zu überzeugen. Masako wird dafür stimmen, Infinity LTD zu übernehmen und benötigt dafür mindestens die Hälfte aller Stimmen. Wenn ich wirklich etwas gegen den internen Neuro-Amp unternehmen will, wäre das meine Chance, weiteren Forschungsarbeiten einen Riegel vorzuschieben.
+      - Language: English
+        String: It's time to lobby the board members. Masako will vote to acquire Infinity LTD and said I'll need at least half of the votes to secure success. If I have strong feelings against the Internal Neuroamp, this would be my opportunity to get further research shut down.
+      - Language: Spanish
+        String: Es hora de presionar a los miembros de la junta. Masako votará a favor de la compra de Infinity LTD y dijo que necesitaría al menos la mitad de los votos para que todo vaya bien. Si el neuroamplificador interno me provoca tanto rechazo, podría aprovechar esta oportunidad para impedir que la investigación progrese.
+      - Language: French
+        String: Il est temps de convaincre les membres du conseil d'administration. Masako va voter en faveur de l'acquisition d'Infinity LTD, et m'a indiqué qu'il me faut au moins la moitié des votes pour garantir l'adoption de n'importe quel sujet. Si j'ai de forts sentiments contre le neuroforceur interne, ce serait l'occasion pour moi de faire cesser les recherches.
+      - Language: Italian
+        String: È ora di fare pressioni sui membri del consiglio. Masako voterà per acquisire la Infinity LTD e diceva che avrò bisogno di almeno la metà dei voti per riuscirci. Se nutro forti dubbi sul neuroamp interno, questa è la mia opportunità per far cessare ulteriori ricerche.
+      - Language: Japanese
+        String: 役員会の面々を説得しなくては。マサコはインフィニティ・リミテッドを手に入れるために投票するつもりで、成功するには議題で少なくとも過半数の得票が必要だと言っていた。内蔵ニューロアンプの使用に強く反対すれば、今後の研究を止められるかもしれない
+      - Language: Polish
+        String: Czas rozpocząć lobbowanie wśród członków zarządu. Masako zagłosuje za pozyskaniem Infinity LTD i twierdzi, że potrzebuję co najmniej połowy głosów, aby zapewnić sobie sukces. Jeśli nie podoba mi się pomysł wewnętrznego neuroamplifikatora, mam teraz okazję na wstrzymanie dalszych nad nim badań.
+      - Language: Portuguese_Brazil
+        String: É hora de pressionar os membros do conselho. Masako votará pela aquisição da Infinity LTD e disse que vou precisar de no mínimo metade dos votos para garantir sucesso. Se tiver uma opinião forte contra o neuroamplificador interno, seria a oportunidade perfeita para encerrar a pesquisa.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 18B5EA:Starfield.esm
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Es wird Zeit, die Vorstandsmitglieder zu überzeugen. Masako will Infinity LTD übernehmen und Ularu will Masako ausbooten. Damit eine der beiden Möglichkeiten zustande kommt, muss ich mindestens die Hälfte aller Stimmen für die jeweilige Seite gewinnen. Wenn ich wirklich etwas gegen den internen Neuro-Amp unternehmen will, wäre das meine Chance, weiteren Forschungsarbeiten einen Riegel vorzuschieben.
+      - Language: English
+        String: It's time to lobby the board members. Masako wants Infinity LTD and Ularu wants Masako out. I'll need at least half of the votes on any issue to secure success. If I have strong feelings against the Internal Neuroamp, this would be my opportunity to get further research shut down.
+      - Language: Spanish
+        String: Es hora de presionar a los miembros de la junta. Masako quiere a Infinity LTD y Ularu quiere echar a Masako. Necesitaré al menos la mitad de los votos en cualquier asunto para que todo vaya bien. Si el neuroamplificador interno me provoca tanto rechazo, podría aprovechar esta oportunidad para impedir que la investigación progrese.
+      - Language: French
+        String: Il est temps de convaincre les membres du conseil d'administration. Masako veut Infinity LTD, et Ularu veut évincer Masako. Il me faut au moins la moitié des votes pour garantir l'adoption de n'importe quel sujet. Si j'ai de forts sentiments contre le neuroforceur interne, ce serait l'occasion pour moi de faire cesser les recherches.
+      - Language: Italian
+        String: È ora di fare pressioni sui membri del consiglio. Masako vuole la Infinity LTD e Ularu vuole Masako fuori. Avrò bisogno di almeno la metà dei voti su ogni questione per riuscirci. Se nutro forti dubbi sul neuroamp interno, questa è la mia opportunità per far cessare ulteriori ricerche.
+      - Language: Japanese
+        String: 役員会の面々を説得しなくては。マサコはインフィニティ・リミテッドを、ウラルはマサコを追い出そうとしている。争点を解決するには、議題で少なくとも過半数の得票が必要だ。内蔵ニューロアンプの使用に強く反対すれば、今後の研究を止められるかもしれない
+      - Language: Polish
+        String: Czas rozpocząć lobbowanie wśród członków zarządu. Masako chce Infinity LTD, a Ularu chce wykurzyć Masako. Potrzebuję co najmniej połowy głosów w którejś sprawie, aby zapewnić sobie sukces. Jeśli nie podoba mi się pomysł wewnętrznego neuroamplifikatora, mam teraz okazję na wstrzymanie dalszych nad nim badań.
+      - Language: Portuguese_Brazil
+        String: É hora de pressionar os membros do conselho. Masako quer a Infinity LTD e Ularu quer Masako fora. Vou precisar de no mínimo metade dos votos em qualquer pauta para garantir sucesso. Se tiver uma opinião forte contra o neuroamplificador interno, seria a oportunidade perfeita para encerrar a pesquisa.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Alexis Win'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Alexis Lose'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 270
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Alexis: YES on Neuroamps'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 275
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Alexis: NO on Neuroamps'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 280
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Alexis: YES on acquiring Infinity LTD'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 285
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Alexis: NO on acquiring Infinity LTD'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 290
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Alexis: YES on Masako as CEO'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 295
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Alexis: NO on Masako as CEO'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Alexis
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Dalton Win'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Dalton Lose'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 370
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Dalton: YES on Neuroamps'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 375
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Dalton: NO on Neuroamps'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 380
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Dalton: YES on acquiring Infinity LTD'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 385
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Dalton: NO on acquiring Infinity LTD'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 390
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Dalton: YES on Masako as CEO'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 395
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Dalton: NO on Masako as CEO'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Dalton
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 470
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Genevieve: YES on Neuroamps'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 475
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Genevieve: NO on Neuroamps'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 480
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Genevieve: YES on acquiring Infinity LTD'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 485
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Genevieve: NO on acquiring Infinity LTD'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 490
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Genevieve: YES on Masako as CEO'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 495
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Genevieve: NO on Masako as CEO'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Genevieve
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 570
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Linden: YES on Neuroamps'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 575
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Linden: NO on Neuroamps'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 580
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Linden: YES on acquiring Infinity LTD'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 585
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Linden: NO on acquiring Infinity LTD'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 590
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Linden: YES on Masako as CEO'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 595
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Linden: NO on Masako as CEO'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Linden
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Ularu Win'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 620
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Ularu Lose'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 670
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Ularu: YES on Neuroamps'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 675
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Ularu: NO on Neuroamps'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 680
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Ularu: YES on acquiring Infinity LTD'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 685
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Ularu: NO on acquiring Infinity LTD'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 690
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Ularu: YES on Masako as CEO'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 695
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Ularu: NO on Masako as CEO'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Ularu
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Veena Win'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 720
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC: Veena Lose'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 770
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Veena: YES on Neuroamps'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 775
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Veena: NO on Neuroamps'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 780
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Veena: YES on acquiring Infinity LTD'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 785
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Veena: NO on acquriing Infinity LTD'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 790
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Veena: YES on Masako as CEO'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 795
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Veena: NO on Masako as CEO'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Veena
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Attend the Meeting - Calculate votes'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mit den Vorstandsmitgliedern gesprochen. Ich sollte zum Konferenzsaal gehen und am Meeting teilnehmen.
+      - Language: English
+        String: I spoke to the board members. I need to head to the conference room and attend the meeting.
+      - Language: Spanish
+        String: He hablado con los miembros de la junta. Ahora tengo que ir a la sala de conferencias y asistir a la reunión.
+      - Language: French
+        String: J'ai parlé aux membres du conseil. Je dois me rendre dans la salle de conférence et participer à la réunion.
+      - Language: Italian
+        String: Ho parlato con i membri del consiglio. Devo andare alla sala conferenze e partecipare alla riunione.
+      - Language: Japanese
+        String: 役員たちと話した。会議室に行って会議に出席しよう
+      - Language: Polish
+        String: Rozmowę z członkami zarządu mam już za sobą. Pora udać się do sali konferencyjnej i wziąć udział w spotkaniu.
+      - Language: Portuguese_Brazil
+        String: Conversei com os membros do conselho. Preciso ir para a sala de conferência participar da reunião.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 901
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player entered conference room - Move Masako and Ularu closer if they are out of LOS
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 905
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player sat in chair w/everyone seated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 909
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player sat in chair prior to everyone arriving
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 910
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player sat in chair - Start meeting scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 911
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Alexis is seated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 912
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton is seated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 913
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Genevieve is seated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 914
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Linden is seated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 915
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu is seated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 916
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Veena is seated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 917
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Masako is seated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 918
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Everyone is seated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 18B717:Starfield.esm
+        SecondParameter: 909
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 18B717:Starfield.esm
+        SecondParameter: 910
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Alle sind eingetroffen. Jetzt muss ich nur noch warten, bis das Meeting beginnt.
+      - Language: English
+        String: Everyone has arrived. Now, I just need to wait for the meeting to begin.
+      - Language: Spanish
+        String: Ya han llegado todos. Tan solo tengo que esperar a que dé comienzo la reunión.
+      - Language: French
+        String: Tout le monde est arrivé. Je n'ai plus qu'à attendre le début de la réunion.
+      - Language: Italian
+        String: Sono arrivati tutti. Ora devo solo attendere l’inizio della riunione.
+      - Language: Japanese
+        String: 全員揃った。あとは会議が始まるまで待とう
+      - Language: Polish
+        String: Wszyscy są już na miejscu. Teraz muszę tylko poczekać na rozpoczęcie spotkania.
+      - Language: Portuguese_Brazil
+        String: Todos chegaram. Agora só preciso aguardar a reunião começar.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 920
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Force all NPCs into their furniture if they aren't there yet
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 925
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Wait for everyone to arrive'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Bevor das Meeting beginnen kann, müssen die Vorstandsmitglieder eintreffen.
+      - Language: English
+        String: I need to wait for all the board members to arrive for the meeting to start.
+      - Language: Spanish
+        String: Debo esperar a que lleguen todos los miembros de la junta para que comience la reunión.
+      - Language: French
+        String: Je dois attendre l'arrivée de tous les membres du conseil d'administration pour que la réunion commence.
+      - Language: Italian
+        String: Devo attendere che arrivino tutti i membri del consiglio perché la riunione possa iniziare.
+      - Language: Japanese
+        String: 役員会のメンバーが全員揃うまでは会議を始められない
+      - Language: Polish
+        String: Muszę poczekać na przybycie wszystkich członków zarządu i rozpoczęcie spotkania.
+      - Language: Portuguese_Brazil
+        String: A reunião só vai começar quando todos os membros do conselho chegarem.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 927
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Take a Seat'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Vorstandsmitglieder sind vollzählig. Ich sollte mich hinsetzen, damit das Meeting beginnen kann.
+      - Language: English
+        String: All of the board members have arrived. I should take a seat so the meeting can get started.
+      - Language: Spanish
+        String: Han llegado todos los miembros de la junta. Será mejor que me siente para que pueda dar comienzo la reunión.
+      - Language: French
+        String: Tous les membres du conseil d'administration sont arrivés. Je devrais m'asseoir pour que la réunion puisse commencer.
+      - Language: Italian
+        String: Tutti i membri del consiglio sono arrivati. Devo sedermi, così la riunione potrà iniziare.
+      - Language: Japanese
+        String: 役員会のメンバーが全員集まった。会議を始められるよう着席しよう
+      - Language: Polish
+        String: Wszyscy członkowie zarządu są na miejscu. Muszę usiąść, żeby spotkanie mogło się rozpocząć.
+      - Language: Portuguese_Brazil
+        String: Todos os membros do conselho chegaram. Agora só preciso me sentar para a reunião começar.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 928
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player chose a comment to purchase Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 930
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Alexis - Seconding Ularu as CEO
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 931
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton - Seconding Ularu as CEO
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 932
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Genevieve - Seconding Ularu as CEO
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 933
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Linden - Seconding Ularu as CEO
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 934
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Veena - Seconding Ularu as CEO
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 935
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Alexis - Seconding Masako to remain as CEO
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 936
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton - Seconding Masako to remain as CEO
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 937
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Genevieve - Seconding Masako to remain as CEO
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 938
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Linden - Seconding Masako to remain as CEO
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 939
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Veena - Seconding Masako to remain as CEO
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 940
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Alexis - Commenting for Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 941
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton - Commenting for Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 942
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Genevieve - Commenting for Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 943
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Linden - Commenting for Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 944
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu - Commenting for Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 945
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Veena - Commenting for Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 950
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Alexis - Commenting against Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 951
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton - Commenting against Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 952
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Genevieve - Commenting against Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 953
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Linden - Commenting against Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 954
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu - Commenting against Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 955
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Veena - Commenting against Infinity LTD
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 960
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Alexis - Commenting for Neuroamp Production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 961
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton - Commenting for Neuroamp Production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 962
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Genevieve - Commenting for Neuroamp Production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 963
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Linden - Commenting for Neuroamp Production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 964
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu - Commenting for Neuroamp Production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 965
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Veena - Commenting for Neuroamp Production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 970
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Alexis - Commenting against Neuroamp Production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 971
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalton - Commenting against Neuroamp Production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 972
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Genevieve - Commenting against Neuroamp Production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 973
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Linden - Commenting against Neuroamp Production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 974
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu - Commenting against Neuroamp Production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 975
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Veena - Commenting against Neuroamp Production
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 980
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu fired - Modify voting globals, send Ularu to her office
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 985
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu remains CFO
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 990
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Masako fired - Modify voting globals, send Masako to her office
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Masako'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nun, da das Meeting vorbei ist, sollte ich mit Masako sprechen.
+      - Language: English
+        String: Now that the meeting is over, I should speak to Masako.
+      - Language: Spanish
+        String: Ahora que la reunión ha acabado, debería hablar con Masako.
+      - Language: French
+        String: Maintenant que la réunion est terminée, je devrais aller voir Masako.
+      - Language: Italian
+        String: Ora che la riunione è finita, devo parlare con Masako.
+      - Language: Japanese
+        String: 会議が終わった。マサコと話そう
+      - Language: Polish
+        String: Spotkanie dobiegło końca, więc pora porozmawiać z Masako.
+      - Language: Portuguese_Brazil
+        String: Agora que a reunião acabou, preciso falar com a Masako.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1001
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Masako scene re-entry 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1002
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Masako scene re-entry 02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1003
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Masako scene re-entry 03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1004
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Masako scene re-entry 04
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1005
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Masako scene re-entry 05
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1010
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player mentioned Imogene was innocent
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Ularu'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nun, da das Meeting vorbei ist, sollte ich mit Ularu sprechen.
+      - Language: English
+        String: Now that the meeting is over, I should speak to Ularu.
+      - Language: Spanish
+        String: Ahora que la reunión ha acabado, debería hablar con Ularu.
+      - Language: French
+        String: Maintenant que la réunion est terminée, je devrais aller voir Ularu.
+      - Language: Italian
+        String: Ora che la riunione è finita, devo parlare con Ularu.
+      - Language: Japanese
+        String: 会議が終わった。ウラルと話そう
+      - Language: Polish
+        String: Spotkanie dobiegło końca, więc pora porozmawiać z Ularu.
+      - Language: Portuguese_Brazil
+        String: Agora que a reunião acabou, preciso falar com a Ularu.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu scene re-entry 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1102
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu scene re-entry 02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1103
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ularu scene re-entry 03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Swap chairs back
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Complete Quest
+    StageCompleteDatas:
+    - QSRD: 0x04000000
+      RewardDatas:
+      - XpAwarded: Null
+        BonusCredits: 1460FE:Starfield.esm
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: HasPerkConditionData
+            FirstParameter: 227FD3:Starfield.esm
+          ComparisonValue: 1
+      - XpAwarded: 0DF3DD:Starfield.esm
+        BonusCredits: 056E63:Starfield.esm
+        Rewards:
+        - Item: 08C792:Starfield.esm
+          Count: 1
+        - Item: 026B0E:Starfield.esm
+          Count: 1
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: GetGlobalValueConditionData
+            FirstParameter: 17F175:Starfield.esm
+          ComparisonValue: 1
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: GetStageDoneConditionData
+            FirstParameter: 18B718:Starfield.esm
+            SecondParameter: 2150
+      - XpAwarded: 0DF3DD:Starfield.esm
+        BonusCredits: 158624:Starfield.esm
+        Rewards:
+        - Item: 08C792:Starfield.esm
+          Count: 1
+        - Item: 026B0E:Starfield.esm
+          Count: 1
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: GetGlobalValueConditionData
+            FirstParameter: 17F175:Starfield.esm
+          ComparisonValue: 1
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: GetStageDoneConditionData
+            FirstParameter: 18B718:Starfield.esm
+            SecondParameter: 2150
+          ComparisonValue: 1
+      - XpAwarded: 0DF3DD:Starfield.esm
+        BonusCredits: 08C793:Starfield.esm
+        Rewards:
+        - Item: 08C792:Starfield.esm
+          Count: 1
+        - Item: 026B0E:Starfield.esm
+          Count: 1
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: GetGlobalValueConditionData
+            FirstParameter: 17F175:Starfield.esm
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F175:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F177:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F179:Starfield.esm
+      ComparisonValue: 1
+    Note: 'Masako: Y / Infinity: Y / Neuroamp: Y'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Korruption bei Infinity LTD enthüllt und Ryujin Industries in einem wichtigen Vorstandsmeeting eine neue Zukunft gesichert. Infinity LTD wird Ryujins neue Tochterfirma, und unter Masakos Aufsicht wird das Dominion-Projekt fortgeführt.
+      - Language: English
+        String: I exposed Infinity LTD's corruption and secured a new future for Ryujin Industries in a crucial board meeting. Ryujin will be acquiring Infinity LTD as their latest subsidiary and proceed with Project Dominion under Masako's careful watch.
+      - Language: Spanish
+        String: Saqué a la luz la corrupción de Infinity LTD y aseguré un nuevo futuro para Ryujin Industries en una reunión crucial de la junta. Ryujin adquirirá Infinity LTD como nueva filial y continuará con el proyecto Dominio bajo la atenta supervisión de Masako.
+      - Language: French
+        String: Lors d'un conseil d'administration crucial, j’ai exposé la corruption d'Infinity LTD et garanti un nouvel avenir à Ryujin Industries. Ryujin rachètera Infinity LTD et le projet Domination continuera sous la stricte surveillance de Masako.
+      - Language: Italian
+        String: Ho smascherato la corruzione della Infinity LTD e assicurato un nuovo futuro alle Ryujin Industries in una cruciale riunione del consiglio. La Ryujin acquisirà la Infinity LTD come sua sussidiaria e procederà col Progetto Dominio sotto l’attenta guida di Masako.
+      - Language: Japanese
+        String: 重要な役員会議でインフィニティ・リミテッドの汚職を曝露して、リュウジン・インダストリーズの新しい未来を確保した。リュウジンは最新の子会社としてインフィニティ・リミテッドを買収し、マサコの慎重な監視下でドミニオン計画を継続することになる
+      - Language: Polish
+        String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Ryujin Industries przejmie Infinity LTD i przekształci w spółkę zależną oraz będzie kontynuować prace nad projektem Dominion pod czujnym okiem Masako.
+      - Language: Portuguese_Brazil
+        String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. A Ryujin vai adquirir a Infinity LTD como sua mais nova subsidiária e dará continuidade ao Projeto Domínio, tudo sob o cuidadoso comando da Masako.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F175:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F177:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F179:Starfield.esm
+    Note: 'Masako: Y / Infinity: Y / Neuroamp: N'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Korruption bei Infinity LTD enthüllt und Ryujin Industries in einem wichtigen Vorstandsmeeting eine neue Zukunft gesichert. Das Dominion-Projekt wird auf Eis gelegt und unter Masakos Aufsicht wird Infinity LTD zur neuen Tochterfirma von Ryujin.
+      - Language: English
+        String: I exposed Infinity LTD's corruption and secured a new future for Ryujin Industries in a crucial board meeting. Project Dominion will be shelved and Ryujin will be acquiring Infinity LTD as their latest subsidiary under Masako's careful watch.
+      - Language: Spanish
+        String: Saqué a la luz la corrupción de Infinity LTD y aseguré un nuevo futuro para Ryujin Industries en una reunión crucial de la junta. El proyecto Dominio será abandonado y Ryujin adquirirá Infinity LTD como nueva filial bajo la atenta supervisión de Masako.
+      - Language: French
+        String: Lors d'un conseil d'administration crucial, j’ai exposé la corruption d'Infinity LTD et garanti un nouvel avenir à Ryujin Industries. Le projet Domination est enterré et Ryujin rachètera Infinity LTD sous la stricte surveillance de Masako.
+      - Language: Italian
+        String: Ho smascherato la corruzione della Infinity LTD e assicurato un nuovo futuro alle Ryujin Industries in una cruciale riunione del consiglio. Il Progetto Dominio verrà accantonato, e la Ryujin acquisirà la Infinity LTD come sua sussidiaria sotto l’attenta guida di Masako.
+      - Language: Japanese
+        String: 重要な役員会議でインフィニティ・リミテッドの汚職を曝露して、リュウジン・インダストリーズの新しい未来を確保した。ドミニオン計画は棚上げされ、リュウジンはマサコの慎重な監視下で最新の子会社としてインフィニティ・リミテッドを買収することになる
+      - Language: Polish
+        String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Projekt Dominion zostanie odłożony na bok, a Ryujin Industries zakupi Infinity LTD i przekształci tę firmę w spółkę zależną nadzorowaną przez Masako.
+      - Language: Portuguese_Brazil
+        String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. O Projeto Domínio será arquivado e a Ryujin vai adquirir a Infinity LTD como sua mais nova subsidiária, tudo sob o comando cuidadoso da Masako.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F175:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F177:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F179:Starfield.esm
+    Note: 'Masako: Y / Infinity: N / Neuroamp: N'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Ich habe die Korruption bei Infinity LTD enthüllt und Ryujin Industries in einem wichtigen Vorstandsmeeting eine neue Zukunft gesichert. Das Dominion-Projekt wird auf Eis gelegt und Infinity LTD wird aufgelöst. '
+      - Language: English
+        String: "I exposed Infinity LTD's corruption and secured a new future for Ryujin Industries in a crucial board meeting. Project Dominion will be shelved and Infinity LTD will be shut down. "
+      - Language: Spanish
+        String: 'Saqué a la luz la corrupción de Infinity LTD y aseguré un nuevo futuro para Ryujin Industries en una reunión crucial de la junta. El proyecto Dominio será abandonado e Infinity LTD tendrá que cerrar. '
+      - Language: French
+        String: "Lors d'un conseil d'administration crucial, j’ai exposé la corruption d'Infinity LTD et garanti un nouvel avenir à Ryujin Industries. Le projet Domination est enterré et Infinity LTD va fermer. "
+      - Language: Italian
+        String: 'Ho smascherato la corruzione della Infinity LTD e assicurato un nuovo futuro alle Ryujin Industries in una cruciale riunione del consiglio. La Infinity LTD finirà per chiudere i battenti, e il Progetto Dominio verrà accantonato. '
+      - Language: Japanese
+        String: '重要な役員会議でインフィニティ・リミテッドの汚職を曝露して、リュウジン・インダストリーズの新しい未来を確保した。ドミニオン計画は棚上げされ、インフィニティ・リミテッドは閉鎖されることとなる '
+      - Language: Polish
+        String: 'Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Projekt Dominion zostanie odłożony na bok, a Infinity LTD czeka likwidacja. '
+      - Language: Portuguese_Brazil
+        String: 'Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. O Projeto Domínio será arquivado, e a Infinity LTD fechará as portas. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F175:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F177:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F179:Starfield.esm
+      ComparisonValue: 1
+    Note: 'Masako: Y / Infinity: N / Neuroamp: Y'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Korruption bei Infinity LTD enthüllt und Ryujin Industries in einem wichtigen Vorstandsmeeting eine neue Zukunft gesichert. Infinity LTD wird aufgelöst, während Ryujin unter Masakos Aufsicht das Dominion-Projekt fortführt.
+      - Language: English
+        String: I exposed Infinity LTD's corruption and secured a new future for Ryujin Industries in a crucial board meeting. Infinity LTD will be left to shut down while Ryujin proceeds with Project Dominion under Masako's careful watch.
+      - Language: Spanish
+        String: Saqué a la luz la corrupción de Infinity LTD y aseguré un nuevo futuro para Ryujin Industries en una reunión crucial de la junta. Infinity LTD tendrá que cerrar, mientras que Ryujin continuará con el proyecto Dominio bajo la atenta supervisión de Masako.
+      - Language: French
+        String: Lors d'un conseil d'administration crucial, j’ai exposé la corruption d'Infinity LTD et garanti un nouvel avenir à Ryujin Industries. Infinity LTD n'aura plus d'autre choix que de fermer, tandis que Ryujin continuera le projet Domination sous la stricte surveillance de Masako.
+      - Language: Italian
+        String: Ho smascherato la corruzione della Infinity LTD e assicurato un nuovo futuro alle Ryujin Industries in una cruciale riunione del consiglio. La Infinity LTD finirà per chiudere i battenti, mentre la Ryujin procederà col Progetto Dominio sotto l’attenta guida di Masako.
+      - Language: Japanese
+        String: 重要な役員会議でインフィニティ・リミテッドの汚職を曝露して、リュウジン・インダストリーズの新しい未来を確保した。インフィニティ・リミテッドはこのまま閉鎖され、リュウジンはマサコの慎重な監視下でドミニオン計画を継続することになる
+      - Language: Polish
+        String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Zostanie ona zamknięta, zaś Ryujin będzie kontynuować projekt Dominion pod czujnym okiem Masako.
+      - Language: Portuguese_Brazil
+        String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. A Infinity LTD fechará as portas enquanto a Ryujin dá continuidade ao Projeto Domínio sob o cuidadoso comando da Masako.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F175:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F177:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F179:Starfield.esm
+      ComparisonValue: 1
+    Note: 'Masako: N / Infinity: Y / Neuroamp: Y'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Korruption bei Infinity LTD enthüllt und Ryujin Industries in einem wichtigen Vorstandsmeeting eine neue Zukunft gesichert. Infinity LTD wird Ryujins neue Tochterfirma, und unter Ularus neuer Aufsicht als CEO wird das Dominion-Projekt fortgeführt.
+      - Language: English
+        String: I exposed Infinity LTD's corruption and secured a new future for Ryujin Industries in a crucial board meeting. Ryujin will be acquiring Infinity LTD as their latest subsidiary and proceed with Project Dominion under Ularu's careful watch as CEO.
+      - Language: Spanish
+        String: Saqué a la luz la corrupción de Infinity LTD y aseguré un nuevo futuro para Ryujin Industries en una reunión crucial de la junta. Ryujin adquirirá Infinity LTD como nueva filial y continuará con el proyecto Dominio bajo la atenta supervisión de Ularu como CEO.
+      - Language: French
+        String: Lors d'un conseil d'administration crucial, j’ai exposé la corruption d'Infinity LTD et garanti un nouvel avenir à Ryujin Industries. Ryujin rachètera Infinity LTD et le projet Domination continuera sous la surveillance de la nouvelle PDG, Ularu.
+      - Language: Italian
+        String: Ho smascherato la corruzione della Infinity LTD e assicurato un nuovo futuro alle Ryujin Industries in una cruciale riunione del consiglio. La Ryujin acquisirà la Infinity LTD come sua sussidiaria e procederà col Progetto Dominio sotto l’attenta guida della nuova CEO Ularu.
+      - Language: Japanese
+        String: 重要な役員会議でインフィニティ・リミテッドの汚職を曝露して、リュウジン・インダストリーズの新しい未来を確保した。リュウジンは最新の子会社としてインフィニティ・リミテッドを買収し、CEOとしてのウラルの慎重な監視下でドミニオン計画を継続することになる
+      - Language: Polish
+        String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Ryujin Industries przejmie Infinity LTD i przekształci w spółkę zależną oraz będzie kontynuować prace nad projektem Dominion pod czujnym okiem Ularu jako prezeski.
+      - Language: Portuguese_Brazil
+        String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. A Ryujin vai adquirir a Infinity LTD como sua mais nova subsidiária e dará continuidade ao Projeto Domínio, tudo sob o cuidadoso comando da Ularu como CEO.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F175:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F177:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F179:Starfield.esm
+    Note: 'Masako: N / Infinity: Y / Neuroamp: N'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Korruption bei Infinity LTD enthüllt und Ryujin Industries in einem wichtigen Vorstandsmeeting eine neue Zukunft gesichert. Das Dominion-Projekt wird auf Eis gelegt und unter Ularu als neuer CEO von Ryujin wird Infinity LTD zur neuen Tochterfirma.
+      - Language: English
+        String: I exposed Infinity LTD's corruption and secured a new future for Ryujin Industries in a crucial board meeting. Project Dominion will be shelved and Ryujin will be acquiring Infinity LTD as their latest subsidiary under Ularu as CEO.
+      - Language: Spanish
+        String: Saqué a la luz la corrupción de Infinity LTD y aseguré un nuevo futuro para Ryujin Industries en una reunión crucial de la junta. El proyecto Dominio será abandonado y Ryujin adquirirá Infinity LTD como nueva filial bajo el mando de Ularu como CEO.
+      - Language: French
+        String: Lors d'un conseil d'administration crucial, j’ai exposé la corruption d'Infinity LTD et garanti un nouvel avenir à Ryujin Industries. Le projet Domination est enterré, Ryujin rachètera Infinity LTD et continuera avec sa nouvelle PDG, Ularu.
+      - Language: Italian
+        String: Ho smascherato la corruzione della Infinity LTD e assicurato un nuovo futuro alle Ryujin Industries in una cruciale riunione del consiglio. Il Progetto Dominio verrà accantonato, e la Ryujin acquisirà la Infinity LTD come sua sussidiaria sotto l’attenta guida della nuova CEO Ularu.
+      - Language: Japanese
+        String: 重要な役員会議でインフィニティ・リミテッドの汚職を曝露して、リュウジン・インダストリーズの新しい未来を確保した。ドミニオン計画は棚上げされ、リュウジンはCEOとしてのウラルの下で最新の子会社としてインフィニティ・リミテッドを買収することになる
+      - Language: Polish
+        String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Projekt Dominion zostanie odłożony na bok, a Ryujin Industries zakupi Infinity LTD i przekształci tę firmę w spółkę zależną nadzorowaną przez Ularu.
+      - Language: Portuguese_Brazil
+        String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. O Projeto Domínio será arquivado e a Ryujin vai adquirir a Infinity LTD como sua mais nova subsidiária, tudo sob o comando da Ularu como CEO.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F175:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F177:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F179:Starfield.esm
+    Note: 'Masako: N / Infinity: N / Neuroamp: N'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Korruption bei Infinity LTD enthüllt und Ryujin Industries in einem wichtigen Vorstandsmeeting eine neue Zukunft gesichert. Das Dominion-Projekt wird auf Eis gelegt, Infinity LTD wird aufgelöst, und Ryujin erhält mit Ularu eine neue CEO.
+      - Language: English
+        String: I exposed Infinity LTD's corruption and secured a new future for Ryujin Industries in a crucial board meeting. Project Dominion will be shelved, Infinity LTD will be shut down, and Ryujin will continue under Ularu's leadership as CEO.
+      - Language: Spanish
+        String: Saqué a la luz la corrupción de Infinity LTD y aseguré un nuevo futuro para Ryujin Industries en una reunión crucial de la junta. El proyecto Dominio será abandonado, Infinity LTD tendrá que cerrar y Ryujin continuará bajo el mando de Ularu como CEO.
+      - Language: French
+        String: Lors d'un conseil d'administration crucial, j’ai exposé la corruption d'Infinity LTD et garanti un nouvel avenir à Ryujin Industries. Le projet Domination est enterré, Infinity LTD va fermer et Ryujin continuera sous la coupe de sa nouvelle PDG, Ularu.
+      - Language: Italian
+        String: Ho smascherato la corruzione della Infinity LTD e assicurato un nuovo futuro alle Ryujin Industries in una cruciale riunione del consiglio. La Infinity LTD finirà per chiudere i battenti, il Progetto Dominio verrà accantonato, e la Ryujin procederà sotto l’attenta guida della nuova CEO Ularu.
+      - Language: Japanese
+        String: 重要な役員会議でインフィニティ・リミテッドの汚職を曝露して、リュウジン・インダストリーズの新しい未来を確保した。ドミニオン計画は棚上げされ、インフィニティ・リミテッドは閉鎖され、リュウジンはCEOとしてのウラルの指揮下で業務を継続することになる
+      - Language: Polish
+        String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Projekt Dominion zostanie odłożony na bok, Infinity LTD czeka likwidacja, zaś Ryujin będzie istnieć dalej pod okiem Ularu, która zostanie prezeską.
+      - Language: Portuguese_Brazil
+        String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. O Projeto Domínio será arquivado, a Infinity LTD fechará as portas, e a Ryujin seguirá sob a liderança da Ularu como CEO.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F175:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F177:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 17F179:Starfield.esm
+      ComparisonValue: 1
+    Note: 'Masako: N / Infinity: N / Neuroamp: Y'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Korruption bei Infinity LTD enthüllt und Ryujin Industries in einem wichtigen Vorstandsmeeting eine neue Zukunft gesichert. Infinity LTD wird aufgelöst, während Ryujin mit Ularu als neuer CEO das Dominion-Projekt fortführt.
+      - Language: English
+        String: I exposed Infinity LTD's corruption and secured a new future for Ryujin Industries in a crucial board meeting. Infinity LTD will be left to shut down while Ryujin proceeds with Project Dominion under Ularu's watch as Ryujin's CEO.
+      - Language: Spanish
+        String: Saqué a la luz la corrupción de Infinity LTD y aseguré un nuevo futuro para Ryujin Industries en una reunión crucial de la junta. Infinity LTD tendrá que cerrar, mientras que Ryujin continuará con el proyecto Dominio bajo el mando de Ularu como CEO.
+      - Language: French
+        String: Lors d'un conseil d'administration crucial, j’ai exposé la corruption d'Infinity LTD et garanti un nouvel avenir à Ryujin Industries. Infinity LTD n'aura plus d'autre choix que de fermer, tandis que Ryujin continuera le projet Domination sous la surveillance de sa nouvelle PDG, Ularu.
+      - Language: Italian
+        String: Ho smascherato la corruzione della Infinity LTD e assicurato un nuovo futuro alle Ryujin Industries in una cruciale riunione del consiglio. La Infinity LTD finirà per chiudere i battenti, mentre la Ryujin procederà col Progetto Dominio sotto l’attenta guida della nuova CEO Ularu.
+      - Language: Japanese
+        String: 重要な役員会議でインフィニティ・リミテッドの汚職を曝露して、リュウジン・インダストリーズの新しい未来を確保した。インフィニティ・リミテッドはこのまま閉鎖され、リュウジンはCEOとしてのウラルの監視下でドミニオン計画を継続することになる
+      - Language: Polish
+        String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Zostanie ona zamknięta, zaś Ryujin będzie kontynuować projekt Dominion pod okiem Ularu jako prezeski spółki.
+      - Language: Portuguese_Brazil
+        String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. A Infinity LTD fechará as portas enquanto a Ryujin dá continuidade ao Projeto Domínio sob os cuidados da Ularu como CEO.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Ularu.
+    - Language: English
+      String: Talk to Ularu
+    - Language: Spanish
+      String: Habla con Ularu.
+    - Language: French
+      String: Parlez à Ularu.
+    - Language: Italian
+      String: Parla con Ularu
+    - Language: Japanese
+      String: ウラルと話す
+    - Language: Polish
+      String: Porozmawiaj z Ularu
+    - Language: Portuguese_Brazil
+      String: Fale com Ularu
+  Targets:
+  - AliasID: 1
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Beeinflusse Vorstandsmitglieder. (<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>)
+    - Language: English
+      String: Lobby Board Members  (<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>)
+    - Language: Spanish
+      String: Presiona a los miembros de la junta (<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>).
+    - Language: French
+      String: Influencez les membres du conseil (<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>)
+    - Language: Italian
+      String: Membri del consiglio in attesa (<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>)
+    - Language: Japanese
+      String: 役員に働きかける(<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>)
+    - Language: Polish
+      String: Lobbuj członków zarządu (<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>)
+    - Language: Portuguese_Brazil
+      String: Pressionar membros do conselho (<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>)
+  Targets:
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 18B717:Starfield.esm
+        SecondParameter: 300
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 18B717:Starfield.esm
+        SecondParameter: 400
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 18B717:Starfield.esm
+        SecondParameter: 500
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 18B717:Starfield.esm
+        SecondParameter: 600
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 19B08A:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 18B5EA:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 18B717:Starfield.esm
+        SecondParameter: 700
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 18B717:Starfield.esm
+        SecondParameter: 800
+- Index: 201
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Für Infinity LTD (J:<Global=RI08_InfinityYayCount> N:<Global=RI08_InfinityNayCount>)
+    - Language: English
+      String: For Infinity LTD (Y:<Global=RI08_InfinityYayCount> N:<Global=RI08_InfinityNayCount>)
+    - Language: Spanish
+      String: 'Por Infinity LTD (S: <Global=RI08_InfinityYayCount>, N: <Global=RI08_InfinityNayCount>).'
+    - Language: French
+      String: Pour Infinity LTD (O :<Global=RI08_InfinityYayCount> N :<Global=RI08_InfinityNayCount>)
+    - Language: Italian
+      String: Per Infinity LTD (Sì:<Global=RI08_InfinityYayCount> No:<Global=RI08_InfinityNayCount>)
+    - Language: Japanese
+      String: インフィニティ・リミテッド(賛成：<Global=RI08_InfinityYayCount> 反対：<Global=RI08_InfinityNayCount>)
+    - Language: Polish
+      String: 'Za Infinity LTD (T: <Global=RI08_InfinityYayCount>, N: <Global=RI08_InfinityNayCount>)'
+    - Language: Portuguese_Brazil
+      String: A favor da Infinity LTD (S:<Global=RI08_InfinityYayCount> N:<Global=RI08_InfinityNayCount>)
+- Index: 202
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Für internen Neuro-Amp (J:<Global=RI08_NeuroampYayCount> N:<Global=RI08_NeuroampNayCount>)
+    - Language: English
+      String: For Internal Neuroamp (Y:<Global=RI08_NeuroampYayCount> N:<Global=RI08_NeuroampNayCount>)
+    - Language: Spanish
+      String: 'Por el neuroamplificador interno (S: <Global=RI08_NeuroampYayCount>, N: <Global=RI08_NeuroampNayCount>).'
+    - Language: French
+      String: Pour le neuroforceur interne (O :<Global=RI08_NeuroampYayCount>N :<Global=RI08_NeuroampNayCount>)
+    - Language: Italian
+      String: Per neuroamp interno (Sì:<Global=RI08_NeuroampYayCount> No:<Global=RI08_NeuroampNayCount>)
+    - Language: Japanese
+      String: 内蔵ニューロアンプ(賛成：<Global=RI08_NeuroampYayCount> 反対：<Global=RI08_NeuroampNayCount>)
+    - Language: Polish
+      String: 'Za wewnętrznym neuroamplifikatorem (T: <Global=RI08_NeuroampYayCount>, N: <Global=RI08_NeuroampNayCount>)'
+    - Language: Portuguese_Brazil
+      String: A favor do neuroamplificador interno (S:<Global=RI08_NeuroampYayCount> N:<Global=RI08_NeuroampNayCount>)
+- Index: 203
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Für Ularu als CEO (J:<Global=RI08_MasakoNayCount> N:<Global=RI08_MasakoYayCount>)
+    - Language: English
+      String: For Ularu as CEO  (Y:<Global=RI08_MasakoNayCount> N:<Global=RI08_MasakoYayCount>)
+    - Language: Spanish
+      String: 'Por Ularu como CEO (S: <Global=RI08_MasakoNayCount>, N: <Global=RI08_MasakoYayCount>).'
+    - Language: French
+      String: Pour Ularu comme PDG  (O :<Global=RI08_MasakoNayCount> N :<Global=RI08_MasakoYayCount>)
+    - Language: Italian
+      String: Per CEO Ularu (Sì:<Global=RI08_MasakoNayCount> No:<Global=RI08_MasakoYayCount>)
+    - Language: Japanese
+      String: ウラルのCEO就任(賛成：<Global=RI08_MasakoNayCount> 反対：<Global=RI08_MasakoYayCount>)
+    - Language: Polish
+      String: 'Za Ularu na stanowisku prezeski (T: <Global=RI08_MasakoNayCount>, N: <Global=RI08_MasakoYayCount>)'
+    - Language: Portuguese_Brazil
+      String: A favor de Ularu como CEO (S:<Global=RI08_MasakoNayCount> N:<Global=RI08_MasakoYayCount>)
+- Index: 900
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nimm am Meeting teil.
+    - Language: English
+      String: Attend the Meeting
+    - Language: Spanish
+      String: Asiste a la reunión.
+    - Language: French
+      String: Assistez à la réunion.
+    - Language: Italian
+      String: Partecipa alla riunione
+    - Language: Japanese
+      String: 会議に出席する
+    - Language: Polish
+      String: Weź udział w spotkaniu
+    - Language: Portuguese_Brazil
+      String: Participe da reunião
+  Targets:
+  - AliasID: 17
+- Index: 925
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Warte auf die anderen.
+    - Language: English
+      String: Wait for Everyone to Arrive
+    - Language: Spanish
+      String: Espera a que lleguen todos.
+    - Language: French
+      String: Attendez que tout le monde arrive.
+    - Language: Italian
+      String: Attendi che arrivino tutti
+    - Language: Japanese
+      String: 全員が揃うのを待つ
+    - Language: Polish
+      String: Poczekaj, aż wszyscy się zjawią
+    - Language: Portuguese_Brazil
+      String: Aguarde a chegada de todos
+  Targets:
+  - AliasID: 17
+- Index: 927
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Setz dich.
+    - Language: English
+      String: Take a Seat
+    - Language: Spanish
+      String: Siéntate.
+    - Language: French
+      String: Asseyez-vous.
+    - Language: Italian
+      String: Accomodati
+    - Language: Japanese
+      String: 席に座る
+    - Language: Polish
+      String: Usiądź
+    - Language: Portuguese_Brazil
+      String: Sente-se
+  Targets:
+  - AliasID: 17
+- Index: 1000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Masako.
+    - Language: English
+      String: Talk to Masako
+    - Language: Spanish
+      String: Habla con Masako.
+    - Language: French
+      String: Parlez à Masako.
+    - Language: Italian
+      String: Parla con Masako
+    - Language: Japanese
+      String: マサコと話す
+    - Language: Polish
+      String: Porozmawiaj z Masako
+    - Language: Portuguese_Brazil
+      String: Fale com Masako
+  Targets:
+  - {}
+- Index: 1100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Ularu.
+    - Language: English
+      String: Talk to Ularu
+    - Language: Spanish
+      String: Habla con Ularu.
+    - Language: French
+      String: Parlez à Ularu.
+    - Language: Italian
+      String: Parla con Ularu
+    - Language: Japanese
+      String: ウラルと話す
+    - Language: Polish
+      String: Porozmawiaj z Ularu
+    - Language: Portuguese_Brazil
+      String: Fale com Ularu
+  Targets:
+  - AliasID: 1
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Masako
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2BA8B3:Starfield.esm
+  PackageData:
+  - 006377:Starfield.esm
+  - 143632:Starfield.esm
+  - 17F3E9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Ularu
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 2BA8B2:Starfield.esm
+  PackageData:
+  - 006378:Starfield.esm
+  - 14CB24:Starfield.esm
+  - 17F3F7:Starfield.esm
+  - 17F3EB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Veena
+  Flags: []
+  ALFG: 0
+  UniqueActor: 1A9516:Starfield.esm
+  PackageData:
+  - 17F3F9:Starfield.esm
+  - 17F3EA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Alexis
+  Flags: []
+  ALFG: 0
+  UniqueActor: 18B63B:Starfield.esm
+  PackageData:
+  - 17F3FA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Dalton
+  Flags: []
+  ALFG: 0
+  UniqueActor: 295EDE:Starfield.esm
+  PackageData:
+  - 17F3F8:Starfield.esm
+  - 17F3EE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Linden
+  Flags: []
+  ALFG: 0
+  UniqueActor: 1FB7A7:Starfield.esm
+  PackageData:
+  - 17F3FB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: Genevieve
+  Flags: []
+  ALFG: 0
+  UniqueActor: 295EE3:Starfield.esm
+  PackageData:
+  - 17F3FC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 35
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: '----- Conference Room Aliases -----'
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 8
+  Name: Location_RyujinTower
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 29B71E:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 48
+  Name: ConferenceRoomChairsEnableMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 006371:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 45
+  Name: ExecutiveGenericNPCs
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 0062F7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: CompanionWaitFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 006333:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: MasakoConferenceChair
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 17F3E8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: UlaruConferenceChair
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 184DC7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 49
+  Name: UlaruConferencePlayerChair
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 006374:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: VeenaConferenceChair
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 184DC5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 50
+  Name: VeenaConferencePlayerChair
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 006373:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: AlexisConferenceChair
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 184DC6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: DaltonConferenceChair
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 184DC4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 51
+  Name: DaltonConferencePlayerChair
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 006372:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: LindenConferenceChair
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 184DC2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: GenevieveConferenceChair
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 184DC3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: PlayerConferenceChairQT
+  Flags:
+  - AllowReuseInQuest
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 184DC0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 18
+    ALAM: 0
+    ReferenceAlias:
+      ID: 18
+      Name: PlayerConferenceChairs
+      Flags:
+      - AllowReuseInQuest
+      ALFG: 0
+      Location:
+        AliasID: 8
+        RefType: 184DC1:Starfield.esm
+      Keywords:
+      - 0BA2F6:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: SecurityFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 14CB2F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: SecuritySceneUlaruMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 14CB2E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 43
+  Name: SecuritySceneMasakoMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 143634:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: RyujinIndustriesSecurity
+  Flags:
+  - Optional
+  - CreateRefTemp
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 14CB26:Starfield.esm
+  PackageData:
+  - 14CB29:Starfield.esm
+  - 143636:Starfield.esm
+  - 14CB2B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 52
+  Name: MasakoUlaruFinalSceneFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 006376:Starfield.esm
+  PackageData:
+  - 14CB29:Starfield.esm
+  - 143636:Starfield.esm
+  - 14CB2B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 54
+  Name: PlayerEnteredConferenceRoomTrigger
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 00637B:Starfield.esm
+  PackageData:
+  - 14CB29:Starfield.esm
+  - 143636:Starfield.esm
+  - 14CB2B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: '----- Office Aliases -----'
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: MasakoOfficeQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1D218C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: MasakoOfficeChair
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 184DC8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: AlexisOfficeQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 184DBE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: AlexisOfficeMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 184DBF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: DaltonOfficeQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1FB797:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: DaltonOfficeFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 17F3F5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: GenevieveOfficeQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 17F3F4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: GenevieveOfficeMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1D8C8D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: 'LindenOfficeQS            '
+  Flags: []
+  ALFG: 0
+  ForcedReference: 17F3F3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: LindenOfficeMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 17F3F2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: UlaruOfficeQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1D218B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: UlaruOfficeFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 17F3F1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: UlaruOfficeChair
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 14CB2D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 47
+  Name: UlaruChairSwapMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 1DCB64:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: SecurityGuardUlaruFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 14CB27:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 42
+  Name: SecurityGuardMasakoFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 143637:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: VeenaFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 17F3F6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: ConferenceRoomQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 17F3E7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 53
+  Name: MasakoUlaruMoveToMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 006379:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 55
+  Name: PlayerOfficeDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 229116:Starfield.esm
+  VoiceTypes: Null

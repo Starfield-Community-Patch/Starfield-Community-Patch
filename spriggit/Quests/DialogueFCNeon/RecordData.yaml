@@ -1,0 +1,1967 @@
+FormKey: 22DAD6:Starfield.esm
+EditorID: DialogueFCNeon
+VirtualMachineAdapter:
+  Scripts:
+  - Name: FCNeon_KosmosOrgResourcesScript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ResourcesAndGlobals
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResource
+          Object: 077824:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResourceCountGlobal
+          Object: 21B83E:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: maxToSell
+          Data: 10
+        - MutagenObjectType: ScriptObjectProperty
+          Name: resourceSellPriceGlobal
+          Object: 280217:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResource
+          Object: 29F40C:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResourceCountGlobal
+          Object: 280216:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: maxToSell
+          Data: 10
+        - MutagenObjectType: ScriptObjectProperty
+          Name: resourceSellPriceGlobal
+          Object: 1DA23D:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResource
+          Object: 0777F9:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: resourceSellPriceGlobal
+          Object: 1DA231:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: maxToSell
+          Data: 10
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResourceCountGlobal
+          Object: 280215:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResource
+          Object: 077825:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResourceCountGlobal
+          Object: 280214:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: maxToSell
+          Data: 10
+        - MutagenObjectType: ScriptObjectProperty
+          Name: resourceSellPriceGlobal
+          Object: 1BF974:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResource
+          Object: 077826:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResourceCountGlobal
+          Object: 25DF12:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: maxToSell
+          Data: 10
+        - MutagenObjectType: ScriptObjectProperty
+          Name: resourceSellPriceGlobal
+          Object: 1BF972:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResource
+          Object: 077827:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: resourceSellPriceGlobal
+          Object: 1931AA:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: maxToSell
+          Data: 10
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResourceCountGlobal
+          Object: 23CEC3:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResource
+          Object: 07782F:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: resourceSellPriceGlobal
+          Object: 21B83D:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: maxToSell
+          Data: 5
+        - MutagenObjectType: ScriptObjectProperty
+          Name: theResourceCountGlobal
+          Object: 21B847:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FCNeon_Kosmos_NextTurnInGameTime
+      Object: 00CC1F:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ11
+      Object: 2E8298:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FCNeon_EuphorikaMembersDoorRef
+      Object: 089F63:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ04
+      Object: 0B2A74:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Neon_VoliiHotel_PermCost
+      Object: 16004B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ08
+      Object: 063F4C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ09
+      Object: 00351A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC_Neon_BeggarDonationCountGlobal
+      Object: 057982:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ05
+      Object: 089076:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06
+      Object: 01BD20:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ07
+      Object: 06E0A1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC_Neon_BeggarDonationGlobal
+      Object: 05797F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueFCNeon_PlayerHomeQuest
+      Object: 370965:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FCNeonKolmanLang
+      Object: 22DAD6:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ10
+      Object: 2E8297:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ03
+      Object: 0A935F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ02
+      Object: 0A316E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ06_Controller
+      Object: 1CEDC2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ12
+      Object: 25544A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Neon_Euphorika_LoungeCost
+      Object: 160043:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FCNeonMiguelReeves
+      Object: 22DAD6:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ06
+      Object: 082D5A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Small
+      Object: 275226:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RAD03
+      Object: 21710A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FCNeonFranchescaMoore
+      Object: 22DAD6:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ01
+      Object: 0B2A73:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NE_EuphorikaMemberPass
+      Object: 089F60:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Neon_VoliiHotel_RentCount
+      Object: 160046:Starfield.esm
+  Fragments:
+  - Stage: 135
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0135_Item_00
+  - Stage: 482
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0482_Item_00
+  - Stage: 275
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0275_Item_00
+  - Stage: 455
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0455_Item_00
+  - Stage: 31
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0031_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 582
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0582_Item_00
+  - Stage: 380
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0380_Item_00
+  - Stage: 294
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0294_Item_00
+  - Stage: 476
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0476_Item_00
+  - Stage: 315
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0315_Item_00
+  - Stage: 360
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0360_Item_00
+  - Stage: 370
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0370_Item_00
+  - Stage: 581
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0581_Item_00
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0420_Item_00
+  - Stage: 195
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0195_Item_00
+  - Stage: 222
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0222_Item_00
+  - Stage: 475
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0475_Item_00
+  - Stage: 295
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0295_Item_00
+  - Stage: 101
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0101_Item_00
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0115_Item_00
+  - Stage: 620
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0620_Item_00
+  - Stage: 445
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0445_Item_00
+  - Stage: 579
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0579_Item_00
+  - Stage: 293
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0293_Item_00
+  - Stage: 498
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0498_Item_00
+  - Stage: 485
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0485_Item_00
+  - Stage: 499
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0499_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
+    FragmentName: Fragment_Stage_0400_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 22DAD6:Starfield.esm
+      Alias: 65
+    Scripts:
+    - Name: DialogueFCNeonAdvertScript
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: AdvertScenes
+        Objects:
+        - Name: ''
+          Object: 30D61C:Starfield.esm
+        - Name: ''
+          Object: 30D61D:Starfield.esm
+        - Name: ''
+          Object: 30D638:Starfield.esm
+        - Name: ''
+          Object: 30D639:Starfield.esm
+        - Name: ''
+          Object: 30D63A:Starfield.esm
+        - Name: ''
+          Object: 30D63B:Starfield.esm
+        - Name: ''
+          Object: 30D63C:Starfield.esm
+        - Name: ''
+          Object: 30D63D:Starfield.esm
+        - Name: ''
+          Object: 30D63E:Starfield.esm
+        - Name: ''
+          Object: 30D640:Starfield.esm
+        - Name: ''
+          Object: 30D643:Starfield.esm
+        - Name: ''
+          Object: 30D641:Starfield.esm
+        - Name: ''
+          Object: 30D642:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CityNeonLocation
+        Object: 015FFE:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Neon Main Dialogue
+  - Language: English
+    String: Neon Main Dialogue
+  - Language: Spanish
+    String: Diálogo principal de Neón
+  - Language: French
+    String: Neon Main Dialogue
+  - Language: Italian
+    String: Dialogo principale Neon
+  - Language: Japanese
+    String: ネオンのメイン会話
+  - Language: Polish
+    String: Główny dialog w Neonie
+  - Language: Portuguese_Brazil
+    String: Diálogo Principal de Neon
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+Location: 015FFE:Starfield.esm
+TextDisplayGlobals:
+- 275226:Starfield.esm
+- 275225:Starfield.esm
+- 275224:Starfield.esm
+- 16004B:Starfield.esm
+- 160048:Starfield.esm
+- 160043:Starfield.esm
+- 05797F:Starfield.esm
+- 32DEA9:Starfield.esm
+- 37098B:Starfield.esm
+- 370987:Starfield.esm
+- 21B83E:Starfield.esm
+- 21B847:Starfield.esm
+- 280216:Starfield.esm
+- 280215:Starfield.esm
+- 280214:Starfield.esm
+- 25DF12:Starfield.esm
+- 23CEC3:Starfield.esm
+UnusedConditions: []
+Stages:
+- Index: 31
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Move the player to Kolman Lang for RAD03'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Boone Morgan Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Boone Morgan - Player House Purchased
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: BorealUS Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 115
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: BorealUS Quest Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: BorealUS Music Slate Found
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Clover MacKenna Greeting Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 135
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Clover MacKenna Quest Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 140
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Clover MacKenna Solved Okadigbo's Debt
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dietrich Sieghart Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 155
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dietrich Sieghart Quest Assigned
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 160
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dietrich Sieghart Fee Issue Solved
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 170
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dominique Sauvage Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 172
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dominique Sauvage Early Dialogue Exit
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 180
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Emiko Shinsato Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 190
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Frank Renick Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 191
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Styx Complaint
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 192
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Frank Renick tells Warlord story
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 195
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Frank Renick Quest Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Frank Renick Graffiti Solved
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Glenn Markham Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 214
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Glenn Markham - Give 0 Doses - No Refusal
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 215
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Glenn Markham - Aurora Trigger
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 216
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Glenn Markham - Gave 3 Doses
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 217
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Glenn Markham - Gave 1 Dose
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 218
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Glenn Markham - Gave 0 Doses
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 219
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Glenn Markham - Aurora Give Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: James Newill Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 222
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: James Newill - Quest Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 223
+  Unknown: 99
+  LogEntries:
+  - Flags: []
+    Note: James Newill - Has mentioned Rosa is his wife
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 225
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: James Newill - Quest Completed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 230
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ji Nashida Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 235
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ji Nashida - No decision
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 240
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ji Nashida - Player Said Send Report
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ji Nashida - Player Said Don't Send Report
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 260
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ji Nashida - Do Personnel Change
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 270
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Joseph Manning Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 275
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Joseph Manning - Quest Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 280
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Joseph Manning - Supplies Given
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 290
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Katherine Luzion Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 292
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Katherine Luzion - Blockout
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 293
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Katherine Luzion - Blocked Day Start
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 294
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Katherine Luzion - Blocked Day Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 295
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Katherine Luzion - Quest Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Katherine Luzion - Murder Solved
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kolman Lang Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 312
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kolman Lang - Jaylen Price TL Toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 315
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kolman Lang grants the RAD03 quest when the player asks him about work.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kosmos Bakas Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 325
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kosmos Bakas - Quest Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 330
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kosmos Bakas - Food Brought
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 340
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Lee Leonard Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Matias Durant Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 355
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Matias Durant - Mag Toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 360
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Minerva Clement Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 362
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Minerva Clement - Ebbside toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 370
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Minerva Clement - Room Rented
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 380
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Minerva Clement - House Purchased
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 390
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Myka Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Myka - Membership Purchased
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 405
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Myka - Aurora is Illegal Toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Owen Dexler Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Owen Dexler - Questions Unlocked
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 430
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Paige Overton Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 440
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Rosa Newill Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 445
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Rosa Newill - Asked about Dietrich
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Saburo Okadigbo Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 452
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: player initially declines Saburo's quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 455
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Saburo Okadigbo - Quest Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 460
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Saburo Okadigbo - Flyers Passed Out
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 470
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tevin Anastas Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 475
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tevin Anastas - Quest Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 476
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Manaia Adams - Quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 477
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Manaia Adams - Intro
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 480
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tevin Anastas - Headlock Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 481
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Huong Le - Intro
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 482
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Huong Le - Dialogue Check
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 483
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Huong Le - Dialogue Check 2
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 485
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Lendel Green - Intro
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 486
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Lendel Green - Dialogue Check
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 490
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Yannick Legrande Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 492
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Yannick Legrande - Player Paid for Blend Secrets
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 495
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Yannick Legrande - Blend Secret Unlock
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 496
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hamza Al-Rashid - Intro Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 497
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hamza Al-Rashid - Quest Offered and Denied
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 498
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hamza Al-Rashid - Quest Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 499
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hamza Al-Rashid - Quest Completed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kyu Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 505
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kyu - Aurora Legal Toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kyu - Key to Ask Myka
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 512
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kyu - Gaeguli Key
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 513
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kyu - Street Rat Trigger
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 514
+  LogEntries:
+  - Flags: []
+    Note: Kyu - Komiko Relationship Flag
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 515
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kyu - Backstory Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 520
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Libby Grath Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 525
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Libby Grath - Topic Toggles
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 530
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Libby Grath - Access to Bayu
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 540
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Sophie Jex Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 542
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Sophie Jex - Ebbside Toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Generdyne Receptionist Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 555
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Generdyne Receptionist, Breyson Toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 560
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Generdyne Receptionist, SC Win
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 565
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Generdyne Receptionist, SC Lose
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 570
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Generdyne Receptionist, Breyson Reveal
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 579
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Miguel Reeves - Blend 1
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 580
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Miguel Reeves - Dialogue Check 1
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 581
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Miguel Reeves - Dialogue Check 2
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 582
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Miguel Reeves - 24 Hour Timer 1
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 583
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Miguel Reeves - Tried Aurora
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 584
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Miguel Reeves - 24 Hour Timer 2
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 585
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Miguel Reeves - Post Enhance
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 586
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Miguel Reeves - Final
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 588
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Happa Kekoa - Dialogue Check 1
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 589
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Happa Kekoa - Dialogue Check 2
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 595
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Shuichi Kanamatsu - Dilaogue Check 1
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 596
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Shuichi Kanamatsu - Dilaogue Check 2
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 597
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Shuichi Kanamatsu - Dilaogue Check 3
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Frankie Moore Greeting Scene Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 605
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Karolina Gortat - Intro
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 606
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Karolina Gortat - Dialogue Check 1
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Erika Foster - Intro
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 620
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Izna Sundararaman - Player Home Purchased
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 630
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: player pickpocketed Bayu's Penthouse keycard. They can now access his Penthouse
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Frankie is dead. Clear alias.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 59
+  Name: CityNeonRyujinTowerLocation
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 17CFC9:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 51
+  Name: CityNeonLocation
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 015FFE:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 66
+  Name: CityNeonStroudEklundLocation
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 03B7CD:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: FCNeonBooneMorgan
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 2C4887:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: FCNeonBorealUS
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDD2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: FCNeonCloverMacKenna
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDD0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: FCNeonDietrichSieghart
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDEC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: FCNeonDominiqueSauvage
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDDA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: FCNeonEmikoShinsato
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 66
+    RefType: 040770:Starfield.esm
+  VoiceTypes: 26FDEB:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: FCNeonFrankRenick
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDDE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: FCNeonGlennMarkham
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDCA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: FCNeonJamesNewill
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 2C4884:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: FCNeonJiNashida
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDCE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: FCNeonJosephManning
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDEE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: FCNeonKatherineLuzion
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDC8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: FCNeonKolmanLang
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDDC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: FCNeonKosmosBakas
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDC6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: FCNeonLeeLeonard
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDC4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: FCNeonMatiasDurant
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDD4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: FCNeonMinervaClement
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDF0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: FCNeonMyka
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDD6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: FCNeonOwenDexler
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDD8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: FCNeonPaigeOverton
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDF2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: FCNeonRosaNewill
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDE0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: FCNeonSaburoOkadigbo
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDE4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: FCNeonStyx
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 0A91FE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: FCNeonTevinAnastas
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDE8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: FCNeonValentinaGurov
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDCC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: FCNeonYannickLegrande
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDE2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: FCNeonIznaSundararaman
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 2387AF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: FCNeonAmandaOxendine
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 235B87:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: FCNeonNyx
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 1FB7A6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: FCNeonJaylenPrice
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 2631AD:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: FCNeonKyu
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 160045:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: FCNeonLibbyGrath
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 26FDE6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: FCNeonSophieJex
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 15636C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: MQ105IssaEklund
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 01961D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 35
+  Name: FCNeonGenerdyneReceptionist
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 249C9E:Starfield.esm
+  PackageData:
+  - 182C59:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: FCNeonFranchescaMoore
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 19B088:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: FCNeonHamzaAlRashid
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 03C6C3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: FCNeonHuongLe
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 05797C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: FCNeonManaiaAdams
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 2E8339:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: FCNeonLendelGreen
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 2E8349:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 41
+  Name: FCNeonMiguelRivas
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 2D1804:Starfield.esm
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 45
+  PackageData:
+  - 323439:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 42
+  Name: FCNeonDiosdadoKekoa
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 256317:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 43
+  Name: FCNeonShuichiKanamatsu
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 256319:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 44
+  Name: FCNeonKarolinaGortat
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 068F39:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 45
+  Name: FCNeonErikaFoster
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 06CC4B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 48
+  Name: FCNeonWarlord
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 0A920C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 49
+  Name: FCNeonBenjaminBayu
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 01BE38:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 50
+  Name: Intercom_ReliantMedical
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E96F8:Starfield.esm
+  VoiceTypes: 30D61E:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 52
+  Name: Intercom_HotelVolii
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E96FB:Starfield.esm
+  VoiceTypes: 30D621:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 53
+  Name: Intercom_Enhance
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E96FA:Starfield.esm
+  VoiceTypes: 30D62A:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 54
+  Name: Intercom_Sauvage
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E96FD:Starfield.esm
+  VoiceTypes: 30D62B:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 55
+  Name: Intercom_Sieghart
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E96FF:Starfield.esm
+  VoiceTypes: 30D624:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 56
+  Name: Intercom_StroudEklund
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E96FE:Starfield.esm
+  VoiceTypes: 30D629:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 57
+  Name: Intercom_Newill
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E96FC:Starfield.esm
+  VoiceTypes: 30D628:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 58
+  Name: Intercom_Legrande
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E9700:Starfield.esm
+  VoiceTypes: 30D623:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 60
+  Name: Intercom_Galbank
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E9701:Starfield.esm
+  VoiceTypes: 30D627:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 61
+  Name: Intercom_Terrabrew
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E9702:Starfield.esm
+  VoiceTypes: 30D620:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 62
+  Name: Intercom_Euphorika
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E9703:Starfield.esm
+  VoiceTypes: 30D625:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 63
+  Name: Intercom_Emporium
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E96F9:Starfield.esm
+  VoiceTypes: 30D622:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 64
+  Name: Intercom_Chunks
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 3E9704:Starfield.esm
+  VoiceTypes: 30D626:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 65
+  Name: Player
+  Flags:
+  - Optional
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null

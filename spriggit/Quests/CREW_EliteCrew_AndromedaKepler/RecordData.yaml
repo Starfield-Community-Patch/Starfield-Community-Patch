@@ -1,0 +1,274 @@
+FormKey: 16B408:Starfield.esm
+EditorID: CREW_EliteCrew_AndromedaKepler
+VirtualMachineAdapter:
+  Scripts:
+  - Name: Crew_EliteCrewQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CrewMember
+      Object: 16B408:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_HireSpeechChallengeAttempted
+      Object: 2636B7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_RecruitCost_TextReplacementValue
+      Object: 27072B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 0174A2:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TRAIT_Taskmaster
+      Object: 227FE0:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Andromeda
+      Object: 16B408:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialCrewFaction
+      Object: 0143A2:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 100
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
+    FragmentName: Fragment_Stage_0100_Item_01
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
+    FragmentName: Fragment_Stage_0500_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Andromeda Kepler
+  - Language: English
+    String: Andromeda Kepler
+  - Language: Spanish
+    String: Andromeda Kepler
+  - Language: French
+    String: Andromeda Kepler
+  - Language: Italian
+    String: Andromeda Kepler
+  - Language: Japanese
+    String: アンドロメダ・ケプラー
+  - Language: Polish
+    String: Andromeda Kepler
+  - Language: Portuguese_Brazil
+    String: Andrômeda Kepler
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+TextDisplayGlobals:
+- 27072B:Starfield.esm
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17620
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 16B3D3:Starfield.esm
+  ComparisonValue: 1
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG STAGE
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Recruitable as Crew phase
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player said they were there to explore
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 11
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player said they were hiring
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 12
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player said they were sightseeing
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 014312:Starfield.esm
+    Note: Andromeda Kepler hired
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 227FE0:Starfield.esm
+    Note: Speech Challenge Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 227FE0:Starfield.esm
+      ComparisonValue: 1
+    Note: Taskmaster
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speech Challenge Failure
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player made a choice in the Philosophy scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Avalon info toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Constellation/Studies info toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player can unlock time-locked TL
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "Player said they wanted to read Andromeda's book. "
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 551
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player said they aren't sold on Andromeda's philosophy
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: AndromedaKepler
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 16B3D3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: ActiveCompanion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: ActiveEliteCrew
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567D:Starfield.esm
+    AliasID: 30
+  VoiceTypes: Null

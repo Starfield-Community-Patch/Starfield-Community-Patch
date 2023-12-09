@@ -1,0 +1,699 @@
+FormKey: 1DC45E:Starfield.esm
+EditorID: MQ401
+VirtualMachineAdapter:
+  Scripts:
+  - Name: mq401questscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Andreja
+      Object: 1DC45E:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Armillary
+      Object: 1DC45E:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Barrett
+      Object: 1DC45E:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CoraCoe
+      Object: 1DC45E:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Heller
+      Object: 1DC45E:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Lin
+      Object: 1DC45E:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MatteoKhatri
+      Object: 1DC45E:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 003448:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_VascoMarker01
+      Object: 009128:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: MQ401VariantsArray
+      Objects:
+      - Name: ''
+        Object: 1D5AD2:Starfield.esm
+      - Name: ''
+        Object: 1A9053:Starfield.esm
+      - Name: ''
+        Object: 17F7A5:Starfield.esm
+      - Name: ''
+        Object: 17B94D:Starfield.esm
+      - Name: ''
+        Object: 173104:Starfield.esm
+      - Name: ''
+        Object: 172F8B:Starfield.esm
+      - Name: ''
+        Object: 04BD08:Starfield.esm
+      - Name: ''
+        Object: 045F9F:Starfield.esm
+      - Name: ''
+        Object: 029DA1:Starfield.esm
+      - Name: ''
+        Object: 025233:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_001_LodgeIntro
+      Object: 1DC41B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_AlwaysOn
+      Object: 17D393:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_ForceVariant
+      Object: 1801B9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_VariantChance
+      Object: 17E727:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_VariantCurrent
+      Object: 1D5AC7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ402
+      Object: 1DC418:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Noel
+      Object: 1DC45E:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OroraSabine
+      Object: 1DC45E:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptStructListProperty
+      Name: PlayerKnowledgeArray
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 023295:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 01BE63:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 023297:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 2AAC9F:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 023288:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 2AACAB:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 02323E:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 0D87A2:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 02323C:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 0D87A1:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 02323D:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 1F0989:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 02323B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 2AACA2:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 02323A:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 160037:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 023239:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 2AACA3:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 023237:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 0EE5B4:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 023236:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 0506C4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerUnityTimesEntered
+      Object: 219529:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SamCoe
+      Object: 1DC45E:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SarahMorgan
+      Object: 1DC45E:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_GravitationalTraits
+      Object: 07C6A9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Vasco
+      Object: 1DC45E:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VecteraExteriorNPCEnableMarker
+      Object: 1ED1C4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VecteraInteriorNPCEnableMarker
+      Object: 2B69DA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VladimirSall
+      Object: 1DC45E:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WalterStroud
+      Object: 1DC45E:Starfield.esm
+      Alias: 2
+  Script:
+    Name: Fragments:Quests:QF_MQ401_001DC45E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Andreja
+      Object: 1DC45E:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Barrett
+      Object: 1DC45E:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeArmillary
+      Object: 1DC45E:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SamCoe
+      Object: 1DC45E:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SarahMorgan
+      Object: 1DC45E:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CoeEstateBalconyDoorREF
+      Object: 2D044F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CoeEstateDoorFaction
+      Object: 1260C3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CoeEstateFirstFloorDoorREF
+      Object: 2FC753:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CoeEstateFirstFloorDoorTwo
+      Object: 2D0418:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CoeEstateFrontDoorREF
+      Object: 2FC83E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_NoRelationshipPostUnity
+      Object: 02C3D5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ConstellationFaction
+      Object: 0191DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_EliteCrew_CoraCoe
+      Object: 187BF1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_EliteCrew_Vasco
+      Object: 256F51:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EyeBoardingFaction
+      Object: 136F9F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeKey
+      Object: 293A7D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 003448:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_001_LodgeIntro
+      Object: 1DC41B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_002_AfterFaceGen
+      Object: 1DC41A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_SkipMQ
+      Object: 17E006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_VariantCurrent
+      Object: 1D5AC7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ402
+      Object: 1DC418:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerUnityTimesEntered
+      Object: 219529:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 415
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0415_Item_00
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0420_Item_00
+  - Stage: 425
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0425_Item_00
+  - Stage: 440
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0440_Item_00
+  - Stage: 445
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0445_Item_00
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0450_Item_00
+  - Stage: 455
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401_001DC45E
+    FragmentName: Fragment_Stage_0455_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1DC45E:Starfield.esm
+      Alias: 8
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+  - Property:
+      Name: ''
+      Object: 1DC45E:Starfield.esm
+      Alias: 25
+    Scripts:
+    - Name: defaultaliasonload
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 20
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Neues Spiel+ – Standardablauf
+  - Language: English
+    String: New Game Plus Standard Handling
+  - Language: Spanish
+    String: Gestión estándar de nueva partida +
+  - Language: French
+    String: Gestion standard Nouvelle partie +
+  - Language: Italian
+    String: Gestione standard nuova partita +
+  - Language: Japanese
+    String: ニューゲームプラスの標準手順
+  - Language: Polish
+    String: Nowa gra plus standardowe podejście
+  - Language: Portuguese_Brazil
+    String: Controle Padrão de Novo Jogo+
+Data:
+  Flags:
+  - RunOnce
+  Priority: 90
+  Unused: 0x000000
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug Stage
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest Started - scripting is inside MQ401QuestScript
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Armillary has loaded, assemble Armillary if needed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player enters the Library - script on LodgeEnterLibraryTrigger alias
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start FaceGen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: FaceGen Complete
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Repeat the Main Quest - Sarah starts MQ102
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Skip the Main Quest - Start MQ402
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Sarah Companion progression set to normal
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 415
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Sarah Companion progression skipped
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Andreja Companion progression set to normal
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 425
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Andreja Companion progression skipped
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 440
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Barrett Companion progression set to normal
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 445
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Barrett Companion progression skipped
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Sam Coe Companion progression set to normal
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 455
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Sam Coe Companion progression skipped
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 9
+  Name: CityNewAtlantisLodgeLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 27C8ED:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: LodgeEnterLibraryTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 1D5AC5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  Name: SarahMorgan
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005983:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Vasco
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0057BB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: WalterStroud
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005996:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: MatteoKhatri
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00599F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Noel
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00598C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: Lin
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005638:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Heller
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00563A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: OroraSabine
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 20C57B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: VladimirSall
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0059AA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: SamCoe
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005999:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: CoraCoe
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00D653:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: Andreja
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0059A7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: Barrett
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005787:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: LodgeArtifact01
+  Flags:
+  - Optional
+  - QuestObject
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: LodgeArtifact02
+  Flags:
+  - Optional
+  - QuestObject
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: LodgeArtifact03
+  Flags:
+  - Optional
+  - QuestObject
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: LodgeArtifact04
+  Flags:
+  - Optional
+  - QuestObject
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: LodgeArtifact05
+  Flags:
+  - Optional
+  - QuestObject
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: LodgeArtifact06
+  Flags:
+  - Optional
+  - QuestObject
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: LodgeArmillary
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 0D0B00:Starfield.esm
+  VoiceTypes: Null

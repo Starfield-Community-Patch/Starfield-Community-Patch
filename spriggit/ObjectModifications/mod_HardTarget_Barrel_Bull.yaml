@@ -1,0 +1,88 @@
+MutagenObjectType: WeaponModification
+FormKey: 094C5C:Starfield.esm
+EditorID: mod_HardTarget_Barrel_Bull
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Schwerer Lauf
+  - Language: English
+    String: Bull Barrel
+  - Language: Spanish
+    String: Cañón pesado
+  - Language: French
+    String: Canon extralourd
+  - Language: Italian
+    String: Canna pesante
+  - Language: Japanese
+    String: ブルバレル
+  - Language: Polish
+    String: Lufa pogrubiana
+  - Language: Portuguese_Brazil
+    String: Cano Bull
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein schwererer Lauf für höhere Präzision und Stabilität.
+  - Language: English
+    String: A heavier barrel for more increased accuracy and stability.
+  - Language: Spanish
+    String: Un cañón más pesado para mayor precisión y estabilidad.
+  - Language: French
+    String: Un canon plus lourd pour davantage de précision et de stabilité.
+  - Language: Italian
+    String: Una canna più pesante per precisione e stabilità aumentate.
+  - Language: Japanese
+    String: 命中率と安定性に長けたヘビーバレル
+  - Language: Polish
+    String: Cięższa lufa o zwiększonej celności i stabilności.
+  - Language: Portuguese_Brazil
+    String: Cano mais pesado que oferece mais precisão e estabilidade.
+Model:
+  File: Weapons\HardTarget\HardTarget_BarrelLight.nif
+  FLLD: 0x01000000
+AttachPoint: 02249D:Starfield.esm
+AttachParentSlots:
+- 035799:Starfield.esm
+- 02249C:Starfield.esm
+- 04B6E1:Starfield.esm
+Includes:
+- Mod: 14AFDB:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70D9:Starfield.esm
+FilterKeywords:
+- 03E063:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModFloatProperty`1
+  Property: AimInnerConeAngleDegrees
+  Value: -0.15
+  Value2: -0.15
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty`1
+  Property: AimOuterConeAngleDegrees
+  Value: -0.15
+  Value2: -0.15
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty`1
+  Property: Weight
+  Value: 0.75
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty`1
+  Property: Value
+  Value: 0.035
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty`1
+  Property: AimModelBaseStability
+  Value: 0.075
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty`1
+  Property: SightedTransitionSeconds
+  Value: 0.1
+  Value2: 0.1
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFormLinkIntProperty`1
+  Property: Keyword
+  Record: 003774:Starfield.esm
+  FunctionType: Add

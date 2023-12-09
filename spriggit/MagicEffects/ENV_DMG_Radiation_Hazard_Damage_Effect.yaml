@@ -1,0 +1,71 @@
+FormKey: 21BBD4:Starfield.esm
+EditorID: ENV_DMG_Radiation_Hazard_Damage_Effect
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Achtung: Anzugschutz aufgebraucht'
+  - Language: English
+    String: 'Warning: Suit Protection Depleted'
+  - Language: Spanish
+    String: 'Aviso: protección del traje agotada'
+  - Language: French
+    String: 'Attention : protection combi épuisée'
+  - Language: Italian
+    String: 'Attenzione: protezione tuta esaurita'
+  - Language: Japanese
+    String: 警告：スーツの防御効果なし
+  - Language: Polish
+    String: 'Uwaga: Ochrona skafandra wyczerpana'
+  - Language: Portuguese_Brazil
+    String: 'Aviso: Proteção de Traje Esgotada'
+Keywords:
+- 1EBE85:Starfield.esm
+- 21BBD5:Starfield.esm
+- 248D2E:Starfield.esm
+ImageSpaceModifier: 243B20:Starfield.esm
+ActorValue2: 0002E1:Starfield.esm
+ResistValue: 248D2F:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+UnkownInt2: 3
+CastType: Concentration
+TargetType: Touch
+UnkownInt3: 1065353216
+Flags:
+- Hostile
+- Detrimental
+- 0x20
+- NoDuration
+- NoArea
+- FXPersist
+- 0x80000
+- Painless
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Du erleidest Umgebungsschaden!
+  - Language: English
+    String: Taking environmental damage!
+  - Language: Spanish
+    String: ¡Recibiendo daño ambiental!
+  - Language: French
+    String: Vous subissez des dégâts environnementaux !
+  - Language: Italian
+    String: Danni ambientali!
+  - Language: Japanese
+    String: 環境ダメージを受けています！
+  - Language: Polish
+    String: Odnosisz obrażenia środowiskowe!
+  - Language: Portuguese_Brazil
+    String: Sofrendo dano ambiental!
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16667
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 223D0B:Starfield.esm
+  ComparisonValue: 1

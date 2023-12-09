@@ -1,0 +1,104 @@
+FormKey: 03614B:Starfield.esm
+EditorID: Drink_Alc_Boxed_RedHarvest_WhiskeyDoubleMalt
+ObjectBounds:
+  First: -0.051879883, -0.023651123, 0
+  Second: 0.051879883, 0.023651123, 0.14038086
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 091C34:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Red Harvest: Double-Malt-Whiskey'
+  - Language: English
+    String: Red Harvest Double Malt Whiskey
+  - Language: Spanish
+    String: Whiskey de malta doble Red Harvest
+  - Language: French
+    String: Whisky double malt Red Harvest
+  - Language: Italian
+    String: Whisky doppio malto Red Harvest
+  - Language: Japanese
+    String: レッド・ハーベストのダブルモルトウィスキー
+  - Language: Polish
+    String: Whiskey double malt Red Harvest
+  - Language: Portuguese_Brazil
+    String: Uísque de Duplo Malte Red Harvest
+Keywords:
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+- 14253C:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragedrinkpack_redh_dmalt.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 9c0b4bd9-94a3-2830-95b8-a81a1a60e791
+DropdownSound:
+  Start: 9f4d405b-17a2-133b-d6b8-9f02bc4afa91
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein beliebter und starker Double-Malt-Whiskey von Red Harvest.
+  - Language: English
+    String: A popular and powerful double malt whiskey, brewed by Red Harvest.
+  - Language: Spanish
+    String: Este whiskey fuerte de malta doble, elaborado por Red Harvest, goza de gran popularidad en los Sistemas Colonizados.
+  - Language: French
+    String: Un whisky double malt intense et populaire, élaboré par Red Harvest.
+  - Language: Italian
+    String: Un whisky doppio malto forte e molto popolare, prodotto da Red Harvest.
+  - Language: Japanese
+    String: 人気で度数の高いダブルモルトのウィスキー。レッド・ハーベストの醸造によるもの
+  - Language: Polish
+    String: Popularna i mocna whiskey double malt produkowana przez Red Harvest.
+  - Language: Portuguese_Brazil
+    String: Um uísque popular e potente de malte duplo, feito na Red Harvest.
+Resources:
+- Resource: 29B017:Starfield.esm
+  Count: 1
+Weight: 0.3
+Value: 240
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: f96641c4-fd61-393a-cfc9-7f25fc5ae988
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BB407:Starfield.esm
+  Data:
+    Magnitude: 8
+    Duration: 300
+  Magnitude: 2B980D:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 4

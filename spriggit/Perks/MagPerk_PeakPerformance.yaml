@@ -302,21 +302,21 @@ Ranks:
         Unknown2: 17620
         Data:
           MutagenObjectType: HasPerkSkillGroupConditionData
-          SecondParameter: 1
+          SecondParameter: Basic
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
         Unknown1: 0xF0525F
         Unknown2: 17620
         Data:
           MutagenObjectType: HasPerkSkillGroupConditionData
-          SecondParameter: 2
+          SecondParameter: Advanced
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
         Unknown1: 0xF0525F
         Unknown2: 17620
         Data:
           MutagenObjectType: HasPerkCategoryConditionData
-          FirstParameter: 4
+          FirstParameter: Physical
         ComparisonValue: 1
     EntryPoint: ModActivityMaxRepetitions
     PerkConditionTabCount: 2

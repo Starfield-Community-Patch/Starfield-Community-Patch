@@ -1,0 +1,46 @@
+FormKey: 06B25B:Starfield.esm
+Flags: {}
+Responses:
+- WEMFile: 9855968
+  TRDAUnknown: 9.033334
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 3.9
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Mal sehen ... kein Kopfgeld, aber die Waffe steckst du lieber weg.
+    - Language: English
+      String: Let's see... No bounty, but you'd better put that weapon away.
+    - Language: Spanish
+      String: A ver... No se te busca, pero ya puedes guardar esa arma.
+    - Language: French
+      String: Voyons voir... Votre tête n'est pas mise à prix, mais je vous conseille de déposer cette arme.
+    - Language: Italian
+      String: Vediamo... Niente taglie. Ma ti conviene riporre quell’arma.
+    - Language: Japanese
+      String: どれどれ… 賞金首ではないな。でも、その武器はしまったほうがいいぞ
+    - Language: Polish
+      String: Spójrzmy... Brak listu gończego, ale lepiej odłóż tę broń.
+    - Language: Portuguese_Brazil
+      String: Vejamos... Sem violações, mas é bom você guardar essa arma.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x903B08A76B96D601
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    FirstParameter: 05BD93:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+StartScenePhase: ''
+SubtitlePriority: Low

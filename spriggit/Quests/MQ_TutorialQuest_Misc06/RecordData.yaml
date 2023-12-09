@@ -1,0 +1,128 @@
+FormKey: 00118F:Starfield.esm
+EditorID: MQ_TutorialQuest_Misc06
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_MQ_TutorialQuest_Misc06_0000118F
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TutorialQuest_Misc06_0000118F
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TutorialQuest_Misc06_0000118F
+    FragmentName: Fragment_Stage_0100_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 00118F:Starfield.esm
+      Alias: 2
+    Scripts:
+    - Name: MQTutorialPlayerResearchScript
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Hinweis auf Forschung
+  - Language: English
+    String: Misc Pointer to Research
+  - Language: Spanish
+    String: 'Misc.: Investigación inicial'
+  - Language: French
+    String: Curseur divers sur Recherche
+  - Language: Italian
+    String: Indicatore vario per ricerca
+  - Language: Japanese
+    String: 研究へのその他ポインター
+  - Language: Polish
+    String: Losowy wskaźnik do badań
+  - Language: Portuguese_Brazil
+    String: Indicador Adicional de Pesquisa
+Data:
+  Flags:
+  - RunOnce
+  Priority: 80
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+QuestFaction: 0546E1:Starfield.esm
+UnusedConditions: []
+Stages:
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsTrueForConditionFormConditionData
+        FirstParameter: 000808:StarfieldCommunityPatch.esm
+    Note: Quest Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsTrueForConditionFormConditionData
+        FirstParameter: 000808:StarfieldCommunityPatch.esm
+      ComparisonValue: 1
+    Note: All research already completed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Complete
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Schließe ein Forschungsprojekt ab.
+    - Language: English
+      String: Complete a Research Project
+    - Language: Spanish
+      String: Completa un proyecto de investigación.
+    - Language: French
+      String: Terminez un projet de recherche.
+    - Language: Italian
+      String: Completa un Progetto di ricerca
+    - Language: Japanese
+      String: 研究プロジェクトを完了する
+    - Language: Polish
+      String: Ukończ projekt badawczy
+    - Language: Portuguese_Brazil
+      String: Conclua um projeto de pesquisa
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 1
+  Name: CityNewAtlantisLodgeLocation
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 27C8ED:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: ResearchWorkbench
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 001192:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null

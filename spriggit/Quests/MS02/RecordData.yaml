@@ -1,0 +1,3889 @@
+FormKey: 29A00C:Starfield.esm
+EditorID: MS02
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 29A00C:Starfield.esm
+          Alias: 8
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 200
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 1500
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 29A00C:Starfield.esm
+          Alias: 41
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1550
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 29A00C:Starfield.esm
+          Alias: 8
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 1500
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1550
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 29A00C:Starfield.esm
+          Alias: 20
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1400
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 29A00C:Starfield.esm
+          Alias: 19
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1000
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: ms02script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Believers
+      Object: 29A00C:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Pragmatists
+      Object: 29A00C:Starfield.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GenghisKhan
+      Object: 29A00C:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_RenegadesFaction
+      Object: 245902:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AmeliaEarhart
+      Object: 29A00C:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionCrucible
+      Object: 299F72:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Amanirenas
+      Object: 29A00C:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Everyone
+      Object: 29A00C:Starfield.esm
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Neutral
+      Object: 29A00C:Starfield.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_PragmatistsFaction
+      Object: 245903:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FDR
+      Object: 29A00C:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HH_Holmes
+      Object: 29A00C:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AdaLovelace
+      Object: 29A00C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_BelieversFaction
+      Object: 245904:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Renegades
+      Object: 29A00C:Starfield.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrucibleFaction
+      Object: 299F71:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFriendFaction
+      Object: 106C31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_CluesCollected
+      Object: 29554D:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_MS02_0029A00C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AdaTempName
+      Object: 29A00C:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_1900_PC_Kills_Crucible
+      Object: 245626:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_SecurityOverrideCode
+      Object: 0F72D1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pragmatists
+      Object: 29A00C:Starfield.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FDRTempName
+      Object: 29A00C:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_EncryptedSecurityOverrideCode
+      Object: 0F72D2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_PragmatistsFaction
+      Object: 245903:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_CluesCollected
+      Object: 29554D:Starfield.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: cooldownDays
+      Data: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_0100_EmergencyBroadcast
+      Object: 299F5E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AdaLovelace
+      Object: 29A00C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Believers
+      Object: 29A00C:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crucible01
+      Object: 0BD77E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BackdoorFacility
+      Object: 29A00C:Starfield.esm
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AlienSpawner
+      Object: 29A00C:Starfield.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OverrideCode
+      Object: 29A00C:Starfield.esm
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AmeliaEliteCrewQuest
+      Object: 18E24F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_LeaderReadyToFight
+      Object: 1B84A1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerAllyFaction
+      Object: 106C30:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeutralClones
+      Object: 29A00C:Starfield.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FacilityMapMarker
+      Object: 29A00C:Starfield.esm
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CrucibleCOC
+      Object: 29A00C:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GenghisKhan
+      Object: 29A00C:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DoorPragmatists
+      Object: 29A00C:Starfield.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFriendFaction
+      Object: 106C31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DoorsCrucible
+      Object: 29A00C:Starfield.esm
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Amanirenas
+      Object: 29A00C:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EncryptedOverrideCode
+      Object: 29A00C:Starfield.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Beacon01_MapMarker
+      Object: 29A00C:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Beagle
+      Object: 29A00C:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_InitiallyHiddenPeople
+      Object: 29A00C:Starfield.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Renegades
+      Object: 29A00C:Starfield.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_BeagleNavBeaconMessage
+      Object: 243A0E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_1090_OriginDoorWarning
+      Object: 24CB11:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrucibleFaction
+      Object: 299F71:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FDR
+      Object: 29A00C:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GenghisAliens
+      Object: 29A00C:Starfield.esm
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_Delivery
+      Object: 2534D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_RenegadesFaction
+      Object: 245902:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_Foreknowledge
+      Object: 0F59A9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SE_Player_FAB18a_Timestamp
+      Object: 212C71:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_0610_GenghisApproaches
+      Object: 0FC843:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionCrucible
+      Object: 299F72:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_GenghisReactivity
+      Object: 04B54E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BeagleMapMarker
+      Object: 29A00C:Starfield.esm
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_1550_WarningMessage
+      Object: 28FE34:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FacilityRestrictedTerminal
+      Object: 29A00C:Starfield.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_BelieversFaction
+      Object: 245904:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Elite_CanHireAmelia
+      Object: 18E137:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 1950
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1950_Item_00
+  - Stage: 1630
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1630_Item_00
+  - Stage: 1840
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1840_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 1900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1900_Item_00
+  - Stage: 1730
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1730_Item_00
+  - Stage: 1200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1200_Item_00
+  - Stage: 1620
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1620_Item_00
+  - Stage: 1006
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1006_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 8840
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_8840_Item_00
+  - Stage: 1003
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1003_Item_00
+  - Stage: 1830
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1830_Item_00
+  - Stage: 1800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1800_Item_00
+  - Stage: 1940
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1940_Item_00
+  - Stage: 1710
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1710_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 1600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1600_Item_00
+  - Stage: 1400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1400_Item_00
+  - Stage: 1625
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1625_Item_00
+  - Stage: 1820
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1820_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 1920
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1920_Item_00
+  - Stage: 1330
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1330_Item_00
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0250_Item_00
+  - Stage: 1720
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1720_Item_00
+  - Stage: 1875
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1875_Item_00
+  - Stage: 1500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1500_Item_00
+  - Stage: 1004
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1004_Item_00
+  - Stage: 1930
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1930_Item_00
+  - Stage: 1700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1700_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 1001
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1001_Item_00
+  - Stage: 1335
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1335_Item_00
+  - Stage: 1002
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1002_Item_00
+  - Stage: 1740
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1740_Item_00
+  - Stage: 1890
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1890_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 8830
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_8830_Item_00
+  - Stage: 1621
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1621_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 1872
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1872_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 1007
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1007_Item_00
+  - Stage: 1634
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1634_Item_00
+  - Stage: 8820
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_8820_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 1823
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1823_Item_00
+  - Stage: 1832
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1832_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 1100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1100_Item_00
+  - Stage: 1640
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1640_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 9000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_9000_Item_00
+  - Stage: 1550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1550_Item_00
+  - Stage: 1870
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1870_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 1810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1810_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 1815
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1815_Item_00
+  - Stage: 1632
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1632_Item_00
+  - Stage: 1005
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1005_Item_00
+  - Stage: 1910
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1910_Item_00
+  - Stage: 1715
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1715_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 1880
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1880_Item_00
+  - Stage: 1834
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1834_Item_00
+  - Stage: 610
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0610_Item_00
+  - Stage: 8810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_8810_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 1300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1300_Item_00
+  - Stage: 8900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_8900_Item_00
+  - Stage: 10000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_10000_Item_00
+  - Stage: 1310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1310_Item_00
+  - Stage: 1320
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1320_Item_00
+  - Stage: 1610
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1610_Item_00
+  - Stage: 1615
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1615_Item_00
+  - Stage: 1090
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS02_0029A00C
+    FragmentName: Fragment_Stage_1090_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 0
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8840
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1872
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1873
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DoOnce
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1871
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 1
+    Scripts:
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1872
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1873
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DoOnce
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1871
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 2
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8820
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1872
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1873
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DoOnce
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1871
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 6
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8810
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1872
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1873
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DoOnce
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1871
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 3
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8830
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 610
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 29A00C:Starfield.esm
+        Alias: 36
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 400
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1872
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1873
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DoOnce
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1871
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 4
+    Scripts:
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1872
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1873
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DoOnce
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1871
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 5
+    Scripts:
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1872
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1873
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DoOnce
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1871
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 12
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1001
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 13
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1002
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 14
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1003
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 15
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1004
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 16
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1005
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 17
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1006
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 18
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1007
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 25
+    Scripts:
+    - Name: defaultaliasonlocationchange
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 06153C:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+    - Name: defaultaliasonlocationchangeA
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 06153C:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1550
+      - MutagenObjectType: ScriptBoolProperty
+        Name: LocationMatchIfChild
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1500
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 30
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1310
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1300
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 31
+    Scripts:
+    - Name: DefaultCollectionAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1872
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1873
+      - MutagenObjectType: ScriptBoolProperty
+        Name: OnFirstRef
+        Data: True
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DoOnce
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1871
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 32
+    Scripts:
+    - Name: DefaultCollectionAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1872
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1873
+      - MutagenObjectType: ScriptBoolProperty
+        Name: OnFirstRef
+        Data: True
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DoOnce
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1871
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 33
+    Scripts:
+    - Name: DefaultCollectionAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1872
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1873
+      - MutagenObjectType: ScriptBoolProperty
+        Name: OnFirstRef
+        Data: True
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DoOnce
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1871
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 53
+    Scripts:
+    - Name: DefaultCollectionAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1872
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1873
+      - MutagenObjectType: ScriptBoolProperty
+        Name: OnFirstRef
+        Data: True
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DoOnce
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1871
+  - Property:
+      Name: ''
+      Object: 29A00C:Starfield.esm
+      Alias: 54
+    Scripts:
+    - Name: DefaultCollectionAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1872
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1873
+      - MutagenObjectType: ScriptBoolProperty
+        Name: OnFirstRef
+        Data: True
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DoOnce
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1871
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Operation Starseed
+  - Language: English
+    String: Operation Starseed
+  - Language: Spanish
+    String: Operación Siembra estelar
+  - Language: French
+    String: Opération Graine d'étoile
+  - Language: Italian
+    String: Operazione Stirpe stellare
+  - Language: Japanese
+    String: スターシード作戦
+  - Language: Polish
+    String: Operacja „Gwiezdne ziarno”
+  - Language: Portuguese_Brazil
+    String: Operação Astrogênese
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 60
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+TextDisplayGlobals:
+- 29554D:Starfield.esm
+Filter: '\Settlement\Crucible\'
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: STAGE 0
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ON START
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Finished Origin'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Confronation w/FDR'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Confronation w/Amanirenas'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Confronation w/Genghis'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Final Choice'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Received message
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe einen rätselhaften Notruf empfangen. Ein Ort namens Crucible auf Charybdis III scheint Hilfe zu benötigen.
+      - Language: English
+        String: I've received a curious distress call saying that a place called Crucible on Charybdis III needs help.
+      - Language: Spanish
+        String: He recibido una extraña llamada de socorro procedente de Caribdis III. Al parecer, necesitan ayuda en un lugar llamado “Crisol”.
+      - Language: French
+        String: J'ai reçu un étrange signal de détresse en provenance d'un endroit appelé la Fournaise, sur Charybde III.
+      - Language: Italian
+        String: Ho ricevuto una curiosa richiesta di soccorso proveniente da un posto chiamato Crogiolo su Charybdis III.
+      - Language: Japanese
+        String: 興味深い救難信号を受け取った。カリュブディスIIIにあるクルーシブルという場所が助けを呼んでいる
+      - Language: Polish
+        String: Dotarło do mnie dziwne wezwanie pomocy. Podobno pewne miejsce na Charybdzie III, zwane Tyglem, potrzebuje wsparcia.
+      - Language: Portuguese_Brazil
+        String: Recebi um pedido de socorro inusitado dizendo que um lugar chamado Crisol em Caríbdis III precisa de ajuda.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Landed on Crucible
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin in der Nähe von Crucible gelandet. Ein Roboter wartet hier schon auf mich.
+      - Language: English
+        String: I've landed near Crucible. There is a robot waiting to talk to me.
+      - Language: Spanish
+        String: He aterrizado cerca del Crisol. Un robot está esperando a que hable con él.
+      - Language: French
+        String: J'ai atterri près de la Fournaise. Un robot attend pour me parler.
+      - Language: Italian
+        String: Ho raggiunto il Crogiolo. Ad attendermi c’è un robot che vuole parlarmi.
+      - Language: Japanese
+        String: クルーシブルの近くに着陸した。ロボットが話したがっている
+      - Language: Polish
+        String: Statek wylądował w pobliżu Tygla. Czeka na mnie robot, który chce ze mną porozmawiać.
+      - Language: Portuguese_Brazil
+        String: Aterrissei perto do Crisol. Tem um robô esperando para falar comigo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ada Appears
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Toby gave his quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked with Toby / Ada
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ada sagte, ich sollte mit Franklin sprechen, um mehr über Crucible zu erfahren.
+      - Language: English
+        String: Ada said that I should speak to Franklin to learn more about Crucible.
+      - Language: Spanish
+        String: Dice Ada que debería hablar con Franklin para saber más acerca del Crisol.
+      - Language: French
+        String: Ada m'a dit de parler à Franklin pour en savoir plus sur la Fournaise.
+      - Language: Italian
+        String: Ada mi ha detto che per saperne di più sul Crogiolo dovrei parlare con Franklin.
+      - Language: Japanese
+        String: エイダが言うには、クルーシブルについてもっと知りたければフランクリンと話をするべきらしい
+      - Language: Polish
+        String: Ada skierowała mnie do Franklina, który opowie mi więcej o Tyglu.
+      - Language: Portuguese_Brazil
+        String: Ada me disse para falar com Franklin para saber mais sobre o Crisol.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Learned FDR's name
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked with FDR
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Crucible ist eine Siedlung voller Klone! Franklin Roosevelt sagte, ich sollte mit den Anführern der anderen Geselllschaften sprechen: Amanirenas und Dschingis Khan.'
+      - Language: English
+        String: 'Crucible is a settlement full of clones! Franklin Roosevelt said I should speak to the heads of the other Societies here: Amanirenas and Genghis Khan.'
+      - Language: Spanish
+        String: ¡El Crisol es un asentamiento habitado por clones! Franklin Roosevelt me aconseja que hable con Amanirenas y Gengis Kan, los cabecillas de las otras dos Sociedades.
+      - Language: French
+        String: "La Fournaise est peuplée de clones ! Franklin Roosevelt m'a dit de m'adresser aux dirigeants des autres Sociétés présentes ici : Amanirenas et Gengis Khan."
+      - Language: Italian
+        String: 'Il Crogiolo è un insediamento abitato da cloni! Franklin Roosevelt mi ha consigliato di parlare con i capi delle altre Società: Amanirenas e Genghis Khan.'
+      - Language: Japanese
+        String: クルーシブルとはクローンでいっぱいの入植地だった！ フランクリン・ルーズベルトは、他のソサエティのリーダーと話をするべきだと言う。アマニレナスと、チンギス・ハンだ
+      - Language: Polish
+        String: Tygiel pełen jest klonów! Franklin Roosevelt skierował mnie do przywódców pozostałych stowarzyszeń - Amanirenas i Czyngis-chana.
+      - Language: Portuguese_Brazil
+        String: 'O Crisol é uma colônia de clones! Franklin Roosevelt me instruiu a falar com os líderes das outras Sociedades daqui: Amanirenas e Gengis Khan.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Met Amanirenas
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Met Genghis
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Enemies spawn near Genghis
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tasked to find the Facility
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Lage in Crucible wird immer angespannter. Die Anlage, die Crucible versorgt, verfällt. Sie befindet sich irgendwo auf Charybdis III und ist der Ort, von dem die Roboter kommen. Wie es scheint, hätte jede der Gesellschaften gerne, dass ich dort etwas unternehme.
+      - Language: English
+        String: The situation on Crucible is bad and getting worse. The Facility that maintains Crucible is breaking down. It is located somewhere else on Charybdis II and it's where the robots come from. Each of these Societies seem to want me to do something there.
+      - Language: Spanish
+        String: La situación en el Crisol empeora por momentos a causa del mal estado de las Instalaciones que lo mantienen. Estas se encuentran en Caribdis II, y es de allí de donde vienen los robots. Parece ser que cada una de las Sociedades tiene motivos para enviarme allí.
+      - Language: French
+        String: La situation à la Fournaise est grave et ne fait qu'empirer. L'Établissement qui maintient la Fournaise est en train de s'effondrer. Il se trouve quelque part sur Charybde II, et il s'agit du lieu d'où viennent les robots. Chacune des Sociétés voudrait que j'y accomplisse une tâche.
+      - Language: Italian
+        String: La situazione nel Crogiolo è difficile e sta persino peggiorando. Il Complesso che tiene in vita il Crogiolo sta andando a pezzi. Il Complesso si trova da qualche parte su Charybdis III. È da lì che vengono i robot e ciascuna delle Società vorrebbe che facessi qualcosa per essa lì.
+      - Language: Japanese
+        String: クルーシブルを巡る状況は悪く、しかもどんどん悪化している。クルーシブルの維持を任されているファシリティは崩壊している。カリュブディスIIのどこかにあるようで、ロボットたちもそこから来ている。各ソサエティはそれぞれ何かをさせたいようだ
+      - Language: Polish
+        String: Sytuacja w Tyglu jest zła i pogarsza się z każdą chwilą. Baza, która utrzymuje Tygiel, się psuje. Położona jest gdzieś na Charybdzie III. To stamtąd pochodzą roboty. Każde ze stowarzyszeń chciałoby mnie poprosić o wykonanie tam pewnego zadania.
+      - Language: Portuguese_Brazil
+        String: A situação no Crisol vai de mal a pior. O Complexo que o sustenta está ruindo. Ele fica em algum lugar de Caríbdis II e é de lá que vêm os robôs. Cada uma das Sociedades daqui parece querer que eu faça alguma coisa lá.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Pointed back to FDR
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to FDR
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Arrived at the Facility
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die mysteriöse Anlage erreicht. Hier sollte ich mehr herausfinden können. Vielleicht gibt es einen Weg, einer der Gesellschaften zu helfen.
+      - Language: English
+        String: I've arrived at the mysterious Facility. I should be able to learn more and perhaps see if there's a way to help one of the Societies.
+      - Language: Spanish
+        String: He llegado a las misteriosas Instalaciones. Debo centrarme en investigar todo lo posible y ver si hay forma de ayudar a una de las Sociedades.
+      - Language: French
+        String: Me voilà au mystérieux Établissement. Ici, je devrais pouvoir en apprendre davantage et peut-être trouver un moyen d'aider une des Sociétés.
+      - Language: Italian
+        String: Ho raggiunto il misterioso Complesso. Dovrei riuscire a scoprire qualche informazione in più su di esso e forse a trovare il modo di aiutare una delle Società.
+      - Language: Japanese
+        String: 謎めいたファシリティに到着した。情報を収集して、いずれかのソサエティを助ける方法がないか探ってみよう
+      - Language: Polish
+        String: Udało mi się dotrzeć do tajemniczej Bazy. Może dowiem się tu czegoś więcej i znajdę sposób, by pomóc któremuś ze stowarzyszeń.
+      - Language: Portuguese_Brazil
+        String: Cheguei ao misterioso Complexo. Provavelmente conseguirei mais informações e talvez descubra um jeito de ajudar uma das Sociedades.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1001
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up Clue01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1002
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up Clue02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1003
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up Clue03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1004
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up Clue04
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1005
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up Clue05
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1006
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up Clue06
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1007
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up Clue07
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1090
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Reached locked door in Origin
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: All Clues Found
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Klone in Crucible lebten einst in der Anlage, bis sie durch einen Angriff mörderischer wilder Tiere zerstört wurde, nachdem eine vorherige Version von Dschingis Khan sich an die Oberfläche durchgeschlagen hatte. Ein Bereich der Anlage ist abgeriegelt und nur mit einem Passcode erreichbar. Ich sollte mich mit einem der Anführer besprechen.
+      - Language: English
+        String: The clones of Crucible at one point lived in the Facility. The Facility was destroyed when a previous version of Genghis Khan reached the surface then the hostile wildlife murdered them all. There is a section of the Facility that is blocked off, but I need a Security Passcode to proceed. I should report back to one of the leaders.
+      - Language: Spanish
+        String: Los clones del Crisol vivieron en las Instalaciones en su día, pero estas fueron destruidas cuando una versión anterior de Gengis Kan llegó a la superficie y la fauna hostil los aniquiló a todos. No puedo acceder a una sección de las Instalaciones sin una clave de seguridad. Será mejor que dé parte a uno de los líderes.
+      - Language: French
+        String: Avant, les clones de la Fournaise vivaient dans l'Établissement, mais ce dernier a été détruit lorsqu'une version précédente de Gengis Khan a atteint la surface et que la faune hostile a massacré tout le monde. Toute une aile de l'Établissement est condamnée, il me faudra un mot de passe pour y accéder. Je ferais bien d'aller raconter tout ça à un des dirigeants.
+      - Language: Italian
+        String: Un tempo i cloni del Crogiolo vivevano nel Complesso, che fu poi distrutto quando una precedente versione di Genghis Khan riuscì a giungere in superficie dove l’ostile fauna locale uccise tutti. Una sezione del Complesso è stata isolata e occorre un codice di sicurezza per accedere. Farei meglio a tornare da uno dei capi delle Società per riferire quanto scoperto.
+      - Language: Japanese
+        String: クルーシブルのクローンたちはファシリティで暮らしていたこともあった。かつてのチンギス・ハンが地表にたどり着き、危険な野生動物に皆殺しにされた時に一緒にファシリティも破壊されたらしい。ファシリティの一部区画は封鎖されており、中へ進むにはセキュリティパスコードが必要だ。いずれかのリーダーに報告しよう
+      - Language: Polish
+        String: Klony z Tygla mieszkały kiedyś w Bazie, która została zniszczona, gdy poprzednia wersja Czyngis-chana dotarła na powierzchnię, w wyniku czego wroga fauna ich wymordowała. Część Bazy jest zablokowana, ale aby uzyskać dostęp, potrzebuję kodu dostępowego. Muszę zgłosić się do jednego z przywódców.
+      - Language: Portuguese_Brazil
+        String: No passado, os clones do Crisol viviam no Complexo, mas ele foi destruído quando uma versão anterior de Gengis Khan alcançou a superfície e todos foram mortos pela fauna hostil do planeta. Há uma parte bloqueada do Complexo que só poderá ser acessada com a senha correta. Tenho que passar essas informações a um dos líderes.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Reported back '
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Der Passcode, der mir Zugang zur restlichen Anlage verschaffen kann, befindet sich womöglich auf einem zweiten Raumschiff namens Beagle. Ada Lovelace könnte mir helfen, die Beagle zu orten.
+      - Language: English
+        String: The Security Passcode that will open up the rest of the Facility may be on a sister spaceship called the Beagle. Ada Lovelace may be able to provide a way to find the Beagle.
+      - Language: Spanish
+        String: La clave de seguridad que abrirá el resto de las Instalaciones podría estar en una nave hermana, la Beagle. Ada Lovelace tal vez me sepa indicar cómo encontrarla.
+      - Language: French
+        String: Le mot de passe qui me donnera accès au reste de l'Établissement se trouve peut-être à bord d'un vaisseau jumeau baptisé “le Beagle”. Ada Lovelace pourra peut-être m'aider à le localiser.
+      - Language: Italian
+        String: Il codice di sicurezza necessario per accedere al resto del Complesso potrebbe trovarsi su una nave gemella chiamata Beagle. Ada Lovelace potrebbe trovare il modo di localizzare la Beagle.
+      - Language: Japanese
+        String: ファシリティの残りの区画に入れるようにするセキュリティパスコードは、ビーグルという名の姉妹船にあるかもしれない。エイダ・ラブレスならビーグルを見つける方法が分かるかもしれない
+      - Language: Polish
+        String: Kod dostępowy, który pozwoli otworzyć resztę Bazy, może znajdować się na siostrzanym statku zwanym Beagle. Ada Lovelace może pomóc mi go odnaleźć.
+      - Language: Portuguese_Brazil
+        String: É possível que a senha que dá acesso ao restante do Complexo esteja em uma nave-irmã chamada Beagle. Talvez Ada Lovelace saiba alguma forma de localizar essa nave.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Reported w/FDR
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Reported w/Amanirenas
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1230
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Reported w/Genghis
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Ada
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ada Lovelace hat gesagt, dass das automatisierte Teleskop der Anlage jeden Tag erneut auf Bel V ausgerichtet wird. Vielleicht kann ich die Beagle dort finden?
+      - Language: English
+        String: Ada Lovelace said that the Facility's automated astronomy equipment resets and points to Bel V every day. Perhaps that's where the Beagle is?
+      - Language: Spanish
+        String: Dice Ada Lovelace que el equipo de astronomía automatizado se reinicia todos los días y apunta a Bel V. ¿Será ese el paradero de la Beagle?
+      - Language: French
+        String: Ada Lovelace a dit que le matériel astronomique automatisé de l'Établissement se réinitialise et pointe sur Bel V tous les jours. Peut-être que c'est là que se trouve le Beagle ?
+      - Language: Italian
+        String: Ada Lovelace dice che la strumentazione astronomica automatizzata del Complesso si ripristina ogni giorno per puntare verso Bel V. Forse è lì che si trova la Beagle?
+      - Language: Japanese
+        String: エイダ・ラブレスによれば、ファシリティの自動天体装置は毎日リセットしてベルVのほうを向くらしい。ビーグルもそこにあるのかもしれない
+      - Language: Polish
+        String: Ada Lovelace twierdzi, że zautomatyzowany sprzęt astronomiczny Bazy resetuje się każdego dnia i wskazuje na Bel V. Może tam znajduje się Beagle?
+      - Language: Portuguese_Brazil
+        String: Ada Lovelace disse que o equipamento de astronomia automatizado do Complexo se reinicia e aponta para Bel V todos os dias. Talvez a Beagle esteja lá?
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: First leg reached
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe eine Bake gefunden, die vor langer Zeit von der Beagle zurückgelassen wurde. Wenn ich den Baken folge, finde ich das Schiff.
+      - Language: English
+        String: I have found a beacon left by the Beagle long ago. If I follow the Beacons, I'll find the ship.
+      - Language: Spanish
+        String: He encontrado una baliza que dejó la Beagle hace mucho. Si sigo la pista de las balizas, encontraré la nave.
+      - Language: French
+        String: J'ai trouvé une balise larguée il y a bien longtemps par le Beagle. Si je suis les balises, je finirai par tomber sur le vaisseau.
+      - Language: Italian
+        String: Ho trovato un segnalatore lasciato dalla Beagle molto tempo fa. Seguendo i segnalatori troverò la nave.
+      - Language: Japanese
+        String: ビーグルが遥か昔に残した信号を発見した。この信号を追跡すれば、船も見つかるだろう
+      - Language: Polish
+        String: Udało mi się znaleźć nadajnik pozostawiony dawno temu przez statek Beagle. Jeśli będę podążać tym śladem, uda mi się go znaleźć.
+      - Language: Portuguese_Brazil
+        String: Detectei um sinalizador enviado pela Beagle muito tempo atrás. Se eu seguir os sinalizadores, devo encontrar a nave.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Second leg reached
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1330
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Third beacon found
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1335
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Repaired Third Beacon
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Found the Beagle
+    ScriptFlagComment: On the trigger MS02_EnterBlakeTrigger on LC118 (Interior)
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe an der Beagle angedockt. Hoffentlich kann ich hier einen Passcode finden, der mir hilft, in die Anlage zu gelangen.
+      - Language: English
+        String: I've docked with the Beagle. Hopefully I can find a Security Passcode here that will help me unlock the Facility.
+      - Language: Spanish
+        String: Me he acoplado a la Beagle. Si hay suerte, encontraré aquí una clave de seguridad que me permita acceder a las Instalaciones.
+      - Language: French
+        String: J'ai amarré mon vaisseau au Beagle. J'espère y trouver un mot de passe qui me permettra de lever le verrouillage de l'Établissement.
+      - Language: Italian
+        String: Ho agganciato la mia nave alla Beagle. A bordo spero di trovare il codice di sicurezza necessario per sbloccare l’accesso al Complesso.
+      - Language: Japanese
+        String: ビーグルとドッキングした。ここにファシリティを解錠できるセキュリティパスコードがあるかもしれない
+      - Language: Polish
+        String: Jestem na pokładzie Beagle'a. Może znajdę tu kod dostępowy, który pozwoli mi odblokować Bazę.
+      - Language: Portuguese_Brazil
+        String: Acoplei na Beagle, onde espero encontrar uma senha que me ajude a abrir o Complexo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Found Beagle's databanks
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe einen verschlüsselten Überbrückungscode gefunden. Ich selbst kann ihn nicht entschlüsseln, aber vielleicht kann Ada Lovelace mir helfen.
+      - Language: English
+        String: I have found an Encrypted Security Override Code. The encryption is beyond me, but perhaps Ada Lovelace could help with it.
+      - Language: Spanish
+        String: He encontrado un código de anulación de seguridad. Yo no sé desencriptarlo, pero tal vez Ada Lovelace me pueda echar una mano.
+      - Language: French
+        String: J'ai trouvé un code de forçage chiffré de la sécurité. Moi je n'y comprends rien, mais peut-être qu'Ada Lovelace pourra m'aider.
+      - Language: Italian
+        String: Ho trovato un codice di bypass della sicurezza, ma è cifrato e io non sono in grado di decifrarlo. Forse Ada Lovelace può aiutarmi.
+      - Language: Japanese
+        String: 暗号化されたセキュリティ・オーバーライドコードを発見した。エイダ・ラブレスならこの暗号化を解除できるかもしれない
+      - Language: Polish
+        String: Udało mi się znaleźć zaszyfrowany kod dostępowy. Nie jestem w stanie go złamać, ale może uda mi się poprosić Adę Lovelace o pomoc.
+      - Language: Portuguese_Brazil
+        String: Encontrei um código de anulação de segurança criptografado. Não sou capaz de decodificá-lo, mas talvez Ada Lovelace possa me ajudar.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Handle emergency message
+    ScriptFlagComment: Set on the quest Location Change script
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe einen Notruf aus Crucible erhalten. Ich wurde gebeten, noch nicht zur Anlage zu gehen und erst nach Crucible zurückzukehren.
+      - Language: English
+        String: I've received an emergency message on Crucible. I'm being asked to hold off going to the Facility and go back there.
+      - Language: Spanish
+        String: He recibido un mensaje de emergencia en el Crisol. Me piden que vuelva allí en lugar de ir a las Instalaciones.
+      - Language: French
+        String: J'ai reçu un message urgent de la Fournaise. Ils me demandent de ne pas repartir tout de suite pour l'Établissement et de revenir les voir.
+      - Language: Italian
+        String: Ho ricevuto un messaggio d’emergenza proveniente dal Crogiolo. Mi è stato chiesto di non tornare al Complesso, ma al Crogiolo.
+      - Language: Japanese
+        String: クルーシブルから緊急信号を受けた。ファシリティに行くのを中止して、クルーシブルに戻れと言っている
+      - Language: Polish
+        String: Dotarła do mnie pilna wiadomość z Tygla. Poproszono mnie o udanie się tam, zanim polecę do Bazy.
+      - Language: Portuguese_Brazil
+        String: Recebi uma mensagem de emergência do Crisol me pedindo para postergar a ida ao Complexo e voltar para lá.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1598
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ===================
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1599
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: CONFLICT w/ FDR
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Received emergency message from FDR
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked w/FDR
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Gesellschaften stehen kurz vor dem Krieg. Ich muss eine Lösung finden, bevor der Überbrückungscode entschlüsselt werden kann.
+      - Language: English
+        String: The Societies are on the brink of war. I must resolve the situation before I can get the Security Override Code decrypted.
+      - Language: Spanish
+        String: Las Sociedades están al borde de la guerra. Debo resolver la situación antes de proceder a desencriptar el código de anulación de seguridad.
+      - Language: French
+        String: Les Sociétés sont sur le point de s'entretuer. Je dois désamorcer la situation avant de pouvoir faire déchiffrer le code de forçage.
+      - Language: Italian
+        String: Le Società sono sull’orlo di una guerra. Risolvere questa situazione ha la precedenza sulla cifratura del codice di bypass della sicurezza.
+      - Language: Japanese
+        String: ソサエティ同士の戦いはいつ始まってもおかしくない。セキュリティ・オーバーライドコードを解読する前に今の状況をなんとかする
+      - Language: Polish
+        String: Stowarzyszenia stoją na skraju wojny. Muszę rozwiązać tę sprawę, zanim kod dostępowy zostanie odszyfrowany.
+      - Language: Portuguese_Brazil
+        String: As Sociedades estão prestes a entrar em guerra. Preciso resolver a situação para conseguir descriptografar o código de anulação de segurança.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1615
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Flag enemies to leave the meeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1620
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Meeting finished
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1621
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Amanirenas compromises
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1622
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Amanirenas and Believers do not fight
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1625
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player said he'd free everyone to Genghis
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1630
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: All enemies killed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1632
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Genghis Killed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1634
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Amanirenas Killed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1640
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debrief with FDR
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe FDR geholfen, den Kampf zu gewinnen. Jetzt bleibt mir nur noch übrig, zur Anlage zu gehen und die Situation in Crucible zu lösen.
+      - Language: English
+        String: I helped FDR win his battle. Now there's nothing left to do except go to the Facility and resolve the situation in Crucible.
+      - Language: Spanish
+        String: He ayudado a Franklin Roosevelt a ganar su batalla. Lo único que queda por hacer ahora es ir a las Instalaciones y resolver la situación del Crisol.
+      - Language: French
+        String: J'ai aidé FDR à remporter la victoire. Il ne me reste plus qu'à me rendre à l'Établissement et résoudre les problèmes qui affectent la Fournaise.
+      - Language: Italian
+        String: Ho aiutato FDR a vincere la sua battaglia. Ora non mi resta altro da fare che recarmi al Complesso e risolvere la situazione venutasi a creare nel Crogiolo.
+      - Language: Japanese
+        String: フランクリンの勝利に力を貸した。後はファシリティに行ってクルーシブルの件を解決するだけだ
+      - Language: Polish
+        String: Z moją pomocą Roosevelt wygrał walkę. Pozostało już jedynie udać się do Bazy i rozwiązać sprawę Tygla.
+      - Language: Portuguese_Brazil
+        String: Ajudei Franklin Roosevelt a vencer a batalha. Agora resta apenas ir ao Complexo e resolver a situação no Crisol.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1698
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ===================
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1699
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: CONFLICT w/ AMANIRENAS
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Received emergency message from Amanirenas
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked with Amanirenas
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Gesellschaften stehen kurz vor dem Krieg. Ich muss eine Lösung finden, bevor der Überbrückungscode entschlüsselt werden kann.
+      - Language: English
+        String: The Societies are on the brink of war. I must resolve the situation before I can get the Security Override Code decrypted.
+      - Language: Spanish
+        String: Las Sociedades están al borde de la guerra. Debo resolver la situación antes de proceder a desencriptar el código de anulación de seguridad.
+      - Language: French
+        String: Les Sociétés sont sur le point de s'entretuer. Je dois désamorcer la situation avant de pouvoir faire déchiffrer le code de forçage.
+      - Language: Italian
+        String: Le Società sono sull’orlo di una guerra. Risolvere questa situazione ha la precedenza sulla cifratura del codice di bypass della sicurezza.
+      - Language: Japanese
+        String: ソサエティ同士の戦いはいつ始まってもおかしくない。セキュリティ・オーバーライドコードを解読する前に、状況をなんとかする
+      - Language: Polish
+        String: Stowarzyszenia stoją na skraju wojny. Muszę rozwiązać tę sprawę, zanim kod dostępowy zostanie odszyfrowany.
+      - Language: Portuguese_Brazil
+        String: As Sociedades estão prestes a entrar em guerra. Preciso resolver a situação para conseguir descriptografar o código de anulação de segurança.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1715
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Flag enemies to leave the meeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1720
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Meeting finished
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1721
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: PC considers Genghis Freedom
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1722
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: PC changes to Genghis's Side
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1723
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: PC considers FDR
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1724
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: PC changes to Roosevelt's side
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1730
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Genghis killed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1740
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Amanirenas debrief
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Amanirenas geholfen, den Kampf zu gewinnen. Jetzt bleibt mir nur noch übrig, zur Anlage zu gehen und die Situation in Crucible zu lösen.
+      - Language: English
+        String: I helped Amanirenas win her battle. Now there's nothing left to do except go to the Facility and resolve the situation in Crucible.
+      - Language: Spanish
+        String: He ayudado a Amanirenas a ganar su batalla. Lo único que queda por hacer ahora es ir a las Instalaciones y resolver la situación del Crisol.
+      - Language: French
+        String: J'ai aidé Amanirenas à remporter la victoire. Il ne me reste plus qu'à me rendre à l'Établissement et résoudre les problèmes qui affectent la Fournaise.
+      - Language: Italian
+        String: Ho aiutato Amanirenas a vincere la sua battaglia. Ora non mi resta altro da fare che recarmi al Complesso e risolvere la situazione venutasi a creare nel Crogiolo.
+      - Language: Japanese
+        String: アマニレナスの勝利に力を貸した。後はファシリティに行ってクルーシブルの件を解決するだけだ
+      - Language: Polish
+        String: Z moją pomocą Amanirenas wygrała walkę. Pozostało już jedynie udać się do Bazy i rozwiązać sprawę Tygla.
+      - Language: Portuguese_Brazil
+        String: Ajudei Amanirenas a vencer a batalha. Agora resta apenas ir ao Complexo e resolver a situação no Crisol.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1798
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ===================
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1799
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: CONFLICT w/ GENGHIS
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Received emergency message from Genghis
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked with Genghis
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Gesellschaften stehen kurz vor dem Krieg. Ich muss eine Lösung finden, bevor der Überbrückungscode entschlüsselt werden kann.
+      - Language: English
+        String: The Societies are on the brink of war. I must resolve the situation before I can get the Security Override Code decrypted.
+      - Language: Spanish
+        String: Las Sociedades están al borde de la guerra. Debo resolver la situación antes de proceder a desencriptar el código de anulación de seguridad.
+      - Language: French
+        String: Les Sociétés sont sur le point de s'entretuer. Je dois désamorcer la situation avant de pouvoir faire déchiffrer le code de forçage.
+      - Language: Italian
+        String: Le Società sono sull’orlo di una guerra. Risolvere questa situazione ha la precedenza sulla cifratura del codice di bypass della sicurezza.
+      - Language: Japanese
+        String: ソサエティ同士の戦いはいつ始まってもおかしくない。セキュリティ・オーバーライドコードを解読する前に、状況をなんとかする
+      - Language: Polish
+        String: Stowarzyszenia stoją na skraju wojny. Muszę rozwiązać tę sprawę, zanim kod dostępowy zostanie odszyfrowany.
+      - Language: Portuguese_Brazil
+        String: As Sociedades estão prestes a entrar em guerra. Preciso resolver a situação para conseguir descriptografar o código de anulação de segurança.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1815
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Flag enemies to leave the meeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Meeting finished
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1821
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: PC changes to Amanirenas's side
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1822
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: FDR stays out of Genghis conflict
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1823
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: PC switches to Pragmatists side
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1830
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Enemies Killed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1832
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Amanirenas killed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1834
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: FDR Killed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1840
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Genghis Debrief
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Dschingis Khan geholfen, den Kampf zu gewinnen. Jetzt bleibt mir nur noch übrig, zur Anlage zu gehen und die Situation in Crucible zu lösen.
+      - Language: English
+        String: I helped Genghis Khan win his battle. Now there's nothing left to do except go to the Facility and resolve the situation in Crucible.
+      - Language: Spanish
+        String: He ayudado a Gengis Kan a ganar su batalla. Lo único que queda por hacer ahora es ir a las Instalaciones y resolver la situación del Crisol.
+      - Language: French
+        String: J'ai aidé Gengis Khan à remporter la victoire. Il ne me reste plus qu'à me rendre à l'Établissement et résoudre les problèmes qui affectent la Fournaise.
+      - Language: Italian
+        String: Ho aiutato Genghis Khan a vincere la sua battaglia. Ora non mi resta altro da fare che recarmi al Complesso e risolvere la situazione venutasi a creare nel Crogiolo.
+      - Language: Japanese
+        String: チンギス・ハンの勝利に力を貸した。後はファシリティに行ってクルーシブルの件を解決するだけだ
+      - Language: Polish
+        String: Z moją pomocą Czyngis-chan wygrał walkę. Pozostało już jedynie udać się do Bazy i rozwiązać sprawę Tygla.
+      - Language: Portuguese_Brazil
+        String: Ajudei Gengis Khan a vencer a batalha. Agora resta apenas ir ao Complexo e resolver a situação no Crisol.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1869
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ===================
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1870
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Make everyone stop fighting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1871
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Fighting has stopped
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1872
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player attacked another NPC after fighting stopped
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1873
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Stop Checking OnHit for aliases
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1874
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ===================
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1875
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Civil War is over
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Der Konflikt zwischen den Gesellschaften in Crucible ist vorbei. Ich sollte herausfinden, ob Ada Lovelace den Überbrückungscode entschlüsseln kann, damit ich zurück in die Anlage komme.
+      - Language: English
+        String: The conflict between the Societies in Crucible is over. Now I should see if Ada Lovelace can decrypt the Security Override Code so I can return to the Facility.
+      - Language: Spanish
+        String: El conflicto entre las Sociedades del Crisol ha terminado. A continuación, debería ver si Ada Lovelace es capaz de desencriptar el código de anulación de seguridad para luego volver a las Instalaciones.
+      - Language: French
+        String: Le conflit qui opposait les Sociétés de la Fournaise est terminé. Je dois à présent demander à Ada Lovelace si elle peut déchiffrer le code de forçage de la sécurité afin que je puisse retourner à l'Établissement.
+      - Language: Italian
+        String: Il conflitto tra le Società del Crogiolo è terminato. Dovrei vedere se Ada Lovelace è in grado di decifrare il codice di bypass della sicurezza, così da poter accedere al resto del Complesso.
+      - Language: Japanese
+        String: クルーシブルにおけるソサエティ同士の争いは終わった。後はエイダ・ラブレスがセキュリティ・オーバーライドコードを解読するのを待ち、ファシリティに戻るだけだ
+      - Language: Polish
+        String: Konflikt między stowarzyszeniami w Tyglu dobiegł końca. Zobaczę, czy Adzie Lovelace udało się odszyfrować kod dostępowy, z którym mogę wrócić do Bazy.
+      - Language: Portuguese_Brazil
+        String: O conflito entre as Sociedades no Crisol chegou ao fim. Agora preciso ver se Ada Lovelace consegue decodificar o código de anulação de segurança para que eu possa retornar ao Complexo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1880
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ada Lovelace decrypts override
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ada Lovelace konnte erfolgreich den Überbrückungscode entschlüsseln. Jetzt bleibt nichts mehr zu tun, als ins Herz der Anlage zu gehen und über das Schicksal von Crucible und den Klonen zu entscheiden.
+      - Language: English
+        String: Ada Lovelace successfully decrypted the Security Override Code. Now there is nothing left to do except go into the heart of the Facility and determine the fate of Crucible and its clones.
+      - Language: Spanish
+        String: Ada Lovelace ha conseguido desencriptar el código de anulación de seguridad. Ya solo queda ir al corazón de las Instalaciones y decidir el porvenir del Crisol y sus clones.
+      - Language: French
+        String: "Ada Lovelace a réussi à déchiffrer le code de forçage de la sécurité. Il n'y a plus qu'une seule chose à faire : pénétrer au plus profond de l'Établissement et décider du sort de la Fournaise et de ses clones."
+      - Language: Italian
+        String: Ada Lovelace è riuscita a decifrare il codice di bypass della sicurezza. Ora non mi resta altro da fare che raggiungere il cuore del Complesso e decidere i destini del Crogiolo e dei cloni.
+      - Language: Japanese
+        String: エイダ・ラブレスはセキュリティ・オーバーライドコードの暗号化解除に成功した。後はファシリティの心臓部に行ってクルーシブルとクローンたちの運命を決めるだけだ
+      - Language: Polish
+        String: Ada Lovelace odszyfrowała kod dostępowy. Pozostało już jedynie udać się do serca Bazy i zadecydować o losie Tygla i klonów.
+      - Language: Portuguese_Brazil
+        String: Ada Lovelace decodificou o código de anulação de segurança com sucesso. Agora resta apenas acessar o núcleo do Complexo e determinar o destino do Crisol e seus clones.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1890
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Open Restricted Wing
+    ScriptFlagComment: 'Set on the TerminalMenu: MS02_FacilityDoorTerminal_Genesis'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dealt with the Facility
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe das Herz der Anlage erreicht und das System neugestartet. Ich sollte in Crucible Bericht erstatten.
+      - Language: English
+        String: I reached the heart of the Facility and have rebooted the system. I should report back to Crucible.
+      - Language: Spanish
+        String: Logré llegar al corazón de las Instalaciones y he reiniciado el sistema. Tengo que acudir al Crisol a informar de ello.
+      - Language: French
+        String: J'ai atteint le cœur de l'Établissement et redémarré le système. Je dois à présent retourner à la Fournaise.
+      - Language: Italian
+        String: Ho raggiunto il cuore del Complesso e ho riavviato il sistema. Dovrei tornare al Crogiolo a riferire quanto fatto.
+      - Language: Japanese
+        String: ファシリティの心臓部にたどり着き、システムを再起動した。クルーシブルに報告しよう
+      - Language: Polish
+        String: Udało mi się dotrzeć do serca Bazy i uruchomić ponownie system. Pora zdać raport w Tyglu.
+      - Language: Portuguese_Brazil
+        String: Cheguei ao núcleo do Complexo e reiniciei o sistema. Agora devo informar o Crisol.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1910
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: 'COMPLETE: Repaired Facility'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Anlage auf ihre Standardeinstellungen zurückgesetzt. So wird keine der Gesellschaften gewinnen.
+      - Language: English
+        String: I rebooted the Facility and set it to its default settings. So none of the Societies will win.
+      - Language: Spanish
+        String: Reinicié las Instalaciones y apliqué la configuración por defecto. Así no ganará ninguna de las Sociedades.
+      - Language: French
+        String: J'ai redémarré l'Établissement et rétabli les paramètres par défaut. Ainsi, aucune des Sociétés ne l'emportera.
+      - Language: Italian
+        String: Ho riavviato il Complesso, ripristinando le impostazioni predefinite. In questo modo non prevarrà nessuna delle Società.
+      - Language: Japanese
+        String: ファシリティを再起動して初期設定に戻した。これでどのソサエティも勝つことはない
+      - Language: Polish
+        String: Baza została uruchomiona ponownie, a jej ustawienia przywrócone do domyślnych. Żadne ze stowarzyszeń nie wygra.
+      - Language: Portuguese_Brazil
+        String: Reiniciei o Complexo com as configurações padrão. Assim, nenhuma das Sociedades vencerá.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E2:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B11:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 1920
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: 'COMPLETE: Destroyed Facility'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe eine Komplettsäuberung der Anlage eingeleitet. Alle Klone auf Charybdis III wurden zerstört.
+      - Language: English
+        String: I initiated a full cleansing at the Facility. All of the clones on Charybdis III have been destroyed.
+      - Language: Spanish
+        String: Inicié una limpieza total de las Instalaciones. Todos los clones presentes en Caribdis III han sido destruidos.
+      - Language: French
+        String: J'ai lancé une purification complète à l'Établissement. Tous les clones sur Charybde III ont été détruits.
+      - Language: Italian
+        String: Ho dato il via a una pulizia totale del Complesso. Tutti i cloni di Charybdis III sono stati distrutti.
+      - Language: Japanese
+        String: ファシリティの完全な削除を開始した。カリュブディスIIIにいたすべてのクローンは破壊された
+      - Language: Polish
+        String: W Bazie rozpoczęta została pełna czystka. Wszystkie klony na Charybdzie III zostały zniszczone.
+      - Language: Portuguese_Brazil
+        String: Realizei um expurgo completo do Complexo. Todos os clones em Caríbdis III foram destruídos.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E2:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 2BCBEB:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 1930
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Shutdown Mission (FDR)
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: FDR und die Pragmatiker haben jetzt die Anlage in ihrer Gewalt. Die Klone werden lernen, auf eigenen Beinen zu stehen, bevor sie Crucible verlassen können.
+      - Language: English
+        String: FDR and the Pragmatists now have control over the Facility. The clones will start standing on their own two feet before they can leave Crucible.
+      - Language: Spanish
+        String: Franklin Roosevelt y los Pragmáticos controlan ahora las Instalaciones. Los clones podrán ser libres antes de salir del Crisol.
+      - Language: French
+        String: FDR et les Pragmatiques contrôlent désormais l'Établissement. Les clones devront désormais prouver leur indépendance avant de quitter la Fournaise.
+      - Language: Italian
+        String: Ora il controllo del Complesso è in mano a FDR e ai suoi Pragmatici. Prima di poter abbandonare il Crogiolo, i cloni dovranno imparare a cavarsela da soli.
+      - Language: Japanese
+        String: フランクリンとプラグマティストがファシリティを支配した。これでクローンたちは自分たちの足で立つことができるようになり、やがてクルーシブルを離れるだろう
+      - Language: Polish
+        String: Roosevelt i Pragmatycy przejęli kontrolę nad Bazą. Klony muszą najpierw nauczyć się samodzielności, zanim będą mogły opuścić Tygiel.
+      - Language: Portuguese_Brazil
+        String: Franklin Roosevelt e os Pragmáticos estão no controle do Complexo agora. Os clones começarão a conquistar sua independência antes de partirem do Crisol.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1940
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Change target threshold (Amanirenas)
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Amanirenas und die Glaubenden haben jetzt die Anlage in ihrer Gewalt. Amanirenas kann bestimmen, wer den Test besteht und Crucible verlassen darf.
+      - Language: English
+        String: Amanirenas and the Believers now have control over the Facility. Amanrenas can determine the criteria for passing the test and being able to leave Crucible.
+      - Language: Spanish
+        String: Amanirenas y los Creyentes controlan ahora las Instalaciones. Amanirenas tiene el poder de determinar los criterios para superar la prueba y salir del Crisol.
+      - Language: French
+        String: Amanirenas et les Croyants contrôlent désormais l'Établissement. Amanirenas va pouvoir définir les critères de réussite au test qui permettent de quitter la Fournaise.
+      - Language: Italian
+        String: Ora il controllo del Complesso è in mano ad Amanirenas e ai suoi Credenti. Amanirenas stabilirà i criteri di superamento del test che permetterà di lasciare il Crogiolo.
+      - Language: Japanese
+        String: アマニレナスとビリーバーがファシリティを支配した。これでアマニレナスが試験に合格するための条件を設定して、クルーシブルを離れられるようになるだろう
+      - Language: Polish
+        String: Amanirenas i Wierzący przejęli kontrolę nad Bazą. Amanirenas może ustalić, jakie kryteria należy spełnić, aby ukończyć Próbę i opuścić Tygiel.
+      - Language: Portuguese_Brazil
+        String: Amanirenas e os Dogmáticos estão no controle do Complexo agora. É Amanirenas quem determina os critérios para passar no teste e partir do Crisol.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1950
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Turn off failsafes (Genghis)
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Dschingis Khan und die Abtrünnigen haben nun die Anlage in ihrer Gewalt. Sicher können sie Crucible bald verlassen und endlich in die Freiheit entkommen.
+      - Language: English
+        String: Genghis Khan and the Renegades now have control over the Facility. Undoubtedly they'll soon be able to leave Crucible and finally be free.
+      - Language: Spanish
+        String: Gengis Kan y los Renegados controlan ahora las Instalaciones. No hay duda de que pronto podrán irse del Crisol y ser libres al fin.
+      - Language: French
+        String: Gengis Khan et les Renégats contrôlent désormais l'Établissement. Nul doute qu'ils pourront bientôt quitter la Fournaise et être enfin libres.
+      - Language: Italian
+        String: Ora il controllo del Complesso è in mano a Genghis Khan e ai suoi Rinnegati. I cloni saranno sicuramente presto in grado di lasciare il Crogiolo ed essere finalmente liberi.
+      - Language: Japanese
+        String: チンギス・ハンとレネゲードがファシリティを支配した。しばらくすれば必ずクルーシブルを離れ、自由の身になるだろう
+      - Language: Polish
+        String: Czyngis-chan i Renegaci przejęli kontrolę nad Bazą. Z pewnością niebawem będą w stanie opuścić Tygiel i zdobyć wolność.
+      - Language: Portuguese_Brazil
+        String: Gengis Khan e os Renegados estão no controle do Complexo agora. Sem dúvida, eles logo conseguirão partir do Crisol e enfim conquistarão a liberdade.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: 'COMPLETE: Talked with Leader - final'
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E2:Starfield.esm
+        BonusCredits: 23DF30:Starfield.esm
+    - QSRD: '[]'
+- Index: 8810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Failure Check: FDR Killed'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Failure Check: Amanirenas killed'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8830
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Failure Check: Genghis killed'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8840
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Failure Check: Ada killed'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8900
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Note: QUEST FAILED
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: QUEST DONE
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10000
+  Flags:
+  - RunOnStop
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Make Amelia recruitable On Stop
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich nach Crucible auf Charybdis III.
+    - Language: English
+      String: Go to Crucible on Charybdis III
+    - Language: Spanish
+      String: Dirígete al Crisol, en Caribdis III.
+    - Language: French
+      String: Rendez-vous à la Fournaise sur Charybde III.
+    - Language: Italian
+      String: Vai al Crogiolo su Charybdis III
+    - Language: Japanese
+      String: カリュブディスIIIにあるクルーシブルに行く
+    - Language: Polish
+      String: Udaj się do Tygla na Charybdzie III
+    - Language: Portuguese_Brazil
+      String: Vá ao Crisol em Caríbdis III
+  Targets:
+  - AliasID: 5
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Tobias.
+    - Language: English
+      String: Talk with Tobias
+    - Language: Spanish
+      String: Habla con Tobías.
+    - Language: French
+      String: Parlez à Tobias.
+    - Language: Italian
+      String: Parla con Tobias
+    - Language: Japanese
+      String: トビアスと話す
+    - Language: Polish
+      String: Porozmawiaj z Tobiasem
+    - Language: Portuguese_Brazil
+      String: Fale com Tobias
+  Targets:
+  - AliasID: 5
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Franklin.
+    - Language: English
+      String: Talk to Franklin
+    - Language: Spanish
+      String: Habla con Franklin.
+    - Language: French
+      String: Parlez à Franklin.
+    - Language: Italian
+      String: Parla con Franklin
+    - Language: Japanese
+      String: フランクリンと話す
+    - Language: Polish
+      String: Porozmawiaj z Franklinem
+    - Language: Portuguese_Brazil
+      String: Fale com Franklin
+  Targets:
+  - AliasID: 6
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Amanirenas.
+    - Language: English
+      String: Talk to Amanirenas
+    - Language: Spanish
+      String: Habla con Amanirenas.
+    - Language: French
+      String: Parlez à Amanirenas.
+    - Language: Italian
+      String: Parla con Amanirenas
+    - Language: Japanese
+      String: アマニレナスと話す
+    - Language: Polish
+      String: Porozmawiaj z Amanirenas
+    - Language: Portuguese_Brazil
+      String: Fale com Amanirenas
+  Targets:
+  - AliasID: 2
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Dschingis Khan.
+    - Language: English
+      String: Talk to Genghis Khan
+    - Language: Spanish
+      String: Habla con Gengis Kan.
+    - Language: French
+      String: Parlez à Gengis Khan.
+    - Language: Italian
+      String: Parla con Genghis Khan
+    - Language: Japanese
+      String: チンギス・ハンと話す
+    - Language: Polish
+      String: Porozmawiaj z Czyngis-chanem
+    - Language: Portuguese_Brazil
+      String: Fale com Gengis Khan
+  Targets:
+  - AliasID: 3
+- Index: 700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zur Anlage.
+    - Language: English
+      String: Go to the Facility
+    - Language: Spanish
+      String: Ve a las Instalaciones.
+    - Language: French
+      String: Rendez-vous à l'Établissement.
+    - Language: Italian
+      String: Vai al Complesso
+    - Language: Japanese
+      String: ファシリティに行く
+    - Language: Polish
+      String: Udaj się do Bazy
+    - Language: Portuguese_Brazil
+      String: Vá ao Complexo
+  Targets:
+  - AliasID: 38
+- Index: 800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Franklin.
+    - Language: English
+      String: Talk to Franklin
+    - Language: Spanish
+      String: Habla con Franklin.
+    - Language: French
+      String: Parlez à Franklin.
+    - Language: Italian
+      String: Parla con Franklin
+    - Language: Japanese
+      String: フランクリンと話す
+    - Language: Polish
+      String: Porozmawiaj z Franklinem
+    - Language: Portuguese_Brazil
+      String: Fale com Franklin
+  Targets:
+  - AliasID: 6
+- Index: 1000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde Hinweise über die Anlage. (<Global=MS02_CluesCollected> / 7)
+    - Language: English
+      String: Find clues about the Facility (<Global=MS02_CluesCollected> / 7)
+    - Language: Spanish
+      String: Busca pistas de las Instalaciones (<Global=MS02_CluesCollected>/7).
+    - Language: French
+      String: Trouvez les indices à propos de l'Établissement. (<Global=MS02_CluesCollected>/7)
+    - Language: Italian
+      String: Trova indizi sul Complesso (<Global=MS02_CluesCollected>/7)
+    - Language: Japanese
+      String: ファシリティの手がかりを探す(<Global=MS02_CluesCollected>/7)
+    - Language: Polish
+      String: Znajdź wskazówki dotyczące Bazy (<Global=MS02_CluesCollected> / 7)
+    - Language: Portuguese_Brazil
+      String: Ache pistas sobre o Complexo (<Global=MS02_CluesCollected>/7)
+  Targets:
+  - AliasID: 12
+    Conditions:
+    - MutagenObjectType: ConditionGlobal
+      CompareOperator: LessThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 12
+      ComparisonValue: 29553E:Starfield.esm
+  - AliasID: 13
+    Conditions:
+    - MutagenObjectType: ConditionGlobal
+      CompareOperator: LessThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 13
+      ComparisonValue: 29553E:Starfield.esm
+  - AliasID: 14
+    Conditions:
+    - MutagenObjectType: ConditionGlobal
+      CompareOperator: LessThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 14
+      ComparisonValue: 29553E:Starfield.esm
+  - AliasID: 15
+    Conditions:
+    - MutagenObjectType: ConditionGlobal
+      CompareOperator: LessThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 15
+      ComparisonValue: 29553E:Starfield.esm
+  - AliasID: 16
+    Conditions:
+    - MutagenObjectType: ConditionGlobal
+      CompareOperator: LessThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 16
+      ComparisonValue: 29553E:Starfield.esm
+  - AliasID: 17
+    Conditions:
+    - MutagenObjectType: ConditionGlobal
+      CompareOperator: LessThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 17
+      ComparisonValue: 29553E:Starfield.esm
+  - AliasID: 18
+    Conditions:
+    - MutagenObjectType: ConditionGlobal
+      CompareOperator: LessThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 18
+      ComparisonValue: 29553E:Starfield.esm
+  - AliasID: 50
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 2CBE54:Starfield.esm
+- Index: 1100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Gib einer der Gesellschaften die Informationen über die Anlage.
+    - Language: English
+      String: Choose which Society to give Facility information
+    - Language: Spanish
+      String: Decide a qué Sociedad entregar la información de las Instalaciones.
+    - Language: French
+      String: Choisissez à quelle Société confier les informations sur l'Établissement.
+    - Language: Italian
+      String: Scegli a quale Società dare le informazioni sul Complesso
+    - Language: Japanese
+      String: どのソサエティにファシリティの情報を与えるか選ぶ
+    - Language: Polish
+      String: Zdecyduj, któremu ze stowarzyszeń powierzyć informacje o Bazie
+    - Language: Portuguese_Brazil
+      String: Dê as informações do Complexo a uma das Sociedades
+  Targets:
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 29A00C:Starfield.esm
+        SecondParameter: 1220
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 29A00C:Starfield.esm
+        SecondParameter: 1230
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 29A00C:Starfield.esm
+        SecondParameter: 1210
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 29A00C:Starfield.esm
+        SecondParameter: 1230
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 29A00C:Starfield.esm
+        SecondParameter: 1210
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 29A00C:Starfield.esm
+        SecondParameter: 1220
+- Index: 1200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Ada Lovelace.
+    - Language: English
+      String: Talk to Ada Lovelace
+    - Language: Spanish
+      String: Habla con Ada Lovelace.
+    - Language: French
+      String: Parlez à Ada Lovelace.
+    - Language: Italian
+      String: Parla con Ada Lovelace
+    - Language: Japanese
+      String: エイダ・ラブレスと話す
+    - Language: Polish
+      String: Porozmawiaj z Adą Lovelace
+    - Language: Portuguese_Brazil
+      String: Fale com Ada Lovelace
+  Targets:
+  - {}
+- Index: 1300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erkunde Bel V.
+    - Language: English
+      String: Investigate Bel V
+    - Language: Spanish
+      String: Investiga Bel V.
+    - Language: French
+      String: Inspectez Bel V.
+    - Language: Italian
+      String: Indaga presso Bel V
+    - Language: Japanese
+      String: ベルVを調べる
+    - Language: Polish
+      String: Zbadaj Bel V
+    - Language: Portuguese_Brazil
+      String: Investigue Bel V
+  Targets:
+  - AliasID: 30
+  - AliasID: 39
+- Index: 1310
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge der Spur der Beagle nach Zelazny I.
+    - Language: English
+      String: Follow the Beagle's trail to Zelazny I
+    - Language: Spanish
+      String: Sigue el rastro de la Beagle hasta Zelazny I.
+    - Language: French
+      String: Remontez la piste du Beagle jusqu'à Zelazny I.
+    - Language: Italian
+      String: Segui le tracce della Beagle fino a Zelazny I
+    - Language: Japanese
+      String: ビーグルの航跡をたどってゼラズニーIまで行く
+    - Language: Polish
+      String: Podążaj śladem Beagle'a do Zelaznego I
+    - Language: Portuguese_Brazil
+      String: Siga o rastro da Beagle até Zelazny I
+  Targets:
+  - AliasID: 21
+  - AliasID: 52
+- Index: 1400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde den Überbrückungscode der Anlage.
+    - Language: English
+      String: Find the Facility's Security Override Code
+    - Language: Spanish
+      String: Busca el código de anulación de seguridad de las Instalaciones.
+    - Language: French
+      String: Trouvez le code de forçage de la sécurité de l'Établissement.
+    - Language: Italian
+      String: Trova il codice di bypass della sicurezza del Complesso
+    - Language: Japanese
+      String: ファシリティのセキュリティ・オーバーライドコードを見つける
+    - Language: Polish
+      String: Znajdź kod dostępowy Bazy
+    - Language: Portuguese_Brazil
+      String: Ache o código de anulação de segurança do Complexo
+  Targets:
+  - AliasID: 21
+- Index: 1600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Franklin über einen Notfall.
+    - Language: English
+      String: See Franklin about an emergency
+    - Language: Spanish
+      String: Habla con Franklin de una emergencia.
+    - Language: French
+      String: Allez voir Franklin à propos de cette urgence.
+    - Language: Italian
+      String: Vai da Franklin per un’emergenza
+    - Language: Japanese
+      String: 緊急事態の件でフランクリンに会う
+    - Language: Polish
+      String: Spotkaj się z Franklinem w sprawie kryzysu
+    - Language: Portuguese_Brazil
+      String: Discuta a emergência com Franklin
+  Targets:
+  - AliasID: 6
+- Index: 1601
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Amanirenas über einen Notfall.
+    - Language: English
+      String: See Amanirenas about an emergency
+    - Language: Spanish
+      String: Habla con Amanirenas de una emergencia.
+    - Language: French
+      String: Allez voir Amanirenas à propos de cette urgence.
+    - Language: Italian
+      String: Vai da Amanirenas per un’emergenza
+    - Language: Japanese
+      String: 緊急事態の件でアマニレナスに会う
+    - Language: Polish
+      String: Spotkaj się z Amanirenas w sprawie kryzysu
+    - Language: Portuguese_Brazil
+      String: Discuta a emergência com Amanirenas
+  Targets:
+  - AliasID: 2
+- Index: 1602
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Dschingis Khan über einen Notfall.
+    - Language: English
+      String: See Ghengis Khan about an emergency
+    - Language: Spanish
+      String: Habla con Gengis Kan de una emergencia.
+    - Language: French
+      String: Allez voir Gengis Khan à propos de cette urgence.
+    - Language: Italian
+      String: Vai da Genghis Khan per un’emergenza
+    - Language: Japanese
+      String: 緊急事態の件でチンギス・ハンと会う
+    - Language: Polish
+      String: Spotkaj się z Czyngis Chanem w sprawie kryzysu
+    - Language: Portuguese_Brazil
+      String: Discuta a emergência com Gengis Khan
+  Targets:
+  - AliasID: 3
+- Index: 1610
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Triff dich mit den Anführern von Crucible.
+    - Language: English
+      String: Attend meeting with Crucible Leaders
+    - Language: Spanish
+      String: Asiste a la reunión con los líderes del Crisol.
+    - Language: French
+      String: Assistez à la réunion des dirigeants de la Fournaise.
+    - Language: Italian
+      String: Partecipa all’incontro coi leader del Crogiolo
+    - Language: Japanese
+      String: クルーシブルのリーダーたちとの会合に出席する
+    - Language: Polish
+      String: Udaj się na spotkanie z przywódcami Tygla
+    - Language: Portuguese_Brazil
+      String: Compareça à reunião com os líderes do Crisol
+  Targets:
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 29A00C:Starfield.esm
+        SecondParameter: 1230
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 29A00C:Starfield.esm
+        SecondParameter: 1230
+      ComparisonValue: 1
+- Index: 1620
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Töte Dschingis Khan.
+    - Language: English
+      String: Kill Genghis Khan
+    - Language: Spanish
+      String: Mata a Gengis Kan.
+    - Language: French
+      String: Tuez Gengis Khan.
+    - Language: Italian
+      String: Elimina Genghis Khan
+    - Language: Japanese
+      String: チンギス・ハンを倒す
+    - Language: Polish
+      String: Zabij Czyngis-chana
+    - Language: Portuguese_Brazil
+      String: Mate Gengis Khan
+  Targets:
+  - AliasID: 3
+- Index: 1625
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Töte Amanirenas.
+    - Language: English
+      String: Kill Amanirenas
+    - Language: Spanish
+      String: Mata a Amanirenas.
+    - Language: French
+      String: Tuez Amanirenas.
+    - Language: Italian
+      String: Elimina Amanirenas
+    - Language: Japanese
+      String: アマニレナスを倒す
+    - Language: Polish
+      String: Zabij Amanirenas
+    - Language: Portuguese_Brazil
+      String: Mate Amanirenas
+  Targets:
+  - AliasID: 2
+- Index: 1627
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Töte Franklin Roosevelt.
+    - Language: English
+      String: Kill Franklin Roosevelt
+    - Language: Spanish
+      String: Mata a Franklin Roosevelt.
+    - Language: French
+      String: Tuez Franklin Roosevelt.
+    - Language: Italian
+      String: Elimina Franklin Roosevelt
+    - Language: Japanese
+      String: フランクリン・ルーズベルトを倒す
+    - Language: Polish
+      String: Zabij Franklina Roosevelta
+    - Language: Portuguese_Brazil
+      String: Mate Franklin Roosevelt
+  Targets:
+  - AliasID: 6
+- Index: 1630
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Franklin.
+    - Language: English
+      String: Talk with Franklin
+    - Language: Spanish
+      String: Habla con Franklin.
+    - Language: French
+      String: Parlez à Franklin.
+    - Language: Italian
+      String: Parla con Franklin
+    - Language: Japanese
+      String: フランクリンと話す
+    - Language: Polish
+      String: Porozmawiaj z Franklinem
+    - Language: Portuguese_Brazil
+      String: Fale com Franklin
+  Targets:
+  - AliasID: 6
+- Index: 1700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Amanirenas über einen Notfall.
+    - Language: English
+      String: See Amanirenas about an emergency
+    - Language: Spanish
+      String: Habla con Amanirenas de una emergencia.
+    - Language: French
+      String: Allez voir Amanirenas à propos de cette urgence.
+    - Language: Italian
+      String: Vai da Amanirenas per un’emergenza
+    - Language: Japanese
+      String: 緊急事態の件でアマニレナスに会う
+    - Language: Polish
+      String: Spotkaj się z Amanirenas w sprawie kryzysu
+    - Language: Portuguese_Brazil
+      String: Discuta a emergência com Amanirenas
+  Targets:
+  - AliasID: 2
+- Index: 1730
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Amanirenas.
+    - Language: English
+      String: Talk with Amanirenas
+    - Language: Spanish
+      String: Habla con Amanirenas.
+    - Language: French
+      String: Parlez à Amanirenas.
+    - Language: Italian
+      String: Parla con Amanirenas
+    - Language: Japanese
+      String: アマニレナスと話す
+    - Language: Polish
+      String: Porozmawiaj z Amanirenas
+    - Language: Portuguese_Brazil
+      String: Fale com Amanirenas
+  Targets:
+  - AliasID: 2
+- Index: 1800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Dschingis Khan über einen Notfall.
+    - Language: English
+      String: See Genghis Khan about an emergency
+    - Language: Spanish
+      String: Habla con Gengis Kan de una emergencia.
+    - Language: French
+      String: Allez voir Gengis Khan à propos de cette urgence.
+    - Language: Italian
+      String: Vai da Genghis Khan per un’emergenza
+    - Language: Japanese
+      String: 緊急事態の件でチンギス・ハンと会う
+    - Language: Polish
+      String: Spotkaj się z Czyngis-chanem w sprawie kryzysu
+    - Language: Portuguese_Brazil
+      String: Discuta a emergência com Gengis Khan
+  Targets:
+  - AliasID: 3
+- Index: 1830
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Dschingis Khan.
+    - Language: English
+      String: Talk with Genghis Khan
+    - Language: Spanish
+      String: Habla con Gengis Kan.
+    - Language: French
+      String: Parlez à Gengis Khan.
+    - Language: Italian
+      String: Parla con Genghis Khan
+    - Language: Japanese
+      String: チンギス・ハンと話す
+    - Language: Polish
+      String: Porozmawiaj z Czyngis-chanem
+    - Language: Portuguese_Brazil
+      String: Fale com Gengis Khan
+  Targets:
+  - AliasID: 3
+- Index: 1880
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Frage Ada Lovelace, ob sie den Überbrückungscode entschlüsseln kann.
+    - Language: English
+      String: See if Ada Lovelace can decrypt Security Override Code
+    - Language: Spanish
+      String: Averigua si Ada Lovelace puede desencriptar el código de anulación de seguridad.
+    - Language: French
+      String: Demandez à Ada Lovelace de déchiffrer le code de forçage de la sécurité.
+    - Language: Italian
+      String: Vedi se Ada Lovelace è in grado di decifrare il codice
+    - Language: Japanese
+      String: エイダ・ラブレスにセキュリティ・オーバーライドコードの解読を頼む
+    - Language: Polish
+      String: Zapytaj Adę Lovelace, czy może odszyfrować kod dostępowy
+    - Language: Portuguese_Brazil
+      String: Veja se Ada consegue descriptografar o código
+  Targets:
+  - {}
+- Index: 1900
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kümmere dich um die Anlage.
+    - Language: English
+      String: Deal with the Facility
+    - Language: Spanish
+      String: Ocúpate de las Instalaciones.
+    - Language: French
+      String: Prenez une décision à l'Établissement.
+    - Language: Italian
+      String: Occupati del Complesso
+    - Language: Japanese
+      String: ファシリティに対処する
+    - Language: Polish
+      String: Zajmij się Bazą
+    - Language: Portuguese_Brazil
+      String: Lide com o Complexo
+  Targets:
+  - AliasID: 22
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 29A00C:Starfield.esm
+        SecondParameter: 1890
+      ComparisonValue: 1
+  - AliasID: 42
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 29A00C:Starfield.esm
+        SecondParameter: 1890
+- Index: 2010
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erstatte Franklin Bericht.
+    - Language: English
+      String: Report back to Franklin
+    - Language: Spanish
+      String: Informa a Franklin.
+    - Language: French
+      String: Retournez voir Franklin.
+    - Language: Italian
+      String: Fai rapporto a Franklin
+    - Language: Japanese
+      String: フランクリンに報告する
+    - Language: Polish
+      String: Zdaj raport Franklinowi
+    - Language: Portuguese_Brazil
+      String: Volte para falar com Franklin
+  Targets:
+  - AliasID: 6
+- Index: 2020
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erstatte Amanirenas Bericht.
+    - Language: English
+      String: Report back to Amanirenas
+    - Language: Spanish
+      String: Informa a Amanirenas.
+    - Language: French
+      String: Retournez voir Amanirenas.
+    - Language: Italian
+      String: Fai rapporto ad Amanirenas
+    - Language: Japanese
+      String: アマニレナスに報告する
+    - Language: Polish
+      String: Zdaj raport Amanirenas
+    - Language: Portuguese_Brazil
+      String: Volte para falar com Amanirenas
+  Targets:
+  - AliasID: 2
+- Index: 2030
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erstatte Dschingis Khan Bericht.
+    - Language: English
+      String: Report back to Genghis Khan
+    - Language: Spanish
+      String: Informa a Gengis Kan.
+    - Language: French
+      String: Retournez voir Gengis Khan.
+    - Language: Italian
+      String: Fai rapporto a Genghis Khan
+    - Language: Japanese
+      String: チンギス・ハンに報告する
+    - Language: Polish
+      String: Zdaj raport Czyngis-chanowi
+    - Language: Portuguese_Brazil
+      String: Volte para falar com Gengis Khan
+  Targets:
+  - AliasID: 3
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: AdaLovelace
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 299F70:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  PackageData:
+  - 309A1C:Starfield.esm
+  ScriptComment: 8840
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: AmeliaEarhart
+  Flags: []
+  ALFG: 0
+  UniqueActor: 299F6F:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  PackageData:
+  - 309A1C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Amanirenas
+  Flags: []
+  ALFG: 0
+  UniqueActor: 299F6E:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  Factions:
+  - 245904:Starfield.esm
+  PackageData:
+  - 243A0D:Starfield.esm
+  - 1D69FA:Starfield.esm
+  ScriptComment: 8820
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: FDR
+  Flags:
+  - AllowReuseInQuest
+  ALFG: 0
+  UniqueActor: 299F6B:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  Factions:
+  - 245903:Starfield.esm
+  PackageData:
+  - 1D69FA:Starfield.esm
+  - 243A0D:Starfield.esm
+  ScriptComment: 8810
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: GenghisKhan
+  Flags: []
+  ALFG: 0
+  UniqueActor: 299F6D:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  Factions:
+  - 245902:Starfield.esm
+  PackageData:
+  - 243A0D:Starfield.esm
+  - 1D69FA:Starfield.esm
+  - 1B84A2:Starfield.esm
+  - 03FE5F:Starfield.esm
+  ScriptComment: >-
+    ON DEATH: Sets 8830
+
+    DISTANCE: 610
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: HH_Holmes
+  Flags: []
+  ALFG: 0
+  UniqueActor: 299F6C:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  PackageData:
+  - 309A1C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Tobias
+  Flags: []
+  ALFG: 0
+  UniqueActor: 299F6A:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  PackageData:
+  - 2534C1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 8
+  Name: CrucibleSettlement
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 299F69:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 19
+  Name: FacilitySettlement
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2CB3DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: FacilityMapMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 20
+  Name: BeagleLocation
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 29553D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: Clue01
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 07828B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: Clue02
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 07828C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: Clue03
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 07828D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: Clue04
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 07828E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: Clue05
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 0782A4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: Clue06
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 07828F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: Clue07
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 078290:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 40
+  Name: BeagleSpaceCellLocation
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 1F58DD:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: BeagleDatacore
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 20
+    RefType: 24CB21:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 47
+  Name: BeagleMapMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 40
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: FacilityControlTerminal
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 24CB21:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: CrucibleCOC
+  Flags: []
+  ALFG: 0
+  ForcedReference: 29AF0C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: PlayerShip
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 0
+  ScriptComment: >-
+    Change (Charybdis): 100
+
+    ChangeA (Charybdis):1550
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: AdaTempName
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ALFG: 0
+  UniqueActor: 299F70:Starfield.esm
+  DisplayName: 24CB24:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: FDRTempName
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ALFG: 0
+  UniqueActor: 299F6B:Starfield.esm
+  DisplayName: 24CB23:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 29
+  Name: Beacon01Location
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01B4C6:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: Beacon01
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 29
+    RefType: 24CB04:Starfield.esm
+  ScriptComment: 1310
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: Beacon01_MapMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 29
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 31
+    MaxInitialFillCount: 12
+    ALAM: 0
+    ReferenceAlias:
+      ID: 31
+      Name: Believers
+      Flags:
+      - UsesStoredText
+      ALFG: 0
+      Location:
+        AliasID: 8
+        RefType: 245910:Starfield.esm
+      DisplayName: 245907:Starfield.esm
+      Factions:
+      - 245904:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 32
+    MaxInitialFillCount: 12
+    ALAM: 0
+    ReferenceAlias:
+      ID: 32
+      Name: Pragmatists
+      Flags:
+      - UsesStoredText
+      ALFG: 0
+      Location:
+        AliasID: 8
+        RefType: 24590E:Starfield.esm
+      DisplayName: 245906:Starfield.esm
+      Factions:
+      - 245903:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 33
+    MaxInitialFillCount: 12
+    ALAM: 0
+    ReferenceAlias:
+      ID: 33
+      Name: Renegades
+      Flags:
+      - UsesStoredText
+      ALFG: 0
+      Location:
+        AliasID: 8
+        RefType: 24590F:Starfield.esm
+      DisplayName: 245905:Starfield.esm
+      Factions:
+      - 245902:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 53
+    ALAM: 0
+    ReferenceAlias:
+      ID: 53
+      Name: Neutral
+      Flags:
+      - AllowDisabled
+      - AllowReserved
+      ALFG: 0
+      Location:
+        AliasID: 8
+        RefType: 309A1B:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: AlienSpawner
+  Flags: []
+  ALFG: 0
+  ForcedReference: 245624:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 35
+    MaxInitialFillCount: 3
+    ALAM: 0
+    ReferenceAlias:
+      ID: 35
+      Name: GenghisAliens
+      Flags:
+      - AllowDisabled
+      - InitiallyDisabled
+      - CreateRefTemp
+      - 0x2000000
+      ALFG: 0
+      Location:
+        AliasID: 8
+        RefType: 07828B:Starfield.esm
+      Factions:
+      - 0FC841:Starfield.esm
+      - 106C2F:Starfield.esm
+      PackageData:
+      - 19CE64:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 37
+    MaxInitialFillCount: 99
+    ReferenceAlias:
+      ID: 37
+      Name: InitiallyHiddenPeople
+      Flags:
+      - AllowReuseInQuest
+      - AllowDisabled
+      ALFG: 0
+      Location:
+        AliasID: 8
+        RefType: 243410:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 41
+  Name: CharybdisSystem
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 06153C:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 42
+  Name: FacilityRestrictedTerminal
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 078291:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 43
+  Name: EncryptedOverrideCode
+  Flags:
+  - Optional
+  - QuestObject
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 44
+  Name: OverrideCode
+  Flags:
+  - Optional
+  - QuestObject
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 45
+  Name: DoorPragmatists
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 8
+    RefType: 07828D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 46
+    MaxInitialFillCount: 3
+    ReferenceAlias:
+      ID: 46
+      Name: DoorsCrucible
+      Flags: []
+      ALFG: 0
+      Location:
+        AliasID: 8
+        RefType: 07828C:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 48
+  Name: BackdoorFacility
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 078292:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 49
+  Name: AlienBoss
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 078293:Starfield.esm
+  Spells:
+  - 3E8D22:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 50
+  Name: FacilityFrontDoor
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2CB3B8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 52
+  Name: Beagle
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueBaseForm: 061C03:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 51
+    ALAM: 0
+    ReferenceAlias:
+      ID: 51
+      Name: BeagleRobots
+      Flags:
+      - AllowDisabled
+      - UsesStoredText
+      ALFG: 0
+      Location:
+        AliasID: 20
+        RefType: 07829D:Starfield.esm
+      DisplayName: 03FE5D:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 54
+    ALAM: 0
+    ReferenceAlias:
+      ID: 54
+      Name: Everyone
+      Flags:
+      - Optional
+      - AllowDisabled
+      - AllowReserved
+      ALFG: 0
+      PackageData:
+      - 30A333:Starfield.esm
+      VoiceTypes: Null

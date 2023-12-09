@@ -1,0 +1,207 @@
+FormKey: 0D0DFD:Starfield.esm
+EditorID: CityNeonSamCoeCIApartment
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Neon: Wohnung'
+  - Language: English
+    String: 'Neon: Apartment'
+  - Language: Spanish
+    String: 'Neón: apartamento'
+  - Language: French
+    String: 'Néon : Appartement'
+  - Language: Italian
+    String: 'Neon: appartamento'
+  - Language: Japanese
+    String: ネオン：アパート
+  - Language: Polish
+    String: Neon - mieszkanie
+  - Language: Portuguese_Brazil
+    String: 'Neon: Apartamento'
+Flags:
+- IsInteriorCell
+- CantTravelFromHere
+- 0x20000
+- 0x80000
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 0.7
+  FogFarColor: '#002C2418'
+  Unknown1: 659731
+  ForColorHighNear: '#00000080'
+  ForColorHighFar: '#00635F4B'
+  HighDensityScale: 0.7
+  FarHeightMid: 10000
+LightingTemplate: 0300E2:Starfield.esm
+WaterHeight: 3.4028235E+38
+XILS: 1
+Location: 0D0DA2:Starfield.esm
+AcousticSpace: 3FA24B:Starfield.esm
+Music: 01BA72:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
+Traversals:
+- Unknown1: 1092
+  From: 21.430107, 5.6399097, 0.15598525
+  To: 24.367767, 2.8858502, 0.115990594
+  UnknownVector: 3.7162952, 5.277843, 0.957303
+  Unknown: 0xA640A640E538DA34
+- Unknown1: 1101
+  From: 21.45565, 3.9920428, 0.12608804
+  To: 24.2693, 3.0541353, 0.115990594
+  UnknownVector: 2.8999662, 5.006572, 1.0457875
+  Unknown: 0x923F923FA33C0634
+- Unknown1: 1280
+  From: 24.700005, -0.6061119, 0.115990594
+  To: 24.331856, 0.5903701, 0.115990594
+  UnknownVector: 1.3634477, 4.5034904, 1.2768153
+  Unknown: 0xFC45FC45D6396034
+- Unknown1: 1248
+  From: 24.266205, 2.7857985, 0.115990594
+  To: 21.510647, 5.7250586, 0.15600605
+  UnknownVector: 3.714175, 5.357571, 0.96461004
+  Unknown: 0x8845884554376A38
+- Unknown1: 1383
+  From: 21.624992, -1.8060758, 0.06618206
+  To: 21.624992, 0.815591, 0.095857285
+  UnknownVector: 2.6104522, 4.9556212, 1.085966
+  Unknown: 0x00000000B3392F34
+- Unknown1: 1291
+  From: 24.106657, -1.5232995, 0.1159906
+  To: 21.526707, 1.9166565, 0.115990594
+  UnknownVector: 3.7000804, 5.7001953, 0.99504375
+  Unknown: 0xA445A4456A38E13C
+- Unknown1: 1514
+  From: 21.592213, 0.8184794, 0.09597281
+  To: 22.841908, 1.6932609, 0.1159906
+  UnknownVector: 1.6733505, 4.493409, 1.2143061
+  Unknown: 0xAE3BAE3B9F37A238
+- Unknown1: 1494
+  From: 20.72499, -1.8060758, 0.06599061
+  To: 20.72499, 0.8056663, 0.09450398
+  UnknownVector: 2.6047916, 4.9465256, 1.0861036
+  Unknown: 0x00000000B339533D
+- Unknown1: 1541
+  From: 21.58683, 1.9070847, 0.115990594
+  To: 24.46184, -0.9679048, 0.115990594
+  UnknownVector: 3.4667141, 5.752728, 1.0284519
+  Unknown: 0xB640B640BB3C2139
+- Unknown1: 1517
+  From: 20.894323, 0.50505483, 0.08343585
+  To: 25.354467, -0.38696036, 0.11599058
+  UnknownVector: 3.691102, 6.07075, 1.0245049
+  Unknown: 0x133F133F5738AA3C
+- Unknown1: 1667
+  From: 17.67951, 1.097742, 0.10591324
+  To: 16.445482, 2.3317685, 0.11599058
+  UnknownVector: 1.9895965, 4.3139176, 1.1386642
+  Unknown: 0x7F457F450E39D43A
+- Unknown1: 1753
+  From: 24.499992, 0.7140409, 0.11599061
+  To: 24.499992, -0.7514724, 0.115990594
+  UnknownVector: 1.6341045, 4.3989487, 1.2151186
+  Unknown: 0x4842484274357D3A
+- Unknown1: 1789
+  From: 22.7761, 1.7624222, 0.115990594
+  To: 21.637106, 0.7373277, 0.09272675
+  UnknownVector: 1.731606, 4.3143206, 1.189116
+  Unknown: 0xF643F643EC396836
+- Unknown1: 1788
+  From: 21.383327, 0.81097686, 0.09567273
+  To: 21.383327, -1.8060758, 0.06599061
+  UnknownVector: 2.6121035, 4.884667, 1.0797323
+  Unknown: 0x484248427B36B339
+- Unknown1: 1784
+  From: 24.499798, 0.7290799, 0.115990594
+  To: 23.161356, 1.7998362, 0.11599058
+  UnknownVector: 1.9692695, 4.26929, 1.1386149
+  Unknown: 0x6345634588343139
+- Unknown1: 1903
+  From: 16.274992, 3.421901, 0.11599058
+  To: 16.274992, 4.9689245, 0.11599059
+  UnknownVector: 1.9936559, 3.806149, 1.0882915
+  Unknown: 0x000000006739333B
+- Unknown1: 1899
+  From: 16.309837, 2.308947, 0.11599058
+  To: 17.772488, 0.9194301, 0.10161983
+  UnknownVector: 2.4229538, 4.066843, 1.0334837
+  Unknown: 0xA940A9404D3B4238
+- Unknown1: 1959
+  From: 17.068048, 4.193925, 0.11599059
+  To: 15.541659, 4.193925, 0.115990594
+  UnknownVector: 1.9781337, 3.7848504, 1.0891972
+  Unknown: 0xB644B6443E39093C
+- Unknown1: 1949
+  From: 18.237669, 4.272915, 0.115990594
+  To: 20.006756, 2.503827, 0.115990594
+  UnknownVector: 2.86213, 4.2875967, 0.9821914
+  Unknown: 0xB640B6400A3C573C
+- Unknown1: 1944
+  From: 23.216513, 1.719057, 0.11599058
+  To: 24.348925, 0.69988483, 0.115990594
+  UnknownVector: 1.7229232, 4.3372774, 1.1926749
+  Unknown: 0x9B409B4056392234
+- Unknown1: 1955
+  From: 15.61357, 3.813214, 0.115990594
+  To: 16.998047, 4.5054526, 0.11599061
+  UnknownVector: 2.0833728, 3.644288, 1.0514594
+  Unknown: 0x6E3C6E3CB13C383C
+- Unknown1: 1986
+  From: 16.856243, 2.7411113, 0.1159906
+  To: 18.040365, 1.6161957, 0.110486925
+  UnknownVector: 1.7990619, 4.4469275, 1.1863626
+  Unknown: 0xA940A9403A37753B
+- Unknown1: 838
+  From: 8.309447, 4.9993763, 0.14556234
+  To: 8.007367, 8.020115, 0.124345705
+  UnknownVector: 3.3680737, 4.3975716, 0.9172004
+  Unknown: 0x2F462F46FC380838
+- Unknown1: 835
+  From: 7.724992, 4.7888646, 0.1344926
+  To: 7.724992, 8.106993, 0.13076332
+  UnknownVector: 3.5311377, 4.605146, 0.91664165
+  Unknown: 0x0000000009383838
+- Unknown1: 836
+  From: 8.529048, 7.881096, 0.1507042
+  To: 7.5181203, 4.8482723, 0.14424133
+  UnknownVector: 3.4617915, 4.522639, 0.917489
+  Unknown: 0xED42ED42F534D734
+- Unknown1: 832
+  From: 6.7055182, 4.174212, 0.1659906
+  To: 7.36394, 4.533351, 0.15543708
+  UnknownVector: 0.6492152, 5.657323, 1.4565395
+  Unknown: 0x493C493C85344038
+- Unknown1: 842
+  From: 7.274992, 7.9189243, 0.1409906
+  To: 7.274992, 5.0802093, 0.1508575
+  UnknownVector: 2.4554262, 5.679199, 1.162713
+  Unknown: 0x4842484218391234
+- Unknown1: 900
+  From: 8.008326, 8.006424, 0.12432393
+  To: 8.008326, 4.906223, 0.116209924
+  UnknownVector: 3.2204127, 4.7134776, 0.9714109
+  Unknown: 0x4842484262378D38
+- Unknown1: 930
+  From: 15.508922, 4.3757696, 0.115990594
+  To: 17.02648, 4.1228414, 0.11599059
+  UnknownVector: 1.9872489, 3.7973604, 1.0886643
+  Unknown: 0xF23EF23EFD3B2038
+- Unknown1: 997
+  From: 15.508922, 4.3757696, 0.115990594
+  To: 17.058187, 4.1175566, 0.1159906
+  UnknownVector: 2.100784, 3.6671891, 1.0505722
+  Unknown: 0xF23EF23EFD3B8D38
+- Unknown1: 1071
+  From: 15.963189, 4.7925305, 0.115990594
+  To: 16.56077, 3.5973756, 0.115990594
+  UnknownVector: 1.6391042, 3.9986389, 1.1817714
+  Unknown: 0x5B415B416F3C3734
+- Unknown1: 1072
+  From: 16.691025, 4.8054757, 0.11599061
+  To: 15.834788, 3.5211153, 0.11599058
+  UnknownVector: 1.9910926, 3.8026326, 1.0884404
+  Unknown: 0x76437643493C7C3D

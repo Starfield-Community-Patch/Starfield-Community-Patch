@@ -1,0 +1,111 @@
+FormKey: 27BC70:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0FA84C:Starfield.esm
+  WEMFile: 1788428
+  TRDAUnknown: 5.266667
+  TROTs:
+  - UnknownVoiceType: 014E5A:Starfield.esm
+    UnknownFloat: 3.3000002
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Da gibt's nicht viel zu erzählen. Ich habe eine Frau namens Kalinda und drei Kinder zu Hause in New Atlantis.
+    - Language: English
+      String: "Not much to tell, really. I have a wife; her name's Kalinda, and three kids back home on New Atlantis. "
+    - Language: Spanish
+      String: 'No tiene mucho misterio, ¿eh? En Nueva Atlántida me esperan mi mujer, Kalinda, y mis tres hijas. '
+    - Language: French
+      String: "Il n'y a pas grand-chose à dire. J'ai une femme, Kalinda, et trois enfants. Elles vivent à New Atlantis. "
+    - Language: Italian
+      String: 'In realtà, non c’è molto da dire. Ho una moglie, Kalinda, e tre bambine che mi aspettano a Nuova Atlantide. '
+    - Language: Japanese
+      String: 話すことはそれほどない。妻のカリンダと3人の子どもが、故郷のニューアトランティスにいる
+    - Language: Polish
+      String: 'Niewiele jest do opowiadania. Mam w Nowej Atlantydzie żonę - nazywa się Kalinda - i trójkę dzieciaków. '
+    - Language: Portuguese_Brazil
+      String: 'Não tenho muito a dizer, na verdade. Eu tenho uma esposa chamada Kalinda e três filhos na nossa casa em Nova Atlântida. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xD02B68848639D801
+  BNAM: 2C02F2:Starfield.esm
+  STRV: $(Subgraph)\Relaxed_Lib_Shrug_LH_M02.af
+  VCLR: Null
+  FLMV: 0x00000000
+  FLAV: 0x00000000
+  QUAL: True
+  LVCR: 0
+  ATAC: 0x00000000
+  XNAM: True
+- Emotion: 0FA84C:Starfield.esm
+  WEMFile: 16002706
+  TRDAUnknown: 5.3
+  TROTs:
+  - UnknownVoiceType: 014E5A:Starfield.esm
+    UnknownFloat: 3.266667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sie sind dort alle in einem Zimmer auf dem Unterdeck zusammengepfercht und Kalindas Job auf dem Bau reicht kaum zum Überleben. Jeden Credit, den ich verdiene, schicke ich an sie.
+    - Language: English
+      String: "They're all crammed into a one-room in the Well. We couldn't afford better. Kalinda's construction job barely kept the lights on. "
+    - Language: Spanish
+      String: 'Viven en una habitación del Pozo. No nos daba para más. Kalinda, que trabaja de obrera, apenas gana lo suficiente para pagar la luz. '
+    - Language: French
+      String: 'Elles habitent dans un deux-pièces dans le Puits, on ne peut pas se permettre mieux. Et le boulot de Kalinda suffit à peine à payer les charges. '
+    - Language: Italian
+      String: 'Vivono tutte ammassate in una stanza, nel Pozzo. Non possiamo permetterci di meglio. Il lavoro nell’edilizia di Kalinda basta a malapena a pagare le bollette. '
+    - Language: Japanese
+      String: ウェル地区のワンルームでぎゅうぎゅう詰めさ。金がなくてね。カリンダの建設の仕事だけじゃ電気代をまかなうのでやっとだ
+    - Language: Polish
+      String: 'Gniotą się w jednym pokoju w Studni. Nie stać nas na nic lepszego. Praca Kalindy w budowlance ledwo starcza na rachunki. '
+    - Language: Portuguese_Brazil
+      String: 'Elas tão todas amontoadas numa quitinete no Poço. É o que dá pra pagar. O trabalho da Kalinda na construção mal paga as contas. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA080CA6F8739D801
+- Emotion: 0C866D:Starfield.esm
+  WEMFile: 11725271
+  TRDAUnknown: 0.6666667
+  TROTs:
+  - UnknownVoiceType: 014E5A:Starfield.esm
+    UnknownFloat: 4.2000003
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Deshalb unternahm ich Schmugglertouren für die Handelsaufsicht. Ich hoffte auf große Auszahlungen, aber alles ist mir um die Ohren gefolgen.
+    - Language: English
+      String: That's why I started doing runs for the Trade Authority. Seemed like it could be my big break. That...didn't go as planned.
+    - Language: Spanish
+      String: Por eso empecé a hacer trabajillos para la Autoridad Comercial. Me pareció una gran oportunidad. Pero... no salió bien.
+    - Language: French
+      String: C'est pour ça que j'ai commencé à bosser pour l'Autorité commerciale. Je pensais percer dans le métier. Mais... c'est râpé.
+    - Language: Italian
+      String: Ecco perché ho iniziato a lavorare per l’Autorità Commerciale. Sembrava che potesse essere la mia grande occasione. Ma non è andata come previsto.
+    - Language: Japanese
+      String: だから、貿易管理局の仕事を始めた。生活を変えるチャンスだと思って。でも… そうはいかなかった
+    - Language: Polish
+      String: To dlatego zacząłem brać zlecenia od Urzędu Handlowego. Wydawało mi się, że tak się dorobię. Ale... to nie poszło zgodnie z planem.
+    - Language: Portuguese_Brazil
+      String: Por isso que comecei a fazer serviços pra Autoridade Comercial. Parecia que seria a minha grande virada, mas... não foi como o planejado.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xF07AFEA08739D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 014E55:Starfield.esm
+    SecondParameter: 600
+SetParentQuestStage:
+  OnBegin: -1
+  OnEnd: 10
+StartScenePhase: TOPLEVELNEST
+SubtitlePriority: Low

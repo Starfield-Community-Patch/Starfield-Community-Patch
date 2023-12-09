@@ -1,0 +1,144 @@
+FormKey: 32C7C0:Starfield.esm
+EditorID: DialogueNeonConvo_SecurityCheckpoint
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_DialogueNeonConvo_Securit_0032C7C0
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CheckpointController
+      Object: 32C7C0:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ScanSceneTrigger
+      Object: 32C7C0:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueNeonConvo_SecurityCheckpointScene
+      Object: 32C7CE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ScanSceneTriggerDisabler
+      Object: 32C7C0:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ScanSceneTriggerEnabler
+      Object: 32C7C0:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueNeonConvo_SecurityCheckpoint_Controller
+      Object: 34D426:Starfield.esm
+  Fragments:
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNeonConvo_Securit_0032C7C0
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNeonConvo_Securit_0032C7C0
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNeonConvo_Securit_0032C7C0
+    FragmentName: Fragment_Stage_0010_Item_00
+Data:
+  Flags:
+  - AllowRepeatedStages
+  Priority: 15
+  Unused: 0x000000
+Location: 015FFE:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: startup
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: scan scene trigger enable
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: start scan scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: scan scene trigger disable
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 4
+  Name: CityNeonLocation
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 015FFE:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: Guard02
+  Flags: []
+  ALFG: 0
+  ForcedReference: 3C3A13:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Guard01
+  Flags: []
+  ALFG: 0
+  UniqueActor: 15636C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Guard03
+  Flags: []
+  ALFG: 0
+  ForcedReference: 3C3A12:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: ScanSceneTrigger
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 07829E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: ScanSceneTriggerEnabler
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 07829F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: ScanSceneTriggerDisabler
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 0782A0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: CheckpointController
+  Flags: []
+  ALFG: 0
+  ForcedReference: 3C3A15:Starfield.esm
+  VoiceTypes: Null

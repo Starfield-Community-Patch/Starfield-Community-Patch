@@ -1,0 +1,48 @@
+FormKey: 21EAF8:Starfield.esm
+Flags: {}
+Responses:
+- WEMFile: 14693934
+  TRDAUnknown: 1.2333333
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 7.433334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Okay ... auf dich ist ein Kopfgeld ausgesetzt. Das musst du unverzüglich klären.
+    - Language: English
+      String: All right... looks like there's a bounty on you. Better get that cleared as soon as possible.
+    - Language: Spanish
+      String: Está bien... Parece que te están buscando. Será mejor que saldes tus deudas cuanto antes.
+    - Language: French
+      String: Bien... on dirait que votre tête est mise à prix. Vous feriez mieux de régler ça tout de suite.
+    - Language: Italian
+      String: Allora... Pare che ci sia una taglia sulla tua testa. Ti conviene risolvere la questione il prima possibile.
+    - Language: Japanese
+      String: ほう… お前には賞金がかかってるようだな。なるべく早く清算してもらうぞ
+    - Language: Polish
+      String: W porządku... Wygląda na to, że wystawiono za tobą list gończy. Lepiej zajmij się tym jak najszybciej.
+    - Language: Portuguese_Brazil
+      String: Certo... pelo jeito sua cabeça tá a prêmio. Melhor resolver essa situação o mais rápido possível.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x90E219206C96D601
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    FirstParameter: 05BD93:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+StartScenePhase: ''
+SubtitlePriority: Low

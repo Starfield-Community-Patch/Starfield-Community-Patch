@@ -21,17 +21,28 @@ Name:
     String: Forma Vazia
 Keywords:
 - 129573:Starfield.esm
-MovementType: 179DC1:Starfield.esm
-EnchantShader: 179DC2:Starfield.esm
+CastingArt: 179DC1:Starfield.esm
+HitShader: 179DC2:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Invisibility
+CastType: FireAndForget
+UnkownInt3: 1065353216
+Flags:
+- Recover
+- NoArea
+- FXPersist
+- HideInUI
+Unknown: 0x00000000000000000000000000000000000000000000
 Sounds:
-- Unknown: 5
+- Type: OnHit
   Sound:
     Start: f10a421a-a5c1-e5c5-52ed-73eba74ec1ba
     Stop: 5d4a4d0d-0268-10b9-a7b7-150d43e78db6
-- Unknown: 3
+- Type: Release
   Sound:
     Start: 06644b08-c615-fb05-04cc-1d089df704ae
-- Unknown: 1
+- Type: Charge
   Sound:
     Start: a9bd4d18-e32f-c805-dc14-82e718741f96
 Description:

@@ -1,0 +1,98 @@
+FormKey: 249C49:Starfield.esm
+EditorID: Drink_NonAlc_Can_CanUck_CoffeeDoubleDouble
+ObjectBounds:
+  First: -0.04199272, -0.041992206, 0.00012207031
+  Second: 0.041991655, 0.04199217, 0.12023926
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 1017B3:Starfield.esm
+  Workbench: 03D203:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: CAN-uck! Kaffeekick
+  - Language: English
+    String: CAN-uck! Double Double
+  - Language: Spanish
+    String: Doble doble de CAN-uck!
+  - Language: French
+    String: Double double CAN-uck!
+  - Language: Italian
+    String: CAN-uck! Double Double
+  - Language: Japanese
+    String: カンナック！のダブルダブル
+  - Language: Polish
+    String: CAN-uck! Dwa po Dwa
+  - Language: Portuguese_Brazil
+    String: Dobro de Creme e Açúcar CAN-uck!
+Keywords:
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+- 14253C:Starfield.esm
+- 2CF287:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageMenu_CANUck_DoubleDouble.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 82d44b6f-dd2e-ac48-94ff-d2e90b2dff96
+DropdownSound:
+  Start: 98fc4756-55dd-c609-39b9-b315de44d9bb
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Kaffee der Marke CAN-uck!, verkauft in der typischen, markenrechtlich geschützten Dose.
+  - Language: English
+    String: CAN-uck! brand coffee, sold in their distinct and trademarked can.
+  - Language: Spanish
+    String: Café de la marca CAN-uck!. Se vende en su característica lata.
+  - Language: French
+    String: Café de la marque CAN-uck!, vendu dans sa boîte de conserve distinctive.
+  - Language: Italian
+    String: Caffè a marchio CAN-uck!, venduto nella caratteristica lattina brevettata.
+  - Language: Japanese
+    String: カンナック！ブランドのコーヒー。商標登録済みの独特な缶で販売されている
+  - Language: Polish
+    String: Kawa marki CAN-uck! - sprzedawana w charakterystycznej, oznaczonej znakiem handlowym puszce.
+  - Language: Portuguese_Brazil
+    String: Café da CAN-uck!, vendido na sua inconfundível lata de marca registrada.
+Resources:
+- Resource: 29B017:Starfield.esm
+  Count: 1
+Weight: 0.5
+Value: 75
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 534d4d1c-5a43-05f7-75ee-feb0fa7771b5
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 150731:Starfield.esm
+  Data:
+    Magnitude: 2
+  Magnitude: 2B9826:Starfield.esm
+  Duration: 2B981A:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 29A84D:Starfield.esm
+  Data:
+    Magnitude: 18
+    Duration: 180
+  Magnitude: 2B9802:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2704CB:Starfield.esm
+  Data:
+    Magnitude: 18
+    Duration: 180
+  Magnitude: 2B9802:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 2

@@ -1,0 +1,19 @@
+MutagenObjectType: NpcModification
+FormKey: 0A920E:Starfield.esm
+EditorID: bot_ModelA_Styx_Graffiti_01
+Description:
+  TargetLanguage: English
+Model:
+  FLLD: 0x01000000
+Properties:
+- MutagenObjectType: ObjectModFormLinkIntProperty`1
+  Property: LayeredMaterialSwap
+  Record: 0B41CA:Starfield.esm
+- MutagenObjectType: ObjectModFormLinkIntProperty`1
+  Property: Inventory
+  Record: 2C7D29:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty`1
+  Property: Inventory
+  Record: 12FFA2:Starfield.esm
+  FunctionType: Add

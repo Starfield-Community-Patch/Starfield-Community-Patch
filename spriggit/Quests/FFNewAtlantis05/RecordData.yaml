@@ -1,0 +1,1496 @@
+FormKey: 08E2D9:Starfield.esm
+EditorID: FFNewAtlantis05
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01295A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 60
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 2
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 100
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01295A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 200
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 100
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis02Misc
+      Object: 042C70:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EclipticFaction
+      Object: 27028D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Captain
+      Object: 08E2D9:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Crew02
+      Object: 08E2D9:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05_LandingFactionShip
+      Object: 041C5F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SmugglerShip
+      Object: 08E2D9:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05_Credits_Medium
+      Object: 089FB2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Slate
+      Object: 08E2D9:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05_Credits_Small
+      Object: 089FB4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Contraband
+      Object: 08E2D9:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05_Slate
+      Object: 08D0E9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_landingMarker
+      Object: 08E2D9:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis06
+      Object: 089F4E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Crew01
+      Object: 08E2D9:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05_TL_Captain_Greet
+      Object: 089FB3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05_MissionCargoTypeContraband
+      Object: 08B011:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chest
+      Object: 08E2D9:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ShipInterior
+      Object: 08E2D9:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFriendFaction
+      Object: 106C31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05_070_Move_Captain
+      Object: 042C71:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ShipCrew
+      Object: 08E2D9:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpawnMarker
+      Object: 08E2D9:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05_Global
+      Object: 08B012:Starfield.esm
+  Fragments:
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0090_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0009_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 100
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0100_Item_01
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 60
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0060_Item_01
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0006_Item_00
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0013_Item_00
+  - Stage: 16
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0016_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0045_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0008_Item_00
+  - Stage: 14
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0014_Item_00
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0095_Item_00
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
+    FragmentName: Fragment_Stage_0007_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 08E2D9:Starfield.esm
+      Alias: 13
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 12
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 08E2D9:Starfield.esm
+        Alias: 28
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 11
+  - Property:
+      Name: ''
+      Object: 08E2D9:Starfield.esm
+      Alias: 24
+    Scripts:
+    - Name: DefaultAliasAddToRefCollectionOnLoad
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RefCollectionToFill
+        Object: 08E2D9:Starfield.esm
+        Alias: 6
+  - Property:
+      Name: ''
+      Object: 08E2D9:Starfield.esm
+      Alias: 25
+    Scripts:
+    - Name: DefaultAliasAddToRefCollectionOnLoad
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RefCollectionToFill
+        Object: 08E2D9:Starfield.esm
+        Alias: 6
+  - Property:
+      Name: ''
+      Object: 08E2D9:Starfield.esm
+      Alias: 29
+    Scripts:
+    - Name: DefaultAliasAddToRefCollectionOnLoad
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RefCollectionToFill
+        Object: 08E2D9:Starfield.esm
+        Alias: 6
+  - Property:
+      Name: ''
+      Object: 08E2D9:Starfield.esm
+      Alias: 30
+    Scripts:
+    - Name: DefaultAliasAddToRefCollectionOnLoad
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RefCollectionToFill
+        Object: 08E2D9:Starfield.esm
+        Alias: 6
+  - Property:
+      Name: ''
+      Object: 08E2D9:Starfield.esm
+      Alias: 32
+    Scripts:
+    - Name: DefaultAliasAddToRefCollectionOnLoad
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RefCollectionToFill
+        Object: 08E2D9:Starfield.esm
+        Alias: 6
+  - Property:
+      Name: ''
+      Object: 08E2D9:Starfield.esm
+      Alias: 17
+    Scripts:
+    - Name: defaultaliasonread
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 3
+  - Property:
+      Name: ''
+      Object: 08E2D9:Starfield.esm
+      Alias: 18
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 16
+  - Property:
+      Name: ''
+      Object: 08E2D9:Starfield.esm
+      Alias: 21
+    Scripts:
+    - Name: BEBlockPilotSeatScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PilotSeatNotAuthorizedMessage
+        Object: 133E4A:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 08E2D9:Starfield.esm
+      Alias: 19
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 90
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Durchsuchung und Beschlagnahmung
+  - Language: English
+    String: Search and Seizure
+  - Language: Spanish
+    String: Búsqueda y captura
+  - Language: French
+    String: Recherche et saisie
+  - Language: Italian
+    String: Perquisizione e sequestro
+  - Language: Japanese
+    String: 捜索と押収
+  - Language: Polish
+    String: Przeszukanie i przejęcie
+  - Language: Portuguese_Brazil
+    String: Busca e Confisco
+Data:
+  Flags:
+  - AllowRepeatedStages
+  - RunOnce
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+TextDisplayGlobals:
+- 089FB2:Starfield.esm
+- 089FB4:Starfield.esm
+UnusedConditions: []
+Stages:
+- Flags:
+  - RunOnStart
+  LogEntries:
+  - Flags: []
+    Note: Quest start
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Deprecated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Disable ship stuff
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Read the slate'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi vermutet, dass ein Schmuggler über den Raumhafen Waren einführt. Von Agent Platon habe ich Beweise erhalten, die mir helfen, den Fall zu lösen.
+      - Language: English
+        String: Sergeant Yumi suspects a smuggler is bringing in goods through the spaceport. I obtained evidence from Agent Plato which will help me solve the case.
+      - Language: Spanish
+        String: El sargento Yumi sospecha que un contrabandista está metiendo productos a través del espaciopuerto. He conseguido pruebas que me ayudarán a resolver el caso gracias al agente Platón.
+      - Language: French
+        String: Le sergent Yumi soupçonne qu'un contrebandier fait transiter des marchandises illégales par le port spatial. J'ai obtenu des preuves auprès de l'agent Platon qui devraient m'aider à résoudre l'affaire.
+      - Language: Italian
+        String: Il sergente Yumi sospetta che nello spazioporto stia operando un contrabbandiere. Ho ottenuto delle prove dall’agente Plato che mi aiuteranno a risolvere il caso.
+      - Language: Japanese
+        String: ユミ軍曹は密輸業者が宇宙港を経由して物品を持ち込んでいるとにらんでいる。エージェント・プラトンから事件の解決に役立つ証拠を入手した
+      - Language: Polish
+        String: Sierżant Yumi podejrzewa, że ktoś przemyca towar przez port kosmiczny. Mam dowody od agenta Platona, które pomogą mi rozwiązać tę sprawę.
+      - Language: Portuguese_Brazil
+        String: O sargento Yumi suspeita que um contrabandista está trazendo mercadorias pelo espaçoporto. Obtive provas com o agente Platão que me ajudarão a resolver o caso.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Remove from faction
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Technician 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jade Swan named as suspect
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Claire de Lune named as suspect
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Izanagi named as suspect
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Correct ship named
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Note: Talked to Yumi
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 11
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Captain distance check - deprecated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 12
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player takes bargain small
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 13
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player takes bargain
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 14
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player says no to bargain
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player convinced Captain to stand down
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 16
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 08E2D9:Starfield.esm
+        SecondParameter: 4
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 08E2D9:Starfield.esm
+        SecondParameter: 12
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 08E2D9:Starfield.esm
+        SecondParameter: 13
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 08E2D9:Starfield.esm
+        SecondParameter: 14
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 08E2D9:Starfield.esm
+        SecondParameter: 15
+    Note: Chest is searched
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to the port workers'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi vermutet, dass ein Schmuggler über den Raumhafen Waren einführt. Er hat mich gebeten, einige Arbeiter im Raumhafen zu befragen und die Aussagen mit Informationen von Aegis abzugleichen.
+      - Language: English
+        String: Sergeant Yumi suspects a smuggler is bringing in goods through the spaceport. He's asked me to interview a few port workers and cross reference their testimony with information from Aegis.
+      - Language: Spanish
+        String: El sargento Yumi sospecha que un contrabandista está metiendo productos a través del espaciopuerto. Me ha pedido que interrogue a un par de trabajadores del puerto y coteje su testimonio con la información de Égida.
+      - Language: French
+        String: Le sergent Yumi soupçonne qu'un contrebandier fait transiter des marchandises illégales par le port spatial. Il m'a demandé d'interroger les employés du port et de croiser leur témoignage avec les informations d'Aegis.
+      - Language: Italian
+        String: Il sergente Yumi sospetta che nello spazioporto stia operando un contrabbandiere. Mi ha chiesto di interrogare alcuni portuali e confrontare le loro testimonianze con le informazioni dell’Aegis.
+      - Language: Japanese
+        String: ユミ軍曹は密輸業者が宇宙港を経由して物品を持ち込んでいるとにらんでいる。港の労働者数人に話を聞き、その証言をイージスが持っている情報と相互参照するよう指示された
+      - Language: Polish
+        String: Sierżant Yumi podejrzewa, że ktoś przemyca towar przez port kosmiczny. Poprosił mnie o przesłuchanie kilku pracowników i porównanie ich zeznań z informacjami z Egidy.
+      - Language: Portuguese_Brazil
+        String: O sargento Yumi suspeita que um contrabandista está trazendo mercadorias pelo espaçoporto. Ele me pediu para entrevistar alguns funcionários do porto e cruzar os testemunhos com as informações da Aegis.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Note: Technician talked to
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Get slate from Aegis'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi vermutet, dass ein Schmuggler über den Raumhafen Waren einführt. Ich habe einen Arbeiter im Raumhafen befragt und sollte die Aussage mit Informationen von Aegis abgleichen.
+      - Language: English
+        String: Sergeant Yumi suspects a smuggler is bringing in goods through the spaceport. I interviewed a port worker and should cross reference their testimony with information from Aegis.
+      - Language: Spanish
+        String: El sargento Yumi sospecha que un contrabandista está metiendo productos a través del espaciopuerto. He interrogado a un trabajador del puerto; debería cotejar su testimonio con la información de Égida.
+      - Language: French
+        String: Le sergent Yumi soupçonne qu'un contrebandier fait transiter des marchandises illégales par le port spatial. J'ai interrogé un employé du port et je dois maintenant croiser son témoignage avec les informations d'Aegis.
+      - Language: Italian
+        String: Il sergente Yumi sospetta che nello spazioporto stia operando un contrabbandiere. Ho interrogato un portuale e ora dovrei confrontare la sua testimonianza con le informazioni dell’Aegis.
+      - Language: Japanese
+        String: ユミ軍曹は密輸業者が宇宙港を経由して物品を持ち込んでいるとにらんでいる。港の労働者に話を聞いた。この証言をイージスが持っている情報と相互参照しよう
+      - Language: Polish
+        String: Sierżant Yumi podejrzewa, że ktoś przemyca towar przez port kosmiczny. Muszę porównać zeznania osoby pracującej w porcie z informacjami z Egidy.
+      - Language: Portuguese_Brazil
+        String: O sargento Yumi suspeita que um contrabandista está trazendo mercadorias pelo espaçoporto. Entrevistei alguém do porto e vou cruzar o testemunho dado com as informações da Aegis.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Report back to Sergeant Yumi'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi vermutet, dass ein Schmuggler über den Raumhafen Waren einführt. Ich habe die Beweise erhalten, die ich benötige, um das Schiff zu finden. Ich sollte Sergeant Yumi Bericht erstatten und in Erfahrung bringen, wie der nächste Schritt aussieht.
+      - Language: English
+        String: Sergeant Yumi suspects a smuggler is bringing in goods through the spaceport. I obtained the evidence I need to find the ship. I should report back to Sergeant Yumi and find out what comes next.
+      - Language: Spanish
+        String: El sargento Yumi sospecha que un contrabandista está metiendo productos a través del espaciopuerto. He conseguido las pruebas que necesito para dar con la nave. Debería informar al sargento Yumi y descubrir qué hacer a continuación.
+      - Language: French
+        String: Le sergent Yumi soupçonne qu'un contrebandier fait transiter des marchandises illégales par le port spatial. J'ai obtenu les preuves dont j'avais besoin pour identifier le vaisseau. Je dois faire mon rapport au sergent Yumi et réfléchir à la suite du plan.
+      - Language: Italian
+        String: Il sergente Yumi sospetta che nello spazioporto stia operando un contrabbandiere. Ho recuperato le prove che mi servono per individuare la nave in questione. Dovrei fare rapporto al sergente Yumi e vedere cosa succede.
+      - Language: Japanese
+        String: ユミ軍曹は密輸業者が宇宙港を経由して物品を持ち込んでいるとにらんでいた。当該船を見つけるのに必要な証拠を入手した。ユミ軍曹の元へ戻り、報告して次の手順を聞こう
+      - Language: Polish
+        String: Sierżant Yumi podejrzewał, że ktoś przemyca towar przez port kosmiczny. Mam już dowody niezbędne do znalezienia statku winowajcy. Muszę zameldować sierżantowi Yumiemu i dowiedzieć się, co dalej.
+      - Language: Portuguese_Brazil
+        String: O sargento Yumi suspeita que um contrabandista está trazendo mercadorias pelo espaçoporto. Consegui as provas que preciso para encontrar a nave. Vou falar com o sargento Yumi e descobrir qual é o próximo passo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 45
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player gets slate
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi vermutet, dass ein Schmuggler über den Raumhafen Waren einführt. Von Agent Platon habe ich Beweise erhalten, die mir helfen, den Fall zu lösen.
+      - Language: English
+        String: Sergeant Yumi suspects a smuggler is bringing in goods through the spaceport. I obtained evidence from Agent Plato which will help me solve the case.
+      - Language: Spanish
+        String: El sargento Yumi sospecha que un contrabandista está metiendo productos a través del espaciopuerto. He conseguido pruebas que me ayudarán a resolver el caso gracias al agente Platón.
+      - Language: French
+        String: Le sergent Yumi soupçonne qu'un contrebandier fait transiter des marchandises illégales par le port spatial. J'ai obtenu des preuves auprès de l'agent Platon qui devraient m'aider à résoudre l'affaire.
+      - Language: Italian
+        String: Il sergente Yumi sospetta che nello spazioporto stia operando un contrabbandiere. Ho ottenuto delle prove dall’agente Plato che mi aiuteranno a risolvere il caso.
+      - Language: Japanese
+        String: ユミ軍曹は密輸業者が宇宙港を経由して物品を持ち込んでいるとにらんでいる。エージェント・プラトンから事件の解決に役立つ証拠を入手した
+      - Language: Polish
+        String: Sierżant Yumi podejrzewa, że ktoś przemyca towar przez port kosmiczny. Mam dowody od agenta Platona, które pomogą mi rozwiązać tę sprawę.
+      - Language: Portuguese_Brazil
+        String: O sargento Yumi suspeita que um contrabandista está trazendo mercadorias pelo espaçoporto. Obtive provas com o agente Platão que me ajudarão a resolver o caso.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Complete objective and skip to 60
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi vermutet, dass ein Schmuggler über den Raumhafen Waren einführt. Ich habe die Ermittlung durchgeführt und Sergeant Yumi von meinen Ergebnissen berichtet.
+      - Language: English
+        String: Sergeant Yumi suspects a smuggler is bringing in goods through the spaceport. I worked the investigation and reported my findings to Sergeant Yumi.
+      - Language: Spanish
+        String: El sargento Yumi sospecha que un contrabandista está metiendo productos a través del espaciopuerto. He investigado el asunto e informado al sargento de mis hallazgos.
+      - Language: French
+        String: Le sergent Yumi soupçonne qu'un contrebandier fait transiter des marchandises illégales par le port spatial. J'ai mené l'enquête et fait mon rapport au sergent Yumi.
+      - Language: Italian
+        String: Il sergente Yumi sospetta che nello spazioporto stia operando un contrabbandiere. Ho compiuto delle indagini e fatto rapporto al sergente Yumi.
+      - Language: Japanese
+        String: ユミ軍曹は密輸業者が宇宙港を経由して物品を持ち込んでいるとにらんでいる。状況を捜査して、その結果を軍曹に報告した
+      - Language: Polish
+        String: Sierżant Yumi podejrzewa, że ktoś przemyca towar przez port kosmiczny. Wysłuchał już mojego meldunku w tej sprawie.
+      - Language: Portuguese_Brazil
+        String: O sargento Yumi suspeita que um contrabandista está trazendo mercadorias pelo espaçoporto. Fiz uma investigação e levei minhas descobertas ao sargento Yumi.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 21D792:Starfield.esm
+        SecondParameter: 721
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 21D792:Starfield.esm
+        SecondParameter: 500
+    Note: Smuggler ship enabled
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi vermutet, dass ein Schmuggler über den Raumhafen Waren einführt. Ich habe die Ermittlung durchgeführt und Sergeant Yumi von meinen Ergebnissen berichtet.
+      - Language: English
+        String: Sergeant Yumi suspects a smuggler is bringing in goods through the spaceport. I worked the investigation and reported my findings to Sergeant Yumi.
+      - Language: Spanish
+        String: El sargento Yumi sospecha que un contrabandista está metiendo productos a través del espaciopuerto. He investigado el asunto e informado al sargento de mis hallazgos.
+      - Language: French
+        String: Le sergent Yumi soupçonne qu'un contrebandier fait transiter des marchandises illégales par le port spatial. J'ai mené l'enquête et fait mon rapport au sergent Yumi.
+      - Language: Italian
+        String: Il sergente Yumi sospetta che nello spazioporto stia operando un contrabbandiere. Ho compiuto delle indagini e fatto rapporto al sergente Yumi.
+      - Language: Japanese
+        String: ユミ軍曹は密輸業者が宇宙港を経由して物品を持ち込んでいるとにらんでいる。状況を捜査して、その結果を軍曹に報告した
+      - Language: Polish
+        String: Sierżant Yumi podejrzewa, że ktoś przemyca towar przez port kosmiczny. Wysłuchał już mojego meldunku w tej sprawie.
+      - Language: Portuguese_Brazil
+        String: O sargento Yumi suspeita que um contrabandista está trazendo mercadorias pelo espaçoporto. Fiz uma investigação e levei minhas descobertas ao sargento Yumi.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 21D792:Starfield.esm
+        SecondParameter: 721
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 21D792:Starfield.esm
+        SecondParameter: 500
+      ComparisonValue: 1
+    Note: 'QO: Wait for the Anansi to land'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi vermutet, dass ein Schmuggler über den Raumhafen Waren einführt. Ich habe die Ermittlung durchgeführt und Sergeant Yumi von meinen Ergebnissen berichtet. Derzeit ist der Raumhafen jedoch von einem anderen Schiff belegt.
+      - Language: English
+        String: Sergeant Yumi suspects a smuggler is bringing in goods through the spaceport. I worked the investigation and reported my findings to Sergeant Yumi. However, at the moment the spaceport is occupied by another ship.
+      - Language: Spanish
+        String: El sargento cree que un contrabandista está metiendo productos a través del espaciopuerto. Tras investigar al asunto, he informado al sargento Yumi de mis hallazgos. No obstante, ahora mismo hay otra nave en el espaciopuerto.
+      - Language: French
+        String: Le sergent Yumi soupçonne qu'un contrebandier fait transiter des marchandises illégales par le port spatial. J'ai mené l'enquête et fait mon rapport au sergent Yumi. Mais le port spatial est occupé par un autre vaisseau.
+      - Language: Italian
+        String: Il sergente Yumi sospetta che nello spazioporto stia operando un contrabbandiere. Ho compiuto delle indagini e fatto rapporto al sergente Yumi. Al momento, tuttavia, lo spazioporto è occupato da un’altra nave.
+      - Language: Japanese
+        String: ユミ軍曹は密輸業者が宇宙港を経由して物品を持ち込んでいるとにらんでいる。状況を捜査して、その結果を軍曹に報告した。しかし、現在宇宙港には別の船がいる
+      - Language: Polish
+        String: Sierżant Yumi podejrzewa, że ktoś przemyca towar przez port kosmiczny. Wysłuchał już mojego meldunku w tej sprawie. Obecnie jednak w porcie przebywa inny statek.
+      - Language: Portuguese_Brazil
+        String: O sargento Yumi suspeita que um contrabandista está trazendo mercadorias pelo espaçoporto. Fiz uma investigação e levei minhas descobertas ao sargento Yumi. No entanto, o espaçoporto está ocupado por outra nave no momento.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 70
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Objective to bargain
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 80
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Nothing
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 90
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Obtained contraband
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi vermutet, dass ein Schmuggler über den Raumhafen Waren einführt. Ich habe die Angelegenheit untersucht und sollte Sergeant Yumi von meinen Ergebnissen berichten.
+      - Language: English
+        String: Sergeant Yumi suspects a smuggler is bringing in goods through the spaceport. I investigated the matter and should report back to Sergeant Yumi.
+      - Language: Spanish
+        String: El sargento Yumi sospecha que un contrabandista está metiendo productos a través del espaciopuerto. He investigado el asunto y debería informar al sargento.
+      - Language: French
+        String: Le sergent Yumi soupçonne qu'un contrebandier fait transiter des marchandises illégales par le port spatial. J'ai mené l'enquête et je dois faire mon rapport au sergent Yumi.
+      - Language: Italian
+        String: Il sergente Yumi sospetta che nello spazioporto stia operando un contrabbandiere. Dopo aver indagato, dovrei fare rapporto al sergente.
+      - Language: Japanese
+        String: ユミ軍曹は密輸業者が宇宙港を経由して物品を持ち込んでいるとにらんでいる。状況を捜査したので、その結果を軍曹に報告しよう
+      - Language: Polish
+        String: Sierżant Yumi podejrzewa, że ktoś przemyca towar przez port kosmiczny. Śledztwo w tej sprawie już za mną, mogę przekazać informacje sierżantowi Yumiemu.
+      - Language: Portuguese_Brazil
+        String: O sargento Yumi suspeita que um contrabandista está trazendo mercadorias pelo espaçoporto. Investiguei o caso e agora devo falar com o sargento.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 95
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Contraband removed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 08B012:Starfield.esm
+      ComparisonValue: 4
+    Note: Quest complete
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi hatte vermutet, dass ein Schmuggler über den Raumhafen Waren einführt. Ich habe die Angelegenheit untersucht und dem Sergeant von meinen Ergebnissen berichtet.
+      - Language: English
+        String: Sergeant Yumi suspected a smuggler was bringing in goods through the spaceport. I investigated the matter and reported my findings to the Sergeant.
+      - Language: Spanish
+        String: El sargento Yumi sospechaba que un contrabandista estaba metiendo productos a través del espaciopuerto. Investigué el asunto e informé de mis hallazgos al sargento.
+      - Language: French
+        String: Le sergent Yumi soupçonnait qu'un contrebandier faisait transiter des marchandises illégales par le port spatial. J'ai mené l'enquête et fait mon rapport au sergent Yumi.
+      - Language: Italian
+        String: Il sergente Yumi sospettava che nello spazioporto stesse operando un contrabbandiere. Ho compiuto delle indagini e fatto rapporto al sergente Yumi.
+      - Language: Japanese
+        String: ユミ軍曹は密輸業者が宇宙港を経由して物品を持ち込んでいるとにらんでいた。状況を捜査して、その結果を軍曹に報告した
+      - Language: Polish
+        String: Sierżant Yumi podejrzewał, że ktoś przemyca towar przez port kosmiczny. Sierżant Yumi już wysłuchał mojego meldunku w tej sprawie.
+      - Language: Portuguese_Brazil
+        String: O sargento Yumi suspeita que um contrabandista está trazendo mercadorias pelo espaçoporto. Investiguei o caso e levei minhas descobertas ao sargento.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF34:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+  - Flags:
+    - CompleteQuest
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 08B012:Starfield.esm
+      ComparisonValue: 4
+    Note: Quest complete
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi hatte vermutet, dass ein Schmuggler über den Raumhafen Waren einführt. Ich habe die Angelegenheit untersucht und dem Sergeant von meinen Ergebnissen berichtet.
+      - Language: English
+        String: Sergeant Yumi suspected a smuggler was bringing in goods through the spaceport. I investigated the matter and reported my findings to the Sergeant.
+      - Language: Spanish
+        String: El sargento Yumi sospechaba que un contrabandista estaba metiendo productos a través del espaciopuerto. Investigué el asunto e informé de mis hallazgos al sargento.
+      - Language: French
+        String: Le sergent Yumi soupçonnait qu'un contrebandier faisait transiter des marchandises illégales par le port spatial. J'ai mené l'enquête et fait mon rapport au sergent Yumi.
+      - Language: Italian
+        String: Il sergente Yumi sospettava che nello spazioporto stesse operando un contrabbandiere. Ho compiuto delle indagini e fatto rapporto al sergente.
+      - Language: Japanese
+        String: ユミ軍曹は密輸業者が宇宙港を経由して物品を持ち込んでいるとにらんでいた。船から禁制品を手に入れ、ユミ軍曹に報告した
+      - Language: Polish
+        String: Sierżant Yumi podejrzewał, że ktoś przemyca towar przez port kosmiczny. Sierżant już wysłuchał mojego meldunku w tej sprawie.
+      - Language: Portuguese_Brazil
+        String: O sargento Yumi suspeita que um contrabandista está trazendo mercadorias pelo espaçoporto. Investiguei o caso e levei minhas descobertas ao sargento.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF3C:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B10:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Stop quest if case solved improperly
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 2
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Warte auf die Landung der Anansi.
+    - Language: English
+      String: Wait for the Anansi to land
+    - Language: Spanish
+      String: Espera a que la Anansi aterrice.
+    - Language: French
+      String: Attendez que l'Anansi atterrisse.
+    - Language: Italian
+      String: Attendi che l’Anansi atterri
+    - Language: Japanese
+      String: アナンシが着陸するのを待つ
+    - Language: Polish
+      String: Poczekaj, aż Anansi wyląduje
+    - Language: Portuguese_Brazil
+      String: Espere a Anansi pousar
+  Targets:
+  - AliasID: 5
+- Index: 3
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Lies die Slate und finde das Schmugglerschiff.
+    - Language: English
+      String: Read the slate and identify the smuggler's ship
+    - Language: Spanish
+      String: Lee la tábula e identifica la nave del contrabandista.
+    - Language: French
+      String: Lisez la tablette et identifiez le vaisseau du contrebandier.
+    - Language: Italian
+      String: Leggi la tabula e individua la nave del contrabbandiere
+    - Language: Japanese
+      String: スレートを読んで密輸船を確認する
+    - Language: Polish
+      String: Przeczytaj tabliczkę i zidentyfikuj statek przemytniczy
+    - Language: Portuguese_Brazil
+      String: Leia o códice e encontre a nave do contrabandista
+  Targets:
+  - AliasID: 17
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit den Arbeitern im Raumhafen.
+    - Language: English
+      String: Speak to the port workers
+    - Language: Spanish
+      String: Habla con los trabajadores del puerto.
+    - Language: French
+      String: Parlez aux employés du port spatial.
+    - Language: Italian
+      String: Parla con i portuali
+    - Language: Japanese
+      String: 港の労働者と話す
+    - Language: Polish
+      String: Porozmawiaj z pracownikami portowymi
+    - Language: Portuguese_Brazil
+      String: Fale com os funcionários do porto
+  Targets:
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 08E2D9:Starfield.esm
+        SecondParameter: 5
+  - AliasID: 14
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 08E2D9:Starfield.esm
+        SecondParameter: 40
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Beschaffe die Schiffsaufzeichnungen von Aegis.
+    - Language: English
+      String: Obtain the ship records from Aegis
+    - Language: Spanish
+      String: Hazte con los registros de nave de Égida.
+    - Language: French
+      String: Obtenez les registres de vaisseaux auprès d'Aegis.
+    - Language: Italian
+      String: Ottieni i registri navali dall’Aegis
+    - Language: Japanese
+      String: イージスから船の記録を入手する
+    - Language: Polish
+      String: Zdobądź dane statków z Egidy
+    - Language: Portuguese_Brazil
+      String: Consiga os registros da nave com a Aegis
+  Targets:
+  - AliasID: 16
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erstatte Sergeant Yumi Bericht.
+    - Language: English
+      String: Report to Sergeant Yumi
+    - Language: Spanish
+      String: Informa al sargento Yumi.
+    - Language: French
+      String: Faites votre rapport au sergent Yumi.
+    - Language: Italian
+      String: Fai rapporto al sergente Yumi
+    - Language: Japanese
+      String: ユミ軍曹に報告する
+    - Language: Polish
+      String: Zgłoś się do sierżanta Yumiego
+    - Language: Portuguese_Brazil
+      String: Apresente-se ao sargento Yumi
+  Targets:
+  - {}
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Beschaffe die Schmuggelware.
+    - Language: English
+      String: Obtain the contraband
+    - Language: Spanish
+      String: Hazte con el contrabando.
+    - Language: French
+      String: Récupérez la contrebande.
+    - Language: Italian
+      String: Ottieni la merce di contrabbando
+    - Language: Japanese
+      String: 禁制品を入手する
+    - Language: Polish
+      String: Zdobądź kontrabandę
+    - Language: Portuguese_Brazil
+      String: Obtenha o contrabando
+  Targets:
+  - AliasID: 18
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 08E2D9:Starfield.esm
+        SecondParameter: 16
+  - AliasID: 13
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 08E2D9:Starfield.esm
+        SecondParameter: 16
+      ComparisonValue: 1
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Verhandle mit dem Captain.
+    - Language: English
+      String: (Optional) Bargain with the Captain
+    - Language: Spanish
+      String: (Opcional) Llega a un acuerdo con el capitán.
+    - Language: French
+      String: (Optionnel) Marchandez avec le capitaine.
+    - Language: Italian
+      String: (Opzionale) Negozia col capitano
+    - Language: Japanese
+      String: (オプション)船長と取引する
+    - Language: Polish
+      String: (Opcj.) Targuj się z osobą dowodzącą statkiem
+    - Language: Portuguese_Brazil
+      String: (Opc.) Negocie com o comandante
+  Targets:
+  - AliasID: 13
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erstatte Sergeant Yumi Bericht.
+    - Language: English
+      String: Report to Sergeant Yumi
+    - Language: Spanish
+      String: Informa al sargento Yumi.
+    - Language: French
+      String: Faites votre rapport au sergent Yumi.
+    - Language: Italian
+      String: Fai rapporto al sergente Yumi
+    - Language: Japanese
+      String: ユミ軍曹に報告する
+    - Language: Polish
+      String: Zgłoś się do sierżanta Yumiego
+    - Language: Portuguese_Brazil
+      String: Apresente-se ao sargento Yumi
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: SergeantYumi
+  Flags: []
+  ALFG: 0
+  UniqueActor: 24C49F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: AgentPlato
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0124B7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Technician01
+  Flags:
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 254219:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: Technician02
+  Flags:
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 254215:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 3
+  Name: New Atlantis
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01295A:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: landingMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 2CFDE8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: SmugglerShip
+  Flags:
+  - Optional
+  - AllowDisabled
+  - InitiallyDisabled
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 089FB8:Starfield.esm
+    AliasID: 4
+  LinkedAliases:
+  - AliasID: 4
+  Factions:
+  - 041C5F:Starfield.esm
+  PackageData:
+  - 08D0F2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 9
+  Name: shipInterior
+  Flags:
+  - Optional
+  - AllowCleared
+  ALFG: 0
+  ReferenceAliasLocation:
+    AliasID: 5
+    Keyword: 0055E9:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: SpawnMarker01
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 03F7E7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: SpawnMarker02
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 03F7E7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: SpawnMarker03
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 03F7E7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: SpawnMarker04
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 03F7E7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: SpawnMarker05
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 03F7E7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: CaptainMarker
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 2C0FDB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: Captain
+  Flags:
+  - Optional
+  - AllowDisabled
+  - InitiallyDisabled
+  - NoPickpocket
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 089FB6:Starfield.esm
+    AliasID: 12
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 18
+  - Keyword: 05D5E7:Starfield.esm
+    AliasID: 27
+  Factions:
+  - 106C31:Starfield.esm
+  - 27028D:Starfield.esm
+  PackageData:
+  - 228D35:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: Crew01
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  - InitiallyDisabled
+  - NoPickpocket
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 2DFFF2:Starfield.esm
+    AliasID: 10
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 10
+  Factions:
+  - 106C31:Starfield.esm
+  PackageData:
+  - 228D34:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: Crew02
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  - InitiallyDisabled
+  - NoPickpocket
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 2DFFF2:Starfield.esm
+    AliasID: 22
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 22
+  PackageData:
+  - 228D34:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: Crew03
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  - InitiallyDisabled
+  - NoPickpocket
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 2DFFF2:Starfield.esm
+    AliasID: 23
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 23
+  PackageData:
+  - 228D34:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: Crew04
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  - InitiallyDisabled
+  - NoPickpocket
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 2DFFF2:Starfield.esm
+    AliasID: 31
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 31
+  PackageData:
+  - 228D34:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: Crew05
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  - InitiallyDisabled
+  - NoPickpocket
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 2DFFF2:Starfield.esm
+    AliasID: 33
+  LinkedAliases:
+  - Keyword: 05D5E6:Starfield.esm
+    AliasID: 33
+  PackageData:
+  - 228D34:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 6
+    MaxInitialFillCount: 10
+    ALAM: 0
+    ReferenceAlias:
+      ID: 6
+      Name: ShipCrew
+      Flags:
+      - Optional
+      - AllowDisabled
+      - UsesStoredText
+      - InitiallyDisabled
+      ALFG: 0
+      Factions:
+      - 106C31:Starfield.esm
+      PackageData:
+      - 228D34:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: Slate
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  - CreateRefTemp
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: Chest
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 2AC963:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: PilotSeat
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 00B7BA:Starfield.esm
+  Keywords:
+  - 1CD02B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: Contraband
+  Flags:
+  - Optional
+  - QuestObject
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 08B011:Starfield.esm
+    AliasID: 5
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: PlayerAlias
+  Flags:
+  - Optional
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: NPCFurniture
+  Flags:
+  - Optional
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 3E9190:Starfield.esm
+    AliasID: 12
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: CockpitTrigger
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 9
+    RefType: 2C0FDA:Starfield.esm
+  VoiceTypes: Null

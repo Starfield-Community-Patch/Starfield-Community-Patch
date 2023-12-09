@@ -1,0 +1,601 @@
+FormKey: 1A8B64:Starfield.esm
+EditorID: City_Akila_Jansen
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 100
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 200
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 1A8B64:Starfield.esm
+          Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MarkoJensan
+      Object: 1A8B64:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SimoneJansen
+      Object: 1A8B64:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimArchetypeFriendly
+      Object: 03D290:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_Akila_Jansen_MilenaSpace
+      Object: 1A8B65:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+  Fragments:
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0025_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0510_Item_00
+  - Stage: 520
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0520_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 9000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_9000_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Aller Anfang ist schwer
+  - Language: English
+    String: Rough Landings
+  - Language: Spanish
+    String: Aterrizajes forzosos
+  - Language: French
+    String: Arrivée compliquée
+  - Language: Italian
+    String: Atterraggi di fortuna
+  - Language: Japanese
+    String: 不時着
+  - Language: Polish
+    String: Twarde lądowanie
+  - Language: Portuguese_Brazil
+    String: Aterrisagens Brutas
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+Filter: '\Settlement\AkilaCity\'
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: STAGE 0
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ON START
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 25
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Guard pointer
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Eine Wache erwähnte, dass Familie Jansen seit dem Umzug nach Akila City schwere Zeiten durchlebt. Vielleicht kann ich ihnen weiterhelfen.
+      - Language: English
+        String: A guard mentioned the Jansen family has hit hard times since they've immigrated to Akila City. I might be able to help them out.
+      - Language: Spanish
+        String: Un guardia mencionó que la familia Jansen las ha pasado canutas desde que se trasladó a la ciudad de Akila. A lo mejor puedo echarles una mano.
+      - Language: French
+        String: Un garde m'a dit que la famille Jansen connaissait des difficultés depuis son arrivée à Akila City. Je pourrai peut-être les aider.
+      - Language: Italian
+        String: Una guardia mi ha accennato che la famiglia Jansen ha passato momenti difficili da quando è immigrata ad Akila City. Potrei essere in grado di aiutarla.
+      - Language: Japanese
+        String: ある警備員によれば、ジャンセン家はアキラ・シティに移住して以来生活が厳しいらしい。彼らの力になれるかもしれない
+      - Language: Polish
+        String: Strażnik wspomniał, że rodzinie Jansenów kiepsko się powodzi, odkąd sprowadzili się do miasta Akila. Może uda mi się im jakoś pomóc.
+      - Language: Portuguese_Brazil
+        String: Um guarda mencionou que a família Jansen tem passado por momentos difíceis desde que se mudou para a cidade de Akila. Talvez eu consiga ajudá-los.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked with Marko
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Marko Jansen ist nach Akila City gezogen, dort aber ziemlich aufgeschmissen. Er hat mich verzweifelt gebeten, Milena Axelrod zu kontaktieren, die Cousine seiner Frau. Vielleicht hat sie Arbeit für ihn. Milena ist eine Händlerin, ihr Schiff ist irgendwo im Cheyenne-System.
+      - Language: English
+        String: Marko Jansen moved to Akila City and has been just stuck. He's desperate and is hoping I can contact his wife's cousin, Milena Axelrod, to see if she can throw some work their way. Milena is a merchant and her ship is in the Cheyenne System.
+      - Language: Spanish
+        String: Marko Jansen se mudó a la ciudad de Akila y no ha podido salir desde entonces. Está desesperado y me pide que contacte con la prima de su mujer, Milena Axelrod, para ver si puede echarles una mano. Milena es comerciante y su nave está en el sistema de Cheyenne.
+      - Language: French
+        String: Marko Jansen a déménagé à Akila City, mais se retrouve sans travail et sa situation est désespérée. Il aimerait que je contacte la cousine de sa femme, Milena Axelrod, pour savoir si elle aurait du travail pour lui. Milena est marchande, son vaisseau est dans le système Cheyenne.
+      - Language: Italian
+        String: Marko Jansen si è trasferito ad Akila City ed è rimasto bloccato. Spinto dalla disperazione, spera che io possa contattare la cugina della moglie, Milena Axelrod, per vedere se può procurargli del lavoro. Milena è una mercante e la sua nave si trova nel sistema di Cheyenne.
+      - Language: Japanese
+        String: マルコ・ジャンセンはアキラ・シティに引っ越して以来、生活が行き詰まっている。彼は必死で、妻のいとこミレナ・アクセルロッドに仕事をもらえないか確認してきてほしいと頼んできた。ミレナは商人で、彼女の船はアキラ星系内にいる
+      - Language: Polish
+        String: Marko Jansen przeniósł się do miasta Akila i znalazł się w kropce. Jest zdesperowany i ma nadzieję, że skontaktuję się w jego imieniu z kuzynką jego żony, Mileną Axelrod, która znajdzie dla niego jakieś zajęcie. Milena jest handlarką, a jej statek znajduje się w układzie Cheyenne.
+      - Language: Portuguese_Brazil
+        String: Marko Janson se mudou para a cidade de Akila, mas as coisas andam meio paradas. Ele está desesperado e espera que eu possa entrar em contato com a prima de sua esposa, Milena Axelrod, para ver se ela pode descolar uns trabalhos. Milena é comerciante, e sua nave está no sistema de Cheyenne.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Arrived at Agamon C
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Pirates killed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Milena Talked To
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Milena Axelrod gerettet, sie ist bereit, den Jansens zu helfen. Leider hat sie aber ein Problem mit dem Gesetz in Akila City. Sie bat mich, ihren Namen bei Bürgermeister Cartwright oder einem Fixer der Handelsaufsicht namens Tom Starrett reinzuwaschen.
+      - Language: English
+        String: I met and saved Milena Axelrod - and she's happy to help the Jansens out. The only problem is she ran afoul of the law in Akila City. She asked me to clear her name either with Mayor Elias Cartwright or a Trade Authority fixer named Tom Starrett.
+      - Language: Spanish
+        String: Conocí a Milena Axelrod y la salvé. Se alegra de poder ayudar a los Jansen. El único problema es que infringió la ley en la ciudad de Akila. Me ha pedido que limpie su nombre con el alcalde Elias Cartwright o un empleado de la Autoridad Comercial llamado Tom Starrett.
+      - Language: French
+        String: J'ai sauvé Milena Axelrod, et elle est ravie d'aider les Jansen en retour. Le seul problème, c'est qu'elle est recherchée à Akila City. Elle m'a demandé de la blanchir auprès du maire Elias Cartwright ou d'aller voir un fixer de l'Autorité commerciale nommé Tom Starrett.
+      - Language: Italian
+        String: Ho incontrato e salvato Milena Axelrod, che è felice di aiutare i Jensen. L’unico problema è che si è impegolata con la legge ad Akila City. Mi ha chiesto di riabilitare il suo nome o col sindaco Elias Cartwright o con un risolutore dell’Autorità Commerciale di nome Tom Starrett.
+      - Language: Japanese
+        String: ミレナ・アクセルロッドと出会い、彼女を救った。彼女は喜んでジャンセン家を助けると言う。ただし、彼女はアキラ・シティで法に触れることをやってしまったらしい。エリアス・カートライト市長か、貿易管理局にいるフィクサーのトム・スターレットと話をつけ、ミレナの犯罪歴を抹消するよう頼まれた
+      - Language: Polish
+        String: 'Udało mi się odnaleźć i uratować Milenę Axelrod, która z chęcią pomogłaby Jansenom, ale na przeszkodzie stoi jeden problem: ma problemy prawne w mieście Akila. Poprosiła mnie o oczyszczenie jej imienia u burmistrza Eliasa Cartwrighta lub załatwienie jej fałszywych dokumentów u Toma Starretta z Urzędu Handlowego.'
+      - Language: Portuguese_Brazil
+        String: Eu conheci e salvei Milena Axelrod, e ela está disposta a ajudar os Jansens de bom grado. O único problema é que ela se deparou com uns probleminhas legais na cidade de Akila. Ela me pediu para ajudar a limpar o nome dela com o prefeito Elias Cartwright ou com um funcionário da Autoridade Comercial chamado Tom Starrett.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Cleared up Milena's problem
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tom Starrett helped (Trade Authority)
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Tom Starrett wird Milena eine gefälschte Landeerlaubnis ausstellen, damit sie sicher nach Akila City kommt. Ich sollte Marko Jansen die gute Nachricht melden.
+      - Language: English
+        String: Tom Starrett is going to provide Milena with some forged credentials that'll get her safe passage back into Akila City. I should let Marko Jansen know the good news.
+      - Language: Spanish
+        String: Tom Starrett proporcionará una identidad falsa a Milena para que pueda entrar a la ciudad de Akila sin problemas. Debería contarle a Marko Jansen la buena nueva.
+      - Language: French
+        String: Tom Starrett va fournir de faux identifiants à Milena qui lui permettront d'aller à Akila City sans problème. Je devrais informer Marko Jansen de cette bonne nouvelle.
+      - Language: Italian
+        String: Tom Starrett fornirà a Milena delle false credenziali che le garantiranno un passaggio sicuro per Akila City. Dovrei dare la buona notizia a Marko Jansen.
+      - Language: Japanese
+        String: トム・スターレットはミレナのために偽の身分情報を提供してくれることになった。これで彼女は安全にアキラ・シティへ戻れる。マルコ・ジャンセンによい知らせを届けよう
+      - Language: Polish
+        String: Tom Starrett zapewni Milenie podrobione dokumenty, które zapewnią jej możliwość bezpiecznego powrotu do miasta Akila. Muszę przekazać Markowi Jansenowi dobre wieści.
+      - Language: Portuguese_Brazil
+        String: Tom Starrett vai dar a Milena credenciais falsas para que ela possa voltar com segurança à cidade de Akila. Eu deveria contar as boas novas a Marko Jansen.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 515
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Heard Tom's Spiel
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 520
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mayor Elias Cartwright helped
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Milenas Probleme mit Bürgermeister Elias geklärt. Sie kann frei nach Akila City zurückkehren. Ich sollte Marko Jansen die gute Nachricht melden.
+      - Language: English
+        String: I cleared up Milena's problems with Mayor Elias. She's free and clear to return to Akila City. I should let Marko Jansen know the good news.
+      - Language: Spanish
+        String: Solucioné los problemas de Milena con el alcalde Elias. Ya es libre y puede volver a la ciudad de Akila. Debería contarle a Marko Jansen la buena nueva.
+      - Language: French
+        String: J'ai réglé les problèmes de Milena avec le maire Elias. Elle est maintenant libre de retourner à Akila City. Je devrais informer Marko Jansen de cette bonne nouvelle.
+      - Language: Italian
+        String: Ho risolto i problemi di Milena col sindaco Elias. Ora è libera di tornare ad Akila City. Dovrei dare la buona notizia a Marko Jansen.
+      - Language: Japanese
+        String: エリアス市長と話してミレナの問題を解消した。これで彼女は自由の身でアキラ・シティに戻ることができる。マルコ・ジャンセンにこのよい知らせを届けよう
+      - Language: Polish
+        String: Udało mi się wyjaśnić z burmistrzem Eliasem kwestie związane z Mileną. Może wrócić do miasta Akila. Muszę przekazać Markowi Jansenowi dobre wieści.
+      - Language: Portuguese_Brazil
+        String: Eu resolvi os problemas da Milena com o prefeito Elias. Ela está livre e pronta para voltar à cidade de Akila. Vou dar as notícias ao Marko Jansen.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 522
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Elias SC Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 524
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Elias SC Fail
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 525
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Heard Elias's Spiel
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 1
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: '(QC) Reported to Marko '
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Marko Jansen hat jetzt einen Job und wahre Hoffnung. Er war zutiefst dankbar. Hoffentlich blickt seine Familie jetzt einer besseren Zukunft entgegen.
+      - Language: English
+        String: Marko Jansen now has a job and real hope. He was profoundly grateful. Hopefully it'll set his family up for a much brighter future.
+      - Language: Spanish
+        String: Ahora Marko Jansen tiene trabajo y esperanza. Me lo agradeció de corazón. Espero que a su familia le aguarde un futuro mucho más halagüeño.
+      - Language: French
+        String: Marko Jansen a maintenant un vrai travail, et un véritable espoir. Il était profondément reconnaissant. Avec un peu de chance, ça aidera sa famille à avoir un meilleur avenir.
+      - Language: Italian
+        String: Marko Jansen ha ora un lavoro e una speranza concreta. Mi era profondamente grato. Se tutto va bene, la sua famiglia avrà un futuro molto più roseo.
+      - Language: Japanese
+        String: マルコ・ジャンセンは仕事と真の希望を手に入れ、大いに喜んでくれた。これで彼の一家に明るい未来が訪れるとよいのだが
+      - Language: Polish
+        String: Marko Jansen dostał pracę i odzyskał nadzieję. Był mi za to bardzo wdzięczny. Miejmy nadzieję, że dzięki temu jego rodzinę czeka lepsza przyszłość.
+      - Language: Portuguese_Brazil
+        String: Marko Jansen agora tem um trabalho e esperanças de verdade. Ele ficou profundamente agradecido. Se tudo der certo, sua família terá perspectivas muito melhores.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 1AB4F2:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 2BCBEB:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 9000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: QUEST STOP
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Marko Jansen.
+    - Language: English
+      String: Talk to Marko Jansen
+    - Language: Spanish
+      String: Habla con Marko Jansen.
+    - Language: French
+      String: Parlez à Marko Jansen.
+    - Language: Italian
+      String: Parla con Marko Jansen
+    - Language: Japanese
+      String: マルコ・ジャンセンと話す
+    - Language: Polish
+      String: Porozmawiaj z Markiem Jansenem
+    - Language: Portuguese_Brazil
+      String: Fale com Marko Jansen
+  Targets:
+  - {}
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Triff dich mit Milena Axelrod.
+    - Language: English
+      String: Meet up with Milena Axelrod
+    - Language: Spanish
+      String: Reúnete con Milena Axelrod.
+    - Language: French
+      String: Rencontrez Milena Axelrod.
+    - Language: Italian
+      String: Incontra Milena Axelrod
+    - Language: Japanese
+      String: ミレナ・アクセルロッドと会う
+    - Language: Polish
+      String: Spotkaj się z Mileną Axelrod
+    - Language: Portuguese_Brazil
+      String: Encontre-se com Milena Axelrod
+  Targets:
+  - AliasID: 1
+  - AliasID: 9
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1A8B64:Starfield.esm
+        SecondParameter: 200
+  - AliasID: 6
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich an Bord der Dalliance mit Milena.
+    - Language: English
+      String: Board the Dalliance and talk with Milena
+    - Language: Spanish
+      String: Sube a la Dalliance y habla con Milena.
+    - Language: French
+      String: Montez à bord du Dalliance et parlez avec Milena.
+    - Language: Italian
+      String: Sali a bordo della Dalliance e parla con Milena
+    - Language: Japanese
+      String: ダリアンスに乗船してミレナと話す
+    - Language: Polish
+      String: Wejdź na pokład statku Dalliance i porozmawiaj z Mileną
+    - Language: Portuguese_Brazil
+      String: Embarque na Dalliance e fale com Milena
+  Targets:
+  - AliasID: 1
+  - AliasID: 6
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ermögliche Milena den Zugang nach Akila City.
+    - Language: English
+      String: Get Milena access to Akila City
+    - Language: Spanish
+      String: Dale a Milena acceso a la ciudad de Akila.
+    - Language: French
+      String: Obtenez un accès à Akila City pour Milena.
+    - Language: Italian
+      String: Fai sì che Milena possa accedere ad Akila City
+    - Language: Japanese
+      String: ミレナがアキラ・シティに入れるようにする
+    - Language: Polish
+      String: Zapewnij Milenie możliwość powrotu do miasta Akila
+    - Language: Portuguese_Brazil
+      String: Dê acesso à cidade de Akila a Milena
+  Targets:
+  - AliasID: 2
+  - AliasID: 3
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erstatte Marko Jansen Bericht.
+    - Language: English
+      String: Report back to Marko Jansen
+    - Language: Spanish
+      String: Informa a Marko Jansen.
+    - Language: French
+      String: Retournez voir Marko Jansen.
+    - Language: Italian
+      String: Riferisci a Marko Jansen
+    - Language: Japanese
+      String: 戻ってマルコ・ジャンセンに報告する
+    - Language: Polish
+      String: Wróć do Marka Jansena i przekaż mu dobre wieści
+    - Language: Portuguese_Brazil
+      String: Volte para falar com Marko Jansen
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: MarkoJensan
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 22484A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: MilenaAxelrod
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 1A8AAF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: EliasCartwright
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 224859:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: TomStarrett
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 224851:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 4
+  Name: AgamonCLocation
+  Flags:
+  - ReservesLocationOrReference
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x0A0000
+    Unknown2: 17624
+    Data:
+      MutagenObjectType: BodyHasKeywordConditionData
+      FirstParameter: 070A54:Starfield.esm
+    ComparisonValue: 1
+  SystemLocationAliasID: -2
+  LocationTypeKeyword: 016504:Starfield.esm
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 8
+    MaxInitialFillCount: 1
+    ALAM: 0
+    ReferenceAlias:
+      ID: 8
+      Name: AgamonQTCollection
+      Flags:
+      - CreateRefTemp
+      ALFG: 0
+      CreateReferenceToObject:
+        Object: 212179:Starfield.esm
+        AliasID: 4
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: SimoneJansen
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 22547A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: DallianceShip
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 1A8B65:Starfield.esm
+    AliasID: 10
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: companion
+  Flags:
+  - Optional
+  - StoresText
+  - ExternalAliasLinked
+  - IsCompanion
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: AgamonQT
+  Flags: []
+  ALFG: 0
+  ReferenceCollectionAliasID: 8
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 16626
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      FirstParameter: 212148:Starfield.esm
+    ComparisonValue: 1
+  VoiceTypes: Null

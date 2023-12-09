@@ -1,0 +1,1445 @@
+FormKey: 299E79:Starfield.esm
+EditorID: MS05
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: CheckPlayerShip
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 299E79:Starfield.esm
+          Alias: 0
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 150
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: ms05questscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MissionParent
+      Object: 015300:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_MS05_00299E79
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugStaryardMarker
+      Object: 27A99F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05_Foreknowledge_FrankConvinceAV
+      Object: 11C57B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05Budget
+      Object: 299D05:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05_Stage300Temp_Message
+      Object: 299D04:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SE_Player_ZW16a_Timestamp
+      Object: 212CFA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05_RDIntroScene
+      Object: 299D10:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SE_Player_ZW16b_Timestamp
+      Object: 212D09:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05_Stage500Temp_Message
+      Object: 299D03:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05ShipDesign
+      Object: 299D06:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05Market
+      Object: 17CE3D:Starfield.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: cooldownDays
+      Data: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05BudgetPlayerPay
+      Object: 16E1D7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05Interpersonal
+      Object: 17CE3C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05Reward
+      Object: 11D452:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05_Foreknowledge_JulesConvinceAV
+      Object: 11C57C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PMS05_Stage500Temp_Message
+      Object: 299D03:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 520
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0520_Item_00
+  - Stage: 340
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0340_Item_00
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0250_Item_00
+  - Stage: 270
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0270_Item_00
+  - Stage: 601
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0601_Item_00
+  - Stage: 280
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0280_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0550_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 620
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0620_Item_00
+  - Stage: 360
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0360_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 260
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0260_Item_00
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0220_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0510_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 330
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0330_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0320_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 610
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0610_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MS05_00299E79
+    FragmentName: Fragment_Stage_0700_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 299E79:Starfield.esm
+      Alias: 9
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 110
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 110
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 100
+  - Property:
+      Name: ''
+      Object: 299E79:Starfield.esm
+      Alias: 10
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 120
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 120
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 110
+  - Property:
+      Name: ''
+      Object: 299E79:Starfield.esm
+      Alias: 15
+    Scripts:
+    - Name: DefaultAliasOnMenuItemRun
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: MenuItemData
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: itemID
+            Data: 4
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 260
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetTerminalMenu
+            Object: 16786E:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: TurnOffStageDone
+            Data: 260
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Zu viel des Guten
+  - Language: English
+    String: Overdesigned
+  - Language: Spanish
+    String: Diseño excesivo
+  - Language: French
+    String: Un concept trop ambitieux
+  - Language: Italian
+    String: Sovradimensionamento
+  - Language: Japanese
+    String: 複雑すぎる設計
+  - Language: Polish
+    String: Przekombinowany
+  - Language: Portuguese_Brazil
+    String: Design Custoso
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 60
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+TextDisplayGlobals:
+- 16E1D7:Starfield.esm
+Summary: Stroud-Eklund Shipyards is having difficulty with their latest project. No one can agree on anything, and production has stalled. Walter Stroud has asked the player to step in and try to get production back on track by going to the staryard and working with his R&D team. They face a number of problems ranging from budget concerns, requiring more market research data, and interpersonal issues. The player will solve these issues, and a ship will be built based on the decisions they made.
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Debug: Start'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Give the player enough money to pay Jules'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player need to go to Stroud-Eklund Staryard R&D Department
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Walter Stroud möchte, dass ich sein F&E-Team beim nächsten Schiffsbauprojekt unterstütze. Die Entwicklung ist ins Stocken geraten, und er glaubt, dass ich das Team zurück in die Spur bringen kann.
+      - Language: English
+        String: Walter Stroud wants me to help his R&D team with their next shipbuilding project. Development has stalled, and he believes I can get it back on track.
+      - Language: Spanish
+        String: Walter Stroud quiere que ayude al equipo de I+D con su próximo proyecto. El desarrollo se ha estancado y cree que puedo echar una mano para reencauzarlo.
+      - Language: French
+        String: Walter Stroud veut que j'aide son équipe de R et D avec leur prochain projet de vaisseau. Le développement n'avance plus, et il pense que je vais pouvoir le remettre sur les rails.
+      - Language: Italian
+        String: Walter Stroud vuole che aiuti la sua squadra di ricerca e sviluppo nel prossimo progetto di costruzione navale. Lo sviluppo si è arenato e lui crede che io possa farlo ripartire.
+      - Language: Japanese
+        String: ウォルター・ストラウドに、研究開発チームの次期造船プロジェクトを手伝うよう頼まれた。開発が行き詰まっているが、彼は再び軌道に乗せられると考えている
+      - Language: Polish
+        String: Walter Stroud chce, żeby pomóc jego zespołowi rozwoju i badań z projektem kolejnego statku. Proces stanął w miejscu, a on uważa, że jestem w stanie coś z tym zrobić.
+      - Language: Portuguese_Brazil
+        String: Walter Stroud quer que eu ajude sua equipe de P&D com seu novo projeto de construção de nave. O desenvolvimento atrasou, e ele acredita que eu possa colocá-lo de volta nos trilhos.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: R&D Scene starts
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player approaches the R&D team
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player arrived at the staryard, now they need to find Jules.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player needs to introduce theirself to Jules
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich muss mit der Projektleiterin Jules sprechen und herausfinden, was ich tun kann, um das Projekt wieder auf Kurs zu bringen.
+      - Language: English
+        String: I need to speak with the project lead, Jules and find out what I can do to help get this project back on track.
+      - Language: Spanish
+        String: Tengo que hablar con la líder del proyecto, Jules, para ver qué puedo hacer para ayudar a reencauzar este proyecto.
+      - Language: French
+        String: Je dois parler au chef de projet, Jules, et découvrir ce que je peux faire pour aider à remettre ce projet sur le bon chemin.
+      - Language: Italian
+        String: Devo parlare con la leader del progetto, Jules, e scoprire cosa posso fare per aiutare a riportarlo in carreggiata.
+      - Language: Japanese
+        String: プロジェクトリーダーのジュールズと話をして、このプロジェクトを再び軌道に乗せる手伝いができないか確認しよう
+      - Language: Polish
+        String: Muszę porozmawiać z kierowniczką projektu, Jules, i dowiedzieć się, jak mogę przywrócić go na właściwe tory.
+      - Language: Portuguese_Brazil
+        String: Só preciso falar com a líder do projeto, Jules, e descobrir o que posso fazer para ajudar a colocar o projeto de volta aos trilhos
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 201
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jules introduced herself and the team.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 202
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jules told the player about the issues they face.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 203
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jules explained the budget concerns.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 204
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player needs to convince Jules to ask for a bigger budget
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 205
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player needs to convince Frank to scope back on his luxury craft ideas
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 206
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player made a budget choice and now needs to agree to fly some missions
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 207
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: (DO WE NEED THIS?) Player Failed to convince Jules, and needs to come up with a new plan.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jules Speech Challenge Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 211
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jules Speech Challenge Failure
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 215
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player told Jules they have Starship Design experience
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Frank Speech Challenge Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 221
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Frank Speech Challenge Failure
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: (Optional) Player Can hack the terminal to increase the budget.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Es sollte mir möglich sein, auf das Konzernsystem von Stroud-Eklund zuzugreifen, um ein höheres Budget zu bewilligen. So hätten wir beim Bauen die völlige Freiheit und müssten uns nicht über die Kosten den Kopf zerbrechen.
+      - Language: English
+        String: I think I may be able to get into the Stroud-Eklund corporate systems and approve a higher budget. That way, we can build whatever we want without worrying about the cost.
+      - Language: Spanish
+        String: Creo que podría colarme en los sistemas corporativos de Stroud-Eklund y aprobar un presupuesto más alto. Así, podremos construir lo que queramos sin preocuparnos por los costes.
+      - Language: French
+        String: Je pense pouvoir pénétrer dans les systèmes de Stroud-Eklund pour faire approuver un budget plus élevé. Ainsi, nous pourrons construire ce que nous voulons sans nous soucier des coûts.
+      - Language: Italian
+        String: Forse posso entrare nei sistemi aziendali della Stroud-Eklund e approvare un budget più alto. In questo modo, sarebbe possibile costruire quello che vogliamo senza preoccuparci dei costi.
+      - Language: Japanese
+        String: ストラウド・エクランドの企業システムに入って、もっと高い予算を承認できるかもしれない。そうすれば、費用を気にせずに作りたいものを何でも作れる
+      - Language: Polish
+        String: Wydaje mi się, że będę w stanie wejść do systemów korporacji Stroud-Eklund i zatwierdzić wyższy budżet. W ten sposób będziemy w stanie zbudować, co tylko chcemy, nie martwiąc się o koszta.
+      - Language: Portuguese_Brazil
+        String: Talvez eu consiga entrar nos sistemas corporativos da Stroud-Eklund e aprovar uma verba maior. Dessa forma, poderemos construir o que quisermos sem nos preocupar com o custo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 260
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player hacked the system to increase the budget
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 270
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player needs to pay to cover the budget.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Jules will bei diesem Projekt nur mit dem maximalen Budget arbeiten, wenn ich tief in die Taschen greife und selbst eine große Summe beisteuere.
+      - Language: English
+        String: Jules will only agree to go with the highest budget proposal for this ship if I contribute a large amount of money out of my own pocket.
+      - Language: Spanish
+        String: Jules solo aceptará la propuesta de mayor presupuesto si contribuyo con una gran suma de dinero de mi propio bolsillo.
+      - Language: French
+        String: Jules n'acceptera la proposition de budget la plus élevée pour le vaisseau que si je contribue personnellement à la somme en grande majorité.
+      - Language: Italian
+        String: Jules accetterà la proposta di budget più elevato per questa nave solo se contribuirò con un’ingente quantità di denaro di tasca mia.
+      - Language: Japanese
+        String: ジュールズは自腹で多額の金を出さない限り、最高額の予算案には賛成しない
+      - Language: Polish
+        String: Jules zgodzi się na projekt statku wymagający największego budżetu tylko wtedy, gdy dołożę sporo ze swojej kieszeni.
+      - Language: Portuguese_Brazil
+        String: Jules só concordará com a proposta de maior verba para essa nave se eu contribuir com uma grande quantidade de dinheiro do meu próprio bolso.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 280
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player paid to cover the budget
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: (Optional) Player needs to speak with all the R&D Department members
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Jules hat mich gebeten, mich mit dem Rest des Teams zu treffen und den Teammitgliedern Feedback zu ihren Designvorschlägen zu geben.
+      - Language: English
+        String: Jules has asked me to meet the rest of the team and give them feedback on their ship design proposals.
+      - Language: Spanish
+        String: Jules me ha pedido que me reúna con el resto del equipo para darles mi opinión sobre sus propuestas de diseño.
+      - Language: French
+        String: Jules m'a demandé de rencontrer les autres membres de l'équipe et de leur donner mon avis sur leurs propositions pour le vaisseau.
+      - Language: Italian
+        String: Jules mi ha chiesto di incontrare il resto della squadra e di dare un’opinione sulle loro proposte progettuali.
+      - Language: Japanese
+        String: 他のチームメンバーに会い、船の設計案に関するフィードバックを与えるようジュールズに頼まれた
+      - Language: Polish
+        String: Jules poprosiła mnie o spotkanie z resztą zespołu i ocenienie ich propozycji projektu statku.
+      - Language: Portuguese_Brazil
+        String: Jules pediu que eu me encontrasse com o resto da equipe e dê feedback às propostas de design da nave de todos.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Jules
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Ella
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 321
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ella introduced herself to the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 322
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ella asked the player if they want to hear her proposal
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 323
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ella asked the player about what sort of consumer would buy the ship
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 324
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player is going to give feedback to Ella
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 330
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Frank
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 332
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player is going to give feedback to Frank
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 340
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Mike
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 342
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mike introduced his idea
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 343
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player is going to give feedback to Mike
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Nev
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 351
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asked Nev what's wrong.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 353
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player is going to give feedback to Nev
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 360
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to the whole team.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 167860:Starfield.esm
+        BonusCredits: Null
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak with Jules about the Market Research
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Da wir das Budgetproblem dieses Projekts nun gelöst haben, möchte Jules, dass ich ihr bei der Beschaffung von Marktforschungsdaten helfe. Ich sollte mit ihr sprechen, um herauszufinden, was das genau beinhaltet.
+      - Language: English
+        String: Now that we've solved the budget issues for this project, Jules would like me to help gather some market research data. I should speak with her to find out what that entails.
+      - Language: Spanish
+        String: Ahora que hemos solucionado los problemas de presupuesto, Jules quiere que le eche una mano con el estudio de mercado. Debería hablar con ella para ver qué necesita.
+      - Language: French
+        String: Maintenant que les problèmes de budget pour ce projet sont réglés, Jules voudrait que je l'aide à réunir des données sur l'état du marché. Je ferais bien de lui parler pour comprendre ce que ça implique.
+      - Language: Italian
+        String: Ora che abbiamo risolto i problemi di budget per il progetto, Jules vorrebbe che recuperassi alcuni dati di ricerche di mercato. Dovrei parlare con lei per saperne di più.
+      - Language: Japanese
+        String: このプロジェクトの予算問題が解決したので、ジュールズに市場調査データを集めるよう頼まれた。彼女と話をして、具体的な内容を聞こう
+      - Language: Polish
+        String: Po tym, jak problemy budżetowe projektu zostały rozwiązane, Jules poprosiła mnie o pomoc w zebraniu danych badań rynkowych. Porozmawiam z nią, żeby dowiedzieć się, co ma przez to na myśli.
+      - Language: Portuguese_Brazil
+        String: Agora que resolvemos os problemas de verba para esse projeto, Jules quer que eu recolha alguns dados de pesquisa de mercado. Preciso falar com ela e descobrir o que isso quer dizer.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Do missions from the Mission Board
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Jules hat mich gebeten, Missionen aus der Auftragsbörse zu übernehmen. Die Daten, die ich dabei sammle, werden in die Design-Entscheidungen einfließen. Je mehr Daten ich sammle, desto besser wird das Schiff, das sie bauen werden, eine Reihe verschiedener Situationen bewältigen.
+      - Language: English
+        String: Jules asked me to fly missions from the mission board. The data I collect will be used to make design decisions. Collecting more data will allow them to build a ship to handle a variety of situations.
+      - Language: Spanish
+        String: Jules me ha pedido que realice misiones del panel. Los datos que reúna servirán para tomar decisiones de diseño. Obtener más datos les permitirá fabricar una nave versátil para distintas situaciones.
+      - Language: French
+        String: Jules m'a demandé d'effectuer des missions du tableau de missions. Les données que je collecterai serviront à prendre des décisions pour le design. Collecter plus de données leur permettra de construire un vaisseau capable de gérer différentes situations.
+      - Language: Italian
+        String: Jules mi ha chiesto di affrontare le missioni della bacheca. I dati che raccolgo verranno utilizzati per prendere decisioni progettuali. Raccogliere più dati consentirà di costruire una nave in grado di gestire una varietà di situazioni.
+      - Language: Japanese
+        String: ジュールズに、ミッションボードからミッションを受けるよう頼まれた。集めたデータはデザインの決断に使われる。さらにデータを集めれば、さまざまな状況に対応できる船を作れるようになる
+      - Language: Polish
+        String: Jules poprosiła mnie o wykonanie paru zadań z tablicy misji. Zebrane dane zostaną wykorzystane do podjęcia decyzji projektowych. Większa ilość danych umożliwi zbudowanie statku, który może sobie radzić z różnymi sytuacjami.
+      - Language: Portuguese_Brazil
+        String: Jules me pediu para concluir missões do painel de missões. Os dados que eu coletar serão utilizados para tomar decisões de design. Coletar mais dados permitirá que a equipe construa uma nave adequada a várias situações.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player completed one Bounty Mission
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 520
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player completed one Passenger mission
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player completed both a bounty mission and a Passenger mission
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak with Jules about the Interpersonal Problems
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Marktforschungsdaten gesammelt. Jetzt muss ich mit Jules über die Probleme sprechen, die der reibungslosen Zusammenarbeit des Teams im Weg stehen.
+      - Language: English
+        String: I've collected the market research data. Now, I need to speak with Jules about the issues preventing her team from working well with one another.
+      - Language: Spanish
+        String: He reunido los datos del estudio de mercado. Ahora tengo que hablar con Jules para ver qué le impide a su gente trabajar bien en equipo.
+      - Language: French
+        String: J'ai collecté les données sur l'état du marché. Maintenant, je dois parler à Jules des problèmes qui empêchent les membres de son équipe de bien travailler ensemble.
+      - Language: Italian
+        String: Ho ottenuto i dati delle ricerche di mercato. Ora devo parlare con Jules dei problemi che impediscono alla sua squadra di collaborare al meglio.
+      - Language: Japanese
+        String: 市場調査データを集めた。次はジュールズのチームメンバーの関係がうまくいっていない問題について、彼女と話そう
+      - Language: Polish
+        String: Dane z badań rynkowych zebrane. Muszę teraz porozmawiać z Jules o problemach, przez które jej zespół nie jest w stanie dobrze współpracować.
+      - Language: Portuguese_Brazil
+        String: Coletei os dados de pesquisa de mercado. Agora preciso falar com Jules sobre os problemas que estão impedindo sua equipe de trabalhar bem em conjunto.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 601
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player told Jules they are finished with Market Research/Missions
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 602
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jules told the player about the team's interpersonal issues
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 603
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jules asked the player to choose how they want to address the interpersonal issues
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player chose to convince the team to compromise their designs
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 620
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player needs to run a Guided Meditation session
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 625
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player ended the meditation early
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak with Jules to finalize the design
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Das Team scheint nun bereit zu sein, besser zusammenzuarbeiten. Jetzt muss ich nur noch mit Jules über das finale Schiffsdesign sprechen.
+      - Language: English
+        String: The team seems more willing to work with one another now, so all that's left is talking to Jules about the final ship design.
+      - Language: Spanish
+        String: Parece que el equipo está más dispuesto a colaborar, ahora solo me queda hablar con Jules sobre el diseño final de la nave.
+      - Language: French
+        String: L'équipe semble plus disposée à travailler ensemble maintenant, il ne me reste plus qu'à parler à Jules du design final du vaisseau.
+      - Language: Italian
+        String: Ora la squadra sembra più incline a lavorare insieme, perciò non resta altro che parlare con Jules del progetto finale della nave.
+      - Language: Japanese
+        String: チームはお互いに協力して仕事をすることに前向きになったようだ。後はジュールズと、船の最終デザインについて話すだけだ
+      - Language: Polish
+        String: Zespół zdaje się bardziej skory do współpracy. Jedyne, co mi pozostało, to porozmawianie z Jules o ostatecznym projekcie statku.
+      - Language: Portuguese_Brazil
+        String: A equipe parece estar mais disposta de trabalhar em conjunto, então só o que falta é falar com Jules sobre o design final da nave.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak with Walter Stroud
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Produktion von Stroud-Eklunds neuestem Schiff ist wieder auf Kurs. Ich sollte Walter Bescheid sagen, dass alles wieder rund läuft.
+      - Language: English
+        String: Production on Stroud-Eklund's latest ship is back on track. I should report to Walter and let him know.
+      - Language: Spanish
+        String: Hemos reencauzado la producción de la nueva nave de Stroud-Eklund. Debería contárselo a Walter.
+      - Language: French
+        String: La production du nouveau vaisseau de Stroud-Eklund est repartie de plus belle. Je ferais bien de prévenir Walter.
+      - Language: Italian
+        String: La produzione dell’ultima nave della Stroud-Eklund è tornata in carreggiata. Dovrei informare Walter.
+      - Language: Japanese
+        String: ストラウド・エクランドの最新船プロジェクトが再び軌道に乗った。ウォルターに報告して知らせよう
+      - Language: Polish
+        String: Produkcja najnowszego statku Strouda-Eklunda wróciła na właściwe tory. Muszę dać znać Walterowi.
+      - Language: Portuguese_Brazil
+        String: A produção da mais nova nave da Stroud-Eklund voltou aos trilhos. Preciso informar isso ao Walter.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Complete
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF3C:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 2BCBEB:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 2000
+  Flags:
+  - RunOnStop
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest End
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe dem F&E-Team von Stroud-Eklund geholfen, das Projekt wieder auf Kurs zu bringen. Am Ende gelang es uns, das Design für das neueste Eklund-Schiff zum Abschluss bringen.
+      - Language: English
+        String: I helped the Stroud-Eklund R&D team get their project back on track and we managed to finish the design for their new ship.
+      - Language: Spanish
+        String: He ayudado al equipo de I+D de Stroud-Eklund a reencauzar su proyecto y hemos logrado acabar el diseño de su nueva nave.
+      - Language: French
+        String: J'ai aidé l'équipe de R et D de Stroud-Eklund à remettre leur projet sur la bonne voie et nous avons bouclé le design de leur nouveau vaisseau.
+      - Language: Italian
+        String: Ho aiutato la squadra di ricerca e sviluppo della Stroud-Eklund a rimettere in carreggiata i lavori e abbiamo completato il progetto della loro nuova nave.
+      - Language: Japanese
+        String: ストラウド・エクランドの研究開発チームがプロジェクトを再び軌道に乗せるのを手伝い、新しい船の設計を完成させることができた
+      - Language: Polish
+        String: Dzięki mojej pomocy dział badań i rozwoju Strouda-Eklunda wrócił na właściwe tory i udało nam się ukończyć projekt nowego statku.
+      - Language: Portuguese_Brazil
+        String: Ajudei a equipe de P&D da Stroud-Eklund a retomar seu projeto e conseguimos concluir o design da sua nova nave.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zur Stroud-Eklund-Sternenwerft.
+    - Language: English
+      String: Go to Stroud-Eklund Staryard
+    - Language: Spanish
+      String: Ve al astillero de Stroud-Eklund.
+    - Language: French
+      String: Allez aux chantiers spatiaux Stroud-Eklund.
+    - Language: Italian
+      String: Raggiungi l’astrocantiere Stroud-Eklund
+    - Language: Japanese
+      String: ストラウド・エクランド・スターヤードに行く
+    - Language: Polish
+      String: Udaj się do stoczni Strouda-Eklunda
+    - Language: Portuguese_Brazil
+      String: Vá para o Astroleiro Stroud-Eklund
+  Targets:
+  - AliasID: 1
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Jules.
+    - Language: English
+      String: Find Jules
+    - Language: Spanish
+      String: Busca a Jules.
+    - Language: French
+      String: Trouvez Jules.
+    - Language: Italian
+      String: Trova Jules
+    - Language: Japanese
+      String: ジュールズを探す
+    - Language: Polish
+      String: Znajdź Jules
+    - Language: Portuguese_Brazil
+      String: Encontre Jules
+  Targets:
+  - AliasID: 1
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Jules.
+    - Language: English
+      String: Speak with Jules
+    - Language: Spanish
+      String: Habla con Jules.
+    - Language: French
+      String: Parlez à Jules.
+    - Language: Italian
+      String: Parla con Jules
+    - Language: Japanese
+      String: ジュールズと話す
+    - Language: Polish
+      String: Porozmawiaj z Jules
+    - Language: Portuguese_Brazil
+      String: Fale com Jules
+  Targets:
+  - AliasID: 1
+- Index: 250
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Zahle, um das Budget zu erhöhen.
+    - Language: English
+      String: (Optional) Increase the budget
+    - Language: Spanish
+      String: (Opcional) Aumenta el presupuesto.
+    - Language: French
+      String: (Optionnel) Augmentez le budget.
+    - Language: Italian
+      String: (Opzionale) Aumenta il budget
+    - Language: Japanese
+      String: (オプション)予算を増やす
+    - Language: Polish
+      String: (Opcj.) Zwiększ budżet
+    - Language: Portuguese_Brazil
+      String: (Opc.) Aumente a verba
+  Targets:
+  - AliasID: 15
+- Index: 270
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Zahle, um das Budget zu erhöhen.
+    - Language: English
+      String: Pay to increase the budget
+    - Language: Spanish
+      String: Paga para aumentar el presupuesto.
+    - Language: French
+      String: Payez pour augmenter le budget.
+    - Language: Italian
+      String: Paga per aumentare il budget
+    - Language: Japanese
+      String: 金を払って予算を増やす
+    - Language: Polish
+      String: Zapłać, by zwiększyć budżet
+    - Language: Portuguese_Brazil
+      String: Pague para aumentar a verba
+  Targets:
+  - AliasID: 1
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Gib Feedback zu den Team-Vorschlägen.
+    - Language: English
+      String: (Optional) Give feedback on the team's proposals
+    - Language: Spanish
+      String: (Opcional) Opina sobre las propuestas del equipo.
+    - Language: French
+      String: (Option.) Commentez les propositions de l'équipe.
+    - Language: Italian
+      String: (Opzionale) Di’ la tua sulle idee della squadra
+    - Language: Japanese
+      String: (オプション)チームの提案についてフィードバックする
+    - Language: Polish
+      String: (Opcj.) Oceń propozycje zespołu
+    - Language: Portuguese_Brazil
+      String: (Opc.) Dê feedback às propostas da equipe
+  Targets:
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 299E79:Starfield.esm
+        SecondParameter: 310
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 299E79:Starfield.esm
+        SecondParameter: 320
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 299E79:Starfield.esm
+        SecondParameter: 330
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 299E79:Starfield.esm
+        SecondParameter: 340
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 299E79:Starfield.esm
+        SecondParameter: 350
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Jules über Marktforschung.
+    - Language: English
+      String: Speak with Jules about market research
+    - Language: Spanish
+      String: Habla con Jules acerca del estudio de mercado.
+    - Language: French
+      String: Parlez à Jules au sujet de l'étude de marché.
+    - Language: Italian
+      String: Parla con Jules della ricerca di mercato
+    - Language: Japanese
+      String: 市場調査についてジュールズと話す
+    - Language: Polish
+      String: Porozmawiaj z Jules o badaniach rynkowych
+    - Language: Portuguese_Brazil
+      String: Fale com Jules sobre a pesquisa de mercado
+  Targets:
+  - AliasID: 1
+- Index: 510
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Schließe eine Kopfgeldmission ab.
+    - Language: English
+      String: Complete a Bounty Mission
+    - Language: Spanish
+      String: Completa una misión de recompensa.
+    - Language: French
+      String: Terminez une mission de prime.
+    - Language: Italian
+      String: Completa una missione Taglia
+    - Language: Japanese
+      String: 賞金ミッションを完了する
+    - Language: Polish
+      String: Ukończ misję łowcy nagród
+    - Language: Portuguese_Brazil
+      String: Conclua uma missão de caça
+  Targets:
+  - AliasID: 14
+- Index: 511
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Schließe eine Kopfgeldmission ab.
+    - Language: English
+      String: (Optional) Complete a Bounty Mission
+    - Language: Spanish
+      String: (Opcional) Completa una misión de recompensa.
+    - Language: French
+      String: (Optionnel) Terminez une mission de prime.
+    - Language: Italian
+      String: (Opzionale) Completa una missione Taglia
+    - Language: Japanese
+      String: (オプション)賞金ミッションを完了する
+    - Language: Polish
+      String: (Opcj.) Ukończ misję łowcy nagród
+    - Language: Portuguese_Brazil
+      String: (Opc.) Conclua uma missão de caça
+- Index: 520
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Schließe eine Passagiermission ab.
+    - Language: English
+      String: Complete a Passenger Mission
+    - Language: Spanish
+      String: Completa una misión de pasajeros.
+    - Language: French
+      String: Terminez une mission de passager.
+    - Language: Italian
+      String: Completa una missione Passeggeri
+    - Language: Japanese
+      String: 乗客ミッションを完了する
+    - Language: Polish
+      String: Ukończ misję pasażerską
+    - Language: Portuguese_Brazil
+      String: Conclua uma missão de passageiro
+  Targets:
+  - AliasID: 14
+- Index: 521
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Schließe eine Passagiermission ab.
+    - Language: English
+      String: (Optional) Complete a Passenger Mission
+    - Language: Spanish
+      String: (Opcional) Completa una misión de pasajeros.
+    - Language: French
+      String: (Optionnel) Terminez une mission de passager.
+    - Language: Italian
+      String: (Opzionale) Completa una missione Passeggeri
+    - Language: Japanese
+      String: (オプション)乗客ミッションを完了する
+    - Language: Polish
+      String: (Opcj.) Ukończ misję pasażerską
+    - Language: Portuguese_Brazil
+      String: (Opc.) Conclua uma missão de passageiro
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Jules.
+    - Language: English
+      String: Speak with Jules
+    - Language: Spanish
+      String: Habla con Jules.
+    - Language: French
+      String: Parlez à Jules.
+    - Language: Italian
+      String: Parla con Jules
+    - Language: Japanese
+      String: ジュールズと話す
+    - Language: Polish
+      String: Porozmawiaj z Jules
+    - Language: Portuguese_Brazil
+      String: Fale com Jules
+  Targets:
+  - AliasID: 1
+- Index: 700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Jules.
+    - Language: English
+      String: Speak with Jules
+    - Language: Spanish
+      String: Habla con Jules.
+    - Language: French
+      String: Parlez à Jules.
+    - Language: Italian
+      String: Parla con Jules
+    - Language: Japanese
+      String: ジュールズと話す
+    - Language: Polish
+      String: Porozmawiaj z Jules
+    - Language: Portuguese_Brazil
+      String: Fale com Jules
+  Targets:
+  - AliasID: 1
+- Index: 800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Walter Stroud.
+    - Language: English
+      String: Speak with Walter Stroud
+    - Language: Spanish
+      String: Habla con Walter Stroud.
+    - Language: French
+      String: Parlez à Walter Stroud.
+    - Language: Italian
+      String: Parla con Walter Stroud
+    - Language: Japanese
+      String: ウォルター・ストラウドと話す
+    - Language: Polish
+      String: Porozmawiaj z Walterem Stroudem
+    - Language: Portuguese_Brazil
+      String: Fale com Walter Stroud
+  Targets:
+  - AliasID: 6
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  Name: StaryardLocation
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  SpecificLocation: 27A9A1:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: Player
+  Flags:
+  - AllowDead
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: WalterStroud
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 005996:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: JulesDegante
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 299D1A:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: EllaPatel
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 299D15:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: FrankYilmaz
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 299D18:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: MikeAbabio
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 299D11:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: NevPapadopoulos
+  Flags:
+  - Essential
+  ALFG: 0
+  UniqueActor: 299D13:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: PlayerDesignedShip
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: StartRDTeamIntroTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 299D0A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: StartRDTeamInterruptTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 299D08:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: MissionBoard
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 217101:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: CorporateTerminal
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 16786B:Starfield.esm
+  VoiceTypes: Null

@@ -1,0 +1,4233 @@
+FormKey: 2C1C9B:Starfield.esm
+EditorID: MQ105
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 20
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 30
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 015FFE:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 310
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 320
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 2CDDFB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: mq105script
+  Script:
+    Name: Fragments:Quests:QF_MQ105_002C1C9B
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ArtifactCollection
+      Object: 2C1C9B:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AstralLoungeBriefcase
+      Object: 2C1C9B:Starfield.esm
+      Alias: 92
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AstraLoungeHackedDoor01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 2C1C9B:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DeadBot
+      Object: 2C1C9B:Starfield.esm
+      Alias: 57
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DoorToMusgroveInjured
+      Object: 2C1C9B:Starfield.esm
+      Alias: 68
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DoorToMusgroveInjured01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 75
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ElevatorManager_LobbyExec
+      Object: 2C1C9B:Starfield.esm
+      Alias: 91
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ElevatorManager_LobbyMiddle
+      Object: 2C1C9B:Starfield.esm
+      Alias: 90
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExecutiveElev01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 76
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExitElevatorDoor01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 80
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FirstFloorDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FirstFloorGateDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 79
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HackerMaintenanceDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 66
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HackerSequenceChoiceDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 65
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HackerSequenceDoor01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 69
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HackerSequenceDoor02
+      Object: 2C1C9B:Starfield.esm
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_IssaEklund
+      Object: 2C1C9B:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JamesNewill
+      Object: 2C1C9B:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MQ105Artifact
+      Object: 2C1C9B:Starfield.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Musgrove
+      Object: 2C1C9B:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MusgroveInjuredMarker
+      Object: 2C1C9B:Starfield.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MusgroveNote01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MusgroveNote02
+      Object: 2C1C9B:Starfield.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonSecurityF01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTradeTowerLocation
+      Object: 2C1C9B:Starfield.esm
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NicolausDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 95
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NicolausSlayton
+      Object: 2C1C9B:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShipPassengerMarker
+      Object: 2C1C9B:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ryleigh
+      Object: 2C1C9B:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaytonAgentM01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaytonBodyguards
+      Object: 2C1C9B:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaytonIntercom
+      Object: 2C1C9B:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StroudEklundDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 72
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TacticalBot01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TacticalBot02
+      Object: 2C1C9B:Starfield.esm
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TacticalBot03
+      Object: 2C1C9B:Starfield.esm
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TEMPSarahMorganCompanion
+      Object: 2C1C9B:Starfield.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TradeTowerDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 67
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VoliiGuardShip01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 87
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VoliiGuardShip02
+      Object: 2C1C9B:Starfield.esm
+      Alias: 86
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WalterStroud
+      Object: 2C1C9B:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmillaryMountSwapEnableMarker
+      Object: 0D0AFD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundIndustrialist
+      Object: 22EC7A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Viewport01
+      Object: 2926D2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Viewport02
+      Object: 270719:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionSlaytonExecutive
+      Object: 1ABC66:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCTheLodge
+      Object: 2956BB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Health
+      Object: 0002D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC008Slayton_LoadDoor_Rooftop
+      Object: 354B83:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC008_EavesdroppingScenes
+      Object: 25C610:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC008_LoadDoor_Rooftop
+      Object: 337B2B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC165_Slayton_Faction
+      Object: 103C4D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeStartMarker
+      Object: 2824E5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ00_MQ105ArtifactHolder
+      Object: 005790:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 003448:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101Debug
+      Object: 0A7D31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_PlayerMarker01
+      Object: 0059B0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ102
+      Object: 0114CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105Artifact
+      Object: 005790:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105ArtifactSpawnMarker
+      Object: 1E6690:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105AstralLodgeTableEnableMarker
+      Object: 01B27B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105AstralLoungeMarkerWalter
+      Object: 26FB24:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105AstralLoungeVIPSecurity01
+      Object: 1AC324:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105BriefcaseStaticEnableMarker
+      Object: 323290:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105Debug1Marker
+      Object: 0FA5EF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105Debug1MarkerPlayer
+      Object: 26FB27:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105Debug1MarkerWalter
+      Object: 26FB26:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105Debug2MarkerPlayer
+      Object: 26FB25:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105Debug2MarkerWalter
+      Object: 26FB24:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105ExecFloorStart003
+      Object: 333699:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105IssaTradeTowerMarkerREF
+      Object: 2CDE37:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105MusgroveAnimationREF
+      Object: 036803:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105MusgroveBloodSpatterEnableMarker
+      Object: 21950A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105MusgroveChairREF
+      Object: 036803:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105MusgroveSleepEnableMarker
+      Object: 218138:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105NegotiationRoomMarker
+      Object: 2B97F3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105NeonSlaytonExtEnableMarker
+      Object: 029DB5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonBodyguardFaction
+      Object: 219262:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonDoorToExteriorRoof
+      Object: 2CE0F4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonElevatorID
+      Object: 219260:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonEnemyFaction
+      Object: 21894E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonFaction
+      Object: 2C5FF8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonFirstFloorFaction
+      Object: 26D869:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonIntercomMarker02
+      Object: 1C2149:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonLogoSlate
+      Object: 329A3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonOfficeID
+      Object: 17DA1B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonRoofElevataorEnableMarker
+      Object: 01F744:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonSecondFloorFaction
+      Object: 26D868:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105WalterChairREF
+      Object: 2CDDF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105WalterSceneMarker02
+      Object: 1FDD1B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_000_AttractScene
+      Object: 0FA5F0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_001_IntroScene
+      Object: 2C33DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_002_NeonArrival
+      Object: 2C33DD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_003_StroudOfficeScene
+      Object: 2C33DE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_004_IssaIntro
+      Object: 2C33DF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_006_IssaWalterEavesdrop
+      Object: 2C4882:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_013_Negotiation
+      Object: 2C5C4A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_014_NegotiationBriefcase
+      Object: 2C5C4B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_016_AfterNegotiation
+      Object: 2C5FF6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_017_SlaytonAmbush
+      Object: 2C5FF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_018_SlaytonAgentAftermath
+      Object: 2C5FFD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_019_OutsideAstralLounge
+      Object: 2C5FFE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_023_SecondFloorScene
+      Object: 2C6496:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025a_HackerScene_Combat
+      Object: 1C2146:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025b_HackerScene
+      Object: 219415:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025c_HackerScene
+      Object: 219413:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025d_HackerScene
+      Object: 219410:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025e_HackerScene
+      Object: 21940F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025f_HackerScene
+      Object: 21940D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025g_HackerScene
+      Object: 219409:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025h_HackerScene
+      Object: 219407:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025i_HackerScene
+      Object: 219403:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025j_HackkerScene
+      Object: 219402:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025k_HackerScene
+      Object: 219400:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025l_HackerScene
+      Object: 2193FA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025m_HackerScene
+      Object: 2193F9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025n_HackerScene
+      Object: 2193F6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025y_HackerScene
+      Object: 26FE28:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025y_HackerScene_Bots
+      Object: 26FE28:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025zzz_HackerScene_Exec
+      Object: 138F35:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025z_HackerScene
+      Object: 26FE2E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025_SavilleScene
+      Object: 2C73A8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_026c_WalterRespondScene
+      Object: 278F21:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_026_SlaytonScene
+      Object: 2C73AC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_030_MusgroveDeadScene
+      Object: 2C73B4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_031_SlaytonResolvedScene
+      Object: 2CA6C6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_032_WalterWrapUp
+      Object: 2CA6C7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_032_WalterWrapUp_Murder
+      Object: 278F1F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_Debug3_PlayerMarker
+      Object: 257D9E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_Debug3_WalterMarker
+      Object: 26D871:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_PostQuestLodge
+      Object: 11E106:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_Slayton_FirstFloor_Actors
+      Object: 139E55:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_Slayton_SecondFloor_Actors
+      Object: 139E53:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_WalterNeonArriveMarker
+      Object: 123429:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_WalterStroudOfficeMarker
+      Object: 1FDD17:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ106
+      Object: 021BEF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NeonPlayerShipLandingMarkerRef
+      Object: 26FB29:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NewAtlantisShipLandingMarker
+      Object: 023605:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Large
+      Object: 275224:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Medium
+      Object: 275225:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Small
+      Object: 275226:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipEnabledLandingLink
+      Object: 01448D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_TrafficManagerHeavy_LocType
+      Object: 3902DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StarbornTempleQuest
+      Object: 214707:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TraitNeonStreetRat
+      Object: 227FD3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VoliiAlphaTrafficManagerREF
+      Object: 1B1820:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VoliiStationLocation
+      Object: 216D26:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 17
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0017_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0045_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 52
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0052_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0095_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 215
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0215_Item_00
+  - Stage: 217
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0217_Item_00
+  - Stage: 218
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0218_Item_00
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0220_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 305
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0305_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0320_Item_00
+  - Stage: 330
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0330_Item_00
+  - Stage: 340
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0340_Item_00
+  - Stage: 342
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0342_Item_00
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 352
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0352_Item_00
+  - Stage: 355
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0355_Item_00
+  - Stage: 365
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0365_Item_00
+  - Stage: 370
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0370_Item_00
+  - Stage: 377
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0377_Item_00
+  - Stage: 380
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0380_Item_00
+  - Stage: 390
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0390_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 410
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0410_Item_01
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0420_Item_00
+  - Stage: 430
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0430_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0510_Item_00
+  - Stage: 520
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0520_Item_00
+  - Stage: 530
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0530_Item_00
+  - Stage: 540
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0540_Item_00
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0550_Item_00
+  - Stage: 560
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0560_Item_00
+  - Stage: 570
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0570_Item_00
+  - Stage: 580
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0580_Item_00
+  - Stage: 590
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0590_Item_00
+  - Stage: 592
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0592_Item_00
+  - Stage: 594
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0594_Item_00
+  - Stage: 595
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0595_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 602
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0602_Item_00
+  - Stage: 610
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0610_Item_00
+  - Stage: 615
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0615_Item_00
+  - Stage: 620
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0620_Item_00
+  - Stage: 621
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0621_Item_00
+  - Stage: 622
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0622_Item_00
+  - Stage: 623
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0623_Item_00
+  - Stage: 624
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0624_Item_00
+  - Stage: 625
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0625_Item_00
+  - Stage: 626
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0626_Item_00
+  - Stage: 627
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0627_Item_00
+  - Stage: 628
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0628_Item_00
+  - Stage: 629
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0629_Item_00
+  - Stage: 630
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0630_Item_00
+  - Stage: 631
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0631_Item_00
+  - Stage: 632
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0632_Item_00
+  - Stage: 633
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0633_Item_00
+  - Stage: 634
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0634_Item_00
+  - Stage: 635
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0635_Item_00
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0650_Item_00
+  - Stage: 660
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0660_Item_00
+  - Stage: 670
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0670_Item_00
+  - Stage: 680
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0680_Item_00
+  - Stage: 690
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0690_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 710
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0710_Item_00
+  - Stage: 720
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0720_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0810_Item_00
+  - Stage: 820
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0820_Item_00
+  - Stage: 822
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0822_Item_00
+  - Stage: 825
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0825_Item_00
+  - Stage: 850
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0850_Item_00
+  - Stage: 860
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0860_Item_00
+  - Stage: 890
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0890_Item_00
+  - Stage: 895
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0895_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 905
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0905_Item_00
+  - Stage: 910
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0910_Item_00
+  - Stage: 915
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0915_Item_00
+  - Stage: 915
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0915_Item_01
+  - Stage: 920
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0920_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 1100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_1100_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_2000_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 1
+    Scripts:
+    - Name: DefaultAliasOnUnload
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 310
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 305
+    - Name: defaultaliasonunloada
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 40
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 45
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 3
+    Scripts:
+    - Name: MQ105_ApplyPerkAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ105_CompanionStealth
+        Object: 210E0A:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 5
+    Scripts:
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 570
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 590
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 600
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 13
+    Scripts:
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 350
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 400
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 500
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 410
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 15
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 530
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 24
+    Scripts:
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 850
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 860
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 37
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 420
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 38
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 360
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 365
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 54
+    Scripts:
+    - Name: MQ105_TacticalBotAliasScript
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 55
+    Scripts:
+    - Name: MQ105_TacticalBotAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: RobotSeesPlayerStage
+        Data: 660
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 56
+    Scripts:
+    - Name: MQ105_TacticalBotAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: RobotSeesPlayerStage
+        Data: 670
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 57
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 685
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 59
+    Scripts:
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: CombatStateToCheckFor
+        Data: 1
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: FactionsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 26D869:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: IncludeOnHitEvent
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 570
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 590
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 600
+    - Name: DefaultAliasOnCombatStateChangedA
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: CombatStateToCheckFor
+        Data: 1
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: FactionsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 26D868:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: IncludeOnHitEvent
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 690
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 710
+    - Name: MQ105PlayerScript
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 61
+    Scripts:
+    - Name: defaultaliasonlocationchange
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 015FFE:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 20
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 30
+    - Name: defaultaliasonlocationchangeA
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 01A97C:Starfield.esm
+        - Name: ''
+          Object: 216D26:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 920
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1000
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 79
+    Scripts:
+    - Name: DefaultAliasOnClose
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 590
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 592
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 600
+    - Name: defaultaliasonopen
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 592
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 594
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 600
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 97
+    Scripts:
+    - Name: DefaultAliasOnEnterFurniture
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NotAllowedDuringCombat
+        Object: 1413FD:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 910
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 915
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Geld macht's möglich
+  - Language: English
+    String: All That Money Can Buy
+  - Language: Spanish
+    String: Lo que el dinero puede comprar
+  - Language: French
+    String: Toute chose a un prix
+  - Language: Italian
+    String: Col denaro tutto si compra
+  - Language: Japanese
+    String: 金で買えるもの
+  - Language: Polish
+    String: Wszystko, co można kupić za pieniądze
+  - Language: Portuguese_Brazil
+    String: Tudo que o Dinheiro Pode Comprar
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 81
+  Unused: 0x000000
+QuestType: 0475FA:Starfield.esm
+QuestFaction: 0546E1:Starfield.esm
+TextDisplayGlobals:
+- 275224:Starfield.esm
+- 275225:Starfield.esm
+- 275226:Starfield.esm
+Summary: WALTER STROUD invites the player on a mission to Neon, a city run by wealthy corporations. He will be purchasing an Artifact there, and he wants the player as backup. Walter goes to his office on Neon and meets with ISSA EKLUND, his wife and business partner, to discuss the purchase. The player is then sent to investigate the seller and case the Astral Lounge, the meeting place, for security issues. The player then meets with the seller, MUSGROVE, and along with Walter negotiate for the purchase of the Artifact. On the way out from the meeting, the player is ambushed by agents hired by Slayton Aerospace, the original owner of the Artifact. The player has to infiltrate Slayton Aerospace HQ and confront its boss, NICOLAUS Slayton.
+UnusedConditions: []
+Stages:
+- Unknown: 117
+  LogEntries:
+  - Flags: []
+    Note: DEBUG STAGE
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG STAGE - Start on Neon
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG STAGE - Astral Lounge Meeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG STAGE - Slayton Aerospace
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG STAGE - Investigate the Seller / Ask about Security
+    ScriptFlagComment: '[CT 1/4/23] Added debug stage for testing purposes.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG STAGE - Confront Nicolaus Slayton
+    ScriptFlagComment: '[CT - 1/11/2023] Added debug stage.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Walter Forcegreets
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Walter Stroud möchte mit mir sprechen.
+      - Language: English
+        String: Walter Stroud wants to talk to me.
+      - Language: Spanish
+        String: Walter Stroud quiere hablar conmigo.
+      - Language: French
+        String: Walter Stroud souhaite me parler.
+      - Language: Italian
+        String: Walter Stroud vuole parlarmi.
+      - Language: Japanese
+        String: ウォルター・ストラウドが話したがっている
+      - Language: Polish
+        String: Walter Stroud chce ze mną porozmawiać.
+      - Language: Portuguese_Brazil
+        String: Walter Stroud quer falar comigo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player can turn down Walter and we jump back to this part on return
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Walter hat mich gebeten, ihn nach Neon zu begleiten. Er hat vor, dort ein Artefakt zu erstehen. Ich muss ihn wissen lassen, wenn ich zum Aufbruch bereit bin.
+      - Language: English
+        String: Walter has asked me to come with him to Neon, where he intends to purchase an Artifact. I'll need to tell him when I'm ready to head out.
+      - Language: Spanish
+        String: Walter me ha pedido que le acompañe a Neón, donde espera comprar un Artefacto. Tengo que avisarle cuando esté todo listo para partir.
+      - Language: French
+        String: Walter m'a demandé de l'accompagner à Néon, où il compte acheter un artefact. Je dois le prévenir quand tout sera prêt pour partir.
+      - Language: Italian
+        String: Walter mi ha chiesto di accompagnarlo a Neon, dove intende acquistare un Manufatto. Devo fargli sapere quando siamo pronti a partire.
+      - Language: Japanese
+        String: ウォルターがネオンで会いに来てほしいと言っている。彼はネオンでアーティファクトを購入するつもりのようだ。ネオンへ向かう準備ができたら彼に声をかけよう
+      - Language: Polish
+        String: Walter poprosił mnie o przybycie wraz z nim do Neonu, gdzie chce kupić artefakt. Mam go poinformować, gdy będziemy mogli wyruszyć.
+      - Language: Portuguese_Brazil
+        String: Walter me pediu para acompanhá-lo a Neon, onde ele pretende comprar um artefato. Preciso avisá-lo quando quiser partir.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 17
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: TEMP - move Walter to the player's ship
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Walter tells player to go to Neon
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Walter hat mich gebeten, ihn nach Neon zu begleiten. Er hat vor, dort ein Artefakt zu erstehen. Er wird als Passagier in meinem Schiff reisen.
+      - Language: English
+        String: Walter has asked me to come with him to Neon, where he intends to purchase an Artifact. He'll be riding as a passenger in my ship until we get there.
+      - Language: Spanish
+        String: Walter me ha pedido que le acompañe a Neón, donde espera comprar un Artefacto. Viajará en mi nave de pasajero hasta que lleguemos allí.
+      - Language: French
+        String: Walter m'a demandé de l'accompagner à Néon, où il compte acheter un artefact. Il prendra la place du passager à bord de mon vaisseau jusqu'à notre arrivée.
+      - Language: Italian
+        String: Walter mi ha chiesto di accompagnarlo a Neon, dove intende acquistare un Manufatto. Volerà come passeggero della mia nave finché non saremo sul posto.
+      - Language: Japanese
+        String: ウォルターがネオンで会いに来てほしいと言っている。彼はネオンでアーティファクトを購入するつもりのようだ。彼を船に乗せてネオンへ向かおう
+      - Language: Polish
+        String: Walter poprosił mnie o przybycie wraz z nim do Neonu, gdzie chce kupić artefakt. Zawiozę go tam swoim statkiem - jako pasażera.
+      - Language: Portuguese_Brazil
+        String: Walter me pediu para acompanhá-lo a Neon, onde ele pretende comprar um artefato. Ele será passageiro da minha nave até chegarmos lá.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player arrives on Neon
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 35
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: Walter mentions the drug from chasmbass
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Walter Tells player to go to the Stroud-Eklund Offices
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Walter muss in das Büro von Stroud-Eklund hier in Neon, bevor wir uns mit dem Artefakt-Verkäufer treffen können.
+      - Language: English
+        String: Walter needs to head to the Stroud-Eklund offices here on Neon before we can meet with our Artifact seller.
+      - Language: Spanish
+        String: Walter tiene que pasar por las oficinas de Stroud-Eklund de Neón antes de ir en busca del vendedor del Artefacto.
+      - Language: French
+        String: Walter doit se rendre dans les bureaux de Stroud-Eklund à Néon avant que l'on ne retrouve le vendeur d'artefacts.
+      - Language: Italian
+        String: Walter deve andare negli uffici della Stroud-Eklund di Neon prima di incontrarci col venditore del Manufatto.
+      - Language: Japanese
+        String: ネオンでアーティファクトの売り手と会う前に、ウォルターはストラウド・エクランドのオフィスへ向かう必要がある
+      - Language: Polish
+        String: Zanim będziemy mogli się spotkać ze sprzedającym artefakt, Walter musi się udać do biur Strouda-Eklunda tu, w Neonie.
+      - Language: Portuguese_Brazil
+        String: Walter precisa passar nos escritórios da Stroud-Eklund aqui em Neon antes de nos encontrarmos com o vendedor do artefato.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 45
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Walter unloads, move him to the offices
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player arrives, queue scene between Walter and Receptionist
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 52
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Stroud Eklund door opens
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 55
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: Update QT to point to Issa
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player is close enough to Issa
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 65
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: player hears about Walter's speech
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 70
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player is told to investigate the seller and case the Astral Lounge
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Walter und Issa möchten, dass ich den Verkäufer und die Astral Lounge unter die Lupe nehme. Der Kontakt zum Verkäufer wurde von James Newill hergestellt. Die Astral Lounge befindet sich im Trade Tower.
+      - Language: English
+        String: Walter and Issa want me to investigate the seller and case the Astral Lounge. The seller was connected to us by James Newill. The Astral Lounge is in the Trade Tower.
+      - Language: Spanish
+        String: Walter e Issa quieren que investigue el Astral Lounge y al vendedor. James Newill nos ha puesto en contacto con el vendedor. El Astral Lounge se encuentra en la Torre de comercio.
+      - Language: French
+        String: Walter et Issa veulent que j'enquête sur le vendeur et que je vérifie l'Astral Lounge. James Newill est notre lien avec lui. L'Astral Lounge se trouve dans la Trade Tower.
+      - Language: Italian
+        String: Walter e Issa vogliono che indaghi sul venditore e faccia un sopralluogo all’Astral Lounge. È stato James Newill a mediare per noi. L’Astral Lounge si trova nella Torre del commercio.
+      - Language: Japanese
+        String: ウォルターとイッサは売り手の調査と、アストラル・ラウンジの下調べをしてほしいと言っていた。売り手はジェイムズ・ネウィルを通じて連絡してきた。アストラル・ラウンジはトレード・タワー内にある
+      - Language: Polish
+        String: Walter i Issa proszą mnie o sprawdzenie kontrahenta i rozejrzenie się w Astral Lounge. Sprzedającego polecił nam James Newill. Astral Lounge znajduje się w Wieży Handlowej.
+      - Language: Portuguese_Brazil
+        String: Walter e Issa querem que eu investigue o vendedor e sonde o Astral Lounge. Quem nos indicou o vendedor foi James Newill. O Astral Lounge fica na Torre Comercial.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 95
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player pays Newill
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Investigate Sleepcrate
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 105
+  Unknown: 105
+  LogEntries:
+  - Flags: []
+    Note: James Newill Speech Challenge Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 107
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: James Newill speech challenge failure
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Found info on Seller
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Talked to the Bartender
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 205
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Bartender Speech Challenge Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 207
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Bartender speech challenge failure
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Checked the Door Controls
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 215
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: Door controls reworked
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 217
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player pays Boone Large
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 218
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player pays Boone Small
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: Playe is an Astral Lounge VIP
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Return to Walter
+    ScriptFlagComment: '[CT 1/5/23] Added conditions checks. See GEN-467473 for details.'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte mit Walter besprechen, was ich gefunden habe, und ihn wissen lassen, dass wir bereit sind, uns mit dem Verkäufer zu treffen.
+      - Language: English
+        String: I should talk to Walter about what I've found, and let him know we're ready to meet the seller.
+      - Language: Spanish
+        String: Debería hablar con Walter de mi descubrimiento y comunicarle que ya podemos ir en busca del vendedor.
+      - Language: French
+        String: Je devrais dire à Walter ce que j'ai trouvé et lui faire savoir que nous sommes prêts à rencontrer le vendeur.
+      - Language: Italian
+        String: Devo informare Walter delle mie scoperte, oltre a fargli sapere che siamo pronti a incontrare il venditore.
+      - Language: Japanese
+        String: 発見した内容をウォルターに話して、売り手と会う準備ができたことを伝えよう
+      - Language: Polish
+        String: Muszę porozmawiać z Walterem o swoich odkryciach i dać mu znać, że możemy się spotkać z kontrahentem.
+      - Language: Portuguese_Brazil
+        String: Tenho que contar ao Walter o que descobri e avisar para ele que já podemos nos encontrar com o vendedor.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 305
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Walter unloads - move him to Astral Lounge
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Go back to Astral Lounge
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich muss mich zur Astral Lounge aufmachen und die Person finden, die das Artefakt verkauft.
+      - Language: English
+        String: I need to head over to the Astral Lounge and find the person selling the Artifact.
+      - Language: Spanish
+        String: Tengo que ir al Astral Lounge y buscar a la persona que vende el Artefacto.
+      - Language: French
+        String: Je dois me rendre à l'Astral Lounge et trouver le vendeur de l'artefact.
+      - Language: Italian
+        String: Devo andare all’Astral Lounge e rintracciare la persona che vende il Manufatto.
+      - Language: Japanese
+        String: アストラル・ラウンジへ行ってアーティファクトを売ろうとしている人物を見つけよう
+      - Language: Polish
+        String: Muszę udać się do Astral Lounge i znaleźć osobę, która sprzedaje artefakt.
+      - Language: Portuguese_Brazil
+        String: Preciso encontrar a pessoa que está vendendo o artefato no Astral Lounge.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 105
+  LogEntries:
+  - Flags: []
+    Note: Talk to Walter
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 330
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Find the Seller
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Der Verkäufer hat einen großen Security-Aktenkoffer dabei und erwartet die Losung „Ramsay und Travers“.
+      - Language: English
+        String: The seller will have a large security briefcase and will respond to the code phrase "Ramsay and Travers."
+      - Language: Spanish
+        String: El vendedor llevará un maletín de seguridad de gran tamaño y responde a la contraseña “Ramsay y Travers”.
+      - Language: French
+        String: Le vendeur portera une grande mallette sécurisée et répondra au mot de passe “Ramsay et Travers”.
+      - Language: Italian
+        String: Il venditore avrà una grande valigetta di sicurezza e risponderà alla frase in codice “Ramsay e Travers”.
+      - Language: Japanese
+        String: 売り手は大きな保安用ブリーフケースを持っていて、"ラムゼーとトラバース"という暗号に応えることになっている
+      - Language: Polish
+        String: Nasz kontrahent będzie mieć przy sobie dużą, zabezpieczoną walizkę. Odpowie na hasło „Ramsay i Travers”.
+      - Language: Portuguese_Brazil
+        String: O vendedor estará com uma maleta de segurança grande e responderá ao código “Ramsay e Travers”.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 340
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Talk to Walter
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe den Verkäufer gefunden. Es ist Zeit für ein Treffen mit ihm und Walter.
+      - Language: English
+        String: I found the seller. Time to meet with him and Walter.
+      - Language: Spanish
+        String: He encontrado al vendedor. Hora de reunirme con Walter y él.
+      - Language: French
+        String: J'ai trouvé le vendeur. Il est temps de lui rendre visite, avec Walter.
+      - Language: Italian
+        String: Ho trovato il venditore. Devo incontrarmi con lui e Walter.
+      - Language: Japanese
+        String: 売り手を見つけた。彼とウォルターに会いに行こう
+      - Language: Polish
+        String: Udało mi się znaleźć naszego kontrahenta. Czas się spotkać z nim i z Walterem.
+      - Language: Portuguese_Brazil
+        String: Localizei o vendedor. Hora de me encontrar com ele e o Walter.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 342
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talking to Walter; move Musgrove
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Go to Meeting Room; place Artifact; enable briefcase
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 352
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player on second floor of Astral Lounge
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 355
+  Unknown: 183
+  LogEntries:
+  - Flags: []
+    Note: Arrived at Meeting Room
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 360
+  Unknown: 105
+  LogEntries:
+  - Flags: []
+    Note: Player elects to sit
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 365
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player sits
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 370
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player elects to stand
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 375
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Briefcase scene starts
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 377
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Force briefcase open
+    ScriptFlagComment: '[CT - 2/2/2023] Added stage and line to address GEN-486139.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 380
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player grabs Artifact
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 390
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player shuts door
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Combat starts for any reason
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 405
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player threatens to attack Musgrove
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 105
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 570
+    Note: Musgrove is dead - Astral Lounge
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 570
+      ComparisonValue: 1
+    Note: Musgrove is dead - Slayton Aerospace
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 249401:Starfield.esm
+- Index: 420
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player has the Aritfact for any reason
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 430
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: Negotiation resolves peacefully
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Negotiation is resolved
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir haben das Artefakt. Zeit, uns aus dem Staub zu machen.
+      - Language: English
+        String: We have the Artifact. Time to leave.
+      - Language: Spanish
+        String: Tenemos el Artefacto. Vámonos con viento fresco.
+      - Language: French
+        String: Nous détenons l'artefact. Il est temps de partir.
+      - Language: Italian
+        String: Abbiamo il Manufatto. È ora di partire.
+      - Language: Japanese
+        String: アーティファクトが手に入った。出発しよう
+      - Language: Polish
+        String: Mamy artefakt. Czas opuścić to miejsce.
+      - Language: Portuguese_Brazil
+        String: Estamos com o artefato. Hora de ir embora.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Trigger Slayton Ambush
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 515
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Slayton Agent Speech Challenge Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 517
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Slayton Agent Speech Challenge Failure
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 520
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Slayton Agent Combat starts for any reason
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 530
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Slayton Agent dead
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 535
+  LogEntries:
+  - Flags: []
+    Note: Neon security called over
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 540
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: Ambush resolved peacefully
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Ambush is resolved
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir wurden von einem Agent von Slayton Aerospace, dem ursprünglichen Besitzer des Artefakts, überfallen. Wir sollten Neon schleunigst verlassen.
+      - Language: English
+        String: We were ambushed by an agent from Slayton Aerospace, the original owner of the Artifact. We should get out of Neon quickly.
+      - Language: Spanish
+        String: Nos ha emboscado un agente de Slayton Aeroespacial, anterior propietaria del Artefacto. Tenemos que salir de Neón cuanto antes.
+      - Language: French
+        String: Un agent de Slayton Aerospace, le propriétaire original de l'artefact, nous a tendu une embuscade. Nous ferions mieux de quitter Néon rapidement.
+      - Language: Italian
+        String: Abbiamo subito l’imboscata di un agente della Slayton Aerospace, i possessori originali del Manufatto. Dobbiamo lasciare Neon alla svelta.
+      - Language: Japanese
+        String: スレイトン・エアロスペースのエージェントの奇襲を受けた。そのエージェントはアーティファクトの元の持ち主だった。早急にネオンを離れる必要がある
+      - Language: Polish
+        String: Zaskoczył nas agent firmy Slayton Aerospace, do której pierwotnie należał artefakt. Powinniśmy szybko wynosić się z Neonu.
+      - Language: Portuguese_Brazil
+        String: Fomos emboscados pela equipe da Aeroespaço Slayton, a empresa que detinha o artefato. Temos que partir de Neon o quanto antes.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 560
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player out of the Lounge; fire Issa Scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 570
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+    Note: Go to Slayton Aerospace HQ
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Slayton hat mein Schiff am Raumhafen von Neon beschlagnahmt. Ich muss ihn konfrontieren und mir mein Schiff zurückholen, bevor wir aufbrechen können.
+      - Language: English
+        String: Slayton has impounded my ship at Neon's spaceport. I'll need to confront him and get him to free my ship before we can leave.
+      - Language: Spanish
+        String: Slayton tiene mi nave incautada en el espaciopuerto de Neón. Antes de marcharnos, tengo que plantarle cara y arreglármelas para que deje ir mi nave.
+      - Language: French
+        String: Slayton a saisi mon vaisseau dans le port spatial de Néon. Je vais devoir lui faire face et le convaincre de libérer le vaisseau pour nous permettre de partir.
+      - Language: Italian
+        String: Slayton ha sequestrato la mia nave nello spazioporto di Neon. Dovrò affrontarlo e farmi dare il via libera prima di poter partire.
+      - Language: Japanese
+        String: スレイトンによって船をネオンの宇宙港に押収されてしまった。出発するにはスレイトンに会って船を解放してもらう必要がある
+      - Language: Polish
+        String: Slayton zajął mój statek w porcie kosmicznym w Neonie. Zanim będziemy mogli odlecieć, muszę z nim porozmawiać i przekonać do oddania statku.
+      - Language: Portuguese_Brazil
+        String: Minha nave foi apreendida pelo Slayton no espaçoporto de Neon. Para ir embora, terei que confrontá-lo e fazê-lo liberar a minha nave.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 580
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Arrived at Slayton Aerospace
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 585
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Receptionist Speech Challenge Success
+    ScriptFlagComment: '[CT 1/19/2023] Removed line to add item and added to Stage 595 for GEN-475743.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 587
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Receptionist Speech Challenge Fail
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 590
+  LogEntries:
+  - Flags: []
+    Note: Combat on the first floor starts for any reason
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 592
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: First Floor Gate Closes
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 594
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: First Floor Gate Opens
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 595
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player has a legitimate way to the next floor
+    ScriptFlagComment: '[CT 1/19/2023] Added line to add item for GEN-475743.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player at next floor
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 602
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Second Floor Alternative Elevator
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Start Hacker sequence
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 615
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hacker opens elevator doors on middle floor.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 617
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player enters hallway
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 618
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Second Floor Guard now hostile
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 620
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hacker Door Closes - 02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 621
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - across elevators
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 622
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - Conduit scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 623
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - climb up
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 624
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - drop down
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 625
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - open door two
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 626
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - Door opens
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 627
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - Turn Left
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 628
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - Wait for Robot
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 629
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - Across the hall
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 630
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - shutters
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 631
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - Robot 03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 632
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - Open Last Door
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 633
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker- Lab Vent
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 634
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 690
+    Note: Hacker - almost there
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 635
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player at the Exec floor
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 650
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 680
+    Note: Tactical Bot 01 enters combat
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 660
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 680
+    Note: Tactical Bot 02 enters combat
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 670
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 680
+    Note: Tactical Bot 03 enters combat
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 680
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tactical Bot shut down
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 685
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Assigned dead bot is killed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 690
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Combat in the second floor starts, Hacker Sequence is shortened
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player reaches the window
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player outside Trade Tower
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 720
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player near the door to Slayton's office
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Nicolaus Slayton Scene Starts
+    ScriptFlagComment: '[CT - 1/19/2023] Added line Alias_NicolausDoor.GetRef().SetFactionOwner(MQ105SlaytonBodyguardFaction) to address GEN-471879.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 810
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player is told to decide Musgrove's fate
+    ScriptFlagComment: '[CT 1/9/2023] Added evaluate package line.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player lets Musgrove go
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 822
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player jails Musgrove
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 825
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player decides to kill Musgrove
+    ScriptFlagComment: '[CT 1/5/23] Added SetStage(895) to address GEN-471843.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 830
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Musgrove is dead step actually handled in Stage 410
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 850
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Combat with Slayton starts for any reason
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 860
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Slayton is dead
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 890
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Slayton Conflict resolved peacefully '
+    ScriptFlagComment: '[CT 1/5/23] Added SetStage(895) to address GEN-471843 and moved other functionality to Stage 895.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 895
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player is free to go - Make sure no one is hostile
+    ScriptFlagComment: '[CT 1/5/23] Added this stage for tracking to address GEN-471843.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Slayton conflict is resolved
+    ScriptFlagComment: '[CT - 1/25/2023] Added script line and property to unlock first floor door. See GEN-484823 for details.'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Tortur mit Slayton ist endlich vorüber und wir können Neon verlassen und das Artefakt zurück zur Loge bringen.
+      - Language: English
+        String: Our ordeal with Slayton is over and we're finally free to leave Neon and get the Artifact back to the Lodge.
+      - Language: Spanish
+        String: El conflicto con Slayton ha terminado; por fin podemos salir de Neón y llevar el Artefacto de vuelta a la Logia.
+      - Language: French
+        String: L'affaire avec Slayton est derrière nous et nous pouvons enfin quitter Néon et rapporter l'artefact à la Loge.
+      - Language: Italian
+        String: Il calvario con Slayton è finito e siamo finalmente liberi di lasciare Neon e riportare il Manufatto alla Loggia.
+      - Language: Japanese
+        String: スレイトンとの試練を乗り越え、ようやくネオンを出発してアーティファクトをロッジへ持ち帰ることができる
+      - Language: Polish
+        String: Nasza męka ze Slaytonem nareszcie się zakończyła. Możemy opuścić Neon i zawieźć artefakt z powrotem do Loży.
+      - Language: Portuguese_Brazil
+        String: Agora que a situação com o Slayton está resolvida, podemos finalmente sair de Neon e levar o artefato de volta à Guarida.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 905
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has left Slayton Exec level
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 910
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player back at the ship
+    ScriptFlagComment: "[CT 1/5/23] Moved Walter's scene start to Stage 915. See GEN-466100 for details."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 915
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        FirstParameter: 019623:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 860
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 410
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 910
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 920
+    Note: Start Walter scene - no murder
+    ScriptFlagComment: "[CT 1/5/23] Created stage so Walter's scene could start when Walter entered the ship. See GEN-466100 for details.[WJS 1/18/23] Splitting stage items to start murder vs non-murder scene. Also moving Walter in position before scene startsGEN-472473"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 920
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 910
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 860
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 410
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        FirstParameter: 019623:Starfield.esm
+      ComparisonValue: 1
+    Note: Start Walter Scene - Murder
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 920
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: Walter wrap-up scene finished
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: Null
+        BonusCredits: Null
+        Rewards:
+        - Item: 0019F5:Starfield.esm
+          Count: 1
+        - Item: 026B0A:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player in Orbit, trigger MQ106
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Set in MQ106 - Clear Enable Layer
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 116
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Complete - Artifact Handoff is covered in MQ106
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir wurden von einer Gruppe überfallen, die sich selbst „Sternenblüter“ nennt. Wir müssen mit den anderen Mitgliedern der Constellation darüber reden.
+      - Language: English
+        String: We were ambushed by a group calling themselves the Starborn. We'll need to speak to the other members of Constellation about this.
+      - Language: Spanish
+        String: Nos ha emboscado un grupo que se da a conocer como los Estelares. Debemos informar de esto a los demás miembros de Constelación.
+      - Language: French
+        String: Un groupe de dénommés Astriens nous a tendu une embuscade. Il va falloir en parler aux autres membres de Constellation.
+      - Language: Italian
+        String: Abbiamo subito l’imboscata di un gruppo di fantomatici Astrali. Dobbiamo parlarne con gli altri membri di Constellation.
+      - Language: Japanese
+        String: スターボーンを自称する集団の奇襲を受けた。コンステレーションの他のメンバーに伝えないといけない
+      - Language: Polish
+        String: Zaatakowała nas z zasadzki grupa nazywająca siebie astranami. Musimy porozmawiać o tym z pozostałymi członkami Konstelacji.
+      - Language: Portuguese_Brazil
+        String: Fomos emboscados por um grupo de indivíduos que se autodenominam Estelares. O restante da Constelação precisa saber disso.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E0:Starfield.esm
+        BonusCredits: Null
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Walter Stroud.
+    - Language: English
+      String: Talk to Walter Stroud
+    - Language: Spanish
+      String: Habla con Walter Stroud.
+    - Language: French
+      String: Parlez à Walter Stroud.
+    - Language: Italian
+      String: Parla con Walter Stroud
+    - Language: Japanese
+      String: ウォルター・ストラウドと話す
+    - Language: Polish
+      String: Porozmawiaj z Walterem Stroudem
+    - Language: Portuguese_Brazil
+      String: Fale com Walter Stroud
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Reise nach Neon.
+    - Language: English
+      String: Travel to Neon
+    - Language: Spanish
+      String: Viaja a Neón.
+    - Language: French
+      String: Voyagez jusqu'à Néon.
+    - Language: Italian
+      String: Raggiungi Neon
+    - Language: Japanese
+      String: ネオンへ向かう
+    - Language: Polish
+      String: Ruszaj do Neonu
+    - Language: Portuguese_Brazil
+      String: Viaje para Neon
+  Targets:
+  - AliasID: 60
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Walter Stroud.
+    - Language: English
+      String: Talk to Walter Stroud
+    - Language: Spanish
+      String: Habla con Walter Stroud.
+    - Language: French
+      String: Parlez à Walter Stroud.
+    - Language: Italian
+      String: Parla con Walter Stroud
+    - Language: Japanese
+      String: ウォルター・ストラウドと話す
+    - Language: Polish
+      String: Porozmawiaj z Walterem Stroudem
+    - Language: Portuguese_Brazil
+      String: Fale com Walter Stroud
+  Targets:
+  - AliasID: 1
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Melde dich im HQ von Stroud-Eklund.
+    - Language: English
+      String: Check in at Stroud-Eklund HQ
+    - Language: Spanish
+      String: Preséntate en el cuartel general de Stroud-Eklund.
+    - Language: French
+      String: Présentez-vous au siège de Stroud-Eklund.
+    - Language: Italian
+      String: Dai un’occhiata al quartier generale Stroud-Eklund
+    - Language: Japanese
+      String: ストラウド・エクランド本社を訪れる
+    - Language: Polish
+      String: Zamelduj się w siedzibie Strouda-Eklunda
+    - Language: Portuguese_Brazil
+      String: Apresente-se na sede da Stroud-Eklund
+  Targets:
+  - AliasID: 26
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 55
+  - AliasID: 7
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 55
+      ComparisonValue: 1
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Issa Eklund.
+    - Language: English
+      String: Talk to Issa Eklund
+    - Language: Spanish
+      String: Habla con Issa Eklund.
+    - Language: French
+      String: Parlez à Issa Eklund.
+    - Language: Italian
+      String: Parla con Issa Eklund
+    - Language: Japanese
+      String: イッサ・エクランドと話す
+    - Language: Polish
+      String: Porozmawiaj z Issą Eklund
+    - Language: Portuguese_Brazil
+      String: Fale com Issa Eklund
+  Targets:
+  - AliasID: 7
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde mehr über den Verkäufer heraus.
+    - Language: English
+      String: Investigate the Seller
+    - Language: Spanish
+      String: Investiga al vendedor.
+    - Language: French
+      String: Enquêtez sur le vendeur.
+    - Language: Italian
+      String: Indaga sul venditore
+    - Language: Japanese
+      String: 売り手を調べる
+    - Language: Polish
+      String: Sprawdź kontrahenta
+    - Language: Portuguese_Brazil
+      String: Investigue o vendedor
+  Targets:
+  - AliasID: 9
+- Index: 65
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Durchsuche die Sleepcrate des Verkäufers.
+    - Language: English
+      String: Search the Seller's Sleepcrate
+    - Language: Spanish
+      String: Registra el cubículo de sueño del vendedor.
+    - Language: French
+      String: Fouillez la chambre-caisson du vendeur.
+    - Language: Italian
+      String: Cerca la sonnocassa del venditore
+    - Language: Japanese
+      String: 売り手のスリープクレートを探す
+    - Language: Polish
+      String: Przeszukaj kontener noclegowy kontrahenta
+    - Language: Portuguese_Brazil
+      String: Vasculhe o dormículo do vendedor
+  Targets:
+  - AliasID: 31
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Frage nach der Security.
+    - Language: English
+      String: Ask about Security
+    - Language: Spanish
+      String: Pregunta por seguridad.
+    - Language: French
+      String: Posez des questions sur la sécurité.
+    - Language: Italian
+      String: Chiedi della sicurezza
+    - Language: Japanese
+      String: セキュリティについて聞く
+    - Language: Polish
+      String: Zapytaj o ochronę
+    - Language: Portuguese_Brazil
+      String: Pergunte sobre a segurança
+  Targets:
+  - AliasID: 11
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Prüfe die Türsteuerung.
+    - Language: English
+      String: Check the Door Controls
+    - Language: Spanish
+      String: Comprueba los controles de la puerta.
+    - Language: French
+      String: Vérifiez les commandes de la porte.
+    - Language: Italian
+      String: Ispeziona i comandi delle porte
+    - Language: Japanese
+      String: 扉操作盤を確認する
+    - Language: Polish
+      String: Sprawdź sterowanie drzwiami
+    - Language: Portuguese_Brazil
+      String: Verifique os controles da porta
+  Targets:
+  - AliasID: 34
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Walter Stroud.
+    - Language: English
+      String: Talk to Walter Stroud
+    - Language: Spanish
+      String: Habla con Walter Stroud.
+    - Language: French
+      String: Parlez à Walter Stroud.
+    - Language: Italian
+      String: Parla con Walter Stroud
+    - Language: Japanese
+      String: ウォルター・ストラウドと話す
+    - Language: Polish
+      String: Porozmawiaj z Walterem Stroudem
+    - Language: Portuguese_Brazil
+      String: Fale com Walter Stroud
+  Targets:
+  - AliasID: 1
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zur Astral Lounge.
+    - Language: English
+      String: Go to the Astral Lounge
+    - Language: Spanish
+      String: Ve al Astral Lounge.
+    - Language: French
+      String: Rendez-vous à l'Astral Lounge.
+    - Language: Italian
+      String: Vai all’Astral Lounge
+    - Language: Japanese
+      String: アストラル・ラウンジに行く
+    - Language: Polish
+      String: Idź do Astral Lounge
+    - Language: Portuguese_Brazil
+      String: Vá para o Astral Lounge
+  Targets:
+  - AliasID: 11
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Walter Stroud.
+    - Language: English
+      String: Talk to Walter Stroud
+    - Language: Spanish
+      String: Habla con Walter Stroud.
+    - Language: French
+      String: Parlez à Walter Stroud.
+    - Language: Italian
+      String: Parla con Walter Stroud
+    - Language: Japanese
+      String: ウォルター・ストラウドと話す
+    - Language: Polish
+      String: Porozmawiaj z Walterem Stroudem
+    - Language: Portuguese_Brazil
+      String: Fale com Walter Stroud
+  Targets:
+  - AliasID: 1
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde den Verkäufer.
+    - Language: English
+      String: Locate the Seller
+    - Language: Spanish
+      String: Encuentra al vendedor.
+    - Language: French
+      String: Localisez le vendeur.
+    - Language: Italian
+      String: Rintraccia il venditore
+    - Language: Japanese
+      String: 売り手を見つける
+    - Language: Polish
+      String: Znajdź kontrahenta
+    - Language: Portuguese_Brazil
+      String: Localize o vendedor
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Walter Stroud.
+    - Language: English
+      String: Talk to Walter Stroud
+    - Language: Spanish
+      String: Habla con Walter Stroud.
+    - Language: French
+      String: Parlez à Walter Stroud.
+    - Language: Italian
+      String: Parla con Walter Stroud
+    - Language: Japanese
+      String: ウォルター・ストラウドと話す
+    - Language: Polish
+      String: Porozmawiaj z Walterem Stroudem
+    - Language: Portuguese_Brazil
+      String: Fale com Walter Stroud
+  Targets:
+  - AliasID: 1
+- Index: 130
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Verhandle über das Artefakt.
+    - Language: English
+      String: Negotiate for the Artifact
+    - Language: Spanish
+      String: Negocia para conseguir el Artefacto.
+    - Language: French
+      String: Négociez l'artefact.
+    - Language: Italian
+      String: Negozia per il Manufatto
+    - Language: Japanese
+      String: アーティファクトの交渉をする
+    - Language: Polish
+      String: Negocjuj w sprawie artefaktu
+    - Language: Portuguese_Brazil
+      String: Negocie o artefato
+  Targets:
+  - AliasID: 36
+- Index: 135
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Töte Musgrove.
+    - Language: English
+      String: Kill Musgrove
+    - Language: Spanish
+      String: Mata a Musgrove.
+    - Language: French
+      String: Tuez Musgrove.
+    - Language: Italian
+      String: Elimina Musgrove
+    - Language: Japanese
+      String: マスグローブを倒す
+    - Language: Polish
+      String: Zabij Musgrove'a
+    - Language: Portuguese_Brazil
+      String: Mate Musgrove
+  Targets:
+  - AliasID: 13
+- Index: 137
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nimm das Artefakt.
+    - Language: English
+      String: Take the Artifact
+    - Language: Spanish
+      String: Coge el Artefacto.
+    - Language: French
+      String: Prenez l'artefact.
+    - Language: Italian
+      String: Prendi il Manufatto
+    - Language: Japanese
+      String: アーティファクトを取る
+    - Language: Polish
+      String: Weź artefakt
+    - Language: Portuguese_Brazil
+      String: Pegue o artefato
+  Targets:
+  - AliasID: 37
+- Index: 140
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zum Eingang.
+    - Language: English
+      String: Head to the Entrance
+    - Language: Spanish
+      String: Ve a la entrada.
+    - Language: French
+      String: Dirigez-vous vers l'entrée.
+    - Language: Italian
+      String: Raggiungi l’ingresso
+    - Language: Japanese
+      String: 入口へ向かう
+    - Language: Polish
+      String: Udaj się do wejścia
+    - Language: Portuguese_Brazil
+      String: Vá para a entrada
+  Targets:
+  - AliasID: 7
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Issa Eklund.
+    - Language: English
+      String: Talk to Issa Eklund
+    - Language: Spanish
+      String: Habla con Issa Eklund.
+    - Language: French
+      String: Parlez à Issa Eklund.
+    - Language: Italian
+      String: Parla con Issa Eklund
+    - Language: Japanese
+      String: イッサ・エクランドと話す
+    - Language: Polish
+      String: Porozmawiaj z Issą Eklund
+    - Language: Portuguese_Brazil
+      String: Fale com Issa Eklund
+  Targets:
+  - AliasID: 7
+- Index: 160
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zum HQ von Slayton Aerospace.
+    - Language: English
+      String: Go to Slayton Aerospace HQ
+    - Language: Spanish
+      String: Ve a la sede de Slayton Aeroespacial.
+    - Language: French
+      String: Rendez-vous au siège de Slayton Aerospace.
+    - Language: Italian
+      String: Vai al quartier generale della Slayton Aerospace
+    - Language: Japanese
+      String: スレイトン・エアロスペース本社に行く
+    - Language: Polish
+      String: Idź do siedziby firmy Slayton Aerospace
+    - Language: Portuguese_Brazil
+      String: Vá para a sede da Aeroespaço Slayton
+  Targets:
+  - AliasID: 5
+- Index: 170
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde einen Weg ins nächste Geschoss.
+    - Language: English
+      String: Find a Way to the Next Floor
+    - Language: Spanish
+      String: Busca la forma de llegar al siguiente piso.
+    - Language: French
+      String: Trouvez un accès à l'étage suivant.
+    - Language: Italian
+      String: Trova un modo per raggiungere il prossimo piano
+    - Language: Japanese
+      String: 次の階に進む方法を見つける
+    - Language: Polish
+      String: Znajdź drogę na następne piętro
+    - Language: Portuguese_Brazil
+      String: Descubra um jeito de acessar o próximo andar
+  Targets:
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 219260:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 587
+  - AliasID: 62
+  - AliasID: 94
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 219260:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 587
+      ComparisonValue: 1
+- Index: 180
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nimm den Aufzug.
+    - Language: English
+      String: Take the Elevator
+    - Language: Spanish
+      String: Coge el ascensor.
+    - Language: French
+      String: Prenez l'ascenseur.
+    - Language: Italian
+      String: Prendi l’ascensore
+    - Language: Japanese
+      String: エレベーターに乗る
+    - Language: Polish
+      String: Jedź windą
+    - Language: Portuguese_Brazil
+      String: Pegue o elevador
+  Targets:
+  - AliasID: 62
+- Index: 190
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Walter.
+    - Language: English
+      String: Talk to Walter
+    - Language: Spanish
+      String: Habla con Walter.
+    - Language: French
+      String: Parlez à Walter.
+    - Language: Italian
+      String: Parla con Walter
+    - Language: Japanese
+      String: ウォルターと話す
+    - Language: Polish
+      String: Porozmawiaj z Walterem
+    - Language: Portuguese_Brazil
+      String: Fale com Walter
+- Index: 210
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich ins nächste Geschoss.
+    - Language: English
+      String: Go to the Next Floor
+    - Language: Spanish
+      String: Ve a la siguiente planta.
+    - Language: French
+      String: Allez à l'étage suivant.
+    - Language: Italian
+      String: Vai al prossimo piano
+    - Language: Japanese
+      String: 次の階に行く
+    - Language: Polish
+      String: Idź na następne piętro
+    - Language: Portuguese_Brazil
+      String: Vá para a próxima sala
+  Targets:
+  - AliasID: 52
+- Index: 215
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Klettere den Trade Tower hoch.
+    - Language: English
+      String: Climb the Trade Tower
+    - Language: Spanish
+      String: Sube a lo alto de la Torre de comercio.
+    - Language: French
+      String: Montez dans la Trade Tower.
+    - Language: Italian
+      String: Sali sulla Torre del commercio
+    - Language: Japanese
+      String: トレード・タワーを登る
+    - Language: Polish
+      String: Wespnij się na Wieżę Handlową
+    - Language: Portuguese_Brazil
+      String: Suba a Torre Comercial
+  Targets:
+  - AliasID: 67
+- Index: 220
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Stelle Nicolaus Slayton zur Rede.
+    - Language: English
+      String: Confront Nicolaus Slayton
+    - Language: Spanish
+      String: Enfréntate a Nicolaus Slayton.
+    - Language: French
+      String: Confrontez Nicolaus Slayton.
+    - Language: Italian
+      String: Affronta Nicolaus Slayton
+    - Language: Japanese
+      String: ニコラウス・スレイトンと対決する
+    - Language: Polish
+      String: Spotkaj się z Nicolausem Slaytonem
+    - Language: Portuguese_Brazil
+      String: Confronte Nicolaus Slayton
+  Targets:
+  - AliasID: 24
+- Index: 230
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Töte Nicolaus Slayton.
+    - Language: English
+      String: Kill Nicolaus Slayton
+    - Language: Spanish
+      String: Mata a Nicolaus Slayton.
+    - Language: French
+      String: Tuez Nicolaus Slayton.
+    - Language: Italian
+      String: Elimina Nicolaus Slayton
+    - Language: Japanese
+      String: ニコラウス・スレイトンを倒す
+    - Language: Polish
+      String: Zabij Nicolausa Slaytona
+    - Language: Portuguese_Brazil
+      String: Mate Nicolaus Slayton
+  Targets:
+  - AliasID: 24
+- Index: 240
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Musgrove.
+    - Language: English
+      String: Talk to Musgrove
+    - Language: Spanish
+      String: Habla con Musgrove.
+    - Language: French
+      String: Parlez à Musgrove.
+    - Language: Italian
+      String: Parla con Musgrove
+    - Language: Japanese
+      String: マスグローブと話す
+    - Language: Polish
+      String: Porozmawiaj z Musgrove'em
+    - Language: Portuguese_Brazil
+      String: Fale com Musgrove
+  Targets:
+  - AliasID: 13
+- Index: 242
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Töte Musgrove.
+    - Language: English
+      String: Kill Musgrove
+    - Language: Spanish
+      String: Mata a Musgrove.
+    - Language: French
+      String: Tuez Musgrove.
+    - Language: Italian
+      String: Elimina Musgrove
+    - Language: Japanese
+      String: マスグローブを倒す
+    - Language: Polish
+      String: Zabij Musgrove'a
+    - Language: Portuguese_Brazil
+      String: Mate Musgrove
+  Targets:
+  - AliasID: 13
+- Index: 250
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zu deinem Schiff.
+    - Language: English
+      String: Go to the Ship
+    - Language: Spanish
+      String: Ve a la nave.
+    - Language: French
+      String: Rejoignez le vaisseau.
+    - Language: Italian
+      String: Vai alla nave
+    - Language: Japanese
+      String: 船に行く
+    - Language: Polish
+      String: Idź na statek
+    - Language: Portuguese_Brazil
+      String: Vá para a nave
+  Targets:
+  - AliasID: 61
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 905
+      ComparisonValue: 1
+  - AliasID: 83
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C1C9B:Starfield.esm
+        SecondParameter: 905
+- Index: 252
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Walter Stroud.
+    - Language: English
+      String: Talk to Walter Stroud
+    - Language: Spanish
+      String: Habla con Walter Stroud.
+    - Language: French
+      String: Parlez à Walter Stroud.
+    - Language: Italian
+      String: Parla con Walter Stroud
+    - Language: Japanese
+      String: ウォルター・ストラウドと話す
+    - Language: Polish
+      String: Porozmawiaj z Walterem Stroudem
+    - Language: Portuguese_Brazil
+      String: Fale com Walter Stroud
+  Targets:
+  - AliasID: 1
+- Index: 255
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Hebe von Neon ab.
+    - Language: English
+      String: Take off from Neon
+    - Language: Spanish
+      String: Despega de Neón.
+    - Language: French
+      String: Quittez Néon.
+    - Language: Italian
+      String: Decolla da Neon
+    - Language: Japanese
+      String: ネオンから離陸する
+    - Language: Polish
+      String: Odleć z Neonu
+    - Language: Portuguese_Brazil
+      String: Decole de Neon
+  Targets:
+  - AliasID: 61
+- Index: 260
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kehre zur Loge zurück.
+    - Language: English
+      String: Return to the Lodge
+    - Language: Spanish
+      String: Vuelve a la Logia.
+    - Language: French
+      String: Retournez à la Loge.
+    - Language: Italian
+      String: Torna alla Loggia
+    - Language: Japanese
+      String: ロッジに戻る
+    - Language: Polish
+      String: Wróć do Loży
+    - Language: Portuguese_Brazil
+      String: Volte para a Guarida
+  Targets:
+  - AliasID: 30
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 73
+  Name: CityNeonTradeTowerStroudEklundCorpLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2CDDFE:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 49
+  Name: SlaytonAerospaceLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 06A732:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 35
+  Name: NeonTradeTowerLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 270046:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 63
+  Name: NeonAstralLoungeLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2CDDFB:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 32
+  Name: NeonLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 015FFE:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 58
+  Name: PlayerShipCrewMarker
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 6
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 97
+  Name: PlayerShipPilotSeat
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 3
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: WalterStroud
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005996:Starfield.esm
+  Factions:
+  - 21950C:Starfield.esm
+  PackageData:
+  - 06AAAF:Starfield.esm
+  - 21894F:Starfield.esm
+  - 26FB22:Starfield.esm
+  - 1AC34D:Starfield.esm
+  - 218951:Starfield.esm
+  - 0FA5F3:Starfield.esm
+  - 122E8A:Starfield.esm
+  - 02FD17:Starfield.esm
+  - 26FAC0:Starfield.esm
+  - 26FCC8:Starfield.esm
+  - 26FCC7:Starfield.esm
+  - 10B13C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: BooneMorgan
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 2C4887:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: companion
+  Flags:
+  - Optional
+  - CreateRefTemp
+  - ExternalAliasLinked
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Ryleigh
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 019622:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: IssaEklund
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 01961D:Starfield.esm
+  PackageData:
+  - 26D95C:Starfield.esm
+  - 0FA5F4:Starfield.esm
+  - 1691A6:Starfield.esm
+  - 27004E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: JamesNewill
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 2C4884:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: Oscar
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 2C7D2B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: Musgrove
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 01961F:Starfield.esm
+  PackageData:
+  - 2CE1AC:Starfield.esm
+  - 2D8986:Starfield.esm
+  - 26FB23:Starfield.esm
+  - 1AC110:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: SlaytonAgentM01
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 2C5FF7:Starfield.esm
+  PackageData:
+  - 323291:Starfield.esm
+  - 018A0C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: NeonSecurityF01
+  Flags:
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 2C5FFA:Starfield.esm
+  ForcedVoice: 2BCA46:Starfield.esm
+  VoiceTypes: 2BCA46:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: SlaytonIntercom
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2C6530:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: NicolausSlayton
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 019623:Starfield.esm
+  PackageData:
+  - 25C795:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 29
+  Name: NewAtlantisLodgeLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 27C8ED:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: ArtifactCollection
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 29
+    RefType: 0D0AFC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: SleepcrateTerminal
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 32
+    RefType: 27004A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 44
+  Name: MusgroveNote01
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 32
+    RefType: 270049:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 45
+  Name: MusgroveNote02
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 32
+    RefType: 270048:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: NewillTerminal
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 32
+    RefType: 270047:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: NegotiationQTMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2CDDFF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: MQ105Artifact
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  - CreateRefTemp
+  ALFG: 0
+  Location:
+    AliasID: 63
+    RefType: 01B278:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: AstraLoungeTerminal
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 63
+    RefType: 270044:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: NegotiationPlayerSeat
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 63
+    RefType: 270045:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: AstraLoungeHackedDoor01
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 63
+    RefType: 270043:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 92
+  Name: AstralLoungeBriefcase
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 63
+    RefType: 01C17B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 41
+    ALAM: 0
+    ReferenceAlias:
+      ID: 41
+      Name: SlaytonBodyguards
+      Flags:
+      - Optional
+      - AllowDisabled
+      ALFG: 0
+      Location:
+        AliasID: 49
+        RefType: 2CE1A9:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 42
+  Name: MusgroveInjuredMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 26FE27:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 69
+  Name: HackerSequenceElevator01
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 1F2DF9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 70
+  Name: HackerSequenceElevator02
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 1C214B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 52
+  Name: SecondFloorQT
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 26FE30:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 54
+  Name: TacticalBot01
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 26FE2C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 55
+  Name: TacticalBot02
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 26FE2B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 56
+  Name: TacticalBot03
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 26FE2A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 57
+  Name: DeadBot
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 61
+  Name: PlayerShip
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 59
+  Name: Player
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 60
+  Name: NeonMapMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 26FB28:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 62
+  Name: SlaytonDoorToSecondFloor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 26D86C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 65
+  Name: HackerSequenceChoiceDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 21940C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 66
+  Name: HackerMaintenanceDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 2193FB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 67
+  Name: TradeTowerDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 21894D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 75
+  Name: DoorToMusgroveInjured01
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 21894C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 68
+  Name: DoorToMusgroveInjured02
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 21894C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 72
+  Name: StroudEklundDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 73
+    RefType: 139E48:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 74
+  Name: FrostedGlassTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 138F31:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 76
+  Name: ExecutiveElev01
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 138F34:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 80
+  Name: ExitElevatorDoor01
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 04A450:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 83
+  Name: ExitElevatorDoorButton
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 04A44B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 78
+  Name: FirstFloorGateControls
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 12E080:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 79
+  Name: FirstFloorGateDoor
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 12E07F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 96
+  Name: FirstFloorDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 247E3E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 87
+  Name: VoliiGuardShip01
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1B1818:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 86
+  Name: VoliiGuardShip02
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1B1819:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 88
+  Name: VoliiAlphaOrbit
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01A97C:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 89
+  Name: VoliiStationLocation
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 216D26:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 90
+  Name: ElevatorManager_LobbyMiddle
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 078294:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 91
+  Name: ElevatorManager_LobbyExec
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 078295:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 93
+  Name: RooftopDoorExterior
+  Flags: []
+  ALFG: 0
+  ForcedReference: 354B83:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 94
+  Name: SlaytonKeycardHolder
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 02CADC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 95
+  Name: NicolausDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 49
+    RefType: 048C5F:Starfield.esm
+  VoiceTypes: Null

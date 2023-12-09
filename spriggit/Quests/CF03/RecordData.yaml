@@ -1,0 +1,4097 @@
+FormKey: 24EEF8:Starfield.esm
+EditorID: CF03
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 2B2BAA:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 10
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 20
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01535A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 320
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 315
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 2BF36E:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 420
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 410
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: cf03questscript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: StageToSet
+      Data: 181
+  Script:
+    Name: Fragments:Quests:QF_CF03_0024EEF8
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_DeskLamp
+      Object: 24EEF8:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BE_CF03_Shuttle
+      Object: 08AF1A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03NaevaWrapUpMarker
+      Object: 245ACC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage080_Mathis_CollapseScene
+      Object: 24EA7C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_Shuttle
+      Object: 24EEF8:Starfield.esm
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoWrapUpMarker
+      Object: 245ACB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoStartMarker
+      Object: 245AF4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage999_Mathis_OptionalCacheScene
+      Object: 0B659E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_DeskLampDummy
+      Object: 24EEF8:Starfield.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoInsideLockEntranceMarkerRef
+      Object: 1F9826:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_CF03_Stage3_Ambush
+      Object: 3DABA5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerStartAtBarracks
+      Object: 168A90:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage220_Mathis_WardenOfficeCallout
+      Object: 24EA71:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisStartAtBarracks
+      Object: 168A8F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisStartMarker
+      Object: 245AF3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_Toft
+      Object: 24EEF8:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_CF03_PryOpenLamp
+      Object: 108250:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Weapon_Reward_CF03_Kryx
+      Object: 08D850:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_Delgado
+      Object: 24EEF8:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisInsideLockEntranceMarkerRef
+      Object: 1F9827:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Outfit_Spacesuit_Elite_CF03_MathisCastillo
+      Object: 37A341:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisCatchupArmoryMarker01
+      Object: 168AA6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030TheLockDoorMainEntranceRef
+      Object: 260A4E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03TempCollapseBlockerRef
+      Object: 2458CA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030_VentilationRoomPassword
+      Object: 1F91FB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF04
+      Object: 23C6F1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_LLI_MathisMagstorm
+      Object: 168A9D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisStartAtWarden
+      Object: 168A8A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030Lock01
+      Object: 2A6C55:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_ExteriorDoor
+      Object: 24EEF8:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage215_Mathis_BarracksCreatureRush
+      Object: 168A8E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030LockLocation
+      Object: 2B2BAA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_PlayerStartKryxCell
+      Object: 0BC855:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF05
+      Object: 21D792:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisTowerTopOverrideMarker
+      Object: 003ED3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisOuterDoorMarker01
+      Object: 245AF2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage145_Mathis_TowerScenePreCallout
+      Object: 207E8D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage130_EndLockdown
+      Object: 0F9D51:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030_LockerPasscode
+      Object: 1F91FA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_MathisStartKryxCell
+      Object: 0BC855:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisCatchupArmoryMarker02
+      Object: 168AA5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage211_Mathis_ArmoryScene
+      Object: 168AA9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC082
+      Object: 2BF365:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_CF03_Stage1_DoorUnlock
+      Object: 3DAC61:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_LLI_MathisMagstormAmmo
+      Object: 168A9C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_Mathis
+      Object: 24EEF8:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MagStorm
+      Object: 26035E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisCatchupBarracksMarker
+      Object: 168A91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage105_Mathis_WallPanelFallsCallout
+      Object: 168ACF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisTowerOverrideMarker
+      Object: 1EC4E5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoShuttleOverlookMarker
+      Object: 245AD2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03ControlRoomExitDoorRef
+      Object: 2A74E5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030_LockerCode
+      Object: 1F91FA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_IDReader
+      Object: 24EEF8:Starfield.esm
+      Alias: 57
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03ActorsUseGroupTravelGlobal
+      Object: 168AD8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_GenericAlly01
+      Object: 24EEF8:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_SysDefShutdown
+      Object: 216625:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFKey
+      Object: 297E3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerStartInLock
+      Object: 2458C6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisCatchupIntakeMarker
+      Object: 168A99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisStartAtIntake
+      Object: 168A9B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisStartAtArmory
+      Object: 168AAE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisTransferAreaMarker
+      Object: 245AED:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_GenericAlly02
+      Object: 24EEF8:Starfield.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_TADelgadoIntercom
+      Object: 24EEF8:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_Naeva
+      Object: 24EEF8:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage191_Mathis_AfterLogCallout
+      Object: 0B659D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage040_Delgado_LockExtOutroScene
+      Object: 2458CB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCSysDefFaction
+      Object: 2733AF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetFaction
+      Object: 010B30:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SE_Player_FAB20_Timestamp
+      Object: 1EFCEF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerOuterDoorMarker
+      Object: 2458CE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage100_Delgado_PACallout
+      Object: 24EA79:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage140_Mathis_TowerCallout
+      Object: 24EA78:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage050_StairsScene
+      Object: 0D0806:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoTransferAreaPAMarker
+      Object: 2458E7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_KryxSlate
+      Object: 24EEF8:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03ToftWrapUpMarker
+      Object: 245AC6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipPreventRampOpenOnLanding
+      Object: 09DE4F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_WardenExitDoorRef
+      Object: 1FB695:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage270_ShuttleAnnounceScene
+      Object: 0BC85A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage060_Delgado_AttackScene
+      Object: 24EA7E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerShuttleStart
+      Object: 12F2FE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage135_Mathis_TowerCallout
+      Object: 24EA78:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_MapMarkerRef
+      Object: 24EEF8:Starfield.esm
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage175_Mathis_CellCallout
+      Object: 24EA75:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage180_Mathis_TowerCellCallout
+      Object: 24EA76:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_ArmoryWeaponCaseCollision
+      Object: 24EEF8:Starfield.esm
+      Alias: 61
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage219_Delgado_WardenPACallout
+      Object: 207E8A:Starfield.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: waitTime
+      Data: 3.25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerStartAtIntake
+      Object: 168A9A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerStartAtWarden
+      Object: 168A8B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage085_Mathis_PostCollapseScene
+      Object: 0D080A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoOuterDoorMarker01
+      Object: 245AF1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerInsideLockMarkerRef
+      Object: 168AB7:Starfield.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: cooldownDays
+      Data: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_TAAmbushSFXMarkerRefCol
+      Object: 24EEF8:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoTransferAreaMarker
+      Object: 245AEC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisWrapUpMarker
+      Object: 245ACA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerStartAtArmory
+      Object: 168AAF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_Kibwe
+      Object: 24EEF8:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainState_Mathis
+      Object: 278E87:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03KibweWrapUpMarker
+      Object: 245AC8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_ArmoryWeaponCase
+      Object: 24EEF8:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisShuttleStart
+      Object: 12F2F9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_Main
+      Object: 178B1E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerStartMarker
+      Object: 2458CF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Spacesuit_CrimsonFleet_Assault_Helmet_NOTPLAYABLE
+      Object: 1ED06C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage180_Mathis_CellCallout
+      Object: 24EA75:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030
+      Object: 2B67E9:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 107
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0107_Item_00
+  - Stage: 171
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0171_Item_00
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0320_Item_00
+  - Stage: 370
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0370_Item_00
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0220_Item_00
+  - Stage: 183
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0183_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 235
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0235_Item_00
+  - Stage: 214
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0214_Item_00
+  - Stage: 56
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0056_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 335
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0335_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0420_Item_00
+  - Stage: 330
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0330_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 211
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0211_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 135
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0135_Item_00
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0105_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 364
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0364_Item_00
+  - Stage: 219
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0219_Item_00
+  - Stage: 176
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0176_Item_00
+  - Stage: 48
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0048_Item_00
+  - Stage: 240
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0240_Item_00
+  - Stage: 240
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0240_Item_01
+  - Stage: 181
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0181_Item_00
+  - Stage: 222
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0222_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0130_Item_00
+  - Stage: 41
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0041_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 172
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0172_Item_00
+  - Stage: 145
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0145_Item_00
+  - Stage: 340
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0340_Item_00
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0250_Item_00
+  - Stage: 81
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0081_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 212
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0212_Item_00
+  - Stage: 136
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0136_Item_00
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0013_Item_00
+  - Stage: 230
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0230_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0008_Item_00
+  - Stage: 255
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0255_Item_00
+  - Stage: 63
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0063_Item_00
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0011_Item_00
+  - Stage: 270
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0270_Item_00
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0160_Item_00
+  - Stage: 185
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0185_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 18
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0018_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 215
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0215_Item_00
+  - Stage: 182
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0182_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 51
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0051_Item_00
+  - Stage: 175
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0175_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0065_Item_00
+  - Stage: 260
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0260_Item_00
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0170_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 132
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0132_Item_00
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0115_Item_00
+  - Stage: 54
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0054_Item_00
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0140_Item_00
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0009_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0085_Item_00
+  - Stage: 315
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0315_Item_00
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0080_Item_00
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0190_Item_00
+  - Stage: 213
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0213_Item_00
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0090_Item_00
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0180_Item_00
+  - Stage: 223
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0223_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 131
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0131_Item_00
+  - Stage: 360
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0360_Item_00
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0006_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 195
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0195_Item_00
+  - Stage: 365
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0365_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 52
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0052_Item_00
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 218
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0218_Item_00
+  - Stage: 177
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF03_0024EEF8
+    FragmentName: Fragment_Stage_0177_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 24EEF8:Starfield.esm
+      Alias: 58
+    Scripts:
+    - Name: CF03LockDoorAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CF03_PlayerShipPilotSeat
+        Object: 24EEF8:Starfield.esm
+        Alias: 60
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SQ_Followers
+        Object: 00D773:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 24EEF8:Starfield.esm
+      Alias: 9
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 190
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 195
+  - Property:
+      Name: ''
+      Object: 24EEF8:Starfield.esm
+      Alias: 14
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 176
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 185
+  - Property:
+      Name: ''
+      Object: 24EEF8:Starfield.esm
+      Alias: 29
+    Scripts:
+    - Name: defaultaliasonopen
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 210
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 210
+  - Property:
+      Name: ''
+      Object: 24EEF8:Starfield.esm
+      Alias: 52
+    Scripts:
+    - Name: DefaultShowMessageOnActivateAlias
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: Button0StageToSet
+        Data: 183
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MessageToShow
+        Object: 0BC859:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 24EEF8:Starfield.esm
+      Alias: 33
+    Scripts:
+    - Name: defaultaliasonopen
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 205
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 205
+  - Property:
+      Name: ''
+      Object: 24EEF8:Starfield.esm
+      Alias: 30
+    Scripts:
+    - Name: DefaultAliasOnShipUndock
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: SetStageWhenUndockingComplete
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 10
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Echos der Vergangenheit
+  - Language: English
+    String: Echoes of the Past
+  - Language: Spanish
+    String: Ecos del pasado
+  - Language: French
+    String: Échos du passé
+  - Language: Italian
+    String: Echi dal passato
+  - Language: Japanese
+    String: 過去の残響
+  - Language: Polish
+    String: Echa przeszłości
+  - Language: Portuguese_Brazil
+    String: Ecos do Passado
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475FD:Starfield.esm
+QuestFaction: 0546E0:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =START ON SUVOROV=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =START OUTSIDE LOCK=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =START INSIDE LOCK ENTRANCE=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =START INSIDE THE LOCK=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =START AT INTAKE=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =START AT ARMORY=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =START AT BARRACKS=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =START AT WARDENS OFFICE=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =START AT SHUTTLE BAY - PLAYER HOGS GLORY=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =Quickstart Setup=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Proceed to the surface of Suvorov
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Delgado hat mich gebeten, mich mit ihm auf einem Planeten namens Suvorov zu treffen – dort hat Kryx' Vermächtnis angeblich seinen Ursprung. Zusammen werden wir ein Hochsicherheitsgefängnis namens „das Schloss“ erkunden, um Informationen über den Schatz zu finden.
+      - Language: English
+        String: Delgado has asked me to meet him on a planet called Suvorov - the supposed origin of Kryx's Legacy. Together we'll be exploring an supermax prison called "the Lock" in an effort to uncover information about the elusive treasure.
+      - Language: Spanish
+        String: Delgado me ha pedido que nos reunamos en un planeta llamado Suvorov, el supuesto origen del Legado de Kryx. Juntos exploraremos una cárcel de máxima seguridad llamada “la Reja” para tratar de descubrir información sobre el esquivo tesoro.
+      - Language: French
+        String: Delgado m'a demandé de le retrouver sur la planète Suvorov, qui serait l'emplacement d'origine de l'Héritage de Kryx. Ensemble, nous allons explorer une prison de haute sécurité appelée “le Verrou” pour essayer d'y trouver des informations sur ce mystérieux trésor.
+      - Language: Italian
+        String: Delgado mi ha chiesto di raggiungerlo su un pianeta chiamato Suvorov, il luogo di origine dell’Eredità di Kryx. Una volta lì, esploreremo una prigione di massima sicurezza chiamata “il Blocco” nella speranza di ottenere informazioni sul tesoro perduto.
+      - Language: Japanese
+        String: デルガドにスボーロフという惑星で合流するよう指示された。そこはクリクスの遺産の起源らしい。一緒に"〈ロック〉"という名の超重警備刑務所を探索し、伝説のお宝に関する情報を見つけ出す
+      - Language: Polish
+        String: Delgado chce spotkać się ze mną na planecie zwanej Suworow, domniemanym źródle Dziedzictwa Kryxa. Razem będziemy eksplorować więzienie o maksymalnym rygorze, „Zamek”, aby dowiedzieć się więcej o tym nieuchwytnym skarbie.
+      - Language: Portuguese_Brazil
+        String: Delgado me pediu para encontrá-lo num planeta chamado Suvorov, a suposta origem do Legado do Kryx. Juntos, vamos explorar uma prisão de segurança máxima, a “Fechadura”, a fim de descobrir mais informações sobre esse tesouro misterioso.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 11
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =START AT SHUTTLE BAY - PLAYER BACKS MATHIS=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 12
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =START AT BLOCK UNLOCK=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 13
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =START SPACEFLIGHT=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has undocked from the Key
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 18
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: SysDef Shutdown
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak to Delgado
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Jetzt, da ich auf Suvorov gelandet bin, sollte ich mit Delgado sprechen und herausfinden, was der Plan als Nächstes vorsieht.
+      - Language: English
+        String: Now that I've landed on Suvorov, I should speak to Delgado and discover the next stage of our plan.
+      - Language: Spanish
+        String: Ahora que he aterrizado en Suvorov, debería hablar con Delgado y descubrir el próximo paso de nuestro plan.
+      - Language: French
+        String: Maintenant que je suis sur Suvorov, je devrais rejoindre Delgado pour découvrir la suite de son plan.
+      - Language: Italian
+        String: Ora che ho raggiunto Suvorov, dovrei parlare con Delgado e scoprire quale sarà la nostra prossima mossa.
+      - Language: Japanese
+        String: スボーロフに着陸した。デルガドに次の予定を聞こう
+      - Language: Polish
+        String: Po wylądowaniu na Suworowie czas na rozmowę z Delgado. Opowie mi, jaki jest nasz następny krok.
+      - Language: Portuguese_Brazil
+        String: Agora que aterrissei em Suvorov, tenho que falar com Delgado e saber qual é o próximo passo do nosso plano.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 22
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Delgado Forcegreet Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 25
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Comment outside of Lock
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Meet Delgado at the entrance to the Lock
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mich auf Suvorov mit Delgado getroffen. Mathis, ein anderer Neuling bei der Crimson Fleet, und ich sollen uns zum Eingang des Schlosses begeben.
+      - Language: English
+        String: I've rendezvoused with Delgado on Suvorov. Along with Mathis, a fellow Crimson Fleet rook, we're supposed to head to the entrance of the Lock.
+      - Language: Spanish
+        String: He quedado con Delgado en Suvorov. Debería ir a la entrada de la Reja junto con Mathis, otro nuevo grumete de la Flota Carmesí.
+      - Language: French
+        String: J'ai rendez-vous avec Delgado sur Suvorov. Je dois rejoindre l'entrée du Verrou avec Mathis, un autre nouvel arrivé dans la Flotte écarlate.
+      - Language: Italian
+        String: Ho incontrato Delgado su Suvorov. Dovrei dirigermi all’ingresso del Blocco insieme a Mathis, una matricola della Flotta Cremisi.
+      - Language: Japanese
+        String: スボーロフでデルガドと合流した。同じく紅の艦隊の新人であるマシスと、〈ロック〉の入口へ進むことになっている
+      - Language: Polish
+        String: Spotkaliśmy się z Delgado na Suworowie. Wraz z Mathisem, innym szczurem z Karmazynowej Floty, mamy udać się do wejścia do Zamka.
+      - Language: Portuguese_Brazil
+        String: Encontrei o Delgado em Suvorov. Junto com Mathis, outro recruta da Frota Escarlate, devemos seguir até a entrada da Fechadura.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak to Delgado (Outside Lock)
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe den äußeren Zugang zum Schloss erreicht. Ich sollte mit Delgado sprechen und herausfinden, was als Nächstes ansteht.
+      - Language: English
+        String: I've reached the exterior entrance to the Lock. I should speak to Delgado and see what he's planned next.
+      - Language: Spanish
+        String: He llegado a la entrada exterior de la Reja. Debería hablar con Delgado, a ver qué tiene planeado.
+      - Language: French
+        String: Nous voici devant l'entrée du Verrou. Je devrais aller parler à Delgado pour voir ce qu'il a prévu.
+      - Language: Italian
+        String: Ho raggiunto l’ingresso esterno del Blocco. Dovrei parlare con Delgado e scoprire cos’ha in mente di fare.
+      - Language: Japanese
+        String: 〈ロック〉の外殻入口へたどり着いた。デルガドに次の予定を聞こう
+      - Language: Polish
+        String: Udało mi się dotrzeć do zewnętrznego wejścia do Zamka. Porozmawiam z Delgado, żeby dowiedzieć się, co dalej szykuje.
+      - Language: Portuguese_Brazil
+        String: Cheguei à entrada externa da Fechadura. Tenho que falar com o Delgado e ver o que ele planeja agora.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 41
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Delgado Ext Lock Scene Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 45
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Delgado done talking outside Lock
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 48
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Door Unlocked
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Venture deeper into the Lock
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Jetzt, da der Zugang zum Schloss entriegelt wurde, schickt Delgado uns hinein. Ich habe nichts dagegen, aus der eisigen Kälte von Suvorov in eine etwas geschütztere Umgebung zu kommen.
+      - Language: English
+        String: With the doors to the Lock unsealed, Delgado is having us head inside. I'll be happy to get out of Suvorov's freezing temperatures and into some cover.
+      - Language: Spanish
+        String: Una vez abiertas las puertas de la Reja, Delgado nos lleva al interior. Será un placer librarse de las gélidas temperaturas de Suvorov y resguardarse en algún sitio.
+      - Language: French
+        String: Les portes du Verrou sont ouvertes, et Delgado nous mène à l'intérieur. Si les températures glaciales de Suvorov pouvaient, elles, rester à l'extérieur, ça m'arrangerait.
+      - Language: Italian
+        String: Ora che le porte del Blocco sono state aperte, Delgado vuole che ci dirigiamo al suo interno. Non mi dispiacerebbe un po’ di riparo dalle temperature glaciali di Suvorov.
+      - Language: Japanese
+        String: 〈ロック〉のドアを解錠し、デルガドの指示で中へ入った。スボーロフの凍てつく大気から避難できるのはありがたい
+      - Language: Polish
+        String: Drzwi do Zamka są otwarte. Delgado zaprasza nas do środka. Bardzo chętnie schowam się gdzieś przed mrozami Suworowa.
+      - Language: Portuguese_Brazil
+        String: Agora que as portas da Fechadura estão abertas, o Delgado quer que a gente entre. Vai ser um prazer encontrar abrigo e deixar as temperaturas congelantes de Suvorov.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 51
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player enters The Lock
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 52
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ambush Trigger - Player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 54
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ambush Trigger - Mathis
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 56
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ambush Trigger - Delgado
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Secure the Prisoner Transfer Area
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 63
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ambush - Tunneling SFX
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 65
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ambush - Trigger Ambush
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 70
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak to Delgado
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: In einem besonders großen Bereich tief im Schloss wurden wir von raubtierhaften Lebensformen überrascht. Die sind jetzt kein Problem mehr, aber ich frage mich, welche Überraschungen Delgado noch für uns bereithält.
+      - Language: English
+        String: As we entered a particularly large area within the depths of the Lock, we were assaulted by predatory lifeforms. They've all been taken care of, so I should see what other surprises Delgado has in store for us.
+      - Language: Spanish
+        String: En cuanto entramos a una zona particularmente grande en las profundidades de la Reja, nos asaltaron unos depredadores. Nos hemos ocupado de todos, pero a ver qué otras sorpresas nos tiene preparadas Delgado.
+      - Language: French
+        String: À notre entrée dans une vaste salle dans les profondeurs du Verrou, nous avons été attaqués par des prédateurs. Nous les avons tous éliminés. À présent, voyons quelles autres surprises Delgado nous réserve.
+      - Language: Italian
+        String: Dopo aver raggiunto una grande area situata nelle profondità del Blocco, siamo stati attaccati da un gruppo di forme di vita ostili. Ora che ce ne siamo occupati, dovrei scoprire quali sono le prossime sorprese che Delgado ha in serbo per noi.
+      - Language: Japanese
+        String: 〈ロック〉内の特に大きな空間へ進んだところ、好戦的な生命体に攻撃されたが、一掃した。デルガドは他にどんなサプライズを用意しているのやら
+      - Language: Polish
+        String: Po wejściu do dużej strefy w głębinach Zamka zaatakowały nas drapieżne istoty. Jest już po nich. Zobaczmy, jakie jeszcze niespodzianki trzyma dla nas w zanadrzu Delgado.
+      - Language: Portuguese_Brazil
+        String: Ao entrar numa área particularmente grande dentro da Fechadura, fomos atacados por formas de vida predatórias. Acabamos com todos, mas temos que ver que outras surpresas o Delgado reservou para nós.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 80
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Explore the control room
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Delgado hat bemerkt, dass wir in diesem Bereich feststecken. Er möchte, dass wir einen Kontrollraum in der Nähe finden und von dort die Abriegelung beenden.
+      - Language: English
+        String: Delgado has noticed that we're locked into this initial area. He wants us to head up to a nearby control room to see if we can cancel the lockdown.
+      - Language: Spanish
+        String: Delgado ha visto que no podemos pasar de esta zona inicial. Quiere que vayamos a una sala de control que hay cerca para ver si podemos cancelar el bloqueo.
+      - Language: French
+        String: Delgado a remarqué que la zone où nous nous trouvons est verrouillée. Il veut que nous allions dans la salle de commandes pour lever le confinement.
+      - Language: Italian
+        String: Delgado ha notato che siamo bloccati all’interno dell’area iniziale. Vuole che raggiungiamo una sala comandi nei paraggi per scoprire se è possibile interrompere l’isolamento.
+      - Language: Japanese
+        String: デルガドは今いる入口区画から先に進めないことに気づいた。封鎖を解除するために近くの制御室へ進むよう指示された
+      - Language: Polish
+        String: Delgado zauważył, że jesteśmy zamknięci w początkowej strefie. Chce, byśmy udali się do dyspozytorni, aby zakończyć blokadę.
+      - Language: Portuguese_Brazil
+        String: Delgado se deu conta de que estamos presos na área inicial. Ele acha que precisamos ir para uma sala de controle próxima para ver se conseguimos desfazer o isolamento.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 81
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mathis, Waiting At Collapse
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 85
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mathis, Collapse Scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 86
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mathis, Collapse Scene 2
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 90
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak to Mathis Castillo
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 92
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player Refused Mathis
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 93
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player Agreed Mathis
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Done Speaking to Mathis
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ein überraschender Einsturz hat Mathis und mich von Delgado getrennt. Mathis sieht das als perfekte Gelegenheit, um hinter Delgados Rücken jegliche Informationen über Kryx' Vermächtnis an den Meistbietenden zu verkaufen.
+      - Language: English
+        String: A surprise rockfall has separated Mathis and I from Delgado. It seems Mathis is taking this unique opportunity to suggest that we betray Delgado and sell any information about Kryx's Legacy to the highest bidder.
+      - Language: Spanish
+        String: Un desprendimiento inesperado nos ha separado a Mathis y a mí de Delgado. Parece que Mathis quiere aprovechar esta ocasión tan excepcional para sugerir que traicionemos a Delgado y que vendamos cualquier información sobre el Legado de Kryx al mejor postor.
+      - Language: French
+        String: Une chute de pierres nous a séparés, Mathis et moi, de Delgado. Mathis veut profiter de cette opportunité pour trahir Delgado et revendre les potentielles informations sur l'Héritage de Kryx au plus offrant.
+      - Language: Italian
+        String: Una frana ci ha separato da Delgado. Mathis ha colto la palla al balzo e ha iniziato a suggerirmi di tradire Delgado e di vendere qualsiasi informazione sull’Eredità di Kryx al miglior offerente.
+      - Language: Japanese
+        String: 突然の落石により、デルガドと離れてしまった。マシスはこの特殊な状況を逃さず、デルガドを裏切ってクリクスの遺産を最高入札者に売り渡すべきだと提案してきた
+      - Language: Polish
+        String: Zaskakująca lawina skalna rozdzieliła mnie i Mathisa od Delgado. Dla Mathisa to najwyraźniej wyjątkowa okazja, żeby zaproponować zdradę Delgado i sprzedaż informacji o Dziedzictwie Kryxa temu, kto da więcej.
+      - Language: Portuguese_Brazil
+        String: Um deslizamento de pedras acabou separando Mathis e eu do Delgado. Mathis aproveitou a oportunidade para sugerir que a gente traia o Delgado e venda as informações sobre o Legado do Kryx para quem pagar mais.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player Opens Collapsing Wall
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 107
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player Reaches Stairway to Control Room
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak to Delgado (via PA from Control Room)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 115
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player activates Intercom
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Open the doors for Delgado
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Delgado hat Mathis und mir befohlen, auf eigene Faust nach Informationen zu Kryx' Vermächtnis zu suchen. Bevor wir losziehen, sollten wir eine Möglichkeit finden, die Abriegelung in unserem Bereich der Anlage aufzuheben.
+      - Language: English
+        String: Delgado has ordered Mathis and I to search for information regarding Kryx's Legacy on our own. Before we move on, we should find a way to release the lockdown in our section of the facility.
+      - Language: Spanish
+        String: Delgado nos ha ordenado a Mathis y a mí que busquemos por nuestra cuenta información sobre el Legado de Kryx. Antes de continuar, deberíamos buscar la forma de anular el bloqueo en nuestra sección de las instalaciones.
+      - Language: French
+        String: Delgado nous a ordonné, à Mathis et moi, de chercher des informations au sujet de l'Héritage de Kryx de notre côté. Avant de continuer, nous devons trouver le moyen de lever le confinement dans notre section du complexe.
+      - Language: Italian
+        String: Delgado ha ordinato a Mathis e a me di cercare informazioni sull’Eredità di Kryx per conto nostro. Prima di procedere, dobbiamo trovare il modo di annullare l’isolamento della sezione della struttura in cui ci troviamo.
+      - Language: Japanese
+        String: クリクスの遺産に関する情報を探るよう、マシスと共にデルガドから命じられた。先へ進む前に、施設のこの区域における封鎖を解除する方法を見つけなければならない
+      - Language: Polish
+        String: Delgado nakazał mi i Mathisowi szukać samodzielnie informacji o Dziedzictwie Kryxa. Zanim ruszymy, musimy znaleźć sposób, aby wyłączyć blokadę w naszej sekcji placówki.
+      - Language: Portuguese_Brazil
+        String: Delgado ordenou que eu e Mathis procuremos informações sobre o Legado do Kryx por conta própria. Antes de prosseguirmos, temos que dar um jeito de cancelar o isolamento na nossa seção do complexo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Proceed to the Cell Block
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir haben die Abriegelung in diesem Bereich der Anlage aufgehoben. Wir sollten jetzt zum Zellenblock gehen und weiter nach zusätzlichen Informationen bezüglich Kryx' Vermächtnis suchen.
+      - Language: English
+        String: We've canceled the lockdown on this section of the facility. We should now proceed to the cell block and continue hunting for more information regarding Kryx's Legacy.
+      - Language: Spanish
+        String: Hemos cancelado el bloqueo en esta sección de las instalaciones. Ahora deberíamos explorar el bloque de celdas y seguir buscando información sobre el Legado de Kryx.
+      - Language: French
+        String: Nous avons levé le confinement dans notre section du complexe. Nous devons désormais atteindre le bloc de détention pour continuer à chercher des informations sur l'Héritage de Kryx.
+      - Language: Italian
+        String: Abbiamo annullato l’isolamento di questa sezione della struttura. Dobbiamo raggiungere il settore detentivo e continuare a cercare informazioni sull’Eredità di Kryx.
+      - Language: Japanese
+        String: 施設のこの区域における封鎖を解除した。監房ブロックへ向かってクリクスの遺産に関する情報をもっと探そう
+      - Language: Polish
+        String: Wyłączyliśmy blokadę tej sekcji ośrodka. Możemy udać się do kolejnego bloku w poszukiwaniu dalszych informacji o Dziedzictwie Kryxa.
+      - Language: Portuguese_Brazil
+        String: Cancelamos o isolamento dessa seção do complexo. Melhor seguirmos para o bloco de celas e continuarmos procurando mais informações sobre o Legado do Kryx.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 131
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Delgado Exits Transfer Area
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 132
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player Enters Intake Office
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 135
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player uses Intake Office Terminal
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 136
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+        SecondParameter: 320
+    Note: Start Mathis' Callout Scene - Condition is a fix for quickstart stage 8. This stage is being set at stage 320, making Mathis uninteractable
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 140
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Proceed to Guard Tower Control Room (Mathis called out)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 145
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mathis callout near Guard Tower
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak to Mathis Castillo
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 160
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mathis Forcegreet Complete
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 170
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Locate Kryx's Cell
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Mathis ist immer noch der Meinung, dass wir Delgado hintergehen und Kryx' Informationen für uns behalten sollten. Inzwischen erkunden wir weiter den Block D.
+      - Language: English
+        String: Mathis still insists we should betray Delgado and keep Kryx's information to ourselves. In the meantime, we're still exploring D-Block.
+      - Language: Spanish
+        String: Mathis sigue insistiendo en que deberíamos traicionar a Delgado y quedarnos la información de Kryx. Mientras, seguimos explorando el bloque D.
+      - Language: French
+        String: Mathis pense toujours que nous devrions trahir Delgado et garder les informations concernant Kryx pour nous. En attendant, nous continuons à explorer le bloc D.
+      - Language: Italian
+        String: Mathis continua a ripetermi che dovremmo tradire Delgado e tenerci strette le informazioni su Kryx. Nel frattempo, stiamo continuando a esplorare il blocco D.
+      - Language: Japanese
+        String: マシスはいまだに、デルガドを裏切ってクリクスの情報を独り占めするべきだと主張している。今はDブロックの探索が続いている
+      - Language: Polish
+        String: Mathis próbuje mnie przekonać do zdradzenia Delgado i zachowania dla siebie informacji o Kryxie. W międzyczasie zwiedzamy dalej blok D.
+      - Language: Portuguese_Brazil
+        String: Mathis insiste que devemos trair o Delgado e ficar com as informações do Kryx. Enquanto isso, ainda estamos explorando o Bloco D.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 171
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Optional - Locate the cache of items in Cell D-02-105
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 172
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Optional - Locate the cache of items in Cell D-02-105 Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 175
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kryx Cell Located
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Mathis und ich haben herausgefunden, dass Jasper Kryx in einer Zelle in Block D einsaß. Wir werden in die Richtung gehen und nachsehen, ob wir etwas Nützliches finden.
+      - Language: English
+        String: Mathis and I discovered that Jasper Kryx had a cell in D-Block. We've decided to head that direction and see if we can locate any useful information.
+      - Language: Spanish
+        String: Mathis y yo descubrimos que Jasper Kryx estaba en una celda del bloque D. Hemos decidido ir hacia allí, a ver si encontramos algo útil.
+      - Language: French
+        String: Mathis et moi avons découvert que la cellule de Jasper Kryx se trouvait dans le bloc D. Nous avons décidé de nous y rendre pour y chercher des informations.
+      - Language: Italian
+        String: Mathis e io abbiamo scoperto che Jasper Kryx aveva una cella nel blocco D. Abbiamo deciso di dirigerci in quella direzione nella speranza di trovare altre informazioni.
+      - Language: Japanese
+        String: ジャスパー・クリクスがDブロックの監房にいたという情報を、マシスと一緒に発見した。さらに有用な情報を得るためにDブロックへ向かうことにする
+      - Language: Polish
+        String: Dowiedzieliśmy się z Mathisem, że cela Jaspera Kryxa znajdowała się w bloku D. Postanowiliśmy się tam udać. Może znajdziemy tam jakieś przydatne informacje.
+      - Language: Portuguese_Brazil
+        String: Mathis e eu descobrimos que Jasper Kryx tinha uma cela no Bloco D. Decidimos seguir nessa direção para ver se encontramos alguma informação útil.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 176
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Section 3 Unlocked (Terminal)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 177
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Section 3 Switch Thrown - Cell Unlocked
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 180
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Search Kyrx's Cell for information
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 181
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Lamp QT Timer Elapsed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 182
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mathis Cell callout
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 183
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Lamp Activation (in Cell)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 185
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Listen to Kryx's Log
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 190
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Search Carter's Locker
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: "In Kryx' Zelle in Block D sind wir auf Informationen über Kryx' Vermächtnis gestoßen: Sein Plan hatte etwas mit einem GalBank-Transport mit einer Riesenladung Credits zu tun. Außerdem hatte er Pläne zum Ausbruch aus dem Schloss. Mathis und ich folgen weiter seinen Schritten."
+      - Language: English
+        String: After exploring Kryx's cell in D-Block, we discovered information about Kryx's Legacy - a plan regarding a GalBank transport carrying a fortune in credits and his plan for an escape from the Lock. Mathis and I will continue to follow in his footsteps.
+      - Language: Spanish
+        String: 'Después de explorar la celda de Kryx en el bloque D, descubrimos información sobre el Legado de Kryx: un plan relacionado con un transporte de GalBank que llevaba una fortuna en créditos y su plan para fugarse de la Reja. Mathis y yo le seguiremos el rastro.'
+      - Language: French
+        String: "En examinant la cellule de Kryx dans le bloc D, nous avons découvert des informations sur l'Héritage de Kryx : un plan concernant un transporteur de la GalBank avec une fortune en crédits, et un moyen de s'enfuir du Verrou. Mathis et moi allons continuer à marcher dans ses pas."
+      - Language: Italian
+        String: Dopo aver esplorato la cella di Kryx nel blocco D, abbiamo scoperto alcune cose sulla sua Eredità... un piano che prevedeva il trasporto di una montagna di crediti tramite una nave della GalBank e uno per riuscire a fuggire dal Blocco. Non ci resta che continuare a seguire le sue tracce.
+      - Language: Japanese
+        String: Dブロックでクリクスの監房を探索した結果、クリクスの遺産に関する情報が手に入った。大量のクレジットを運ぶガルバンクの輸送船に関する計画と、〈ロック〉の脱走計画の両方が含まれていた。マシスとともにクリクスの足跡をたどるとしよう
+      - Language: Polish
+        String: Po zbadaniu celi Kryxa w bloku D odkryliśmy informacje na temat Dziedzictwa Kryxa - planu dotyczącego transportowca GalBanku przewożącego fortunę w kredytach - i jego planu ucieczki z Zamka. Mathis i ja zamierzamy pójść w jego ślady.
+      - Language: Portuguese_Brazil
+        String: 'Depois de explorar a cela de Kryx no Bloco D, descobrimos informações sobre o Legado do Kryx: um plano que envolvia um transporte do GalBank contendo uma fortuna em créditos e o plano para fugir da Fechadura. Mathis e eu vamos continuar seguindo os passos dele.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 195
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player picks up Carter's slate.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Access Kryx's escape tunnel
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: In Carters Schließfach war eine Slate mit einem Code, der uns Zugang zu einem Fluchttunnel verschafft, den Kryx und seine Gefährten ausgehoben hatten. Sein Fluchtweg könnte jetzt auch uns einen Weg nach draußen bieten.
+      - Language: English
+        String: Carter's locker had a slate listing a code that will allow us to access an escape tunnel excavated by Kryx and his compatriots. The same route he used to escape the prison might just provide us a way out as well.
+      - Language: Spanish
+        String: En la taquilla de Carter había una tábula con un código que nos permitirá acceder a un túnel de escape que excavaron Kryx y sus camaradas. La misma ruta que usó para fugarse de la cárcel podría resultarnos igual de útil.
+      - Language: French
+        String: Le casier de Carter contenait une tablette avec un code qui devrait nous permettre d'accéder au tunnel par lequel Kryx et ses compagnons se sont évadés. Le chemin qu'il a pris pour s'échapper nous servira peut-être de la même façon.
+      - Language: Italian
+        String: Nell’armadietto di Carter c’era una tabula con un codice che permette di accedere a un tunnel scavato da Kryx e i suoi complici. Potremmo provare a uscire da quella stessa via di fuga che lui usò per evadere.
+      - Language: Japanese
+        String: カーターのロッカーに入っていたスレートには、クリクスが仲間とともに掘った脱出路へつうじるコードが含まれていた。クリクスが刑務所を脱走するために使った道が、外への脱出路となるかもしれない
+      - Language: Polish
+        String: W szafce Cartera znajdowała się tabliczka z kodem, za pomocą którego dostaniemy się do tunelu wykopanego przez Kryxa i jego towarzyszy. Droga, którą uciekł z więzienia, może również i nam pomóc.
+      - Language: Portuguese_Brazil
+        String: O armário de Carter tem um códice com um código que nos permite acessar um túnel de fuga aberto pelo Kryx e seus companheiros. A mesma rota que ele usou para escapar da prisão pode ser a nossa saída também.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 205
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Access Code Entered
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Proceed to the Shuttle Bay (via Warden's Office)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 211
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Armory - Player Entered
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 212
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Armory - Mathis Enters
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 213
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Armory - Mathis takes Weapon
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 214
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Armory - Exit Door Opened
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 215
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Trigger Barracks Creature Rush
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 218
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Trigger Warden Office Intercom Loop
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 219
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player Activated Warden Intercom
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak to Delgado
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 222
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player hogged the glory
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 223
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player cut Mathis into the glory
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 230
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Shuttle Bay Handling
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 235
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Delgado exits The Lock
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 240
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+        SecondParameter: 222
+      ComparisonValue: 1
+    Note: Speak to Mathis Castillo
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nachdem ich mich bei der Shuttlerampe des Schlosses mit Delgado unterhalten hatte, beschloss ich, Mathis die Entdeckung zu Kryx' Vermächtnis wegen seines versuchten Verrats zu verschweigen. Ich sollte jetzt mit Mathis sprechen, um seine Reaktion abzuschätzen.
+      - Language: English
+        String: After speaking with Delgado near the Lock's shuttle bay, I decided to cut Mathis out of the Kryx's Legacy discovery in retribution for his proposed betrayal. I should now speak to Mathis to gauge his reaction.
+      - Language: Spanish
+        String: Después de hablar con Delgado cerca del muelle de lanzaderas de la Reja, decidí dejar a Mathis al margen del descubrimiento del Legado de Kryx por su propuesta de traición. Ahora debería hablar con Mathis para calibrar su reacción.
+      - Language: French
+        String: Après avoir parlé à Delgado près de la zone d'accès aux navettes du Verrou, j'ai décidé d'exclure Mathis de la découverte de l'Héritage de Kryx, pour le punir de sa proposition de trahison. Je devrais aller lui parler pour voir sa réaction.
+      - Language: Italian
+        String: Dopo aver parlato con Delgado vicino all’hangar del Blocco, ho deciso di escludere Mathis dalla scoperta dell’Eredità di Kryx per il piano che mi aveva proposto. Dovrei parlarne con Mathis, chissà come la prenderà.
+      - Language: Japanese
+        String: 〈ロック〉のシャトルベイ近くでデルガドと話をした結果、クリクスの遺産発見の立役者からマシスを外すことにした。裏切りを提案したことへの当然の報いだ。これからマシスに会って反応を聞こう
+      - Language: Polish
+        String: Rozmowa z Delgado w okolicy hangaru Zamka pomogła mi podjąć decyzję. Mathis nie dostąpi zaszczytu odkrycia Dziedzictwa Kryxa z powodu swojej propozycji zdrady. Porozmawiam z nim i zobaczę, jak zareaguje.
+      - Language: Portuguese_Brazil
+        String: Depois de falar com Delgado perto do hangar dos ônibus da Fechadura, decidi deixar o Mathis de fora da descoberta do Legado do Kryx, em retribuição à proposta de traição dele. Agora tenho que falar com Mathis para ver como ele vai reagir.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+        SecondParameter: 223
+      ComparisonValue: 1
+    Note: Speak to Mathis Castillo
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nachdem ich mich bei der Shuttlerampe des Schlosses mit Delgado unterhalten hatte, beschloss ich, Mathis trotz seines versuchten Verrats in die glorreiche Entdeckung zu Kryx' Vermächtnis einzuweihen. Ich sollte jetzt mit Mathis sprechen, um seine Reaktion abzuschätzen.
+      - Language: English
+        String: After speaking with Delgado near the Lock's shuttle bay, I decided to include Mathis in the glory of discovering Kryx's Legacy despite his proposed betrayal. I should now speak to Mathis to gauge his reaction.
+      - Language: Spanish
+        String: Después de hablar con Delgado cerca del muelle de lanzaderas de la Reja, decidí incluir a Mathis en la proeza de descubrir el Legado de Kryx a pesar de su propuesta de traición. Ahora debería hablar con Mathis para calibrar su reacción.
+      - Language: French
+        String: Après avoir parlé à Delgado près de la zone d'accès aux navettes du Verrou, j'ai décidé d'inclure Mathis dans la découverte de l'Héritage de Kryx, malgré sa proposition de trahison. Je devrais aller lui parler pour voir sa réaction.
+      - Language: Italian
+        String: Ho parlato con Delgado vicino all’hangar del Blocco e, nonostante Mathis mi abbia proposto di tradirlo, ho deciso di includerlo nella scoperta dell’Eredità di Kryx. Dovrei parlarne con Mathis, chissà come la prenderà.
+      - Language: Japanese
+        String: 〈ロック〉のシャトルベイ近くでデルガドと話をした結果、クリクスの遺産発見の立役者にマシスを含めることにした。彼が裏切りを提案したにもかかわらずだ。これからマシスに会って反応を聞こう
+      - Language: Polish
+        String: Rozmowa z Delgado w okolicy hangaru Zamka pomogła mi podjąć decyzję. Mathis, pomimo swojej propozycji zdrady, dostąpi zaszczytu odkrycia Dziedzictwa Kryxa. Porozmawiam z nim i zobaczę, jak zareaguje.
+      - Language: Portuguese_Brazil
+        String: Depois de falar com Delgado perto do hangar dos ônibus da Fechadura, decidi incluir Mathis na glória da descoberta do Legado do Kryx, apesar da proposta de traição dele. Agora tenho que falar com Mathis para ver como ele vai reagir.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Exit The Lock
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nach dem Gespräch mit Mathis im Büro des Direktors sollte ich jetzt eines der Shuttles verwenden, um vom Schloss zu entkommen.
+      - Language: English
+        String: After speaking with Mathis in the Warden's office, I should now use one of the shuttles to escape the Lock.
+      - Language: Spanish
+        String: Tras hablar con Mathis en el despacho del alcaide, debería usar una de sus lanzaderas para huir de la Reja.
+      - Language: French
+        String: Après avoir parlé à Mathis dans le bureau du directeur, je dois maintenant utiliser une des navettes pour m'échapper du Verrou.
+      - Language: Italian
+        String: Dopo aver parlato con Mathis nell’ufficio del direttore, devo usare una delle navette per fuggire dal Blocco.
+      - Language: Japanese
+        String: 刑務所の所長室でマシスと話した。いずれかのシャトルを使って〈ロック〉から脱出しよう
+      - Language: Polish
+        String: Po rozmowie z Mathisem w biurze naczelnika muszę teraz użyć jednego z wahadłowców, żeby uciec z Zamka.
+      - Language: Portuguese_Brazil
+        String: Depois de falar com Mathis no escritório do diretor, agora vou usar um dos ônibus espaciais para fugir da Fechadura.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 255
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player exited onto Shuttle Bay Catwalk
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 260
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Secure the Shuttle Bay
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 270
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Shuttle Bay Cleared
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =WRAP-UP=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Use the Shuttle
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Shuttlerampe ist jetzt frei von sämtlichen Lebensformen. Ich sollte mit einem der Shuttles des Schlosses zum Schlüssel zurückkehren.
+      - Language: English
+        String: With the shuttle bay cleared of all its lifeforms, I should now return to the Key using one of the Lock's shuttles.
+      - Language: Spanish
+        String: Ahora que no quedan formas de vida en el muelle de lanzaderas, debería volver a la Llave en una de las lanzaderas de la Reja.
+      - Language: French
+        String: La zone d'accès aux navettes est exempte de tout prédateur à présent. Je peux retourner sur la Clé avec l'une d'elles.
+      - Language: Italian
+        String: Ora che l’hangar delle navette è deserto, dovrei usare una delle navette del Blocco per tornare alla Chiave.
+      - Language: Japanese
+        String: シャトルベイにいた生命体は一掃した。〈ロック〉のシャトルを使って〈キー〉に戻ろう
+      - Language: Polish
+        String: Hangar został oczyszczony z wszelkich form życia. Pora wracać na Klucz na pokładzie jednego z wahadłowców Zamka.
+      - Language: Portuguese_Brazil
+        String: Agora que todas as formas de vida foram eliminadas do hangar dos ônibus, preciso voltar para a Chave usando um dos ônibus da Fechadura.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 315
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Fly to the Key
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak to Delgado
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Da ich nun auf dem Schlüssel bin, sollte ich Delgado Bericht erstatten und hören, was er über die Ereignisse im Schloss zu sagen hat.
+      - Language: English
+        String: Now that I've boarded the Key, I should report to Delgado and hear what he has to say about the events at the Lock.
+      - Language: Spanish
+        String: Ahora que he abordado la Llave, debería hablar con Delgado, a ver qué tiene que decir con respecto a lo ocurrido en la Reja.
+      - Language: French
+        String: Maintenant que je suis à bord de la Clé, je dois aller faire mon rapport à Delgado et écouter ce qu'il a à me dire au sujet des événements du Verrou.
+      - Language: Italian
+        String: Ora che sono a bordo della Chiave, devo fare rapporto a Delgado e sentire cos’ha da dire su quanto accaduto al Blocco.
+      - Language: Japanese
+        String: 〈キー〉に乗り込めたので、デルガドに報告して彼が〈ロック〉での出来事についてどう思っているのか聞こう
+      - Language: Polish
+        String: Jestem już na pokładzie Klucza. Muszę zgłosić się do Delgado i dowiedzieć się, co ma do powiedzenia na temat wydarzeń w Zamku.
+      - Language: Portuguese_Brazil
+        String: Agora que subi a bordo da Chave, vou falar com Delgado e ver o que ele tem a dizer sobre os eventos na Fechadura.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 325
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Delgado Forcegreet Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 330
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player gave slate to Delgado
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 335
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Delgado gives reward to Player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 340
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak with Mathis Castillo
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Da mein Gespräch mit Delgado nun beendet ist, sollte ich Mathis Castillo suchen und mir anhören, was er zu sagen hat.
+      - Language: English
+        String: Now that I've finished speaking with Delgado, I should find Mathis Castillo and hear what he has to say.
+      - Language: Spanish
+        String: Ahora que mi conversación con Delgado ha terminado, será mejor que vaya a ver qué me cuenta Mathis Castillo.
+      - Language: French
+        String: Maintenant que j'ai fini de parler à Delgado, je dois aller voir Mathis Castillo et écouter ce qu'il a à me dire.
+      - Language: Italian
+        String: Ora che ho finito di parlare con Delgado, devo trovare Mathis Castillo e sentire cos’ha da dire.
+      - Language: Japanese
+        String: デルガドとの話も終わったので、マシス・カスティ－ヨを探し出して言い分を聞こう
+      - Language: Polish
+        String: Skoro jestem już po rozmowie z Delgado, muszę znaleźć Mathisa Castilla i wysłuchać, co ma do powiedzenia.
+      - Language: Portuguese_Brazil
+        String: Agora que já falei com Delgado, vou encontrar Mathis Castillo para descobrir o que ele tem a dizer.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mathis - Good Result
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 360
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mathis - Bad Result
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 364
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Meet Naeva at Last Nova
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Naeva Mora hat etwas auf dem Herzen, über das sie gerne reden würde. Ich sollte sie ansprechen, wenn sie im Last Nova sitzt.
+      - Language: English
+        String: Naeva Mora has something on her mind she wishes to discuss. I should speak to her when she's seated in the Last Nova.
+      - Language: Spanish
+        String: Naeva Mora quiere comentarme algo. Tengo que hablar con ella cuando esté en el Last Nova.
+      - Language: French
+        String: Naeva Mora voudrait discuter de quelque chose. Je devrais lui parler la prochaine fois que je la croiserai au Last Nova.
+      - Language: Italian
+        String: Naeva Mora ha qualcosa da dirmi. Devo parlarle quando si trova al Last Nova.
+      - Language: Japanese
+        String: ネイヴァ・モーラは話したいことがあるらしい。彼女がラスト・ノバを訪れたときに話を聞こう
+      - Language: Polish
+        String: Naeva Mora chce o czymś ze mną porozmawiać. Muszę się do niej wybrać, kiedy będzie w Last Novie.
+      - Language: Portuguese_Brazil
+        String: Naeva Mora gostaria de discutir algo que a está preocupando. Vou falar com ela quando ela estiver sentada na Última Nova.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 365
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Naeva Seated at Last Nova
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Naeva Mora hat etwas auf dem Herzen, über das sie gerne reden würde. Ich sollte sie ansprechen, wenn sie im Last Nova sitzt.
+      - Language: English
+        String: Naeva Mora has something on her mind she wishes to discuss. I should speak to her when she's seated in the Last Nova.
+      - Language: Spanish
+        String: Naeva Mora quiere comentarme algo. Tengo que hablar con ella cuando esté en el Last Nova.
+      - Language: French
+        String: Naeva Mora voudrait discuter de quelque chose. Je devrais lui parler la prochaine fois que je la croiserai au Last Nova.
+      - Language: Italian
+        String: Naeva Mora ha qualcosa da dirmi. Devo parlarle quando si trova al Last Nova.
+      - Language: Japanese
+        String: ネイヴァ・モーラは話したいことがあるらしい。彼女がラスト・ノバを訪れたときに話を聞こう
+      - Language: Polish
+        String: Naeva Mora chce o czymś ze mną porozmawiać. Muszę się do niej wybrać, kiedy będzie w Last Novie.
+      - Language: Portuguese_Brazil
+        String: Naeva Mora gostaria de discutir algo que a está preocupando. Vou falar com ela quando ela estiver sentada na Última Nova.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 370
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak to Naeva at the Last Nova
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Naeva Mora hat etwas auf dem Herzen, über das sie gerne reden würde. Ich sollte sie ansprechen, wenn sie im Last Nova sitzt.
+      - Language: English
+        String: Naeva Mora has something on her mind she wishes to discuss. I should speak to her when she's seated in the Last Nova.
+      - Language: Spanish
+        String: Naeva Mora quiere comentarme algo. Tengo que hablar con ella cuando esté en el Last Nova.
+      - Language: French
+        String: Naeva Mora voudrait discuter de quelque chose. Je devrais lui parler la prochaine fois que je la croiserai au Last Nova.
+      - Language: Italian
+        String: Naeva Mora ha qualcosa da dirmi. Devo parlarle quando si trova al Last Nova.
+      - Language: Japanese
+        String: ネイヴァ・モーラは話したいことがあるらしい。彼女がラスト・ノバを訪れたときに話を聞こう
+      - Language: Polish
+        String: Naeva Mora chce o czymś ze mną porozmawiać. Muszę się do niej wybrać, kiedy będzie w Last Novie.
+      - Language: Portuguese_Brazil
+        String: Naeva Mora gostaria de discutir algo que a está preocupando. Vou falar com ela quando ela estiver sentada na Última Nova.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 371
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Naeva scene re-entry 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 372
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Naeva scene re-entry 02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 373
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Naeva scene re-entry 03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =UC VIGILANCE PATH=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Proceed to the UC Vigilance
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte die Informationen, die ich auf dem Schlüssel gesammelt habe, Commander Ikande mitteilen. Er ist sicherlich erpicht auf eine Nachbesprechung bezüglich der Zeit, die ich auf Suvorov verbracht habe.
+      - Language: English
+        String: I should report the information I gathered at the Key to Commander Ikande. I'm certain he's eager to have a debriefing about my time spent on Suvorov.
+      - Language: Spanish
+        String: Debería dar parte al comandante Ikande de lo que he averiguado en la Llave. Estará deseando que le ponga al día de mi visita a Suvorov.
+      - Language: French
+        String: Je dois faire part des informations que j'ai rassemblées à bord de la Clé au commandant Ikande. Il attend sûrement avec impatience que je vienne lui faire mon rapport après mon expédition sur Suvorov.
+      - Language: Italian
+        String: Devo fare rapporto al comandante Ikande sulla Chiave con le informazioni che ho raccolto. Sarà sicuramente felice di avere un resoconto sul tempo che ho passato su Suvorov.
+      - Language: Japanese
+        String: 〈キー〉で収集した情報をイカンデ司令官へ報告しよう。きっとスボーロフでの経験について聞きたがっているだろう
+      - Language: Polish
+        String: Muszę przekazać zebrane na Kluczu informacje komandorowi Ikandemu. Na pewno czeka niecierpliwie na odprawę związaną z moim pobytem na Suworowie.
+      - Language: Portuguese_Brazil
+        String: Vou relatar as informações que consegui na Chave ao Comandante Ikande. Tenho certeza que ele quer os detalhes de como passei meu tempo em Suvorov.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak to Commander Ikande
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Start CF04
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Jagd auf Kryx' Vermächtnis ist eröffnet! Die Informationen vom Schloss sind wohl so konkret, dass Delgado bereit ist, den nächsten Schritt zu machen. Er will, dass ich die GalBank infiltriere, um mehr über ihren lange verschollenen Transport in Erfahrung zu bringen. Dazu muss ich mich auf den Weg zur Siren of the Stars machen, einem Trident-Starliner, auf dem sich ein VIP der GalBank befindet.
+      - Language: English
+        String: The hunt for Kryx's Legacy is on! The information from the Lock seems concrete enough that Delgado wants me to infiltrate GalBank to find out more about their long-lost transport. I'm to head to the Siren of the Stars, a Trident Starliner with a GalBank VIP aboard.
+      - Language: Spanish
+        String: ¡Ha empezado la búsqueda del Legado de Kryx! La información de la Reja parece tan concreta que Delgado quiere que me infiltre en GalBank para descubrir más sobre el transporte que desapareció hace tiempo. Debo ir a la Siren of the Stars, una transestelar de Trident en la que viaja un miembro vip de GalBank.
+      - Language: French
+        String: La chasse pour l'Héritage de Kryx est lancée ! Les informations du Verrou semblent assez concrètes pour que Delgado veuille que j'infiltre la GalBank pour en savoir plus sur leur transporteur perdu. Je dois me rendre sur la Sirène des étoiles, un croiseur de Trident sur lequel un cadre de la GalBank voyage.
+      - Language: Italian
+        String: La caccia all’Eredità di Kryx è cominciata! Le informazioni ottenute al Blocco sembrano essere promettenti e Delgado vuole che mi infiltri alla GalBank per raccogliere altre informazioni sulla nave scomparsa. Devo raggiungere la Siren of the Stars, un transiderale Trident sul quale sta viaggiando un VIP della GalBank.
+      - Language: Japanese
+        String: クリクスの遺産探しがはじまった！ デルガドは〈ロック〉で得た情報を信頼しているようで、ガルバンクへ侵入して、失われた輸送船に関する情報を得るよう命じられた。これからガルバンクの重役が乗船しているトライデント社のスターライナー、セイレーン・オブ・ザ・スターズに向かう
+      - Language: Polish
+        String: Polowanie na Dziedzictwo Kryxa trwa! Informacje z Zamka zdają się na tyle konkretne, że Delgado prosi mnie o infiltrację GalBanku w celu zdobycia informacji o ich zaginionym transportowcu. Moim celem jest Siren of the Stars, liniowiec Tridenta, na pokładzie którego znajduje się VIP GalBanku.
+      - Language: Portuguese_Brazil
+        String: A caçada pelo Legado do Kryx continua! A informação da Fechadura parece concreta o bastante, a ponto de o Delgado querer que eu me infiltre no GalBank para saber mais sobre o transporte perdido deles. Tenho que ir ao Siren of the Stars, um cruzeiro estelar da Trident com um figurão do GalBank a bordo.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3DD:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0D:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Lande auf Suvorov.
+    - Language: English
+      String: Proceed to the surface of Suvorov
+    - Language: Spanish
+      String: Ve a la superficie de Suvorov.
+    - Language: French
+      String: Atteignez la surface de Suvorov.
+    - Language: Italian
+      String: Dirigiti verso la superficie di Suvorov
+    - Language: Japanese
+      String: スボーロフの地表へ進む
+    - Language: Polish
+      String: Udaj się na powierzchnię Suworowa
+    - Language: Portuguese_Brazil
+      String: Siga para a superfície de Suvorov
+  Targets:
+  - AliasID: 43
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Delgado.
+    - Language: English
+      String: Speak to Delgado
+    - Language: Spanish
+      String: Habla con Delgado.
+    - Language: French
+      String: Parlez à Delgado.
+    - Language: Italian
+      String: Parla con Delgado
+    - Language: Japanese
+      String: デルガドと話す
+    - Language: Polish
+      String: Porozmawiaj z Delgado
+    - Language: Portuguese_Brazil
+      String: Fale com Delgado
+  Targets:
+  - AliasID: 1
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Triff Delgado am Eingang zum Schloss.
+    - Language: English
+      String: Meet Delgado at the entrance to the Lock
+    - Language: Spanish
+      String: Reúnete con Delgado en la entrada de la Reja.
+    - Language: French
+      String: Allez voir Delgado à l'entrée du Verrou.
+    - Language: Italian
+      String: Incontra Delgado all’ingresso del Blocco
+    - Language: Japanese
+      String: 〈ロック〉の入口でデルガドと合流する
+    - Language: Polish
+      String: Spotkaj się z Delgado przy wejściu do Zamka
+    - Language: Portuguese_Brazil
+      String: Encontre Delgado na entrada da Fechadura
+  Targets:
+  - AliasID: 27
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Delgado an der Außentür zum Schloss.
+    - Language: English
+      String: Speak to Delgado at the outer door to the Lock
+    - Language: Spanish
+      String: Habla con Delgado en la entrada de la Reja.
+    - Language: French
+      String: Parlez à Delgado à la porte extérieure du Verrou.
+    - Language: Italian
+      String: Parla con Delgado presso la porta esterna del Blocco
+    - Language: Japanese
+      String: 〈ロック〉の外部ドアでデルガドと話す
+    - Language: Polish
+      String: Porozmawiaj z Delgado przy zewnętrznych drzwiach Zamka
+    - Language: Portuguese_Brazil
+      String: Fale com Delgado na entrada da Fechadura
+  Targets:
+  - AliasID: 1
+- Index: 45
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Warte, bis Delgado das Schloss entriegelt hat.
+    - Language: English
+      String: Wait for Delgado to unseal the Lock
+    - Language: Spanish
+      String: Espera a que Delgado abra la Reja.
+    - Language: French
+      String: Attendez que Delgado ouvre le Verrou.
+    - Language: Italian
+      String: Aspetta che Delgado apra il Blocco
+    - Language: Japanese
+      String: デルガドが〈ロック〉の封鎖を解除するのを待つ
+    - Language: Polish
+      String: Zaczekaj, aż Delgado otworzy Zamek
+    - Language: Portuguese_Brazil
+      String: Espere Delgado destrancar a Fechadura
+  Targets:
+  - AliasID: 1
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erkunde weiter das Schloss.
+    - Language: English
+      String: Continue exploring the Lock
+    - Language: Spanish
+      String: Sigue explorando la Reja.
+    - Language: French
+      String: Continuez à explorer le Verrou.
+    - Language: Italian
+      String: Continua a esplorare il Blocco
+    - Language: Japanese
+      String: 〈ロック〉の探索を続ける
+    - Language: Polish
+      String: Kontynuuj eksplorację Zamka
+    - Language: Portuguese_Brazil
+      String: Continue explorando a Fechadura
+  Targets:
+  - AliasID: 1
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sichere den Bereich.
+    - Language: English
+      String: Secure the area
+    - Language: Spanish
+      String: Asegura la zona.
+    - Language: French
+      String: Sécurisez la zone.
+    - Language: Italian
+      String: Metti in sicurezza l’area
+    - Language: Japanese
+      String: 一帯を制圧する
+    - Language: Polish
+      String: Zabezpiecz teren
+    - Language: Portuguese_Brazil
+      String: Proteja a área
+  Targets:
+  - AliasID: 24
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2B67E9:Starfield.esm
+        SecondParameter: 212
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDisabledConditionData
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetSittingConditionData
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Delgado.
+    - Language: English
+      String: Speak to Delgado
+    - Language: Spanish
+      String: Habla con Delgado.
+    - Language: French
+      String: Parlez à Delgado.
+    - Language: Italian
+      String: Parla con Delgado
+    - Language: Japanese
+      String: デルガドと話す
+    - Language: Polish
+      String: Porozmawiaj z Delgado
+    - Language: Portuguese_Brazil
+      String: Fale com Delgado
+  Targets:
+  - AliasID: 1
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zum Kontrollraum.
+    - Language: English
+      String: Proceed to the Control Room
+    - Language: Spanish
+      String: Continúa hasta la sala de control.
+    - Language: French
+      String: Allez à la salle de commande.
+    - Language: Italian
+      String: Dirigiti alla sala comandi
+    - Language: Japanese
+      String: 制御室へ進む
+    - Language: Polish
+      String: Udaj się do dyspozytorni
+    - Language: Portuguese_Brazil
+      String: Siga para a sala de controle
+  Targets:
+  - AliasID: 19
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+      ComparisonValue: 100
+  - AliasID: 34
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+      ComparisonValue: 100
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+      ComparisonValue: 105
+  - AliasID: 28
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+      ComparisonValue: 105
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Mathis.
+    - Language: English
+      String: Speak to Mathis
+    - Language: Spanish
+      String: Habla con Mathis.
+    - Language: French
+      String: Parlez à Mathis.
+    - Language: Italian
+      String: Parla con Mathis
+    - Language: Japanese
+      String: マシスと話す
+    - Language: Polish
+      String: Porozmawiaj z Mathisem
+    - Language: Portuguese_Brazil
+      String: Fale com Mathis
+  Targets:
+  - AliasID: 3
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich über das Intercom mit Delgado.
+    - Language: English
+      String: Use the intercom to speak to Delgado
+    - Language: Spanish
+      String: Usa el intercomunicador para hablar con Delgado.
+    - Language: French
+      String: Utilisez l'intercom pour parler à Delgado.
+    - Language: Italian
+      String: Usa l’interfono per parlare con Delgado
+    - Language: Japanese
+      String: インターコムを使ってデルガドと話す
+    - Language: Polish
+      String: Porozmawiaj z Delgado przez interkom
+    - Language: Portuguese_Brazil
+      String: Use o comunicador para falar com Delgado
+  Targets:
+  - AliasID: 20
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Öffne die Tür für Delgado.
+    - Language: English
+      String: Open the doors for Delgado
+    - Language: Spanish
+      String: Abre las puertas para Delgado.
+    - Language: French
+      String: Ouvrez les portes pour Delgado.
+    - Language: Italian
+      String: Apri le porte per Delgado
+    - Language: Japanese
+      String: デルガドのためにドアを開ける
+    - Language: Polish
+      String: Otwórz drzwi Delgado
+    - Language: Portuguese_Brazil
+      String: Abra as portas para Delgado
+  Targets:
+  - AliasID: 10
+- Index: 130
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zum Block D.
+    - Language: English
+      String: Proceed to D-Block
+    - Language: Spanish
+      String: Ve al bloque D.
+    - Language: French
+      String: Allez jusqu'au bloc D.
+    - Language: Italian
+      String: Dirigiti al blocco D
+    - Language: Japanese
+      String: Dブロックへ進む
+    - Language: Polish
+      String: Udaj się do bloku D
+    - Language: Portuguese_Brazil
+      String: Siga para o Bloco D
+  Targets:
+  - AliasID: 11
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+        SecondParameter: 135
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+        SecondParameter: 135
+      ComparisonValue: 1
+- Index: 140
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Betritt den Wachturm von Block D.
+    - Language: English
+      String: Enter D-Block's Guard Tower
+    - Language: Spanish
+      String: Entra en la torre de vigilancia del bloque D.
+    - Language: French
+      String: Entrez dans la tour de garde du bloc D.
+    - Language: Italian
+      String: Entra nella torre di guardia del blocco D
+    - Language: Japanese
+      String: Dブロックの看守塔へ入る
+    - Language: Polish
+      String: Wejdź do wieży strażniczej bloku D
+    - Language: Portuguese_Brazil
+      String: Entre na torre de vigia do Bloco D
+  Targets:
+  - AliasID: 12
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Mathis.
+    - Language: English
+      String: Speak to Mathis
+    - Language: Spanish
+      String: Habla con Mathis.
+    - Language: French
+      String: Parlez à Mathis.
+    - Language: Italian
+      String: Parla con Mathis
+    - Language: Japanese
+      String: マシスと話す
+    - Language: Polish
+      String: Porozmawiaj z Mathisem
+    - Language: Portuguese_Brazil
+      String: Fale com Mathis
+  Targets:
+  - AliasID: 3
+- Index: 170
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde Jasper Kryx' Zelle.
+    - Language: English
+      String: Locate Jasper Kryx's Cell
+    - Language: Spanish
+      String: Encuentra la celda de Jasper Kryx.
+    - Language: French
+      String: Localisez la cellule de Jasper Kryx.
+    - Language: Italian
+      String: Trova la cella di Jasper Kryx
+    - Language: Japanese
+      String: ジャスパー・クリクスの監房を見つける
+    - Language: Polish
+      String: Znajdź celę Jaspera Kryxa
+    - Language: Portuguese_Brazil
+      String: Encontre a cela de Jasper Kryx
+  Targets:
+  - AliasID: 13
+- Index: 171
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Finde das Versteck in Zelle D-02-106.
+    - Language: English
+      String: (Optional) Locate the cache in Cell D-02-106
+    - Language: Spanish
+      String: (Opcional) Encuentra el alijo en la celda D-02-106.
+    - Language: French
+      String: (Optionnel) Localisez la cache dans la cellule D-02-106.
+    - Language: Italian
+      String: (Opzionale) Trova il nascondiglio nella cella D-02-106
+    - Language: Japanese
+      String: (オプション)監房D-02-106の保管庫を見つける
+    - Language: Polish
+      String: (Opcj.) Znajdź skrytkę w celi D-02-106
+    - Language: Portuguese_Brazil
+      String: (Opc.) Encontre o esconderijo na Cela D-02-106
+  Targets:
+  - AliasID: 55
+- Index: 175
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Entriegele Block D, Abschnitt 03.
+    - Language: English
+      String: Unlock D-Block Section 03
+    - Language: Spanish
+      String: Desbloquea la sección 3 del bloque D.
+    - Language: French
+      String: Déverrouillez la section 3 du bloc C.
+    - Language: Italian
+      String: Sblocca l’accesso alla sezione 03 del blocco D
+    - Language: Japanese
+      String: Dブロックのセクション3を解錠する
+    - Language: Polish
+      String: Otwórz sekcję 03 bloku D
+    - Language: Portuguese_Brazil
+      String: Destrave a seção 03 do Bloco D
+  Targets:
+  - AliasID: 13
+- Index: 176
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Öffne die Zellen in Block D, Abschnitt 03.
+    - Language: English
+      String: Open Cells in D-Block Section 3
+    - Language: Spanish
+      String: Abre celdas de la sección 3 del bloque D.
+    - Language: French
+      String: Ouvrez les cellules de la section 3 du bloc D.
+    - Language: Italian
+      String: Apri le celle della sezione 3 nel blocco D
+    - Language: Japanese
+      String: Dブロックのセクション3の監房を開ける
+    - Language: Polish
+      String: Otwórz cele w sekcji 3 bloku D
+    - Language: Portuguese_Brazil
+      String: Abra as celas na seção 03 do Bloco D
+  Targets:
+  - AliasID: 46
+- Index: 180
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Durchsuche Kryx' Zelle nach Informationen.
+    - Language: English
+      String: Search Kryx's Cell for information
+    - Language: Spanish
+      String: Registra la celda de Kryx en busca de información.
+    - Language: French
+      String: Cherchez des informations dans la cellule de Kryx.
+    - Language: Italian
+      String: Cerca informazioni nella cella di Kryx
+    - Language: Japanese
+      String: クリクスの監房を調べて情報を得る
+    - Language: Polish
+      String: Przeszukaj celę Kryxa w poszukiwaniu informacji
+    - Language: Portuguese_Brazil
+      String: Vasculhe a cela de Kryx para obter informações
+  Targets:
+  - AliasID: 54
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+        SecondParameter: 181
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 0BC857:Starfield.esm
+      ComparisonValue: 3.5
+  - AliasID: 53
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+        SecondParameter: 181
+      ComparisonValue: 1
+- Index: 185
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Höre dir Kryx' Bericht an.
+    - Language: English
+      String: Listen to Kryx's Log
+    - Language: Spanish
+      String: Escucha el registro de Kryx.
+    - Language: French
+      String: Écoutez le journal de Kryx.
+    - Language: Italian
+      String: Ascolta il registro di Kryx
+    - Language: Japanese
+      String: クリクスのログを聞く
+    - Language: Polish
+      String: Odsłuchaj dziennik Kryxa
+    - Language: Portuguese_Brazil
+      String: Ouça o registro de Kryx
+- Index: 190
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Durchsuche Carters Spind.
+    - Language: English
+      String: Search Carter's Locker
+    - Language: Spanish
+      String: Registra la taquilla de Carter.
+    - Language: French
+      String: Fouillez le casier de Carter.
+    - Language: Italian
+      String: Ispeziona l’armadietto di Carter
+    - Language: Japanese
+      String: カーターのロッカーを調べる
+    - Language: Polish
+      String: Przeszukaj szafkę Cartera
+    - Language: Portuguese_Brazil
+      String: Examine o armário de Carter
+  Targets:
+  - AliasID: 9
+- Index: 195
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Höre dir Carters Slate an.
+    - Language: English
+      String: Listen to Carter's Slate
+    - Language: Spanish
+      String: Escucha la tábula de Carter.
+    - Language: French
+      String: Écoutez la tablette de Carter.
+    - Language: Italian
+      String: Ascolta la tabula di Carter
+    - Language: Japanese
+      String: カーターのスレートの中身を聞く
+    - Language: Polish
+      String: Odsłuchaj tabliczki Cartera
+    - Language: Portuguese_Brazil
+      String: Ouça o códice de Carter
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Betritt Kryx' Fluchttunnel.
+    - Language: English
+      String: Access Kryx's escape tunnel
+    - Language: Spanish
+      String: Accede al túnel de huida de Kryx.
+    - Language: French
+      String: Accédez au tunnel de Kryx.
+    - Language: Italian
+      String: Accedi al tunnel di Kryx
+    - Language: Japanese
+      String: クリクスの脱出路へたどり着く
+    - Language: Polish
+      String: Dostań się do tunelu, którym uciekł Kryx
+    - Language: Portuguese_Brazil
+      String: Acesse o túnel de fuga de Kryx
+  Targets:
+  - AliasID: 15
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+      ComparisonValue: 205
+  - AliasID: 29
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 24EEF8:Starfield.esm
+      ComparisonValue: 205
+- Index: 210
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zur Shuttlerampe.
+    - Language: English
+      String: Proceed to the Shuttle Bay
+    - Language: Spanish
+      String: Ve al muelle de lanzaderas.
+    - Language: French
+      String: Allez jusqu'à la zone d'accès aux navettes.
+    - Language: Italian
+      String: Dirigiti all’hangar delle navette
+    - Language: Japanese
+      String: シャトルベイへ進む
+    - Language: Polish
+      String: Idź do hangaru
+    - Language: Portuguese_Brazil
+      String: Siga para o hangar dos ônibus
+  Targets:
+  - AliasID: 16
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 2A6C55:Starfield.esm
+      ComparisonValue: 1
+  - AliasID: 17
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 2A6C55:Starfield.esm
+- Index: 220
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich über das Intercom mit Delgado.
+    - Language: English
+      String: Use the intercom to speak to Delgado
+    - Language: Spanish
+      String: Usa el intercomunicador para hablar con Delgado.
+    - Language: French
+      String: Utilisez l'intercom pour parler à Delgado.
+    - Language: Italian
+      String: Usa l’interfono per parlare con Delgado
+    - Language: Japanese
+      String: インターコムを使ってデルガドと話す
+    - Language: Polish
+      String: Porozmawiaj z Delgado przez interkom
+    - Language: Portuguese_Brazil
+      String: Use o comunicador para falar com Delgado
+  Targets:
+  - AliasID: 21
+- Index: 240
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Mathis.
+    - Language: English
+      String: Speak to Mathis
+    - Language: Spanish
+      String: Habla con Mathis.
+    - Language: French
+      String: Parlez à Mathis.
+    - Language: Italian
+      String: Parla con Mathis
+    - Language: Japanese
+      String: マシスと話す
+    - Language: Polish
+      String: Porozmawiaj z Mathisem
+    - Language: Portuguese_Brazil
+      String: Fale com Mathis
+  Targets:
+  - AliasID: 3
+- Index: 250
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Betritt die Shuttlerampe.
+    - Language: English
+      String: Enter the Shuttle Bay
+    - Language: Spanish
+      String: Accede al muelle de lanzaderas.
+    - Language: French
+      String: Entrez dans la zone d'accès aux navettes.
+    - Language: Italian
+      String: Entra nell’hangar delle navette
+    - Language: Japanese
+      String: シャトルベイへ入る
+    - Language: Polish
+      String: Wejdź do hangaru
+    - Language: Portuguese_Brazil
+      String: Entre no hangar dos ônibus
+  Targets:
+  - AliasID: 18
+- Index: 260
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sichere die Shuttlerampe.
+    - Language: English
+      String: Secure the Shuttle Bay
+    - Language: Spanish
+      String: Asegura el muelle de lanzaderas.
+    - Language: French
+      String: Sécurisez la zone d'accès aux navettes.
+    - Language: Italian
+      String: Metti in sicurezza l’hangar delle navette
+    - Language: Japanese
+      String: シャトルベイを確保する
+    - Language: Polish
+      String: Zabezpiecz hangar
+    - Language: Portuguese_Brazil
+      String: Proteja o hangar dos ônibus
+  Targets:
+  - AliasID: 25
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2B67E9:Starfield.esm
+        SecondParameter: 642
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDisabledConditionData
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetSittingConditionData
+- Index: 310
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Verlasse das Schloss mit dem Shuttle.
+    - Language: English
+      String: Use the Shuttle to exit the Lock
+    - Language: Spanish
+      String: Usa la lanzadera para salir de la Reja.
+    - Language: French
+      String: Utilisez la navette pour quitter le Verrou.
+    - Language: Italian
+      String: Usa la navetta per uscire dal Blocco
+    - Language: Japanese
+      String: シャトルに乗って〈ロック〉から出る
+    - Language: Polish
+      String: Użyj wahadłowca, by opuścić Zamek
+    - Language: Portuguese_Brazil
+      String: Use o ônibus espacial para sair da Fechadura
+  Targets:
+  - AliasID: 50
+- Index: 315
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Reise zum Schlüssel.
+    - Language: English
+      String: Travel to the Key
+    - Language: Spanish
+      String: Viaja a la Llave.
+    - Language: French
+      String: Allez jusqu'à la Clé.
+    - Language: Italian
+      String: Raggiungi la Chiave
+    - Language: Japanese
+      String: 〈キー〉へ向かう
+    - Language: Polish
+      String: Udaj się na Klucz
+    - Language: Portuguese_Brazil
+      String: Viaje para a Chave
+  Targets:
+  - AliasID: 31
+- Index: 320
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Delgado.
+    - Language: English
+      String: Speak to Delgado
+    - Language: Spanish
+      String: Habla con Delgado.
+    - Language: French
+      String: Parlez à Delgado.
+    - Language: Italian
+      String: Parla con Delgado
+    - Language: Japanese
+      String: デルガドと話す
+    - Language: Polish
+      String: Porozmawiaj z Delgado
+    - Language: Portuguese_Brazil
+      String: Fale com Delgado
+  Targets:
+  - AliasID: 1
+- Index: 340
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Mathis.
+    - Language: English
+      String: Speak to Mathis
+    - Language: Spanish
+      String: Habla con Mathis.
+    - Language: French
+      String: Parlez à Mathis.
+    - Language: Italian
+      String: Parla con Mathis
+    - Language: Japanese
+      String: マシスと話す
+    - Language: Polish
+      String: Porozmawiaj z Mathisem
+    - Language: Portuguese_Brazil
+      String: Fale com Mathis
+  Targets:
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 234E05:Starfield.esm
+      ComparisonValue: 1
+  - AliasID: 66
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 234E05:Starfield.esm
+- Index: 365
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Triff Naeva an ihrem üblichen Platz in der Last Nova.
+    - Language: English
+      String: Meet Naeva at her spot in the Last Nova
+    - Language: Spanish
+      String: Habla con Naeva en su sitio de siempre en el Last Nova.
+    - Language: French
+      String: Retrouvez Naeva à son endroit habituel au Last Nova.
+    - Language: Italian
+      String: Parla con Naeva al suo posto al Last Nova
+    - Language: Japanese
+      String: ラスト・ノバでネイヴァのところへ行って話す
+    - Language: Polish
+      String: Spotkaj się z Naevą w jej ulubionym miejscu w Last Novie
+    - Language: Portuguese_Brazil
+      String: Fale com Naeva no lugar dela no Última Nova
+  Targets:
+  - AliasID: 65
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 234E05:Starfield.esm
+      ComparisonValue: 1
+  - AliasID: 66
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 234E05:Starfield.esm
+- Index: 370
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich in der Last Nova mit Naeva.
+    - Language: English
+      String: Speak to Naeva at the Last Nova
+    - Language: Spanish
+      String: Habla con Naeva en el Last Nova.
+    - Language: French
+      String: Parlez à Naeva au Last Nova.
+    - Language: Italian
+      String: Parla con Naeva al Last Nova
+    - Language: Japanese
+      String: ラスト・ノバでネイヴァと話す
+    - Language: Polish
+      String: Porozmawiaj z Naevą w Last Novie
+    - Language: Portuguese_Brazil
+      String: Fale com Naeva no Última Nova
+  Targets:
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 234E05:Starfield.esm
+      ComparisonValue: 1
+  - AliasID: 66
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 234E05:Starfield.esm
+- Index: 410
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erstatte auf der UC Vigilance Bericht.
+    - Language: English
+      String: Report mission progress on the UC Vigilance
+    - Language: Spanish
+      String: Informa del progreso de la misión en la UC Vigilance.
+    - Language: French
+      String: Faites votre rapport de progression sur le Vigilance.
+    - Language: Italian
+      String: Torna alla UC Vigilance per fare rapporto sui tuoi progressi
+    - Language: Japanese
+      String: UCヴィジランスで任務の進捗を報告する
+    - Language: Polish
+      String: Zdaj raport z misji na pokładzie OZK Vigilance
+    - Language: Portuguese_Brazil
+      String: Relate o progresso da missão na UC Vigilance
+  Targets:
+  - AliasID: 32
+- Index: 420
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Commander Ikande.
+    - Language: English
+      String: Speak to Commander Ikande
+    - Language: Spanish
+      String: Habla con el comandante Ikande.
+    - Language: French
+      String: Parlez au commandant Ikande.
+    - Language: Italian
+      String: Parla con il comandante Ikande
+    - Language: Japanese
+      String: イカンデ司令官と話す
+    - Language: Polish
+      String: Porozmawiaj z komandorem Ikandem
+    - Language: Portuguese_Brazil
+      String: Fale com o comandante Ikande
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 7
+  Name: LC030TheLockLocation
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  SpecificLocation: 2B2BAA:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: CF03_Kibwe
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 009137:Starfield.esm
+  PackageData:
+  - 2458D5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: CF03_Delgado
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 015399:Starfield.esm
+  CombatOverridePackageList: 168ABD:Starfield.esm
+  PackageData:
+  - 0246BC:Starfield.esm
+  - 2458EA:Starfield.esm
+  - 0BF00C:Starfield.esm
+  - 168AB0:Starfield.esm
+  - 168AB6:Starfield.esm
+  - 2458E9:Starfield.esm
+  - 1F0979:Starfield.esm
+  - 3CB2BC:Starfield.esm
+  - 2458E8:Starfield.esm
+  - 00A1B2:Starfield.esm
+  - 207E90:Starfield.esm
+  - 2458E6:Starfield.esm
+  - 2458E5:Starfield.esm
+  - 2458E4:Starfield.esm
+  - 2458E3:Starfield.esm
+  - 2458E2:Starfield.esm
+  - 1B5D9D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: CF03_Naeva
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 009138:Starfield.esm
+  PackageData:
+  - 0AC07A:Starfield.esm
+  - 2458D6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: CF03_Mathis
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  - NoPickpocket
+  ALFG: 0
+  UniqueActor: 018947:Starfield.esm
+  Keywords:
+  - 154DC9:Starfield.esm
+  CombatOverridePackageList: 168ABD:Starfield.esm
+  PackageData:
+  - 0246BE:Starfield.esm
+  - 2458E1:Starfield.esm
+  - 168ADA:Starfield.esm
+  - 168AB0:Starfield.esm
+  - 168AB6:Starfield.esm
+  - 2458E0:Starfield.esm
+  - 1F097A:Starfield.esm
+  - 168AB5:Starfield.esm
+  - 2458DE:Starfield.esm
+  - 1D4BE7:Starfield.esm
+  - 0D0807:Starfield.esm
+  - 01236C:Starfield.esm
+  - 1615C4:Starfield.esm
+  - 2458DD:Starfield.esm
+  - 207E8B:Starfield.esm
+  - 2458DB:Starfield.esm
+  - 2458DA:Starfield.esm
+  - 2458DF:Starfield.esm
+  - 2458D8:Starfield.esm
+  - 2458D7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: CF03_GenericAlly01
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 168ABC:Starfield.esm
+  CombatOverridePackageList: 168ABD:Starfield.esm
+  PackageData:
+  - 168AC8:Starfield.esm
+  - 168ADA:Starfield.esm
+  - 168AB0:Starfield.esm
+  - 168AB6:Starfield.esm
+  - 168AC6:Starfield.esm
+  - 168AB3:Starfield.esm
+  - 168AB5:Starfield.esm
+  - 168AC5:Starfield.esm
+  - 168ABE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: CF03_GenericAlly02
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 168ABB:Starfield.esm
+  CombatOverridePackageList: 168ABD:Starfield.esm
+  PackageData:
+  - 168AC8:Starfield.esm
+  - 168ADA:Starfield.esm
+  - 168AB0:Starfield.esm
+  - 168AB6:Starfield.esm
+  - 168AC6:Starfield.esm
+  - 168AB3:Starfield.esm
+  - 168AB5:Starfield.esm
+  - 168AC5:Starfield.esm
+  - 168ABE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: CF03_KryxVoice
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 24EA82:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: CF03_Toft
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 018946:Starfield.esm
+  PackageData:
+  - 2458D4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 51
+  Name: CF03_AnnouncerLock
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 168A8C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 56
+  Name: CF03_AnnouncerMainframeLock
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 0F9D52:Starfield.esm
+  DisplayName: 0F9D56:Starfield.esm
+  ForcedVoice: 219359:Starfield.esm
+  VoiceTypes: 219359:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: CF03_MapMarkerRef
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 58
+  Name: CF03_ExteriorDoor
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 1F6728:Starfield.esm
+  ForcedVoice: 015394:Starfield.esm
+  VoiceTypes: 015394:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: CF03_CollapsingWallPanel
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 1C3775:Starfield.esm
+  ForcedVoice: 015394:Starfield.esm
+  VoiceTypes: 015394:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: CF03_TADelgadoIntercom
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 245AE6:Starfield.esm
+  ForcedVoice: 015394:Starfield.esm
+  VoiceTypes: 015394:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: CF03_Evidence_Carter
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  - AllowReserved
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 1E8E2A:Starfield.esm
+    AliasID: 9
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: CF03_TransferAreaComputer
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  - CreateRefTemp
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 245ADE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: CF03_CellBlockDEntryComputer
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 245ADD:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: CF03_CellBlockDMarker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 245ADC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: CF03_GuardTowerComputer
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 245ADB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: CF03_KryxSlate
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 245AD8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: CF03_VentAccessComputer
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 245AD7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: CF03_WardenDoor
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 245AD6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: CF03_WardenComputer
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 245AD5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: CF03_ShuttleBayMarker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 245ACF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: CF03_Stage80Marker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 2458C7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: CF03_SODelgadoIntercom
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 208090:Starfield.esm
+  ForcedVoice: 015394:Starfield.esm
+  VoiceTypes: 015394:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: CF03_CellBlockDInitialMarker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 207E8E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: CF03_Stage30Marker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 203BAA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: CF03_EscapeTunnelSecretDoor
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 1F56AE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 43
+  Name: CF03_DelgadoStartMarker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 0D080B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 44
+  Name: CF03_CellsSwitchD01
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 0C4C82:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 45
+  Name: CF03_CellsSwitchD02
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 0C4C81:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: CF03_CellsSwitchD03
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 0C4C80:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 47
+  Name: CF03_ToftSlateMarkerHeadtrack
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 0C13E7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 48
+  Name: CF03_DelgadoSlateMarkerHeadtrack
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 0C13E6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 52
+  Name: CF03_DeskLamp
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  - CreateRefTemp
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 0BC85B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 53
+  Name: CF03_DeskLampDummy
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  - CreateRefTemp
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 0BC858:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 54
+  Name: CF03_KryxCellMarker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 0BC856:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 55
+  Name: CF03_OptionalCellMarker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 0B65A0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 57
+  Name: CF03_IDReader
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 3994EA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 63
+  Name: CF03_MathisSightingMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 141275:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 64
+  Name: CF03_DelgadoIDSightingMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 021A39:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: CF03_VentClosetDoor
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 1F56AF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: CF03_ArmoryHeadTrackMarker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 168A9E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: CF03_ArmoryWeaponCase
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 168AA8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 61
+  Name: CF03_ArmoryWeaponCaseCollision
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 7
+    RefType: 0CC28B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: CF03_Stage100Marker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 1F56B0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 24
+    MaxInitialFillCount: 1
+    ReferenceAlias:
+      ID: 24
+      Name: CF03_TACreatueRefColl
+      Flags:
+      - Optional
+      - AllowDisabled
+      - AllowReserved
+      - ExternalAliasLinked
+      ALFG: 0
+      External:
+        Quest: 2B67E9:Starfield.esm
+        AliasID: 10
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 59
+    ALAM: 0
+    ReferenceAlias:
+      ID: 59
+      Name: CF03_TAAmbushSFXMarkerRefCol
+      Flags:
+      - AllowDisabled
+      - AllowReserved
+      ALFG: 0
+      Location:
+        AliasID: 7
+        RefType: 02D90A:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 25
+    MaxInitialFillCount: 1
+    ReferenceAlias:
+      ID: 25
+      Name: CF03_SBCreatueRefColl
+      Flags:
+      - Optional
+      - AllowDisabled
+      - AllowReserved
+      - ExternalAliasLinked
+      ALFG: 0
+      External:
+        Quest: 2B67E9:Starfield.esm
+        AliasID: 7
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: CF03_PlayerShip
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 60
+  Name: CF03_PlayerShipPilotSeat
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 3
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: CF03_TheKeyStation
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueBaseForm: 032406:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: CF03_VigilanceShip
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueBaseForm: 257106:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 49
+  Name: CF03_Shuttle
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2B67E9:Starfield.esm
+    AliasID: 14
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 50
+  Name: CF03_ShuttleSeat
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2B67E9:Starfield.esm
+    AliasID: 20
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 65
+  Name: CF03_SeatatNova
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 1979B3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 66
+  Name: CF03_NovaLoadDoor
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 25C641:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 62
+  Name: EliteCrew
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - ExternalAliasLinked
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 25
+  VoiceTypes: Null

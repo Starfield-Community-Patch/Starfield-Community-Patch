@@ -1,0 +1,465 @@
+FormKey: 0B8633:Starfield.esm
+EditorID: COM_Quest_Andreja_Commitment
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 20
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01A9D4:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 10
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 10
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01A9D3:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: com_commitmentquestscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentGift
+      Object: 0B8573:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CompanionAlias
+      Object: 0B8633:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentGiftAlias
+      Object: 0B8633:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_COM_Quest_Andreja_Commitm_000B8633
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MapMarker
+      Object: 0B8633:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Andreja
+      Object: 0B8633:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CQ_TxtReplace_QuestName_Andreja
+      Object: 2CCF97:Starfield.esm
+  Fragments:
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Andreja_Commitm_000B8633
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Andreja_Commitm_000B8633
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Andreja_Commitm_000B8633
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Andreja_Commitm_000B8633
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Andreja_Commitm_000B8633
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Andreja_Commitm_000B8633
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Andreja_Commitm_000B8633
+    FragmentName: Fragment_Stage_0200_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0B8633:Starfield.esm
+      Alias: 9
+    Scripts:
+    - Name: DefaultAliasMapMarkerScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: UndiscoveredVisibility
+      - MutagenObjectType: ScriptBoolProperty
+        Name: Discovered
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: MapMarkerCategory
+  - Property:
+      Name: ''
+      Object: 0B8633:Starfield.esm
+      Alias: 6
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: ShouldHideActivationAfterSuccessfulActivation
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 60
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 50
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 20
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 30
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 0B8633:Starfield.esm
+        Alias: 8
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 40
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Bindung: Andreja'
+  - Language: English
+    String: 'Commitment: Andreja'
+  - Language: Spanish
+    String: 'Compromiso: Andreja'
+  - Language: French
+    String: 'Engagement : Andreja'
+  - Language: Italian
+    String: 'Impegno: Andreja'
+  - Language: Japanese
+    String: 結婚：アンドレヤ
+  - Language: Polish
+    String: 'Związek: Andreja'
+  - Language: Portuguese_Brazil
+    String: 'Compromisso: Andreja'
+Data:
+  Flags:
+  - RunOnce
+  Priority: 30
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+UnusedConditions: []
+Stages:
+- Index: 10
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: player received quest, directed to Shoza II
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: arrived in orbit, directed towards surface
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: landed at location
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: player has reached destination, trigger forcegreet
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: forcegreet done, enable activator
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: mound activated, directed to Andreja
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: quest complete
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Reise nach Shoza II.
+    - Language: English
+      String: Travel to Shoza II
+    - Language: Spanish
+      String: Viaja a Shoza II.
+    - Language: French
+      String: Rendez-vous sur Shoza II.
+    - Language: Italian
+      String: Raggiungi Shoza II
+    - Language: Japanese
+      String: ショザIIへ向かう
+    - Language: Polish
+      String: Udaj się na Shozę II
+    - Language: Portuguese_Brazil
+      String: Viaje para Shoza II
+  Targets:
+  - AliasID: 6
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Lande auf Shoza II.
+    - Language: English
+      String: Land on Shoza II
+    - Language: Spanish
+      String: Aterriza en Shoza II.
+    - Language: French
+      String: Atterrissez sur Shoza II.
+    - Language: Italian
+      String: Atterra su Shoza II
+    - Language: Japanese
+      String: ショザIIに着陸する
+    - Language: Polish
+      String: Wyląduj na Shozie II
+    - Language: Portuguese_Brazil
+      String: Aterrisse em Shoza II
+  Targets:
+  - AliasID: 6
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erreiche den Standort.
+    - Language: English
+      String: Reach the Location
+    - Language: Spanish
+      String: Llega a la ubicación.
+    - Language: French
+      String: Atteignez le lieu.
+    - Language: Italian
+      String: Raggiungi la posizione
+    - Language: Japanese
+      String: 場所に到着する
+    - Language: Polish
+      String: Dotrzyj na miejsce
+    - Language: Portuguese_Brazil
+      String: Vá até o local
+  Targets:
+  - AliasID: 6
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Andreja.
+    - Language: English
+      String: Talk to Andreja
+    - Language: Spanish
+      String: Habla con Andreja.
+    - Language: French
+      String: Parlez à Andreja.
+    - Language: Italian
+      String: Parla con Andreja
+    - Language: Japanese
+      String: アンドレヤと話す
+    - Language: Polish
+      String: Porozmawiaj z Andreją
+    - Language: Portuguese_Brazil
+      String: Fale com Andreja
+  Targets:
+  - {}
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde Andrejas Geschenk.
+    - Language: English
+      String: Find Andreja's Gift
+    - Language: Spanish
+      String: Encuentra el regalo de Andreja.
+    - Language: French
+      String: Trouvez le cadeau d'Andreja.
+    - Language: Italian
+      String: Trova il regalo di Andreja
+    - Language: Japanese
+      String: アンドレヤの贈り物を探す
+    - Language: Polish
+      String: Znajdź prezent od Andreji
+    - Language: Portuguese_Brazil
+      String: Encontre o presente da Andreja
+  Targets:
+  - AliasID: 6
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Andreja.
+    - Language: English
+      String: Talk to Andreja
+    - Language: Spanish
+      String: Habla con Andreja.
+    - Language: French
+      String: Parlez à Andreja.
+    - Language: Italian
+      String: Parla con Andreja
+    - Language: Japanese
+      String: アンドレヤと話す
+    - Language: Polish
+      String: Porozmawiaj z Andreją
+    - Language: Portuguese_Brazil
+      String: Fale com Andreja
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Andreja
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0059A7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 7
+  Name: ShozaII_Orbit
+  Flags:
+  - ReservesLocationOrReference
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01A9D4:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 3
+  Name: ShozaII
+  Flags:
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01A9D3:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 4
+  Name: Overlay
+  Flags:
+  - ReservesLocationOrReference
+  - AllowCleared
+  - 0x40000000
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x090000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 0C6928:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x090000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      FirstParameter: 207489:Starfield.esm
+    ComparisonValue: 1
+  ALPS:
+    PcmTypeKeyword: 2C7982:Starfield.esm
+  ParentSystemLocationAliasID: 3
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: MapMarker
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: GroundMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 207489:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: Activator
+  Flags:
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 342007:Starfield.esm
+    AliasID: 5
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: CommitmentGiftAlias
+  Flags:
+  - Optional
+  - QuestObject
+  - 0x80000000
+  - 0x0
+  ALFG: 0
+  VoiceTypes: Null

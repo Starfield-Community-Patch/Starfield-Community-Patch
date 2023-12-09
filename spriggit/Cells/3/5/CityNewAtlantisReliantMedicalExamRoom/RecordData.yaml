@@ -1,0 +1,127 @@
+FormKey: 0FE29D:Starfield.esm
+EditorID: CityNewAtlantisReliantMedicalExamRoom
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Reliant Medical
+  - Language: English
+    String: Reliant Medical
+  - Language: Spanish
+    String: Reliant Medical
+  - Language: French
+    String: Reliant Medical
+  - Language: Italian
+    String: Reliant Medical
+  - Language: Japanese
+    String: リライアント・メディカル
+  - Language: Polish
+    String: Reliant Medical
+  - Language: Portuguese_Brazil
+    String: Reliant Medical
+Flags:
+- IsInteriorCell
+- CantTravelFromHere
+- 0x20000
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 0.7
+  FogFarColor: '#002C2418'
+  Unknown1: 659731
+  ForColorHighNear: '#00000080'
+  ForColorHighFar: '#00635F4B'
+  HighDensityScale: 0.7
+  FarHeightMid: 10000
+LightingTemplate: 0300E2:Starfield.esm
+WaterHeight: 3.4028235E+38
+XILS: 1
+Location: 01295A:Starfield.esm
+AcousticSpace: 1CB751:Starfield.esm
+ImageSpace: 0432DF:Starfield.esm
+Music: 010DFE:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
+Traversals:
+- Unknown1: 3
+  From: 4.4630136, -44.33064, 7.7890368
+  To: 7.2636995, -44.07603, 7.820857
+  UnknownVector: 3.0505755, 4.556292, 0.98081386
+  Unknown: 0xEC3DEC3D1D356134
+- Unknown1: 4
+  From: 6.817317, -43.45058, 7.7934666
+  To: 9.082935, -41.010693, 7.7930145
+  UnknownVector: 3.3484244, 4.8769364, 0.9691315
+  Unknown: 0xFD39FD390837E535
+- Unknown1: 1
+  From: 6.0753803, -42.724506, 7.7890377
+  To: 7.894989, -40.29832, 7.8023605
+  UnknownVector: 2.935514, 5.0803094, 1.0468439
+  Unknown: 0x263926392E396B38
+- Unknown1: 6
+  From: 6.297153, -41.539608, 7.7890377
+  To: 8.243134, -43.763577, 7.817554
+  UnknownVector: 3.0007207, 4.8594556, 1.0176075
+  Unknown: 0xD840D840A73DF434
+- Unknown1: 7
+  From: 9.273238, -42.92915, 7.816449
+  To: 6.8859363, -40.725475, 7.7890368
+  UnknownVector: 2.4082398, 6.5969143, 1.2207725
+  Unknown: 0x754575452B34433E
+- Unknown1: 11
+  From: 6.87958, -40.729588, 7.7890368
+  To: 9.239221, -43.089226, 7.814749
+  UnknownVector: 2.5401158, 6.463432, 1.1963407
+  Unknown: 0xB640B640283E8E34
+- Unknown1: 29
+  From: 7.1530633, -40.229607, 7.7892046
+  To: 9.329598, -43.49435, 7.8192673
+  UnknownVector: 3.2942955, 5.8674664, 1.059204
+  Unknown: 0x1B411B41B23C1234
+- Unknown1: 38
+  From: 9.133118, -41.419807, 7.7912374
+  To: 7.8428235, -40.258545, 7.8075924
+  UnknownVector: 1.9826332, 4.3132954, 1.1399413
+  Unknown: 0x724572456F35803D
+- Unknown1: 44
+  From: 6.482111, -43.97537, 7.80152
+  To: 5.1006584, -44.38981, 7.7890377
+  UnknownVector: 1.3955337, 5.0572267, 1.3015486
+  Unknown: 0x6C446C44DA375434
+- Unknown1: 45
+  From: 8.1205435, -43.47902, 7.8049393
+  To: 9.343128, -41.23758, 7.8050833
+  UnknownVector: 2.2488675, 5.5688787, 1.1869946
+  Unknown: 0xFD37FD3729372234
+- Unknown1: 48
+  From: 8.1081505, -40.23778, 7.802619
+  To: 6.423033, -42.76546, 7.8022647
+  UnknownVector: 3.1843991, 4.6789603, 0.97322434
+  Unknown: 0x764376435F37A138
+- Unknown1: 36
+  From: 9.006996, -40.286674, 7.80966
+  To: 6.7365713, -42.809364, 7.822894
+  UnknownVector: 2.5677986, 6.4930964, 1.1942047
+  Unknown: 0xC043C0431334E838
+- Unknown1: 72
+  From: 7.8217077, -40.283375, 7.8063
+  To: 9.113083, -41.457348, 7.78969
+  UnknownVector: 1.9922249, 4.2779446, 1.1349659
+  Unknown: 0x9E409E40853DA135
+- Unknown1: 68
+  From: 8.577471, -43.57748, 7.8105726
+  To: 6.399069, -41.399063, 7.789037
+  UnknownVector: 3.2099385, 4.6851315, 0.970118
+  Unknown: 0x7F457F45BB36C53D
+- Unknown1: 85
+  From: 9.023137, -41.21091, 7.789038
+  To: 6.8803673, -43.210827, 7.8050747
+  UnknownVector: 2.7859166, 5.175792, 1.0770121
+  Unknown: 0xEC43EC434E351238
+- Unknown1: 92
+  From: 9.232764, -41.716927, 7.793497
+  To: 7.447653, -43.38303, 7.7934065
+  UnknownVector: 1.8302007, 6.544114, 1.2980925
+  Unknown: 0xEC43EC438D347B38

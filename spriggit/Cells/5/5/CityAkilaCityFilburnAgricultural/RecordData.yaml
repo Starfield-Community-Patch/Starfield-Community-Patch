@@ -1,0 +1,84 @@
+FormKey: 1A0B03:Starfield.esm
+EditorID: CityAkilaCityFilburnAgricultural
+Flags:
+- IsInteriorCell
+- CantTravelFromHere
+- 0x10000
+- 0x20000
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 0.7
+  FogFarColor: '#002C2418'
+  Unknown1: 659731
+  ForColorHighNear: '#00000080'
+  ForColorHighFar: '#00635F4B'
+  HighDensityScale: 0.7
+  FarHeightMid: 10000
+LightingTemplate: 0300E2:Starfield.esm
+WaterHeight: 3.4028235E+38
+XILS: 1
+Location: 33D559:Starfield.esm
+AcousticSpace: 1CB751:Starfield.esm
+ImageSpace: 1BF2FB:Starfield.esm
+Music: 02428C:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
+Traversals:
+- Unknown1: 504
+  From: -7.167767, -9.939753, 0.5018842
+  To: -7.167767, -6.622262, 0.464833
+  UnknownVector: 3.2048426, 5.041615, 1.0045555
+  Unknown: 0x00000000DF374E3C
+- Unknown1: 519
+  From: -8.692767, -9.804904, 0.49794108
+  To: -8.692767, -7.0507374, 0.46483296
+  UnknownVector: 2.6906908, 4.988369, 1.0761333
+  Unknown: 0x000000004438803C
+- Unknown1: 527
+  From: -9.476101, -9.804904, 0.47833866
+  To: -9.476101, -7.126374, 0.46483296
+  UnknownVector: 2.567053, 5.1050615, 1.1048756
+  Unknown: 0x0000000069367735
+- Unknown1: 342
+  From: -7.8136, -7.4465704, 0.46483296
+  To: -6.5689077, -7.4465704, 0.53666353
+  UnknownVector: 1.4648496, 4.252347, 1.2390473
+  Unknown: 0x483E483ECD36EA37
+- Unknown1: 337
+  From: -7.167767, -6.630913, 0.46483293
+  To: -7.167767, -9.939753, 0.5018842
+  UnknownVector: 3.1962247, 5.113612, 1.0121665
+  Unknown: 0x48424842523CDF37
+- Unknown1: 357
+  From: -8.167767, -7.03657, 0.46483296
+  To: -8.167767, -9.804904, 0.5091113
+  UnknownVector: 2.6931903, 5.0849323, 1.0837178
+  Unknown: 0x484248429A3E4438
+- Unknown1: 412
+  From: -6.3582206, -7.386103, 0.5159815
+  To: -6.4913497, -9.449592, 0.47817522
+  UnknownVector: 1.7361953, 5.8100266, 1.2804157
+  Unknown: 0x69426942893D7B39
+- Unknown1: 417
+  From: -6.568861, -7.47157, 0.537334
+  To: -7.8136, -7.47157, 0.46483296
+  UnknownVector: 1.4828196, 4.0310884, 1.2183124
+  Unknown: 0xB644B6447C376636
+- Unknown1: 451
+  From: -6.467767, -9.561024, 0.47733295
+  To: -6.467767, -7.0957637, 0.51805
+  UnknownVector: 2.1009927, 5.7901225, 1.2227129
+  Unknown: 0x00000000FF38F33C
+- Unknown1: 454
+  From: -5.711903, -9.750885, 0.4780354
+  To: -6.1806335, -7.407242, 0.5004949
+  UnknownVector: 2.0620043, 5.704733, 1.2239532
+  Unknown: 0x164616464638A73B
+- Unknown1: 457
+  From: -7.909434, -9.804904, 0.5146077
+  To: -7.909434, -7.03657, 0.46483296
+  UnknownVector: 2.699768, 4.981031, 1.0741082
+  Unknown: 0x000000004438363E

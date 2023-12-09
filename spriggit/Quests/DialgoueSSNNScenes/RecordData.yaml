@@ -1,0 +1,38 @@
+FormKey: 184511:Starfield.esm
+EditorID: DialgoueSSNNScenes
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: SNN News Story Scenes
+  - Language: English
+    String: SSNN News Story Scenes
+  - Language: Spanish
+    String: Escenas de las noticias de la NSC
+  - Language: French
+    String: Scènes d'informations de SOTV
+  - Language: Italian
+    String: SCNN News Story Scenes
+  - Language: Japanese
+    String: SSNNのニュースシーン
+  - Language: Polish
+    String: Sceny z wiadomościami ZUinfo
+  - Language: Portuguese_Brazil
+    String: Cenas de Notícias da ANSC
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  Priority: 30
+  Unused: 0x000000
+UnusedConditions: []
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: RadioHost
+  Flags:
+  - Optional
+  - UsesStoredText
+  ALFG: 0
+  DisplayName: 0CFDF1:Starfield.esm
+  VoiceTypes: Null

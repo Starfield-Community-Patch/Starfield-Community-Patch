@@ -1,0 +1,62 @@
+FormKey: 33EBEA:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0FA84F:Starfield.esm
+  WEMFile: 16291164
+  TROTs:
+  - UnknownVoiceType: 26FDE5:Starfield.esm
+    UnknownFloat: 1.4000001
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Könnte besser laufen, mein Freund, aber ich beklage mich nicht. Ich habe viel Mühe investiert.
+    - Language: English
+      String: It could be better, my friend, but I'm not complaining. I've worked hard to keep these doors open.
+    - Language: Spanish
+      String: Podría ir mejor, amigo, pero no me quejo. Me lo he currado para no tener que cerrar estas puertas.
+    - Language: French
+      String: Ça pourrait être mieux, mon ami, mais je ne me plains pas. J'ai travaillé dur pour garder mes portes ouvertes.
+    - Language: Italian
+      String: Potrebbero andare meglio, amico mio, ma non mi lamento. Ho lavorato sodo per tenere aperte queste porte.
+    - Language: Japanese
+      String: 絶好調じゃないが、文句は言わない。ここの商売を続けるために頑張ってる
+    - Language: Polish
+      String: Mogłoby być lepiej, ale nie narzekam. Ciężko pracuję, żeby te drzwi pozostały otwarte.
+    - Language: Portuguese_Brazil
+      String: Podia ser melhor, meu amigo, mas não vou reclamar. Tô trabalhando duro pra manter as portas abertas.
+  ScriptNotes: He knows Barrett from casual sales over the years.
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xB0FBAE878441D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 22DAD6:Starfield.esm
+    SecondParameter: 455
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 22DAD6:Starfield.esm
+    SecondParameter: 460
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 06ACEB:Starfield.esm
+  ComparisonValue: 000039:Starfield.esm
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 001255:Starfield.esm
+  ComparisonValue: 000039:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

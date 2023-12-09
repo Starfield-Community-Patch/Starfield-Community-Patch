@@ -1,0 +1,849 @@
+FormKey: 112864:Starfield.esm
+EditorID: City_NewAtlantis_Z_SuspiciousActivities
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 900
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 19A5C2:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 1000
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: defaultcounterquesta
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: TurnOffStageDone
+      Data: 60
+    - MutagenObjectType: ScriptIntProperty
+      Name: TargetValue
+      Data: 2
+    - MutagenObjectType: ScriptIntProperty
+      Name: StageToSet
+      Data: 60
+  Script:
+    Name: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LoopingThievesScene
+      Object: 33BE77:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Z_SuspiciousGlobal
+      Object: 0CBAA9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IsaacStrum
+      Object: 112864:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Post20ThiefLoopScene
+      Object: 1B255D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LouisKing
+      Object: 112864:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KarsonEndler
+      Object: 112864:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0055_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0045_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 57
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0057_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NewAtlantis_Z_Suspic_00112864
+    FragmentName: Fragment_Stage_0065_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 112864:Starfield.esm
+      Alias: 1
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 5
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 112864:Starfield.esm
+        Alias: 9
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 57
+  - Property:
+      Name: ''
+      Object: 112864:Starfield.esm
+      Alias: 2
+    Scripts:
+    - Name: defaultcounteraliasinconceondeatha
+  - Property:
+      Name: ''
+      Object: 112864:Starfield.esm
+      Alias: 3
+    Scripts:
+    - Name: defaultcounteraliasinconceondeatha
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Verdächtige Aktivitäten
+  - Language: English
+    String: Suspicious Activities
+  - Language: Spanish
+    String: Actividades sospechosas
+  - Language: French
+    String: Activités suspectes
+  - Language: Italian
+    String: Attività sospette
+  - Language: Japanese
+    String: 不審な行動
+  - Language: Polish
+    String: Podejrzana aktywność
+  - Language: Portuguese_Brazil
+    String: Atividades Suspeitas
+Data:
+  Flags:
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+TextDisplayGlobals:
+- 0CBAA9:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Startup stage - enable thieves and set first objective
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Theresa Mason fürchtet, dass ein paar ihrer Kunden einen Überfall auf den UC-Surplus planen. Ich sollte mit ihr sprechen und herausfinden, wie ich helfen kann.
+      - Language: English
+        String: Theresa Mason suspects that some of her customers might be planning to rob the UC Surplus. I should talk to her and find out what I can do to help.
+      - Language: Spanish
+        String: Theresa Mason sospecha que unos clientes suyos podrían estar organizando un robo a la tienda de excedentes de las CU. Debería hablar con ella para ver si puedo ayudarla.
+      - Language: French
+        String: Theresa Mason pense que certains de ses clients se préparent à braquer le surplus de l'UC. Je devrais lui parler pour savoir comment l'aider.
+      - Language: Italian
+        String: Theresa Mason sospetta che alcuni dei suoi clienti stiano progettando di derubare UC Surplus. Dovrei parlarle e scoprire cosa posso fare per aiutarla.
+      - Language: Japanese
+        String: テレサ・メイソンは、一部の客がUCサープラスに強盗を働こうと企んでいると疑っている。彼女と話をし、手伝えることはないか聞こう
+      - Language: Polish
+        String: Theresa Mason podejrzewa, że jej klienci mogą planować obrabowanie demobilu ZK. Muszę z nią porozmawiać i się dowiedzieć, jak mogę pomóc.
+      - Language: Portuguese_Brazil
+        String: Theresa Mason suspeita que alguns clientes dela estão planejando um assalto à Excedentes da UC. Tenho que falar com ela para ver como posso ajudar.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Top level startup stage - enable thieves, do not set objective displayed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Theresa Mason and started the quest.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Theresa hat mich gebeten, die Diebe zu suchen und herauszufinden, was sie vorhaben. Ich sollte zum UC-Surplus gehen und sie belauschen.
+      - Language: English
+        String: Theresa asked me to find the thieves and see if I can figure out what they're planning. I should go to the UC Surplus and listen in on their conversation.
+      - Language: Spanish
+        String: Theresa me pidió que encontrase a los ladrones para descubrir qué pretenden. Debería ir a la tienda de excedentes de las CU y escuchar su conversación.
+      - Language: French
+        String: Theresa m'a demandé de trouver les voleurs et voir si je peux découvrir ce qu'ils préparent. Je devrais aller au surplus de l'UC et écouter leur conversation.
+      - Language: Italian
+        String: Theresa mi ha chiesto di trovare i ladri e cercare di capire cosa stanno pianificando. Dovrei andare fuori da UC Surplus e ascoltare la loro conversazione.
+      - Language: Japanese
+        String: 盗賊を見つけ出し、何を企んでいるのか確かめるようテレサに頼まれた。UCサープラスに行き、会話を盗み聞きしよう
+      - Language: Polish
+        String: Theresa poprosiła mnie o odnalezienie złodziei i ustalenie, co planują. Muszę się udać do demobilu ZK i podsłuchać ich rozmowę.
+      - Language: Portuguese_Brazil
+        String: Theresa me pediu para achar os ladrões e tentar descobrir o que estão tramando. Tenho que ir até a Excedentes da UC e tentar ouvir a conversa deles.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player hit trigger. Update to "Listen" objective
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Diebe vor dem UC-Surplus entdeckt. Ich sollte sie belauschen und versuchen herauszufinden, was sie vorhaben.
+      - Language: English
+        String: I found the thieves outside the UC Surplus. I should listen in and see if I can figure out what they're planning.
+      - Language: Spanish
+        String: He encontrado a los ladrones fuera de la tienda de excedentes de las CU. Debería escuchar, a ver si descubro qué pretenden.
+      - Language: French
+        String: J'ai trouvé les voleurs devant le surplus de l'UC. Je devrais les écouter pour découvrir ce qu'ils préparent.
+      - Language: Italian
+        String: Ho trovato i ladri fuori UC Surplus. Dovrei ascoltarli e vedere se riesco a capire cosa stanno pianificando.
+      - Language: Japanese
+        String: UCサープラスの外で盗賊を見つけた。奴らの会話を盗み聞きすれば、何を企んでいるかわかるかもしれない
+      - Language: Polish
+        String: Złodzieje są przed demobilem ZK. Podsłucham ich, by się dowiedzieć, co planują.
+      - Language: Portuguese_Brazil
+        String: Achei os ladrões perto da Excedentes da UC. Agora o melhor seria ouvir a conversa deles às escondidas para descobrir o que estão tramando.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Player spoke to the thieves about their plan or overheard it '
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Diese zwei Typen haben definitiv vor, den UC-Surplus auszurauben. Ich sollte sofort Theresa im Restaurant Bericht erstatten.
+      - Language: English
+        String: Those two men are definitely planning to rob the UC Surplus. I should report what I've learned back to Theresa at Kay's House.
+      - Language: Spanish
+        String: Esos dos hombres pretenden robar la tienda de excedentes de las CU. Debería informar de esto a Theresa, en Kay's House.
+      - Language: French
+        String: Ces deux hommes comptent définitivement braquer le surplus de l'UC. Je devrais me rendre chez Kay pour signaler à Theresa ce que j'ai appris.
+      - Language: Italian
+        String: Quei due uomini stanno sicuramente progettando di rapinare UC Surplus. Devo riferire quello che ho scoperto a Theresa, al Kay’s Place.
+      - Language: Japanese
+        String: あの二人の男は間違いなくUCサープラスに強盗を働こうと企んでいる。ケイズ・ハウスにいるテレサに、このことを報告しよう
+      - Language: Polish
+        String: Dwóch mężczyzn zdecydowanie zamierza obrabować demobil ZK. Muszę przekazać swoje ustalenia Theresie w Kay's House.
+      - Language: Portuguese_Brazil
+        String: Aqueles caras com certeza pretendem assaltar a Excedentes da UC. Preciso contar o que descobri pra Theresa na Kay's House.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player told Theresa they'd report to security
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Theresa hat mich gebeten, den Raubüberfall Officer Karson Endler im Büro der UC-Security auf dem Unterdeck zu melden. Ich sollte mich sofort auf den Weg machen. '
+      - Language: English
+        String: 'Theresa asked me to report the robbery to Officer Karson Endler at UC Security in the Well. I should head to the office right away. '
+      - Language: Spanish
+        String: 'Theresa me pidió que contase lo del robo al agente Karson Endler de la seguridad de las CU del Pozo. Debería ir a la oficina de inmediato. '
+      - Language: French
+        String: "Theresa m'a demandé de signaler le braquage à l'agent Karson Endler à la sécurité de l'UC, dans le Puits. Je devrais m'y rendre immédiatement. "
+      - Language: Italian
+        String: 'Theresa mi ha chiesto di segnalare la rapina all’agente Karson Endler della Sicurezza UC, nel Pozzo. Devo andare subito nel suo ufficio. '
+      - Language: Japanese
+        String: 'ウェルのUC警備隊のカーソン・エンドラーに、強盗事件を報告するようテレサに頼まれた。すぐにオフィスへ向かおう '
+      - Language: Polish
+        String: 'Theresa poprosiła mnie o zgłoszenie kradzieży oficerowi Karsonowi Endlerowi z ochrony ZK w Studni. Pora się za to zabrać. '
+      - Language: Portuguese_Brazil
+        String: 'Theresa me pediu para avisar o oficial Karson Endler do assalto. Ele trabalha na segurança da UC no Poço e é para lá que tenho que ir. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player told Theresa they'd handle it themselves
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich kann den Raubüberfall auch alleine verhindern. Ich muss die Diebe aufhalten, bevor sie die Chance haben, den UC-Surplus auszurauben.
+      - Language: English
+        String: I can stop the robbery myself. I need to take care of the thieves before they have a chance to rob the UC Surplus.
+      - Language: Spanish
+        String: Puedo impedir el robo. Tengo que ocuparme de los ladrones antes de que puedan robar en la tienda de excedentes de las CU.
+      - Language: French
+        String: Je peux arrêter le braquage moi-même. Il faut que je m'occupe des voleurs avant qu'ils n'aient la possibilité de braquer le surplus de l'UC.
+      - Language: Italian
+        String: Posso fermare la rapina con i miei mezzi. Devo occuparmi dei ladri prima che abbiano la possibilità di colpire UC Surplus.
+      - Language: Japanese
+        String: 強盗なら一人で阻止できるだろう。UCサープラスが襲撃される前に、盗賊に対処しよう
+      - Language: Polish
+        String: Nie potrzebuję pomocy w powstrzymaniu tej kradzieży. Muszę zająć się złodziejami, zanim będą mieli szansę na obrabowanie demobilu ZK.
+      - Language: Portuguese_Brazil
+        String: Não preciso de ajudar para impedir o assalto. Só tenho que dar um jeito nos ladrões antes que eles consigam roubar a Excedentes da UC.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 45
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Make thieves hostile phase
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Diebe haben gehört, dass ich sie aufhalten will, und mich angegriffen. Ich sollte sie loswerden, bevor sie mich loswerden.
+      - Language: English
+        String: The thieves heard I was trying to stop them and attacked me. I should get rid of them before they do the same to me.
+      - Language: Spanish
+        String: Los ladrones sabían que pretendía detenerlos y me han atacado. Debería librarme de ellos si no quiero acabar mal yo.
+      - Language: French
+        String: Les voleurs ont découvert que je comptais les arrêter et ont décidé de m'attaquer. Je devrais me débarrasser d'eux avant qu'ils ne fassent de même avec moi.
+      - Language: Italian
+        String: I ladri hanno sentito che volevo fermarli e mi hanno attaccato. Dovrei sbarazzarmi di loro prima che facciano lo stesso con me.
+      - Language: Japanese
+        String: 止められそうになっていることを知った盗賊たちに攻撃された。逆に止められてしまう前に、奴らに対処しよう
+      - Language: Polish
+        String: Złodzieje usłyszeli, że chcę ich powstrzymać, więc mnie zaatakowali. Muszę się ich pozbyć, zanim oni pozbędą się mnie.
+      - Language: Portuguese_Brazil
+        String: Os ladrões perceberam que eu estava tentando detê-los e me atacaram. Preciso acabar com eles antes que eles acabem comigo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 47
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player told Endler Theresa made the report
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Officer Endler
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Officer Endler im UC-Security-Büro auf dem Unterdeck gefunden. Er will sich sofort auf den Weg machen, um nach den Dieben zu suchen.
+      - Language: English
+        String: I found Officer Endler at the UC Security office in the Well. He said he'll head over to check for the thieves right away.
+      - Language: Spanish
+        String: Encontré al agente Endler en la oficina de seguridad de las CU del Pozo. Dijo que iría a ver a los ladrones inmediatamente.
+      - Language: French
+        String: J'ai trouvé l'agent Endler au bureau de la sécurité de l'UC dans le Puits. Il m'a dit qu'il allait se rendre sur place immédiatement.
+      - Language: Italian
+        String: Ho trovato l’agente Endler nell’ufficio della Sicurezza UC nel Pozzo. Ha detto che andrà subito a cercare i ladri.
+      - Language: Japanese
+        String: ウェルのUC警備隊のオフィスでエンドラーを見つけた。すぐに盗賊を確認しに行くとのことだ
+      - Language: Polish
+        String: Udało mi się znaleźć oficera Endlera w biurze ochrony ZK w Studni. Powiedział, że natychmiast zajmie się złodziejami.
+      - Language: Portuguese_Brazil
+        String: Encontrei o oficial Endler na agência de segurança da UC no Poço. Ele disse que vai verificar a questão dos ladrões agora mesmo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 55
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Officer Endler goes to check out the thieves.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Officer Endler ist unterwegs, um dafür zu sorgen, dass die Diebe keine Dummheiten machen. Ich sollte Theresa davon erzählen.
+      - Language: English
+        String: Officer Endler's on his way to make sure the thieves don't try anything. I should  tell Theresa about this.
+      - Language: Spanish
+        String: El agente Endler está de camino para asegurarse de que los ladrones no intentan nada. Debería contárselo a Theresa.
+      - Language: French
+        String: L'agent Endler est en route pour s'assurer que les voleurs ne tentent rien. Je devrais prévenir Theresa.
+      - Language: Italian
+        String: L’agente Endler si sta muovendo per assicurarsi che i ladri non entrino in azione. Dovrei dirlo a Theresa.
+      - Language: Japanese
+        String: 盗賊が何もしないようエンドラーが確認に向かっている。このことをテレサに伝えよう
+      - Language: Polish
+        String: Oficer Endler jest w drodze, aby upewnić się, że złodzieje nie wywiną jakiegoś numeru. Pora powiadomić o wszystkim Theresę.
+      - Language: Portuguese_Brazil
+        String: O oficial Endler está a caminho para impedir que os ladrões entrem em ação. Tenho que avisar a Theresa.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 57
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Endler is close to his marker, move the thieves
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player killed the thieves
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Diebe eliminiert und den Raubüberfall aufgehalten. Ich sollte mich bei Theresa zurückmelden.
+      - Language: English
+        String: I took care of the thieves and stopped the robbery. I should report back to Theresa.
+      - Language: Spanish
+        String: Me ocupé de los ladrones e impedí el robo. Debería informar a Theresa.
+      - Language: French
+        String: J'ai réglé leur compte aux voleurs et empêché le braquage. Je devrais retourner voir Theresa.
+      - Language: Italian
+        String: Ho sistemato i ladri e prevenuto la rapina. Dovrei fare rapporto a Theresa.
+      - Language: Japanese
+        String: 盗賊に対処し、強盗を阻止した。テレサに報告しよう
+      - Language: Polish
+        String: Udało mi się rozprawić ze złodziejami i powstrzymać kradzież. Pora wrócić do Theresy.
+      - Language: Portuguese_Brazil
+        String: Dei um jeito nos ladrões e impedi o assalto. Agora tenho que falar com a Theresa.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 65
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player bribed the thieves
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 70
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speak to Theresa again
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte mit Theresa darüber sprechen, was mit den Dieben passiert ist.
+      - Language: English
+        String: I should talk to Theresa about what happened with the thieves.
+      - Language: Spanish
+        String: Debería hablar con Theresa sobre lo que pasó con los ladrones.
+      - Language: French
+        String: Je devrais parler à Theresa de ce qui est arrivé aux voleurs.
+      - Language: Italian
+        String: Devo parlare con Theresa di quello che è successo con i ladri.
+      - Language: Japanese
+        String: 盗賊たちに何があったのか、テレサと話そう
+      - Language: Polish
+        String: Muszę porozmawiać z Theresą o złodziejach.
+      - Language: Portuguese_Brazil
+        String: Preciso falar com a Theresa sobre o que aconteceu com os ladrões.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Disable and stop
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest complete
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mit Theresa gesprochen und ihr gesagt, was mit den Dieben passiert ist.
+      - Language: English
+        String: I talked to Theresa and let her know what happened with the thieves.
+      - Language: Spanish
+        String: Hablé con Theresa y la puse al corriente de lo ocurrido con los ladrones.
+      - Language: French
+        String: J'ai raconté à Theresa ce qu'il s'est passé avec les voleurs.
+      - Language: Italian
+        String: Ho parlato con Theresa per informarla di quello che è successo con i ladri.
+      - Language: Japanese
+        String: 盗賊たちに何があったのか、テレサに教えた
+      - Language: Polish
+        String: Theresa już wie po naszej rozmowie, co się stało ze złodziejami.
+      - Language: Portuguese_Brazil
+        String: Falei com a Theresa e contei o que aconteceu com os ladrões.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B10:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest failed
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 1ECA51:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Sprich mit Theresa Mason. '
+    - Language: English
+      String: 'Speak to Theresa Mason '
+    - Language: Spanish
+      String: 'Habla con Theresa Mason. '
+    - Language: French
+      String: 'Parlez à Theresa Mason. '
+    - Language: Italian
+      String: 'Parla con Theresa Mason '
+    - Language: Japanese
+      String: 'テレサ・メイソンと話す '
+    - Language: Polish
+      String: Porozmawiaj z Theresą Mason
+    - Language: Portuguese_Brazil
+      String: 'Fale com Theresa Mason '
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde die verdächtigen Leute vor dem UC-Surplus.
+    - Language: English
+      String: Find the suspicious people outside the UC Surplus
+    - Language: Spanish
+      String: Busca sospechosos en la tienda de excedentes.
+    - Language: French
+      String: Trouvez les suspects devant le surplus de l'UC.
+    - Language: Italian
+      String: Trova le persone sospette fuori da UC Surplus
+    - Language: Japanese
+      String: UCサープラスの外で怪しい人物を探す
+    - Language: Polish
+      String: Znajdź podejrzanych ludzi na zewnątrz demobilu ZK
+    - Language: Portuguese_Brazil
+      String: Ache os suspeitos perto da Excedentes da UC
+  Targets:
+  - AliasID: 2
+  - AliasID: 3
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Belausche das Gespräch.
+    - Language: English
+      String: Eavesdrop on the conversation
+    - Language: Spanish
+      String: Escucha a escondidas la conversación.
+    - Language: French
+      String: Espionnez la conversation.
+    - Language: Italian
+      String: Origlia la conversazione
+    - Language: Japanese
+      String: 会話を盗み聞きする
+    - Language: Polish
+      String: Podsłuchaj rozmowę
+    - Language: Portuguese_Brazil
+      String: Escute a conversa às escondidas
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Melde Theresa den geplanten Raubüberfall.
+    - Language: English
+      String: Report back to Theresa about the planned robbery
+    - Language: Spanish
+      String: Informa a Theresa sobre el robo organizado.
+    - Language: French
+      String: Retournez voir Theresa à propos du braquage prévu.
+    - Language: Italian
+      String: Segnala il piano per la rapina a Theresa
+    - Language: Japanese
+      String: テレサのところへ戻って強盗計画を報告する
+    - Language: Polish
+      String: Powiadom Theresę o planowanej kradzieży
+    - Language: Portuguese_Brazil
+      String: Volte e fale com Theresa sobre o assalto planejado
+  Targets:
+  - {}
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Melde Officer Endler den geplanten Raubüberfall.
+    - Language: English
+      String: Report the planned robbery to Officer Endler
+    - Language: Spanish
+      String: Informa al agente Endler sobre el robo organizado.
+    - Language: French
+      String: Signalez le braquage prévu à l'agent Endler.
+    - Language: Italian
+      String: Segnala il piano per la rapina all’agente Endler
+    - Language: Japanese
+      String: エンドラーに強盗計画を報告する
+    - Language: Polish
+      String: Zgłoś planowaną kradzież oficerowi Endlerowi
+    - Language: Portuguese_Brazil
+      String: Avise o oficial Endler do assalto planejado
+  Targets:
+  - AliasID: 1
+- Index: 40
+  Flags:
+  - OrWithPrevious
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Stelle die Diebe.
+    - Language: English
+      String: Confront the thieves
+    - Language: Spanish
+      String: Plántales cara a los ladrones.
+    - Language: French
+      String: Affrontez les voleurs.
+    - Language: Italian
+      String: Affronta i ladri
+    - Language: Japanese
+      String: 盗賊と対決する
+    - Language: Polish
+      String: Skonfrontuj się ze złodziejami
+    - Language: Portuguese_Brazil
+      String: Confronte os ladrões
+  Targets:
+  - AliasID: 2
+  - AliasID: 3
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Töte die Diebe.
+    - Language: English
+      String: Kill the thieves
+    - Language: Spanish
+      String: Mata a los ladrones.
+    - Language: French
+      String: Tuez les voleurs.
+    - Language: Italian
+      String: Uccidi i ladri
+    - Language: Japanese
+      String: 盗賊を倒す
+    - Language: Polish
+      String: Zabij złodziejów
+    - Language: Portuguese_Brazil
+      String: Mate os ladrões
+  Targets:
+  - AliasID: 2
+  - AliasID: 3
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erstatte Theresa Bericht.
+    - Language: English
+      String: Report back to Theresa
+    - Language: Spanish
+      String: Informa a Theresa.
+    - Language: French
+      String: Retournez voir Theresa.
+    - Language: Italian
+      String: Fai rapporto a Theresa
+    - Language: Japanese
+      String: テレサに報告する
+    - Language: Polish
+      String: Zdaj raport Theresie
+    - Language: Portuguese_Brazil
+      String: Volte para falar com Theresa
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 6
+  Name: TheWellLocation
+  Flags:
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 19A5C2:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: TheresaMason
+  Flags:
+  - Essential
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 33A886:Starfield.esm
+  VoiceTypes: 2AD226:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: KarsonEndler
+  Flags:
+  - Essential
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 33A887:Starfield.esm
+  PackageData:
+  - 110AE6:Starfield.esm
+  - 110AD8:Starfield.esm
+  VoiceTypes: 110AE9:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: IsaacStrum
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 33A883:Starfield.esm
+  PackageData:
+  - 110AD4:Starfield.esm
+  - 110AD5:Starfield.esm
+  VoiceTypes: 110AE3:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: LouisKing
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 33A882:Starfield.esm
+  PackageData:
+  - 110AD7:Starfield.esm
+  - 110AD6:Starfield.esm
+  VoiceTypes: 110AE2:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: IsaacStrumStartingMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 33A884:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: LouisKingStartingMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 33A885:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: OfficerEndlerGuardMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 33A88D:Starfield.esm
+  VoiceTypes: Null
