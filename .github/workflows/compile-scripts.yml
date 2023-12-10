@@ -16,7 +16,7 @@ jobs:
 
             - name: Fetch Caprica 0.3.0
               shell: bash
-              run: gh release download -O .github/Caprica.7z -p 'Caprica.v0.3.0.7z' -R Orvid/Caprica 0.3.0
+              run: gh release download -O .github/Caprica.7z -p '*.7z' -R Orvid/Caprica v0.3.0
               env:
                 GH_TOKEN: ${{ github.token }}
             
