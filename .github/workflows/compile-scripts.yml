@@ -29,9 +29,11 @@ jobs:
               with:
                 endpoint: https://starfieldpatch.dev/api/papyrus/get
                 configuration: '{ "method": "GET", "headers": { "key": "${{secrets.PAPYRUS_KEY}}" } }'
-                save-location: .github/
+                save-location: .github
                 save-name: Scripts
                 format: 7z
+                encoding: binary
+                set-output: false
             
             - name: Extract vanilla scripts
               shell: bash
