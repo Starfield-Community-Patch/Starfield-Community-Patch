@@ -1,0 +1,39 @@
+name: compile-papyrus-scripts
+on: 
+  workflow_dispatch:
+    inputs:
+        version:
+          description: 'Which version should be build against? Defaults to latest'
+          required: false
+          default: '1.8.86.0'
+
+jobs:
+    compile-scripts:
+        runs-on: windows-latest
+        steps: 
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Fetch Caprica 0.3.0
+              shell: bash
+              run: gh release download -O .github/Caprica.7z -p 'Caprica.v0.3.0.7z' -R Orvid/Caprica 0.3.0
+              env:
+                GH_TOKEN: ${{ github.token }}
+            
+            - name: Extract Caprica EXE file
+              shell: bash
+              run: 7z x .github/Caprica.7z -o.github/Caprica
+            
+            - name: Fetch vanilla scripts
+              uses: JamesIves/fetch-api-data-action@v2
+              with:
+                endpoint: https://starfieldpatch.dev/api/papyrus/get
+                configuration: '{ "method": "GET", "headers": { "key": "${{secrets.PAPYRUS_KEY}}" }, "save-location": ".github/Scripts.7z" }'
+            
+            - name: Extract vanilla scripts
+              shell: bash
+              run: 7z x .github/Scripts.7z -o.github/Scripts
+
+            - name: Run Caprica
+              shell: bash
+              run: .github/Caprica/Caprica.exe --game starfield --import ".github/Scripts" --output "Scripts" "Scripts" -R -q
