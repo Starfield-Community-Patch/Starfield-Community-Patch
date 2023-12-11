@@ -35,7 +35,7 @@ jobs:
 
             - name: Run Caprica
               shell: bash
-              run: .github/Caprica/Caprica.exe --game starfield --import ".github/Scripts" --output "Scripts" "Scripts" -R -q
+              run: .github/Caprica/Caprica.exe --game starfield --import ".github/Scripts" --output "Scripts" "Scripts/source" -R -q
             
             - name: Upload Output
               uses: actions/upload-artifact@v3
