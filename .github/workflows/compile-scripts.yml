@@ -42,5 +42,4 @@ jobs:
               with: 
                 name: compiled-scripts
                 path: |
-                  scripts/*/*.pex
-                  scripts/*/*.psc
+                  scripts/
