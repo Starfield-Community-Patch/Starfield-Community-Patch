@@ -32,7 +32,7 @@ jobs:
                   redirect: 'follow'
                 });
 
-                console.log('Request result', req);
+                console.log('Request result', { req });
                 const outputPath = '.github/Scripts.7z'
                 const fileStream = fs.createWriteStream(outputPath, { flags: 'wx' })
                 await finished(Readable.fromWeb(res.body).pipe(fileStream))
