@@ -25,29 +25,9 @@ jobs:
               run: 7z x .github/Caprica.7z -o.github/Caprica
 
             - name: Fetch vanilla scripts
+              shell: bash
               run: |
-                const req = await fetch('https://starfieldpatch.dev/api/papyrus/get', {
-                  method: 'GET',
-                  headers: { key: ${{secrets.PAPYRUS_KEY}} },
-                  redirect: 'follow'
-                });
-
-                console.log('Request result', { req });
-                const outputPath = '.github/Scripts.7z'
-                const fileStream = fs.createWriteStream(outputPath, { flags: 'wx' })
-                await finished(Readable.fromWeb(res.body).pipe(fileStream))
-
-            
-            # - name: Fetch vanilla scripts
-            #   uses: JamesIves/fetch-api-data-action@v2
-            #   with:
-            #     endpoint: https://starfieldpatch.dev/api/papyrus/get
-            #     configuration: '{ "method": "GET", "headers": { "key": "${{secrets.PAPYRUS_KEY}}" }, "redirect": "follow" }'
-            #     save-location: .github
-            #     save-name: Scripts
-            #     format: 7z
-            #     encoding: binary
-            #     set-output: false
+                curl -L -o .github/Scripts.7z -H "key: ${{ secrets.PAPYRUS_KEY }}" "https://starfieldpatch.dev/api/papyrus/get"
             
             - name: Extract vanilla scripts
               shell: bash
