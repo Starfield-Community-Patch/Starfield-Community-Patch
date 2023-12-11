@@ -103,7 +103,7 @@ ObjectTemplates:
   - Mod: 157D48:Starfield.esm
     DontUseAll: True
   Properties:
-  - MutagenObjectType: ObjectModFormLinkIntProperty`1
+  - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
     Property: 14
     Record: 1773BA:Starfield.esm
 - AddonIndex: 0

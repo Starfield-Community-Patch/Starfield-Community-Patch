@@ -6,14 +6,14 @@ Description:
 Model:
   FLLD: 0x01000000
 Properties:
-- MutagenObjectType: ObjectModFormLinkIntProperty`1
+- MutagenObjectType: ObjectModFormLinkIntProperty<Npc+Property>
   Property: LayeredMaterialSwap
   Record: 0B41CA:Starfield.esm
-- MutagenObjectType: ObjectModFormLinkIntProperty`1
+- MutagenObjectType: ObjectModFormLinkIntProperty<Npc+Property>
   Property: Inventory
   Record: 2C7D29:Starfield.esm
   FunctionType: Add
-- MutagenObjectType: ObjectModFormLinkIntProperty`1
+- MutagenObjectType: ObjectModFormLinkIntProperty<Npc+Property>
   Property: Inventory
   Record: 12FFA2:Starfield.esm
   FunctionType: Add

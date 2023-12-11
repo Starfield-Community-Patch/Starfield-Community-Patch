@@ -55,34 +55,34 @@ TargetOmodKeywords:
 FilterKeywords:
 - 03E063:Starfield.esm
 Properties:
-- MutagenObjectType: ObjectModFloatProperty`1
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
   Property: AimInnerConeAngleDegrees
   Value: -0.15
   Value2: -0.15
   FunctionType: MultAndAdd
-- MutagenObjectType: ObjectModFloatProperty`1
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
   Property: AimOuterConeAngleDegrees
   Value: -0.15
   Value2: -0.15
   FunctionType: MultAndAdd
-- MutagenObjectType: ObjectModFloatProperty`1
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
   Property: Weight
   Value: 0.75
   FunctionType: Add
-- MutagenObjectType: ObjectModFloatProperty`1
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
   Property: Value
   Value: 0.035
   FunctionType: MultAndAdd
-- MutagenObjectType: ObjectModFloatProperty`1
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
   Property: AimModelBaseStability
   Value: 0.075
   FunctionType: MultAndAdd
-- MutagenObjectType: ObjectModFloatProperty`1
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
   Property: SightedTransitionSeconds
   Value: 0.1
   Value2: 0.1
   FunctionType: MultAndAdd
-- MutagenObjectType: ObjectModFormLinkIntProperty`1
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
   Property: Keyword
   Record: 003774:Starfield.esm
   FunctionType: Add
