@@ -90,7 +90,7 @@ module.exports = async ({ github, context }) => {
 
     const filesAsAssets = filesToPack.map(f => {
         const compressed = ['.afx', '.agx'].includes(path.extname(f).toLowerCase()) ? 1 : 0;
-        const internalPath = f.replace(folderPath, '');
+        const internalPath = path.relative(folderPath, f);
         const absPath = f;
         return [compressed, internalPath, absPath]
     });
