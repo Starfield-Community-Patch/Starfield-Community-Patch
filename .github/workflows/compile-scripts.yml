@@ -62,7 +62,7 @@ jobs:
 
             - name: Run BSArchPro to create the archive(s)
               shell: bash
-              run: .github/xEdit/BSArchPro64.exe "${{ github.workspace }}/Starfield-Community-Patch/Starfield-Community-Patch/.github/SFCP.bsarch"
+              run: .github/xEdit/BSArchPro64.exe "${{ github.workspace }}/.github/SFCP.bsarch"
             
             - name: Upload Output
               uses: actions/upload-artifact@v3
@@ -70,3 +70,4 @@ jobs:
                 name: compiled-scripts
                 path: |
                   StarfieldCommunityPatch - Main.ba2
+                  .github/SFCP.bsarch
