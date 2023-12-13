@@ -57,6 +57,7 @@ module.exports = async ({ github, context }) => {
         const subfolderPath = path.join(parent, sub);
         const files = await fs.readdir(subfolderPath);
         fileList = files.filter(f => !ignoredExts.includes(path.extname(f)) && !!path.extname(f))
+            .map(f => path.join(subfolderPath, f))
         console.log('Files counted', { subfolderPath, count: fileList.length })
         const folders = files.filter(f => !path.extname(f) && f[0] !== ('.'));
         if (folders.length > 0) {
