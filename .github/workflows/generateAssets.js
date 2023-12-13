@@ -48,6 +48,28 @@ const bsArchData = (filePath) => ({
 module.exports = async ({ github, context }) => {
     const fs = require('fs/promises');
     const path = require('path');
+
+
+    // Function to dig into folders
+
+    const getFilePaths = async (parentFolder, subFolder) => {
+        let fileList = [];
+        const subfolderPath = path.join(parentFolder, subFolder);
+        const files = await fs.readdir(subfolderPath);
+        fileList = files.filter(f => !ignoredExts.includes(path.extname(f)) && !!path.extname(f))
+        console.log('Files counted', { subfolderPath, count: fileList.length })
+        const folders = files.filter(f => !path.extname(f) && f[0] !== ('.'));
+        if (folders.length > 0) {
+            for (const lvl2folder of folders) {
+                const lvl2Files = await getFilePaths(path.join(subfolderPath, lvl2folder));
+                fileList = [...lvl2Files, ...fileList];
+            }
+        }
+        return fileList;
+    }
+
+    // End Function
+
     const folderPath = path.resolve(__dirname, '..', '..');
     const directory = await fs.readdir(folderPath);
     const packableFolders = directory.filter(f => !path.extname(f) && dataFolderLowercase.includes(f.toLowerCase()))
@@ -65,21 +87,4 @@ module.exports = async ({ github, context }) => {
 
     console.log('Files found for packing!', { total: filesToPack.length, filesToPack });
     
-}
-
-async function getFilePaths(path, fs, parentFolder, subFolder) {
-    let fileList = [];
-    const subfolderPath = path.join(parentFolder, subFolder);
-    const files = await fs.readdir(subfolderPath);
-    console.log('Files counted')
-    fileList = files.filter(f => !ignoredExts.includes(path.extname(f)) && !!path.extname(f))
-    console.log('Files counted', { subfolderPath, count: fileList.length })
-    const folders = files.filter(f => !path.extname(f) && f[0] !== ('.'));
-    if (folders.length > 0) {
-        for (const lvl2folder of folders) {
-            const lvl2Files = await getFilePaths(path.join(subfolderPath, lvl2folder));
-            fileList = [...lvl2Files, ...fileList];
-        }
-    }
-    return fileList;
 }
