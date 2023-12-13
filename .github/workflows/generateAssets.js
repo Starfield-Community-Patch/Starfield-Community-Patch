@@ -52,16 +52,16 @@ module.exports = async ({ github, context }) => {
 
     // Function to dig into folders
 
-    const getFilePaths = async (parentFolder, subFolder) => {
+    const getFilePaths = async (parent, sub) => {
         let fileList = [];
-        const subfolderPath = path.join(parentFolder, subFolder);
+        const subfolderPath = path.join(parent, sub);
         const files = await fs.readdir(subfolderPath);
         fileList = files.filter(f => !ignoredExts.includes(path.extname(f)) && !!path.extname(f))
         console.log('Files counted', { subfolderPath, count: fileList.length })
         const folders = files.filter(f => !path.extname(f) && f[0] !== ('.'));
         if (folders.length > 0) {
             for (const lvl2folder of folders) {
-                const lvl2Files = await getFilePaths(path.join(subfolderPath, lvl2folder));
+                const lvl2Files = await getFilePaths(subfolderPath, lvl2folder);
                 fileList = [...lvl2Files, ...fileList];
             }
         }
@@ -81,7 +81,7 @@ module.exports = async ({ github, context }) => {
     let filesToPack = []
     
     for (const folder of packableFolders) {
-        const subFolderFiles = await getFilePaths(path, fs, folderPath, folder)
+        const subFolderFiles = await getFilePaths(folderPath, folder)
         filesToPack =  [...subFolderFiles, ...filesToPack];
     }
 
