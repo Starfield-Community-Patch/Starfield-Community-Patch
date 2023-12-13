@@ -74,7 +74,7 @@ async function getFilePaths(path, fs, parentFolder, subFolder) {
     console.log('Files counted')
     fileList = files.filter(f => !ignoredExts.includes(path.extname(f)) && !!path.extname(f))
     console.log('Files counted', { subfolderPath, count: fileList.length })
-    const folders = files.filter(f => !path.extname(f) && !f.startWith('.'));
+    const folders = files.filter(f => !path.extname(f) && f[0] !== ('.'));
     if (folders.length > 0) {
         for (const lvl2folder of folders) {
             const lvl2Files = await getFilePaths(path.join(subfolderPath, lvl2folder));
