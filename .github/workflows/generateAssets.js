@@ -58,7 +58,7 @@ module.exports = async ({ github, context }) => {
         const files = await fs.readdir(subfolderPath);
         fileList = files.filter(f => !ignoredExts.includes(path.extname(f)) && !!path.extname(f))
             .map(f => path.join(subfolderPath, f))
-        console.log('Files counted', { subfolderPath, count: fileList.length })
+        // console.log('Files counted', { subfolderPath, count: fileList.length })
         const folders = files.filter(f => !path.extname(f) && f[0] !== ('.'));
         if (folders.length > 0) {
             for (const lvl2folder of folders) {
@@ -86,6 +86,17 @@ module.exports = async ({ github, context }) => {
         filesToPack =  [...subFolderFiles, ...filesToPack];
     }
 
-    console.log('Files found for packing!', { total: filesToPack.length, filesToPack });
+    console.log('Files found for packing!', { total: filesToPack.length });
+
+    const filesAsAssets = filesToPack.map(f => {
+        const compressed = ['.afx', '.agx'].includes(path.extname(f).toLowerCase()) ? 1 : 0;
+        const internalPath = f.replace(folderPath, '');
+        const absPath = f;
+        return [compressed, internalPath, absPath]
+    });
+
+    data.Assets = filesAsAssets;
+
+    console.log('BSArch Data', { data });
     
 }
