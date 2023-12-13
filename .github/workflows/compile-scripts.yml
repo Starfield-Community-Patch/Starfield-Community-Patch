@@ -60,13 +60,13 @@ jobs:
             #   shell: bash
             #   run: 7z a -tzip .github/SFCP.bsarch .github/assets.json
 
-            # - name: Run BSArchPro to create the archive(s)
-            #   shell: bash
-            #   run: .github/xEdit/BSArchPro64.exe -sf1 SFCP.bsarch
+            - name: Run BSArchPro to create the archive(s)
+              shell: bash
+              run: .github/xEdit/BSArchPro64.exe -sf1 .github/SFCP.bsarch
             
             - name: Upload Output
               uses: actions/upload-artifact@v3
               with: 
                 name: compiled-scripts
                 path: |
-                  scripts/
+                  StarfieldCommunityPatch - Main.ba2

@@ -97,6 +97,8 @@ module.exports = async ({ github, context }) => {
 
     data.Assets = filesAsAssets;
 
-    console.log('BSArch Data', { data });
+    console.log('BSArch Data', { assets: data.Assets.map(a => a.join(',')) });
+
+    fs.writeFile(path.join(folderPath, '.github', 'SFCP.bsarch'), JSON.stringify(data));
     
 }
