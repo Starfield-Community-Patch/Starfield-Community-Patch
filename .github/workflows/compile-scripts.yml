@@ -62,7 +62,7 @@ jobs:
 
             - name: Run BSArchPro to create the archive(s)
               shell: bash
-              run: .github/xEdit/BSArch64.exe .github/SFCP.bsarch
+              run: .github/xEdit/BSArch64.exe -sf1 .github/SFCP.bsarch
             
             - name: Upload Output
               uses: actions/upload-artifact@v3
