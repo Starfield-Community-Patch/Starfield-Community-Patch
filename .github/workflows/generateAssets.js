@@ -59,7 +59,7 @@ module.exports = async ({ github, context }) => {
     let filesToPack = []
     
     for (const folder of packableFolders) {
-        const subFolderFiles = await getFilePaths(folderPath, folder)
+        const subFolderFiles = await getFilePaths(path, folderPath, folder)
         filesToPack =  [...subFolderFiles, ...filesToPack];
     }
 
@@ -67,7 +67,7 @@ module.exports = async ({ github, context }) => {
     
 }
 
-async function getFilePaths(parentFolder, subFolder) {
+async function getFilePaths(path, parentFolder, subFolder) {
     let fileList = [];
     const subfolderPath = path.join(parentFolder, subFolder);
     const files = await fs.readdir(subfolderPath);

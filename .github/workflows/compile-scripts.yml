@@ -35,19 +35,19 @@ jobs:
               shell: bash
               run: 7z x .github/xEdit.7z -o.github/xEdit
 
-            - name: Fetch vanilla scripts
-              shell: bash
-              run: |
-                curl -L -o .github/Scripts.7z -H "key: ${{ secrets.PAPYRUS_KEY }}" "https://starfieldpatch.dev/api/papyrus/get"
+            # - name: Fetch vanilla scripts
+            #   shell: bash
+            #   run: |
+            #     curl -L -o .github/Scripts.7z -H "key: ${{ secrets.PAPYRUS_KEY }}" "https://starfieldpatch.dev/api/papyrus/get"
             
-            - name: Extract vanilla scripts
-              shell: bash
-              run: 7z x .github/Scripts.7z -o.github/Scripts
+            # - name: Extract vanilla scripts
+            #   shell: bash
+            #   run: 7z x .github/Scripts.7z -o.github/Scripts
 
             # Perform the actions to build a release.
-            - name: Run Caprica
-              shell: bash
-              run: .github/Caprica/Caprica.exe --game starfield --import ".github/Scripts" --output "Scripts" "Scripts/source" -R -q
+            # - name: Run Caprica
+            #   shell: bash
+            #   run: .github/Caprica/Caprica.exe --game starfield --import ".github/Scripts" --output "Scripts" "Scripts/source" -R -q
 
             - name: Create Assets.json for BSArchPro
               uses: actions/github-script@v6
