@@ -14,6 +14,7 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v4
 
+            # Fetch and extract the tools we need
             - name: Fetch Caprica 0.3.0
               shell: bash
               run: gh release download -O .github/Caprica.7z -p '*.7z' -R Orvid/Caprica v0.3.0
@@ -24,6 +25,16 @@ jobs:
               shell: bash
               run: 7z x .github/Caprica.7z -o.github/Caprica
 
+            - name: Fetch xEdit (to get BSArchPro)
+              shell: bash
+              run: gh release download -O .github/xEdit.7z -p '*.7z' -R TES5Edit/TES5Edit xedit-4.1.5
+              env:
+                GH_TOKEN: ${{ github.token }}
+
+            - name: Extract xEdit files
+              shell: bash
+              run: 7z x .github/xEdit.7z -o.github/xEdit
+
             - name: Fetch vanilla scripts
               shell: bash
               run: |
@@ -33,9 +44,25 @@ jobs:
               shell: bash
               run: 7z x .github/Scripts.7z -o.github/Scripts
 
+            # Perform the actions to build a release.
             - name: Run Caprica
               shell: bash
               run: .github/Caprica/Caprica.exe --game starfield --import ".github/Scripts" --output "Scripts" "Scripts/source" -R -q
+
+            - name: Create Assets.json for BSArchPro
+              uses: actions/github-script@v6
+              with:
+                script: |
+                  const generateAssets = require('./.github/workflows/generateAssets.js')
+                  await generateAssets({ github, context })
+          
+            # - name: Create .bsarch file for BSArchPro (zip the Assets.json)
+            #   shell: bash
+            #   run: 7z a -tzip .github/SFCP.bsarch .github/assets.json
+
+            # - name: Run BSArchPro to create the archive(s)
+            #   shell: bash
+            #   run: .github/xEdit/BSArchPro64.exe -sf1 SFCP.bsarch
             
             - name: Upload Output
               uses: actions/upload-artifact@v3
