@@ -15,15 +15,15 @@ jobs:
               uses: actions/checkout@v4
 
             # Fetch and extract the tools we need
-            - name: Fetch Caprica 0.3.0
-              shell: bash
-              run: gh release download -O .github/Caprica.7z -p '*.7z' -R Orvid/Caprica v0.3.0
-              env:
-                GH_TOKEN: ${{ github.token }}
+            # - name: Fetch Caprica 0.3.0
+            #   shell: bash
+            #   run: gh release download -O .github/Caprica.7z -p '*.7z' -R Orvid/Caprica v0.3.0
+            #   env:
+            #     GH_TOKEN: ${{ github.token }}
             
-            - name: Extract Caprica EXE file
-              shell: bash
-              run: 7z x .github/Caprica.7z -o.github/Caprica
+            # - name: Extract Caprica EXE file
+            #   shell: bash
+            #   run: 7z x .github/Caprica.7z -o.github/Caprica
 
             - name: Fetch xEdit (to get BSArchPro)
               shell: bash
@@ -62,7 +62,7 @@ jobs:
 
             - name: Run BSArchPro to create the archive(s)
               shell: bash
-              run: .github/xEdit/BSArch64.exe pack .github/SFCP.bsarch -sf1
+              run: .github/xEdit/BSArchPro64.exe "${{ github.workspace }}/Starfield-Community-Patch/Starfield-Community-Patch/.github/SFCP.bsarch"
             
             - name: Upload Output
               uses: actions/upload-artifact@v3
