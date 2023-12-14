@@ -3,24 +3,18 @@ on:
   workflow_dispatch:
     inputs:
         papyrus-version:
-          description: 'Which version should be compile Papyrus scripts against? Defaults to latest'
+          description: 'Papyrus scripts version? (e.g. 1.8.86.0, Defaults to latest)'
           required: false
           default: '1.8.86.0'
         version:
           description: 'Release version (defaults to "Nightly")'
           required: false
-        compile-scripts:
-          description: Compile scripts?
-          type: boolean
-          default: true
-        build-plugin:
-          description: Build Plugin?
-          type: boolean
-          default: true
         publish-release:
             description: Publish Release?
             type: boolean
-          
+        spriggit_tool_version:
+            description: Spriggit version (optional)
+            required: false         
         
 
 jobs:
@@ -38,7 +32,7 @@ jobs:
             echo "should_run=$(git log --since="1 days ago" --name-only | grep "" -c)" >> "$GITHUB_OUTPUT"
     build-plugin: 
       needs: check-changes
-      if: ${{ needs.check-changes.outputs.should_run >= 1 && inputs.compile-scripts == true }}
+      if: ${{ needs.check-changes.outputs.should_run >= 1 }}
       permissions: write-all
       runs-on: ubuntu-latest
       steps:
@@ -78,11 +72,13 @@ jobs:
                 ${{ github.workspace }}/to-pack/Strings/
     compile-scripts:
         needs: check-changes
-        if: ${{ needs.check-changes.outputs.should_run >= 1 && inputs.compile-scripts == true }}
+        if: ${{ needs.check-changes.outputs.should_run >= 1 }}
         runs-on: windows-latest
         steps: 
             - name: Checkout
               uses: actions/checkout@v4
+              with:
+                sparse-checkout: Scripts
 
             # Fetch and extract the tools we need
             - name: Fetch Caprica 0.3.0
@@ -116,7 +112,7 @@ jobs:
                 path: |
                   Scripts/
     package-mod:
-      if: ${{ needs.check-changes.outputs.should_run >= 1 && always() }}
+      if: ${{ needs.check-changes.outputs.should_run >= 1 }}
       runs-on: windows-latest
       needs: [check-changes, build-plugin, compile-scripts]
       permissions: write-all
@@ -181,13 +177,36 @@ jobs:
             files: to-pack/
             dest: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
 
+        - name: Upload Output
+          uses: actions/upload-artifact@v3
+          with: 
+            name: release-build
+            path: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
+        
+        - name: Remove temporary artifacts
+          uses: geekyeggo/delete-artifact@v2
+          with:
+              name: |
+                plugin-and-strings
+                compiled-scripts
+    share-release:
+      needs: [package-mod, check-changes]
+      if: ${{ needs.check-changes.outputs.should_run >= 1 && inputs.publish-release == true }}
+      runs-on: linux-latest
+      steps:
+        - uses: actions/checkout@v4
+        - name: Download the release artifact
+          uses: actions/download-artifact@v3
+          with:
+            name: release-build
+
         - name: Delete Existing Release
           uses: dev-drprasad/delete-tag-and-release@v1.0
           with:
             tag_name: ${{inputs.version || 'nightly'}}
             github_token: ${{ secrets.GITHUB_TOKEN }}
             delete_release: true
-
+  
         - name: Create Release
           id: create_release
           uses: ncipollo/release-action@v1.13.0
@@ -197,22 +216,12 @@ jobs:
             allowUpdates: true
             name: ${{inputs.version || 'Nightly'}}
             draft: false
-            body: Nightly release of the latest patch
+            body: 'Latest release of the patch. Changelog at https://www.starfieldpatch.dev/changelog'
             tag: ${{inputs.version || 'nightly'}}
             prerelease: true
             makeLatest: true
             removeArtifacts: true
             replacesArtifacts: true
             artifacts: StarfieldCommunityPatch-${{inputs.version || 'Nightly'}}.zip
-        
-        - name: Remove temporary artifacts
-          uses: geekyeggo/delete-artifact@v2
-          with:
-              name: |
-                plugin-and-strings
-                compiled-scripts
-    # share-release:
-    #   needs: check-changes
-    #   if: ${{ needs.check-changes.outputs.should_run >= 1 && inputs.publish-release == true }}
-    #   runs-on: linux-latest
+
       
