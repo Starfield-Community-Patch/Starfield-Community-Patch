@@ -7,8 +7,11 @@ on:
           required: false
           default: '1.8.86.0'
         version:
-          description: 'What is the release version number are we building?'
+          description: 'Release version (defaults to "Nightly")'
           required: false
+        compile-scripts:
+          type: boolean
+          
         
 
 jobs:
@@ -66,7 +69,7 @@ jobs:
                 ${{ github.workspace }}/to-pack/Strings/
     compile-scripts:
         needs: check-changes
-        if: ${{ needs.check-changes.outputs.should_run >= 1 }}
+        if: ${{ needs.check-changes.outputs.should_run >= 1 && inputs.compile-scripts == true }}
         runs-on: windows-latest
         steps: 
             - name: Checkout
@@ -111,9 +114,21 @@ jobs:
       steps: 
         - name: Resolve release version number
           id: version
-          run: |
-            echo "version=${${{ inputs.version }}:="Nightly"}" >> $GITHUB_OUTPUT
-            echo "tag=${${{ inputs.version }}:="nightly"}" >> $GITHUB_OUTPUT
+          uses: actions/github-script@v6
+          with:
+            result-encoding: string
+            script: |
+              console.log('User input version'. { version: ${{inputs.version}} })
+              return inputs.version ?? 'Nightly'
+        
+        - name: Resolve tag
+          id: tag
+          uses: actions/github-script@v6
+          with:
+            result-encoding: string
+            script: |
+              return (inputs.version ?? 'nightly').toLowerCase()
+
         - name: Checkout
           uses: actions/checkout@v4
 
@@ -142,7 +157,6 @@ jobs:
           uses: actions/github-script@v6
           with:
             script: |
-              console.log('Packing for version ${{ steps.version.outputs.version }}')
               const generateAssets = require('./.github/workflows/generateAssets.js')
               await generateAssets({ github, context })
 
@@ -153,7 +167,7 @@ jobs:
         - name: Upload Output
           uses: actions/upload-artifact@v3
           with: 
-            name: StarfieldCommunityPatch Assets
+            name: StarfieldCommunityPatch Release
             path: |
               StarfieldCommunityPatch - Main.ba2
               StarfieldCommunityPatch.esm
@@ -172,12 +186,12 @@ jobs:
           uses: vimtor/action-zip@v1
           with: 
             files: to-pack/
-            dest: StarfieldCommunityPatch-${{steps.version.outputs.version}}.zip
+            dest: StarfieldCommunityPatch-${{steps.version.outputs.result}}.zip
 
         - name: Delete Existing Release
           uses: dev-drprasad/delete-tag-and-release@v1.0
           with:
-            tag_name: ${{steps.version.outputs.tag}}
+            tag_name: ${{steps.tag.outputs.result}}
             github_token: ${{ secrets.GITHUB_TOKEN }}
             delete_release: true
 
@@ -188,15 +202,15 @@ jobs:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           with:
             allowUpdates: true
-            name: ${{steps.version.outputs.version}}
+            name: ${{steps.version.outputs.result}}
             draft: false
             body: Nightly release of the latest patch
-            tag: ${{steps.version.outputs.tag}}
+            tag: ${{steps.tag.outputs.result}}
             prerelease: true
             makeLatest: true
             removeArtifacts: true
             replacesArtifacts: true
-            artifacts: StarfieldCommunityPatch-${{steps.version.outputs.version}}.zip
+            artifacts: StarfieldCommunityPatch-${{steps.version.outputs.result}}.zip
         
         - name: Remove temporary artifacts
           uses: geekyeggo/delete-artifact@v2
