@@ -123,32 +123,14 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v4
 
-        # - name: Resolve release version number
-        #   id: version
-        #   uses: actions/github-script@v6
-        #   with:
-        #     result-encoding: string
-        #     script: |
-        #       const verify = require('./.github/workflows/versionTag.js')
-        #       return await verify('version', ${{inputs.version || ''}})
-
-        # - name: Resolve tag
-        #   id: tag
-        #   uses: actions/github-script@v6
-        #   with:
-        #     result-encoding: string
-        #     script: |
-        #       const verify = require('./.github/workflows/versionTag.js')
-        #       return await verify('tag', ${{inputs.version || ''}})
-
         - name: Download Compiled Scripts
-          uses: actions/download-artifact@v2
+          uses: actions/download-artifact@v4
           with: 
             name: compiled-scripts
             path: Scripts
 
         - name: Download Compiled Plugin
-          uses: actions/download-artifact@v2
+          uses: actions/download-artifact@v4
           with: 
            name: plugin-and-strings
         
@@ -187,12 +169,13 @@ jobs:
           run: |
             mkdir "${{ github.workspace }}\to-pack"
             mkdir "${{ github.workspace }}\to-pack\Data"
-            cp "StarfieldCommunityPatch - Main.ba2" "${{ github.workspace }}\to-pack\Data\"
-            cp "StarfieldCommunityPatch.esm" "${{ github.workspace }}\to-pack\Data\""
-            cp "StarfieldCommunityPatch.ini" "${{ github.workspace }}\to-pack\Data\"
+            cp "StarfieldCommunityPatch - Main.ba2" "${{ github.workspace }}\to-pack\Data\"StarfieldCommunityPatch - Main.ba2"
+            cp "StarfieldCommunityPatch.esm" "${{ github.workspace }}\to-pack\Data\StarfieldCommunityPatch.esm"
+            cp "StarfieldCommunityPatch.ini" "${{ github.workspace }}\to-pack\Data\StarfieldCommunityPatch.ini"
+            ls -R "${{ github.workspace }}\to-pack\"
 
         - name: Zip up release files
-          uses: vimtor/action-zip@v1
+          uses: vimtor/action-zip@v1.1
           with: 
             files: to-pack/
             dest: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
