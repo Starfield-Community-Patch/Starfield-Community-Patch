@@ -12,6 +12,10 @@ on:
         compile-scripts:
           description: Compile scripts?
           type: boolean
+        build-plugin:
+          description: Build Plugin?
+          type: boolean
+          default: true
         publish-release:
             description: Publish Release?
             type: boolean
@@ -123,7 +127,7 @@ jobs:
             result-encoding: string
             script: |
               const verify = require('./.github/workflows/versionTag.js')
-              return verify({ type: 'version', input: ${{inputs.version}} })
+              return verify({ type: 'version', input: (${{inputs.version || ''}}) })
 
         - name: Resolve tag
           id: tag
@@ -132,7 +136,7 @@ jobs:
             result-encoding: string
             script: |
               const verify = require('./.github/workflows/versionTag.js')
-              return verify({ type: 'version', input: ${{inputs.version}} })
+              return verify({ type: 'version', input: (${{inputs.version || ''}}) })
 
         - name: Checkout
           uses: actions/checkout@v4
