@@ -127,7 +127,7 @@ jobs:
             result-encoding: string
             script: |
               const verify = require('./.github/workflows/versionTag.js')
-              return verify({ type: 'version', input: (${{inputs.version || ''}}) })
+              return verify({ 'version', ${{inputs.version || ''}} })
 
         - name: Resolve tag
           id: tag
@@ -136,7 +136,7 @@ jobs:
             result-encoding: string
             script: |
               const verify = require('./.github/workflows/versionTag.js')
-              return verify({ type: 'version', input: (${{inputs.version || ''}}) })
+              return verify({ 'version', ${{inputs.version || ''}} })
 
         - name: Checkout
           uses: actions/checkout@v4
