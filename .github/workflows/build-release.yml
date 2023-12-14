@@ -111,8 +111,8 @@ jobs:
         - name: Resolve release version number
           id: version
           run: |
-            echo "::set-output name=version::${${{ inputs.version }}:="Nightly"}"
-            echo "::set-output name=tag::${${{ inputs.version }}:="nightly"}"
+            echo "version=${${{ inputs.version }}:="Nightly"}" >> $GITHUB_OUTPUT
+            echo "tag=${${{ inputs.version }}:="nightly"}" >> $GITHUB_OUTPUT
         - name: Checkout
           uses: actions/checkout@v4
 
@@ -160,11 +160,11 @@ jobs:
         - name: Create packing structure
           shell: bash
           run: |
-            mkdir ${{ github.workspace }}/to-pack/
+            mkdir ${{ github.workspace }}/to-pack
             mkdir ${{ github.workspace }}/to-pack/Data
-            cp StarfieldCommunityPatch - Main.ba2 ${{ github.workspace }}/to-pack/Data/StarfieldCommunityPatch - Main.ba2
-            cp StarfieldCommunityPatch.esm ${{ github.workspace }}/to-pack/Data/StarfieldCommunityPatch.esm
-            cp StarfieldCommunityPatch.ini ${{ github.workspace }}/to-pack/Data/StarfieldCommunityPatch.ini
+            cp StarfieldCommunityPatch - Main.ba2 ${{ github.workspace }}/to-pack/Data/
+            cp StarfieldCommunityPatch.esm ${{ github.workspace }}/to-pack/Data/
+            cp StarfieldCommunityPatch.ini ${{ github.workspace }}/to-pack/Data/
 
         - name: Zip up release files
           uses: vimtor/action-zip@v1
