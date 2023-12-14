@@ -86,7 +86,7 @@ jobs:
             - name: Fetch vanilla scripts
               shell: bash
               run: |
-                curl -L -o .github/Scripts.7z -H "key: ${{ secrets.PAPYRUS_KEY }}" "https://starfieldpatch.dev/api/papyrus/get?version=${{inputs.version}}"
+                curl -L -o .github/Scripts.7z -H "key: ${{ secrets.PAPYRUS_KEY }}" "https://starfieldpatch.dev/api/papyrus/get?version=${{inputs.papyrus-version}}"
             
             - name: Extract vanilla scripts
               shell: bash
