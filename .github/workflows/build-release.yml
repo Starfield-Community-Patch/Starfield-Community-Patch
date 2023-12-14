@@ -123,23 +123,23 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v4
 
-        - name: Resolve release version number
-          id: version
-          uses: actions/github-script@v6
-          with:
-            result-encoding: string
-            script: |
-              const verify = require('./.github/workflows/versionTag.js')
-              return await verify('version', ${{inputs.version || ''}})
+        # - name: Resolve release version number
+        #   id: version
+        #   uses: actions/github-script@v6
+        #   with:
+        #     result-encoding: string
+        #     script: |
+        #       const verify = require('./.github/workflows/versionTag.js')
+        #       return await verify('version', ${{inputs.version || ''}})
 
-        - name: Resolve tag
-          id: tag
-          uses: actions/github-script@v6
-          with:
-            result-encoding: string
-            script: |
-              const verify = require('./.github/workflows/versionTag.js')
-              return await verify('tag', ${{inputs.version || ''}})
+        # - name: Resolve tag
+        #   id: tag
+        #   uses: actions/github-script@v6
+        #   with:
+        #     result-encoding: string
+        #     script: |
+        #       const verify = require('./.github/workflows/versionTag.js')
+        #       return await verify('tag', ${{inputs.version || ''}})
 
         - name: Download Compiled Scripts
           uses: actions/download-artifact@v2
@@ -195,12 +195,12 @@ jobs:
           uses: vimtor/action-zip@v1
           with: 
             files: to-pack/
-            dest: StarfieldCommunityPatch-${{steps.version.outputs.result}}.zip
+            dest: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
 
         - name: Delete Existing Release
           uses: dev-drprasad/delete-tag-and-release@v1.0
           with:
-            tag_name: ${{steps.tag.outputs.result}}
+            tag_name: ${{inputs.version || 'nightly'}}
             github_token: ${{ secrets.GITHUB_TOKEN }}
             delete_release: true
 
@@ -211,15 +211,15 @@ jobs:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           with:
             allowUpdates: true
-            name: ${{steps.version.outputs.result}}
+            name: ${{inputs.version || 'Nightly'}}
             draft: false
             body: Nightly release of the latest patch
-            tag: ${{steps.tag.outputs.result}}
+            tag: ${{inputs.version || 'nightly'}}
             prerelease: true
             makeLatest: true
             removeArtifacts: true
             replacesArtifacts: true
-            artifacts: StarfieldCommunityPatch-${{steps.version.outputs.result}}.zip
+            artifacts: StarfieldCommunityPatch-${{inputs.version || 'Nightly'}}.zip
         
         - name: Remove temporary artifacts
           uses: geekyeggo/delete-artifact@v2
