@@ -170,10 +170,10 @@ jobs:
           run: |
             mkdir "${{ github.workspace }}\to-pack"
             mkdir "${{ github.workspace }}\to-pack\Data"
-            cp "StarfieldCommunityPatch - Main.ba2" "${{ github.workspace }}\to-pack\Data\"StarfieldCommunityPatch - Main.ba2"
+            cp "StarfieldCommunityPatch - Main.ba2" "${{ github.workspace }}\to-pack\Data\StarfieldCommunityPatch - Main.ba2"
             cp "StarfieldCommunityPatch.esm" "${{ github.workspace }}\to-pack\Data\StarfieldCommunityPatch.esm"
             cp "StarfieldCommunityPatch.ini" "${{ github.workspace }}\to-pack\Data\StarfieldCommunityPatch.ini"
-            ls -R "${{ github.workspace }}\to-pack\"
+            ls -R "${{ github.workspace }}\to-pack"
 
         - name: Zip up release files
           uses: vimtor/action-zip@v1.1
