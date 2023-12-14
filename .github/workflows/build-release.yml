@@ -10,6 +10,7 @@ on:
           description: 'Release version (defaults to "Nightly")'
           required: false
         compile-scripts:
+          description: Compile scripts?
           type: boolean
           
         
@@ -118,7 +119,7 @@ jobs:
           with:
             result-encoding: string
             script: |
-              console.log('User input version'. { version: ${{inputs.version}} })
+              console.log('User input version', { version: ${{inputs.version}} })
               return inputs.version ?? 'Nightly'
         
         - name: Resolve tag
