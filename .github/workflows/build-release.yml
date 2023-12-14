@@ -7,7 +7,7 @@ on:
           required: false
           default: '1.8.86.0'
         version:
-          description: 'Whatis the release version number are we building?'
+          description: 'What is the release version number are we building?'
           required: false
         
 
@@ -151,11 +151,12 @@ jobs:
               StarfieldCommunityPatch - Main.ba2
               StarfieldCommunityPatch.esm
               StarfieldCommunityPatch.ini
-              - name: zip
-              uses: vimtor/action-zip@v1
-              with:
-                files: to-pack/
-                dest: StarfieldCommunityPatch.zip
+
+        # - name: zip
+        #   uses: vimtor/action-zip@v1
+        #     with:
+        #       files: to-pack/
+        #       dest: StarfieldCommunityPatch.zip
     
         # - name: Delete Existing Release
         #   uses: dev-drprasad/delete-tag-and-release@v1.0
