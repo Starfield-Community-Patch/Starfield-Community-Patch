@@ -12,6 +12,7 @@ on:
         compile-scripts:
           description: Compile scripts?
           type: boolean
+          default: true
         build-plugin:
           description: Build Plugin?
           type: boolean
