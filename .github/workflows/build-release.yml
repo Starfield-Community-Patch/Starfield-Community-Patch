@@ -9,7 +9,6 @@ on:
         version:
           description: 'Whatis the release version number are we building?'
           required: false
-          default: 'nightly'
         
 
 jobs:
