@@ -123,7 +123,8 @@ jobs:
             result-encoding: string
             script: |
               console.log('User input version ${{inputs.version}}')
-              return ${{inputs.version}} || 'Nightly'
+              if (${{inputs.version}} !== undefined) return ${{inputs.version}} 
+              else return 'Nightly'
         
         - name: Resolve tag
           id: tag
@@ -131,7 +132,8 @@ jobs:
           with:
             result-encoding: string
             script: |
-              return (${{inputs.version}} || 'nightly').toLowerCase()
+              if (${{inputs.version}} !== undefined) return ${{inputs.version}}.toLowerCase() 
+              else return 'Nightly'.toLowerCase()
 
         - name: Checkout
           uses: actions/checkout@v4
