@@ -120,6 +120,9 @@ jobs:
       needs: [check-changes, build-plugin, compile-scripts]
       permissions: write-all
       steps: 
+        - name: Checkout
+          uses: actions/checkout@v4
+
         - name: Resolve release version number
           id: version
           uses: actions/github-script@v6
@@ -137,9 +140,6 @@ jobs:
             script: |
               const verify = require('./.github/workflows/versionTag.js')
               return verify('tag', ${{inputs.version || ''}})
-
-        - name: Checkout
-          uses: actions/checkout@v4
 
         - name: Download Compiled Scripts
           uses: actions/download-artifact@v2
