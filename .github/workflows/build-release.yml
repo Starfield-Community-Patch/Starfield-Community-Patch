@@ -37,7 +37,7 @@ jobs:
             echo "should_run=$(git log --since="1 days ago" --name-only | grep "" -c)" >> "$GITHUB_OUTPUT"
     build-plugin: 
       needs: check-changes
-      if: ${{ needs.check-changes.outputs.should_run >= 1 }}
+      if: ${{ needs.check-changes.outputs.should_run >= 1 && inputs.compile-scripts == true }}
       permissions: write-all
       runs-on: ubuntu-latest
       steps:
