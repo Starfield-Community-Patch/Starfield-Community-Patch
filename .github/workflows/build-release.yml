@@ -1,4 +1,4 @@
-name: Build Starfield Community Patch Release
+name: Build Release
 on: 
   workflow_dispatch:
     inputs:
@@ -160,10 +160,11 @@ jobs:
         - name: Create packing structure
           shell: bash
           run: |
+            mkdir ${{ github.workspace }}/to-pack/
             mkdir ${{ github.workspace }}/to-pack/Data
-            cp -r StarfieldCommunityPatch - Main.ba2 ${{ github.workspace }}/to-pack/Data/StarfieldCommunityPatch - Main.ba2
-            cp -r StarfieldCommunityPatch.esm ${{ github.workspace }}/to-pack/Data/StarfieldCommunityPatch.esm
-            cp -r StarfieldCommunityPatch.ini ${{ github.workspace }}/to-pack/Data/StarfieldCommunityPatch.ini
+            cp StarfieldCommunityPatch - Main.ba2 ${{ github.workspace }}/to-pack/Data/StarfieldCommunityPatch - Main.ba2
+            cp StarfieldCommunityPatch.esm ${{ github.workspace }}/to-pack/Data/StarfieldCommunityPatch.esm
+            cp StarfieldCommunityPatch.ini ${{ github.workspace }}/to-pack/Data/StarfieldCommunityPatch.ini
 
         - name: Zip up release files
           uses: vimtor/action-zip@v1
