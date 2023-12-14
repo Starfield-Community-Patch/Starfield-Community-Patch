@@ -107,6 +107,7 @@ jobs:
       if: ${{ needs.check-changes.outputs.should_run >= 1 }}
       runs-on: windows-latest
       needs: [check-changes, build-plugin, compile-scripts]
+      permissions: write-all
       steps: 
         - name: Resolve release version number
           id: version
@@ -141,6 +142,7 @@ jobs:
           uses: actions/github-script@v6
           with:
             script: |
+              console.log('Packing for version ${{ steps.version.outputs.version }}')
               const generateAssets = require('./.github/workflows/generateAssets.js')
               await generateAssets({ github, context })
 
