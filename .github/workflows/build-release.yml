@@ -119,8 +119,8 @@ jobs:
           with:
             result-encoding: string
             script: |
-              console.log('User input version', { version: ${{inputs.version}} })
-              return inputs.version ?? 'Nightly'
+              console.log('User input version ${{inputs.version}}')
+              return ${{inputs.version}} ?? 'Nightly'
         
         - name: Resolve tag
           id: tag
@@ -128,7 +128,7 @@ jobs:
           with:
             result-encoding: string
             script: |
-              return (inputs.version ?? 'nightly').toLowerCase()
+              return (${{inputs.version}} ?? 'nightly').toLowerCase()
 
         - name: Checkout
           uses: actions/checkout@v4
