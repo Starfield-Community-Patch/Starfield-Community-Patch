@@ -108,6 +108,12 @@ jobs:
       runs-on: windows-latest
       needs: [check-changes, build-plugin, compile-scripts]
       steps: 
+        - name: Resolve release version number
+          id: version
+          run: |
+            USER_INPUT=${{ inputs.version }}
+            echo "::set-output name=version::${USER_INPUT:="Nightly"}"
+            echo "::set-output name=tag::${USER_INPUT:="nightly"}"
         - name: Checkout
           uses: actions/checkout@v4
 
@@ -152,32 +158,47 @@ jobs:
               StarfieldCommunityPatch.esm
               StarfieldCommunityPatch.ini
 
-        # - name: zip
-        #   uses: vimtor/action-zip@v1
-        #     with:
-        #       files: to-pack/
-        #       dest: StarfieldCommunityPatch.zip
-    
-        # - name: Delete Existing Release
-        #   uses: dev-drprasad/delete-tag-and-release@v1.0
-        #   with:
-        #     tag_name: nightly
-        #     github_token: ${{ secrets.GITHUB_TOKEN }}
-        #     delete_release: true
-            
-        # - name: Create Release
-        #   id: create_release
-        #   uses: ncipollo/release-action@v1.13.0
-        #   env:
-        #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        #   with:
-        #     allowUpdates: true
-        #     name: Nightly
-        #     draft: false
-        #     body: Nightly release of the latest patch
-        #     tag: nightly
-        #     prerelease: true
-        #     makeLatest: true
-        #     removeArtifacts: true
-        #     replacesArtifacts: true
-        #     artifacts: StarfieldCommunityPatch.zip
+        - name: Create packing structure
+          shell: bash
+          run: |
+            mkdir ${{ github.workspace }}/to-pack/Data
+            cp -r StarfieldCommunityPatch - Main.ba2 ${{ github.workspace }}/to-pack/Data/StarfieldCommunityPatch - Main.ba2
+            cp -r StarfieldCommunityPatch.esm ${{ github.workspace }}/to-pack/Data/StarfieldCommunityPatch.esm
+            cp -r StarfieldCommunityPatch.ini ${{ github.workspace }}/to-pack/Data/StarfieldCommunityPatch.ini
+
+        - name: Zip up release files
+          uses: vimtor/action-zip@v1
+          with: 
+            files: to-pack/
+            dest: StarfieldCommunityPatch-${{steps.version.outputs.version}}.zip
+
+        - name: Delete Existing Release
+          uses: dev-drprasad/delete-tag-and-release@v1.0
+          with:
+            tag_name: ${{steps.version.outputs.tag}}
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            delete_release: true
+
+        - name: Create Release
+          id: create_release
+          uses: ncipollo/release-action@v1.13.0
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            allowUpdates: true
+            name: ${{steps.version.outputs.version}}
+            draft: false
+            body: Nightly release of the latest patch
+            tag: ${{steps.version.outputs.tag}}
+            prerelease: true
+            makeLatest: true
+            removeArtifacts: true
+            replacesArtifacts: true
+            artifacts: StarfieldCommunityPatch-${{steps.version.outputs.version}}.zip
+        
+        - name: Remove temporary artifacts
+          uses: geekyeggo/delete-artifact@v2
+          with:
+              name: |
+                plugin-and-strings
+                compiled-scripts

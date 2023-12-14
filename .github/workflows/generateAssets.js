@@ -74,7 +74,7 @@ module.exports = async ({ github, context }) => {
     const folderPath = path.resolve(__dirname, '..', '..');
     const directory = await fs.readdir(folderPath);
     const packableFolders = directory.filter(f => !path.extname(f) && dataFolderLowercase.includes(f.toLowerCase()))
-    console.log('Directory', { folderPath, packableFolders });
+    console.log('Packable folders', { folderPath, packableFolders });
 
     const outputFilePath = path.join(folderPath, 'StarfieldCommunityPatch - Main.ba2');
     const data = bsArchData(outputFilePath);
@@ -97,7 +97,8 @@ module.exports = async ({ github, context }) => {
 
     data.Assets = filesAsAssets;
 
-    console.log('BSArch Assets to Pack', { assets: data.Assets.map(a => a[1]).join('\n') });
+    const assets = data.Assets.map(a => a[1]).join('\n')
+    console.log(`BSArch Assets to Pack:\n ${assets} `);
 
     fs.writeFile(path.join(folderPath, '.github', 'SFCP.bsarch'), JSON.stringify(data));
     
