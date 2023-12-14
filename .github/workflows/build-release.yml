@@ -1,0 +1,183 @@
+name: Build Starfield Community Patch Release
+on: 
+  workflow_dispatch:
+    inputs:
+        papyrus-version:
+          description: 'Which version should be compile Papyrus scripts against? Defaults to latest'
+          required: false
+          default: '1.8.86.0'
+        version:
+          description: 'Whatis the release version number are we building?'
+          required: false
+          default: 'nightly'
+        
+
+jobs:
+    check-changes:
+      runs-on: ubuntu-latest
+      outputs:
+        should_run: ${{ steps.should_run.outputs.should_run }}
+      steps: 
+        - uses: actions/checkout@v4
+        - name: Check for changes last 24 hours
+          id: should_run
+          shell: bash
+          run: |
+            git log --since="1 days ago" --name-only
+            echo "should_run=$(git log --since="1 days ago" --name-only | grep "" -c)" >> "$GITHUB_OUTPUT"
+    build-plugin: 
+      needs: check-changes
+      if: ${{ needs.check-changes.outputs.should_run >= 1 }}
+      permissions: write-all
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+
+        - name: Copy to Pack Folder
+          shell: bash
+          run: |
+            mkdir ${{ github.workspace }}/to-pack
+            cp -r Docs/ ${{ github.workspace }}/to-pack/Docs/
+        
+        - name: Fetch spriggit
+          shell: bash
+          run: gh release download -O .github/spriggit.zip -p 'SpriggitLinuxCLI.zip' -R Mutagen-Modding/Spriggit ${{ inputs.spriggit_tool_version }}
+          env:
+            GH_TOKEN: ${{ github.token }}
+            
+        - name: Extract Spriggit Zip
+          shell: bash
+          run: 7z x .github/spriggit.zip -o.github/spriggit
+
+        - name: fix spriggit permission
+          shell: bash
+          run: chmod +x .github/spriggit/Spriggit.CLI
+
+        - name: run spriggit
+          shell: bash
+          run: .github/spriggit/Spriggit.CLI deserialize --InputPath "spriggit" --OutputPath "${{ github.workspace }}/to-pack/StarfieldCommunityPatch.esm" --PackageName Spriggit.Yaml.Starfield
+          
+        - name: Upload plugin and strings
+          uses: actions/upload-artifact@v3
+          with:
+              name: plugin-and-strings
+              path: |
+                ${{ github.workspace }}/to-pack/StarfieldCommunityPatch.esm
+                ${{ github.workspace }}/to-pack/Strings/
+    compile-scripts:
+        needs: check-changes
+        if: ${{ needs.check-changes.outputs.should_run >= 1 }}
+        runs-on: windows-latest
+        steps: 
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            # Fetch and extract the tools we need
+            - name: Fetch Caprica 0.3.0
+              shell: bash
+              run: gh release download -O .github/Caprica.7z -p '*.7z' -R Orvid/Caprica v0.3.0
+              env:
+                GH_TOKEN: ${{ github.token }}
+            
+            - name: Extract Caprica EXE file
+              shell: bash
+              run: 7z x .github/Caprica.7z -o.github/Caprica
+
+            - name: Fetch vanilla scripts
+              shell: bash
+              run: |
+                curl -L -o .github/Scripts.7z -H "key: ${{ secrets.PAPYRUS_KEY }}" "https://starfieldpatch.dev/api/papyrus/get?version=${{inputs.version}}"
+            
+            - name: Extract vanilla scripts
+              shell: bash
+              run: 7z x .github/Scripts.7z -o.github/Scripts
+
+            # Perform the actions to build a release.
+            - name: Run Caprica
+              shell: bash
+              run: .github/Caprica/Caprica.exe --game starfield --import ".github/Scripts" --output "Scripts" "Scripts/source" -R -q
+            
+            - name: Upload Output
+              uses: actions/upload-artifact@v3
+              with: 
+                name: compiled-scripts
+                path: |
+                  Scripts/
+    package-mod:
+      if: ${{ needs.check-changes.outputs.should_run >= 1 }}
+      runs-on: windows-latest
+      needs: [check-changes, build-plugin, compile-scripts]
+      steps: 
+        - name: Checkout
+          uses: actions/checkout@v4
+
+        - name: Download Compiled Scripts
+          uses: actions/download-artifact@v2
+          with: 
+            name: compiled-scripts
+            path: Scripts
+
+        - name: Download Compiled Plugin
+          uses: actions/download-artifact@v2
+          with: 
+           name: plugin-and-strings
+        
+        - name: Fetch xEdit (to get BSArchPro)
+          shell: bash
+          run: gh release download -O .github/xEdit.7z -p '*.7z' -R TES5Edit/TES5Edit xedit-4.1.5
+          env:
+            GH_TOKEN: ${{ github.token }}
+
+        - name: Extract xEdit files
+          shell: bash
+          run: 7z x .github/xEdit.7z -o.github/xEdit
+        
+        - name: Create SFCP.bsarch (Assets.json) for BSArchPro
+          uses: actions/github-script@v6
+          with:
+            script: |
+              const generateAssets = require('./.github/workflows/generateAssets.js')
+              await generateAssets({ github, context })
+
+        - name: Run BSArchPro to create the archive(s)
+          shell: bash
+          run: .github/xEdit/BSArchPro64.exe "${{ github.workspace }}/.github/SFCP.bsarch"
+        
+        - name: Upload Output
+          uses: actions/upload-artifact@v3
+          with: 
+            name: StarfieldCommunityPatch Assets
+            path: |
+              StarfieldCommunityPatch - Main.ba2
+              StarfieldCommunityPatch.esm
+              StarfieldCommunityPatch.ini
+              - name: zip
+              uses: vimtor/action-zip@v1
+              with:
+                files: to-pack/
+                dest: StarfieldCommunityPatch.zip
+    
+        # - name: Delete Existing Release
+        #   uses: dev-drprasad/delete-tag-and-release@v1.0
+        #   with:
+        #     tag_name: nightly
+        #     github_token: ${{ secrets.GITHUB_TOKEN }}
+        #     delete_release: true
+            
+        # - name: Create Release
+        #   id: create_release
+        #   uses: ncipollo/release-action@v1.13.0
+        #   env:
+        #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        #   with:
+        #     allowUpdates: true
+        #     name: Nightly
+        #     draft: false
+        #     body: Nightly release of the latest patch
+        #     tag: nightly
+        #     prerelease: true
+        #     makeLatest: true
+        #     removeArtifacts: true
+        #     replacesArtifacts: true
+        #     artifacts: StarfieldCommunityPatch.zip
