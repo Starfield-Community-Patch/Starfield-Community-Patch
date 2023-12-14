@@ -1,4 +1,4 @@
-module.exports = ({ type, input }) => {
+module.exports = (type, input) => {
     console.log('Checking version/tag', { type, input })
     if (type === 'tag') return (input ?? 'nightly').toLowerCase()
     else if (type 'version') return (input ?? 'Nightly')
