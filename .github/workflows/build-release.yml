@@ -107,7 +107,7 @@ jobs:
                 path: |
                   Scripts/
     package-mod:
-      if: ${{ needs.check-changes.outputs.should_run >= 1 }}
+      if: ${{ needs.check-changes.outputs.should_run >= 1 && always() }}
       runs-on: windows-latest
       needs: [check-changes, build-plugin, compile-scripts]
       permissions: write-all
