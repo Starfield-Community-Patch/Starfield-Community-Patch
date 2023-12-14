@@ -151,15 +151,6 @@ jobs:
         - name: Run BSArchPro to create the archive(s)
           shell: bash
           run: .github/xEdit/BSArchPro64.exe "${{ github.workspace }}/.github/SFCP.bsarch"
-        
-        - name: Upload Output
-          uses: actions/upload-artifact@v3
-          with: 
-            name: StarfieldCommunityPatch Release
-            path: |
-              StarfieldCommunityPatch - Main.ba2
-              StarfieldCommunityPatch.esm
-              StarfieldCommunityPatch.ini
 
         - name: Create packing structure
           shell: bash
@@ -180,7 +171,7 @@ jobs:
         - name: Upload Output
           uses: actions/upload-artifact@v3
           with: 
-            name: release-build
+            name: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}
             path: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
         
         - name: Remove temporary artifacts
@@ -198,7 +189,7 @@ jobs:
         - name: Download the release artifact
           uses: actions/download-artifact@v3
           with:
-            name: release-build
+            name: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}
 
         - name: Delete Existing Release
           uses: dev-drprasad/delete-tag-and-release@v1.0
@@ -224,4 +215,9 @@ jobs:
             replacesArtifacts: true
             artifacts: StarfieldCommunityPatch-${{inputs.version || 'Nightly'}}.zip
 
+        - name: Remove temporary artifacts
+          uses: geekyeggo/delete-artifact@v2
+          with:
+              name: |
+                StarfieldCommunityPatch-${{inputs.version || 'nightly'}}
       
