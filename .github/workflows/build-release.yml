@@ -130,7 +130,7 @@ jobs:
             result-encoding: string
             script: |
               const verify = require('./.github/workflows/versionTag.js')
-              return verify('version', ${{inputs.version || ''}})
+              return await verify('version', ${{inputs.version || ''}})
 
         - name: Resolve tag
           id: tag
@@ -139,7 +139,7 @@ jobs:
             result-encoding: string
             script: |
               const verify = require('./.github/workflows/versionTag.js')
-              return verify('tag', ${{inputs.version || ''}})
+              return await verify('tag', ${{inputs.version || ''}})
 
         - name: Download Compiled Scripts
           uses: actions/download-artifact@v2
