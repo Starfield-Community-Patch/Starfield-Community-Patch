@@ -12,6 +12,7 @@ on:
         publish-release:
             description: Publish Release?
             type: boolean
+            default: true
         spriggit_tool_version:
             description: Spriggit version (optional)
             required: false         
