@@ -111,9 +111,8 @@ jobs:
         - name: Resolve release version number
           id: version
           run: |
-            USER_INPUT=${{ inputs.version }}
-            echo "::set-output name=version::${USER_INPUT:="Nightly"}"
-            echo "::set-output name=tag::${USER_INPUT:="nightly"}"
+            echo "::set-output name=version::${${{ inputs.version }}:="Nightly"}"
+            echo "::set-output name=tag::${${{ inputs.version }}:="nightly"}"
         - name: Checkout
           uses: actions/checkout@v4
 
