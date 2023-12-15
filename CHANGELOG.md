@@ -53,6 +53,7 @@ When adding items to the changelog try and use the template below:
 - Fixed a missing word in Denis' dialogue (Cydonia) [001E7139] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/743)
 - Fixed a missing word in Tuala's dialogue (Cydonia) [000E5443] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/741)
 - Adjusted subtitles to better match Sam Coe's dialogue [0026C508] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/742)
+- Fixed a misplaced comma from a previous fix of Barrett's dialogue [001A49B7] - [Reported by Jackrum](https://www.starfieldpatch.dev/issues/746)
 
 
 ## [2023-12-08] Version 0.0.5
