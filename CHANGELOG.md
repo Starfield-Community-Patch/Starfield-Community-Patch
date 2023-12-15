@@ -7,7 +7,7 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
-## [TBC] Version 0.0.6
+## [2023-12-15] Version 0.0.6
 ### Ship Fixes
 - Added missing SpaceshipTurretWeapon [KYWD:0032792C] keyword to Disrupter 3340 alpha oscillator Turret [000C0A36] - [Reported by JaeDL](https://www.starfieldpatch.dev/issues/744) - [Contributed by GrizBane](https://www.nexusmods.com/users/6728261) - [Mod Page](https://www.nexusmods.com/starfield/mods/7614)
 - Added missing SpaceshipTurretWeapon [KYWD:0032792C] keyword to Jishaku Nd RF railgun Turret [001504FD] - [Reported by JaeDL](https://www.starfieldpatch.dev/issues/744) - [Contributed by GrizBane](https://www.nexusmods.com/users/6728261) - [Mod Page](https://www.nexusmods.com/starfield/mods/7614)
