@@ -7,7 +7,10 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
-## [2023-08-12] Version 0.0.5
+## [TBC] Version 0.0.6
+- Fixed facial hair disappearing while wearing a Graviplas helmet [000781F5] - [Fixed contributed by Wartortle](https://www.starfieldpatch.dev/issues/745)
+
+## [2023-12-08] Version 0.0.5
 ### Actor Fixes
 - Hadrian is now correctly assigned to CrimFactionUC rather than ConstellationFaction. This fix will also apply mid-save. [0029C17F] - [Fix contributed by SKK50](https://nexusmods.com/users/46256407) - [Reported by SKK50](https://www.starfieldpatch.dev/issues/669)
 - Gideon Aker will now have unlimited ammo when recruited as a follower. (Missing TeammateDontUseAmmoKeyword [KYWD:0023F1CA]) - [Reported by SamusKnight2K](https://www.starfieldpatch.dev/issues/588)
