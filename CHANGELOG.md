@@ -25,7 +25,6 @@ When adding items to the changelog try and use the template below:
 - Changes the max power of the Atlatl 290B to be '6' which seems to put the weapon into a more sensible balance with respect to the rest of the existing weapons. [00228D4A] - [Reported by JaeDL](https://www.starfieldpatch.dev/issues/744) - [Contributed by GrizBane](https://www.nexusmods.com/users/6728261) - [Mod Page](https://www.nexusmods.com/starfield/mods/7614)
 - Fixed a missing 0 on the cost price of Fulminator 8000 Suppressor. [002233D8] - [Reported by JaeDL](https://www.starfieldpatch.dev/issues/744) - [Contributed by GrizBane](https://www.nexusmods.com/users/6728261) - [Mod Page](https://www.nexusmods.com/starfield/mods/7614)
 - Changes the price of the Tatsu 501EM Suppressor to reflect the damage change. [002233C9] - [Reported by JaeDL](https://www.starfieldpatch.dev/issues/744) - [Contributed by GrizBane](https://www.nexusmods.com/users/6728261) - [Mod Page](https://www.nexusmods.com/starfield/mods/7614)
-
 ### Items Fixes
 - Fixed facial hair disappearing while wearing a Graviplas helmet [000781F5] - [Fixed contributed by Wartortle](https://www.starfieldpatch.dev/issues/745)
 ### Text Fixes (English)
@@ -51,6 +50,7 @@ When adding items to the changelog try and use the template below:
 - Fixed missing captial letters in Red Devils Dialogue [0017C65C] [001E79E1] - [Fix contributed by dodexahedron](https://www.starfieldpatch.dev/issues/726) - [Mod Page](https://www.nexusmods.com/starfield/mods/7293)
 - Various grammatical fixes in Red Devils Dialogue [0000498E] [001E79D8] [001E79EA0] - [Fix contributed by dodexahedron](https://www.starfieldpatch.dev/issues/726) - [Mod Page](https://www.nexusmods.com/starfield/mods/7293)
 - Various spelling and grammer fixes in dialogue subtitles during A Legacy Forged [0004A4BE] [0004A544] [0004A47F] [0004A4B7] [0004A4ED] [0004A4FE] [0004A4FF] [001A0049] [001A0058] [001A1778] [0004A4CE] [0004A508] [0004A4DA] [001A6AA4] [0004A46C] [0004A46D] [001A6A70] [001A6AA7] [001A6AC7] [001A6A65] [001A69DB] [001A6A89] [001A6A54] [0004A4A1] [0004A515] [001A6A85] [001A6A4D] [0004A4E9] [0004A4D4] [001A6A82] [0004A488] [0004A4F4] [001FC819] [0004A48A] [0004A517] [001A697E] [001A69E6] [0004A4A7] [001FC800] - [Fix contributed by dodexahedron](https://www.starfieldpatch.dev/issues/726) - [Mod Page](https://www.nexusmods.com/starfield/mods/7293)
+- Fixed a missing word in Denis' dialogue (Cydonia) [001E7139] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/743)
 
 
 ## [2023-12-08] Version 0.0.5
