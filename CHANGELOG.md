@@ -54,6 +54,21 @@ When adding items to the changelog try and use the template below:
 - Fixed a missing word in Tuala's dialogue (Cydonia) [000E5443] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/741)
 - Adjusted subtitles to better match Sam Coe's dialogue [0026C508] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/742)
 - Fixed a misplaced comma from a previous fix of Barrett's dialogue [001A49B7] - [Reported by Jackrum](https://www.starfieldpatch.dev/issues/746)
+### Misc Fixes
+- Removed reference to missing script [TestElectrifiedWaterTriggerScript] [001E9B90]
+- Removed reference to missing script on the player's base ID [ENV_Temp_SetPlayerGravityScaleScript] [00000007]
+- Removed reference to missing script [SQ_ENV_OnHit_Burns] [00248D20]
+- Removed reference to missing script [City_NA_Well01_QuestScript] [0027071C]
+- Removed reference to missing script [OutpostShipbuilderTerminalScript] [00299418]
+- Removed reference to missing script [SQ_GenericCrewAliasScript] [002A567D]
+- Removed reference to missing script [MQ305PlayerShipPilotSeatScript] [0024EF9C]
+- Removed reference to missing script [BQ01_BarrettSceneBackupScript] [00002FAE]
+- Removed unused property CF03 on script CFSD01_QuestScript attached to CFSD01 [001E8E2A]
+- Removed unused property VendorContainerKeyword01 on script sq_groups_questscript attached to SQ_Groups [001A9565]
+- Removed unused properties CloseSoundMarker and OpenSoundMarker on script LandingPadBlastShields attached to MQ207CLandingMarkerRef [0023B8A5]
+- Removed unused property iStageToSet on script RI07_OperatingTableAliasScript attached to alias InternalNeuroampCase on quest RI07 [0018B718]
+- Removed unused property COM_CombatResponseCivilianList from Barrett, Sarah and Andreja [00005787] [00005983] [000059A7]
+
 
 
 ## [2023-12-08] Version 0.0.5
