@@ -1,0 +1,1237 @@
+FormKey: 27071C:Starfield.esm
+EditorID: City_NA_Well01
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_City_NA_Well01_0027071C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BoxDoor01
+      Object: 27071C:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BoxDoor02
+      Object: 27071C:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BoxDoor03
+      Object: 27071C:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BoxDoor04
+      Object: 27071C:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LouisaReyez
+      Object: 27071C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Puzzle_BlockingDoor
+      Object: 27071C:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Puzzle_BoxDoor01
+      Object: 27071C:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Puzzle_BoxDoor02
+      Object: 27071C:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Puzzle_BoxDoor03
+      Object: 27071C:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Puzzle_BoxDoor04
+      Object: 27071C:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StartMarker
+      Object: 27071C:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_GuardPointer_Well
+      Object: 352CB8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Well01_003_Stage50Scene
+      Object: 24F4F6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Well01_005_Stage100Scene
+      Object: 24F4F2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Well01_007_Stage150Scene
+      Object: 24F4F0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Well01_009_Stage190Scene
+      Object: 24F4EE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Well02
+      Object: 270716:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JunctionBox01Scene
+      Object: 24F4F7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JunctionBox02Scene
+      Object: 24F4F5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JunctionBox03Scene
+      Object: 24F4F1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JunctionBox04Scene
+      Object: 24F4EF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StoryManager_NewAtlantisLoad
+      Object: 0C9EEC:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0035_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0080_Item_00
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0085_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0130_Item_00
+  - Stage: 135
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0135_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0170_Item_00
+  - Stage: 175
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0175_Item_00
+  - Stage: 185
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0185_Item_00
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0190_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0200_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 27071C:Starfield.esm
+      Alias: 1
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 20
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 27071C:Starfield.esm
+      Alias: 2
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 50
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+  - Property:
+      Name: ''
+      Object: 27071C:Starfield.esm
+      Alias: 4
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 100
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 150
+  - Property:
+      Name: ''
+      Object: 27071C:Starfield.esm
+      Alias: 5
+    Scripts:
+    - Name: City_NA_JunctionBox04Script
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01
+        Object: 27071C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light_Indicator
+        Object: 27071C:Starfield.esm
+        Alias: 17
+  - Property:
+      Name: ''
+      Object: 27071C:Starfield.esm
+      Alias: 9
+    Scripts:
+    - Name: City_NA_Well01_Lever01Script
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActiveLight
+        Object: 27071C:Starfield.esm
+        Alias: 13
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01
+        Object: 27071C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light01State
+        Object: 13DD03:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light02State
+        Object: 13DD02:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light03State
+        Object: 13DD04:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light04State
+        Object: 13DD05:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever01
+        Object: 27071C:Starfield.esm
+        Alias: 9
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever02
+        Object: 27071C:Starfield.esm
+        Alias: 10
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever03
+        Object: 27071C:Starfield.esm
+        Alias: 11
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever04
+        Object: 27071C:Starfield.esm
+        Alias: 12
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light01
+        Object: 27071C:Starfield.esm
+        Alias: 13
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light02
+        Object: 27071C:Starfield.esm
+        Alias: 14
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light03
+        Object: 27071C:Starfield.esm
+        Alias: 15
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light04
+        Object: 27071C:Starfield.esm
+        Alias: 16
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LightIndicator
+        Object: 27071C:Starfield.esm
+        Alias: 17
+  - Property:
+      Name: ''
+      Object: 27071C:Starfield.esm
+      Alias: 10
+    Scripts:
+    - Name: City_NA_Well01_Lever01Script
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01
+        Object: 27071C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light01State
+        Object: 13DD03:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light02State
+        Object: 13DD02:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light03State
+        Object: 13DD04:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light04State
+        Object: 13DD05:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever01
+        Object: 27071C:Starfield.esm
+        Alias: 9
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever02
+        Object: 27071C:Starfield.esm
+        Alias: 10
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever03
+        Object: 27071C:Starfield.esm
+        Alias: 11
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever04
+        Object: 27071C:Starfield.esm
+        Alias: 12
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light01
+        Object: 27071C:Starfield.esm
+        Alias: 13
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light02
+        Object: 27071C:Starfield.esm
+        Alias: 14
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light03
+        Object: 27071C:Starfield.esm
+        Alias: 15
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light04
+        Object: 27071C:Starfield.esm
+        Alias: 16
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LightIndicator
+        Object: 27071C:Starfield.esm
+        Alias: 17
+  - Property:
+      Name: ''
+      Object: 27071C:Starfield.esm
+      Alias: 11
+    Scripts:
+    - Name: City_NA_Well01_Lever01Script
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01
+        Object: 27071C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light01State
+        Object: 13DD03:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light02State
+        Object: 13DD02:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light03State
+        Object: 13DD04:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light04State
+        Object: 13DD05:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever01
+        Object: 27071C:Starfield.esm
+        Alias: 9
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever02
+        Object: 27071C:Starfield.esm
+        Alias: 10
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever03
+        Object: 27071C:Starfield.esm
+        Alias: 11
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever04
+        Object: 27071C:Starfield.esm
+        Alias: 12
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light01
+        Object: 27071C:Starfield.esm
+        Alias: 13
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light02
+        Object: 27071C:Starfield.esm
+        Alias: 14
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light03
+        Object: 27071C:Starfield.esm
+        Alias: 15
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light04
+        Object: 27071C:Starfield.esm
+        Alias: 16
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LightIndicator
+        Object: 27071C:Starfield.esm
+        Alias: 17
+  - Property:
+      Name: ''
+      Object: 27071C:Starfield.esm
+      Alias: 12
+    Scripts:
+    - Name: City_NA_Well01_Lever01Script
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01
+        Object: 27071C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light01State
+        Object: 13DD03:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light02State
+        Object: 13DD02:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light03State
+        Object: 13DD04:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light04State
+        Object: 13DD05:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever01
+        Object: 27071C:Starfield.esm
+        Alias: 9
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever02
+        Object: 27071C:Starfield.esm
+        Alias: 10
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever03
+        Object: 27071C:Starfield.esm
+        Alias: 11
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever04
+        Object: 27071C:Starfield.esm
+        Alias: 12
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light01
+        Object: 27071C:Starfield.esm
+        Alias: 13
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light02
+        Object: 27071C:Starfield.esm
+        Alias: 14
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light03
+        Object: 27071C:Starfield.esm
+        Alias: 15
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light04
+        Object: 27071C:Starfield.esm
+        Alias: 16
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LightIndicator
+        Object: 27071C:Starfield.esm
+        Alias: 17
+  - Property:
+      Name: ''
+      Object: 27071C:Starfield.esm
+      Alias: 13
+    Scripts:
+    - Name: City_NA_Well01_LightScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01
+        Object: 27071C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MyGlobal
+        Object: 13DD03:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 27071C:Starfield.esm
+      Alias: 14
+    Scripts:
+    - Name: City_NA_Well01_LightScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01
+        Object: 27071C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MyGlobal
+        Object: 13DD02:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 27071C:Starfield.esm
+      Alias: 15
+    Scripts:
+    - Name: City_NA_Well01_LightScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01
+        Object: 27071C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MyGlobal
+        Object: 13DD04:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 27071C:Starfield.esm
+      Alias: 16
+    Scripts:
+    - Name: City_NA_Well01_LightScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01
+        Object: 27071C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MyGlobal
+        Object: 13DD05:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Das Netz anzapfen
+  - Language: English
+    String: Tapping the Grid
+  - Language: Spanish
+    String: Con las manos en la caja
+  - Language: French
+    String: Parasitage de réseau
+  - Language: Italian
+    String: Griglia di partenza
+  - Language: Japanese
+    String: グリッドの利用
+  - Language: Polish
+    String: Kradzież zasilania
+  - Language: Portuguese_Brazil
+    String: Explorando as Possibilidades
+Data:
+  Flags:
+  - RunOnce
+  Priority: 30
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: startup stage
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Reyez, hasn't agreed to help
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Louisa Reyez untersucht einen Spannungsabfall auf dem Unterdeck und braucht vielleicht Hilfe. Wenn ich ihr helfen will, sollte ich mit ihr sprechen.
+      - Language: English
+        String: Louisa Reyez is investigating a power drain in the Well, and may need some help. I should speak to her if I want to assist.
+      - Language: Spanish
+        String: Louisa Reyez está investigando una fuga de energía en el Pozo y tal vez necesite ayuda. Debería hablar con ella por si quiere que le eche un cable.
+      - Language: French
+        String: Louisa Reyez enquête sur une baisse de puissance dans le Puits, et pourrait avoir besoin d'aide. Je n'ai qu'à lui parler si je veux l'assister.
+      - Language: Italian
+        String: Louisa Reyez sta indagando su una perdita di energia nel Pozzo e potrebbe aver bisogno di aiuto. Se voglio darle una mano, devo parlarle.
+      - Language: Japanese
+        String: ルイーザ・レイエズはウェルで漏電を調査しており、助けを必要としているかもしれない。手を貸すなら、彼女に話しかけよう
+      - Language: Polish
+        String: Louisa Reyez przygląda się sprawie spadku mocy w Studni i może potrzebować w tym pomocy. Jeśli chcę pomóc, muszę z nią porozmawiać.
+      - Language: Portuguese_Brazil
+        String: Louisa Reyez está investigando uma fuga de energia no Poço e pode precisar de ajuda. Preciso falar com ela se eu quiser ajudar.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 19
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: player picked background choice, is eligible for extra reward
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Agreed to help, pointed towards 1st junction box
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Louisa Reyez versprochen, ihr bei der Suche nach der Ursache des Spannungsabfalls auf dem Unterdeck in New Atlantis zu helfen. Ich muss mehrere Verteilerkästen finden und herunterfahren.
+      - Language: English
+        String: I've agreed to help Louisa Reyez track a power drain in the Well in New Atlantis. I need to locate a series of power junction boxes and turn them off.
+      - Language: Spanish
+        String: He aceptado ayudar a Louisa Reyez a rastrear una fuga de energía en el Pozo de Nueva Atlántida. Tengo que encontrar una serie de cajas de conexiones y desconectarlas.
+      - Language: French
+        String: J'ai accepté d'aider Louisa Reyez à trouver la source d'une baisse de puissance dans le Puits, à New Atlantis. Je dois localiser une série de boîtes de raccordement et les éteindre.
+      - Language: Italian
+        String: Ho accettato di aiutare Louisa Reyez a rintracciare l’origine di una perdita di energia nel Pozzo di Nuova Atlantide. Devo localizzare una serie di centraline e disattivarle.
+      - Language: Japanese
+        String: ルイーザ・レイエズを手伝い、ニューアトランティスのウェルで発生した漏電の原因を調べることに同意した。ジャンクションボックスを探し、停止させよう
+      - Language: Polish
+        String: Pomogę Louisie Reyez w znalezieniu przyczyn spadku mocy w nowoatlantydzkiej Studni. Muszę znaleźć kilka skrzynek przyłączeniowych i je powyłączać.
+      - Language: Portuguese_Brazil
+        String: Concordei em ajudar Louisa Reyez a rastrear a fuga de energia no Poço em Nova Atlântida. Preciso encontrar uma série de caixas de junção e desligá-las.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: trigger Junction Box 01 Scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 35
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st junction box scene done, update objectives
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 1st junction box activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 80
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: trigger Junction Box 02 Scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 85
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd junction box scene done, update objectives
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 2nd junction box activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: trigger Junction Box 03 scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 135
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd junction box scene done, update objectives
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 3rd junction box activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 170
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: trigger Junction Box 04 scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 175
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 4th junction box scene done, update objectives
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 185
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Puzzle completed, open blocking door
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 190
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 4th junction box activated
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Verteilerkästen heruntergefahren und muss zu Louisa Reyez zurückkehren, um zu erfahren, was sie herausgefunden hat.
+      - Language: English
+        String: I've finished powering down the junction boxes, and need to return to Louisa Reyez to find out what she's learned.
+      - Language: Spanish
+        String: He terminado de desconectar las cajas de conexiones, tengo que volver con Louisa Reyez para ver qué ha averiguado.
+      - Language: French
+        String: J'ai terminé d'éteindre les boîtes de raccordement et dois retourner voir Louisa Reyez pour savoir ce qu'elle a découvert.
+      - Language: Italian
+        String: Ho disattivato le centraline, non mi resta che tornare da Louisa Reyez per farmi dire se ha scoperto qualcosa.
+      - Language: Japanese
+        String: ジャンクションボックスを停止させた。ルイーザ・レイエズのもとへ戻り、何かわかったか確かめよう
+      - Language: Polish
+        String: Skrzynki przyłączeniowe są już powyłączane. Muszę wrócić do Louisy Reyez, żeby powiedziała mi, czego się dowiedziała.
+      - Language: Portuguese_Brazil
+        String: Terminei de desligar a caixa de junção e agora preciso voltar para Louisa Reyez e ver o que ela descobriu.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Complete
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Louisa Reyez bei der Untersuchung eines Spannungsabfalls auf dem Unterdeck in New Atlantis geholfen. Ich habe eine Reihe von Verteilerkästen deaktiviert, wodurch sie den Ursprung des Spannungsabfalls zur Handelsaufsicht zurückverfolgen konnte.
+      - Language: English
+        String: I helped Louisa Reyez as she investigated a power drain in the Well in New Atlantis. By deactivating a series of junction boxes, she was able to trace the source of the drain to the Trade Authority.
+      - Language: Spanish
+        String: He ayudado a Louisa Reyez en su investigación de una fuga de energía en el Pozo de Nueva Atlántida. Al desactivar una serie de cajas de conexiones, ha conseguido localizar el origen de la fuga hasta la Autoridad Comercial.
+      - Language: French
+        String: J'ai aidé Louisa Reyez à enquêter sur une baisse de puissance dans le Puits, à New Atlantis. Après que j'ai désactivé une série de boîtes de raccordement, elle a pu remonter la piste du drain jusqu'à l'Autorité commerciale.
+      - Language: Italian
+        String: 'Ho aiutato Louisa Reyez a indagare su una perdita di energia nel Pozzo di Nuova Atlantide. Disattivando una serie di centraline, è stata in grado di risalire alla fonte della perdita: si trova presso l’Autorità Commerciale.'
+      - Language: Japanese
+        String: ニューアトランティスのウェルで発生した漏電を調査するルイーザ・レイエズを手伝った。ジャンクションボックスを止めることで、漏電の原因を貿易管理局までたどれた
+      - Language: Polish
+        String: Louisa Reyes otrzymała moją pomoc w śledztwie dotyczącym spadku mocy w Studni, w Nowej Atlantydzie. Wyłączenie kilku skrzynek przyłączeniowych pozwoliło jej wpaść na trop przyczyny usterki - wiedzie on do Urzędu Handlowego.
+      - Language: Portuguese_Brazil
+        String: Ajudei Louisa Reyez na investigação da fuga de energia do Poço em Nova Atlântida. Ao desativar as caixas de junção, ela conseguiu rastrear a fonte da fuga até a Autoridade Comercial.
+    StageCompleteDatas:
+    - QSRD: 0x02000000
+      RewardDatas:
+      - XpAwarded: 1AB4F2:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B10:Starfield.esm
+          Count: 1
+      - XpAwarded: Null
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: GetStageDoneConditionData
+            FirstParameter: 27071C:Starfield.esm
+            SecondParameter: 19
+          ComparisonValue: 1
+    - QSRD: '[]'
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+  Targets:
+  - AliasID: 1
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Louisa Reyez.
+    - Language: English
+      String: Talk to Louisa Reyez
+    - Language: Spanish
+      String: Habla con Louisa Reyez.
+    - Language: French
+      String: Parlez à Louisa Reyez.
+    - Language: Italian
+      String: Parla con Louisa Reyez
+    - Language: Japanese
+      String: ルイーザ・レイエズと話す
+    - Language: Polish
+      String: Porozmawiaj z Louisą Reyez
+    - Language: Portuguese_Brazil
+      String: Fale com Louisa Reyez
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde den Verteilerkasten.
+    - Language: English
+      String: Locate the Junction Box
+    - Language: Spanish
+      String: Encuentra la caja de conexiones.
+    - Language: French
+      String: Localisez la boîte de raccordement.
+    - Language: Italian
+      String: Trova la centralina
+    - Language: Japanese
+      String: ジャンクションボックスを探す
+    - Language: Polish
+      String: Znajdź skrzynkę przyłączeniową
+    - Language: Portuguese_Brazil
+      String: Encontre a caixa de junção
+  Targets:
+  - AliasID: 1
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Fahre den Verteilerkasten herunter.
+    - Language: English
+      String: Power Down the Junction Box
+    - Language: Spanish
+      String: Desconecta la caja de conexiones.
+    - Language: French
+      String: Éteignez la boîte de raccordement.
+    - Language: Italian
+      String: Disattiva la centralina
+    - Language: Japanese
+      String: ジャンクションボックスを止める
+    - Language: Polish
+      String: Wyłącz skrzynkę przyłączeniową
+    - Language: Portuguese_Brazil
+      String: Desligue a caixa de junção
+  Targets:
+  - AliasID: 1
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde den Verteilerkasten.
+    - Language: English
+      String: Locate the Junction Box
+    - Language: Spanish
+      String: Encuentra la caja de conexiones.
+    - Language: French
+      String: Localisez la boîte de raccordement.
+    - Language: Italian
+      String: Trova la centralina
+    - Language: Japanese
+      String: ジャンクションボックスを探す
+    - Language: Polish
+      String: Znajdź skrzynkę przyłączeniową
+    - Language: Portuguese_Brazil
+      String: Encontre a caixa de junção
+  Targets:
+  - AliasID: 2
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Fahre den Verteilerkasten herunter.
+    - Language: English
+      String: Power Down the Junction Box
+    - Language: Spanish
+      String: Desconecta la caja de conexiones.
+    - Language: French
+      String: Éteignez la boîte de raccordement.
+    - Language: Italian
+      String: Disattiva la centralina
+    - Language: Japanese
+      String: ジャンクションボックスを止める
+    - Language: Polish
+      String: Wyłącz skrzynkę przyłączeniową
+    - Language: Portuguese_Brazil
+      String: Desligue a caixa de junção
+  Targets:
+  - AliasID: 2
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde den Verteilerkasten.
+    - Language: English
+      String: Locate the Junction Box
+    - Language: Spanish
+      String: Encuentra la caja de conexiones.
+    - Language: French
+      String: Localisez la boîte de raccordement.
+    - Language: Italian
+      String: Trova la centralina
+    - Language: Japanese
+      String: ジャンクションボックスを探す
+    - Language: Polish
+      String: Znajdź skrzynkę przyłączeniową
+    - Language: Portuguese_Brazil
+      String: Encontre a caixa de junção
+  Targets:
+  - AliasID: 4
+- Index: 140
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Fahre den Verteilerkasten herunter.
+    - Language: English
+      String: Power Down the Junction Box
+    - Language: Spanish
+      String: Desconecta la caja de conexiones.
+    - Language: French
+      String: Éteignez la boîte de raccordement.
+    - Language: Italian
+      String: Disattiva la centralina
+    - Language: Japanese
+      String: ジャンクションボックスを止める
+    - Language: Polish
+      String: Wyłącz skrzynkę przyłączeniową
+    - Language: Portuguese_Brazil
+      String: Desligue a caixa de junção
+  Targets:
+  - AliasID: 4
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde den Verteilerkasten.
+    - Language: English
+      String: Locate the Junction Box
+    - Language: Spanish
+      String: Encuentra la caja de conexiones.
+    - Language: French
+      String: Localisez la boîte de raccordement.
+    - Language: Italian
+      String: Trova la centralina
+    - Language: Japanese
+      String: ジャンクションボックスを探す
+    - Language: Polish
+      String: Znajdź skrzynkę przyłączeniową
+    - Language: Portuguese_Brazil
+      String: Encontre a caixa de junção
+  Targets:
+  - AliasID: 5
+- Index: 180
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Fahre den Verteilerkasten herunter.
+    - Language: English
+      String: Power Down the Junction Box
+    - Language: Spanish
+      String: Desconecta la caja de conexiones.
+    - Language: French
+      String: Éteignez la boîte de raccordement.
+    - Language: Italian
+      String: Disattiva la centralina
+    - Language: Japanese
+      String: ジャンクションボックスを止める
+    - Language: Polish
+      String: Wyłącz skrzynkę przyłączeniową
+    - Language: Portuguese_Brazil
+      String: Desligue a caixa de junção
+  Targets:
+  - AliasID: 5
+- Index: 190
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Louisa Reyez.
+    - Language: English
+      String: Talk to Louisa Reyez
+    - Language: Spanish
+      String: Habla con Louisa Reyez.
+    - Language: French
+      String: Parlez à Louisa Reyez.
+    - Language: Italian
+      String: Parla con Louisa Reyez
+    - Language: Japanese
+      String: ルイーザ・レイエズと話す
+    - Language: Polish
+      String: Porozmawiaj z Louisą Reyez
+    - Language: Portuguese_Brazil
+      String: Fale com Louisa Reyez
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 6
+  Name: CityNewAtlantisLocation
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 19A5C2:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: LouisaReyez
+  Flags: []
+  ALFG: 0
+  UniqueActor: 24F4FF:Starfield.esm
+  PackageData:
+  - 134777:Starfield.esm
+  - 13D6F3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: JunctionBox01
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 24F4FC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: JunctionBox02
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 24F4FB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: JunctionBox03
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 24F4FA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: JunctionBox04
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 24F4F9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: StartMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1B1DE2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: Lever01
+  Flags:
+  - ReservesLocationOrReference
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 24F4F4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: Lever02
+  Flags:
+  - ReservesLocationOrReference
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 24F4F4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: Lever03
+  Flags:
+  - ReservesLocationOrReference
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 24F4F4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: Lever04
+  Flags:
+  - ReservesLocationOrReference
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 24F4F4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: Light01
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 24F4F3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: Light02
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 13D717:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: Light03
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 13D716:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: Light04
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 13D715:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: Light_Indicator
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: BoxDoor01
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 362262:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: BoxDoor02
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 352BEB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: BoxDoor03
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 352BEC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: BoxDoor04
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 352BED:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: Puzzle_BoxDoor01
+  Flags:
+  - ReservesLocationOrReference
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 352BF2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: Puzzle_BoxDoor02
+  Flags:
+  - ReservesLocationOrReference
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 352BF2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: Puzzle_BoxDoor03
+  Flags:
+  - ReservesLocationOrReference
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 352BF2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: Puzzle_BoxDoor04
+  Flags:
+  - ReservesLocationOrReference
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 352BF2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: Puzzle_BlockingDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 36D34A:Starfield.esm
+  VoiceTypes: Null

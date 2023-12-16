@@ -1,0 +1,108 @@
+FormKey: 22EC52:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: SWA_Particle_LightScythe_Ravager_20MeV_Electron_lvl16
+StarfieldMajorRecordFlags:
+- NotPlayable
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Elektronenstrahl Ravager 20MeV
+  - Language: English
+    String: Ravager 20MeV electron beam
+  - Language: Spanish
+    String: Rayo de electrones Ravager de 20 MeV
+  - Language: French
+    String: Rayon à électrons Ravager 20 MeV
+  - Language: Italian
+    String: Raggio E Ravager 20 MeV
+  - Language: Japanese
+    String: ラベジャー20MeV電子ビーム
+  - Language: Polish
+    String: Wiązka elektronowa Ravager 20 MeV
+  - Language: Portuguese_Brazil
+    String: Feixe de elétrons Devastador 20MeV
+Model:
+  FLLD: 0x01000000
+EquipmentType: 000046:Starfield.esm
+BlockBashImpactDataSet: 056A91:Starfield.esm
+Keywords:
+- 02226A:Starfield.esm
+- 0638EB:Starfield.esm
+- 1557AA:Starfield.esm
+- 15C569:Starfield.esm
+- 249FB6:Starfield.esm
+Description:
+  TargetLanguage: English
+EmbeddedWeaponMod: Null
+SightedTransitionSeconds: 0.25
+AimDownSightTemplate: 04B246:Starfield.esm
+AimModel: 1818DF:Starfield.esm
+AccuracyBonus: 5
+AmmoType: 22F520:Starfield.esm
+ProjectilesCount: 1
+WAM2Unknown1: 1
+MeleeOrCreature: {}
+PrimedExplosive: {}
+DryFire: {}
+Idle: {}
+Equip: {}
+Unequip: {}
+FastEquip: {}
+SoundLevel: Silent
+WAUDUnknown2: 3
+WTUR: 0x00000034C3000034430000B4C20000B44200003443000034430000803F
+ChargeCritBonus: 1
+AttackDamage: 15
+MinRange: 1000
+MaxRange: 3250
+OutOfRangeDamageMult: 1
+CritDamageMult: 2
+CriticalHitSpell: 0913C4:Starfield.esm
+WDMGUnknown4: 1
+WDMGUnknown5: 1
+WDMGUnknown6: 1
+WDMGUnknown7: 1
+WDMGUnknown8: 1
+WDMGUnknown9: 1
+CritChanceIncMult: 1
+DamageTypes:
+- DamageType: 01EDE8:Starfield.esm
+  Value: 15
+RepeatableFire: True
+AttackSeconds: 0.25
+AttackDelaySeconds: 0.2857143
+DisableShellCaseEject: True
+ShotsPerSecond: 3.5
+WFIRUnknown7: 0.2857143
+OverrideRateOfFire: True
+TriggerThresholdPrimaryTrigger: 0.33
+TriggerThresholdSecondStage: 0.33
+HasStagedTrigger: True
+BurstDelaySeconds: 0.3
+NonPlayable: True
+CannotDrop: True
+WGENUnknown1: 12
+BaseWeight: 3
+BaseSpeed: 1
+AttackOxygenCost: 100
+General: "ð\x06\0"
+WMELUnknown1: 2
+MeleeReach: 1
+MeleeStagger: Medium
+PowerRechargeTime: 0.28
+UsePower: True
+QNAMUnknown5: 1
+ReloadSpeed: 1
+FirstPersonModel:
+  File: ''
+  FLLD: 0x01000000
+ImpactDataSet: 137379:Starfield.esm
+ColorRemappingIndex: 3.4028235E+38
+WTRMUnknown1: 20
+WTRMUnknown3: 0.3
+WTRMUnknown4: 0.5
+WTRMUnknown5: 45
+MajorFlags:
+- NonPlayable

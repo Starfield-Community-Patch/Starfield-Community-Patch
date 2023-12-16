@@ -1,0 +1,62 @@
+FormKey: 1A6A85:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 3399805
+  TRDAUnknown: 5.066667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Zum Glück ist Londinion nicht unbedingt ein Magnet für Besucher. Wir werden ihn gut abschotten können.
+    - Language: English
+      String: Well, luckily, the natural hostility of Londinion makes keeping out trespassers relatively easy.
+    - Language: Spanish
+      String: Bueno, por suerte, la hostilidad natural de Londinion facilita bastante mantener a los intrusos a raya.
+    - Language: French
+      String: Eh bien, fort heureusement, l'hostilité naturelle de Londinion permet de dissuader assez facilement les intrus.
+    - Language: Italian
+      String: Beh, per fortuna, l’ostilità naturale di Londinion rende relativamente semplice tenere lontani gli intrusi.
+    - Language: Japanese
+      String: 幸い、ロンディニオンは潜在的に敵意を持っているから、侵入者を排除するのは比較的簡単よ
+    - Language: Polish
+      String: Cóż, na szczęście naturalna wrogość Londinionu sprawia, że chronienie go przed intruzami jest stosunkowo łatwe.
+    - Language: Portuguese_Brazil
+      String: Por sorte, a hostilidade natural de Londinion faz com que seja relativamente fácil impedir a entrada de invasores.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xD0DE4F82C01CD701
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 5590945
+  TRDAUnknown: 5.066667
+  TROTs:
+  - UnknownVoiceType: 012498:Starfield.esm
+    UnknownFloat: 1.5666667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Aber wir werden unsere Truppenpräsenz in Londinion verstärken, das Wachstum der Pflanze eindämmen, und man wird nur mit streng regulierten Genehmigungen Zugang zu ihr haben.
+    - Language: English
+      String: But, we'll ensure its growth is contained, that access to the plant is only permitted via highly-regulated clearances, and that our troop presence on Londinion is increased.
+    - Language: Spanish
+      String: Pero nos aseguraremos de contener su crecimiento, de que el acceso a la planta esté bien regulado y de aumentar la presencia de nuestras tropas en Londinion.
+    - Language: French
+      String: Mais nous nous assurerons également d'enrayer son développement, de restreindre au maximum les autorisations d'accès et d'augmenter notre présence militaire sur place.
+    - Language: Italian
+      String: Ma ci assicureremo di limitarne la crescita, che l’accesso all’impianto avvenga solo tramite autorizzazioni regolamentate e che la nostra presenza militare su Londinion sia intensificata.
+    - Language: Japanese
+      String: だけどその成長は確実に防がないといけない。あの植物へのアクセスは、高セキュリティの認証性にして、ロンディニオンの兵力もしっかり増強しておく
+    - Language: Polish
+      String: Upewnimy się jednak, że jej rozrost zostanie przyhamowany, dostęp do niej będzie możliwy tylko na podstawie określonych zezwoleń, a także zwiększymy liczbę naszych oddziałów w Londinionie.
+    - Language: Portuguese_Brazil
+      String: Mas vamos assegurar que seu crescimento seja contido, que o acesso à planta seja altamente regulado. E vamos aumentar a presença de nossas tropas em Londinion.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x30A9EA3C6DD6D701
+StartScene: 1A690D:Starfield.esm
+INTV: 0x04000000
+StartScenePhase: UC09_Cab_Lazarus_Decision
+SubtitlePriority: Low

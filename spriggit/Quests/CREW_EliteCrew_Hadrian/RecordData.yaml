@@ -1,0 +1,242 @@
+FormKey: 1B3F7E:Starfield.esm
+EditorID: CREW_EliteCrew_Hadrian
+VirtualMachineAdapter:
+  Scripts:
+  - Name: Crew_EliteCrewQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_HireSpeechChallengeAttempted
+      Object: 2636B7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 0174A2:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TRAIT_Taskmaster
+      Object: 227FE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CrewMember
+      Object: 1B3F7E:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_RecruitCost_TextReplacementValue
+      Object: 27072B:Starfield.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: CostMult_Taskmaster
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_CREW_EliteCrew_Hadrian_001B3F7E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Xenosociology
+      Object: 21B8C4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueRedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_PainTolerance
+      Object: 21B8D2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_BurnTolerance
+      Object: 21B8D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_MiscPointer
+      Object: 17C672:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hadrian
+      Object: 1B3F7E:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialCrewFaction
+      Object: 0143A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers_SandboxWhilePlayerLoiters_Allowed
+      Object: 28BF2B:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_Hadrian_001B3F7E
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_Hadrian_001B3F7E
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 50
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_Hadrian_001B3F7E
+    FragmentName: Fragment_Stage_0050_Item_01
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_Hadrian_001B3F7E
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_Hadrian_001B3F7E
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_Hadrian_001B3F7E
+    FragmentName: Fragment_Stage_0450_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Hadrian
+  - Language: English
+    String: Hadrian
+  - Language: Spanish
+    String: Hadrian
+  - Language: French
+    String: Hadrian
+  - Language: Italian
+    String: Hadrian
+  - Language: Japanese
+    String: ヘイドリアン
+  - Language: Polish
+    String: Hadrian
+  - Language: Portuguese_Brazil
+    String: Hadrian
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+TextDisplayGlobals:
+- 27072B:Starfield.esm
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17624
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 29C17F:Starfield.esm
+  ComparisonValue: 1
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG STAGE
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hadrian recruitable as Crew
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hadrian Hired
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 014312:Starfield.esm
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Optional Vae Victis TL toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player went through VV reveal scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 425
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player was an ass about Hadrian's siblings
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player told Hadrian VV lives
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Siblings info toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Wandering info toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player can unlock time-locked TL
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Hadrian
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 29C17F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: ActiveCompanion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: ActiveEliteCrew
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567D:Starfield.esm
+    AliasID: 30
+  VoiceTypes: Null

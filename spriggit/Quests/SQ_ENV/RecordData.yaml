@@ -1,0 +1,224 @@
+FormKey: 248D20:Starfield.esm
+EditorID: SQ_ENV
+VirtualMachineAdapter:
+  Scripts:
+  - Name: sq_envscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_AFFL_FallDamageAfflictionChance
+      Object: 3E5BE1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_DEBUG_AFFL_Fall_Msg
+      Object: 3E5BE2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_Hazard_PK_Vent_Gas_Corrosive
+      Object: 2184D7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Player
+      Object: 248D20:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ENV_Tutorial
+      Object: 131E6F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TextReplacementRefAlias
+      Object: 248D20:Starfield.esm
+      Alias: 1
+  - Name: sq_env_afflictionsscript
+    Properties:
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: AfflictionData
+      Objects:
+      - Name: ''
+        Object: 2F443C:Starfield.esm
+      - Name: ''
+        Object: 2F443F:Starfield.esm
+      - Name: ''
+        Object: 2F4441:Starfield.esm
+      - Name: ''
+        Object: 2F4442:Starfield.esm
+      - Name: ''
+        Object: 2F4443:Starfield.esm
+      - Name: ''
+        Object: 2F4444:Starfield.esm
+      - Name: ''
+        Object: 2F4445:Starfield.esm
+      - Name: ''
+        Object: 2F4446:Starfield.esm
+      - Name: ''
+        Object: 2F4447:Starfield.esm
+      - Name: ''
+        Object: 2F4448:Starfield.esm
+      - Name: ''
+        Object: 2F4449:Starfield.esm
+      - Name: ''
+        Object: 2F444A:Starfield.esm
+      - Name: ''
+        Object: 2F444B:Starfield.esm
+      - Name: ''
+        Object: 2F444C:Starfield.esm
+      - Name: ''
+        Object: 2F444D:Starfield.esm
+      - Name: ''
+        Object: 2F444E:Starfield.esm
+      - Name: ''
+        Object: 2F444F:Starfield.esm
+      - Name: ''
+        Object: 2F4450:Starfield.esm
+      - Name: ''
+        Object: 2F4451:Starfield.esm
+      - Name: ''
+        Object: 2F4452:Starfield.esm
+      - Name: ''
+        Object: 2F4453:Starfield.esm
+      - Name: ''
+        Object: 2F4454:Starfield.esm
+      - Name: ''
+        Object: 2F4455:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_AFFL_Cured_Msg
+      Object: 2F4434:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_AFFL_Gained_Msg
+      Object: 2F443D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_AFFL_Improved_Msg
+      Object: 0295FD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_AFFL_Improved_Severity_Msg
+      Object: 205AA3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_AFFL_InfectionSpreadAllowed
+      Object: 079579:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_AFFL_Treatment_CureChance_Infection
+      Object: 205A12:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_AFFL_Treatment_CureChance_Injury
+      Object: 205A15:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_AFFL_Worsened_Msg
+      Object: 2F443E:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: FallingAfflictionData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Affliction
+          Object: 2F4447:Starfield.esm
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SmallFall
+          Data: True
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Affliction
+          Object: 2F4454:Starfield.esm
+        - MutagenObjectType: ScriptBoolProperty
+          Name: MediumFall
+          Data: True
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SmallFall
+          Data: True
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Affliction
+          Object: 2F4455:Starfield.esm
+        - MutagenObjectType: ScriptBoolProperty
+          Name: MediumFall
+          Data: True
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Affliction
+          Object: 2F4448:Starfield.esm
+        - MutagenObjectType: ScriptBoolProperty
+          Name: LargeFall
+          Data: True
+        - MutagenObjectType: ScriptBoolProperty
+          Name: MediumFall
+          Data: True
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Affliction
+          Object: 2F4449:Starfield.esm
+        - MutagenObjectType: ScriptBoolProperty
+          Name: LargeFall
+          Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ENV
+      Object: 248D20:Starfield.esm
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  Script:
+    Name: ''
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Enviromental Gameplay System Quest
+  - Language: English
+    String: Enviromental Gameplay System Quest
+  - Language: Spanish
+    String: Misión de sistema de jugabilidad ambiental
+  - Language: French
+    String: Quête système de gameplay environnemental
+  - Language: Italian
+    String: Missione sistema gameplay ambientale
+  - Language: Japanese
+    String: 環境ゲームプレイシステムクエスト
+  - Language: Polish
+    String: Zadanie systemowe rozgrywki środowiskowej
+  - Language: Portuguese_Brazil
+    String: Missão de Sistema de Jogabilidade Ambiental
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  Unused: 0x000000
+UnusedConditions: []
+Stages:
+- Flags:
+  - RunOnStart
+  - KeepInstanceDataFromHereOn
+  Unknown: 171
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'REMINDER: SQ_ENV_Update_Flight1 pulls player out of Player alias and then adds again - do NOT use spells on there to "store data" as they will be stopping and starting, or other things that would break if the player leaves and returns into the alias'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  Spells:
+  - 066271:Starfield.esm
+  - 08CB48:Starfield.esm
+  - 08CB4D:Starfield.esm
+  - 08CB51:Starfield.esm
+  - 0CA984:Starfield.esm
+  - 1665A7:Starfield.esm
+  - 1D5CF5:Starfield.esm
+  - 1D5CF6:Starfield.esm
+  - 1D5CF7:Starfield.esm
+  - 1D5CF8:Starfield.esm
+  - 23BE19:Starfield.esm
+  - 23C7C8:Starfield.esm
+  - 23DDFC:Starfield.esm
+  - 248D1F:Starfield.esm
+  - 2512CD:Starfield.esm
+  - 259F1E:Starfield.esm
+  - 2BDCC6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: TextReplacementRefAlias
+  Flags:
+  - Optional
+  - StoresText
+  ALFG: 0
+  VoiceTypes: Null

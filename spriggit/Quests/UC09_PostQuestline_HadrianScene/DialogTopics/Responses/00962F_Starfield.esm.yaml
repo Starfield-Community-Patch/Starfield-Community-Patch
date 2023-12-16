@@ -1,0 +1,33 @@
+FormKey: 00962F:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  WEMFile: 63811
+  TROTs:
+  - UnknownVoiceType: 29C457:Starfield.esm
+    UnknownFloat: 7.833334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Die besten Freunde schon!
+    - Language: English
+      String: The best ones certainly do.
+    - Language: Spanish
+      String: Al menos los buenos, sí.
+    - Language: French
+      String: Les meilleurs en tout cas, ça ne fait pas de doute.
+    - Language: Italian
+      String: I migliori lo fanno senz’altro.
+    - Language: Japanese
+      String: 親友ってそういうものよね
+    - Language: Polish
+      String: Ci najlepsi z pewnością.
+    - Language: Portuguese_Brazil
+      String: Os melhores com certeza.
+  ScriptNotes: Referring to the player here.
+  Edits: Apostrophes don't make things plural!
+  AlternateLipText: ''
+  TextHash: 0xB02C113C64EDD701
+StartScenePhase: ''
+SubtitlePriority: Low

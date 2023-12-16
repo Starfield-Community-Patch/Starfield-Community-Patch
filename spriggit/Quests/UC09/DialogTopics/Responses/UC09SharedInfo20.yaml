@@ -1,0 +1,119 @@
+FormKey: 1A69E6:Starfield.esm
+EditorID: UC09SharedInfo20
+Flags: {}
+Responses:
+- Emotion: 0FA849:Starfield.esm
+  WEMFile: 14425369
+  TRDAUnknown: 2.1666667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ich würde hoffen, dass sie schlicht und einfach seine Verbindungen zur Außenwelt kappen.
+    - Language: English
+      String: My hope would be that whatever connections he's got to the outside world disappear.
+    - Language: Spanish
+      String: Espero que desaparezca cualquier conexión que tuviera con el mundo exterior.
+    - Language: French
+      String: J'espère simplement qu'ils couperont tous ses contacts avec le monde extérieur.
+    - Language: Italian
+      String: La mia speranza è che venga interrotto qualunque suo collegamento col mondo esterno.
+    - Language: Japanese
+      String: 私としては、どんな形にしろ、外界とのつながりを完全に断ってほしいわね
+    - Language: Polish
+      String: Mam nadzieję, że wszelkie jego kontakty z zewnętrznym światem zostaną zerwane.
+    - Language: Portuguese_Brazil
+      String: Tenho a esperança de que as conexões dele com o mundo exterior desapareçam.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xD00D9AF30D21D701
+- Emotion: 0FA849:Starfield.esm
+  WEMFile: 2523915
+  TRDAUnknown: 1.8666668
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Damit seine Pläne und Intrigen mit ihm in seiner Zelle bleiben.
+    - Language: English
+      String: Make sure his future schemes and machinations stay in his cell, with him.
+    - Language: Spanish
+      String: Asegurarse de que sus futuros planes y maquinaciones no salgan de su celda.
+    - Language: French
+      String: Et qu'ils s'assureront que tous ses plans et autres machinations restent enfermés avec lui dans sa cellule.
+    - Language: Italian
+      String: Che le sue macchinazioni e i suoi schemi futuri muoiano con lui in quella cella.
+    - Language: Japanese
+      String: 今後また計画や策略を練ったとしても、独房の中で一人で終わらせてもらわないと
+    - Language: Polish
+      String: Że jego przyszłe plany i machinacje pozostaną razem z nim w celi.
+    - Language: Portuguese_Brazil
+      String: Garantir que suas maquinações e armações futuras fiquem trancadas na cela com ele.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xD0ABF4277721D701
+- Emotion: 0D755D:Starfield.esm
+  WEMFile: 14839911
+  TRDAUnknown: 7.066667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Aber ich weiß es nicht.
+    - Language: English
+      String: But, honestly, I'm not sure.
+    - Language: Spanish
+      String: Pero la verdad es que no lo sé.
+    - Language: French
+      String: Mais honnêtement, je ne suis pas sûre que c'est ce qu'ils feront.
+    - Language: Italian
+      String: Ma, onestamente, non saprei.
+    - Language: Japanese
+      String: でも、どうなるかわからないけど
+    - Language: Polish
+      String: Ale szczerze mówiąc, nie jestem pewna.
+    - Language: Portuguese_Brazil
+      String: Mas não sei ao certo, sinceramente.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xE067C7A08E1AD701
+- Emotion: 0D755D:Starfield.esm
+  WEMFile: 12177201
+  TRDAUnknown: 7.1333337
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Seine Position ist einzigartig ... und er hat den Colonies ganz besonderen Schaden zugefügt.
+    - Language: English
+      String: He's in a unique position... and has done a special kind of harm to the Colonies.
+    - Language: Spanish
+      String: Está en una posición particular... y les ha hecho un daño diferente a las Colonias.
+    - Language: French
+      String: Son cas est particulier... et il a vraiment fait du mal aux colonies.
+    - Language: Italian
+      String: La sua è una posizione unica... e ha ferito l’Unione come nessun altro.
+    - Language: Japanese
+      String: あの男は特別な立場にいるからね… しかもコロニーに特異な被害をもたらした
+    - Language: Polish
+      String: Jest w wyjątkowej sytuacji... i wyrządził Koloniom szczególną krzywdę.
+    - Language: Portuguese_Brazil
+      String: Ele tá numa posição única... e feriu as Colônias de uma maneira especial.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x800E88A38E1AD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    FirstParameter: 1
+  ComparisonValue: 1
+StartScene: 1A6912:Starfield.esm
+INTV: 0x05000000
+StartScenePhase: UC09_HadPer_KnowVV_Punishment
+SubtitlePriority: Low
