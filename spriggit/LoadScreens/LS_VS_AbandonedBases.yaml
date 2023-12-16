@@ -1,0 +1,35 @@
+FormKey: 0C8C9B:Starfield.esm
+EditorID: LS_VS_AbandonedBases
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: In den Besiedelten Systemen wimmelt es von verlassenen Außenposten, Basen und Forschungsstationen. Die meisten sind militärische Überbleibsel der zwei galaktischen Kriege.
+  - Language: English
+    String: The Settled Systems is littered with abandoned outposts, bases, and research stations - most of them military leftovers from the two great galactic wars.
+  - Language: Spanish
+    String: Los Sistemas Colonizados están llenos de puestos de investigación, bases y puestos abandonados. Casi todos son restos militares de las dos grandes guerras galácticas.
+  - Language: French
+    String: Les Systèmes occupés sont jonchés d'avant-postes, de bases et de stations de recherche abandonnés, vestiges pour la plupart militaires de deux grandes guerres galactiques.
+  - Language: Italian
+    String: I Sistemi Colonizzati sono pieni di basi, stazioni di ricerca e avamposti abbandonati. Per la maggior parte sono residuati militari delle due grandi guerre galattiche.
+  - Language: Japanese
+    String: 有人星系には放棄された拠点や研究ステーションが散在している。ほとんどは2大宇宙戦争の軍事的な遺産だ
+  - Language: Polish
+    String: W Zasiedlonych Układach roi się od opuszczonych placówek, baz oraz stacji badawczych. Większość z nich to wojskowe pozostałości po dwóch wielkich galaktycznych wojnach.
+  - Language: Portuguese_Brazil
+    String: Há um número incontável de bases, estações de pesquisa e entrepostos abandonados nos Sistemas Colonizados. Trata-se, em sua maioria, de antigas instalações militares usadas nas duas grandes guerras galácticas.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsCurrentLocationConditionData
+    FirstParameter: 028A08:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetQuestRunningConditionData
+    FirstParameter: 003448:Starfield.esm
+  ComparisonValue: 1
+Loadscreen: Data\textures\interface\loadscreens\generic\outpost\starfield_outpost_023_color.dds

@@ -1,0 +1,53 @@
+FormKey: 0E5443:Starfield.esm
+Flags:
+  Flags:
+  - 0x4
+Responses:
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 11089149
+  TRDAUnknown: 5.6000004
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Captain. Admiral Logan hat mir von deiner Heldentat berichtet. Die ganze Stadt steht in deiner Schuld. Also, was gibt's?
+    - Language: English
+      String: Captain. Admiral Logan informed me of your part in halting the attacks. Whole damn city owes you. Now, what do you need?
+    - Language: Spanish
+      String: El almirante Logan me ha informado de tu participación para detener los ataques. La ciudad entera te debe una. Bueno, ¿qué querías?
+    - Language: French
+      String: Capitaine. L'amiral Logan m'a informé de votre contribution à l'arrêt des attaques. Toute la ville vous est redevable. De quoi avez-vous besoin ?
+    - Language: Italian
+      String: Capitano, l’ammiraglio Logan mi ha informato del tuo ruolo nel contrasto agli attacchi. L’intera città è in debito con te. Hai bisogno di qualcosa?
+    - Language: Japanese
+      String: 船長。ローガン提督から、襲撃の際の君の働きを聞いた。君には借りができたな。さて。どんな用だ？
+    - Language: Polish
+      String: Admirał Logan poinformował mnie o twoim udziale w powstrzymaniu ataków. Całe przeklęte miasto ma u ciebie dług. Czego potrzebujesz?
+    - Language: Portuguese_Brazil
+      String: Comandante. O almirante Logan me informou sobre seu papel em deter os ataques. Toda a cidade te deve essa. Do que precisa?
+  ScriptNotes: Praising this person for some truly heroic action.
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x60BA32859C9ED701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 1FC858:Starfield.esm
+    SecondParameter: 500
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 2AAE8D:Starfield.esm
+    SecondParameter: 910
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 2846EB:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

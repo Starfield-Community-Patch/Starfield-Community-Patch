@@ -1,0 +1,107 @@
+FormKey: 21849A:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: SWC_EM_Shinigami_Tatsu_501EM_lvl76
+StarfieldMajorRecordFlags:
+- NotPlayable
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Invertierter Dämpfer Tatsu 501EM
+  - Language: English
+    String: Tatsu 501EM inverting suppressor
+  - Language: Spanish
+    String: Supresor de inversión Tatsu 501EM
+  - Language: French
+    String: Silencieux à invers. Tatsu 501EM
+  - Language: Italian
+    String: Soppr. a inversione Tatsu 501EM
+  - Language: Japanese
+    String: タツ501EM反転サプレッサー
+  - Language: Polish
+    String: Tłumik inwersyjny Tatsu 501EM
+  - Language: Portuguese_Brazil
+    String: Supr. inversão Tatsu 501EM
+Model:
+  FLLD: 0x01000000
+EquipmentType: 000046:Starfield.esm
+BlockBashImpactDataSet: 056A91:Starfield.esm
+Keywords:
+- 02226B:Starfield.esm
+- 1D3482:Starfield.esm
+- 249FB6:Starfield.esm
+Description:
+  TargetLanguage: English
+EmbeddedWeaponMod: Null
+SightedTransitionSeconds: 0.25
+AimDownSightTemplate: 04B246:Starfield.esm
+AimModel: 1818D5:Starfield.esm
+AccuracyBonus: 5
+AmmoType: 2184AA:Starfield.esm
+ProjectilesCount: 1
+WAM2Unknown1: 1
+MeleeOrCreature: {}
+PrimedExplosive: {}
+DryFire: {}
+Idle: {}
+Equip: {}
+Unequip: {}
+FastEquip: {}
+SoundLevel: Silent
+WAUDUnknown2: 3
+WTUR: 0x00000034C3000034430000B4C20000B44200003443000034430000803F
+ChargeCritBonus: 1
+AttackDamage: 1
+MinRange: 300
+MaxRange: 800
+OutOfRangeDamageMult: 0.5
+CritDamageMult: 2
+CriticalHitSpell: 02A704:Starfield.esm
+WDMGUnknown4: 1
+WDMGUnknown5: 1
+WDMGUnknown6: 1
+WDMGUnknown7: 1
+WDMGUnknown8: 1
+WDMGUnknown9: 1
+CritChanceIncMult: 1
+DamageTypes:
+- DamageType: 01EDE8:Starfield.esm
+  Value: 1
+- DamageType: 023190:Starfield.esm
+  Value: 130
+AttackSeconds: 0.25
+AttackDelaySeconds: 1.25
+DisableShellCaseEject: True
+ShotsPerSecond: 0.8
+WFIRUnknown7: 1.25
+TriggerThresholdPrimaryTrigger: 0.33
+TriggerThresholdSecondStage: 0.33
+HasStagedTrigger: True
+BurstDelaySeconds: 0.3
+NonPlayable: True
+CannotDrop: True
+WFLGUnknown5: True
+WGENUnknown1: 12
+BaseWeight: 3
+BaseSpeed: 1
+AttackOxygenCost: 150
+General: "ü\x06\0"
+WMELUnknown1: 2
+MeleeReach: 1
+MeleeStagger: Medium
+PowerRechargeTime: 1
+UsePower: True
+QNAMUnknown5: 1
+ReloadSpeed: 0.1
+FirstPersonModel:
+  File: ''
+  FLLD: 0x01000000
+ImpactDataSet: 137377:Starfield.esm
+ColorRemappingIndex: 3.4028235E+38
+WTRMUnknown1: 40
+WTRMUnknown3: 0.3
+WTRMUnknown4: 0.5
+WTRMUnknown5: 55
+MajorFlags:
+- NonPlayable

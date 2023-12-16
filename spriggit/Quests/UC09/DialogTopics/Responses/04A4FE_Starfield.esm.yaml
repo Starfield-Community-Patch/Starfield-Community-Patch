@@ -1,0 +1,65 @@
+FormKey: 04A4FE:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 11062953
+  TRDAUnknown: 10.000001
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Das sagt sich jetzt leicht.
+    - Language: English
+      String: Easy to say now.
+    - Language: Spanish
+      String: Ahora es fácil decirlo.
+    - Language: French
+      String: Facile à dire, aujourd'hui.
+    - Language: Italian
+      String: Facile dirlo, adesso.
+    - Language: Japanese
+      String: 今そう言うのは簡単だ
+    - Language: Polish
+      String: Łatwo ci mówić.
+    - Language: Portuguese_Brazil
+      String: Agora é fácil falar.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA052F06B1FDBD701
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 12302431
+  TRDAUnknown: 1.5666667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Aber ich wollte nicht riskieren, einen ohnehin katastrophalen Krieg noch um eine gefährliche Variable zu erweitern.
+    - Language: English
+      String: But, in that moment, I wasn't about to add another dangerous variable to an already catastrophic war.
+    - Language: Spanish
+      String: Pero en ese momento no iba a añadir otra posible variable peligrosa a una guerra ya de por sí catastrófica.
+    - Language: French
+      String: Mais sur le moment, je ne pouvais ajouter une nouvelle variable dangereuse dans une guerre déjà catastrophique.
+    - Language: Italian
+      String: Ma in quel momento, non intendevo aggiungere un’altra pericolosa variabile a una guerra già di per sé catastrofica.
+    - Language: Japanese
+      String: だがその時は、すでに悲惨を極めていた戦争に、別の危険因子を加えるつもりはなかった
+    - Language: Polish
+      String: Wtedy jednak nie chciałem, by do tej katastrofalnej wojny została dodana kolejna niebezpieczna zmienna.
+    - Language: Portuguese_Brazil
+      String: Porém, naquele momento, eu não ia deixar que outra variável perigosa fosse acrescentada a uma guerra tão catastrófica.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x10AE2C6E1FDBD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 1FC858:Starfield.esm
+    SecondParameter: 127
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

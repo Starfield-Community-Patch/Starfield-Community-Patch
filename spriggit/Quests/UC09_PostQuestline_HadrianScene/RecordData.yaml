@@ -1,0 +1,99 @@
+FormKey: 1A2F81:Starfield.esm
+EditorID: UC09_PostQuestline_HadrianScene
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_UC09_PostQuestline_Hadria_001A2F81
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadrianWrapUpComplete
+      Object: 0F2EBF:Starfield.esm
+  Fragments:
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_PostQuestline_Hadria_001A2F81
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_PostQuestline_Hadria_001A2F81
+    FragmentName: Fragment_Stage_1000_Item_00
+Data:
+  Flags:
+  - RunOnce
+  Priority: 75
+  Unused: 0x000000
+UnusedConditions: []
+Stages:
+- Index: 100
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: UC09 POST: Quest started! (Set from the end of UC09)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hadrian talks about her "bright future". Used by Elite Crew Recruit scene for conditioning
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 109
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3.1: Player hit the first condition player line in Hadrian's scene. Get 'em back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: UC09 POST: Player hit first dialogue choice in Friendly Scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: UC09 POST: Player hit first dialogue choice in Angry Scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 121
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: UC09 POST: Player hit second dialogue choice in Angry Scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 122
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: UC09 POST: Player hit 3rd dialogue choice in Angry Scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: UC09 POST: Scene complete! Shut it down!'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Hadrian
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 29C17F:Starfield.esm
+  VoiceTypes: Null
