@@ -7,6 +7,16 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
+## [TBC] Versiob 0.0.7
+### Text Fixes (English)
+- Fixed a misspelling of "incalculable" in Ambassador Bal'Mor's personal log - Log 03: A Visitor [0034BF18] - [Reported by Murvel3000](https://www.starfieldpatch.dev/issues/684) - [Contributed by Wartortle](https://www.nexusmods.com/users/42492840)
+- Fixed a misspelling of "officers" in Chief Pretorius' dialogue [00155859] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/730) - [Contributed by Wartortle](https://www.nexusmods.com/users/42492840)
+- Fixed a misspelling of "do" in President Abello's dialogue [0023FA74] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/722) - [Contributed by Wartortle](https://www.nexusmods.com/users/42492840)
+- Fixed a misspelling of "doppelganger" in Sarah's dialogue [001801C3] - [Reported by Dadditude](https://www.starfieldpatch.dev/issues/533) - [Contributed by Wartortle](https://www.nexusmods.com/users/42492840)
+### Misc Fixes
+- Fixed missing ALFG record data on several aliases in Eyewitness [0023FA74] - [Contributed by Wartortle](https://www.nexusmods.com/users/42492840)
+
+
 ## [2023-12-15] Version 0.0.6
 ### Ship Fixes
 - Added missing SpaceshipTurretWeapon [KYWD:0032792C] keyword to Disrupter 3340 alpha oscillator Turret [000C0A36] - [Reported by JaeDL](https://www.starfieldpatch.dev/issues/744) - [Contributed by GrizBane](https://www.nexusmods.com/users/6728261) - [Mod Page](https://www.nexusmods.com/starfield/mods/7614)

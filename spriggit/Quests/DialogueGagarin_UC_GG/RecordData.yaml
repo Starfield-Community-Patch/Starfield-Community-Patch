@@ -1,0 +1,620 @@
+FormKey: 265062:Starfield.esm
+EditorID: DialogueGagarin_UC_GG
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KealaPoster
+      Object: 265062:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bonifac
+      Object: 265062:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_GG_Bet_PlayerNegotiatedBonus
+      Object: 14EAA6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LizziePoster
+      Object: 265062:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EllieYankton
+      Object: 265062:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_GG_Bet_Liquor
+      Object: 18A86B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DalitsoPoster
+      Object: 265062:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dalitso
+      Object: 265062:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_GG_Bet
+      Object: 18BC55:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundExplorer
+      Object: 22EC79:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueGagarin_GG_IntroScene_TakeTwo
+      Object: 15CF62:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundHunter
+      Object: 22EC76:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lawan
+      Object: 265062:Starfield.esm
+      Alias: 6
+  Fragments:
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 1215
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_1215_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_0220_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 1205
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_1205_Item_00
+  - Stage: 1103
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_1103_Item_00
+  - Stage: 1101
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_1101_Item_00
+  - Stage: 1225
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_1225_Item_00
+  - Stage: 1102
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_1102_Item_00
+  - Stage: 230
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
+    FragmentName: Fragment_Stage_0230_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 265062:Starfield.esm
+      Alias: 21
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 10
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: '[Gagarin: Siedlungsdialog]'
+  - Language: English
+    String: '[Gagarin Settlement Dialogue]'
+  - Language: Spanish
+    String: '[Diálogo de asentamiento de Gagarin]'
+  - Language: French
+    String: '[Gagarin Settlement Dialogue]'
+  - Language: Italian
+    String: '[Dialogo insediamento Gagarin]'
+  - Language: Japanese
+    String: '[ガガーリン入植地の会話]'
+  - Language: Polish
+    String: '[Dialog z osiedla Gagarin]'
+  - Language: Portuguese_Brazil
+    String: '[Gagarin Settlement Dialogue]'
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+Location: 265018:Starfield.esm
+Summary: This qusest holds all the dialogue for the settlement of Gagarin, a large settlement in UC space. Gagarin was once an industrial power house - churning out large mechanized combat platforms (or "Mechs), but when mechs were banned after the Colony War, Gagarin went into a steep decline. Now some businesses have decided to return to Gagarin, buying up the old buildings for cheap, which has led to much debate among the locals.
+UnusedConditions: []
+Stages:
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Give the player all the dialogue perk for "Missed Connections"'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Give the player all the dialogue perk for "Sure Bet"'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: Player hit the intro scene trigger. Kick that off.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: Intro scene complete. Get everyone moving.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dalisto Intro(01) Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Lizzie Intro(02) Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'LIZZIE: Player mentioned they like wine spritzers. Open up more dialogue for Lizzie'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: Lizzie: Player negotiated better pay from Lizzie for collecting her stuff.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 225
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: Lizzie: Player hit the 1st of Lizzie's quest's player dialogue choices. Get the player back here if they've bailed out during the sequence."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 226
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: Lizzie: Player hit the 2nd of Lizzie's quest's player dialogue choices. Get the player back here if they've bailed out during the sequence."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 230
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: Lizzie: Player finished the quest early, which starts the quest, finishes the quest, and gives the player some bonus cash'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Ellie: Player knows Ellie and Barrett have met'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 255
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Ellie: Barrett post-personal quest'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Pauline(03) Intro Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Intro04 Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Viktor Intro(05) Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Clint Intro Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 605
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Player learned from Clint that Gagarin used to make mechs. Unlock his next topic.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player made an election in Clint's \"mech times\" scene. Close it off for future loops."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Zinaida Intro Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: Player informed Zinaida they're a member of the Vanguard already. Opens up new hellos in her hello stack."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 720
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: Player hit Zinaida's first loop in her \"got any work\" TL. Get the player back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 725
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: Player hit Zinaida's final loop in her \"got any work\" TL. Get the player back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P4.5+: Player started Helena's scene. Close down the intro scene if it's still playing."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 801
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: Player hit Helena's first loop. Get them back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 802
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: Player hit Helena's second loop. Get them back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Akachi Intro done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Qureshi intro done'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1001
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player hit the 2nd player dialogue action in Qureshi's intro. Get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player made a choice in Lawan's scene. Close it off for the future."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player told Lawan she's in the wrong"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1102
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Player told Lawan respect earns respect'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1103
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player told Lawan she's right. Screw the locals."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5+: Set from UC Wants You! stage 1000. Player completed quest and convinced Dalitso to put up the poster. Next time they return, set stage 1205 to turn it on.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1205
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P4.5+: Player's back after convincing Dalitso to put up poster. Turn it on."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5+: Set from UC Wants You! stage 1000. Player completed quest and convinced Keala to put up the poster. Next time they return, set stage 1215 to turn it on.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1215
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P4.5+: Player's back after convincing Keala to put up poster. Turn it on."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5+: Set from UC Wants You! stage 1000. Player completed quest and convinced Lizzie to put up the poster. Next time they return, set stage 1225 to turn it on.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1225
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P4.5+: Player's back after convincing Lizzie to put up poster. Turn it on."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1230
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5+: City_GG_Marines state change triggered. Used to shut down future triggerings on the Change Location node.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 22
+  Name: SettleGagarinLocation
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 265018:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: Bonifac
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 265031:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Clint
+  Flags: []
+  ALFG: 0
+  UniqueActor: 26502A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Dalitso
+  Flags: []
+  ALFG: 0
+  UniqueActor: 26502C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Helena
+  Flags: []
+  ALFG: 0
+  UniqueActor: 265029:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: Lawan
+  Flags: []
+  ALFG: 0
+  UniqueActor: 265023:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Lisa
+  Flags: []
+  ALFG: 0
+  UniqueActor: 265021:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: Pauline
+  Flags: []
+  ALFG: 0
+  UniqueActor: 265020:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: Zinaida
+  Flags:
+  - Optional
+  ALFG: 0
+  UniqueActor: 265019:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: IntroTriggerStage10
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 22
+    RefType: 15CF58:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: Akachi
+  Flags: []
+  ALFG: 0
+  UniqueActor: 15668B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: Qureshi
+  Flags: []
+  ALFG: 0
+  UniqueActor: 22BE45:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: EllieYankton
+  Flags: []
+  ALFG: 0
+  UniqueActor: 17C10E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: DalitsoPoster
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 22
+    RefType: 137756:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: KealaPoster
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 22
+    RefType: 13775D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: LizziePoster
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 22
+    RefType: 13776F:Starfield.esm
+  VoiceTypes: Null

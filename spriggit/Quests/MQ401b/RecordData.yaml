@@ -1,0 +1,247 @@
+FormKey: 1A9053:Starfield.esm
+EditorID: MQ401b
+VirtualMachineAdapter:
+  Scripts:
+  - Name: MQ401VariantQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: RefAliasesToEnableArray
+      Objects:
+      - Name: ''
+        Object: 1A9053:Starfield.esm
+        Alias: 5
+    - MutagenObjectType: ScriptBoolProperty
+      Name: MQ402NoLodgeArtifacts
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_NoLodgeArtifacts
+      Object: 1D5AC1:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_MQ401b_001A9053
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ConstellationFaction
+      Object: 0191DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401
+      Object: 1DC45E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401B_OtherPlayerMarker
+      Object: 0EAF20:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialCrewFaction
+      Object: 0143A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401b_001_LodgeIntro
+      Object: 1801BA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeKey
+      Object: 293A7D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OtherYouEliteCrewQuest
+      Object: 187431:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_SkipMQ
+      Object: 17E006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvailableCrewFaction
+      Object: 014314:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ402
+      Object: 1DC418:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OtherPlayer
+      Object: 1A9053:Starfield.esm
+      Alias: 5
+  Fragments:
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401b_001A9053
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401b_001A9053
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ401b_001A9053
+    FragmentName: Fragment_Stage_0100_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1A9053:Starfield.esm
+      Alias: 0
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein kleiner Schritt
+  - Language: English
+    String: One Small Step
+  - Language: Spanish
+    String: Un pequeño paso
+  - Language: French
+    String: Un petit pas
+  - Language: Italian
+    String: Un piccolo passo
+  - Language: Japanese
+    String: 小さな一歩
+  - Language: Polish
+    String: Mały krok
+  - Language: Portuguese_Brazil
+    String: Um Pequeno Passo
+Data:
+  Flags:
+  - RunOnce
+  Priority: 90
+  Unused: 0x000000
+QuestType: 0475FA:Starfield.esm
+QuestFaction: 0546E1:Starfield.esm
+Summary: In an alternate universe, there is an Other Player who was busy leading their normal life when the Player shows up.
+UnusedConditions: []
+Stages:
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest Init Stage
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player enters Library
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Lodge intro complete; Other You becomes available as Crew
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zur Loge.
+    - Language: English
+      String: Go to the Lodge
+    - Language: Spanish
+      String: Ve a la Logia.
+    - Language: French
+      String: Allez à la Loge.
+    - Language: Italian
+      String: Vai alla Loggia
+    - Language: Japanese
+      String: ロッジに行く
+    - Language: Polish
+      String: Udaj się do Loży
+    - Language: Portuguese_Brazil
+      String: Vá para a Guarida
+  Targets:
+  - AliasID: 5
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Vasco.
+    - Language: English
+      String: Talk to Vasco
+    - Language: Spanish
+      String: Habla con Vasco.
+    - Language: French
+      String: Parlez à Vasco.
+    - Language: Italian
+      String: Parla con Vasco
+    - Language: Japanese
+      String: ヴァスコと話す
+    - Language: Polish
+      String: Porozmawiaj z Vasco
+    - Language: Portuguese_Brazil
+      String: Fale com Vasco
+  Targets:
+  - AliasID: 5
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 1
+  Name: CityNewAtlantisLodgeLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 27C8ED:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: LodgeEnterLibraryTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 1D5AC5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: OtherPlayer
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 1A93A5:Starfield.esm
+  PackageData:
+  - 17F7A7:Starfield.esm
+  VoiceTypes: 1A9052:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: SarahMorgan
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005983:Starfield.esm
+  PackageData:
+  - 0F085D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: WalterStroud
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005996:Starfield.esm
+  PackageData:
+  - 15DEB5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: MatteoKhatri
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00599F:Starfield.esm
+  PackageData:
+  - 15DEC1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: Noel
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00598C:Starfield.esm
+  PackageData:
+  - 15DEDC:Starfield.esm
+  VoiceTypes: Null

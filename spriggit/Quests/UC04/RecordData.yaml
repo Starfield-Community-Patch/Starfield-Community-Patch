@@ -1,0 +1,5831 @@
+FormKey: 2AAE8D:Starfield.esm
+EditorID: UC04
+VirtualMachineAdapter:
+  Scripts:
+  - Name: uc04_questscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AttackPathFloorManagers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvailableCrewFaction
+      Object: 014314:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackUpMinisterHallGuards
+      Object: 2AAE8D:Starfield.esm
+      Alias: 115
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CaptiveCollection
+      Object: 2AAE8D:Starfield.esm
+      Alias: 60
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityNewAtlantisLocation
+      Object: 01295A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CoweringNPCs
+      Object: 2AAE8D:Starfield.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrTerrormorphMindControlEffect_NPC
+      Object: 23F94D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCFactionAlwaysOn
+      Object: 14618F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DisableNPCs
+      Object: 2AAE8D:Starfield.esm
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EmergencyLights
+      Object: 2AAE8D:Starfield.esm
+      Alias: 112
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FireTeamMarine
+      Object: 2AAE8D:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FireTeamMarineCaptain
+      Object: 2AAE8D:Starfield.esm
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Hadrian
+      Object: 2AAE8D:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IACrew
+      Object: 2AAE8D:Starfield.esm
+      Alias: 79
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KneelingNPCs
+      Object: 2AAE8D:Starfield.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: MinisterHallNPCs
+      Objects:
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 7
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 9
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 8
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 10
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 80
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 15
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Obj400Marker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PrimaryFloorManagers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 65
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RunInGuards
+      Object: 2AAE8D:Starfield.esm
+      Alias: 131
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shutters
+      Object: 2AAE8D:Starfield.esm
+      Alias: 63
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceportCrew
+      Object: 2AAE8D:Starfield.esm
+      Alias: 78
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceportGuards
+      Object: 2AAE8D:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_HadrianWarningShoutDistance
+      Object: 0E539D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_MarineFollowerState
+      Object: 0E53AD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_SecurityDeathCount
+      Object: 0E53C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_Spaceport_RunIn_Start_LinkedRef
+      Object: 1EF56A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_UCSecurity_WitnessMindControl
+      Object: 01080A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VanguardCourseFloorManagers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 66
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VanguardRecruitmentFloorManagers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 67
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VoicesDialogueUCSecurity
+      Object: 2BCA40:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WEF_QST_UC04_Shutters_Close
+      Object: 052AD8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_UC04_NewAtlantis_Terrormorph_Alarm_Interior
+      Object: 0E03CE:Starfield.esm
+  - Name: UC04_ToggleHallScreens
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MinisterHall_Screens
+      Object: 2AAE8D:Starfield.esm
+      Alias: 107
+  - Name: uc09questscript
+    Properties:
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: CabinetNPCAliases
+      Objects:
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 7
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 9
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 6
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 8
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 10
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 15
+  Script:
+    Name: Fragments:Quests:QF_UC04_002AAE8D
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AdmiralLogan
+      Object: 2AAE8D:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AdoringFan
+      Object: 2AAE8D:Starfield.esm
+      Alias: 137
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AlliedGuards
+      Object: 2AAE8D:Starfield.esm
+      Alias: 84
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AttackPathFloorManagers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BackUpMinisterHallGuards
+      Object: 2AAE8D:Starfield.esm
+      Alias: 115
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChiefPatel
+      Object: 2AAE8D:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChiefSarkin
+      Object: 2AAE8D:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChiefYasin
+      Object: 2AAE8D:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 2AAE8D:Starfield.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EliteCrew
+      Object: 2AAE8D:Starfield.esm
+      Alias: 117
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EMOrion
+      Object: 2AAE8D:Starfield.esm
+      Alias: 138
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EMWeapon
+      Object: 2AAE8D:Starfield.esm
+      Alias: 90
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EssentialGuards
+      Object: 2AAE8D:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FireTeamMarine
+      Object: 2AAE8D:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FireTeamMarineCaptain
+      Object: 2AAE8D:Starfield.esm
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FireTeamMarineCaptain_Essential
+      Object: 2AAE8D:Starfield.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FireTeamMarine_Essential
+      Object: 2AAE8D:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FollowerThrallFriendFaction
+      Object: 2AAE8D:Starfield.esm
+      Alias: 109
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GagarinBusinessman
+      Object: 2AAE8D:Starfield.esm
+      Alias: 130
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GagarinBusinesswoman
+      Object: 2AAE8D:Starfield.esm
+      Alias: 129
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hadrian
+      Object: 2AAE8D:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HadrianData
+      Object: 2AAE8D:Starfield.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HadrianShip
+      Object: 2AAE8D:Starfield.esm
+      Alias: 103
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_IACrew
+      Object: 2AAE8D:Starfield.esm
+      Alias: 79
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KillFurniture
+      Object: 2AAE8D:Starfield.esm
+      Alias: 118
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeDoorsExt
+      Object: 2AAE8D:Starfield.esm
+      Alias: 75
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeSecretDoor
+      Object: 2AAE8D:Starfield.esm
+      Alias: 76
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MASTMaleWorker04
+      Object: 2AAE8D:Starfield.esm
+      Alias: 123
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MinisterHallElevator
+      Object: 2AAE8D:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MinisterHallEmergencyDoor
+      Object: 2AAE8D:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MinisterHallFloorManager
+      Object: 2AAE8D:Starfield.esm
+      Alias: 124
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MinisterHallGuard
+      Object: 2AAE8D:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MQ204Ship
+      Object: 2AAE8D:Starfield.esm
+      Alias: 142
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NACrewSpawner
+      Object: 2AAE8D:Starfield.esm
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATActivator
+      Object: 2AAE8D:Starfield.esm
+      Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATGateEnableMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 132
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATGuard
+      Object: 2AAE8D:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NatGuard01Furniture
+      Object: 2AAE8D:Starfield.esm
+      Alias: 127
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATGuard02
+      Object: 2AAE8D:Starfield.esm
+      Alias: 87
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NatGuard02Furniture
+      Object: 2AAE8D:Starfield.esm
+      Alias: 126
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATStationEnableMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATThrallF01
+      Object: 2AAE8D:Starfield.esm
+      Alias: 89
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATThrallF02
+      Object: 2AAE8D:Starfield.esm
+      Alias: 113
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATThrallM01
+      Object: 2AAE8D:Starfield.esm
+      Alias: 92
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATThrallM02
+      Object: 2AAE8D:Starfield.esm
+      Alias: 94
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NewAtlantisLocation
+      Object: 2AAE8D:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OfficerSaleh
+      Object: 2AAE8D:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OverhangEnableMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 106
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 2AAE8D:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerFriendFaction
+      Object: 2AAE8D:Starfield.esm
+      Alias: 73
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PresidentAbello
+      Object: 2AAE8D:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PrimaryFloorManagers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 65
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ReconstructionMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 86
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ResourceOfficer
+      Object: 2AAE8D:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RunInGuards
+      Object: 2AAE8D:Starfield.esm
+      Alias: 131
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportCrew
+      Object: 2AAE8D:Starfield.esm
+      Alias: 78
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportDoorToWell
+      Object: 2AAE8D:Starfield.esm
+      Alias: 72
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportEnableMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportGuards
+      Object: 2AAE8D:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportMedic
+      Object: 2AAE8D:Starfield.esm
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportNATCar
+      Object: 2AAE8D:Starfield.esm
+      Alias: 135
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportSecurityDoor
+      Object: 2AAE8D:Starfield.esm
+      Alias: 140
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StarbornHunter
+      Object: 2AAE8D:Starfield.esm
+      Alias: 101
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TableGoodies
+      Object: 2AAE8D:Starfield.esm
+      Alias: 121
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TarmacEnableMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TerrormorphSpawn_Viewport
+      Object: 2AAE8D:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terrormorph_Spaceport
+      Object: 2AAE8D:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terrormorph_Spaceport02
+      Object: 2AAE8D:Starfield.esm
+      Alias: 98
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terrormorph_Spaceport_AmbushTrigger01
+      Object: 2AAE8D:Starfield.esm
+      Alias: 119
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terrormorph_Spaceport_AmbushTrigger02
+      Object: 2AAE8D:Starfield.esm
+      Alias: 120
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terrormorph_Viewport
+      Object: 2AAE8D:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terrormorph_Viewport_Protected
+      Object: 2AAE8D:Starfield.esm
+      Alias: 85
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ThrallEnableMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 97
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TommyBillows
+      Object: 2AAE8D:Starfield.esm
+      Alias: 71
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trigger551
+      Object: 2AAE8D:Starfield.esm
+      Alias: 122
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TriggerStationInterior
+      Object: 2AAE8D:Starfield.esm
+      Alias: 134
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VanguardCourseFloorManagers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 66
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VanguardRecruitmentFloorManagers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 67
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ViewportTMKillPartner
+      Object: 2AAE8D:Starfield.esm
+      Alias: 102
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WarningSignsEnableMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 81
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WellFloorManagers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 105
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WindowMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WoundedSoliders
+      Object: 2AAE8D:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AmmoLaser
+      Object: 00E8EC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF05
+      Object: 21D792:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Elite_Orion
+      Object: 215F41:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrowdDisableNA
+      Object: 1451A1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrTerrormorphMindControl
+      Object: 23F94C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker01
+      Object: 0224CA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker02
+      Object: 2AAD88:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker02a
+      Object: 23C0D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker03
+      Object: 2AABC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker03a
+      Object: 23C0D0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker04
+      Object: 2AABCA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker04a
+      Object: 23F9B4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker05
+      Object: 035242:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker07
+      Object: 2A9493:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCFactionAlwaysOn
+      Object: 14618F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCNAConvo_SecurityOffice
+      Object: 06422E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCNewAtlantisUC01Vanguard
+      Object: 2C5402:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis01
+      Object: 24C3A1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadrianAdminTeleportMarker
+      Object: 23F9B4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadrianInitialSceneMarker
+      Object: 23F9CB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadrianMASTNATMarker
+      Object: 069481:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadrianNATMarker
+      Object: 2AADAF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadrianSceneMarker
+      Object: 23F9CB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadrianStarportMarker
+      Object: 2AAD94:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadrianTeleportMarker
+      Object: 2AAD97:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleChatterTimeMax
+      Object: 0002CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleChatterTimeMin
+      Object: 0002CC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Invulnerable
+      Object: 000390:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204
+      Object: 2C6D74:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_TurnOffCF01Arrest
+      Object: 07C702:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NewAtlantisShipLandingMarker
+      Object: 023605:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_UC04_Distant_Explosion
+      Object: 2D4441:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RAD02
+      Object: 29EF60:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipEnabledLandingLink
+      Object: 01448D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_CargoShipsStayInOrbit
+      Object: 23F86A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TestVSWeapons
+      Object: 24AA02:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TraitUnwantedHero
+      Object: 0EFFCF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC02_HadrianKnowsPlayerIsVanguard
+      Object: 26DD0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_400_MinisterScene
+      Object: 23F9B5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_450_MinistersSceneCont
+      Object: 2AADC8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_610_HadrianShout
+      Object: 2AAD96:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_650_SalehShout
+      Object: 2AAD8D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_AdmiralLogan_Scene900
+      Object: 23F977:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_ChiefSarkin_Scene900
+      Object: 23F970:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_DebugMarker08a
+      Object: 22345A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_DEBUG_AdditionalMurderToys
+      Object: 2AAD91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_DEBUG_ExplosionInTheDistance
+      Object: 2AADC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_DEBUG_MoveToSpaceport
+      Object: 2A9497:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_DEBUG_PaintTheScene800
+      Object: 2AAD8C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_PlayerKnows_TerrormorphProjectFailed
+      Object: 0E53C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_Spaceport_EnableMarker_Actors
+      Object: 03FD15:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_200_HadrianAttractScene
+      Object: 23F9CA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_350_AnnoucementScene
+      Object: 23F9BB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_350_HadrianPreCabinetScene
+      Object: 23F9BF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_550_CabinetPostMainScene
+      Object: 2AADAC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_577_NATGuards_SpeakToPlayer
+      Object: 32985D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_580_Hadrian_EMWeaponAcquired
+      Object: 329862:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_582_Hadrian_UseEMWeapon
+      Object: 329883:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_583_Hadrian_FirstStunned
+      Object: 329885:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_590_Hadrian_EMWeaponAcquired
+      Object: 329862:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_600_Hadrian_ConfirmOrders
+      Object: 0E53BA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_602_NATGuard_OntoTheNAT
+      Object: 32986A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_605_EmergencyAnnouncementScene
+      Object: 23F81E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_610a_TerrormorphPairedKillAnim
+      Object: 0714DD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_615_EmergencyBroadcast02
+      Object: 23F811:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_615_MedicScene
+      Object: 23F932:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_690_CompanionRxn_FirstTerrormorphDead
+      Object: 23F59F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_695_Yumi_Post2ndMorphKilled
+      Object: 0E53C2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_820_Hadrian_MarinesMindControlled
+      Object: 0E53AE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_848_CompanionRxn_FinalTerrormorphDead
+      Object: 23F59C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_860_SituationResolvedScene
+      Object: 223432:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_910_PresAttract
+      Object: 23F973:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_AttackActive
+      Object: 23F985:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_CabinetConvincePoints
+      Object: 226452:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_ContrabandLockerKey
+      Object: 23F92B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_ConvincedYasin
+      Object: 21CA91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_DEBUG_AnimationIssues
+      Object: 22345B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_DEBUG_LastTimeOnTheUC
+      Object: 1FF68C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_DEBUG_MoveToNATStation
+      Object: 223459:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_DEBUG_WhatsChanged
+      Object: 1FF68D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_DisableSpaceportCrowds
+      Object: 01BC03:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_HadrianNameUpdate
+      Object: 146116:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_Hadrian_Scene400Marker
+      Object: 23F9AF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_JakobSandboxing_PostUC03
+      Object: 20B7DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_LockdownActive
+      Object: 219A81:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_MarinesDied
+      Object: 23F9C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_MASTNatActive
+      Object: 10D181:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_NATGuardFriendFaction
+      Object: 329870:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_NATThrallEnemyFaction
+      Object: 32986F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_NATThrallFaction
+      Object: 329856:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_NAT_ThrallsKilled
+      Object: 329878:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_OfficerYumi_Scene700Marker
+      Object: 2A9496:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_PlayerKilledAnyGuard
+      Object: 0E53C5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_PostAttackDialogueActive
+      Object: 23F92A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_SpaceportGuard_ReduceMorphDamage
+      Object: 057B59:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_Terrormorph_CustomLoc
+      Object: 04AEC8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_Thrall_KnockedOutKeyword
+      Object: 32987B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_TurnOffArrestScene
+      Object: 28DC0D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC05
+      Object: 2A39BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC05_DebugMarker13
+      Object: 1D7CC7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_Hadrian_ECCombatDialogueActive
+      Object: 1477CE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_NA_CL_DiplomatScene
+      Object: 373072:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_NA_CL_GagarinTransferScene
+      Object: 235D2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_NA_CL_RealtyOfficeScene
+      Object: 0EC514:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_NA_CL_TolimanScene
+      Object: 0068AD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_PlayerDealthwithCFConsequences
+      Object: 0E53B7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WeaponTypeEM
+      Object: 27DF95:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_NewAtlantis_EmergencyAlarm_Off_State
+      Object: 030A9C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_NewAtlantis_EmergencyAlarm_On_State
+      Object: 030A99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_UC04_NewAtlantis_Terrormorph_ShipDebris_Off_State
+      Object: 030A98:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_UC04_NewAtlantis_Terrormorph_ShipDebris_On_State
+      Object: 030A97:Starfield.esm
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0008_Item_00
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0009_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0011_Item_00
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0013_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 16
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0016_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0105_Item_00
+  - Stage: 225
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0225_Item_00
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0250_Item_00
+  - Stage: 301
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0301_Item_00
+  - Stage: 305
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0305_Item_00
+  - Stage: 343
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0343_Item_00
+  - Stage: 345
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0345_Item_00
+  - Stage: 347
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0347_Item_00
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 351
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0351_Item_00
+  - Stage: 360
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0360_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 402
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0402_Item_00
+  - Stage: 403
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0403_Item_00
+  - Stage: 405
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0405_Item_00
+  - Stage: 407
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0407_Item_00
+  - Stage: 408
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0408_Item_00
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 415
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0415_Item_00
+  - Stage: 416
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0416_Item_00
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0420_Item_00
+  - Stage: 421
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0421_Item_00
+  - Stage: 422
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0422_Item_00
+  - Stage: 423
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0423_Item_00
+  - Stage: 424
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0424_Item_00
+  - Stage: 425
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0425_Item_00
+  - Stage: 430
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0430_Item_00
+  - Stage: 452
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0452_Item_00
+  - Stage: 455
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0455_Item_00
+  - Stage: 456
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0456_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0550_Item_00
+  - Stage: 551
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0551_Item_00
+  - Stage: 556
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0556_Item_00
+  - Stage: 570
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0570_Item_00
+  - Stage: 575
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0575_Item_00
+  - Stage: 577
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0577_Item_00
+  - Stage: 580
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0580_Item_00
+  - Stage: 581
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0581_Item_00
+  - Stage: 582
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0582_Item_00
+  - Stage: 585
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0585_Item_00
+  - Stage: 586
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0586_Item_00
+  - Stage: 587
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0587_Item_00
+  - Stage: 588
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0588_Item_00
+  - Stage: 589
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0589_Item_00
+  - Stage: 590
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0590_Item_00
+  - Stage: 591
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0591_Item_00
+  - Stage: 592
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0592_Item_00
+  - Stage: 593
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0593_Item_00
+  - Stage: 594
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0594_Item_00
+  - Stage: 595
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0595_Item_00
+  - Stage: 599
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0599_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 601
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0601_Item_00
+  - Stage: 602
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0602_Item_00
+  - Stage: 603
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0603_Item_00
+  - Stage: 610
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0610_Item_00
+  - Stage: 615
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0615_Item_00
+  - Stage: 620
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0620_Item_00
+  - Stage: 625
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0625_Item_00
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0650_Item_00
+  - Stage: 651
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0651_Item_00
+  - Stage: 655
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0655_Item_00
+  - Stage: 689
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0689_Item_00
+  - Stage: 690
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0690_Item_00
+  - Stage: 715
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0715_Item_00
+  - Stage: 716
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0716_Item_00
+  - Stage: 717
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0717_Item_00
+  - Stage: 720
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0720_Item_00
+  - Stage: 730
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0730_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 805
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0805_Item_00
+  - Stage: 810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0810_Item_00
+  - Stage: 815
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0815_Item_00
+  - Stage: 820
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0820_Item_00
+  - Stage: 825
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0825_Item_00
+  - Stage: 830
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0830_Item_00
+  - Stage: 835
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0835_Item_00
+  - Stage: 845
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0845_Item_00
+  - Stage: 847
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0847_Item_00
+  - Stage: 850
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0850_Item_00
+  - Stage: 851
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0851_Item_00
+  - Stage: 860
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0860_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 910
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0910_Item_00
+  - Stage: 911
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0911_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_1000_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 2
+    Scripts:
+    - Name: defaultaliasonlocationchange
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 01295A:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 200
+    - Name: UC04_PlayerAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CityNewAtlantisLocation
+        Object: 01295A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MUSGenesisCombat_UC04
+        Object: 2AA950:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_WeaponIsTypeEM
+        Object: 0971FE:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 3
+    Scripts:
+    - Name: defaultaliasontriggerentermultiactor
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 105
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 225
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: TriggerAliases
+        Objects:
+        - Name: ''
+          Object: 2AAE8D:Starfield.esm
+          Alias: 2
+        - Name: ''
+          Object: 2AAE8D:Starfield.esm
+          Alias: 12
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 300
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 12
+    Scripts:
+    - Name: UC03_AliasMoveRefOnUnload
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TeleportMarker01
+        Object: 2AADAF:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TeleportMarker02
+        Object: 23F9CB:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TeleportMarker03
+        Object: 23F9B4:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 14
+    Scripts:
+    - Name: UC04_CabinetTriggerEnterScript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NotAllowedDuringCombat
+        Object: 1413FD:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 350
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 400
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 425
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 18
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 594
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 595
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 586
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 590
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 19
+    Scripts:
+    - Name: UC04_GuardDeathCount
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_AttackActive
+        Object: 23F985:Starfield.esm
+    - Name: UC04_KilledByPlayerCollScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_AttackActive
+        Object: 23F985:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 20
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 690
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 610
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 689
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 800
+    - Name: UC04_TerrormorphAliasScript
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 21
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 690
+      - MutagenObjectType: ScriptBoolProperty
+        Name: UseOnDyingInstead
+        Data: True
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 22
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 610
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 26
+    Scripts:
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 815
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 830
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 27
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 650
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 28
+    Scripts:
+    - Name: uc03_spaceportguardrefcoll
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 29
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 259
+    - Name: DefaultAliasOnActivateA
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 900
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 959
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 38
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 350
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 360
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 400
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 39
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 805
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 845
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 850
+    - Name: UC04_KilledByPlayerScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_AttackActive
+        Object: 23F985:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 40
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 805
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 847
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 850
+    - Name: UC04_KilledByPlayerScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_AttackActive
+        Object: 23F985:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 46
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 900
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 910
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 49
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 625
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 850
+    - Name: DefaultAliasOnTriggerEnterA
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 850
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 860
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 910
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 51
+    Scripts:
+    - Name: uc03_spaceportguardrefcoll
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 53
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 570
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 850
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 55
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 615
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 850
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 83
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 601
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 85
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 690
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: FailOnDeadActor
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 610
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 689
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 800
+    - Name: UC04_TerrormorphAliasScript
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 87
+    Scripts:
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 586
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 590
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 89
+    Scripts:
+    - Name: AliasSetStageOnActorValueChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: AVThreshold
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 589
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WatchedValue
+        Object: 00039E:Starfield.esm
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 592
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 585
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 590
+    - Name: UC04_ThrallAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TriggerStationInterior
+        Object: 2AAE8D:Starfield.esm
+        Alias: 134
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_Thrall_TeleportMarker_LinkedRef
+        Object: 004E2A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_WeaponIsTypeEM
+        Object: 0971FE:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 90
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 580
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 92
+    Scripts:
+    - Name: AliasSetStageOnActorValueChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: AVThreshold
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 588
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WatchedValue
+        Object: 00039E:Starfield.esm
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 591
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 585
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 590
+    - Name: UC04_ThrallAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TriggerStationInterior
+        Object: 2AAE8D:Starfield.esm
+        Alias: 134
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_Thrall_TeleportMarker_LinkedRef
+        Object: 004E2A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_WeaponIsTypeEM
+        Object: 0971FE:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 93
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 577
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 94
+    Scripts:
+    - Name: AliasSetStageOnActorValueChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: AVThreshold
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 587
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WatchedValue
+        Object: 00039E:Starfield.esm
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 593
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 585
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 590
+    - Name: UC04_ThrallAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TriggerStationInterior
+        Object: 2AAE8D:Starfield.esm
+        Alias: 134
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_Thrall_TeleportMarker_LinkedRef
+        Object: 004E2A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_WeaponIsTypeEM
+        Object: 0971FE:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 98
+    Scripts:
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 815
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 835
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 111
+    Scripts:
+    - Name: UC04_RefColl_WarnIfHitScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 575
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 582
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 610
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WeaponTypeEM
+        Object: 27DF95:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 113
+    Scripts:
+    - Name: AliasSetStageOnActorValueChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: AVThreshold
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 602
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WatchedValue
+        Object: 00039E:Starfield.esm
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 603
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 585
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 590
+    - Name: UC04_ThrallAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TriggerStationInterior
+        Object: 2AAE8D:Starfield.esm
+        Alias: 134
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_Thrall_TeleportMarker_LinkedRef
+        Object: 004E2A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_WeaponIsTypeEM
+        Object: 0971FE:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 119
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 815
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 120
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 815
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 121
+    Scripts:
+    - Name: UC04_TableGoodiesCollScript
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 122
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 425
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 551
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 850
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Augenzeuge
+  - Language: English
+    String: Eyewitness
+  - Language: Spanish
+    String: Testigo ocular
+  - Language: French
+    String: Témoin
+  - Language: Italian
+    String: Testimonianza oculare
+  - Language: Japanese
+    String: 目撃者
+  - Language: Polish
+    String: Naoczny świadek
+  - Language: Portuguese_Brazil
+    String: Testemunha Ocular
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 82
+  Unused: 0x000000
+QuestType: 0475FD:Starfield.esm
+QuestFaction: 0546DC:Starfield.esm
+Summary: >-
+  The player has agreed to help Hadrian address the United Colonies Cabinet in hopes of getting access to their old Terrormorph research. The player can attempt to convince them to - or advice them against - opening the Armistice Archives, the respository of knowledge from the Colony War. 
+
+
+  Just as the decision is coming down, Terrormorphs attack the city. The player and Hadrian have to protect the city from the Terrormorphs rampaging around the spaceport. Once they have, they can return to the President, who informs them they've decided to help the player access the information they requested from the Archives.
+UnusedConditions: []
+Stages:
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Quest start.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Skip the NAT and head directly into MAST'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: Jump to post-Hadrian's intro scene"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Jump to Cabinet Chambers'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Move the player and Hadrian down to the spaceport NAT station'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Jump the player and Hadrian to the scene with Officer Yumi'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Jump the player to the wrap up scene with Officer Yumi'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Set the player and Hadrian up to play through the post-main Cabinet scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Jump the player to the NAT sequence'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Turn on the attack state'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 11
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Apply the Terrormorph effect'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 12
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: Jump the player to the President's wrap-up scene."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 13
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Jump the player to the fight with the psychic Terrormorph'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Throw the UC Act One story recap'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 16
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Trigger the shutters'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest started. Direct player to New Atlantis.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Hadrian hat gesagt, sie wartet vor dem MAST in New Atlantis auf mich.
+      - Language: English
+        String: Hadrian said she'll be waiting for me outside of MAST in New Atlantis.
+      - Language: Spanish
+        String: Hadrian ha dicho que me espera delante del TAMC, en Nueva Atlántida.
+      - Language: French
+        String: Hadrian m'a dit qu'elle m'attendrait à l'extérieur du TAMS, à New Atlantis.
+      - Language: Italian
+        String: Hadrian ha detto che mi aspetterà all’esterno del TASM di Nuova Atlantide.
+      - Language: Japanese
+        String: ヘイドリアンはニューアトランティスのMASTの外で待っているという
+      - Language: Polish
+        String: Hadrian obiecała na mnie czekać przed WNAT-em w Nowej Atlantydzie.
+      - Language: Portuguese_Brazil
+        String: Hadrian disse que vai ficar me esperando na frente do TAMC em Nova Atlântida.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PASS 2: Hadrian has unloaded and been teleported from Mars to New Atlantis (set from her alias script).'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player arrived on New Atlantis (set from Change Loc alias script on player). Update their QT.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 225
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "PASS 2: Player entered Hadrian's trigger. Start her scene."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 240
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "PASS 2: Player hit Hadrian's loop in the Slate hand off scene. Get them back to the loop when they come back."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PASS 2: Hadrian main scene completed. Give the player the slate and direct them to MAST.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "HADRIAN PRE-CABINET: Player started Hadrian's intro scene"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 301
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PASS 2: Player convinced the resource officer to move with some haste'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 305
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PASS 2: Resource Officer hit her trigger. Disable her.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 340
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Hadrian said one of her blocking hellos during the MQ204 attack. Used to unlock more dialogue in her pre-Cabinet scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 341
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Jump back line for if the player hasn't yet told Hadrian they're Vanguard."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 342
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Jump back line for Hadrian intro scene if they hit the "lemme tell you about my daddy" section'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 343
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Hadrian now knows player is Vanguard'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 345
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "PASS 2: Player hit Hadrian's final player dialogue loop in the pre-scene. Save their game and get 'em back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 346
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PASS 2: Hadrian informed the player her father is Vae Victis. Close off the question at the end of the quest.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 347
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: The player asked if the Terrormorph data's dangerous. Set that var."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 348
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P-Late: Player hit the \"I'm a clone\" part of Hadrian's inital scene. If they drop out now, get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PASS 2: Player finished scene with Hadrian outside. Trigger the announcement calling them inside.'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir sollen dem Kabinett unsere Befunde präsentieren. Dazu müssen wir zum Kabinettssaal auf der obersten Ebene des MAST.
+      - Language: English
+        String: We've been summoned by the Cabinet to present our findings. Looks like we're heading to the Cabinet Chambers on the top floor of MAST.
+      - Language: Spanish
+        String: El Gabinete nos ha convocado para que presentemos nuestros hallazgos. Al parecer, nos dirigimos a las dependencias del Gabinete, situadas en la planta más alta del TAMC.
+      - Language: French
+        String: Nous avons reçu une convocation du Cabinet pour présenter nos découvertes. Nous devons nous rendre dans la Salle du Cabinet, au dernier étage du TAMS.
+      - Language: Italian
+        String: Siamo stati convocati dal Gabinetto per presentare le nostre scoperte. Ci aspettano nelle Camere all’ultimo piano del TASM.
+      - Language: Japanese
+        String: 内閣に召喚されて、調査結果を発表することになった。どうやらMAST最上階の閣議室へ向かうことになったようだ
+      - Language: Polish
+        String: Rząd wezwał nas celem wysłuchania naszych ustaleń. Musimy udać się do sali obrad rządu na najwyższym piętrze WNAT-u.
+      - Language: Portuguese_Brazil
+        String: Fomos convocados pelo Gabinete para relatar nossas descobertas. Temos que ir à Câmara do Gabinete no último andar do TAMC.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 351
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'HADRIAN PRE-CABINET: She and the player just heard the announcement. Eval her plackage and get her moving.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 355
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hadrian unloaded. Get her into position in the Cabinet area.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 360
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PASS 2: Player arrived in Cabinet Chambers. Get Hadrian moving into position.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player entered the trigger in the Ministers' Hall. Start that scene.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Das Kabinett ist versammelt und bereit, uns anzuhören.
+      - Language: English
+        String: The Cabinet's assembled and ready to hear what we have to say.
+      - Language: Spanish
+        String: El Gabinete se ha reunido y está dispuesto a escuchar lo que tengamos que decir.
+      - Language: French
+        String: Le Cabinet est réuni et prêt à écouter ce que nous venons lui dire.
+      - Language: Italian
+        String: Il Gabinetto si è riunito ed è pronto ad ascoltarci.
+      - Language: Japanese
+        String: 内閣が招集され、こちらの話を聞く体勢になっている
+      - Language: Polish
+        String: Rząd zebrał się i jest gotów wysłuchać tego, co mamy do powiedzenia.
+      - Language: Portuguese_Brazil
+        String: O Gabinete está reunido e pronto para ouvir o que temos a dizer.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 401
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Player got out of the scene with the Cabinet at the first player choice. Get them back to that point.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 402
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player hit the 2nd player dialogue in the main minster scene. Get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 403
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Player made an election in the second player choice. Get them back to after that moment.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 404
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Player made an election in the "Anything wrong with this morph" option. Get the player back in the conversation after that point.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 405
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "MAJOR: FAST TRAVEL: Player started the scene with the Cabinet. Lock 'em in."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 406
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Player made an election in the final player choice. Get them back to the decision.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 407
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player finished the CF conflict section. Set the appropriate global so we don't have to deal with that again."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 408
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5: Get Yasin turning around in the Main Cabinet scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hadrian/Ministers intro scene done. Direct the player to speak to the President.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 415
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "(P2) MAIN MINISTER: Player chose one of the mot convincing options in the Main Minister's scene. Give them two Convince Points"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 416
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '(P2) MAIN MINISTER: Player chose on of the lesser convincing points in the first player choice.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '(P2) MAIN MINISTER: Player chose one of the most compelling options from the second player choice.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 421
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '(P2) MAIN MINISTER: Player chose one of the lesser compelling options from the second player choice.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 422
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "(P2) MAIN MINISTER: Player chose the \"no, don't open the Archives\" option. Auto-fail convincing Yasin. Also set from stage 423."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 423
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "(P2.5) MAIN MINISTER: Player chose the \"no, don't open the Archives\" option. Auto-fail convincing Yasin and unlocks stabbed in the back dialogue for Hadrian"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 424
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Player chose the Starborn line for the Main Minister scene. Insta-win.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 425
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'MAIN MINISTER: Main Minister scene has completed (used to manage hellos for NPCs)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 430
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Das Kabinett war kurz davor, uns Hilfe beim Zugang zum Archiv zuzusichern, als draußen irgendetwas explodierte. Ich sollte versuchen, zu hören, was los ist.
+      - Language: English
+        String: The Cabinet was about to agree to help us access the Archives when there was some sort of explosion outside. I should listen in to hear what's going on.
+      - Language: Spanish
+        String: El Gabinete estaba a punto de facilitarnos el acceso a los Archivos cuando se ha producido una especie de explosión fuera. Debo poner atención para descubrir qué ocurre.
+      - Language: French
+        String: Le Cabinet allait accepter de nous laisser accéder aux archives quand une explosion a retenti à l'extérieur. Je ferais bien de tendre l'oreille pour savoir ce qui se passe.
+      - Language: Italian
+        String: Il Gabinetto stava per acconsentire ad aiutarci ad accedere agli Archivi quando fuori c’è stata una specie di esplosione. Dovrei drizzare le orecchie per capire che sta succedendo.
+      - Language: Japanese
+        String: 内閣がアーカイブへのアクセスに協力を同意しようとした矢先に、外で何かの爆発が起こった。何が起こっているのか話に耳を傾けよう
+      - Language: Polish
+        String: Rząd miał się zgodzić pomóc nam uzyskać dostęp do Archiwów, gdy nagle nastąpił jakiś wybuch. Muszę posłuchać, co się dzieje.
+      - Language: Portuguese_Brazil
+        String: Houve uma explosão do lado de fora justo quando o Gabinete estava prestes a concordar em nos ajudar a acessar os Arquivos. Tenho que ouvir para descobrir o que está acontecendo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 430
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Das Kabinett wollte gerade über die Archivfrage entscheiden, als draußen irgendetwas explodierte. Ich sollte versuchen, zu hören, was los ist.
+      - Language: English
+        String: The Cabinet was about to make their ruling on the Archives when there was some sort of explosion outside. I should listen in to hear what's going on.
+      - Language: Spanish
+        String: El Gabinete estaba a punto de emitir su veredicto con respecto a los Archivos cuando ha sonado una especie de explosión fuera. Debo poner atención para descubrir qué ocurre.
+      - Language: French
+        String: Le Cabinet était sur le point de statuer concernant les archives quand une explosion a retenti à l'extérieur. Je ferais bien de tendre l'oreille pour savoir ce qui se passe.
+      - Language: Italian
+        String: Il Gabinetto stava per prendere una decisione in merito agli Archivi quando fuori c’è stata una specie di esplosione. Dovrei drizzare le orecchie per capire che sta succedendo.
+      - Language: Japanese
+        String: 内閣がアーカイブに関する決議を下そうとした矢先に、外で何かの爆発が起こった。何が起こっているのか話に耳を傾けよう
+      - Language: Polish
+        String: Rząd miał podjąć decyzję w sprawie Archiwów, gdy nagle nastąpił jakiś wybuch. Muszę posłuchać, co się dzieje.
+      - Language: Portuguese_Brazil
+        String: Houve uma explosão do lado de fora justo quando o Gabinete estava prestes a tomar uma decisão quanto aos Arquivos. Tenho que ouvir para descobrir o que está acontecendo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 430
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '(P2) MAIN MINISTER: Player convinced the Chief Diplomat.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 431
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '(P2) MAIN MINISTER: Player failed to convince the Chief Diplomat.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DON'T USE: Main Minister scene complete. Trigger the explosion in the distance and the next scene."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 451
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'MAIN MINISTER: President Abello is now on her feet'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 452
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Lockdown line played. Close the shutters.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 453
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5: Post-Explosion: Abello gave Sarkin his orders. Get him into the furniture to listen to his ear piece'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 455
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'MAIN MINISTER: Have Logan approach the Pres'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 456
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P4.5: Toggle on the emergency alarms inside the Minister's Hall"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene completed. Direct the player into the elevator.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 505
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hadrian has unloaded and been teleported from MAST to the NAT station (set from her alias script).
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player hit the trigger around the NAT station scene. Start it up.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "MAJOR: President Abello's scene is done. Open up the next one. Handle's the attack state change as well!"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 551
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5: Player hit the trigger outside the Minister Hall elevator after 425. Get the Back Up guards hustling in.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 555
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PRES PRE-FIGHT: Player hit choice. Get them back there if they bail.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 556
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P-Late: Turned off the adoring fan earlier. Turn him on again now. Set from stage 555'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 560
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player demanded extra pay from the President.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 570
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Guard scene triggered'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Zwei UC-Security-Leute werden angegriffen ... offenbar von einem zivilen Mob? Wir müssen herausfinden, was hier vor sich geht.
+      - Language: English
+        String: A pair of UC Security officers appear to be under attack by... a group of UC citizens. We need to figure out what's going on here.
+      - Language: Spanish
+        String: Una pareja de guardias de las CU está siendo atacada por... ciudadanos de las CU. Tenemos que averiguar qué está pasando aquí.
+      - Language: French
+        String: Deux officiers de la sécurité de l'UC semblent avoir été attaqués par... un groupe de citoyens de l'UC. Nous devons tirer cette affaire au clair.
+      - Language: Italian
+        String: Sembra che un paio di agenti della Sicurezza UC siano sotto attacco da parte di... un gruppo di cittadini. Dobbiamo capire che sta succedendo.
+      - Language: Japanese
+        String: 2人のUC警備隊員が攻撃を受けている。相手は… UC市民の一団だ。何が起こっているのか確かめる必要がある
+      - Language: Polish
+        String: Dwójka ochroniarzy ZK jest atakowana przez... grupę obywateli ZK. Musimy się dowiedzieć, co się tu dzieje.
+      - Language: Portuguese_Brazil
+        String: Ao que parece, tem um grupo de oficiais da segurança da UC sendo atacado por... civis da União. Temos que descobrir o que está acontecendo.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 575
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Guard scene complete. Direct the player to collect their EM weapon '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 580
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 590
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich muss eine EM-Waffe finden, um diese Angreifer auszuschalten.
+      - Language: English
+        String: I need to find an EM weapon so I can knock out these hostiles.
+      - Language: Spanish
+        String: Tengo que buscar un arma electromagnética para abatir a los agresores.
+      - Language: French
+        String: Je dois trouver une arme EM pour éliminer tous ces hostiles.
+      - Language: Italian
+        String: Devo trovare un’arma EM per mettere al tappeto gli aggressori.
+      - Language: Japanese
+        String: EM兵器を見つけて、この敵たちを気絶させなければ
+      - Language: Polish
+        String: Muszę znaleźć broń EM, żeby ogłuszyć nieprzyjaźnie nastawionych.
+      - Language: Portuguese_Brazil
+        String: Preciso encontrar uma arma EM para apagar essa gente agressiva.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 577
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Player approached the guards. Play their acknowledgement scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 580
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Player collected the EM weapon. Equip it and direct them to stun the  Thralls.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 590
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe eine EM-Waffe! Es wird Zeit, hier für Ordnung zu sorgen!
+      - Language: English
+        String: EM weapon collected! Time to put this hostile citizenry to sleep!
+      - Language: Spanish
+        String: ¡Arma electromagnética conseguida! ¡Hora de dar las buenas noches a los ciudadanos hostiles!
+      - Language: French
+        String: Arme électromagnétique récupérée ! Il est temps de s'occuper de ces citoyens hostiles.
+      - Language: Italian
+        String: Arma EM recuperata! È ora di riportare l’ordine!
+      - Language: Japanese
+        String: EM兵器を回収した！ 敵対した市民たちを眠らせるとしよう！
+      - Language: Polish
+        String: Broń EM zebrana! Czas uśpić wrogich obywateli!
+      - Language: Portuguese_Brazil
+        String: Arma EM em mãos! Hora de botar esses civis hostis para dormir!
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 581
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5: Player equipped an EM weapon. Update the objectives'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 582
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5: Player shot an NPC with a non-EM weapon. Have Hadrian warn the player.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 583
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Hadrian shouted out after the first thrall was stunned. Turn off subsequent shots.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 585
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3.5: Thralls were aggro'd by the player. Change up the objectives. (Can happen from proximity or OnHit for the Thralls)"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Note: "P3.5: Player aggro'd the Thralls"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 586
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Either of the guards got hit. Have them open fire on the Thralls.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 587
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Thrall M02 downed. Check to see if the rest are.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 588
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Thrall M01 downed with an EM weapon. Check to see if Thrall two is downed and proceed.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 589
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Thrall F01 downed with an EM weapon. Check to see if Thrall two is downed and proceed.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 590
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Thralls have both been downed.'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Angreifer sind kein Problem mehr. Ich sollte von den Wachen herausfinden, was hier passiert ist.
+      - Language: English
+        String: The hostiles have been dealt with. I should talk to the guards to figure out what happened here.
+      - Language: Spanish
+        String: Hemos neutralizado a los agresores. Será mejor que hable con los guardias para averiguar qué ha pasado aquí.
+      - Language: French
+        String: Les hostiles ne sont plus un problème. Je devrais parler aux gardes pour comprendre ce qui s'est passé.
+      - Language: Italian
+        String: Gli ostili sono stati sistemati. Dovrei parlare con gli agenti per scoprire cos’è successo.
+      - Language: Japanese
+        String: 敵は片付いた。警備員と話をして、ここで何があったのか確かめよう
+      - Language: Polish
+        String: Zajęliśmy się wrogami. Muszę porozmawiać ze strażnikami, żeby dowiedzieć się, co tu się stało.
+      - Language: Portuguese_Brazil
+        String: Lidamos com os indivíduos hostis. Preciso falar com os guardas para descobrir o que aconteceu aqui.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 591
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Thrall M01 killed. If done before the wrap-up scene, changes the dialogue. After, causes Hadrian to shout.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 592
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Thrall F01 killed. If done before the wrap-up scene, changes the dialogue. After, causes Hadrian to shout.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 593
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Thrall M02 killed. If done before the wrap-up scene, changes the dialogue. After, causes Hadrian to shout.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 594
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5: Player (and only the player) killed Nat Guard 01. Used to change up the scene with NAT Guard 02.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 595
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Post-Thrall scene completed. Get the remaining guard over to the NAT.'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Diese Leute wurden von einem Terrormorph kontrolliert, und das bedeutet, dass wir am Raumhafen besonders vorsichtig sein müssen. Wir sollten so schnell wie möglich dorthinkommen.
+      - Language: English
+        String: Those people were mind-controlled by a Terrormorph... which means we're going to need to be extra careful down at the spaceport. We need to get down there on the double.
+      - Language: Spanish
+        String: Un horromorfo ejercía control mental sobre esas personas... Habrá que andarse con pies de plomo en el espaciopuerto. Tenemos que llegar allí cuanto antes.
+      - Language: French
+        String: Un horrimorphe contrôlait ces gens par la pensée... ce qui signifie que nous allons devoir redoubler de prudence au port spatial. Nous devons y aller au pas de course.
+      - Language: Italian
+        String: Quella gente era sotto il controllo mentale di un terrormorfo... il che significa che dovremo fare molta attenzione giù allo spazioporto. Dobbiamo recarci subito sul posto.
+      - Language: Japanese
+        String: あの人々はテラーモーフに精神操作されていた… つまり、宇宙港ではより一層の注意を払う必要があるということだ。至急、現場まで降りよう
+      - Language: Polish
+        String: Ci ludzie byli opanowani przez terrormorfa... co oznacza, że trzeba zachować szczególną ostrożność w porcie kosmicznym. Musimy się tam czym prędzej udać.
+      - Language: Portuguese_Brazil
+        String: Aquelas pessoas estavam sendo controladas por um terrormorfo... Ou seja, vamos ter que tomar muito cuidado no espaçoporto. Temos que ir para lá o quanto antes.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 596
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3.5: NAT's unlocked. Direct the player down there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 597
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Player hit the first choice in NAT post-fight. Get them back there if they drop.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 598
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Player hit the secondchoice in NAT post-fight. Get them back there if they drop.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 599
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Turn off the Thralls and proceed the sequence'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "President Abello's NAT scene complete. Direct the player down to the spaceport. NOTE: Hadrian's name also updates at this point!"
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Präsidentin will Hadrian und mich schnellstmöglich am Raumhafen. Wir müssen sofort mit dem Aufzug zur NAT-Haltestelle!
+      - Language: English
+        String: The President wants Hadrian and I down at the spaceport on the double! We need to take the elevator down to the NAT station now!
+      - Language: Spanish
+        String: ¡La presidenta nos quiere a Hadrian y a mí en el espaciopuerto de inmediato! ¡Tenemos que coger el ascensor que baja a la estación del TNA ahora mismo!
+      - Language: French
+        String: La présidente a demandé à ce qu'Hadrian et moi nous rendions au port spatial en soutien ! Nous devons prendre l'ascenseur pour rejoindre la station de l'ETNA !
+      - Language: Italian
+        String: La presidente vuole che io e Hadrian raggiungiamo di corsa lo spazioporto! Dobbiamo prendere l’ascensore per scendere alla stazione NAT!
+      - Language: Japanese
+        String: 大統領に、ヘイドリアンと一緒に至急宇宙港まで降りてくるよう言いつかった！ 今すぐエレベーターに乗ってNATステーションに降りよう！
+      - Language: Polish
+        String: Prezydentka wysyła mnie i Hadrian do portu kosmicznego! Musimy zjechać windą do stacji NAT-u!
+      - Language: Portuguese_Brazil
+        String: A presidente pediu para eu e Hadrian irmos o mais rápido possível para o espaçoporto! Temos que pegar o elevador para a estação NAT agora!
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 601
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PRE-FIGHT: Player got out into the MAST NAT station. Update their objective target'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 602
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P4.5: Thrall F02 was downed. Check to make sure the other's are down as well."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 603
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5: Thrall F02 was killed. Check the state of the others.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 605
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PRE-FIGHT: Nat Station: Player hit scene trigger. Trigger broadcast.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player arrived at the spaceport NAT station. Kick things off down here.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 615
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PRE-FIGHT: Trigger second emergency broadcast'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 620
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hadrian's shout scene played out. Get her moving.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 625
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "PRE-FIGHT: Trigger Marine Medic' line"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 627
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PRE-FIGHT: Marine finished her scene. Get her out of her fixed furniture.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 650
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player got to the spaceport and the Morph is still alive. Have Saleh give the order to have the player help
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 690
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir haben den Raumhafen erreicht. Ich muss herausfinden, wer hier den Befehl hat, und Bescheid sagen, dass wir hier sind, um zu helfen.
+      - Language: English
+        String: We've arrived at the spaceport. I need to find the officer in charge and let them know we're here to help.
+      - Language: Spanish
+        String: Hemos llegado al espaciopuerto. Tengo que buscar al oficial al cargo y ponernos a su servicio.
+      - Language: French
+        String: Nous sommes au port spatial. Je dois trouver l'officier en charge de l'affaire et lui faire savoir que nous sommes là pour l'aider.
+      - Language: Italian
+        String: Abbiamo raggiunto lo spazioporto. Devo trovare l’ufficiale in comando e fargli sapere che siamo qui per aiutare.
+      - Language: Japanese
+        String: 宇宙港に到着した。責任者の士官を見つけて、助けになりに来たことを伝えよう
+      - Language: Polish
+        String: Jesteśmy w porcie kosmicznym. Muszę znaleźć oficera dowodzącego i dać mu znać, że jesteśmy tu, by pomóc.
+      - Language: Portuguese_Brazil
+        String: Chegamos ao espaçoporto. Preciso descobrir quem está no comando para dizer que viemos ajudar.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 690
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Einer der Terrormorphs greift die UC-Security an! Sie brauchen unsere Hilfe.
+      - Language: English
+        String: One of the Terrormorphs is attacking UC Security! We need to help!
+      - Language: Spanish
+        String: ¡Un horromorfo está atacando a guardias de las CU! ¡Tenemos que ayudar!
+      - Language: French
+        String: L'un des horrimorphes attaque la Sécurité de l'UC ! Nous devons leur venir en aide !
+      - Language: Italian
+        String: Uno dei terrormorfi sta attaccando la Sicurezza UC! Dobbiamo intervenire!
+      - Language: Japanese
+        String: テラーモーフの1体がUC警備隊を攻撃している！ 助けないと！
+      - Language: Polish
+        String: Jeden z terrormorfów atakuje ochronę ZK! Musimy im pomóc!
+      - Language: Portuguese_Brazil
+        String: Um dos terrormorfos está atacando a segurança da UC! Temos que ajudar!
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 651
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5: Get the Viewport morph out of its furniture. Triggered from stage 650, being hit, or the player getting too close'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 655
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5: Adding a new stage to get the Morph/dead security officer out of their furniture. Set from 650.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 689
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "VIEWPORT FIGHT: Player damaged the Terrormorph at least once (set from the OnHit event on the Viewport TM alias). Changes Yumi's opening line."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 690
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "VIEWPORT FIGHT: Viewport Terrormorph dead. Direct the player to talk to Saleh if they're close enough."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 650
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wieder ein Terrormorph weniger! Jetzt muss ich am Raumhafen mit dem befehlshabenden Offizier sprechen.
+      - Language: English
+        String: Another Terrormorph bites the dust! Now I just need to speak to the officer in charge at the spaceport.
+      - Language: Spanish
+        String: ¡Otro horromorfo que muerde el polvo! Ahora debemos hablar con el oficial al cargo en el espaciopuerto.
+      - Language: French
+        String: Et un horrimorphe de moins ! Il ne me reste plus qu'à parler à l'officier en charge au port spatial.
+      - Language: Italian
+        String: Un altro terrormorfo al tappeto! Devo avvisare l’ufficiale in comando presso lo spazioporto.
+      - Language: Japanese
+        String: また1体テラーモーフが倒れた！後は宇宙港で責任者の士官と話をするだけだ
+      - Language: Polish
+        String: Kolejny terrormorf gryzie glebę! Muszę porozmawiać z oficerem dowodzącym w porcie kosmicznym.
+      - Language: Portuguese_Brazil
+        String: Eliminei outro terrormorfo! Agora só preciso informar ao comando no espaçoporto.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 699
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P-late: Yumi's \"check-in\" scene started from a hello (and set this stage). Shut off his \"You them?\" line inside the scene to avoid repeats."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Spaceport scene started.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 701
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'YUMI PRE-FIGHT: Dialogue: Player hit first choice. Get them back there going forward.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 702
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'YUMI PRE-FIGHT: Dialogue: Player passed the first player choice. Get them back into the rest of the scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 703
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'YUMI PRE-FIGHT: Dialogue: Player is offered the fireteam. Get them back into dialogue'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 705
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "YUMI PRE-FIGHT: Dialogue: Player asked about why Security turned on each other. This changes Hadrian's follow-up dialogue."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'YUMI PRE-FIGHT: Player chose to request a fire team against the Terrormorph.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 715
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'YUMI PRE-FIGHT: Matisse suggested raiding the drug cache in UC security'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 716
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'YUMI PRE-FIGHT: Sarah suggested raiding the weapon cache in UC security'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 717
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'YUMI PRE-FIGHT: Player accessed the confiscated goods locker'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 720
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: Throw message telling player there's more to come"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 730
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: The player killed any of the guards. Set from scripts on the Marine units and the security forces'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'YUMI PRE-FIGHT: Starport scene complete. Updated objectives and direct the player onto the tarmac.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 036E00:Starfield.esm
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Der befehlshabende Offizier hat erzählt, dass seine Leute den letzten Terrormorph auf dem Vorfeld eingekreist haben. Hadrian und ich sollen uns um ihn kümmern. Er kann einen Marine-Trupp mitschicken, wenn wir Verstärkung brauchen.
+      - Language: English
+        String: The officer in charge stated that his men have the remaining Terrormorph trapped on the tarmac - and Hadrian and I are to go find it. He can spare one Marine fireteam if we decide we want them.
+      - Language: Spanish
+        String: El oficial al cargo ha explicado que el horromorfo que queda está atrapado en la pista y nos ha encargado a Hadrian y a mí que vayamos en su busca. Puede enviar una unidad de marines a acompañarnos si así lo deseamos.
+      - Language: French
+        String: L'officier en charge de l'affaire a déclaré que ses hommes avaient piégé le dernier horrimorphe sur le tarmac. Hadrian et moi allons le chercher. Il peut nous envoyer une équipe d'intervention si nous en faisons la demande.
+      - Language: Italian
+        String: L’ufficiale in comando ha detto che i suoi uomini hanno contenuto l’ultimo terrormorfo sulla pista e che io e Hadrian dobbiamo andare a cercarlo. Ha anche aggiunto che, se vogliamo, può farci accompagnare da una squadra di marine.
+      - Language: Japanese
+        String: 責任者の士官は残ったテラーモーフ1体を滑走路に閉じ込めたと言っている。そして、ヘイドリアンと一緒に見つけてくるように頼まれた。こちらが必要なら、海兵隊の突撃部隊を1隊貸し出してもいいという
+      - Language: Polish
+        String: Oficer dowodzący twierdzi, że jego ludzie uwięzili pozostałego terrormorfa na lądowisku, a ja i Hadrian mamy iść go znaleźć. Może nam powierzyć drużynę ogniową marines, jeżeli będziemy potrzebować wsparcia.
+      - Language: Portuguese_Brazil
+        String: O oficial no comando disse que os homens dele cercaram o último terrormorfo na pista de decolagem e que eu e Hadrian temos que ir até lá. Ele nos ofereceu um esquadrão de fuzileiros, se quisermos.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Der befehlshabende Offizier hat erzählt, dass seine Leute die übrigen Terrormorphs auf dem Vorfeld eingekreist haben. Hadrian und ich sollen uns um sie kümmern. Er kann einen Marine-Trupp mitschicken, wenn wir Verstärkung brauchen.
+      - Language: English
+        String: The officer in charge stated that his men have the remaining Terrormorphs trapped on the tarmac - and Hadrian and I are to go find them. He can spare one Marine fireteam if we decide we want them.
+      - Language: Spanish
+        String: El oficial al cargo ha explicado que los horromorfos que quedan están atrapados en la pista y nos ha encargado a Hadrian y a mí que vayamos en su busca. Puede enviar una unidad de marines a acompañarnos si así lo deseamos.
+      - Language: French
+        String: L'officier en charge de la situation a déclaré que ses hommes avaient piégé les derniers horrimorphes sur le tarmac. Hadrian et moi devons les rejoindre. Il peut nous adjoindre une équipe d'intervention si nous en faisons la demande.
+      - Language: Italian
+        String: L’ufficiale in comando ha detto che i suoi uomini hanno contenuto i terrormorfi rimasti sulla pista e che io e Hadrian dobbiamo andare a cercarli. Ha anche aggiunto che, se vogliamo, può farci accompagnare da una squadra di marine.
+      - Language: Japanese
+        String: 責任者の士官は残ったテラーモーフの集団を滑走路に閉じ込めたと言っている。そして、ヘイドリアンと一緒に見つけてくるように頼まれた。こちらが必要なら、海兵隊の突撃部隊を1隊貸し出してもいいという
+      - Language: Polish
+        String: Oficer dowodzący twierdzi, że jego ludzie uwięzili pozostałe terrormorfy na lądowisku, a ja i Hadrian mamy iść je znaleźć. Może nam powierzyć drużynę ogniową marines, jeżeli będziemy potrzebować wsparcia.
+      - Language: Portuguese_Brazil
+        String: O oficial no comando disse que os homens dele cercaram os últimos terrormorfos na pista de decolagem e que eu e Hadrian temos que ir até lá. Ele nos ofereceu um esquadrão de fuzileiros, se quisermos.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 805
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'MARINES: Player checked in with the Marines. Get the player back to the orders scene in the future.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 806
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P4.5: Player killed the Morphs early, while Yumi's scene was still playing. This stage is set in his line and used to turn on a couple of extra lines in Yumi's two wrap-up scenes"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Player agreed to have the Marines follow them. Used to change up future dialogue in the Marine scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 815
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P4.5: Player has approached or damaged either tarmac morph. Get both out of their unconscious state if they aren't already"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Mind control event happened in the presence of the player and Hadrian. Play her scene and unregister for future events.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 825
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Mind control event hit the player in the presence of and Hadrian. Play her scene and unregister for future events.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 830
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: First Spaceport morph dead'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 835
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.5: Second Spaceport morph dead'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 845
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'MARINES: Captain is dead'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 847
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'MARINES: Marine is dead'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 849
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'MARINES: Both Marines are dead'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 850
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Final terrormorph dead. Direct the player back to Saleh.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 690
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Der letzte Terrormorph ist erledigt! Zeit, dem befehlshabenden Offizier zu berichten, dass die Luft rein ist.
+      - Language: English
+        String: The last Terrormorph bites the dust! Time to let the officer in charge know things are taken care of!
+      - Language: Spanish
+        String: ¡Ha caído el último horromorfo! Tengo que informar al oficial al cargo de que por aquí está todo controlado.
+      - Language: French
+        String: Le dernier horrimorphe a mordu la poussière ! Allons dire à l'officier responsable que tout est sous contrôle.
+      - Language: Italian
+        String: Anche l’ultimo terrormorfo ha fatto una brutta fine! Dobbiamo far sapere all’ufficiale in comando che la situazione è sotto controllo.
+      - Language: Japanese
+        String: 最後のテラーモーフは倒れた！ 責任者の士官に片がついたことを知らせるとしよう！
+      - Language: Polish
+        String: Ostatni terrormorf gryzie glebę! Czas powiadomić oficera dowodzącego, że już po wszystkim!
+      - Language: Portuguese_Brazil
+        String: O último terrormorfo se foi! Hora de avisar ao comando que está tudo resolvido!
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 851
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4.5: Player started wrap up scene with Yumi. Have him holster his weapon. Set from the start of either of his wrap-up scenes.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 860
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'POST-FIGHT: Player headed back towards the NAT after killing the final Terrormorph'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Spaceport wrap-up scene complete. Direct the player back to the President.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi war für unsere Hilfe dankbar. Jetzt müssen wir dem Kabinett berichten, was geschehen ist.
+      - Language: English
+        String: Sergeant Yumi was grateful for our help. Now, we just need to let the Cabinet know what happened here.
+      - Language: Spanish
+        String: El sargento Yumi nos está agradecido por la ayuda. Ahora solo tenemos que informar al Gabinete de lo ocurrido aquí.
+      - Language: French
+        String: Le sergent Yumi a apprécié notre aide. Maintenant, nous devons informer le Cabinet de ce qui s'est passé ici.
+      - Language: Italian
+        String: Il sergente Yumi ci è stato riconoscente per l’aiuto. Ora non ci resta che far sapere al Gabinetto quanto è successo.
+      - Language: Japanese
+        String: ユミ軍曹は助力に感謝してくれた。さあ、後は内閣にここでの出来事について報告するだけだ
+      - Language: Polish
+        String: Sierżant Yumi był nam bardzo wdzięczny za pomoc. Musimy przekazać rządowi, co tu się stało.
+      - Language: Portuguese_Brazil
+        String: O sargento Yumi agradeceu nossa ajuda. Agora só falta informar ao Gabinete o que aconteceu aqui.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 910
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'MAJOR: Player arrived back up in the Cabinet Chambers. Set from a Default Player Set Stage Trigger surrounding the load-out marker in front of the President in the Minister Chambers'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir sind zurück im Kabinettssaal. Ich sollte mit Präsidentin Abello darüber sprechen, was passiert ist.
+      - Language: English
+        String: We've arrived back at in the Cabinet Chambers. Time to check in with President Abello about what happened.
+      - Language: Spanish
+        String: Hemos vuelto a las dependencias del Gabinete. Tengo que hablar de lo ocurrido con la presidenta Abello.
+      - Language: French
+        String: Nous revoilà à la Salle du Cabinet. Il faut à présent avertir la présidente Abello de ce qui s'est passé.
+      - Language: Italian
+        String: Siamo tornati alle Camere del Gabinetto. È ora di parlare con la presidente Abello di quanto è accaduto.
+      - Language: Japanese
+        String: 閣議室に戻ってきた。これまでの経緯についてアベロ大統領に報告するとしよう
+      - Language: Polish
+        String: Jesteśmy z powrotem w sali obrad rządu. Pora omówić z prezydentką Abello, co się stało.
+      - Language: Portuguese_Brazil
+        String: Voltamos à Câmara do Gabinete. Hora de falar com a presidente Abello sobre o que aconteceu.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 911
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PRES WRAP: Attact: Get Logan and Sarkin walking out'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 912
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'PRES WRAP: Player asked for "real estate, luxury good, etc." from the President. Changes one of her later lines in the scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 913
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: PRES WRAP: Player hit first dialogue choice. Get 'em back here if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 914
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: PRES WRAP: Player hit 2nd dialogue choice. Get 'em back here if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 915
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "PRES WRAP: Get player back to the President's decision moment"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 920
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "PRES WRAP: Player asked about Hadrian's family history. Used to unlock a follow up question."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest completed. Direct them to UC04.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Das Kabinett hat mich dazu auserkoren, das Freestar Collective und Haus Va'ruun zu überzeugen, uns Zugang zum Sperrvertrag-Archiv zu gewähren. Vizeministerin MacIntyre im Amt für Interstellare Angelegenheiten soll mir alles Weitere erklären.
+      - Language: English
+        String: The Cabinet's chosen me to try and convince the Freestar Collective and House Va'ruun to grant us access to the Armistice Archives. I'm to check in with Deputy MacIntyre in Interstellar Affairs to get the details.
+      - Language: Spanish
+        String: El Gabinete me ha elegido para que intente convencer al Colectivo Freestar y la casa Va'ruun de concedernos acceso a los archivos del Armisticio. La diputada MacIntyre me espera en Relaciones Interestelares para facilitarme los detalles.
+      - Language: French
+        String: Le Cabinet me fait confiance pour convaincre la Confédération Liber Astra et la Maison Va'ruun de nous donner accès aux archives de l'Armistice. Je dois me présenter à l'adjointe MacIntyre au Bureau des affaires interstellaires pour en savoir plus.
+      - Language: Italian
+        String: Il Gabinetto ha scelto me per cercare di convincere il Collettivo Freestar e la Casata Va’ruun a concederci l’accesso agli Archivi dell’Armistizio. Devo contattare la vice MacIntyre degli Affari interstellari per ricevere maggiori dettagli.
+      - Language: Japanese
+        String: 内閣に選ばれて、自由恒星同盟とヴァルーン家を説得して停戦アーカイブへのアクセスを認めさせるよう試みることになった。星務庁のマッキンタイア補佐官と面会して詳細を教えてもらうことになっている
+      - Language: Polish
+        String: Rząd powierzył mi przekonanie Kolektywu Wolnych Gwiazd i Rodu Va'ruun do udostępnienia nam Archiwów Paktu. Muszę skontaktować się z zastępczynią MacIntyre w Wydziale Spraw Międzygwiezdnych, aby dowiedzieć się więcej.
+      - Language: Portuguese_Brazil
+        String: O Gabinete me escolheu para tentar convencer a Confederação Freestar e a Casa Va'ruun a nos darem acesso aos Arquivos do Armistício. Preciso falar com a suplente MacIntyre das Relações Interestelares para saber mais detalhes.
+    StageCompleteDatas:
+    - QSRD: 0x02000000
+      RewardDatas:
+      - XpAwarded: 0DF3DD:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0D:Starfield.esm
+          Count: 1
+      - XpAwarded: Null
+        BonusCredits: 1460FE:Starfield.esm
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: HasPerkConditionData
+            FirstParameter: 227FD4:Starfield.esm
+          ComparisonValue: 1
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Triff Hadrian in New Atlantis (MAST-Distrikt).
+    - Language: English
+      String: Meet Hadrian in New Atlantis (MAST District)
+    - Language: Spanish
+      String: Habla con Hadrian en Nueva Atlántida (distrito del TAMC).
+    - Language: French
+      String: Retrouvez Hadrian à New Atlantis (quartier du TAMS).
+    - Language: Italian
+      String: Incontra Hadrian a Nuova Atlantide (quartiere del TASM)
+    - Language: Japanese
+      String: ニューアトランティスでヘイドリアンに会う(MAST地区)
+    - Language: Polish
+      String: Spotkaj się z Hadrian w Nowej Atlantydzie (dzielnica WNAT-u)
+    - Language: Portuguese_Brazil
+      String: Encontre-se com Hadrian em Nova Atlântida (TAMC)
+  Targets:
+  - AliasID: 12
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 105
+      ComparisonValue: 1
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 105
+- Index: 350
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zum Kabinettssaal.
+    - Language: English
+      String: Proceed to the Cabinet Chambers
+    - Language: Spanish
+      String: Ve a las dependencias del Gabinete.
+    - Language: French
+      String: Rendez-vous dans la Salle du Cabinet.
+    - Language: Italian
+      String: Vai alle Camere del Gabinetto
+    - Language: Japanese
+      String: 閣議室へ進む
+    - Language: Polish
+      String: Udaj się do sali obrad rządu
+    - Language: Portuguese_Brazil
+      String: Vá à Câmara do Gabinete
+  Targets:
+  - AliasID: 37
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Höre bei Hadrians Gespräch zu.
+    - Language: English
+      String: Listen to Hadrian's conversation
+    - Language: Spanish
+      String: Escucha la conversación de Hadrian.
+    - Language: French
+      String: Écoutez la conversation d'Hadrian.
+    - Language: Italian
+      String: Ascolta la conversazione di Hadrian
+    - Language: Japanese
+      String: ヘイドリアンの会話を聞く
+    - Language: Polish
+      String: Posłuchaj rozmowy Hadrian
+    - Language: Portuguese_Brazil
+      String: Ouça a conversa da Hadrian
+  Targets:
+  - AliasID: 37
+- Index: 410
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Wende dich an das Kabinett.
+    - Language: English
+      String: Address the Cabinet
+    - Language: Spanish
+      String: Dirígete al Gabinete.
+    - Language: French
+      String: Adressez-vous au Cabinet.
+    - Language: Italian
+      String: Rivolgiti al Gabinetto
+    - Language: Japanese
+      String: 内閣へ演説する
+    - Language: Polish
+      String: Przemów do rządu
+    - Language: Portuguese_Brazil
+      String: Fale com o Gabinete
+  Targets:
+  - AliasID: 6
+- Index: 425
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Höre dem Kabinett zu.
+    - Language: English
+      String: Listen to the Cabinet
+    - Language: Spanish
+      String: Escucha al Gabinete.
+    - Language: French
+      String: Écoutez le Cabinet.
+    - Language: Italian
+      String: Ascolta il Gabinetto
+    - Language: Japanese
+      String: 内閣の話を聞く
+    - Language: Polish
+      String: Wysłuchaj rządu
+    - Language: Portuguese_Brazil
+      String: Ouça o Gabinete
+  Targets:
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 6
+      ComparisonValue: 20
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zum Kommandoposten.
+    - Language: English
+      String: Proceed to the Operations Post
+    - Language: Spanish
+      String: Ve al puesto de operaciones.
+    - Language: French
+      String: Rendez-vous au poste des opérations.
+    - Language: Italian
+      String: Vai al centro operativo
+    - Language: Japanese
+      String: 事業部のポストへ進む
+    - Language: Polish
+      String: Udaj się do placówki operacyjnej
+    - Language: Portuguese_Brazil
+      String: Vá ao posto de operações
+  Targets:
+  - AliasID: 18
+- Index: 550
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Präsidentin Abello.
+    - Language: English
+      String: Speak to President Abello
+    - Language: Spanish
+      String: Habla con la presidenta Abello.
+    - Language: French
+      String: Parlez à la présidente Abello.
+    - Language: Italian
+      String: Parla con la presidente Abello
+    - Language: Japanese
+      String: アベロ大統領と話す
+    - Language: Polish
+      String: Porozmawiaj z prezydentką Abello
+    - Language: Portuguese_Brazil
+      String: Fale com a presidente Abello
+  Targets:
+  - AliasID: 6
+- Index: 570
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Höre den Wachen zu.
+    - Language: English
+      String: Listen to the guards
+    - Language: Spanish
+      String: Escucha a los guardias.
+    - Language: French
+      String: Écoutez les gardes.
+    - Language: Italian
+      String: Ascolta gli agenti
+    - Language: Japanese
+      String: 警備員の話を聞く
+    - Language: Polish
+      String: Wysłuchaj strażników
+    - Language: Portuguese_Brazil
+      String: Ouça os guardas
+  Targets:
+  - AliasID: 87
+- Index: 575
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Hole die EM-Waffe.
+    - Language: English
+      String: Collect the EM weapon
+    - Language: Spanish
+      String: Hazte con el arma electromagnética.
+    - Language: French
+      String: Récupérez l'arme EM.
+    - Language: Italian
+      String: Recupera l’arma EM
+    - Language: Japanese
+      String: EM兵器を回収する
+    - Language: Polish
+      String: Zbierz broń EM
+    - Language: Portuguese_Brazil
+      String: Pegue a arma EM
+  Targets:
+  - AliasID: 90
+- Index: 580
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Setze die Angreifer außer Gefecht.
+    - Language: English
+      String: Incapacitate the attackers
+    - Language: Spanish
+      String: Incapacita a los atacantes.
+    - Language: French
+      String: Neutralisez les attaquants.
+    - Language: Italian
+      String: Metti fuori combattimento gli aggressori
+    - Language: Japanese
+      String: 襲撃者を無力化する
+    - Language: Polish
+      String: Obezwładnij atakujących
+    - Language: Portuguese_Brazil
+      String: Incapacite os agressores
+  Targets:
+  - AliasID: 89
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 589
+  - AliasID: 92
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 588
+  - AliasID: 94
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 587
+  - AliasID: 113
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 602
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 603
+- Index: 581
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Rüste die EM-Waffe aus.
+    - Language: English
+      String: Equip the EM weapon
+    - Language: Spanish
+      String: Equipa el arma electromagnética.
+    - Language: French
+      String: Équipez l'arme EM.
+    - Language: Italian
+      String: Equipaggia l’arma EM
+    - Language: Japanese
+      String: EM兵器を装備する
+    - Language: Polish
+      String: Wyposaż się w broń EM
+    - Language: Portuguese_Brazil
+      String: Equipe a arma EM
+- Index: 590
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Beurteile die Lage an der NAT-Haltestelle.
+    - Language: English
+      String: Assess the situation at the NAT station
+    - Language: Spanish
+      String: Evalúa la situación en la estación del TNA.
+    - Language: French
+      String: Évaluez la situation à la station de l'ETNA.
+    - Language: Italian
+      String: Valuta la situazione alla stazione NAT
+    - Language: Japanese
+      String: NATステーションの状況を評価する
+    - Language: Polish
+      String: Rozeznaj się w sytuacji na stacji NAT-u
+    - Language: Portuguese_Brazil
+      String: Avalie a situação na estação NAT
+  Targets:
+  - AliasID: 87
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 597
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 598
+  - AliasID: 12
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 597
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2AAE8D:Starfield.esm
+        SecondParameter: 598
+      ComparisonValue: 1
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Fahr mit der NAT zum Raumhafen.
+    - Language: English
+      String: Take the NAT to the Spaceport
+    - Language: Spanish
+      String: Coge el TNA al espaciopuerto.
+    - Language: French
+      String: Prenez l'ETNA jusqu'au port spatial.
+    - Language: Italian
+      String: Prendi la NAT per lo spazioporto
+    - Language: Japanese
+      String: NATを宇宙港へ持っていく
+    - Language: Polish
+      String: Pojedź kolejką NAT-u do portu kosmicznego
+    - Language: Portuguese_Brazil
+      String: Pegue o NAT para o espaçoporto
+  Targets:
+  - AliasID: 23
+- Index: 610
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zum Raumhafen.
+    - Language: English
+      String: Proceed to the Spaceport
+    - Language: Spanish
+      String: Continúa hasta el espaciopuerto.
+    - Language: French
+      String: Rendez-vous au port spatial.
+    - Language: Italian
+      String: Dirigiti allo spazioporto
+    - Language: Japanese
+      String: 宇宙港へ進む
+    - Language: Polish
+      String: Udaj się do portu kosmicznego
+    - Language: Portuguese_Brazil
+      String: Vá para o espaçoporto
+  Targets:
+  - AliasID: 23
+- Index: 650
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Eliminiere den Terrormorph.
+    - Language: English
+      String: Eliminate the Terrormorph
+    - Language: Spanish
+      String: Elimina al horromorfo.
+    - Language: French
+      String: Éliminez l'horrimorphe.
+    - Language: Italian
+      String: Elimina il terrormorfo
+    - Language: Japanese
+      String: テラーモーフを排除する
+    - Language: Polish
+      String: Wyeliminuj terrormorfa
+    - Language: Portuguese_Brazil
+      String: Elimine o terrormorfo
+  Targets:
+  - AliasID: 20
+- Index: 690
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nähere dich dem befehlshabenden Offizier.
+    - Language: English
+      String: Approach the officer in charge
+    - Language: Spanish
+      String: Acércate al oficial al cargo.
+    - Language: French
+      String: Approchez l'officier en charge de l'affaire.
+    - Language: Italian
+      String: Avvicinati all’ufficiale in comando
+    - Language: Japanese
+      String: 責任者の士官に近づく
+    - Language: Polish
+      String: Podejdź do oficera dowodzącego
+    - Language: Portuguese_Brazil
+      String: Aborde a pessoa no comando
+  Targets:
+  - AliasID: 23
+- Index: 715
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Gehe zum UC-Security-Lager für Beschlagnahmtes.
+    - Language: English
+      String: (Optional) Access the UC Security contraband store
+    - Language: Spanish
+      String: (Opcional) Accede al almacén de contrabando de la seguridad de las CU.
+    - Language: French
+      String: (Optionnel) Accédez au magasin de contrebande de la sécurité de l'UC.
+    - Language: Italian
+      String: (Opzionale) Accedi al rivenditore di contrabbando della Sicurezza UC
+    - Language: Japanese
+      String: (オプション)UC警備隊の禁制品保管庫にアクセスする
+    - Language: Polish
+      String: (Opcj.) Uzyskaj dostęp do magazynu z kontrabandą ochrony ZK
+    - Language: Portuguese_Brazil
+      String: (Opc.) Vá à loja de contrabando da segurança da UC
+- Index: 800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Eliminiere die Terrormorphs.
+    - Language: English
+      String: Eliminate the Terrormorphs
+    - Language: Spanish
+      String: Elimina a los horromorfos.
+    - Language: French
+      String: Éliminez les horrimorphes.
+    - Language: Italian
+      String: Elimina i terrormorfi
+    - Language: Japanese
+      String: テラーモーフを排除する
+    - Language: Polish
+      String: Wyeliminuj terrormorfy
+    - Language: Portuguese_Brazil
+      String: Elimine os terrormorfos
+  Targets:
+  - AliasID: 26
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - AliasID: 98
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+- Index: 801
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Sprich mit dem Trupp.
+    - Language: English
+      String: (Optional) Speak to the Fireteam
+    - Language: Spanish
+      String: (Opcional) Habla con la unidad.
+    - Language: French
+      String: (Optionnel) Parlez à l'équipe d'intervention
+    - Language: Italian
+      String: (Opzionale) Parla con la squadra d’assalto
+    - Language: Japanese
+      String: (オプション)部隊と話す
+    - Language: Polish
+      String: (Opcj.) Porozmawiaj z drużyną ogniową
+    - Language: Portuguese_Brazil
+      String: (Opc.) Fale com o esquadrão
+  Targets:
+  - AliasID: 40
+- Index: 850
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Sergeant Yumi.
+    - Language: English
+      String: Speak to Sergeant Yumi
+    - Language: Spanish
+      String: Habla con el sargento Yumi.
+    - Language: French
+      String: Parlez au sergent Yumi.
+    - Language: Italian
+      String: Parla col sergente Yumi
+    - Language: Japanese
+      String: ユミ軍曹と話す
+    - Language: Polish
+      String: Porozmawiaj z sierżantem Yumim
+    - Language: Portuguese_Brazil
+      String: Fale com o sargento Yumi
+  Targets:
+  - AliasID: 23
+- Index: 900
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erstatte Präsidentin Abello im MAST-Kabinettssaal Bericht.
+    - Language: English
+      String: Report to President Abello in the MAST Cabinet Chambers
+    - Language: Spanish
+      String: Informa a la presidenta Abello en las dependencias del Gabinete del TAMC.
+    - Language: French
+      String: Présentez-vous à la présidente Abello, dans la Salle du Cabinet du TAMS.
+    - Language: Italian
+      String: Riferisci alla presidente Abello presso le Camere del Gabinetto
+    - Language: Japanese
+      String: MASTの閣議室にいるアベロ大統領に報告する
+    - Language: Polish
+      String: Zgłoś się do prezydentki Abello w sali obrad rządu we Wnacie
+    - Language: Portuguese_Brazil
+      String: Apresente-se à presidente na Câmara do Gabinete no TAMC
+  Targets:
+  - AliasID: 6
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 77
+  Name: CityNewAtlantisLodgeLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 27C8ED:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 4
+  Name: NewAtlantisLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01295A:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 136
+  Name: UC04_Terrormorph_CustomLoc
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 04AEC8:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 68
+  Name: VanguardRecruitmentCenterLoc
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2C53EE:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 69
+  Name: VanguardCourseLoc
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2C005D:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 104
+  Name: NewAtlantisWellLoc
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 19A5C2:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 125
+  Name: SubSectionSevenLoc
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2CE1ED:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: CheifHerath
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2B17E5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: ResourceOfficer
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  UniqueActor: 2AADF3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Scene200Trigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 2AADEE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: ShipTech02
+  Flags: []
+  ALFG: 0
+  UniqueActor: 252347:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: PresidentAbello
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124B1:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  PackageData:
+  - 23F96E:Starfield.esm
+  - 223443:Starfield.esm
+  - 2AADE2:Starfield.esm
+  - 2AADD0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: AdmiralLogan
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124AD:Starfield.esm
+  PackageData:
+  - 23F971:Starfield.esm
+  - 23F980:Starfield.esm
+  - 2AADD1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: ChiefSarkin
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124B0:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  PackageData:
+  - 23F96F:Starfield.esm
+  - 23F97B:Starfield.esm
+  - 2AADD3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: ChiefPatel
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124B5:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  PackageData:
+  - 23F97A:Starfield.esm
+  - 223446:Starfield.esm
+  - 2AADD2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: ChiefYasin
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124B4:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  PackageData:
+  - 23F979:Starfield.esm
+  - 03CC9B:Starfield.esm
+  - 05F810:Starfield.esm
+  - 2AADCF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: Hadrian
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 29C17F:Starfield.esm
+  Keywords:
+  - 09C16D:Starfield.esm
+  - 1D03E1:Starfield.esm
+  Factions:
+  - 0E53B0:Starfield.esm
+  PackageData:
+  - 0E5399:Starfield.esm
+  - 007D4C:Starfield.esm
+  - 2AAD98:Starfield.esm
+  - 329861:Starfield.esm
+  - 251873:Starfield.esm
+  - 2AADB0:Starfield.esm
+  - 223457:Starfield.esm
+  - 223455:Starfield.esm
+  - 2AADCD:Starfield.esm
+  - 23C0D2:Starfield.esm
+  - 12FFBB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: HadrianDataSpawn
+  Flags: []
+  ALFG: 0
+  ForcedReference: 23F9C6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: WindowMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2AADDC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: TriggerScene400
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 2AADCA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: MinisterHallGuard
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2AADDB:Starfield.esm
+  PackageData:
+  - 223440:Starfield.esm
+  - 03CCB0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: NATStationEnableMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 2AADC0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 19
+    ALAM: 0
+    ReferenceAlias:
+      ID: 19
+      Name: SpaceportGuards
+      Flags:
+      - Optional
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 2AADA3:Starfield.esm
+      Keywords:
+      - 0F223F:Starfield.esm
+      - 23F98A:Starfield.esm
+      CombatOverridePackageList: 23F951:Starfield.esm
+      Factions:
+      - 0E53B0:Starfield.esm
+      PackageData:
+      - 223434:Starfield.esm
+      - 1EF569:Starfield.esm
+      - 2AADA8:Starfield.esm
+      VoiceTypes: 23F81D:Starfield.esm
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 28
+    ALAM: 0
+    ReferenceAlias:
+      ID: 28
+      Name: EssentialGuards
+      Flags:
+      - Optional
+      - Essential
+      ALFG: 0
+      Factions:
+      - 106C31:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: TriggerScene650
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 2AAD8E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: TerrormorphSpawn_Viewport
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2AAD9C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 61
+  Name: TerrormorphHoldPositionTarget_Viewport
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 22343A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: TerrormorphSpawn_Spaceport
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2AAD90:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 99
+  Name: TerrormorphSpawn_Spaceport02
+  Flags: []
+  ALFG: 0
+  ForcedReference: 05938D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: Terrormorph_Viewport
+  Flags:
+  - AllowDisabled
+  - InitiallyDisabled
+  ALFG: 0
+  AliasIDToForceIntoWhenFilled: 85
+  Location:
+    AliasID: 136
+    RefType: 006A98:Starfield.esm
+  Keywords:
+  - 08DFEE:Starfield.esm
+  CombatOverridePackageList: 362DC0:Starfield.esm
+  PackageData:
+  - 362DBE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 85
+  Name: Terrormorph_Viewport_Protected
+  Flags:
+  - Optional
+  - AllowDisabled
+  - Protected
+  - ForcedByAliases
+  - InitiallyDisabled
+  - CreateRefTemp
+  - 0x2000000
+  ALFG: 0
+  CombatOverridePackageList: 23F951:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: Terrormorph_Spaceport
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - Protected
+  - AllowDestroyed
+  - InitiallyDisabled
+  ALFG: 0
+  Location:
+    AliasID: 136
+    RefType: 007AD2:Starfield.esm
+  CombatOverridePackageList: 038394:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 119
+  Name: Terrormorph_Spaceport_AmbushTrigger01
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 00A4D6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 98
+  Name: Terrormorph_Spaceport02
+  Flags:
+  - AllowDisabled
+  - Protected
+  - InitiallyDisabled
+  ALFG: 0
+  Location:
+    AliasID: 136
+    RefType: 007ADA:Starfield.esm
+  CombatOverridePackageList: 038393:Starfield.esm
+  PackageData:
+  - 1648D0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 120
+  Name: Terrormorph_Spaceport_AmbushTrigger02
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 00A5D4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: SpaceportNATTrigger_Stage610
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 2AAD9A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: OfficerYumi
+  Flags:
+  - Essential
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 24C49F:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  CombatOverridePackageList: 1FE730:Starfield.esm
+  Factions:
+  - 0E53B0:Starfield.esm
+  PackageData:
+  - 0D6884:Starfield.esm
+  - 2A9495:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: TEMPNATTrigger
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 0782A4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: MinisterHallEmergencyDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 2AADC4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: SpaceportEnableMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 2AADA5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: HadrianData
+  Flags:
+  - QuestObject
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 23F9C7:Starfield.esm
+    AliasID: 33
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: Obj400Marker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 23F9B6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: TriggerStage360
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 23F9B3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: FireTeamMarine
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  AliasIDToForceIntoWhenFilled: 41
+  UniqueActor: 23F9AB:Starfield.esm
+  Keywords:
+  - 1D03E1:Starfield.esm
+  CombatOverridePackageList: 0C9859:Starfield.esm
+  Factions:
+  - 0E53B0:Starfield.esm
+  PackageData:
+  - 0C9856:Starfield.esm
+  - 23F9A3:Starfield.esm
+  - 23F992:Starfield.esm
+  - 23F991:Starfield.esm
+  - 23F990:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 41
+  Name: FireTeamMarine_Essential
+  Flags:
+  - Optional
+  - Essential
+  - ForcedByAliases
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: FireTeamMarineCaptain
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  AliasIDToForceIntoWhenFilled: 42
+  UniqueActor: 23F9AA:Starfield.esm
+  Keywords:
+  - 1D03E1:Starfield.esm
+  CombatOverridePackageList: 0C9859:Starfield.esm
+  Factions:
+  - 0E53B0:Starfield.esm
+  PackageData:
+  - 0C9856:Starfield.esm
+  - 23F9A1:Starfield.esm
+  - 23F9A5:Starfield.esm
+  - 23F993:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 42
+  Name: FireTeamMarineCaptain_Essential
+  Flags:
+  - Optional
+  - Essential
+  - ForcedByAliases
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 43
+    ALAM: 0
+    ReferenceAlias:
+      ID: 43
+      Name: CoweringNPCs
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      - AllowDestroyed
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 23F98D:Starfield.esm
+      Keywords:
+      - 0E53A8:Starfield.esm
+      - 23F98A:Starfield.esm
+      Factions:
+      - 0E53B0:Starfield.esm
+      PackageData:
+      - 02FE8B:Starfield.esm
+      - 23F989:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 44
+    ALAM: 0
+    ReferenceAlias:
+      ID: 44
+      Name: DisableNPCs
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      - AllowDestroyed
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 23F98C:Starfield.esm
+      Keywords:
+      - 23F98A:Starfield.esm
+      Factions:
+      - 0E53B0:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 45
+    ALAM: 0
+    ReferenceAlias:
+      ID: 45
+      Name: KneelingNPCs
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      - AllowDestroyed
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 23F98B:Starfield.esm
+      Keywords:
+      - 23F98A:Starfield.esm
+      Factions:
+      - 0E53B0:Starfield.esm
+      PackageData:
+      - 23F988:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 64
+    ALAM: 0
+    ReferenceAlias:
+      ID: 64
+      Name: AllGuards
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      - AllowDestroyed
+      ALFG: 0
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: Trigger910
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 23F974:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 47
+  Name: TarmacEnableMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 23F954:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 48
+  Name: SpaceportMedic
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  UniqueActor: 23F960:Starfield.esm
+  Factions:
+  - 0E53B0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 49
+  Name: TriggerStage625
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 23F92F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 51
+    ALAM: 0
+    ReferenceAlias:
+      ID: 51
+      Name: WoundedSoliders
+      Flags:
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      - AllowDestroyed
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 23F820:Starfield.esm
+      Factions:
+      - 0E53B0:Starfield.esm
+      VoiceTypes: 23F821:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 52
+  Name: EmergencyBroadcastSpeaker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 004D89:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 54
+  Name: Scene615Source
+  Flags: []
+  ALFG: 0
+  ForcedReference: 23F5A3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 55
+  Name: TriggerStage615
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 23F5A1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 56
+  Name: NACrewSpawner
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 26C4C8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 57
+  Name: HadrianLookScene400Marker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 23F5A0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 58
+  Name: Scene350Source
+  Flags: []
+  ALFG: 0
+  ForcedReference: 23C0D1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 59
+  Name: LodgeMainLoadDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 223454:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 60
+    ALAM: 0
+    ReferenceAlias:
+      ID: 60
+      Name: CaptiveCollection
+      Flags:
+      - Optional
+      ALFG: 0
+      Factions:
+      - 03E0C8:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 63
+    ALAM: 0
+    ReferenceAlias:
+      ID: 63
+      Name: Shutters
+      Flags: []
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 0E53C9:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 124
+  Name: MASTElevatorManager
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 125
+    RefType: 089E2C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 65
+    ALAM: 0
+    ReferenceAlias:
+      ID: 65
+      Name: PrimaryFloorManagers
+      Flags: []
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 0E53C7:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 70
+    ALAM: 0
+    ReferenceAlias:
+      ID: 70
+      Name: AttackPathFloorManagers
+      Flags:
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      - AllowDestroyed
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 0E53B9:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 66
+    ALAM: 0
+    ReferenceAlias:
+      ID: 66
+      Name: VanguardCourseFloorManagers
+      Flags: []
+      ALFG: 0
+      Location:
+        AliasID: 69
+        RefType: 0E53C7:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 67
+    ALAM: 0
+    ReferenceAlias:
+      ID: 67
+      Name: VanguardRecruitmentFloorManagers
+      Flags: []
+      ALFG: 0
+      Location:
+        AliasID: 68
+        RefType: 0E53C7:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 105
+    ALAM: 0
+    ReferenceAlias:
+      ID: 105
+      Name: WellFloorManagers
+      Flags:
+      - AllowReuseInQuest
+      ALFG: 0
+      Location:
+        AliasID: 104
+        RefType: 0E53C7:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 71
+  Name: TommyBillows
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  UniqueActor: 1829FC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 72
+  Name: SpaceportDoorToWell
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 0EE987:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 73
+  Name: PlayerFriendFaction
+  Flags:
+  - Optional
+  ALFG: 0
+  Factions:
+  - 0E53AF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 75
+    ALAM: 0
+    ReferenceAlias:
+      ID: 75
+      Name: LodgeDoorsExt
+      Flags: []
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 0E53BE:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 76
+  Name: LodgeSecretDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 77
+    RefType: 0E53BE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 78
+    ALAM: 0
+    ReferenceAlias:
+      ID: 78
+      Name: SpaceportCrew
+      Flags:
+      - Optional
+      - ExternalAliasLinked
+      ALFG: 0
+      External:
+        Quest: 26C4EB:Starfield.esm
+        AliasID: 12
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 79
+    ALAM: 0
+    ReferenceAlias:
+      ID: 79
+      Name: IACrew
+      Flags: []
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 0E5396:Starfield.esm
+      Keywords:
+      - 0E5381:Starfield.esm
+      PackageData:
+      - 0E538E:Starfield.esm
+      - 0E5387:Starfield.esm
+      - 026C1A:Starfield.esm
+      - 0E538F:Starfield.esm
+      - 0E5386:Starfield.esm
+      - 0E5380:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 80
+  Name: MacIntyre
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2A3960:Starfield.esm
+  PackageData:
+  - 0E538F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 81
+  Name: WarningSignsEnableMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 0F19C6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 82
+  Name: Obj600NATBreadCrumb
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0E53A4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 84
+    ALAM: 0
+    ReferenceAlias:
+      ID: 84
+      Name: AlliedGuards
+      Flags:
+      - Optional
+      ALFG: 0
+      Keywords:
+      - 0F223F:Starfield.esm
+      Factions:
+      - 0E53B0:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 86
+  Name: ReconstructionMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 136110:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 101
+  Name: StarbornHunter
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  UniqueActor: 21C5B4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 103
+  Name: HadrianShip
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 0E00C7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 91
+  Name: ==NAT=SCENE==
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 83
+  Name: TriggerStage601
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 0E53A2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 89
+  Name: NATThrallF01
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  - Protected
+  ALFG: 0
+  UniqueActor: 32984F:Starfield.esm
+  PackageData:
+  - 329873:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 113
+  Name: NATThrallF02
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  - Protected
+  ALFG: 0
+  UniqueActor: 0383A6:Starfield.esm
+  PackageData:
+  - 329873:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 92
+  Name: NATThrallM01
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  - Protected
+  ALFG: 0
+  UniqueActor: 32984A:Starfield.esm
+  PackageData:
+  - 329873:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 94
+  Name: NATThrallM02
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  - Protected
+  ALFG: 0
+  UniqueActor: 329869:Starfield.esm
+  PackageData:
+  - 329873:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 90
+  Name: EMWeapon
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 329858:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 87
+  Name: NATGuard02
+  Flags:
+  - Essential
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 23F98E:Starfield.esm
+  PackageData:
+  - 03CCB4:Starfield.esm
+  - 32987F:Starfield.esm
+  - 329874:Starfield.esm
+  - 32986B:Starfield.esm
+  - 23F969:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: NATGuard
+  Flags:
+  - Essential
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 2AADB9:Starfield.esm
+  PackageData:
+  - 32987C:Starfield.esm
+  - 32984D:Starfield.esm
+  - 23F969:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 53
+  Name: TriggerScene570
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 23F81B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 93
+  Name: TriggerStage577
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 32985F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 96
+  Name: NATActivator
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 3276B3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 97
+  Name: ThrallEnableMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 329881:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 102
+  Name: ViewportTMKillPartner
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 362D4E:Starfield.esm
+  CombatOverridePackageList: 23F951:Starfield.esm
+  PackageData:
+  - 362D56:Starfield.esm
+  - 2AADA8:Starfield.esm
+  - 223434:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 106
+  Name: OverhangEnableMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 03EF60:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 107
+    ALAM: 0
+    ReferenceAlias:
+      ID: 107
+      Name: MinisterHall_Screens
+      Flags:
+      - Optional
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 3385E4:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 109
+    ALAM: 0
+    ReferenceAlias:
+      ID: 109
+      Name: FollowerThrallFriendFaction
+      Flags:
+      - Optional
+      ALFG: 0
+      Factions:
+      - 097218:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 111
+    ALAM: 0
+    ReferenceAlias:
+      ID: 111
+      Name: HadrianWarnsIfHitNPCs
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      - AllowDestroyed
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 273BFC:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 112
+    ALAM: 0
+    ReferenceAlias:
+      ID: 112
+      Name: EmergencyLights
+      Flags:
+      - Optional
+      - AllowDisabled
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 0383A0:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 114
+  Name: YasinHmphVanguardLookAt
+  Flags: []
+  ALFG: 0
+  ForcedReference: 03CF75:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 115
+    ALAM: 0
+    ReferenceAlias:
+      ID: 115
+      Name: BackUpMinisterHallGuards
+      Flags:
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      - AllowDestroyed
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 0421EC:Starfield.esm
+      Factions:
+      - 106C30:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 117
+  Name: EliteCrew
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - ExternalAliasLinked
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 25
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 118
+  Name: KillFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 09E91A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 121
+    ALAM: 0
+    ReferenceAlias:
+      ID: 121
+      Name: TableGoodies
+      Flags:
+      - Optional
+      - AllowDisabled
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 0C985B:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 122
+  Name: Trigger551
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 1563C6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 123
+  Name: MASTFemaleWorker03
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 089E29:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 126
+  Name: NatGuard02Furniture
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 1DBED8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 127
+  Name: NatGuard01Furniture
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 1DBED9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 129
+  Name: GagarinBusinesswoman
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  UniqueActor: 38679A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 130
+  Name: GagarinBusinessman
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  UniqueActor: 22BCA3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 131
+    ALAM: 0
+    ReferenceAlias:
+      ID: 131
+      Name: RunInGuards
+      Flags:
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      - AllowDestroyed
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 1EF568:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 132
+  Name: NATGateEnableMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 06B0FF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 133
+  Name: HadrianTeleportMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2AAD97:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 134
+  Name: TriggerStationInterior
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 004E1C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 135
+  Name: SpaceportNATCar
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 051E4E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 137
+  Name: AdoringFan
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  UniqueActor: 0EFF66:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 138
+  Name: EMOrion
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 2E84CE:Starfield.esm
+    AliasID: 33
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 140
+  Name: SpaceportSecurityDoor
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  ForcedReference: 323711:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 141
+  Name: Kibwe
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  UniqueActor: 009137:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 142
+  Name: MQ204Ship
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2C6D74:Starfield.esm
+    AliasID: 46
+  VoiceTypes: Null
