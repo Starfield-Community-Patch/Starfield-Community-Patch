@@ -184,7 +184,7 @@ jobs:
     share-release:
       needs: [package-mod, check-changes]
       if: ${{ needs.check-changes.outputs.should_run >= 1 && inputs.publish-release == true }}
-      runs-on: linux-latest
+      runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v4
         - name: Download the release artifact
