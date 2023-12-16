@@ -7,7 +7,7 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
-## [TBC] Versiob 0.0.7
+## [TBC] Version 0.0.7
 ### Text Fixes (English)
 - Fixed a misspelling of "incalculable" in Ambassador Bal'Mor's personal log - Log 03: A Visitor [0034BF18] - [Reported by Murvel3000](https://www.starfieldpatch.dev/issues/684) - [Contributed by Wartortle](https://www.nexusmods.com/users/42492840)
 - Fixed a misspelling of "officers" in Chief Pretorius' dialogue [00155859] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/730) - [Contributed by Wartortle](https://www.nexusmods.com/users/42492840)
