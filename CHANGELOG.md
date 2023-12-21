@@ -25,6 +25,7 @@ ArkangelCorvus](https://www.nexusmods.com/starfield/users/136181948) - [Reported
 - Fixed a misspelling of "doppelganger" in Sarah's dialogue [001801C3] - [Reported by Dadditude](https://www.starfieldpatch.dev/issues/533) - [Contributed by Wartortle](https://www.nexusmods.com/users/42492840)
 ### Misc Fixes
 - Fixed missing ALFG record data on several aliases in Eyewitness [0023FA74] - [Contributed by Wartortle](https://www.nexusmods.com/users/42492840)
+- Fixed several of Dani Garcia's follower lines that were intended to be available once the player has a Neuroamp installed but would not show due to a bad condition. [000049A8] [000049DB] [000049A3] [000049AF] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/760)
 
 
 ## [2023-12-15] Version 0.0.6
