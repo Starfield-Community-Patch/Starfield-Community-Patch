@@ -13,6 +13,9 @@ When adding items to the changelog try and use the template below:
 ### Item Fixes
 - Fixed a component error on Red Harvest Double Malt Whiskey caused by a badly applied fix in a previous version of the patch [0003614B] - [Reported by pega3](https://www.starfieldpatch.dev/issues/657)
 - Fixed facial hair not showing up while wearing the Hazmat Suit [0008AE0E] - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840) - [Reported by IHaveCorn](https://www.starfieldpatch.dev/issues/390) 
+### Placed Object Fixes
+- Removed multiple instances of the unplayable item Clothes_Crowd_LayeredTee_01_NOTPLAYABLE "Layered Tee" [ARMO:0026DFBF] from the world. One instance can't be replaced due to reflection data. [0032169D] [000A89CA] [001A4630] [0032169D] [003690CF] [0037B6B5] - [Fix contributed by 
+ArkangelCorvus](https://www.nexusmods.com/starfield/users/136181948) - [Reported by Dragten](https://www.starfieldpatch.dev/issues/275)
 ### NPC Fixes
 - Fixed an issue where miners would "mine" ore with their weapons rather than a cutter after exiting combat. [00052E92] [0006A03F] [00203BF2] [00203BF4] - [Fix contributed by Korodic](https://www.starfieldpatch.dev/issues/751) - [Mod Page](https://www.nexusmods.com/starfield/mods/7459)
 ### Text Fixes (English)
