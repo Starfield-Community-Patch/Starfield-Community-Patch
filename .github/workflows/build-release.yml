@@ -34,7 +34,7 @@ jobs:
             echo "should_run=$(git log --since="1 days ago" --name-only | grep "" -c)" >> "$GITHUB_OUTPUT"
     build-plugin: 
       needs: check-changes
-      if: ${{ needs.check-changes.outputs.should_run >= 1 || github.event_name == 'workflow_dispatch' }}
+      if: ${{ needs.check-changes.outputs.should_run >= 1 || (github.event_name == 'workflow_dispatch' && always()) }}
       permissions: write-all
       runs-on: ubuntu-latest
       steps:
@@ -74,7 +74,7 @@ jobs:
                 ${{ github.workspace }}/to-pack/Strings/
     compile-scripts:
         needs: check-changes
-        if: ${{ needs.check-changes.outputs.should_run >= 1 || github.event_name == 'workflow_dispatch' }}
+        if: ${{ needs.check-changes.outputs.should_run >= 1 || (github.event_name == 'workflow_dispatch' && always()) }}
         runs-on: windows-latest
         steps: 
             - name: Checkout
