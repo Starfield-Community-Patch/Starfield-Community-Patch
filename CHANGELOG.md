@@ -8,6 +8,8 @@ When adding items to the changelog try and use the template below:
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
 ## [TBC] Version 0.0.7
+### NPC Fixes
+- Fixed an issue where miners would "mine" ore with their weapons rather than a cutter after exiting combat. [00052E92] [0006A03F] [00203BF2] [00203BF4] - [Fix contributed by Korodic](https://www.starfieldpatch.dev/issues/751) - [Mod Page](https://www.nexusmods.com/starfield/mods/7459)
 ### Text Fixes (English)
 - Fixed a misspelling of "incalculable" in Ambassador Bal'Mor's personal log - Log 03: A Visitor [0034BF18] - [Reported by Murvel3000](https://www.starfieldpatch.dev/issues/684) - [Contributed by Wartortle](https://www.nexusmods.com/users/42492840)
 - Fixed a misspelling of "officers" in Chief Pretorius' dialogue [00155859] - [Reported by Drackore](https://www.starfieldpatch.dev/issues/730) - [Contributed by Wartortle](https://www.nexusmods.com/users/42492840)
