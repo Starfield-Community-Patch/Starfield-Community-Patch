@@ -20,15 +20,11 @@ on:
 
 jobs:
     check-changes:
-      if: ${{github.event_name != 'workflow_run'}}
+      if: ${{github.event_name != 'workflow_dispatch'}}
       runs-on: ubuntu-latest
       outputs:
         should_run: ${{ steps.should_run.outputs.should_run }}
       steps: 
-        - run: |
-            echo "event name is:" ${{ github.event_name }} 
-            echo "event type is:" ${{ github.event.action }}
-
         - uses: actions/checkout@v4
         - name: Check for changes last 24 hours
           id: should_run
@@ -38,7 +34,7 @@ jobs:
             echo "should_run=$(git log --since="1 days ago" --name-only | grep "" -c)" >> "$GITHUB_OUTPUT"
     build-plugin: 
       needs: check-changes
-      if: ${{ needs.check-changes.outputs.should_run >= 1 || github.event_name == 'workflow_run' }}
+      if: ${{ needs.check-changes.outputs.should_run >= 1 || github.event_name == 'workflow_dispatch' }}
       permissions: write-all
       runs-on: ubuntu-latest
       steps:
@@ -78,7 +74,7 @@ jobs:
                 ${{ github.workspace }}/to-pack/Strings/
     compile-scripts:
         needs: check-changes
-        if: ${{ needs.check-changes.outputs.should_run >= 1 || github.event_name == 'workflow_run' }}
+        if: ${{ needs.check-changes.outputs.should_run >= 1 || github.event_name == 'workflow_dispatch' }}
         runs-on: windows-latest
         steps: 
             - name: Checkout
