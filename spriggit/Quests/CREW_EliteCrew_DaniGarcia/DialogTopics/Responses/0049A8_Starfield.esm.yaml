@@ -1,0 +1,36 @@
+FormKey: 0049A8:Starfield.esm
+Flags: {}
+Responses:
+- WEMFile: 13124640
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Da bin ich anderer Meinung, mein Neuro-Amp ist extrem leistungsfähig. '
+    - Language: English
+      String: 'I disagree, my neuroamp is extremely powerful. '
+    - Language: Spanish
+      String: 'De eso nada, mi neuroamplificador es muy potente. '
+    - Language: French
+      String: "Je ne suis pas d'accord. Mon neuroforceur est extrêmement puissant. "
+    - Language: Italian
+      String: 'Non sono d’accordo. Il mio neuroamp è molto potente. '
+    - Language: Japanese
+      String: それには同意できない。このニューロアンプはとても強力だ
+    - Language: Polish
+      String: 'Nie zgadzam się. Mój neuroamplifikator jest wyjątkowo mocny. '
+    - Language: Portuguese_Brazil
+      String: 'Discordo, meu neuroamp é extremamente potente. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA0639FC6CFE7D701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 0D6B04:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

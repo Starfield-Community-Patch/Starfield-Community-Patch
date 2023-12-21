@@ -1,0 +1,35 @@
+FormKey: 0049A3:Starfield.esm
+Flags: {}
+Responses:
+- WEMFile: 16429274
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Du hast recht, sie klingen zu gut, um wahr zu sein. '
+    - Language: English
+      String: "You're right, they sound too good to be true. "
+    - Language: Spanish
+      String: 'Tienes razón, es demasiado bueno para ser verdad. '
+    - Language: French
+      String: "Vous avez raison, ça a l'air trop beau pour être vrai. "
+    - Language: Italian
+      String: 'Hai ragione, sembra troppo bello per essere vero. '
+    - Language: Japanese
+      String: 同感だ。そんなうまい話があるわけがない
+    - Language: Polish
+      String: 'Masz rację, brzmi to za dobrze, żeby było prawdziwe. '
+    - Language: Portuguese_Brazil
+      String: 'Tem razão, parece bom demais pra ser verdade. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x40B6793165E8D701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 0D6B04:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low
