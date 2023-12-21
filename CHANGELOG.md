@@ -8,7 +8,7 @@ When adding items to the changelog try and use the template below:
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
 ## [TBC] Version 0.0.7
-## Planet Fixes
+### Planet Fixes
 - Swapped keyword LocTypeSettledPlanet [KYWD:00062F2F] for LocQuestUCR03World [KYWD:001E79B7] on Europa so that is can be correctly used during radiant quests. [0001B747] - [Reported by aurreth](https://www.starfieldpatch.dev/issues/693) 
 ### Item Fixes
 - Fixed a component error on Red Harvest Double Malt Whiskey caused by a badly applied fix in a previous version of the patch [0003614B] - [Reported by pega3](https://www.starfieldpatch.dev/issues/657)
