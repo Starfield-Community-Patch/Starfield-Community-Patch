@@ -1,5 +1,7 @@
 name: Build Release
 on: 
+  schedule:
+    - cron: '0 9 * * *'
   workflow_dispatch:
     inputs:
         papyrus-version:
@@ -20,6 +22,7 @@ on:
 
 jobs:
     check-changes:
+      name: Check for recent changes
       if: ${{github.event_name != 'workflow_dispatch'}}
       runs-on: ubuntu-latest
       outputs:
@@ -33,6 +36,7 @@ jobs:
             git log --since="1 days ago" --name-only
             echo "should_run=$(git log --since="1 days ago" --name-only | grep "" -c)" >> "$GITHUB_OUTPUT"
     build-plugin: 
+      name: Build ESM from Spriggit files
       needs: check-changes
       if: ${{ needs.check-changes.outputs.should_run >= 1 || (github.event_name == 'workflow_dispatch' && always()) }}
       permissions: write-all
@@ -73,6 +77,7 @@ jobs:
                 ${{ github.workspace }}/to-pack/StarfieldCommunityPatch.esm
                 ${{ github.workspace }}/to-pack/Strings/
     compile-scripts:
+        name: Compile Papyrus scripts
         needs: check-changes
         if: ${{ needs.check-changes.outputs.should_run >= 1 || (github.event_name == 'workflow_dispatch' && always()) }}
         runs-on: windows-latest
@@ -114,6 +119,7 @@ jobs:
                 path: |
                   Scripts/
     package-mod:
+      name: Package with BA2
       runs-on: windows-latest
       needs: [build-plugin, compile-scripts]
       permissions: write-all
@@ -182,6 +188,7 @@ jobs:
                 plugin-and-strings
                 compiled-scripts
     share-release:
+      name: Share release
       needs: [package-mod]
       if: ${{ inputs.publish-release == true }}
       runs-on: ubuntu-latest
