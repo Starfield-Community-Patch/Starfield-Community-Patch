@@ -514,6 +514,8 @@ Name:
     String: Kradzież zasilania
   - Language: Portuguese_Brazil
     String: Explorando as Possibilidades
+  - Language: ChineseSimplified
+    String: 网络入侵
 Data:
   Flags:
   - RunOnce
@@ -563,6 +565,8 @@ Stages:
         String: Louisa Reyez przygląda się sprawie spadku mocy w Studni i może potrzebować w tym pomocy. Jeśli chcę pomóc, muszę z nią porozmawiać.
       - Language: Portuguese_Brazil
         String: Louisa Reyez está investigando uma fuga de energia no Poço e pode precisar de ajuda. Preciso falar com ela se eu quiser ajudar.
+      - Language: ChineseSimplified
+        String: 路易莎·雷耶兹正在调查深井区的电力流失，并且可能需要一点帮助。如果我想协助她，就该去和她谈谈。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -598,6 +602,8 @@ Stages:
         String: Pomogę Louisie Reyez w znalezieniu przyczyn spadku mocy w nowoatlantydzkiej Studni. Muszę znaleźć kilka skrzynek przyłączeniowych i je powyłączać.
       - Language: Portuguese_Brazil
         String: Concordei em ajudar Louisa Reyez a rastrear a fuga de energia no Poço em Nova Atlântida. Preciso encontrar uma série de caixas de junção e desligá-las.
+      - Language: ChineseSimplified
+        String: 我已经同意帮助路易莎·雷耶兹追踪新亚特兰蒂斯城里深井区的电力流失。我需要先找到一些电源接线盒，然后关掉它们。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -721,6 +727,8 @@ Stages:
         String: Skrzynki przyłączeniowe są już powyłączane. Muszę wrócić do Louisy Reyez, żeby powiedziała mi, czego się dowiedziała.
       - Language: Portuguese_Brazil
         String: Terminei de desligar a caixa de junção e agora preciso voltar para Louisa Reyez e ver o que ela descobriu.
+      - Language: ChineseSimplified
+        String: 我已经完成了关闭接线盒的任务，只需要回去找路易莎·雷耶兹，看看她都有什么发现。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -749,6 +757,8 @@ Stages:
         String: Louisa Reyes otrzymała moją pomoc w śledztwie dotyczącym spadku mocy w Studni, w Nowej Atlantydzie. Wyłączenie kilku skrzynek przyłączeniowych pozwoliło jej wpaść na trop przyczyny usterki - wiedzie on do Urzędu Handlowego.
       - Language: Portuguese_Brazil
         String: Ajudei Louisa Reyez na investigação da fuga de energia do Poço em Nova Atlântida. Ao desativar as caixas de junção, ela conseguiu rastrear a fonte da fuga até a Autoridade Comercial.
+      - Language: ChineseSimplified
+        String: 我帮助了路易莎·雷耶兹调查新亚特兰蒂斯城深井区的电力流失。在停用了多个接线盒之后，她成功在贸易管理局追踪到了导致流失的源头。
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -798,6 +808,8 @@ Objectives:
       String: Porozmawiaj z Louisą Reyez
     - Language: Portuguese_Brazil
       String: Fale com Louisa Reyez
+    - Language: ChineseSimplified
+      String: 与路易莎·雷耶兹交谈
   Targets:
   - {}
 - Index: 20
@@ -821,6 +833,8 @@ Objectives:
       String: Znajdź skrzynkę przyłączeniową
     - Language: Portuguese_Brazil
       String: Encontre a caixa de junção
+    - Language: ChineseSimplified
+      String: 找到接线盒
   Targets:
   - AliasID: 1
 - Index: 40
@@ -844,6 +858,8 @@ Objectives:
       String: Wyłącz skrzynkę przyłączeniową
     - Language: Portuguese_Brazil
       String: Desligue a caixa de junção
+    - Language: ChineseSimplified
+      String: 关闭接线盒
   Targets:
   - AliasID: 1
 - Index: 50
@@ -867,6 +883,8 @@ Objectives:
       String: Znajdź skrzynkę przyłączeniową
     - Language: Portuguese_Brazil
       String: Encontre a caixa de junção
+    - Language: ChineseSimplified
+      String: 找到接线盒
   Targets:
   - AliasID: 2
 - Index: 90
@@ -890,6 +908,8 @@ Objectives:
       String: Wyłącz skrzynkę przyłączeniową
     - Language: Portuguese_Brazil
       String: Desligue a caixa de junção
+    - Language: ChineseSimplified
+      String: 关闭接线盒
   Targets:
   - AliasID: 2
 - Index: 100
@@ -913,6 +933,8 @@ Objectives:
       String: Znajdź skrzynkę przyłączeniową
     - Language: Portuguese_Brazil
       String: Encontre a caixa de junção
+    - Language: ChineseSimplified
+      String: 找到接线盒
   Targets:
   - AliasID: 4
 - Index: 140
@@ -936,6 +958,8 @@ Objectives:
       String: Wyłącz skrzynkę przyłączeniową
     - Language: Portuguese_Brazil
       String: Desligue a caixa de junção
+    - Language: ChineseSimplified
+      String: 关闭接线盒
   Targets:
   - AliasID: 4
 - Index: 150
@@ -959,6 +983,8 @@ Objectives:
       String: Znajdź skrzynkę przyłączeniową
     - Language: Portuguese_Brazil
       String: Encontre a caixa de junção
+    - Language: ChineseSimplified
+      String: 找到接线盒
   Targets:
   - AliasID: 5
 - Index: 180
@@ -982,6 +1008,8 @@ Objectives:
       String: Wyłącz skrzynkę przyłączeniową
     - Language: Portuguese_Brazil
       String: Desligue a caixa de junção
+    - Language: ChineseSimplified
+      String: 关闭接线盒
   Targets:
   - AliasID: 5
 - Index: 190
@@ -1005,6 +1033,8 @@ Objectives:
       String: Porozmawiaj z Louisą Reyez
     - Language: Portuguese_Brazil
       String: Fale com Louisa Reyez
+    - Language: ChineseSimplified
+      String: 与路易莎·雷耶兹交谈
   Targets:
   - {}
 Aliases:

@@ -30,6 +30,8 @@ Name:
     String: '[Ecliptic]'
   - Language: Portuguese_Brazil
     String: '[Eclíptico]'
+  - Language: ChineseSimplified
+    String: '[黄道佣兵团]'
 WorldModel:
   Male:
     File: Clothes\Spacesuit_Ecliptic\SpaceSuit_Ecliptic_Backpack_GO.nif
@@ -94,6 +96,8 @@ ObjectTemplates:
       String: Wejście
     - Language: Portuguese_Brazil
       String: Registro
+    - Language: ChineseSimplified
+      String: 条目
   Default: True
   Includes:
   - Mod: 23F862:Starfield.esm

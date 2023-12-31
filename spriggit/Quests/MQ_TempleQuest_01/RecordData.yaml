@@ -309,6 +309,8 @@ Name:
     String: Moc nie z tego świata
   - Language: Portuguese_Brazil
     String: Poder do Além
+  - Language: ChineseSimplified
+    String: 彼方之力
 Data:
   Flags:
   - 0x10000
@@ -362,6 +364,8 @@ Stages:
         String: Muszę zapytać Vladimira, czy udało mu się znaleźć jakieś świątynie.
       - Language: Portuguese_Brazil
         String: Preciso falar com Vladimir pra ver se ele conseguiu localizar mais algum Templo.
+      - Language: ChineseSimplified
+        String: 我应该和弗拉迪米尔联络，看看他有没有找到更多神殿。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -394,6 +398,8 @@ Stages:
         String: Muszę spróbować znaleźć kolejne świątynie za pomocą sprzętu na Oku.
       - Language: Portuguese_Brazil
         String: Preciso usar o equipamento no Olho pra tentar localizar mais Templos.
+      - Language: ChineseSimplified
+        String: 我应该使用探察之眼上的设备来寻找更多神殿。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -421,6 +427,8 @@ Stages:
         String: Wiem, gdzie w odległym kosmosie mogę znaleźć dużą anomalię, której sygnatura pasuje do jednego z artefaktów. Muszę ją zbadać.
       - Language: Portuguese_Brazil
         String: Tem uma grande anomalia em um planeta distante que corresponde à assinatura de um dos artefatos. Preciso encontrá-la.
+      - Language: ChineseSimplified
+        String: 某颗遥远的行星上有一个巨大的异常点，与其中一件神器的特征相符。我需要找到它。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -448,6 +456,8 @@ Stages:
         String: Wiem, gdzie w odległym kosmosie mogę znaleźć dużą anomalię, której sygnatura pasuje do jednego z artefaktów. Muszę ją zbadać.
       - Language: Portuguese_Brazil
         String: Tem uma grande anomalia em um planeta distante que corresponde à assinatura de um dos artefatos. Preciso encontrá-la.
+      - Language: ChineseSimplified
+        String: 某颗遥远的行星上有一个巨大的异常点，与其中一件神器的特征相符。我需要找到它。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -491,6 +501,8 @@ Stages:
         String: Wiem, gdzie w odległym kosmosie mogę znaleźć dużą anomalię, której sygnatura pasuje do jednego z artefaktów. Muszę ją zbadać.
       - Language: Portuguese_Brazil
         String: Tem uma grande anomalia em um planeta distante que corresponde à assinatura de um dos artefatos. Preciso encontrá-la.
+      - Language: ChineseSimplified
+        String: 某颗遥远的行星上有一个巨大的异常点，与其中一件神器的特征相符。我需要找到它。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -518,6 +530,8 @@ Stages:
         String: Mój skaner wykrywa jakieś zakłócenia. Muszę iść za jego wskazaniami do ich źródła.
       - Language: Portuguese_Brazil
         String: Meu leitor está detectando distorções. Preciso mantê-lo ativo e seguir a direção das distorções até a origem.
+      - Language: ChineseSimplified
+        String: 我的扫描仪检测到扭曲现象。我应该拿着扫描仪追踪扭曲的来源。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -561,6 +575,8 @@ Stages:
         String: Vladimir dał znać, że w przyszłości może pomóc znaleźć świątynie korespondujące ze wszystkimi artefaktami, które znajdziemy.
       - Language: Portuguese_Brazil
         String: O Vladimir disse que pode ajudar a encontrar mais templos futuramente com os artefatos que encontrarmos.
+      - Language: ChineseSimplified
+        String: 弗拉迪米尔说他可以在未来帮忙寻找更多神殿的下落，以便我们寻找神器。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -597,6 +613,8 @@ Stages:
         String: Mogę w przyszłości znaleźć więcej świątyń poprzez powrót na Oko i lokalizację wszelkich znalezionych przez nie anomalii grawitacyjnych.
       - Language: Portuguese_Brazil
         String: Posso encontrar mais templos futuramente voltando ao Olho e encontrando as anomalias gravitacionais que ele indicar.
+      - Language: ChineseSimplified
+        String: 我未来可以寻找更多神殿的下落，只要返回探察之眼，并用它来寻找重力异常点就行。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -625,6 +643,8 @@ Objectives:
       String: Porozmawiaj z Vladimirem, aby znaleźć świątynie
     - Language: Portuguese_Brazil
       String: Fale com Vladimir para localizar Templos
+    - Language: ChineseSimplified
+      String: 与弗拉迪米尔交谈，以寻找神殿
   Targets:
   - AliasID: 16
 - Index: 5
@@ -648,6 +668,8 @@ Objectives:
       String: Użyj Oka do lokalizowania świątyń
     - Language: Portuguese_Brazil
       String: Use o Olho para localizar templos
+    - Language: ChineseSimplified
+      String: 使用探察之眼找到神殿
   Targets:
   - AliasID: 17
 - Index: 7
@@ -671,6 +693,8 @@ Objectives:
       String: Zdobądź statek z zasięgiem skoku grawitonowego 28 lat świetlnych
     - Language: Portuguese_Brazil
       String: Obtenha uma nave com alcance de dobra grav de 28 anos-luz
+    - Language: ChineseSimplified
+      String: 得到一艘重力跃迁范围为28光年的飞船
   Targets:
   - AliasID: 22
 - Index: 10
@@ -694,6 +718,8 @@ Objectives:
       String: Zdobądź moc, którą skrywa <Alias=PlanetWithTrait>
     - Language: Portuguese_Brazil
       String: Consiga o poder em <Alias=PlanetWithTrait>
+    - Language: ChineseSimplified
+      String: 在<Alias=PlanetWithTrait>获得能力
   Targets:
   - AliasID: 5
     Conditions:
@@ -745,6 +771,8 @@ Objectives:
       String: Podążaj za zakłóceniami widocznymi na skanerze
     - Language: Portuguese_Brazil
       String: Siga as distorções exibidas no leitor
+    - Language: ChineseSimplified
+      String: 使用扫描仪追踪扭曲现象
 Aliases:
 - MutagenObjectType: QuestLocationAlias
   ID: 18

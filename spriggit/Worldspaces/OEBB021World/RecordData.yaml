@@ -1,0 +1,77 @@
+FormKey: 0A91FA:Starfield.esm
+EditorID: OEBB021World
+Components:
+- MutagenObjectType: WorldSpaceOverlayComponent
+  SNAM: 0xFFFFFFFF
+  PNAM: 0xFFFFFFFF
+  SurfaceBlock: 0A8F2F:Starfield.esm
+- MutagenObjectType: PlanetContentManagerContentPropertiesComponent
+  ZNAM: 0
+  YNAM: 0
+  XNAM: 0
+  WNAM: 0
+  VNAM: 1
+  UNAM: 0
+  NAM1: 0
+  Global: Null
+  NAM3: 0
+  NAM4: 0x00FF0000
+  NAM5: 0
+  NAM6: 0
+  NAM7: 0
+  NAM8: 0
+  NAM9: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17624
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1C3FB6:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17624
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1ABF53:Starfield.esm
+    ComparisonValue: 1
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Solarfarm
+  - Language: English
+    String: Solar Farm
+  - Language: Spanish
+    String: Granja solar
+  - Language: French
+    String: Parc solaire
+  - Language: Italian
+    String: Impianto solare
+  - Language: Japanese
+    String: 太陽光発電所
+  - Language: Polish
+    String: Farma solarna
+  - Language: Portuguese_Brazil
+    String: Estação Fotovoltaica
+  - Language: ChineseSimplified
+    String: 太阳能农场
+Location: 09B082:Starfield.esm
+LodWater: 000018:Starfield.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: -2048
+  DefaultWaterHeight: -200
+MapData: {}
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+FNAM: 0x00
+ObjectBoundsMin: -0.07324219, -0.07324219
+ObjectBoundsMax: 0.07324219, 0.07324219
+GNAM: 1
+XCLWs: []
+WHGTs: []
+HNAM: 0x05

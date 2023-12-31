@@ -19,6 +19,8 @@ Name:
     String: Pit Stop
   - Language: Portuguese_Brazil
     String: O Pit Stop
+  - Language: ChineseSimplified
+    String: 中途站
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -1148,3 +1150,4 @@ Traversals:
   To: -5.6248546, 15.829494, 33.53687
   UnknownVector: 1.8414963, 10.261693, 1.3932328
   Unknown: 0x464646467C3D3334
+NumTraversalFluffBytes: 880

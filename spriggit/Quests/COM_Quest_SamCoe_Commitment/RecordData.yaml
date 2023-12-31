@@ -235,6 +235,8 @@ Name:
     String: 'Związek: Sam Coe'
   - Language: Portuguese_Brazil
     String: 'Compromisso: Sam Coe'
+  - Language: ChineseSimplified
+    String: 承诺：萨姆·科尔
 Data:
   Flags:
   - RunOnce
@@ -276,6 +278,8 @@ Stages:
         String: Wkrótce w posiadłości rodziny Coe w mieście Akila odbędzie ceremonia przyrzeczenia - moja i Sama Coe!
       - Language: Portuguese_Brazil
         String: Eu e o Sam vamos oficializar a nossa união com uma cerimônia! Ela será realizada na Propriedade Coe, na cidade de Akila.
+      - Language: ChineseSimplified
+        String: 萨姆·科尔和我将在阿基拉城的科尔庄园举行婚礼！
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -303,6 +307,8 @@ Stages:
         String: Jestem w Akili. Muszę teraz udać się do posiadłości rodziny Coe i porozmawiać z Jacobem Coe, aby rozpocząć ceremonię przyrzeczenia.
       - Language: Portuguese_Brazil
         String: Agora que cheguei à Akila, vou seguir para a Propriedade Coe e falar com Jacob Coe para iniciar nossa cerimônia de compromisso.
+      - Language: ChineseSimplified
+        String: 我来到了阿基拉城，现在该去科尔庄园和雅各布·科尔谈谈举办婚礼的事。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -329,6 +335,8 @@ Stages:
         String: Jacob i osoba, która poprowadzi ceremonię, są gotowi. Brakuje tylko Cory, która jest w księgarni Sinclair, oraz Lillian Hart, którą trzeba odebrać z portu kosmicznego.
       - Language: Portuguese_Brazil
         String: Jacob e a pessoa que vai oficializar a cerimônia já estão prontos para começar, mas a Cora está na Sinclair's Books e Lillian Hart precisa ser recebida no porto sideral.
+      - Language: ChineseSimplified
+        String: 雅各布和司仪已经为仪式做好准备。但科拉还在辛克莱尔的书店，另外还要前往星港接莉莉安·哈特。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -389,6 +397,8 @@ Stages:
         String: Mam Corę Coe i Lilian Hart. Pora wracać do posiadłości Coe.
       - Language: Portuguese_Brazil
         String: Falei com a Cora Coe e com a Lillian Hart. É hora de voltar pra Propriedade Coe.
+      - Language: ChineseSimplified
+        String: 我聚集了科拉·科尔和莉莉安·哈特。是时候前往科尔庄园。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -417,6 +427,8 @@ Stages:
         String: Jestem w posiadłości rodziny Coe. Możemy rozpoczynać ceremonię przyrzeczenia.
       - Language: Portuguese_Brazil
         String: Cheguei na Propriedade Coe. A cerimônia de compromisso está pronta para começar.
+      - Language: ChineseSimplified
+        String: 我来到了科尔庄园，婚礼马上就要开始了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -470,6 +482,8 @@ Objectives:
       String: Udaj się do miasta Akila
     - Language: Portuguese_Brazil
       String: Vá à cidade de Akila
+    - Language: ChineseSimplified
+      String: 前往阿基拉城
   Targets:
   - AliasID: 2
 - Index: 150
@@ -493,6 +507,8 @@ Objectives:
       String: Porozmawiaj z Jacobem Coe
     - Language: Portuguese_Brazil
       String: Fale com Jacob Coe
+    - Language: ChineseSimplified
+      String: 与雅各布·科尔交谈
   Targets:
   - AliasID: 2
 - Index: 300
@@ -516,6 +532,8 @@ Objectives:
       String: Zabierz Corę Coe na ceremonię
     - Language: Portuguese_Brazil
       String: Direcione Cora Coe à cerimônia
+    - Language: ChineseSimplified
+      String: 接科拉·科尔参加婚礼
   Targets:
   - AliasID: 1
 - Index: 400
@@ -539,6 +557,8 @@ Objectives:
       String: Zabierz Lillian Hart na ceremonię
     - Language: Portuguese_Brazil
       String: Direcione Lillian Hart à cerimônia
+    - Language: ChineseSimplified
+      String: 接莉莉安·哈特参加婚礼
   Targets:
   - AliasID: 3
 - Index: 600
@@ -562,6 +582,8 @@ Objectives:
       String: Udaj się na ceremonię przyrzeczenia
     - Language: Portuguese_Brazil
       String: Vá à cerimônia de compromisso
+    - Language: ChineseSimplified
+      String: 前往参加婚礼
   Targets:
   - AliasID: 2
 - Index: 700
@@ -585,6 +607,8 @@ Objectives:
       String: Porozmawiaj z Samem Coe w posiadłości jego rodziny
     - Language: Portuguese_Brazil
       String: Fale com Sam Coe na Propriedade Coe
+    - Language: ChineseSimplified
+      String: 在科尔庄园与萨姆·科尔交谈
   Targets:
   - Conditions:
     - MutagenObjectType: ConditionFloat
@@ -648,6 +672,8 @@ Objectives:
       String: Weź udział w ceremonii przyrzeczenia
     - Language: Portuguese_Brazil
       String: Participe da cerimônia de compromisso
+    - Language: ChineseSimplified
+      String: 出席婚礼
   Targets:
   - AliasID: 4
 Aliases:

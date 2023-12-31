@@ -19,6 +19,8 @@ Name:
     String: Dom gracza w Odcinku
   - Language: Portuguese_Brazil
     String: Casa do Jogador - Extensão
+  - Language: ChineseSimplified
+    String: 玩家房屋漫地区
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -116,3 +118,4 @@ Traversals:
   To: 2.0277796, -3.0575671, 0.053874135
   UnknownVector: 3.0436475, 7.6330504, 1.1913716
   Unknown: 0x48424842CD34003A
+NumTraversalFluffBytes: 56

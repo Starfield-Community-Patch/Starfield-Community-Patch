@@ -1,0 +1,39 @@
+FormKey: 0049DB:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 14004121
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ich stimme dir zu, mein Neuro-Amp war die Schmerzen des Einbaus nicht wert.
+    - Language: English
+      String: I agree, my neuroamp wasn't worth the pain of having it installed.
+    - Language: Spanish
+      String: Cierto, yo me instalé un neuroamplificador y no merece la pena.
+    - Language: French
+      String: Je suis d'accord, mon neuroforceur ne valait pas la douleur de l'implantation.
+    - Language: Italian
+      String: Concordo, il mio neuroamp non vale il dolore di farselo installare.
+    - Language: Japanese
+      String: 同感だ。ニューロアンプには痛みに耐えてインストールする価値はなかった
+    - Language: Polish
+      String: Zgadzam się. Mój neuroamplifikator nie był wart bólu podczas instalacji.
+    - Language: Portuguese_Brazil
+      String: Concordo, meu neuroamp não fez valer a dor da instalação.
+    - Language: ChineseSimplified
+      String: 我同意，神经增幅器并不值得安装它所挨的痛。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA016DDE4CFE7D701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 0D6B04:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -19,6 +19,8 @@ Name:
     String: 'Wieża Handlowa: CeltCorp'
   - Language: Portuguese_Brazil
     String: 'Torre Comercial: CeltCorp'
+  - Language: ChineseSimplified
+    String: 贸易大楼：凯尔特公司
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -818,3 +820,4 @@ Traversals:
   To: -53.630135, 154.49971, 162.92854
   UnknownVector: 1.2672973, 1.5719153, 0.8922789
   Unknown: 0x0000000073342A41
+NumTraversalFluffBytes: 616

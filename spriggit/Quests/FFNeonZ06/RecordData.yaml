@@ -104,6 +104,8 @@ Name:
     String: Nieusprawiedliwione
   - Language: Portuguese_Brazil
     String: Não justificado
+  - Language: ChineseSimplified
+    String: 无凭无据
 Data:
   Flags:
   - RunOnce
@@ -139,6 +141,8 @@ Stages:
         String: Chcę się dowiedzieć w imieniu Katherine, co się stało z jej mężem. Muszę przesłuchać w tej sprawie świadka, Tevina Anastasa.
       - Language: Portuguese_Brazil
         String: Ofereci ajuda à Katherine para descobrir o que realmente aconteceu com o marido dela. Preciso interrogar a testemunha, Tevin Anastas.
+      - Language: ChineseSimplified
+        String: 我答应帮助凯瑟琳，替她弄清楚她丈夫真正的死因。我得去询问证人塔文·安那斯塔斯。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -174,6 +178,8 @@ Stages:
         String: 'Tevin robił z początku problemy, ale zastraszony opowiedział mi, co wie o Thomasie. '
       - Language: Portuguese_Brazil
         String: 'Tevin resistiu no início, mas depois consegui intimidá-lo e obrigar ele a contar o que sabe sobre o Thomas. '
+      - Language: ChineseSimplified
+        String: '塔文一开始不肯配合，不过经过我一番恐吓，他还是吐露了自己知道的有关托马斯的事。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -201,6 +207,8 @@ Stages:
         String: 'Tevin robił z początku problemy, ale łapówka wystarczyła, żeby nakłonić go do porozmawiania o Thomasie. '
       - Language: Portuguese_Brazil
         String: 'Tevin resistiu no início, mas nada como um suborno pra fazer ele falar sobre o Thomas. '
+      - Language: ChineseSimplified
+        String: '塔文一开始不肯配合，不过在贿赂面前，他还是吐露了托马斯的事情。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -228,6 +236,8 @@ Stages:
         String: Tevin potrzebuje solidniejszych argumentów. Jeśli nic go nie przekona, może łapówka nakłoni go do zdradzenia informacji. 1000 kredytów brzmi jak dobra kwota...
       - Language: Portuguese_Brazil
         String: Vou ter que continuar tentando convencer o Tevin. Se nada mais funcionar, talvez eu tente um suborno pra conseguir as informações. Acho que 1000 créditos seriam suficientes...
+      - Language: ChineseSimplified
+        String: 得想办法说服塔文开口。如果没有别的办法，也许可以贿赂他把情报告诉我。1000信用币应该就行了……
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -263,6 +273,8 @@ Stages:
         String: Udało mi się wyciągnąć z Tevina wszystko, co wie o śmierci Thomasa.
       - Language: Portuguese_Brazil
         String: Consegui obrigar o Tevin a me contar o que sabe sobre a morte do Thomas.
+      - Language: ChineseSimplified
+        String: 我成功让塔文把他对托马斯的死的了解告诉了我。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -290,6 +302,8 @@ Stages:
         String: Tevin powiedział mi, że mąż Katherine został zabity przez mężczyznę imieniem Rusty. Muszę go znaleźć.
       - Language: Portuguese_Brazil
         String: Tevin me disse que o marido da Katherine foi morto por um homem chamado Rusty. Preciso encontrá-lo.
+      - Language: ChineseSimplified
+        String: 塔文跟我说，凯瑟琳的丈夫是被一个叫“拉斯提”的人杀害的。我需要把他找出来。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -351,6 +365,8 @@ Stages:
         String: Sprawa Rusty'ego jest już załatwiona. Teraz muszę powiedzieć Katherine prawdę o tym, co się wydarzyło.
       - Language: Portuguese_Brazil
         String: Dei um jeito no Rusty. Agora tenho que contar o que aconteceu para a Katherine.
+      - Language: ChineseSimplified
+        String: 我已经搞定拉斯提了。现在该告诉凯瑟琳事情的真相。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -387,6 +403,8 @@ Stages:
         String: Udało mi się poznać prawdę o losie męża Katherine. Został zamordowany przez niejakiego Rusty'ego, który próbował wymusić od niego kredyty. Ochrona zaś próbowała zamieść sprawę pod dywan. Miejmy nadzieję, że skoro poznała już prawdę, a Rusty nikomu już nie zagrozi, rana w jej sercu zacznie się zabliźniać.
       - Language: Portuguese_Brazil
         String: 'Consegui descobrir a verdade sobre o que aconteceu com o marido da Katherine. Ele foi assassinado em um assalto por um homem chamado Rusty, e a segurança tentou esconder tudo. Espero que ela comece a tentar se recuperar agora que sabe a verdade e que foi dado um jeito no Rusty. '
+      - Language: ChineseSimplified
+        String: '我查明了凯瑟琳丈夫遇难的真相。他在一场勒索中被一个叫拉斯提的人杀害，而警卫试图掩盖这一切。她现在知道真相，而拉斯提也得到了应有的报应，希望她可以开始专心自我疗愈。 '
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -421,6 +439,8 @@ Stages:
         String: Udało mi się poznać prawdę o losie męża Katherine. Został zamordowany przez niejakiego Rusty'ego, który próbował wymusić od niego kredyty. Ochrona zaś próbowała zamieść sprawę pod dywan. Miejmy nadzieję, że skoro poznała już prawdę, a Rusty nikomu już nie zagrozi, rana w jej sercu zacznie się zabliźniać.
       - Language: Portuguese_Brazil
         String: 'Consegui descobrir a verdade sobre o que aconteceu com o marido da Katherine. Ele foi assassinado em um assalto por um homem chamado Rusty, e a segurança tentou esconder tudo. Espero que ela comece tentar se recuperar agora que sabe a verdade e que foi dado um jeito no Rusty. '
+      - Language: ChineseSimplified
+        String: '我查明了凯瑟琳丈夫遇难的真相。他在一场勒索中被一个叫拉斯提的人杀害，而警卫试图掩盖这一切。她现在知道真相，而拉斯提也得到了应有的报应，希望她可以开始专心自我疗愈。 '
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -448,6 +468,8 @@ Objectives:
       String: Porozmawiaj z Tevinem Anastasem
     - Language: Portuguese_Brazil
       String: Fale com Tevin Anastas
+    - Language: ChineseSimplified
+      String: 与塔文·安那斯塔斯交谈
   Targets:
   - AliasID: 2
 - Index: 13
@@ -471,6 +493,8 @@ Objectives:
       String: Przekupstwem wyciągnij informacje z Tevina
     - Language: Portuguese_Brazil
       String: Suborne Tevin para obter informações
+    - Language: ChineseSimplified
+      String: 贿赂塔文以获取情报
   Targets:
   - AliasID: 2
 - Index: 30
@@ -494,6 +518,8 @@ Objectives:
       String: Znajdź Rusty'ego
     - Language: Portuguese_Brazil
       String: Encontre Rusty
+    - Language: ChineseSimplified
+      String: 寻找拉斯提
   Targets:
   - {}
 - Index: 70
@@ -517,6 +543,8 @@ Objectives:
       String: Wróć do Katherine
     - Language: Portuguese_Brazil
       String: Volte a Katherine
+    - Language: ChineseSimplified
+      String: 返回凯瑟琳处
   Targets:
   - AliasID: 1
 Aliases:

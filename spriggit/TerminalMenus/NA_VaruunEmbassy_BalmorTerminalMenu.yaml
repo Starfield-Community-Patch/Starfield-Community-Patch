@@ -19,6 +19,8 @@ Name:
     String: Terminal ambasadora Bal'mora
   - Language: Portuguese_Brazil
     String: Terminal do Embaixador Bal'mor
+  - Language: ChineseSimplified
+    String: 巴尔默大使的终端
 TMVT: 0x00000000
 DNAM: 0x01
 SNAM: 0x00000000
@@ -45,6 +47,8 @@ MenuItems:
       String: 'Wpis 01: Przybycie'
     - Language: Portuguese_Brazil
       String: 'Registro 01: Chegada'
+    - Language: ChineseSimplified
+      String: 日志01：抵达
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -124,6 +128,15 @@ MenuItems:
 
 
         Desejo muito que esta embaixada venha a ser vista como símbolo de um futuro pacífico, livre das manchas do preconceito e da violência. Farei tudo o que for possível para atingir esse objetivo, independentemente de qualquer resistência que eu possa enfrentar. Embora me encontre em uma terra estranha, sei que o Grande Ofídio nos orientará para que tenhamos êxito nesta empreitada.
+    - Language: ChineseSimplified
+      String: >-
+        昨天是我上任瓦鲁家族驻联合殖民地大使的第一天。我满怀希望地来到这里，希望开设新使馆表明我们摒弃前嫌建立新关系的姿态。但我们刚到新亚特兰蒂斯城不到一小时，麻烦就开始找上门了。
+
+
+        从太空港到大使馆短短的路上，我们看到无数陌生人投来怀疑的目光，伴随的是他们的嗤笑声。我担心这里人们的观念不会那么轻易改变。瓦鲁家族的错误行为不会那么轻易被原谅。
+
+
+        我真心希望这个大使馆将成为和平未来的象征，解开人们心中的偏见和暴力。不论遇到什么阻力，我将尽我所能，做好大使的工作，实现这个目标。虽然我身处他乡，但我知道蛇神会引导我们取得成功。
 - ItemText:
     TargetLanguage: English
     Values:
@@ -143,6 +156,8 @@ MenuItems:
       String: 'Wpis 02: Protesty'
     - Language: Portuguese_Brazil
       String: 'Registro 02: Protestos'
+    - Language: ChineseSimplified
+      String: 日志02：抗议
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -222,6 +237,15 @@ MenuItems:
 
 
         Pretendo discutir essa questão com meus homólogos na União das Colônias. A ajuda deles será essencial para que este esforço tenha êxito... embora tenha receio de que esse não será um incidente isolado.
+    - Language: ChineseSimplified
+      String: >-
+        今天早上，我在冥想祷告时，被一阵模糊的喊叫声惊醒。经过调查，原来是一群联合殖民地的居民在大使馆门口进行抗议活动。他们反对政府与瓦鲁家族建立外交关系的尝试，并请愿立即关闭大使馆。
+
+
+        我试图说服他们，但结果是徒劳。大部分人都不愿同我交谈，而且他们不愿意相信我们出现在新亚特兰蒂斯城仅仅是为了和平。当愤怒的人群开始对我的善意发出威胁时，大使馆警卫不得不出面干涉，强制我回到使馆楼里。
+
+
+        我打算和联合殖民地的同行商讨此事。如果我们想取得成功，他们的支持不可或缺……但我担心这次的并非个别事件。
 - ItemText:
     TargetLanguage: English
     Values:
@@ -241,6 +265,8 @@ MenuItems:
       String: 'Wpis 03: Gość'
     - Language: Portuguese_Brazil
       String: 'Registro 03: Uma Visita'
+    - Language: ChineseSimplified
+      String: 日志03：来客
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -392,6 +418,24 @@ MenuItems:
 
 
         Grande Ofídio, permita que isso aconteça.
+    - Language: ChineseSimplified
+      String: >-
+        我的挫败感与日俱增。蛇神啊，我是做错了什么要遭受这样的蔑视？
+
+
+        不久前，希雅·马万来到了我的大使馆。居然有这样一名高级女祭司（而且还是蛇母）造访，并且想与联合殖民地开始谈判？我大喜过望。瓦鲁家族这一举止，必定会让那些怀疑我们努力的人看到我们工作的价值。
+
+
+        但我似乎被骗了。希雅实际的意图并不是像她说的那样。她拒绝一切和联合殖民地代表接触的机会。相反，我花了几个月时间才争取到外交官们的信任，而她却不停地说有必要监视他们。
+
+
+        她仍然深陷我们的旧思维模式，看不到我们在这里做的工作其实是确保瓦鲁家族的未来。蛇神圣战中我们的损失太大了。外交是确保瓦鲁家族存续的唯一方法。
+
+
+        我必须想办法让希雅认识到这一点。幸运的是，今晚的宴会将是一个完美的机会。我敢说，联殖方面的主人，外交副官罗兰德，是个头脑冷静且理智的人。他甚至可以说是我们的同情者。如果以之前的经验来看，联殖中这种人可不多见。如果希雅张开双臂走近，我相信他会像朋友一样拥抱她。
+
+
+        拜托了蛇神，让这一切成为现实吧。
 - ItemText:
     TargetLanguage: English
     Values:
@@ -411,6 +455,8 @@ MenuItems:
       String: 'Wpis 04: Kolacja'
     - Language: Portuguese_Brazil
       String: 'Registro 04: Jantar'
+    - Language: ChineseSimplified
+      String: 日志04：宴会
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -559,6 +605,24 @@ MenuItems:
 
 
         Falei com meus contatos em Dazra, que me garantiram que ainda acreditavam na empreitada. Que o próprio Jarek Va'ruun ainda acreditava. E essa é toda a garantia de que preciso.
+    - Language: ChineseSimplified
+      String: >-
+        蛇神，这是在考验我的信仰吗？你真的想看看我到底有多忠诚吗？否则你为何允许这种灾难的发生？
+
+
+        在罗兰德副官家的宴会一开始进行得很顺利，甚至可以说我们意气相投。确实有针对瓦鲁家族意图的尖锐问题，但总体的氛围还是很和谐的。
+
+
+        但随着罗兰德一名鲁莽的客人，大概是军官什么的，钱德拉酒喝多了，然后发问：“你们蛇族的所作所为，我们还怎么相信你们呢？”我想这话让蛇母破防了。虽然只是这么说说而已，但外交不就是唇枪舌剑吗。当我意识到这正好给了希雅绝好的托词时已经晚了。
+
+
+        甜品上桌后，希雅就借故离开了。我们等啊等，等她回来。但很显然，蛇母不会回来了，我就客套了一番，赶回大使馆。我看到她在收拾东西。当我问起她要去哪时，她只是说：“我已经看到需要看到的了。”
+
+
+        然后一言不发地离开了。
+
+
+        我联系了达兹拉城的联系人，他们向我保证还相信这个事业。贾瑞克·瓦鲁自己还相信。我能得到这份保证就足够了。
 - ItemText:
     TargetLanguage: English
     Values:
@@ -578,6 +642,8 @@ MenuItems:
       String: 'Wpis 05: Próba wiary'
     - Language: Portuguese_Brazil
       String: 'Registro 05: Um Teste de Fé'
+    - Language: ChineseSimplified
+      String: 日志05：信仰考验
   ItemShortText:
     TargetLanguage: English
   ISET: 0x000075BA08000000
@@ -679,6 +745,18 @@ MenuItems:
 
 
         Então aqui estou eu, esperando o dia em que todos eles entenderão a verdade e voltarão.
+    - Language: ChineseSimplified
+      String: >-
+        我的最后一批人今天刚离开，我们的大使馆实际上已经关门了。瓦鲁家族的领导人已经停止了一切和联合殖民地的交流。我自己从达兹拉城得到的命令也好不到哪去，只有两个字：“返回”。至于为什么要我们离开自己的岗位，放弃自己的事业，则没有解释。
+
+
+        但我知道，这是对我信仰的考验。
+
+
+        我为瓦鲁家族效力。简单地说，就是我服从他们的命令。但我们在这里要做的事情远不止这些。如果我们要生存，就不能只靠自己。如果其他人不理解这一点，就随他们去好了。
+
+
+        因此我在这里，等待他们有朝一日看到真相并回到这里。
 - ItemText:
     TargetLanguage: English
     Values:
@@ -698,6 +776,8 @@ MenuItems:
       String: 'Wpis 06: Cisza'
     - Language: Portuguese_Brazil
       String: 'Registro 06: Silêncio'
+    - Language: ChineseSimplified
+      String: 日志06：沉默
   ItemShortText:
     TargetLanguage: English
   ISET: 0x00005EB608000000
@@ -734,6 +814,8 @@ MenuItems:
         Jednak pozostając tu, nie dowiem się nigdy jaka. Czas pokaże.
     - Language: Portuguese_Brazil
       String: "Não recebo notícias do meu povo há meses. Fiz várias tentativas de contato, mas não tenho certeza se minhas mensagens estão chegando a Dazra no fim das contas.\r\n\r\nAssim, eu tive muito tempo para pensar.\r\n\r\nPor que nos permitir vir até aqui, a fim de nos instalarmos ao redor de uma estrela distante, só para exigir o nosso retorno quando a primeira dificuldade aparecesse? Por causa de um comentário influenciado pelo álcool? Nem mesmo Si'ah tem tanta influência sobre a corte.\r\n\r\nNão, tem algo maior em jogo aqui. A convocação dos funcionários... não foi causada pelo incidente com a Mater. Ocorreu uma mudança.\r\n\r\nContudo, ao decidir permanecer, talvez eu jamais saiba do que se trata. Só o tempo dirá. "
+    - Language: ChineseSimplified
+      String: "已经有几个月没收到我们的人的消息了。尽管我数次想联络他们，但我不确定发出的信息有没有到达达兹拉城。\r\n\r\n因此我有很多时间用来思考。\r\n\r\n为什么要让我们来这里，来到如此偏远的恒星周围安家，而却一遇到反抗就要求我们返回？仅仅是因为酒后失态？即便是希雅在宫廷也没那么大的影响力吧。\r\n\r\n不，事情绝非如此简单。召回人员……也不是因为蛇母的事。发生变故了。\r\n\r\n可我留了下来，也许永远都没法知道真相了。只能走一步算一步了。 "
 - ItemText:
     TargetLanguage: English
     Values:
@@ -753,6 +835,8 @@ MenuItems:
       String: 'Wpis 07: Szpiedzy'
     - Language: Portuguese_Brazil
       String: 'Registro 07: Espiões'
+    - Language: ChineseSimplified
+      String: 日志07：间谍
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000BABA08000000
@@ -928,6 +1012,27 @@ MenuItems:
 
 
         Eles acham que estou morto, não é?
+    - Language: ChineseSimplified
+      String: >-
+        距离我的上一篇日志好像已经过去很长时间了。今天发生了一件有意思的事：一名联合殖民地的间谍潜入了大使馆。
+
+
+        就在黎明前，在我做完晨祷时，我听到一阵奇怪的嗡嗡声。开始我以为自己耳鸣了，但后来我意识到了，那是正在下降的电梯。
+
+
+        不速之客的到来准没好事，于是我偷偷溜上楼，躲在剧毒树的树枝间。
+
+
+        我就像躲在墙上的石像鬼，看到一个年轻人小心翼翼地穿过我费尽心思栽培的树枝，一副草木皆兵的样子。当这孩子无意间踩断一段突出的树枝时，我发誓我亲眼看见他一蹦三尺高，以为是踩中了什么机关，后来才发现是虚惊一场。我震惊了，即便是蛇神圣战过去了这么久，瓦鲁家族还是威名在外。很显然，这也说明我的努力都白费了，不过在旁人看来可能很滑稽。
+
+
+        我们就这样互相躲避了差不多两个小时。对平淡如白开水一样的日常工作来说，这算是不错的消遣。最终，他放弃了，回到电梯里，而我则继续冥想。
+
+
+        然而，在我想来，这次“来访”的目的让我失望。这不是外交官。也不是邻居敲门什么的。这是个间谍。有人闯入普通人无法进入的地方。
+
+
+        他们大概以为我死了吧？
 - ItemText:
     TargetLanguage: English
     Values:
@@ -947,6 +1052,8 @@ MenuItems:
       String: 'Wpis 08: Zaskakująca wiadomość'
     - Language: Portuguese_Brazil
       String: 'Registro 08: Uma Mensagem Surpreendente'
+    - Language: ChineseSimplified
+      String: 日志08：令人意外的信息
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000BABA08000000
@@ -1098,3 +1205,21 @@ MenuItems:
 
 
         Grande Ofídio, você finalmente respondeu às minhas preces. Mantenho a crença de que estará ao meu lado enquanto eu continuar servindo aos interesses da Casa Va'ruun em Nova Atlântida. Que Sua luz celestial banhe meu povo e aqueles que já foram nossos inimigos, ajudando a inaugurar uma era de harmonia, afinal.
+    - Language: ChineseSimplified
+      String: >-
+        终于来了！
+
+
+        信息很短，只是要求提供新亚特兰蒂斯城的状况，但还是让我感到宽慰。
+
+
+        瓦鲁家族终于和我联系了！
+
+
+        我曾迫使自己做好再也无法与自己人取得联系的觉悟，但今天收到的消息缓解了这种恐惧。
+
+
+        虽然他们的目的还不明确，瓦鲁家族愿意重新发起交流还是让我感到欣慰。我真心希望这代表着达兹拉城愿意与联合殖民地更真诚地外交。
+
+
+        蛇神终于回应了我的祈祷。我坚信，只要我继续为瓦鲁家族在新亚特兰蒂斯城的利益奋斗，它就会在我身边。愿我的人民，还有那些我们曾经反对的人都沐浴在他的神光之中，愿他引领我们最终走进和谐的时代。

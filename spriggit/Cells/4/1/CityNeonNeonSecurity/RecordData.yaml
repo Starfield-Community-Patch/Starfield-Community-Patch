@@ -19,6 +19,8 @@ Name:
     String: Ochrona Neonu
   - Language: Portuguese_Brazil
     String: Segurança de Neon
+  - Language: ChineseSimplified
+    String: 霓虹城警卫
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -614,3 +616,4 @@ Traversals:
   To: -31.621048, 36.943676, 24.396776
   UnknownVector: 3.88918, 6.20016, 1.0105656
   Unknown: 0xFF40FF400D395D38
+NumTraversalFluffBytes: 452

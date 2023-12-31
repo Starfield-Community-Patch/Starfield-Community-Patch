@@ -19,6 +19,8 @@ Name:
     String: Sala rekrutacyjna Gwardii
   - Language: Portuguese_Brazil
     String: Câmara de Avaliação da Vanguarda
+  - Language: ChineseSimplified
+    String: 先锋队迎新大厅
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -1745,3 +1747,4 @@ Traversals:
   To: -88.328766, 26.274513, 0.062045097
   UnknownVector: 0.64903015, 9.118293, 1.4997373
   Unknown: 0x113B113B3D34DE38
+NumTraversalFluffBytes: 1360

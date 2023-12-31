@@ -1,0 +1,581 @@
+FormKey: 005983:Starfield.esm
+EditorID: Companion_SarahMorgan
+VirtualMachineAdapter:
+  Scripts:
+  - Name: companionactorscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Affinity
+      Object: 0A1B80:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID
+      Object: 2BE2D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionQuest
+      Object: 009E99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_TxtReplace_QuestName
+      Object: 0963E3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PreventStoryGateScenes
+      Object: 28A168:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: CompanionAffinityScript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: AngerEventData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 180F0A:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerReason
+          Object: 2C2A36:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 180F0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: companioncrimeresponsescript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnCombat
+      Object: 180F0A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnKill
+      Object: 180F0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerReason_Common_1_Murder
+      Object: 2C2A36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_NotCivilian
+      Object: 0F223F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentCompanionFaction
+      Object: 023C01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: CompanionDebugScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActiveCompanion
+      Object: 2A567C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_DEBUG_OnPlayerShip
+      Object: 2C4C96:Starfield.esm
+  - Name: com_crew_giveitemactorscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_CND_GiveItemAvailable
+      Object: 17AD8D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItemAvailableCooldownDays
+      Object: 17AD92:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItemAvailableDay
+      Object: 17AD91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItemReminder
+      Object: 17AD8B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItem_HasItems
+      Object: 3371F0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GiveItemList
+      Object: 17AD90:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+  - Name: Crew_LeadershipScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrewSlotCost
+      Object: 172F8F:Starfield.esm
+ObjectBounds:
+  First: -0.31000048, -0.31000048, -4.7683716E-07
+  Second: 0.31000048, 0.31000048, 1.8000004
+ODTY: 0
+ObjectPlacementDefaults:
+  Unknown5: 3E-45
+  Unknown6: 1
+  Unknown14: 1
+  Unknown16: 1
+  Unknown17: 1
+  Unknown20: 3.4028235E+38
+Flags:
+- Female
+- Essential
+- AutoCalcStats
+- Unique
+- 0x40000000
+Level:
+  MutagenObjectType: PcLevelMult
+  LevelMult: 1
+CalcMinLevel: 10
+DispositionBase: 35
+UseTemplateActors: 16386
+Factions:
+- Faction: 00D875:Starfield.esm
+  Rank: -1
+- Faction: 0191DC:Starfield.esm
+- Faction: 023C01:Starfield.esm
+  Rank: -1
+- Faction: 106C30:Starfield.esm
+- Faction: 1434D6:Starfield.esm
+- Faction: 2DBEB2:Starfield.esm
+DeathItem: 1CC02C:Starfield.esm
+Voice: 005984:Starfield.esm
+DefaultTemplate: 12FDDE:Starfield.esm
+TemplateActors:
+  StatsTemplate: 12FDDE:Starfield.esm
+  Unknown2: 12FDDE:Starfield.esm
+Race: 00347D:Starfield.esm
+Perks:
+- Perk: 01BF38:Starfield.esm
+  Rank: 4
+- Perk: 06B728:Starfield.esm
+  Rank: 1
+- Perk: 20E35B:Starfield.esm
+  Rank: 2
+- Perk: 21B8CA:Starfield.esm
+  Rank: 1
+- Perk: 21B8E4:Starfield.esm
+  Rank: 3
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
+- ActorValue: 0002D4:Starfield.esm
+  Value: 300
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+- ActorValue: 000385:Starfield.esm
+  Value: 100
+Items:
+- Item:
+    Item: 0D0F71:Starfield.esm
+    Count: 1
+Aggression: Aggressive
+Confidence: Foolhardy
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsAllies
+Packages:
+- 005985:Starfield.esm
+- 0D9C12:Starfield.esm
+Keywords:
+- 022E49:Starfield.esm
+- 0AD52A:Starfield.esm
+- 0E53A8:Starfield.esm
+- 0F55DC:Starfield.esm
+- 12B50D:Starfield.esm
+- 16700D:Starfield.esm
+- 1D03E1:Starfield.esm
+- 1EA944:Starfield.esm
+- 21B1FC:Starfield.esm
+- 23F1CA:Starfield.esm
+- 2705E4:Starfield.esm
+- 28A168:Starfield.esm
+- 28BF2B:Starfield.esm
+Class: 010B2F:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Sarah Morgan
+  - Language: English
+    String: Sarah Morgan
+  - Language: Spanish
+    String: Sarah Morgan
+  - Language: French
+    String: Sarah Morgan
+  - Language: Italian
+    String: Sarah Morgan
+  - Language: Japanese
+    String: サラ・モーガン
+  - Language: Polish
+    String: Sara Morgan
+  - Language: Portuguese_Brazil
+    String: Sarah Morgan
+  - Language: ChineseSimplified
+    String: 莎拉·摩根
+ShortName:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Sarah
+  - Language: English
+    String: Sarah
+  - Language: Spanish
+    String: Sarah
+  - Language: French
+    String: Sarah
+  - Language: Italian
+    String: Sarah
+  - Language: Japanese
+    String: サラ
+  - Language: Polish
+    String: Sara
+  - Language: Portuguese_Brazil
+    String: Sarah
+  - Language: ChineseSimplified
+    String: 莎拉
+CalculatedHealth: 500
+CalculatedActionPoints: 50
+GearedUpWeapons: 1
+HeadParts:
+- 012201:Starfield.esm
+- 012202:Starfield.esm
+- 012203:Starfield.esm
+- 026EB7:Starfield.esm
+- 037223:Starfield.esm
+- 03E2B1:Starfield.esm
+- 0640B8:Starfield.esm
+- 078273:Starfield.esm
+- 2531AB:Starfield.esm
+- 3A289B:Starfield.esm
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight:
+  Thin: 0.21
+  Muscular: 0.14
+CompanionInfoQuest: 009E99:Starfield.esm
+CompanionInfoDialogue: 01091A:Starfield.esm
+DefaultOutfit: 066AEE:Starfield.esm
+SpaceOutfit: 16ADA0:Starfield.esm
+DefaultPackageList: 2C55CA:Starfield.esm
+CrimeFaction: 2DBEB2:Starfield.esm
+Tints:
+- TintType: SimpleGroup
+  TintGroup: Dermaesthetic
+  TintName: European_Female_Md1_Sk3
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/female_eu_md1_sk3_derm_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 37
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask1
+  TintName: Freckles_MidFace
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/freckles_midface_mask.dds
+  TintColor: '#A6822846'
+  TintIntensity: 21
+- TintType: SimpleGroup
+  TintGroup: Complexion1
+  TintName: Color_Temperature_Pink
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/complexion_colortemperature_pink_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 44
+- TintType: SimpleGroup
+  TintGroup: Cheeks1
+  TintName: Blush_Soft
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/cheeks1/testblush02_mask.dds
+  TintColor: '#C3FF1F35'
+  TintIntensity: 8
+- TintType: SimpleGroup
+  TintGroup: Cheeks2
+  TintName: Blush_Soft_Small
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/cheeks2/testblush02_mask.dds
+  TintColor: '#C3FF1F35'
+  TintIntensity: 8
+- TintType: SimpleGroup
+  TintGroup: Lipstick1
+  TintName: Lipstick_Soft
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/lipstick1/testlipstick02_mask.dds
+  TintColor: '#C3FF1F35'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: Eyeshadow1
+  TintName: EyeShadow_Upper_01
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/eyeshadow1/testeyeshadowupper01_mask.dds
+  TintColor: '#96FF2258'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: Eyeshadow2
+  TintName: EyeShadow_Lower_01
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/eyeshadow2/testeyeshadowlower01_mask.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: Eyeliner1
+  TintName: Eyeliner_Upper_01
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/eyeliner1/testeyelinerupper01_mask.dds
+  TintColor: '#26FF0311'
+  TintIntensity: 64
+BodyMorphRegionValues:
+  UpperTorso: 0.21
+FaceDialPositions:
+- Index: 26
+  Position: 0.14
+- Index: 30
+  Position: -0.029355371
+- Index: 31
+  Position: -0.37
+- Index: 34
+  Position: -0.26
+- Index: 35
+  Position: -0.59
+- Index: 36
+  Position: 0.18
+- Index: 38
+  Position: -0.27
+- Index: 39
+  Position: -0.36
+- Index: 40
+  Position: -0.86
+- Index: 42
+  Position: 0.29
+- Index: 43
+  Position: 0.65
+- Index: 44
+  Position: -0.08
+- Index: 45
+  Position: 0.26
+- Index: 47
+  Position: 0.01
+- Index: 48
+  Position: 0.32
+- Index: 49
+  Position: 0.24
+- Index: 51
+  Position: -0.74
+- Index: 52
+  Position: -0.71
+- Index: 53
+  Position: 0.62
+- Index: 54
+  Position: -0.42
+- Index: 55
+  Position: 0.08
+- Index: 57
+  Position: -0.25
+- Index: 58
+  Position: 0.11
+- Index: 59
+  Position: -0.09
+- Index: 61
+  Position: -0.08
+- Index: 62
+  Position: -0.0736252
+- Index: 63
+  Position: -0.35784504
+- Index: 65
+  Position: -0.19918907
+- Index: 67
+  Position: -0.75
+- Index: 69
+  Position: -0.11102297
+- Index: 70
+  Position: 0.47
+- Index: 72
+  Position: -0.12
+- Index: 73
+  Position: -0.02
+FaceMorphs:
+- Index: 1
+  MorphGroups:
+  - MorphGroup: Chin
+    BlendIntensity: 0.3
+  - MorphGroup: Eyes
+    BlendIntensity: 0.21
+  - MorphGroup: Forehead
+    BlendIntensity: 0.0014243148
+  - MorphGroup: Mouth
+    BlendIntensity: 0.38
+  - MorphGroup: Neck
+    BlendIntensity: 0.000328055
+- Index: 3
+  MorphGroups:
+  - MorphGroup: Chin
+    BlendIntensity: 0.010582106
+  - MorphGroup: Ears
+    BlendIntensity: 0.0760503
+  - MorphGroup: Forehead
+    BlendIntensity: 0.028274102
+  - MorphGroup: Neck
+    BlendIntensity: 0.104072906
+- Index: 5
+  MorphGroups:
+  - MorphGroup: Ears
+    BlendIntensity: 0.0047537256
+  - MorphGroup: Eyes
+    BlendIntensity: 0.06786236
+  - MorphGroup: Forehead
+    BlendIntensity: 0.0060731135
+  - MorphGroup: Mouth
+    BlendIntensity: 0.20583333
+- Index: 9
+  MorphGroups:
+  - MorphGroup: Ears
+    BlendIntensity: 0.0025622568
+  - MorphGroup: Forehead
+    BlendIntensity: 0.026972217
+  - MorphGroup: Jaw
+    BlendIntensity: 0.00086087233
+  - MorphGroup: Neck
+    BlendIntensity: 0.034224257
+- Index: 11
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 0.3684286
+  - MorphGroup: Ears
+    BlendIntensity: 0.030220002
+  - MorphGroup: Eyes
+    BlendIntensity: 0.01
+  - MorphGroup: Forehead
+    BlendIntensity: 0.014137051
+  - MorphGroup: Jaw
+    BlendIntensity: 0.007287329
+  - MorphGroup: Neck
+    BlendIntensity: 0.02337631
+- Index: 13
+  MorphGroups:
+  - MorphGroup: Chin
+    BlendIntensity: 0.02
+  - MorphGroup: Eyes
+    BlendIntensity: 0.034535363
+  - MorphGroup: Forehead
+    BlendIntensity: 0.09
+  - MorphGroup: Jaw
+    BlendIntensity: 0.6186271
+- Index: 15
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 0.10833732
+  - MorphGroup: Ears
+    BlendIntensity: 0.14641373
+  - MorphGroup: Forehead
+    BlendIntensity: 0.1
+  - MorphGroup: Jaw
+    BlendIntensity: 0.09238594
+  - MorphGroup: Neck
+    BlendIntensity: 0.40799847
+- Index: 17
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 0.016108224
+  - MorphGroup: Chin
+    BlendIntensity: 0.024390155
+  - MorphGroup: Ears
+    BlendIntensity: 0.46
+  - MorphGroup: Eyes
+    BlendIntensity: 0.19
+  - MorphGroup: Forehead
+    BlendIntensity: 0.023119202
+  - MorphGroup: Neck
+    BlendIntensity: 0.43
+- Index: 19
+  MorphGroups:
+  - MorphGroup: Eyes
+    BlendIntensity: 0.19
+  - MorphGroup: Jaw
+    BlendIntensity: 0.083200164
+  - MorphGroup: Mouth
+    BlendIntensity: 0.36416668
+MorphBlends:
+- BlendName: female_af_md1_Ears
+  Intensity: 0.0025622568
+- BlendName: female_af_md1_Forehead
+  Intensity: 0.002712791
+- BlendName: female_af_md1_Neck
+  Intensity: 0.034224257
+- BlendName: female_af_ol1_Cheeks
+  Intensity: 0.10833732
+- BlendName: female_af_ol1_Ears
+  Intensity: 0.14641373
+- BlendName: female_af_ol1_Forehead
+  Intensity: 0.010057724
+- BlendName: female_af_ol1_Jaw
+  Intensity: 0.09238594
+- BlendName: female_af_ol1_Neck
+  Intensity: 0.40799847
+- BlendName: female_af_yo1_Chin
+  Intensity: 0.02
+- BlendName: female_af_yo1_Eyes
+  Intensity: 0.034535363
+- BlendName: female_af_yo1_Forehead
+  Intensity: 0.009051952
+- BlendName: female_af_yo1_Jaw
+  Intensity: 0.6186271
+- BlendName: female_as_md1_Ears
+  Intensity: 0.0047537256
+- BlendName: female_as_md1_Eyes
+  Intensity: 0.06786236
+- BlendName: female_as_md1_Mouth
+  Intensity: 0.20583333
+- BlendName: female_as_ol1_Cheeks
+  Intensity: 0.3684286
+- BlendName: female_as_ol1_Ears
+  Intensity: 0.030219924
+- BlendName: female_as_ol1_Eyes
+  Intensity: 0.01
+- BlendName: female_as_ol1_Jaw
+  Intensity: 0.007287329
+- BlendName: female_as_ol1_Neck
+  Intensity: 0.02337631
+- BlendName: female_as_yo1_Eyes
+  Intensity: 0.19
+- BlendName: female_as_yo1_Jaw
+  Intensity: 0.083200164
+- BlendName: female_as_yo1_Mouth
+  Intensity: 0.36416668
+- BlendName: female_eu_md2_Chin
+  Intensity: 0.3
+- BlendName: female_eu_md2_Eyes
+  Intensity: 0.21
+- BlendName: female_eu_md2_Forehead
+  Intensity: 0.18381959
+- BlendName: female_eu_md2_Mouth
+  Intensity: 0.38
+- BlendName: female_eu_ol1_Chin
+  Intensity: 0.010582106
+- BlendName: female_eu_ol1_Ears
+  Intensity: 0.0760503
+- BlendName: female_eu_ol1_Forehead
+  Intensity: 0.28
+- BlendName: female_eu_ol1_Neck
+  Intensity: 0.104072906
+- BlendName: female_eu_yo1_Cheeks
+  Intensity: 0.016108224
+- BlendName: female_eu_yo1_Chin
+  Intensity: 0.024390155
+- BlendName: female_eu_yo1_Ears
+  Intensity: 0.46
+- BlendName: female_eu_yo1_Eyes
+  Intensity: 0.19
+- BlendName: female_eu_yo1_Forehead
+  Intensity: 0.0023252654
+- BlendName: female_eu_yo1_Neck
+  Intensity: 0.43
+SkinToneIndex: 2
+HairColor: Blonde
+EyebrowColor: Blonde
+EyeColor: Green
+JewelryColor: No_Tint
+Pronoun: Unspecified

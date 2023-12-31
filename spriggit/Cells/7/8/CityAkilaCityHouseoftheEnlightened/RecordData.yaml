@@ -19,6 +19,8 @@ Name:
     String: Dom Oświecenia
   - Language: Portuguese_Brazil
     String: Casa Iluminista
+  - Language: ChineseSimplified
+    String: 启蒙之家
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -101,3 +103,4 @@ Traversals:
   To: -5.1838355, -5.102218, 0.62685263
   UnknownVector: 2.0993776, 3.3649795, 1.0129955
   Unknown: 0xDB43DB432F393838
+NumTraversalFluffBytes: 44

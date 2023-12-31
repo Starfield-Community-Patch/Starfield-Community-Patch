@@ -287,6 +287,8 @@ Name:
     String: Moja polarna gwiazda
   - Language: Portuguese_Brazil
     String: Minha Estrela do Norte
+  - Language: ChineseSimplified
+    String: 我的北极星
 Data:
   Flags:
   - RunOnce
@@ -455,6 +457,8 @@ Stages:
         String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała się wybrać w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus.
       - Language: Portuguese_Brazil
         String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus.
+      - Language: ChineseSimplified
+        String: 我遇到一名天文爱好者。这人想登上太空，借此近距离观察天鹅座。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -505,6 +509,8 @@ Stages:
         String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała się wybrać w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Dzięki mojej pomocy mogła podziwiać gwiazdy z orbity.
       - Language: Portuguese_Brazil
         String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus, então eu a levei até a órbita de Marte para ver as estrelas.
+      - Language: ChineseSimplified
+        String: 我遇到一名天文爱好者。这人想登上太空，借此近距离观察天鹅座。于是我带着这位天文爱好者进入了轨道，使其得以看到星星。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -532,6 +538,8 @@ Stages:
         String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała wybrać się w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Po naszej wspólnej wyprawie na orbitę muszę eskortować ją z powrotem do Cydonii.
       - Language: Portuguese_Brazil
         String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus. Após levá-la até a órbita de Marte, preciso escoltá-la de volta a Cydonia.
+      - Language: ChineseSimplified
+        String: 我遇到一名天文爱好者。这人想登上太空，借此近距离观察天鹅座。我带着这位天文爱好者进入了轨道，之后我还得护送其回赛多尼亚。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -590,6 +598,8 @@ Stages:
         String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała wybrać się w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Po naszej wspólnej wyprawie na orbitę wróciliśmy do Cydonii.
       - Language: Portuguese_Brazil
         String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus. Após levá-la até a órbita de Marte, eu a escoltei de volta a Cydonia.
+      - Language: ChineseSimplified
+        String: 我遇到一名天文爱好者。这人想登上太空，借此近距离观察天鹅座。我带着这位天文爱好者进入了轨道，之后又护送其回到了赛多尼亚。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -650,6 +660,8 @@ Stages:
         String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała się wybrać w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Niestety nie przetrwała tego.
       - Language: Portuguese_Brazil
         String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus. Infelizmente, ela não sobreviveu.
+      - Language: ChineseSimplified
+        String: 我遇到一名天文爱好者。这人想登上太空，借此近距离观察天鹅座。不幸的是，这位天文爱好者在交火中丢了性命。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -678,6 +690,8 @@ Stages:
         String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała wybrać się w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Po naszej wspólnej wyprawie na orbitę wróciliśmy do Cydonii.
       - Language: Portuguese_Brazil
         String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus. Após levá-la até a órbita de Marte, eu a escoltei de volta a Cydonia.
+      - Language: ChineseSimplified
+        String: 我遇到一名天文爱好者。这人想登上太空，借此近距离观察天鹅座。我带着这位天文爱好者进入了轨道，之后又护送其回到了赛多尼亚。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -723,6 +737,8 @@ Objectives:
       String: Zabierz Sivanu na orbitę Marsa
     - Language: Portuguese_Brazil
       String: Leve Sivan até a órbita de Marte
+    - Language: ChineseSimplified
+      String: 带西万前往火星轨道
   Targets:
   - AliasID: 16
 - Index: 50
@@ -746,6 +762,8 @@ Objectives:
       String: Porozmawiaj z Sivanum
     - Language: Portuguese_Brazil
       String: Fale com Sivan
+    - Language: ChineseSimplified
+      String: 与西万交谈
   Targets:
   - {}
 - Index: 60
@@ -769,6 +787,8 @@ Objectives:
       String: Wróć do Cydonii
     - Language: Portuguese_Brazil
       String: Volte para Cydonia
+    - Language: ChineseSimplified
+      String: 返回赛多尼亚
   Targets:
   - AliasID: 3
 - Index: 70
@@ -792,6 +812,8 @@ Objectives:
       String: Porozmawiaj z Sivanum
     - Language: Portuguese_Brazil
       String: Fale com Sivan
+    - Language: ChineseSimplified
+      String: 与西万交谈
   Targets:
   - {}
 Aliases:

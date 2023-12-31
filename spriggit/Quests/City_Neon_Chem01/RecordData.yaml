@@ -270,6 +270,8 @@ Name:
     String: Niedokończone sprawy
   - Language: Portuguese_Brazil
     String: Pontas Soltas
+  - Language: ChineseSimplified
+    String: 潦草收尾
 Data:
   Flags:
   - RunOnce
@@ -330,6 +332,8 @@ Stages:
         String: Po wylądowaniu w Neonie było mi dane zobaczyć zatrzymanie Neshara Osmaniego za posiadanie aurory. Może warto zajść do ochrony Neonu i z nim porozmawiać.
       - Language: Portuguese_Brazil
         String: Após aterrissar em Neon, vi um homem chamado Neshar Omani sendo preso por posse de Aurora. Talvez valha a pena falar com ele na segurança de Neon.
+      - Language: ChineseSimplified
+        String: 降落在霓虹城后，我遇到了一个叫内沙尔·阿曼尼的人，他因持有极光被捕。在霓虹城警卫厅和他谈谈，也许会有什么收获。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -365,6 +369,8 @@ Stages:
         String: Neshar Osmani przemycał farmaceutyki podczas współpracy z Yannickiem Legrande'em. Miał dostarczyć paczkę i martwi się, co się z nim stanie, jeżeli tego nie zrobi. Poprosił mnie o zgarnięcie jej z jego kontenera noclegowego. Dał mi swoje hasło, więc kierowniczka kontenerów raczej mnie wpuści.
       - Language: Portuguese_Brazil
         String: Neshar Omani contrabandeava drogas a serviço de Yannick Legrande. Ele tinha um pacote para entregar e se preocupa com o que pode lhe acontecer caso não o entregue. Ele me pediu para pegar o pacote no seu dormículo. Tenho a senha para que a gerente de lá me deixe entrar.
+      - Language: ChineseSimplified
+        String: 内沙尔·阿曼尼走私药品时，正在和亚尼克·朗格莱德合作。本来他是要送一个包裹的，他担心如果没能送到，自己不会有好下场。他请求我从他的睡眠箱取包裹。他把密码给了我，这样睡眠箱管理员就会让我进去。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -392,6 +398,8 @@ Stages:
         String: Kierowniczka kontenerów noclegowych dała mi dostęp do kontenera Neshara. Muszę teraz poszukać w tym maleńkim lokum paczki dla Yannicka.
       - Language: Portuguese_Brazil
         String: Falei com a pessoa responsável pela gerência dos dormículos e ela me deu acesso ao dormículo de Neshar. Agora preciso procurar o pacote do Yannick no cubículo alugado.
+      - Language: ChineseSimplified
+        String: 我已同睡眠箱管理员交涉，对方同意给我内沙尔睡眠箱的打开权限。我得在这个狭小的出租空间里找到亚尼克的包裹。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -427,6 +435,8 @@ Stages:
         String: Mam paczkę Neshara. Muszę ją teraz dostarczyć Yannickowi Legrande'owi.
       - Language: Portuguese_Brazil
         String: Estou com o pacote de Neshar. Agora só preciso entregá-lo a Yannick Legrande.
+      - Language: ChineseSimplified
+        String: 我拿到了内沙尔的包裹，现在我只需要把它交给亚尼克·朗格莱德就好了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -454,6 +464,8 @@ Stages:
         String: Yannick przemyca aurorę, aby produkować melanż. Martwi się o swój interes po aresztowaniu Neshara. Poprosił cię o przekonanie Felixa Sadlera do opuszczenia Neonu lub o zabicie go. Administrator Bayu z pewnością nie ucieszy się z żadnej z tych opcji, jeżeli się o nich dowie.
       - Language: Portuguese_Brazil
         String: Yannick está envolvido no contrabando de Aurora para fabricar sua Blend. Após a prisão de Neshar, ele ficou preocupado com a operação, e quer que eu mate Felix Sadler ou o convença a sair de Neon. O gestor Bayu não vai gostar nada disso se descobrir.
+      - Language: ChineseSimplified
+        String: 亚尼克为了做自己的特调酒，参与了走私极光。在内沙尔被捕后，他很担心自己的行动暴露，想让你说服菲力克斯·萨德勒离开霓虹城，或就直接杀了他。要是让行政长官巴尤知道了这一切，谁都别想有好果子吃。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -509,6 +521,8 @@ Stages:
         String: Jestem już w miejscu pobytu Felixa. Jak prosił Yannick, muszę przekonać go, aby opuścił Neon... albo go zabić.
       - Language: Portuguese_Brazil
         String: Cheguei onde o Felix está. De acordo com o pedido de Yannick, eu preciso convencer o Felix a ir embora de Neon... ou matá-lo.
+      - Language: ChineseSimplified
+        String: 我已抵达菲力克斯所在地。根据亚尼克的要求，我要么说服菲力克斯离开霓虹城，要么......杀了他。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -561,6 +575,8 @@ Stages:
         String: Sprawa z Felixem załatwiona. Czas wracać do Yannicka Legrande'a i przekazać mu wieści.
       - Language: Portuguese_Brazil
         String: A situação com Felix foi resolvida. Hora de voltar até Yannick Legrande e contar as novidades.
+      - Language: ChineseSimplified
+        String: 菲力克斯的问题已经处理好了，是该回到亚尼克·朗格莱德身边，向他通报消息了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -621,6 +637,8 @@ Stages:
         String: Paczka Neshara została dostarczona Yannickowi Legrande'owi. Ucieszył się i chce wciągnąć mnie w kolejny biznes.
       - Language: Portuguese_Brazil
         String: Entreguei o estoque de Neshar a Yannick Legrande. Yannick gostou e quer me envolver em mais negócios seus.
+      - Language: ChineseSimplified
+        String: 我把内沙尔的藏品交给了亚尼克·朗格莱德。亚尼克很高兴，他想让我更多地参与他的生意。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -660,6 +678,8 @@ Objectives:
       String: Porozmawiaj z Nesharem w więzieniu
     - Language: Portuguese_Brazil
       String: Fale com Neshar na prisão
+    - Language: ChineseSimplified
+      String: 在监狱与内沙尔交谈
   Targets:
   - Conditions:
     - MutagenObjectType: ConditionFloat
@@ -696,6 +716,8 @@ Objectives:
       String: Porozmawiaj z kierowniczką kontenerów noclegowych
     - Language: Portuguese_Brazil
       String: Fale com a gerente do dormículo
+    - Language: ChineseSimplified
+      String: 与睡眠箱管理员交谈
   Targets:
   - AliasID: 4
 - Index: 300
@@ -719,6 +741,8 @@ Objectives:
       String: Znajdź paczkę w kontenerze noclegowym C-153
     - Language: Portuguese_Brazil
       String: Ache o pacote no dormículo C-153
+    - Language: ChineseSimplified
+      String: 在C-153睡眠箱中找到包裹
   Targets:
   - AliasID: 8
 - Index: 400
@@ -742,6 +766,8 @@ Objectives:
       String: Porozmawiaj z Yannickiem Legrande'em
     - Language: Portuguese_Brazil
       String: Fale com Yannick Legrande
+    - Language: ChineseSimplified
+      String: 与亚尼克·朗格莱德交谈
   Targets:
   - AliasID: 2
 - Index: 500
@@ -765,6 +791,8 @@ Objectives:
       String: Znajdź Felixa Sadlera
     - Language: Portuguese_Brazil
       String: Encontre Felix Sadler
+    - Language: ChineseSimplified
+      String: 找到菲力克斯·萨德勒
   Targets:
   - AliasID: 1
 - Index: 600
@@ -788,6 +816,8 @@ Objectives:
       String: Wyeliminuj zbirów syndykatu Seokga
     - Language: Portuguese_Brazil
       String: Elimine capangas do Sindicato Seokguh
+    - Language: ChineseSimplified
+      String: 消灭邪迦会的暴徒
   Targets:
   - AliasID: 6
     Conditions:
@@ -816,6 +846,8 @@ Objectives:
       String: Zajmij się Felixem
     - Language: Portuguese_Brazil
       String: Lide com Felix
+    - Language: ChineseSimplified
+      String: 与菲力克斯打交道
   Targets:
   - AliasID: 1
   - AliasID: 6
@@ -845,6 +877,8 @@ Objectives:
       String: Porozmawiaj z Yannickiem Legrande'em
     - Language: Portuguese_Brazil
       String: Fale com Yannick Legrande
+    - Language: ChineseSimplified
+      String: 与亚尼克·朗格莱德交谈
   Targets:
   - AliasID: 2
 Aliases:

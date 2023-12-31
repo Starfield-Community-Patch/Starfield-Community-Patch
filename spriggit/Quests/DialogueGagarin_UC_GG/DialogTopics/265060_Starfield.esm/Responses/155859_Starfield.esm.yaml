@@ -1,0 +1,58 @@
+FormKey: 155859:Starfield.esm
+Flags:
+  Flags:
+  - 0x4
+Responses:
+- Emotion: 0FA852:Starfield.esm
+  WEMFile: 6919392
+  TRDAUnknown: 9.966667
+  TROTs:
+  - UnknownVoiceType: 26502D:Starfield.esm
+    UnknownFloat: 6.266667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Bitte ... was? Wir haben einen Trupp nach New Atlantis geschickt. Die brauchen nach dem Angriff jede verfügbare Hilfe.
+    - Language: English
+      String: Sorry... what? We sent a squad of officers to New Atlantis. They need all the support they can get after that attack.
+    - Language: Spanish
+      String: Perdona, ¿qué? Hemos enviado un escuadrón de agentes a Nueva Atlántida. Después del ataque, toda ayuda es poca.
+    - Language: French
+      String: Pardon, quoi ? Nous venons d'envoyer une escouade à New Atlantis. Ils ont besoin de tout le soutien nécessaire après cette attaque.
+    - Language: Italian
+      String: Scusa... come? Abbiamo inviato una squadra di agenti a Nuova Atlantide. Hanno bisogno di tutto il supporto possibile dopo quell’attacco.
+    - Language: Japanese
+      String: ごめん… 何？ ニューアトランティスに警備部隊を派遣したのよ。攻撃を受けた後、彼らはあらゆる支援を必要としてる
+    - Language: Polish
+      String: Przepraszam... co takiego? Wysłaliśmy grupę funkcjonariuszy do Nowej Atlantydy. Potrzebują całego wsparcia, jakie tylko mogą dostać.
+    - Language: Portuguese_Brazil
+      String: Desculpa... o que disse? Enviamos um esquadrão pra Nova Atlântida. Precisam de todo o apoio possível depois daquele ataque.
+    - Language: ChineseSimplified
+      String: 不好意思……什么？我们派了一队警员去新亚特兰蒂斯城。在那次袭击之后，他们需要一切可能的支援。
+  ScriptNotes: A little shellshocked. There was a major alien attack in the biggest city in the United Colonies (where you live).
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x107C9353063ED801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 2AAE8D:Starfield.esm
+    SecondParameter: 1000
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 1FC858:Starfield.esm
+    SecondParameter: 500
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 26502C:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

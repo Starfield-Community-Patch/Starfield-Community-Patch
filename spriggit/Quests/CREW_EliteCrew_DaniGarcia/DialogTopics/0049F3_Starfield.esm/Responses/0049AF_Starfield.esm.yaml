@@ -1,0 +1,38 @@
+FormKey: 0049AF:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 10508388
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Ich würde sofort einen nehmen. '
+    - Language: English
+      String: "I'd get one in a heartbeat. "
+    - Language: Spanish
+      String: 'Yo me pillaría uno sin pensármelo. '
+    - Language: French
+      String: "Je n'hésiterais pas une seconde à m'en faire installer un. "
+    - Language: Italian
+      String: 'Io ne prenderei uno all’istante. '
+    - Language: Japanese
+      String: 私ならすぐ手に入れるだろう
+    - Language: Polish
+      String: 'Chętnie sobie takie coś załatwię. '
+    - Language: Portuguese_Brazil
+      String: 'Eu instalaria um sem pensar duas vezes. '
+    - Language: ChineseSimplified
+      String: '我想立刻就买一个。 '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xD0302B4865E8D701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 0D6B04:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

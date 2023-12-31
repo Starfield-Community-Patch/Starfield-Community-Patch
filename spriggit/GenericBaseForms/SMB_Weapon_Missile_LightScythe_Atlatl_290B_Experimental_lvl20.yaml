@@ -1,0 +1,63 @@
+FormKey: 228D4A:Starfield.esm
+EditorID: SMB_Weapon_Missile_LightScythe_Atlatl_290B_Experimental_lvl20
+ODTY: 0
+Components:
+- MutagenObjectType: AttachParentArrayComponent
+- MutagenObjectType: PropertySheetComponent
+  Properties:
+  - ActorValue: 0002D4:Starfield.esm
+    Value: 6
+  - ActorValue: 00ACDB:Starfield.esm
+    Value: 7
+  - ActorValue: 019080:Starfield.esm
+    Value: 0.5
+  - ActorValue: 1D3D7A:Starfield.esm
+    Value: 1
+  - ActorValue: 1EC77E:Starfield.esm
+    Value: 89
+  - ActorValue: 1EC77F:Starfield.esm
+    Value: 89
+  - ActorValue: 21961F:Starfield.esm
+    Value: 6
+- MutagenObjectType: FormLinkDataComponent
+  Links:
+  - Keyword: 00662F:Starfield.esm
+    LinkedForm: 2025FB:Starfield.esm
+  - Keyword: 0179DE:Starfield.esm
+    LinkedForm: 21961F:Starfield.esm
+  - Keyword: 0179DD:Starfield.esm
+    LinkedForm: 228D47:Starfield.esm
+- MutagenObjectType: DestructibleObjectComponent
+- MutagenObjectType: KeywordFormComponent
+  Keywords:
+  - 0B8537:Starfield.esm
+  - 1219CA:Starfield.esm
+  - 1462C8:Starfield.esm
+  - 242AC3:Starfield.esm
+  - 26FE56:Starfield.esm
+  - 27BAC5:Starfield.esm
+- MutagenObjectType: FullNameComponent
+  Name:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Raketenwerfer Atlatl 290B
+    - Language: English
+      String: Atlatl 290B Missile Launcher
+    - Language: Spanish
+      String: Lanzamisiles Atlatl 290B
+    - Language: French
+      String: Lance-missiles Atlatl 290B
+    - Language: Italian
+      String: Lanciamissili Atlatl 290B
+    - Language: Japanese
+      String: アトラトル290Bミサイルランチャー
+    - Language: Polish
+      String: Wyrzutnia rakiet Atlatl 290B
+    - Language: Portuguese_Brazil
+      String: Lança-mísseis Atlatl 290B
+    - Language: ChineseSimplified
+      String: 阿特拉托290B导弹发射器
+Template: 03058E:Starfield.esm
+STRVs:
+- BGSMod_Template_Component

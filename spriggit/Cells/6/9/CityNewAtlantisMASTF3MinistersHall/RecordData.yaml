@@ -19,6 +19,8 @@ Name:
     String: Jednostka administracyjna WNAT-u
   - Language: Portuguese_Brazil
     String: Divisão Administrativa do TAMC
+  - Language: ChineseSimplified
+    String: 三头同盟行政区域
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -1650,3 +1652,4 @@ Traversals:
   To: -0.63342357, 15.954718, 2.1000006
   UnknownVector: 4.5035825, 6.6858373, 0.9780088
   Unknown: 0x393E393E79441144
+NumTraversalFluffBytes: 1284

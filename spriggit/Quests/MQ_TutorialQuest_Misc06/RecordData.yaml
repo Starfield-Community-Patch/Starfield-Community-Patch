@@ -38,6 +38,8 @@ Name:
     String: Losowy wskaźnik do badań
   - Language: Portuguese_Brazil
     String: Indicador Adicional de Pesquisa
+  - Language: ChineseSimplified
+    String: 研究指示器
 Data:
   Flags:
   - RunOnce
@@ -104,6 +106,8 @@ Objectives:
       String: Ukończ projekt badawczy
     - Language: Portuguese_Brazil
       String: Conclua um projeto de pesquisa
+    - Language: ChineseSimplified
+      String: 完成一项研究计划
 Aliases:
 - MutagenObjectType: QuestLocationAlias
   ID: 1

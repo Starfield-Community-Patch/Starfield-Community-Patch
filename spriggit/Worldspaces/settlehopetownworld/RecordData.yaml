@@ -1,0 +1,54 @@
+FormKey: 08DA69:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: settlehopetownworld
+StarfieldMajorRecordFlags:
+- NotPlayable
+Components:
+- MutagenObjectType: WorldSpaceOverlayComponent
+  SNAM: 0x9ED10100
+  PNAM: 0x01000000
+  SurfaceBlock: 08DA68:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Welt von HopeTown
+  - Language: English
+    String: HopeTown World
+  - Language: Spanish
+    String: Mundo de HopeTown
+  - Language: French
+    String: Monde de HopeTown
+  - Language: Italian
+    String: Mondo HopeTown
+  - Language: Japanese
+    String: ホープタウン・ワールド
+  - Language: Polish
+    String: Świat Hope
+  - Language: Portuguese_Brazil
+    String: Mundo do Condado Hope
+  - Language: ChineseSimplified
+    String: 霍普镇世界
+Location: 016027:Starfield.esm
+Biome: 214810:Starfield.esm
+LodWater: 000018:Starfield.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: -2000
+  DefaultWaterHeight: -4000
+MapData: {}
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+FNAM: 0x00
+ObjectBoundsMin: -0.34179688, -1.7822266
+ObjectBoundsMax: 1.2451172, 0.17089844
+Music: 2CD295:Starfield.esm
+AmbienceSet: 2508B4:Starfield.esm
+GNAM: 1
+XCLWs: []
+WHGTs: []
+HNAM: 0x05
+MajorFlags:
+- 0x4

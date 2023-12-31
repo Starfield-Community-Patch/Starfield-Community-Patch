@@ -22,6 +22,8 @@ Name:
     String: Klinika
   - Language: Portuguese_Brazil
     String: Clínica
+  - Language: ChineseSimplified
+    String: 星际诊所号
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -1946,5 +1948,6 @@ Traversals:
   To: 33.430492, 46.400726, 0.05117607
   UnknownVector: 1.6465156, 1.7684143, 0.82107884
   Unknown: 0x4842484200367340
+NumTraversalFluffBytes: 1508
 MajorFlags:
 - 0x4

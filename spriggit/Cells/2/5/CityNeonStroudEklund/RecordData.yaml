@@ -19,6 +19,8 @@ Name:
     String: Sala wystawowa stoczni Strouda-Eklunda
   - Language: Portuguese_Brazil
     String: Showroom da Stroud-Eklund
+  - Language: ChineseSimplified
+    String: 斯特劳·艾克伦的陈列室
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -798,3 +800,4 @@ Traversals:
   To: -12.26857, 14.483337, -0.9057884
   UnknownVector: 1.4087332, 1.4835709, 0.8112672
   Unknown: 0x3F423F423437EE38
+NumTraversalFluffBytes: 600

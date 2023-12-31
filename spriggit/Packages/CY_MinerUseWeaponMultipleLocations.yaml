@@ -1,0 +1,159 @@
+FormKey: 052E92:Starfield.esm
+EditorID: CY_MinerUseWeaponMultipleLocations
+Flags:
+- WeaponDrawn
+Type: Package
+PreferredSpeed: Run
+Unknown: 255
+InteruptFlags:
+- HellosToPlayer
+- RandomConversations
+- ObserveCombatBehavior
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- WorldInteractions
+- OffForImportantScene
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleDayOfWeek: 255
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasLinkedRefConditionData
+    FirstParameter: 05CA96:Starfield.esm
+  ComparisonValue: 1
+PackageTemplate: 3BB029:Starfield.esm
+DataInputVersion: 2
+Data:
+- Key: 1
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 016758:Starfield.esm
+- Key: 24
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetReference
+      Reference: 024592:Starfield.esm
+- Key: 2
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetReference
+      Reference: 05CA96:Starfield.esm
+- Key: 25
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetReference
+      Reference: 027EB2:Starfield.esm
+- Key: 27
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetReference
+      Reference: 3BB02A:Starfield.esm
+- Key: 26
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetReference
+      Reference: 0295B7:Starfield.esm
+- Key: 28
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetReference
+      Reference: 3BB02B:Starfield.esm
+- Key: 3
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 5
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 7
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 8
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 15
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 16
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 9
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 2
+- Key: 10
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 4
+- Key: 20
+  Value:
+    MutagenObjectType: PackageDataFloat
+- Key: 17
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 11
+  Value:
+    MutagenObjectType: PackageDataInt
+    Data: 5
+- Key: 12
+  Value:
+    MutagenObjectType: PackageDataInt
+    Data: 30
+- Key: 13
+  Value:
+    MutagenObjectType: PackageDataInt
+    Data: 40
+- Key: 19
+  Value:
+    MutagenObjectType: PackageDataFloat
+- Key: 23
+  Value:
+    MutagenObjectType: PackageDataInt
+    Data: 3
+- Key: 29
+  Value:
+    MutagenObjectType: PackageDataBool
+PackageGroup: KeepEyeOn
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

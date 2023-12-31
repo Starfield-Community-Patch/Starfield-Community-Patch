@@ -1,0 +1,74 @@
+FormKey: 1D56B3:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  WEMFile: 9556030
+  TRDAUnknown: 3.1666667
+  TROTs:
+  - UnknownVoiceType: 005984:Starfield.esm
+    UnknownFloat: 7.7333336
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Können wir darüber reden, was du für Sam getan hast?
+    - Language: English
+      String: I wanted to take this opportunity to talk about what you did for Sam.
+    - Language: Spanish
+      String: Quería aprovechar para hablar sobre lo que hiciste por Sam.
+    - Language: French
+      String: Je voulais profiter de cette opportunité pour parler de ce que vous avez fait pour Sam.
+    - Language: Italian
+      String: Volevo cogliere l’occasione per parlare di quello che hai fatto per Sam.
+    - Language: Japanese
+      String: この場を借りて言わせて。あなたがサムのためにしてくれたことについて
+    - Language: Polish
+      String: Chcę wykorzystać tę okazję, aby porozmawiać o Samie.
+    - Language: Portuguese_Brazil
+      String: Queria aproveitar pra conversar sobre o que você fez pelo Sam.
+    - Language: ChineseSimplified
+      String: 我想借这个机会谈谈你为萨姆所做的事情。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x0003E3000B03D701
+- Emotion: 18E865:Starfield.esm
+  WEMFile: 1594697
+  TRDAUnknown: 2.5333335
+  TROTs:
+  - UnknownVoiceType: 005984:Starfield.esm
+    UnknownFloat: 7.7333336
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Du hast dein Leben riskiert, um ihn zu retten. Das war unglaublich.
+    - Language: English
+      String: The fact that you risked your life to save him was incredibly selfless.
+    - Language: Spanish
+      String: El hecho de que arriesgaras tu vida para salvarle fue muy altruista.
+    - Language: French
+      String: Le fait que vous ayez risqué votre vie pour le sauver était incroyablement altruiste.
+    - Language: Italian
+      String: Aver rischiato la vita per salvarlo è stato incredibilmente generoso.
+    - Language: Japanese
+      String: 命懸けで彼を助けたなんて、本当に立派だったわ
+    - Language: Polish
+      String: Ryzykowanie życiem, aby go uratować, było niewiarygodnie bezinteresowne.
+    - Language: Portuguese_Brazil
+      String: O fato de você ter arriscado a própria vida pra salvar ele foi incrivelmente altruísta.
+    - Language: ChineseSimplified
+      String: 你冒着生命危险去救他，真的非常无私。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x3055E5240803D701
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 1D3E85:Starfield.esm
+  ComparisonValue: 2BE2D7:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

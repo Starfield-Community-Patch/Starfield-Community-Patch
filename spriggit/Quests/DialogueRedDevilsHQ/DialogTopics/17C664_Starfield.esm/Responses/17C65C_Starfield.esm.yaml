@@ -1,0 +1,42 @@
+FormKey: 17C65C:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0D755D:Starfield.esm
+  WEMFile: 9506689
+  TRDAUnknown: 4.6333337
+  TROTs:
+  - UnknownVoiceType: 29D01C:Starfield.esm
+    UnknownFloat: 3.966667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Aber da der Umgang mit feindseligen Kreaturen dein Spezialgebiet ist ... nun, ich dachte mir, wir könnten dich vielleicht dafür anheuern.
+    - Language: English
+      String: But, since dealing with unfriendly creatures falls square in your wheelhouse... Well, I figured we might be able to recruit you for the task.
+    - Language: Spanish
+      String: Pero, ya que tratar con criaturas hostiles se te da tan bien... bueno, quizá podamos contar contigo para esta tarea.
+    - Language: French
+      String: Mais puisqu’appréhender des créatures hostiles est dans vos cordes... je me suis dit que nous pourrions vous recruter pour cette tâche.
+    - Language: Italian
+      String: Ma dato che avere a che fare con creature poco amichevoli rientra perfettamente nelle tue competenze... ho pensato che avremmo potuto reclutarti.
+    - Language: Japanese
+      String: だが非友好的な生物への対処は君の得意分野だろう… だから、この仕事は君に任せられるのではないかと思ってね
+    - Language: Polish
+      String: Ale skoro radzenie sobie z nieprzyjaznymi stworzeniami to twoja specjalność... No cóż, pomyślałem, że zdołam namówić cię do tego zadania.
+    - Language: Portuguese_Brazil
+      String: Mas como lidar com criaturas agressivas tem tudo a ver com a sua área de atuação... Bom, pensei que talvez pudéssemos recrutar você pra essa tarefa.
+    - Language: ChineseSimplified
+      String: 但是，既然跟不友好的生物打交道正好是你所擅长的……嗯，我想我们也许可以请你来负责这份差事。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xC0181EFC5BF0D701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 1A690E:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

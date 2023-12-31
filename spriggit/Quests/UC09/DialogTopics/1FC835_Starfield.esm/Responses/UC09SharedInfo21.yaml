@@ -1,0 +1,43 @@
+FormKey: 04A48A:Starfield.esm
+EditorID: UC09SharedInfo21
+Flags: {}
+Responses:
+- Emotion: 0D755D:Starfield.esm
+  WEMFile: 10759915
+  TROTs:
+  - UnknownVoiceType: 29C457:Starfield.esm
+    UnknownFloat: 7.466667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Das könnte unsere letzte Chance sein, alles zu besprechen, bevor das Kabinett bei der Entscheidung in Sachen Terrormorphs mitredet.
+    - Language: English
+      String: This might be our last opportunity to talk things through, before the Cabinet weighs in on a decision regarding the Terrormorphs.
+    - Language: Spanish
+      String: Puede que esta sea nuestra última oportunidad de hablar las cosas antes de que el Gabinete tome una decisión sobre los horromorfos.
+    - Language: French
+      String: C'est peut-être notre dernière chance de nous mettre d'accord avant que le Cabinet prenne sa décision au sujet des horrimorphes.
+    - Language: Italian
+      String: Questa potrebbe essere la nostra ultima occasione per discutere prima che il Gabinetto prenda una decisione in merito ai terrormorfi.
+    - Language: Japanese
+      String: テラーモーフの件が閣議決定される前に話し合うには、これが最後の機会かもしれないわ
+    - Language: Polish
+      String: To może być nasza ostatnia okazja do rozmowy, zanim rząd podejmie decyzję w kwestii terrormorfów.
+    - Language: Portuguese_Brazil
+      String: Esta pode ser nossa última oportunidade de discutir as coisas antes que o Gabinete tome uma decisão quanto aos terrormorfos.
+    - Language: ChineseSimplified
+      String: 在内阁对骇变兽的问题做出决定之前，这可能是我们进行讨论的最后一次机会了。
+  ScriptNotes: Finally back to neutral tone.
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x80ADD7D222DBD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    FirstParameter: 1
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

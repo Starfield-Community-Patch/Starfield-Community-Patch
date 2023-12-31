@@ -19,6 +19,8 @@ Name:
     String: Usługi okrętowe w placówce
   - Language: Portuguese_Brazil
     String: Central de Naves de Entreposto
+  - Language: ChineseSimplified
+    String: 哨站飞船服务
 TMVT: 0x00000000
 DNAM: 0x01
 SNAM: 0x01000000
@@ -45,6 +47,8 @@ MenuItems:
       String: Zobacz posiadane statki
     - Language: Portuguese_Brazil
       String: Ver suas Naves
+    - Language: ChineseSimplified
+      String: 查看已拥有的飞船
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB00000000
@@ -68,6 +72,8 @@ MenuItems:
       String: Kup statki
     - Language: Portuguese_Brazil
       String: Comprar Naves
+    - Language: ChineseSimplified
+      String: 购买飞船
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB00000000

@@ -19,6 +19,8 @@ Name:
     String: Midtown Minerals
   - Language: Portuguese_Brazil
     String: Midtown Minerals
+  - Language: ChineseSimplified
+    String: 中城矿业
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -121,3 +123,4 @@ Traversals:
   To: -5.456757, -8.299999, 0.5591109
   UnknownVector: 3.550982, 5.8607316, 1.0260543
   Unknown: 0xB644B64485362537
+NumTraversalFluffBytes: 60

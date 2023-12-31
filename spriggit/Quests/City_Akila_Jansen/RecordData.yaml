@@ -101,6 +101,8 @@ Name:
     String: Twarde lądowanie
   - Language: Portuguese_Brazil
     String: Aterrisagens Brutas
+  - Language: ChineseSimplified
+    String: 登陆不顺
 Data:
   Flags:
   - RunOnce
@@ -151,6 +153,8 @@ Stages:
         String: Strażnik wspomniał, że rodzinie Jansenów kiepsko się powodzi, odkąd sprowadzili się do miasta Akila. Może uda mi się im jakoś pomóc.
       - Language: Portuguese_Brazil
         String: Um guarda mencionou que a família Jansen tem passado por momentos difíceis desde que se mudou para a cidade de Akila. Talvez eu consiga ajudá-los.
+      - Language: ChineseSimplified
+        String: 一名保安提到，詹森一家自从移民到阿基拉城之后就一直非常困难，我也许能帮他们一把。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -178,6 +182,8 @@ Stages:
         String: Marko Jansen przeniósł się do miasta Akila i znalazł się w kropce. Jest zdesperowany i ma nadzieję, że skontaktuję się w jego imieniu z kuzynką jego żony, Mileną Axelrod, która znajdzie dla niego jakieś zajęcie. Milena jest handlarką, a jej statek znajduje się w układzie Cheyenne.
       - Language: Portuguese_Brazil
         String: Marko Janson se mudou para a cidade de Akila, mas as coisas andam meio paradas. Ele está desesperado e espera que eu possa entrar em contato com a prima de sua esposa, Milena Axelrod, para ver se ela pode descolar uns trabalhos. Milena é comerciante, e sua nave está no sistema de Cheyenne.
+      - Language: ChineseSimplified
+        String: 马尔科·詹森搬到了阿基拉城，之后就陷入了停滞。他现在走投无路，希望我能够联系他妻子的表妹，米勒娜·阿克塞罗德，看看她能不能给他们找些活干。米勒娜是一个商人，她的飞船在阿基拉星系。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -221,6 +227,8 @@ Stages:
         String: 'Udało mi się odnaleźć i uratować Milenę Axelrod, która z chęcią pomogłaby Jansenom, ale na przeszkodzie stoi jeden problem: ma problemy prawne w mieście Akila. Poprosiła mnie o oczyszczenie jej imienia u burmistrza Eliasa Cartwrighta lub załatwienie jej fałszywych dokumentów u Toma Starretta z Urzędu Handlowego.'
       - Language: Portuguese_Brazil
         String: Eu conheci e salvei Milena Axelrod, e ela está disposta a ajudar os Jansens de bom grado. O único problema é que ela se deparou com uns probleminhas legais na cidade de Akila. Ela me pediu para ajudar a limpar o nome dela com o prefeito Elias Cartwright ou com um funcionário da Autoridade Comercial chamado Tom Starrett.
+      - Language: ChineseSimplified
+        String: 我遇到了米勒娜·阿克塞罗德，还救了她，而且她也很愿意帮助詹森一家，唯一的问题是她在阿基拉城触碰了法律的底线。她拜托我去找市长埃利亚斯·卡特赖特或者贸易管理局的中间人汤姆·斯塔雷特来帮她洗白。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -256,6 +264,8 @@ Stages:
         String: Tom Starrett zapewni Milenie podrobione dokumenty, które zapewnią jej możliwość bezpiecznego powrotu do miasta Akila. Muszę przekazać Markowi Jansenowi dobre wieści.
       - Language: Portuguese_Brazil
         String: Tom Starrett vai dar a Milena credenciais falsas para que ela possa voltar com segurança à cidade de Akila. Eu deveria contar as boas novas a Marko Jansen.
+      - Language: ChineseSimplified
+        String: 汤姆·斯塔雷特会为米勒娜提供伪造证件，让她能够安全回到阿基拉城。我应该告诉马尔科·詹森这个好消息。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -291,6 +301,8 @@ Stages:
         String: Udało mi się wyjaśnić z burmistrzem Eliasem kwestie związane z Mileną. Może wrócić do miasta Akila. Muszę przekazać Markowi Jansenowi dobre wieści.
       - Language: Portuguese_Brazil
         String: Eu resolvi os problemas da Milena com o prefeito Elias. Ela está livre e pronta para voltar à cidade de Akila. Vou dar as notícias ao Marko Jansen.
+      - Language: ChineseSimplified
+        String: 我处理好了米勒娜与埃利亚斯市长之间的问题，她现在清白自由，可以回到阿基拉城了。我应该告诉马尔科·詹森这个好消息。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -343,6 +355,8 @@ Stages:
         String: Marko Jansen dostał pracę i odzyskał nadzieję. Był mi za to bardzo wdzięczny. Miejmy nadzieję, że dzięki temu jego rodzinę czeka lepsza przyszłość.
       - Language: Portuguese_Brazil
         String: Marko Jansen agora tem um trabalho e esperanças de verdade. Ele ficou profundamente agradecido. Se tudo der certo, sua família terá perspectivas muito melhores.
+      - Language: ChineseSimplified
+        String: 马尔科·詹森现在有了一份工作，也有了切实的希望，他深为感激。希望这能给他的家庭带来一个更加光明的未来。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -382,6 +396,8 @@ Objectives:
       String: Porozmawiaj z Markiem Jansenem
     - Language: Portuguese_Brazil
       String: Fale com Marko Jansen
+    - Language: ChineseSimplified
+      String: 与马尔科·詹森交谈
   Targets:
   - {}
 - Index: 100
@@ -405,6 +421,8 @@ Objectives:
       String: Spotkaj się z Mileną Axelrod
     - Language: Portuguese_Brazil
       String: Encontre-se com Milena Axelrod
+    - Language: ChineseSimplified
+      String: 会见米勒娜·阿克塞罗德
   Targets:
   - AliasID: 1
   - AliasID: 9
@@ -437,6 +455,8 @@ Objectives:
       String: Wejdź na pokład statku Dalliance i porozmawiaj z Mileną
     - Language: Portuguese_Brazil
       String: Embarque na Dalliance e fale com Milena
+    - Language: ChineseSimplified
+      String: 登上红杏号并与米勒娜交谈
   Targets:
   - AliasID: 1
   - AliasID: 6
@@ -461,6 +481,8 @@ Objectives:
       String: Zapewnij Milenie możliwość powrotu do miasta Akila
     - Language: Portuguese_Brazil
       String: Dê acesso à cidade de Akila a Milena
+    - Language: ChineseSimplified
+      String: 让米勒娜进入阿基拉城
   Targets:
   - AliasID: 2
   - AliasID: 3
@@ -485,6 +507,8 @@ Objectives:
       String: Wróć do Marka Jansena i przekaż mu dobre wieści
     - Language: Portuguese_Brazil
       String: Volte para falar com Marko Jansen
+    - Language: ChineseSimplified
+      String: 向马尔科·詹森汇报
   Targets:
   - {}
 Aliases:

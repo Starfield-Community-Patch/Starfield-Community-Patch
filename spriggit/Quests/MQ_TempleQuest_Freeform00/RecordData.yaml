@@ -226,6 +226,8 @@ Name:
     String: Moc nie z tego świata (<Alias=PlanetWithTrait>)
   - Language: Portuguese_Brazil
     String: Poder do Além (<Alias=PlanetWithTrait>)
+  - Language: ChineseSimplified
+    String: 彼方之力（<Alias=PlanetWithTrait>）
 Data:
   Priority: 80
   Unused: 0x000000
@@ -259,6 +261,8 @@ Stages:
         String: Wiem, gdzie mogę znaleźć dużą anomalię, której sygnatura pasuje do jednego z artefaktów. Muszę ją zbadać.
       - Language: Portuguese_Brazil
         String: Tem uma grande anomalia em um planeta que corresponde à assinatura de um dos artefatos. Só preciso encontrá-la.
+      - Language: ChineseSimplified
+        String: 某颗行星上有一个巨大的异常点，与其中一件神器的特征相符。我需要找到它。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -286,6 +290,8 @@ Stages:
         String: Mój skaner wykrywa jakieś zakłócenia. Muszę iść za jego wskazaniami do ich źródła.
       - Language: Portuguese_Brazil
         String: Meu leitor está detectando distorções. Preciso mantê-lo ativo e seguir a direção das distorções até a origem.
+      - Language: ChineseSimplified
+        String: 我的扫描仪检测到扭曲现象，我应该拿着扫描仪追踪扭曲的来源。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -322,6 +328,8 @@ Stages:
         String: Vladimir dał znać, że w przyszłości może pomóc znaleźć świątynie korespondujące ze wszystkimi artefaktami, które znajdziemy.
       - Language: Portuguese_Brazil
         String: Vladimir disse que pode ajudar a encontrar mais templos futuramente com os artefatos que encontrarmos.
+      - Language: ChineseSimplified
+        String: 弗拉迪米尔说他可以在未来帮忙寻找更多神殿的下落，以便我们寻找神器。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -350,6 +358,8 @@ Objectives:
       String: Zdobądź moc, którą skrywa <Alias=PlanetWithTrait>
     - Language: Portuguese_Brazil
       String: Consiga o poder em <Alias=PlanetWithTrait>
+    - Language: ChineseSimplified
+      String: 在<Alias=PlanetWithTrait>获得能力
   Targets:
   - AliasID: 5
     Conditions:
@@ -401,6 +411,8 @@ Objectives:
       String: Podążaj za zakłóceniami widocznymi na skanerze
     - Language: Portuguese_Brazil
       String: Siga as distorções exibidas no leitor
+    - Language: ChineseSimplified
+      String: 用扫描仪追踪扭曲现象
 Aliases:
 - MutagenObjectType: QuestLocationAlias
   ID: 18

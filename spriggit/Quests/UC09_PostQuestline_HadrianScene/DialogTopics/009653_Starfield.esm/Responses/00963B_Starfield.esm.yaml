@@ -1,0 +1,44 @@
+FormKey: 00963B:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  WEMFile: 12084877
+  TROTs:
+  - UnknownVoiceType: 29C457:Starfield.esm
+    UnknownFloat: 2.966667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Aber ich werde nicht zulassen, dass er meine Zukunft kontrolliert. Ich werde etwas Neues beginnen. Und dank dir habe ich die Chance dazu.
+    - Language: English
+      String: I'm not about to let him control my future. I'm ready to start something new. And, thanks to you, I'm getting a chance to do it.
+    - Language: Spanish
+      String: No pienso dejar que controle mi futuro. Estoy lista para empezar de cero. Y gracias a ti, tengo la oportunidad de hacerlo.
+    - Language: French
+      String: Je refuse de le laisser contrôler mon avenir. Je suis prête pour un nouveau départ, et grâce à vous on m'a offert cette chance.
+    - Language: Italian
+      String: Non gli lascerò controllare il mio futuro. Sono pronta a voltare pagina. E ho l’occasione di farlo, grazie a te.
+    - Language: Japanese
+      String: 父に未来を支配させるつもりはない。新しいことを始めるの。あなたのおかげで、そのチャンスがやってきたんだから
+    - Language: Polish
+      String: Nie pozwolę, by zawładnął moją przyszłością. Jestem gotowa, by zacząć od nowa. A dzięki tobie mam na to szansę.
+    - Language: Portuguese_Brazil
+      String: Não vou deixá-lo controlar meu futuro. Já posso começar algo novo. E graças a você, estou tendo a chance de recomeçar.
+    - Language: ChineseSimplified
+      String: 我不打算让他控制我的未来，我已经准备好开始新的人生了。幸亏有你在，我才有机会重新做人。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x203D4FD066EDD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInCellConditionData
+    FirstParameter: 28DC4A:Starfield.esm
+SetParentQuestStage:
+  OnBegin: -1
+  OnEnd: 105
+StartScenePhase: ''
+SubtitlePriority: Low

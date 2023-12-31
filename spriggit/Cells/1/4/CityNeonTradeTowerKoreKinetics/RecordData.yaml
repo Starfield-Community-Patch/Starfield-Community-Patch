@@ -19,6 +19,8 @@ Name:
     String: 'Wieża Handlowa: Kore Kinetics'
   - Language: Portuguese_Brazil
     String: 'Torre Comercial: Kore Kinetics'
+  - Language: ChineseSimplified
+    String: 贸易大楼：高核动力工程
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -393,3 +395,4 @@ Traversals:
   To: -44.22521, 162.20006, 85.091606
   UnknownVector: 4.2967505, 6.433767, 0.9819793
   Unknown: 0x1E421E429F3E8335
+NumTraversalFluffBytes: 276

@@ -19,6 +19,8 @@ Name:
     String: 'Wieża Handlowa: Xenofresh Fisheries'
   - Language: Portuguese_Brazil
     String: 'Torre Comercial: Xenofresh Fisheries'
+  - Language: ChineseSimplified
+    String: 贸易大楼：异珍鲜渔业
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -488,3 +490,4 @@ Traversals:
   To: -47.16799, 142.9713, 328.08185
   UnknownVector: 4.45953, 6.200168, 0.94726115
   Unknown: 0xA144A1445938333A
+NumTraversalFluffBytes: 352

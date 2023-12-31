@@ -19,6 +19,8 @@ Name:
     String: 'Umiejętność z magazynu: Poradnik Rewolwerowca Kolektywu Wolnych Gwiazd'
   - Language: Portuguese_Brazil
     String: 'Revista Habilidade: Guia do Pistoleiro da Patrulha Freestar'
+  - Language: ChineseSimplified
+    String: 杂志技能：《星联游骑兵枪手指南》
 Description:
   TargetLanguage: English
 Flags:
@@ -95,6 +97,8 @@ Ranks:
       String: Przeładowywanie i wyciąganie broni Laredo jest na stałe szybsze o 5%.
     - Language: Portuguese_Brazil
       String: Recarrega e saca armas Laredo com uma velocidade 5% maior de forma permanente.
+    - Language: ChineseSimplified
+      String: 拉锐多武器的装弹和拔取速度永久加快5%。
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 1
@@ -167,6 +171,8 @@ Ranks:
       String: Przeładowywanie i wyciąganie broni Laredo jest na stałe szybsze o dodatkowe 5%.
     - Language: Portuguese_Brazil
       String: Recarrega e saca armas Laredo com mais 5% de velocidade de forma permanente.
+    - Language: ChineseSimplified
+      String: 拉锐多武器的装弹和拔取速度永久额外加快5%。
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 2
@@ -239,6 +245,8 @@ Ranks:
       String: Przeładowywanie i wyciąganie broni Laredo jest na stałe szybsze o dodatkowe 5%.
     - Language: Portuguese_Brazil
       String: Recarrega e saca armas Laredo com mais 5% de velocidade de forma permanente.
+    - Language: ChineseSimplified
+      String: 拉锐多武器的装弹和拔取速度永久额外加快5%。
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 3
@@ -311,6 +319,8 @@ Ranks:
       String: Przeładowywanie i wyciąganie broni Laredo jest na stałe szybsze o dodatkowe 5%.
     - Language: Portuguese_Brazil
       String: Recarrega e saca armas Laredo com mais 5% de velocidade de forma permanente.
+    - Language: ChineseSimplified
+      String: 拉锐多武器的装弹和拔取速度永久额外加快5%。
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 4
@@ -383,3 +393,5 @@ Ranks:
       String: Przeładowywanie i wyciąganie broni Laredo jest na stałe szybsze o dodatkowe 5%.
     - Language: Portuguese_Brazil
       String: Recarrega e saca armas Laredo com mais 5% de velocidade de forma permanente.
+    - Language: ChineseSimplified
+      String: 拉锐多武器的装弹和拔取速度永久额外加快5%。

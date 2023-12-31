@@ -23,6 +23,8 @@ Name:
     String: Wieżyczka z działkiem EM Marauder 115 N
   - Language: Portuguese_Brazil
     String: Torreta Canhão Elétrico Ladrão 115N
+  - Language: ChineseSimplified
+    String: 掠夺者115N磁轨炮炮塔
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -86,7 +88,27 @@ WGENUnknown1: 12
 BaseWeight: 3
 BaseSpeed: 1
 AttackOxygenCost: 125
-General: "V\a\0"
+General:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: BAL
+  - Language: English
+    String: BAL
+  - Language: Spanish
+    String: BAL
+  - Language: French
+    String: BAL
+  - Language: Italian
+    String: BAL
+  - Language: Japanese
+    String: BAL
+  - Language: Polish
+    String: BAL
+  - Language: Portuguese_Brazil
+    String: BAL
+  - Language: ChineseSimplified
+    String: 弹道
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

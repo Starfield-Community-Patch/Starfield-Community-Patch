@@ -19,6 +19,8 @@ Name:
     String: Lobby ambasady Va'ruun
   - Language: Portuguese_Brazil
     String: "Embaixada Va'ruun: saguão"
+  - Language: ChineseSimplified
+    String: 瓦鲁大使馆大厅
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -1695,3 +1697,4 @@ Traversals:
   To: 51.716446, 44.54757, 38.84204
   UnknownVector: 1.4778664, 1.6208773, 0.8315167
   Unknown: 0x7F417F413C3CD73E
+NumTraversalFluffBytes: 1320
