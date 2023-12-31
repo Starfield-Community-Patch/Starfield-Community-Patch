@@ -23,6 +23,8 @@ Name:
     String: Wieżyczka z działkiem KE-42
   - Language: Portuguese_Brazil
     String: Torreta canhão KE-42
+  - Language: ChineseSimplified
+    String: KE-42加农炮塔
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -87,7 +89,27 @@ WGENUnknown1: 12
 BaseWeight: 3
 BaseSpeed: 1
 AttackOxygenCost: 75
-General: "P\a\0"
+General:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: BAL
+  - Language: English
+    String: BAL
+  - Language: Spanish
+    String: BAL
+  - Language: French
+    String: BAL
+  - Language: Italian
+    String: BAL
+  - Language: Japanese
+    String: BAL
+  - Language: Polish
+    String: BAL
+  - Language: Portuguese_Brazil
+    String: BAL
+  - Language: ChineseSimplified
+    String: 弹道
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

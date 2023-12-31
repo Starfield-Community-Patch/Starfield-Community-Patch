@@ -2043,6 +2043,8 @@ Name:
     String: Wroga inteligencja
   - Language: Portuguese_Brazil
     String: Inteligência Hostil
+  - Language: ChineseSimplified
+    String: 敌方智能
 Data:
   Flags:
   - RunOnce
@@ -2205,6 +2207,8 @@ Stages:
         String: Hadrian twierdzi, że ma plan, jak rozprawić się z terrormorfami. Muszę pójść z nią, aby dowiedzieć się czegoś więcej.
       - Language: Portuguese_Brazil
         String: Hadrian diz que tem um plano para lidar com os terrormorfos. Tenho que ir atrás dela para saber mais.
+      - Language: ChineseSimplified
+        String: 哈德良说，她有个对付骇变兽的计划。我应该找到她了解详情。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2304,6 +2308,8 @@ Stages:
         String: Plan zakłada usunięcie terrormorfów z planet zamieszkanych przez ludzi - sprowadzając ich naturalnego wroga lub wypuszczając specjalnego mikroba. Ale do jego zrealizowania potrzebujemy próbek. Jest tylko jedno miejsce, gdzie można je zdobyć. To Londinion. Mam porozmawiać z komandor Hatoum w jedynej bazie na planecie.
       - Language: Portuguese_Brazil
         String: O plano é remover os terrormorfos dos mundos humanos, seja trazendo de volta o predador natural deles ou liberando um micróbio para exterminá-los. Mas, antes de tudo, precisamos de matéria-prima. E qual é o único lugar onde podemos coletá-la? Londinion. Tenho que falar com a comandante Hatoum na única base do planeta.
+      - Language: ChineseSimplified
+        String: 计划是消灭人类世界里的骇变兽，具体手段是要么引入它们的天敌，要么释放一种微生物来对付它们。但首先，我们需要一些原材料。在哪才能找到它们呢？隆蒂涅恩城。我要在这个星球上唯一的基地和哈图姆指挥官谈谈。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2419,6 +2425,8 @@ Stages:
         String: 'Komandor Hatoum zakończyła odprawę. Będziemy zdani tylko na siebie. Hadrian ma jeszcze kilka spraw, które chce omówić. '
       - Language: Portuguese_Brazil
         String: 'A comandante Hatoum terminou de passar as instruções. Vamos estar por nossa conta lá. Hadrian quer discutir mais algumas coisas. '
+      - Language: ChineseSimplified
+        String: '哈图姆指挥官已经完成了她的报告。我们将要独自行动。哈德良还有几件事要讨论。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2494,6 +2502,8 @@ Stages:
         String: Odprawa dobiegła końca. Mogę odebrać swój sprzęt w zbrojowni lub porozmawiać z Hadrian o tym, by wyruszyć w teren.
       - Language: Portuguese_Brazil
         String: Instruções concluídas. Posso me dirigir ao arsenal para pegar meu equipamento ou falar com Hadrian para prosseguir.
+      - Language: ChineseSimplified
+        String: 报告完毕。我可以去军械库领取装备，或者和哈德良谈谈出发的事。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2580,6 +2590,8 @@ Stages:
         String: Sprzęt odebrany. Pora porozmawiać z Hadrian.
       - Language: Portuguese_Brazil
         String: Todo o equipamento foi coletado. Hora de falar com Hadrian.
+      - Language: ChineseSimplified
+        String: 所有的装备已集齐。该去找哈德良了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2623,6 +2635,8 @@ Stages:
         String: Ruszamy do Londinionu.
       - Language: Portuguese_Brazil
         String: Vamos entrar em Londinion.
+      - Language: ChineseSimplified
+        String: 该去隆蒂涅恩城了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2709,6 +2723,8 @@ Stages:
         String: Percival znalazł dla nas pierwsze próbki w pobliskim doku. Ruszamy tam teraz.
       - Language: Portuguese_Brazil
         String: Percival encontrou nossos primeiros materiais num estaleiro próximo. Estamos indo para lá agora.
+      - Language: ChineseSimplified
+        String: 珀西瓦里在附近的货运场为我们找到了第一批材料。我们现在就去那里。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2763,6 +2779,8 @@ Stages:
         String: Droga do przetwórni jest zablokowana! Musimy rozprawić się z tymi stworami!
       - Language: Portuguese_Brazil
         String: Nosso trajeto na usina foi bloqueado! Precisamos dar um jeito nessas criaturas!
+      - Language: ChineseSimplified
+        String: 去加工厂的路被堵住了！我们得对付这些生物！
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2818,6 +2836,8 @@ Stages:
         String: Przetwórnia została oczyszczona i wszystko wskazuje na to, że jest tu skład polowy. Powinniśmy zajrzeć do niego, aby uzupełnić zapasy.
       - Language: Portuguese_Brazil
         String: A usina de processamento foi evacuada e parece que tem uma provisão de campo aqui. Temos que conferir para tentar um reabastecimento.
+      - Language: ChineseSimplified
+        String: 加工厂已肃清，这里似乎有个野外储藏室。我们应该去那里进行补给。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2865,6 +2885,8 @@ Stages:
         String: Kaiser namierzył komórki aceli w doku. Teraz musimy je tylko znaleźć, zebrać i nie dać się przy tym pożreć.
       - Language: Portuguese_Brazil
         String: Kaiser apontou a localização das células de aceles no estaleiro. Agora só preciso achá-las, coletá-las e tentar não morrer fazendo isso.
+      - Language: ChineseSimplified
+        String: 凯撒已经确定了亚斯里兽细胞在货运场的位置。接下来只要找到并收集它们就行了，但要小心别被吃了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2900,6 +2922,8 @@ Stages:
         String: 'Kaiser spróbuje ustalić dla nas lokalizację pierwszej próbki, wykorzystując komputery doku. Pójdę z nim. '
       - Language: Portuguese_Brazil
         String: 'Kaiser vai tentar encontrar a localização da primeira amostra usando os computadores do estaleiro. Tenho que ir atrás dele. '
+      - Language: ChineseSimplified
+        String: '凯撒会想办法用货运场的电脑帮我们找到第一个样品的位置。我应该跟着他。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2943,6 +2967,8 @@ Stages:
         String: Kaiser coś znalazł i Hadrian twierdzi, że zawiera to informacje, których szukamy. Muszę z nią porozmawiać, aby dowiedzieć się więcej.
       - Language: Portuguese_Brazil
         String: Kaiser encontrou algo, e Hadrian disse que é a informação de que precisamos. Tenho que falar com ela para ver com meus próprios olhos.
+      - Language: ChineseSimplified
+        String: 凯撒已有所发现，哈德良说里面有我们要找的信息。我应该和她谈谈，亲自看看。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3058,6 +3084,8 @@ Stages:
         String: Hadrian poleciła mi przekazać próbkę Kaiserowi, który ma ją przechować.
       - Language: Portuguese_Brazil
         String: Hadrian me instruiu a entregar a amostra ao Kaiser para mantê-la segura.
+      - Language: ChineseSimplified
+        String: 哈德良指示我把样本交给凯撒保管。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3157,6 +3185,8 @@ Stages:
         String: Wszystkie próbki zebrane! Teraz muszę tylko rozprawić się z napastnikami!
       - Language: Portuguese_Brazil
         String: Todas as amostras foram coletadas! Agora só preciso cuidar desses inimigos.
+      - Language: ChineseSimplified
+        String: 我拿到了所有的样本！现在我只需要对付这些敌人就行了！
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3184,6 +3214,8 @@ Stages:
         String: Wszystkie próbki zebrane! Teraz muszę tylko przekazać je Kaiserowi.
       - Language: Portuguese_Brazil
         String: Todas as amostras foram coletadas! Agora só preciso entregá-las ao Kaiser.
+      - Language: ChineseSimplified
+        String: 我拿到了所有的样本！现在我只需要把它们交给凯撒就行了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3211,6 +3243,8 @@ Stages:
         String: Kaiser otrzymał ode mnie próbki aceli. Teraz musimy ustalić, dokąd powinniśmy się udać.
       - Language: Portuguese_Brazil
         String: Entreguei as amostras de aceles ao Kaiser. Agora só precisamos descobrir qual é o nosso próximo destino.
+      - Language: ChineseSimplified
+        String: 我把亚斯里兽的样本给了凯撒。现在，我们只需搞清楚接下来去哪里就行了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3246,6 +3280,8 @@ Stages:
         String: Wygląda na to, że droga do następnej próbki wiedzie przez tunele parowe Londinionu.
       - Language: Portuguese_Brazil
         String: Parece que o caminho até a próxima amostra passa pelos túneis de vapor de Londinion.
+      - Language: ChineseSimplified
+        String: 看来，要拿到下一个样本，我们就得经过隆蒂涅恩城蒸汽通道。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3329,6 +3365,8 @@ Stages:
         String: 'Hadrian zauważyła kwitnącą lazarytkę - twierdzi, że to naprawdę rzadki widok. Muszę się przyjrzeć tej roślinie. '
       - Language: Portuguese_Brazil
         String: 'Hadrian encontrou uma planta lázaro florescendo — o que é raro, segundo ela. Tenho que dar uma olhada. '
+      - Language: ChineseSimplified
+        String: '哈德良看到了一株正在开花的拉撒路草，她说这很罕见。我应该去看看。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3388,6 +3426,8 @@ Stages:
         String: Właśnie widzieliśmy ciepłopijca... przemieniającego się w terrormorfa. Muszę porozmawiać z Hadrian o tym, co to może oznaczać!
       - Language: Portuguese_Brazil
         String: Acabamos de ver uma termossuga... se tornar um terrormorfo. Preciso falar com Hadrian para entender melhor o que isso significa.
+      - Language: ChineseSimplified
+        String: 我们刚看到一只热蛭……变成了骇变兽。我应该和哈德良谈谈这件事可能的意义！
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3463,6 +3503,8 @@ Stages:
         String: Musimy wytropić i zabić terrormorfa... czy ciepłopijca... A potem ustalić, jaki to ma związek z atakami!
       - Language: Portuguese_Brazil
         String: Precisamos localizar e matar o terrormorfo... ou termossuga... e matá-lo para descobrir se isso pode ter algo a ver com os ataques.
+      - Language: ChineseSimplified
+        String: 我们得追踪并杀死骇变兽……或者热蛭……杀了它我们就能弄清楚这和袭击有没有关系了！
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3490,6 +3532,8 @@ Stages:
         String: Rozprawiliśmy się z terrormorfem. Muszę zebrać próbkę jego tkanki.
       - Language: Portuguese_Brazil
         String: Demos um jeito no terrormorfo. Agora só preciso coletar uma amostra de tecido.
+      - Language: ChineseSimplified
+        String: 我们消灭了骇变兽。我只需要收集一份组织样本。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3525,6 +3569,8 @@ Stages:
         String: Muszę przekazać próbkę Kaiserowi, abyśmy mogli wyjaśnić przemianę, której byliśmy świadkami.
       - Language: Portuguese_Brazil
         String: Preciso entregar a amostra ao Kaiser para que possamos entender melhor a transformação que acabamos de testemunhar.
+      - Language: ChineseSimplified
+        String: 我得把样本交给凯撒，这样我们就可以弄明白我们目睹的变身到底是怎么回事了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3552,6 +3598,8 @@ Stages:
         String: Kaiser ma próbkę. Czas wreszcie poznać prawdę.
       - Language: Portuguese_Brazil
         String: Kaiser está com a amostra. Hora de descobrir o que tá acontecendo.
+      - Language: ChineseSimplified
+        String: 凯撒拿到了样本。是时候查清真相了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3579,6 +3627,8 @@ Stages:
         String: Próbka, którą właśnie znaleźliśmy, pasuje do tych z Nowej Atlantydy i Tau Ceti. To oznacza, że ktoś najprawdopodobniej koordynował te ataki. Muszę przedyskutować to z Hadrian.
       - Language: Portuguese_Brazil
         String: A amostra que acabamos de encontrar bate com as de Nova Atlântida e Tau Ceti. Isso significa que alguém provavelmente orquestrou os ataques. Preciso discutir essa hipótese com Hadrian.
+      - Language: ChineseSimplified
+        String: 我们刚找到的样本和新亚特兰蒂斯城以及天仓五的相符。这就是说，很可能有人协调发动了这些袭击。我得找哈德良谈谈。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3638,6 +3688,8 @@ Stages:
         String: Doszliśmy do wniosku, że ataki terrormorfów mogły zostać wywołane. Ale przez kogo? I dlaczego? Tak czy siak, warto dokończyć naszą bieżącą misję. Pora znaleźć ostatnią próbkę.
       - Language: Portuguese_Brazil
         String: Nossa conclusão é que os ataques de terrormorfos parecem ter sido provocados. Mas por quem? E por quê? Seja como for, ainda vale a pena concluir nossa tarefa atual. Hora de pegar a última amostra.
+      - Language: ChineseSimplified
+        String: 我们的结论是，骇变兽的袭击可能是什么人触发的。可那人是谁呢？又为什么这么做呢？不管怎样，我们现在的任务仍有完成的必要。是时候找到最后的样本了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3673,6 +3725,8 @@ Stages:
         String: Drzwi prowadzące do portu kosmicznego - i ostatniej próbki - są pozbawione energii. W biurze ochrony na piętrze powinna być tablica kontrolna zasilania.
       - Language: Portuguese_Brazil
         String: A porta que leva ao espaçoporto e à última amostra ficou sem energia. Deve ter algum painel de controle de energia na sala de segurança no andar de cima.
+      - Language: ChineseSimplified
+        String: 通往太空港和最后样本的门已经断电了。楼上的安保办公室应该有电源控制板。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3708,6 +3762,8 @@ Stages:
         String: Przywróciliśmy zasilanie w pomieszczeniu, ale system wymaga restartu. Gdzieś tu powinien być przycisk, który go zresetuje.
       - Language: Portuguese_Brazil
         String: Restauramos a energia da sala, mas o sistema precisa ser reiniciado. Deve ter algum botão de reiniciar em algum lugar por aqui.
+      - Language: ChineseSimplified
+        String: 我们恢复了房间的电力，但系统需要重启。这附近一定有个重置按钮。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3743,6 +3799,8 @@ Stages:
         String: Udało mi się wymusić restart systemu. Muszę sprawdzić, czy to usunęło problem.
       - Language: Portuguese_Brazil
         String: Eu acionei uma reinicialização do sistema. Tenho que observar para ver se isso vai resolver as coisas.
+      - Language: ChineseSimplified
+        String: 我触发了系统重启。应该监听一下，看它能否解决问题。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3813,6 +3871,8 @@ Stages:
         String: Ostatnia próbka znajduje się w terrormorfie! Musimy go zabić!
       - Language: Portuguese_Brazil
         String: A última amostra está dentro de um terrormorfo. Temos que derrotá-lo!
+      - Language: ChineseSimplified
+        String: 最后的样本在骇变兽体内！我们得击败它！
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3851,6 +3911,8 @@ Stages:
         String: Wygląda na to, że Percival znalazł sposób na przerwanie połączenia anomalii z jej niewolnikami! Zasilenie talerzy radaru w porcie kosmicznym powinno załatwić sprawę!
       - Language: Portuguese_Brazil
         String: Parece que Percival achou um jeito de anular a conexão da anomalia aos servos dela! Só preciso ativar as parabólicas em volta do espaçoporto.
+      - Language: ChineseSimplified
+        String: 听起来珀西瓦里有办法让我切断异常点和其傀儡的联系！只要给太空港周围的雷达天线通电就可以了！
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3894,6 +3956,8 @@ Stages:
         String: Wyeliminowaliśmy terrormorfa, w którego wnętrzu znajduje się nasza ostatnia próbka. Pora ją zabrać i się stąd wynosić.
       - Language: Portuguese_Brazil
         String: Nós derrotamos o terrormorfo que contém nossa última amostra. Hora de coletá-la e dar o fora daqui.
+      - Language: ChineseSimplified
+        String: 我们击败了携带最后样本的骇变兽。是时候拿上它离开这里了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3921,6 +3985,8 @@ Stages:
         String: W porządku. Mam próbkę. Muszę przekazać ją Kaiserowi.
       - Language: Portuguese_Brazil
         String: Certo. Amostra obtida. Só tenho que guardá-la no Kaiser.
+      - Language: ChineseSimplified
+        String: 好的。拿到样本了。只要把它放在凯撒就可以了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3956,6 +4022,8 @@ Stages:
         String: Próbka zabezpieczona. Pora wynosić się z tej lodówki i zdać raport Percivalowi w bazie.
       - Language: Portuguese_Brazil
         String: Amostra obtida. Hora de explodir essa geleira e me reportar ao Percival na base.
+      - Language: ChineseSimplified
+        String: 拿到样本了。是该炸掉这个冰柱，回基地向珀西瓦里报告了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4055,6 +4123,8 @@ Stages:
         String: Wygląda na to, że Vae Victis był tutaj tuż przed wydaniem rozkazu zbombardowania portu kosmicznego. Muszę tego posłuchać.
       - Language: Portuguese_Brazil
         String: Parece que Vae Victis esteve aqui pouco antes de ordenar a explosão do espaçoporto. Tenho que ouvir mais.
+      - Language: ChineseSimplified
+        String: 听起来瓦维刻提斯之前就在这里下令轰炸太空港。我应该听一听。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4098,6 +4168,8 @@ Stages:
         String: Nagranie, którego właśnie wysłuchaliśmy, sugeruje, że Vae Victis wiedział o lazarytce. Muszę zabrać transkrypcję nagrania i porozmawiać z Hadrian o tym, czego się dowiedzieliśmy.
       - Language: Portuguese_Brazil
         String: A gravação que acabamos de ouvir... parecia muito que o Vae Victis sabia sobre a planta lázaro. Tenho que pegar a transcrição e falar com Hadrian sobre o que descobrimos.
+      - Language: ChineseSimplified
+        String: 我们刚听到的记录……听起来瓦维刻提斯很可能知道拉撒路草的事。我应该拿着转录记录去找哈德良，告诉他我们的发现。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4125,6 +4197,8 @@ Stages:
         String: Mam zapis z systemu rejestratora, z którego wynika, że Vae Victis był tutaj i wiedział o lazarytce. Muszę przedyskutować zdobyte informacje z Hadrian.
       - Language: Portuguese_Brazil
         String: Consegui o registro de áudio que mostra que Vae Victis esteve aqui e sabia sobre a planta lázaro. Tenho que discutir minhas descobertas com Hadrian.
+      - Language: ChineseSimplified
+        String: 我拿到了一份记录日志，上面说瓦维刻提斯之前来过这里，且知道拉撒路草的事。我应该把这情况告诉哈德良。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4204,6 +4278,8 @@ Stages:
         String: Vae Victis wiedział o lazarytce i najpewniej zbombardował port kosmiczny, aby to ukryć. Ale przed nami wciąż wiele pracy. Pora zebrać ostatnią próbkę i się stąd wynosić.
       - Language: Portuguese_Brazil
         String: Vae Victis sabia sobre a planta lázaro, e é provável que tenha explodido o espaçoporto para tentar encobrir tudo. Ainda temos muito trabalho pela frente. Hora de coletar aquela amostra final e dar o fora daqui.
+      - Language: ChineseSimplified
+        String: 瓦维刻提斯知道拉撒路草的事，并且很可能为了掩盖真相把太空港炸毁了。不过我们还有工作要做。该去收集最后的样本，并离开这里了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4327,6 +4403,8 @@ Stages:
         String: Wróciliśmy do bazy. Pora przedyskutować nasze odkrycia.
       - Language: Portuguese_Brazil
         String: Retornamos à base. Hora de discutir o que descobrimos.
+      - Language: ChineseSimplified
+        String: 我们已经回到了基地。该讨论我们所发现的东西了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4363,6 +4441,8 @@ Stages:
         String: 'Mamy wszystkie próbki potrzebne do uruchomienia programu eliminowania terrormorfów... Jednak w Londinionie odkryliśmy coś znacznie ważniejszego: lazarytka została wykorzystana podczas ataku na Nową Atlantydę i Vae Victis wiedział o tej roślinie. Zamierzam z nim o tym porozmawiać.'
       - Language: Portuguese_Brazil
         String: 'Temos toda a matéria-prima de que precisamos para colocar em prática o programa de extermínio de terrormorfos... Só que descobrimos algo muito maior em Londinion: a planta lázaro foi usada nos ataques em Nova Atlântida, e Vae Victis sabia sobre ela. Vou confrontá-lo sobre isso agora.'
+      - Language: ChineseSimplified
+        String: 我们已经有了启动骇变兽清除计划所需的一切……但在隆蒂涅恩城，我们发现了更不得了的东西：拉撒路草被用于新亚特兰蒂斯城的袭击中，而瓦维刻提斯了解这种植物。我现在就要去找他对质。
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -4403,6 +4483,8 @@ Objectives:
       String: Podążaj za Hadrian
     - Language: Portuguese_Brazil
       String: Siga Hadrian
+    - Language: ChineseSimplified
+      String: 跟随哈德良
   Targets:
   - {}
 - Index: 110
@@ -4426,6 +4508,8 @@ Objectives:
       String: Porozmawiaj z Hadrian
     - Language: Portuguese_Brazil
       String: Fale com Hadrian
+    - Language: ChineseSimplified
+      String: 与哈德良交谈
   Targets:
   - {}
 - Index: 150
@@ -4449,6 +4533,8 @@ Objectives:
       String: Udaj się do Londinionu
     - Language: Portuguese_Brazil
       String: Siga para Londinion
+    - Language: ChineseSimplified
+      String: 前往隆蒂涅恩城
   Targets:
   - AliasID: 59
 - Index: 151
@@ -4472,6 +4558,8 @@ Objectives:
       String: (Opcj.) Odwiedź porucznika Azevedo, aby kupić nowy sprzęt
     - Language: Portuguese_Brazil
       String: (Opc.) Visite o Ten. Azevedo para comprar novos equipamentos
+    - Language: ChineseSimplified
+      String: （可选）找阿泽维多中尉买一件新装备
   Targets:
   - AliasID: 124
 - Index: 165
@@ -4495,6 +4583,8 @@ Objectives:
       String: Udaj się do stanowiska dowodzenia
     - Language: Portuguese_Brazil
       String: Siga para o posto de comando
+    - Language: ChineseSimplified
+      String: 前往指挥所
   Targets:
   - AliasID: 6
 - Index: 175
@@ -4518,6 +4608,8 @@ Objectives:
       String: Omów plan eksploracji
     - Language: Portuguese_Brazil
       String: Discuta o plano de exploração
+    - Language: ChineseSimplified
+      String: 讨论探索计划
   Targets:
   - {}
 - Index: 200
@@ -4541,6 +4633,8 @@ Objectives:
       String: (Opcj.) Pobierz swój sprzęt
     - Language: Portuguese_Brazil
       String: (Opc.) Pegue seu equipamento
+    - Language: ChineseSimplified
+      String: （可选）收集你的装备
   Targets:
   - AliasID: 9
     Conditions:
@@ -4607,6 +4701,8 @@ Objectives:
       String: Poinformuj Hadrian, że możecie ruszać
     - Language: Portuguese_Brazil
       String: Informe Hadrian que você quer prosseguir
+    - Language: ChineseSimplified
+      String: 告诉哈德良，你已经准备好出发
   Targets:
   - {}
 - Index: 295
@@ -4630,6 +4726,8 @@ Objectives:
       String: Pozwól Kaiserowi otworzyć śluzę powietrzną
     - Language: Portuguese_Brazil
       String: Deixe Kaiser destravar a eclusa
+    - Language: ChineseSimplified
+      String: 让凯撒解锁气闸
   Targets:
   - AliasID: 2
     Conditions:
@@ -4664,6 +4762,8 @@ Objectives:
       String: Udaj się do miasta
     - Language: Portuguese_Brazil
       String: Entre na cidade
+    - Language: ChineseSimplified
+      String: 进入城市
   Targets:
   - AliasID: 12
     Conditions:
@@ -4730,6 +4830,8 @@ Objectives:
       String: Zlokalizuj próbki genów aceli
     - Language: Portuguese_Brazil
       String: Localize as amostras genéticas de aceles
+    - Language: ChineseSimplified
+      String: 找到亚斯里兽的基因样本
   Targets:
   - AliasID: 14
     Conditions:
@@ -4793,6 +4895,8 @@ Objectives:
       String: Oczyść przetwórnię
     - Language: Portuguese_Brazil
       String: Faça a limpa na usina de processamento
+    - Language: ChineseSimplified
+      String: 肃清加工厂
   Targets:
   - AliasID: 92
     Conditions:
@@ -4824,6 +4928,8 @@ Objectives:
       String: Zlokalizuj próbki genów aceli
     - Language: Portuguese_Brazil
       String: Localize as amostras genéticas de aceles
+    - Language: ChineseSimplified
+      String: 找到亚斯里兽的基因样本
 - Index: 325
   Flags: []
   DisplayText:
@@ -4845,6 +4951,8 @@ Objectives:
       String: (Opcj.) Eksploruj skład polowy
     - Language: Portuguese_Brazil
       String: (Opc.) Explore o estoque da base
+    - Language: ChineseSimplified
+      String: （可选）探索基地储藏室
   Targets:
   - AliasID: 14
     Conditions:
@@ -4879,6 +4987,8 @@ Objectives:
       String: Podążaj za Kaiserem
     - Language: Portuguese_Brazil
       String: Siga Kaiser
+    - Language: ChineseSimplified
+      String: 跟随凯撒
   Targets:
   - AliasID: 2
 - Index: 331
@@ -4902,6 +5012,8 @@ Objectives:
       String: Zbierz próbki aceli
     - Language: Portuguese_Brazil
       String: Colete as amostras de aceles
+    - Language: ChineseSimplified
+      String: 收集亚斯里兽样本
   Targets:
   - AliasID: 69
     Conditions:
@@ -4948,6 +5060,8 @@ Objectives:
       String: (Opcj.) Uzyskaj dostęp do skrytek z zaopatrzeniem
     - Language: Portuguese_Brazil
       String: (Opc.) Acesse os estoques de suprimentos
+    - Language: ChineseSimplified
+      String: （可选）进入物资储藏室
   Targets:
   - AliasID: 18
 - Index: 340
@@ -4971,6 +5085,8 @@ Objectives:
       String: Zabierz list przewozowy
     - Language: Portuguese_Brazil
       String: Obtenha o manifesto
+    - Language: ChineseSimplified
+      String: 收集货运清单
   Targets:
   - {}
 - Index: 350
@@ -4994,6 +5110,8 @@ Objectives:
       String: Zlokalizuj próbki genów aceli
     - Language: Portuguese_Brazil
       String: Localize as amostras genéticas de aceles
+    - Language: ChineseSimplified
+      String: 找到亚斯里兽的基因样本
   Targets:
   - AliasID: 69
     Conditions:
@@ -5035,6 +5153,8 @@ Objectives:
       String: (Opcj.) Zbierz pozostałe listy przewozowe
     - Language: Portuguese_Brazil
       String: (Opc.) Obtenha os manifestos restantes
+    - Language: ChineseSimplified
+      String: （可选）收集剩余货运清单
   Targets:
   - AliasID: 67
     Conditions:
@@ -5065,6 +5185,8 @@ Objectives:
       String: Znajdź następną próbkę
     - Language: Portuguese_Brazil
       String: Encontre a próxima amostra
+    - Language: ChineseSimplified
+      String: 找到下一个样本
   Targets:
   - {}
 - Index: 365
@@ -5088,6 +5210,8 @@ Objectives:
       String: Wróć do przetwórni
     - Language: Portuguese_Brazil
       String: Volte até a usina
+    - Language: ChineseSimplified
+      String: 回到工厂
   Targets:
   - AliasID: 74
     Conditions:
@@ -5131,6 +5255,8 @@ Objectives:
       String: Porozmawiaj z Hadrian
     - Language: Portuguese_Brazil
       String: Fale com Hadrian
+    - Language: ChineseSimplified
+      String: 与哈德良交谈
   Targets:
   - {}
 - Index: 369
@@ -5154,6 +5280,8 @@ Objectives:
       String: Przekaż próbki Kaiserowi
     - Language: Portuguese_Brazil
       String: Dê as amostras a Kaiser
+    - Language: ChineseSimplified
+      String: 把样本给凯撒
   Targets:
   - AliasID: 2
 - Index: 370
@@ -5177,6 +5305,8 @@ Objectives:
       String: Udaj się do tuneli parowych
     - Language: Portuguese_Brazil
       String: Siga para os túneis de vapor
+    - Language: ChineseSimplified
+      String: 前往蒸汽通道
   Targets:
   - AliasID: 104
     Conditions:
@@ -5218,6 +5348,8 @@ Objectives:
       String: Ruszaj w kierunku następnej próbki
     - Language: Portuguese_Brazil
       String: Dirija-se até a próxima amostra
+    - Language: ChineseSimplified
+      String: 前去找下一个样本
   Targets:
   - Conditions:
     - MutagenObjectType: ConditionFloat
@@ -5251,6 +5383,8 @@ Objectives:
       String: Wyeliminuj pozostałych wrogów
     - Language: Portuguese_Brazil
       String: Elimine os inimigos restantes
+    - Language: ChineseSimplified
+      String: 消灭剩余的敌人
   Targets:
   - AliasID: 53
     Conditions:
@@ -5279,6 +5413,8 @@ Objectives:
       String: Zlokalizuj następną próbkę
     - Language: Portuguese_Brazil
       String: Localize a próxima amostra
+    - Language: ChineseSimplified
+      String: 找到下一个样本
   Targets:
   - AliasID: 2
     Conditions:
@@ -5313,6 +5449,8 @@ Objectives:
       String: Przyjrzyj się z Hadrian lazarytce
     - Language: Portuguese_Brazil
       String: Observe a planta lázaro com Hadrian
+    - Language: ChineseSimplified
+      String: 与哈德良一起观察拉撒路草
   Targets:
   - AliasID: 26
     Flags:
@@ -5347,6 +5485,8 @@ Objectives:
       String: Porozmawiaj z Hadrian
     - Language: Portuguese_Brazil
       String: Fale com Hadrian
+    - Language: ChineseSimplified
+      String: 与哈德良交谈
   Targets:
   - {}
 - Index: 450
@@ -5370,6 +5510,8 @@ Objectives:
       String: Zabij terrormorfa
     - Language: Portuguese_Brazil
       String: Mate o terrormorfo
+    - Language: ChineseSimplified
+      String: 击杀骇变兽
   Targets:
   - AliasID: 27
 - Index: 460
@@ -5393,6 +5535,8 @@ Objectives:
       String: Zbierz próbkę tkanki terrormorfa
     - Language: Portuguese_Brazil
       String: Colete uma amostra de tecido do terrormorfo
+    - Language: ChineseSimplified
+      String: 收集骇变兽的组织样本
   Targets:
   - AliasID: 27
     Conditions:
@@ -5442,6 +5586,8 @@ Objectives:
       String: Przekaż próbkę Kaiserowi
     - Language: Portuguese_Brazil
       String: Dê a amostra a Kaiser
+    - Language: ChineseSimplified
+      String: 把样本给凯撒
   Targets:
   - AliasID: 2
 - Index: 480
@@ -5465,6 +5611,8 @@ Objectives:
       String: Omów odkrycia z zespołem
     - Language: Portuguese_Brazil
       String: Discuta as descobertas com a equipe
+    - Language: ChineseSimplified
+      String: 与队员交流发现
   Targets:
   - {}
 - Index: 490
@@ -5488,6 +5636,8 @@ Objectives:
       String: Podążaj za Kaiserem
     - Language: Portuguese_Brazil
       String: Siga Kaiser
+    - Language: ChineseSimplified
+      String: 跟随凯撒
   Targets:
   - AliasID: 2
 - Index: 500
@@ -5511,6 +5661,8 @@ Objectives:
       String: Przywróć zasilanie włazu dostępowego portu kosmicznego
     - Language: Portuguese_Brazil
       String: Reative a escotilha de acesso do espaçoporto
+    - Language: ChineseSimplified
+      String: 恢复太空港入口舱室的电力
   Targets:
   - AliasID: 41
 - Index: 507
@@ -5534,6 +5686,8 @@ Objectives:
       String: Rozpocznij restart systemu
     - Language: Portuguese_Brazil
       String: Reinicie o sistema
+    - Language: ChineseSimplified
+      String: 使系统重启
   Targets:
   - AliasID: 100
     Conditions:
@@ -5565,6 +5719,8 @@ Objectives:
       String: Odsłuchaj nagranie
     - Language: Portuguese_Brazil
       String: Ouça a gravação
+    - Language: ChineseSimplified
+      String: 收听回放
   Targets:
   - AliasID: 46
     Conditions:
@@ -5599,6 +5755,8 @@ Objectives:
       String: Wróć do Kaisera
     - Language: Portuguese_Brazil
       String: Volte até Kaiser
+    - Language: ChineseSimplified
+      String: 回去找凯撒
   Targets:
   - AliasID: 2
 - Index: 515
@@ -5622,6 +5780,8 @@ Objectives:
       String: Znajdź ostatnią próbkę
     - Language: Portuguese_Brazil
       String: Encontre a última amostra
+    - Language: ChineseSimplified
+      String: 找到最后的样本
   Targets:
   - AliasID: 111
 - Index: 525
@@ -5645,6 +5805,8 @@ Objectives:
       String: Zabezpiecz ostatnią próbkę
     - Language: Portuguese_Brazil
       String: Obtenha a última amostra
+    - Language: ChineseSimplified
+      String: 获取最后的样本
   Targets:
   - AliasID: 36
 - Index: 526
@@ -5668,6 +5830,8 @@ Objectives:
       String: (Opcj.) Przywróć zasilanie talerzy radaru portu kosmicznego
     - Language: Portuguese_Brazil
       String: (Opc.) Ative as parabólicas de radar do espaçoporto
+    - Language: ChineseSimplified
+      String: （可选）给太空港雷达天线供电
   Targets:
   - AliasID: 110
 - Index: 530
@@ -5691,6 +5855,8 @@ Objectives:
       String: Zbierz ostatnią próbkę
     - Language: Portuguese_Brazil
       String: Colete a última amostra
+    - Language: ChineseSimplified
+      String: 收集最后的样本
   Targets:
   - AliasID: 36
 - Index: 531
@@ -5714,6 +5880,8 @@ Objectives:
       String: Zabezpiecz anomalną próbkę
     - Language: Portuguese_Brazil
       String: Obtenha a amostra anômala
+    - Language: ChineseSimplified
+      String: 获取异常样本
   Targets:
   - AliasID: 2
     Conditions:
@@ -5744,6 +5912,8 @@ Objectives:
       String: Przywróć zasilanie komory izolacyjnej
     - Language: Portuguese_Brazil
       String: Restaure a energia da câmara de contenção
+    - Language: ChineseSimplified
+      String: 恢复囚禁室的电力
   Targets:
   - AliasID: 41
 - Index: 580
@@ -5767,6 +5937,8 @@ Objectives:
       String: Aktywuj ponownie zbiorniki z paliwem
     - Language: Portuguese_Brazil
       String: Reative os tanques de combustível
+    - Language: ChineseSimplified
+      String: 重新激活燃料罐
   Targets:
   - AliasID: 44
 - Index: 590
@@ -5790,6 +5962,8 @@ Objectives:
       String: Wróć do Hadrian
     - Language: Portuguese_Brazil
       String: Volte até Hadrian
+    - Language: ChineseSimplified
+      String: 回去找哈德良
   Targets:
   - {}
 - Index: 610
@@ -5813,6 +5987,8 @@ Objectives:
       String: Odsłuchaj nagranie
     - Language: Portuguese_Brazil
       String: Ouça a gravação
+    - Language: ChineseSimplified
+      String: 收听回放
   Targets:
   - AliasID: 46
     Conditions:
@@ -5847,6 +6023,8 @@ Objectives:
       String: Zabierz nagranie
     - Language: Portuguese_Brazil
       String: Obtenha a gravação
+    - Language: ChineseSimplified
+      String: 收集记录
   Targets:
   - AliasID: 101
 - Index: 620
@@ -5870,6 +6048,8 @@ Objectives:
       String: Porozmawiaj z Hadrian
     - Language: Portuguese_Brazil
       String: Fale com Hadrian
+    - Language: ChineseSimplified
+      String: 与哈德良交谈
   Targets:
   - {}
 - Index: 630
@@ -5893,6 +6073,8 @@ Objectives:
       String: Wróć do Kaisera
     - Language: Portuguese_Brazil
       String: Volte até Kaiser
+    - Language: ChineseSimplified
+      String: 回去找凯撒
   Targets:
   - AliasID: 2
 - Index: 650
@@ -5916,6 +6098,8 @@ Objectives:
       String: Zbierz ostatnią próbkę
     - Language: Portuguese_Brazil
       String: Colete a última amostra
+    - Language: ChineseSimplified
+      String: 收集最后的样本
   Targets:
   - AliasID: 48
 - Index: 660
@@ -5939,6 +6123,8 @@ Objectives:
       String: Wróć do wysuniętej bazy 441
     - Language: Portuguese_Brazil
       String: Volte à Base Avançada 441
+    - Language: ChineseSimplified
+      String: 回到前线基地441
   Targets:
   - AliasID: 1
 - Index: 700
@@ -5962,6 +6148,8 @@ Objectives:
       String: Omów swoje odkrycia
     - Language: Portuguese_Brazil
       String: Discuta suas descobertas
+    - Language: ChineseSimplified
+      String: 讨论你的发现
   Targets:
   - AliasID: 1
     Conditions:

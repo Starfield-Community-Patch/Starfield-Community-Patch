@@ -19,6 +19,8 @@ Description:
     String: Od uzbrojenia twojego statku zależy rodzaj uszkodzeń zadawanych wrogom. Broń energetyczna niszczy osłony, balistyczna - kadłub, a EM - systemy.
   - Language: Portuguese_Brazil
     String: Suas armas afetam seus inimigos a depender do tipo de dano. Balística afeta fuselagem; eletromagnestimo, sistemas; energia, escudos.
+  - Language: ChineseSimplified
+    String: 你的飞船武器在战斗中对敌舰的效果不同，这取决于伤害类型。能量武器克制护盾，弹道武器克制船体，而电磁武器克制系统。
 WorkbenchKeyword: 29C480:Starfield.esm
 Conditions:
 - MutagenObjectType: ConditionFloat

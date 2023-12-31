@@ -23,6 +23,8 @@ Name:
     String: Tłumik stochastyczny EMP-500
   - Language: Portuguese_Brazil
     String: Supr. estocástico EMP-500
+  - Language: ChineseSimplified
+    String: EMP-500随机抑制器
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -88,7 +90,27 @@ WGENUnknown1: 12
 BaseWeight: 3
 BaseSpeed: 1
 AttackOxygenCost: 90
-General: "F\a\0"
+General:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: '[EM]'
+  - Language: English
+    String: EM
+  - Language: Spanish
+    String: EM
+  - Language: French
+    String: EM
+  - Language: Italian
+    String: EM
+  - Language: Japanese
+    String: EM
+  - Language: Polish
+    String: EM
+  - Language: Portuguese_Brazil
+    String: EM
+  - Language: ChineseSimplified
+    String: 电磁
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

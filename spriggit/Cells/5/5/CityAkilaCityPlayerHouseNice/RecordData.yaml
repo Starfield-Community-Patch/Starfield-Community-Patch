@@ -19,6 +19,8 @@ Name:
     String: Dom gracza w Rdzeniu
   - Language: Portuguese_Brazil
     String: Casa do Jogador - Núcleo
+  - Language: ChineseSimplified
+    String: 玩家房屋核心区
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -81,3 +83,4 @@ Traversals:
   To: 1.5926914, -5.571115, 0.087500006
   UnknownVector: 2.739997, 4.808226, 1.0528364
   Unknown: 0xB644B6444A38F941
+NumTraversalFluffBytes: 28

@@ -1,0 +1,38 @@
+FormKey: 33A879:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0C866C:Starfield.esm
+  WEMFile: 1390844
+  TROTs:
+  - UnknownVoiceType: 110AE9:Starfield.esm
+    UnknownFloat: 0.40000004
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Wenn die Diebe die Security sehen, kriegen sie Muffensausen. '
+    - Language: English
+      String: "Those thieves won't be so cocky with security on patrol. "
+    - Language: Spanish
+      String: 'A los ladrones se les bajarán los humos si ven patrullas. '
+    - Language: French
+      String: 'Ces voleurs feront moins les malins quand ils verront la sécurité. '
+    - Language: Italian
+      String: 'Quei ladri non saranno così audaci con la Sicurezza di pattuglia. '
+    - Language: Japanese
+      String: 盗人どももパトロール中の警備隊相手になめたマネはしないはずだ
+    - Language: Polish
+      String: 'Złodziejaszki nie będą takie pewne siebie, gdy ochrona wyjdzie na patrol. '
+    - Language: Portuguese_Brazil
+      String: 'Esses bandidos não seriam tão ousados se a segurança fizesse umas patrulhas. '
+    - Language: ChineseSimplified
+      String: '有警卫巡逻的话，那些毛贼就不会那么神气了。 '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x50EF905CD83ED801
+SetParentQuestStage:
+  OnBegin: -1
+  OnEnd: 50
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -3,6 +3,13 @@
 *.esp
 *.esl
 *.pex
-Caprica.exe
 Strings/
+
+# Reallow spriggit folders with mod names in them
+!*.esm/
+!*.esp/
+!*.esl/
+
+# Other
+Caprica.exe
 .tools/

@@ -19,6 +19,8 @@ Name:
     String: 'Uwaga: Ochrona skafandra wyczerpana'
   - Language: Portuguese_Brazil
     String: 'Aviso: Proteção de Traje Esgotada'
+  - Language: ChineseSimplified
+    String: 警告：套装防护已耗尽
 Keywords:
 - 1EBE85:Starfield.esm
 - 21BBD5:Starfield.esm
@@ -61,6 +63,8 @@ Description:
     String: Odnosisz obrażenia środowiskowe!
   - Language: Portuguese_Brazil
     String: Sofrendo dano ambiental!
+  - Language: ChineseSimplified
+    String: 正在承受环境伤害！
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000

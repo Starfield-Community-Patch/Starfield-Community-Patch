@@ -19,6 +19,8 @@ Name:
     String: 'Wieża Handlowa: Niebiański Apartament'
   - Language: Portuguese_Brazil
     String: 'Torre Comercial: Suíte Sky'
+  - Language: ChineseSimplified
+    String: 贸易大楼：天际套房
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -232,3 +234,4 @@ Traversals:
   To: -44.208538, 113.94382, 342.12683
   UnknownVector: 2.6041272, 5.1764345, 1.1046929
   Unknown: 0x483E483E333C4D40
+NumTraversalFluffBytes: 148

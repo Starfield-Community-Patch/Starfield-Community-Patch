@@ -2449,6 +2449,8 @@ Name:
     String: Mały krok
   - Language: Portuguese_Brazil
     String: Um Pequeno Passo
+  - Language: ChineseSimplified
+    String: 一小步
 Data:
   Flags:
   - RunOnce
@@ -2810,6 +2812,8 @@ Stages:
         String: To moja druga fucha w Argos Extractors. Muszę dziś towarzyszyć kierowniczce Lin podczas obchodu kopalni i wykonywać wszelkie zadania, jakie mi zleci.
       - Language: Portuguese_Brazil
         String: Esta é minha segunda excursão com a Argos Extractors. Hoje estou à disposição da supervisora Lin enquanto ela supervisiona uma escavação, fazendo as tarefas que ela tem para mim.
+      - Language: ChineseSimplified
+        String: 这是我第二次和阿戈斯采矿公司合作。我今天跟着负责监督挖掘现场的林监工，做她交给我的任何任务。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3221,6 +3225,8 @@ Stages:
         String: Cokolwiek znajdowało się w tej kopalni, pozbawiło mnie przytomności. Teraz zaś człowiek, który opłacił całą operację, ląduje nieopodal. Musimy się z nim spotkać.
       - Language: Portuguese_Brazil
         String: A coisa que encontrei na mina me derrubou de vez. O responsável pelo pagamento de toda essa operação vai pousar logo, e temos que nos encontrar com ele.
+      - Language: ChineseSimplified
+        String: 我在矿井里发现的东西让我晕了过去。这次行动的幕后买家正在着陆，我们得去见他。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3392,6 +3398,8 @@ Stages:
         String: Atakują nas piraci! Musimy ich pokonać.
       - Language: Portuguese_Brazil
         String: Os piratas estão nos atacando! Precisamos detê-los.
+      - Language: ChineseSimplified
+        String: 海盗在攻击我们！我们得抵挡住他们。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3470,6 +3478,8 @@ Stages:
         String: Atakują nas piraci! Musimy ich pokonać.
       - Language: Portuguese_Brazil
         String: Os piratas estão nos atacando! Precisamos detê-los.
+      - Language: ChineseSimplified
+        String: 海盗在攻击我们！我们得抵挡住他们。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3543,6 +3553,8 @@ Stages:
         String: Atak piratów został odparty. Muszę sprawdzić, czy nasz klient Barrett oraz pozostali są cali i zdrowi.
       - Language: Portuguese_Brazil
         String: Sobrevivemos ao ataque dos piratas. É melhor eu ir ver nosso cliente, Barrett, e os outros, pra conferir se estão bem.
+      - Language: ChineseSimplified
+        String: 我们在海盗袭击中幸存了下来。我应该去问问我们的客户巴雷特和其他人，看看他们是否还好。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3594,6 +3606,8 @@ Stages:
         String: Barrett oczekuje, że zabiorę artefakt do jego współpracowników z Konstelacji. Będę mieć do dyspozycji jego statek o nazwie Frontier oraz robota imieniem Vasco.
       - Language: Portuguese_Brazil
         String: Barrett quer que eu leve o artefato para seus colegas na Constelação. Vou na nave dele, a Frontier, e com seu robô, o Vasco, me acompanhando na jornada.
+      - Language: ChineseSimplified
+        String: 巴雷特要我把神器交给他在群星组织的同事。我会驾驶他的飞船开拓号，并带着他的机器人瓦斯科前去。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4816,6 +4830,8 @@ Stages:
         String: Artefakt trafił do Konstelacji, której członkowie teraz oczekują, że do nich dołączę. Sara Morgan, przewodnicząca organizacji, prosi mnie o wyruszenie z nią na misję.
       - Language: Portuguese_Brazil
         String: Levei o artefato para a Constelação, e agora eles querem que eu me junte ao grupo. Sarah Morgan, a líder da Constelação, me pediu para ir com ela em uma missão.
+      - Language: ChineseSimplified
+        String: 我把神器带到了群星组织，现在他们想让我加入。群星组织的主席莎拉·摩根邀请我和她一起执行任务。
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -4884,6 +4900,8 @@ Stages:
         String: Spotkało mnie odrodzenie w nowym wszechświecie. Muszę wrócić do Loży i spróbować podjąć trop artefaktów.
       - Language: Portuguese_Brazil
         String: Renasci em um novo universo. É melhor voltar para a Guarida e ver se consigo descobrir onde estão os artefatos.
+      - Language: ChineseSimplified
+        String: 我在新的宇宙中重生。我应该返回陋室，看看能不能找到神器的踪迹。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4912,6 +4930,8 @@ Stages:
         String: Jestem już po odwiedzinach w Loży tego wszechświata. Poszukiwanie artefaktów trwa dalej.
       - Language: Portuguese_Brazil
         String: Voltei à Guarida deste universo. Agora, a busca pelos artefatos continua.
+      - Language: ChineseSimplified
+        String: 我回到了这个宇宙中的陋室，是时候继续寻找神器。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -4955,6 +4975,8 @@ Objectives:
       String: Podążaj za kierowniczką Lin
     - Language: Portuguese_Brazil
       String: Siga a supervisora Lin
+    - Language: ChineseSimplified
+      String: 跟随林监工
   Targets:
   - {}
 - Index: 10
@@ -4978,6 +5000,8 @@ Objectives:
       String: Weź przecinak
     - Language: Portuguese_Brazil
       String: Pegue o talhador
+    - Language: ChineseSimplified
+      String: 获取切割器
   Targets:
   - AliasID: 27
 - Index: 20
@@ -5001,6 +5025,8 @@ Objectives:
       String: Zbierz minerały ze złóż
     - Language: Portuguese_Brazil
       String: Colete depósitos minerais
+    - Language: ChineseSimplified
+      String: 收集矿藏
   Targets:
   - AliasID: 35
     Conditions:
@@ -5031,6 +5057,8 @@ Objectives:
       String: Wróć do kierowniczki Lin
     - Language: Portuguese_Brazil
       String: Volte até a supervisora Lin
+    - Language: ChineseSimplified
+      String: 返回林监工处
   Targets:
   - {}
 - Index: 30
@@ -5054,6 +5082,8 @@ Objectives:
       String: Podążaj za kierowniczką Lin
     - Language: Portuguese_Brazil
       String: Siga a supervisora Lin
+    - Language: ChineseSimplified
+      String: 跟随林监工
   Targets:
   - {}
 - Index: 40
@@ -5077,6 +5107,8 @@ Objectives:
       String: Zbadaj jaskinię
     - Language: Portuguese_Brazil
       String: Explore a caverna
+    - Language: ChineseSimplified
+      String: 探索洞穴
   Targets:
   - AliasID: 53
     Conditions:
@@ -5131,6 +5163,8 @@ Objectives:
       String: Rozbij złoża
     - Language: Portuguese_Brazil
       String: Fragmente os depósitos
+    - Language: ChineseSimplified
+      String: 打碎矿藏
   Targets:
   - AliasID: 29
 - Index: 43
@@ -5154,6 +5188,8 @@ Objectives:
       String: Weź dziwny przedmiot
     - Language: Portuguese_Brazil
       String: Pegue o objeto estranho
+    - Language: ChineseSimplified
+      String: 拿取奇怪物件
   Targets:
   - AliasID: 29
 - Index: 45
@@ -5177,6 +5213,8 @@ Objectives:
       String: Porozmawiaj z Hellerem i Lin
     - Language: Portuguese_Brazil
       String: Fale com Heller e Lin
+    - Language: ChineseSimplified
+      String: 与海勒和林姐交谈
 - Index: 50
   Flags: []
   DisplayText:
@@ -5198,6 +5236,8 @@ Objectives:
       String: Podążaj za Lin
     - Language: Portuguese_Brazil
       String: Siga Lin
+    - Language: ChineseSimplified
+      String: 跟随林姐
   Targets:
   - {}
 - Index: 60
@@ -5221,6 +5261,8 @@ Objectives:
       String: Wyposaż się w hełm
     - Language: Portuguese_Brazil
       String: Equipe um capacete
+    - Language: ChineseSimplified
+      String: 装备头盔
 - Index: 65
   Flags: []
   DisplayText:
@@ -5242,6 +5284,8 @@ Objectives:
       String: Spotkaj się z klientem
     - Language: Portuguese_Brazil
       String: Encontre-se com o cliente
+    - Language: ChineseSimplified
+      String: 与客户会面
   Targets:
   - AliasID: 2
     Conditions:
@@ -5280,6 +5324,8 @@ Objectives:
       String: Odeprzyj atak piratów
     - Language: Portuguese_Brazil
       String: Detenha os piratas
+    - Language: ChineseSimplified
+      String: 抵抗海盗
   Targets:
   - AliasID: 94
     Conditions:
@@ -5315,6 +5361,8 @@ Objectives:
       String: (Opcj.) Weź broń
     - Language: Portuguese_Brazil
       String: (Opc.) Pegue uma arma
+    - Language: ChineseSimplified
+      String: （可选）拿取武器
   Targets:
   - AliasID: 130
 - Index: 80
@@ -5338,6 +5386,8 @@ Objectives:
       String: Porozmawiaj z Barrettem
     - Language: Portuguese_Brazil
       String: Fale com Barrett
+    - Language: ChineseSimplified
+      String: 与巴雷特交谈
   Targets:
   - AliasID: 2
 - Index: 85
@@ -5361,6 +5411,8 @@ Objectives:
       String: Weź zegarek
     - Language: Portuguese_Brazil
       String: Pegue o relógio
+    - Language: ChineseSimplified
+      String: 拿取手表
   Targets:
   - AliasID: 2
 - Index: 90
@@ -5384,6 +5436,8 @@ Objectives:
       String: Wejdź na pokład statku
     - Language: Portuguese_Brazil
       String: Embarque na nave
+    - Language: ChineseSimplified
+      String: 登上飞船
   Targets:
   - AliasID: 62
 - Index: 100
@@ -5407,6 +5461,8 @@ Objectives:
       String: Odleć z Vectery
     - Language: Portuguese_Brazil
       String: Decole de Vectera
+    - Language: ChineseSimplified
+      String: 从维特拉星起飞
   Targets:
   - AliasID: 62
 - Index: 101
@@ -5430,6 +5486,8 @@ Objectives:
       String: Naucz się latać
     - Language: Portuguese_Brazil
       String: Aprenda a pilotar
+    - Language: ChineseSimplified
+      String: 学会飞行
 - Index: 102
   Flags: []
   DisplayText:
@@ -5451,6 +5509,8 @@ Objectives:
       String: (Opcj.) Zasil wszystkie systemy, aby pominąć samouczek
     - Language: Portuguese_Brazil
       String: (Opc.) Energize todos os sistemas para pular o tutorial
+    - Language: ChineseSimplified
+      String: （可选）启动所有系统以跳过教程
 - Index: 103
   Flags: []
   DisplayText:
@@ -5472,6 +5532,8 @@ Objectives:
       String: Przekieruj moc do osłon
     - Language: Portuguese_Brazil
       String: Energize os motores
+    - Language: ChineseSimplified
+      String: 为引擎分配电力
 - Index: 104
   Flags: []
   DisplayText:
@@ -5493,6 +5555,8 @@ Objectives:
       String: Przekieruj moc do silników manewrowych
     - Language: Portuguese_Brazil
       String: Energize os propulsores
+    - Language: ChineseSimplified
+      String: 为推进器分配电力
 - Index: 105
   Flags: []
   DisplayText:
@@ -5514,6 +5578,8 @@ Objectives:
       String: Przekieruj moc do osłon
     - Language: Portuguese_Brazil
       String: Energize os escudos
+    - Language: ChineseSimplified
+      String: 为护盾分配电力
 - Index: 106
   Flags: []
   DisplayText:
@@ -5535,6 +5601,8 @@ Objectives:
       String: Przekieruj moc do broni
     - Language: Portuguese_Brazil
       String: Energize uma arma
+    - Language: ChineseSimplified
+      String: 为武器分配电力
 - Index: 110
   Flags: []
   DisplayText:
@@ -5556,6 +5624,8 @@ Objectives:
       String: Zajmij się Karmazynową Flotą
     - Language: Portuguese_Brazil
       String: Lide com a Frota Escarlate
+    - Language: ChineseSimplified
+      String: 对付深红舰队
   Targets:
   - AliasID: 48
     Conditions:
@@ -5608,6 +5678,8 @@ Objectives:
       String: Złup statek
     - Language: Portuguese_Brazil
       String: Saqueie uma nave
+    - Language: ChineseSimplified
+      String: 搜刮飞船
   Targets:
   - AliasID: 48
   - AliasID: 51
@@ -5633,6 +5705,8 @@ Objectives:
       String: Napraw kadłub
     - Language: Portuguese_Brazil
       String: Conserte a fuselagem
+    - Language: ChineseSimplified
+      String: 修复船体
 - Index: 118
   Flags: []
   DisplayText:
@@ -5654,6 +5728,8 @@ Objectives:
       String: Przekieruj moc do napędu grawitonowego
     - Language: Portuguese_Brazil
       String: Energize um Motor Grav
+    - Language: ChineseSimplified
+      String: 为重力推动器分配电力
 - Index: 120
   Flags: []
   DisplayText:
@@ -5675,6 +5751,8 @@ Objectives:
       String: Udaj się na Kreet
     - Language: Portuguese_Brazil
       String: Viaje para Kreet
+    - Language: ChineseSimplified
+      String: 前往克里特卫星
   Targets:
   - AliasID: 61
 - Index: 125
@@ -5698,6 +5776,8 @@ Objectives:
       String: Wyląduj przy bazie naukowej na Kreet
     - Language: Portuguese_Brazil
       String: Pouse na Base de Pesquisa de Kreet
+    - Language: ChineseSimplified
+      String: 在克里特研究基地着陆
   Targets:
   - AliasID: 61
 - Index: 130
@@ -5721,6 +5801,8 @@ Objectives:
       String: Zajmij się kapitanem Karmazynowej Floty
     - Language: Portuguese_Brazil
       String: Lide com o comandante da Frota Escarlate
+    - Language: ChineseSimplified
+      String: 对付深红舰队的船长
   Targets:
   - AliasID: 69
     Conditions:
@@ -5760,6 +5842,8 @@ Objectives:
       String: (Opcj.) Otwórz sejf
     - Language: Portuguese_Brazil
       String: (Opc.) Abra o cofre
+    - Language: ChineseSimplified
+      String: （可选）解锁保险箱
   Targets:
   - AliasID: 141
     Conditions:
@@ -5792,6 +5876,8 @@ Objectives:
       String: Wróć na statek
     - Language: Portuguese_Brazil
       String: Volte para a nave
+    - Language: ChineseSimplified
+      String: 回到飞船上
   Targets:
   - AliasID: 38
     Flags:
@@ -5817,6 +5903,8 @@ Objectives:
       String: Wykonaj skok na Jemison
     - Language: Portuguese_Brazil
       String: Faça uma dobra grav para Jemison
+    - Language: ChineseSimplified
+      String: 重力跃迁至杰米森星
   Targets:
   - AliasID: 66
 - Index: 150
@@ -5840,6 +5928,8 @@ Objectives:
       String: Pokonaj statek Karmazynowej Floty lub wymknij się mu
     - Language: Portuguese_Brazil
       String: Lute ou escape da nave da Frota Escarlate
+    - Language: ChineseSimplified
+      String: 击退或躲避深红舰队的飞船
 - Index: 160
   Flags: []
   DisplayText:
@@ -5861,6 +5951,8 @@ Objectives:
       String: Wyląduj w Nowej Atlantydzie
     - Language: Portuguese_Brazil
       String: Pouse em Nova Atlântida
+    - Language: ChineseSimplified
+      String: 在新亚特兰蒂斯城着陆
   Targets:
   - AliasID: 66
 - Index: 170
@@ -5884,6 +5976,8 @@ Objectives:
       String: Udaj się do Loży (dzielnica WNAT-u)
     - Language: Portuguese_Brazil
       String: Vá até a Guarida (distrito do TAMC)
+    - Language: ChineseSimplified
+      String: 前往陋室（三头同盟区）
   Targets:
   - AliasID: 157
 - Index: 180
@@ -5907,6 +6001,8 @@ Objectives:
       String: Wejdź do biblioteki
     - Language: Portuguese_Brazil
       String: Entre na biblioteca
+    - Language: ChineseSimplified
+      String: 进入图书馆
   Targets:
   - AliasID: 6
 - Index: 185
@@ -5930,6 +6026,8 @@ Objectives:
       String: Porozmawiaj z Sarą
     - Language: Portuguese_Brazil
       String: Fale com Sarah
+    - Language: ChineseSimplified
+      String: 与莎拉交谈
   Targets:
   - AliasID: 6
 - Index: 187
@@ -5953,6 +6051,8 @@ Objectives:
       String: Wysłuchaj osób biorących udział w spotkaniu
     - Language: Portuguese_Brazil
       String: Ouça a reunião
+    - Language: ChineseSimplified
+      String: 听完会议对话
 - Index: 190
   Flags: []
   DisplayText:
@@ -5974,6 +6074,8 @@ Objectives:
       String: Połóż artefakt na stole
     - Language: Portuguese_Brazil
       String: Coloque o Artefato
+    - Language: ChineseSimplified
+      String: 放置神器
   Targets:
   - AliasID: 107
 - Index: 195
@@ -5997,6 +6099,8 @@ Objectives:
       String: Wysłuchaj osób biorących udział w spotkaniu
     - Language: Portuguese_Brazil
       String: Ouça a reunião
+    - Language: ChineseSimplified
+      String: 听完会议对话
 - Index: 200
   Flags: []
   DisplayText:
@@ -6018,6 +6122,8 @@ Objectives:
       String: Porozmawiaj z Sarą
     - Language: Portuguese_Brazil
       String: Fale com Sarah
+    - Language: ChineseSimplified
+      String: 与莎拉交谈
   Targets:
   - AliasID: 6
 Aliases:

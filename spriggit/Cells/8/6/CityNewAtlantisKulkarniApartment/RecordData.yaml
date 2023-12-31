@@ -19,6 +19,8 @@ Name:
     String: Wieża Orion, piętro 8
   - Language: Portuguese_Brazil
     String: Torre Órion, 9.o andar
+  - Language: ChineseSimplified
+    String: 俄里翁大厦9楼
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -270,3 +272,4 @@ Traversals:
   To: -15.202089, -16.090668, -2.2320678
   UnknownVector: 3.2361636, 4.7595224, 0.97366446
   Unknown: 0x483E483EA5380A39
+NumTraversalFluffBytes: 180

@@ -1,0 +1,48 @@
+FormKey: 1DE8C0:Starfield.esm
+EditorID: StationTheClinicSpaceCellLocation
+LocationCellPersistentReferences:
+- Actor: 1DE8BE:Starfield.esm
+  Location: 1DEBE8:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+LocationCellUniqueReferences:
+- GenericBaseForm: 1DEBE4:Starfield.esm
+  Ref: 1DE8BE:Starfield.esm
+  Location: 1DE8C0:Starfield.esm
+LocationCellUniques: []
+LocationCellStaticReferences:
+- LocationRefType: 02271F:Starfield.esm
+  Marker: 1DE8BC:Starfield.esm
+  Location: 1DEBE8:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Die Klinik
+  - Language: English
+    String: The Clinic
+  - Language: Spanish
+    String: La Clínica
+  - Language: French
+    String: La Clinique
+  - Language: Italian
+    String: La Clinica
+  - Language: Japanese
+    String: クリニック
+  - Language: Polish
+    String: Klinika
+  - Language: Portuguese_Brazil
+    String: Clínica
+  - Language: ChineseSimplified
+    String: 星际诊所号
+Keywords:
+- 2253D1:Starfield.esm
+- 08A8F9:Starfield.esm
+- 01674D:Starfield.esm
+UnknownDATA2: 16
+ParentLocation: 01B1C5:Starfield.esm
+WorldLocationRadius: 0
+ActorFadeMult: 1
+TNAM: 0

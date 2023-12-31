@@ -1,0 +1,55 @@
+FormKey: 29B002:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: SettleNewHomesteadWorld
+StarfieldMajorRecordFlags:
+- NotPlayable
+Components:
+- MutagenObjectType: WorldSpaceOverlayComponent
+  SNAM: 0x00000000
+  PNAM: 0x18000000
+  SurfaceBlock: 29B001:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: New Homestead
+  - Language: English
+    String: New Homestead
+  - Language: Spanish
+    String: Nueva Hacienda
+  - Language: French
+    String: Nouveau-Départ
+  - Language: Italian
+    String: Seconda Casa
+  - Language: Japanese
+    String: ニューホームステッド
+  - Language: Polish
+    String: Nowa Osada
+  - Language: Portuguese_Brazil
+    String: Novo Lar
+  - Language: ChineseSimplified
+    String: 新家园
+Location: 21702B:Starfield.esm
+Biome: 0F3D3A:Starfield.esm
+Climate: 0F762B:Starfield.esm
+Water: 396C64:Starfield.esm
+NAM7: materials/water/watercalmice.mat
+LodWater: 000018:Starfield.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: -2048
+  DefaultWaterHeight: 113
+MapData: {}
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+FNAM: 0x00
+ObjectBoundsMin: -0.12207031, -0.12207031
+ObjectBoundsMax: 0.12207031, 0.12207031
+GNAM: 1
+XCLWs: []
+WHGTs: []
+HNAM: 0x05
+MajorFlags:
+- 0x4

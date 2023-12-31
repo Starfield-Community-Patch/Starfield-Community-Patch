@@ -282,6 +282,8 @@ Name:
     String: Przekombinowany
   - Language: Portuguese_Brazil
     String: Design Custoso
+  - Language: ChineseSimplified
+    String: 过度设计
 Data:
   Flags:
   - RunOnce
@@ -335,6 +337,8 @@ Stages:
         String: Walter Stroud chce, żeby pomóc jego zespołowi rozwoju i badań z projektem kolejnego statku. Proces stanął w miejscu, a on uważa, że jestem w stanie coś z tym zrobić.
       - Language: Portuguese_Brazil
         String: Walter Stroud quer que eu ajude sua equipe de P&D com seu novo projeto de construção de nave. O desenvolvimento atrasou, e ele acredita que eu possa colocá-lo de volta nos trilhos.
+      - Language: ChineseSimplified
+        String: 沃尔特·斯特劳想要我去给他的研发团队搭把手，完成他们的下一个飞船建造项目。目前开发停滞不前，而他认为我能够使其重回正轨。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -386,6 +390,8 @@ Stages:
         String: Muszę porozmawiać z kierowniczką projektu, Jules, i dowiedzieć się, jak mogę przywrócić go na właściwe tory.
       - Language: Portuguese_Brazil
         String: Só preciso falar com a líder do projeto, Jules, e descobrir o que posso fazer para ajudar a colocar o projeto de volta aos trilhos
+      - Language: ChineseSimplified
+        String: 我需要和项目负责人朱尔斯谈谈，看看我能如何帮助这个项目重回正轨。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -509,6 +515,8 @@ Stages:
         String: Wydaje mi się, że będę w stanie wejść do systemów korporacji Stroud-Eklund i zatwierdzić wyższy budżet. W ten sposób będziemy w stanie zbudować, co tylko chcemy, nie martwiąc się o koszta.
       - Language: Portuguese_Brazil
         String: Talvez eu consiga entrar nos sistemas corporativos da Stroud-Eklund e aprovar uma verba maior. Dessa forma, poderemos construir o que quisermos sem nos preocupar com o custo.
+      - Language: ChineseSimplified
+        String: 我觉得我应该能进入斯特劳艾克伦集团的公司系统，然后批准更高的预算。那样的话，我们就能想造什么造什么，不用考虑什么成本了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -544,6 +552,8 @@ Stages:
         String: Jules zgodzi się na projekt statku wymagający największego budżetu tylko wtedy, gdy dołożę sporo ze swojej kieszeni.
       - Language: Portuguese_Brazil
         String: Jules só concordará com a proposta de maior verba para essa nave se eu contribuir com uma grande quantidade de dinheiro do meu próprio bolso.
+      - Language: ChineseSimplified
+        String: 朱尔斯不愿意采纳这艘飞船预算最高的方案，除非我自掏腰包来贡献出这一大笔钱。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -579,6 +589,8 @@ Stages:
         String: Jules poprosiła mnie o spotkanie z resztą zespołu i ocenienie ich propozycji projektu statku.
       - Language: Portuguese_Brazil
         String: Jules pediu que eu me encontrasse com o resto da equipe e dê feedback às propostas de design da nave de todos.
+      - Language: ChineseSimplified
+        String: 朱尔斯请我去见见剩下的团队成员，并给他们的飞船设计提案提供一些反馈。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -729,6 +741,8 @@ Stages:
         String: Po tym, jak problemy budżetowe projektu zostały rozwiązane, Jules poprosiła mnie o pomoc w zebraniu danych badań rynkowych. Porozmawiam z nią, żeby dowiedzieć się, co ma przez to na myśli.
       - Language: Portuguese_Brazil
         String: Agora que resolvemos os problemas de verba para esse projeto, Jules quer que eu recolha alguns dados de pesquisa de mercado. Preciso falar com ela e descobrir o que isso quer dizer.
+      - Language: ChineseSimplified
+        String: 既然我们已经解决了这个项目的预算问题，朱尔斯想要我来帮忙收集一些市场调研数据。我要去和她谈谈，看看那都需要些什么。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -756,6 +770,8 @@ Stages:
         String: Jules poprosiła mnie o wykonanie paru zadań z tablicy misji. Zebrane dane zostaną wykorzystane do podjęcia decyzji projektowych. Większa ilość danych umożliwi zbudowanie statku, który może sobie radzić z różnymi sytuacjami.
       - Language: Portuguese_Brazil
         String: Jules me pediu para concluir missões do painel de missões. Os dados que eu coletar serão utilizados para tomar decisões de design. Coletar mais dados permitirá que a equipe construa uma nave adequada a várias situações.
+      - Language: ChineseSimplified
+        String: 朱尔斯让我在任务板上执行飞行任务，我所收集到的数据将会决定设计方案。收集到更多数据能够让他们建造出更能应对各类情况的飞船。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -807,6 +823,8 @@ Stages:
         String: Dane z badań rynkowych zebrane. Muszę teraz porozmawiać z Jules o problemach, przez które jej zespół nie jest w stanie dobrze współpracować.
       - Language: Portuguese_Brazil
         String: Coletei os dados de pesquisa de mercado. Agora preciso falar com Jules sobre os problemas que estão impedindo sua equipe de trabalhar bem em conjunto.
+      - Language: ChineseSimplified
+        String: 我已经收集到了市场调研数据，现在，我需要去和朱尔斯谈谈那些妨碍她的团队成员们共同协作的问题。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -882,6 +900,8 @@ Stages:
         String: Zespół zdaje się bardziej skory do współpracy. Jedyne, co mi pozostało, to porozmawianie z Jules o ostatecznym projekcie statku.
       - Language: Portuguese_Brazil
         String: A equipe parece estar mais disposta de trabalhar em conjunto, então só o que falta é falar com Jules sobre o design final da nave.
+      - Language: ChineseSimplified
+        String: 现在的团队看起来更愿意互相合作了，那么剩下的任务就是与朱尔斯谈妥最终的飞船设计。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -909,6 +929,8 @@ Stages:
         String: Produkcja najnowszego statku Strouda-Eklunda wróciła na właściwe tory. Muszę dać znać Walterowi.
       - Language: Portuguese_Brazil
         String: A produção da mais nova nave da Stroud-Eklund voltou aos trilhos. Preciso informar isso ao Walter.
+      - Language: ChineseSimplified
+        String: 斯特劳艾克伦集团最新飞船的生产已经重回正轨了，我得向沃尔特汇报，让他知晓此事。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -953,6 +975,8 @@ Stages:
         String: Dzięki mojej pomocy dział badań i rozwoju Strouda-Eklunda wrócił na właściwe tory i udało nam się ukończyć projekt nowego statku.
       - Language: Portuguese_Brazil
         String: Ajudei a equipe de P&D da Stroud-Eklund a retomar seu projeto e conseguimos concluir o design da sua nova nave.
+      - Language: ChineseSimplified
+        String: 我帮助了斯特劳艾克伦集团的研发团队，让他们的项目重回正规，并且我们成功完成了他们新飞船的设计。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -978,6 +1002,8 @@ Objectives:
       String: Udaj się do stoczni Strouda-Eklunda
     - Language: Portuguese_Brazil
       String: Vá para o Astroleiro Stroud-Eklund
+    - Language: ChineseSimplified
+      String: 前往斯特劳艾克伦集团造船厂
   Targets:
   - AliasID: 1
 - Index: 150
@@ -1001,6 +1027,8 @@ Objectives:
       String: Znajdź Jules
     - Language: Portuguese_Brazil
       String: Encontre Jules
+    - Language: ChineseSimplified
+      String: 找到朱尔斯
   Targets:
   - AliasID: 1
 - Index: 200
@@ -1024,6 +1052,8 @@ Objectives:
       String: Porozmawiaj z Jules
     - Language: Portuguese_Brazil
       String: Fale com Jules
+    - Language: ChineseSimplified
+      String: 与朱尔斯交谈
   Targets:
   - AliasID: 1
 - Index: 250
@@ -1047,6 +1077,8 @@ Objectives:
       String: (Opcj.) Zwiększ budżet
     - Language: Portuguese_Brazil
       String: (Opc.) Aumente a verba
+    - Language: ChineseSimplified
+      String: （可选）提升预算
   Targets:
   - AliasID: 15
 - Index: 270
@@ -1070,6 +1102,8 @@ Objectives:
       String: Zapłać, by zwiększyć budżet
     - Language: Portuguese_Brazil
       String: Pague para aumentar a verba
+    - Language: ChineseSimplified
+      String: 花钱提升预算
   Targets:
   - AliasID: 1
 - Index: 300
@@ -1093,6 +1127,8 @@ Objectives:
       String: (Opcj.) Oceń propozycje zespołu
     - Language: Portuguese_Brazil
       String: (Opc.) Dê feedback às propostas da equipe
+    - Language: ChineseSimplified
+      String: （可选）对团队的提案提供反馈
   Targets:
   - AliasID: 1
     Conditions:
@@ -1155,6 +1191,8 @@ Objectives:
       String: Porozmawiaj z Jules o badaniach rynkowych
     - Language: Portuguese_Brazil
       String: Fale com Jules sobre a pesquisa de mercado
+    - Language: ChineseSimplified
+      String: 与朱尔斯讨论市场研究
   Targets:
   - AliasID: 1
 - Index: 510
@@ -1178,6 +1216,8 @@ Objectives:
       String: Ukończ misję łowcy nagród
     - Language: Portuguese_Brazil
       String: Conclua uma missão de caça
+    - Language: ChineseSimplified
+      String: 完成一个赏金任务
   Targets:
   - AliasID: 14
 - Index: 511
@@ -1201,6 +1241,8 @@ Objectives:
       String: (Opcj.) Ukończ misję łowcy nagród
     - Language: Portuguese_Brazil
       String: (Opc.) Conclua uma missão de caça
+    - Language: ChineseSimplified
+      String: （可选）完成一个赏金任务
 - Index: 520
   Flags: []
   DisplayText:
@@ -1222,6 +1264,8 @@ Objectives:
       String: Ukończ misję pasażerską
     - Language: Portuguese_Brazil
       String: Conclua uma missão de passageiro
+    - Language: ChineseSimplified
+      String: 完成一个乘客任务
   Targets:
   - AliasID: 14
 - Index: 521
@@ -1245,6 +1289,8 @@ Objectives:
       String: (Opcj.) Ukończ misję pasażerską
     - Language: Portuguese_Brazil
       String: (Opc.) Conclua uma missão de passageiro
+    - Language: ChineseSimplified
+      String: （可选）完成一个乘客任务
 - Index: 600
   Flags: []
   DisplayText:
@@ -1266,6 +1312,8 @@ Objectives:
       String: Porozmawiaj z Jules
     - Language: Portuguese_Brazil
       String: Fale com Jules
+    - Language: ChineseSimplified
+      String: 与朱尔斯交谈
   Targets:
   - AliasID: 1
 - Index: 700
@@ -1289,6 +1337,8 @@ Objectives:
       String: Porozmawiaj z Jules
     - Language: Portuguese_Brazil
       String: Fale com Jules
+    - Language: ChineseSimplified
+      String: 与朱尔斯交谈
   Targets:
   - AliasID: 1
 - Index: 800
@@ -1312,6 +1362,8 @@ Objectives:
       String: Porozmawiaj z Walterem Stroudem
     - Language: Portuguese_Brazil
       String: Fale com Walter Stroud
+    - Language: ChineseSimplified
+      String: 与沃尔特·斯特劳交谈
   Targets:
   - AliasID: 6
 Aliases:

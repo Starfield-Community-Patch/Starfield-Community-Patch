@@ -1,0 +1,90 @@
+FormKey: 03BDDA:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 17B499:Starfield.esm
+  WEMFile: 8256352
+  TROTs:
+  - UnknownVoiceType: 0059A6:Starfield.esm
+    UnknownFloat: 1.0666667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sarah hatte sich voll der Führung dieser Organisation verschrieben. Sie hat mir vertraut, obwohl sie das nicht musste.
+    - Language: English
+      String: Sarah devoted herself to leading this organization. She trusted me when she could have easily turned me away.
+    - Language: Spanish
+      String: Sarah consagró su vida a liderar la organización. Confió en mí, cuando podría haberme dado la espalda.
+    - Language: French
+      String: Sarah a consacré sa vie à guider cette organisation. Elle m'a fait confiance alors qu'elle aurait pu me rejeter.
+    - Language: Italian
+      String: Sarah ha dedicato la vita alla guida dell’organizzazione. Si è fidata di me quando avrebbe potuto semplicemente respingermi.
+    - Language: Japanese
+      String: サラはこの組織を導くために献身的に働いてきた。やろうと思えば私を追放できたのに、むしろ信頼してくれた
+    - Language: Polish
+      String: Sara poświęciła się zarządzaniu tą organizacją. Zaufała mi, a przecież mogła mnie odprawić.
+    - Language: Portuguese_Brazil
+      String: A Sarah se dedicou a liderar esta organização. Ela confiou em mim quando podia ter facilmente me mandado embora.
+    - Language: ChineseSimplified
+      String: 莎拉为了这个组织奉献了一生。她本可以拒绝我加入组织，但却依然选择信任我。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xF03EB5B5BCE3D701
+  BNAM: 2C02F2:Starfield.esm
+  STRV: $(Subgraph)\Relaxed_Lib_Sadness_L02.af
+  VCLR: Null
+  FLMV: 0x00000000
+  FLAV: 0x00000000
+  QUAL: True
+  LVCR: 0
+  ATAC: 0x00000000
+  XNAM: True
+- Emotion: 17B499:Starfield.esm
+  WEMFile: 6267076
+  TROTs:
+  - UnknownVoiceType: 0059A6:Starfield.esm
+    UnknownFloat: 1.2666668
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Hätte sie anders entschieden, wäre sie vielleicht noch hier.
+    - Language: English
+      String: If she had chosen differently, she might still be here now.
+    - Language: Spanish
+      String: Si hubiese actuado de otro modo, puede que siguiese aquí.
+    - Language: French
+      String: Peut-être serait-elle encore là si elle avait fait un autre choix.
+    - Language: Italian
+      String: Se avesse deciso diversamente, forse oggi sarebbe ancora in vita.
+    - Language: Japanese
+      String: 違う道を選べば、今もここにいられたのに
+    - Language: Polish
+      String: Gdyby podjęła inną decyzję, może wciąż by tu była.
+    - Language: Portuguese_Brazil
+      String: Se ela tivesse feito outra escolha, talvez ainda estivesse aqui.
+    - Language: ChineseSimplified
+      String: 要是她当时做了其他选择，现在可能还活着。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA086EAC4BCE3D701
+  BNAM: 2C02F2:Starfield.esm
+  STRV: $(Subgraph)\Relaxed_Lib_Sadness_S02.af
+  VCLR: Null
+  FLMV: 0x00000000
+  FLAV: 0x00000000
+  QUAL: True
+  LVCR: 0
+  ATAC: 0x00000000
+  XNAM: True
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 2BB89F:Starfield.esm
+  ComparisonValue: 2BE2D8:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

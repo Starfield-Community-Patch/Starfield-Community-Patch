@@ -825,6 +825,8 @@ Name:
     String: Piętro kierownicze
   - Language: Portuguese_Brazil
     String: Nível Executivo
+  - Language: ChineseSimplified
+    String: 行政楼层
 Data:
   Flags:
   - RunOnce
@@ -936,6 +938,8 @@ Stages:
         String: Fałszywe dowody zadziałały i ZUinfo poinformowało o współpracy Masako z Infinity LTD. Muszę porozmawiać z Ularu na temat nadchodzącego spotkania.
       - Language: Portuguese_Brazil
         String: As evidências falsas funcionaram e a ANSC transmitiu o envolvimento de Masako com a Infinity LTD. Preciso falar com a Ularu sobre a reunião.
+      - Language: ChineseSimplified
+        String: 假证据起作用了，定居新闻台播出了雅子和无限有限公司存在合作关系的新闻。我得去和乌拉鲁谈谈这件事。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1006,6 +1010,8 @@ Stages:
         String: Czas rozpocząć lobbowanie wśród członków zarządu. Masako zagłosuje za pozyskaniem Infinity LTD i twierdzi, że potrzebuję co najmniej połowy głosów, aby zapewnić sobie sukces. Jeśli nie podoba mi się pomysł wewnętrznego neuroamplifikatora, mam teraz okazję na wstrzymanie dalszych nad nim badań.
       - Language: Portuguese_Brazil
         String: É hora de pressionar os membros do conselho. Masako votará pela aquisição da Infinity LTD e disse que vou precisar de no mínimo metade dos votos para garantir sucesso. Se tiver uma opinião forte contra o neuroamplificador interno, seria a oportunidade perfeita para encerrar a pesquisa.
+      - Language: ChineseSimplified
+        String: 现在是时候去游说董事会成员了。雅子会投票支持收购无限有限公司，还说我需要至少一半投票才能确保成功。如果我对内置神经增幅器十分反感，就应该抓住这次机会，阻止相关研究继续进行。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1036,6 +1042,8 @@ Stages:
         String: Czas rozpocząć lobbowanie wśród członków zarządu. Masako chce Infinity LTD, a Ularu chce wykurzyć Masako. Potrzebuję co najmniej połowy głosów w którejś sprawie, aby zapewnić sobie sukces. Jeśli nie podoba mi się pomysł wewnętrznego neuroamplifikatora, mam teraz okazję na wstrzymanie dalszych nad nim badań.
       - Language: Portuguese_Brazil
         String: É hora de pressionar os membros do conselho. Masako quer a Infinity LTD e Ularu quer Masako fora. Vou precisar de no mínimo metade dos votos em qualquer pauta para garantir sucesso. Se tiver uma opinião forte contra o neuroamplificador interno, seria a oportunidade perfeita para encerrar a pesquisa.
+      - Language: ChineseSimplified
+        String: 现在是时候去游说董事会成员了。雅子希望收购无限有限公司，而乌拉鲁则希望雅子出局。无论是在哪个问题上，我都需要至少一半投票才能确保成功。如果我对内置神经增幅器十分反感，就应该抓住这次机会，阻止相关研究继续进行。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1463,6 +1471,8 @@ Stages:
         String: Rozmowę z członkami zarządu mam już za sobą. Pora udać się do sali konferencyjnej i wziąć udział w spotkaniu.
       - Language: Portuguese_Brazil
         String: Conversei com os membros do conselho. Preciso ir para a sala de conferência participar da reunião.
+      - Language: ChineseSimplified
+        String: 我和董事会谈过了。我得去会议室开会。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1601,6 +1611,8 @@ Stages:
         String: Wszyscy są już na miejscu. Teraz muszę tylko poczekać na rozpoczęcie spotkania.
       - Language: Portuguese_Brazil
         String: Todos chegaram. Agora só preciso aguardar a reunião começar.
+      - Language: ChineseSimplified
+        String: 人都到齐了。现在，我只需等待会议开始。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1636,6 +1648,8 @@ Stages:
         String: Muszę poczekać na przybycie wszystkich członków zarządu i rozpoczęcie spotkania.
       - Language: Portuguese_Brazil
         String: A reunião só vai começar quando todos os membros do conselho chegarem.
+      - Language: ChineseSimplified
+        String: 我需要等待董事会成员前来，才能开会。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1663,6 +1677,8 @@ Stages:
         String: Wszyscy członkowie zarządu są na miejscu. Muszę usiąść, żeby spotkanie mogło się rozpocząć.
       - Language: Portuguese_Brazil
         String: Todos os membros do conselho chegaram. Agora só preciso me sentar para a reunião começar.
+      - Language: ChineseSimplified
+        String: 所有董事会成员均已到来。我应该找个位子做下，准备开会。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1994,6 +2010,8 @@ Stages:
         String: Spotkanie dobiegło końca, więc pora porozmawiać z Masako.
       - Language: Portuguese_Brazil
         String: Agora que a reunião acabou, preciso falar com a Masako.
+      - Language: ChineseSimplified
+        String: 既然会议结束了，我应该去和雅子谈谈。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2069,6 +2087,8 @@ Stages:
         String: Spotkanie dobiegło końca, więc pora porozmawiać z Ularu.
       - Language: Portuguese_Brazil
         String: Agora que a reunião acabou, preciso falar com a Ularu.
+      - Language: ChineseSimplified
+        String: 既然会议结束了，我应该去和乌拉鲁谈谈。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2217,6 +2237,8 @@ Stages:
         String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Ryujin Industries przejmie Infinity LTD i przekształci w spółkę zależną oraz będzie kontynuować prace nad projektem Dominion pod czujnym okiem Masako.
       - Language: Portuguese_Brazil
         String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. A Ryujin vai adquirir a Infinity LTD como sua mais nova subsidiária e dará continuidade ao Projeto Domínio, tudo sob o cuidadoso comando da Masako.
+      - Language: ChineseSimplified
+        String: 我揭露了无限有限公司的腐败内幕，并且在一次至关重要的董事会会议上为龙神集团确立了全新的未来。龙神集团将会收购无限有限公司，使其成为最新的子公司，并在雅子的全面领导下继续进行主宰计划。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2259,6 +2281,8 @@ Stages:
         String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Projekt Dominion zostanie odłożony na bok, a Ryujin Industries zakupi Infinity LTD i przekształci tę firmę w spółkę zależną nadzorowaną przez Masako.
       - Language: Portuguese_Brazil
         String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. O Projeto Domínio será arquivado e a Ryujin vai adquirir a Infinity LTD como sua mais nova subsidiária, tudo sob o comando cuidadoso da Masako.
+      - Language: ChineseSimplified
+        String: 我揭露了无限有限公司的腐败内幕，并且在一次至关重要的董事会会议上为龙神集团确立了全新的未来。主宰计划将会被搁置，而龙神集团将在雅子的全面领导下收购无限有限公司，使其成为最新的子公司。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2300,6 +2324,8 @@ Stages:
         String: 'Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Projekt Dominion zostanie odłożony na bok, a Infinity LTD czeka likwidacja. '
       - Language: Portuguese_Brazil
         String: 'Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. O Projeto Domínio será arquivado, e a Infinity LTD fechará as portas. '
+      - Language: ChineseSimplified
+        String: '我揭露了无限有限公司的腐败内幕，并且在一次至关重要的董事会会议上为龙神集团确立了全新的未来。主宰计划将会被搁置，无限有限公司也将被关停。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2342,6 +2368,8 @@ Stages:
         String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Zostanie ona zamknięta, zaś Ryujin będzie kontynuować projekt Dominion pod czujnym okiem Masako.
       - Language: Portuguese_Brazil
         String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. A Infinity LTD fechará as portas enquanto a Ryujin dá continuidade ao Projeto Domínio sob o cuidadoso comando da Masako.
+      - Language: ChineseSimplified
+        String: 我揭露了无限有限公司的腐败内幕，并且在一次至关重要的董事会会议上为龙神集团确立了全新的未来。无限有限公司将会倒闭，而龙神集团则会在雅子的领导下继续进行主宰计划。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2384,6 +2412,8 @@ Stages:
         String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Ryujin Industries przejmie Infinity LTD i przekształci w spółkę zależną oraz będzie kontynuować prace nad projektem Dominion pod czujnym okiem Ularu jako prezeski.
       - Language: Portuguese_Brazil
         String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. A Ryujin vai adquirir a Infinity LTD como sua mais nova subsidiária e dará continuidade ao Projeto Domínio, tudo sob o cuidadoso comando da Ularu como CEO.
+      - Language: ChineseSimplified
+        String: 我揭露了无限有限公司的腐败内幕，并且在一次至关重要的董事会会议上为龙神集团确立了全新的未来。龙神集团将会收购无限有限公司，使其成为最新的子公司，并在首席执行官乌拉鲁的全面领导下继续进行主宰计划。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2425,6 +2455,8 @@ Stages:
         String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Projekt Dominion zostanie odłożony na bok, a Ryujin Industries zakupi Infinity LTD i przekształci tę firmę w spółkę zależną nadzorowaną przez Ularu.
       - Language: Portuguese_Brazil
         String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. O Projeto Domínio será arquivado e a Ryujin vai adquirir a Infinity LTD como sua mais nova subsidiária, tudo sob o comando da Ularu como CEO.
+      - Language: ChineseSimplified
+        String: 我揭露了无限有限公司的腐败内幕，并且在一次至关重要的董事会会议上为龙神集团确立了全新的未来。主宰计划将会被搁置，而龙神集团将在首席执行官乌拉鲁的领导下收购无限有限公司，使其成为最新的子公司。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2465,6 +2497,8 @@ Stages:
         String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Projekt Dominion zostanie odłożony na bok, Infinity LTD czeka likwidacja, zaś Ryujin będzie istnieć dalej pod okiem Ularu, która zostanie prezeską.
       - Language: Portuguese_Brazil
         String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. O Projeto Domínio será arquivado, a Infinity LTD fechará as portas, e a Ryujin seguirá sob a liderança da Ularu como CEO.
+      - Language: ChineseSimplified
+        String: 我揭露了无限有限公司的腐败内幕，并且在一次至关重要的董事会会议上为龙神集团确立了全新的未来。主宰计划将会被搁置，无限有限公司会被关停，而龙神集团则继续由首席执行官乌拉鲁领导。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2506,6 +2540,8 @@ Stages:
         String: Kluczowe dla Ryujin Industries zebranie zarządu dobiegło końca. Udało mi się na nim zdemaskować korupcję Infinity LTD i wpłynąć na przyszłość firmy. Zostanie ona zamknięta, zaś Ryujin będzie kontynuować projekt Dominion pod okiem Ularu jako prezeski spółki.
       - Language: Portuguese_Brazil
         String: Expus a corrupção da Infinity LTD e assegurei um novo futuro para a Ryujin Industries em uma reunião decisiva com a diretoria. A Infinity LTD fechará as portas enquanto a Ryujin dá continuidade ao Projeto Domínio sob os cuidados da Ularu como CEO.
+      - Language: ChineseSimplified
+        String: 我揭露了无限有限公司的腐败内幕，并且在一次至关重要的董事会会议上为龙神集团确立了全新的未来。无限有限公司将会倒闭，而龙神集团则会在首席执行官乌拉鲁的领导下继续进行主宰计划。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2531,6 +2567,8 @@ Objectives:
       String: Porozmawiaj z Ularu
     - Language: Portuguese_Brazil
       String: Fale com Ularu
+    - Language: ChineseSimplified
+      String: 与乌拉鲁交谈
   Targets:
   - AliasID: 1
 - Index: 200
@@ -2554,6 +2592,8 @@ Objectives:
       String: Lobbuj członków zarządu (<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>)
     - Language: Portuguese_Brazil
       String: Pressionar membros do conselho (<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>)
+    - Language: ChineseSimplified
+      String: 大厅董事会（<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>）
   Targets:
   - AliasID: 3
     Conditions:
@@ -2634,6 +2674,8 @@ Objectives:
       String: 'Za Infinity LTD (T: <Global=RI08_InfinityYayCount>, N: <Global=RI08_InfinityNayCount>)'
     - Language: Portuguese_Brazil
       String: A favor da Infinity LTD (S:<Global=RI08_InfinityYayCount> N:<Global=RI08_InfinityNayCount>)
+    - Language: ChineseSimplified
+      String: 支持无限有限公司（是：<Global=RI08_InfinityYayCount>否：<Global=RI08_InfinityNayCount>）
 - Index: 202
   Flags: []
   DisplayText:
@@ -2655,6 +2697,8 @@ Objectives:
       String: 'Za wewnętrznym neuroamplifikatorem (T: <Global=RI08_NeuroampYayCount>, N: <Global=RI08_NeuroampNayCount>)'
     - Language: Portuguese_Brazil
       String: A favor do neuroamplificador interno (S:<Global=RI08_NeuroampYayCount> N:<Global=RI08_NeuroampNayCount>)
+    - Language: ChineseSimplified
+      String: 支持内置神经增幅器（是：<Global=RI08_NeuroampYayCount>否：<Global=RI08_NeuroampNayCount>）
 - Index: 203
   Flags: []
   DisplayText:
@@ -2676,6 +2720,8 @@ Objectives:
       String: 'Za Ularu na stanowisku prezeski (T: <Global=RI08_MasakoNayCount>, N: <Global=RI08_MasakoYayCount>)'
     - Language: Portuguese_Brazil
       String: A favor de Ularu como CEO (S:<Global=RI08_MasakoNayCount> N:<Global=RI08_MasakoYayCount>)
+    - Language: ChineseSimplified
+      String: 支持乌拉鲁成为首席执行官 （是：<Global=RI08_MasakoNayCount>否：<Global=RI08_MasakoYayCount>）
 - Index: 900
   Flags: []
   DisplayText:
@@ -2697,6 +2743,8 @@ Objectives:
       String: Weź udział w spotkaniu
     - Language: Portuguese_Brazil
       String: Participe da reunião
+    - Language: ChineseSimplified
+      String: 参加会议
   Targets:
   - AliasID: 17
 - Index: 925
@@ -2720,6 +2768,8 @@ Objectives:
       String: Poczekaj, aż wszyscy się zjawią
     - Language: Portuguese_Brazil
       String: Aguarde a chegada de todos
+    - Language: ChineseSimplified
+      String: 等待所有人前来
   Targets:
   - AliasID: 17
 - Index: 927
@@ -2743,6 +2793,8 @@ Objectives:
       String: Usiądź
     - Language: Portuguese_Brazil
       String: Sente-se
+    - Language: ChineseSimplified
+      String: 坐下
   Targets:
   - AliasID: 17
 - Index: 1000
@@ -2766,6 +2818,8 @@ Objectives:
       String: Porozmawiaj z Masako
     - Language: Portuguese_Brazil
       String: Fale com Masako
+    - Language: ChineseSimplified
+      String: 与雅子交谈
   Targets:
   - {}
 - Index: 1100
@@ -2789,6 +2843,8 @@ Objectives:
       String: Porozmawiaj z Ularu
     - Language: Portuguese_Brazil
       String: Fale com Ularu
+    - Language: ChineseSimplified
+      String: 与乌拉鲁交谈
   Targets:
   - AliasID: 1
 Aliases:

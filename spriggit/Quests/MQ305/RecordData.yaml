@@ -763,6 +763,8 @@ Name:
     String: Wielki skok
   - Language: Portuguese_Brazil
     String: Um Salto Gigante
+  - Language: ChineseSimplified
+    String: 一大步
 Data:
   Flags:
   - RunOnce
@@ -828,6 +830,8 @@ Stages:
         String: Mam wszystkie artefakty. Muszę złożyć je w sferę armilarną na pokładzie mojego statku.
       - Language: Portuguese_Brazil
         String: Peguei todos os artefatos. Tenho que montá-los no Armilário que tem na minha nave.
+      - Language: ChineseSimplified
+        String: 我拥有所有的神器，我需要把它们组合成天体仪，装载在我的飞船上。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -863,6 +867,8 @@ Stages:
         String: Sfera armilarna czeka ukończona na moim statku. Muszę jedynie uruchomić napęd grawitonowy i udać się do Jedności. Jeżeli zechcę wykonać skok grawitonowy gdziekolwiek indziej, konieczne będzie usunięcie sfery armilarnej.
       - Language: Portuguese_Brazil
         String: Agora que o Armilário completo está na minha nave, só preciso ativar o Motor Grav para ir à Concórdia. Tenho que remover o Armilário da minha nave se quiser dobrar para qualquer outro lugar.
+      - Language: ChineseSimplified
+        String: 既然我的飞船上已经有了完整的天体仪，我只需要启动重力推动器，就能前往归一。假如我想重力跃迁到别的地方去，就得把天体仪从飞船上卸下来。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -982,6 +988,8 @@ Stages:
         String: Jestem tu, w Jedności. Widzę kogoś w oddali.
       - Language: Portuguese_Brazil
         String: Eu estou aqui, na Concórdia. Tem alguém a distância.
+      - Language: ChineseSimplified
+        String: 我就在这里，在归一里。远处好像有个人。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1017,6 +1025,8 @@ Stages:
         String: Jeśli będę dalej kroczyć ścieżką Jedności, porzucę na zawsze swój wszechświat i stanę się astranem w wieloświecie. Mogę też odejść i wrócić do swojego życia w tym wszechświecie.
       - Language: Portuguese_Brazil
         String: Se eu continuar no caminho da Concórdia, vou deixar permanentemente o meu universo para trás e me tornar Estelar no multiverso. Mas eu também posso sair e retornar à minha vida neste universo.
+      - Language: ChineseSimplified
+        String: 如果我继续在归一里的这条路上走下去，我就会永远抛弃自己的宇宙，成为一名多重宇宙里的星裔。不过我也可以离开，回到我在这个宇宙里的生活中去。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1144,6 +1154,8 @@ Stages:
         String: Moja decyzja to opuszczenie Jedności i powrót do mojego wszechświata. Jeśli zmienię zdanie, mogę powrócić do Jedności poprzez uruchomienie napędu grawitonowego ze sferą armilarną na pokładzie.
       - Language: Portuguese_Brazil
         String: Decidi sair da Concórdia e voltar ao meu universo. Se eu mudar de ideia, posso retornar à Concórdia ativando o Motor Grav com o Armilário a bordo da nave.
+      - Language: ChineseSimplified
+        String: 我决定离开归一，返回我自己的宇宙。要是我改主意了，我可以在天体仪装载在飞船上的时候，启动重力推动器回到归一。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1180,6 +1192,8 @@ Stages:
         String: Jestem już po weściu do Jedności. To, czym jestem, stanie się jednością z Gwiezdną Strefą.
       - Language: Portuguese_Brazil
         String: Entrei na Concórdia. É hora de me unir ao campo estelar.
+      - Language: ChineseSimplified
+        String: 我进入了归一。我将于星空合而为一。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1205,6 +1219,8 @@ Objectives:
       String: Zbuduj na swoim statku sferę armilarną
     - Language: Portuguese_Brazil
       String: Monte o Armilário na sua nave
+    - Language: ChineseSimplified
+      String: 在你的飞船上建造天体仪
   Targets:
   - AliasID: 50
   - AliasID: 32
@@ -1236,6 +1252,8 @@ Objectives:
       String: Ukończ sferę armilarną
     - Language: Portuguese_Brazil
       String: Conclua o Armilário
+    - Language: ChineseSimplified
+      String: 将天体仪组装完毕
   Targets:
   - AliasID: 50
 - Index: 50
@@ -1259,6 +1277,8 @@ Objectives:
       String: (Opcj.) Pogadaj z przyjaciółmi przed odejściem
     - Language: Portuguese_Brazil
       String: (Opc.) Fale com seus amigos antes de partir
+    - Language: ChineseSimplified
+      String: （可选）在离开前与你的朋友们交谈
   Targets:
   - AliasID: 5
     Conditions:
@@ -1487,6 +1507,8 @@ Objectives:
       String: Uruchom napęd grawitonowy, by wykonać skok do Jedności
     - Language: Portuguese_Brazil
       String: Ative o Motor Grav para dobrar até a Concórdia
+    - Language: ChineseSimplified
+      String: 启动重力推动器以跃迁至归一
   Targets:
   - AliasID: 16
 - Index: 70
@@ -1511,6 +1533,8 @@ Objectives:
       String: Usuń sferę armilarną, by wykonać skok grawitonowy
     - Language: Portuguese_Brazil
       String: Remova o Armilário para dobrar normalmente
+    - Language: ChineseSimplified
+      String: 移除天体仪以正常进行重力跃迁
   Targets:
   - AliasID: 50
 - Index: 100
@@ -1534,6 +1558,8 @@ Objectives:
       String: Odródź się na nowo
     - Language: Portuguese_Brazil
       String: Renasça
+    - Language: ChineseSimplified
+      String: 重获新生
 - Index: 110
   Flags:
   - OrWithPrevious
@@ -1556,6 +1582,8 @@ Objectives:
       String: Wróć do domu
     - Language: Portuguese_Brazil
       String: Volte para casa
+    - Language: ChineseSimplified
+      String: 回家
 - Index: 120
   Flags: []
   DisplayText:
@@ -1577,6 +1605,8 @@ Objectives:
       String: Wróć do Jedności, gdy się przygotujesz
     - Language: Portuguese_Brazil
       String: Volte à Concórdia quando sentir que é hora
+    - Language: ChineseSimplified
+      String: 在你准备好时返回归一
 Aliases:
 - MutagenObjectType: QuestLocationAlias
   ID: 4

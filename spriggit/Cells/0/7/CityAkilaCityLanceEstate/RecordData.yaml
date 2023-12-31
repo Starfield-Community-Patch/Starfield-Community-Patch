@@ -19,6 +19,8 @@ Name:
     String: Posiadłość Lance'ów
   - Language: Portuguese_Brazil
     String: Casa Lance
+  - Language: ChineseSimplified
+    String: 兰斯庄园
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -376,3 +378,4 @@ Traversals:
   To: -10.555302, -0.024416208, 1.9401814
   UnknownVector: 1.174923, 4.477966, 1.3142015
   Unknown: 0x483E483EE638923C
+NumTraversalFluffBytes: 264

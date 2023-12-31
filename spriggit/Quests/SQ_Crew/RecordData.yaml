@@ -250,6 +250,8 @@ Name:
     String: Obsługuje różne systemy załogi
   - Language: Portuguese_Brazil
     String: Gerencia vários sistemas para a Tripulação
+  - Language: ChineseSimplified
+    String: 处理船员的各种系统
 Data:
   Flags:
   - StartGameEnabled
@@ -284,6 +286,8 @@ Objectives:
       String: Ochłap
     - Language: Portuguese_Brazil
       String: Dogmeat
+    - Language: ChineseSimplified
+      String: 狗肉
 - Index: 200
   Flags: []
   DisplayText:
@@ -305,6 +309,8 @@ Objectives:
       String: Towarzysz
     - Language: Portuguese_Brazil
       String: Companhia
+    - Language: ChineseSimplified
+      String: 同伴
 Aliases:
 - MutagenObjectType: QuestCollectionAlias
   Collection:

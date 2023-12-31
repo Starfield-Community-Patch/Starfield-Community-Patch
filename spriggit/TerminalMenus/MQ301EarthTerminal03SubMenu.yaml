@@ -55,6 +55,8 @@ Name:
     String: Dostęp do logów stacji
   - Language: Portuguese_Brazil
     String: Registros da Estação de Acesso
+  - Language: ChineseSimplified
+    String: 空间站访问记录
 TMVT: 0x01000000
 DNAM: 0x00
 SNAM: 0x00000000
@@ -112,6 +114,12 @@ BodyTexts:
 
 
         ARQUIVOS PARCIALMENTE RECUPERADOS
+    - Language: ChineseSimplified
+      String: >-
+        错误：档案库已损坏。正在运行系统恢复……
+
+
+        部分档案已恢复
   UseTemplatedText: False
 MenuItems:
 - ItemText:
@@ -133,6 +141,8 @@ MenuItems:
       String: 12 lutego 2149
     - Language: Portuguese_Brazil
       String: 12 de fevereiro de 2149
+    - Language: ChineseSimplified
+      String: 2149年2月12日
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -284,6 +294,24 @@ MenuItems:
 
 
         Victor Aiza: Eu... só quero ter certeza. A gente tá com tempo livre mesmo. Os dias de glória acabaram. Por que não nos propomos um desafio antes que encerrem esse capítulo da História?
+    - Language: ChineseSimplified
+      String: >-
+        徐岚：我们以前做重力推动器项目的时候，我从来没有好好参观过你的实验室。
+
+
+        维克多·艾萨：现在回想起来，那感觉已经是很早之前的事了。如今我们唯一在做的事就只是在发射气象卫星。
+
+
+        徐岚：我感觉是时候退休了。现在说回丰饶女神项目，你想让我们帮忙制造扫描仪，以便更好地追踪这些新气象模式？
+
+
+        茱蒂斯·塔蒂安：我们推测，两极目前可能在自然移动，造成了一些重力波动，从而导致我们较旧的装置失效。
+
+
+        徐岚：你为什么一定要把扫描的容错率设定地这么低？你想要找什么？
+
+
+        维克多·艾萨：我……只是想确保万无一失。反正我们都没什么作为了，荣光岁月早就结束了。何不趁着我们还没变成历史书里的老古董，给自己来个挑战呢？
 - ItemText:
     TargetLanguage: English
     Values:
@@ -303,6 +331,8 @@ MenuItems:
       String: 21 sierpnia 2149
     - Language: Portuguese_Brazil
       String: 21 de agosto de 2149
+    - Language: ChineseSimplified
+      String: 2149年8月21日
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -470,6 +500,26 @@ MenuItems:
         Dr. Luke Andrews
 
         Cientista-Chefe da EPA
+    - Language: ChineseSimplified
+      String: >-
+        收件人：茱蒂斯·塔蒂安、维克多·艾萨、徐岚
+
+
+        天体物理学研究团队已应约分析你们提供的全部数据。地球磁层的测量结果显示出清晰的波动迹象，与月球发出的周期性高频、大幅度重力波涌动不无关联。
+
+
+        这些重力波似乎在侵蚀地球内核形成的地球磁场，且由于地月毗邻，或许也在影响内核本身。数据显示，变化速率在迅速增长。
+
+
+        随着磁层失效，其保护人类不受太阳风伤害的作用会一同失效。即使不提灾难性的太阳辐射，以上现象亦会造成更严重情况，即大气层的失效，或剥离。这种情况曾出现于火星。航天初期，人类为预言地球未来，曾研究火星。我们担心，这一潜在未来可能比众人想象的更为迫近。
+
+
+        一些人可能认为这些数据尚属正常范畴。的确，历史上曾出现过地核波动和极性转化，但近期数值要大上几个数量级。上一代人有关全球变暖问题的争论尚余音未绝，希望这次科学能给出明确答复。如同海洋的波浪，这些汹涌的重力波注定会冲上地球这一“海岸”，造成毁灭性影响。
+
+
+        卢克·安德鲁斯
+
+        ART首席科学家
 - ItemText:
     TargetLanguage: English
     Values:
@@ -489,6 +539,8 @@ MenuItems:
       String: 22 sierpnia 2149
     - Language: Portuguese_Brazil
       String: 22 de agosto de 2149
+    - Language: ChineseSimplified
+      String: 2149年8月22日
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -876,6 +928,60 @@ MenuItems:
 
 
         Judith Tatienne: Não existe planeta neste universo que seja longe demais pra você, Victor. Depois que isso terminar, eu nunca mais vou falar com você.
+    - Language: ChineseSimplified
+      String: >-
+        茱蒂斯·塔蒂安：我知道这是什么，维克多。从卫星传回来的数据非常清楚。是重力推动器。
+
+
+        徐岚：月球跃迁的次数太密集了。再这样下去，地球的大气层会开始消散。
+
+
+        维克多·艾萨：能修复这些推动器吗？
+
+
+        徐岚：我正在设计一些东西，应该可以……打着紧急更新加油泵的幌子，悄悄地把这个问题解决掉。
+
+
+        茱蒂斯·塔蒂安：我们正在谈论地球的终结末日，而你竟然还想着悄悄解决问题？
+
+
+        维克多·艾萨：茱蒂斯，我们最不愿看到的，就是人们对重力推动器失去信心。这也许是我们唯一的出路。
+
+
+        茱蒂斯·塔蒂安：通向哪里的出路？我们应该放弃地球？你认真的吗？
+
+
+        徐岚：还有不到50年的时间。对于星球来说，这就是眨个眼的功夫，但对于人类撤离而言，时间再充裕不过了。
+
+
+        茱蒂斯·塔蒂安：那我们该怎么跟人们解释？
+
+
+        维克多·艾萨：我们就说这是天意，而科学已经为人类指明了一条出路。是时候让人类在宇宙星辰中寻找安身之所了。
+
+
+        茱蒂斯·塔蒂安：……你早就知道？是不是？你居然骗了我！
+
+
+        维克多·艾萨：我……
+
+
+        茱蒂斯·塔蒂安：你一直都知道！这个发现耗费了我一生的精力啊，维克多！但你早就知道我们要弃我们的星球而去！
+
+
+        维克多·艾萨：你还不明白我看到了怎样的未来！那个未来里前景无限。流星可能会撞上地球，可能会有瘟疫，还可能会爆发另一场世界大战。殖民其他星系能保障人类的未来，永远保护我们的子孙后代！
+
+
+        茱蒂斯·塔蒂安：但代价是牺牲我们自己的家园！
+
+
+        徐岚：够了！你俩都闭嘴！建造足够多的撤离飞船才是当务之急。我们现在就该开始行动了。
+
+
+        维克多·艾萨：我这就……起草一份声明。我们需要让整个国际社会都知道这件事。我很抱歉，茱蒂斯……
+
+
+        茱蒂斯·塔蒂安：我会去一个离你越远越好的星球，维克多。这事完了以后，我们便是陌路人了。
 - ItemText:
     TargetLanguage: English
     Values:
@@ -895,6 +1001,8 @@ MenuItems:
       String: 8 września 2160
     - Language: Portuguese_Brazil
       String: 8 de setembro de 2160
+    - Language: ChineseSimplified
+      String: 2160年9月8日
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -1022,3 +1130,18 @@ MenuItems:
 
 
         Tomara que você faça uso dele melhor do que eu.
+    - Language: ChineseSimplified
+      String: >-
+        我是维克多·艾萨博士，如果你正在听这段录音，那你大概也已经知道真相了。在我第一次带队前往火星探测奇怪的重力异常点时，我还很年轻。我隐瞒了那天真正发生的事情……只把真相告诉了一个人。她起初也不相信我，但我现在没有理由欺瞒任何人。不论你是谁，希望你会接受我的……忏悔。
+
+
+        触碰异常点时，我失去了长达12天的时间。在那期间里，我遇到了……另一个我。他告诉我很多事，后来都成了事实。重力推动器公式、月球上的测试、地球的大气层因我们的所作所为而消散。但他也告诉我说，在遥远的太空，有一颗围绕恒星转动的星球。在那里，有座城市在蓬勃发展。人类的文化、艺术、音乐和生活方式不断发展和改变，在太空熠熠生辉。
+
+
+        为了这样一个美好的未来，我愿意付出怎样的代价呢？
+
+
+        也许你们不会相信我。也许茱蒂斯说得没错，我就是一个不愿承认自己犯了错误的胆小鬼。但大家都忘了重力推动器的真正起源。这件……来自火星的神器。
+
+
+        希望你们能比我更好地利用它。

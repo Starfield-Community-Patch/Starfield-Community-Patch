@@ -836,6 +836,8 @@ Name:
     String: Twarde dowody
   - Language: Portuguese_Brazil
     String: Ônus da Prova
+  - Language: ChineseSimplified
+    String: 罪证的负担
 Data:
   Flags:
   - StartGameEnabled
@@ -887,6 +889,8 @@ Stages:
         String: Por. Jillian Toft przydzieliła mi na OZK Vigilance zadanie odnalezienia i dostarczenia dowodów dotyczących nielegalnych działań związanych z Karmazynową Flotą. Szczególnie przydatne do oddania Floty w ręce sprawiedliwości będą nagrania audio i teksty.
       - Language: Portuguese_Brazil
         String: A Ten. Jillian Toft da UC Vigilance me incumbiu de procurar e trazer para ela qualquer evidência referente às atividades ilegais da Frota Escarlate. Registros de áudio e de texto seriam especialmente úteis para puni-los.
+      - Language: ChineseSimplified
+        String: 联殖守望号的吉莉安·托夫特中尉让我去搜寻并带回有关深红舰队非法行径的罪证。音频日志和文字日志是能将他们绳之以法的有力证据。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1530,6 +1534,8 @@ Stages:
         String: Po oddaniu znacznej liczby dowodów w sprawie Karmazynowej Floty warto chyba porozmawiać z por. Jillian Toft.
       - Language: Portuguese_Brazil
         String: Depois de entregar muitas evidências referentes à Frota Escarlate, acho que preciso falar com a Ten. Jillian Toft.
+      - Language: ChineseSimplified
+        String: 在将有关深红舰队的大量罪证归还之后，我觉得我应该去找吉莉安·托夫特中尉聊聊。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1567,6 +1573,8 @@ Stages:
         String: Po oddaniu znacznej liczby dowodów w sprawie Karmazynowej Floty por. Jillian Toft nieoczekiwanie dała mi prezent w podziękowaniu za pomoc i oddanie przestępców w ręce sprawiedliwości.
       - Language: Portuguese_Brazil
         String: Depois de entregar muitas evidências referentes à Frota Escarlate, falei com a Ten. Jillian Toft. Inesperadamente, ela me deu um presente de agradecimento por meus esforços e por punir os criminosos.
+      - Language: ChineseSimplified
+        String: 在将有关深红舰队的大量罪证归还之后，我与吉莉安·托夫特中尉进行了一番交谈。让我意外的是，她居然送了我一份礼物，以感谢我的付出与为了将罪犯绳之以法所做出的贡献。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -1595,6 +1603,8 @@ Objectives:
       String: Szukaj dowodów
     - Language: Portuguese_Brazil
       String: Procure evidências
+    - Language: ChineseSimplified
+      String: 搜寻罪证
 - Index: 200
   Flags: []
   DisplayText:
@@ -1616,6 +1626,8 @@ Objectives:
       String: Przekaż dowody por. Toft
     - Language: Portuguese_Brazil
       String: Entregue evidências à Ten. Toft
+    - Language: ChineseSimplified
+      String: 将罪证还给托夫特中尉
   Targets:
   - AliasID: 7
 - Index: 300
@@ -1639,6 +1651,8 @@ Objectives:
       String: Porozmawiaj z porucznik Toft
     - Language: Portuguese_Brazil
       String: Converse com a Tenente Toft
+    - Language: ChineseSimplified
+      String: 与托夫特中尉交谈
   Targets:
   - AliasID: 7
 Aliases:

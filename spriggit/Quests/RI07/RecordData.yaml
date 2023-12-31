@@ -1820,6 +1820,8 @@ Name:
     String: Sabotaż
   - Language: Portuguese_Brazil
     String: Sabotagem
+  - Language: ChineseSimplified
+    String: 破坏
 Data:
   Flags:
   - RunOnce
@@ -2113,6 +2115,8 @@ Stages:
         String: Muszę spotkać się z Daltonem, aby poznać najnowsze informacje dotyczące kreta. Znajdę go w jego biurze na piętrze kierowniczym.
       - Language: Portuguese_Brazil
         String: Preciso encontrar o Dalton para obter a atualização mais recente sobre o informante. Posso encontrá-lo em seu escritório no andar executivo.
+      - Language: ChineseSimplified
+        String: 我得去见见道尔顿，看看有没有关于内鬼的最新消息。他的办公室在行政楼层。我可以去那里找他。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2157,6 +2161,8 @@ Stages:
         String: Muszę porozmawiać z Daltonem, aby poznać najnowsze informacje dotyczące kreta. Znajdę go w jego biurze na piętrze kierowniczym.
       - Language: Portuguese_Brazil
         String: Preciso falar com Dalton para obter a atualização mais recente sobre o informante. Encontrei ele em seu escritório no andar executivo.
+      - Language: ChineseSimplified
+        String: 我得去跟道尔顿聊聊，看看有没有关于内鬼的最新消息。我刚刚在他的办公室看到他了。他的办公室在行政楼层。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2217,6 +2223,8 @@ Stages:
         String: Daltonowi i Masako zależy na moim udziale w spotkaniu, na którym będą dyskutować o krecie i swoich planach związanych z Infinity LTD. Muszę zająć miejsce i wysłuchać, co mają do powiedzenia.
       - Language: Portuguese_Brazil
         String: Dalton e Masako querem que eu participe da reunião onde discutem o informante e seus planos para a Infinity LTD. Eu deveria me sentar e ouvir.
+      - Language: ChineseSimplified
+        String: 道尔顿和雅子想让我参加讨论内鬼和无限有限公司计划的会议。我应该在会议室找个位子旁听一下会议。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2244,6 +2252,8 @@ Stages:
         String: Siedzę w sali konferencyjnej. Muszę zaczekać, aż przybędzie Dalton i rozpocznie spotkanie.
       - Language: Portuguese_Brazil
         String: Já me sentei na sala de conferências. Agora preciso esperar Dalton chegar e começar a reunião.
+      - Language: ChineseSimplified
+        String: 我已坐在会议室里。现在就等道尔顿来主持会议了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2287,6 +2297,8 @@ Stages:
         String: Muszę wysłuchać spotkania zarządu i się przekonać, co z niego wyniknie.
       - Language: Portuguese_Brazil
         String: Preciso ouvir a reunião do conselho para ver o que consigo descobrir.
+      - Language: ChineseSimplified
+        String: 我得听听董事会议，看看能不能有所发现。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2314,6 +2326,8 @@ Stages:
         String: Veena ukończyła wewnętrzny neuroamplifikator. Muszę się z nią spotkać w dziale neuroamplifikatorów na piętrze badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Veena concluiu o neuroamplificador interno. Eu deveria me encontrar com ela na divisão do neuroamplificador no andar da P&D.
+      - Language: ChineseSimplified
+        String: 维纳已经完成内置神经增幅器了。我得去位于研发楼层的神经增幅器分部找她聊聊。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2349,6 +2363,8 @@ Stages:
         String: Veena ukończyła wewnętrzny neuroamplifikator. Muszę z nią porozmawiać i się dowiedzieć, co dalej.
       - Language: Portuguese_Brazil
         String: Veena concluiu o neuroamplificador interno. Eu deveria falar com ela para saber o que fazer agora.
+      - Language: ChineseSimplified
+        String: 维纳已经完成内置神经增幅器了。我得问问她接下来的安排。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2400,6 +2416,8 @@ Stages:
         String: Veena jest gotowa, aby przeprowadzić operację wszczepienia do mojej głowy wewnętrznego neuroamplifikatora. Muszę położyć się na stole do operacji neurochirurgicznych.
       - Language: Portuguese_Brazil
         String: Veena está pronta para realizar a operação e implantar o neuroamplificador interno na minha cabeça. Preciso deitar na mesa de neurocirurgia quando tudo estiver pronto.
+      - Language: ChineseSimplified
+        String: 维纳已经做好准备在我头部植入内置神经增幅器了。我准备好以后，得躺在神经外科手术台上。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2459,6 +2477,8 @@ Stages:
         String: Zabieg dobiegł końca. Muszę porozmawiać z Veeną na temat tego, jak poszło.
       - Language: Portuguese_Brazil
         String: O procedimento foi concluído. Preciso contar a Veena como foi.
+      - Language: ChineseSimplified
+        String: 测试完成了。我得去跟维纳聊一聊测试过程和结果。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2502,6 +2522,8 @@ Stages:
         String: Veena oczekuje, że przetestuję wewnętrzny neuroamplifikator na DeMarcusie. Muszę udać się na taras obserwacyjny i użyć neuroamplifikatora.
       - Language: Portuguese_Brazil
         String: Veena quer que eu teste o neuroamplificador interno em DeMarcus. Preciso ir para o deque de observação para tentar usá-lo.
+      - Language: ChineseSimplified
+        String: 维纳想让我在德马库斯身上测试一下内置神经增幅器。我得去观察台才能进行测试。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2529,6 +2551,8 @@ Stages:
         String: Muszę wypróbować wewnętrzny neuroamplifikator na DeMarcusie, aby zmusić go do otworzenia drzwi do pokoju testowego, które są zamknięte. Trzeba zmanipulować go, by znalazł klucz do otwarcia drzwi. Jeśli nie pamiętam, jak używać manipulacji, mogę zajrzeć do samouczka.
       - Language: Portuguese_Brazil
         String: Preciso testar o neuroamplificador interno em DeMarcus para que ele abra a porta trancada da sala de testes. Preciso usar Manipulação no DeMarcus para encontrar uma chave e abrir a porta. Vou consultar o tutorial de Manipulação se não me lembrar como usá-la.
+      - Language: ChineseSimplified
+        String: 我得在德马库斯身上测试一下内置神经增幅器，让他打开测试间的门。这扇门锁上了。我需要对德马库斯使用“操纵”，来找到钥匙开门。我要是不记得使用方法，可以查看“操纵”的教学资料。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2572,6 +2596,8 @@ Stages:
         String: Udało mi się przetestować wewnętrzny neuroamplifikator. Pora wracać i przekonać się, co mają mi do powiedzenia.
       - Language: Portuguese_Brazil
         String: Consegui testar o neuroamp interno. Tenho que voltar e ver o que eles dizem.
+      - Language: ChineseSimplified
+        String: 我对内置神经增幅器的测试成功了，我得回下面去，看看他们有什么要说的。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2599,6 +2625,8 @@ Stages:
         String: Udało mi się użyć wewnętrznego neuroamplifikatora, aby nakłonić DeMarcusa do otworzenia drzwi. Muszę porozmawiać z Veeną na temat testu.
       - Language: Portuguese_Brazil
         String: Consegui usar o neuroamplificador interno para fazer com que DeMarcus abrisse uma porta. Eu deveria falar com Veena sobre o teste.
+      - Language: ChineseSimplified
+        String: 我成功通过内置神经增幅器让德马库斯把门打开了。我应该跟维纳聊聊这个测试。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2626,6 +2654,8 @@ Stages:
         String: Veena przypomniała mi, że Masako chce ze mną porozmawiać o zleceniu związanym z Infinity LTD. Znajdę ją w jej biurze na piętrze biur kierowniczych.
       - Language: Portuguese_Brazil
         String: Veena me lembrou que Masako quer falar comigo sobre a missão da Infinity LTD. Posso encontrá-la em seu escritório no andar dos escritórios executivos.
+      - Language: ChineseSimplified
+        String: 维纳提醒我说雅子想跟我聊聊无限有限公司的任务。她的办公室在行政楼层。我可以去那找她。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2685,6 +2715,8 @@ Stages:
         String: Muszę dostarczyć program nadzorujący do Daltona, czekającego w swoim biurze. Dalton jest przekonany, że program zawiera informacje, których potrzebujemy, aby udowodnić, że Ularu jest kretem.
       - Language: Portuguese_Brazil
         String: Preciso levar o programa Inspetor para o Dalton em seu escritório. Ele acha que o programa tem as evidências necessárias para provar que Ularu é uma informante.
+      - Language: ChineseSimplified
+        String: 我得去一趟道尔顿的办公室。我得把监视者程序拿给他。他认为这个程序中存有能够证明乌拉鲁是内鬼的证据。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2712,6 +2744,8 @@ Stages:
         String: Dalton dostał ode mnie program nadzorujący napisany przez Ularu. Muszę poczekać, aż skończy go analizować.
       - Language: Portuguese_Brazil
         String: Entreguei a Dalton o programa Inspetor que Ularu escreveu. Preciso esperar ele terminar de analisá-lo.
+      - Language: ChineseSimplified
+        String: 我把乌拉鲁写的监视者程序交给了道尔顿。我应该等他检视完毕。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2755,6 +2789,8 @@ Stages:
         String: Dalton skończył pisanie zaktualizowanego programu nadzorującego, usunąwszy uprzednio złośliwy kod, który dodała do niego Ularu, żeby wrobić Masako. Muszę z nim porozmawiać, co dalej.
       - Language: Portuguese_Brazil
         String: Dalton criou uma versão atualizada do programa Inspetor depois de remover um código malicioso que Ularu tinha acrescentado para armar para Masako. Preciso falar com ele sobre os próximos passos.
+      - Language: ChineseSimplified
+        String: 道尔顿移除了一些由乌拉鲁植入、用以陷害雅子的恶意代码，完成了更新版监视者程序的制作。我应该问问他下一步做什么。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2790,6 +2826,8 @@ Stages:
         String: Ularu chce porozmawiać w swoim biurze. Muszę za nią pójść i się dowiedzieć, co ma mi jeszcze do powiedzenia.
       - Language: Portuguese_Brazil
         String: Ularu queria falar comigo em seu escritório. Eu deveria segui-la e saber o que mais ela pode ter para dizer.
+      - Language: ChineseSimplified
+        String: 乌拉鲁想在她的办公室和我谈谈。我得跟着她，看看她还有什么要说的。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2817,6 +2855,8 @@ Stages:
         String: Muszę porozmawiać z Ularu o jej planach.
       - Language: Portuguese_Brazil
         String: Preciso falar com a Ularu sobre os planos dela.
+      - Language: ChineseSimplified
+        String: 我需要和乌拉鲁聊一聊她的计划。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2860,6 +2900,8 @@ Stages:
         String: Muszę udać się do Nowej Atlantydy, aby zająć się moim zleceniem.
       - Language: Portuguese_Brazil
         String: Preciso viajar para Nova Atlântida para prosseguir com minha missão.
+      - Language: ChineseSimplified
+        String: 我需要前往新亚特兰蒂斯城，开始执行我的任务。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2903,6 +2945,8 @@ Stages:
         String: Dalton wspomniał, że Imogene może mieć dla mnie przydatne informacje na temat mojego zlecenia. Znajdę ją w TerraBrew w dzielnicy handlowej Nowej Atlantydy.
       - Language: Portuguese_Brazil
         String: Dalton mencionou que Imogene tem algum tipo de informação útil para mim sobre a minha missão. Posso encontrá-la no TerraBrew do distrito comercial de Nova Atlântida.
+      - Language: ChineseSimplified
+        String: 道尔顿提到过，伊莫金手上可能对我任务有用的信息。我可以在新亚特兰蒂斯城商业区的地球经典咖啡找到她。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2930,6 +2974,8 @@ Stages:
         String: Muszę porozmawiać z Imogene i się dowiedzieć, jakie może mieć dla mnie przydatne informacje.
       - Language: Portuguese_Brazil
         String: Preciso falar com Imogene e descobrir que tipo de informação útil ela pode ter para mim.
+      - Language: ChineseSimplified
+        String: 我得和伊莫金谈谈，看看她能给我提供什么有用的信息。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2973,6 +3019,8 @@ Stages:
         String: Muszę się dostać do budynku Infinity LTD. Mogę użyć przygotowanej dla mnie fałszywej tożsamości przy głównych wejściu albo znaleźć dostęp przez dach. W środku Imogene da mi kartę dostępu do szafki, w której znajdę uniform oraz kartę dostępową do działu badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Preciso entrar no prédio da Infinity LTD. Posso usar a identidade que me foi atribuída na entrada ou encontrar a porta de acesso no terraço. Lá dentro, Imogene me deu um cartão de acesso a um armário para obter identificação e uniforme de P&D, que podem facilitar meu deslocamento.
+      - Language: ChineseSimplified
+        String: 我需要进入无限有限公司的大楼。我可以使用我的指定身份从入口进去，也可以从屋顶入口进去。进去后，我可以用伊莫金给我的储物柜钥匙卡拿到研发部制服和身份证件，方便我四处走动。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3000,6 +3048,8 @@ Stages:
         String: Muszę się dostać do budynku Infinity LTD. Mogę użyć przygotowanej dla mnie fałszywej tożsamości w celu uzyskania dostępu do wnętrza przez główne drzwi albo znaleźć wejście na dachu.
       - Language: Portuguese_Brazil
         String: Preciso entrar no prédio da Infinity LTD. Posso usar a identidade que me foi atribuída para obter acesso na entrada ou encontrar a porta de acesso no terraço.
+      - Language: ChineseSimplified
+        String: 我需要进入无限有限公司的大楼。我可以使用我的指定身份从入口进去，也可以从屋顶入口进去。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3068,6 +3118,8 @@ Stages:
         String: Muszę wejść do budynku Infinity LTD i spotkać się z Aelysem Ortizem, recepcjonistą działu marketingu.
       - Language: Portuguese_Brazil
         String: Preciso entrar no prédio da Infinity LTD e encontrar Aelys Ortiz, o recepcionista do departamento de Marketing.
+      - Language: ChineseSimplified
+        String: 我需要进入无限有限公司大楼，与市场部的接待员阿里斯·奥尔蒂斯见面。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3114,6 +3166,8 @@ Stages:
         String: Aelys zaproponował mi zajęcie miejsca w oczekiwaniu na umówione spotkanie.
       - Language: Portuguese_Brazil
         String: Aelys sugeriu que eu sentasse um pouco e esperasse minha hora.
+      - Language: ChineseSimplified
+        String: 阿里斯建议我在等预约的时候找个座位。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3142,6 +3196,8 @@ Stages:
         String: Muszę poczekać, aż Aelys wyjdzie, zanim zacznę wypełniać swoje zadanie.
       - Language: Portuguese_Brazil
         String: Eu deveria esperar Aelys sair antes de começar a missão.
+      - Language: ChineseSimplified
+        String: 我应该先等阿里斯离开，再开始任务。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3232,6 +3288,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Lucasa i Faye, a następnie znaleźć prototyp wewnętrznego neuroamplifikatora. Mam techniczny kod dostępu, który mogę wykorzystać do sabotowania systemu ogrzewania. W ten sposób pozbędę się z budynku większości osób.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno. Recebi uma senha da manutenção que posso usar para sabotar o sistema de aquecimento. Isso pode ajudar a evacuar a maioria das pessoas do prédio.
+      - Language: ChineseSimplified
+        String: 我需要在卢卡斯和菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型机。我拿到了维护密码，可以用它来破坏供暖系统。这也许可以让大多数人都离开这栋大楼。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3259,6 +3317,8 @@ Stages:
         String: Dzięki sabotowaniu systemu ogrzewania większość osób opuściła budynek. Muszę teraz uruchomić program nadzorujący na komputerze Lucasa i Faye, a następnie znaleźć ich prototyp wewnętrznego neuroamplifikatora.
       - Language: Portuguese_Brazil
         String: Sabotei o sistema de aquecimento para evacuar a maioria das pessoas do prédio. Agora preciso executar o programa Inspetor nos computadores do Lucas e da Faye e encontrar o Protótipo do Neuroamp Interno.
+      - Language: ChineseSimplified
+        String: 我破坏了供暖系统，把大部分人都赶出了大楼。现在我需要在卢卡斯和菲伊的电脑上运行监视者程序，并找到他们的内置神经增幅器原型机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3286,6 +3346,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Lucasa i Faye, a następnie znaleźć prototyp wewnętrznego neuroamplifikatora. Imogene dała mi kartę dostępową do szafki pracownika, który zgodził się pomóc. Jeśli znajdę jego szafkę na pierwszym piętrze biurowym, w środku czekać na mnie będzie uniform oraz karta dostępowa do działu badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor nos computadores de Lucas e Faye e encontrar o protótipo do Neuroamp Interno. Imogene me deu a chave de acesso do armário de um funcionário que concordou em ajudar. Posso pegar um uniforme e um cartão de acesso da P&D se eu encontrar o armário no primeiro andar de escritórios.
+      - Language: ChineseSimplified
+        String: 我需要在卢卡斯和菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型机。有个员工同意帮忙，伊莫金把他的员工储物柜钥匙卡给我了。如果我能在第一层办公室找到他的储物柜，我就可以拿到一件研发部制服和安全通行卡。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3353,6 +3415,8 @@ Stages:
         String: Muszę przedostać się przez wiatrak w systemie wentylacji. Mogę wykorzystać wewnętrzny neuroamplifikator, aby zmanipulować strażnika i wyłączyć układ.
       - Language: Portuguese_Brazil
         String: Preciso atravessar um dos ventiladores do sistema de ventilação. Posso usar o Neuroamplificador Interno para manipular o guarda e desligar o sistema.
+      - Language: ChineseSimplified
+        String: 我得绕过通风系统中的风扇。我可以用内置神经增幅器操纵警卫关闭系统。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3427,6 +3491,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerach Lucasa i Faye, a następnie znaleźć prototyp wewnętrznego neuroamplifikatora.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno.
+      - Language: ChineseSimplified
+        String: 我需要在卢卡斯和菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3486,6 +3552,8 @@ Stages:
         String: 'Muszę się skupić na swoich celach: uruchomieniu programu nadzorującego na komputerach Lucasa i Faye oraz na znalezieniu prototypu wewnętrznego neuroamplifikatora. Udało mi się poczynić pewne postępy, ale przede mną wciąż sporo pracy.'
       - Language: Portuguese_Brazil
         String: 'Tenho que me concentrar nos meus objetivos: rodar o programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno. Consegui avançar, mas ainda tenho trabalho pela frente.'
+      - Language: ChineseSimplified
+        String: 我现在得把心思放回自己的目标上：在卢卡斯和菲伊的电脑上运行监视者程序，并且找到内置神经增幅器样机。我取得了进展，但还有工作要做。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3542,6 +3610,8 @@ Stages:
         String: 'Muszę się skupić na swoich celach: uruchomieniu programu nadzorującego na komputerach Lucasa i Faye oraz na znalezieniu prototypu wewnętrznego neuroamplifikatora. Imogene dała mi kartę dostępową do szafki pracownika, który zgodził się pomóc. Jeśli znajdę jego szafkę na pierwszym piętrze biurowym, w środku czekać na mnie będzie uniform oraz karta dostępowa do działu badań i rozwoju.'
       - Language: Portuguese_Brazil
         String: 'Preciso voltar a me concentrar nos meus objetivos: rodar o Programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamplificador Interno. Imogene me deu a chave de acesso do armário de um funcionário que concordou em ajudar. Posso pegar um uniforme e um cartão de acesso da P&D se eu encontrar o armário no primeiro andar de escritórios.'
+      - Language: ChineseSimplified
+        String: 我现在得把心思放回自己的目标上：在卢卡斯和菲伊的电脑上运行监视者程序，找到内置神经增幅器原型机。有个员工同意帮忙，伊莫金把他的员工储物柜钥匙卡给我了。如果我能在第一层办公室找到他的储物柜，我就可以拿到一件研发部制服和安全通行卡。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3607,6 +3677,8 @@ Stages:
         String: 'Muszę się skupić na swoich celach: uruchomieniu programu nadzorującego na komputerach Lucasa i Faye oraz na znalezieniu prototypu wewnętrznego neuroamplifikatora. Są pewne postępy, ale wciąż jest co robić. Imogene dała mi kartę dostępową do szafki pracownika, który zgodził się pomóc. Jeśli znajdę jego szafkę na pierwszym piętrze biurowym, w środku czekać na mnie będzie uniform oraz karta dostępowa do działu badań i rozwoju.'
       - Language: Portuguese_Brazil
         String: 'Preciso voltar a me concentrar nos meus objetivos: rodar o Programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamplificador Interno. Consegui avançar, mas ainda tenho trabalho pela frente. Imogene me deu a chave de acesso do armário de um funcionário que concordou em ajudar. Posso pegar um uniforme e um cartão de acesso da P&D se eu encontrar o armário no primeiro andar de escritórios.'
+      - Language: ChineseSimplified
+        String: 我现在得把心思放回自己的目标上：在卢卡斯和菲伊的电脑上运行监视者程序，找到内置神经增幅器原型机。我取得了进展，但还有工作要做。有个员工同意帮忙，伊莫金把他的员工储物柜钥匙卡给我了。如果我能在第一层办公室找到他的储物柜，我就可以拿到一件研发部制服和安全通行卡。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3663,6 +3735,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Lucasa i Faye, a następnie znaleźć prototyp wewnętrznego neuroamplifikatora. Mam też techniczny kod dostępu, który mogę wykorzystać do sabotowania systemu ogrzewania. W ten sposób pozbędę się z budynku większości osób.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o Programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno. Eu também tenho uma senha da manutenção que posso usar para sabotar o sistema de aquecimento. Isso pode ajudar a evacuar a maioria das pessoas do prédio.
+      - Language: ChineseSimplified
+        String: 我需要在卢卡斯和菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型机。我还拿到了维护密码，可以用它来破坏供暖系统。这也许可以让大多数人都离开这栋大楼。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3728,6 +3802,8 @@ Stages:
         String: 'Muszę się skupić na swoich celach: uruchomieniu programu nadzorującego na komputerach Lucasa i Faye oraz na znalezieniu prototypu wewnętrznego neuroamplifikatora. Są pewne postępy, ale wciąż jest co robić. Mam też techniczny kod dostępu, który mogę wykorzystać do sabotowania systemu ogrzewania. W ten sposób pozbędę się z budynku większości osób.'
       - Language: Portuguese_Brazil
         String: 'Preciso voltar a me concentrar nos meus objetivos: rodar o Programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamplificador Interno. Consegui avançar, mas ainda tenho trabalho pela frente. Também tenho uma senha da manutenção que posso usar para sabotar o sistema de aquecimento. Isso pode ajudar a evacuar a maioria das pessoas do prédio.'
+      - Language: ChineseSimplified
+        String: 我现在得把心思放回自己的目标上：在卢卡斯和菲伊的电脑上运行监视者程序，找到内置神经增幅器原型机。我取得了进展，但还有工作要做。我还拿到了维护密码，可以用它来破坏供暖系统。这也许可以让大多数人都离开这栋大楼。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3788,6 +3864,8 @@ Stages:
         String: 'Wiatrak w systemie wentylacji został wyłączony. Muszę się skupić na swoich celach: uruchomieniu programu nadzorującego na komputerach Lucasa i Faye oraz na znalezieniu prototypu wewnętrznego neuroamplifikatora. '
       - Language: Portuguese_Brazil
         String: 'Desliguei o ventilador do sistema de ventilação. Tenho que me concentrar nos meus objetivos: rodar o Programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno. '
+      - Language: ChineseSimplified
+        String: '我关掉了通风系统的风扇。现在得把心思放回自己的目标上：在卢卡斯和菲伊的电脑上运行监视者程序，并且找到内置神经增幅器样机。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3840,6 +3918,8 @@ Stages:
         String: 'Wiatrak w systemie wentylacji został wyłączony. Muszę się skupić na swoich celach: uruchomieniu programu nadzorującego na komputerach Lucasa i Faye oraz na znalezieniu prototypu wewnętrznego neuroamplifikatora. Udało mi się poczynić pewne postępy, ale przede mną wciąż sporo pracy.'
       - Language: Portuguese_Brazil
         String: 'Desliguei o ventilador do sistema de ventilação. Tenho que me concentrar nos meus objetivos: rodar o Programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno. Consegui avançar, mas ainda tenho trabalho pela frente.'
+      - Language: ChineseSimplified
+        String: 我关掉了通风系统的风扇。现在得把心思放回自己的目标上：在卢卡斯和菲伊的电脑上运行监视者程序，并且找到内置神经增幅器样机。我取得了进展，但还有工作要做。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3896,6 +3976,8 @@ Stages:
         String: 'Wiatrak w systemie wentylacji został wyłączony. Muszę się skupić na swoich celach: uruchomieniu programu nadzorującego na komputerach Lucasa i Faye oraz na znalezieniu prototypu wewnętrznego neuroamplifikatora. Imogene dała mi kartę dostępową do szafki pracownika, który zgodził się pomóc. Jeśli znajdę jego szafkę na pierwszym piętrze biurowym, w środku czekać na mnie będzie uniform oraz karta dostępowa do działu badań i rozwoju.'
       - Language: Portuguese_Brazil
         String: 'Desliguei o ventilador do sistema de ventilação. Preciso voltar a me concentrar nos meus objetivos: rodar o Programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamplificador Interno. Imogene me deu a chave de acesso do armário de um funcionário que concordou em ajudar. Posso pegar um uniforme e um cartão de acesso da P&D se eu encontrar o armário no primeiro andar de escritórios.'
+      - Language: ChineseSimplified
+        String: 我关掉了通风系统的风扇。现在得把心思放回自己的目标上：在卢卡斯和菲伊的电脑上运行监视者程序，找到内置神经增幅器原型机。有个员工同意帮忙，伊莫金把他的员工储物柜钥匙卡给我了。如果我能在第一层办公室找到他的储物柜，我就可以拿到一件研发部制服和安全通行卡。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3961,6 +4043,8 @@ Stages:
         String: 'Wiatrak w systemie wentylacji został wyłączony. Muszę się skupić na swoich celach: uruchomieniu programu nadzorującego na komputerach Lucasa i Faye oraz na znalezieniu prototypu wewnętrznego neuroamplifikatora. Są pewne postępy, ale wciąż jest co robić. Imogene dała mi kartę dostępową do szafki pracownika, który zgodził się pomóc. Jeśli znajdę jego szafkę na pierwszym piętrze biurowym, w środku czekać na mnie będzie uniform oraz karta dostępowa do działu badań i rozwoju.'
       - Language: Portuguese_Brazil
         String: 'Desliguei o ventilador do sistema de ventilação. Preciso voltar a me concentrar nos meus objetivos: rodar o Programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamplificador Interno. Consegui avançar, mas ainda tenho trabalho pela frente. Imogene me deu a chave de acesso do armário de um funcionário que concordou em ajudar. Posso pegar um uniforme e um cartão de acesso da P&D se eu encontrar o armário no primeiro andar de escritórios.'
+      - Language: ChineseSimplified
+        String: 我关掉了通风系统的风扇。现在得把心思放回自己的目标上：在卢卡斯和菲伊的电脑上运行监视者程序，找到内置神经增幅器原型机。我取得了进展，但还有工作要做。有个员工同意帮忙，伊莫金把他的员工储物柜钥匙卡给我了。如果我能在第一层办公室找到他的储物柜，我就可以拿到一件研发部制服和安全通行卡。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4017,6 +4101,8 @@ Stages:
         String: 'Wiatrak w systemie wentylacji został wyłączony. Muszę się skupić na swoich celach: uruchomieniu programu nadzorującego na komputerach Lucasa i Faye oraz na znalezieniu prototypu wewnętrznego neuroamplifikatora. Mam też techniczny kod dostępu, który mogę wykorzystać do sabotowania systemu ogrzewania. W ten sposób pozbędę się z budynku większości osób.'
       - Language: Portuguese_Brazil
         String: Desliguei o ventilador do sistema de ventilação. Tenho que rodar o Programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno. Também tenho uma senha da manutenção que posso usar para sabotar o sistema de aquecimento. Isso pode ajudar a evacuar a maioria das pessoas do prédio.
+      - Language: ChineseSimplified
+        String: 我关掉了通风系统的风扇。我需要在卢卡斯和菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型机。我还拿到了维护密码，可以用它来破坏供暖系统。这也许可以让大多数人都离开这栋大楼。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4082,6 +4168,8 @@ Stages:
         String: 'Wiatrak w systemie wentylacji został wyłączony. Muszę się skupić na swoich celach: uruchomieniu programu nadzorującego na komputerach Lucasa i Faye oraz na znalezieniu prototypu wewnętrznego neuroamplifikatora. Są pewne postępy, ale wciąż jest co robić. Mam też techniczny kod dostępu, który mogę wykorzystać do sabotowania systemu ogrzewania. W ten sposób pozbędę się z budynku większości osób.'
       - Language: Portuguese_Brazil
         String: 'Desliguei o ventilador do sistema de ventilação. Preciso voltar a me concentrar nos meus objetivos: rodar o Programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamplificador Interno. Consegui avançar, mas ainda tenho trabalho pela frente. Também tenho uma senha da manutenção que posso usar para sabotar o sistema de aquecimento. Isso pode ajudar a evacuar a maioria das pessoas do prédio.'
+      - Language: ChineseSimplified
+        String: 我关掉了通风系统的风扇。现在得把心思放回自己的目标上：在卢卡斯和菲伊的电脑上运行监视者程序，找到内置神经增幅器原型机。我取得了进展，但还有工作要做。我还拿到了维护密码，可以用它来破坏供暖系统。这也许可以让大多数人都离开这栋大楼。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4117,6 +4205,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerach Lucasa i Faye, a następnie znaleźć prototyp wewnętrznego neuroamplifikatora.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno.
+      - Language: ChineseSimplified
+        String: 我需要在卢卡斯和菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4156,6 +4246,8 @@ Stages:
         String: 'Udało mi się przekonać Ninę, aby zorganizowała mi spotkanie z Lucasem, dzięki czemu mam wstęp na piętro kierownicze. Muszę sprawdzić, czy zdołam wykorzystać okazję i uruchomić na jego komputerze program nadzorujący. '
       - Language: Portuguese_Brazil
         String: 'Convenci Nina a marcar uma reunião para mim e Lucas, o que me deu acesso ao andar executivo. Preciso ver se consigo usar essa oportunidade para rodar o programa Inspetor no computador dele. '
+      - Language: ChineseSimplified
+        String: '我说服了尼娜，她给了我去行政楼层的权限，好让我和卢卡斯见一面。我应该尝试利用这个机会，在他的电脑上运行监视者程序。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4199,6 +4291,8 @@ Stages:
         String: Udało mi się przekonać Ninę, aby zorganizowała mi spotkanie z Lucasem, dzięki czemu mam wstęp na piętro kierownicze. Mogę poszukać jego gabinetu i z nim pogadać, ale moje główne cele to uruchomienie programu nadzorującego na komputerze Faye i znalezienie prototypu wewnętrznego neuroamplifikatora na piętrze działu badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Convenci Nina a marcar uma reunião para mim e Lucas, o que me deu acesso ao andar executivo. Poderia encontrá-lo e conversar com ele em seu escritório, mas meus objetivos principais são rodar o programa Inspetor no computador de Faye e encontrar o protótipo de neuroamplificador interno no andar de Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我说服了尼娜，她给了我去行政楼层的权限，好让我和卢卡斯见一面。我可以去他的办公室找他对话，但我的主要目标是前往研发楼层，在菲伊的电脑上运行监视者程序，以及寻找内置神经增幅器样机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4243,6 +4337,8 @@ Stages:
         String: Udało mi się przekonać Ninę, aby zorganizowała mi spotkanie z Lucasem, dzięki czemu mam wstęp na piętro kierownicze. Mogę poszukać jego gabinetu i z nim pogadać, ale moim głównym celem jest uruchomienie programu nadzorującego na komputerze Faye na piętrze działu badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Convenci Nina a marcar uma reunião para mim e Lucas, o que me deu acesso ao andar executivo. Poderia encontrá-lo e conversar com ele em seu escritório, mas meu objetivo principal é rodar o programa Inspetor no computador de Faye no andar de Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我说服了尼娜，她给了我去行政楼层的权限，好让我和卢卡斯见一面。我可以去他的办公室找他对话，但我的主要目标是前往研发楼层，在菲伊的电脑上运行监视者程序。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4287,6 +4383,8 @@ Stages:
         String: Udało mi się przekonać Ninę, aby zorganizowała mi spotkanie z Lucasem, dzięki czemu mam wstęp na piętro kierownicze. Mogę poszukać jego gabinetu i z nim pogadać, ale moim głównym celem jest znalezienie prototypu wewnętrznego neuroamplifikatora na piętrze działu badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Convenci Nina a marcar uma reunião para mim e Lucas, o que me deu acesso ao andar executivo. Poderia encontrá-lo e conversar com ele em seu escritório, mas meu objetivo principal é encontrar o protótipo de neuroamplificador interno no andar de Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我说服了尼娜，她给了我去行政楼层的权限，好让我和卢卡斯见一面。我可以去他的办公室找他对话，但我的主要目标是前往研发楼层寻找内置神经增幅器样机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4369,6 +4467,8 @@ Stages:
         String: 'Jestem już po rozmowie z Lucasem, ale muszę się skupić na swoich celach: uruchomieniu programu nadzorującego na komputerach Lucasa i Faye oraz na znalezieniu prototypu wewnętrznego neuroamplifikatora.'
       - Language: Portuguese_Brazil
         String: 'Falei com Lucas, mas tenho que me concentrar nos meus objetivos: rodar o programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno.'
+      - Language: ChineseSimplified
+        String: 我和卢卡斯谈过了，但我必须把心思放回自己的目标上：在卢卡斯和菲伊的电脑上运行监视者程序，并且找到内置神经增幅器样机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4420,6 +4520,8 @@ Stages:
         String: 'Jestem już po rozmowie z Lucasem, ale muszę się skupić na swoich celach: uruchomieniu programu nadzorującego na komputerach Lucasa i Faye oraz na znalezieniu prototypu wewnętrznego neuroamplifikatora. Udało mi się poczynić pewne postępy, ale przede mną wciąż sporo pracy.'
       - Language: Portuguese_Brazil
         String: 'Falei com Lucas, mas tenho que me concentrar nos meus objetivos: rodar o programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno. Consegui avançar, mas ainda tenho trabalho pela frente.'
+      - Language: ChineseSimplified
+        String: 我和卢卡斯谈过了，但我必须把心思放回自己的目标上：在卢卡斯和菲伊的电脑上运行监视者程序，并且找到内置神经增幅器样机。我取得了进展，但还有工作要做。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4457,6 +4559,8 @@ Stages:
         String: Lucas dał się przekonać i da mi dostęp do swojego komputera. Mogę to wykorzystać i uruchomić program nadzorujący.
       - Language: Portuguese_Brazil
         String: Convenci Lucas a me dar acesso ao seu computador. Posso aproveitar a oportunidade para rodar o programa Inspetor.
+      - Language: ChineseSimplified
+        String: 我说服了卢卡斯，他同意把电脑给我用。我可以趁机运行监视者程序。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4516,6 +4620,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Faye oraz znaleźć prototyp wewnętrznego neuroamplifikatora. Obie maszyny znajdę w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador da Faye e achar o Protótipo do Neuroamp Interno. Eles devem estar no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在研发楼层菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4560,6 +4666,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Faye w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador da Faye no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在研发楼层菲伊的电脑上运行监视者程序。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4604,6 +4712,8 @@ Stages:
         String: Muszę znaleźć prototyp wewnętrznego neuroamplifikatora w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que achar o Protótipo do Neuroamp Interno no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在研发楼层找到内置神经增幅器原型机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4639,6 +4749,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerach Lucasa i Faye, a następnie znaleźć prototyp wewnętrznego neuroamplifikatora.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno.
+      - Language: ChineseSimplified
+        String: 我需要在卢卡斯和菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4713,6 +4825,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerach Lucasa i Faye, a następnie znaleźć prototyp wewnętrznego neuroamplifikatora.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno.
+      - Language: ChineseSimplified
+        String: 我需要在卢卡斯和菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4756,6 +4870,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Faye oraz znaleźć prototyp wewnętrznego neuroamplifikatora. Obie maszyny znajdę w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador da Faye e achar o Protótipo do Neuroamp Interno. Eles devem estar no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在研发楼层菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4823,6 +4939,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Lucasa na piętrze kierownictwa oraz znaleźć prototyp wewnętrznego neuroamplifikatora w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador do Lucas no andar executivo e achar o Protótipo do Neuroamp Interno no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在行政楼层卢卡斯的电脑上运行监视者程序，并在研发楼层找到内置神经增幅器原型机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4867,6 +4985,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Lucasa na piętrze kierownictwa.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador do Lucas no andar executivo.
+      - Language: ChineseSimplified
+        String: 我需要在行政楼层卢卡斯的电脑上运行监视者程序。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4911,6 +5031,8 @@ Stages:
         String: Muszę znaleźć prototyp wewnętrznego neuroamplifikatora w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que achar o Protótipo do Neuroamp Interno no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在研发楼层找到内置神经增幅器原型机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4961,6 +5083,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerach Lucasa i Faye, a następnie znaleźć prototyp wewnętrznego neuroamplifikatora.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno.
+      - Language: ChineseSimplified
+        String: 我需要在卢卡斯和菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5004,6 +5128,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Faye oraz znaleźć prototyp wewnętrznego neuroamplifikatora. Obie maszyny znajdę w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador da Faye e achar o Protótipo do Neuroamp Interno. Eles devem estar no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在研发楼层菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5035,6 +5161,8 @@ Stages:
         String: Muszę znaleźć kartę identyfikacyjną działu badań i dostać się do sali badań nad neuroamplifikatorem.
       - Language: Portuguese_Brazil
         String: Tenho que achar o cartão de identificação da P&D e entrar na sala de pesquisa de neuroamps.
+      - Language: ChineseSimplified
+        String: 我需要找到研发部身份卡，以进入神经增幅器研究室
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5085,6 +5213,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerach Lucasa i Faye, a następnie znaleźć prototyp wewnętrznego neuroamplifikatora.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor nos computadores de Lucas e Faye e encontrar o Protótipo do Neuroamp Interno.
+      - Language: ChineseSimplified
+        String: 我需要在卢卡斯和菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5128,6 +5258,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Faye oraz znaleźć prototyp wewnętrznego neuroamplifikatora. Obie maszyny znajdę w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador da Faye e achar o Protótipo do Neuroamp Interno. Eles devem estar no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在研发楼层菲伊的电脑上运行监视者程序，并找到内置神经增幅器原型机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5172,6 +5304,8 @@ Stages:
         String: Muszę znaleźć prototyp wewnętrznego neuroamplifikatora w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que achar o Protótipo do Neuroamp Interno no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在研发楼层找到内置神经增幅器原型机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5216,6 +5350,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Faye w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador da Faye no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在研发楼层菲伊的电脑上运行监视者程序。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5259,6 +5395,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Lucasa na piętrze kierownictwa oraz znaleźć prototyp wewnętrznego neuroamplifikatora w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador do Lucas no andar executivo e achar o Protótipo do Neuroamp Interno no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在行政楼层卢卡斯的电脑上运行监视者程序，并在研发楼层找到内置神经增幅器原型机。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5303,6 +5441,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Lucasa na piętrze kierownictwa.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador do Lucas no andar executivo.
+      - Language: ChineseSimplified
+        String: 我需要在行政楼层卢卡斯的电脑上运行监视者程序。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5346,6 +5486,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Lucasa na piętrze kierownictwa oraz komputerze Faye w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador do Lucas no andar executivo e no computador da Faye no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在行政楼层卢卡斯的电脑和研发楼层菲伊的电脑上运行监视者程序。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5397,6 +5539,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Lucasa na piętrze kierownictwa oraz na komputerze Faye w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador do Lucas no andar executivo e no computador da Faye no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在行政楼层卢卡斯的电脑和研发楼层菲伊的电脑上运行监视者程序。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5441,6 +5585,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Lucasa na piętrze kierownictwa.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador do Lucas no andar executivo.
+      - Language: ChineseSimplified
+        String: 我需要在行政楼层卢卡斯的电脑上运行监视者程序。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5485,6 +5631,8 @@ Stages:
         String: Muszę uruchomić program nadzorujący na komputerze Faye w dziale badań i rozwoju.
       - Language: Portuguese_Brazil
         String: Tenho que rodar o programa Inspetor no computador da Faye no andar da Pesquisa e Desenvolvimento.
+      - Language: ChineseSimplified
+        String: 我需要在研发楼层菲伊的电脑上运行监视者程序。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5512,6 +5660,8 @@ Stages:
         String: Moje zadanie w budynku Infinity LTD zostało wykonane. Muszę dostarczyć tabliczkę Davidowi Barronowi w siedzibie ZUinfo w dzielnicy handlowej Nowej Atlantydy.
       - Language: Portuguese_Brazil
         String: Concluí minha missão dentro do prédio da Infinity LTD. Preciso entregar o códice a David Barron na ANSC, no distrito comercial de Nova Atlântida.
+      - Language: ChineseSimplified
+        String: 我得去新亚特兰蒂斯城商业区的定居新闻台，把这块数据板交给大卫·巴伦，让他知道我已经完成了无限有限公司的任务。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5579,6 +5729,8 @@ Stages:
         String: Moje zadanie zostało oficjalnie ukończone. Muszę wrócić do Masako w Wieży Ryujina w Neonie i ją o tym poinformować.
       - Language: Portuguese_Brazil
         String: Concluí oficialmente minha missão. Preciso voltar para falar com Masako na Torre Ryujin em Neon e avisar que terminei.
+      - Language: ChineseSimplified
+        String: 我得返回霓虹橙龙神大楼去见雅子，让她知道我已经正式完成了我的任务。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5622,6 +5774,8 @@ Stages:
         String: David Barron transmituje informacje o Infinity LTD. Muszę posłuchać jego materiału, aby się dowiedzieć, co ma na ten temat do powiedzenia.
       - Language: Portuguese_Brazil
         String: David Barron está transmitindo as notícias sobre a Infinity LTD. Eu deveria ouvir e ver o que ele tem a dizer.
+      - Language: ChineseSimplified
+        String: 大卫·巴伦正在播报无限有限公司的新闻。我应该听听看他说了什么。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5649,6 +5803,8 @@ Stages:
         String: Muszę porozmawiać z Masako o transmisji ZUinfo.
       - Language: Portuguese_Brazil
         String: Preciso falar com Masako sobre a transmissão da ANSC.
+      - Language: ChineseSimplified
+        String: 我得和雅子谈谈定居新闻台的事。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5757,6 +5913,8 @@ Stages:
         String: Udało mi się usunąć wszystkie informacje dotyczące projektu Dominion z systemów Infinity LTD oraz przekazać dowody na ich przestępstwa Davidowi Barronowi z ZUinfo.
       - Language: Portuguese_Brazil
         String: Consegui apagar todas as evidências do Projeto Domínio da Infinity LTD e entreguei as evidências dos crimes a David Barron, da ANSC.
+      - Language: ChineseSimplified
+        String: 我成功抹除了无限有限公司里所有与主宰计划相关的证据，并把他们的罪证交给了定居新闻台的大卫·巴伦。
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -5799,6 +5957,8 @@ Objectives:
       String: Spotkaj się z Daltonem w jego biurze
     - Language: Portuguese_Brazil
       String: Encontre Dalton no escritório dele
+    - Language: ChineseSimplified
+      String: 在道尔顿的办公室与他会面
   Targets:
   - AliasID: 2
 - Index: 200
@@ -5822,6 +5982,8 @@ Objectives:
       String: Porozmawiaj z Daltonem
     - Language: Portuguese_Brazil
       String: Fale com Dalton
+    - Language: ChineseSimplified
+      String: 与道尔顿交谈
   Targets:
   - AliasID: 2
 - Index: 300
@@ -5845,6 +6007,8 @@ Objectives:
       String: Usiądź w sali konferencyjnej
     - Language: Portuguese_Brazil
       String: Sente-se na sala de conferências
+    - Language: ChineseSimplified
+      String: 在会议室就坐
   Targets:
   - AliasID: 23
 - Index: 350
@@ -5868,6 +6032,8 @@ Objectives:
       String: Czekaj na przybycie Daltona
     - Language: Portuguese_Brazil
       String: Espere Dalton chegar
+    - Language: ChineseSimplified
+      String: 等待道尔顿前来
   Targets:
   - AliasID: 2
 - Index: 400
@@ -5891,6 +6057,8 @@ Objectives:
       String: Wysłuchaj osób biorących udział w spotkaniu
     - Language: Portuguese_Brazil
       String: Ouça a reunião
+    - Language: ChineseSimplified
+      String: 听完会议对话
   Targets:
   - AliasID: 23
 - Index: 500
@@ -5914,6 +6082,8 @@ Objectives:
       String: Spotkaj się z Veeną w dziale neuroamplifikatorów
     - Language: Portuguese_Brazil
       String: Encontre Veena na divisão de neuroamps
+    - Language: ChineseSimplified
+      String: 在神经增幅器分部与维纳见面
   Targets:
   - AliasID: 5
 - Index: 600
@@ -5937,6 +6107,8 @@ Objectives:
       String: Porozmawiaj z Veeną
     - Language: Portuguese_Brazil
       String: Fale com Veena
+    - Language: ChineseSimplified
+      String: 与维纳交谈
   Targets:
   - AliasID: 5
 - Index: 700
@@ -5960,6 +6132,8 @@ Objectives:
       String: Połóż się na stole operacyjnym
     - Language: Portuguese_Brazil
       String: Deite-se na mesa de cirurgia
+    - Language: ChineseSimplified
+      String: 躺在手术台上
   Targets:
   - AliasID: 28
 - Index: 800
@@ -5983,6 +6157,8 @@ Objectives:
       String: Porozmawiaj z Veeną
     - Language: Portuguese_Brazil
       String: Fale com Veena
+    - Language: ChineseSimplified
+      String: 与维纳交谈
   Targets:
   - AliasID: 5
 - Index: 850
@@ -6006,6 +6182,8 @@ Objectives:
       String: Udaj się na taras obserwacyjny
     - Language: Portuguese_Brazil
       String: Vá para o deque de observação
+    - Language: ChineseSimplified
+      String: 前往观察台
   Targets:
   - AliasID: 58
 - Index: 900
@@ -6029,6 +6207,8 @@ Objectives:
       String: Użyj na DeMarcusie manipulacji, aby znaleźć sposób na otwarcie drzwi
     - Language: Portuguese_Brazil
       String: Use Manipulação em DeMarcus para encontrar uma forma de abrir a porta
+    - Language: ChineseSimplified
+      String: 操纵德马库斯设法打开门
   Targets:
   - AliasID: 7
   - AliasID: 46
@@ -6078,6 +6258,8 @@ Objectives:
       String: Poczekaj na Veenę i DeMarcusa
     - Language: Portuguese_Brazil
       String: Espere por Veena e DeMarcus
+    - Language: ChineseSimplified
+      String: 等待维纳与德马库斯
   Targets:
   - AliasID: 5
 - Index: 1000
@@ -6101,6 +6283,8 @@ Objectives:
       String: Porozmawiaj z Veeną
     - Language: Portuguese_Brazil
       String: Fale com Veena
+    - Language: ChineseSimplified
+      String: 与维纳交谈
   Targets:
   - AliasID: 5
 - Index: 1100
@@ -6124,6 +6308,8 @@ Objectives:
       String: Porozmawiaj z Masako w jej biurze
     - Language: Portuguese_Brazil
       String: Fale com Masako no escritório dela
+    - Language: ChineseSimplified
+      String: 在雅子的办公室与她会面
   Targets:
   - {}
 - Index: 1150
@@ -6147,6 +6333,8 @@ Objectives:
       String: Porozmawiaj z Daltonem
     - Language: Portuguese_Brazil
       String: Fale com Dalton
+    - Language: ChineseSimplified
+      String: 与道尔顿交谈
   Targets:
   - AliasID: 2
 - Index: 1155
@@ -6170,6 +6358,8 @@ Objectives:
       String: Poczekaj na Daltona
     - Language: Portuguese_Brazil
       String: Espere Dalton
+    - Language: ChineseSimplified
+      String: 等待道尔顿
   Targets:
   - AliasID: 2
 - Index: 1180
@@ -6193,6 +6383,8 @@ Objectives:
       String: Porozmawiaj z Daltonem
     - Language: Portuguese_Brazil
       String: Fale com Dalton
+    - Language: ChineseSimplified
+      String: 与道尔顿交谈
   Targets:
   - AliasID: 2
 - Index: 1200
@@ -6216,6 +6408,8 @@ Objectives:
       String: Spotkaj się z Ularu w jej biurze
     - Language: Portuguese_Brazil
       String: Encontre-se com Ularu no escritório dela
+    - Language: ChineseSimplified
+      String: 在乌拉鲁的办公室与她会面
   Targets:
   - AliasID: 124
 - Index: 1250
@@ -6239,6 +6433,8 @@ Objectives:
       String: Porozmawiaj z Ularu
     - Language: Portuguese_Brazil
       String: Fale com Ularu
+    - Language: ChineseSimplified
+      String: 与乌拉鲁交谈
   Targets:
   - AliasID: 1
 - Index: 1300
@@ -6262,6 +6458,8 @@ Objectives:
       String: Udaj się do Nowej Atlantydy
     - Language: Portuguese_Brazil
       String: Viaje para Nova Atlântida
+    - Language: ChineseSimplified
+      String: 前往新亚特兰蒂斯城
   Targets:
   - AliasID: 39
 - Index: 1350
@@ -6285,6 +6483,8 @@ Objectives:
       String: (Opcj.) Spotkaj się z Imogene w TerraBrew w dzielnicy handlowej
     - Language: Portuguese_Brazil
       String: (Opc.) Encontre Imogene no TerraBrew do Dist. Comercial
+    - Language: ChineseSimplified
+      String: （可选）在地球经典咖啡与伊莫金见面
   Targets:
   - AliasID: 70
 - Index: 1360
@@ -6308,6 +6508,8 @@ Objectives:
       String: (Opcj.) Porozmawiaj z Imogene
     - Language: Portuguese_Brazil
       String: (Opc.) Fale com Imogene
+    - Language: ChineseSimplified
+      String: （可选）与伊莫金交谈
   Targets:
   - AliasID: 70
 - Index: 1400
@@ -6331,6 +6533,8 @@ Objectives:
       String: Wejdź do siedziby głównej Infinity LTD
     - Language: Portuguese_Brazil
       String: Entre na sede corporativa da Infinity LTD
+    - Language: ChineseSimplified
+      String: 进入无限有限公司总部
 - Index: 1410
   Flags: []
   DisplayText:
@@ -6352,6 +6556,8 @@ Objectives:
       String: Użyj wejścia na dachu
     - Language: Portuguese_Brazil
       String: Use a entrada de acesso pelo terraço
+    - Language: ChineseSimplified
+      String: 使用屋顶通行入口
   Targets:
   - AliasID: 79
     Conditions:
@@ -6392,6 +6598,8 @@ Objectives:
       String: Zamelduj się w recepcji Infinity LTD
     - Language: Portuguese_Brazil
       String: Apresente-se na recepção da Infinity LTD
+    - Language: ChineseSimplified
+      String: 在无限有限公司前台登记
   Targets:
   - AliasID: 82
 - Index: 1430
@@ -6415,6 +6623,8 @@ Objectives:
       String: Spotkaj się z Aelysem Ortizem
     - Language: Portuguese_Brazil
       String: 'Encontre-se com Aelys Ortiz '
+    - Language: ChineseSimplified
+      String: 与阿里斯·奥尔蒂斯见面
   Targets:
   - AliasID: 90
 - Index: 1435
@@ -6438,6 +6648,8 @@ Objectives:
       String: Usiądź w poczekalni
     - Language: Portuguese_Brazil
       String: Sente-se na sala de espera
+    - Language: ChineseSimplified
+      String: 在等候区就坐
   Targets:
   - AliasID: 91
 - Index: 1440
@@ -6461,6 +6673,8 @@ Objectives:
       String: Poczekaj, aż Aelys wyjdzie
     - Language: Portuguese_Brazil
       String: Espere Aelys sair
+    - Language: ChineseSimplified
+      String: 等待阿里斯离开
   Targets:
   - AliasID: 90
 - Index: 1450
@@ -6484,6 +6698,8 @@ Objectives:
       String: (Opcj.) Sabotuj system ogrzewania
     - Language: Portuguese_Brazil
       String: (Opc.) Sabote o sistema de aquecimento
+    - Language: ChineseSimplified
+      String: （可选）破坏供暖系统
   Targets:
   - AliasID: 85
 - Index: 1470
@@ -6507,6 +6723,8 @@ Objectives:
       String: (Opcj.) Znajdź klucz i uniform działu badań i rozwoju
     - Language: Portuguese_Brazil
       String: '(Opc.) Encontre o uniforme e o cartão da P&D '
+    - Language: ChineseSimplified
+      String: '（可选）找到研发部制服和通行卡 '
   Targets:
   - AliasID: 73
     Conditions:
@@ -6567,6 +6785,8 @@ Objectives:
       String: (Opcj.) Zmanipuluj strażnika, aby wyłączyć wiatrak.
     - Language: Portuguese_Brazil
       String: (Opcional) Manipule o guarda para desligar o ventilador
+    - Language: ChineseSimplified
+      String: （可选）操纵守卫关闭风扇
   Targets:
   - AliasID: 144
   - AliasID: 143
@@ -6591,6 +6811,8 @@ Objectives:
       String: Uruchom program na komputerze Lucasa
     - Language: Portuguese_Brazil
       String: 'Execute o programa no computador do Lucas '
+    - Language: ChineseSimplified
+      String: '在卢卡斯的电脑上运行该程序 '
   Targets:
   - AliasID: 36
 - Index: 1510
@@ -6614,6 +6836,8 @@ Objectives:
       String: (Opcj.) Porozmawiaj z Lucasem Drexlerem
     - Language: Portuguese_Brazil
       String: (Opc.) Fale com Lucas Drexler
+    - Language: ChineseSimplified
+      String: （可选）与卢卡斯·德雷克斯勒交谈
   Targets:
   - AliasID: 106
 - Index: 1560
@@ -6637,6 +6861,8 @@ Objectives:
       String: Znajdź sposób na dostanie się do działu badań i rozwoju
     - Language: Portuguese_Brazil
       String: Descubra como entrar no departamento de P&D
+    - Language: ChineseSimplified
+      String: 寻找进入研发部的方法
   Targets:
   - AliasID: 103
     Conditions:
@@ -6703,6 +6929,8 @@ Objectives:
       String: Uruchom program na komputerze Faye
     - Language: Portuguese_Brazil
       String: 'Execute o programa no computador de Faye '
+    - Language: ChineseSimplified
+      String: '在菲伊的电脑上运行该程序 '
   Targets:
   - AliasID: 38
 - Index: 1700
@@ -6726,6 +6954,8 @@ Objectives:
       String: Zdobądź prototyp neuroamplifikatora
     - Language: Portuguese_Brazil
       String: 'Obtenha o protótipo do neuroamplificador '
+    - Language: ChineseSimplified
+      String: '获取神经增幅器原型机 '
   Targets:
   - AliasID: 39
 - Index: 1750
@@ -6749,6 +6979,8 @@ Objectives:
       String: Znajdź kartę identyfikacyjną działu badań
     - Language: Portuguese_Brazil
       String: Encontre um cartão de ID da P&D
+    - Language: ChineseSimplified
+      String: 找到研发部身份卡
   Targets:
   - AliasID: 118
 - Index: 1800
@@ -6772,6 +7004,8 @@ Objectives:
       String: Dostarcz dowody Davidowi Barronowi w siedzibie ZUinfo
     - Language: Portuguese_Brazil
       String: Entregue as evidências a David Barron na ANSC
+    - Language: ChineseSimplified
+      String: 将证据交给定居新闻台外地办事处的大卫
   Targets:
   - AliasID: 41
 - Index: 1900
@@ -6795,6 +7029,8 @@ Objectives:
       String: Złóż raport Masako w Wieży Ryujina
     - Language: Portuguese_Brazil
       String: Apresente-se a Masako na Torre Ryujin
+    - Language: ChineseSimplified
+      String: 返回龙神大楼向雅子报到
   Targets:
   - {}
 - Index: 2000
@@ -6818,6 +7054,8 @@ Objectives:
       String: Wysłuchaj rozmowy
     - Language: Portuguese_Brazil
       String: Ouça a conversa
+    - Language: ChineseSimplified
+      String: 听完对话
   Targets:
   - AliasID: 43
 - Index: 2100
@@ -6841,6 +7079,8 @@ Objectives:
       String: Porozmawiaj z Masako
     - Language: Portuguese_Brazil
       String: Fale com Masako
+    - Language: ChineseSimplified
+      String: 与雅子交谈
   Targets:
   - {}
 Aliases:

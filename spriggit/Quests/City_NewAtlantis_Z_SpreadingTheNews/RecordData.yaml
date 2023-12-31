@@ -79,6 +79,8 @@ Name:
     String: Roznoszenie wieści
   - Language: Portuguese_Brazil
     String: Divulgando as Notícias
+  - Language: ChineseSimplified
+    String: 传播新闻
 Data:
   Flags:
   - RunOnce
@@ -119,6 +121,8 @@ Stages:
         String: 'Tommy Bitlow poprosił mnie o dostarczenie ludziom w Nowej Atlantydzie trzech tabliczek zawierających materiały dziennikarskie jego autorstwa. Ma nadzieje, że jeśli więcej osób przeczyta i zachwyci się tworzonymi przez niego treściami, ZUinfo zacznie podchodzić do niego trochę poważniej. '
       - Language: Portuguese_Brazil
         String: 'Tommy Bitlow me pediu para entregar três códices de dados com artigos jornalísticos dele para as pessoas de Nova Atlântida. Ele espera que, se mais gente ler e gostar do conteúdo dele, a ANSC comece a levá-lo mais a sério. '
+      - Language: ChineseSimplified
+        String: '托米·比特鲁让我带着三块报道数据版，前去给新亚特兰蒂斯城的人们看看。他希望如果有更多人喜欢他写的内容，定居新闻台会更重视他。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -146,6 +150,8 @@ Stages:
         String: Artykuł Tommy'ego nie przypadł do gustu George'owi Saint-George, który skrytykował go w bardzo ostrych słowach.
       - Language: Portuguese_Brazil
         String: George Saint-George leu o trabalho do Tommy e não gostou. Fez uma crítica duríssima ao texto.
+      - Language: ChineseSimplified
+        String: 乔治·圣乔治看了托米的文章，但并不太喜欢文中内容。只能说，他的评价很刺耳。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -173,6 +179,8 @@ Stages:
         String: "Royce zdecydowanie nie był zachwycony tym, co Tommy napisał na temat Dawn's Roost. "
       - Language: Portuguese_Brazil
         String: "Royce não gostou nem um pouco do que o Tommy escreveu sobre o Dawn's Roost. "
+      - Language: ChineseSimplified
+        String: '托米对黎明烘培的评价显然令罗伊斯很不满意。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -200,6 +208,8 @@ Stages:
         String: Catherine była urażona tym, co Tommy napisał o Sanctum Universum.
       - Language: Portuguese_Brazil
         String: Parece que a Catherine ficou ofendida com o artigo do Tommy sobre a Sanctum Universum.
+      - Language: ChineseSimplified
+        String: 看来托米对于圣宇教的报道冒犯到凯瑟琳了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -227,6 +237,8 @@ Stages:
         String: Może pewnego dnia Tommy'emu uda się przebić. Jednak sądząc po tym, jak ludzie reagują na jego artykuły, przyjdzie mu na ten dzień jeszcze sporo poczekać.
       - Language: Portuguese_Brazil
         String: Talvez um dia o Tommy alcance o estrelato, mas pelo que vi das reação à escrita dele... isso não vai acontecer tão cedo.
+      - Language: ChineseSimplified
+        String: 也许有一天托米会成为大人物。但从大家对他写作的反馈来看，这一天还很遥远。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -267,6 +279,8 @@ Objectives:
       String: Dostarcz tabliczkę George'owi Saint-George
     - Language: Portuguese_Brazil
       String: Entregue o códice para George Saint-George
+    - Language: ChineseSimplified
+      String: 把数据板交给乔治·圣乔治
   Targets:
   - AliasID: 1
 - Index: 30
@@ -290,6 +304,8 @@ Objectives:
       String: Dostarcz tabliczkę Royce Elgin
     - Language: Portuguese_Brazil
       String: Entregue o códice para Royce Elgin
+    - Language: ChineseSimplified
+      String: 把数据板交给罗伊斯·埃尔金
   Targets:
   - AliasID: 5
 - Index: 40
@@ -313,6 +329,8 @@ Objectives:
       String: Dostarcz tabliczkę Catherine Alvarez
     - Language: Portuguese_Brazil
       String: Entregue o códice para Catherine Alvarez
+    - Language: ChineseSimplified
+      String: 把数据板交给凯瑟琳·阿尔瓦雷斯
   Targets:
   - AliasID: 2
 - Index: 50
@@ -336,6 +354,8 @@ Objectives:
       String: Wróć do Tommy'ego
     - Language: Portuguese_Brazil
       String: Volte até Tommy
+    - Language: ChineseSimplified
+      String: 返回托米处
   Targets:
   - {}
 Aliases:

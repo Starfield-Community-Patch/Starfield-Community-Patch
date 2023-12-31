@@ -1,0 +1,503 @@
+FormKey: 0059A7:Starfield.esm
+EditorID: Companion_Andreja
+VirtualMachineAdapter:
+  Scripts:
+  - Name: companionactorscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Affinity
+      Object: 0A1B80:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID
+      Object: 2BE2D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionQuest
+      Object: 23DF2A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_TxtReplace_QuestName
+      Object: 0963E2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PreventStoryGateScenes
+      Object: 28A168:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: CompanionAffinityScript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: AngerEventData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 180F0A:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerReason
+          Object: 2C2A36:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 180F0B:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerReason
+          Object: 2AAE98:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 3EAD2E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: companioncrimeresponsescript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnCombat
+      Object: 180F0A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnKill
+      Object: 180F0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerReason_Common_1_Murder
+      Object: 2C2A36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_NotCivilian
+      Object: 0F223F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentCompanionFaction
+      Object: 023C01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: CompanionDebugScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActiveCompanion
+      Object: 2A567C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_DEBUG_OnPlayerShip
+      Object: 2C4C96:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: QuestStageData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: QuestToSet
+          Object: 0160A9:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 40
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: QuestToSet
+          Object: 0160A9:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 70
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: QuestToSet
+          Object: 0160A9:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 110
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: QuestToSet
+          Object: 23DF2A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 50
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: QuestToSet
+          Object: 23DF2A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 100
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: QuestToSet
+          Object: 23DF2A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 6000
+  - Name: com_crew_giveitemactorscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_CND_GiveItemAvailable
+      Object: 17AD8D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItemAvailableCooldownDays
+      Object: 17AD92:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItemAvailableDay
+      Object: 17AD91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItemReminder
+      Object: 17AD8B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItem_HasItems
+      Object: 3371F0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GiveItemList
+      Object: 17AD84:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+ObjectBounds:
+  First: -0.31000048, -0.31000048, -4.7683716E-07
+  Second: 0.31000048, 0.31000048, 1.8000004
+ODTY: 0
+ObjectPlacementDefaults:
+  Unknown5: 4E-45
+  Unknown6: 1
+  Unknown14: 1
+  Unknown16: 1
+  Unknown17: 1
+  Unknown20: 3.4028235E+38
+Flags:
+- Female
+- Essential
+- AutoCalcStats
+- Unique
+- 0x40000000
+Level:
+  MutagenObjectType: PcLevelMult
+  LevelMult: 1
+CalcMinLevel: 10
+DispositionBase: 35
+UseTemplateActors: 16386
+Factions:
+- Faction: 00D875:Starfield.esm
+  Rank: -1
+- Faction: 0191DC:Starfield.esm
+- Faction: 023C01:Starfield.esm
+  Rank: -1
+- Faction: 106C30:Starfield.esm
+- Faction: 1434D6:Starfield.esm
+- Faction: 2DBEAF:Starfield.esm
+DeathItem: 1C8E0B:Starfield.esm
+Voice: 0059A6:Starfield.esm
+DefaultTemplate: 12FDDE:Starfield.esm
+TemplateActors:
+  StatsTemplate: 12FDDE:Starfield.esm
+  Unknown2: 12FDDE:Starfield.esm
+Race: 00347D:Starfield.esm
+Perks:
+- Perk: 06B728:Starfield.esm
+  Rank: 1
+- Perk: 21B8C6:Starfield.esm
+  Rank: 1
+- Perk: 21B8DA:Starfield.esm
+  Rank: 4
+- Perk: 21B8E0:Starfield.esm
+  Rank: 3
+- Perk: 222F87:Starfield.esm
+  Rank: 2
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
+- ActorValue: 0002D4:Starfield.esm
+  Value: 300
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+- ActorValue: 000385:Starfield.esm
+  Value: 100
+Items:
+- Item:
+    Item: 0D0F72:Starfield.esm
+    Count: 1
+Aggression: Aggressive
+Confidence: Foolhardy
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsAllies
+Packages:
+- 0D1B83:Starfield.esm
+- 042B08:Starfield.esm
+- 0D9C12:Starfield.esm
+Keywords:
+- 0AD52A:Starfield.esm
+- 0E53A8:Starfield.esm
+- 0F55DC:Starfield.esm
+- 1D03E1:Starfield.esm
+- 1EA944:Starfield.esm
+- 2076B1:Starfield.esm
+- 21B1FC:Starfield.esm
+- 23F1CA:Starfield.esm
+- 2705E4:Starfield.esm
+- 28BF2B:Starfield.esm
+Class: 010B2F:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Andreja
+  - Language: English
+    String: Andreja
+  - Language: Spanish
+    String: Andreja
+  - Language: French
+    String: Andreja
+  - Language: Italian
+    String: Andreja
+  - Language: Japanese
+    String: アンドレヤ
+  - Language: Polish
+    String: Andreja
+  - Language: Portuguese_Brazil
+    String: Andreja
+  - Language: ChineseSimplified
+    String: 安德列娅
+CalculatedHealth: 500
+CalculatedActionPoints: 50
+GearedUpWeapons: 1
+HeadParts:
+- 012201:Starfield.esm
+- 012202:Starfield.esm
+- 012203:Starfield.esm
+- 0317AE:Starfield.esm
+- 0317AF:Starfield.esm
+- 0640B8:Starfield.esm
+- 078273:Starfield.esm
+- 12F270:Starfield.esm
+- 3A289B:Starfield.esm
+- 3BE58F:Starfield.esm
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight:
+  Thin: 0.08
+  Muscular: 0.34
+CompanionInfoQuest: 23DF2A:Starfield.esm
+CompanionInfoDialogue: 23B32F:Starfield.esm
+DefaultOutfit: 16ADB6:Starfield.esm
+SpaceOutfit: 129DDC:Starfield.esm
+DefaultPackageList: 2C55CA:Starfield.esm
+CrimeFaction: 2DBEAF:Starfield.esm
+Tints:
+- TintType: SimpleGroup
+  TintGroup: Dermaesthetic
+  TintName: European_Female_yo1_Sk1
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/female_eu_yo1_sk1_derm_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask1
+  TintName: Blemishes_Forehead
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/blemishes_forehead_mask.dds
+  TintColor: '#92A02023'
+  TintIntensity: 17
+- TintType: SimpleGroup
+  TintGroup: Complexion1
+  TintName: Color_Temperature_Warm
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/complexion_colortemperature_warm_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 11
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask2
+  TintName: moles_Many_Small_02
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/moles_many_small_02_mask.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: Cheeks1
+  TintName: Blush_Sides
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/cheeks1/testblush03_mask.dds
+  TintColor: '#8DFF3E52'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: Cheeks2
+  TintName: Blush_Inner_Contour
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/cheeks2/testblush03_mask.dds
+  TintColor: '#BAFF526C'
+  TintIntensity: 31
+- TintType: SimpleGroup
+  TintGroup: Lipstick1
+  TintName: Lipstick_Soft
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/lipstick1/testlipstick02_mask.dds
+  TintColor: '#4DFF1E14'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: Eyeshadow1
+  TintName: EyeShadow_Upper_02
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/eyeshadow1/testeyeshadowupper02_mask.dds
+  TintColor: '#0BFF0B0B'
+  TintIntensity: 95
+- TintType: SimpleGroup
+  TintGroup: Eyeshadow2
+  TintName: EyeShadow_Lower_01
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/eyeshadow2/testeyeshadowlower01_mask.dds
+  TintColor: '#26FF0311'
+  TintIntensity: 114
+- TintType: SimpleGroup
+  TintGroup: Eyeliner1
+  TintName: Eyeliner_Upper_01
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/eyeliner1/testeyelinerupper01_mask.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: Eyeliner2
+  TintName: Eyeliner_Lower_01
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/eyeliner2/testeyelinerlower01_mask.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+BodyMorphRegionValues:
+  UpperTorso: 0.21
+FaceDialPositions:
+- Index: 25
+  Position: 0.25
+- Index: 34
+  Position: -0.32
+- Index: 36
+  Position: 0.6
+- Index: 38
+  Position: 0.38
+- Index: 40
+  Position: 0.25
+- Index: 43
+  Position: -0.11
+- Index: 45
+  Position: 0.01
+- Index: 47
+  Position: -0.07
+- Index: 48
+  Position: -0.12
+- Index: 49
+  Position: -1
+- Index: 51
+  Position: -0.66
+- Index: 52
+  Position: 0.01
+- Index: 53
+  Position: -0.1
+- Index: 54
+  Position: 1
+- Index: 55
+  Position: -0.34
+- Index: 59
+  Position: -0.32
+- Index: 61
+  Position: 1
+- Index: 62
+  Position: -0.64
+- Index: 63
+  Position: -1
+- Index: 65
+  Position: 0.86
+- Index: 67
+  Position: 1
+- Index: 69
+  Position: -1
+- Index: 70
+  Position: -0.53
+- Index: 75
+  Position: 0.69
+- Index: 77
+  Position: -0.05
+- Index: 78
+  Position: -0.75
+- Index: 79
+  Position: -1
+FaceMorphs:
+- Index: 1
+  MorphGroups:
+  - MorphGroup: Chin
+    BlendIntensity: 0.22
+  - MorphGroup: Eyes
+    BlendIntensity: 0.61
+  - MorphGroup: Forehead
+    BlendIntensity: 0.18
+  - MorphGroup: Nose
+    BlendIntensity: 0.19
+- Index: 19
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 1
+  - MorphGroup: Chin
+    BlendIntensity: 0.78
+  - MorphGroup: Ears
+    BlendIntensity: 1
+  - MorphGroup: Eyes
+    BlendIntensity: 0.39
+  - MorphGroup: Forehead
+    BlendIntensity: 0.74
+  - MorphGroup: Jaw
+    BlendIntensity: 1
+  - MorphGroup: Mouth
+    BlendIntensity: 1
+  - MorphGroup: Neck
+    BlendIntensity: 1
+  - MorphGroup: Nose
+    BlendIntensity: 0.81
+MorphBlends:
+- BlendName: female_af_ol1_Nose
+  Intensity: 0.08142857
+- BlendName: female_af_yo1_Cheeks
+  Intensity: 0.115903616
+- BlendName: female_af_yo1_Mouth
+  Intensity: 0.38
+- BlendName: female_af_yo1_Nose
+  Intensity: 0.010178572
+- BlendName: female_as_md1_Cheeks
+  Intensity: 0.14409639
+- BlendName: female_as_md1_Chin
+  Intensity: 0.0061537004
+- BlendName: female_as_yo1_Chin
+  Intensity: 0.71
+- BlendName: female_as_yo1_Ears
+  Intensity: 1
+- BlendName: female_as_yo1_Eyes
+  Intensity: 0.39
+- BlendName: female_as_yo1_Forehead
+  Intensity: 0.74
+- BlendName: female_as_yo1_Jaw
+  Intensity: 0.32
+- BlendName: female_as_yo1_Mouth
+  Intensity: 0.25613636
+- BlendName: female_as_yo1_Neck
+  Intensity: 1
+- BlendName: female_as_yo1_Nose
+  Intensity: 0.81
+- BlendName: female_eu_md2_Chin
+  Intensity: 0.2338463
+- BlendName: female_eu_md2_Eyes
+  Intensity: 0.61
+- BlendName: female_eu_md2_Forehead
+  Intensity: 0.18
+- BlendName: female_eu_md2_Nose
+  Intensity: 0.064464286
+- BlendName: female_eu_yo1_Nose
+  Intensity: 0.033928573
+- BlendName: male_eu_yo1_Neck
+  Intensity: 0.05
+SkinToneIndex: 3
+HairColor: Black
+EyebrowColor: Black
+EyeColor: Brown
+Pronoun: Unspecified

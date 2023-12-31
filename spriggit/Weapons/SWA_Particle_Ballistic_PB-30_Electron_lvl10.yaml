@@ -23,6 +23,8 @@ Name:
     String: Wiązka elektronowa PB-30
   - Language: Portuguese_Brazil
     String: Feixe de Elétrons PB-30
+  - Language: ChineseSimplified
+    String: PB-30电子光束
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -87,7 +89,27 @@ WGENUnknown1: 12
 BaseWeight: 3
 BaseSpeed: 1
 AttackOxygenCost: 100
-General: "6\a\0"
+General:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: PAR
+  - Language: English
+    String: PAR
+  - Language: Spanish
+    String: PAR
+  - Language: French
+    String: PAR
+  - Language: Italian
+    String: PAR
+  - Language: Japanese
+    String: PAR
+  - Language: Polish
+    String: CZĄ
+  - Language: Portuguese_Brazil
+    String: PAR
+  - Language: ChineseSimplified
+    String: 粒子
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

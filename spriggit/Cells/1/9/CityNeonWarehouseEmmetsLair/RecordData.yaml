@@ -19,6 +19,8 @@ Name:
     String: 'Neon: Magazyn'
   - Language: Portuguese_Brazil
     String: 'Neon: Armazém'
+  - Language: ChineseSimplified
+    String: 霓虹城：仓库
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -4019,3 +4021,4 @@ Traversals:
   To: -2.0792432, -0.58410466, 0.09565767
   UnknownVector: 1.3183545, 1.6518812, 0.8972194
   Unknown: 0x903D903DF539F739
+NumTraversalFluffBytes: 3176

@@ -1008,6 +1008,8 @@ Name:
     String: Winowajcy
   - Language: Portuguese_Brazil
     String: Lados Culpados
+  - Language: ChineseSimplified
+    String: 有罪方
 Data:
   Flags:
   - RunOnce
@@ -1237,6 +1239,8 @@ Stages:
         String: Dalton oczekuje ode mnie, że znajdę Imogene i sprowadzę ją do jego biura na przesłuchanie. Zajrzę do jej biura na piętrze działu operacyjnego. Może tam ją zastanę.
       - Language: Portuguese_Brazil
         String: Dalton quer que eu encontre Imogene e a leve até ele para ser interrogada. Tenho que ir até o escritório da Imogene no andar do departamento de operações e ver se ela está lá.
+      - Language: ChineseSimplified
+        String: 道尔顿想让我找到伊莫金，然后带回他的办公室审问她。我应该试试去伊莫金在运营楼层的办公室，看看她在不在。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1292,6 +1296,8 @@ Stages:
         String: Yuko zauważyła, że szukam Imogene w jej biurze. Warto z nią porozmawiać. Może wie, gdzie jest Imogene.
       - Language: Portuguese_Brazil
         String: Enquanto eu tentava encontrar Imogene em seu escritório, Yuko percebeu que eu a procurava. Talvez eu deva perguntar se ela sabe do paradeiro de Imogene.
+      - Language: ChineseSimplified
+        String: 我去伊莫金的办公室找她时，被裕子发现了。我应该问问她知不知道伊莫金在哪里。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1356,6 +1362,8 @@ Stages:
         String: Yuko powiedziała mi, że Imogene ostatnio widziana była w lokalu Frankie's Grab & Go. Mocno radziła mi też rozmowę z Daltonem przed wyruszeniem na dalsze poszukiwania.
       - Language: Portuguese_Brazil
         String: Yuko me disse que Imogene foi vista pela última vez no Rango Rápido da Frankie, mas sugeriu veementemente que eu falasse com Dalton antes de tentar encontrá-la.
+      - Language: ChineseSimplified
+        String: 裕子告诉我，伊莫金最后出现在弗兰基杂货铺，但她强烈建议我在想办法找她之前先去和道尔顿谈谈。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1436,6 +1444,8 @@ Stages:
         String: Dalton polecił mi porozmawianie z Benjaminem Bayu przed wkroczeniem do Frankie's Grab & Go w poszukiwaniu Imogene. Jako że Bayu jest powiązany z syndykatem Seokga, a Frankie's to ich terytorium, ważne jest uzyskanie jego zgody.
       - Language: Portuguese_Brazil
         String: Dalton quer que eu fale com Benjamin Bayu antes de ir ao Rango Rápido da Frankie para encontrar Imogene. Já que o Bayu está envolvido com o Sindicato Seokguh e o Rango é território do Sindicato, é importante obter autorização dele.
+      - Language: ChineseSimplified
+        String: 道尔顿想让我先去找本杰明·巴尤谈谈，然后再进入弗兰基杂货铺找伊莫金。因为巴尤和邪迦会有联系，而且弗兰基杂货铺是邪迦会的地盘，所以得到他的首肯很重要。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1468,6 +1478,8 @@ Stages:
         String: Yuko powiedziała mi, że Imogene ostatnio widziana była w lokalu Frankie's Grab & Go. Mocno radziła mi też rozmowę z Benjaminem Bayu w celu uzyskania pozwolenia na wkroczenie do Frankie's, bo lokal ten jest kryjówką syndykatu Seokga.
       - Language: Portuguese_Brazil
         String: Yuko me disse que Imogene foi vista pela última vez no Rango Rápido da Frankie. Ela sugeriu veementemente que eu pedisse a Benjamin Bayu para autorizar minha entrada, já que o Rango é um esconderijo do Sindicato Seokguh.
+      - Language: ChineseSimplified
+        String: 裕子告诉我，伊莫金最后出现在弗兰基杂货铺。她强烈建议我去找本杰明·巴尤谈谈获得进入许可的事情，毕竟弗兰基杂货铺是一个邪迦会藏身处。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1568,6 +1580,8 @@ Stages:
         String: Nie będę wyświadczać przysługi Benjaminowi Bayu, aby uzyskać dostęp do kryjówki syndykatu Seokga. Muszę znaleźć sposób na dostanie się tam, a także uważać na siebie.
       - Language: Portuguese_Brazil
         String: Me recusei a fazer um favor para Benjamin Bayu para obter permissão de entrar no esconderijo do Sindicato Seokguh. Vou ter que me virar para conseguir entrar lá e tomar cuidado.
+      - Language: ChineseSimplified
+        String: 我拒绝帮助本杰明·巴尤，所以没能取得进入邪迦会藏身处的权限。我得自己想法进去，而且得当心。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1596,6 +1610,8 @@ Stages:
         String: Nie będę wyświadczać przysługi Benjaminowi Bayu, aby uzyskać dostęp do kryjówki syndykatu Seokga. Muszę znaleźć sposób na dostanie się tam, a także uważać na siebie.
       - Language: Portuguese_Brazil
         String: Me recusei a fazer um favor para Benjamin Bayu para obter permissão de entrar no esconderijo do Sindicato Seokguh. Vou ter que me virar para conseguir entrar lá e tomar cuidado.
+      - Language: ChineseSimplified
+        String: 我拒绝帮助本杰明·巴尤，所以没能取得进入邪迦会藏身处的权限。我得自己想法进去，而且得当心。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1655,6 +1671,8 @@ Stages:
         String: Muszę odnaleźć Imogene w lokalu Frankie's Grab & Go, który jest też znaną kryjówką syndykatu Seokga.
       - Language: Portuguese_Brazil
         String: Preciso encontrar Imogene no Rango Rápido da Frankie, que também é conhecido por ser um esconderijo importante do Sindicato Seokguh.
+      - Language: ChineseSimplified
+        String: 我需要去弗兰基杂货铺寻找伊莫金，那里也是著名的邪迦会藏身处。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1692,6 +1710,8 @@ Stages:
         String: Yuko powiedziała mi, że Imogene była ostatnio widziana w lokalu Frankie's Grab & Go. Mocno radziła mi też rozmowę z Daltonem przed wyruszeniem na dalsze poszukiwania.
       - Language: Portuguese_Brazil
         String: Yuko me disse que Imogene foi vista pela última vez no Rango Rápido da Frankie, mas sugeriu veementemente que eu falasse com Dalton antes de tentar encontrá-la.
+      - Language: ChineseSimplified
+        String: 裕子告诉我，伊莫金最后出现在弗兰基杂货铺，但她强烈建议我在想办法找她之前先去和道尔顿谈谈。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1736,6 +1756,8 @@ Stages:
         String: Yuko powiedziała mi, że Imogene była ostatnio widziana w lokalu Frankie's Grab & Go. Mocno radziła mi też rozmowę z Benjaminem Bayu w celu uzyskania pozwolenia na wkroczenie do Frankie's, bo lokal ten jest kryjówką syndykatu Seokga.
       - Language: Portuguese_Brazil
         String: Yuko me disse que Imogene foi vista pela última vez no Rango Rápido da Frankie. Ela sugeriu veementemente que eu pedisse a Benjamin Bayu para autorizar minha entrada, já que o Rango é um esconderijo do Sindicato Seokguh.
+      - Language: ChineseSimplified
+        String: 裕子告诉我，伊莫金最后出现在弗兰基杂货铺。她强烈建议我去找本杰明·巴尤谈谈获得进入许可的事情，毕竟弗兰基杂货铺是一个邪迦会藏身处。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1764,6 +1786,8 @@ Stages:
         String: Udało mi się zdobyć zgodę Benjamina Bayu na wkroczenie do kryjówki syndykatu Seokga. Mogę ruszać do Frankie's Grab & Go i porozmawiać z właścicielką lokalu, aby wejść do środka i wreszcie odnaleźć Imogene.
       - Language: Portuguese_Brazil
         String: Consegui autorização de Benjamin Bayu para entrar no esconderijo do Sindicato Seokguh. Agora posso ir ao Rango Rápido da Frankie falar com a própria Frankie para obter acesso. Assim finalmente posso encontrar Imogene.
+      - Language: ChineseSimplified
+        String: 我得到了本杰明·巴尤的同意，能够进入邪迦会藏身处了。我现在可以去弗兰基杂货铺然后和弗兰基本人亲自谈谈，请她让我进去并得以找到伊莫金。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1792,6 +1816,8 @@ Stages:
         String: Jestem w Frankie's Grab & Go. Muszę porozmawiać z Frankie, aby uzyskać dostęp do kryjówki syndykatu Seokga i odnaleźć Imogene.
       - Language: Portuguese_Brazil
         String: Consegui chegar ao Rango Rápido da Frankie. Preciso falar com Frankie para obter acesso ao esconderijo do Sindicato Seokguh e encontrar Imogene.
+      - Language: ChineseSimplified
+        String: 我终于来到了弗兰基杂货铺，我需要和弗兰基谈谈，获得进入邪迦会藏身处的许可，才能找到伊莫金。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1820,6 +1846,8 @@ Stages:
         String: Frankie dała mi dostęp do kryjówki syndykatu Seokga, więc wreszcie mogę wejść do środka.
       - Language: Portuguese_Brazil
         String: Frankie me deu acesso ao esconderijo do Sindicato Seokguh, e agora finalmente eu posso entrar.
+      - Language: ChineseSimplified
+        String: 弗兰基允许我前往邪迦会藏身处，我终于可以进去了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1866,6 +1894,8 @@ Stages:
         String: Frankie dała mi dostęp do kryjówki syndykatu Seokga, więc wreszcie mogę wejść do środka.
       - Language: Portuguese_Brazil
         String: Frankie me deu acesso ao esconderijo do Sindicato Seokguh, e agora finalmente eu posso entrar.
+      - Language: ChineseSimplified
+        String: 弗兰基允许我前往邪迦会藏身处，我终于可以进去了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1912,6 +1942,8 @@ Stages:
         String: Frankie nie zamierza wpuścić mnie do kryjówki syndykatu Seokga. Muszę znaleźć jakąś inną drogę do środka.
       - Language: Portuguese_Brazil
         String: Frankie vetou minha entrada no esconderijo do Sindicato Seokguh. Preciso achar outro jeito de entrar.
+      - Language: ChineseSimplified
+        String: 弗兰基不打算让我进入邪迦会藏身处，我需要另想办法。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1958,6 +1990,8 @@ Stages:
         String: Wreszcie udało mi się dostać do środka kryjówki syndykatu Seokga. Muszę znaleźć Imogene i doprowadzić ją do Ryujin Industries na przesłuchanie.
       - Language: Portuguese_Brazil
         String: Finalmente consegui entrar no esconderijo do Sindicato Seokguh. Preciso encontrar Imogene e levá-la de volta à Ryujin Industries para ser interrogada.
+      - Language: ChineseSimplified
+        String: 我终于进入了邪迦会藏身处，我需要找到伊莫金，然后把她带回龙神集团审问。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2085,6 +2119,8 @@ Stages:
         String: Wreszcie udało mi się dostać do środka kryjówki syndykatu Seokga. Muszę znaleźć Imogene i doprowadzić ją do Ryujin Industries na przesłuchanie. Następnie muszę znaleźć tabliczkę Kumiho dla administratora Bayu. Ostrzegł mnie, że Kumiho nie będzie przyjazna, jeśli dam się przyłapać.
       - Language: Portuguese_Brazil
         String: 'Finalmente consegui entrar no esconderijo do Sindicato Seokguh. Preciso encontrar Imogene e levá-la de volta à Ryujin Industries para ser interrogada. Depois tenho que encontrar o códice de Kumiho para o gestor Bayu. Ele me avisou: se me pegassem, ela não agiria de modo amigável.'
+      - Language: ChineseSimplified
+        String: 我终于进入了邪迦会藏身处，我需要找到伊莫金，然后把她带回龙神集团审问。之后我需要帮行政长官巴尤找到九尾的数据板，他警告我，如果我被抓住的话，她可不会客气。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2134,6 +2170,8 @@ Stages:
         String: Mam tabliczkę Kumiho. Pozostało mi tylko odnalezienie Imogene i doprowadzenie jej na przesłuchanie.
       - Language: Portuguese_Brazil
         String: Encontrei o códice de Kumiho. Agora só tenho que encontrar Imogene e trazê-la de volta para um interrogatório.
+      - Language: ChineseSimplified
+        String: 我找到了九尾的数据板，唯一需要做的就是找到伊莫金，然后把她带回去审问。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2177,6 +2215,8 @@ Stages:
         String: Mam tabliczkę Kumiho. Pozostało mi tylko zakończenie konfrontacji z Imogene.
       - Language: Portuguese_Brazil
         String: Encontrei o códice de Kumiho. Agora só tenho que terminar de confrontar Imogene.
+      - Language: ChineseSimplified
+        String: 我找到了九尾的数据板，唯一需要做的就是完成对伊莫金的质问。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2221,6 +2261,8 @@ Stages:
         String: Mam tabliczkę Kumiho. Pozostało mi tylko sprawdzenie, czy przy ciele Imogene są dowody, które zainteresowałyby Daltona.
       - Language: Portuguese_Brazil
         String: Encontrei o códice de Kumiho. Agora só tenho que revistar o corpo de Imogene em busca de evidências que eu possa entregar ao Dalton.
+      - Language: ChineseSimplified
+        String: 我找到了九尾的数据板，唯一需要做的就是搜索伊莫金的遗体，寻找任何可以交给道尔顿的证据。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2267,6 +2309,8 @@ Stages:
         String: Udało mi się znaleźć Imogene w kryjówce syndykatu Seokga. Muszę skonfrontować się z nią i doprowadzić ją do Daltona.
       - Language: Portuguese_Brazil
         String: Encontrei Imogene no esconderijo do Sindicato Seokguh. Preciso confrontá-la sobre o fato de ela ser a informante e levá-la até o Dalton.
+      - Language: ChineseSimplified
+        String: 我在邪迦会藏身处找到了伊莫金，我需要质问她内鬼的事情，并带她回去见道尔顿。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2305,6 +2349,8 @@ Stages:
         String: Udało mi się znaleźć Imogene w kryjówce syndykatu Seokga. Muszę skonfrontować się z nią i doprowadzić ją do Daltona. Później muszę znaleźć tabliczkę Kumiho dla Benjamina Bayu.
       - Language: Portuguese_Brazil
         String: Encontrei Imogene no esconderijo do Sindicato Seokguh. Preciso confrontá-la sobre o fato de ela ser a informante e levá-la até o Dalton. Depois tenho que encontrar o códice de Kumiho para Benjamin Bayu.
+      - Language: ChineseSimplified
+        String: 我在邪迦会藏身处找到了伊莫金，我需要质问她内鬼的事情，并带她回去见道尔顿。之后我需要帮本杰明·巴尤找到九尾的数据板。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2387,6 +2433,8 @@ Stages:
         String: Imogene twierdzi, że jest niewinna, ale nie zamierza ze mną wrócić. Muszę jej zaufać lub ją zabić.
       - Language: Portuguese_Brazil
         String: Imogene afirma ser inocente, mas não vai voltar comigo. Ou eu confio no que ela diz ou eu mato ela.
+      - Language: ChineseSimplified
+        String: 伊莫金声称自己是无辜的，但是不会跟我回去，我只能选择相信她或者是杀了她。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2425,6 +2473,8 @@ Stages:
         String: Imogene twierdzi, że jest niewinna, ale nie zamierza ze mną wrócić. Muszę jej zaufać lub ją zabić. Następnie muszę znaleźć tabliczkę Kumiho dla administratora Bayu.
       - Language: Portuguese_Brazil
         String: Imogene afirma que é inocente, mas não vai voltar comigo. Ou eu confio no que ela diz ou eu mato ela. Depois preciso encontrar o códice de Kumiho para o gestor Bayu.
+      - Language: ChineseSimplified
+        String: 伊莫金声称自己是无辜的，但是不会跟我回去，我只能选择相信她或者是杀了她。之后我需要帮行政长官巴尤找到九尾的数据板。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2537,6 +2587,8 @@ Stages:
         String: Muszę zabić Imogene.
       - Language: Portuguese_Brazil
         String: Preciso matar a Imogene.
+      - Language: ChineseSimplified
+        String: 我需要杀了伊莫金。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2575,6 +2627,8 @@ Stages:
         String: Muszę zabić Imogene, a później poszukać tabliczki Kumiho dla Benjamina Bayu.
       - Language: Portuguese_Brazil
         String: Preciso matar a Imogene. Depois isso, preciso encontrar o códice de Kumiho para Benjamin Bayu.
+      - Language: ChineseSimplified
+        String: 我需要杀了伊莫金，完成之后，我需要帮本杰明·巴尤找到九尾的数据板。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2626,6 +2680,8 @@ Stages:
         String: Imogene nie żyje. Muszę sprawdzić, czy nie miała przy sobie dowodów.
       - Language: Portuguese_Brazil
         String: Imogene está morta. Preciso revistar seu corpo em busca de provas.
+      - Language: ChineseSimplified
+        String: 伊莫金死了，我需要搜索她的遗体寻找证据。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2664,6 +2720,8 @@ Stages:
         String: Imogene nie żyje. Muszę sprawdzić, czy miała przy sobie dowody, a następnie poszukać tabliczki Kumiho dla Benjamina Bayu.
       - Language: Portuguese_Brazil
         String: Imogene está morta. Preciso revistar o corpo dela em busca de provas e depois encontrar o códice de Kumiho para Benjamin Bayu.
+      - Language: ChineseSimplified
+        String: 伊莫金死了，我需要搜索她的遗体寻找证据，然后帮本杰明·巴尤找到九尾的数据板。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2718,6 +2776,8 @@ Stages:
         String: Udało mi się znaleźć Imogene. Teraz pozostało tylko odnaleźć tabliczkę Kumiho dla Benjamina Bayu.
       - Language: Portuguese_Brazil
         String: Encontrei a Imogene. Agora só preciso encontrar o códice de Kumiho para Benjamin Bayu.
+      - Language: ChineseSimplified
+        String: 我找到了伊莫金，现在我唯一需要做的就是帮本杰明·巴尤找到九尾的数据板。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2746,6 +2806,8 @@ Stages:
         String: Muszę wrócić do Daltona i przekazać mu tabliczkę. Imogene gromadziła dowody przeciwko Ularu. Może warto skonfrontować się z Ularu.
       - Language: Portuguese_Brazil
         String: Tenho que entregar o códice a Dalton. Imogene estava coletando provas contra Ularu. Talvez eu devesse confrontá-la.
+      - Language: ChineseSimplified
+        String: 我需要回到道尔顿那里，把数据板交给他。伊莫金在收集证据对付乌拉鲁，也许我应该去质问她。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2968,6 +3030,8 @@ Stages:
         String: Zamierzam pomóc Ularu, która przyznała się do odpowiedzialności za wyciek projektu Dominion - było to częścią jej planu pozbycia się Masako. Dalton wciąż czeka na mój raport. Muszę dopilnować, aby uwierzył w winę Imogene.
       - Language: Portuguese_Brazil
         String: Eu concordei em ajudar Ularu, que admitiu ter vazado o Projeto Domínio como parte de seu plano de derrubar Masako. Ainda preciso informar o Dalton, mas também preciso ter certeza de que ele acredita que Imogene é a culpada.
+      - Language: ChineseSimplified
+        String: 我同意帮助乌拉鲁，她承认了泄漏主宰计划，这在她推翻雅子的计谋之中。我仍然需要去向道尔顿汇报，但也要确保他相信伊莫金是罪魁祸首。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2999,6 +3063,8 @@ Stages:
         String: Ularu przyznała się do odpowiedzialności za wyciek projektu Dominion. Była zdrajczynią, więc zginęła z mojej ręki. Muszę złożyć raport Daltonowi.
       - Language: Portuguese_Brazil
         String: Ularu confessou ter vazado o Projeto Domínio. Ela era uma traidora, então eu a matei. Tenho que informar o Dalton.
+      - Language: ChineseSimplified
+        String: 乌拉鲁承认了泄露主宰计划，这是她推翻雅子的计谋。她是个叛徒，所以我杀了她。我需要去向道尔顿汇报。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3042,6 +3108,8 @@ Stages:
         String: Ularu przyznała się do odpowiedzialności za wyciek projektu Dominion - było to częścią jej planu pozbycia się Masako. Próbowała przeciągnąć mnie na swoją stronę, ale bezskutecznie. Muszę spotkać się z Daltonem, aby przekazać mu tabliczkę i wszystkie zdobyte informacje.
       - Language: Portuguese_Brazil
         String: Ularu confessou ter vazado o Projeto Domínio em um plano para derrubar Masako. Ela tentou me recrutar, mas eu recusei. Preciso voltar até o Dalton, entregar-lhe o códice e informá-lo do que descobri.
+      - Language: ChineseSimplified
+        String: 乌拉鲁承认了泄露主宰计划，这是她推翻雅子的计谋。她想要招揽我，但我拒绝了。我需要去向道尔顿汇报，把数据板交给他，并告诉他我所得知的情况。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3084,6 +3152,8 @@ Stages:
         String: Ularu nie chce się przyznać, że jest kretem. Muszę wrócić do Daltona i przekazać mu tabliczkę z dowodami Imogene.
       - Language: Portuguese_Brazil
         String: Ularu não confessou ser a informante. Tenho que falar com o Dalton e entregar o códice de evidência da Imogene a ele.
+      - Language: ChineseSimplified
+        String: 乌拉鲁不承认自己是内鬼。我需要回去向道尔顿报告，把存有伊莫金证据的数据板交给他。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3112,6 +3182,8 @@ Stages:
         String: Mam za sobą konfrontację z Imogene. Udało mi się też znaleźć tabliczkę Kumiho. Muszę ją dostarczyć do Benjamina Bayu w Astral Lounge, zanim udam się do Wieży Ryujina.
       - Language: Portuguese_Brazil
         String: Confrontei a Imogene e encontrei o códice de Kumiho. Preciso entregá-lo a Benjamin Bayu antes de voltar para a Torre Ryujin.
+      - Language: ChineseSimplified
+        String: 我质问了伊莫金，并找到了九尾的数据板。我要在回到龙神大楼之前把数据板交给本杰明·巴尤。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3203,6 +3275,8 @@ Stages:
         String: Muszę wrócić do Daltona i przekazać mu tabliczkę.
       - Language: Portuguese_Brazil
         String: Tenho que voltar até o Dalton e dar o códice a ele.
+      - Language: ChineseSimplified
+        String: 我需要回到道尔顿那里，把数据板交给他。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3361,6 +3435,8 @@ Stages:
         String: Idę do Daltona, ale na drodze stanęła mi Yuko. Mogę podzielić się z nią najnowszymi informacjami o moim bieżącym zadaniu albo pójść dalej do Daltona lub Ularu.
       - Language: Portuguese_Brazil
         String: A caminho da conversa com Dalton, me deparei com Yuko. Se quiser falar com ela, posso atualizá-la sobre a minha missão atual, ou então posso seguir direto até Dalton ou Ularu.
+      - Language: ChineseSimplified
+        String: 我在去道尔顿那里的路上恰巧碰到了裕子。如果我想和她聊聊的话，我可以告诉她我现在的任务情况，或者继续去找道尔顿或是乌拉鲁。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3392,6 +3468,8 @@ Stages:
         String: Idę do Daltona, ale na drodze stanęła mi Yuko. Mogę podzielić się z nią najnowszymi informacjami o moim bieżącym zadaniu albo pójść dalej.
       - Language: Portuguese_Brazil
         String: A caminho da conversa com Dalton, me deparei com Yuko. Se quiser falar com ela, posso atualizá-la sobre a minha missão atual, ou então posso seguir direto até Dalton.
+      - Language: ChineseSimplified
+        String: 我在去道尔顿那里的路上恰巧碰到了裕子。如果我想和她聊聊的话，我可以告诉她我现在的任务情况，或者继续去找道尔顿。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3576,6 +3654,8 @@ Stages:
         String: Yuko mnie zatrzymała na krótką pogawędkę. Teraz muszę udać się do Daltona.
       - Language: Portuguese_Brazil
         String: Eu parei brevemente para falar com Yuko. Tenho que repassar isso a Dalton agora mesmo.
+      - Language: ChineseSimplified
+        String: 我稍作停留，和裕子谈了谈。我现在必须去向道尔顿汇报。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3613,6 +3693,8 @@ Stages:
         String: Yuko mnie zatrzymała na krótką pogawędkę. Teraz muszę udać się do Daltona lub skonfrontować się z Ularu.
       - Language: Portuguese_Brazil
         String: Eu parei brevemente para falar com Yuko. Tenho que repassar isso a Dalton ou confrontar Yuko.
+      - Language: ChineseSimplified
+        String: 我稍作停留，和裕子聊了聊。我需要去向道尔顿汇报，或者去质问乌拉鲁。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3642,6 +3724,8 @@ Stages:
         String: Udało mi się znaleźć Imogene w kryjówce syndykatu Seokga. Miała dowody na to, że Ularu jest kretem, ale Dalton potrzebuje czasu, aby je przeanalizować.
       - Language: Portuguese_Brazil
         String: 'Encontrei Imogene no esconderijo do Sindicato Seokguh. Ela tinha evidências que comprovam que Ularu é a informante, mas Dalton precisa de tempo para examiná-las. '
+      - Language: ChineseSimplified
+        String: '我在邪迦会藏身处找到了伊莫金，她有证据证明乌拉鲁就是那个内鬼，但是道尔顿需要时间对其进行检验。 '
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -3684,6 +3768,8 @@ Objectives:
       String: Porozmawiaj z Imogene na piętrze działu operacyjnego
     - Language: Portuguese_Brazil
       String: Fale com Imogene no andar do departamento de operações
+    - Language: ChineseSimplified
+      String: 去运营楼层与伊莫金交谈
   Targets:
   - AliasID: 24
 - Index: 300
@@ -3707,6 +3793,8 @@ Objectives:
       String: Porozmawiaj z Yuko
     - Language: Portuguese_Brazil
       String: Fale com Yuko
+    - Language: ChineseSimplified
+      String: 与裕子交谈
   Targets:
   - AliasID: 7
 - Index: 400
@@ -3730,6 +3818,8 @@ Objectives:
       String: (Opcj.) Porozmawiaj z Daltonem na piętrze biur kierowniczych
     - Language: Portuguese_Brazil
       String: (Opc.) Fale com Dalton no andar dos escritórios executivos
+    - Language: ChineseSimplified
+      String: （可选）去行政办公室楼层与道尔顿交谈
   Targets:
   - AliasID: 1
 - Index: 500
@@ -3753,6 +3843,8 @@ Objectives:
       String: (Opcj.) Porozmawiaj z Benjaminem Bayu
     - Language: Portuguese_Brazil
       String: (Opc.) Fale com Benjamin Bayu
+    - Language: ChineseSimplified
+      String: （可选）与本杰明·巴尤交谈
   Targets:
   - AliasID: 2
 - Index: 600
@@ -3776,6 +3868,8 @@ Objectives:
       String: Znajdź Imogene w kryjówce syndykatu Seokga
     - Language: Portuguese_Brazil
       String: Encontre Imogene no esconderijo do Sindicato Seokguh
+    - Language: ChineseSimplified
+      String: 在邪迦会藏身处找到伊莫金
   Targets:
   - AliasID: 36
     Conditions:
@@ -3814,6 +3908,8 @@ Objectives:
       String: (Opcj.) Udaj się do Frankie's Grab & Go
     - Language: Portuguese_Brazil
       String: (Opc.) Vá até o Rango Rápido da Frankie
+    - Language: ChineseSimplified
+      String: （可选）前往弗兰基杂货铺
   Targets:
   - AliasID: 34
 - Index: 620
@@ -3837,6 +3933,8 @@ Objectives:
       String: (Opcj.) Porozmawiaj z Franchescą „Frankie” Moore
     - Language: Portuguese_Brazil
       String: (Opc.) Fale com Franchesca “Frankie” Moore
+    - Language: ChineseSimplified
+      String: （可选）与“弗兰基”·摩尔交谈
   Targets:
   - AliasID: 34
 - Index: 650
@@ -3860,6 +3958,8 @@ Objectives:
       String: (Opcj.) Znajdź sposób na dostanie się do kryjówki syndykatu Seokga
     - Language: Portuguese_Brazil
       String: (Opc.) Descubra como entrar no esconderijo do Sindicato Seokguh
+    - Language: ChineseSimplified
+      String: （可选）想办法进入邪迦会藏身处
   Targets:
   - AliasID: 37
 - Index: 660
@@ -3883,6 +3983,8 @@ Objectives:
       String: Znajdź Imogene
     - Language: Portuguese_Brazil
       String: Encontre Imogene
+    - Language: ChineseSimplified
+      String: 找到伊莫金
   Targets:
   - Conditions:
     - MutagenObjectType: ConditionFloat
@@ -3921,6 +4023,8 @@ Objectives:
       String: Znajdź tabliczkę Kumiho
     - Language: Portuguese_Brazil
       String: Encontre o códice de Kumiho
+    - Language: ChineseSimplified
+      String: 找到九尾的数据板
   Targets:
   - AliasID: 17
 - Index: 800
@@ -3944,6 +4048,8 @@ Objectives:
       String: Skonfrontuj się z Imogene
     - Language: Portuguese_Brazil
       String: Confronte Imogene
+    - Language: ChineseSimplified
+      String: 质问伊莫金
   Targets:
   - {}
 - Index: 900
@@ -3967,6 +4073,8 @@ Objectives:
       String: Zdecyduj o losie Imogene
     - Language: Portuguese_Brazil
       String: Decida o destino de Imogene
+    - Language: ChineseSimplified
+      String: 决定伊莫金的命运
   Targets:
   - {}
 - Index: 960
@@ -3990,6 +4098,8 @@ Objectives:
       String: Zabij Imogene
     - Language: Portuguese_Brazil
       String: Mate Imogene
+    - Language: ChineseSimplified
+      String: 杀死伊莫金
   Targets:
   - {}
 - Index: 965
@@ -4013,6 +4123,8 @@ Objectives:
       String: Poszukaj dowodów przy Imogene
     - Language: Portuguese_Brazil
       String: Reviste Imogene em busca de evidências
+    - Language: ChineseSimplified
+      String: 在伊莫金身上寻找罪证
   Targets:
   - AliasID: 28
 - Index: 1000
@@ -4036,6 +4148,8 @@ Objectives:
       String: (Opcj.) Skonfrontuj się z Ularu na piętrze biur kierowniczych
     - Language: Portuguese_Brazil
       String: (Opc.) Confronte Ularu no andar dos escritórios executivos
+    - Language: ChineseSimplified
+      String: （可选）去行政办公室楼层质问乌拉鲁
   Targets:
   - AliasID: 3
 - Index: 1100
@@ -4059,6 +4173,8 @@ Objectives:
       String: Dostarcz tabliczkę Kumiho do Benjamina Bayu
     - Language: Portuguese_Brazil
       String: Leve o códice de Kumiho até Benjamin Bayu
+    - Language: ChineseSimplified
+      String: 把九尾的数据板交给本杰明·巴尤
   Targets:
   - AliasID: 2
 - Index: 1200
@@ -4082,6 +4198,8 @@ Objectives:
       String: Wróć do Daltona, który czeka w Wieży Ryujina na piętrze biur kierowniczych
     - Language: Portuguese_Brazil
       String: Volte para falar com Dalton no andar dos escritórios executivos da Torre Ryujin
+    - Language: ChineseSimplified
+      String: 返回龙神大楼行政办公室楼层见道尔顿
   Targets:
   - AliasID: 1
 - Index: 1300
@@ -4105,6 +4223,8 @@ Objectives:
       String: (Opcj.) Porozmawiaj z Yuko
     - Language: Portuguese_Brazil
       String: (Opc.) Fale com Yuko
+    - Language: ChineseSimplified
+      String: （可选）与裕子交谈
   Targets:
   - AliasID: 7
 Aliases:

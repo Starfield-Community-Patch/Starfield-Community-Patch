@@ -19,6 +19,8 @@ Name:
     String: Posterunek Strażników Wolnych Gwiazd
   - Language: Portuguese_Brazil
     String: Entreposto da Patrulha Freestar
+  - Language: ChineseSimplified
+    String: 星联游骑兵哨站
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -168,3 +170,4 @@ Traversals:
   To: 18.97486, 36.39982, 7.927054
   UnknownVector: 3.4195437, 4.490059, 0.91992444
   Unknown: 0x483E483EE3376D39
+NumTraversalFluffBytes: 96

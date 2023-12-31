@@ -19,6 +19,8 @@ Name:
     String: Konsulat miasta Akila
   - Language: Portuguese_Brazil
     String: Consulado da cidade de Akila
+  - Language: ChineseSimplified
+    String: 阿基拉城领事馆
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -296,3 +298,4 @@ Traversals:
   To: -15.181939, -7.409874, 2.0647745
   UnknownVector: 2.5716438, 6.0229526, 1.1672549
   Unknown: 0xF441F44117378B34
+NumTraversalFluffBytes: 200

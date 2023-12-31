@@ -19,6 +19,8 @@ Name:
     String: 'Wieża Handlowa: korporacja Stroud-Eklund'
   - Language: Portuguese_Brazil
     String: 'Torre Comercial: Corp. Stroud-Eklund'
+  - Language: ChineseSimplified
+    String: 贸易大楼：斯特劳艾克伦集团
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -473,3 +475,4 @@ Traversals:
   To: -52.028328, 171.58992, 283.99362
   UnknownVector: 3.3027115, 6.2328396, 1.0835246
   Unknown: 0x4842484231343335
+NumTraversalFluffBytes: 340

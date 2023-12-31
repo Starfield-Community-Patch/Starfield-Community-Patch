@@ -19,6 +19,8 @@ Name:
     String: Emporium
   - Language: Portuguese_Brazil
     String: Empório
+  - Language: ChineseSimplified
+    String: 百货中心
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -383,3 +385,4 @@ Traversals:
   To: 9.060119, 8.551071, 1.8438119
   UnknownVector: 0.5700706, 9.303505, 1.509598
   Unknown: 0x484248426634DE37
+NumTraversalFluffBytes: 268

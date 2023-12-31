@@ -19,6 +19,8 @@ Name:
     String: Neon - mieszkanie
   - Language: Portuguese_Brazil
     String: 'Neon: Apartamento'
+  - Language: ChineseSimplified
+    String: 霓虹城：公寓
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -205,3 +207,4 @@ Traversals:
   To: 15.834788, 3.5211153, 0.11599058
   UnknownVector: 1.9910926, 3.8026326, 1.0884404
   Unknown: 0x76437643493C7C3D
+NumTraversalFluffBytes: 128

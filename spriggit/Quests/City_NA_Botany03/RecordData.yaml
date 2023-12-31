@@ -195,6 +195,8 @@ Name:
     String: Opóźniony rozkwit
   - Language: Portuguese_Brazil
     String: Florescer Tardio
+  - Language: ChineseSimplified
+    String: 大器晚成
 Data:
   Flags:
   - RunOnce
@@ -291,6 +293,8 @@ Stages:
         String: Kelton powiedział mi, że gałąź z miasta Akila pomoże uspokoić drzewo. Muszę z nim porozmawiać, kiedy wszystko będzie gotowe.
       - Language: Portuguese_Brazil
         String: Kelton me disse que conseguir um galho de árvore na cidade de Akila ajudará a acalmar a árvore. É melhor eu falar com ele assim que puder.
+      - Language: ChineseSimplified
+        String: 科尔顿告诉我，从阿基拉城取来一根树枝能够让树冷静下来。等我准备好了就得去找他谈谈。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -318,6 +322,8 @@ Stages:
         String: Muszę zdobyć gałąź drzewa od Lei Casler.
       - Language: Portuguese_Brazil
         String: Preciso conseguir o galho com Leah Casler.
+      - Language: ChineseSimplified
+        String: 我需要拿到莉亚·卡斯勒手上的树枝。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -353,6 +359,8 @@ Stages:
         String: Muszę jakoś zdobyć gałąź od Lei. Może da się przekonać i odda ją po dobroci? Mogę też spróbować kradzieży...
       - Language: Portuguese_Brazil
         String: Preciso conseguir o galho com a Leah de alguma forma. Posso tentar convencê-la a entregá-lo ou posso tentar roubá-lo...
+      - Language: ChineseSimplified
+        String: 我需要想个办法拿到莉亚的树枝，可以试试说服她把树枝给我，或者偷过来……
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -380,6 +388,8 @@ Stages:
         String: Lea dała się przekonać i dała mi gałąź.
       - Language: Portuguese_Brazil
         String: Consegui convencer Leah a me entregar o galho.
+      - Language: ChineseSimplified
+        String: 我成功说服了莉亚交出树枝。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -415,6 +425,8 @@ Stages:
         String: Lea powiedziała, że Earl może mieć dla mnie gałąź. Lepiej z nim porozmawiam.
       - Language: Portuguese_Brazil
         String: Leah me disse que Earl pode ter um galho. É melhor eu ir falar com ele.
+      - Language: ChineseSimplified
+        String: 莉亚告诉我厄尔也许有根树枝能给我，我得去他那里看看。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -442,6 +454,8 @@ Stages:
         String: Kiedy zaoszczędzę nieco kredytów, muszę kupić od Earla gałąź.
       - Language: Portuguese_Brazil
         String: Preciso comprar o galho do Earl assim que tiver créditos suficientes.
+      - Language: ChineseSimplified
+        String: 等我信用币够了以后，需要去厄尔那里购买树枝。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -478,6 +492,8 @@ Stages:
         String: Mam gałąź. Muszę wrócić do Keltona tak szybko, jak to możliwe.
       - Language: Portuguese_Brazil
         String: Consegui o galho. É melhor eu ir falar com o Kelton assim que for possível.
+      - Language: ChineseSimplified
+        String: 我有树枝，我得尽快回去找科尔顿。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -505,6 +521,8 @@ Stages:
         String: Muszę poczekać, aż Kelton dokończy swoją analizę.
       - Language: Portuguese_Brazil
         String: Preciso esperar para que Kelton conclua sua análise
+      - Language: ChineseSimplified
+        String: 我要等科尔顿完成分析。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -532,6 +550,8 @@ Stages:
         String: Kelton zakończył swoją analizę. Muszę go o nią spytać.
       - Language: Portuguese_Brazil
         String: Kelton concluiu sua análise. É melhor eu ir falar com ele.
+      - Language: ChineseSimplified
+        String: 科尔顿的分析已经完成了，我得去看看他的情况。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -559,6 +579,8 @@ Stages:
         String: 'Muszę dostać się do terminala ZUinfo i przesłać audio, które zsyntetyzował Kelton. '
       - Language: Portuguese_Brazil
         String: 'Preciso entrar em um terminal da ANSC e enviar o áudio que Kelton sintetizou. '
+      - Language: ChineseSimplified
+        String: '我需要进入定居新闻台的终端，然后把科尔顿合成的音频上传上去。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -586,6 +608,8 @@ Stages:
         String: Muszę przeprowadzić diagnostykę i upewnić się, że przesyłanie działa.
       - Language: Portuguese_Brazil
         String: Tenho que realizar um diagnóstico para garantir que o envio funcionou.
+      - Language: ChineseSimplified
+        String: 我需要运行诊断，确保上传有效。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -621,6 +645,8 @@ Stages:
         String: Nadia Muffaz dała się przekonać i zajmie się dla mnie transmisją.
       - Language: Portuguese_Brazil
         String: Eu consegui fazer com que Nadia Muffaz lidasse com a transmissão para mim.
+      - Language: ChineseSimplified
+        String: 我让纳迪亚·穆法茨帮我负责广播。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -648,6 +674,8 @@ Stages:
         String: Transmisja jest gotowa do nadania. Czas wrócić do drzewa.
       - Language: Portuguese_Brazil
         String: A transmissão está pronta para ser iniciada. Melhor voltar para a árvore.
+      - Language: ChineseSimplified
+        String: 广播已经准备就绪了，我要回到树边。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -683,6 +711,8 @@ Stages:
         String: To chyba... zadziałało? Lepiej porozmawiam z Keltonem, spytam, co o tym sądzi.
       - Language: Portuguese_Brazil
         String: Isso... parece ter funcionado? É melhor eu ir falar com Kelton e ver o que ele acha.
+      - Language: ChineseSimplified
+        String: 那个办法……好像生效了？我要去和科尔顿确认一下，看他怎么想。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -711,6 +741,8 @@ Stages:
         String: Nadawany dźwięk pozwolił na uspokojenie drzewa i wygląda na to, że potencjalna katastrofa została zażegnana. Kelton może wreszcie spać spokojnie.
       - Language: Portuguese_Brazil
         String: A transmissão de áudio ajudou a acalmar a árvore e parece que o possível desastre foi evitado. Kelton finalmente pode se acalmar.
+      - Language: ChineseSimplified
+        String: 那音频广播帮树平静了下来，看样子也避免了一场可能的灾难。科尔顿终于可以放心了。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -742,6 +774,8 @@ Objectives:
       String: Porozmawiaj z Keltonem Frushem
     - Language: Portuguese_Brazil
       String: Fale com Kelton Frush
+    - Language: ChineseSimplified
+      String: 与科尔顿·弗拉什交谈
   Targets:
   - {}
 - Index: 20
@@ -765,6 +799,8 @@ Objectives:
       String: Porozmawiaj z Leą Casler
     - Language: Portuguese_Brazil
       String: Fale com Leah Casler
+    - Language: ChineseSimplified
+      String: 与莉亚·卡斯勒交谈
   Targets:
   - AliasID: 1
 - Index: 40
@@ -788,6 +824,8 @@ Objectives:
       String: Przekonaj Leę, żeby dała ci gałąź
     - Language: Portuguese_Brazil
       String: Convença Leah a entregar o galho
+    - Language: ChineseSimplified
+      String: 说服莉亚交出树枝
   Targets:
   - AliasID: 1
 - Index: 45
@@ -812,6 +850,8 @@ Objectives:
       String: Wykradnij gałąź z muzeum
     - Language: Portuguese_Brazil
       String: Roube o galho do museu
+    - Language: ChineseSimplified
+      String: 将树枝从博物馆偷走
   Targets:
   - AliasID: 14
 - Index: 46
@@ -835,6 +875,8 @@ Objectives:
       String: Porozmawiaj z Earlem Fultonem
     - Language: Portuguese_Brazil
       String: Fale com Earl Fulton
+    - Language: ChineseSimplified
+      String: 与厄尔·福尔顿交谈
   Targets:
   - AliasID: 8
 - Index: 47
@@ -858,6 +900,8 @@ Objectives:
       String: Kup gałąź od Earla Fultona
     - Language: Portuguese_Brazil
       String: Compre o galho de Earl Fulton
+    - Language: ChineseSimplified
+      String: 从厄尔·富尔顿那里购买树枝
   Targets:
   - AliasID: 8
 - Index: 50
@@ -881,6 +925,8 @@ Objectives:
       String: Dostarcz gałąź Keltonowi Frushowi
     - Language: Portuguese_Brazil
       String: Entregue o galho para Kelton Frush
+    - Language: ChineseSimplified
+      String: 将树枝交给科尔顿·弗拉什
   Targets:
   - {}
 - Index: 55
@@ -904,6 +950,8 @@ Objectives:
       String: Poczekaj na Keltona
     - Language: Portuguese_Brazil
       String: Espere por Kelton
+    - Language: ChineseSimplified
+      String: 等待科尔顿
   Targets:
   - {}
 - Index: 56
@@ -927,6 +975,8 @@ Objectives:
       String: Porozmawiaj z Keltonem Frushem
     - Language: Portuguese_Brazil
       String: Fale com Kelton Frush
+    - Language: ChineseSimplified
+      String: 与科尔顿·弗拉什交谈
   Targets:
   - {}
 - Index: 60
@@ -950,6 +1000,8 @@ Objectives:
       String: Prześlij dźwięk do terminala ZUinfo
     - Language: Portuguese_Brazil
       String: Envie o áudio para um terminal da ANSC
+    - Language: ChineseSimplified
+      String: 将音频上传至定居新闻台终端
   Targets:
   - AliasID: 4
 - Index: 65
@@ -973,6 +1025,8 @@ Objectives:
       String: Przeprowadź diagnostykę
     - Language: Portuguese_Brazil
       String: Realize um diagnóstico
+    - Language: ChineseSimplified
+      String: 运行诊断程序
   Targets:
   - AliasID: 4
 - Index: 70
@@ -996,6 +1050,8 @@ Objectives:
       String: (Opcj.) Porozmawiaj z Nadią Muffaz
     - Language: Portuguese_Brazil
       String: (Opc.) Fale com Nadia Muffaz
+    - Language: ChineseSimplified
+      String: （可选）与纳迪亚·穆法茨交谈
   Targets:
   - AliasID: 6
 - Index: 75
@@ -1019,6 +1075,8 @@ Objectives:
       String: Wróć do drzewa
     - Language: Portuguese_Brazil
       String: Volte para a árvore
+    - Language: ChineseSimplified
+      String: 返回树边
   Targets:
   - {}
 - Index: 80
@@ -1042,6 +1100,8 @@ Objectives:
       String: Porozmawiaj z Keltonem Frushem
     - Language: Portuguese_Brazil
       String: Fale com Kelton Frush
+    - Language: ChineseSimplified
+      String: 与科尔顿·弗拉什交谈
   Targets:
   - {}
 Aliases:

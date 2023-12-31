@@ -19,6 +19,8 @@ Name:
     String: Skrzydło naukowe
   - Language: Portuguese_Brazil
     String: Ala Científica
+  - Language: ChineseSimplified
+    String: 科学区
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -1470,3 +1472,4 @@ Traversals:
   To: 14.218915, -40.165653, 0.08535856
   UnknownVector: 5.8576446, 6.0003543, 0.7974325
   Unknown: 0x48424842B13DD337
+NumTraversalFluffBytes: 1140

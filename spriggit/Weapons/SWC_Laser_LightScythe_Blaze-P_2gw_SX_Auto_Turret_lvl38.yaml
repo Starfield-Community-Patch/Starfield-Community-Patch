@@ -23,6 +23,8 @@ Name:
     String: Wieżyczka z laserem impulsowym SX Blaze-P 2 GW
   - Language: Portuguese_Brazil
     String: Torreta PulsoLaser SX Chama-P 2gw
+  - Language: ChineseSimplified
+    String: 烈焰P 2gw SX脉冲激光炮塔
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -86,7 +88,27 @@ WGENUnknown1: 12
 BaseWeight: 3
 BaseSpeed: 1
 AttackOxygenCost: 75
-General: "L\a\0"
+General:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: LAS
+  - Language: English
+    String: LAS
+  - Language: Spanish
+    String: LÁS
+  - Language: French
+    String: LAS
+  - Language: Italian
+    String: LAS
+  - Language: Japanese
+    String: LAS
+  - Language: Polish
+    String: LAS
+  - Language: Portuguese_Brazil
+    String: LAS
+  - Language: ChineseSimplified
+    String: 激光
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

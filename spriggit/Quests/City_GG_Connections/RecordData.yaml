@@ -186,6 +186,8 @@ Name:
     String: Niewykonane połączenia
   - Language: Portuguese_Brazil
     String: Conexões Perdidas
+  - Language: ChineseSimplified
+    String: 错过的接驳点
 Data:
   Flags:
   - RunOnce
@@ -241,6 +243,8 @@ Stages:
         String: Helena Strickland poprosiła mnie o odnalezienie zaginionego kuriera. Muszę za nią pójść.
       - Language: Portuguese_Brazil
         String: Concordei em ajudar Helena Strickland a procurar seu mensageiro desaparecido. Ela me pediu para segui-la.
+      - Language: ChineseSimplified
+        String: 我答应海伦娜·斯特里克兰要帮她找到那个失踪的快递员。她叫我跟着她。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -301,6 +305,8 @@ Stages:
         String: Helena przekazała mi informacje o trasie kuriera z dnia, w którym zaginął. Muszę sprawdzić poszczególne przystanki i ustalić, gdzie zaginął.
       - Language: Portuguese_Brazil
         String: Helena me forneceu a rota do dia do mensageiro. Preciso conferir as várias paradas dele e ver onde ele pode ter caído em uma emboscada.
+      - Language: ChineseSimplified
+        String: 海伦娜给我提供了快递员今天的派送路线。我得去查探他停留过的地方，看看他是在哪遇害的。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -328,6 +334,8 @@ Stages:
         String: To by wyjaśniało, dlaczego kurier nie dotarł na miejsce - nie żyje. Muszę przeszukać jego zwłoki. Może ma przy sobie przesyłkę Heleny.
       - Language: Portuguese_Brazil
         String: 'Bem, suponho que isso explique por que o mensageiro nunca apareceu: ele morreu. Vou procurar o pacote da Helena no corpo dele.'
+      - Language: ChineseSimplified
+        String: 怪不得快递员没出现，因为他已经死了。我查看一下他的尸体，看看海伦娜的包裹还在不在。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -355,6 +363,8 @@ Stages:
         String: Dobra wiadomość! Udało mi się odzyskać przesyłkę Heleny. Zła wiadomość - zawartość przesyłki zaginęła. Mimo wszystko lepiej zwrócić to Helenie.
       - Language: Portuguese_Brazil
         String: 'Boa notícia: recuperei o pacote da Helena. Má notícia: o que havia dentro dele desapareceu. É melhor eu devolvê-lo para Helena de qualquer forma.'
+      - Language: ChineseSimplified
+        String: 好消息！我找到了海伦娜的包裹。但还有一个坏消息——包裹里面的东西不见了。但我还是把包裹给海伦娜带回去吧。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -414,6 +424,8 @@ Stages:
         String: Helena zapłaciła mi za odnalezienie kuriera, a teraz prosi o namierzenie swojego pracownika, Bonifácego Maksimowa, którego podejrzewa o maczanie palców w śmierci kuriera i zaginięciu zawartości przesyłki.
       - Language: Portuguese_Brazil
         String: Helena me pagou para encontrar o mensageiro, mas agora está me pedindo para rastrear o funcionário dela, Bonifác Maksimov. Ela suspeita que ele possa ter algo a ver com a morte do mensageiro e com o desaparecimento do conteúdo do pacote.
+      - Language: ChineseSimplified
+        String: 海伦娜支付了我找到快递员的报酬。现在，她又让我去追踪她的雇员波尼法·马克西莫夫。她怀疑这个人与快递员的死和包裹内失踪的物品有关。
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -457,6 +469,8 @@ Stages:
         String: 'Udało mi się odnaleźć zaginionego kuriera Reliant Medical - martwego. Niestety ważna przesyłka Heleny się nie odnalazła. Mamy jednak potencjalnego podejrzanego: Bonifáca Maksimowa, młodszego kierownika Reliant Medical, który uciekł z miasta. Helena namierzyła go w pobliżu planety Hawley. Wygląda na to, że muszę się tam wybrać.'
       - Language: Portuguese_Brazil
         String: 'Encontrei o mensageiro desaparecido da Reliant Medical. Ele estava morto, mas o pacote importante da Helena ainda está desaparecido. Contudo, temos um possível suspeito: Bonifác Maksimov, executivo júnior da própria Reliant Medical, que recentemente fugiu da cidade. Helena o rastreou no planeta vizinho Hawley. Parece que é para lá que eu vou agora.'
+      - Language: ChineseSimplified
+        String: 我找到了安泰医学那名失踪的快递员。人已经死了，但海伦娜重要的包裹不见了。不过，我们已经锁定了一名嫌疑犯——安泰医学的初级高管波尼法·马克西莫夫。他最近逃离了这座城市。海伦娜在附近的霍雷星找到了他的踪迹。看来，那里就是我接下来的目的地。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -485,6 +499,8 @@ Objectives:
       String: Porozmawiaj z Heleną Strickland
     - Language: Portuguese_Brazil
       String: Fale com Helena Strickland
+    - Language: ChineseSimplified
+      String: 与海伦娜·斯特里克兰交谈
   Targets:
   - {}
 - Index: 110
@@ -508,6 +524,8 @@ Objectives:
       String: Podążaj za Heleną
     - Language: Portuguese_Brazil
       String: Siga Helena
+    - Language: ChineseSimplified
+      String: 跟随海伦娜
   Targets:
   - {}
 - Index: 120
@@ -531,6 +549,8 @@ Objectives:
       String: Porozmawiaj z Heleną
     - Language: Portuguese_Brazil
       String: Fale com Helena
+    - Language: ChineseSimplified
+      String: 与海伦娜交谈
   Targets:
   - {}
 - Index: 200
@@ -554,6 +574,8 @@ Objectives:
       String: Poszukaj kuriera na jego trasie (<Global=UC_GG_Connect_StopsCompleted>/<Global=UC_GG_Connect_TotalStops>)
     - Language: Portuguese_Brazil
       String: Procure o mensageiro na rota dele (<Global=UC_GG_Connect_StopsCompleted>/<Global=UC_GG_Connect_TotalStops>)
+    - Language: ChineseSimplified
+      String: 沿派送路线寻找快递员（<Global=UC_GG_Connect_StopsCompleted>/<Global=UC_GG_Connect_TotalStops>）
   Targets:
   - AliasID: 14
 - Index: 250
@@ -577,6 +599,8 @@ Objectives:
       String: Poszukaj przesyłki przy zwłokach kuriera
     - Language: Portuguese_Brazil
       String: Procure o pacote no corpo do mensageiro
+    - Language: ChineseSimplified
+      String: 在快递员的尸体上搜索包裹
   Targets:
   - AliasID: 3
 - Index: 300
@@ -600,6 +624,8 @@ Objectives:
       String: Porozmawiaj z Heleną o przesyłce
     - Language: Portuguese_Brazil
       String: Fale com Helena sobre o pacote
+    - Language: ChineseSimplified
+      String: 与海伦娜讨论包裹
   Targets:
   - {}
 Aliases:

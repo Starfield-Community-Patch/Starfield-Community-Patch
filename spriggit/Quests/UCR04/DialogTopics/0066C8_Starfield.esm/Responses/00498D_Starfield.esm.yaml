@@ -1,0 +1,83 @@
+FormKey: 00498D:Starfield.esm
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DefaultTopicInfoSetGlobal
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SetGlobalOnEnd
+      Object: 00498C:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0D755D:Starfield.esm
+  WEMFile: 15799177
+  TROTs:
+  - UnknownVoiceType: 29D01C:Starfield.esm
+    UnknownFloat: 4.9666667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Du solltest die Biester vermutlich nicht töten müssen, um die nötigen Zellen zu sammeln. Wir gehen in der Forschung hier nicht ganz so weit wie bei den Terrormorphs.
+    - Language: English
+      String: And, so you know, you shouldn't need to kill these critters, to harvest the required cells. This isn't the same level of analysis we were doing with the Terrormorphs.
+    - Language: Spanish
+      String: 'Y que lo sepas: no deberías de tener que matar a esas criaturas para conseguir las células. No se trata del mismo nivel de análisis que hacíamos con los horromorfos.'
+    - Language: French
+      String: Sachez aussi que ce n'est pas la peine de tuer ces bestioles pour prélever les cellules. On ne va pas faire des analyses aussi poussées qu'avec les horrimorphes.
+    - Language: Italian
+      String: Sappi che non dovrebbe servirti ammazzare queste creature per recuperare le cellule. Non è lo stesso livello di analisi che abbiamo usato con i terrormorfi.
+    - Language: Japanese
+      String: 念のために言うが、必要な細胞を入手するのに殺す必要はない。これはテラーモーフの件とレベルが異なる
+    - Language: Polish
+      String: A tak przy okazji, zabijanie tych stworzeń nie powinno być konieczne do zebrania wymaganych komórek. To nie ten sam poziom analizy co w przypadku terrormorfów.
+    - Language: Portuguese_Brazil
+      String: E só pra avisar, não é preciso matar as criaturas pra coletar as células necessárias. Essa análise não é tão aprofundada quanto a dos terrormorfos.
+    - Language: ChineseSimplified
+      String: 你应该知道，你不必杀了这些动物就能拿到所需的细胞。这和我们对骇变兽做的分析不一样。
+  ScriptNotes: Highlight "need"
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xD0EB42C5967AD801
+- Emotion: 0D755D:Starfield.esm
+  WEMFile: 7924220
+  TROTs:
+  - UnknownVoiceType: 29D01C:Starfield.esm
+    UnknownFloat: 7.4000006
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Jedes bisschen hilft hier schon. Geh einfach nah ran, kratz etwas ab und verschwinde unbemerkt.
+    - Language: English
+      String: A little will go a long way here. Just get close, take a few scrapings, and get out before they see you.
+    - Language: Spanish
+      String: Con un poco nos cundirá un montón. Tú acércate, ráspalos un poco y lárgate antes de que te vean.
+    - Language: French
+      String: Un petit échantillon suffira. Approchez-vous, raclez un peu, puis repartez avant de vous faire voir.
+    - Language: Italian
+      String: Basterà poco. Avvicinati, preleva qualche campione e filatela prima che ti vedano.
+    - Language: Japanese
+      String: 少しだけでも十分だ。近づいてちょっとこすり取ったら、見つかる前に逃げろ
+    - Language: Polish
+      String: Wystarczy naprawdę niewiele. Zbliż się, zeskrob trochę próbki i wynieś się, zanim cię zauważą.
+    - Language: Portuguese_Brazil
+      String: Uma abordagem simples já basta. Aproxime-se, pegue algumas amostras e saia antes que te vejam.
+    - Language: ChineseSimplified
+      String: 一点点就能帮上大忙。凑近点，取几个刮屑，然后在它们发现你之前离开。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x503BC27B877AD801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 0066A9:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 00498C:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

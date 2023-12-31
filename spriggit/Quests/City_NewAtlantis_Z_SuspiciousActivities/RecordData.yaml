@@ -180,6 +180,8 @@ Name:
     String: Podejrzana aktywność
   - Language: Portuguese_Brazil
     String: Atividades Suspeitas
+  - Language: ChineseSimplified
+    String: 可疑活动
 Data:
   Flags:
   - WarnOnAliasFillFailure
@@ -214,6 +216,8 @@ Stages:
         String: Theresa Mason podejrzewa, że jej klienci mogą planować obrabowanie demobilu ZK. Muszę z nią porozmawiać i się dowiedzieć, jak mogę pomóc.
       - Language: Portuguese_Brazil
         String: Theresa Mason suspeita que alguns clientes dela estão planejando um assalto à Excedentes da UC. Tenho que falar com ela para ver como posso ajudar.
+      - Language: ChineseSimplified
+        String: 特蕾莎·梅森怀疑某些客户可能在计划抢劫联殖军用品店。我应该和她谈谈，看看能不能帮到她。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -249,6 +253,8 @@ Stages:
         String: Theresa poprosiła mnie o odnalezienie złodziei i ustalenie, co planują. Muszę się udać do demobilu ZK i podsłuchać ich rozmowę.
       - Language: Portuguese_Brazil
         String: Theresa me pediu para achar os ladrões e tentar descobrir o que estão tramando. Tenho que ir até a Excedentes da UC e tentar ouvir a conversa deles.
+      - Language: ChineseSimplified
+        String: 特蕾莎请求我帮忙找到窃贼，看看能不能弄清他们的计划。我该前往联殖军用品店，偷听他们说些什么。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -276,6 +282,8 @@ Stages:
         String: Złodzieje są przed demobilem ZK. Podsłucham ich, by się dowiedzieć, co planują.
       - Language: Portuguese_Brazil
         String: Achei os ladrões perto da Excedentes da UC. Agora o melhor seria ouvir a conversa deles às escondidas para descobrir o que estão tramando.
+      - Language: ChineseSimplified
+        String: 我在联殖军用品店外发现了窃贼。我该试着偷听，看看能不能弄清楚他们的计划。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -303,6 +311,8 @@ Stages:
         String: Dwóch mężczyzn zdecydowanie zamierza obrabować demobil ZK. Muszę przekazać swoje ustalenia Theresie w Kay's House.
       - Language: Portuguese_Brazil
         String: Aqueles caras com certeza pretendem assaltar a Excedentes da UC. Preciso contar o que descobri pra Theresa na Kay's House.
+      - Language: ChineseSimplified
+        String: 这两人一定是在打算抢劫联殖军用品店。我应该去凯小吃店，向特蕾莎报告我了解到的情况。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -330,6 +340,8 @@ Stages:
         String: 'Theresa poprosiła mnie o zgłoszenie kradzieży oficerowi Karsonowi Endlerowi z ochrony ZK w Studni. Pora się za to zabrać. '
       - Language: Portuguese_Brazil
         String: 'Theresa me pediu para avisar o oficial Karson Endler do assalto. Ele trabalha na segurança da UC no Poço e é para lá que tenho que ir. '
+      - Language: ChineseSimplified
+        String: '特蕾莎让我前往深井区联殖安保，向卡森·恩德勒警官报告盗窃案。我应该马上前往办公室。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -357,6 +369,8 @@ Stages:
         String: Nie potrzebuję pomocy w powstrzymaniu tej kradzieży. Muszę zająć się złodziejami, zanim będą mieli szansę na obrabowanie demobilu ZK.
       - Language: Portuguese_Brazil
         String: Não preciso de ajudar para impedir o assalto. Só tenho que dar um jeito nos ladrões antes que eles consigam roubar a Excedentes da UC.
+      - Language: ChineseSimplified
+        String: 我可以自己阻止窃案发生。我该抢先收拾窃贼，避免他们抢劫联殖军用品店。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -384,6 +398,8 @@ Stages:
         String: Złodzieje usłyszeli, że chcę ich powstrzymać, więc mnie zaatakowali. Muszę się ich pozbyć, zanim oni pozbędą się mnie.
       - Language: Portuguese_Brazil
         String: Os ladrões perceberam que eu estava tentando detê-los e me atacaram. Preciso acabar com eles antes que eles acabem comigo.
+      - Language: ChineseSimplified
+        String: 窃贼听说我打算阻止他们，于是对我发起攻击。我应该先下手为强。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -419,6 +435,8 @@ Stages:
         String: Udało mi się znaleźć oficera Endlera w biurze ochrony ZK w Studni. Powiedział, że natychmiast zajmie się złodziejami.
       - Language: Portuguese_Brazil
         String: Encontrei o oficial Endler na agência de segurança da UC no Poço. Ele disse que vai verificar a questão dos ladrões agora mesmo.
+      - Language: ChineseSimplified
+        String: 我在深井区的联殖安保办公室找到了恩德勒警官。他说会马上前去寻找窃贼。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -446,6 +464,8 @@ Stages:
         String: Oficer Endler jest w drodze, aby upewnić się, że złodzieje nie wywiną jakiegoś numeru. Pora powiadomić o wszystkim Theresę.
       - Language: Portuguese_Brazil
         String: O oficial Endler está a caminho para impedir que os ladrões entrem em ação. Tenho que avisar a Theresa.
+      - Language: ChineseSimplified
+        String: 恩德勒警官正在赶来，确保窃贼不会有机会出手。我应该向特蕾莎汇报此事。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -481,6 +501,8 @@ Stages:
         String: Udało mi się rozprawić ze złodziejami i powstrzymać kradzież. Pora wrócić do Theresy.
       - Language: Portuguese_Brazil
         String: Dei um jeito nos ladrões e impedi o assalto. Agora tenho que falar com a Theresa.
+      - Language: ChineseSimplified
+        String: 我干掉了窃贼，阻止窃案发生。我应该向特蕾莎汇报。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -516,6 +538,8 @@ Stages:
         String: Muszę porozmawiać z Theresą o złodziejach.
       - Language: Portuguese_Brazil
         String: Preciso falar com a Theresa sobre o que aconteceu com os ladrões.
+      - Language: ChineseSimplified
+        String: 我应该和特蕾莎谈谈窃贼的事。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -552,6 +576,8 @@ Stages:
         String: Theresa już wie po naszej rozmowie, co się stało ze złodziejami.
       - Language: Portuguese_Brazil
         String: Falei com a Theresa e contei o que aconteceu com os ladrões.
+      - Language: ChineseSimplified
+        String: 我找特蕾莎谈过了，把窃贼的遭遇告诉了她。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -598,6 +624,8 @@ Objectives:
       String: Porozmawiaj z Theresą Mason
     - Language: Portuguese_Brazil
       String: 'Fale com Theresa Mason '
+    - Language: ChineseSimplified
+      String: 与特蕾莎·梅森交谈
   Targets:
   - {}
 - Index: 20
@@ -621,6 +649,8 @@ Objectives:
       String: Znajdź podejrzanych ludzi na zewnątrz demobilu ZK
     - Language: Portuguese_Brazil
       String: Ache os suspeitos perto da Excedentes da UC
+    - Language: ChineseSimplified
+      String: 在联殖军用品店外寻找可疑人物
   Targets:
   - AliasID: 2
   - AliasID: 3
@@ -645,6 +675,8 @@ Objectives:
       String: Podsłuchaj rozmowę
     - Language: Portuguese_Brazil
       String: Escute a conversa às escondidas
+    - Language: ChineseSimplified
+      String: 窃听对话
 - Index: 30
   Flags: []
   DisplayText:
@@ -666,6 +698,8 @@ Objectives:
       String: Powiadom Theresę o planowanej kradzieży
     - Language: Portuguese_Brazil
       String: Volte e fale com Theresa sobre o assalto planejado
+    - Language: ChineseSimplified
+      String: 向特蕾莎汇报盗窃案预谋
   Targets:
   - {}
 - Index: 35
@@ -689,6 +723,8 @@ Objectives:
       String: Zgłoś planowaną kradzież oficerowi Endlerowi
     - Language: Portuguese_Brazil
       String: Avise o oficial Endler do assalto planejado
+    - Language: ChineseSimplified
+      String: 向恩德勒警官报告盗窃案预谋
   Targets:
   - AliasID: 1
 - Index: 40
@@ -713,6 +749,8 @@ Objectives:
       String: Skonfrontuj się ze złodziejami
     - Language: Portuguese_Brazil
       String: Confronte os ladrões
+    - Language: ChineseSimplified
+      String: 和窃贼对峙
   Targets:
   - AliasID: 2
   - AliasID: 3
@@ -737,6 +775,8 @@ Objectives:
       String: Zabij złodziejów
     - Language: Portuguese_Brazil
       String: Mate os ladrões
+    - Language: ChineseSimplified
+      String: 击杀窃贼
   Targets:
   - AliasID: 2
   - AliasID: 3
@@ -761,6 +801,8 @@ Objectives:
       String: Zdaj raport Theresie
     - Language: Portuguese_Brazil
       String: Volte para falar com Theresa
+    - Language: ChineseSimplified
+      String: 向特蕾莎汇报
   Targets:
   - {}
 Aliases:

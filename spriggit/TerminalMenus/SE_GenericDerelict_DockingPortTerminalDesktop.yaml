@@ -120,6 +120,8 @@ Name:
     String: Komputer pokładowy
   - Language: Portuguese_Brazil
     String: Computador da Nave
+  - Language: ChineseSimplified
+    String: 飞船电脑
 TMVT: 0x01000000
 DNAM: 0x01
 SNAM: 0x00000000
@@ -146,6 +148,8 @@ MenuItems:
       String: Status portu dokowania
     - Language: Portuguese_Brazil
       String: Status do Porto de Acoplagem
+    - Language: ChineseSimplified
+      String: 登船口状态
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -337,6 +341,29 @@ MenuItems:
         Nave: <Alias=PlayerShip>
 
         Status da Nave: Operante
+    - Language: ChineseSimplified
+      String: >+
+        <Alias=DerelictShipName>主登船口
+
+        ===============================================
+
+
+        登船口状态
+
+        ====================
+
+        状态：已使用
+
+        权限：无
+
+
+        飞船信息
+
+        ====================
+
+        飞船：<Alias=PlayerShip>
+
+        飞船状态：正常运行
 - ItemText:
     TargetLanguage: English
     Values:
@@ -356,6 +383,8 @@ MenuItems:
       String: Tablica ogłoszeń
     - Language: Portuguese_Brazil
       String: Quadro de Avisos
+    - Language: ChineseSimplified
+      String: 公告板
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0200000008000000
@@ -386,6 +415,8 @@ MenuItems:
       String: Problemy z regulacją temperatury
     - Language: Portuguese_Brazil
       String: Problemas de controle térmico
+    - Language: ChineseSimplified
+      String: 温度调节问题
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -465,6 +496,15 @@ MenuItems:
 
 
         <Token.Title=MiscText00>.
+    - Language: ChineseSimplified
+      String: >-
+        <Alias.CurrentName=DerelictCaptain>通知我们，护盾全都坏了。原因可能是过量电磁辐射，我们认为是来自附近的<Token.Title=MiscText01>。
+
+
+        另外，虽然优先度不那么高，但我觉得飞船里的温度调节器出毛病了。所有人都在抱怨太冷了，而且很明显对测量仪器也产生了影响，读数错得离谱。我需要去查看维护日志，然后运行诊断。
+
+
+        <Token.Title=MiscText00>.
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -497,6 +537,8 @@ MenuItems:
       String: Systemy podtrzymywania życia uszkodzone
     - Language: Portuguese_Brazil
       String: Sistemas de suporte vital danificados
+    - Language: ChineseSimplified
+      String: 生命维持系统受损
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -576,6 +618,15 @@ MenuItems:
 
 
         <Token.Title=MiscText00>.
+    - Language: ChineseSimplified
+      String: >-
+        深红舰队给了我们沉重的打击。<Token.Title=MiscText02>。
+
+
+        网络系统瘫痪了，我们还缺乏一些零件，无法完全修复。照这样下去，我们只能选择被冻死或者被辐射弄死。虽然希望渺茫，但也许我能用主机电脑进行维修。
+
+
+        <Token.Title=MiscText00>。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -620,6 +671,8 @@ MenuItems:
       String: Systemy podtrzymywania życia uszkodzone
     - Language: Portuguese_Brazil
       String: Sistemas de suporte vital danificados
+    - Language: ChineseSimplified
+      String: 生命维持系统受损
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -699,6 +752,15 @@ MenuItems:
 
 
         <Token.Title=MiscText00>.
+    - Language: ChineseSimplified
+      String: >-
+        小行星撞击导致<Alias=DerelictShipName>上的许多系统受损。首先，引擎似乎是废了，生命维持系统也正在失效。尽管目前氧气和温度都稳定，但我们不知道能够持续多久。
+
+
+        我们没有足够的材料进行维修，而且主机电脑网络也瘫痪了。现在船员们正在想方设法寻找解决办法。
+
+
+        <Token.Title=MiscText00>。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -743,6 +805,8 @@ MenuItems:
       String: Nie ma powodów do paniki
     - Language: Portuguese_Brazil
       String: Não precisa entrar em pânico
+    - Language: ChineseSimplified
+      String: 无需惊慌
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000DD7F08000000
@@ -822,6 +886,15 @@ MenuItems:
 
 
         <Token.Title=MiscText00>.
+    - Language: ChineseSimplified
+      String: >-
+        太阳耀斑导致多个关键系统瘫痪了，氧气含量有些低，但暂时不慌。
+
+
+        现在我们把<Alias=DerelictShipName>停泊在<Alias=targetSystem>，以进行全面审核。另外，<Alias.CurrentName=DerelictCaptain>刚刚派了几个人去查看主机电脑，他们现在正在进行诊断。自动修复系统应该能够搞定。
+
+
+        <Token.Title=MiscText00>.
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -855,6 +928,8 @@ MenuItems:
       String: Systemy podtrzymywania życia uszkodzone
     - Language: Portuguese_Brazil
       String: Sistemas de suporte vital danificados
+    - Language: ChineseSimplified
+      String: 生命维持系统受损
   ItemShortText:
     TargetLanguage: English
   ISET: 0x00009D4808000000
@@ -934,6 +1009,15 @@ MenuItems:
 
 
         A empresa disse que os sistemas de autorreparo desta nave são de última geração, então não precisamos nos precoupar.
+    - Language: ChineseSimplified
+      String: >-
+        太空劫匪摧毁了我们的重力推动器，以及维修<Token.Title=MiscText02>所需要的网络。
+
+
+        但现在，最紧迫的问题是我们的基本生命维持系统。只要它们还在运行，我们就不会有事。
+
+
+        公司告诉我们，这艘飞船拥有最先进的自动修复系统，所以应该没什么可担心的。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -968,6 +1052,8 @@ MenuItems:
       String: '<Alias=DerelictShipName> - uszkodzenia '
     - Language: Portuguese_Brazil
       String: 'Dano a <Alias=DerelictShipName> '
+    - Language: ChineseSimplified
+      String: '<Alias=DerelictShipName>遭受破坏 '
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000000008000000
@@ -1047,6 +1133,15 @@ MenuItems:
 
 
         <Token.Title=MiscText00>.
+    - Language: ChineseSimplified
+      String: >-
+        飞船内部的辐射水平已经高得爆表了。我不确定我们遭遇了什么，但是队员们认为可能是<Token.Title=MiscText01>。
+
+
+        我现在要去用主机电脑运行全面诊断，希望网络系统还在正常运转。
+
+
+        <Token.Title=MiscText00>.
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -1080,6 +1175,8 @@ MenuItems:
       String: '<Alias=DerelictShipName> - uszkodzenia '
     - Language: Portuguese_Brazil
       String: 'Dano a <Alias=DerelictShipName> '
+    - Language: ChineseSimplified
+      String: '<Alias=DerelictShipName>遭受破坏 '
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000000008000000
@@ -1167,6 +1264,16 @@ MenuItems:
 
         Com esse nível de radiação, a comida e a água na dave podem ficar contaminadas. Tentei comer um pouco de <Token.Name=MiscText03> e vomitei por <Token.Value=RandomInt01> horas.
 
+    - Language: ChineseSimplified
+      String: >+
+        我们还以为那是一艘遇险飞船，结果刚一完成对接，他们就想登我们的船。狗日的瓦鲁狂徒。<Token.Title=MiscText02>。
+
+
+        我们成功逃脱了，但是正好跃迁进了太阳耀斑。由于辐射护盾损毁了一半，情况十分严峻。
+
+
+        因为辐射水平过高，飞船上的食物与淡水可能都受到了污染。我尝试吃了<Token.Name=MiscText03>，结果接下来的<Token.Value=RandomInt01>个小时都在呕吐。
+
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -1201,6 +1308,8 @@ MenuItems:
       String: Uszkodzenie radiatora
     - Language: Portuguese_Brazil
       String: Dano ao dissipador de calor
+    - Language: ChineseSimplified
+      String: 散热器受损
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000F14008000000
@@ -1280,6 +1389,15 @@ MenuItems:
 
 
         <Token.Title=MiscText00>.
+    - Language: ChineseSimplified
+      String: >-
+        我们撞上了一些环绕这片区域的碎片，可能是一艘荒废飞船，或者是废弃卫星，队员们不是很确定。
+
+
+        我们的一些核心系统离线了，并且诊断显示散热器也离线了，所以温度会这么高。我们觉得从生命维持系统转移一部分电力也许有助于降低温度。
+
+
+        <Token.Title=MiscText00>.
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -1313,6 +1431,8 @@ MenuItems:
       String: Systemy wentylacji uszkodzone
     - Language: Portuguese_Brazil
       String: Sistemas de ventilação danificados
+    - Language: ChineseSimplified
+      String: 通风系统受损
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000000008000000
@@ -1392,6 +1512,15 @@ MenuItems:
 
 
         <Token.Title=MiscText00>.
+    - Language: ChineseSimplified
+      String: >-
+        这艘飞船简直倒霉透顶。我们才刚到就被瓦鲁狂徒袭击了，完全没有任何缘由。什么破神会攻击民用船只然后再把它晾着等死？
+
+
+        至少我们逃出来了，但那不等于我们会活下来。运行了诊断之后，看起来通风系统无法将多余的热量排出<Alias=DerelictShipName>，感觉我们要被活蒸了。<Alias.CurrentName=DerelictCaptain>认为我们能把它修好，但是已经过了<Token.Title=RandomInt03>个小时，我们还是毫无进展。
+
+
+        <Token.Title=MiscText00>。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x020000
@@ -1426,6 +1555,8 @@ MenuItems:
       String: Systemy kontroli temperatury nieaktywne
     - Language: Portuguese_Brazil
       String: Sistemas de Controle Térmico offline
+    - Language: ChineseSimplified
+      String: 温控系统离线
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000000008000000
@@ -1505,6 +1636,15 @@ MenuItems:
 
 
         <Token.Title=MiscText00>.
+    - Language: ChineseSimplified
+      String: >-
+        一艘太空劫匪飞船向我们发射了几枚导弹，并摧毁了我们的温控系统。<Token.Title=MiscText02>. 
+
+
+        温度已经失控了，现在，我们正在尽最大努力恢复推进系统，好让我们使用重力跃迁离开<Alias=targetSystem>星系，并前往附近的太空港。
+
+
+        <Token.Title=MiscText00>.
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -1539,6 +1679,8 @@ MenuItems:
       String: '<Alias=DerelictShipName> - uszkodzenia '
     - Language: Portuguese_Brazil
       String: 'Dano a <Alias=DerelictShipName> '
+    - Language: ChineseSimplified
+      String: '<Alias=DerelictShipName>遭受破坏 '
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000000008000000
@@ -1618,6 +1760,15 @@ MenuItems:
 
 
         <Token.Title=MiscText00>.
+    - Language: ChineseSimplified
+      String: >+
+        在上一次重力跃迁之后，<Alias=DerelictShipName>受到了一点损伤。我需要去查看维护日志，不过也许是某种<Token.Title=MiscText01>。
+
+
+        有报告称出现了腐蚀性气体泄漏，但源头不明。
+
+
+        <Token.Title=MiscText00>。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -1651,6 +1802,8 @@ MenuItems:
       String: Uszkodzenia rur od kosmicznych śmieci
     - Language: Portuguese_Brazil
       String: Canos danificados por destroços
+    - Language: ChineseSimplified
+      String: 碎片造成的管道破坏
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000000008000000
@@ -1754,6 +1907,18 @@ MenuItems:
 
 
 
+    - Language: ChineseSimplified
+      String: >+
+        在船员们进行维护工作时，<Alias=DerelictShipName>被一些碎片击中了。今天早上我们在对接舱附近的一根管道上发现了一处腐蚀性泄漏。
+
+
+        我必须去查看主机电脑，然后运行一次全面诊断检查，但是我们物资紧缺，并且可能需要外界帮助才能把它修复。
+
+
+        此时我们只能期待某种奇迹：船员们正在轮班使用通讯系统，呼叫任何可能重力跃迁到<Alias=targetSystem>星系的飞船。
+
+
+
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -1788,6 +1953,8 @@ MenuItems:
       String: '<Alias=DerelictShipName> - uszkodzenia '
     - Language: Portuguese_Brazil
       String: 'Dano a <Alias=DerelictShipName> '
+    - Language: ChineseSimplified
+      String: '<Alias=DerelictShipName>遭受破坏 '
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000000008000000
@@ -1867,6 +2034,15 @@ MenuItems:
 
 
         <Token.Title=MiscText00>.
+    - Language: ChineseSimplified
+      String: >-
+        在船员们熟睡时，<Alias=DerelictShipName>被一些碎片击中了。撞击震醒了所有人，但这只是个开始。
+
+
+        今天早上检查过之后，我们在驾驶舱附近发现了一处腐蚀性泄漏。看样子在问题解决之前，我们只能把飞船停泊在<Alias=targetSystem>星系里了。我们必须去查看主机电脑，然后运行一次全面诊断检查。
+
+
+        <Token.Title=MiscText00>
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -1901,6 +2077,8 @@ MenuItems:
       String: '<Alias=DerelictShipName> - uszkodzenia '
     - Language: Portuguese_Brazil
       String: 'Dano à <Alias=DerelictShipName> '
+    - Language: ChineseSimplified
+      String: '<Alias=DerelictShipName>遭受破坏 '
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000000008000000
@@ -2004,6 +2182,18 @@ MenuItems:
 
 
         <Token.Title=MiscText00>.
+    - Language: ChineseSimplified
+      String: >+
+        一切从我们遭到太空劫匪的袭击开始。在我们进行常规维护时，他们的飞船突然出现。<Token.Title=MiscText02>。
+
+
+        护盾已经离线了，电力也维持在最低水平，但是没有引擎的支持，在可以预见的未来内我们会一直被困在<Alias=targetSystem>星系。
+
+
+        我们已经在把一切资源输送给了生命维持系统，但是我们能做也就这么多。现在飞船还检测到了毒气泄漏，我准备去查看一下主机电脑，看看能不能找到泄漏源头。
+
+
+        <Token.Title=MiscText00>.
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x020000
@@ -2037,6 +2227,8 @@ MenuItems:
       String: Uszkodzenia przez pole asteroid
     - Language: Portuguese_Brazil
       String: Danos por um campo de asteroides
+    - Language: ChineseSimplified
+      String: 小行星带造成的破坏
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000000008000000
@@ -2100,6 +2292,13 @@ MenuItems:
 
         O problema não é só o dano detectável, e sim todos os sistemas que ainda funcionam, mas que estão à beira do colapso. Vou propor uma vistoria completa da nave quando voltarmos pra casa. Só espero que não seja tarde demais.
 
+    - Language: ChineseSimplified
+      String: >+
+        <Alias.CurrentName=DerelictCaptain>已经疯了。首先出现了延误，然后为了弥补延误，<Alias.Pronoun=DerelictCaptain>让我们从小行星带抄所谓的近道，结果现在我们付出了惨痛的代价。
+
+
+        不光是我们检测到的损伤，还有所有仍在工作的系统，但是都已濒临崩溃。我准备提议一回到家就对飞船进行全面审核，我只希望还不算太晚。
+
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -2134,6 +2333,8 @@ MenuItems:
       String: Zgarnęliśmy trochę niedobitków
     - Language: Portuguese_Brazil
       String: Peguei uns retardatários
+    - Language: ChineseSimplified
+      String: 接收了一些掉队者
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000FF0008000000
@@ -2213,6 +2414,15 @@ MenuItems:
 
 
         Eu acredito neles. Ofereci <Token.Name=MiscText03> a um deles e quase arrancaram meu braço.
+    - Language: ChineseSimplified
+      String: >-
+        <Alias.CurrentName=DerelictCaptain>让我们在去<Alias=targetSystem>的路上调查一下邻近星系发出的求救信号。与他们的飞船对接之后，我们最终接收了一些船员。本来做慈善不在任务参数的范围里，但是他们看起来走投无路了。
+
+
+        实际上，有几个人说他们已经整整<Token.Value=RandomInt01>天没吃东西了。
+
+
+        我相信他们的话。我给了其中一个人一份<Token.Name=MiscText03>，那家伙慌忙把食物抢了过去，差点没把我的胳膊也一起扯下来。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x020000
@@ -2247,6 +2457,8 @@ MenuItems:
       String: Dziwne wydarzenia
     - Language: Portuguese_Brazil
       String: Acontecimentos estranhos
+    - Language: ChineseSimplified
+      String: 奇怪现象
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000FF0008000000
@@ -2326,6 +2538,15 @@ MenuItems:
 
 
         Mas agora os sistemas internos estão ficando malucos. O que quer que tenha sido o barulho, me pergunto se agora está dentro da nave.
+    - Language: ChineseSimplified
+      String: >-
+        一切开始于大概<Token.Value=RandomInt00>天前，登船口那里出现了刮擦声。
+
+
+        我以为是热蛭，或者单纯是船太旧了。
+
+
+        但是现在飞船的内部系统都一塌糊涂。我怀疑那些刮擦声现在已经进来了。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -2359,6 +2580,8 @@ MenuItems:
       String: Sygnał wezwania pomocy
     - Language: Portuguese_Brazil
       String: Pedido de socorro
+    - Language: ChineseSimplified
+      String: 求救信号
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000CF5F08000000
@@ -2438,6 +2661,15 @@ MenuItems:
 
 
         Isso já faz <Token.Value=RandomInt00> dias, e agora estamos de volta ao trabalho. Mas tem algo errado. Não tivemos nenhuma colisão ou tempestade, mas mesmo assim houve danos à nave. Deveríamos fazer um diagnóstico e verificar os registros de manutenção. Talvez as varreduras detectem algo.
+    - Language: ChineseSimplified
+      String: >-
+        <Alias=DerelictCaptain>通知我们要改变航线了，考虑到任务参数，这很不寻常，但显然我们收到了附近一艘飞船的呼救。
+
+
+        遗憾的是，当我们抵达那里时，飞船已经荒废了。
+
+
+        从那以后已经过去了<Token.Value=RandomInt00>天，我们也回到了自己的本职工作，但总觉得有点不对劲。我们没有遇到过任何撞击或是风暴，但是飞船还是受到了损伤。我们得运行一次诊断，然后查看一下维护日志，也许扫描能够发现什么。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x020000
@@ -2472,6 +2704,8 @@ MenuItems:
       String: Udomowione stworzenia
     - Language: Portuguese_Brazil
       String: Bichos de estimação
+    - Language: ChineseSimplified
+      String: 宠物生物
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000CF5F08000000
@@ -2551,6 +2785,15 @@ MenuItems:
 
 
         <Alias.CurrentName=DerelictCaptain> diz para eu parar, mas não vejo por quê.
+    - Language: ChineseSimplified
+      String: >+
+        我们带回来了一些生物，是在上一个星球补货时捡到的。小东西都挺可爱的，就是比我过去遇到过的任何异种动物都要饥饿。
+
+
+        它们基本上什么都吃，我一直在给它们喂<Token.Name=MiscText03>，它们吞得都挺快。
+
+
+        <Alias.CurrentName=DerelictCaptain>叫我别喂了，但我觉得没什么不好。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -2585,6 +2828,8 @@ MenuItems:
       String: Maszyny typu <Alias=Robots[0]> dziwnie się zachowują
     - Language: Portuguese_Brazil
       String: <Alias=Robots[0]>s agindo estranho
+    - Language: ChineseSimplified
+      String: <Alias=Robots[0]>的举止怪异
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000F75F08000000
@@ -2664,6 +2909,15 @@ MenuItems:
 
 
         Ando pensando se não seria inteligente desligar e recalibrar seus sistemas, mas <Alias.CurrentName=DerelictCaptain> acha que precisamos da ajuda deles para terminar os reparos. E eu estou prestes a ganhar uma promoção, então não vou discutir com <Alias.PronounObj=DerelictCaptain> ou fazer mais objeções. Mas isso não significa que eu não tenha minhas preocupações.
+    - Language: ChineseSimplified
+      String: >-
+        太阳耀斑似乎对系统造成了不小影响，更糟的是，漏洞还扩大到了飞船上的机器人成员。
+
+
+        我已经记录下了自己看到的一些情况，从无视命令到基本任务错误。
+
+
+        我在想也许把它们的系统关闭再重新校准会比较明智，但是<Alias.CurrentName=DerelictCaptain>觉得我们需要它们的支援来完成修复工作。我就快要晋升了，所以我不打算和<Alias.PronounObj=DerelictCaptain>争论，或是提出其他反对意见，但那并不代表我不担心。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x020000
@@ -2697,6 +2951,8 @@ MenuItems:
       String: Błędy sieciowe?
     - Language: Portuguese_Brazil
       String: Erros de rede?
+    - Language: ChineseSimplified
+      String: 网络错误？
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000E87F08000000
@@ -2776,6 +3032,15 @@ MenuItems:
 
 
         <Token.Title=MiscText00>
+    - Language: ChineseSimplified
+      String: >-
+        自从事故发生后，我们飞船上的网络系统一直问题不断。
+
+
+        技术员们正在进行调查，但是这些机器连基本的指令都无法响应。现在我们正在仔细研读手册，寻找解决办法。
+
+
+        <Token.Title=MiscText00>
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000
@@ -2810,6 +3075,8 @@ MenuItems:
       String: maszyny typu <Alias=Robots[0]>, aby pomogły w naprawie
     - Language: Portuguese_Brazil
       String: <Alias=Robots[0]>s para ajudar com reparos
+    - Language: ChineseSimplified
+      String: <Alias=Robots[0]>将协助维修
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000000008000000
@@ -2889,6 +3156,15 @@ MenuItems:
 
 
         Enquanto isso, vou ativar uns tripulantes robôs para nos ajudar a recuperar alguns dos sistemas. Espero que eles não tenham sido danificados na tempestade.
+    - Language: ChineseSimplified
+      String: >-
+        附近的<Token.Title=MiscText01>导致现在飞船的导航系统彻底错乱了。
+
+
+        <Alias.CurrentName=DerelictCaptain>已经开始了中止任务的进程，但是由于重力系统年久失修，这个问题可能还有待商议。
+
+
+        与此同时，我准备启动一些机器人船员来帮我们恢复一部分系统，希望它们没有在风暴中受损。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x010000

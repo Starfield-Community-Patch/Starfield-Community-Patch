@@ -26,6 +26,8 @@ Name:
     String: Skafander asa SysObu
   - Language: Portuguese_Brazil
     String: Traje Espacial de Ás da DefSis
+  - Language: ChineseSimplified
+    String: 星防队王牌太空服
 WorldModel:
   Male:
     File: SetDressing\SpaceSuitContainer_Green.nif
@@ -98,6 +100,8 @@ ObjectTemplates:
       String: Domyślny
     - Language: Portuguese_Brazil
       String: Padrão
+    - Language: ChineseSimplified
+      String: 默认
   Default: True
   Includes:
   - Mod: 11E2BB:Starfield.esm
