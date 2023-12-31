@@ -1,0 +1,96 @@
+FormKey: 04A4FF:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 4560777
+  TRDAUnknown: 1.5666667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Das sagt sich jetzt leicht.
+    - Language: English
+      String: Easy to say now.
+    - Language: Spanish
+      String: Ahora es fácil decirlo.
+    - Language: French
+      String: Facile à dire, aujourd'hui.
+    - Language: Italian
+      String: Facile dirlo, adesso.
+    - Language: Japanese
+      String: 今そう言うのは簡単だ
+    - Language: Polish
+      String: Łatwo ci mówić.
+    - Language: Portuguese_Brazil
+      String: Agora é fácil falar.
+    - Language: ChineseSimplified
+      String: 现在说起来容易。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x504C3F701DDBD701
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 3306339
+  TRDAUnknown: 10.000001
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Aber damals wusste ich nicht, dass man die Lazaruspflanze nicht pflücken kann, um noch mehr Unheil mit ihr anzurichten.
+    - Language: English
+      String: But, at the time, I didn't know the Lazarus Plant couldn't be plucked from the ground and used to cause even more death.
+    - Language: Spanish
+      String: Pero entonces no sabía que la planta Lázaro no podía arrancarse del suelo y utilizarse para causar aún más muertes.
+    - Language: French
+      String: Mais à l'époque, j'ignorais qu'il était impossible de cueillir les lazarées et de s'en servir pour causer encore plus de morts.
+    - Language: Italian
+      String: Ma all’epoca non sapevo che la pianta di Lazzaro non può essere prelevata dal suolo nativo e impiegata per causare altra morte.
+    - Language: Japanese
+      String: だがその時は知らなかったのだ。ラザルス・プラントが引き抜かれ、より多くの死をもたらすために使われることがないと
+    - Language: Polish
+      String: Wtedy jednak nie wiedziałem, że lazarytki nie można wyrwać z ziemi, by spowodować więcej śmierci.
+    - Language: Portuguese_Brazil
+      String: Porém, na época, eu não sabia que a planta lázaro poderia ser arrancada do chão e usada para causar ainda mais mortes.
+    - Language: ChineseSimplified
+      String: 但当时我根本不知道拉撒路草不能从地上拔起，用来制造更多伤亡。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x50D6F8E81FDBD701
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 5679995
+  TRDAUnknown: 10.000001
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ich wollte einen ohnehin katastrophalen Krieg nicht noch um eine gefährliche Variable erweitern.
+    - Language: English
+      String: I wasn't going to allow another dangerous variable be added to an already catastrophic war.
+    - Language: Spanish
+      String: No iba a permitir que se añadiese otra variable peligrosa a una guerra ya de por sí catastrófica.
+    - Language: French
+      String: Pas question de permettre l'irruption d'une nouvelle variable dangereuse dans une guerre déjà catastrophique.
+    - Language: Italian
+      String: Non avrei permesso che un’altra pericolosa variabile si aggiungesse a una guerra già di per sé catastrofica.
+    - Language: Japanese
+      String: すでに悲惨を極めていた戦争に、別の危険因子が加わることは容認できなかったのだ
+    - Language: Polish
+      String: Nie chciałem, by do tej katastrofalnej wojny została dodana kolejna niebezpieczna zmienna.
+    - Language: Portuguese_Brazil
+      String: Não poderia permitir que outra variável perigosa fosse acrescentada a uma guerra tão catastrófica.
+    - Language: ChineseSimplified
+      String: 当时的战争局势已经非常危急，我绝不允许再加入一种危险的变数。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x209CB3AE1DDBD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 1FC858:Starfield.esm
+    SecondParameter: 127
+StartScenePhase: ''
+SubtitlePriority: Low

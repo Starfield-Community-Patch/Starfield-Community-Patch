@@ -1,0 +1,3508 @@
+FormKey: 002FAE:Starfield.esm
+EditorID: COM_Quest_Barrett_Q02
+VirtualMachineAdapter:
+  Scripts:
+  - Name: bq01_questscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ01_Keyword_TempleLocation
+      Object: 2F54FE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Location_Temple
+      Object: 002FAE:Starfield.esm
+      Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Location_TemplePlanet
+      Object: 002FAE:Starfield.esm
+      Alias: 97
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker_Temple
+      Object: 002FAE:Starfield.esm
+      Alias: 98
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQTempleQuestActive
+      Object: 08691D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TempleQuest_SpawnTemple
+      Object: 032898:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 002FAE:Starfield.esm
+      Alias: 105
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StarbornTempleQuest
+      Object: 214707:Starfield.esm
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 8000
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 8010
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 002FAE:Starfield.esm
+          Alias: 96
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 8300
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 8301
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 002FAE:Starfield.esm
+          Alias: 97
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 8300
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 8301
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 002FAE:Starfield.esm
+          Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: gamedayspassedglobalsquestscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: GameDaysPassedGlobalsAndQuestStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: DaysToAdd
+          Object: 074DDC:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: NextAllowed
+          Object: 07D9EB:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: QuestStage
+          Data: 230
+  Script:
+    Name: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AbStarbornDeath
+      Object: 3A289F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AbStarbornTeleport
+      Object: 3A289E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AbStarbornTeleportAlt
+      Object: 3A289E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AIPower_ParallelSelf
+      Object: 23AF08:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Activator_Temple_Puzzle
+      Object: 002FAE:Starfield.esm
+      Alias: 100
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Activator_Temple_Trigger
+      Object: 002FAE:Starfield.esm
+      Alias: 135
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Activator_Temple_TriggerEntry
+      Object: 002FAE:Starfield.esm
+      Alias: 139
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Actor_Starborn
+      Object: 002FAE:Starfield.esm
+      Alias: 108
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Barrett
+      Object: 002FAE:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CollisionMarkers
+      Object: 002FAE:Starfield.esm
+      Alias: 144
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Location_Temple
+      Object: 002FAE:Starfield.esm
+      Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MapMarker_Temple
+      Object: 002FAE:Starfield.esm
+      Alias: 98
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_HoldingCell
+      Object: 002FAE:Starfield.esm
+      Alias: 85
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Temple_Barrett
+      Object: 002FAE:Starfield.esm
+      Alias: 132
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Temple_LandingPad
+      Object: 002FAE:Starfield.esm
+      Alias: 101
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Temple_OtherBarrett
+      Object: 002FAE:Starfield.esm
+      Alias: 111
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Temple_Player
+      Object: 002FAE:Starfield.esm
+      Alias: 133
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Temple_Starborn
+      Object: 002FAE:Starfield.esm
+      Alias: 145
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OtherBarrett
+      Object: 002FAE:Starfield.esm
+      Alias: 106
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerPilotSeat
+      Object: 002FAE:Starfield.esm
+      Alias: 146
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Spaceship_Starborn
+      Object: 002FAE:Starfield.esm
+      Alias: 107
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettQuest
+      Object: 002FAE:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: BarrettSpacesuitForms
+      Objects:
+      - Name: ''
+        Object: 214769:Starfield.esm
+      - Name: ''
+        Object: 1773BD:Starfield.esm
+      - Name: ''
+        Object: 2F4B39:Starfield.esm
+      - Name: ''
+        Object: 2265AD:Starfield.esm
+      - Name: ''
+        Object: 03B422:Starfield.esm
+      - Name: ''
+        Object: 169F59:Starfield.esm
+      - Name: ''
+        Object: 03B423:Starfield.esm
+      - Name: ''
+        Object: 169F58:Starfield.esm
+      - Name: ''
+        Object: 228570:Starfield.esm
+      - Name: ''
+        Object: 1C0F35:Starfield.esm
+      - Name: ''
+        Object: 1C0F34:Starfield.esm
+      - Name: ''
+        Object: 1C0F33:Starfield.esm
+      - Name: ''
+        Object: 1C0F32:Starfield.esm
+      - Name: ''
+        Object: 166404:Starfield.esm
+      - Name: ''
+        Object: 166402:Starfield.esm
+      - Name: ''
+        Object: 166403:Starfield.esm
+      - Name: ''
+        Object: 2EDE9C:Starfield.esm
+      - Name: ''
+        Object: 066821:Starfield.esm
+      - Name: ''
+        Object: 066822:Starfield.esm
+      - Name: ''
+        Object: 066824:Starfield.esm
+      - Name: ''
+        Object: 066825:Starfield.esm
+      - Name: ''
+        Object: 066826:Starfield.esm
+      - Name: ''
+        Object: 066827:Starfield.esm
+      - Name: ''
+        Object: 066828:Starfield.esm
+      - Name: ''
+        Object: 066829:Starfield.esm
+      - Name: ''
+        Object: 06682A:Starfield.esm
+      - Name: ''
+        Object: 06682B:Starfield.esm
+      - Name: ''
+        Object: 16D2C4:Starfield.esm
+      - Name: ''
+        Object: 16D15B:Starfield.esm
+      - Name: ''
+        Object: 16D15C:Starfield.esm
+      - Name: ''
+        Object: 22856F:Starfield.esm
+      - Name: ''
+        Object: 166407:Starfield.esm
+      - Name: ''
+        Object: 169F50:Starfield.esm
+      - Name: ''
+        Object: 03084D:Starfield.esm
+      - Name: ''
+        Object: 2392B5:Starfield.esm
+      - Name: ''
+        Object: 2392B3:Starfield.esm
+      - Name: ''
+        Object: 2392B4:Starfield.esm
+      - Name: ''
+        Object: 01754E:Starfield.esm
+      - Name: ''
+        Object: 01754D:Starfield.esm
+      - Name: ''
+        Object: 01754F:Starfield.esm
+      - Name: ''
+        Object: 226296:Starfield.esm
+      - Name: ''
+        Object: 16E0B6:Starfield.esm
+      - Name: ''
+        Object: 16E0B5:Starfield.esm
+      - Name: ''
+        Object: 1D0F95:Starfield.esm
+      - Name: ''
+        Object: 1D0F96:Starfield.esm
+      - Name: ''
+        Object: 1D0F94:Starfield.esm
+      - Name: ''
+        Object: 05278E:Starfield.esm
+      - Name: ''
+        Object: 2EDF1F:Starfield.esm
+      - Name: ''
+        Object: 026BEF:Starfield.esm
+      - Name: ''
+        Object: 029C7A:Starfield.esm
+      - Name: ''
+        Object: 0FD333:Starfield.esm
+      - Name: ''
+        Object: 026BF1:Starfield.esm
+      - Name: ''
+        Object: 052792:Starfield.esm
+      - Name: ''
+        Object: 026BF0:Starfield.esm
+      - Name: ''
+        Object: 06ABFF:Starfield.esm
+      - Name: ''
+        Object: 06AC00:Starfield.esm
+      - Name: ''
+        Object: 225FC9:Starfield.esm
+      - Name: ''
+        Object: 226299:Starfield.esm
+      - Name: ''
+        Object: 16640B:Starfield.esm
+      - Name: ''
+        Object: 16640A:Starfield.esm
+      - Name: ''
+        Object: 067C95:Starfield.esm
+      - Name: ''
+        Object: 067C94:Starfield.esm
+      - Name: ''
+        Object: 067C93:Starfield.esm
+      - Name: ''
+        Object: 227CA0:Starfield.esm
+      - Name: ''
+        Object: 1E2AF7:Starfield.esm
+      - Name: ''
+        Object: 1E2AC1:Starfield.esm
+      - Name: ''
+        Object: 2265AE:Starfield.esm
+      - Name: ''
+        Object: 13F97D:Starfield.esm
+      - Name: ''
+        Object: 169F55:Starfield.esm
+      - Name: ''
+        Object: 169F54:Starfield.esm
+      - Name: ''
+        Object: 21C780:Starfield.esm
+      - Name: ''
+        Object: 16E0BB:Starfield.esm
+      - Name: ''
+        Object: 004E78:Starfield.esm
+      - Name: ''
+        Object: 003E90:Starfield.esm
+      - Name: ''
+        Object: 003E8F:Starfield.esm
+      - Name: ''
+        Object: 065925:Starfield.esm
+      - Name: ''
+        Object: 065926:Starfield.esm
+      - Name: ''
+        Object: 16E0BD:Starfield.esm
+      - Name: ''
+        Object: 12E187:Starfield.esm
+      - Name: ''
+        Object: 1CBA52:Starfield.esm
+      - Name: ''
+        Object: 21C77F:Starfield.esm
+      - Name: ''
+        Object: 1CBA4A:Starfield.esm
+      - Name: ''
+        Object: 1CBA49:Starfield.esm
+      - Name: ''
+        Object: 1CBA4D:Starfield.esm
+      - Name: ''
+        Object: 2D7365:Starfield.esm
+      - Name: ''
+        Object: 2D7346:Starfield.esm
+      - Name: ''
+        Object: 1CBA4E:Starfield.esm
+      - Name: ''
+        Object: 003A77:Starfield.esm
+      - Name: ''
+        Object: 21A86A:Starfield.esm
+      - Name: ''
+        Object: 21A86C:Starfield.esm
+      - Name: ''
+        Object: 21A86B:Starfield.esm
+      - Name: ''
+        Object: 206130:Starfield.esm
+      - Name: ''
+        Object: 20612F:Starfield.esm
+      - Name: ''
+        Object: 10A25D:Starfield.esm
+      - Name: ''
+        Object: 20612E:Starfield.esm
+      - Name: ''
+        Object: 10A25E:Starfield.esm
+      - Name: ''
+        Object: 07B2B9:Starfield.esm
+      - Name: ''
+        Object: 257807:Starfield.esm
+      - Name: ''
+        Object: 398105:Starfield.esm
+      - Name: ''
+        Object: 0EF9AC:Starfield.esm
+      - Name: ''
+        Object: 257805:Starfield.esm
+      - Name: ''
+        Object: 25780A:Starfield.esm
+      - Name: ''
+        Object: 398104:Starfield.esm
+      - Name: ''
+        Object: 0EF9AE:Starfield.esm
+      - Name: ''
+        Object: 1F22BB:Starfield.esm
+      - Name: ''
+        Object: 257809:Starfield.esm
+      - Name: ''
+        Object: 398108:Starfield.esm
+      - Name: ''
+        Object: 0EF9AF:Starfield.esm
+      - Name: ''
+        Object: 257808:Starfield.esm
+      - Name: ''
+        Object: 39810A:Starfield.esm
+      - Name: ''
+        Object: 0EF9B0:Starfield.esm
+      - Name: ''
+        Object: 398103:Starfield.esm
+      - Name: ''
+        Object: 0EF9AD:Starfield.esm
+      - Name: ''
+        Object: 257806:Starfield.esm
+      - Name: ''
+        Object: 25780B:Starfield.esm
+      - Name: ''
+        Object: 398107:Starfield.esm
+      - Name: ''
+        Object: 0EF9B2:Starfield.esm
+      - Name: ''
+        Object: 0EF9AD:Starfield.esm
+      - Name: ''
+        Object: 257806:Starfield.esm
+      - Name: ''
+        Object: 25780B:Starfield.esm
+      - Name: ''
+        Object: 398107:Starfield.esm
+      - Name: ''
+        Object: 0EF9B2:Starfield.esm
+      - Name: ''
+        Object: 1F22BC:Starfield.esm
+      - Name: ''
+        Object: 398106:Starfield.esm
+      - Name: ''
+        Object: 0EF9B1:Starfield.esm
+      - Name: ''
+        Object: 166410:Starfield.esm
+      - Name: ''
+        Object: 16640E:Starfield.esm
+      - Name: ''
+        Object: 2AAF43:Starfield.esm
+      - Name: ''
+        Object: 3E3D4F:Starfield.esm
+      - Name: ''
+        Object: 16640F:Starfield.esm
+      - Name: ''
+        Object: 2AAF45:Starfield.esm
+      - Name: ''
+        Object: 2AAF44:Starfield.esm
+      - Name: ''
+        Object: 248C0E:Starfield.esm
+      - Name: ''
+        Object: 248C0F:Starfield.esm
+      - Name: ''
+        Object: 227CA3:Starfield.esm
+      - Name: ''
+        Object: 16D3D0:Starfield.esm
+      - Name: ''
+        Object: 16D3D1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettSpell
+      Object: 23AF08:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettTempleLocationAlias
+      Object: 1C7187:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BE_KT02_ExplosionHavok
+      Object: 01B283:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ01_Scene_BARK_8499_Barrett_Temple_PuzzleSolved
+      Object: 028349:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ01_Scene_GREET_8700_TalkToBarretts
+      Object: 005B8F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ02CompanionLockInMSG
+      Object: 005BA2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ02CompanionLockInOverMSG
+      Object: 005BA3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_BQ01_WaitToggle
+      Object: 09ACD6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q01
+      Object: 0369AB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q01_Complete_AV
+      Object: 336C1C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q02_Complete_AV
+      Object: 034C13:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ScenePuzzleSolved
+      Object: 005BA5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SceneThankYou
+      Object: 005B95:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_AlreadyDo
+      Object: 005B91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_ArrivedAtTemple
+      Object: 005B8C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_BarrettReplies
+      Object: 005B8D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_BarrettUsesPower
+      Object: 005B8B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_CherishThem
+      Object: 005B94:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_HelloBarrett
+      Object: 005B8E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_InsideTemple
+      Object: 005B7E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_LosingPower
+      Object: 005B99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_OtherBarrettAppears
+      Object: 005B8E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_OtherBarrettExitWarning
+      Object: 005B93:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_SolvedPuzzle
+      Object: 005B8B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StarbornPerk
+      Object: 1D7053:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_0011_Item_00
+  - Stage: 7401
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_7401_Item_00
+  - Stage: 8000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8000_Item_00
+  - Stage: 8001
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8001_Item_00
+  - Stage: 8010
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8010_Item_00
+  - Stage: 8100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8100_Item_00
+  - Stage: 8101
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8101_Item_00
+  - Stage: 8111
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8111_Item_00
+  - Stage: 8112
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8112_Item_00
+  - Stage: 8120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8120_Item_00
+  - Stage: 8200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8200_Item_00
+  - Stage: 8300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8300_Item_00
+  - Stage: 8301
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8301_Item_00
+  - Stage: 8310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8310_Item_00
+  - Stage: 8400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8400_Item_00
+  - Stage: 8401
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8401_Item_00
+  - Stage: 8405
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8405_Item_00
+  - Stage: 8410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8410_Item_00
+  - Stage: 8415
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8415_Item_00
+  - Stage: 8500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8500_Item_00
+  - Stage: 8501
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8501_Item_00
+  - Stage: 8502
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8502_Item_00
+  - Stage: 8505
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8505_Item_00
+  - Stage: 8510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8510_Item_00
+  - Stage: 8600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8600_Item_00
+  - Stage: 8601
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8601_Item_00
+  - Stage: 8605
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8605_Item_00
+  - Stage: 8615
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8615_Item_00
+  - Stage: 8620
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8620_Item_00
+  - Stage: 8625
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8625_Item_00
+  - Stage: 8700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8700_Item_00
+  - Stage: 8701
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8701_Item_00
+  - Stage: 8713
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8713_Item_00
+  - Stage: 8714
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8714_Item_00
+  - Stage: 8720
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8720_Item_00
+  - Stage: 8800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8800_Item_00
+  - Stage: 8801
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8801_Item_00
+  - Stage: 8805
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8805_Item_00
+  - Stage: 8812
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8812_Item_00
+  - Stage: 8820
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8820_Item_00
+  - Stage: 8830
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8830_Item_00
+  - Stage: 8850
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8850_Item_00
+  - Stage: 8860
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8860_Item_00
+  - Stage: 8900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8900_Item_00
+  - Stage: 8901
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8901_Item_00
+  - Stage: 8920
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8920_Item_00
+  - Stage: 8930
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8930_Item_00
+  - Stage: 9000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_9000_Item_00
+  - Stage: 9100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_9100_Item_00
+  - Stage: 9200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_9200_Item_00
+  - Stage: 9999
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_9999_Item_00
+  - Stage: 20000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_20000_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 5
+    Scripts:
+    - Name: DefaultAliasOnItemAddedScriptA
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: itemFilter
+        Object: 17C11F:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: ShowTraces
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1228
+    - Name: DefaultAliasOnItemAddedScriptB
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: itemFilter
+        Object: 036925:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: ShowTraces
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 133
+    - Name: DefaultAliasOnItemAddedScriptC
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: itemFilter
+        Object: 155D19:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: ShowTraces
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 134
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 6
+    Scripts:
+    - Name: defaultaliasonitemremoved
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: ShowTraces
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 99
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnterA
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 100
+    Scripts:
+    - Name: DefaultAliasOnActivateA
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 8000
+      - MutagenObjectType: ScriptBoolProperty
+        Name: ShowTraces
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8501
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 107
+    Scripts:
+    - Name: DefaultAliasOnShipLand
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8812
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 108
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 8800
+      - MutagenObjectType: ScriptBoolProperty
+        Name: ShowTraces
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8820
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 132
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 8501
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8502
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 002FAE:Starfield.esm
+        Alias: 6
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 15
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 137
+    Scripts:
+    - Name: DefaultAliasOnActivateA
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8405
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 138
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8405
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 139
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: AliasesToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 002FAE:Starfield.esm
+          Alias: 6
+        - Name: ''
+          Object: 002FAE:Starfield.esm
+          Alias: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8410
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 142
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 8400
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8410
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 002FAE:Starfield.esm
+        Alias: 5
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 40
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Welten auseinander
+  - Language: English
+    String: Worlds Apart
+  - Language: Spanish
+    String: Mundos separados
+  - Language: French
+    String: Mondes opposés
+  - Language: Italian
+    String: Mondi distanti
+  - Language: Japanese
+    String: 別の宇宙
+  - Language: Polish
+    String: Dwa światy
+  - Language: Portuguese_Brazil
+    String: Mundos de Distância
+  - Language: ChineseSimplified
+    String: 阴阳两隔
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 95
+  Unused: 0x000000
+TextDisplayGlobals:
+- 275224:Starfield.esm
+- 275225:Starfield.esm
+- 275226:Starfield.esm
+Filter: FollowersSupport\Barrett\
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '----- SET UP SECTION ----'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    DEBUG mode: activated.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Solve temple puzzle'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Puzzle Solved: Go to Temple'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9
+  Unknown: 171
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '     QUEST START '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 11
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '        Move NPCs'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 83
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    * STARBORN TEMPLE: Done.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 99
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '----- PLAYER SECTION ----'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    * STARBORN PATH: selected. (Go to Temple first)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 112
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    * TOPIC: Other Barrett. (Barrett)'
+    ScriptFlagComment: BQ01_Scene_GREET_5000_Barrett_Mine
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 198
+  Unknown: 171
+- Index: 7400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: TALK to Barrett. (QO)
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Durch das Treffen mit dem Gesandten habe ich mehr über die Artefakte und die Existenz des Multiversums erfahren. Vielleicht sollte ich Barrett von dieser Entdeckung und ihren Auswirkungen für ihn erzählen.
+      - Language: English
+        String: After meeting with the Emissary, I learned more about the Artifacts and the existence of the multiverse. Barrett might be interested in this discovery and what it means for him.
+      - Language: Spanish
+        String: Tras reunirme con el Heraldo, conseguí más información sobre los Artefactos y la existencia del multiverso. Puede que a Barrett le interese lo que he descubierto y lo que significa para él.
+      - Language: French
+        String: À la suite de notre rencontre avec l'Émissaire, j'en ai appris plus sur les artefacts et l'existence du multivers. Barrett sera peut-être intéressé par ces découvertes et ce que cela implique pour lui.
+      - Language: Italian
+        String: Dopo aver incontrato l’Emissario, ho appreso di più sui Manufatti e sull’esistenza del multiverso. Barrett potrebbe essere interessato a questa scoperta e al suo significato.
+      - Language: Japanese
+        String: エミッサリーと出会い、アーティファクトと多元宇宙の存在についてより多くのことを学べた。バレットはこの発見と、それが自分に何を意味するのかについて興味を示すかもしれない
+      - Language: Polish
+        String: Po spotkaniu z Emisariuszem wiem więcej o artefaktach i o istnieniu wieloświata. Barrett może być zainteresowany tymi informacjami oraz tym, co mogą dla niego oznaczać.
+      - Language: Portuguese_Brazil
+        String: Graças à minha conversa com o Arauto, eu entendi melhor os artefatos e a existência do multiverso. Acho que o Barrett vai se interessar por essa descoberta e o que isso significa para ele.
+      - Language: ChineseSimplified
+        String: 在和星使会面后，我了解到了有关神器和多重宇宙存在的详情。巴雷特可能对这个发现感兴趣，以及了解它对他所具有的意义。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7401
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    TALKED to Barrett. (QO)'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Barrett hat vorgeschlagen, dass wir den Tempel zu seinem Artefakt finden. Er glaubt, dass Vladimir uns die Koordinaten zum Tempel geben kann.
+      - Language: English
+        String: Barrett has suggested we find the Temple associated with his Artifact. He believes Vladimir can provide us with coordinates to the location.
+      - Language: Spanish
+        String: Barrett sugirió que encontrásemos el Templo asociado con su Artefacto. Cree que Vladimir puede darnos las coordenadas de su ubicación.
+      - Language: French
+        String: Barrett a suggéré que nous nous mettions en quête du temple associé à son artefact. Il pense que Vladimir pourrait nous fournir les coordonnées de l'endroit où il se trouve.
+      - Language: Italian
+        String: Barrett ha suggerito di trovare il Tempio associato al suo Manufatto. Crede che Vladimir possa fornirci le coordinate del posto.
+      - Language: Japanese
+        String: バレットは自分のアーティファクトに関連する聖堂を見つけるべきだと提案している。彼の考えでは、ウラジミールがその場所の座標を提供してくれるだろうとのことだ
+      - Language: Polish
+        String: Barrett zaproponował, aby poszukać świątyni powiązanej z jego artefaktem. Jest przekonany, że Vladimir może dla nas ustalić jej współrzędne.
+      - Language: Portuguese_Brazil
+        String: Barrett sugeriu que procuremos pelo templo relacionado ao artefato dele e acha que o Vladimir pode nos dar as coordenadas do local.
+      - Language: ChineseSimplified
+        String: 巴雷特建议我们去找他的神器所对应的神殿。他认为弗拉迪米尔可以为我们提供地点坐标。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7402
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Added Ervin's slate with context on Harvey
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7407
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Vladimir CHECKPOINT
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7998
+  Unknown: 171
+- Index: 7999
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '----- STARBORN SECTION ----'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Get Barrett's Power from the Starborn Temple.
+    ScriptFlagComment: 'for testing, if jumping ahead. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8001
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    Barrett has acquired his power.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8010
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    LANDED at the Temple on the Temple Planet.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8099
+  Unknown: 171
+- Index: 8100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk with Barrett (QO)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    TALKED with Barrett (QO)'
+    ScriptFlagComment: Set by DefaultLocationChange quest script.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    CONVO STARTED: Barrett "Temple"'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8111
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    * Checkpoint: Gagarin is next. "Starborn Path"'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8112
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    * Checkpoint: Gagarin might not matter. "Starborn Path"'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    CONVO ENDED: Barrett "Temple"'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8299
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: FIND Barrett's Temple (QO)
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Durch das Treffen mit dem Gesandten habe ich mehr über die Artefakte und die Existenz des Multiversums erfahren. Vielleicht sollte ich Barrett von dieser Entdeckung und ihren Auswirkungen für ihn erzählen.
+      - Language: English
+        String: After meeting with the Emissary, I learned more about the Artifacts and the existence of the multiverse. Barrett might be interested in this discovery and what it means for him.
+      - Language: Spanish
+        String: Tras reunirme con el Heraldo, conseguí más información sobre los Artefactos y la existencia del multiverso. Puede que a Barrett le interese lo que he descubierto y lo que significa para él.
+      - Language: French
+        String: À la suite de notre rencontre avec l'Émissaire, j'en ai appris plus sur les artefacts et l'existence du multivers. Barrett sera peut-être intéressé par ces découvertes et ce que cela implique pour lui.
+      - Language: Italian
+        String: Dopo aver incontrato l’Emissario, ho appreso di più sui Manufatti e sull’esistenza del multiverso. Barrett potrebbe essere interessato a questa scoperta e al suo significato.
+      - Language: Japanese
+        String: エミッサリーと出会い、アーティファクトと多元宇宙の存在についてより多くのことを学べた。バレットはこの発見と、それが自分に何を意味するのかについて興味を示すかもしれない
+      - Language: Polish
+        String: Po spotkaniu z Emisariuszem wiem więcej o artefaktach i o istnieniu wieloświata. Barrett może być zainteresowany tymi informacjami oraz tym, co mogą dla niego oznaczać.
+      - Language: Portuguese_Brazil
+        String: Graças à minha conversa com o Arauto, eu entendi melhor os artefatos e a existência do multiverso. Acho que o Barrett vai se interessar por essa descoberta e o que isso significa para ele.
+      - Language: ChineseSimplified
+        String: 在和星使会面后，我了解到了有关神器和多重宇宙存在的详情。巴雷特可能对这个发现感兴趣，以及了解它对他所具有的意义。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8301
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    FOUND the Temple (QO)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8302
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Barrett outside temple scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SCENE: Landed at Temple.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8399
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'HELP Barrett get his Power. (QO) '
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht. Ich sollte Barrett so gut wie möglich dabei helfen, seine Kraft zu erhalten.
+      - Language: English
+        String: We located the Temple associated with Barrett's Artifact. I should do what I can to help Barrett get his power.
+      - Language: Spanish
+        String: Encontramos el Templo asociado con el Artefacto de Barrett. Debería hacer todo lo posible por ayudar a Barrett a obtener su poder.
+      - Language: French
+        String: Nous avons identifié le temple associé à l'artefact de Barrett. Je dois l'aider à récupérer son pouvoir.
+      - Language: Italian
+        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett. Devo fare il possibile per aiutarlo a ottenere il suo potere.
+      - Language: Japanese
+        String: バレットのアーティファクトに関連する聖堂を発見した。バレットが力を得られるよう、できるだけのことをしよう
+      - Language: Polish
+        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta. Zrobię wszystko, aby mu pomóc w zdobyciu mocy.
+      - Language: Portuguese_Brazil
+        String: Nós localizamos o templo relacionado ao artefato do Barrett. Preciso fazer o possível para ajudá-lo a obter o poder dele.
+      - Language: ChineseSimplified
+        String: 我们找到了巴雷特的神器对应的神殿。我应该尽我所能帮助巴雷特得到他的能力。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8401
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    HELPED Barrett acquired his Power. (QO) '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8405
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Entered interior
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nach dem Treffen mit Vladimir haben wir die Koordinaten des Tempels zu Barretts Artefakt erhalten und uns Zugang zum Tempel verschafft.
+      - Language: English
+        String: After meeting with Vladimir, we obtained the coordinates to the Temple associated with Barrett's Artifact and entered the Temple.
+      - Language: Spanish
+        String: Tras reunirnos con Vladimir, conseguimos las coordenadas del Templo asociado con el Artefacto de Barrett y entramos en él.
+      - Language: French
+        String: Après notre rencontre avec Vladimir, nous avons obtenu les coordonnées du temple associé à l'artefact de Barrett et nous sommes entrés dans le temple.
+      - Language: Italian
+        String: Dopo aver incontrato Vladimir, ottenendo le coordinate che cercavamo, siamo entrati nel Tempio associato al Manufatto di Barrett.
+      - Language: Japanese
+        String: ウラジミールと出会い、バレットのアーティファクトに関連する聖堂の座標を入手して、聖堂へと入った
+      - Language: Polish
+        String: Po spotkaniu z Vladimirem zdobyliśmy współrzędne świątyni powiązanej z artefaktem Barretta i dostaliśmy się do jej wnętrza.
+      - Language: Portuguese_Brazil
+        String: Após falarmos com o Vladimir, nós conseguimos as coordenadas do templo relacionado ao artefato do Barrett e entramos lá.
+      - Language: ChineseSimplified
+        String: 在和弗拉迪米尔会面后，我们得到了巴雷特的神器对应神殿的坐标，并进入了神殿。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    ENTERED Temple Interior.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8415
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SCENE: Inside Temple'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8499
+  Unknown: 171
+- Index: 8500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SOLVE Temple Puzzle. Use Activator. '
+    ScriptFlagComment: Set by using the Puzzle Activator script.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8501
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    ANIM DONE. Elevator platform is done moving. (Stage set externally)'
+    ScriptFlagComment: Set by SBPowerCollectionActivatorScript
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8502
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    ANIM DONE. Elevator platform is done moving. (Stage set externally)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8505
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SOLVED Temple Puzzle.'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht und Barrett hat seine Kraft erhalten.
+      - Language: English
+        String: We located the Temple associated with Barrett's artifact and Barrett received his power.
+      - Language: Spanish
+        String: Encontramos el Templo asociado con el Artefacto de Barrett y este recibió su poder.
+      - Language: French
+        String: Nous avons identifié le temple associé à l'artefact de Barrett et celui-ci a reçu son pouvoir.
+      - Language: Italian
+        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett, che ha ricevuto il suo potere.
+      - Language: Japanese
+        String: バレットのアーティファクトと関連する聖堂を発見して、バレットは力を手に入れた。
+      - Language: Polish
+        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta, w której ten zdobył swoją moc.
+      - Language: Portuguese_Brazil
+        String: Nós localizamos o templo relacionado ao artefato do Barrett, que recebeu o poder dele com sucesso.
+      - Language: ChineseSimplified
+        String: 我们找到了巴雷特的神器所对应的神殿，巴雷特得到了他的能力。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SCENE: Solved Puzzle'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8599
+  Unknown: 171
+- Index: 8600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "WAIT for Barrett's new power. (QO) "
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8601
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "    WAITED for Barrett's power. (QO)"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8605
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    PACKAGE: Barrett uses his power now.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SCENE: Barrett uses his power.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8615
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SPAWN Other Barrett. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8620
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SCENE: Other Barrett says Hello.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8624
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Barrett spawned
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8625
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SCENE: Barrett replies.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8699
+  Unknown: 171
+- Index: 8700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: TALK to both Barretts. (QO)
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht und Barrett hat seine Kraft erhalten. Nachdem er sie eingesetzt hat, scheint im Tempel ein anderer Barrett erschienen zu sein.
+      - Language: English
+        String: We located the Temple associated with Barrett's Artifact and Barrett received his power. After using it, another Barrett seems to have spawned inside the Temple.
+      - Language: Spanish
+        String: Encontramos el Templo asociado con el Artefacto de Barrett y este recibió su poder. Tras usarlo, parece que otro Barrett ha aparecido en el Templo.
+      - Language: French
+        String: Nous avons identifié le temple associé à l'artefact de Barrett et celui-ci a reçu son pouvoir. Après qu'il l'a utilisé, un autre Barrett semble être apparu à l'intérieur du temple.
+      - Language: Italian
+        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett, che ha ricevuto il suo potere. Dopo averlo utilizzato, sembra che un altro Barrett sia comparso all’interno del Tempio.
+      - Language: Japanese
+        String: バレットのアーティファクトと関連する聖堂を発見して、バレットは力を手に入れた。その力を使うと、もう一人のバレットが聖堂内に現れた気配がした
+      - Language: Polish
+        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta, w której ten zdobył swoją moc. Gdy jej użył, drugi Barrett pojawił się we wnętrzu świątyni.
+      - Language: Portuguese_Brazil
+        String: Nós localizamos o templo relacionado ao artefato do Barrett, que recebeu o poder dele com sucesso. Após ser usado, o poder parece ter feito outro Barrett surgir dentro do templo.
+      - Language: ChineseSimplified
+        String: 我们找到了巴雷特的神器所对应的神殿，巴雷特得到了他的能力。在使用神器后，另一个巴雷特似乎出现在了神殿内部。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8701
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    TALKED to both Barretts. (QO)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    CONVO STARTED: "The Two Barretts"'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8711
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    * Checkpoint: Welcome Aboard ("The Two Barretts")'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8712
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    * Checkpoint: All About Amundsen ("The Two Barretts")'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8713
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    * Checkpoint: Starborn Ship Lands ("The Two Barretts")'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8714
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    * Checkpoint: Starborn Ship Enabled'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8720
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    CONVO ENDED: "The Two Barretts"'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8799
+  Unknown: 171
+- Index: 8800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'FIGHT the Starborn. (QO) '
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht und Barrett hat seine Kraft erhalten. Ein Sternenblut scheint dies jedoch bemerkt zu haben und außerhalb des Tempels gelandet zu sein.
+      - Language: English
+        String: We located the Temple associated with Barrett's Artifact and Barrett received his power. However, it seems a Starborn has taken notice and landed outside the Temple.
+      - Language: Spanish
+        String: Encontramos el Templo asociado con el Artefacto de Barrett y este recibió su poder. Sin embargo, parece que un Estelar se dio cuenta y aterrizó fuera del Templo.
+      - Language: French
+        String: Nous avons identifié le temple associé à l'artefact de Barrett et celui-ci a reçu son pouvoir, mais il semblerait qu'un Astrien nous a repérés et s'est posé à l'extérieur du temple.
+      - Language: Italian
+        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett, che ha ricevuto il suo potere. Tuttavia, la cosa non è passata inosservata a un Astrale, che è atterrato all’esterno del Tempio.
+      - Language: Japanese
+        String: バレットのアーティファクトと関連する聖堂を発見して、バレットは力を手に入れた。しかし、どうやらスターボーンがそれに気づき、聖堂の外に着陸したようだ
+      - Language: Polish
+        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta, w której ten zdobył swoją moc. Wygląda na to, że zwróciło to uwagę astran - ich statek wylądował nieopodal świątyni.
+      - Language: Portuguese_Brazil
+        String: Nós localizamos o templo relacionado ao artefato do Barrett, que recebeu o poder dele com sucesso. O problema é que um Estelar percebeu isso e pousou do lado de fora do templo.
+      - Language: ChineseSimplified
+        String: 我们找到了巴雷特的神器所对应的神殿，巴雷特得到了他的能力。但是，有一个星裔似乎注意到了，并且降落在了神殿外面。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8801
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    FOUGHT the Starborn. (QO) '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8805
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SPAWN Starborn Hostile. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    LAND the Starborn Ship.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8812
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    LANDED Starborn Ship.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8815
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SCENE: Starborn Ship Lands.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    KILLED the Starborn.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8830
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "    SCENE: Barrett can't maintain power. "
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8835
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SCENE: Other Barrett is dissipating. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8840
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SCENE: Cherish them, Amundsen.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8845
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SCENE: I already do, Barrett. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8850
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    SCENE: Thank you (END)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8860
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    DESPAWN Other Barrett.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8899
+  Unknown: 171
+- Index: 8900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'TALK to Barrett. (QO) '
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht und Barrett hat seine Kraft erhalten. Er konnte die Verbindung jedoch nicht lang aufrechterhalten, woraufhin der andere Barrett in sein Heimatuniversum zurückgekehrt zu sein scheint. Ich sollte mich mit Barrett darüber unterhalten, was gerade passiert ist.
+      - Language: English
+        String: We located the Temple associated with Barrett's Artifact and Barrett received his power. He was not able to hold the connection for long, however, and the Other Barrett seems to have returned to his home universe. I should discuss what just happened with Barrett.
+      - Language: Spanish
+        String: Encontramos el Templo asociado con el Artefacto de Barrett y este recibió su poder. Sin embargo, no pudo mantener la conexión durante mucho tiempo, y parece que el otro Barrett ha regresado a su universo de origen. Debería comentar lo ocurrido con Barrett.
+      - Language: French
+        String: Nous avons identifié le temple associé à l'artefact de Barrett et celui-ci a reçu son pouvoir. Il n'a cependant pas réussi à maintenir longtemps la connexion, et Barrett Bis semble être retourné dans son univers natal. Je devrais parler de ce qui vient de se passer avec Barrett.
+      - Language: Italian
+        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett, che ha ricevuto il suo potere. Tuttavia, non è riuscito a mantenere a lungo la connessione, tant’è che l’altro Barrett pare essere tornato nel suo universo. Dovrei discutere di questi ultimi sviluppi con Barrett.
+      - Language: Japanese
+        String: バレットのアーティファクトと関連する聖堂を発見して、バレットは力を手に入れた。しかし彼は長く接続を維持できず、もう一人のバレットは元の宇宙に戻っていったようだ。今起きた出来事について、バレットと話し合う
+      - Language: Polish
+        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta, w której ten zdobył swoją moc. Połączenie nie trwało jednak długo i drugi Barrett wrócił do swojego wszechświata. Muszę porozmawiać o tym z Barrettem.
+      - Language: Portuguese_Brazil
+        String: Nós localizamos o templo relacionado ao artefato do Barrett, que recebeu o poder dele mas não conseguiu manter a conexão por muito tempo, o que fez o outro Barrett retornar para o seu próprio universo. Preciso falar com o Barrett sobre o que aconteceu.
+      - Language: ChineseSimplified
+        String: 我们找到了巴雷特的神器所对应的神殿，巴雷特得到了他的能力。但他没法长时间保持这种联系，另一个巴雷特似乎已经回到了自己的宇宙。我应该和巴雷特讨论下刚才发生的事。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8901
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    TALKED to Barrett. (QO)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8910
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    CONVO STARTED: "Conclusion"'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8911
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    * Checkpoint: Regular "Conclusion"'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8912
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    * Checkpoint: "Conclusion"'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8920
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '    CONVO ENDED: "Conclusion"'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8930
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "    EVALUATE Options -- if player hasn't solved Gagarin, return. Else end."
+    ScriptFlagComment: If the player has not yet investigated Gagarin, they go back now.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8999
+  Unknown: 171
+- Index: 9000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: QUEST COMPLETE.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht. Barrett hat seine Kraft erhalten und ist jetzt in der Lage, Barretts aus anderen Universen herbeizurufen.
+      - Language: English
+        String: We located the Temple associated with Barrett's Artifact and Barrett received his power, allowing him to summon Barretts from other universes.
+      - Language: Spanish
+        String: Encontramos el Templo asociado con el Artefacto de Barrett y este recibió su poder, lo que le permitió invocar a Barretts de otros universos.
+      - Language: French
+        String: Nous avons identifié le temple associé à l'artefact de Barrett et celui-ci a reçu son pouvoir, qui lui permet d'invoquer d'autres Barrett depuis d'autres univers.
+      - Language: Italian
+        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett, che ha ricevuto il suo potere, permettendogli di evocare i Barrett di altri universi.
+      - Language: Japanese
+        String: バレットのアーティファクトと関連する聖堂を発見して、バレットは力を手に入れた。これでバレットは、他の宇宙のバレットを呼び出せるようになった
+      - Language: Polish
+        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta, w której ten zdobył swoją moc umożliwiającą mu przywoływanie Barrettów z innych wszechświatów.
+      - Language: Portuguese_Brazil
+        String: Nós localizamos o templo relacionado ao artefato do Barrett, que recebeu o poder dele e agora consegue invocar Barretts de outros universos.
+      - Language: ChineseSimplified
+        String: 我们找到了巴雷特的神器所对应的神殿，巴雷特得到了他的能力，他可以从其他宇宙召唤其他的巴雷特了。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9100
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: '    REWARDS: Standard.'
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0FD332:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 2BCBE8:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 9200
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: '    REWARDS: Starborn Path.'
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0FD332:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 2BCBE8:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 9998
+  Unknown: 171
+- Index: 9999
+  Flags:
+  - RunOnStop
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: QUEST END.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Note: Barrett dies during MQ204
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Barrett ist tot. Ich kann nichts mehr für ihn tun.
+      - Language: English
+        String: Barrett is dead. There is nothing more I can do for him.
+      - Language: Spanish
+        String: Barrett está muerto. No puedo hacer nada más por él.
+      - Language: French
+        String: Barrett est mort. Je ne peux plus rien faire pour lui.
+      - Language: Italian
+        String: Barrett è morto. Non posso fare nient’altro per lui.
+      - Language: Japanese
+        String: バレットは死んだ。彼にしてやれることはもうない
+      - Language: Polish
+        String: Barrett nie żyje. Nie mogę mu już pomóc.
+      - Language: Portuguese_Brazil
+        String: Barrett está morto. Não há mais nada que eu possa fazer por ele.
+      - Language: ChineseSimplified
+        String: 巴雷特已经死了。我没法再为他做什么了。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich nach Gagarin.
+    - Language: English
+      String: Go to Gagarin
+    - Language: Spanish
+      String: Ve a Gagarin.
+    - Language: French
+      String: Rendez-vous sur Gagarin.
+    - Language: Italian
+      String: Raggiungi Gagarin
+    - Language: Japanese
+      String: ガガーリンに行く
+    - Language: Polish
+      String: Udaj się na Gagarina
+    - Language: Portuguese_Brazil
+      String: Vá para Gagarin
+    - Language: ChineseSimplified
+      String: 前往加加林星
+- Index: 230
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Barrett.
+    - Language: English
+      String: Speak with Barrett
+    - Language: Spanish
+      String: Habla con Barrett.
+    - Language: French
+      String: Parlez à Barrett.
+    - Language: Italian
+      String: Parla con Barrett
+    - Language: Japanese
+      String: バレットと話す
+    - Language: Polish
+      String: Porozmawiaj z Barrettem
+    - Language: Portuguese_Brazil
+      String: Fale com Barrett
+    - Language: ChineseSimplified
+      String: 与巴雷特交谈
+  Targets:
+  - AliasID: 6
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Barrett.
+    - Language: English
+      String: Speak with Barrett
+    - Language: Spanish
+      String: Habla con Barrett.
+    - Language: French
+      String: Parlez à Barrett.
+    - Language: Italian
+      String: Parla con Barrett
+    - Language: Japanese
+      String: バレットと話す
+    - Language: Polish
+      String: Porozmawiaj z Barrettem
+    - Language: Portuguese_Brazil
+      String: Fale com Barrett
+    - Language: ChineseSimplified
+      String: 与巴雷特交谈
+  Targets:
+  - AliasID: 6
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit der Anwältin.
+    - Language: English
+      String: Speak with the lawyer
+    - Language: Spanish
+      String: Habla con la abogada.
+    - Language: French
+      String: Parlez à l'avocate.
+    - Language: Italian
+      String: Parla con l’avvocata
+    - Language: Japanese
+      String: 弁護士と話す
+    - Language: Polish
+      String: Porozmawiaj z prawniczką
+    - Language: Portuguese_Brazil
+      String: Fale com a advogada
+    - Language: ChineseSimplified
+      String: 与律师交谈
+- Index: 1000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde Ervins Wohnung.
+    - Language: English
+      String: Find Ervin's apartment
+    - Language: Spanish
+      String: Encuentra el apartamento de Ervin.
+    - Language: French
+      String: Trouvez l'appartement d'Ervin.
+    - Language: Italian
+      String: Trova l’appartamento di Ervin
+    - Language: Japanese
+      String: アーヴィンのアパートを探す
+    - Language: Polish
+      String: Znajdź mieszkanie Ervina
+    - Language: Portuguese_Brazil
+      String: Encontre o apartamento do Ervin
+    - Language: ChineseSimplified
+      String: 找到欧文的公寓
+- Index: 1100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Betritt Ervins Wohnung.
+    - Language: English
+      String: Enter Ervin's apartment
+    - Language: Spanish
+      String: Entra en el apartamento de Ervin.
+    - Language: French
+      String: Entrez dans l'appartement d'Ervin.
+    - Language: Italian
+      String: Entra nell’appartamento di Ervin
+    - Language: Japanese
+      String: アーヴィンのアパートに入る
+    - Language: Polish
+      String: Wejdź do mieszkania Ervina
+    - Language: Portuguese_Brazil
+      String: Entre no apartamento do Ervin
+    - Language: ChineseSimplified
+      String: 进入欧文的公寓
+- Index: 1200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Durchsuche die Wohnung nach Beweisen.
+    - Language: English
+      String: Search the apartment for evidence
+    - Language: Spanish
+      String: Registra el apartamento en busca de pruebas.
+    - Language: French
+      String: Fouillez l'appartement à la recherche de preuves.
+    - Language: Italian
+      String: Ispeziona l’appartamento in cerca di prove
+    - Language: Japanese
+      String: アパートで証拠を探す
+    - Language: Polish
+      String: Poszukaj w mieszkaniu dowodów
+    - Language: Portuguese_Brazil
+      String: Procure evidências no apartamento
+    - Language: ChineseSimplified
+      String: 在公寓寻找证据
+- Index: 1300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Barrett über die Beweise.
+    - Language: English
+      String: Discuss evidence with Barrett
+    - Language: Spanish
+      String: Comenta las pruebas con Barrett.
+    - Language: French
+      String: Discutez des preuves avec Barrett.
+    - Language: Italian
+      String: Discuti delle prove con Barrett
+    - Language: Japanese
+      String: バレットと証拠について話す
+    - Language: Polish
+      String: Omów dowody z Barrettem
+    - Language: Portuguese_Brazil
+      String: Debata as evidências com Barrett
+    - Language: ChineseSimplified
+      String: 与巴雷特谈谈证据的事
+  Targets:
+  - AliasID: 6
+- Index: 1500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Geh zum Rathaus.
+    - Language: English
+      String: Go to Town Hall
+    - Language: Spanish
+      String: Ve al ayuntamiento.
+    - Language: French
+      String: Rendez-vous à l'hôtel de ville.
+    - Language: Italian
+      String: Raggiungi il municipio
+    - Language: Japanese
+      String: タウンホールに行く
+    - Language: Polish
+      String: Udaj się do ratusza
+    - Language: Portuguese_Brazil
+      String: Vá à prefeitura
+    - Language: ChineseSimplified
+      String: 前往市政厅
+- Index: 1510
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sieh dir Ervins Jagdlizenz an.
+    - Language: English
+      String: Look up Ervin's Hunting License
+    - Language: Spanish
+      String: Busca la licencia de caza de Ervin.
+    - Language: French
+      String: Cherchez le permis de chasse d'Ervin.
+    - Language: Italian
+      String: Cerca la licenza di caccia di Ervin
+    - Language: Japanese
+      String: アーヴィンの狩猟免許を探す
+    - Language: Polish
+      String: Poszukaj licencji łowieckiej Ervina
+    - Language: Portuguese_Brazil
+      String: Procure a licença de caça do Ervin
+    - Language: ChineseSimplified
+      String: 寻找欧文的狩猎执照
+- Index: 1600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit der Anwältin.
+    - Language: English
+      String: Speak to the lawyer
+    - Language: Spanish
+      String: Habla con la abogada.
+    - Language: French
+      String: Parlez à l'avocate.
+    - Language: Italian
+      String: Parla con l’avvocata
+    - Language: Japanese
+      String: 弁護士と話す
+    - Language: Polish
+      String: Porozmawiaj z prawniczką
+    - Language: Portuguese_Brazil
+      String: Fale com a advogada
+    - Language: ChineseSimplified
+      String: 与律师交谈
+- Index: 2000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zum Gießereidistrikt.
+    - Language: English
+      String: Go to the Foundry District
+    - Language: Spanish
+      String: Ve al distrito de la fundición.
+    - Language: French
+      String: Rendez-vous au district de la Fonderie.
+    - Language: Italian
+      String: Raggiungi il quartiere della Fucina
+    - Language: Japanese
+      String: 鋳造所のターミナルへ行く
+    - Language: Polish
+      String: Udaj się do dzielnicy Odlewni
+    - Language: Portuguese_Brazil
+      String: Vá ao distrito da fábrica
+    - Language: ChineseSimplified
+      String: 前往铸造厂区
+- Index: 2100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nutze deinen Account.
+    - Language: English
+      String: Use your account
+    - Language: Spanish
+      String: Usa tu cuenta.
+    - Language: French
+      String: Utilisez votre compte.
+    - Language: Italian
+      String: Usa il tuo account
+    - Language: Japanese
+      String: 自分のアカウントを使う
+    - Language: Polish
+      String: Użyj swojego konta
+    - Language: Portuguese_Brazil
+      String: Use a sua conta
+    - Language: ChineseSimplified
+      String: 使用你的账户
+- Index: 2120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nutze Ervins Zugangscode.
+    - Language: English
+      String: Use Ervin's passcode
+    - Language: Spanish
+      String: Usa el código de Ervin.
+    - Language: French
+      String: Utilisez le code d'accès d'Ervin.
+    - Language: Italian
+      String: Usa la password di Ervin
+    - Language: Japanese
+      String: アーヴィンのパスコードを使う
+    - Language: Polish
+      String: Użyj kodu dostępu Ervina
+    - Language: Portuguese_Brazil
+      String: Use a senha do Ervin
+    - Language: ChineseSimplified
+      String: 使用欧文的密码
+- Index: 2130
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nutze den Mitarbeiter-Account.
+    - Language: English
+      String: Use the employee's account
+    - Language: Spanish
+      String: Usa la cuenta de empleado.
+    - Language: French
+      String: Utilisez le compte d'employé.
+    - Language: Italian
+      String: Usa l’account del dipendente
+    - Language: Japanese
+      String: 従業員のアカウントを使う
+    - Language: Polish
+      String: Użyj konta pracownika
+    - Language: Portuguese_Brazil
+      String: Use a conta de funcionário
+    - Language: ChineseSimplified
+      String: 使用员工账户
+- Index: 2140
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Beschaffe dir einen Zugangscode.
+    - Language: English
+      String: Acquire a passcode
+    - Language: Spanish
+      String: Consigue un código.
+    - Language: French
+      String: Procurez-vous un code d'accès.
+    - Language: Italian
+      String: Acquisisci una password
+    - Language: Japanese
+      String: パスコードを入手する
+    - Language: Polish
+      String: Zdobądź kod dostępu
+    - Language: Portuguese_Brazil
+      String: Consiga uma senha
+    - Language: ChineseSimplified
+      String: 获得密码
+- Index: 2155
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nutze das Gießerei-Terminal.
+    - Language: English
+      String: Use the Foundry Terminal
+    - Language: Spanish
+      String: Usa el terminal de la fundición.
+    - Language: French
+      String: Utilisez le terminal de la Fonderie.
+    - Language: Italian
+      String: Usa il terminale della Fucina
+    - Language: Japanese
+      String: 鋳造所のターミナルを使う
+    - Language: Polish
+      String: Użyj terminalu Odlewni
+    - Language: Portuguese_Brazil
+      String: Use o terminal da fábrica
+    - Language: ChineseSimplified
+      String: 使用铸造厂终端
+- Index: 2160
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nutze den Administratoren-Account.
+    - Language: English
+      String: Use the Admin account
+    - Language: Spanish
+      String: Usa la cuenta de administrador.
+    - Language: French
+      String: Utilisez le compte admin.
+    - Language: Italian
+      String: Usa l’account amministratore
+    - Language: Japanese
+      String: 管理者アカウントを使う
+    - Language: Polish
+      String: Użyj konta administratora
+    - Language: Portuguese_Brazil
+      String: Use a conta de administrador
+    - Language: ChineseSimplified
+      String: 使用管理员账户
+- Index: 2300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erhalte einen Zugangscode von einem Mitarbeiter.
+    - Language: English
+      String: Get a passcode from an employee
+    - Language: Spanish
+      String: Consigue el código de un empleado.
+    - Language: French
+      String: Obtenez un code d'accès auprès d'un employé.
+    - Language: Italian
+      String: Recupera una password da un dipendente
+    - Language: Japanese
+      String: 従業員からパスコードを入手する
+    - Language: Polish
+      String: Zdobądź kod dostępu od pracownika
+    - Language: Portuguese_Brazil
+      String: Consiga uma senha com um funcionário
+    - Language: ChineseSimplified
+      String: 从员工那里获得密码
+- Index: 2400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Barrett.
+    - Language: English
+      String: Speak with Barrett
+    - Language: Spanish
+      String: Habla con Barrett.
+    - Language: French
+      String: Parlez à Barrett.
+    - Language: Italian
+      String: Parla con Barrett
+    - Language: Japanese
+      String: バレットと話す
+    - Language: Polish
+      String: Porozmawiaj z Barrettem
+    - Language: Portuguese_Brazil
+      String: Fale com Barrett
+    - Language: ChineseSimplified
+      String: 与巴雷特交谈
+  Targets:
+  - AliasID: 6
+- Index: 2500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde die Koordinaten der Mine.
+    - Language: English
+      String: Find the mine's coordinates
+    - Language: Spanish
+      String: Encuentra las coordenadas de la mina.
+    - Language: French
+      String: Trouvez les coordonnées de la mine.
+    - Language: Italian
+      String: Trova le coordinate della miniera
+    - Language: Japanese
+      String: 鉱山の座標を探す
+    - Language: Polish
+      String: Znajdź współrzędne kopalni
+    - Language: Portuguese_Brazil
+      String: Encontre as coordenadas da mina
+    - Language: ChineseSimplified
+      String: 找到矿井的坐标
+- Index: 2800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Barrett.
+    - Language: English
+      String: Speak with Barrett
+    - Language: Spanish
+      String: Habla con Barrett.
+    - Language: French
+      String: Parlez à Barrett.
+    - Language: Italian
+      String: Parla con Barrett
+    - Language: Japanese
+      String: バレットと話す
+    - Language: Polish
+      String: Porozmawiaj z Barrettem
+    - Language: Portuguese_Brazil
+      String: Fale com Barrett
+    - Language: ChineseSimplified
+      String: 与巴雷特交谈
+  Targets:
+  - AliasID: 6
+- Index: 5000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zur Hephaestus-Mine.
+    - Language: English
+      String: Go to the Hephaestus Mine
+    - Language: Spanish
+      String: Ve a la mina de Hephaestus.
+    - Language: French
+      String: Rendez-vous dans la mine d'Héphaïstos.
+    - Language: Italian
+      String: Raggiungi la miniera della Hephaestus
+    - Language: Japanese
+      String: ヘパイストスの鉱山へ行く
+    - Language: Polish
+      String: Udaj się do kopalni Hephaestusa
+    - Language: Portuguese_Brazil
+      String: Vá à mina da Hephaestus
+    - Language: ChineseSimplified
+      String: 前往赫菲斯托斯矿井
+- Index: 5100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Suche nach Beweisen.
+    - Language: English
+      String: Search for evidence
+    - Language: Spanish
+      String: Busca pruebas.
+    - Language: French
+      String: Cherchez des preuves.
+    - Language: Italian
+      String: Cerca delle prove
+    - Language: Japanese
+      String: 証拠を探す
+    - Language: Polish
+      String: Poszukaj dowodów
+    - Language: Portuguese_Brazil
+      String: Procure evidências
+    - Language: ChineseSimplified
+      String: 搜查证据
+- Index: 6000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Bring Ellie Beweise.
+    - Language: English
+      String: Bring evidence to Ellie
+    - Language: Spanish
+      String: Lleva pruebas a Ellie.
+    - Language: French
+      String: Apportez des preuves à Ellie.
+    - Language: Italian
+      String: Porta le prove a Ellie
+    - Language: Japanese
+      String: エリーに証拠を届ける
+    - Language: Polish
+      String: Zanieś dowody do Ellie
+    - Language: Portuguese_Brazil
+      String: Leve evidências para Ellie
+    - Language: ChineseSimplified
+      String: 把证据带给艾莉
+- Index: 6300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde Helgi.
+    - Language: English
+      String: Find Helgi
+    - Language: Spanish
+      String: Busca a Helgi.
+    - Language: French
+      String: Trouvez Helgi.
+    - Language: Italian
+      String: Trova Helgi
+    - Language: Japanese
+      String: ヘルギを探す
+    - Language: Polish
+      String: Znajdź Helgiego
+    - Language: Portuguese_Brazil
+      String: Encontre Helgi
+    - Language: ChineseSimplified
+      String: 找到海尔吉
+- Index: 6400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Dr. Keala über Helgi.
+    - Language: English
+      String: Speak to Dr. Keala about Helgi
+    - Language: Spanish
+      String: Habla con la Dra. Keala sobre Helgi.
+    - Language: French
+      String: Parlez au Dr Keala à propos d'Helgi.
+    - Language: Italian
+      String: Parla di Helgi alla dottoressa Keala
+    - Language: Japanese
+      String: ヘルギについてケアラと話す
+    - Language: Polish
+      String: Porozmawiaj z doktor Kealą o Helgim
+    - Language: Portuguese_Brazil
+      String: Fale com a Dra. Keala sobre Helgi
+    - Language: ChineseSimplified
+      String: 与凯拉医生谈谈海尔吉的事
+- Index: 6500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Lizzy über Helgi.
+    - Language: English
+      String: Speak to Lizzy about Helgi
+    - Language: Spanish
+      String: Habla con Lizzy sobre Helgi.
+    - Language: French
+      String: Parlez à Lizzy à propos d'Helgi.
+    - Language: Italian
+      String: Parla di Helgi a Lizzy
+    - Language: Japanese
+      String: ヘルギについてリジーと話す
+    - Language: Polish
+      String: Porozmawiaj z Lizzy o Helgim
+    - Language: Portuguese_Brazil
+      String: Fale com Lizzy sobre Helgi
+    - Language: ChineseSimplified
+      String: 与莉兹谈谈海尔吉的事
+- Index: 6650
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Barrett.
+    - Language: English
+      String: Speak with Barrett
+    - Language: Spanish
+      String: Habla con Barrett.
+    - Language: French
+      String: Parlez à Barrett.
+    - Language: Italian
+      String: Parla con Barrett
+    - Language: Japanese
+      String: バレットと話す
+    - Language: Polish
+      String: Porozmawiaj z Barrettem
+    - Language: Portuguese_Brazil
+      String: Fale com Barrett
+    - Language: ChineseSimplified
+      String: 与巴雷特交谈
+  Targets:
+  - AliasID: 6
+- Index: 6652
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Lenke Chief Dalitso Pretorius ab.
+    - Language: English
+      String: Distract Chief Dalitso Pretorius
+    - Language: Spanish
+      String: Distrae a la jefa Dalitso Pretorius.
+    - Language: French
+      String: Faites diversion auprès du chef Dalitso Pretorius.
+    - Language: Italian
+      String: Distrai il capo Dalitso Pretorius
+    - Language: Japanese
+      String: ダルティソ・プレトリウス主任の注意を引く
+    - Language: Polish
+      String: Odwróć uwagę szefowej Dalitso Pretorius
+    - Language: Portuguese_Brazil
+      String: Distraia a chefe Dalitso Pretorius
+    - Language: ChineseSimplified
+      String: 让达利佐·普瑞陀利乌斯主管分心
+- Index: 6653
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Hacke den UC-Security-Computer.
+    - Language: English
+      String: Hack the UC Security computer
+    - Language: Spanish
+      String: Hackea el ordenador de la seguridad de las CU.
+    - Language: French
+      String: Piratez l'ordinateur de la sécurité de l'UC.
+    - Language: Italian
+      String: Viola il computer della Sicurezza UC
+    - Language: Japanese
+      String: UC警備隊のコンピューターをハッキングする
+    - Language: Polish
+      String: Zhakuj komputer ochrony ZK
+    - Language: Portuguese_Brazil
+      String: Hackeie o computador da segurança da UC
+    - Language: ChineseSimplified
+      String: 黑入联殖安保电脑
+- Index: 6657
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Barrett.
+    - Language: English
+      String: Speak with Barrett
+    - Language: Spanish
+      String: Habla con Barrett.
+    - Language: French
+      String: Parlez à Barrett.
+    - Language: Italian
+      String: Parla con Barrett
+    - Language: Japanese
+      String: バレットと話す
+    - Language: Polish
+      String: Porozmawiaj z Barrettem
+    - Language: Portuguese_Brazil
+      String: Fale com Barrett
+    - Language: ChineseSimplified
+      String: 与巴雷特交谈
+  Targets:
+  - AliasID: 6
+- Index: 6670
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Durchsuche das Terminal.
+    - Language: English
+      String: (Optional) Search the terminal
+    - Language: Spanish
+      String: (Opcional) Busca el terminal.
+    - Language: French
+      String: (Optionnel) Fouillez dans le terminal.
+    - Language: Italian
+      String: (Opzionale) Ispeziona il terminale
+    - Language: Japanese
+      String: (オプション)ターミナルを調べる
+    - Language: Polish
+      String: (Opcj.) Przeszukaj terminal
+    - Language: Portuguese_Brazil
+      String: (Opc.) Procure no terminal
+    - Language: ChineseSimplified
+      String: （可选）搜索终端
+- Index: 6700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Clint über Helgi.
+    - Language: English
+      String: Speak to Clint about Helgi
+    - Language: Spanish
+      String: Habla con Clint sobre Helgi.
+    - Language: French
+      String: Parlez à Clint à propos d'Helgi.
+    - Language: Italian
+      String: Parla di Helgi a Clint
+    - Language: Japanese
+      String: ヘルギについてクリントと話す
+    - Language: Polish
+      String: Porozmawiaj z Clintem o Helgim
+    - Language: Portuguese_Brazil
+      String: Fale com Clint sobre Helgi
+    - Language: ChineseSimplified
+      String: 与克林特谈谈海尔吉的事
+- Index: 6720
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Dalitso über Helgi.
+    - Language: English
+      String: Speak to Dalitso about Helgi
+    - Language: Spanish
+      String: Habla con Dalitso sobre Helgi.
+    - Language: French
+      String: Parlez à Dalitso à propos d'Helgi.
+    - Language: Italian
+      String: Parla di Helgi a Dalitso
+    - Language: Japanese
+      String: ヘルギについてダリーツォと話す
+    - Language: Polish
+      String: Porozmawiaj z Dalitso o Helgim
+    - Language: Portuguese_Brazil
+      String: Fale com Dalitso sobre Helgi
+    - Language: ChineseSimplified
+      String: 与达利佐谈谈海尔吉的事
+- Index: 7000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Bringe Helgi dazu, auszusagen.
+    - Language: English
+      String: Convince Helgi to testify
+    - Language: Spanish
+      String: Convence a Helgi para que testifique.
+    - Language: French
+      String: Persuadez Helgi de témoigner.
+    - Language: Italian
+      String: Convinci Helgi a testimoniare
+    - Language: Japanese
+      String: ヘルギを説得して証言させる
+    - Language: Polish
+      String: Namów Helgiego do zeznawania
+    - Language: Portuguese_Brazil
+      String: Convença Helgi a testemunhar
+    - Language: ChineseSimplified
+      String: 说服海尔吉作证
+- Index: 7100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Finde einen potenziellen Leumundszeugen.
+    - Language: English
+      String: (Optional) Find a potential character witnesses
+    - Language: Spanish
+      String: (Opcional) Busca a un posible testigo.
+    - Language: French
+      String: (Optionnel) Trouvez un potentiel témoin de moralité.
+    - Language: Italian
+      String: (Opzionale) Trova qualcuno che garantisca per Helgi
+    - Language: Japanese
+      String: (オプション)性格証人の候補を探す
+    - Language: Polish
+      String: (Opcj.) Znajdź świadka, który poręczy za Helgiego
+    - Language: Portuguese_Brazil
+      String: (Opc.) Encontre possíveis testemunhas de caráter
+    - Language: ChineseSimplified
+      String: （可选）寻找潜在的品格见证人
+- Index: 7300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Ellie.
+    - Language: English
+      String: Speak with Ellie
+    - Language: Spanish
+      String: Habla con Ellie.
+    - Language: French
+      String: Parlez à Ellie.
+    - Language: Italian
+      String: Parla con Ellie
+    - Language: Japanese
+      String: エリーと話す
+    - Language: Polish
+      String: Porozmawiaj z Ellie
+    - Language: Portuguese_Brazil
+      String: Fale com Ellie
+    - Language: ChineseSimplified
+      String: 与艾莉交谈
+- Index: 7400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich auf deinem Schiff mit Barrett.
+    - Language: English
+      String: Speak with Barrett on your ship
+    - Language: Spanish
+      String: Habla con Barrett en tu nave.
+    - Language: French
+      String: Parlez à Barrett à bord de votre vaisseau.
+    - Language: Italian
+      String: Parla con Barrett sulla tua nave
+    - Language: Japanese
+      String: 船でバレットと話す
+    - Language: Polish
+      String: Porozmawiaj z Barrettem na pokładzie swojego statku
+    - Language: Portuguese_Brazil
+      String: Fale com Barrett na sua nave
+    - Language: ChineseSimplified
+      String: 在你的飞船上与巴雷特交谈
+  Targets:
+  - AliasID: 6
+- Index: 7500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Vladimir.
+    - Language: English
+      String: Speak to Vladimir
+    - Language: Spanish
+      String: Habla con Vladimir.
+    - Language: French
+      String: Parlez à Vladimir.
+    - Language: Italian
+      String: Parla con Vladimir
+    - Language: Japanese
+      String: ウラジミールと話す
+    - Language: Polish
+      String: Porozmawiaj z Vladimirem
+    - Language: Portuguese_Brazil
+      String: Fale com Vladimir
+    - Language: ChineseSimplified
+      String: 与弗拉迪米尔交谈
+- Index: 8100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Barrett.
+    - Language: English
+      String: Speak with Barrett
+    - Language: Spanish
+      String: Habla con Barrett.
+    - Language: French
+      String: Parlez à Barrett.
+    - Language: Italian
+      String: Parla con Barrett
+    - Language: Japanese
+      String: バレットと話す
+    - Language: Polish
+      String: Porozmawiaj z Barrettem
+    - Language: Portuguese_Brazil
+      String: Fale com Barrett
+    - Language: ChineseSimplified
+      String: 与巴雷特交谈
+  Targets:
+  - AliasID: 6
+- Index: 8300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Bring Barrett hierhin: <Alias=Location_TemplePlanet>.'
+    - Language: English
+      String: Take Barrett to <Alias=Location_TemplePlanet>
+    - Language: Spanish
+      String: Lleva a Barrett a <Alias=Location_TemplePlanet>.
+    - Language: French
+      String: Emmenez Barrett sur <Alias=Location_TemplePlanet>.
+    - Language: Italian
+      String: Raggiungi <Alias=Location_TemplePlanet> con Barrett
+    - Language: Japanese
+      String: バレットを<Alias=Location_TemplePlanet>に連れていく
+    - Language: Polish
+      String: 'Zabierz Barretta we wskazane miejsce: <Alias=Location_TemplePlanet>'
+    - Language: Portuguese_Brazil
+      String: Leve Barrett para <Alias=Location_TemplePlanet>
+    - Language: ChineseSimplified
+      String: 带巴雷特前往<Alias=Location_TemplePlanet>
+  Targets:
+  - AliasID: 101
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationAliasConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 96
+- Index: 8400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Hilf Barrett, seine Kraft zu erhalten.
+    - Language: English
+      String: Help Barrett acquire his Power
+    - Language: Spanish
+      String: Ayuda a Barrett a obtener su poder.
+    - Language: French
+      String: Aidez Barrett à obtenir son pouvoir.
+    - Language: Italian
+      String: Aiuta Barrett ad acquisire il suo potere
+    - Language: Japanese
+      String: バレットが力を手に入れるのを手伝う
+    - Language: Polish
+      String: Pomóż Barrettowi zdobyć moc
+    - Language: Portuguese_Brazil
+      String: Ajude Barrett a obter o poder dele
+    - Language: ChineseSimplified
+      String: 帮巴雷特得到他的能力
+  Targets:
+  - AliasID: 138
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: QuestAlias
+        Unknown3: 137
+        UseAliases: True
+        FirstParameter: 4294967294
+      ComparisonValue: 10
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 002FAE:Starfield.esm
+        SecondParameter: 8410
+  - AliasID: 137
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        UseAliases: True
+        FirstParameter: 4294967294
+      ComparisonValue: 10
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 002FAE:Starfield.esm
+        SecondParameter: 8410
+  - AliasID: 99
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 002FAE:Starfield.esm
+        SecondParameter: 8410
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 002FAE:Starfield.esm
+        SecondParameter: 8505
+- Index: 8600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Warte auf Barrett.
+    - Language: English
+      String: Wait for Barrett
+    - Language: Spanish
+      String: Espera a Barrett.
+    - Language: French
+      String: Attendez Barrett.
+    - Language: Italian
+      String: Aspetta Barrett
+    - Language: Japanese
+      String: バレットを待つ
+    - Language: Polish
+      String: Poczekaj na Barretta
+    - Language: Portuguese_Brazil
+      String: Espere por Barrett
+    - Language: ChineseSimplified
+      String: 等待巴雷特
+  Targets:
+  - AliasID: 6
+- Index: 8700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit den Barretts.
+    - Language: English
+      String: Speak with the Barretts
+    - Language: Spanish
+      String: Habla con los Barretts.
+    - Language: French
+      String: Parlez aux Barrett.
+    - Language: Italian
+      String: Parla coi Barrett
+    - Language: Japanese
+      String: バレットと話す
+    - Language: Polish
+      String: Porozmawiaj z Barrettami
+    - Language: Portuguese_Brazil
+      String: Fale com os Barretts
+    - Language: ChineseSimplified
+      String: 和巴雷特交谈
+  Targets:
+  - AliasID: 6
+- Index: 8800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Verteidige dich gegen das Sternenblut.
+    - Language: English
+      String: Defend against the Starborn
+    - Language: Spanish
+      String: Defiéndete del Estelar.
+    - Language: French
+      String: Repoussez l'Astrien.
+    - Language: Italian
+      String: Difenditi dall’Astrale
+    - Language: Japanese
+      String: スターボーン相手に身を守る
+    - Language: Polish
+      String: Broń się przed atakiem astrana
+    - Language: Portuguese_Brazil
+      String: Defenda-se do ataque Estelar
+    - Language: ChineseSimplified
+      String: 抵御星裔
+  Targets:
+  - AliasID: 108
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 002FAE:Starfield.esm
+        SecondParameter: 8805
+      ComparisonValue: 1
+- Index: 8900
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sieh nach Barrett.
+    - Language: English
+      String: Check on Barrett
+    - Language: Spanish
+      String: Comprueba cómo está Barrett.
+    - Language: French
+      String: Allez voir comment va Barrett.
+    - Language: Italian
+      String: Passa da Barrett
+    - Language: Japanese
+      String: バレットの様子を確認する
+    - Language: Polish
+      String: Sprawdź, co z Barrettem
+    - Language: Portuguese_Brazil
+      String: Vá ver Barrett
+    - Language: ChineseSimplified
+      String: 查看巴雷特的情况
+  Targets:
+  - AliasID: 6
+- Index: 9999
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich nach Gagarin.
+    - Language: English
+      String: Go to Gagarin
+    - Language: Spanish
+      String: Ve a Gagarin.
+    - Language: French
+      String: Rendez-vous sur Gagarin.
+    - Language: Italian
+      String: Raggiungi Gagarin
+    - Language: Japanese
+      String: ガガーリンに行く
+    - Language: Polish
+      String: Udaj się na Gagarina
+    - Language: Portuguese_Brazil
+      String: Vá para Gagarin
+    - Language: ChineseSimplified
+      String: 前往加加林星
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 4
+  Name: '------- GENERAL QUEST --------------'
+  Flags:
+  - Optional
+  ALFG: 0
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Player
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  ScriptComment: >-
+    DefaultAliasOnItemAddedScriptA - When the Employment Contract is found, set stage 1228
+
+
+    DefaultAliasOnItemAddedScriptB - When Employee Foundry Key is found, set stage 133
+
+
+    DefaultAliasOnItemAddedScriptC - When Ervin's Foundry Key is found, set stage 134
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 105
+  Name: PlayerShip
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: Barrett
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005787:Starfield.esm
+  Keywords:
+  - 12B50D:Starfield.esm
+  LinkedAliases:
+  - Keyword: 05D5E7:Starfield.esm
+    AliasID: 78
+  - Keyword: 2F5501:Starfield.esm
+    AliasID: 132
+  PackageData:
+  - 079567:Starfield.esm
+  - 320D45:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 85
+  Name: Marker_HoldingCell
+  Flags: []
+  ALFG: 0
+  ForcedReference: 17BED9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 128
+  Name: PlayerShipLocation
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  ExternalAliasLocation:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 9
+- MutagenObjectType: QuestLocationAlias
+  ID: 147
+  Name: playerShipExteriorLocation
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  ExternalAliasLocation:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 8
+- MutagenObjectType: QuestLocationAlias
+  ID: 12
+  Name: ' '
+  Flags:
+  - Optional
+  ALFG: 0
+- MutagenObjectType: QuestLocationAlias
+  ID: 95
+  Name: '------- STARBORN TEMPLE ------------'
+  Flags:
+  - Optional
+  ALFG: 0
+- MutagenObjectType: QuestLocationAlias
+  ID: 96
+  Name: Location_Temple
+  Flags: []
+  ALFG: 0
+  ALPS:
+    Conditions:
+    - MutagenObjectType: ConditionGlobal
+      CompareOperator: LessThan
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetDistanceGalacticLightYearsConditionData
+        FirstParameter: 012894:Starfield.esm
+      ComparisonValue: 0263E7:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetLevelConditionData
+      ComparisonValue: 40
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: IsTrueForConditionFormConditionData
+        FirstParameter: 12C5AB:Starfield.esm
+      ComparisonValue: 1
+    PcmTypeKeyword: 0C0BF8:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 97
+  Name: Location_TemplePlanet
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReuseInQuest
+  - StoresText
+  - 0x40000000
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: IsInSameCurrentLocationAsAliasConditionData
+      FirstParameter: 96
+      SecondParameter: 070A54:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 070A54:Starfield.esm
+    ComparisonValue: 1
+  ParentSystemLocationAliasID: 96
+- MutagenObjectType: QuestReferenceAlias
+  ID: 98
+  Name: MapMarker_Temple
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 109
+  Name: Marker_Temple_LandingPad_Starborn
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 20A037:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 101
+  Name: Marker_Temple_LandingPad
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 20A036:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 111
+  Name: Marker_Temple_OtherBarrett
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 2F5502:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 145
+  Name: Marker_Temple_Starborn
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 078294:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 142
+  Name: Marker_Temple_TempleEntry
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 1ECDFC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 132
+  Name: Marker_Temple_Barrett
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 3D0C35:Starfield.esm
+  Keywords:
+  - 2F5501:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 133
+  Name: Marker_Temple_Player
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 3D1173:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 99
+  Name: Trigger_Temple_Power
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 1E46F1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 100
+  Name: Activator_Temple_Puzzle
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 2450B8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 135
+  Name: Activator_Temple_Trigger
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 3D0C33:Starfield.esm
+  ScriptComment: >-
+    Default Alias On Activate 
+
+    ---> Sets stage 8501
+
+
+    Default Alias On Distance Less Than 
+
+    ----> Sets stage 8410
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 139
+  Name: Activator_Temple_TriggerEntry
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 3D0C37:Starfield.esm
+  ScriptComment: >-
+    Default Alias On Activate 
+
+    ---> Sets stage 8501
+
+
+    Default Alias On Distance Less Than 
+
+    ----> Sets stage 8410
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 106
+  Name: OtherBarrett
+  Flags:
+  - Essential
+  - AllowDisabled
+  - InitiallyDisabled
+  ALFG: 0
+  UniqueActor: 17C10D:Starfield.esm
+  PackageData:
+  - 079567:Starfield.esm
+  - 079568:Starfield.esm
+  VoiceTypes: 005B85:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 107
+  Name: Spaceship_Starborn
+  Flags:
+  - AllowDisabled
+  - InitiallyDisabled
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 1ECDFD:Starfield.esm
+  Keywords:
+  - 1F5C7E:Starfield.esm
+  ScriptComment: Setstage 8812 if after 8800
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 108
+  Name: Actor_Starborn
+  Flags:
+  - AllowDisabled
+  - InitiallyDisabled
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 1926D1:Starfield.esm
+    AliasID: 107
+  Factions:
+  - 106C2F:Starfield.esm
+  PackageData:
+  - 076783:Starfield.esm
+  ScriptComment: >-
+    Default Alias On Death
+
+    --- Sets stage to 8820 on death of the Starborn if 8800 is achieved.
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 138
+  Name: Door_Interior01
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 03A685:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 137
+  Name: Door_Interior02
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 96
+    RefType: 3D0C34:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 141
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 144
+    MaxInitialFillCount: 10
+    ReferenceAlias:
+      ID: 144
+      Name: CollisionMarkers
+      Flags:
+      - Optional
+      - AllowDisabled
+      ALFG: 0
+      Location:
+        AliasID: 96
+        RefType: 1ECDFB:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 146
+  Name: PlayerPilotSeat
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 147
+    RefType: 250ED9:Starfield.esm
+  VoiceTypes: Null
+ScriptComment: >-
+  QuestScript is auto-fill. Some public functions called in stages.
+
+
+  DefaultQuestChangeLocationScript handles all Location changes.

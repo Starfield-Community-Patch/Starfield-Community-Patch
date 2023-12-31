@@ -19,6 +19,8 @@ Name:
     String: 'Wieża Handlowa: Generdyne Industries'
   - Language: Portuguese_Brazil
     String: 'Torre Comercial: Indústrias Generdyne'
+  - Language: ChineseSimplified
+    String: 贸易大楼：捷能戴集团
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -788,3 +790,4 @@ Traversals:
   To: -48.518044, 162.59685, 198.81172
   UnknownVector: 4.3626633, 5.559237, 0.9054178
   Unknown: 0x3546354616375B39
+NumTraversalFluffBytes: 592

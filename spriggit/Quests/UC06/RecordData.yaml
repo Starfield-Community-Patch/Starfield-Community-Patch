@@ -638,6 +638,8 @@ Name:
     String: Lepsze znane zło
   - Language: Portuguese_Brazil
     String: Diabos Familiares
+  - Language: ChineseSimplified
+    String: 你熟知的恶魔
 Data:
   Flags:
   - RunOnce
@@ -767,6 +769,8 @@ Stages:
         String: Ktoś chce ze mną rozmawiać, ale zastępczyni MacIntyre nie chce mi powiedzieć kto. Powiedziała, że znajdę tę osobę w podsekcji siódmej.
       - Language: Portuguese_Brazil
         String: Alguém pediu para falar comigo, mas a suplente MacIntyre não quer me dizer quem é. Ela disse que vou encontrar a pessoa se descer até a Subseção Sete.
+      - Language: ChineseSimplified
+        String: 有人要求与我谈谈，但是麦金泰尔副部长不肯告诉我是谁。她说对方在第七分部等我。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -802,6 +806,8 @@ Stages:
         String: Ktoś tutaj mieszka... I chce ze mną rozmawiać.
       - Language: Portuguese_Brazil
         String: 'Tem alguém morando aqui embaixo... e ele pediu para falar comigo. '
+      - Language: ChineseSimplified
+        String: '有人生活在这里……并且他要求与我谈谈。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -997,6 +1003,8 @@ Stages:
         String: Jestem po rozmowie z Vae Victisem, byłym admirałem ZK i człowiekiem, który powinien być martwy. Poprosił mnie o znalezienie naukowca zajmującego się bronią, Reginalda Orlase'a, i „rozprawienie się” z nim. Victis uważa, że Orlase kryje się w pobliżu Etherei, planety w układzie Wolf. Kapitan Marquez, szefowa tamtejszego oddziału Gwardii, przekaże mi więcej szczegółów.
       - Language: Portuguese_Brazil
         String: Eu acabei de falar com Vae Victis, um ex-almirante da UC que deveria estar morto. Ele me pediu para rastrear e “cuidar” de um cientista de armas desgarrado chamado Reginald Orlase. Ele acredita que Orlase está se escondendo perto do planeta Etérea, no sistema Lobo, e sugeriu que eu falasse com a comandante Marquez, líder local da Vanguarda, para saber mais detalhes.
+      - Language: ChineseSimplified
+        String: 我刚和瓦维刻提斯谈过，他是前联殖上将，也是一个本该已经死了的人。他让我追捕，并“处理“，一位叛逃的武器科学家，名叫雷金纳德·奥拉斯。他认为奥拉斯躲藏在沃尔夫星系中的以太亚行星附近，并且我应该去找当地先锋队的领导人马奎斯船长以获得具体信息。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1088,6 +1096,8 @@ Stages:
         String: "Kapitan Marquez przekazała mi współrzędne, które pomogą mi znaleźć „Warlocka”, statek należący do Orlase'a, ale zaleciła mi ostrożność. W polu szczątków - w okolicy, w której widziano Warlocka - przepadło sporo statków. "
       - Language: Portuguese_Brazil
         String: 'A Comandante Marquez me deu as coordenadas necessárias para encontrar a “Warlock”, uma nave que pode estar abrigando Orlase. Mas ela me alertou para tomar cuidado: inúmeras naves já se perderam nos campos de destroços em que a Warlock foi vista. '
+      - Language: ChineseSimplified
+        String: '马奎斯船长已经把找到“术士号“所需的坐标给我了——这艘飞船可能是奥拉斯的家。但她警告我要多加小心——术士号所出没的碎片场内已经有不少飞船失踪。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1131,6 +1141,8 @@ Stages:
         String: 'Udało mi się znaleźć Warlocka. Jego pilot wydaje się niezbyt zadowolony z mojej obecności. Czas wyłączyć silniki Warlocka (za pomocą broni EM albo umiejętności systemów celowniczych), by go pojmać... albo zestrzelić. '
       - Language: Portuguese_Brazil
         String: Eu encontrei a Warlock, e seja lá quem for o piloto, não parece nada feliz de eu estar aqui. Hora de desativar os motores dele para capturá-lo, com uma arma EM ou a habilidade Sistemas de Controle de Mira... ou derrubar a nave a tiros.
+      - Language: ChineseSimplified
+        String: '我已经找到了术士号，而那个驾驶它的家伙似乎对我的到来不大高兴。是时候关闭他的引擎把他活捉（使用电磁武器或瞄准控制系统技能）……或者把他从天上打下来。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1193,6 +1205,8 @@ Stages:
         String: Silniki Warlocka zostały zniszczone. Mogę teraz wejść na pokład statku i zobaczyć, czy uda mi się pojmać jego pilota!
       - Language: Portuguese_Brazil
         String: Eu desativei os motores da Warlock. Agora vou poder abordar a nave e tentar capturar seu piloto!
+      - Language: ChineseSimplified
+        String: 我已经关闭了术士号的引擎，这下我应该能够登上飞船，看看我能不能活捉它的驾驶员！
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1220,6 +1234,8 @@ Stages:
         String: Jestem na pokładzie Warlocka! Czas zmierzyć się z pilotem!
       - Language: Portuguese_Brazil
         String: Estou a bordo da Warlock! Hora de confrontar o piloto!
+      - Language: ChineseSimplified
+        String: 我登上了术士号！是时候面对飞行员了！
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1255,6 +1271,8 @@ Stages:
         String: Orlase wolał samobójstwo, aniżeli dać się złapać. Muszę poszukać dowodów, które mogę pokazać Vae Victisowi.
       - Language: Portuguese_Brazil
         String: Orlase preferiu se matar a ser capturado. Acho que preciso buscar evidências dele para mostrar ao Vae Victis.
+      - Language: ChineseSimplified
+        String: 奥拉斯宁可自杀也不愿意被俘虏，看来我该搜搜他的身，看能不能找到可以展示给瓦维刻提斯的证据。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1314,6 +1332,8 @@ Stages:
         String: Warlock został zniszczony, a wraz z nim jego pilot. Muszę przeszukać wrak, aby znaleźć dowody na to, że był tam Orlase.
       - Language: Portuguese_Brazil
         String: Eu destruí a Warlock com seu piloto dentro. Preciso examinar os destroços para obter evidências de que era o Orlase.
+      - Language: ChineseSimplified
+        String: 我摧毁了术士号，还有它的驾驶员，我需要搜索残骸，找到证明那个人就是奥拉斯的证据。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1341,6 +1361,8 @@ Stages:
         String: Udało mi się znaleźć stary identyfikator Zjednoczonych Kolonii Orlase'a. Powinien wystarczyć, aby Vae Victis uwierzył, że robota została wykonana.
       - Language: Portuguese_Brazil
         String: Encontrei a antiga identificação da União das Colônias de Orlase. Isso deve bastar como evidência para provar a Vae Victis que o trabalho está feito.
+      - Language: ChineseSimplified
+        String: 我找到了奥拉斯的旧联合殖民地ID，这应该算是个充分的证据来向瓦维刻提斯证明任务已经完成。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1392,6 +1414,8 @@ Stages:
         String: Vae Victis poprosił mnie o przekazanie dowodu na to, że Orlase nie żyje. Mam go włożyć do pojemnika transferowego.
       - Language: Portuguese_Brazil
         String: Vae Victis me pediu para entregar a evidência de que Orlase está morto. Tenho que me aproximar do sistema de transferência.
+      - Language: ChineseSimplified
+        String: 瓦维刻提斯让我交出所收集到的奥拉斯死亡的证据，我得靠近传输系统。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1434,6 +1458,8 @@ Stages:
         String: Identyfikator przekazany. Czas dowiedzieć się, gdzie znajduje się ekipa badawcza Hadrian i Percivala.
       - Language: Portuguese_Brazil
         String: Eu entreguei a identificação. Hora de descobrir a localização da equipe de pesquisa de Hadrian e Percival.
+      - Language: ChineseSimplified
+        String: 我已经交出了ID，是时候取得哈德良和珀西瓦里的研究小组的位置了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1462,6 +1488,8 @@ Stages:
         String: Vae Victis zadba, by ekipa badawcza dotarła do centrali Czerwonych Diabłów. Wszyscy poza jednym, Kaiserem, którego mam uratować z Niiry. Zasugerował, by porozmawiać najpierw z Hadrian, jako że może mieć więcej informacji na temat zagubionego członka ekipy.
       - Language: Portuguese_Brazil
         String: Vae Victis vai providenciar que a equipe de pesquisa chegue no QG dos Diabos Vermelhos. Todos os integrantes com exceção de um, Kaiser, que eu preciso recuperar em Niira. Vae Victis sugeriu que eu procurasse Hadrian primeiro, pois é provável que ela tenha mais informações sobre o colega de equipe perdido.
+      - Language: ChineseSimplified
+        String: 瓦维刻提斯将会安排让研究小组抵达红魔部队总部，但只有一个人除外，凯撒，我需要去涅伊拉星找到他。瓦维刻提斯建议我先与哈德良确认一下，因为她可能掌握了这位失踪队友的更多信息。
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -1502,6 +1530,8 @@ Objectives:
       String: Udaj się na spotkanie (podsekcja siódma)
     - Language: Portuguese_Brazil
       String: Siga para a sua reunião (Subseção Sete)
+    - Language: ChineseSimplified
+      String: 前去参加你的会面（第七分部）
   Targets:
   - Conditions:
     - MutagenObjectType: ConditionFloat
@@ -1540,6 +1570,8 @@ Objectives:
       String: Użyj interkomu
     - Language: Portuguese_Brazil
       String: Use o comunicador
+    - Language: ChineseSimplified
+      String: 使用对讲机
   Targets:
   - AliasID: 33
 - Index: 110
@@ -1563,6 +1595,8 @@ Objectives:
       String: Porozmawiaj z nieznajomym
     - Language: Portuguese_Brazil
       String: Fale com a pessoa desconhecida
+    - Language: ChineseSimplified
+      String: 与陌生人交谈
   Targets:
   - AliasID: 33
 - Index: 120
@@ -1586,6 +1620,8 @@ Objectives:
       String: Porozmawiaj z Vae Victisem
     - Language: Portuguese_Brazil
       String: Fale com Vae Victis
+    - Language: ChineseSimplified
+      String: 与瓦维刻提斯交谈
   Targets:
   - AliasID: 33
 - Index: 150
@@ -1609,6 +1645,8 @@ Objectives:
       String: (Opcj.) Porozmawiaj z zastępczynią MacIntyre
     - Language: Portuguese_Brazil
       String: (Opc.) Fale com a suplente MacIntyre
+    - Language: ChineseSimplified
+      String: （可选）与麦金泰尔副部长交谈
   Targets:
   - AliasID: 15
 - Index: 200
@@ -1632,6 +1670,8 @@ Objectives:
       String: Porozmawiaj z kapitan Marquez
     - Language: Portuguese_Brazil
       String: Fale com a comandante Marquez
+    - Language: ChineseSimplified
+      String: 与马奎斯船长交谈
   Targets:
   - AliasID: 2
 - Index: 300
@@ -1655,6 +1695,8 @@ Objectives:
       String: Znajdź „Warlocka”
     - Language: Portuguese_Brazil
       String: Encontre a “Warlock”
+    - Language: ChineseSimplified
+      String: 找到术士号
   Targets:
   - AliasID: 3
 - Index: 400
@@ -1678,6 +1720,8 @@ Objectives:
       String: Zniszcz statek
     - Language: Portuguese_Brazil
       String: Destrua a nave
+    - Language: ChineseSimplified
+      String: 摧毁飞船
   Targets:
   - AliasID: 3
     Conditions:
@@ -1715,6 +1759,8 @@ Objectives:
       String: ALBO wyłącz silniki
     - Language: Portuguese_Brazil
       String: OU desligue os motores
+    - Language: ChineseSimplified
+      String: 或关闭引擎
 - Index: 420
   Flags: []
   DisplayText:
@@ -1736,6 +1782,8 @@ Objectives:
       String: ALBO wejdź na pokład „Warlocka”
     - Language: Portuguese_Brazil
       String: OU embarque na “Warlock”
+    - Language: ChineseSimplified
+      String: 或登上术士号
   Targets:
   - AliasID: 17
     Conditions:
@@ -1768,6 +1816,8 @@ Objectives:
       String: ALBO aresztuj pilota
     - Language: Portuguese_Brazil
       String: OU prenda o piloto
+    - Language: ChineseSimplified
+      String: 或逮捕飞行员
   Targets:
   - AliasID: 17
     Conditions:
@@ -1807,6 +1857,8 @@ Objectives:
       String: (Opcj.) Znajdź klucz do kabiny
     - Language: Portuguese_Brazil
       String: (Opc.) Ache a chave da cabine na nave
+    - Language: ChineseSimplified
+      String: （可选）搜索飞船，寻找客舱钥匙
   Targets:
   - AliasID: 23
     Conditions:
@@ -1852,6 +1904,8 @@ Objectives:
       String: Zbierz dowody
     - Language: Portuguese_Brazil
       String: Obtenha a evidência
+    - Language: ChineseSimplified
+      String: 收集证据
   Targets:
   - AliasID: 3
     Conditions:
@@ -1891,6 +1945,8 @@ Objectives:
       String: Przekaż dowód Vae Victisowi
     - Language: Portuguese_Brazil
       String: Entregue a evidência a Vae Victis
+    - Language: ChineseSimplified
+      String: 将证据返还给瓦维刻提斯
   Targets:
   - AliasID: 33
     Conditions:
@@ -1934,6 +1990,8 @@ Objectives:
       String: Przekaż identyfikator Vae Victisowi
     - Language: Portuguese_Brazil
       String: Transfira a identificação para Vae Victis
+    - Language: ChineseSimplified
+      String: 将ID传输给瓦维刻提斯
   Targets:
   - AliasID: 34
     Conditions:
@@ -1975,6 +2033,8 @@ Objectives:
       String: Porozmawiaj z Vae Victisem
     - Language: Portuguese_Brazil
       String: Fale com Vae Victis
+    - Language: ChineseSimplified
+      String: 与瓦维刻提斯交谈
   Targets:
   - AliasID: 33
 Aliases:

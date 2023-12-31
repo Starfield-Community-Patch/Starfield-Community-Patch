@@ -19,6 +19,8 @@ Name:
     String: Magazyn 01
   - Language: Portuguese_Brazil
     String: Armazém 01
+  - Language: ChineseSimplified
+    String: 仓库01
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -630,3 +632,4 @@ Traversals:
   To: 6.269661, 112.72058, 7.753211
   UnknownVector: 1.5981532, 10.215056, 1.4156036
   Unknown: 0x493A493A7E3DEE36
+NumTraversalFluffBytes: 468

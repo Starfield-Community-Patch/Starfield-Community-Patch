@@ -19,6 +19,8 @@ Name:
     String: Wieża Atena, piętro 8
   - Language: Portuguese_Brazil
     String: Torre Athena, 7.o Andar
+  - Language: ChineseSimplified
+    String: 雅典娜大厦7楼
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -340,3 +342,4 @@ Traversals:
   To: -12.486005, -2.9113097, -2.2478096
   UnknownVector: 1.6072489, 3.9496772, 1.1843287
   Unknown: 0x984098407C3A843B
+NumTraversalFluffBytes: 236

@@ -1,0 +1,49 @@
+FormKey: 2233D8:Starfield.esm
+EditorID: co_SMC_Weapon_EM_LightScythe_Fulminator_8000_lvl38
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Die Waffentypen deines Schiffs wirken unterschiedlich. Energiewaffen wirken sich auf Schilde aus, ballistische auf die Hülle und EM-Waffen auf die Systeme.
+  - Language: English
+    String: Your ship's Weapons affect enemy ships differently in combat, depending on the damage type used. Energy affects shields; Ballistic, hull; and EM, systems.
+  - Language: Spanish
+    String: Según el tipo de daño, las armas afectan a las naves enemigas de diferentes maneras. La energía afecta a los escudos; la balística, al casco; y el electromagnetismo, a los sistemas.
+  - Language: French
+    String: "Suivant le type de dgt, l'armement de votre vaisseau nuit différemment aux ennemis. Celui à énergie affecte : boucliers ; balistique, coque ; et EM, systèmes."
+  - Language: Italian
+    String: 'A seconda del tipo di danno, le armi incidono diversamente sulle navi nemiche. A energia: danneggiano gli scudi. Balistiche: lo scafo. EM: i sistemi.'
+  - Language: Japanese
+    String: 兵器はダメージタイプで与える影響が異なる。エネルギーはシールド、バリスティックは船体に大きなダメージを与え、電磁はシステムにダメージを与える
+  - Language: Polish
+    String: Od uzbrojenia twojego statku zależy rodzaj uszkodzeń zadawanych wrogom. Broń energetyczna niszczy osłony, balistyczna - kadłub, a EM - systemy.
+  - Language: Portuguese_Brazil
+    String: Suas armas afetam seus inimigos a depender do tipo de dano. Balística afeta fuselagem; eletromagnestimo, sistemas; energia, escudos.
+  - Language: ChineseSimplified
+    String: 你的飞船武器在战斗中对敌舰的效果不同，这取决于伤害类型。能量武器克制护盾，弹道武器克制船体，而电磁武器克制系统。
+WorkbenchKeyword: 29C480:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17624
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    FirstParameter: 1453A7:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Unknown2: 17624
+  Data:
+    MutagenObjectType: GetLevelConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 30
+CreatedObject: 2233E7:Starfield.esm
+AmountProduced: 1
+MenuSortOrder: 123.75
+LearnMethod: DefaultOrConditions
+Value: 31250
+Categories:
+- 2C155B:Starfield.esm
+RECF: 0

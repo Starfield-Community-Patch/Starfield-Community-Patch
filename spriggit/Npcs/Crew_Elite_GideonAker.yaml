@@ -1,0 +1,360 @@
+FormKey: 014E5B:Starfield.esm
+EditorID: Crew_Elite_GideonAker
+VirtualMachineAdapter:
+  Scripts:
+  - Name: EliteCrewCrimeResponseScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnCombat
+      Object: 180F0A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnKill
+      Object: 180F0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerReason_Common_1_Murder
+      Object: 2C2A36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_NotCivilian
+      Object: 0F223F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_Elite_IsAngry
+      Object: 06D17D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentCompanionFaction
+      Object: 023C01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EliteCrew_Angry_Message
+      Object: 0C6587:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+  - Name: elitecrewdebugscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrewQuest
+      Object: 014E55:Starfield.esm
+  - Name: EliteCrew_StartQuestonLoadScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ECQuest
+      Object: 014E55:Starfield.esm
+ObjectBounds:
+  First: -0.31000048, -0.31000048, -4.7683716E-07
+  Second: 0.31000048, 0.31000048, 1.8000004
+ODTY: 0
+Flags:
+- Essential
+- AutoCalcStats
+- Unique
+- DoesntAffectStealthMeter
+Level:
+  MutagenObjectType: PcLevelMult
+  LevelMult: 1
+CalcMinLevel: 10
+DispositionBase: 35
+UseTemplateActors: Stats
+Factions:
+- Faction: 014312:Starfield.esm
+  Rank: -1
+- Faction: 014314:Starfield.esm
+  Rank: -1
+- Faction: 0143A2:Starfield.esm
+  Rank: -1
+- Faction: 2DBECD:Starfield.esm
+Voice: 014E5A:Starfield.esm
+DefaultTemplate: 12FDDE:Starfield.esm
+TemplateActors:
+  StatsTemplate: 12FDDE:Starfield.esm
+Race: 00347D:Starfield.esm
+Perks:
+- Perk: 06B728:Starfield.esm
+  Rank: 1
+- Perk: 220BB6:Starfield.esm
+  Rank: 2
+- Perk: 222F86:Starfield.esm
+  Rank: 2
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
+- ActorValue: 0002D4:Starfield.esm
+  Value: 300
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+- ActorValue: 000385:Starfield.esm
+  Value: 100
+Items:
+- Item:
+    Item: 1F9661:Starfield.esm
+    Count: 1
+Aggression: Aggressive
+Confidence: Foolhardy
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsAllies
+Packages:
+- 1A0D56:Starfield.esm
+Keywords:
+- 0AD52A:Starfield.esm
+- 0E53A8:Starfield.esm
+- 0F55DC:Starfield.esm
+- 1D03E1:Starfield.esm
+- 1EA944:Starfield.esm
+- 21B1FC:Starfield.esm
+- 270729:Starfield.esm
+- 28BF2B:Starfield.esm
+- 23F1CA:Starfield.esm
+Class: 010B2F:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Gideon Aker
+  - Language: English
+    String: Gideon Aker
+  - Language: Spanish
+    String: Gideon Aker
+  - Language: French
+    String: Gideon Aker
+  - Language: Italian
+    String: Gideon Aker
+  - Language: Japanese
+    String: ギデオン・アケル
+  - Language: Polish
+    String: Gideon Aker
+  - Language: Portuguese_Brazil
+    String: Gideon Aker
+  - Language: ChineseSimplified
+    String: 吉迪恩·艾克
+ShortName:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Gideon
+  - Language: English
+    String: Gideon
+  - Language: Spanish
+    String: Gideon
+  - Language: French
+    String: Gideon
+  - Language: Italian
+    String: Gideon
+  - Language: Japanese
+    String: ギデオン
+  - Language: Polish
+    String: Gideon
+  - Language: Portuguese_Brazil
+    String: Gideon
+  - Language: ChineseSimplified
+    String: 吉迪恩
+CalculatedHealth: 500
+CalculatedActionPoints: 50
+GearedUpWeapons: 1
+Unused: 190
+HeadParts:
+- 062F07:Starfield.esm
+- 064D88:Starfield.esm
+- 15578A:Starfield.esm
+- 24A022:Starfield.esm
+- 24A023:Starfield.esm
+- 24A03D:Starfield.esm
+- 253FA3:Starfield.esm
+- 253FA5:Starfield.esm
+- 3A4DA5:Starfield.esm
+- 3BE58D:Starfield.esm
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight:
+  Muscular: 0.15
+DefaultOutfit: 133BE7:Starfield.esm
+SpaceOutfit: 16ADAD:Starfield.esm
+DefaultPackageList: 2C55CA:Starfield.esm
+CrimeFaction: 2DBECD:Starfield.esm
+Tints:
+- TintType: SimpleGroup
+  TintGroup: Dermaesthetic
+  TintName: Asian_Male_md1_Sk1
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/male_as_md1_sk1_derm_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: Complexion1
+  TintName: TriColor
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/tricolor_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 56
+- TintType: SimpleGroup
+  TintGroup: Complexion2
+  TintName: Vitiligo_1
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/test_vitiligo_01_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask2
+  TintName: moles_Many_Small_02
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/moles_many_small_02.dds
+  TintColor: '#00000000'
+  TintIntensity: 37
+- TintType: SimpleGroup
+  TintGroup: Lipstick1
+  TintName: LipStain_Bottom
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/lipstick1/lipstain_bottom_mask.dds
+  TintColor: '#94FF252D'
+  TintIntensity: 50
+FaceDialPositions:
+- Index: 24
+  Position: -0.27
+- Index: 27
+  Position: -0.62
+- Index: 29
+  Position: 0.2
+- Index: 31
+  Position: -0.41
+- Index: 32
+  Position: 0.54
+- Index: 36
+  Position: 1
+- Index: 37
+  Position: 0.4
+- Index: 39
+  Position: -0.32
+- Index: 54
+  Position: 0.47
+- Index: 58
+  Position: 0.08
+- Index: 60
+  Position: -0.22
+- Index: 63
+  Position: -0.45
+- Index: 64
+  Position: -0.31
+- Index: 65
+  Position: -0.28
+- Index: 67
+  Position: -0.07
+- Index: 68
+  Position: -0.13
+- Index: 69
+  Position: -0.35
+- Index: 70
+  Position: -0.23
+- Index: 71
+  Position: 0.3
+- Index: 73
+  Position: 0.61
+- Index: 74
+  Position: 0.15
+- Index: 75
+  Position: -0.55
+- Index: 76
+  Position: 0.08
+- Index: 77
+  Position: 0.23
+- Index: 78
+  Position: 0.54
+- Index: 79
+  Position: -0.04
+- Index: 80
+  Position: -0.21
+- Index: 83
+  Position: -0.63
+- Index: 84
+  Position: 1
+- Index: 85
+  Position: 1
+- Index: 88
+  Position: 0.27
+- Index: 89
+  Position: -0.72
+FaceMorphs:
+- Index: 12
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 0.64
+  - MorphGroup: Chin
+    BlendIntensity: 0.43
+  - MorphGroup: Ears
+    BlendIntensity: 0.67
+  - MorphGroup: Eyes
+    BlendIntensity: 0.66
+  - MorphGroup: Forehead
+    BlendIntensity: 0.75
+  - MorphGroup: Jaw
+    BlendIntensity: 0.39
+  - MorphGroup: Mouth
+    BlendIntensity: 0.25
+  - MorphGroup: Neck
+    BlendIntensity: 0.63
+  - MorphGroup: Nose
+    BlendIntensity: 0.64
+- Index: 16
+  MorphGroups:
+  - MorphGroup: Chin
+    BlendIntensity: 0.56
+  - MorphGroup: Jaw
+    BlendIntensity: 0.59
+  - MorphGroup: Mouth
+    BlendIntensity: 0.59
+MorphBlends:
+- BlendName: male_af_md1_Mouth
+  Intensity: 0.23
+- BlendName: male_as_ol1_Ears
+  Intensity: 0.35
+- BlendName: male_as_ol1_Eyes
+  Intensity: 0.4698445
+- BlendName: male_as_yo1_Eyes
+  Intensity: 0.011673224
+- BlendName: male_eu_md2_Cheeks
+  Intensity: 0.64
+- BlendName: male_eu_md2_Chin
+  Intensity: 0.43
+- BlendName: male_eu_md2_Ears
+  Intensity: 0.2665
+- BlendName: male_eu_md2_Forehead
+  Intensity: 0.75
+- BlendName: male_eu_md2_Jaw
+  Intensity: 0.39
+- BlendName: male_eu_md2_Mouth
+  Intensity: 0.029761905
+- BlendName: male_eu_md2_Neck
+  Intensity: 0.63
+- BlendName: male_eu_md2_Nose
+  Intensity: 0.26
+- BlendName: male_eu_ol1_Eyes
+  Intensity: 0.008482274
+- BlendName: male_eu_yo1_Chin
+  Intensity: 0.56
+- BlendName: male_eu_yo1_Ears
+  Intensity: 0.3835
+- BlendName: male_eu_yo1_Eyes
+  Intensity: 0.51
+- BlendName: male_eu_yo1_Jaw
+  Intensity: 0.59
+- BlendName: male_eu_yo1_Mouth
+  Intensity: 0.26
+- BlendName: male_eu_yo1_Nose
+  Intensity: 0.74
+SkinToneIndex: 3
+HairColor: Jet
+FacialHairColor: Jet
+EyebrowColor: Jet
+EyeColor: Brown
+Pronoun: HeHim

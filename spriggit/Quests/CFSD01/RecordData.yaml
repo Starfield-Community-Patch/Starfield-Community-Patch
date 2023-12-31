@@ -1,0 +1,1930 @@
+FormKey: 1E8E2A:Starfield.esm
+EditorID: CFSD01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CFSD01_QuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF01
+      Object: 009136:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF04
+      Object: 23C6F1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF05
+      Object: 21D792:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06
+      Object: 01BD20:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01Evidence
+      Object: 1E0656:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01EvidenceTotal
+      Object: 1DEDB4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_AdlerKemp
+      Object: 1E8E2A:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_AyumiKomiko
+      Object: 1E8E2A:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Delgado
+      Object: 1E8E2A:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_EstelleVincent
+      Object: 1E8E2A:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_EvgenyRokov
+      Object: 1E8E2A:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF01_Kemp
+      Object: 1E8E2A:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF03_Carter
+      Object: 1E8E2A:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF03_LockRiots
+      Object: 1E8E2A:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF04_GalbankScheme
+      Object: 1E8E2A:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF04_Rokov
+      Object: 1E8E2A:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF05_ComSpike
+      Object: 1E8E2A:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF05_Daiyu
+      Object: 1E8E2A:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF06_AyumiKomiko
+      Object: 1E8E2A:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF06_BayuGenerdyne
+      Object: 1E8E2A:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF06_EstelleVincent
+      Object: 1E8E2A:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF07_KryxFate
+      Object: 1E8E2A:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CFKeyZ01_Maddie
+      Object: 1E8E2A:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CFKeyZ02_Kirova
+      Object: 1E8E2A:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Chiroptera
+      Object: 1E8E2A:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Chunks
+      Object: 1E8E2A:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Durand
+      Object: 1E8E2A:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_HopeTown
+      Object: 1E8E2A:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Jaso
+      Object: 1E8E2A:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Kreet
+      Object: 1E8E2A:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Voss
+      Object: 1E8E2A:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_HuanDaiyu
+      Object: 1E8E2A:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_LarryDumbrosky
+      Object: 1E8E2A:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: EvidenceList
+      Objects:
+      - Name: ''
+        Object: 1DEDB3:Starfield.esm
+      - Name: ''
+        Object: 246D81:Starfield.esm
+      - Name: ''
+        Object: 1DEDB2:Starfield.esm
+      - Name: ''
+        Object: 1DEDB1:Starfield.esm
+      - Name: ''
+        Object: 23750A:Starfield.esm
+      - Name: ''
+        Object: 1DEDB0:Starfield.esm
+      - Name: ''
+        Object: 1DEDAF:Starfield.esm
+      - Name: ''
+        Object: 1DEDAD:Starfield.esm
+      - Name: ''
+        Object: 1F77E0:Starfield.esm
+      - Name: ''
+        Object: 1DEDAE:Starfield.esm
+      - Name: ''
+        Object: 1F257E:Starfield.esm
+      - Name: ''
+        Object: 1DEDA7:Starfield.esm
+      - Name: ''
+        Object: 1DEDA6:Starfield.esm
+      - Name: ''
+        Object: 1DEDA5:Starfield.esm
+      - Name: ''
+        Object: 1DEDA4:Starfield.esm
+      - Name: ''
+        Object: 1DEDAC:Starfield.esm
+      - Name: ''
+        Object: 1DEDAB:Starfield.esm
+      - Name: ''
+        Object: 1DEDA9:Starfield.esm
+      - Name: ''
+        Object: 1DEDAA:Starfield.esm
+      - Name: ''
+        Object: 1DEDA8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC082
+      Object: 2BF365:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC088_Key
+      Object: 2BF36B:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_CFSD01_001E8E2A
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_AdlerKemp
+      Object: 1E8E2A:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_EstelleVincent
+      Object: 1E8E2A:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_EvgenyRokov
+      Object: 1E8E2A:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF01_Kemp
+      Object: 1E8E2A:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF03_Carter
+      Object: 1E8E2A:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF03_LockRiots
+      Object: 1E8E2A:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF04_GalbankScheme
+      Object: 1E8E2A:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF04_Rokov
+      Object: 1E8E2A:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF05_ComSpike
+      Object: 1E8E2A:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF05_Daiyu
+      Object: 1E8E2A:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF06_AyumiKomiko
+      Object: 1E8E2A:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF06_BayuGenerdyne
+      Object: 1E8E2A:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF06_EstelleVincent
+      Object: 1E8E2A:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF07_KryxFate
+      Object: 1E8E2A:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CFKeyZ01_Maddie
+      Object: 1E8E2A:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CFKeyZ02_Kirova
+      Object: 1E8E2A:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Chiroptera
+      Object: 1E8E2A:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Chunks
+      Object: 1E8E2A:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Durand
+      Object: 1E8E2A:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Jaso
+      Object: 1E8E2A:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Kreet
+      Object: 1E8E2A:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Paradiso
+      Object: 1E8E2A:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Voss
+      Object: 1E8E2A:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF01_Evidence_KempRef
+      Object: 1DDFA7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF05_Evidence_HuanDaiyuRef
+      Object: 1DDFA3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_Evidence_AyumiKomikoRef
+      Object: 1DDFA2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_Evidence_EstelleVincentRef
+      Object: 1DDFA1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_TTGWallSafeRef
+      Object: 1AD528:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFKeyZ02_Evidence_AytonRef
+      Object: 1DDF9F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_ChiopteraRef
+      Object: 1DDF9E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_ChunksRef
+      Object: 1DDF9D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_HopeTownRef
+      Object: 1DDF99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_KreetRef
+      Object: 1DDF9A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_Main
+      Object: 178B1E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionCrimsonFleet
+      Object: 010B30:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionUC
+      Object: 05BD93:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainState_Adler
+      Object: 278E85:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainState_Estelle
+      Object: 278E84:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainState_Huan
+      Object: 278E83:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainState_Rokov
+      Object: 278E88:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CydoniaFaction
+      Object: 255CF7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Weapon_Reward_CFSD01_Tofts
+      Object: 316416:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Player
+      Object: 000007:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0025_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0035_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0045_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0055_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0065_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0075_Item_00
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0080_Item_00
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0085_Item_00
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0090_Item_00
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0095_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0105_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0115_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 125
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0125_Item_00
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0130_Item_00
+  - Stage: 135
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0135_Item_00
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0140_Item_00
+  - Stage: 145
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0145_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 155
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0155_Item_00
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0160_Item_00
+  - Stage: 165
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0165_Item_00
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0170_Item_00
+  - Stage: 175
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0175_Item_00
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0180_Item_00
+  - Stage: 185
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0185_Item_00
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0190_Item_00
+  - Stage: 195
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0195_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 205
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0205_Item_00
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0420_Item_00
+  - Stage: 430
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0430_Item_00
+  - Stage: 440
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0440_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 1500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_1500_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_2000_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 8
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptBoolProperty
+        Name: ShowTraces
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 10
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 9
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 20
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 10
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 30
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 11
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 40
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 12
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 13
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 60
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 14
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 70
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 15
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 90
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 16
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 17
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 110
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 18
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 19
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 120
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 20
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 130
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 21
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 140
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 22
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 150
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 23
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 160
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 24
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 170
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 25
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 180
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 26
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 190
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 27
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 200
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 28
+    Scripts:
+    - Name: CFSD01_PlayerAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CFSD01
+        Object: 1E8E2A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LC082VigilanceLocation
+        Object: 2BF36E:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Beweislast
+  - Language: English
+    String: Burden of Proof
+  - Language: Spanish
+    String: Carga de la prueba
+  - Language: French
+    String: Charge de preuve
+  - Language: Italian
+    String: Onere probatorio
+  - Language: Japanese
+    String: 立証責任
+  - Language: Polish
+    String: Twarde dowody
+  - Language: Portuguese_Brazil
+    String: Ônus da Prova
+  - Language: ChineseSimplified
+    String: 罪证的负担
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475FD:Starfield.esm
+QuestFaction: 0546E0:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =DEBUG START=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =DEBUG START ADD ALL ITEMS=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: CFSD01 Triggered in CF01
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Lieutenant Jillian Toft auf der UC Vigilance hat mir aufgetragen, Beweise für die illegalen Aktivitäten der Crimson Fleet zu beschaffen. Schriftliche und Audio-Aufzeichnungen wären besonders gut geeignet, um sie zur Rechenschaft zu ziehen.
+      - Language: English
+        String: I've been tasked by Lt. Jillian Toft on the UC Vigilance to find and bring back any evidence pertaining to Crimson Fleet related illegal activities. Audio logs and text logs would be especially helpful in bringing them to justice.
+      - Language: Spanish
+        String: La teniente Jillian Toft, de la UC Vigilance, me ha pedido que encuentre y le entregue cualquier prueba relacionada con las actividades ilegales de la Flota Carmesí. Los registros de audio y texto serían especialmente útiles para llevarlos ante la justicia.
+      - Language: French
+        String: Le lieutenant Jillian Toft, sur l'UC Vigilance, m'a demandé de lui rapporter des preuves quant aux activités illégales de la Flotte écarlate. Des journaux audio et écrits seraient particulièrement utiles pour les traduire en justice.
+      - Language: Italian
+        String: La ten. Jillian Toft della UC Vigilance mi ha incaricato di trovare e portarle qualsiasi prova pertinente alle attività illegali della Flotta Cremisi. In particolare, registri audio e testuali sarebbero molto utili per assicurare i pirati alla giustizia.
+      - Language: Japanese
+        String: UCヴィジランスのジリアン・トフト大尉に、紅の艦隊が関わっている違法行為の証拠を探してくるよう指示された。裁きにかけるには、オーディオログやテキストログがもっとも有効だろう
+      - Language: Polish
+        String: Por. Jillian Toft przydzieliła mi na OZK Vigilance zadanie odnalezienia i dostarczenia dowodów dotyczących nielegalnych działań związanych z Karmazynową Flotą. Szczególnie przydatne do oddania Floty w ręce sprawiedliwości będą nagrania audio i teksty.
+      - Language: Portuguese_Brazil
+        String: A Ten. Jillian Toft da UC Vigilance me incumbiu de procurar e trazer para ela qualquer evidência referente às atividades ilegais da Frota Escarlate. Registros de áudio e de texto seriam especialmente úteis para puni-los.
+      - Language: ChineseSimplified
+        String: 联殖守望号的吉莉安·托夫特中尉让我去搜寻并带回有关深红舰队非法行径的罪证。音频日志和文字日志是能将他们绳之以法的有力证据。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Adler Kemp
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Adler Kemp
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Kryx's Legacy
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 25
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Kryx's Legacy
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Riots on Suvorov
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 35
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Riots on Suvorov
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Evgeny Rokov
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 45
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Evgeny Rokov
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Dumbrosky's Embezzlement Scheme
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 55
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Dumbrosky's Embezzlement Scheme
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Huan Daiyu
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 65
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Huan Daiyu
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 70
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - ComSpike Fraud
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 75
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - ComSpike Fraud
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 80
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Estelle Vincent
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 85
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Estelle Vincent
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 90
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Benjamin Bayu & Generdyne
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 95
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Benjamin Bayu & Generdyne
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Ayumi Komiko
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Ayumi Komiko
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Jasper Kryx's Fate
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 115
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Jasper Kryx's Fate
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Jasmine's Supply Line
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 125
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Jasmine's Supply Line
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Shinya's Enhancements
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 135
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Shinya's Enhancements
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 140
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Solving Maddie's Murder
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 145
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Solving Maddie's Murder
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Medical Pipeline
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 155
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Medical Pipeline
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 160
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Radley Jaso's True Identity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 165
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Radley Jaso's True Identity
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 170
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Stolen Chunks
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 175
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Stolen Chunks
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 180
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Fate of the Chiroptera
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 185
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Fate of the Chiroptera
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 190
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Target HopeTown
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 195
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Target HopeTown
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Found - Return to Kreet
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 205
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Turned In - Return to Kreet
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 2685E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: First Layer of Toft's Story Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Second Layer of Toft's Story Available
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 311
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Second Layer Prompt Toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Second Layer of Toft's Story Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 330
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Third Layer of Toft's Story Available
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 340
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Third Layer of Toft's Story Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Final Layer of Toft's Story Available
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 360
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Final Layer of Toft's Story Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Adler Kemp
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 415
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Adler Kemp Intro Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Evgeny Rokov
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 425
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Evgeny Rokov Intro Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 430
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Huan Daiyu
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 435
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Huan Daiyu Intro Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 440
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Estelle Vincent
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 445
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Estelle Vincent Intro Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Delgado
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 455
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Delgado Intro Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 460
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Larry Dumbrosky
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 465
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Larry Dumbrosky Intro Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 470
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Ayumi Komiko
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 475
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Prisoner - Ayumi Komiko Intro Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Evidence Done (CF08)
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe eine Reihe von Beweisen gegen die Crimson Fleet zurückgebracht und sollte jetzt mit Lieutenant Jillian Toft sprechen.
+      - Language: English
+        String: After returning a significant amount of evidence pertaining to the Crimson Fleet, I feel I should have a chat with Lt. Jillian Toft.
+      - Language: Spanish
+        String: Tras entregar una cantidad considerable de pruebas relacionadas con la Flota Carmesí, creo que debería hablar con la teniente Jillian Toft.
+      - Language: French
+        String: Après avoir obtenu suffisamment de preuves incriminant la Flotte écarlate, je dois retrouver le lieutenant Jillian Toft pour lui faire part de mes découvertes.
+      - Language: Italian
+        String: Dopo aver portato una quantità significativa di prove pertinenti alla Flotta Cremisi, credo di dover parlare con la ten. Jillian Toft.
+      - Language: Japanese
+        String: 紅の艦隊と犯罪の関わりを裏付ける証拠をたくさん集めた。ジリアン・トフト大尉と話そう
+      - Language: Polish
+        String: Po oddaniu znacznej liczby dowodów w sprawie Karmazynowej Floty warto chyba porozmawiać z por. Jillian Toft.
+      - Language: Portuguese_Brazil
+        String: Depois de entregar muitas evidências referentes à Frota Escarlate, acho que preciso falar com a Ten. Jillian Toft.
+      - Language: ChineseSimplified
+        String: 在将有关深红舰队的大量罪证归还之后，我觉得我应该去找吉莉安·托夫特中尉聊聊。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1500
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Evidence Done (Kickout)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Complete
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nachdem ich eine Reihe von Beweisen gegen die Crimson Fleet beschafft hatte, überreichte Lieutenant Jillian Toft mir überraschend ein Geschenk als Dank für meine Bemühungen, Verbrechern das Handwerk zu legen.
+      - Language: English
+        String: After returning a significant amount of evidence pertaining to the Crimson Fleet, I spoke with Lt. Jillian Toft. Unexpectedly, she's presented me with a gift to thank me for my efforts and bringing criminals to justice.
+      - Language: Spanish
+        String: Tras entregar una cantidad considerable de pruebas relacionadas con la Flota Carmesí, hablé con la teniente Jillian Toft. Para mi sorpresa, me dio un regalo en agradecimiento por mis esfuerzos y por llevar a los delincuentes ante la justicia.
+      - Language: French
+        String: Après avoir obtenu suffisamment de preuves incriminant la Flotte écarlate, j'ai discuté avec le lieutenant Jillian Toft, qui m'a, contre toute attente, offert quelque chose pour me remercier de mon aide dans sa lutte contre ces criminels.
+      - Language: Italian
+        String: Dopo aver portato una quantità significativa di prove pertinenti alla Flotta Cremisi, ho parlato con la ten. Jillian Toft. Inaspettatamente, mi ha fatto un dono per ringraziarmi dei miei sforzi e per aver assicurato dei criminali alla giustizia.
+      - Language: Japanese
+        String: 紅の艦隊と犯罪の関わりを裏付ける証拠をたくさん集め、ジリアン・トフト大尉と話した。意外なことに、犯罪者を裁いた努力のお礼として贈り物を渡された
+      - Language: Polish
+        String: Po oddaniu znacznej liczby dowodów w sprawie Karmazynowej Floty por. Jillian Toft nieoczekiwanie dała mi prezent w podziękowaniu za pomoc i oddanie przestępców w ręce sprawiedliwości.
+      - Language: Portuguese_Brazil
+        String: Depois de entregar muitas evidências referentes à Frota Escarlate, falei com a Ten. Jillian Toft. Inesperadamente, ela me deu um presente de agradecimento por meus esforços e por punir os criminosos.
+      - Language: ChineseSimplified
+        String: 在将有关深红舰队的大量罪证归还之后，我与吉莉安·托夫特中尉进行了一番交谈。让我意外的是，她居然送了我一份礼物，以感谢我的付出与为了将罪犯绳之以法所做出的贡献。
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF3B:Starfield.esm
+        BonusCredits: 23DF36:Starfield.esm
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Such nach Beweisen.
+    - Language: English
+      String: Search for Evidence
+    - Language: Spanish
+      String: Busca pruebas.
+    - Language: French
+      String: Cherchez des preuves.
+    - Language: Italian
+      String: Cerca le prove
+    - Language: Japanese
+      String: 証拠を探す
+    - Language: Polish
+      String: Szukaj dowodów
+    - Language: Portuguese_Brazil
+      String: Procure evidências
+    - Language: ChineseSimplified
+      String: 搜寻罪证
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Bringe die Beweise zu Lieutenant Toft.
+    - Language: English
+      String: Return Evidence to Lt. Toft
+    - Language: Spanish
+      String: Devuelve las pruebas a la teniente Toft.
+    - Language: French
+      String: Rapportez les preuves au lieutenant Toft.
+    - Language: Italian
+      String: Porta le prove alla tenente Toft
+    - Language: Japanese
+      String: トフト大尉に証拠を渡す
+    - Language: Polish
+      String: Przekaż dowody por. Toft
+    - Language: Portuguese_Brazil
+      String: Entregue evidências à Ten. Toft
+    - Language: ChineseSimplified
+      String: 将罪证还给托夫特中尉
+  Targets:
+  - AliasID: 7
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Lieutenant Toft.
+    - Language: English
+      String: Speak to Lieutenant Toft
+    - Language: Spanish
+      String: Habla con la teniente Toft.
+    - Language: French
+      String: Parlez au lieutenant Toft.
+    - Language: Italian
+      String: Parla con la tenente Toft
+    - Language: Japanese
+      String: トフト大尉と話す
+    - Language: Polish
+      String: Porozmawiaj z porucznik Toft
+    - Language: Portuguese_Brazil
+      String: Converse com a Tenente Toft
+    - Language: ChineseSimplified
+      String: 与托夫特中尉交谈
+  Targets:
+  - AliasID: 7
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: CFSD01_Player
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: CFSD01_JillianToft
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 018946:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  Name: CFSD01_AdlerKemp
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 279221:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: CFSD01_EstelleVincent
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 279223:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: CFSD01_HuanDaiyu
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 27921E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: CFSD01_EvgenyRokov
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 279227:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: CFSD01_LarryDumbrosky
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 23C69C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: CFSD01_Delgado
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 015399:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: CFSD01_AyumiKomiko
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 01BE3A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: CFSD01_CF06Safe
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 1AD528:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: CFSD01_Evidence_CF01_Kemp
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDFA7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: CFSD01_Evidence_CF03_Carter
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 245ADA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: CFSD01_Evidence_CF03_LockRiots
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDFA6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: CFSD01_Evidence_CF04_Rokov
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDFA5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: CFSD01_Evidence_CF04_GalbankScheme
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 2363B0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: CFSD01_Evidence_CF05_Daiyu
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDFA3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: CFSD01_Evidence_CF05_ComSpike
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDFA4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: CFSD01_Evidence_CF06_BayuGenerdyne
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 0032E7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: CFSD01_Evidence_CF06_AyumiKomiko
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDFA2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: CFSD01_Evidence_CF06_EstelleVincent
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDFA1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: CFSD01_Evidence_CF07_KryxFate
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1F257D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: CFSD01_Evidence_CFKeyZ01_Maddie
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDFA0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: CFSD01_Evidence_CFKeyZ02_Ayton
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDF9F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: CFSD01_Evidence_MSC_Durand
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDF9C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: CFSD01_Evidence_MSC_Voss
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDF98:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: CFSD01_Evidence_MSC_Jaso
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDF9B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: CFSD01_Evidence_MSC_Chunks
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDF9D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: CFSD01_Evidence_MSC_Chiroptera
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDF9E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: CFSD01_Evidence_MSC_HopeTown
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDF99:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: CFSD01_Evidence_MSC_Kreet
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 1DDF9A:Starfield.esm
+  VoiceTypes: Null

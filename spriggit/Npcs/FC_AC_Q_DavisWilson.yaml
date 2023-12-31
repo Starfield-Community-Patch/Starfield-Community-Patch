@@ -1,0 +1,299 @@
+FormKey: 2161AE:Starfield.esm
+EditorID: FC_AC_Q_DavisWilson
+ObjectBounds:
+  First: -0.31000048, -0.31000048, -4.7683716E-07
+  Second: 0.31000048, 0.31000048, 1.8000004
+ODTY: 0
+Components:
+- MutagenObjectType: ObjectWindowFilterComponent
+  INTV: 0x01000000
+  FLTR: NeonQuests/
+Flags:
+- Essential
+- Unique
+Level:
+  MutagenObjectType: NpcLevel
+  Level: 1
+DispositionBase: 35
+Factions:
+- Faction: 0638E5:Starfield.esm
+- Faction: 106C30:Starfield.esm
+Voice: 202677:Starfield.esm
+Race: 00347D:Starfield.esm
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002D4:Starfield.esm
+- ActorValue: 0002D5:Starfield.esm
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+Items:
+- Item:
+    Item: 11F109:Starfield.esm
+    Count: 1
+- Item:
+    Item: 000806:StarfieldCommunityPatch.esm
+    Count: 1
+Aggression: Aggressive
+Confidence: Foolhardy
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsFriendsAndAllies
+Packages:
+- 1034AF:Starfield.esm
+Class: 002F64:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Davis Wilson
+  - Language: English
+    String: Davis Wilson
+  - Language: Spanish
+    String: Davis Wilson
+  - Language: French
+    String: Davis Wilson
+  - Language: Italian
+    String: Davis Wilson
+  - Language: Japanese
+    String: デイビス・ウィルソン
+  - Language: Polish
+    String: Davis Wilson
+  - Language: Portuguese_Brazil
+    String: Davis Wilson
+  - Language: ChineseSimplified
+    String: 戴维斯·威尔逊
+ShortName:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Davis
+  - Language: English
+    String: Davis
+  - Language: Spanish
+    String: Davis
+  - Language: French
+    String: Davis
+  - Language: Italian
+    String: Davis
+  - Language: Japanese
+    String: デイビス
+  - Language: Polish
+    String: Davis
+  - Language: Portuguese_Brazil
+    String: Davis
+  - Language: ChineseSimplified
+    String: 戴维斯
+GearedUpWeapons: 1
+HeadParts:
+- 006852:Starfield.esm
+- 062F07:Starfield.esm
+- 064D88:Starfield.esm
+- 160C2B:Starfield.esm
+- 24A022:Starfield.esm
+- 24A023:Starfield.esm
+- 24A03D:Starfield.esm
+- 253FA3:Starfield.esm
+- 253FA5:Starfield.esm
+- 3A2878:Starfield.esm
+- 3BE58D:Starfield.esm
+CombatStyle: 2C563E:Starfield.esm
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight:
+  Muscular: 0.39
+  Fat: 0.15
+DefaultOutfit: 1341DF:Starfield.esm
+CrimeFaction: 0638E5:Starfield.esm
+Tints:
+- TintType: SimpleGroup
+  TintGroup: Dermaesthetic
+  TintName: African_Male_Ol1_Sk8
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/male_af_ol1_sk8_derm_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask1
+  TintName: Blemishes_MidFace
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/blemishes_midface_mask.dds
+  TintColor: '#CEFF3B5A'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: Complexion1
+  TintName: Color_Temperature_Pink
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/complexion_colortemperature_pink_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: Complexion2
+  TintName: Crevice_Complexion_Warm
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/complexionpink_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask2
+  TintName: Complexion_WholeFace_Soft
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/complexion_wholeface_soft_mask.dds
+  TintColor: '#58821525'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: Cheeks2
+  TintName: Blush_Inner_Contour
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/cheeks2/testblush03_mask.dds
+  TintColor: '#8DFF3E52'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: Lipstick2
+  TintName: Lip_Stain_Center
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/lipstick2/testlipstain02_mask.dds
+  TintColor: '#8DFF3E52'
+  TintIntensity: 64
+FaceDialPositions:
+- Index: 24
+  Position: 0.48
+- Index: 25
+  Position: -0.85
+- Index: 27
+  Position: 0.99
+- Index: 28
+  Position: 0.5
+- Index: 29
+  Position: -1
+- Index: 31
+  Position: -0.11
+- Index: 32
+  Position: -0.54
+- Index: 35
+  Position: 1
+- Index: 36
+  Position: 0.86
+- Index: 37
+  Position: 0.32
+- Index: 39
+  Position: -0.36
+- Index: 53
+  Position: 0.22
+- Index: 58
+  Position: -0.64
+- Index: 60
+  Position: -0.36
+- Index: 63
+  Position: -0.83
+- Index: 64
+  Position: -0.4
+- Index: 65
+  Position: -0.52
+- Index: 67
+  Position: -0.75
+- Index: 68
+  Position: -0.6
+- Index: 70
+  Position: 0.15
+- Index: 71
+  Position: 0.41
+- Index: 73
+  Position: -0.34
+- Index: 74
+  Position: 0.04
+- Index: 75
+  Position: 0.31
+- Index: 76
+  Position: 0.08
+- Index: 77
+  Position: 0.36
+- Index: 78
+  Position: -0.57
+- Index: 79
+  Position: -0.86
+- Index: 80
+  Position: -0.05
+- Index: 83
+  Position: -1
+- Index: 84
+  Position: 1
+- Index: 85
+  Position: 0.23
+- Index: 86
+  Position: 0.63
+- Index: 87
+  Position: 0.45
+- Index: 88
+  Position: 0.12
+- Index: 89
+  Position: 0.41
+FaceMorphs:
+- Index: 9
+  MorphGroups:
+  - MorphGroup: Jaw
+    BlendIntensity: 1
+  - MorphGroup: Nose
+    BlendIntensity: 1
+- Index: 14
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 0.75
+  - MorphGroup: Ears
+    BlendIntensity: 0.13
+  - MorphGroup: Eyes
+    BlendIntensity: 0.58
+  - MorphGroup: Forehead
+    BlendIntensity: 0.78
+- Index: 40
+  MorphGroups:
+  - MorphGroup: Chin
+    BlendIntensity: 0.82
+  - MorphGroup: Forehead
+    BlendIntensity: 0.22
+- Index: 44
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 0.22
+  - MorphGroup: Chin
+    BlendIntensity: 0.06
+  - MorphGroup: Ears
+    BlendIntensity: 0.83
+  - MorphGroup: Eyes
+    BlendIntensity: 0.42
+  - MorphGroup: Neck
+    BlendIntensity: 0.91
+MorphBlends:
+- BlendName: male_af_md1_Jaw
+  Intensity: 1
+- BlendName: male_af_md1_Mouth
+  Intensity: 0.81
+- BlendName: male_af_md1_Nose
+  Intensity: 0.62
+- BlendName: male_af_ol1_Chin
+  Intensity: 0.82
+- BlendName: male_af_ol1_Forehead
+  Intensity: 0.22
+- BlendName: male_af_ol1_Nose
+  Intensity: 0.38
+- BlendName: male_as_ol1_Cheeks
+  Intensity: 0.22
+- BlendName: male_as_ol1_Chin
+  Intensity: 0.06
+- BlendName: male_as_ol1_Ears
+  Intensity: 0.83
+- BlendName: male_as_ol1_Eyes
+  Intensity: 0.42
+- BlendName: male_as_ol1_Neck
+  Intensity: 0.91
+- BlendName: male_eu_ol1_Cheeks
+  Intensity: 0.75
+- BlendName: male_eu_ol1_Ears
+  Intensity: 0.13
+- BlendName: male_eu_ol1_Eyes
+  Intensity: 0.58
+- BlendName: male_eu_ol1_Forehead
+  Intensity: 0.78
+SkinToneIndex: 6
+HairColor: SaltAndPepper
+EyeColor: Brown
+Pronoun: Unspecified

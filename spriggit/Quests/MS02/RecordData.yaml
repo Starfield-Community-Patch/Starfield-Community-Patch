@@ -1080,6 +1080,8 @@ Name:
     String: Operacja „Gwiezdne ziarno”
   - Language: Portuguese_Brazil
     String: Operação Astrogênese
+  - Language: ChineseSimplified
+    String: 星种行动
 Data:
   Flags:
   - RunOnce
@@ -1173,6 +1175,8 @@ Stages:
         String: Dotarło do mnie dziwne wezwanie pomocy. Podobno pewne miejsce na Charybdzie III, zwane Tyglem, potrzebuje wsparcia.
       - Language: Portuguese_Brazil
         String: Recebi um pedido de socorro inusitado dizendo que um lugar chamado Crisol em Caríbdis III precisa de ajuda.
+      - Language: ChineseSimplified
+        String: 我收到了一通奇怪的求救信号，说卡律布狄斯III上有一个叫坩埚地的地方需要帮助。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1200,6 +1204,8 @@ Stages:
         String: Statek wylądował w pobliżu Tygla. Czeka na mnie robot, który chce ze mną porozmawiać.
       - Language: Portuguese_Brazil
         String: Aterrissei perto do Crisol. Tem um robô esperando para falar comigo.
+      - Language: ChineseSimplified
+        String: 我降落在了坩埚地附近。那里有个机器人等着和我交谈。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1243,6 +1249,8 @@ Stages:
         String: Ada skierowała mnie do Franklina, który opowie mi więcej o Tyglu.
       - Language: Portuguese_Brazil
         String: Ada me disse para falar com Franklin para saber mais sobre o Crisol.
+      - Language: ChineseSimplified
+        String: 艾达说，我得去和富兰克林谈一谈，才能进一步了解坩埚地。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1278,6 +1286,8 @@ Stages:
         String: Tygiel pełen jest klonów! Franklin Roosevelt skierował mnie do przywódców pozostałych stowarzyszeń - Amanirenas i Czyngis-chana.
       - Language: Portuguese_Brazil
         String: 'O Crisol é uma colônia de clones! Franklin Roosevelt me instruiu a falar com os líderes das outras Sociedades daqui: Amanirenas e Gengis Khan.'
+      - Language: ChineseSimplified
+        String: 坩埚地是一个充满了克隆人的定居点！富兰克林·罗斯福说，我应该去和这里的其他协会领袖谈一谈：阿曼尼娜斯和成吉思汗。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1329,6 +1339,8 @@ Stages:
         String: Sytuacja w Tyglu jest zła i pogarsza się z każdą chwilą. Baza, która utrzymuje Tygiel, się psuje. Położona jest gdzieś na Charybdzie III. To stamtąd pochodzą roboty. Każde ze stowarzyszeń chciałoby mnie poprosić o wykonanie tam pewnego zadania.
       - Language: Portuguese_Brazil
         String: A situação no Crisol vai de mal a pior. O Complexo que o sustenta está ruindo. Ele fica em algum lugar de Caríbdis II e é de lá que vêm os robôs. Cada uma das Sociedades daqui parece querer que eu faça alguma coisa lá.
+      - Language: ChineseSimplified
+        String: 坩埚地的情况越来越糟。维持坩埚地的克隆设施正在分崩离析。它位于卡律布狄斯II的某个地方，而且也是机器人的来源地。每一个协会似乎都希望我去那里做点什么。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1372,6 +1384,8 @@ Stages:
         String: Udało mi się dotrzeć do tajemniczej Bazy. Może dowiem się tu czegoś więcej i znajdę sposób, by pomóc któremuś ze stowarzyszeń.
       - Language: Portuguese_Brazil
         String: Cheguei ao misterioso Complexo. Provavelmente conseguirei mais informações e talvez descubra um jeito de ajudar uma das Sociedades.
+      - Language: ChineseSimplified
+        String: 我已经抵达神秘的克隆设施。我应该能进一步了解这个地方，也许还能想办法帮助其中一个协会。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1463,6 +1477,8 @@ Stages:
         String: Klony z Tygla mieszkały kiedyś w Bazie, która została zniszczona, gdy poprzednia wersja Czyngis-chana dotarła na powierzchnię, w wyniku czego wroga fauna ich wymordowała. Część Bazy jest zablokowana, ale aby uzyskać dostęp, potrzebuję kodu dostępowego. Muszę zgłosić się do jednego z przywódców.
       - Language: Portuguese_Brazil
         String: No passado, os clones do Crisol viviam no Complexo, mas ele foi destruído quando uma versão anterior de Gengis Khan alcançou a superfície e todos foram mortos pela fauna hostil do planeta. Há uma parte bloqueada do Complexo que só poderá ser acessada com a senha correta. Tenho que passar essas informações a um dos líderes.
+      - Language: ChineseSimplified
+        String: 坩埚地的克隆人曾居住在克隆设施里。上一个版本的成吉思汗出现时，这个设施被毁了，然后敌对的野生动物把他们都灭了。克隆设施里有一个区域被封锁了，我需要找到安全密码才能进去。我得回去向领导汇报这个情况。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1490,6 +1506,8 @@ Stages:
         String: Kod dostępowy, który pozwoli otworzyć resztę Bazy, może znajdować się na siostrzanym statku zwanym Beagle. Ada Lovelace może pomóc mi go odnaleźć.
       - Language: Portuguese_Brazil
         String: É possível que a senha que dá acesso ao restante do Complexo esteja em uma nave-irmã chamada Beagle. Talvez Ada Lovelace saiba alguma forma de localizar essa nave.
+      - Language: ChineseSimplified
+        String: 能开启克隆设施其余部分的安全密码或许就在一艘名为比格尔号的同型飞船上。艾达·拉弗兰斯可能知道怎么找到比格尔号。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1541,6 +1559,8 @@ Stages:
         String: Ada Lovelace twierdzi, że zautomatyzowany sprzęt astronomiczny Bazy resetuje się każdego dnia i wskazuje na Bel V. Może tam znajduje się Beagle?
       - Language: Portuguese_Brazil
         String: Ada Lovelace disse que o equipamento de astronomia automatizado do Complexo se reinicia e aponta para Bel V todos os dias. Talvez a Beagle esteja lá?
+      - Language: ChineseSimplified
+        String: 艾达·拉弗兰斯说过，克隆设施的自动化天文设备每天重置并指向贝尔V。或许比格尔号就在那里。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1568,6 +1588,8 @@ Stages:
         String: Udało mi się znaleźć nadajnik pozostawiony dawno temu przez statek Beagle. Jeśli będę podążać tym śladem, uda mi się go znaleźć.
       - Language: Portuguese_Brazil
         String: Detectei um sinalizador enviado pela Beagle muito tempo atrás. Se eu seguir os sinalizadores, devo encontrar a nave.
+      - Language: ChineseSimplified
+        String: 我发现了比格尔号很久之前留下来的一个信标。只要跟着这些信标，我就能找到这艘飞船。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1620,6 +1642,8 @@ Stages:
         String: Jestem na pokładzie Beagle'a. Może znajdę tu kod dostępowy, który pozwoli mi odblokować Bazę.
       - Language: Portuguese_Brazil
         String: Acoplei na Beagle, onde espero encontrar uma senha que me ajude a abrir o Complexo.
+      - Language: ChineseSimplified
+        String: 我登上了比格尔号。希望我能在这儿找到一个安全密码，好让我解锁克隆设施。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1647,6 +1671,8 @@ Stages:
         String: Udało mi się znaleźć zaszyfrowany kod dostępowy. Nie jestem w stanie go złamać, ale może uda mi się poprosić Adę Lovelace o pomoc.
       - Language: Portuguese_Brazil
         String: Encontrei um código de anulação de segurança criptografado. Não sou capaz de decodificá-lo, mas talvez Ada Lovelace possa me ajudar.
+      - Language: ChineseSimplified
+        String: 我已经找到了一个加密安全超控代码。我不懂如何破解，但也许艾达·拉弗兰斯能帮上忙。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1675,6 +1701,8 @@ Stages:
         String: Dotarła do mnie pilna wiadomość z Tygla. Poproszono mnie o udanie się tam, zanim polecę do Bazy.
       - Language: Portuguese_Brazil
         String: Recebi uma mensagem de emergência do Crisol me pedindo para postergar a ida ao Complexo e voltar para lá.
+      - Language: ChineseSimplified
+        String: 我收到了一条关于坩埚地的紧急信息。他们让我先别去克隆设施，先回坩埚地。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1726,6 +1754,8 @@ Stages:
         String: Stowarzyszenia stoją na skraju wojny. Muszę rozwiązać tę sprawę, zanim kod dostępowy zostanie odszyfrowany.
       - Language: Portuguese_Brazil
         String: As Sociedades estão prestes a entrar em guerra. Preciso resolver a situação para conseguir descriptografar o código de anulação de segurança.
+      - Language: ChineseSimplified
+        String: 协会争端即将爆发为战争。我必须先解决这个问题，然后才能破解安全超控代码。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1817,6 +1847,8 @@ Stages:
         String: Z moją pomocą Roosevelt wygrał walkę. Pozostało już jedynie udać się do Bazy i rozwiązać sprawę Tygla.
       - Language: Portuguese_Brazil
         String: Ajudei Franklin Roosevelt a vencer a batalha. Agora resta apenas ir ao Complexo e resolver a situação no Crisol.
+      - Language: ChineseSimplified
+        String: 我帮助罗斯福赢得了战争。现在只需前往克隆设施并解决坩埚地里的问题。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1868,6 +1900,8 @@ Stages:
         String: Stowarzyszenia stoją na skraju wojny. Muszę rozwiązać tę sprawę, zanim kod dostępowy zostanie odszyfrowany.
       - Language: Portuguese_Brazil
         String: As Sociedades estão prestes a entrar em guerra. Preciso resolver a situação para conseguir descriptografar o código de anulação de segurança.
+      - Language: ChineseSimplified
+        String: 协会争端即将爆发为战争。我必须先解决这个问题，然后才能破解安全超控代码。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1951,6 +1985,8 @@ Stages:
         String: Z moją pomocą Amanirenas wygrała walkę. Pozostało już jedynie udać się do Bazy i rozwiązać sprawę Tygla.
       - Language: Portuguese_Brazil
         String: Ajudei Amanirenas a vencer a batalha. Agora resta apenas ir ao Complexo e resolver a situação no Crisol.
+      - Language: ChineseSimplified
+        String: 我帮助阿曼尼娜斯赢得了战争。现在只需前往克隆设施并解决坩埚地里的问题。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2002,6 +2038,8 @@ Stages:
         String: Stowarzyszenia stoją na skraju wojny. Muszę rozwiązać tę sprawę, zanim kod dostępowy zostanie odszyfrowany.
       - Language: Portuguese_Brazil
         String: As Sociedades estão prestes a entrar em guerra. Preciso resolver a situação para conseguir descriptografar o código de anulação de segurança.
+      - Language: ChineseSimplified
+        String: 协会争端即将爆发为战争。我必须先解决这个问题，然后才能破解安全超控代码。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2093,6 +2131,8 @@ Stages:
         String: Z moją pomocą Czyngis-chan wygrał walkę. Pozostało już jedynie udać się do Bazy i rozwiązać sprawę Tygla.
       - Language: Portuguese_Brazil
         String: Ajudei Gengis Khan a vencer a batalha. Agora resta apenas ir ao Complexo e resolver a situação no Crisol.
+      - Language: ChineseSimplified
+        String: 我帮助成吉思汗赢得了战争。现在只需前往克隆设施并解决坩埚地里的问题。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2168,6 +2208,8 @@ Stages:
         String: Konflikt między stowarzyszeniami w Tyglu dobiegł końca. Zobaczę, czy Adzie Lovelace udało się odszyfrować kod dostępowy, z którym mogę wrócić do Bazy.
       - Language: Portuguese_Brazil
         String: O conflito entre as Sociedades no Crisol chegou ao fim. Agora preciso ver se Ada Lovelace consegue decodificar o código de anulação de segurança para que eu possa retornar ao Complexo.
+      - Language: ChineseSimplified
+        String: 坩埚地里的协会冲突已经解决了。现在我得去看看艾达·拉弗兰斯能不能破译安全超控代码，好让我返回克隆设施。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2195,6 +2237,8 @@ Stages:
         String: Ada Lovelace odszyfrowała kod dostępowy. Pozostało już jedynie udać się do serca Bazy i zadecydować o losie Tygla i klonów.
       - Language: Portuguese_Brazil
         String: Ada Lovelace decodificou o código de anulação de segurança com sucesso. Agora resta apenas acessar o núcleo do Complexo e determinar o destino do Crisol e seus clones.
+      - Language: ChineseSimplified
+        String: 艾达·拉弗兰斯成功破解了安全超控代码。现在只需前往克隆设施的核心区，决定坩埚地及其克隆人的命运了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2231,6 +2275,8 @@ Stages:
         String: Udało mi się dotrzeć do serca Bazy i uruchomić ponownie system. Pora zdać raport w Tyglu.
       - Language: Portuguese_Brazil
         String: Cheguei ao núcleo do Complexo e reiniciei o sistema. Agora devo informar o Crisol.
+      - Language: ChineseSimplified
+        String: 我抵达了克隆设施的核心区，并重启了系统。我该回去向坩埚地汇报了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2259,6 +2305,8 @@ Stages:
         String: Baza została uruchomiona ponownie, a jej ustawienia przywrócone do domyślnych. Żadne ze stowarzyszeń nie wygra.
       - Language: Portuguese_Brazil
         String: Reiniciei o Complexo com as configurações padrão. Assim, nenhuma das Sociedades vencerá.
+      - Language: ChineseSimplified
+        String: 我重启了克隆设施，并将其设置为默认设置。这样就没有一个协会会赢。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -2293,6 +2341,8 @@ Stages:
         String: W Bazie rozpoczęta została pełna czystka. Wszystkie klony na Charybdzie III zostały zniszczone.
       - Language: Portuguese_Brazil
         String: Realizei um expurgo completo do Complexo. Todos os clones em Caríbdis III foram destruídos.
+      - Language: ChineseSimplified
+        String: 我在克隆设施里进行了一次全面清洗。卡律布狄斯III上的所有克隆人都被摧毁了。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -2326,6 +2376,8 @@ Stages:
         String: Roosevelt i Pragmatycy przejęli kontrolę nad Bazą. Klony muszą najpierw nauczyć się samodzielności, zanim będą mogły opuścić Tygiel.
       - Language: Portuguese_Brazil
         String: Franklin Roosevelt e os Pragmáticos estão no controle do Complexo agora. Os clones começarão a conquistar sua independência antes de partirem do Crisol.
+      - Language: ChineseSimplified
+        String: 罗斯福和实用主义协会已经控制了克隆设施。克隆人在离开坩埚地之前就会开始自立了。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2353,6 +2405,8 @@ Stages:
         String: Amanirenas i Wierzący przejęli kontrolę nad Bazą. Amanirenas może ustalić, jakie kryteria należy spełnić, aby ukończyć Próbę i opuścić Tygiel.
       - Language: Portuguese_Brazil
         String: Amanirenas e os Dogmáticos estão no controle do Complexo agora. É Amanirenas quem determina os critérios para passar no teste e partir do Crisol.
+      - Language: ChineseSimplified
+        String: 阿曼尼娜斯和信徒现在已经控制了克隆设施。阿曼尼娜斯可以决定通过测试的标准，然后离开坩埚地。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2380,6 +2434,8 @@ Stages:
         String: Czyngis-chan i Renegaci przejęli kontrolę nad Bazą. Z pewnością niebawem będą w stanie opuścić Tygiel i zdobyć wolność.
       - Language: Portuguese_Brazil
         String: Gengis Khan e os Renegados estão no controle do Complexo agora. Sem dúvida, eles logo conseguirão partir do Crisol e enfim conquistarão a liberdade.
+      - Language: ChineseSimplified
+        String: 成吉思汗和叛变协会现在已经控制了克隆设施。毫无疑问，他们很快就会离开坩埚地，最终获得自由。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2476,6 +2532,8 @@ Objectives:
       String: Udaj się do Tygla na Charybdzie III
     - Language: Portuguese_Brazil
       String: Vá ao Crisol em Caríbdis III
+    - Language: ChineseSimplified
+      String: 前往位于卡律布狄斯III的坩埚地
   Targets:
   - AliasID: 5
 - Index: 200
@@ -2499,6 +2557,8 @@ Objectives:
       String: Porozmawiaj z Tobiasem
     - Language: Portuguese_Brazil
       String: Fale com Tobias
+    - Language: ChineseSimplified
+      String: 与托比亚斯交谈
   Targets:
   - AliasID: 5
 - Index: 400
@@ -2522,6 +2582,8 @@ Objectives:
       String: Porozmawiaj z Franklinem
     - Language: Portuguese_Brazil
       String: Fale com Franklin
+    - Language: ChineseSimplified
+      String: 与富兰克林交谈
   Targets:
   - AliasID: 6
 - Index: 500
@@ -2545,6 +2607,8 @@ Objectives:
       String: Porozmawiaj z Amanirenas
     - Language: Portuguese_Brazil
       String: Fale com Amanirenas
+    - Language: ChineseSimplified
+      String: 与阿曼尼娜斯交谈
   Targets:
   - AliasID: 2
 - Index: 600
@@ -2568,6 +2632,8 @@ Objectives:
       String: Porozmawiaj z Czyngis-chanem
     - Language: Portuguese_Brazil
       String: Fale com Gengis Khan
+    - Language: ChineseSimplified
+      String: 与成吉思汗交谈
   Targets:
   - AliasID: 3
 - Index: 700
@@ -2591,6 +2657,8 @@ Objectives:
       String: Udaj się do Bazy
     - Language: Portuguese_Brazil
       String: Vá ao Complexo
+    - Language: ChineseSimplified
+      String: 前往克隆设施
   Targets:
   - AliasID: 38
 - Index: 800
@@ -2614,6 +2682,8 @@ Objectives:
       String: Porozmawiaj z Franklinem
     - Language: Portuguese_Brazil
       String: Fale com Franklin
+    - Language: ChineseSimplified
+      String: 与富兰克林交谈
   Targets:
   - AliasID: 6
 - Index: 1000
@@ -2637,6 +2707,8 @@ Objectives:
       String: Znajdź wskazówki dotyczące Bazy (<Global=MS02_CluesCollected> / 7)
     - Language: Portuguese_Brazil
       String: Ache pistas sobre o Complexo (<Global=MS02_CluesCollected>/7)
+    - Language: ChineseSimplified
+      String: 找到克隆设施相关的线索（<Global=MS02_CluesCollected>/7）
   Targets:
   - AliasID: 12
     Conditions:
@@ -2752,6 +2824,8 @@ Objectives:
       String: Zdecyduj, któremu ze stowarzyszeń powierzyć informacje o Bazie
     - Language: Portuguese_Brazil
       String: Dê as informações do Complexo a uma das Sociedades
+    - Language: ChineseSimplified
+      String: 选择协会以给予设施信息
   Targets:
   - AliasID: 6
     Conditions:
@@ -2816,6 +2890,8 @@ Objectives:
       String: Porozmawiaj z Adą Lovelace
     - Language: Portuguese_Brazil
       String: Fale com Ada Lovelace
+    - Language: ChineseSimplified
+      String: 与艾达·拉弗兰斯交谈
   Targets:
   - {}
 - Index: 1300
@@ -2839,6 +2915,8 @@ Objectives:
       String: Zbadaj Bel V
     - Language: Portuguese_Brazil
       String: Investigue Bel V
+    - Language: ChineseSimplified
+      String: 调查贝尔V
   Targets:
   - AliasID: 30
   - AliasID: 39
@@ -2863,6 +2941,8 @@ Objectives:
       String: Podążaj śladem Beagle'a do Zelaznego I
     - Language: Portuguese_Brazil
       String: Siga o rastro da Beagle até Zelazny I
+    - Language: ChineseSimplified
+      String: 循着比格尔号的踪迹前往泽拉兹尼I
   Targets:
   - AliasID: 21
   - AliasID: 52
@@ -2887,6 +2967,8 @@ Objectives:
       String: Znajdź kod dostępowy Bazy
     - Language: Portuguese_Brazil
       String: Ache o código de anulação de segurança do Complexo
+    - Language: ChineseSimplified
+      String: 找到设施的安全超驰控制码
   Targets:
   - AliasID: 21
 - Index: 1600
@@ -2910,6 +2992,8 @@ Objectives:
       String: Spotkaj się z Franklinem w sprawie kryzysu
     - Language: Portuguese_Brazil
       String: Discuta a emergência com Franklin
+    - Language: ChineseSimplified
+      String: 会见富兰克林并谈论紧急事件
   Targets:
   - AliasID: 6
 - Index: 1601
@@ -2933,6 +3017,8 @@ Objectives:
       String: Spotkaj się z Amanirenas w sprawie kryzysu
     - Language: Portuguese_Brazil
       String: Discuta a emergência com Amanirenas
+    - Language: ChineseSimplified
+      String: 会见阿曼尼娜斯并谈论紧急事件
   Targets:
   - AliasID: 2
 - Index: 1602
@@ -2956,6 +3042,8 @@ Objectives:
       String: Spotkaj się z Czyngis Chanem w sprawie kryzysu
     - Language: Portuguese_Brazil
       String: Discuta a emergência com Gengis Khan
+    - Language: ChineseSimplified
+      String: 会见成吉思汗并谈论紧急事件
   Targets:
   - AliasID: 3
 - Index: 1610
@@ -2979,6 +3067,8 @@ Objectives:
       String: Udaj się na spotkanie z przywódcami Tygla
     - Language: Portuguese_Brazil
       String: Compareça à reunião com os líderes do Crisol
+    - Language: ChineseSimplified
+      String: 同坩埚地领袖开会
   Targets:
   - AliasID: 3
     Conditions:
@@ -3018,6 +3108,8 @@ Objectives:
       String: Zabij Czyngis-chana
     - Language: Portuguese_Brazil
       String: Mate Gengis Khan
+    - Language: ChineseSimplified
+      String: 杀死成吉思汗
   Targets:
   - AliasID: 3
 - Index: 1625
@@ -3041,6 +3133,8 @@ Objectives:
       String: Zabij Amanirenas
     - Language: Portuguese_Brazil
       String: Mate Amanirenas
+    - Language: ChineseSimplified
+      String: 杀死阿曼尼娜斯
   Targets:
   - AliasID: 2
 - Index: 1627
@@ -3064,6 +3158,8 @@ Objectives:
       String: Zabij Franklina Roosevelta
     - Language: Portuguese_Brazil
       String: Mate Franklin Roosevelt
+    - Language: ChineseSimplified
+      String: 杀死富兰克林·罗斯福
   Targets:
   - AliasID: 6
 - Index: 1630
@@ -3087,6 +3183,8 @@ Objectives:
       String: Porozmawiaj z Franklinem
     - Language: Portuguese_Brazil
       String: Fale com Franklin
+    - Language: ChineseSimplified
+      String: 与富兰克林交谈
   Targets:
   - AliasID: 6
 - Index: 1700
@@ -3110,6 +3208,8 @@ Objectives:
       String: Spotkaj się z Amanirenas w sprawie kryzysu
     - Language: Portuguese_Brazil
       String: Discuta a emergência com Amanirenas
+    - Language: ChineseSimplified
+      String: 会见阿曼尼娜斯并谈论紧急事件
   Targets:
   - AliasID: 2
 - Index: 1730
@@ -3133,6 +3233,8 @@ Objectives:
       String: Porozmawiaj z Amanirenas
     - Language: Portuguese_Brazil
       String: Fale com Amanirenas
+    - Language: ChineseSimplified
+      String: 与阿曼尼娜斯交谈
   Targets:
   - AliasID: 2
 - Index: 1800
@@ -3156,6 +3258,8 @@ Objectives:
       String: Spotkaj się z Czyngis-chanem w sprawie kryzysu
     - Language: Portuguese_Brazil
       String: Discuta a emergência com Gengis Khan
+    - Language: ChineseSimplified
+      String: 会见成吉思汗并谈论紧急事件
   Targets:
   - AliasID: 3
 - Index: 1830
@@ -3179,6 +3283,8 @@ Objectives:
       String: Porozmawiaj z Czyngis-chanem
     - Language: Portuguese_Brazil
       String: Fale com Gengis Khan
+    - Language: ChineseSimplified
+      String: 与成吉思汗交谈
   Targets:
   - AliasID: 3
 - Index: 1880
@@ -3202,6 +3308,8 @@ Objectives:
       String: Zapytaj Adę Lovelace, czy może odszyfrować kod dostępowy
     - Language: Portuguese_Brazil
       String: Veja se Ada consegue descriptografar o código
+    - Language: ChineseSimplified
+      String: 看艾达·拉弗兰斯能否破解安全超控代码
   Targets:
   - {}
 - Index: 1900
@@ -3225,6 +3333,8 @@ Objectives:
       String: Zajmij się Bazą
     - Language: Portuguese_Brazil
       String: Lide com o Complexo
+    - Language: ChineseSimplified
+      String: 处理克隆设施
   Targets:
   - AliasID: 22
     Conditions:
@@ -3264,6 +3374,8 @@ Objectives:
       String: Zdaj raport Franklinowi
     - Language: Portuguese_Brazil
       String: Volte para falar com Franklin
+    - Language: ChineseSimplified
+      String: 向富兰克林汇报
   Targets:
   - AliasID: 6
 - Index: 2020
@@ -3287,6 +3399,8 @@ Objectives:
       String: Zdaj raport Amanirenas
     - Language: Portuguese_Brazil
       String: Volte para falar com Amanirenas
+    - Language: ChineseSimplified
+      String: 向阿曼尼娜斯汇报
   Targets:
   - AliasID: 2
 - Index: 2030
@@ -3310,6 +3424,8 @@ Objectives:
       String: Zdaj raport Czyngis-chanowi
     - Language: Portuguese_Brazil
       String: Volte para falar com Gengis Khan
+    - Language: ChineseSimplified
+      String: 向成吉思汗汇报
   Targets:
   - AliasID: 3
 Aliases:

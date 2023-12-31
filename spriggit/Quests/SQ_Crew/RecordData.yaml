@@ -1,0 +1,492 @@
+FormKey: 2A567D:Starfield.esm
+EditorID: SQ_Crew
+VirtualMachineAdapter:
+  Scripts:
+  - Name: sq_com_crew_giveitemquestscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: SkillData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Conditions
+          Object: 3371F1:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: GiveItemSkill
+          Object: 21B8CA:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Conditions
+          Object: 3371F3:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: GiveItemSkill
+          Object: 21B8C9:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Conditions
+          Object: 3371F2:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: GiveItemSkill
+          Object: 21B8C5:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Conditions
+          Object: 3371F4:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: GiveItemSkill
+          Object: 21B8CC:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Conditions
+          Object: 3371F6:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: GiveItemSkill
+          Object: 21B8CB:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Conditions
+          Object: 3371F7:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: GiveItemSkill
+          Object: 21B8C7:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Conditions
+          Object: 3371F8:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: GiveItemSkill
+          Object: 21B8C6:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Conditions
+          Object: 3371F5:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: GiveItemSkill
+          Object: 21B8C4:Starfield.esm
+  - Name: sq_crewscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Achievements_Quest
+      Object: 29E183:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActiveEliteCrew
+      Object: 2A567D:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActiveMessage
+      Object: 2BFDCA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Active
+      Object: 2A567D:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Available
+      Object: 2A567D:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MessageTextReplaceActor
+      Object: 2A567D:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MessageTextReplaceRef
+      Object: 2A567D:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvailableCrewFaction
+      Object: 014314:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvailableMessage
+      Object: 27072E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AV_Active
+      Object: 2A9DE1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AV_Available
+      Object: 2A9DE2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_CrimeFaction_IgnoreNonMembers
+      Object: 17FB32:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_CrimeFaction_IgnoreNonMembersNonViolent
+      Object: 2DBEB2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_DismissedGenericTopic
+      Object: 27071D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_LockedIn
+      Object: 0963E6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptIntListProperty
+      Name: CrewCostTable_Elite
+      Data:
+      - 12000
+      - 13500
+      - 15000
+      - 16500
+      - 18000
+    - MutagenObjectType: ScriptIntListProperty
+      Name: CrewCostTable_Generic
+      Data:
+      - 6000
+      - 6250
+      - 6500
+      - 6750
+      - 7000
+      - 7250
+      - 7500
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrewGoingHome
+      Object: 2A567D:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrewGoingToOutposts
+      Object: 2A567D:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_AlwaysTeammateWhenAssigned
+      Object: 3F7771:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_CostMult
+      Object: 270727:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_CostTableIndex
+      Object: 27072A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_CrewTypeElite
+      Object: 270729:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_CrewTypeGeneric
+      Object: 270728:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Elite_BackstoryFollowup_CooldownDays
+      Object: 220F50:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Elite_BackstoryFollowup_Day
+      Object: 220F51:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_GenericCrew
+      Object: 26C4EA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_LvlCrew_Any
+      Object: 26F937:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DisembarkingCrew
+      Object: 0174A2:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DismissedCrew
+      Object: 0174A2:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FOL_ActiveFollower
+      Object: 2A9DE3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HomeShip
+      Object: 2A567D:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LinkGenericCrewSpawnMarker
+      Object: 100456:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LinkOutpostCrewMarker01
+      Object: 2634AC:Starfield.esm
+    - MutagenObjectType: ScriptStringProperty
+      Name: MainLogName
+      Data: Crew
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NotActiveMessage
+      Object: 27072C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NotAvailableMessage
+      Object: 27072D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OutpostCrewApply
+      Object: 2A567D:Starfield.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipCrewSlots
+      Object: 2CC9EA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ActorRoles_SuppressMessages
+      Object: 2073D9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PreventRecalc
+      Object: 3D2EBB:Starfield.esm
+    - MutagenObjectType: ScriptStringProperty
+      Name: SubLogName
+      Data: sq_crewscript
+  Script:
+    Name: ''
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Handles various systems for Crew
+  - Language: English
+    String: Handles various systems for Crew
+  - Language: Spanish
+    String: Gestiona varios sistemas para la tripulación.
+  - Language: French
+    String: Gère les différents systèmes de l'équipage.
+  - Language: Italian
+    String: Gestisce vari sistemi per l’equipaggio
+  - Language: Japanese
+    String: クルー用の様々なシステムを取り扱う
+  - Language: Polish
+    String: Obsługuje różne systemy załogi
+  - Language: Portuguese_Brazil
+    String: Gerencia vários sistemas para a Tripulação
+  - Language: ChineseSimplified
+    String: 处理船员的各种系统
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - 0x80000
+  - 0x100000
+  - 0x400000
+  Priority: 40
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+Filter: Followers\SQ\
+UnusedConditions: []
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Dogmeat
+    - Language: English
+      String: Dogmeat
+    - Language: Spanish
+      String: Albóndiga
+    - Language: French
+      String: Canigou
+    - Language: Italian
+      String: Dogmeat
+    - Language: Japanese
+      String: ドッグミート
+    - Language: Polish
+      String: Ochłap
+    - Language: Portuguese_Brazil
+      String: Dogmeat
+    - Language: ChineseSimplified
+      String: 狗肉
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begleiter
+    - Language: English
+      String: Companion
+    - Language: Spanish
+      String: Compañero
+    - Language: French
+      String: Compagnon
+    - Language: Italian
+      String: Compagno
+    - Language: Japanese
+      String: 仲間
+    - Language: Polish
+      String: Towarzysz
+    - Language: Portuguese_Brazil
+      String: Companhia
+    - Language: ChineseSimplified
+      String: 同伴
+Aliases:
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 18
+    ALAM: 0
+    ReferenceAlias:
+      ID: 18
+      Name: activeCrew
+      Flags:
+      - Optional
+      ALFG: 0
+      CombatOverridePackageList: 00D843:Starfield.esm
+      LinkedAliases:
+      - Keyword: 03FB1B:Starfield.esm
+        AliasID: 24
+      Factions:
+      - 014312:Starfield.esm
+      PackageData:
+      - 1D842A:Starfield.esm
+      - 2634AB:Starfield.esm
+      - 279291:Starfield.esm
+      - 2AC0C6:Starfield.esm
+      - 2BFDC9:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 19
+    MaxInitialFillCount: 1
+    ALAM: 0
+    ReferenceAlias:
+      ID: 19
+      Name: AvailableCrew
+      Flags:
+      - Optional
+      ALFG: 0
+      Factions:
+      - 014314:Starfield.esm
+      PackageData:
+      - 074CEC:Starfield.esm
+      - 18481F:Starfield.esm
+      - 1757F2:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: ActiveEliteCrew
+  Flags:
+  - Optional
+  ALFG: 0
+  Keywords:
+  - 1D03E1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: MessageTextReplaceActor
+  Flags:
+  - Optional
+  - StoresText
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: MessageTextReplaceRef
+  Flags:
+  - Optional
+  - StoresText
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: ShipCrewMarker
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 6
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: ShipPassengerMarker
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 23
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: PlayerShip
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 16
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 27
+    ReferenceAlias:
+      ID: 27
+      Name: BoardingCrew
+      Flags:
+      - Optional
+      ALFG: 0
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 28
+    ReferenceAlias:
+      ID: 28
+      Name: CrewGoingHome
+      Flags:
+      - Optional
+      ALFG: 0
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 29
+    ReferenceAlias:
+      ID: 29
+      Name: CrewGoingToOutposts
+      Flags:
+      - Optional
+      ALFG: 0
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 31
+    ReferenceAlias:
+      ID: 31
+      Name: DismissedCrew
+      Flags:
+      - Optional
+      ALFG: 0
+      LinkedAliases:
+      - Keyword: 03FB1B:Starfield.esm
+        AliasID: 24
+      PackageData:
+      - 26FCCB:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: OutpostCrewApply
+  Flags:
+  - Optional
+  - CanApplyDataToNonAliasedRefs
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 35
+    ALAM: 0
+    ReferenceAlias:
+      ID: 35
+      Name: Passengers
+      Flags:
+      - Optional
+      - ExternalAliasLinked
+      ALFG: 0
+      External:
+        Quest: 0174A2:Starfield.esm
+        AliasID: 30
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 37
+    ALAM: 0
+    ReferenceAlias:
+      ID: 37
+      Name: SpawnedGenericCrew
+      Flags:
+      - Optional
+      ALFG: 0
+      VoiceTypes: Null

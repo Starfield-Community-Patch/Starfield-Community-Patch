@@ -87,6 +87,8 @@ Name:
     String: Usługa usuwania listów gończych świadczona przez Przymierze Tropicieli
   - Language: Portuguese_Brazil
     String: Serviço de Eliminação de Recompensa da Aliança de Rastreadores
+  - Language: ChineseSimplified
+    String: 追踪者联盟悬赏取消服务
 TMVT: 0x01000000
 DNAM: 0x03
 SNAM: 0x01000000
@@ -168,6 +170,15 @@ BodyTexts:
 
 
         Qual facção devemos contatar em seu nome?
+    - Language: ChineseSimplified
+      String: >-
+        追踪者联盟悬赏取消自助服务亭
+
+
+        （如果定居星系群有人悬赏你，不用担心。只需支付一笔小小的好处费，我们就能帮你取消通缉。）
+
+
+        你希望我们代表你联系哪个阵营？
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThan
@@ -341,6 +352,18 @@ BodyTexts:
 
 
         Volte sempre que precisar.
+    - Language: ChineseSimplified
+      String: >-
+        追踪者联盟悬赏取消自助服务亭
+
+
+        （如果定居星系群有人悬赏你，不用担心。只需支付一笔小小的好处费，我们就能帮你取消通缉。）
+
+
+        我们的记录显示，你目前没有被定居星系群内的任何阵营通缉。
+
+
+        如果你有需要，请再来拜访我们。
   UseTemplatedText: False
 MenuItems:
 - ItemText:
@@ -362,6 +385,8 @@ MenuItems:
       String: '<Token.Name=Faction0>: nagroda w wysokości <Token=Faction0Bounty> kr.'
     - Language: Portuguese_Brazil
       String: '<Token.Name=Faction0>: <Token=Faction0Bounty> créditos de recompensa'
+    - Language: ChineseSimplified
+      String: <Token.Name=Faction0>：<Token=Faction0Bounty>信用币赏金
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0100ABAB0C000000
@@ -399,6 +424,8 @@ MenuItems:
       String: '<Token.Name=Faction1>: nagroda w wysokości <Token=Faction1Bounty> kr.'
     - Language: Portuguese_Brazil
       String: '<Token.Name=Faction1>: <Token=Faction1Bounty> créditos de recompensa'
+    - Language: ChineseSimplified
+      String: <Token.Name=Faction1>：<Token=Faction1Bounty>信用币赏金
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0100ABAB0C000000
@@ -437,6 +464,8 @@ MenuItems:
       String: '<Token.Name=Faction2>: nagroda w wysokości <Token=Faction2Bounty> kr.'
     - Language: Portuguese_Brazil
       String: '<Token.Name=Faction2>: <Token=Faction2Bounty> créditos de recompensa'
+    - Language: ChineseSimplified
+      String: <Token.Name=Faction2>：<Token=Faction2Bounty>信用币赏金
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0100ABAB0C000000
@@ -475,6 +504,8 @@ MenuItems:
       String: '<Token.Name=Faction3>: nagroda w wysokości <Token=Faction3Bounty> kr.'
     - Language: Portuguese_Brazil
       String: '<Token.Name=Faction3>: <Token=Faction3Bounty> créditos de recompensa'
+    - Language: ChineseSimplified
+      String: <Token.Name=Faction3>：<Token=Faction3Bounty>信用币赏金
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0100ABAB0C000000
@@ -513,6 +544,8 @@ MenuItems:
       String: '<Token.Name=Faction4>: nagroda w wysokości <Token=Faction4Bounty> kr.'
     - Language: Portuguese_Brazil
       String: '<Token.Name=Faction4>: <Token=Faction4Bounty> créditos de recompensa'
+    - Language: ChineseSimplified
+      String: <Token.Name=Faction4>：<Token=Faction4Bounty>信用币赏金
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0100ABAB0C000000
@@ -545,6 +578,8 @@ MenuItems:
       String: '<Token.Name=Faction5>: nagroda w wysokości <Token=Faction5Bounty> kr.'
     - Language: Portuguese_Brazil
       String: '<Token.Name=Faction5>: <Token=Faction5Bounty> créditos de recompensa'
+    - Language: ChineseSimplified
+      String: <Token.Name=Faction5>：<Token=Faction5Bounty>信用币赏金
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0100ABAB0C000000
@@ -577,6 +612,8 @@ MenuItems:
       String: '<Token.Name=Faction6>: nagroda w wysokości <Token=Faction6Bounty> kr.'
     - Language: Portuguese_Brazil
       String: '<Token.Name=Faction6>: <Token=Faction6Bounty> créditos de recompensa'
+    - Language: ChineseSimplified
+      String: <Token.Name=Faction6>：<Token=Faction6Bounty>信用币赏金
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0100ABAB0C000000
@@ -609,6 +646,8 @@ MenuItems:
       String: '<Token.Name=Faction7>: nagroda w wysokości <Token=Faction7Bounty> kr.'
     - Language: Portuguese_Brazil
       String: '<Token.Name=Faction7>: <Token=Faction7Bounty> créditos de recompensa'
+    - Language: ChineseSimplified
+      String: <Token.Name=Faction7>：<Token=Faction7Bounty>信用币赏金
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0100ABAB0C000000
@@ -647,6 +686,8 @@ MenuItems:
       String: '<Token.Name=Faction0>: nagroda w wysokości <Token=Faction0Bounty> kr.'
     - Language: Portuguese_Brazil
       String: '<Token.Name=Faction0>: <Token=Faction0Bounty> créditos de recompensa'
+    - Language: ChineseSimplified
+      String: <Token.Name=Faction0>：<Token=Faction0Bounty>信用币赏金
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -670,6 +711,8 @@ MenuItems:
       String: Niestety miejscowe przepisy nie pozwalają nam na oferowanie tej usługi w przestrzeni Zjednoczonych Kolonii. Prosimy o kontakt z władzami ZK, aby rozwiązać wszelkie problemy prawne.
     - Language: Portuguese_Brazil
       String: Infelizmente, as normas locais nos impedem de oferecer este serviço dentro do espaço da União das Colônias. Entre em contato com as autoridades da União das Colônias para esclarecer quaisquer questões jurídicas.
+    - Language: ChineseSimplified
+      String: 遗憾的是，根据本地法律法规，我们不得在联合殖民地领空内提供此服务。欲解决司法困境，请联系联合殖民地当局。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
@@ -704,6 +747,8 @@ MenuItems:
       String: '<Token.Name=Faction1>: nagroda w wysokości <Token=Faction1Bounty> kr.'
     - Language: Portuguese_Brazil
       String: '<Token.Name=Faction1>: <Token=Faction1Bounty> créditos de recompensa'
+    - Language: ChineseSimplified
+      String: <Token.Name=Faction1>：<Token=Faction1Bounty>信用币赏金
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -727,6 +772,8 @@ MenuItems:
       String: Niestety miejscowe przepisy nie pozwalają nam na oferowanie tej usługi w przestrzeni Kolektywu Wolnych Gwiazd. Prosimy o kontakt z władzami KWG, aby rozwiązać wszelkie problemy prawne.
     - Language: Portuguese_Brazil
       String: Infelizmente, as normas locais nos impedem de oferecer este serviço dentro do espaço da Confederação Freestar. Entre em contato com as autoridades da Confederação Freestar para esclarecer quaisquer questões jurídicas.
+    - Language: ChineseSimplified
+      String: 遗憾的是，根据本地法律法规，我们不得在自由星系联盟领空内提供此服务。欲解决司法困境，请联系自由星系联盟当局。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
@@ -761,6 +808,8 @@ MenuItems:
       String: '<Token.Name=Faction2>: nagroda w wysokości <Token=Faction2Bounty> kr.'
     - Language: Portuguese_Brazil
       String: '<Token.Name=Faction2>: <Token=Faction2Bounty> créditos de recompensa'
+    - Language: ChineseSimplified
+      String: <Token.Name=Faction2>：<Token=Faction2Bounty>信用币赏金
   ItemShortText:
     TargetLanguage: English
   ISET: 0x0000ABAB08000000
@@ -784,6 +833,8 @@ MenuItems:
       String: Niestety miejscowe przepisy nie pozwalają nam na oferowanie tej usługi w przestrzeni Kolektywu Wolnych Gwiazd. Prosimy o kontakt z władzami KWG, aby rozwiązać wszelkie problemy prawne.
     - Language: Portuguese_Brazil
       String: Infelizmente, as normas locais nos impedem de oferecer este serviço dentro do espaço da Confederação Freestar. Entre em contato com as autoridades da Confederação Freestar para esclarecer quaisquer questões jurídicas.
+    - Language: ChineseSimplified
+      String: 遗憾的是，根据本地法律法规，我们不得在自由星系联盟领空内提供此服务。欲解决司法困境，请联系自由星系联盟当局。
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000

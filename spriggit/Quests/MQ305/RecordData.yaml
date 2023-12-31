@@ -1,0 +1,1936 @@
+FormKey: 24EF9C:Starfield.esm
+EditorID: MQ305
+VirtualMachineAdapter:
+  Scripts:
+  - Name: mq305script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Andreja
+      Object: 24EF9C:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvailableCompanionFaction
+      Object: 00D875:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Barrett
+      Object: 24EF9C:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsRomantic
+      Object: 2BFAB9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CoraCoe
+      Object: 24EF9C:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CureAddictions
+      Object: 1C9A6A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: idleartifacttouch
+      Object: 34C6E6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ302_SidedWithChoice
+      Object: 0B2E3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerAndreja
+      Object: 36E6C6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerBarrett
+      Object: 36E6C7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerCF_Delgado
+      Object: 36E6CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerCF_SysDef
+      Object: 36E6CB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerCompanionAny
+      Object: 285D82:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerConstellation
+      Object: 0FE9FA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerEmissary
+      Object: 36E6C2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerFSC_HopeDead
+      Object: 23AF6C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerFSC_HopeLetGo
+      Object: 36E6CF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerFSC_HopeNotDead
+      Object: 24EF28:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Mq305EndingMarkerHunter
+      Object: 36E6C0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerNeither
+      Object: 36E6C4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerRI_NeuroAmp
+      Object: 36E6D7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerRI_NeuroAmp_Masako
+      Object: 36E6D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerRI_NeuroAmp_Ularu
+      Object: 36E6D9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerRI_NoNeuroAmp
+      Object: 36E6D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerRI_NoNeuroAmp_Masako
+      Object: 36E6D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerRI_NoNeuroAmp_Ularu
+      Object: 36E6D5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerSamCoe
+      Object: 36E6C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerSarahMorgan
+      Object: 36E6C9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerUC_Aceles
+      Object: 0785E6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerUC_Terrormorph
+      Object: 08E871:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305JumpedToUnity
+      Object: 1F3C3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_002_Unity_05
+      Object: 14CE9B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_CF_PirateEnding
+      Object: 1F8196:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_CF_SysDefEnding
+      Object: 1F8199:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_FSC_RonHopeBribeAccepted
+      Object: 1F8193:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_FSC_RonHopeJailed
+      Object: 1F8195:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_FSC_RonHopeKilled
+      Object: 1F8194:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_RI_NeuroampNotPromoted
+      Object: 1F8192:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_RI_NeuroampPromoted
+      Object: 1F8198:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_AcelesEnding
+      Object: 1F8191:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_PlagueEnding
+      Object: 1F8197:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_SterilizationEnding
+      Object: 04A45D:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: PlayerKnowledgeArray
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 023295:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 01BE63:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 023297:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 2AAC9F:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 023288:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 2AACAB:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 02323E:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 0D87A2:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 02323C:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 0D87A1:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 02323D:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 1F0989:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 02323B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 2AACA2:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 02323A:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 160037:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 023239:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 2AACA3:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 023237:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 0EE5B4:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeAV
+          Object: 023236:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerKnowledgeGlobal
+          Object: 0506C4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: playerShipInteriorLocation
+      Object: 24EF9C:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerUnityTimesEntered
+      Object: 219529:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_MasakoRemainedCEO
+      Object: 17F175:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SamCoe
+      Object: 24EF9C:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SarahMorgan
+      Object: 24EF9C:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ENV
+      Object: 248D20:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UnityActorEffect
+      Object: 071A63:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UnityCameraFadeIn_AO
+      Object: 03B53D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UnityMovetoMarker
+      Object: 214C7D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Vasco
+      Object: 24EF9C:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_PlayerEntersUnityA
+      Object: 02B47C:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_MQ305_0024EF9C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Andreja
+      Object: 24EF9C:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Barrett
+      Object: 24EF9C:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoraCoe
+      Object: 24EF9C:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Emissary
+      Object: 24EF9C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EmissaryShip
+      Object: 24EF9C:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hunter
+      Object: 24EF9C:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HunterShip
+      Object: 24EF9C:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShip
+      Object: 24EF9C:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShipArmillary
+      Object: 24EF9C:Starfield.esm
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SamCoe
+      Object: 24EF9C:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SarahMorgan
+      Object: 24EF9C:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvailableCompanionFaction
+      Object: 00D875:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID_Andreja
+      Object: 2BE2D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID_Barrett
+      Object: 2BE2D6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID_SamCoe
+      Object: 2BE2D7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID_SarahMorgan
+      Object: 2BE2D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsRomantic
+      Object: 2BFAB9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_SamCoeRecruited
+      Object: 26180E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EyeBoardingFaction
+      Object: 136F9F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HelixOborumMarker
+      Object: 06E07B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeStartMarker
+      Object: 2824E5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Mfg_Structural_Frame
+      Object: 246B6A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ00_ArtifactsHolder
+      Object: 005790:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ00_CompanionWhoDies
+      Object: 005790:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 003448:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101Debug
+      Object: 0A7D31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ102
+      Object: 0114CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206C
+      Object: 256B02:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ207_EmissaryMarker01
+      Object: 220E6E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ207_HunterMarker01
+      Object: 220E6D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ302_SidedWithChoice
+      Object: 0B2E3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ303
+      Object: 254243:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ303EmissaryMarker01
+      Object: 1627F7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ303_StarbornHunterMarker01
+      Object: 20E49F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ304b
+      Object: 15D399:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ304_PostQuestDialogue
+      Object: 20E581:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305InitialCollisionEnableMarker
+      Object: 0EF489:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305JumpToUnityMSG
+      Object: 1F8189:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305ReturnFromUnityMSG
+      Object: 018B7F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_002_Unity_01
+      Object: 24EF7A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_002_Unity_04
+      Object: 0812DA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_002_Unity_05
+      Object: 14CE9B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_002_Unity_06
+      Object: 0EFF48:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_CF_PirateEnding
+      Object: 1F8196:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_CF_SysDefEnding
+      Object: 1F8199:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_FSC_RonHopeBribeAccepted
+      Object: 1F8193:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_FSC_RonHopeJailed
+      Object: 1F8195:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_FSC_RonHopeKilled
+      Object: 1F8194:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_MSG_CF
+      Object: 1F818F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_MSG_FSC
+      Object: 1F818E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_MSG_RI
+      Object: 1F818D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_MSG_Romance
+      Object: 1F8190:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_MSG_Starborn
+      Object: 07E99F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_MSG_UC
+      Object: 1F818C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_RI_NeuroampNotPromoted
+      Object: 1F8192:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_RI_NeuroampPromoted
+      Object: 1F8198:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_AcelesEnding
+      Object: 1F8191:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_PlagueEnding
+      Object: 1F8197:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_SterilizationEnding
+      Object: 04A45D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_Unity_01b
+      Object: 05BB1D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_SkipMQ
+      Object: 17E006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQAllArtifacts
+      Object: 0D0528:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQAlllowArmillaryGravDrive
+      Object: 3E5D36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_CompanionDead
+      Object: 2BB89F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NewAtlantisShipLandingMarker
+      Object: 023605:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCFAndreja
+      Object: 0059A6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCFSarahMorgan
+      Object: 005984:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCMBarrett
+      Object: 005B85:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCMSamCoe
+      Object: 00599A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ScorpiusOborumMarker
+      Object: 06E07C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipEnabledLandingLink
+      Object: 01448D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ENV
+      Object: 248D20:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TestMQ206AMSG
+      Object: 2B6522:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TestMQ303Marker01
+      Object: 20D0D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UnityMovetoMarker
+      Object: 214C7D:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 51
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0051_Item_00
+  - Stage: 53
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0053_Item_00
+  - Stage: 54
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0054_Item_00
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0055_Item_00
+  - Stage: 56
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0056_Item_00
+  - Stage: 57
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0057_Item_00
+  - Stage: 58
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0058_Item_00
+  - Stage: 59
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0059_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 61
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0061_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 205
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0205_Item_00
+  - Stage: 207
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0207_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_2000_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 24EF9C:Starfield.esm
+      Alias: 15
+    Scripts:
+    - Name: MQ305PlayerShipAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Armillary
+        Object: 24EF9C:Starfield.esm
+        Alias: 44
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305_000_GravJumpUnity
+        Object: 05490F:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQArmillaryCompleteGlobal
+        Object: 07994F:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SpaceshipGravJumpPower
+        Object: 1B02CF:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 24EF9C:Starfield.esm
+      Alias: 17
+    Scripts:
+    - Name: MQ305ArmillaryAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQArmillaryCompleteGlobal
+        Object: 07994F:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerShip
+        Object: 24EF9C:Starfield.esm
+        Alias: 15
+  - Property:
+      Name: ''
+      Object: 24EF9C:Starfield.esm
+      Alias: 20
+    Scripts:
+    - Name: LeaveUnityTriggerAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Armillary
+        Object: 24EF9C:Starfield.esm
+        Alias: 17
+      - MutagenObjectType: ScriptObjectProperty
+        Name: HomeShipArmillaryScreen
+        Object: 0174A2:Starfield.esm
+        Alias: 36
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LodgeStartMarker
+        Object: 2824E5:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ00
+        Object: 005790:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerAndreja
+        Object: 36E6C6:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerBarrett
+        Object: 36E6C7:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerCF_Delgado
+        Object: 36E6CD:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerCF_SysDef
+        Object: 36E6CB:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerConstellation
+        Object: 0FE9FA:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerEmissary
+        Object: 36E6C2:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerFSC_HopeDead
+        Object: 23AF6C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerFSC_HopeLetGo
+        Object: 36E6CF:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerFSC_HopeNotDead
+        Object: 24EF28:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Mq305EndingMarkerHunter
+        Object: 36E6C0:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerNeither
+        Object: 36E6C4:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerRI_NeuroAmp
+        Object: 36E6D7:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerRI_NeuroAmp_Masako
+        Object: 36E6D8:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerRI_NeuroAmp_Ularu
+        Object: 36E6D9:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerRI_NoNeuroAmp
+        Object: 36E6D3:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerRI_NoNeuroAmp_Masako
+        Object: 36E6D4:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerRI_NoNeuroAmp_Ularu
+        Object: 36E6D5:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerSamCoe
+        Object: 36E6C8:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerSarahMorgan
+        Object: 36E6C9:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerUC_Aceles
+        Object: 0785E6:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerUC_Terrormorph
+        Object: 08E871:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305FinalSceneInt
+        Object: 36BC89:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305_002_Unity_04
+        Object: 0812DA:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerShip
+        Object: 24EF9C:Starfield.esm
+        Alias: 15
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerShipCockpitEntrance
+        Object: 24EF9C:Starfield.esm
+        Alias: 49
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerShipPilotSeat
+        Object: 24EF9C:Starfield.esm
+        Alias: 16
+  - Property:
+      Name: ''
+      Object: 24EF9C:Starfield.esm
+      Alias: 27
+    Scripts:
+    - Name: ReturnUnityTriggerAliasScript
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein riesiger Sprung
+  - Language: English
+    String: One Giant Leap
+  - Language: Spanish
+    String: Un salto gigante
+  - Language: French
+    String: Un pas de géant
+  - Language: Italian
+    String: Un grande balzo
+  - Language: Japanese
+    String: 大きな躍進
+  - Language: Polish
+    String: Wielki skok
+  - Language: Portuguese_Brazil
+    String: Um Salto Gigante
+  - Language: ChineseSimplified
+    String: 一大步
+Data:
+  Flags:
+  - RunOnce
+  Priority: 80
+  Unused: 0x000000
+QuestType: 0475FA:Starfield.esm
+QuestFaction: 0546E1:Starfield.esm
+Summary: "The PLAYER completes the Armillary and can now enter the Unity. They can speak to their companions and other members of Constellation before they go. When they arrive at the Unity, the player meets a version of themself who explains the Unity's rules: you can enter it completely and be reborn in the multiverse as a Starborn, or you can leave and return to your universe."
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG - straight to Unity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG - Enter the Unity choice moment
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG - Jump to Unity Bypass
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest Start
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe alle Artefakte. Nun muss ich sie in das Armillar auf meinem Schiff einfügen.
+      - Language: English
+        String: I have all the Artifacts. I need to assemble them into the Armillary onboard my ship.
+      - Language: Spanish
+        String: He obtenido todos los Artefactos. Tengo que ensamblarlos para formar el Armilar en mi nave.
+      - Language: French
+        String: J'ai tous les artefacts. Il ne me reste plus qu'à les assembler pour reformer l'Armillaire à bord de mon vaisseau.
+      - Language: Italian
+        String: Ho tutti i Manufatti. Non mi resta che assemblare l’Armilla a bordo della mia nave.
+      - Language: Japanese
+        String: すべてのアーティファクトを手に入れた。船で組み立てて〈アーミラリー〉を作ろう
+      - Language: Polish
+        String: Mam wszystkie artefakty. Muszę złożyć je w sferę armilarną na pokładzie mojego statku.
+      - Language: Portuguese_Brazil
+        String: Peguei todos os artefatos. Tenho que montá-los no Armilário que tem na minha nave.
+      - Language: ChineseSimplified
+        String: 我拥有所有的神器，我需要把它们组合成天体仪，装载在我的飞船上。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player builds an Armillary Mount in their ship
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player Completes the Armillary at least once
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Da das vollständige Armillar nun auf meinem Schiff ist, muss ich einfach den Grav-Antrieb hochfahren, um zur Allheit zu gelangen. Ich muss das Armillar von meinem Schiff entfernen, wenn ich an einen anderen Ort springen möchte.
+      - Language: English
+        String: Now that the completed Armillary is on my ship, I just need to power up the Grav Drive to go to the Unity. I should remove the Armillary from my ship if I want to grav jump anywhere else.
+      - Language: Spanish
+        String: Ahora que tengo el Armilar completo en mi nave, solo tengo que alimentar el motor gravitacional para ir a la Unidad. Tengo que retirar el Armilar de la nave si quiero hacer saltos gravitacionales a otro lugar.
+      - Language: French
+        String: Maintenant que l'Armillaire est complétée et à bord de mon vaisseau, je n'ai plus qu'à allumer l'astromoteur pour rejoindre l'Unité. Je dois la retirer du vaisseau si je veux m'astroporter n'importe où ailleurs.
+      - Language: Italian
+        String: Ora che l’Armilla completa è a bordo della mia nave, per raggiungere l’Unità devo solo avviare il gravimotore. Se voglio invece effettuare un gravisalto altrove, devo rimuovere l’Armilla dalla mia nave.
+      - Language: Japanese
+        String: 〈アーミラリー〉が完成したので、あとはグラヴ・ドライブに動力を割り当てるだけで〈ユニティ〉に行ける。他の場所にグラヴ・ジャンプするなら、〈アーミラリー〉を船から取り外す
+      - Language: Polish
+        String: Sfera armilarna czeka ukończona na moim statku. Muszę jedynie uruchomić napęd grawitonowy i udać się do Jedności. Jeżeli zechcę wykonać skok grawitonowy gdziekolwiek indziej, konieczne będzie usunięcie sfery armilarnej.
+      - Language: Portuguese_Brazil
+        String: Agora que o Armilário completo está na minha nave, só preciso ativar o Motor Grav para ir à Concórdia. Tenho que remover o Armilário da minha nave se quiser dobrar para qualquer outro lugar.
+      - Language: ChineseSimplified
+        String: 既然我的飞船上已经有了完整的天体仪，我只需要启动重力推动器，就能前往归一。假如我想重力跃迁到别的地方去，就得把天体仪从飞船上卸下来。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has talked to all Friends
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 51
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Andreja
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 13455C:Starfield.esm
+- Index: 53
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Barrett
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 13455A:Starfield.esm
+- Index: 54
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Matteo
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 55
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Noel
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 56
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Sarah
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 134559:Starfield.esm
+- Index: 57
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Sam
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 134558:Starfield.esm
+- Index: 58
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Vasco
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 59
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Vladimir
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Walter
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 61
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Cora
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player is in the Unity
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin hier, in der Allheit. Da ist jemand in der Ferne.
+      - Language: English
+        String: I'm here, in the Unity. There's someone in the distance.
+      - Language: Spanish
+        String: Estoy aquí, en la Unidad. Hay alguien a lo lejos.
+      - Language: French
+        String: Je suis là, dans l'Unité. J'aperçois quelqu'un au loin.
+      - Language: Italian
+        String: Sono qui, nell’Unità. Scorgo qualcuno in lontananza.
+      - Language: Japanese
+        String: 〈ユニティ〉に来た。遠くに誰かがいる
+      - Language: Polish
+        String: Jestem tu, w Jedności. Widzę kogoś w oddali.
+      - Language: Portuguese_Brazil
+        String: Eu estou aqui, na Concórdia. Tem alguém a distância.
+      - Language: ChineseSimplified
+        String: 我就在这里，在归一里。远处好像有个人。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Trigger Unity Scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Unity conversation complete
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Wenn ich den Pfad in die Allheit fortsetze, lasse ich mein altes Universum für immer hinter mir und werde im Multiversum zum Sternenblut. Ich kann aber auch gehen und zu meinem Leben in diesem Universum zurückkehren.
+      - Language: English
+        String: If I continue through the path in the Unity, then I'll leave my universe behind forever, and become a Starborn in the multiverse. But I can also leave, and return to my life in this universe.
+      - Language: Spanish
+        String: Si continúo por el camino de la Unidad, dejaré atrás mi universo para siempre y me convertiré en Estelar, en el multiverso. Pero también puedo irme y volver a mi vida en este universo.
+      - Language: French
+        String: Si je continue sur la voie de l'Unité, cela signifie que je laisse cet univers derrière moi pour toujours et rejoindrai les Astriens dans le multivers. Mais je peux aussi m'en aller et continuer à mener ma vie dans cet univers.
+      - Language: Italian
+        String: Se continuo il percorso nell’Unità, lascerò per sempre il mio universo e diventerò un Astrale nel multiverso. Ma posso anche andarmene e tornare alla mia vita in questo universo.
+      - Language: Japanese
+        String: 〈ユニティ〉の道をこのまま進み続ければ、自分の宇宙を永遠に離れ、多元宇宙でスターボーンとなる。だがここから離れて、この宇宙の人生に戻ることもできる
+      - Language: Polish
+        String: Jeśli będę dalej kroczyć ścieżką Jedności, porzucę na zawsze swój wszechświat i stanę się astranem w wieloświecie. Mogę też odejść i wrócić do swojego życia w tym wszechświecie.
+      - Language: Portuguese_Brazil
+        String: Se eu continuar no caminho da Concórdia, vou deixar permanentemente o meu universo para trás e me tornar Estelar no multiverso. Mas eu também posso sair e retornar à minha vida neste universo.
+      - Language: ChineseSimplified
+        String: 如果我继续在归一里的这条路上走下去，我就会永远抛弃自己的宇宙，成为一名多重宇宙里的星裔。不过我也可以离开，回到我在这个宇宙里的生活中去。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 205
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Enable Unity Ending Scenes
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 207
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player moving towards edge, fire warning scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 211
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Andreja after Unity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 134557:Starfield.esm
+- Index: 213
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Barrett after Unity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 134555:Starfield.esm
+- Index: 214
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Matteo after Unity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 215
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Noel after Unity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 216
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Sarah after Unity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 134553:Starfield.esm
+- Index: 217
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Sam after Unity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 134554:Starfield.esm
+- Index: 218
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Vasco after Unity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 219
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Vladimir after Unity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Walter after Unity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 221
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Cora after Unity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has left the Unity once to return to their universe
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe beschlossen, die Allheit zu verlassen und in mein Universum zurückzukehren. Wenn das Armillar auf meinem Schiff ist, kann ich zur Allheit zurückkehren, indem ich meinen Grav-Antrieb hochfahre.
+      - Language: English
+        String: I decided to leave the Unity and return to my universe. If I change my mind, I can return to the Unity by powering up my Grav Drive while the Armillary is in my ship.
+      - Language: Spanish
+        String: He decidido dejar la Unidad y volver a mi universo. Si cambio de idea, puedo volver a la Unidad alimentando el motor gravitacional mientras llevo el Armilar en la nave.
+      - Language: French
+        String: J'ai décidé de quitter l'Unité et de retourner dans mon univers. Si je change d'avis, je peux rejoindre à nouveau l'Unité en allumant l'astromoteur pendant que l'Armillaire est à bord de mon vaisseau.
+      - Language: Italian
+        String: Ho deciso di lasciare l’Unità e di tornare nel mio universo. Dovessi cambiare idea, posso sempre tornare all’Unità avviando il gravimotore mentre l’Armilla è sulla mia nave.
+      - Language: Japanese
+        String: 〈ユニティ〉を離れて自分の宇宙に戻った。気が変わったら〈アーミラリー〉が船にある時、グラヴ・ドライブを起動することで〈ユニティ〉に戻れる
+      - Language: Polish
+        String: Moja decyzja to opuszczenie Jedności i powrót do mojego wszechświata. Jeśli zmienię zdanie, mogę powrócić do Jedności poprzez uruchomienie napędu grawitonowego ze sferą armilarną na pokładzie.
+      - Language: Portuguese_Brazil
+        String: Decidi sair da Concórdia e voltar ao meu universo. Se eu mudar de ideia, posso retornar à Concórdia ativando o Motor Grav com o Armilário a bordo da nave.
+      - Language: ChineseSimplified
+        String: 我决定离开归一，返回我自己的宇宙。要是我改主意了，我可以在天体仪装载在飞船上的时候，启动重力推动器回到归一。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player near the Unity
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Trigger end of game
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Allheit betreten. Was ich bin, wird nun eins mit dem Sternenmeer werden.
+      - Language: English
+        String: I have entered the Unity. What am I will now become one with the starfield.
+      - Language: Spanish
+        String: He entrado en La Unidad. Mi ser se volverá uno con el firmamento.
+      - Language: French
+        String: J'ai pénétré dans l'Unité. Ce que je suis va maintenant se mélanger au cosmos étoilé.
+      - Language: Italian
+        String: Sono nell’Unità. Ciò che sono diventerà una cosa sola con il campo stellare.
+      - Language: Japanese
+        String: 〈ユニティ〉に入った。これから自分はスターフィールドと1つになるだろう
+      - Language: Polish
+        String: Jestem już po weściu do Jedności. To, czym jestem, stanie się jednością z Gwiezdną Strefą.
+      - Language: Portuguese_Brazil
+        String: Entrei na Concórdia. É hora de me unir ao campo estelar.
+      - Language: ChineseSimplified
+        String: 我进入了归一。我将于星空合而为一。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Baue das Armillar auf deinem Schiff.
+    - Language: English
+      String: Build the Armillary on Your Ship
+    - Language: Spanish
+      String: Construye el Armilar en tu nave.
+    - Language: French
+      String: Construisez l'Armillaire dans votre vaisseau.
+    - Language: Italian
+      String: Costruisci l’Armilla sulla tua nave
+    - Language: Japanese
+      String: 船で〈アーミラリー〉を作る
+    - Language: Polish
+      String: Zbuduj na swoim statku sferę armilarną
+    - Language: Portuguese_Brazil
+      String: Monte o Armilário na sua nave
+    - Language: ChineseSimplified
+      String: 在你的飞船上建造天体仪
+  Targets:
+  - AliasID: 50
+  - AliasID: 32
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetValueConditionData
+        FirstParameter: 2045631
+      ComparisonValue: 1
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Vervollständige das Armillar.
+    - Language: English
+      String: Complete the Armillary
+    - Language: Spanish
+      String: Completa el Armilar.
+    - Language: French
+      String: Achevez l'Armillaire.
+    - Language: Italian
+      String: Completa l’Armilla
+    - Language: Japanese
+      String: 〈アーミラリー〉を完成させる
+    - Language: Polish
+      String: Ukończ sferę armilarną
+    - Language: Portuguese_Brazil
+      String: Conclua o Armilário
+    - Language: ChineseSimplified
+      String: 将天体仪组装完毕
+  Targets:
+  - AliasID: 50
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Sprich vor Aufbruch mit deinen Freunden.
+    - Language: English
+      String: (Optional) Talk to your Friends before you Leave
+    - Language: Spanish
+      String: (Opcional) Habla con tus amigos antes de irte.
+    - Language: French
+      String: (Optionnel) Parlez à vos amis avant de partir.
+    - Language: Italian
+      String: (Opzionale) Parla con gli amici prima di partire
+    - Language: Japanese
+      String: (オプション)出て行く前に仲間と話す
+    - Language: Polish
+      String: (Opcj.) Pogadaj z przyjaciółmi przed odejściem
+    - Language: Portuguese_Brazil
+      String: (Opc.) Fale com seus amigos antes de partir
+    - Language: ChineseSimplified
+      String: （可选）在离开前与你的朋友们交谈
+  Targets:
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: 51
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: ::MQ305_FriendTalkCount_var_var
+      ComparisonValue: 3
+  - AliasID: 7
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: 53
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: ::MQ305_FriendTalkCount_var_var
+      ComparisonValue: 3
+  - AliasID: 10
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: 55
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: ::MQ305_FriendTalkCount_var_var
+      ComparisonValue: 3
+  - AliasID: 8
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: 57
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: ::MQ305_FriendTalkCount_var_var
+      ComparisonValue: 3
+  - AliasID: 9
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: 56
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: ::MQ305_FriendTalkCount_var_var
+      ComparisonValue: 3
+  - AliasID: 13
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: 58
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: ::MQ305_FriendTalkCount_var_var
+      ComparisonValue: 3
+  - AliasID: 11
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: 59
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: ::MQ305_FriendTalkCount_var_var
+      ComparisonValue: 3
+  - AliasID: 12
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: 60
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: ::MQ305_FriendTalkCount_var_var
+      ComparisonValue: 3
+  - AliasID: 19
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDisabledConditionData
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: 61
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        Unknown3: 8
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: ::MQ305_FriendTalkCount_var_var
+      ComparisonValue: 3
+  - AliasID: 14
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: 54
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 24EF9C:Starfield.esm
+        SecondParameter: ::MQ305_FriendTalkCount_var_var
+      ComparisonValue: 3
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Grav-Antrieb für Sprung zur Allheit hochfahren.
+    - Language: English
+      String: Power Up the Grav Drive to Jump to the Unity
+    - Language: Spanish
+      String: Alimenta el motor grav. para saltar a la Unidad.
+    - Language: French
+      String: Allumez l'astromoteur pour rejoindre l'Unité.
+    - Language: Italian
+      String: Avvia il gravimotore per saltare verso l’Unità
+    - Language: Japanese
+      String: グラヴ・ドライブを起動して〈ユニティ〉にジャンプする
+    - Language: Polish
+      String: Uruchom napęd grawitonowy, by wykonać skok do Jedności
+    - Language: Portuguese_Brazil
+      String: Ative o Motor Grav para dobrar até a Concórdia
+    - Language: ChineseSimplified
+      String: 启动重力推动器以跃迁至归一
+  Targets:
+  - AliasID: 16
+- Index: 70
+  Flags:
+  - OrWithPrevious
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Armillar für einen normalen Grav-Sprung entfernen.
+    - Language: English
+      String: Remove the Armillary to Grav Jump Normally
+    - Language: Spanish
+      String: Retira el Armilar para saltar normalmente.
+    - Language: French
+      String: Retirez l'armillaire pour sauter normalement.
+    - Language: Italian
+      String: Rimuovi l’Armilla per saltare normalmente
+    - Language: Japanese
+      String: 〈アーミラリー〉を取り外し、通常通りグラヴ・ジャンプする
+    - Language: Polish
+      String: Usuń sferę armilarną, by wykonać skok grawitonowy
+    - Language: Portuguese_Brazil
+      String: Remova o Armilário para dobrar normalmente
+    - Language: ChineseSimplified
+      String: 移除天体仪以正常进行重力跃迁
+  Targets:
+  - AliasID: 50
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Werde wiedergeboren.
+    - Language: English
+      String: Be Reborn
+    - Language: Spanish
+      String: Renace.
+    - Language: French
+      String: Renaître
+    - Language: Italian
+      String: Rinasci
+    - Language: Japanese
+      String: 生まれ変わる
+    - Language: Polish
+      String: Odródź się na nowo
+    - Language: Portuguese_Brazil
+      String: Renasça
+    - Language: ChineseSimplified
+      String: 重获新生
+- Index: 110
+  Flags:
+  - OrWithPrevious
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kehre zurück nach Hause.
+    - Language: English
+      String: Return Home
+    - Language: Spanish
+      String: Vuelve a casa.
+    - Language: French
+      String: Rentrer à la maison
+    - Language: Italian
+      String: Torna a casa
+    - Language: Japanese
+      String: 故郷に帰る
+    - Language: Polish
+      String: Wróć do domu
+    - Language: Portuguese_Brazil
+      String: Volte para casa
+    - Language: ChineseSimplified
+      String: 回家
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kehre zur Allheit zurück, wenn du bereit bist.
+    - Language: English
+      String: Return to the Unity When You are Ready
+    - Language: Spanish
+      String: Vuelve a la Unidad cuando quieras.
+    - Language: French
+      String: Retournez dans l'Unité quand vous voulez.
+    - Language: Italian
+      String: Ritorna all’Unità appena te la senti
+    - Language: Japanese
+      String: 準備ができたら〈ユニティ〉に戻る
+    - Language: Polish
+      String: Wróć do Jedności, gdy się przygotujesz
+    - Language: Portuguese_Brazil
+      String: Volte à Concórdia quando sentir que é hora
+    - Language: ChineseSimplified
+      String: 在你准备好时返回归一
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 4
+  Name: MQUnityLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 214C7E:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: Emissary
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 01BAE7:Starfield.esm
+  VoiceTypes: 2B1B8D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: Hunter
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 018EB1:Starfield.esm
+  PackageData:
+  - 2819CC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Unity
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  - UsesStoredText
+  ALFG: 0
+  UniqueActor: 24EF81:Starfield.esm
+  DisplayName: 1F3C39:Starfield.esm
+  VoiceTypes: 062680:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Andreja
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0059A7:Starfield.esm
+  PackageData:
+  - 1F0B88:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Barrett
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005787:Starfield.esm
+  PackageData:
+  - 1F0B88:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: MatteoKhatri
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00599F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: Noel
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00598C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: SarahMorgan
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005983:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: SamCoe
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005999:Starfield.esm
+  PackageData:
+  - 1F0B88:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: Vasco
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0057BB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: VladimirSall
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0059AA:Starfield.esm
+  PackageData:
+  - 1F0B88:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: WalterStroud
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005996:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: CoraCoe
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00D653:Starfield.esm
+  PackageData:
+  - 1F0B88:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 22
+  Name: playerShipInteriorLocation
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  ExternalAliasLocation:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 9
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: PlayerShip
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: PlayerShipPilotSeat
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 3
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 51
+  Name: PlayerShipCrewMarker
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 6
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 49
+  Name: PlayerShipCockpitEntrance
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 37
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: Armillary
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 005790:Starfield.esm
+    AliasID: 12
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: ArmillaryMount
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 005790:Starfield.esm
+    AliasID: 17
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: ArmillaryWorkshop
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 005790:Starfield.esm
+    AliasID: 14
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: LeaveUnityTrigger
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 07828B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: HunterShip
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueBaseForm: 050CEE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: EmissaryShip
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueBaseForm: 050CF4:Starfield.esm
+  VoiceTypes: 2B1B8D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: ReturnToUnityTrigger
+  Flags:
+  - ReservesLocationOrReference
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 07828C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: Player
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 44
+  Name: PlayerShipArmillary
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 35
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 47
+  Name: UnityCenterMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0EFF49:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 48
+  Name: PlayerShipArmillaryScreen
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 36
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 50
+  Name: PlayerShipArmillaryScreenTrigger
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 40
+  VoiceTypes: Null

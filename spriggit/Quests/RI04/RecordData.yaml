@@ -632,6 +632,8 @@ Name:
     String: Prześwietlenie
   - Language: Portuguese_Brazil
     String: Verificações de Antecedentes
+  - Language: ChineseSimplified
+    String: 背景调查
 Data:
   Flags:
   - RunOnce
@@ -759,6 +761,8 @@ Stages:
         String: Muszę znaleźć Daltona Fiennesa w jego biurze na piętrze kierownictwa i dowiedzieć się, jak mogę pomóc w odnalezieniu kreta w korporacji Ryujin Industries.
       - Language: Portuguese_Brazil
         String: Preciso falar com Dalton Fiennes em sua sala no andar executivo e perguntar o que posso fazer para ajudar a achar o espião na Ryujin Industries.
+      - Language: ChineseSimplified
+        String: 我需要去道尔顿·费因斯在行政楼层的办公室找他，看看我能不能帮忙抓到龙神集团里的内鬼。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -818,6 +822,8 @@ Stages:
         String: Muszę spotkać się z niejakim Nyxem w Madame Sauvage's Place w Neonie. On powinien już wiedzieć, że uruchomiono Dyrektywę Theta.
       - Language: Portuguese_Brazil
         String: Preciso encontrar uma pessoa chamada Nyx no Madame Sauvage's, em Neon. Ele já deve saber que a diretiva Theta foi aplicada.
+      - Language: ChineseSimplified
+        String: 我需要去霓虹城的索维奇夫人酒吧见一个叫尼克斯的人。他应该早就知道指令西塔已经启动。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -845,6 +851,8 @@ Stages:
         String: Udało mi się znaleźć Nyxa w Madame Sauvage's Place w Neonie. Muszę z nim porozmawiać, aby dowiedzieć się, jakie działania mam wykonać w ramach Dyrektywy Theta.
       - Language: Portuguese_Brazil
         String: Encontrei o Nyx no Madame Sauvage's. Preciso falar com ele e saber o que preciso fazer para a diretiva Theta.
+      - Language: ChineseSimplified
+        String: 我在索维奇夫人酒吧见到了尼克斯，我得和他谈谈，并弄清楚我需要为西塔指令做些什么。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -968,6 +976,8 @@ Stages:
         String: 'Muszę znaleźć alternatywną metodę dostania się do wnętrza Wieży Ryujina, ponieważ z tego, co powiedział Dalton, wynika, że tymczasowo utracę dostęp do wind. '
       - Language: Portuguese_Brazil
         String: 'Preciso achar outro jeito de entrar na Torre Ryujin, pois o Dalton disse que meu acesso aos elevadores vai estar temporariamente desativado. '
+      - Language: ChineseSimplified
+        String: '由于道尔顿说我暂时无法使用电梯，我需要另想办法进入龙神大楼。 '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1019,6 +1029,8 @@ Stages:
         String: Muszę dostać się do siedziby korporacji Ryujin Industries i uruchomić na komputerze Ularu program, który dał mi Nyx.
       - Language: Portuguese_Brazil
         String: Preciso entrar na Ryujin Industries e executar o programa que o Nyx me passou no computador da Ularu.
+      - Language: ChineseSimplified
+        String: 我需要进入龙神集团，然后在乌拉鲁的电脑上运行尼克斯给我的程序。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1136,6 +1148,8 @@ Stages:
         String: Muszę dostać się do siedziby korporacji Ryujin Industries i uruchomić na komputerach Ularu i Camdena program, który dał mi Nyx.
       - Language: Portuguese_Brazil
         String: Preciso entrar na Ryujin Industries e executar o programa que o Nyx me passou nos computadores da Ularu e do Camden.
+      - Language: ChineseSimplified
+        String: 我需要进入龙神集团，然后在乌拉鲁和卡姆登的电脑上运行尼克斯给我的程序。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1171,6 +1185,8 @@ Stages:
         String: Program Nyxa zrobił swoje, więc pora opuścić Wieżę Ryujina i spotkać się z nim w jego mieszkaniu.
       - Language: Portuguese_Brazil
         String: Agora que terminei de executar o programa do Nyx, preciso sair da Torre Ryujin e voltar ao apartamento dele.
+      - Language: ChineseSimplified
+        String: 既然我已经成功运行了尼克斯的程序，我要离开龙神大楼去他的公寓找他。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1214,6 +1230,8 @@ Stages:
         String: Program Nyxa zrobił swoje, więc pora spotkać się z nim w jego mieszkaniu i zobaczyć, co jest w stanie odkryć.
       - Language: Portuguese_Brazil
         String: Agora que terminei de executar o programa do Nyx, preciso voltar ao apartamento dele e ver o que ele descobre.
+      - Language: ChineseSimplified
+        String: 既然我已经成功运行了尼克斯的程序，我要去他的公寓找他，看看他会有什么发现。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1249,6 +1267,8 @@ Stages:
         String: Muszę porozmawiać z Nyxem w jego mieszkaniu, aby oddać mu jego program.
       - Language: Portuguese_Brazil
         String: Tenho que falar com Nyx em seu apartamento para devolver o programa que ele me deu.
+      - Language: ChineseSimplified
+        String: 我要去尼克斯的公寓和他谈谈，把他给我的程序还给他。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1284,6 +1304,8 @@ Stages:
         String: Muszę poczekać, aż Nyx przeanalizuje otrzymane ode mnie dane.
       - Language: Portuguese_Brazil
         String: Tenho que esperar Nyx analisar os dados que entreguei.
+      - Language: ChineseSimplified
+        String: 我要等尼克斯分析我给他的数据。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1319,6 +1341,8 @@ Stages:
         String: Nyx zakończył analizowanie danych i przesłał wynik na tabliczkę, którą mam przekazać Daltonowi. Muszę zapytać go o to, co znalazł.
       - Language: Portuguese_Brazil
         String: Nyx terminou de analisar os dados e baixou tudo num códice que eu devo entregar ao Dalton. Tenho que falar com ele sobre o que ele achou.
+      - Language: ChineseSimplified
+        String: 尼克斯完成了对数据的分析，并把它下载到了数据板上，我需要把它交给道尔顿。我得和他谈谈他的发现。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1362,6 +1386,8 @@ Stages:
         String: Mam dane, których Dalton potrzebuje w ramach Dyrektywy Theta. Muszę wrócić do niego - czeka na mnie w Wieży Ryujina.
       - Language: Portuguese_Brazil
         String: Estou com os dados que Dalton pediu como parte da diretiva Theta. Tenho que voltar até ele na Torre Ryujin.
+      - Language: ChineseSimplified
+        String: 我拿到了道尔顿想要的数据，那是西塔指令的一部分。我需要返回龙神大楼去找他。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1389,6 +1415,8 @@ Stages:
         String: Muszę porozmawiać z Daltonem o dostarczonych mu przeze mnie danych związanych z Dyrektywą Theta.
       - Language: Portuguese_Brazil
         String: Tenho que falar com Dalton sobre os dados que trouxe da diretiva Theta.
+      - Language: ChineseSimplified
+        String: 我需要和道尔顿聊一聊我为西塔指令带给他的数据。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1433,6 +1461,8 @@ Stages:
         String: Muszę poczekać, aż Dalton przeanalizuje dane dostarczone przez Nyxa.
       - Language: Portuguese_Brazil
         String: Tenho que esperar o Dalton analisar os dados fornecidos por Nyx.
+      - Language: ChineseSimplified
+        String: 我要等道尔顿分析尼克斯提供的数据。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1460,6 +1490,8 @@ Stages:
         String: Dalton zakończył analizę informacji. Muszę z nim porozmawiać, aby dowiedzieć się, co odkrył.
       - Language: Portuguese_Brazil
         String: Daltou terminou de analisar as informações. Devo falar com ele para ver o que ele descobriu.
+      - Language: ChineseSimplified
+        String: 道尔顿已经完成了对信息的分析，我需要和他谈谈，看看他有什么发现。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1520,6 +1552,8 @@ Stages:
         String: Infiltruję Wieżę Ryujina w ramach procedury bezpieczeństwa o nazwie „Dyrektywa Theta”, aby sprawdzić, czy Ularu Chen nie jest kretem. Wynajęty haker, Nyx, przeanalizował dane, z których wynikło, że zdrajczynią może być Imogene Salzo.
       - Language: Portuguese_Brazil
         String: Eu me infiltrei na Torre Ryujin como parte de uma tal “diretiva Theta de segurança” para investigar se Ularu Chen é uma espiã corporativa. A análise dos dados, feita por Nyx, um hacker de aluguel, apontou para Imogene Salzo.
+      - Language: ChineseSimplified
+        String: 我潜入了龙神大楼，这是安全西塔指令的一部分，为了调查乌拉鲁·陈是否就是那个潜在的内鬼。有一位叫尼克斯的合同工黑客分析了数据。数据一切指向伊莫金·萨尔佐。
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -1560,6 +1594,8 @@ Objectives:
       String: Porozmawiaj z Daltonem Fiennesem
     - Language: Portuguese_Brazil
       String: Fale com Dalton Fiennes
+    - Language: ChineseSimplified
+      String: 与道尔顿·费因斯交谈
   Targets:
   - {}
 - Index: 200
@@ -1583,6 +1619,8 @@ Objectives:
       String: Spotkaj się z Nyxem w Madame Sauvage's Place
     - Language: Portuguese_Brazil
       String: Encontre Nyx no Madame Sauvage's
+    - Language: ChineseSimplified
+      String: 在索维奇夫人酒吧与尼克斯见面
   Targets:
   - AliasID: 5
 - Index: 300
@@ -1606,6 +1644,8 @@ Objectives:
       String: Porozmawiaj z Nyxem
     - Language: Portuguese_Brazil
       String: Fale com Nyx
+    - Language: ChineseSimplified
+      String: 与尼克斯交谈
   Targets:
   - AliasID: 5
 - Index: 375
@@ -1629,6 +1669,8 @@ Objectives:
       String: Dostań się do Wieży Ryujina
     - Language: Portuguese_Brazil
       String: Encontre um jeito de entrar na Torre Ryujin
+    - Language: ChineseSimplified
+      String: 想办法进入龙神大楼
   Targets:
   - AliasID: 38
     Conditions:
@@ -1694,6 +1736,8 @@ Objectives:
       String: Uruchom program Nyxa na komputerze Ularu
     - Language: Portuguese_Brazil
       String: Execute o programa do Nyx no computador de Ularu
+    - Language: ChineseSimplified
+      String: 在乌拉鲁的电脑上运行尼克斯的程序
   Targets:
   - AliasID: 30
     Conditions:
@@ -1820,6 +1864,8 @@ Objectives:
       String: (Opcj.) Wyposaż się w zakłócacz Arboron Novablast
     - Language: Portuguese_Brazil
       String: (Opc.) Equipe o subversor Novablast
+    - Language: ChineseSimplified
+      String: （可选）装备亚伯伦公司新星爆炸裂解枪
 - Index: 500
   Flags: []
   DisplayText:
@@ -1841,6 +1887,8 @@ Objectives:
       String: Uruchom program Nyxa na komputerze Camdena Cho
     - Language: Portuguese_Brazil
       String: Execute o programa do Nyx no computador de Camden
+    - Language: ChineseSimplified
+      String: 在卡姆登·曹的电脑上运行尼克斯的程序
   Targets:
   - AliasID: 30
     Conditions:
@@ -1909,6 +1957,8 @@ Objectives:
       String: Wyjdź z Wieży Ryujina
     - Language: Portuguese_Brazil
       String: Saia da Torre Ryujin
+    - Language: ChineseSimplified
+      String: 离开龙神大楼
   Targets:
   - AliasID: 40
     Conditions:
@@ -1974,6 +2024,8 @@ Objectives:
       String: Spotkaj się z Nyxem w jego mieszkaniu
     - Language: Portuguese_Brazil
       String: Encontre Nyx no apartamento dele
+    - Language: ChineseSimplified
+      String: 去尼克斯的公寓见他
   Targets:
   - AliasID: 5
 - Index: 700
@@ -1997,6 +2049,8 @@ Objectives:
       String: Porozmawiaj z Nyxem
     - Language: Portuguese_Brazil
       String: Fale com Nyx
+    - Language: ChineseSimplified
+      String: 与尼克斯交谈
   Targets:
   - AliasID: 5
 - Index: 800
@@ -2020,6 +2074,8 @@ Objectives:
       String: Poczekaj na Nyxa
     - Language: Portuguese_Brazil
       String: Espere Nyx
+    - Language: ChineseSimplified
+      String: 等待尼克斯
   Targets:
   - AliasID: 5
 - Index: 900
@@ -2043,6 +2099,8 @@ Objectives:
       String: Porozmawiaj z Nyxem
     - Language: Portuguese_Brazil
       String: Fale com Nyx
+    - Language: ChineseSimplified
+      String: 与尼克斯交谈
   Targets:
   - AliasID: 5
 - Index: 1000
@@ -2066,6 +2124,8 @@ Objectives:
       String: Wróć do Daltona w Wieży Ryujina
     - Language: Portuguese_Brazil
       String: Volte para falar com Dalton na Torre Ryujin
+    - Language: ChineseSimplified
+      String: 返回龙神大楼见道尔顿
   Targets:
   - {}
 - Index: 1100
@@ -2089,6 +2149,8 @@ Objectives:
       String: Porozmawiaj z Daltonem
     - Language: Portuguese_Brazil
       String: Fale com Dalton
+    - Language: ChineseSimplified
+      String: 与道尔顿交谈
   Targets:
   - {}
 - Index: 1200
@@ -2112,6 +2174,8 @@ Objectives:
       String: Poczekaj na Daltona
     - Language: Portuguese_Brazil
       String: Espere Dalton
+    - Language: ChineseSimplified
+      String: 等待道尔顿
   Targets:
   - {}
 - Index: 1300
@@ -2135,6 +2199,8 @@ Objectives:
       String: Porozmawiaj z Daltonem
     - Language: Portuguese_Brazil
       String: Fale com Dalton
+    - Language: ChineseSimplified
+      String: 与道尔顿交谈
   Targets:
   - {}
 Aliases:

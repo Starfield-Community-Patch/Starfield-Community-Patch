@@ -19,6 +19,8 @@ Name:
     String: Wieża Apollo, piętro 3
   - Language: Portuguese_Brazil
     String: Torre Apollo, 3.o Andar
+  - Language: ChineseSimplified
+    String: 阿波罗大厦3楼
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -300,3 +302,4 @@ Traversals:
   To: -12.014671, -1.291338, -2.2478094
   UnknownVector: 2.1632338, 3.8575766, 1.059718
   Unknown: 0x9B439B4306345539
+NumTraversalFluffBytes: 204

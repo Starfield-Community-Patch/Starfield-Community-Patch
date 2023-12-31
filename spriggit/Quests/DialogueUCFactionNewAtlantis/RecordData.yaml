@@ -1,0 +1,1728 @@
+FormKey: 2C5402:Starfield.esm
+EditorID: DialogueUCFactionNewAtlantis
+VirtualMachineAdapter:
+  Scripts:
+  - Name: UC01_OrientationDisplayQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TualaReads
+      Object: 2C5402:Starfield.esm
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tuala
+      Object: 2C5402:Starfield.esm
+      Alias: 29
+  Script:
+    Name: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PostQuest_Percival_Misc
+      Object: 2D3952:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CreditsRewardFactionQuestLarge
+      Object: 23DF36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_CitizenVendorDiscount_Rank02
+      Object: 2119C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_PostAttackDialogueActive
+      Object: 23F92A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PostQuest_VaeVictis_Misc
+      Object: 2D3950:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PostQuest_Tuala_Misc
+      Object: 2D3951:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueRedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pacifist
+      Object: 2C5402:Starfield.esm
+      Alias: 62
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09
+      Object: 1FC858:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_Result
+      Object: 24377D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MuseumPatron_Child
+      Object: 2C5402:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR01
+      Object: 1EBDD5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_CitizenVendorDiscount_Rank01
+      Object: 219A56:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ZoraSangweni
+      Object: 2C5402:Starfield.esm
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC02
+      Object: 2B1808:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportGuards
+      Object: 2C5402:Starfield.esm
+      Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DEBUG_Zora
+      Object: 1A2E61:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_TualaTravelMaker
+      Object: 2928D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TualaLookatMarker
+      Object: 2C5402:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC01_MuralsViewedGlobal
+      Object: 3979B3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC01
+      Object: 2C5401:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DEBUG_TualasContinuance
+      Object: 1F986A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR03
+      Object: 1E8FF7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCNewAtlantisUCFaction_POST_TualaAttract
+      Object: 1F986D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PlayerChoiceResult
+      Object: 24377D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MuseumPatron_Dad
+      Object: 2C5402:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VVEntrance
+      Object: 2C5402:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TarmacEnableMarker
+      Object: 2C5402:Starfield.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Credits_Medium
+      Object: 27926A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR05_DebugMarker
+      Object: 1E6B87:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tuala
+      Object: 2C5402:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SS7FloorManager
+      Object: 2C5402:Starfield.esm
+      Alias: 107
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR01_DebugMarker
+      Object: 1EA2B7:Starfield.esm
+  Fragments:
+  - Stage: 1020
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_1020_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 31
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0031_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0550_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 51
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0051_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 1100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_1100_Item_00
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0006_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 23
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0023_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 21
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0021_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 24
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0024_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 525
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0525_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 990
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0990_Item_00
+  - Stage: 32
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0032_Item_00
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
+    FragmentName: Fragment_Stage_0650_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 0
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 52
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 295222:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 13
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 68
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 295221:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 19
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 78
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 28AE7A:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 20
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 79
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 28AE79:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 21
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 21
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 28AE70:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 22
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 81
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 28AE6F:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 14
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 69
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 295220:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 23
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 76
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 28AE6E:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 35
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 74
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 23BA26:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 15
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 70
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 29521F:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 16
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 71
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 29521E:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 61
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 72
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 123AAD:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 18
+    Scripts:
+    - Name: UC01_OrientationDisplayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StarterLight
+        Object: 2C5402:Starfield.esm
+        Alias: 73
+      - MutagenObjectType: ScriptObjectProperty
+        Name: sceneToPlay
+        Object: 28AEA8:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 32
+    Scripts:
+    - Name: UCR05_PlayerAliasStartUpScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UCR05
+        Object: 1E7A09:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: POI063SubsectionSevenLocation
+        Object: 2CE1ED:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UCR05_Enabled
+        Object: 003567:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 48
+    Scripts:
+    - Name: UC06_VVRemoteActivate
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: VaeVictis
+        Object: 2C5402:Starfield.esm
+        Alias: 38
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 60
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1100
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 88
+    Scripts:
+    - Name: UC06_CompanionWaitScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SQ_Followers
+        Object: 00D773:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: CompanionResponsePrereqStage
+        Data: 102
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Alias_WaitingCompanions
+        Object: 2C5402:Starfield.esm
+        Alias: 106
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Alias_ResumeTrigger
+        Object: 2C5402:Starfield.esm
+        Alias: 89
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Alias_WaitHereMarker
+        Object: 2C5402:Starfield.esm
+        Alias: 90
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayCompanionResponseScene
+        Data: True
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WaitTriggerKeyword
+        Object: 3B0016:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: companion
+        Object: 2C5402:Starfield.esm
+        Alias: 28
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CompanionResponseScene
+        Object: 04A457:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CompanionResponsePrereqQuest
+        Object: 248CF0:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C5402:Starfield.esm
+      Alias: 89
+    Scripts:
+    - Name: UC06_CompanionWaitScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SQ_Followers
+        Object: 00D773:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: CompanionResponsePrereqStage
+        Data: 102
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Alias_WaitingCompanions
+        Object: 2C5402:Starfield.esm
+        Alias: 106
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Alias_ResumeTrigger
+        Object: 2C5402:Starfield.esm
+        Alias: 89
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Alias_WaitHereMarker
+        Object: 2C5402:Starfield.esm
+        Alias: 90
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayCompanionResponseScene
+        Data: True
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WaitTriggerKeyword
+        Object: 3B0016:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: companion
+        Object: 2C5402:Starfield.esm
+        Alias: 28
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CompanionResponseScene
+        Object: 04A457:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CompanionResponsePrereqQuest
+        Object: 248CF0:Starfield.esm
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  - 0x10000
+  Priority: 15
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+Location: 01295A:Starfield.esm
+Summary: This quest contains all the narration for the various UC Vanguard Orientation museum exhibits and the companion's responses to them.
+UnusedConditions: []
+Stages:
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: UCR01: Start up UCR01 as though the player chose the Superbugs'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: UCR01: Start up UCR01 as though the player chose the Aceles'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: UCR03: Start up quest'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: UCR05: Set up UCR05'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: UCR01: Jump the player right into UCR01 in the Aceles state'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: UCR01: Jump the player right into UCR01 in the microbe state'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: UCR03: Start up UCR03, but skip Tuala's intro"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mural 1 activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mural 2 activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 21
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mural 2a activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 23
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mural 2c activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 24
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mural 2d activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mural 3 activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 31
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mural 3a activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 32
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mural 3b activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mural 4 activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mural 5 activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 51
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Mural 5a activated
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Tuala for the first time. This stage is used to adjust dialogue in MQ102
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player hit Tuala's "Recruitment" scene. Drop them back there in the future (opens a new greeting scene)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player agreed to join the UC Vanguard.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player got their credits from Tuala. Used to also close off that scene (and open up a new options)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player reported back about killing the Terrormorph. Give them their credits and shut that option down.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P1: UC POST: Player finished the questline. Open up Tuala's post-quest scene and play his attract line."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 502
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: UC POST: Player hit second player choice. Get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 503
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: UC POST: Player hit third player choice. Get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 525
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: UC POST: Give the player their final set of reward credits, the updated discount perk and direct them to collect the penthouse'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: UC POST: Player made a choice in Tuala scene. Close out objective.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P1: UCR04: Player stated they wanted to work with Jakob. Give them a pointer to the 'ol man"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 650
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: UCR04: Player kicked off UCR04 from Jakob. Close out the pointer objective'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: UC POST: Player spoke to Zora about the penthouse. Close out this objective.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 990
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'UC04 TARMAC STATE CHANGE: Turn off the kid and dad in the Vanugard hall. Set from the "Always On" UC quest, stage 990'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'UC04 TARMAC STATE CHANGE: Reset all the guards that expired during the UC04 attack. Set from the "Always On" UC quest, stage 1000'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1001
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player hit VV's UCR05 dialogue loop. Get them back there if they bail."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1010
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P1: UCR05: Player asked about the work they'd be doing for VV in scene 1001. Open up the next option. Can be set from UC09 scene with VV as well."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1011
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player asked about the nature of the work in they'll be doing with VV in UC09. Used to change up the player's \"what's this work\" question."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1020
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P1: UCR05: Player started up UCR05 for the first time. Shut down VV's intro scene and get the new one up and running."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1025
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player learned that Orlase and VV synthesized the Lazarus Plant pollen. Set in the \"How'd you deploy the Lazarus Plant\" TL and opens up \"could someone else synethsize\" TL"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1030
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3.5: Player made a selection in VV's first player dialogue choice. Close it off for future run throughs."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1031
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3.5: Player made a selection in VV's 2nd player dialogue choice. Close it off for future run throughs."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1032
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3.5: Player made a selection in VV's 3rd player dialogue choice. Close it off for future run throughs."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Player triggered the VH Pacifist Vet to start moving around the museum (set from a trigger in the space OR the 1st mural finishing)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player asked Tuala about \"what's the Vanguard\" in the \"Outside MQ102\" scene. Changes up the player's question prompts in the \"Enlist\" scene."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player asked Tuala about the values of citizenship in the \"Outside MQ102\" scene. Changes up the player's question prompts in the \"Enlist\" phase."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Mural one completed.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Commander Tuala.
+    - Language: English
+      String: Speak to Commander Tuala
+    - Language: Spanish
+      String: Habla con el comandante Tuala.
+    - Language: French
+      String: Parlez au commandant Tuala.
+    - Language: Italian
+      String: Parla col comandante Tuala
+    - Language: Japanese
+      String: トゥアラ司令官と話す
+    - Language: Polish
+      String: Porozmawiaj z komandorem Tualą
+    - Language: Portuguese_Brazil
+      String: Fale com o comandante Tuala
+    - Language: ChineseSimplified
+      String: 与图阿拉指挥官交谈
+  Targets:
+  - AliasID: 29
+- Index: 525
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Statte dem Immobilienbüro Aphelion einen Besuch ab.
+    - Language: English
+      String: Visit the Aphelion Realty Office
+    - Language: Spanish
+      String: Ve a la oficina inmobiliaria de Aphelion.
+    - Language: French
+      String: Visitez l'agence immobilière Aphelion.
+    - Language: Italian
+      String: Visita gli uffici della Aphelion Realty
+    - Language: Japanese
+      String: アフェリオン不動産事務所を訪れる
+    - Language: Polish
+      String: Odwiedź biuro organizacji Aphelion Realty
+    - Language: Portuguese_Brazil
+      String: Visite a imobiliária Aphelion
+    - Language: ChineseSimplified
+      String: 造访远日点房产中介
+- Index: 550
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Vae Victis über die Zusammenarbeit.
+    - Language: English
+      String: Speak to Vae Victis about working together
+    - Language: Spanish
+      String: Habla con Vae Victis sobre trabajar juntos.
+    - Language: French
+      String: Parlez à Vae Victis d'une collaboration.
+    - Language: Italian
+      String: Parla con Vae Victis di un’eventuale collaborazione
+    - Language: Japanese
+      String: 手を組むことについてヴェイ・ヴィクティスと話す
+    - Language: Polish
+      String: Porozmawiaj z Vae Victisem o współpracy
+    - Language: Portuguese_Brazil
+      String: Fale com Vae Victis sobre unir forças
+    - Language: ChineseSimplified
+      String: 与瓦维刻提斯谈论一起合作
+  Targets:
+  - AliasID: 48
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Percival.
+    - Language: English
+      String: Speak to Percival
+    - Language: Spanish
+      String: Habla con Percival.
+    - Language: French
+      String: Parlez à Percival.
+    - Language: Italian
+      String: Parla con Percival
+    - Language: Japanese
+      String: パーシバルと話す
+    - Language: Polish
+      String: Porozmawiaj z Percivalem
+    - Language: Portuguese_Brazil
+      String: Fale com Percival
+    - Language: ChineseSimplified
+      String: 与珀西瓦里交谈
+  Targets:
+  - AliasID: 37
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 94
+  Name: LC037VanguardCourseLocation
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 2C005D:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 34
+  Name: CityNewAtlantisLocation
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 01295A:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 1
+  Name: JemisonNewAtlantisVanguardRecruitmentLocation
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 2C53EE:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 97
+  Name: UC_NA_MuralSpeaker01
+  Flags:
+  - ReservesLocationOrReference
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - UsesStoredText
+  ALFG: 0
+  ForcedReference: 015CCC:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 98
+  Name: UC_NA_MuralSpeaker02
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  ForcedReference: 015CCD:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 99
+  Name: UC_NA_MuralSpeaker03
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  ForcedReference: 04B6A9:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 100
+  Name: UC_NA_MuralSpeaker04
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  ForcedReference: 04B6AB:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 101
+  Name: UC_NA_MuralSpeaker05
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  ForcedReference: 0738B4:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 102
+  Name: UC_NA_MuralSpeaker06
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  ForcedReference: 0738B5:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 103
+  Name: UC_NA_MuralSpeaker07
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  ForcedReference: 0738B6:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 104
+  Name: UC_NA_MuralSpeaker08
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  ForcedReference: 085C38:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 105
+  Name: UC_NA_MuralSpeaker09
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  ForcedReference: 085C39:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: OrientationDisplay01
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 2C53E8:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: OrientationDisplay02_NewFactions
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 2C53E7:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: OrientationDisplay02a_FC
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 2C53E1:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: OrientationDisplay02b_Narion
+  Flags:
+  - Optional
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 2C53E0:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: OrientationDisplay02c_Varuun
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 2C53DF:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: OrientationDisplay02d_Serpent
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 2C53DE:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: OrientationDisplay03_ColonyWar
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 2C53E6:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: OrientationDisplay03a
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 2C53DD:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 35
+  Name: OrientationDisplay03b
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 23BA25:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: OrientationDisplay04
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 2C53E5:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: OrientationDisplay05
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 2C53E4:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 61
+  Name: OrientationDisplay05a
+  Flags:
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 28AE68:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: OrientationDisplay01b
+  Flags:
+  - Optional
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 2C53E2:Starfield.esm
+  ForcedVoice: 2C53DC:Starfield.esm
+  VoiceTypes: 2C53DC:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: PilotSimRoomPA
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1868D1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: Tuala
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2846EB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: TarmacEnableMarker
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 34
+    RefType: 23F954:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: Jakob
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 29D01D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: VaeVictis
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2CE229:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: TualaLookatMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2BA5C6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: Zora
+  Flags: []
+  ALFG: 0
+  UniqueActor: 1A5287:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 43
+  Name: Balmor
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 0124A6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 44
+  Name: SS7Marine
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0ADE21:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 46
+  Name: SubSectionSevenLocaton
+  Flags:
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2CE1ED:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 48
+  Name: VVIntercom
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 46
+    RefType: 0ADE1E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 49
+  Name: TualaReads
+  Flags:
+  - Optional
+  ALFG: 0
+  PackageData:
+  - 012890:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 51
+  Name: VVEntrance
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 46
+    RefType: 0ADE01:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 52
+  Name: Display01StarterLight
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D57A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 73
+  Name: Display1bStarterLight
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D57B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 68
+  Name: Display02StarterLight
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D57C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 78
+  Name: Display02aStarterLight
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D57D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 79
+  Name: Display02bStarterLight
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D57E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 80
+  Name: Display02cStarterLight
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D57F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 81
+  Name: Display02dStarterLight
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 394553:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 69
+  Name: Display03StarterLight
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D580:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 76
+  Name: Display03aStarterLight
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D581:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 74
+  Name: Display03bStarterLight
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D582:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 70
+  Name: Display04StarterLight
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D583:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 71
+  Name: Display05StarterLight
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D584:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 72
+  Name: Display05aStarterLight
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D585:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 53
+  Name: SpecialHelloMarker_Display01
+  Flags: []
+  ALFG: 0
+  ForcedReference: 03D593:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 54
+  Name: SpecialHelloMarker_Display02
+  Flags: []
+  ALFG: 0
+  ForcedReference: 03D5A6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 55
+  Name: SpecialHelloMarker_Display03
+  Flags: []
+  ALFG: 0
+  ForcedReference: 03D5A7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 56
+  Name: SpecialHelloMarker_Display04
+  Flags: []
+  ALFG: 0
+  ForcedReference: 03D5A8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 57
+  Name: SpecialHelloMarker_Display05
+  Flags: []
+  ALFG: 0
+  ForcedReference: 03D5A9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 58
+  Name: MuseumPatron_Child
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 03D5C8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 59
+  Name: MuseumPatron_Dad
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 03D5CA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 60
+  Name: TriggerStage1100
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 03D5D1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 62
+  Name: Pacifist
+  Flags: []
+  ALFG: 0
+  UniqueActor: 03D591:Starfield.esm
+  PackageData:
+  - 03D58E:Starfield.esm
+  - 22B617:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 63
+  Name: Pilot01
+  Flags: []
+  ALFG: 0
+  UniqueActor: 03D5C0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 64
+  Name: Pilot02
+  Flags: []
+  ALFG: 0
+  UniqueActor: 03D5C6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 86
+  Name: Proctor
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 2BA5D9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 87
+  Name: ProctorAlias
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 03D5D0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 88
+  Name: Subsection7_WaitTrigger
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowReserved
+  - InitiallyDisabled
+  ALFG: 0
+  Location:
+    AliasID: 46
+    RefType: 07828D:Starfield.esm
+  Keywords:
+  - 3B0016:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 89
+  Name: Subsection7_ResumeTrigger
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 46
+    RefType: 0782A4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 90
+  Name: Subsection7_WaitMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 3B0017:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 106
+    ALAM: 0
+    ReferenceAlias:
+      ID: 106
+      Name: WaitingCompanions
+      Flags:
+      - Optional
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      ALFG: 0
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 95
+  Name: RepresentativeChisolm
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 24C3D4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 96
+    ALAM: 0
+    ReferenceAlias:
+      ID: 96
+      Name: SpaceportGuards
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      ALFG: 0
+      Location:
+        AliasID: 34
+        RefType: 2AADA3:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 107
+  Name: SS7FloorManager
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 46
+    RefType: 0E53C4:Starfield.esm
+  VoiceTypes: Null

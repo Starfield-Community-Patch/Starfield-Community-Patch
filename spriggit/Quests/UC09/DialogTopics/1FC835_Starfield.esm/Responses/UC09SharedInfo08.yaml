@@ -1,0 +1,41 @@
+FormKey: 1A697E:Starfield.esm
+EditorID: UC09SharedInfo08
+Flags: {}
+Responses:
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 7266755
+  TRDAUnknown: 5.1000004
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Wir haben selbst schon darüber debattiert. Aber der Captain muss noch was dazu sagen.
+    - Language: English
+      String: We've been having similar debates, ourselves. But the Captain has yet to weigh in.
+    - Language: Spanish
+      String: Lo hemos debatido largo y tendido, pero aún falta la opinión de mi camarada.
+    - Language: French
+      String: Nous avons eu le même débat dans notre groupe, mais le capitaine doit encore faire son choix.
+    - Language: Italian
+      String: Anche noi abbiamo avuto dibattiti simili. Ma il capitano deve ancora dire la sua.
+    - Language: Japanese
+      String: 私たちも似たような議論をしてきましたので。ですが、船長の意見を聞かなければ
+    - Language: Polish
+      String: Sami toczymy podobne dyskusje. Kapitan wciąż musi się wypowiedzieć.
+    - Language: Portuguese_Brazil
+      String: Também debatemos entre nós, mas ainda falta uma opinião. Comandante, é com você.
+    - Language: ChineseSimplified
+      String: 我们自己也一直在讨论此事。不过，船长还没有发表自己的意见。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x60A807357A21D701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    FirstParameter: 1
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -23,6 +23,8 @@ Name:
     String: Wieżyczka neutronowa Disruptor 3320
   - Language: Portuguese_Brazil
     String: Torreta de Nêutrons Subversor 3320
+  - Language: ChineseSimplified
+    String: 裂解枪3320中子炮塔
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -86,7 +88,27 @@ WGENUnknown1: 12
 BaseWeight: 3
 BaseSpeed: 1
 AttackOxygenCost: 150
-General: "õ\x05\0"
+General:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: PAR
+  - Language: English
+    String: PAR
+  - Language: Spanish
+    String: PAR
+  - Language: French
+    String: PAR
+  - Language: Italian
+    String: PAR
+  - Language: Japanese
+    String: PAR
+  - Language: Polish
+    String: CZĄ
+  - Language: Portuguese_Brazil
+    String: PAR
+  - Language: ChineseSimplified
+    String: 粒子
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

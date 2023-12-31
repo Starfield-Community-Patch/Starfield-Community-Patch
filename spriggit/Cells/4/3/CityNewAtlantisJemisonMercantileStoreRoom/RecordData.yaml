@@ -19,6 +19,8 @@ Name:
     String: Magazyn Jemison Mercantile
   - Language: Portuguese_Brazil
     String: Depósito da Jemison Mercantile
+  - Language: ChineseSimplified
+    String: 杰米森贸易仓储间
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -155,3 +157,4 @@ Traversals:
   To: -6.745845, -0.07922819, 0.10233455
   UnknownVector: 3.9585102, 5.59205, 0.9548001
   Unknown: 0x4842484233388139
+NumTraversalFluffBytes: 88

@@ -19,6 +19,8 @@ Name:
     String: Centrum Dystrybucji ZK
   - Language: Portuguese_Brazil
     String: Centro de Distribuição da UC
+  - Language: ChineseSimplified
+    String: 联殖配送
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -571,3 +573,4 @@ Traversals:
   To: 14.692502, -30.687502, 11.203636
   UnknownVector: 1.5726765, 5.568089, 1.2955222
   Unknown: 0x223A223A9934B537
+NumTraversalFluffBytes: 420

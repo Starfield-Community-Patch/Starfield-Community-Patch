@@ -19,6 +19,8 @@ Name:
     String: Skrzydło wojskowe
   - Language: Portuguese_Brazil
     String: Ala Militar
+  - Language: ChineseSimplified
+    String: 军事区
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -3150,3 +3152,4 @@ Traversals:
   To: 8.77439, -16.190937, 2.6342592
   UnknownVector: 0.9351417, 8.507225, 1.4613127
   Unknown: 0x013E013E86391A35
+NumTraversalFluffBytes: 2484

@@ -1,0 +1,50 @@
+FormKey: 21EAF9:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0FA849:Starfield.esm
+  WEMFile: 7704651
+  TRDAUnknown: 1.8000001
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 2.1333334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Die Waffe muss ins Halfter ... und auf dich ist ein Kopfgeld ausgesetzt. Das musst du unverzüglich klären.
+    - Language: English
+      String: You're going to need to holster that weapon... and you've got a bounty. Get that cleared up immediately.
+    - Language: Spanish
+      String: Vas a tener que enfundar esa arma... y hay una recompensa por ti. Salda esa deuda inmediatamente.
+    - Language: French
+      String: Il va falloir ranger cette arme... et je vois que votre tête est mise à prix. Réglez ça sur-le-champ.
+    - Language: Italian
+      String: Devi rinfoderare quell’arma. E c’è una taglia sulla tua testa. È una questione che va risolta immediatamente.
+    - Language: Japanese
+      String: 武器をしまえ… そしてお前には賞金がかかってるな。すぐに片付けろ
+    - Language: Polish
+      String: Musisz odłożyć tę broń do kabury... I wystawiono za tobą list gończy. Musisz to jak najszybciej wyjaśnić.
+    - Language: Portuguese_Brazil
+      String: Você vai ter que botar essa arma no coldre... e tem uma violação no seu nome. Resolva isso aí imediatamente.
+    - Language: ChineseSimplified
+      String: 你得把武器装进枪套里……而且你被悬赏了。马上把事情解决。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xE088E2FC6B96D601
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    FirstParameter: 05BD93:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,50 @@
+FormKey: 2FAD44:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  WEMFile: 9250166
+  TROTs:
+  - UnknownVoiceType: 005984:Starfield.esm
+    UnknownFloat: 7.833334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Es ist ein großartiger Entwurf, Jules. Ein so vielseitiges Schiff eignet sich für alle möglichen Missionen. Ausgezeichnet.
+    - Language: English
+      String: It's an excellent design, Jules. A ship like that is quite versatile and suited to tackle all sorts of different missions. Well done.
+    - Language: Spanish
+      String: Es un diseño excelente, Jules. Una nave como esa es muy versátil y puede hacer frente a todo tipo de misiones. Bien hecho.
+    - Language: French
+      String: C'est un très beau vaisseau, Jules. Le genre de véhicule assez versatile pour s'attaquer à toutes sortes de missions. Bien joué.
+    - Language: Italian
+      String: È un progetto eccellente, Jules. Una nave molto versatile e adatta ad affrontare ogni sorta di missione. Ottimo lavoro.
+    - Language: Japanese
+      String: これは素晴らしい設計ね、ジュールズ。汎用性が高くて、多種多様な任務に対応できる装備が整ってる。見事よ
+    - Language: Polish
+      String: Wspaniały projekt, Jules. Taki statek będzie uniwersalny i zdolny do wykonywania przeróżnych misji. Dobra robota.
+    - Language: Portuguese_Brazil
+      String: É um design excelente, Jules. Uma nave assim é bem versátil e perfeita para todo tipo de missão. Muito bem.
+    - Language: ChineseSimplified
+      String: 这个设计非常棒，朱尔斯。这种飞船的用途广泛，适合用来完成各种各样的任务。干得好。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x70D50E48AB1FD801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    FirstParameter: 005984:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetDistanceConditionData
+    FirstParameter: 000014:Starfield.esm
+  ComparisonValue: 00D8A9:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low
+NAM8: 2FAD47:Starfield.esm

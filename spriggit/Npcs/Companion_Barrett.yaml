@@ -1,0 +1,439 @@
+FormKey: 005787:Starfield.esm
+EditorID: Companion_Barrett
+VirtualMachineAdapter:
+  Scripts:
+  - Name: companionactorscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Affinity
+      Object: 0A1B80:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID
+      Object: 2BE2D6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionQuest
+      Object: 1C7187:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_TxtReplace_QuestName
+      Object: 0963E1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PreventStoryGateScenes
+      Object: 28A168:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: CompanionAffinityScript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: AngerEventData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 180F0A:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerReason
+          Object: 2C2A36:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 180F0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: companioncrimeresponsescript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnCombat
+      Object: 180F0A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnKill
+      Object: 180F0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerReason_Common_1_Murder
+      Object: 2C2A36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_NotCivilian
+      Object: 0F223F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentCompanionFaction
+      Object: 023C01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: CompanionDebugScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActiveCompanion
+      Object: 2A567C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_DEBUG_OnPlayerShip
+      Object: 2C4C96:Starfield.esm
+  - Name: com_crew_giveitemactorscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_CND_GiveItemAvailable
+      Object: 17AD8D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItemAvailableCooldownDays
+      Object: 17AD92:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItemAvailableDay
+      Object: 17AD91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItemReminder
+      Object: 17AD8B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_GiveItem_HasItems
+      Object: 3371F0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GiveItemList
+      Object: 17AD86:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+ObjectBounds:
+  First: -0.31000048, -0.31000048, -4.7683716E-07
+  Second: 0.31000048, 0.31000048, 1.8000004
+ODTY: 0
+ObjectPlacementDefaults:
+  Unknown5: 3E-45
+  Unknown6: 1
+  Unknown14: 1
+  Unknown16: 1
+  Unknown17: 1
+  Unknown20: 3.4028235E+38
+Flags:
+- Essential
+- AutoCalcStats
+- Unique
+- 0x40000000
+Level:
+  MutagenObjectType: PcLevelMult
+  LevelMult: 1
+CalcMinLevel: 10
+DispositionBase: 35
+UseTemplateActors: 16386
+Factions:
+- Faction: 00D875:Starfield.esm
+  Rank: -1
+- Faction: 010BE1:Starfield.esm
+- Faction: 0191DC:Starfield.esm
+- Faction: 023C01:Starfield.esm
+  Rank: -1
+- Faction: 106C30:Starfield.esm
+- Faction: 1434D6:Starfield.esm
+- Faction: 2DBEB0:Starfield.esm
+DeathItem: 1C901E:Starfield.esm
+Voice: 005B85:Starfield.esm
+DefaultTemplate: 12FDDE:Starfield.esm
+TemplateActors:
+  StatsTemplate: 12FDDE:Starfield.esm
+  Unknown2: 12FDDE:Starfield.esm
+Race: 00347D:Starfield.esm
+CombatOverridePackageList: 0102ED:Starfield.esm
+Perks:
+- Perk: 06B728:Starfield.esm
+  Rank: 1
+- Perk: 21B8C5:Starfield.esm
+  Rank: 1
+- Perk: 21B8CD:Starfield.esm
+  Rank: 2
+- Perk: 222F85:Starfield.esm
+  Rank: 3
+- Perk: 222F88:Starfield.esm
+  Rank: 4
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
+- ActorValue: 0002D4:Starfield.esm
+  Value: 300
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+- ActorValue: 000385:Starfield.esm
+  Value: 100
+Items:
+- Item:
+    Item: 0D0F70:Starfield.esm
+    Count: 1
+Aggression: Aggressive
+Confidence: Foolhardy
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsAllies
+Packages:
+- 00578F:Starfield.esm
+- 22C0DC:Starfield.esm
+- 042B10:Starfield.esm
+- 0D9C12:Starfield.esm
+Keywords:
+- 022E49:Starfield.esm
+- 0AD52A:Starfield.esm
+- 0C866C:Starfield.esm
+- 0E53A8:Starfield.esm
+- 0F55DC:Starfield.esm
+- 1D03E1:Starfield.esm
+- 1EA944:Starfield.esm
+- 21B1FC:Starfield.esm
+- 23F1CA:Starfield.esm
+- 2705E4:Starfield.esm
+- 28BF2B:Starfield.esm
+Class: 010B2F:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Barrett
+  - Language: English
+    String: Barrett
+  - Language: Spanish
+    String: Barrett
+  - Language: French
+    String: Barrett
+  - Language: Italian
+    String: Barrett
+  - Language: Japanese
+    String: バレット
+  - Language: Polish
+    String: Barrett
+  - Language: Portuguese_Brazil
+    String: Barrett
+  - Language: ChineseSimplified
+    String: 巴雷特
+ShortName:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Barrett
+  - Language: English
+    String: Barrett
+  - Language: Spanish
+    String: Barrett
+  - Language: French
+    String: Barrett
+  - Language: Italian
+    String: Barrett
+  - Language: Japanese
+    String: バレット
+  - Language: Polish
+    String: Barrett
+  - Language: Portuguese_Brazil
+    String: Barrett
+  - Language: ChineseSimplified
+    String: 巴雷特
+CalculatedHealth: 500
+CalculatedActionPoints: 50
+GearedUpWeapons: 1
+HeadParts:
+- 000F94:Starfield.esm
+- 006852:Starfield.esm
+- 062F07:Starfield.esm
+- 064D88:Starfield.esm
+- 24A022:Starfield.esm
+- 24A023:Starfield.esm
+- 24A03D:Starfield.esm
+- 253FA3:Starfield.esm
+- 253FA5:Starfield.esm
+- 2CDD7D:Starfield.esm
+- 3BE58D:Starfield.esm
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight:
+  Muscular: 0.3
+  Fat: 0.15
+CompanionInfoQuest: 1C7187:Starfield.esm
+CompanionInfoDialogue: 1C6E18:Starfield.esm
+DefaultOutfit: 1341D7:Starfield.esm
+SpaceOutfit: 16ADB0:Starfield.esm
+DefaultPackageList: 2C55CA:Starfield.esm
+CrimeFaction: 2DBEB0:Starfield.esm
+Tints:
+- TintType: SimpleGroup
+  TintGroup: Dermaesthetic
+  TintName: African_Male_Yo1_Sk8
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/male_af_yo1_sk8_derm_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 56
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask1
+  TintName: Complexion_Patchy
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/complexion_wholeface_mask.dds
+  TintColor: '#00000000'
+  TintIntensity: 50
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask2
+  TintName: moles_Many_Small_02
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/moles_many_small_02.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: ComplexGroup
+  TintGroup: Accents1
+  TintName: Accents_Moles_FaceNeck
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/accents/accents_moles_faceneck_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 37
+- TintType: ComplexGroup
+  TintGroup: Accents2
+  TintName: Accents_Fullface_Wrinkles_Darker
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/accents/accents_fullface_wrinkles_darker_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 10
+- TintType: ComplexGroup
+  TintGroup: ColorlessAccents1
+  TintName: Accents_CrowsFeet
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/accents/accents_crowsfeet_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: ComplexGroup
+  TintGroup: ColorlessAccents2
+  TintName: Accents_NasoLabialFolds
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/accents/accents_nasolabialfolds_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 95
+FaceDialPositions:
+- Index: 24
+  Position: 0.55
+- Index: 25
+  Position: 0.52
+- Index: 39
+  Position: -0.14
+- Index: 52
+  Position: 0.23
+- Index: 58
+  Position: 0.75
+- Index: 60
+  Position: -0.37
+- Index: 63
+  Position: 0.31
+- Index: 64
+  Position: -0.05
+- Index: 65
+  Position: -0.53
+- Index: 68
+  Position: 0.73
+- Index: 69
+  Position: 0.69
+- Index: 73
+  Position: -0.56
+- Index: 74
+  Position: 0.11
+- Index: 75
+  Position: 0.91
+- Index: 76
+  Position: 0.35
+- Index: 77
+  Position: -0.32
+- Index: 78
+  Position: -0.37
+- Index: 79
+  Position: 0.2
+FaceMorphs:
+- Index: 1
+  MorphGroups:
+  - MorphGroup: Eyes
+    BlendIntensity: 0.16273704
+- Index: 9
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 1
+  - MorphGroup: Chin
+    BlendIntensity: 1
+  - MorphGroup: Ears
+    BlendIntensity: 0.66
+  - MorphGroup: Eyes
+    BlendIntensity: 0.0069502206
+  - MorphGroup: Forehead
+    BlendIntensity: 0.44
+  - MorphGroup: Jaw
+    BlendIntensity: 0.07
+  - MorphGroup: Mouth
+    BlendIntensity: 0.48
+  - MorphGroup: Neck
+    BlendIntensity: 1
+  - MorphGroup: Nose
+    BlendIntensity: 0.39
+- Index: 14
+  MorphGroups:
+  - MorphGroup: Ears
+    BlendIntensity: 0.34
+  - MorphGroup: Eyes
+    BlendIntensity: 0.58
+  - MorphGroup: Jaw
+    BlendIntensity: 0.05
+  - MorphGroup: Mouth
+    BlendIntensity: 0.4
+- Index: 16
+  MorphGroups:
+  - MorphGroup: Eyes
+    BlendIntensity: 0.001686702
+- Index: 42
+  MorphGroups:
+  - MorphGroup: Nose
+    BlendIntensity: 0.04
+- Index: 44
+  MorphGroups:
+  - MorphGroup: Eyes
+    BlendIntensity: 0.24862604
+MorphBlends:
+- BlendName: male_af_md1_Cheeks
+  Intensity: 1
+- BlendName: male_af_md1_Chin
+  Intensity: 1
+- BlendName: male_af_md1_Ears
+  Intensity: 0.66
+- BlendName: male_af_md1_Eyes
+  Intensity: 0.0068829316
+- BlendName: male_af_md1_Forehead
+  Intensity: 0.44
+- BlendName: male_af_md1_Jaw
+  Intensity: 0.07
+- BlendName: male_af_md1_Mouth
+  Intensity: 0.48
+- BlendName: male_af_md1_Neck
+  Intensity: 1
+- BlendName: male_af_md1_Nose
+  Intensity: 0.39
+- BlendName: male_af_yo1_Nose
+  Intensity: 0.04
+- BlendName: male_as_md1_Eyes
+  Intensity: 0.16178139
+- BlendName: male_as_ol1_Eyes
+  Intensity: 0.24862604
+- BlendName: male_eu_md2_Eyes
+  Intensity: 0.006744225
+- BlendName: male_eu_ol1_Ears
+  Intensity: 0.34
+- BlendName: male_eu_ol1_Eyes
+  Intensity: 0.57428855
+- BlendName: male_eu_ol1_Jaw
+  Intensity: 0.05
+SkinToneIndex: 6
+HairColor: Black
+FacialHairColor: Black
+EyebrowColor: Black
+EyeColor: Brown
+TeethColor: Teeth_Clean
+Pronoun: Unspecified

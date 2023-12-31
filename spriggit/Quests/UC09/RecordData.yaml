@@ -1,0 +1,1828 @@
+FormKey: 1FC858:Starfield.esm
+EditorID: UC09
+VirtualMachineAdapter:
+  Scripts:
+  - Name: uc09questscript
+    Properties:
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: CabinetNPCAliases
+      Objects:
+      - Name: ''
+        Object: 1FC858:Starfield.esm
+        Alias: 3
+      - Name: ''
+        Object: 1FC858:Starfield.esm
+        Alias: 6
+      - Name: ''
+        Object: 1FC858:Starfield.esm
+        Alias: 5
+      - Name: ''
+        Object: 1FC858:Starfield.esm
+        Alias: 7
+      - Name: ''
+        Object: 1FC858:Starfield.esm
+        Alias: 4
+      - Name: ''
+        Object: 1FC858:Starfield.esm
+        Alias: 9
+      - Name: ''
+        Object: 1FC858:Starfield.esm
+        Alias: 1
+      - Name: ''
+        Object: 1FC858:Starfield.esm
+        Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EmergencyRecording
+      Object: 1FC858:Starfield.esm
+      Alias: 25
+  Script:
+    Name: Fragments:Quests:QF_UC09_001FC858
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorShouldHideSpacesuitHelmetCosmeticBreathable_AV
+      Object: 0B120B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorShouldShowSpacesuitCosmetic_AV
+      Object: 0A73F8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Abello
+      Object: 1FC858:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AdmiralLogan
+      Object: 1FC858:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChiefKulkarni
+      Object: 1FC858:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChiefSarkin
+      Object: 1FC858:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChiefYasin
+      Object: 1FC858:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Alias_Companions
+      Objects:
+      - Name: ''
+        Object: 23DF2A:Starfield.esm
+        Alias: 0
+      - Name: ''
+        Object: 1C7187:Starfield.esm
+        Alias: 0
+      - Name: ''
+        Object: 26C5ED:Starfield.esm
+        Alias: 0
+      - Name: ''
+        Object: 009E99:Starfield.esm
+        Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ContinueAddressTrigger
+      Object: 1FC858:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EmergencyRecording
+      Object: 1FC858:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FB441MarineEnableMarker
+      Object: 1FC858:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FCObserverEnableMarker
+      Object: 1FC858:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hadrian
+      Object: 1FC858:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HadrianShip
+      Object: 1FC858:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HadriansShip_RHQ
+      Object: 1FC858:Starfield.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jakob
+      Object: 1FC858:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LondinionDoors
+      Object: 1FC858:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NPCsToDisable
+      Object: 1FC858:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PostQuestSlate
+      Object: 1FC858:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PostVVSceneTrigger
+      Object: 1FC858:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SS7FloorManager
+      Object: 1FC858:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SS7_CompanionWaitTrigger
+      Object: 1FC858:Starfield.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VaeVictis
+      Object: 1FC858:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VVCellDoor
+      Object: 1FC858:Starfield.esm
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VVDoor
+      Object: 1FC858:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundDiplomat
+      Object: 22EC7B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundIndustrialist
+      Object: 22EC7A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundXenobiologist
+      Object: 22EC6E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_WantsToTalkEvent_UnitedColonies
+      Object: 1E99A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_WantsToTalk_CooldownDays
+      Object: 0507D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_WantsToTalk_UnitedColonies_Cooldown
+      Object: 0CAC22:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueRedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCFactionNewAtlantis
+      Object: 2C5402:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCNewAtlantisUCFaction
+      Object: 2C5402:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_AcelesEnding
+      Object: 1F8191:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_PlagueEnding
+      Object: 1F8197:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_SterilizationEnding
+      Object: 04A45D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Outfit_Clothes_Colonist_CroppedVest_Hadrian
+      Object: 16ADAC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Outfit_Clothes_ScienceLabTec
+      Object: 3AD5B5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers_UseFollowPlayerCustom
+      Object: 09C16D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TraitEmpath
+      Object: 227FD6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC01
+      Object: 2C5401:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC02
+      Object: 2B1808:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC05_HadrianSandboxing_PostUC05
+      Object: 20B7C0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC07_HadrianKnowsVVLives
+      Object: 1F42E4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_AnomalyBattle
+      Object: 03E832:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_QueenBattle
+      Object: 03E832:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_VV_AudioLog
+      Object: 085FB3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_300_CabinetMainScene
+      Object: 1A6958:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_CleanUpLazarusPlant
+      Object: 1A2E9E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DebugMarker01
+      Object: 1F874A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DebugMarker02
+      Object: 1F8749:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DebugMarker03
+      Object: 1F8748:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DebugMarker04
+      Object: 1F8747:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DEBUG_AdditionalUC05Variations
+      Object: 1F8744:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DEBUG_ExpansionPoint
+      Object: 1F9BCD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DEBUG_SpeakToTuala
+      Object: 1F8743:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DEBUG_SpeechChallenge
+      Object: 1F8745:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_Foreknowledge_VVCommittedTheAttacksAV
+      Object: 0ADE06:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_HadsMad
+      Object: 1A690E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_LazarusPlantResult
+      Object: 11E0B1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PlayerChoiceResult
+      Object: 24377D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PostQuestline_HadrianScene
+      Object: 1A2F81:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_TellFreestarAboutLazPlant
+      Object: 194A37:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR05_Bonus
+      Object: 19FF83:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR05_Enabled
+      Object: 003567:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_LoganKnowsPlayerLearnedOfVaeVictis
+      Object: 101B41:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_PlayerMentionedVVToHadrian
+      Object: 1C538E:Starfield.esm
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 19
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0019_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0105_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 113
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0113_Item_00
+  - Stage: 119
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0119_Item_00
+  - Stage: 124
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0124_Item_00
+  - Stage: 125
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0125_Item_00
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0130_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 230
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0230_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 315
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0315_Item_00
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0320_Item_00
+  - Stage: 325
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0325_Item_00
+  - Stage: 365
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0365_Item_00
+  - Stage: 367
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0367_Item_00
+  - Stage: 369
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0369_Item_00
+  - Stage: 371
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0371_Item_00
+  - Stage: 399
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0399_Item_00
+  - Stage: 499
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0499_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC09_001FC858
+    FragmentName: Fragment_Stage_0500_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1FC858:Starfield.esm
+      Alias: 10
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 300
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 310
+  - Property:
+      Name: ''
+      Object: 1FC858:Starfield.esm
+      Alias: 21
+    Scripts:
+    - Name: UC09_ContinueAddressTrigger
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Abello
+        Object: 1FC858:Starfield.esm
+        Alias: 3
+  - Property:
+      Name: ''
+      Object: 1FC858:Starfield.esm
+      Alias: 32
+    Scripts:
+    - Name: defaultaliasonlocationchange
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: LocationMatchIfChild
+        Data: True
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 01295A:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 105
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Das geschmiedete Vermächtnis
+  - Language: English
+    String: A Legacy Forged
+  - Language: Spanish
+    String: Un legado forjado
+  - Language: French
+    String: Forger son héritage
+  - Language: Italian
+    String: Una nuova eredità
+  - Language: Japanese
+    String: つくられた遺産
+  - Language: Polish
+    String: Pomnik trwalszy niż ze spiżu
+  - Language: Portuguese_Brazil
+    String: Legado Forjado
+  - Language: ChineseSimplified
+    String: 铸造遗产
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  Priority: 82
+  Unused: 0x000000
+QuestType: 0475FD:Starfield.esm
+QuestFaction: 0546DC:Starfield.esm
+Summary: >-
+  The player has discovered evidence that Vae Victis knows about the Lazarus Plant. They return to MAST to confront him and he reveals the truth - he organized the attacks on New Atlantis and Tau Ceti. He requests the player lie for him, however, and tell everyone it was soley Orlase - the Warlock - who triggered the attacks.
+
+
+  The player can then report what they uncovered to Hadrian and Percival - or lie to them - and then proceeds to share what they found with the Cabinet - or lie to them too.
+
+
+  The quest then finishes with two other major decisions - how to handle the discovery of the Lazarus plant (destroy it, share knowledge of it, etc.) and how to handle the Terrormorphs - by deploying the Aceles or a microbe.
+UnusedConditions: []
+Stages:
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: Jump the player to VV's quarters."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: Jump the player to Hadrian and Jakob's scene"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Jump the player to the Cabinet scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: Jump the player to Tuala's scene."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 19
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: All start up stages set this stage.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: OBJ: Quest started!'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: In Londinion fanden wir heraus, dass der Terrormorph-Angriff auf New Atlantis womöglich Absicht war. Und unsere einzige Spur führt zu Vae Victis. Ich sollte ihm auf den Zahn fühlen.
+      - Language: English
+        String: What we learned at Londinion suggests the Terrormorph attack on New Atlantis might've been intentional. Our only lead, though, is Vae Victis. I need to talk to him and find out what he might know.
+      - Language: Spanish
+        String: Por lo que averiguamos en Londinion, el ataque de los horromorfos de Nueva Atlántida podría haber sido intencionado. Sin embargo, nuestra única pista es Vae Victis. Tengo que hablar con él para descubrir qué sabe.
+      - Language: French
+        String: Ce que nous avons appris à Londinion laisse penser que l'attaque des horrimorphes à New Atlantis était peut-être intentionnelle. Mais notre seule piste est Vae Victis. Je dois lui parler et découvrir ce qu'il sait.
+      - Language: Italian
+        String: Stando a quello che abbiamo scoperto su Londinion, gli attacchi dei terrormorfi su Nuova Atlantide potrebbero essere stati intenzionali. L’unica pista che abbiamo, però, conduce a Vae Victis. Devo parlare con lui e scoprire cosa sa.
+      - Language: Japanese
+        String: ロンディニオンでの調査の結果、ニューアトランティスでのテラーモーフの襲撃は意図的に引き起こされたかもしれないことが示唆された。だが、唯一の手がかりはヴェイ・ヴィクティスだ。彼から知っていることを聞き出そう
+      - Language: Polish
+        String: Informacje zdobyte w Londinionie sugerują, że atak terrormorfów na Nową Atlantydę mógł być zaplanowany. Naszym jedynym tropem jest Vae Victis. Muszę z nim porozmawiać i ustalić, co wie na ten temat.
+      - Language: Portuguese_Brazil
+        String: O que descobrimos em Londinion sugere que o ataque de terrormorfo em Nova Atlântida pode ter sido intencional. Nossa única pista, no entanto, é Vae Victis. Preciso falar com ele para descobrir o que ele sabe.
+      - Language: ChineseSimplified
+        String: 从我们在隆蒂涅恩城了解到的情况来看，新亚特兰蒂斯城的骇变兽袭击事件很可能是有人策划的，但我们唯一的线索是瓦维刻提斯。我得找他谈谈，看看他知道些什么。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3.75: Player returned to New Atlantis. Turn off UC08 Elder Battle stuff'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: VV: Player hit first dialogue choice. If they drop out, get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 111
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: VV: Player hit second dialogue choice. If they drop out, get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 112
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: VV: Player hit third dialogue choice. If they drop out, get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 113
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: VV: Player hit fourth dialogue choice. If they drop out, get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 114
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: VV: Player hit fifth dialogue choice. If they drop out, get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 115
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: VV: Keeping this available for a new player dialogue option to split up VV's big reveal"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 116
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: VV: Player hit sixth dialogue choice. If they drop out, get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 117
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: VV: Player hit seventh dialogue choice. If they drop out, get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 118
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: VV: Player hit 8th dialogue choice. If they drop out, get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 119
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: VV: Player got VV to make them an offer. Tag that global and turn off the hoice.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: VV: Player learned VV got his messages out via UC functionaries who didn't realize what they were doing. Unlocks a dialogue option in the Pres scene"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 121
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: VV: Player told VV they're going to tell the Cabinet it was him. Affects VV hellos."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 122
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: VV: Player told VV they're going to tell the Cabinet it was Orlase. Affects VV hellos."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 123
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player was ambiguious about what they're going to do with the information of VV's involvement in the attacks."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 124
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: VV: Player told VV they know about his actions. Have him turn to face the player fully. Set from stage 113 and the "start reveal" phase in the scene itself'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 125
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: VV admitted he organized the attacks. Mark the player's actor value."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 126
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: VV: Player hit the "Weigh in on hiding the Lazarus Plant" phase. Get them back there is they drop out.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 127
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: VV: Player asked what was so dangerous VV could keep the Lazarus Plant secret. Changes up his response in that same action'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 128
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player hit VV's \"Honors\" player dialogue loop. If they drop out at this point, jump them back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 129
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player dropped out of VV's scene at the decision moment. Get them back there when they start it up again."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3 (of UCR05): Player asked about the work they'll be doing with VV. Tag the stage in DialogueUCFactionNewAtlantis that marks them as having asked about it"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 131
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P4: Player told VV that they have a recording of VV speaking about the Terrormorphs. Changes up his line leading into his begging.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: OBJ: VV: Scene with VV complete. Direct the player to Hadrian and Jakob.'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Vae Victis hat gestanden. Um den Familiennamen Sanon zu läutern, organisierte er die Angriffe auf New Atlantis und Tau Ceti. Jetzt muss ich entscheiden: Soll ich Vae Victis als Täter preisgeben oder Reginald Orlase die Schuld zuschieben?'
+      - Language: English
+        String: 'I confronted Vae Victis and he confessed. He organized the attacks on New Atlantis and Tau Ceti as part of a plot to undo the damage done to the Sanon family name. But now, I have a choice: share the truth that Vae Victis is responsible or pin the blame on Reginald Orlase.'
+      - Language: Spanish
+        String: Me enfrenté a Vae Victis, quien confesó que organizó los ataques de Nueva Atlántida y Tau Ceti como parte de un plan para paliar el daño infligido al apellido Sanon. Ahora debo decidir si contar la verdad (que Vae Victis es el responsable) o echarle la culpa a Reginald Orlase.
+      - Language: French
+        String: "J'ai mis Vae Victis devant le fait accompli et il a avoué. C'est lui qui a organisé les attaques sur New Atlantis et Tau Ceti dans le cadre d'un complot pour effacer le déshonneur du nom de la famille Sanon. Le choix est entre mes mains : révéler que Vae Victis est seul responsable, ou accuser Reginald Orlase."
+      - Language: Italian
+        String: 'Ho parlato con Vae Victis e alla fine ha confessato. Gli attacchi su Nuova Atlantide e Tau Ceti servivano a rimediare ai danni arrecati al nome della famiglia Sanon. Tuttavia, ora sono dinanzi a una scelta: potrei dire la verità e puntare il dito contro Vae Victis oppure far ricadere ogni responsabilità su Reginald Orlase.'
+      - Language: Japanese
+        String: ヴェイ・ヴィクティスを問い詰めると白状した。サノン家に付いた汚名を返上するための計略の一環として、彼はニューアトランティスとタウ・セティへの攻撃を計画したそうだ。これで、どちらか選ばなくてはならない… ヴェイ・ヴィクティスが黒幕だという真実を公表するか、レジナルド・オーラスに罪を着せるか…
+      - Language: Polish
+        String: "Vae Victis przyznał się do wszystkiego. Zorganizował ataki na Nową Atlantydę i Tau Ceti w ramach planu przywrócenia rodzinie Sanon dobrego imienia. Stoję przed wyborem: mogę powiedzieć prawdę i ujawnić, że za wszystkim stał Vae Victis, lub zrzucić winę na Reginalda Orlase'a."
+      - Language: Portuguese_Brazil
+        String: 'Eu confrontei Vae Victis e ele confessou. Ele orquestrou os ataques em Nova Atlântida e Tau Ceti como parte de um plano para reparar o dano causado à reputação da família Sanon. Agora tenho uma escolha: dizer a verdade sobre o envolvimento de Vae Victis ou culpar Reginald Orlase.'
+      - Language: ChineseSimplified
+        String: 我与瓦维刻提斯对质，他向我坦白了。他说自己策划消除萨农家族名声的污点，作为计划的一部分，他组织了对新亚特兰蒂斯城和天仓五的袭击。现在，我有两个选择：要么把瓦维刻提斯的事公之于众；要么让雷金纳德·奥拉斯背黑锅。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 201
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: HAD: Hit the first player choice in the intro scene. Get the player back there.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 209
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P-Late: Adding a jump back into the \"Hadrian does know, but player's offering to tell her about her father\" scene before the Cabinet"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: HAD: Player told Hadrian and Jakob that VV commited the attacks.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 211
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: HAD: VV Reveal: Player hit second player dialogue choice. Get them back there if they drop out.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 212
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: HAD: VV Reveal: Player hit third player dialogue choice. Get them back there if they drop out.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 213
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: HAD: VV Reveal: Player hit fourth player dialogue choice. Get them back there if they drop out.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 214
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: HAD: VV Reveal: Player hit fifth player dialogue choice. Get them back there if they drop out.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 215
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P3: Player chose one of Hadrian's angry lines int he VV reveal. Unlocks another question in that scene."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: HAD: Player ratted on VV (Had already knows)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 221
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: HAD: Knows VV: Player hit 1st player choice. Get 'em back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 222
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: HAD: Knows VV: Player hit 2nd player choice. Get 'em back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 224
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: DIA: HAD: Player told Jakob and Hadrian VV wants to keep the Lazarus plant a secret. Changed up dialogue later in the scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 229
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "DEBUG: Throw message box informing player that this path isn't yet supported."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 230
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: DIA: HAD: Player accused Orlase'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 231
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: HAD: Orlase: Player hit 2nd player choice. Get 'em back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 232
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: HAD: Orlase: Player hit 3rd player choice. Get 'em back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 233
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: HAD: Orlase: Player hit 4th player choice. Get 'em back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 234
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: DIA: HAD: Orlase: Player hit 1st player choice. Get 'em back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 239
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Hadrian questions scene started. Turn off her urgent waiting for input lines and turn on the calmer ones.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 240
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: HAD: Player hit the final questions phase'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 241
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: HAD: Player asked how Hadrian and Precival are leaning. Changes dialouge in the Cab Terrormorph scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: OBJ: HAD: Player finished conversation with Jakob and Hadrian. Direct them inside to speak to the Council'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FC858:Starfield.esm
+        SecondParameter: 210
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FC858:Starfield.esm
+        SecondParameter: 220
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Hadrian und Percival die Wahrheit gesagt. Vae Victis war für die Angriffe verantwortlich. Jetzt wird es Zeit, sich ans Kabinett zu wenden.
+      - Language: English
+        String: I've told Hadrian and Percival the truth - that Vae Victis is responsible for the attacks. Now it's time to address the Cabinet.
+      - Language: Spanish
+        String: 'Les dije la verdad a Hadrian y Percival: Vae Victis es el responsable de los ataques. Ya es hora de dirigirse al Gabinete.'
+      - Language: French
+        String: "J'ai dit la vérité à Hadrian et à Percival : c'est Vae Victis qui est derrière ces attaques. Il est temps désormais de nous exprimer devant le Cabinet."
+      - Language: Italian
+        String: Ho deciso di dire la verità... Ora, Hadrian e Percival sanno che il vero responsabile degli attacchi è Vae Victis. Non ci resta che rivolgerci al Gabinetto.
+      - Language: Japanese
+        String: ヘイドリアンとパーシバルに、攻撃の黒幕はヴェイ・ヴィクティスだと真実を告げた。さあ、内閣と話をするとしよう
+      - Language: Polish
+        String: Hadrian i Percival usłyszeli ode mnie prawdę - że to Vae Victis odpowiada za ataki. Teraz pora przemówić do rządu.
+      - Language: Portuguese_Brazil
+        String: 'Eu falei a verdade para Hadrian e Percival: disse que Vae Victis foi o responsável pelos ataques. Agora é hora de falar com o Gabinete.'
+      - Language: ChineseSimplified
+        String: 我向哈德良和奥拉斯说了实话，告诉他们是瓦维刻提斯策划了袭击。现在，我们该找内阁谈谈了。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FC858:Starfield.esm
+        SecondParameter: 230
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Hadrian und Percival erzählt, dass Dr. Orlase für die Angriffe verantwortlich war, aber das war gelogen. Jetzt wird es Zeit, sich ans Kabinett zu wenden.
+      - Language: English
+        String: I lied to Hadrian and Percival and told them that Dr. Orlase was responsible for the attacks. Now, it's time we addressed the Cabinet.
+      - Language: Spanish
+        String: Mentí a Hadrian y Percival al decirles que el Dr. Orlase fue el responsable de los ataques. Ya es hora de dirigirnos al Gabinete.
+      - Language: French
+        String: J'ai menti à Hadrian et à Percival et je leur ai dit que le Dr Orlase était responsable des attaques. Il est temps désormais de nous exprimer devant le Cabinet.
+      - Language: Italian
+        String: Ho mentito ad Hadrian e Percival. Ho detto loro che il responsabile degli attacchi era il dott. Orlase. Ora dovremo rivolgerci al Gabinetto.
+      - Language: Japanese
+        String: ヘイドリアンとパーシバルに、攻撃の黒幕はオーラス博士だったと嘘をついた。さあ、内閣と話をするとしよう
+      - Language: Polish
+        String: Hadrian i Percival usłyszeli ode mnie kłamstwo - że to doktor Orlase był odpowiedzialny za ataki. Teraz pora przemówić do rządu.
+      - Language: Portuguese_Brazil
+        String: 'Eu menti para Hadrian e Percival: disse que o Dr. Orlase foi o responsável pelos ataques. Agora é hora de falar com o Gabinete.'
+      - Language: ChineseSimplified
+        String: 我向哈德良和奥拉斯说了谎，告诉他们是奥拉斯博士策划了袭击。现在，我们该找内阁谈谈了。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: DIA: CAB: Player entered the trigger to start the final Cabinet scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 311
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: INTRO: Player hit first player choice. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 312
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: INTRO: Player hit second player choice. '
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 313
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: INTRO: Cabinet knows that the attack on New Atlantis was dleiberate. Used to change up hellos.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 315
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: CAB: Player revealed VV was alive only in the Cabinet scene. Unlocks special dialogue down the road and set the \"Had's mad\" var."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 316
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: Player told Hadrian it was Orlase,  then revealed in the Cab scene it was actually VV. Set "UC09_HadsMad" to track her anger'
+    ScriptFlagComment: "NOTE: This used to set the \"Had's Mad\" global, but I pulled that in 4th pass, because that scene really doesn't make sense given what a... pretty minor slight this is. Shouldn't affect anything else too badly."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 317
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: CAB: INTRO: Hadrian's the one who stated that it was VV. Changes a line for the Pres in the VV scene"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: Player ratted out VV!'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 321
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: VV: Player hit 1stplayer dialogue action'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 322
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: VV: Player hit 2nd player dialogue action'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 323
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: VV: Player bailed out of the scene. Turn on the proper restart line when they come back.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 325
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Officer takes the tape from the player'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 340
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: Player ratted out Orlase!'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 341
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: ORL: Player dropped out of scene earlier. Get the appropriate start up line back in there.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 342
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: CAB: ORL: Player hit first player dialogue. Get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 360
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: Player started the Lazarus Plant scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 361
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: CAB: LAZ: Player hit first choice. Get 'em back there."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 365
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: LAZ: Player agreed with basic plan – secure and hide info'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 367
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: LAZ: Player wants FC to help with securing the plant'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 369
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: LAZ: Player wants to destroy the plant in secret'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 371
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: CAB: LAZ: Player wants to destroy plant with FC's help"
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 380
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: Player started the Terrormorph scene'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 381
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: CAB: TER: Player hit the first player choice. Get 'em back here when they return."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 385
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: TER: Player heard about the Vanguard helping do this work. used to change up a line in the wrap-up scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 399
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Throw message discussing variations about the other factions'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: DIA: CAB: Player chose to have the Aceles deployed'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 401
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P1: DIA: CAB: Player chose to have the virus deployed'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 402
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Player chose to sterilize the Terrormorphs'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P2: CAB: Player started the wrap-up scene.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 421
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "P2: CAB: WRAP: Player hit the 1st player dialogue. Get 'em back there if they drop out."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 499
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'P3: Get all the members of the Cabinet up and moving, then close this thing out'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: "P1: OBJ: CAB: Cabinet scene complete. That's a wrap for the UC questline!"
+    StageCompleteDatas:
+    - QSRD: 0x02000000
+      RewardDatas:
+      - XpAwarded: 0DF3DD:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0E:Starfield.esm
+          Count: 1
+      - XpAwarded: Null
+        BonusCredits: 1460FE:Starfield.esm
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: HasPerkConditionData
+            FirstParameter: 227FD4:Starfield.esm
+          ComparisonValue: 1
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 24377D:Starfield.esm
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Entscheidung steht. Wir setzen die Aceles ein, um die Terrormorphs zu beseitigen. Und ich bin jetzt ein „Bürger der Klasse 1“ der United Colonies. Ich soll mir bei Commander Tuala meinen nächsten Auftrag abholen, und meine Belohnungen.
+      - Language: English
+        String: The decision has been made - we're deploying the Aceles to clean up the Terrormorphs - and I've been made a "Class One Citizen" of the United Colonies. I've been directed to speak to Commander Tuala to receive my next assignment - and my rewards.
+      - Language: Spanish
+        String: 'La decisión es firme: vamos a propagar los aceles para eliminar a los horromorfos. Ahora pertenezco a los “ciudadanos de clase Uno” de las Colonias Unidas. Me han ordenado que hable con el comandante Tuala para recibir mi próximo encargo, así como las recompensas.'
+      - Language: French
+        String: La décision a été prise. Nous allons déployer les aceles pour éliminer les horrimorphes, et on m'a accordé la citoyenneté de “classe 1” de l'Union coloniale. On m'a instruit d'aller voir le commandant Tuala pour recevoir ma prochaine mission ainsi que mes récompenses.
+      - Language: Italian
+        String: 'Ormai è deciso: schiereremo gli aceles per sbarazzarci dei terrormorfi... e io entrerò a far parte dei “Cittadini di Prim’ordine” dell’Unione Coloniale. Mi è stato detto di parlare con il comandante Tuala. Sarà lui a darmi il mio prossimo incarico... e le ricompense che mi spettano.'
+      - Language: Japanese
+        String: 決断が下された。アセレスを分散してテラーモーフを駆除する。そして、自分はコロニー連合の"クラス・ワン市民"に認定された。次の任務… そして次の報酬を受け取るために、トゥアラ司令官と話をするように指示されている
+      - Language: Polish
+        String: Decyzja zapadła - użyjemy aceli, aby pozbyć się terrormorfów. Nadano mi też tytuł „obywatela pierwszej klasy” Zjednoczonych Kolonii. Polecono mi porozmawiać z komandorem Tualą, który ma mi przydzielić kolejne zadanie i przekazać mi moją nagrodę.
+      - Language: Portuguese_Brazil
+        String: 'A decisão foi tomada: vamos usar os aceles para exterminar os terrormorfos. E agora me promoveram a “civil de primeira classe” da União das Colônias. Tenho que falar com o comandante Tuala para receber minha próxima missão. E minhas recompensas.'
+      - Language: ChineseSimplified
+        String: 我们最终决定，为了消灭骇变兽，我们将部署亚斯里兽；除此之外，我已成为联合殖民地“一级公民”。我接到指示，去找图阿拉指挥官谈话，接受我的下一个任务，还有我的奖励。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 24377D:Starfield.esm
+      ComparisonValue: 2
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Entscheidung steht. Wir setzen die Mikrobe ein, um die Terrormorphs zu beseitigen. Und ich bin jetzt ein „Bürger der Klasse 1“ der United Colonies. Ich soll mir bei Commander Tuala meinen nächsten Auftrag abholen, und meine Belohnungen.
+      - Language: English
+        String: The decision has been made - we're deploying the microbe to clean up the Terrormorphs - and I've been made a "Class One Citizen" of the United Colonies. I've been directed to speak to Commander Tuala to receive my next assignment - and my rewards.
+      - Language: Spanish
+        String: 'La decisión es firme: vamos a propagar el microbio para eliminar a los horromorfos. Ahora pertenezco a los “ciudadanos de clase Uno” de las Colonias Unidas. Me han ordenado que hable con el comandante Tuala para recibir mi próximo encargo, así como las recompensas.'
+      - Language: French
+        String: La décision a été prise. Nous allons déployer le microbe pour éliminer les horrimorphes, et on m'a accordé la citoyenneté de “classe 1” de l'Union coloniale. On m'a instruit d'aller voir le commandant Tuala pour recevoir ma prochaine mission ainsi que mes récompenses.
+      - Language: Italian
+        String: 'Ormai è deciso: impiegheremo il microbo per sbarazzarci dei terrormorfi... e io entrerò a far parte dei “Cittadini di Prim’ordine” dell’Unione Coloniale. Mi è stato detto di parlare con il comandante Tuala. Sarà lui a darmi il mio prossimo incarico... e le ricompense che mi spettano.'
+      - Language: Japanese
+        String: 決断が下された。病原菌を分散してテラーモーフを駆除する。そして、自分はコロニー連合の"クラス・ワン市民"に認定された。次の任務… そして次の報酬を受け取るために、トゥアラ司令官と話をするように指示されている
+      - Language: Polish
+        String: Decyzja zapadła - użyjemy mikrobów, aby pozbyć się terrormorfów. Nadano mi też tytuł „obywatela pierwszej klasy” Zjednoczonych Kolonii. Polecono mi porozmawiać z komandorem Tualą, który ma mi przydzielić kolejne zadanie i przekazać mi moją nagrodę.
+      - Language: Portuguese_Brazil
+        String: 'A decisão foi tomada: vamos acionar o micróbio para exterminar os terrormorfos. E agora me promoveram a “civil de primeira classe” da União das Colônias. Tenho que falar com o comandante Tuala para receber minha próxima missão. E minhas recompensas.'
+      - Language: ChineseSimplified
+        String: 我们最终决定，为了消灭骇变兽，我们将部署微生物；除此之外，我已成为联合殖民地“一级公民”。我接到指示，去找图阿拉指挥官谈话，接受我的下一个任务，还有我的奖励。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThan
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 24377D:Starfield.esm
+      ComparisonValue: 2
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Entscheidung steht. Wir setzen die Mikrobe ein, um die Thermoparasiten und Terrormorphs zu sterilisieren. Und ich bin jetzt ein „Bürger der Klasse 1“ der United Colonies. Ich soll mir bei Commander Tuala meinen nächsten Auftrag abholen, und meine Belohnungen.
+      - Language: English
+        String: The decision has been made - we're deploying the microbe to sterilize the Heatleeches and Terrormorphs - and I've been made a "Class One Citizen" of the United Colonies. I've been directed to speak to Commander Tuala to receive my next assignment - and my rewards.
+      - Language: Spanish
+        String: 'La decisión es firme: vamos a propagar el microbio para esterilizar a las sanguijuelas térmicas y a los horromorfos. Ahora pertenezco a los “ciudadanos de clase Uno” de las Colonias Unidas. Me han ordenado que hable con el comandante Tuala para recibir mi próximo encargo, así como las recompensas.'
+      - Language: French
+        String: La décision a été prise. Nous allons déployer le microbe pour stériliser les calovores et les horrimorphes, et on m'a accordé la citoyenneté de “classe 1” de l'Union coloniale. On m'a instruit d'aller voir le commandant Tuala pour recevoir ma prochaine mission ainsi que mes récompenses.
+      - Language: Italian
+        String: 'Ormai è deciso: impiegheremo il microbo per sterilizzare succhiavita e terrormorfi... e io entrerò a far parte dei “Cittadini di Prim’ordine” dell’Unione Coloniale. Mi è stato detto di parlare con il comandante Tuala. Sarà lui a darmi il mio prossimo incarico... e le ricompense che mi spettano.'
+      - Language: Japanese
+        String: 決断が下された。病原菌を分散してヒートリーチとテラーモーフを駆除する。そして、自分はコロニー連合の"クラス・ワン市民"に認定された。次の任務… そして次の報酬を受け取るために、トゥアラ司令官と話をするように指示されている
+      - Language: Polish
+        String: Decyzja zapadła - użyjemy mikrobów, aby wysterylizować ciepłopijce i terrormorfy. Nadano mi też tytuł „obywatela pierwszej klasy” Zjednoczonych Kolonii. Polecono mi porozmawiać z komandorem Tualą, który ma mi przydzielić kolejne zadanie i przekazać mi moją nagrodę.
+      - Language: Portuguese_Brazil
+        String: 'A decisão foi tomada: vamos acionar o micróbio para esterilizar as termossugas e os terrormorfos. E agora me promoveram a “civil de primeira classe” da União das Colônias. Tenho que falar com o comandante Tuala para receber minha próxima missão. E minhas recompensas.'
+      - Language: ChineseSimplified
+        String: 我们最终决定，为了灭除热蛭与骇变兽，我们将部署微生物；除此之外，我已成为联合殖民地“一级公民”。我接到指示，去找图阿拉指挥官谈话，接受我的下一个任务，还有我的奖励。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Vae Victis.
+    - Language: English
+      String: Speak to Vae Victis
+    - Language: Spanish
+      String: Habla con Vae Victis.
+    - Language: French
+      String: Parlez à Vae Victis.
+    - Language: Italian
+      String: Parla con Vae Victis
+    - Language: Japanese
+      String: ヴェイ・ヴィクティスと話す
+    - Language: Polish
+      String: Porozmawiaj z Vae Victisem
+    - Language: Portuguese_Brazil
+      String: Fale com Vae Victis
+    - Language: ChineseSimplified
+      String: 与瓦维刻提斯交谈
+  Targets:
+  - AliasID: 30
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Hadrian und Percival.
+    - Language: English
+      String: Speak to Hadrian and Percival
+    - Language: Spanish
+      String: Habla con Hadrian y Percival.
+    - Language: French
+      String: Parlez à Hadrian et Percival.
+    - Language: Italian
+      String: Parla con Hadrian e Percival
+    - Language: Japanese
+      String: ヘイドリアンとパーシバルと話す
+    - Language: Polish
+      String: Porozmawiaj z Hadrian i Percivalem
+    - Language: Portuguese_Brazil
+      String: Fale com Hadrian e Percival
+    - Language: ChineseSimplified
+      String: 与哈德良和珀西瓦里交谈
+  Targets:
+  - AliasID: 1
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Wende dich an das Kabinett.
+    - Language: English
+      String: Address the Cabinet
+    - Language: Spanish
+      String: Dirígete al Gabinete.
+    - Language: French
+      String: Adressez-vous au Cabinet.
+    - Language: Italian
+      String: Rivolgiti al Gabinetto
+    - Language: Japanese
+      String: 内閣と話をする
+    - Language: Polish
+      String: Przemów do rządu
+    - Language: Portuguese_Brazil
+      String: Fale com o Gabinete
+    - Language: ChineseSimplified
+      String: 找内阁谈谈
+  Targets:
+  - AliasID: 8
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1FC858:Starfield.esm
+        SecondParameter: 499
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInSceneConditionData
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 34
+  Name: LC028FreightElevatorExitLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 224C11:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 18
+  Name: POI063SubsectionSevenLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2CE1ED:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 14
+  Name: LC032LondinionBLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 016012:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 11
+  Name: CityNewAtlantisLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01295A:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: VaeVictis
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2CE229:Starfield.esm
+  PackageData:
+  - 04A459:Starfield.esm
+  - 1A174F:Starfield.esm
+  - 13143F:Starfield.esm
+  - 1F874B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Hadrian
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 29C17F:Starfield.esm
+  PackageData:
+  - 1FA712:Starfield.esm
+  - 1FA717:Starfield.esm
+  - 0021FB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Jakob
+  Flags: []
+  ALFG: 0
+  UniqueActor: 29D01D:Starfield.esm
+  PackageData:
+  - 1FA710:Starfield.esm
+  - 1FA714:Starfield.esm
+  - 0021FA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Abello
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124B1:Starfield.esm
+  PackageData:
+  - 1FA70F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: ChiefYasin
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124B4:Starfield.esm
+  PackageData:
+  - 1FA70B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: ChiefKulkarni
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124B5:Starfield.esm
+  PackageData:
+  - 1FA70D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: AdmiralLogan
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124AD:Starfield.esm
+  PackageData:
+  - 1FA70E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: ChiefSarkin
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124B0:Starfield.esm
+  PackageData:
+  - 1FA70C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: Obj300Marker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 23F9B6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: CmdrTuala
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2846EB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: TriggerStage310
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 11
+    RefType: 2AADCA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: FB441MarineEnableMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 1A2E80:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: FCObserverEnableMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 1A2E7F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: MinisterHallGuard
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2AADDB:Starfield.esm
+  PackageData:
+  - 19FF8C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: PostVVSceneTrigger
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 18
+    RefType: 19FF88:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: SS7Guard
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0ADE21:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 20
+    ReferenceAlias:
+      ID: 20
+      Name: LondinionDoors
+      Flags:
+      - AllowReuseInQuest
+      ALFG: 0
+      Location:
+        AliasID: 14
+        RefType: 1A174D:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: ContinueAddressTrigger
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 11
+    RefType: 19F835:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: HadrianShip
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 085FEA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 23
+    ReferenceAlias:
+      ID: 23
+      Name: NPCsToDisable
+      Flags:
+      - AllowDisabled
+      ALFG: 0
+      Location:
+        AliasID: 11
+        RefType: 04A45F:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: RecorderPlaybackMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 04A45E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: EmergencyRecording
+  Flags:
+  - Optional
+  - QuestObject
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: LondinionSpaceportGate
+  Flags:
+  - AllowReuseInQuest
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 1F7905:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: VVDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 18
+    RefType: 0ADE01:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: SS7FloorManager
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 18
+    RefType: 0E53C4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: VVIntercom
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 18
+    RefType: 0ADE1E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: PostQuestSlate
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 18
+    RefType: 03B6BF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 33
+  Name: HadriansShip_RHQ
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 34
+    RefType: 3CCCAF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 35
+  Name: VVCellDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 18
+    RefType: 2333D6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: SS7_CompanionWaitTrigger
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 18
+    RefType: 07828D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: EliteCrew
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - ExternalAliasLinked
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 25
+  VoiceTypes: Null

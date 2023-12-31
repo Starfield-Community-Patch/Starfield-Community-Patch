@@ -19,6 +19,8 @@ Name:
     String: 'Wieża Handlowa: apartament Bayu'
   - Language: Portuguese_Brazil
     String: 'Torre Comercial: Cobertura do Bayu'
+  - Language: ChineseSimplified
+    String: 贸易大楼：巴尤的顶层公寓
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -972,3 +974,4 @@ Traversals:
   To: -21.065685, 174.46136, 369.5309
   UnknownVector: 1.9386144, 7.783757, 1.3267035
   Unknown: 0xF544F54451345242
+NumTraversalFluffBytes: 740

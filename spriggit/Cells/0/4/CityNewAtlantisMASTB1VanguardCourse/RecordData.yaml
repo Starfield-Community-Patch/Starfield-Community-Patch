@@ -19,6 +19,8 @@ Name:
     String: Centrum egzaminacyjne Gwardii
   - Language: Portuguese_Brazil
     String: Centro de Exames da Vanguarda
+  - Language: ChineseSimplified
+    String: 先锋队考试中心
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -5851,3 +5853,4 @@ Traversals:
   To: -48.64559, 20.529198, -108.90001
   UnknownVector: 2.6664166, 0.71850336, 0.2632122
   Unknown: 0xF137F1377038493F
+NumTraversalFluffBytes: 4636

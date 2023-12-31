@@ -1,0 +1,38 @@
+FormKey: 330386:Starfield.esm
+Flags:
+  Flags:
+  - Random
+DialogGroup: 330385:Starfield.esm
+Responses:
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 5336625
+  TROTs:
+  - UnknownVoiceType: 01E25A:Starfield.esm
+    UnknownFloat: 10.000001
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Jaja ...
+    - Language: English
+      String: Yes, yes...
+    - Language: Spanish
+      String: Sí, sí...
+    - Language: French
+      String: Ouais, ouais...
+    - Language: Italian
+      String: Sì, sì...
+    - Language: Japanese
+      String: ああ、またか…
+    - Language: Polish
+      String: Tak, tak...
+    - Language: Portuguese_Brazil
+      String: Vai lá.
+    - Language: ChineseSimplified
+      String: 好，好……
+  ScriptNotes: dismissive goodbye
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x70D12747313AD801
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -19,6 +19,8 @@ Name:
     String: Mieszkanie kolumnowe I
   - Language: Portuguese_Brazil
     String: Pilha I do Apartamento
+  - Language: ChineseSimplified
+    String: 堆栈公寓I
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -164,3 +166,4 @@ Traversals:
   To: 0.71898496, -14.55184, 0.16556996
   UnknownVector: 3.0103579, 5.2292414, 1.0484529
   Unknown: 0x303E303ECA397C3C
+NumTraversalFluffBytes: 96

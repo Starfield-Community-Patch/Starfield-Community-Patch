@@ -1,0 +1,80 @@
+FormKey: 32C7CA:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 2708698
+  TRDAUnknown: 9.033334
+  TROTs:
+  - UnknownVoiceType: 15636D:Starfield.esm
+    UnknownFloat: 4.9333334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Okay ... kein Kopfgeld. Aber steck die Waffe trotzdem weg, klar?
+    - Language: English
+      String: Alright... you don't have a bounty, but put that weapon away, will you?
+    - Language: Spanish
+      String: Vale... no estás en busca y captura, pero guarda el arma, ¿quieres?
+    - Language: French
+      String: OK. Pas de prime sur votre tête, mais rangez cette arme, vous voulez bien ?
+    - Language: Italian
+      String: OK... non hai una taglia, ma metti via quell’arma, OK?
+    - Language: Japanese
+      String: よし… あなたには賞金がかかってない。でも武器をしまってくれる？
+    - Language: Polish
+      String: W porządku. Nie ma nagrody za twoją głowę, ale odłóż tę broń, dobrze?
+    - Language: Portuguese_Brazil
+      String: Ok... Não tem recompensa pela sua cabeça, mas deixa a arma de lado, tá?
+    - Language: ChineseSimplified
+      String: 好吧……你头上没有悬赏，但能不能请你把武器收起来？
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x20C15D009038D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: QuestAlias
+    Unknown3: 1
+    FirstParameter: 26FDEA:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 05BD93:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0638E5:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 26FDEA:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetCrimeGoldConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 26310C:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+StartScenePhase: ''
+SubtitlePriority: Low

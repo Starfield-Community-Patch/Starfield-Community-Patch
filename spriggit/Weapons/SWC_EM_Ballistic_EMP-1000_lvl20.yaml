@@ -23,6 +23,8 @@ Name:
     String: Tłumik szerokopasmowy EMP-1000
   - Language: Portuguese_Brazil
     String: Supr. banda larga EMP-1000
+  - Language: ChineseSimplified
+    String: EMP-1000宽频抑制器
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -38,7 +40,7 @@ SightedTransitionSeconds: 0.25
 AimDownSightTemplate: 04B246:Starfield.esm
 AimModel: 1818D5:Starfield.esm
 AccuracyBonus: 5
-AmmoType: 2184B9:Starfield.esm
+AmmoType: 2184C0:Starfield.esm
 ProjectilesCount: 1
 WAM2Unknown1: 1
 MeleeOrCreature: {}
@@ -86,7 +88,27 @@ WGENUnknown1: 12
 BaseWeight: 3
 BaseSpeed: 1
 AttackOxygenCost: 150
-General: "ó\x05\0"
+General:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: '[EM]'
+  - Language: English
+    String: EM
+  - Language: Spanish
+    String: EM
+  - Language: French
+    String: EM
+  - Language: Italian
+    String: EM
+  - Language: Japanese
+    String: EM
+  - Language: Polish
+    String: EM
+  - Language: Portuguese_Brazil
+    String: EM
+  - Language: ChineseSimplified
+    String: 电磁
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

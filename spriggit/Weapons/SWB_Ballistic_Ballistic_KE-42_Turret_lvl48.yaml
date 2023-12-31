@@ -1,0 +1,130 @@
+FormKey: 14A8D5:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: SWB_Ballistic_Ballistic_KE-42_Turret_lvl48
+StarfieldMajorRecordFlags:
+- NotPlayable
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Kanonengeschütz KE-42A
+  - Language: English
+    String: KE-42 cannon turret
+  - Language: Spanish
+    String: Torreta de cañones KE-42
+  - Language: French
+    String: Tourelle à canon KE-42
+  - Language: Italian
+    String: Torretta cannone KE-42
+  - Language: Japanese
+    String: KE-42キャノンタレット
+  - Language: Polish
+    String: Wieżyczka z działkiem KE-42
+  - Language: Portuguese_Brazil
+    String: Torreta canhão KE-42
+  - Language: ChineseSimplified
+    String: KE-42加农炮塔
+Model:
+  FLLD: 0x01000000
+EquipmentType: 000046:Starfield.esm
+BlockBashImpactDataSet: 056A91:Starfield.esm
+Keywords:
+- 022269:Starfield.esm
+- 219A31:Starfield.esm
+- 249FB6:Starfield.esm
+- 32792C:Starfield.esm
+Description:
+  TargetLanguage: English
+EmbeddedWeaponMod: Null
+SightedTransitionSeconds: 0.25
+AimDownSightTemplate: 04B246:Starfield.esm
+AimModel: 13C234:Starfield.esm
+AccuracyBonus: 5
+AmmoType: 22F51C:Starfield.esm
+ProjectilesCount: 1
+WAM2Unknown1: 1
+MeleeOrCreature: {}
+PrimedExplosive: {}
+DryFire: {}
+Idle: {}
+Equip: {}
+Unequip: {}
+FastEquip: {}
+SoundLevel: Silent
+WAUDUnknown2: 3
+WTUR: 0x01000034C200003442000070C20000A0400000B4420000B4420000803F
+ChargeCritBonus: 1
+AttackDamage: 45
+MinRange: 1000
+MaxRange: 1500
+OutOfRangeDamageMult: 0.5
+CritDamageMult: 2
+CriticalHitSpell: 02A6FD:Starfield.esm
+WDMGUnknown4: 1
+WDMGUnknown5: 1
+WDMGUnknown6: 1
+WDMGUnknown7: 1
+WDMGUnknown8: 1
+WDMGUnknown9: 1
+CritChanceIncMult: 1
+DamageTypes:
+- DamageType: 01EDE8:Starfield.esm
+  Value: 14
+RepeatableFire: True
+AttackSeconds: 4
+AttackDelaySeconds: 0.4
+DisableShellCaseEject: True
+ShotsPerSecond: 2.5
+WFIRUnknown7: 0.4
+OverrideRateOfFire: True
+TriggerThresholdPrimaryTrigger: 0.33
+TriggerThresholdSecondStage: 0.33
+HasStagedTrigger: True
+BurstDelaySeconds: 0.3
+NonPlayable: True
+CannotDrop: True
+WFLGUnknown4: True
+WGENUnknown1: 12
+BaseWeight: 3
+BaseSpeed: 1
+AttackOxygenCost: 75
+General:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: BAL
+  - Language: English
+    String: BAL
+  - Language: Spanish
+    String: BAL
+  - Language: French
+    String: BAL
+  - Language: Italian
+    String: BAL
+  - Language: Japanese
+    String: BAL
+  - Language: Polish
+    String: BAL
+  - Language: Portuguese_Brazil
+    String: BAL
+  - Language: ChineseSimplified
+    String: 弹道
+WMELUnknown1: 2
+MeleeReach: 1
+MeleeStagger: Medium
+PowerRechargeTime: 0.4
+UsePower: True
+QNAMUnknown5: 1
+ReloadSpeed: 1
+FirstPersonModel:
+  File: ''
+  FLLD: 0x01000000
+ImpactDataSet: 137372:Starfield.esm
+ColorRemappingIndex: 3.4028235E+38
+WTRMUnknown1: 30
+WTRMUnknown3: 0.3
+WTRMUnknown4: 0.5
+WTRMUnknown5: 50
+MajorFlags:
+- NonPlayable

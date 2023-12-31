@@ -138,6 +138,8 @@ Name:
     String: Światełko w ciemności
   - Language: Portuguese_Brazil
     String: Uma Luz da Escuridão
+  - Language: ChineseSimplified
+    String: 黑暗中的光芒
 Data:
   Flags:
   - RunOnce
@@ -196,6 +198,8 @@ Stages:
         String: Nieznajomy chce ze mną porozmawiać. Zobaczę, co ma mi do powiedzenia.
       - Language: Portuguese_Brazil
         String: Um estranho quer falar comigo. Vou ver o que ele tem a dizer.
+      - Language: ChineseSimplified
+        String: 一个陌生人想要和我聊聊，我应该听听他要说什么。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -223,6 +227,8 @@ Stages:
         String: Nadia Muffaz gromadzi informacje dla ZUinfo. Szuka wieści o ataku na Vecterę i jest gotowa za nie zapłacić.
       - Language: Portuguese_Brazil
         String: Nadia Muffaz é uma pesquisadora para a ANSC. Ela está buscando informações sobre o ataque em Vectera e está disposta a pagar por elas.
+      - Language: ChineseSimplified
+        String: 纳迪亚·穆法茨是定居新闻台的研究员，她正在搜寻有关维特拉星袭击的消息，就算要花钱也没问题。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -250,6 +256,8 @@ Stages:
         String: ZUinfo jest głównym źródłem wiadomości w Zasiedlonych Układach. Kierowniczka ich działu gromadzenia informacji, Nadia Muffaz, dobrze mi zapłaci za historie, których doświadczę podczas swoich podróży.
       - Language: Portuguese_Brazil
         String: A ANSC é a principal rede de notícias dos Sistemas Colonizados. Nadia Muffaz, sua líder de pesquisa, está disposta a pagar bem por histórias que eu venha a encontrar nas minhas jornadas.
+      - Language: ChineseSimplified
+        String: 定居新闻台是定居星系群的主要新闻媒体，他们的首席研究员纳迪亚·穆法茨，愿意花一大笔钱，购买我在旅程中可能会碰到的故事。
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -864,6 +872,8 @@ Stages:
         String: Jestem po ostatnim wywiadzie dla ZUinfo i Nadii Muffaz. Dała mi niezłą premię za pomoc.
       - Language: Portuguese_Brazil
         String: Fiz minha última entrevista com a ANSC e Nadia Muffaz. Ela me deu um bom bônus em troca da minha ajuda.
+      - Language: ChineseSimplified
+        String: 我完成了自己与定居新闻台和纳迪亚·穆法茨的最后一次采访，为了感谢我的帮助，纳迪亚给了我一笔可观的奖金。
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -903,6 +913,8 @@ Objectives:
       String: Porozmawiaj z Tommym Bitlowem
     - Language: Portuguese_Brazil
       String: Fale com Tommy Bitlow
+    - Language: ChineseSimplified
+      String: 与托米·比特鲁交谈
   Targets:
   - AliasID: 2
 - Index: 25
@@ -926,6 +938,8 @@ Objectives:
       String: Porozmawiaj z Nadią Muffaz
     - Language: Portuguese_Brazil
       String: Fale com Nadia Muffaz
+    - Language: ChineseSimplified
+      String: 与纳迪亚·穆法茨交谈
   Targets:
   - {}
 - Index: 50
@@ -949,6 +963,8 @@ Objectives:
       String: Znajdź nowe materiały dla ZUinfo
     - Language: Portuguese_Brazil
       String: Encontre novas histórias para a ANSC
+    - Language: ChineseSimplified
+      String: 为定居新闻台寻找新报道
 - Index: 100
   Flags: []
   DisplayText:
@@ -970,6 +986,8 @@ Objectives:
       String: Przekaż wieści o ataku na kopalnię na Vecterze
     - Language: Portuguese_Brazil
       String: Relate sobre o ataque nas minas em Vectera
+    - Language: ChineseSimplified
+      String: 播送关于维特拉星矿场袭击的新闻
   Targets:
   - {}
 - Index: 200
@@ -993,6 +1011,8 @@ Objectives:
       String: Przekaż wieści o Scowie i kapitanie Petrowie
     - Language: Portuguese_Brazil
       String: Relate sobre a Barcaça e o comandante Petrov
+    - Language: ChineseSimplified
+      String: 播送关于方驳号与彼得罗夫船长的新闻
   Targets:
   - {}
 - Index: 300
@@ -1016,6 +1036,8 @@ Objectives:
       String: Przekaż wieści o napadzie na GalBank w Akili
     - Language: Portuguese_Brazil
       String: Relate sobre o roubo em GalBank na cidade de Akila
+    - Language: ChineseSimplified
+      String: 播送关于阿基拉城盖尔银行抢劫案的新闻
   Targets:
   - {}
 - Index: 400
@@ -1039,6 +1061,8 @@ Objectives:
       String: Przekaż wieści o ataku terrormorfów na Nową Atlantydę
     - Language: Portuguese_Brazil
       String: Relate sobre os terrormorfos em Nova Atlântida
+    - Language: ChineseSimplified
+      String: 播送关于骇变兽攻击新亚特兰蒂斯城的新闻
   Targets:
   - {}
 - Index: 500
@@ -1062,6 +1086,8 @@ Objectives:
       String: Przekaż wieści o śmierci Rona Hope’a
     - Language: Portuguese_Brazil
       String: Relate sobre a morte de Ron Hope
+    - Language: ChineseSimplified
+      String: 播送关于罗恩·霍普之死的新闻
   Targets:
   - {}
 - Index: 600
@@ -1085,6 +1111,8 @@ Objectives:
       String: Przekaż wieści o ataku SysObu na Klucz
     - Language: Portuguese_Brazil
       String: Relate sobre o ataque da DefSis na Chave
+    - Language: ChineseSimplified
+      String: 播送关于星防队进攻星钥站的新闻
   Targets:
   - {}
 - Index: 8000
@@ -1108,6 +1136,8 @@ Objectives:
       String: Porozmawiaj z Nadią Muffaz
     - Language: Portuguese_Brazil
       String: Fale com Nadia Muffaz
+    - Language: ChineseSimplified
+      String: 与纳迪亚·穆法茨交谈
   Targets:
   - {}
 Aliases:

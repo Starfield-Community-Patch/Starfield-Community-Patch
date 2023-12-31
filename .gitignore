@@ -3,4 +3,10 @@
 *.esp
 *.esl
 *.pex
+
+# Reallow spriggit folders with mod names in them
+!*.esm/
+!*.esp/
+!*.esl/
+
 Caprica.exe
