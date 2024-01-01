@@ -195,7 +195,7 @@ jobs:
     share-release:
       name: Share release
       needs: [package-mod]
-      if: ${{ inputs.publish-release == true }}
+      if: ${{ inputs.publish-release }}
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v4
