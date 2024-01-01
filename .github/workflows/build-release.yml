@@ -43,7 +43,9 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: Output Inputs
-          run: echo "${{ toJSON(github.event.inputs) }}"
+          run: |
+            echo "GitHub Event Inputs: ${{ toJSON(github.event.inputs) }}"
+            echo "Inputs: ${{ toJSON(inputs) }}"
         - name: Checkout
           uses: actions/checkout@v4
 
