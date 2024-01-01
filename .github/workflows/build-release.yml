@@ -226,7 +226,8 @@ jobs:
             makeLatest: true
             removeArtifacts: true
             replacesArtifacts: true
-            artifacts: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}
+            artifactErrorsFailBuild: true
+            artifacts: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
 
         - name: Remove temporary artifacts
           uses: geekyeggo/delete-artifact@v2
