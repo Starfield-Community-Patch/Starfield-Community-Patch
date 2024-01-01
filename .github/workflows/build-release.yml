@@ -223,7 +223,7 @@ jobs:
             body: 'Latest release of the patch. Changelog at https://www.starfieldpatch.dev/changelog'
             tag: ${{inputs.version || 'nightly'}}
             prerelease: true
-            makeLatest: true
+            makeLatest: false
             removeArtifacts: true
             replacesArtifacts: true
             artifactErrorsFailBuild: true
