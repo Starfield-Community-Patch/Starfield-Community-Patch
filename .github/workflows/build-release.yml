@@ -14,7 +14,7 @@ on:
         publish-release:
             description: Publish Release?
             type: boolean
-            default: true
+            default: 'true'
         spriggit_tool_version:
             description: Spriggit version (optional)
             required: false         
@@ -195,7 +195,7 @@ jobs:
     share-release:
       name: Share release
       needs: [package-mod]
-      if: ${{ inputs.publish-release }}
+      if: ${{ inputs.publish-release == 'true' }}
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v4
