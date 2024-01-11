@@ -7,6 +7,14 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
+## [TBC] Version 0.1.0
+This is the first version created entirely by Spriggit!
+### Dialogue Fixes
+- Fixed the IsRomantic condition being incorrectly reversed on Andreja's dialogue [000EBC65] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/811) - [Mod Page](https://www.nexusmods.com/starfield/mods/8044)
+- Fixed the quest stage condition being incorrectly reversed on Andreja's dialogue [000FC974] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/811) - [Mod Page](https://www.nexusmods.com/starfield/mods/8044)
+- Fixed multiple cases where Andreja's dialogue was incorrect setup as new INFOs rather than additional responses on one INFO [00230E1E] [00230DE8] [00230DFB] [00230DC1] [00230DFF] [001F3B65] [00237002] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/811) - [Mod Page](https://www.nexusmods.com/starfield/mods/8044)
+- Added a condition to the redundant INFOs to ensure they're not accessible [00230E1D] [00230DE7] [00230DFC] [00230DC0] [00230DFE] [00230E06] [00230E07] [00237003] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/811) - [Mod Page](https://www.nexusmods.com/starfield/mods/8044)
+
 ## [2023-12-21] Version 0.0.7
 ### Planet Fixes
 - Swapped keyword LocTypeSettledPlanet [KYWD:00062F2F] for LocQuestUCR03World [KYWD:001E79B7] on Europa so that is can be correctly used during radiant quests. [0001B747] - [Reported by aurreth](https://www.starfieldpatch.dev/issues/693) 
