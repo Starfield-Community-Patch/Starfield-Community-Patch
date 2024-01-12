@@ -1,0 +1,198 @@
+FormKey: 2BA8A8:Starfield.esm
+EditorID: RIR03_200_Guard_KeycardScene
+Flags:
+- Interruptable
+- DisableDialogueCamera
+- NoFollowerIdleChatter
+Phases:
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: Business Suit
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 00080A:StarfieldCommunityPatch.esm
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: Guard Uniform
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1DBE3C:Starfield.esm
+    ComparisonValue: 1
+  EditorWidth: 500
+- Name: Speech Challenge
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+Actors:
+- ID: 8
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 8
+  Index: 1
+  Flags: []
+  Topic: 2BA8FF:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 8
+  Index: 2
+  Flags: []
+  StartPhase: 4
+  EndPhase: 4
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 8
+  DialogueList:
+  - PlayerChoice: 2BA99A:Starfield.esm
+    NpcResponse: 2BAA31:Starfield.esm
+  - PlayerChoice: 2BA900:Starfield.esm
+    NpcResponse: 2BA986:Starfield.esm
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 8
+  Index: 3
+  Flags: []
+  StartPhase: 5
+  EndPhase: 5
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 8
+  DialogueList:
+  - PlayerChoice: 2BA99A:Starfield.esm
+    NpcResponse: 2BAB41:Starfield.esm
+  - PlayerChoice: 2BA900:Starfield.esm
+    NpcResponse: 2BAB35:Starfield.esm
+  ATTR: 0x02000000
+  ACBS: True
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 8
+  Index: 4
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 8
+  DialogueList:
+  - PlayerChoice: 1E7E07:Starfield.esm
+    NpcResponse: 1E7E08:Starfield.esm
+  - PlayerChoice: 1E7E09:Starfield.esm
+    NpcResponse: 1E7E0A:Starfield.esm
+  - PlayerChoice: 1E7E0B:Starfield.esm
+    NpcResponse: 1E7E0C:Starfield.esm
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 8
+  Index: 5
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 8
+  DialogueList:
+  - PlayerChoice: 1E7E1D:Starfield.esm
+    NpcResponse: 1E7E1E:Starfield.esm
+  - PlayerChoice: 1E7E1F:Starfield.esm
+    NpcResponse: 1E7E20:Starfield.esm
+  - PlayerChoice: 1E7E21:Starfield.esm
+    NpcResponse: 1E7E22:Starfield.esm
+  - PlayerChoice: 1E7E29:Starfield.esm
+    NpcResponse: 1E7E2A:Starfield.esm
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 8
+  Index: 7
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 8
+  DialogueList:
+  - PlayerChoice: 1E7E23:Starfield.esm
+    NpcResponse: 1E7E24:Starfield.esm
+  - PlayerChoice: 1E7E25:Starfield.esm
+    NpcResponse: 1E7E26:Starfield.esm
+  - PlayerChoice: 1E7E27:Starfield.esm
+    NpcResponse: 1E7E28:Starfield.esm
+- MutagenObjectType: PackageSceneAction
+  Name: ''
+  AliasID: 8
+  Index: 8
+  Flags: []
+  EndPhase: 5
+  Packages:
+  - 019AA2:Starfield.esm
+Quest: 2BABF3:Starfield.esm
+LastActionIndex: 8
+VNAM: 0x0300000003000000030000000300000000000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    FirstParameter: 8
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 2BABF3:Starfield.esm
+    SecondParameter: 200
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 2BABF3:Starfield.esm
+    SecondParameter: 210
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 2BABF3:Starfield.esm
+    SecondParameter: 220
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 2BABF3:Starfield.esm
+    SecondParameter: 300
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 1DBE3B:Starfield.esm
+  ComparisonValue: 1
+Notes: The player approaches a security chief to try and get their keycard. The player may be wearing a security uniform to try and help their situation.
+BOLV: '[]'
+Index: 200

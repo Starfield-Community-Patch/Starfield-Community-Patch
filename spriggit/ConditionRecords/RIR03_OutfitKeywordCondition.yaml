@@ -1,0 +1,94 @@
+FormKey: 1DBE3B:Starfield.esm
+EditorID: RIR03_OutfitKeywordCondition
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 2BA8A7:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 2B55A6:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 2BA8A6:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1DBE39:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1DBE3A:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 2871C5:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 2871C6:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 2871C4:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 000809:StarfieldCommunityPatch.esm
+  ComparisonValue: 1
+Quest: 2BABF3:Starfield.esm

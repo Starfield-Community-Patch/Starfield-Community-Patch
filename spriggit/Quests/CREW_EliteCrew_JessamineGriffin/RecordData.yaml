@@ -1,0 +1,296 @@
+FormKey: 1D8AE3:Starfield.esm
+EditorID: CREW_EliteCrew_JessamineGriffin
+VirtualMachineAdapter:
+  Scripts:
+  - Name: Crew_EliteCrewQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CrewMember
+      Object: 1D8AE3:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_RecruitCost_TextReplacementValue
+      Object: 27072B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_HireSpeechChallengeAttempted
+      Object: 2636B7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TRAIT_Taskmaster
+      Object: 227FE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 0174A2:Starfield.esm
+      Alias: 0
+  Script:
+    Name: Fragments:Quests:QF_CREW_EliteCrew_JessamineG_001D8AE3
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialCrewFaction
+      Object: 0143A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Jessamine
+      Object: 1D8AE3:Starfield.esm
+      Alias: 0
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_JessamineG_001D8AE3
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_JessamineG_001D8AE3
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_JessamineG_001D8AE3
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_JessamineG_001D8AE3
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_JessamineG_001D8AE3
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_JessamineG_001D8AE3
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 100
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_JessamineG_001D8AE3
+    FragmentName: Fragment_Stage_0100_Item_01
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Jessamine Griffin
+  - Language: English
+    String: Jessamine Griffin
+  - Language: Spanish
+    String: Jessamine Griffin
+  - Language: French
+    String: Jessamine Griffin
+  - Language: Italian
+    String: Jessamine Griffin
+  - Language: Japanese
+    String: ジェサミン・グリフィン
+  - Language: Polish
+    String: Jessamine Griffin
+  - Language: Portuguese_Brazil
+    String: Jessamine Griffin
+  - Language: ChineseSimplified
+    String: 杰萨敏·格弗林
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 50
+  Unused: 0x000000
+TextDisplayGlobals:
+- 27072B:Starfield.esm
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17624
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 1D8990:Starfield.esm
+  ComparisonValue: 1
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG STAGE
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jessamine recruitable as crew
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 01535A:Starfield.esm
+      ComparisonValue: 1
+    Note: Met Jessamine
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jessamine was met on the Key
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jessamine told the player she is moving to Gagarin
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 014312:Starfield.esm
+    Note: Jessamine Griffin Hired
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 227FE0:Starfield.esm
+    Note: Discount Speech Challenge Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 227FE0:Starfield.esm
+      ComparisonValue: 1
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Discount Speech Challenge Failure
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Gang and smuggling career info toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player played through smuggling TL once
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: More about Caitlyn info toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player played through Caitlin TL once
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player said they'd fight the Zealots
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player said they'd leave the Zealots alone
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player can unlock time-locked TL
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: JessamineGriffin
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 1D8990:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: ActiveCompanion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: ActiveEliteCrew
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567D:Starfield.esm
+    AliasID: 30
+  VoiceTypes: Null

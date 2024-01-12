@@ -1,0 +1,49 @@
+FormKey: 230E1D:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0C866C:Starfield.esm
+  WEMFile: 8987927
+  TRDAUnknown: 0.53333336
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Das hat mir all die Jahre über den Weg gewiesen. Ganz gleich, was früher war, nun ist die Constellation mein Sinn.
+    - Language: English
+      String: That has guided me throughout my years. No matter what it was in the past, Constellation is now my purpose.
+    - Language: Spanish
+      String: Eso es lo que me ha guiado. El pasado no importa, ahora mi propósito es Constelación.
+    - Language: French
+      String: Ce principe m'a toujours guidé. Peu importe mon passé, Constellation est mon but dans la vie désormais.
+    - Language: Italian
+      String: È ciò che mi ha guidato negli anni. Adesso non importa quale fosse in passato. Ora il mio scopo è Constellation.
+    - Language: Japanese
+      String: 長年その指針に従ってきた。過去に何があったにせよ、今はコンステレーションが私の目的なの
+    - Language: Polish
+      String: To kierowało mną przez lata. Cokolwiek by się nie wydarzyło w przeszłości, teraz to Konstelacja jest moim celem.
+    - Language: Portuguese_Brazil
+      String: Isso me guiou ao longo dos anos. Não importa como as coisas eram no passado, a Constelação agora é o meu propósito.
+    - Language: ChineseSimplified
+      String: 多年以来，那个理念一直指引着我。无论过去发生过什么事，群星组织就是我现在的目标。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x70BD98EED47FD601
+  BNAM: 234A9B:Starfield.esm
+  STRV: $(Subgraph)\Relaxed_Talk_L02.af
+  VCLR: Null
+  FLMV: 0x00000000
+  FLAV: 0x00000000
+  QUAL: True
+  LVCR: 0
+  ATAC: 0x00000000
+  XNAM: True
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 036E00:Starfield.esm
+  ComparisonValue: 1234
+StartScenePhase: ''
+SubtitlePriority: Low

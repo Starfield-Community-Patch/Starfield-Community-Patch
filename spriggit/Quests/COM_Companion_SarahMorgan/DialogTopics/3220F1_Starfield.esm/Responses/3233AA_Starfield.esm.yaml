@@ -1,0 +1,52 @@
+FormKey: 3233AA:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 7229602
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Falls das so eine Art „To-Do-Liste“ ist, würde ich mir nicht den Kopf darüber zerbrechen.
+    - Language: English
+      String: If it's some sort of "to-do list," I wouldn't worry so much.
+    - Language: Spanish
+      String: Si es como una lista de tareas pendientes, yo no me preocuparía.
+    - Language: French
+      String: Si c'est une sorte de “liste de choses à faire”, je ne m'en inquiéterais pas trop.
+    - Language: Italian
+      String: È una specie di elenco di cose da fare, non me ne preoccuperei troppo.
+    - Language: Japanese
+      String: 「やることリスト」なら心配しなくていいと思う
+    - Language: Polish
+      String: Jeśli to jakaś lista rzeczy do zrobienia, to radzę się tym nie przejmować.
+    - Language: Portuguese_Brazil
+      String: Se é algum tipo de lista de afazeres, não me preocuparia tanto.
+    - Language: ChineseSimplified
+      String: 如果内容是什么“待办事项”的话，那我觉得不用太放在心上。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x306FBCA93D33D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    Unknown3: 0
+    FirstParameter: 3261341
+  ComparisonValue: 3
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1D7053:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low
+Perk: 1D7053:Starfield.esm

@@ -1,0 +1,649 @@
+FormKey: 1B6246:Starfield.esm
+EditorID: FFKeyZ02
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_FFKeyZ02_001B6246
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01Evidence
+      Object: 1B6246:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GennadyStartMarker
+      Object: 1B6246:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MedicalSupplies_Container
+      Object: 1B6246:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SaminaStartMarker
+      Object: 1B6246:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SuppliesStartMarker
+      Object: 1B6246:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SupplyStorageKey
+      Object: 1B6246:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TheClinicMapMarker
+      Object: 1B6246:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_Main
+      Object: 178B1E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCFTheKey
+      Object: 015358:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionCrimsonFleetPerk
+      Object: 1C5151:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFKeyZ02_MedicalSupplies
+      Object: 1B6159:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gennady
+      Object: 14A813:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC082
+      Object: 2BF365:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 66
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0066_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0190_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 10000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_10000_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1B6246:Starfield.esm
+      Alias: 1
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 1B6246:Starfield.esm
+      Alias: 2
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 300
+  - Property:
+      Name: ''
+      Object: 1B6246:Starfield.esm
+      Alias: 7
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 40
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ärztliche Anordnungen
+  - Language: English
+    String: Doctor's Orders
+  - Language: Spanish
+    String: Órdenes de la doctora
+  - Language: French
+    String: Ordres du docteur
+  - Language: Italian
+    String: Ordini del medico
+  - Language: Japanese
+    String: 医師の指示
+  - Language: Polish
+    String: Lekarskie zamówienie
+  - Language: Portuguese_Brazil
+    String: Ordens Médicas
+  - Language: ChineseSimplified
+    String: 博士的命令
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 35
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+QuestFaction: 0546E0:Starfield.esm
+TextDisplayGlobals:
+- 275225:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Debug: Samina Start'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Debug: Speak to Gennady Ayton at the Clinic'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Debug: Get the Medical Supplies'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Debug: Return to Samina at the Key'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Supply Key Taken
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x554C4C
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 1B6246:Starfield.esm
+        SecondParameter: 40
+    Note: Gennady dies
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 66
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Note: Fail quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Speak to Gennady Ayton at the Clinic'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich muss Gennady Ayton in der Klinik finden und mit ihm sprechen, um das medizinische Material zu besorgen, das Samina braucht.
+      - Language: English
+        String: I need to find and speak with Gennady Ayton at the Clinic to retrieve the medical supplies that Samina asked for.
+      - Language: Spanish
+        String: Tengo que encontrar a Gennady Ayton en la Clínica y hablar con él para recuperar los suministros médicos que pidió Samina.
+      - Language: French
+        String: Je dois trouver et parler à Gennady Ayton à la Clinique pour récupérer le matériel médical demandé par Samina.
+      - Language: Italian
+        String: Devo trovare Gennady Ayton alla Clinica e parlare con lui per recuperare le scorte mediche che Samina mi ha chiesto.
+      - Language: Japanese
+        String: クリニックでゲナディ・アイトンを見つけて話し、サミナに頼まれている医療物資を手に入れよう
+      - Language: Polish
+        String: Muszę znaleźć Giennadija Ajtona w Klinice i porozmawiać z nim, żeby zdobyć zapasy medyczne, o które prosiła Samina.
+      - Language: Portuguese_Brazil
+        String: Preciso encontrar e falar com Gennady Ayton na Clínica para recuperar os suprimentos médicos que Samina pediu.
+      - Language: ChineseSimplified
+        String: 我得去星际诊所号找根纳季·艾顿。他有萨米纳需要的医疗物资。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Gennady SC: Win'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 155
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Gennady SC: Lose'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 190
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Key via bribe option
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Get the Medical Supplies'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich muss den Behälter neben einem Vorratslager in der Nähe finden, in dem Gennady das medizinische Material verstaut hat.
+      - Language: English
+        String: I need to find the container next to a nearby supply closet where Gennady has stashed the medical supplies.
+      - Language: Spanish
+        String: Tengo que encontrar un contenedor que hay junto a un armario de suministros cercano donde Gennady tiene guardados los suministros médicos.
+      - Language: French
+        String: Je dois trouver le conteneur à côté du placard à fournitures dans lequel Gennady a rangé le matériel médical.
+      - Language: Italian
+        String: Devo trovare il contenitore in cui Gennady ha riposto le scorte mediche, si trova vicino un armadietto di scorte.
+      - Language: Japanese
+        String: ゲナディが医療物資を隠した保管庫が近くにある。その横のコンテナを探さそう
+      - Language: Polish
+        String: Muszę znaleźć znajdujący się w pobliskim magazynku pojemnik, w którym Giennadij trzyma zapasy medyczne.
+      - Language: Portuguese_Brazil
+        String: Preciso encontrar o contêiner ao lado de um armário de suprimentos aqui perto, onde Gennady guardou os suprimentos médicos.
+      - Language: ChineseSimplified
+        String: 根纳季把医疗物资藏在了物资柜旁边的一个箱子里。我得找到这个容器。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 240
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player threatened Gennady
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player had to get supplies on their own
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 255
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player got supplies the second time
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Return to Samina at the Key'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Nun, da ich das medizinische Material habe, sollte ich zu Samina auf dem Schlüssel zurückkehren.
+      - Language: English
+        String: Now that I have the medical supplies, I need to return to Samina at the Key.
+      - Language: Spanish
+        String: Ahora que he conseguido los suministros médicos, tengo que volver con Samina a la Llave.
+      - Language: French
+        String: Maintenant que j'ai récupéré le matériel médical, je dois retourner voir Samina à bord de la Clé.
+      - Language: Italian
+        String: Ora che ho le scorte mediche, devo tornare da Samina alla Chiave.
+      - Language: Japanese
+        String: 医療物資が手に入った。〈キー〉のサミナのところへ戻ろう
+      - Language: Polish
+        String: Skoro mam już zapasy medyczne, muszę wrócić do Saminy na Kluczu.
+      - Language: Portuguese_Brazil
+        String: Agora que estou com os suprimentos médicos, preciso voltar para falar com Samina na Chave.
+      - Language: ChineseSimplified
+        String: 我已经找到医疗物资了。我现在该返回星钥站去找萨米纳了。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Remove the medical supplies
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Complete Quest
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe dringend benötigtes medizinisches Material gefunden und zu Samina gebracht.
+      - Language: English
+        String: I found and delivered some desperately needed medical supplies to Samina.
+      - Language: Spanish
+        String: He encontrado suministros médicos y se los he enviado a Samina, ya que los necesitaba urgentemente.
+      - Language: French
+        String: J'ai trouvé et rapporté à Samina le matériel médical dont elle avait désespérément besoin.
+      - Language: Italian
+        String: Ho trovato e consegnato delle scorte mediche disperatamente necessarie a Samina.
+      - Language: Japanese
+        String: 差し迫って必要な医療物資を見つけ出し、サミナに届けた
+      - Language: Polish
+        String: Udało mi się znaleźć niezbędne zapasy medyczne i dostarczyć je Saminie.
+      - Language: Portuguese_Brazil
+        String: Encontrei e entreguei alguns suprimentos médicos extremamente necessários a Samina.
+      - Language: ChineseSimplified
+        String: 我找到了萨米纳急需的物资，我已经把物资送过去了。
+    StageCompleteDatas:
+    - QSRD: 0x02000000
+      RewardDatas:
+      - XpAwarded: 0DF3E7:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0F:Starfield.esm
+          Count: 1
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: GetStageDoneConditionData
+            FirstParameter: 1B6246:Starfield.esm
+            SecondParameter: 50
+          ComparisonValue: 1
+      - XpAwarded: 23DF34:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B10:Starfield.esm
+          Count: 1
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: GetStageDoneConditionData
+            FirstParameter: 1B6246:Starfield.esm
+            SecondParameter: 50
+    - QSRD: '[]'
+Objectives:
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Beschaffe den Schlüssel für das Vorratslager.
+    - Language: English
+      String: Retrieve the Supply Storage Key
+    - Language: Spanish
+      String: Recupera la llave del almacén de suministros.
+    - Language: French
+      String: Récupérez la clé de la réserve.
+    - Language: Italian
+      String: Recupera la chiave del deposito
+    - Language: Japanese
+      String: 物資保管庫の鍵を入手する
+    - Language: Polish
+      String: Zdobądź klucz do skrzyni z zapasami
+    - Language: Portuguese_Brazil
+      String: Recupere a Chave do Depósito de Suprimentos
+    - Language: ChineseSimplified
+      String: 取回物资仓库钥匙
+  Targets:
+  - AliasID: 7
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Gennady Ayton in der Klinik.
+    - Language: English
+      String: Speak to Gennady Ayton at the Clinic
+    - Language: Spanish
+      String: Habla con Gennady Ayton en la Clínica.
+    - Language: French
+      String: Parlez à Gennady Ayton à la Clinique.
+    - Language: Italian
+      String: Parla con Gennady Ayton alla Clinica
+    - Language: Japanese
+      String: クリニックでゲナディ・アイトンと話す
+    - Language: Polish
+      String: Porozmawiaj z Giennadijem Ajtonem w Klinice
+    - Language: Portuguese_Brazil
+      String: Fale com Gennady Ayton na Clínica
+    - Language: ChineseSimplified
+      String: 去星际诊所号找根纳季·艾顿
+  Targets:
+  - AliasID: 1
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Besorge das medizinische Material.
+    - Language: English
+      String: Get the Medical Supplies
+    - Language: Spanish
+      String: Coge los suministros médicos.
+    - Language: French
+      String: Obtenez le matériel médical.
+    - Language: Italian
+      String: Ottieni le scorte mediche
+    - Language: Japanese
+      String: 医療物資を手に入れる
+    - Language: Polish
+      String: Zdobądź zapasy medyczne
+    - Language: Portuguese_Brazil
+      String: Pegue os suprimentos médicos
+    - Language: ChineseSimplified
+      String: 取得医疗补给
+  Targets:
+  - AliasID: 2
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kehre zu Samina auf dem Schlüssel zurück.
+    - Language: English
+      String: Return to Samina at the Key
+    - Language: Spanish
+      String: Vuelve con Samina, en la Llave.
+    - Language: French
+      String: Retournez voir Samina sur la Clé.
+    - Language: Italian
+      String: Torna da Samina alla Chiave
+    - Language: Japanese
+      String: 〈キー〉にいるサミナのところに戻る
+    - Language: Polish
+      String: Wróć do Saminy na Kluczu
+    - Language: Portuguese_Brazil
+      String: Volte para falar com Samina na Chave
+    - Language: ChineseSimplified
+      String: 返回星钥站找萨米纳
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Samina
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ALFG: 0
+  UniqueActor: 22EEEB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: SaminaStartMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1B6140:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 14
+  Name: Location_TheClinicExterior
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  SpecificLocation: 1DE8C0:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 6
+  Name: Location_TheClinic
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  SpecificLocation: 1E427B:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: TheClinicMapMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 14
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Gennady
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ALFG: 0
+  UniqueActor: 14A813:Starfield.esm
+  PackageData:
+  - 1B614B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: GennadyStartMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1B614C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: GennadyFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 1B614F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: SuppliesStartMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1B613E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: MedicalSuppliesContainer
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 1B6152:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: MedicalSuppliesCrate
+  Flags:
+  - QuestObject
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 1B6159:Starfield.esm
+    AliasID: 5
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: SupplyStorageKey
+  Flags:
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 1B6151:Starfield.esm
+    AliasID: 1
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: CFSD01Evidence
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 13D673:Starfield.esm
+  VoiceTypes: Null

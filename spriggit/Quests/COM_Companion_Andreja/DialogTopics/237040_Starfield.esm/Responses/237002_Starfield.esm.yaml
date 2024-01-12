@@ -1,0 +1,66 @@
+FormKey: 237002:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 18E864:Starfield.esm
+  WEMFile: 1073252
+  TRDAUnknown: 0.10000001
+  TROTs:
+  - UnknownVoiceType: 0059A6:Starfield.esm
+    UnknownFloat: 8.8
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Es geht mich wohl wirklich nichts an.
+    - Language: English
+      String: No, I suppose it is not.
+    - Language: Spanish
+      String: No, supongo que no.
+    - Language: French
+      String: Non, c'est sans doute vrai.
+    - Language: Italian
+      String: No, immagino di no.
+    - Language: Japanese
+      String: ええ、確かにそうね
+    - Language: Polish
+      String: Nie, chyba nie.
+    - Language: Portuguese_Brazil
+      String: É, acho que não.
+    - Language: ChineseSimplified
+      String: 你说得对。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x40D6A721787AD601
+- Emotion: 118A4D:Starfield.esm
+  WEMFile: 8843050
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ich versichere dir erneut, dass ich dir kein Unbehagen bereiten will.
+    - Language: English
+      String: Again, I assure you I am not trying to make you uncomfortable.
+    - Language: Spanish
+      String: Vuelvo a decirte que no pretendo incomodarte.
+    - Language: French
+      String: Promis, je vous jure que je n'essaie pas de vous mettre mal à l'aise.
+    - Language: Italian
+      String: Ripeto, ti assicuro che non sto cercando di metterti a disagio.
+    - Language: Japanese
+      String: 私はあなたにばつの悪い思いをさせたいわけじゃないの
+    - Language: Polish
+      String: Zapewniam cię, że nie chcę sprawiać ci przykrości.
+    - Language: Portuguese_Brazil
+      String: 'Vou repetir: juro que não estou tentando te deixar desconfortável.'
+    - Language: ChineseSimplified
+      String: 我再重申一遍，我并没有想让你觉得不舒服。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xF0DC7416787AD601
+SetParentQuestStage:
+  OnBegin: 62
+  OnEnd: -1
+StartScenePhase: ''
+SubtitlePriority: Low

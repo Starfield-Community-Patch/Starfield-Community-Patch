@@ -1,0 +1,52 @@
+FormKey: 323391:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 7614870
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Die UC haben dir nicht umsonst eine Medaille gegeben.
+    - Language: English
+      String: The UC awarded you a medal for a reason.
+    - Language: Spanish
+      String: Las CU no te concedieron una medalla porque sí.
+    - Language: French
+      String: L'UC vous a décerné une médaille pour une bonne raison.
+    - Language: Italian
+      String: C’è un motivo se l’UC ti ha dato una medaglia.
+    - Language: Japanese
+      String: UCがあんたに勲章を授与したのは理由がある
+    - Language: Polish
+      String: ZK nie wręczyły ci medalu bez powodu.
+    - Language: Portuguese_Brazil
+      String: A UC te concedeu uma medalha por um motivo.
+    - Language: ChineseSimplified
+      String: 联殖授予你勋章是有理由的。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x70271FF64033D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    Unknown3: 0
+    FirstParameter: 3261341
+  ComparisonValue: 4
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1D7053:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low
+Perk: 1D7053:Starfield.esm

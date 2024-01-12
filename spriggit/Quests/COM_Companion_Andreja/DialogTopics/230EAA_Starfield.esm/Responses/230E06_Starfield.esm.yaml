@@ -1,0 +1,40 @@
+FormKey: 230E06:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 18E863:Starfield.esm
+  WEMFile: 5185156
+  TRDAUnknown: 0.06666667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sie hat sich nicht eingemischt und hat versprochen, es niemandem zu sagen.
+    - Language: English
+      String: She made no attempt to interfere, and promised not to tell the others.
+    - Language: Spanish
+      String: No quiso interferir y prometió que no se lo contaría a nadie.
+    - Language: French
+      String: Elle n'a jamais tenté d'interférer et a promis de n'en parler à personne.
+    - Language: Italian
+      String: Non tentò di interferire e mi promise che non avrebbe detto nulla agli altri.
+    - Language: Japanese
+      String: サラは邪魔しようとはしなかったし、他のメンバーには話さないと言ってくれた
+    - Language: Polish
+      String: Nie próbowała mi tego uniemożliwiać i obiecała, że nie powie innym.
+    - Language: Portuguese_Brazil
+      String: Ela não tentou interferir e prometeu não contar para os outros.
+    - Language: ChineseSimplified
+      String: 她不会干涉我的行动，并且保证不会向别人泄我的底。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x404376FF7C84D601
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 036E00:Starfield.esm
+  ComparisonValue: 1234
+StartScenePhase: ''
+SubtitlePriority: Low

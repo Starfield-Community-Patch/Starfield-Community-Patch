@@ -1,0 +1,83 @@
+FormKey: 20276D:Starfield.esm
+EditorID: OutpostHarvesterSolid_Rothicite_03_Large
+ODTY: 0
+Transforms:
+  Outpost: 1C384D:Starfield.esm
+SnapTemplate: 04307D:Starfield.esm
+SnapBehavior: 14A690:Starfield.esm
+Components:
+- MutagenObjectType: AnimationGraphComponent
+  ANAM: AnimTextData\Tables\Graphs\OutpostDeploy.agx
+  BNAM: setdressing\harvesters\solid\large\characterassets\skeleton.rig
+  CNAM: setdressing\harvesters\solid\large\animations
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Extraktor: Rothizit – gewerblich'
+  - Language: English
+    String: Extractor - Rothicite - Industrial
+  - Language: Spanish
+    String: Extractor comercial de rocicita
+  - Language: French
+    String: Extracteur - Rothicite - Commercial
+  - Language: Italian
+    String: Estrattore - Rothicite - Commerciale
+  - Language: Japanese
+    String: 抽出装置 - ロシサイト - 商業
+  - Language: Polish
+    String: Ekstraktor - rotycyt - komercyjny
+  - Language: Portuguese_Brazil
+    String: Extrator - Roticita - Comercial
+  - Language: ChineseSimplified
+    String: 提取器：镙 - 商业
+Model:
+  File: SetDressing\Harvesters\Solid\OutpostHarvesterSolidLarge01.nif
+  FLLD: 0x01000000
+Items:
+- Item:
+    Item: 14A2FF:Starfield.esm
+    Count: 1
+Destructible:
+  Data:
+    Health: 400
+    DESTCount: 1
+  Stages:
+  - Flags:
+    - Destroy
+    Explosion: 2F3934:Starfield.esm
+Flags:
+- 0x8
+Keywords:
+- 008406:Starfield.esm
+- 1A1C3B:Starfield.esm
+- 1CCE28:Starfield.esm
+- 1F55F1:Starfield.esm
+- 299549:Starfield.esm
+- 2A14CA:Starfield.esm
+NativeTerminal: 38D14B:Starfield.esm
+Properties:
+- ActorValue: 0002DC:Starfield.esm
+  Value: 20
+- ActorValue: 000330:Starfield.esm
+  Value: 20
+- ActorValue: 0003A2:Starfield.esm
+  Value: 1
+- ActorValue: 008407:Starfield.esm
+  Value: -0.5
+- ActorValue: 00F65A:Starfield.esm
+  Value: 1
+- ActorValue: 05EF30:Starfield.esm
+  Value: 1
+- ActorValue: 05FBBB:Starfield.esm
+  Value: 1
+- ActorValue: 06CA31:Starfield.esm
+  Value: 40
+- ActorValue: 129A8C:Starfield.esm
+  Value: 1
+- ActorValue: 2192D5:Starfield.esm
+  Value: 1
+- ActorValue: 2233CC:Starfield.esm
+  Value: 1
+AttachParentSlots:
+- 008E20:Starfield.esm

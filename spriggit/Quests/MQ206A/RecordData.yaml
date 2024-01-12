@@ -1,0 +1,1856 @@
+FormKey: 2BACF9:Starfield.esm
+EditorID: MQ206A
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1000
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 27C8ED:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: MQ206AScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SarahMorgan_Q01
+      Object: 2C7C11:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_SQ01_SonaLeft
+      Object: 104661:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GameDaysPassed
+      Object: 000039:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Barrett
+      Object: 2BACF9:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SamCoe
+      Object: 2BACF9:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SarahMorgan
+      Object: 2BACF9:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CompanionWhoDies
+      Object: 2BACF9:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206AMemorialDays
+      Object: 2271D5:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_MQ206A_002BACF9
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PictureBarrett
+      Object: 2BACF9:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q02
+      Object: 002FAE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ00_CompanionWhoDies
+      Object: 005790:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_007b_BarrettSpeech
+      Object: 2295B0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimFaceArchetypeDepressed
+      Object: 0C866D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeBed
+      Object: 2BACF9:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MemorialEaselTrigger
+      Object: 2BACF9:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SarahMorgan_Q01_Post
+      Object: 1046E6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DisembarkingCrew
+      Object: 0174A2:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WalterStroud
+      Object: 2BACF9:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_002b_PlayerSkip
+      Object: 19B859:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vasco
+      Object: 2BACF9:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SarahMorgan_Commitment
+      Object: 27B667:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_002_TransitionFuneral
+      Object: 2BA7A3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_CompanionDead
+      Object: 2BB89F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SetStage35Trigger
+      Object: 2BACF9:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCTheLodge
+      Object: 2956BB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204xPostQuest
+      Object: 19D83A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_007b_MatteoSpeech
+      Object: 2295AF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_004_Casket
+      Object: 2BA796:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Commitment
+      Object: 1C7185:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeStartMarker
+      Object: 2824E5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SamCoe
+      Object: 2BACF9:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VladimirSall
+      Object: 2BACF9:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Drink_Alcohol_Expensive
+      Object: 309DA5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q01
+      Object: 0369AB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MatteoKhatri
+      Object: 2BACF9:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvailableCompanionFaction
+      Object: 00D875:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SamCoe_Commitment
+      Object: 0DF7AD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sona
+      Object: 2BACF9:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AjaMamasa
+      Object: 2BACF9:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ102
+      Object: 0114CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JacobCoe
+      Object: 2BACF9:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Andreja
+      Object: 2BACF9:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SarahMorgan_Q01
+      Object: 2C7C11:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_PlayerContemplatesMarker
+      Object: 22AB81:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoraCoe
+      Object: 2BACF9:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_006_PodiumDone
+      Object: 22AB82:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TestMQ206AMSG
+      Object: 2B6522:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 003448:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SarahMorgan
+      Object: 2BACF9:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PictureAndreja
+      Object: 2BACF9:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204LodgeAttackClutterEnableMarker
+      Object: 15D44B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204EyeAttackEnableMarker
+      Object: 0C907A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PictureSamCoe
+      Object: 2BACF9:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PodiumFurniture
+      Object: 2BACF9:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DismissedCrew
+      Object: 0174A2:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Barrett
+      Object: 2BACF9:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 2BACF9:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LilianHart
+      Object: 2BACF9:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_007a_SarahSpeech
+      Object: 2295B1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101Debug
+      Object: 0A7D31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Casket
+      Object: 2BACF9:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PictureSarahMorgan
+      Object: 2BACF9:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Noel
+      Object: 2BACF9:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Andreja_Commitment
+      Object: 0B8633:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Andreja_Q01
+      Object: 21ECD0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SamCoe_Q01
+      Object: 263262:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Podium
+      Object: 2BACF9:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204
+      Object: 2C6D74:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0140_Item_00
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0090_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 20
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0020_Item_01
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0180_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0035_Item_00
+  - Stage: 35
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0035_Item_02
+  - Stage: 35
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0035_Item_01
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 18
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0018_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0065_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0080_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 240
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0240_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0130_Item_00
+  - Stage: 17
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0017_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0170_Item_00
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0220_Item_00
+  - Stage: 220
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0220_Item_01
+  - Stage: 230
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0230_Item_00
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
+    FragmentName: Fragment_Stage_0250_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 2BACF9:Starfield.esm
+      Alias: 30
+    Scripts:
+    - Name: MQ206AMemorialTriggerScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ206A_004_Casket
+        Object: 2BA796:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2BACF9:Starfield.esm
+      Alias: 18
+    Scripts:
+    - Name: defaultaliasonlocationchange
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 27C8ED:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 30
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 20
+    - Name: defaultaliasonlocationchangeA
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: CheckNewLocation
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 200
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 27C8ED:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1000
+    - Name: DefaultAliasOnLocationChangeB
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 27C8ED:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 10
+      - MutagenObjectType: ScriptBoolProperty
+        Name: CheckNewLocation
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+  - Property:
+      Name: ''
+      Object: 2BACF9:Starfield.esm
+      Alias: 22
+    Scripts:
+    - Name: MQ206ALodgeBedScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MessageToShow
+        Object: 19B85A:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Unendlich vermisst
+  - Language: English
+    String: Missed Beyond Measure
+  - Language: Spanish
+    String: Fallo garrafal
+  - Language: French
+    String: Un manque cruel
+  - Language: Italian
+    String: Manchi da morire
+  - Language: Japanese
+    String: 計り知れぬ追悼
+  - Language: Polish
+    String: Tęsknota ponad miarę
+  - Language: Portuguese_Brazil
+    String: Para Quem Já Partiu
+  - Language: ChineseSimplified
+    String: 永远怀念
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 85
+  Unused: 0x000000
+QuestType: 0475FA:Starfield.esm
+QuestFaction: 0546E1:Starfield.esm
+TextDisplayGlobals:
+- 2271D5:Starfield.esm
+Summary: NOEL puts together a memorial service for the Companion who dies when the Hunter attacked. Depending on who died, differrent people are in attendance.
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG STAGE
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 2271D6:Starfield.esm
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG START AT LODGE
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: After MQ204, wait until the player leaves the Lodge at least once before Noel forcegreets the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Noel
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 12
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Noel has forcegreeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start Memorial Service Setup Timer (5 Game Days)
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Noel organisiert eine kleine Gedenkfeier. Wenn ich daran teilnehmen will, sollte ich die Augen offen halten, um zu erfahren, wann sie stattfindet.
+      - Language: English
+        String: Noel is putting a memorial service together. I should keep an eye on when it's going to happen if I want to attend.
+      - Language: Spanish
+        String: Noel está organizando un acto de homenaje. Si quiero asistir, debería enterarme de cuándo va a ser.
+      - Language: French
+        String: Noel a organisé une commémoration. Je devrais garder un œil sur la date de l'événement si je veux y assister.
+      - Language: Italian
+        String: Noel organizzerà un servizio funebre. Dovrei controllare quando avrà luogo, se voglio partecipare.
+      - Language: Japanese
+        String: ノエルが葬式を計画している。出席するなら、いつになるか気を付けておこう
+      - Language: Polish
+        String: Noel organizuje pogrzeb. Muszę pamiętać, kiedy ma się odbyć, jeśli chcę wziąć udział.
+      - Language: Portuguese_Brazil
+        String: Noel está organizando uma cerimônia fúnebre. Preciso prestar atenção na data marcada caso eu queira ir.
+      - Language: ChineseSimplified
+        String: 诺维尔在准备召开追悼会，如果我想参加的话，就得留意一下什么时候举行。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 17
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player uses bed to skip time
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 18
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Pass time
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 19
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Pass time finished
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start Memorial Service
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Heute findet die Gedenkfeier statt. Wenn ich daran teilnehmen will, muss ich zur Loge.
+      - Language: English
+        String: The memorial service is today. I should go to the Lodge if I want to attend.
+      - Language: Spanish
+        String: Hoy es el acto de homenaje. Si quiero asistir, debería ir a la Logia.
+      - Language: French
+        String: La commémoration est aujourd'hui. Je dois me rendre à la Loge si je souhaite y participer.
+      - Language: Italian
+        String: Il servizio funebre è oggi. Dovrei andare alla Loggia, se voglio partecipare.
+      - Language: Japanese
+        String: 葬式は今日だ。出席するならロッジに行く
+      - Language: Polish
+        String: Dziś odbywa się pogrzeb. Jeśli chcę wziąć udział, muszę iść do Loży.
+      - Language: Portuguese_Brazil
+        String: A cerimônia é hoje. Devo ir até a Guarida se eu quiser participar.
+      - Language: ChineseSimplified
+        String: 追悼会就在今天召开，如果我想参加的话，就应该去陋室。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 06BB29:Starfield.esm
+      ComparisonValue: 1
+    Note: If player is already in the Lodge, advance quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player arrives in the Lodge
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 35
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        RunOnType: QuestAlias
+        Unknown3: 14
+        FirstParameter: 005983:Starfield.esm
+    Note: Player enters the Library - Sarah's speech starts
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        RunOnType: QuestAlias
+        Unknown3: 14
+        FirstParameter: 005983:Starfield.esm
+      ComparisonValue: 1
+    Note: Player enters the Library - Matteo's speech starts
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Note: Shut down the transition scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Aja at the Memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 41
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Aja mentions Sebastian
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 42
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Aja mentions Ervin
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Noel at the Memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Walter at the Memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 65
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Vladimir gives player a drink
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 70
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Vladimir Sall at the Memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 80
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Vasco at the Memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 90
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Sarah at the Memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 2271DA:Starfield.esm
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Sam at the Memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 2271D9:Starfield.esm
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Matteo at the Memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Lillian at the Memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Jacob at the memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 140
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Cora at the Memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Barrett at the Memorial Service
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 2271D8:Starfield.esm
+- Index: 170
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Andreja at the Memorial Service
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 2271D6:Starfield.esm
+- Index: 180
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to Sona at the Memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player gave speech at the Podium
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte mit allen reden, die an der Gedenkfeier teilnehmen.
+      - Language: English
+        String: I should check in with everyone who's attending the memorial service.
+      - Language: Spanish
+        String: Debería hablar con todo el mundo que ha venido al acto de homenaje.
+      - Language: French
+        String: Je devrais parler avec tous ceux qui assistent à la commémoration.
+      - Language: Italian
+        String: Dovrei parlare con i partecipanti al servizio funebre.
+      - Language: Japanese
+        String: 葬式の出席者全員と話そう
+      - Language: Polish
+        String: Porozmawiam ze wszystkimi obecnymi na pogrzebie.
+      - Language: Portuguese_Brazil
+        String: É melhor eu falar com todo mundo que tiver vindo para a cerimônia.
+      - Language: ChineseSimplified
+        String: 我应该和每个参加追悼会的人聊聊。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Sarah gives a speech
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Gedenkfeier hat begonnen. Ich sollte am Podium ein paar Worte sagen.
+      - Language: English
+        String: The memorial service has started. I should say a few words at the podium.
+      - Language: Spanish
+        String: El acto de homenaje ha empezado. Debería decir unas palabras desde la plataforma.
+      - Language: French
+        String: La commémoration a commencé. Je devrais dire quelques mots sur le podium.
+      - Language: Italian
+        String: Il servizio funebre è iniziato. Dovrei dire qualche parola dal podio.
+      - Language: Japanese
+        String: 葬式が始まった。弔辞を読むべきだろう
+      - Language: Polish
+        String: Pogrzeb się rozpoczął. Wypadałoby powiedzieć parę słów z mównicy.
+      - Language: Portuguese_Brazil
+        String: A cerimônia começou. Vou dizer algumas palavras.
+      - Language: ChineseSimplified
+        String: 追悼会已经开始了，我应该上台说几句话。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Matteo gives a speech
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        RunOnType: QuestAlias
+        Unknown3: 14
+        FirstParameter: 005983:Starfield.esm
+      ComparisonValue: 1
+    Note: Matteo Speech - Update objectives if Sarah is dead
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Gedenkfeier hat begonnen. Ich sollte am Podium ein paar Worte sagen.
+      - Language: English
+        String: The memorial service has started. I should say a few words at the podium.
+      - Language: Spanish
+        String: El acto de homenaje ha empezado. Debería decir unas palabras desde la plataforma.
+      - Language: French
+        String: La commémoration a commencé. Je devrais dire quelques mots sur le podium.
+      - Language: Italian
+        String: Il servizio funebre è iniziato. Dovrei dire qualche parola dal podio.
+      - Language: Japanese
+        String: 葬式が始まった。弔辞を読むべきだろう
+      - Language: Polish
+        String: Pogrzeb się rozpoczął. Wypadałoby powiedzieć parę słów z mównicy.
+      - Language: Portuguese_Brazil
+        String: A cerimônia começou. Vou dizer algumas palavras.
+      - Language: ChineseSimplified
+        String: 追悼会已经开始了，我应该上台说几句话。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 230
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Barrett gives a speech
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 240
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Walter gives a speech
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speeches are done. Update packages
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to the Memorial Photo
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player opted for moment of silence
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player talked to everyone at the Memorial
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player did NOT attend the Memorial Service
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Complete
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die Gedenkfeier ist beendet.
+      - Language: English
+        String: The memorial service is over.
+      - Language: Spanish
+        String: El acto de homenaje ha terminado.
+      - Language: French
+        String: La commémoration est terminée.
+      - Language: Italian
+        String: Il servizio funebre è finito.
+      - Language: Japanese
+        String: 葬式が終わった
+      - Language: Polish
+        String: Pogrzeb się skończył.
+      - Language: Portuguese_Brazil
+        String: A cerimônia acabou.
+      - Language: ChineseSimplified
+        String: 追悼会已经结束了。
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 11C0E0:Starfield.esm
+        BonusCredits: Null
+    - QSRD: '[]'
+- Index: 2000
+  Flags:
+  - RunOnStop
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Run on Stop
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Warte auf die Feier (<Global=MQ206AMemorialDays> UT Tage).
+    - Language: English
+      String: Wait for the Service (<Global=MQ206AMemorialDays> UT Days)
+    - Language: Spanish
+      String: Espera al acto (<Global=MQ206AMemorialDays> días UT).
+    - Language: French
+      String: Attendez le début de la cérémonie (<Global=MQ206AMemorialDays> jours UT)
+    - Language: Italian
+      String: Attendi il servizio funebre (<Global=MQ206AMemorialDays> giorni UT)
+    - Language: Japanese
+      String: <Global=MQ206AMemorialDays>日間(UT)、葬式を待つ
+    - Language: Polish
+      String: 'Zaczekaj na pogrzeb (pozostałe dni CU: <Global=MQ206AMemorialDays>)'
+    - Language: Portuguese_Brazil
+      String: Aguarde a cerimônia (<Global=MQ206AMemorialDays> dias UTC)
+    - Language: ChineseSimplified
+      String: 等待追悼会（世界时<Global=MQ206AMemorialDays>天）
+  Targets:
+  - AliasID: 22
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nimm heute an der Gedenkfeier teil.
+    - Language: English
+      String: Attend the Memorial Service Today
+    - Language: Spanish
+      String: Asiste al homenaje de hoy.
+    - Language: French
+      String: Participez à la commémoration aujourd'hui.
+    - Language: Italian
+      String: Partecipa al servizio funebre oggi
+    - Language: Japanese
+      String: 今日の葬式に出席する
+    - Language: Polish
+      String: Udaj się na dzisiejszy pogrzeb
+    - Language: Portuguese_Brazil
+      String: Vá à cerimônia hoje
+    - Language: ChineseSimplified
+      String: 参加今天的追悼会
+  Targets:
+  - AliasID: 16
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Warte 24 Stunden (UT), um die Feier auszulassen.
+    - Language: English
+      String: (Optional) Wait 24 Hours (UT) to Skip the Memorial
+    - Language: Spanish
+      String: (Opcional) Espera 24 horas (UT) y sáltate el homenaje.
+    - Language: French
+      String: (Opt.) Patientez 24 h (UT) pour manquer la cérémonie.
+    - Language: Italian
+      String: (Opzionale) Attendi 24 ore (UT) e salta il servizio funebre
+    - Language: Japanese
+      String: (オプション)24時間(UT)待って葬式を欠席する
+    - Language: Polish
+      String: (Opcj.) Zaczekaj 24 godziny (CU), by pominąć pogrzeb
+    - Language: Portuguese_Brazil
+      String: (Opc.) Espere 24 horas (UTC) para pular a cerimônia
+    - Language: ChineseSimplified
+      String: （可选）等待24小时（世界时）跳过追悼会
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sag ein paar Worte.
+    - Language: English
+      String: Say a Few Words
+    - Language: Spanish
+      String: Di unas palabras.
+    - Language: French
+      String: Dites quelques mots.
+    - Language: Italian
+      String: Di’ qualche parola
+    - Language: Japanese
+      String: 簡単に話をする
+    - Language: Polish
+      String: Powiedz parę słów
+    - Language: Portuguese_Brazil
+      String: Diga algumas palavras
+    - Language: ChineseSimplified
+      String: 说几句话
+  Targets:
+  - AliasID: 16
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Sprich mit allen.
+    - Language: English
+      String: (Optional) Speak with Everyone
+    - Language: Spanish
+      String: (Opcional) Habla con todo el mundo.
+    - Language: French
+      String: (Optionnel) Parlez à tout le monde.
+    - Language: Italian
+      String: (Opzionale) Parla con tutti
+    - Language: Japanese
+      String: (オプション)全員と話す
+    - Language: Polish
+      String: (Opcj.) Porozmawiaj ze wszystkimi
+    - Language: Portuguese_Brazil
+      String: (Opc.) Fale com todo mundo
+    - Language: ChineseSimplified
+      String: （可选）与所有人交谈
+  Targets:
+  - AliasID: 12
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 300
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 40
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        RunOnType: QuestAlias
+        Unknown3: 14
+        FirstParameter: 005983:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        RunOnType: QuestAlias
+        Unknown3: 14
+        FirstParameter: 005787:Starfield.esm
+      ComparisonValue: 1
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 130
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        RunOnType: QuestAlias
+        Unknown3: 14
+        FirstParameter: 005999:Starfield.esm
+      ComparisonValue: 1
+  - AliasID: 15
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 120
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        RunOnType: QuestAlias
+        Unknown3: 14
+        FirstParameter: 005999:Starfield.esm
+      ComparisonValue: 1
+  - AliasID: 7
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        RunOnType: QuestAlias
+        Unknown3: 14
+        FirstParameter: 0059A7:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 170
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        RunOnType: QuestAlias
+        Unknown3: 14
+        FirstParameter: 005787:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 150
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 140
+  - AliasID: 8
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 110
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 50
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        RunOnType: QuestAlias
+        Unknown3: 14
+        FirstParameter: 005999:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 100
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        RunOnType: QuestAlias
+        Unknown3: 14
+        FirstParameter: 005983:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 90
+  - AliasID: 11
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 80
+  - AliasID: 9
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 70
+  - AliasID: 10
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 60
+  - AliasID: 23
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: ::MemorialTalksCount_var
+      ComparisonValue: 5
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C7C11:Starfield.esm
+        SecondParameter: 1000
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2BACF9:Starfield.esm
+        SecondParameter: 180
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        RunOnType: QuestAlias
+        Unknown3: 14
+        FirstParameter: 005983:Starfield.esm
+      ComparisonValue: 1
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Geh, wenn du fertig bist.
+    - Language: English
+      String: Leave When You're Ready
+    - Language: Spanish
+      String: Vete cuando lo tengas todo listo.
+    - Language: French
+      String: Partez lorsque vous le souhaitez.
+    - Language: Italian
+      String: Vai via quando te la senti
+    - Language: Japanese
+      String: 準備ができたら出る
+    - Language: Polish
+      String: Wyjdź, gdy uznasz, że już na to pora
+    - Language: Portuguese_Brazil
+      String: Saia quando quiser
+    - Language: ChineseSimplified
+      String: 准备好了就离开
+  Targets:
+  - AliasID: 21
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 13
+  Name: LodgeLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 27C8ED:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: Noel
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00598C:Starfield.esm
+  PackageData:
+  - 22AB96:Starfield.esm
+  - 226C52:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: JacobCoe
+  Flags:
+  - Optional
+  - AllowReserved
+  - OptionalAllScenes
+  ALFG: 0
+  UniqueActor: 0124B8:Starfield.esm
+  PackageData:
+  - 22AB8C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: CoraCoe
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00D653:Starfield.esm
+  PackageData:
+  - 22AB92:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: AjaMamasa
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  - OptionalAllScenes
+  ALFG: 0
+  UniqueActor: 2BACF8:Starfield.esm
+  PackageData:
+  - 22AB89:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: SamCoe
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - OptionalAllScenes
+  ALFG: 0
+  UniqueActor: 005999:Starfield.esm
+  PackageData:
+  - 05BAEF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: SarahMorgan
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - OptionalAllScenes
+  ALFG: 0
+  UniqueActor: 005983:Starfield.esm
+  PackageData:
+  - 2262C1:Starfield.esm
+  - 2262BF:Starfield.esm
+  - 05BAF0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: Barrett
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - OptionalAllScenes
+  ALFG: 0
+  UniqueActor: 005787:Starfield.esm
+  PackageData:
+  - 2262BE:Starfield.esm
+  - 05BAF3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Andreja
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - OptionalAllScenes
+  ALFG: 0
+  UniqueActor: 0059A7:Starfield.esm
+  PackageData:
+  - 2262BD:Starfield.esm
+  - 05BAF4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: MatteoKhatri
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowReserved
+  - OptionalAllScenes
+  ALFG: 0
+  UniqueActor: 00599F:Starfield.esm
+  PackageData:
+  - 2262C0:Starfield.esm
+  - 2262BC:Starfield.esm
+  - 05BAF5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: VladimirSall
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0059AA:Starfield.esm
+  PackageData:
+  - 22AB90:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: WalterStroud
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005996:Starfield.esm
+  PackageData:
+  - 2262BB:Starfield.esm
+  - 05BAF6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: Vasco
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0057BB:Starfield.esm
+  PackageData:
+  - 22AB93:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: LilianHart
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  - OptionalAllScenes
+  ALFG: 0
+  UniqueActor: 2631B0:Starfield.esm
+  PackageData:
+  - 22AB87:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: MemorialEasel
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 08A10B:Starfield.esm
+  ForcedVoice: 018DF4:Starfield.esm
+  VoiceTypes: 018DF4:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: MemorialEaselTrigger
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 2B6520:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: PodiumTrigger
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 22AB84:Starfield.esm
+  ForcedVoice: 018DF4:Starfield.esm
+  VoiceTypes: 018DF4:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: PodiumFurniture
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 05D1EB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: CompanionWhoDies
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 005790:Starfield.esm
+    AliasID: 4
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: Player
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: SetStage35Trigger
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 0782A4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: PodiumHeadtrackMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2262B9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: LodgeFrontDoor
+  Flags: []
+  ALFG: 0
+  ForcedReference: 06BB50:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: LodgeBed
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 19B85B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: Sona
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 28BBE2:Starfield.esm
+  PackageData:
+  - 31B4D5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: PictureAndreja
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 08A105:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: PictureBarrett
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 08A106:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: PictureSamCoe
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 08A107:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: PictureSarahMorgan
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 13
+    RefType: 08A108:Starfield.esm
+  VoiceTypes: Null

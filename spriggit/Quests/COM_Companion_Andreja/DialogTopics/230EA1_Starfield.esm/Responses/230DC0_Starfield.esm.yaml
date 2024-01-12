@@ -1,0 +1,40 @@
+FormKey: 230DC0:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0FA84C:Starfield.esm
+  WEMFile: 2088742
+  TRDAUnknown: 3.1333334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ich habe das Ersuchen dem Hohen Rat vorgelegt und es wurde entschieden, Informationen über die Constellation einzuholen. Um ihre Absichten zu verstehen und zu analysieren, ob sie eine Bedrohung darstellt.
+    - Language: English
+      String: I passed these requests to the High Council, and it was decided that more needed to be known about Constellation. Their intentions needed to be understood, and their potential threat assessed.
+    - Language: Spanish
+      String: Pasé las solicitudes al Alto Consejo y se decidió que había que obtener más información sobre Constelación. Necesitábamos conocer sus intenciones, así como evaluar la posible amenaza que representaban.
+    - Language: French
+      String: J'ai passé ces demandes au Haut conseil qui a déclaré qu'il fallait en savoir plus sur Constellation. Nous devions comprendre leurs intentions et déterminer la menace qu'ils représentaient.
+    - Language: Italian
+      String: Passai le richieste al Consiglio Supremo e fu deciso che era opportuno saperne di più su questa Constellation. Occorreva comprenderne le intenzioni e valutare la potenziale minaccia.
+    - Language: Japanese
+      String: それを最高評議会に伝えたところ、コンステレーションの情報を集めるべきだと判断された。彼らの意図を理解し、潜在的脅威を洗い出すために
+    - Language: Polish
+      String: Przekazałam je wysokiej radzie, która zdecydowała, że musimy dowiedzieć się o Konstelacji więcej. Należy zrozumieć ich zamiary i ocenić potencjalne zagrożenie.
+    - Language: Portuguese_Brazil
+      String: Repassei esses pedidos ao Sumo Conselho, e foi decidido que precisávamos saber mais sobre a Constelação. Suas intenções precisavam ser entendidas, bem como o risco que ela poderia representar.
+    - Language: ChineseSimplified
+      String: 我把这些请求传给了高级议会，议员们一致决定我们需要进一步了解群星组织。弄清他们的意图，评估其潜在的威胁。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xD0B853BE7B84D601
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 036E00:Starfield.esm
+  ComparisonValue: 1234
+StartScenePhase: ''
+SubtitlePriority: Low

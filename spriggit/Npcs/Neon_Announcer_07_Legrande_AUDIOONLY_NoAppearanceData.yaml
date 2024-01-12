@@ -1,0 +1,82 @@
+FormKey: 30D630:Starfield.esm
+EditorID: Neon_Announcer_07_Legrande_AUDIOONLY_NoAppearanceData
+ObjectBounds:
+  First: -0.31000048, -0.31000048, -4.7683716E-07
+  Second: 0.31000048, 0.31000048, 1.8000004
+ODTY: 0
+ObjectPlacementDefaults:
+  Unknown5: 4E-45
+  Unknown6: 1
+  Unknown14: 1
+  Unknown16: 1
+  Unknown17: 1
+  Unknown20: 3.4028235E+38
+Flags:
+- AutoCalcStats
+- Unique
+Level:
+  MutagenObjectType: NpcLevel
+  Level: 6
+DispositionBase: 35
+Voice: 30D623:Starfield.esm
+Race: 00347D:Starfield.esm
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
+- ActorValue: 0002D4:Starfield.esm
+  Value: 100
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+Confidence: Average
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsAllies
+Packages:
+- 107AEA:Starfield.esm
+Class: 01326B:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Legrande's Liquors
+  - Language: English
+    String: Legrande's Liquors
+  - Language: Spanish
+    String: Legrande's Liquors
+  - Language: French
+    String: Spiritueux Legrande
+  - Language: Italian
+    String: Legrande’s Liquors
+  - Language: Japanese
+    String: レグランズ・リカーズ
+  - Language: Polish
+    String: Legrande's Liquors
+  - Language: Portuguese_Brazil
+    String: Adega Legrande
+  - Language: ChineseSimplified
+    String: 朗格莱德酒业
+CalculatedHealth: 220
+CalculatedActionPoints: 50
+GearedUpWeapons: 1
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight: {}
+SpaceOutfit: 3CD6CD:Starfield.esm
+Tints: []
+BodyMorphRegionValues:
+  UpperTorso: 0.21
+MorphBlends:
+- BlendName: male_eu_yo1_Neck
+  Intensity: 0.05
+SkinToneIndex: 0
+Pronoun: Unspecified

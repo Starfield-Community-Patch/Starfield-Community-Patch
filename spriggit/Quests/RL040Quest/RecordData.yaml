@@ -1,0 +1,285 @@
+FormKey: 25A9E2:Starfield.esm
+EditorID: RL040Quest
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_RL040Quest_0025A9E2
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DirectionSwapTrigger
+      Object: 25A9E2:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GroundEnableMarker
+      Object: 25A9E2:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PirateTrigger
+      Object: 25A9E2:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ShipEnableMarker
+      Object: 25A9E2:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Switch
+      Object: 25A9E2:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RL040Quest_DisablesRadioScene
+      Object: 25C922:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RL040Quest_PirateScene
+      Object: 25ADA4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RL040Quest_VictimScene
+      Object: 25C91C:Starfield.esm
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RL040Quest_0025A9E2
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RL040Quest_0025A9E2
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RL040Quest_0025A9E2
+    FragmentName: Fragment_Stage_0030_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ungewöhnliches SOS
+  - Language: English
+    String: Unusual SOS
+  - Language: Spanish
+    String: Señal de socorro insólita
+  - Language: French
+    String: SOS insolite
+  - Language: Italian
+    String: SOS insoliti
+  - Language: Japanese
+    String: 異例の救難信号
+  - Language: Polish
+    String: Nietypowe SOS
+  - Language: Portuguese_Brazil
+    String: S.O.S. Incomum
+  - Language: ChineseSimplified
+    String: 异常求救信号
+Data:
+  Flags:
+  - RunOnce
+  Priority: 30
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+Event: CLOC
+UnusedConditions: []
+Stages:
+- Index: 10
+  Flags:
+  - RunOnStart
+  Unknown: 233
+  LogEntries:
+  - Flags: []
+    Note: Victim Stage
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Startet Szene mit schreiendem Opfer.
+      - Language: English
+        String: Starts screaming victim scene.
+      - Language: Spanish
+        String: Comienza escena de víctima gritando.
+      - Language: French
+        String: Début de la scène de victime hurlante.
+      - Language: Italian
+        String: Avvia scena vittima che urla.
+      - Language: Japanese
+        String: 被害者の悲鳴シーンを開始します
+      - Language: Polish
+        String: Rozpoczęcie sceny krzyczącej ofiary.
+      - Language: Portuguese_Brazil
+        String: Inicia a cena de vítima gritando.
+      - Language: ChineseSimplified
+        String: 开始尖叫的受害者场景。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Ambush Stage
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Startet Piratenüberfallszene.
+      - Language: English
+        String: Starts pirate ambush scene.
+      - Language: Spanish
+        String: Comienza escena de emboscada pirata.
+      - Language: French
+        String: Début de la scène d'embuscade pirate.
+      - Language: Italian
+        String: Avvia scena imboscata pirata.
+      - Language: Japanese
+        String: 海賊奇襲シーンを開始します
+      - Language: Polish
+        String: Rozpoczęcie sceny zasadzki piratów.
+      - Language: Portuguese_Brazil
+        String: Inicia a cena de emboscada pirata.
+      - Language: ChineseSimplified
+        String: 开始海盗埋伏场景。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Note: Player Knows
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Spieler hat Funk deaktiviert. Start deaktiviert Funkszene.
+      - Language: English
+        String: Player disabled radio. Start Disables Radio Scene
+      - Language: Spanish
+        String: El jugador ha desactivado la radio. Comienza desactivación de la escena de radio.
+      - Language: French
+        String: Le joueur a désactivé la radio. Début de la scène de radio désactivée.
+      - Language: Italian
+        String: Radio disattivata. Disattiva scena radio all’avvio.
+      - Language: Japanese
+        String: プレイヤーが無線を無効化しました。無線無効化シーンを開始します
+      - Language: Polish
+        String: Gracz wyłączył radio. Rozpoczęcie wyłączy scenę radiową.
+      - Language: Portuguese_Brazil
+        String: O jogador desativou o rádio. Iniciar cena de rádio desativado.
+      - Language: ChineseSimplified
+        String: 玩家已禁用无线电。开始禁用无线电场景
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Geh dem Notruf nach.
+    - Language: English
+      String: Investigate the Distress Call
+    - Language: Spanish
+      String: Investiga la llamada de socorro.
+    - Language: French
+      String: Enquêtez sur le signal de détresse.
+    - Language: Italian
+      String: Indaga sulla richiesta di soccorso
+    - Language: Japanese
+      String: 救難信号を調査する
+    - Language: Polish
+      String: Zbadaj źródło wezwania o pomoc
+    - Language: Portuguese_Brazil
+      String: Investigue o pedido de socorro
+    - Language: ChineseSimplified
+      String: 调查求救信号
+  Targets:
+  - AliasID: 3
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 6
+  Name: RL040CrimsonFleetSOSSiteLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  FindMatchingRefFromEvent:
+    FromEvent: CLOC
+    EventData: 0x4C320000
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: VictimSpeaker
+  Flags:
+  - AllowDisabled
+  - UsesStoredText
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 10A4B4:Starfield.esm
+  DisplayName: 12A0AA:Starfield.esm
+  ForcedVoice: 013ADD:Starfield.esm
+  VoiceTypes: 013ADD:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: PirateLeader
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 003956:Starfield.esm
+  VoiceTypes: 010BA8:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: PirateMinion
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 07828C:Starfield.esm
+  VoiceTypes: 010BA8:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Switch
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 0782A4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  Name: PirateTrigger
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 12E005:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: ShipEnableMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 12E006:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: DirectionSwapTrigger
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 12E007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: GroundEnableMarker
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 12E008:Starfield.esm
+  VoiceTypes: Null

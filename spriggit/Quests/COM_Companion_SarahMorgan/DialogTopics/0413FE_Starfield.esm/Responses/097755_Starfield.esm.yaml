@@ -1,0 +1,52 @@
+FormKey: 097755:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 13664476
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Mir ging es genauso wie beim letzten Mal, als das passiert ist.
+    - Language: English
+      String: I felt exactly the same as the last time this happened.
+    - Language: Spanish
+      String: Exactamente igual que la última vez que pasó.
+    - Language: French
+      String: J'ai ressenti exactement la même chose que la dernière fois où c'est arrivé.
+    - Language: Italian
+      String: Ho provato la stessa cosa dell’ultima volta che è successo.
+    - Language: Japanese
+      String: 前回起きたときとまったく同じ気分だ
+    - Language: Polish
+      String: Czuję się dokładnie tak samo jak ostatnim razem, gdy to się stało.
+    - Language: Portuguese_Brazil
+      String: Me senti exatamente igual à última vez que aconteceu.
+    - Language: ChineseSimplified
+      String: 就跟我上次拿在手里时是一样的感受。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x906CF70D3233D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    Unknown3: 0
+    FirstParameter: 3261341
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1D7053:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low
+Perk: 1D7053:Starfield.esm

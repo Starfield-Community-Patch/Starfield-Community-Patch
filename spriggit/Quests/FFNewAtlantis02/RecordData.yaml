@@ -1,0 +1,410 @@
+FormKey: 24C46C:Starfield.esm
+EditorID: FFNewAtlantis02
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_FFNewAtlantis02_0024C46C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Package
+      Object: 24C46C:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PackageActivator
+      Object: 24C46C:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_GuardPointer_NA02
+      Object: 352CBB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis02
+      Object: 24C46C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis02Misc
+      Object: 042C70:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis02TopLevels
+      Object: 24C46B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis02_Credits_Medium
+      Object: 095DBC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis02_Credits_Small
+      Object: 095DBB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis02_Package
+      Object: 09642E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis04
+      Object: 091CF5:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02_0024C46C
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02_0024C46C
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02_0024C46C
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02_0024C46C
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02_0024C46C
+    FragmentName: Fragment_Stage_0100_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 24C46C:Starfield.esm
+      Alias: 2
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Den Frieden wahren
+  - Language: English
+    String: Keeping the Peace
+  - Language: Spanish
+    String: Manteniendo el ritmo
+  - Language: French
+    String: Maintien de la paix
+  - Language: Italian
+    String: Mantenere la pace
+  - Language: Japanese
+    String: 平和維持
+  - Language: Polish
+    String: Utrzymywanie pokoju
+  - Language: Portuguese_Brazil
+    String: Mantendo a Paz
+  - Language: ChineseSimplified
+    String: 维护和平
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+QuestFaction: 0546DC:Starfield.esm
+Location: 01295A:Starfield.esm
+TextDisplayGlobals:
+- 095DBB:Starfield.esm
+- 095DBC:Starfield.esm
+UnusedConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17624
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 0A47F2:Starfield.esm
+    SecondParameter: 20
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17624
+  Data:
+    MutagenObjectType: GetQuestRunningConditionData
+    FirstParameter: 2AAE8D:Starfield.esm
+Stages:
+- Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player declined offer once
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player accepts quest
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi hat mich wegen Personalmangels darum gebeten, als Teilzeit-Security-Officer zu arbeiten. Mein erster Job besteht darin, beim MAST mit Agent Platon zu reden.
+      - Language: English
+        String: Due to staffing issues, Sergeant Yumi has asked me to work as a part-time Security Officer. For my first job, I need to talk to Agent Plato over at MAST.
+      - Language: Spanish
+        String: Debido a problemas de personal, el sargento Yumi me ha pedido que trabaje a tiempo parcial como agente de seguridad. En mi primer trabajo, tengo que hablar con el agente Platón en el TAMC.
+      - Language: French
+        String: Le sergent Yumi rencontre des difficultés de personnel, et m'a proposé de devenir agent de sécurité à mi-temps. Pour ma première mission, il m'a demandé d'aller voir l'agent Platon au TAMS.
+      - Language: Italian
+        String: A causa di problemi di organico, il sergente Yumi mi ha chiesto di lavorare come agente di sicurezza part-time. Per il mio primo incarico, devo parlare con l’agente Plato al TASM.
+      - Language: Japanese
+        String: 人手不足のため、ユミ軍曹に臨時警備員として働くよう頼まれた。最初の仕事は、MASTでエージェント・プラトンと話をすることだ
+      - Language: Polish
+        String: Z powodu problemów z personelem sierżant Yumi poprosił mnie o zatrudnienie się tymczasowo na stanowisku funkcjonariusza ochrony. Moim pierwszym zadaniem będzie porozmawianie z agentem Platonem we Wnacie.
+      - Language: Portuguese_Brazil
+        String: Por questão de falta de equipe, o sargento Yumi me pediu para trabalhar em regime de meio período como agente de segurança. Minha primeira tarefa é falar com o agente Platão no TAMC.
+      - Language: ChineseSimplified
+        String: 由于人员配置问题，由实中士要求我临时兼任安保官员。我的第一个任务是与三头同盟的柏拉图特工交谈。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  LogEntries:
+  - Flags: []
+    Note: Player used the Bouncer tag
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Yumi tells the player to leave
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi hat mich wegen Personalmangels darum gebeten, als Teilzeit-Security-Officer zu arbeiten. Ich habe das Angebot abgelehnt und wurde gebeten, zu gehen.
+      - Language: English
+        String: Due to staffing issues, Sergeant Yumi has asked me to work as a part-time Security Officer. I declined the offer and was told to leave.
+      - Language: Spanish
+        String: Debido a problemas de personal, el sargento Yumi me ha pedido que trabaje a tiempo parcial como agente de seguridad. He rechazado la oferta y me han dicho que me vaya.
+      - Language: French
+        String: Le sergent Yumi rencontre des difficultés de personnel, et m'a proposé de devenir agent de sécurité à mi-temps. Après avoir refusé son offre, il m'a demandé de partir.
+      - Language: Italian
+        String: A causa di problemi di organico, il sergente Yumi mi ha chiesto di lavorare come agente di sicurezza part-time. Ho rifiutato e mi è stato detto di andarmene.
+      - Language: Japanese
+        String: 人手不足のため、ユミ軍曹に臨時警備員として働くよう頼まれた。断ると、立ち去るように言われた
+      - Language: Polish
+        String: Z powodu problemów z personelem sierżant Yumi poprosił mnie o tymczasowe zatrudnienie się na stanowisku funkcjonariusza ochrony. Po odmowie kazano mi odejść.
+      - Language: Portuguese_Brazil
+        String: Por questão de falta de equipe, o sargento Yumi me pediu para trabalhar em regime de meio período como agente de segurança. Eu recusei a oferta e ele me dispensou.
+      - Language: ChineseSimplified
+        String: 由于人员配置问题，由实中士要求我临时兼任安保官员。我拒绝了这个提议，然后被要求离开。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player temporarily declines
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Retrieve the package'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi hat mich wegen Personalmangels darum gebeten, als Teilzeit-Security-Officer zu arbeiten. Ich sollte beim MAST einen gewissen Agent Platon treffen, der mich dann bat, in der Nähe der Haltestelle ein Paket abzuholen.
+      - Language: English
+        String: Due to staffing issues, Sergeant Yumi has asked me to work as a part-time Security Officer. I was directed to Agent Plato at MAST, who asked me to pick up a package near the transit station.
+      - Language: Spanish
+        String: Debido a problemas de personal, el sargento Yumi me ha pedido que trabaje a tiempo parcial como agente de seguridad. Me dijeron que quedara con el agente Platón en el TAMC, quien me pidió que recogiera un paquete cerca de la estación.
+      - Language: French
+        String: Le sergent Yumi rencontre des difficultés de personnel, et m'a proposé de devenir agent de sécurité à mi-temps. J'avais pour consigne de retrouver l'agent Platon au TAMS. Ce dernier m'a demandé de récupérer un colis près de la station de transit.
+      - Language: Italian
+        String: A causa di problemi di organico, il sergente Yumi mi ha chiesto di lavorare come agente di sicurezza part-time. Mi è stato ordinato di parlare con l’agente Plato del TASM, che mi ha chiesto di ritirare un pacco vicino alla stazione di transito.
+      - Language: Japanese
+        String: 人手不足のため、ユミ軍曹に臨時警備員として働くよう頼まれた。指示に従ってMASTでエージェント・プラトンに会うと、中継ステーション付近で荷物を入手してくるよう頼まれた
+      - Language: Polish
+        String: Z powodu problemów z personelem sierżant Yumi poprosił mnie o tymczasowe zatrudnienie się na stanowisku funkcjonariusza ochrony. Skierowano mnie do agenta Platona we Wnacie, który poprosił mnie o odebranie paczki ze stacji tranzytowej.
+      - Language: Portuguese_Brazil
+        String: Por questão de falta de equipe, o sargento Yumi me pediu para trabalhar em regime de meio período como agente de segurança. Ele me direcionou ao agente Platão, no TAMC, que me pediu para pegar um pacote perto da estação de transporte.
+      - Language: ChineseSimplified
+        String: 由于人员配置问题，由实中士要求我临时兼任安保官员。我被告知去找三头同盟的柏拉图特工，而他要求我在运输站附近取一个包裹。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 102
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Deliver the package to Sergeant Yumi'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi hat mich wegen Personalmangels darum gebeten, als Teilzeit-Security-Officer zu arbeiten. Ich sollte beim MAST einen gewissen Agent Platon treffen, der mich dann bat, in der Nähe der Haltestelle ein Paket abzuholen. Ich habe das Paket gefunden und kann es nun Sergeant Yumi bringen.
+      - Language: English
+        String: Due to staffing issues, Sergeant Yumi has asked me to work as a part-time Security Officer. I was directed to Agent Plato at MAST, who asked me to pick up a package near the transit station. I located the package and can now deliver it to Sergeant Yumi.
+      - Language: Spanish
+        String: Debido a problemas de personal, el sargento Yumi me ha pedido que trabaje a tiempo parcial como agente de seguridad. Me dijeron que quedara con el agente Platón en el TAMC, quien me pidió que recogiera un paquete cerca de la estación. He localizado el paquete y ahora se lo puedo entregar al sargento Yumi.
+      - Language: French
+        String: Le sergent Yumi rencontre des difficultés de personnel, et m'a proposé de devenir agent de sécurité à mi-temps. J'avais pour consigne de retrouver l'agent Platon au TAMS. Ce dernier m'a demandé de récupérer un colis près de la station de transit. J'ai trouvé le colis. Je dois maintenant l'apporter au sergent Yumi.
+      - Language: Italian
+        String: A causa di problemi di organico, il sergente Yumi mi ha chiesto di lavorare come agente di sicurezza part-time. Mi è stato ordinato di parlare con l’agente Plato del TASM, che mi ha chiesto di ritirare un pacco vicino alla stazione di transito. Ho trovato il pacco e ora posso consegnarlo al sergente Yumi.
+      - Language: Japanese
+        String: 人手不足のため、ユミ軍曹に臨時警備員として働くよう頼まれた。指示に従ってMASTでエージェント・プラトンに会うと、中継ステーション付近で荷物を入手してくるよう頼まれた。荷物を見つけたので、ユミ軍曹に届けられる
+      - Language: Polish
+        String: Z powodu problemów z personelem sierżant Yumi poprosił mnie o tymczasowe zatrudnienie się na stanowisku funkcjonariusza ochrony. Skierowano mnie do agenta Platona we Wnacie, który poprosił mnie o odebranie paczki ze stacji tranzytowej. Udało mi się zlokalizować paczkę i mogę przekazać ją sierżantowi Yumiemu.
+      - Language: Portuguese_Brazil
+        String: Por questão de falta de equipe, o sargento Yumi me pediu para trabalhar em regime de meio período como agente de segurança. Ele me direcionou ao agente Platão, no TAMC, que me pediu para pegar um pacote perto da estação de transporte. Eu encontrei o pacote e posso entregá-lo agora ao sargento Yumi.
+      - Language: ChineseSimplified
+        String: 由于人员配置问题，由实中士要求我临时兼任安保官员。我被告知去找三头同盟的柏拉图特工，而他要求我在运输站附近取一个包裹。我找到了包裹，现在可以把它送到由实中士手上了。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 102
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Complete
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi bat mich wegen Personalmangels darum, als Teilzeit-Security-Officer zu arbeiten. Ich sollte beim MAST einen gewissen Agent Platon treffen, der mich dann bat, in der Nähe der Haltestelle ein Paket abzuholen. Ich fand das Paket und brachte es Sergeant Yumi.
+      - Language: English
+        String: Due to staffing issues, Sergeant Yumi has asked me to work as a part-time Security Officer. I was directed to Agent Plato at MAST, who asked me to pick up a package near the transit station. I located the package and delivered it to Sergeant Yumi.
+      - Language: Spanish
+        String: Debido a problemas de personal, el sargento Yumi me ha pedido que trabaje a tiempo parcial como agente de seguridad. Me dijeron que quedara con el agente Platón en el TAMC, quien me pidió que recogiera un paquete cerca de la estación. He localizado el paquete y se lo he entregado al sargento Yumi.
+      - Language: French
+        String: Le sergent Yumi rencontre des difficultés de personnel, et m'a proposé de devenir agent de sécurité à mi-temps. J'avais pour consigne de retrouver l'agent Platon au TAMS. Ce dernier m'a demandé de récupérer un colis près de la station de transit. J'ai trouvé le colis et l'ai donné au sergent Yumi.
+      - Language: Italian
+        String: A causa di problemi di organico, il sergente Yumi mi ha chiesto di lavorare come agente di sicurezza part-time. Mi è stato ordinato di parlare con l’agente Plato del TASM, che mi ha chiesto di ritirare un pacco vicino alla stazione di transito. Ho trovato il pacco e l’ho consegnato al sergente Yumi.
+      - Language: Japanese
+        String: 人手不足のため、ユミ軍曹に臨時警備員として働くよう頼まれた。指示に従ってMASTでエージェント・プラトンに会うと、中継ステーション付近で荷物を入手してくるよう頼まれた。荷物を見つけ、ユミ軍曹に届けた
+      - Language: Polish
+        String: Z powodu problemów z personelem sierżant Yumi poprosił mnie o tymczasowe zatrudnienie się na stanowisku funkcjonariusza ochrony. Skierowano mnie do agenta Platona we Wnacie, który poprosił mnie o odebranie paczki ze stacji tranzytowej. Udało mi się zlokalizować paczkę i przekazać ją sierżantowi Yumiemu.
+      - Language: Portuguese_Brazil
+        String: Por questão de falta de equipe, o sargento Yumi me pediu para trabalhar em regime de meio período como agente de segurança. Ele me direcionou ao agente Platão, no TAMC, que me pediu para pegar um pacote perto da estação de transporte. Eu encontrei o pacote e o entreguei ao sargento Yumi.
+      - Language: ChineseSimplified
+        String: 由于人员配置问题，由实中士要求我临时兼任安保官员。我被告知去找三头同盟的柏拉图特工，而他要求我在运输站附近取一个包裹。我找到了包裹，并把它送到了由实中士手上。
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF34:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B10:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Agent Platon.
+    - Language: English
+      String: Speak to Agent Plato
+    - Language: Spanish
+      String: Habla con el agente Platón.
+    - Language: French
+      String: Parlez à l'agent Platon.
+    - Language: Italian
+      String: Parla con l’agente Plato
+    - Language: Japanese
+      String: エージェント・プラトンと話す
+    - Language: Polish
+      String: Porozmawiaj z agentem Platonem
+    - Language: Portuguese_Brazil
+      String: Fale com o agente Platão
+    - Language: ChineseSimplified
+      String: 与柏拉图特工交谈
+  Targets:
+  - AliasID: 1
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Besorge das Paket.
+    - Language: English
+      String: Retrieve the package
+    - Language: Spanish
+      String: Recupera el paquete.
+    - Language: French
+      String: Récupérez le colis.
+    - Language: Italian
+      String: Recupera il pacco
+    - Language: Japanese
+      String: 荷物を入手する
+    - Language: Polish
+      String: Odzyskaj paczkę
+    - Language: Portuguese_Brazil
+      String: Pegue o pacote
+    - Language: ChineseSimplified
+      String: 取回包裹
+  Targets:
+  - AliasID: 2
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Liefere das Paket bei Sergeant Yumi ab.
+    - Language: English
+      String: Deliver the package to Sergeant Yumi
+    - Language: Spanish
+      String: Entrega el paquete al sargento Yumi.
+    - Language: French
+      String: Livrez le colis au sergent Yumi.
+    - Language: Italian
+      String: Consegna il pacco al sergente Yumi
+    - Language: Japanese
+      String: ユミ軍曹に荷物を届ける
+    - Language: Polish
+      String: Porozmawiaj z sierżantem Yumim
+    - Language: Portuguese_Brazil
+      String: Entregue o pacote ao sargento Yumi
+    - Language: ChineseSimplified
+      String: 把包裹送到由实中士手上
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: SergeantYumi
+  Flags: []
+  ALFG: 0
+  UniqueActor: 24C49F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Plato
+  Flags: []
+  ALFG: 0
+  UniqueActor: 0124B7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: PackageActivator
+  Flags: []
+  ALFG: 0
+  ForcedReference: 095DBE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Package
+  Flags:
+  - Optional
+  - QuestObject
+  ALFG: 0
+  VoiceTypes: Null

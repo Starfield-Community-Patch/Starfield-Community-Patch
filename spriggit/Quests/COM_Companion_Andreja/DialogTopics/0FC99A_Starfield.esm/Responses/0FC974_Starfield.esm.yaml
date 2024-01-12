@@ -1,0 +1,42 @@
+FormKey: 0FC974:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 18E865:Starfield.esm
+  WEMFile: 16163313
+  TROTs:
+  - UnknownVoiceType: 0059A6:Starfield.esm
+    UnknownFloat: 0.5
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: In manchen ... aber nicht in allen.
+    - Language: English
+      String: Some... But apparently not all.
+    - Language: Spanish
+      String: Algunos... pero no todos.
+    - Language: French
+      String: Chez certains... pas tous apparemment.
+    - Language: Italian
+      String: Da alcuni... Ma a quanto pare non da tutti.
+    - Language: Japanese
+      String: でも… 全員がそうではないわ
+    - Language: Polish
+      String: U niektórych. Ale najwyraźniej nie u wszystkich.
+    - Language: Portuguese_Brazil
+      String: De algumas... mas parece que não de todas.
+    - Language: ChineseSimplified
+      String: 只是有些人，并不是所有人都这样……
+  ScriptNotes: approving
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x70B3F6483D95D701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 1A54F9:Starfield.esm
+    SecondParameter: 300
+StartScenePhase: ''
+SubtitlePriority: Low

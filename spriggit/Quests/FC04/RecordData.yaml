@@ -1,0 +1,1445 @@
+FormKey: 26621E:Starfield.esm
+EditorID: FC04
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 20BD94:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 500
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 40
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 015FFE:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 100
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 010DFB:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 925
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 900
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: DefaultFollowerToggleQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Triggering_LocationAliases
+      Objects:
+      - Name: ''
+        Object: 26621E:Starfield.esm
+        Alias: 6
+    - MutagenObjectType: ScriptBoolProperty
+      Name: StopFollowConditions_RequiredOutput
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StopFollowConditions
+      Object: 2755F8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FollowConditions
+      Object: 2755F8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialFollower
+      Object: 26621E:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptIntListProperty
+      Name: Triggering_Stages
+      Data:
+      - 700
+      - 2000
+      - 900
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_FC04_0026621E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC01_PostQuest
+      Object: 10ACEE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_JaylenBillyChatScene
+      Object: 1F558A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Small
+      Object: 275226:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_JaylenBillyIntroductionScene
+      Object: 1C71BA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 26621E:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_JaylenSt800SceneMarker
+      Object: 0A54F2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EmmettAndHenchman
+      Object: 26621E:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EmmetGoodman
+      Object: 26621E:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GraceEarly
+      Object: 26621E:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WarehouseDoor
+      Object: 26621E:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_Completed
+      Object: 1427B3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC01
+      Object: 29A8F0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FCQuests_MeetingRoomPackages
+      Object: 179262:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JaylenPryce
+      Object: 26621E:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_JaylenWalkTalkScene
+      Object: 1C71BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BillyClayton
+      Object: 26621E:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WarehouseKey
+      Object: 26621E:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Large
+      Object: 275224:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_JaylenBackupScene
+      Object: 43CAA0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_OpenWarehouseDoor
+      Object: 20A928:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GraceSlate
+      Object: 26621E:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SyndicateDoorman
+      Object: 26621E:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_JaylenTalkToBilly
+      Object: 1F558E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_CompanionStandMarker
+      Object: 1AA894:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SamCoe_Q01
+      Object: 263262:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_PT1
+      Object: 1F68E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 26621E:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC_EncryptedSlateQuest
+      Object: 1D5AAF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC06
+      Object: 1F0266:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC_EvidenceSlateHolderQuest
+      Object: 007EAD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_GraceConfessScene
+      Object: 1F08AA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC05
+      Object: 1F0267:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityNeonWarehouseEmmetsLair
+      Object: 20BD9B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_EmmettEnemyFaction
+      Object: 208E38:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 520
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0520_Item_00
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0250_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 460
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0460_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 560
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0560_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 380
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0380_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 950
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0950_Item_00
+  - Stage: 925
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0925_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0510_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 570
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0570_Item_00
+  - Stage: 330
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0330_Item_00
+  - Stage: 850
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0850_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 710
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0710_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0450_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 540
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0540_Item_00
+  - Stage: 530
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0530_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FC04_0026621E
+    FragmentName: Fragment_Stage_0400_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 26621E:Starfield.esm
+      Alias: 2
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 570
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 400
+  - Property:
+      Name: ''
+      Object: 26621E:Starfield.esm
+      Alias: 5
+    Scripts:
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 560
+  - Property:
+      Name: ''
+      Object: 26621E:Starfield.esm
+      Alias: 9
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 26621E:Starfield.esm
+      Alias: 11
+    Scripts:
+    - Name: DefaultCollectionAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 560
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Schatten in Neon
+  - Language: English
+    String: Shadows in Neon
+  - Language: Spanish
+    String: Sombras en Neón
+  - Language: French
+    String: Les ombres de Néon
+  - Language: Italian
+    String: Ombre su Neon
+  - Language: Japanese
+    String: ネオンに落ちる影
+  - Language: Polish
+    String: Cienie w Neonie
+  - Language: Portuguese_Brazil
+    String: Sombras em Neon
+  - Language: ChineseSimplified
+    String: 霓虹城中的暗影
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475FD:Starfield.esm
+QuestFaction: 0546DF:Starfield.esm
+TextDisplayGlobals:
+- 275224:Starfield.esm
+- 275226:Starfield.esm
+Summary: >-
+  As a newly-recruited Deputy in the respected Freestar Rangers, the player is carrying out an investigation into a mercenary company called The First that's been threatning farmers in an effort to seize their land for some unknown purpose. The trail has led to the pleasure city of Neon, where the player has come in search of a starship thief who brazenly stole a ship right out of the HopeTech factory and delivered it to a group of First mercenaries. The thief might be able to provide some answers about what the First is up to.
+
+
+  First, the player meets with Neon's jaded and pragmatic Ranger, Jaylen Pryce. Ranger Pryce takes the player to meet maintenance worker Billy Clayton, an informant who keeps an eye on the ship traffic traveling to and from the city. Billy saw the stolen ship, but asks the player to intervene on his behalf with a loan shark that's trying to collect money that Billy's dead brother owed him. After learning the thief's identity, Ranger Pryce joins the player in confronting her at Madame Sauvage's, a nightclub. The thief, Grace Early, gives the names of two highly-placed members of the First.
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Go to Volii Alpha
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Das gestohlene HopeTech-Schiff, das die First-Söldner auf Montara Luna benutzt haben, wurde in der Vergnügungsstadt Neon gesichtet. Der Dieb bleibt weiterhin meine beste Spur, um herauszufinden, was die First im Schilde führt. Ich werde mit Ranger Jaylen Pryce sprechen müssen, um meine Suche beginnen zu können.
+      - Language: English
+        String: The stolen HopeTech ship that was being used by the First mercenaries on Montara Luna was spotted at the pleasure city of Neon. The thief remains my best lead for finding out what the First is up to, and I'll need to talk to Ranger Jaylen Pryce to begin the search.
+      - Language: Spanish
+        String: Han visto en Neón, ciudad del placer, la nave robada de HopeTech que los mercenarios del Primero usaban en Montara Luna. El ladrón sigue siendo mi mejor baza para descubrir qué se trae entre manos el Primero. Debo hablar con el comando Jaylen Pryce para empezar la investigación.
+      - Language: French
+        String: Le vaisseau HopeTech volé qui a été utilisé par les mercenaires de la 1re sur Montara Luna a été repéré dans la ville des plaisirs de Néon. Le voleur reste ma meilleure piste pour découvrir ce que mijote la 1re, et je vais devoir parler au ranger Jaylen Pryce pour commencer mes recherches.
+      - Language: Italian
+        String: La nave HopeTech rubata usata dai mercenari del Primo sulla luna di Montara è stata avvistata su Neon. Il suo ladro rimane la mia pista migliore per scoprire i piani del Primo. Dovrò parlare col ranger Jaylen Pryce per iniziare la ricerca.
+      - Language: Japanese
+        String: モンターラ・ルナで第一部隊の傭兵が使用していた、盗まれたホープテックの船がネオンの歓楽の街で目撃された。あの泥棒は第一部隊の狙いを確かめる一番の手がかりだ。捜索を始めるため、レンジャーのジェイレン・プライスと話をしよう
+      - Language: Polish
+        String: Wykradziony statek HopeTechu, którego używali najemnicy Pierwszej na Montara Lunie, widziano w mieście rozrywki - Neonie. Złodziej pozostaje moim najlepszym tropem, jeśli chodzi o plany Pierwszej. Muszę porozmawiać ze Strażnikiem Jaylenem Pryce'em, aby rozpocząć poszukiwania.
+      - Language: Portuguese_Brazil
+        String: A nave roubada da HopeTech que os mercenários da 1.a estavam usando em Montara Luna foi avistada em Neon, a cidade dos prazeres. O ladrão ainda é minha melhor pista para descobrir o que a 1.a está tramando, e vou precisar falar com o patrulheiro Jaylen Pryce para começar a busca.
+      - Language: ChineseSimplified
+        String: 有人在欢愉之城霓虹城发现了第一装甲兵团雇佣兵在蒙塔拉露娜星使用过的失窃霍普科技飞船，要想弄清楚第一装甲兵团到底有什么阴谋，那个贼仍然是最好的突破口。我得去找游骑兵杰伦·普莱斯谈谈，才能开始搜索。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Acquired warehouse key
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Jaylen
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Das gestohlene HopeTech-Schiff wurde in Neon gesichtet. Der Dieb bleibt weiterhin meine beste Spur, um herauszufinden, was die First im Schilde führt. Ich werde mit Ranger Jaylen Pryce sprechen müssen, um meine Suche beginnen zu können.
+      - Language: English
+        String: The stolen HopeTech ship was spotted on Neon. The thief remains my best lead for finding out what the First is up to, and I'll need to talk to Ranger Jaylen Pryce to begin the search.
+      - Language: Spanish
+        String: Han visto la nave robada de HopeTech en Neón. El ladrón sigue siendo mi mejor baza para descubrir qué se trae entre manos el Primero. Debo hablar con el comando Jaylen Pryce para empezar la investigación.
+      - Language: French
+        String: Le vaisseau HopeTech volé a été repéré sur Néon. Le voleur reste ma meilleure piste pour découvrir ce que mijote la 1re, et je vais devoir parler au ranger Jaylen Pryce pour commencer mes recherches.
+      - Language: Italian
+        String: La nave HopeTech rubata è stata avvistata su Neon. Il suo ladro rimane la mia pista migliore per scoprire i piani del Primo. Dovrò parlare col ranger Jaylen Pryce per iniziare la ricerca.
+      - Language: Japanese
+        String: 盗まれたホープテックの船がネオンで目撃された。あの泥棒は第一部隊の狙いを確かめる一番の手がかりだ。捜索を始めるため、レンジャーのジェイレン・プライスと話をしよう
+      - Language: Polish
+        String: Wykradziony statek HopeTechu widziano w Neonie. Złodziej pozostaje moim najlepszym tropem, jeśli chodzi o plany Pierwszej. Muszę porozmawiać ze Strażnikiem Jaylenem Pryce'em, aby rozpocząć poszukiwania.
+      - Language: Portuguese_Brazil
+        String: A nave roubada da HopeTech foi avistada em Neon. O ladrão ainda é minha melhor pista para descobrir o que a 1.a está tramando, e vou precisar falar com o patrulheiro Jaylen Pryce para começar a busca.
+      - Language: ChineseSimplified
+        String: 有人在霓虹城发现了失窃的霍普科技飞船，要想弄清楚第一装甲兵团到底有什么阴谋，那个贼仍然是最好的突破口。我得去找游骑兵杰伦·普莱斯谈谈，才能开始搜索。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jaylen greeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 140
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Don't cause trouble
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Justice is absolute
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Greet scene done
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Meine Untersuchungen der Aktivitäten der First gehen weiter. Ranger Pryce bringt mich zu Billy Clayton, einem Informanten, der das gestohlene HopeTech-Schiff und dessen Piloten gesehen haben könnte.
+      - Language: English
+        String: My investigation into the activities of the First continues. Ranger Pryce is taking me to meet Billy Clayton, an informant who might have seen the stolen HopeTech ship and its pilot.
+      - Language: Spanish
+        String: Continúo con mi investigación sobre las actividades del Primero. El comando Pryce me lleva a ver a Billy Clayton, un informante que podría haber visto la nave robada de HopeTech y a su piloto.
+      - Language: French
+        String: Mon enquête sur les activités de la 1re continue. Le ranger Pryce m'emmène rencontrer Billy Clayton, un informateur qui pourrait avoir vu le vaisseau HopeTech volé et son pilote.
+      - Language: Italian
+        String: La mia indagine sulle attività del Primo continua. Il ranger Pryce vuole che incontri Billy Clayton, un informatore che potrebbe aver visto la nave HopeTech rubata e il suo pilota.
+      - Language: Japanese
+        String: 第一部隊の活動の調査が続いている。レンジャー・プライスが情報提供者のビリー・クレイトンに会わせてくれることになった。盗まれたホープテックの船と、そのパイロットを目撃した可能性があるそうだ
+      - Language: Polish
+        String: Moje śledztwo w sprawie działalności Pierwszej trwa. Strażnik Pryce zabiera mnie na spotkanie z Billym Claytonem, informatorem, który być może widział wykradziony statek HopeTechu i osobę, która go pilotowała.
+      - Language: Portuguese_Brazil
+        String: Minha investigação sobre as atividades da 1.a continuam. A patrulheira Pryce vai me levar para ver Billy Clayton, um informante que pode ter visto a nave roubada da HopeTech e quem a pilotava.
+      - Language: ChineseSimplified
+        String: 我对第一装甲兵团活动的调查仍在进行。游骑兵普莱斯会带我去见比利·克莱顿，这位线人可能看到过失窃的霍普科技飞船和它的驾驶员。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Follow Jaylen
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start Jaylen and Billy intro scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Billy
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 325
+  Unknown: 103
+  LogEntries:
+  - Flags: []
+    Note: Player threatened BIlly
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 330
+  Unknown: 32
+  LogEntries:
+  - Flags: []
+    Note: Billy give credits
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player learned Ito name
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 360
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Billy SC succeed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 370
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Billy SC fail
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 380
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Get in Warehouse or Confront Goodman
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Get inside warehouse
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Billy Clayton hat das gestohlene HopeTech-Schiff gesehen, wird aber von einem Kredithai bedroht. Ich habe mich bereit erklärt, sein Problem zu lösen – im Austausch gegen Informationen über den Piloten des gestohlenen Schiffs.
+      - Language: English
+        String: Billy Clayton saw the stolen HopeTech ship, but he's being threatened by a loan shark. I agreed to solve Billy's problem in exchange for information about the stolen ship's pilot.
+      - Language: Spanish
+        String: Billy Clayton ha visto la nave robada de HopeTech, pero le está chantajeando un prestamista. He aceptado solucionar el problema de Billy a cambio de información sobre el piloto de la nave robada.
+      - Language: French
+        String: Billy Clayton a vu le vaisseau HopeTech volé, mais il subit les menaces d'un usurier. J'ai accepté de résoudre le problème de Billy en échange d'informations sur le pilote du vaisseau volé.
+      - Language: Italian
+        String: Billy Clayton ha visto la nave HopeTech rubata, ma uno strozzino lo sta minacciando. Ho accettato di risolvere il problema di Billy in cambio di informazioni sul pilota della nave rubata.
+      - Language: Japanese
+        String: ビリー・クレイトンはホープテックの船を目撃したが、彼は今、高利貸しに脅されている。盗まれた船のパイロットに関する情報と引き換えに、彼の問題へ対処することに同意した
+      - Language: Polish
+        String: Billy Clayton widział statek HopeTechu, ale jest zastraszany przez lichwiarza. Umówiliśmy się, że rozwiążę ten problem w zamian za informacje o pilocie skradzionej jednostki.
+      - Language: Portuguese_Brazil
+        String: Billy Clayton viu a nave roubada da HopeTech, mas ele está sendo ameaçado por um agiota. Concordei em resolver o problema do Billy em troca de informações sobre quem pilotava a nave roubada.
+      - Language: ChineseSimplified
+        String: 比利·克莱顿见到过失窃的霍普科技飞船，但他现在被一个放高利贷的缠上了。我答应帮比尔解决他的麻烦，作为交换，他得告诉我失窃飞船驾驶员的情报。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 430
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Win SC Doorman
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 440
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Lose SC Doorman
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Bribe doorman
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 460
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Give warehouse key
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Confront Emmet
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Emmett greeted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 520
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Paid debt, take money
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 530
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player agreed to pay debt
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 540
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Emmett SC success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Emmett SC fail
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 560
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Emmett is enemy
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 570
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Emmett killed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Billy
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mich um den Kredithai gekümmert, der Billy Clayton bedroht hatte, und kann nun herausfinden, was Billy über den Piloten des gestohlenen HopeTech-Schiffs weiß.
+      - Language: English
+        String: Having dealt with the loan shark who was threatening Billy Clayton, I can now find out what Billy knows about the pilot of the stolen HopeTech ship.
+      - Language: Spanish
+        String: Tras haberme encargado del prestamista que amenazaba a Billy Clayton, ya puedo averiguar lo que sabe Billy sobre el piloto de la nave robada de HopeTech.
+      - Language: French
+        String: Maintenant que j'ai réglé le compte de l'usurier qui menaçait Billy Clayton, je peux découvrir ce que sait Billy sur le pilote du vaisseau HopeTech volé.
+      - Language: Italian
+        String: Dopo aver risolto la questione con lo strozzino che lo minacciava, Billy Clayton può finalmente dirmi cosa sa sul pilota della nave HopeTech rubata.
+      - Language: Japanese
+        String: ビリー・クレイトンを脅していた高利貸しに対処した。盗まれたホープテックの船のパイロットについて、ようやく彼から話を聞くことができる
+      - Language: Polish
+        String: Po rozprawieniu się z grożącym Billy'emu Claytonowi lichwiarzem mogę dowiedzieć się, co Billy wie o pilocie skradzionego statku HopeTechu.
+      - Language: Portuguese_Brazil
+        String: Depois de lidar com o agiota que ameaçava Billy Clayton, posso descobrir o que Billy sabe sobre quem pilotava a nave roubada da HopeTech.
+      - Language: ChineseSimplified
+        String: 解决了纠缠比利·克莱顿的高利贷者，这下我就能知道比利对失窃霍普科技飞船的驾驶员所掌握的情况。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Confront Grace Early
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Der Pilot des gestohlenen HopeTech-Schiffs entpuppte sich als eine Pilotin namens Grace Early, die wohl viel Zeit bei Madame Sauvage in Neon verbringt. Ich muss herausfinden, was sie über die First weiß.
+      - Language: English
+        String: The pilot of the stolen HopeTech ship is named Grace Early, and she spends time at Madame Sauvage's in Neon. I need to find out what she knows about the First.
+      - Language: Spanish
+        String: La piloto de la nave robada de HopeTech se llama Grace Early, y frecuenta Madame Sauvage's Place, en Neón. Tengo que averiguar lo que sabe sobre el Primero.
+      - Language: French
+        String: La pilote du vaisseau HopeTech volé s'appelle Grace Early, et elle passe son temps chez Madame Sauvage, à Néon. Je dois découvrir ce qu'elle sait sur la 1re.
+      - Language: Italian
+        String: La pilota della nave HopeTech rubata si chiama Grace Early e passa il tempo al Madame Sauvage di Neon. Devo scoprire cosa sa del Primo.
+      - Language: Japanese
+        String: 盗まれたホープテックの船のパイロットはグレース・アーリーといい、ネオンにあるマダム・ソバージュの店に出入りしている。彼女が第一部隊について知っていることを確かめよう
+      - Language: Polish
+        String: Pilotka skradzionego statku HopeTechu nazywa się Grace Early i lubi spędzać czas wolny w Madame Sauvage's Place w Neonie. Muszę sprawdzić, co wie o Pierwszej.
+      - Language: Portuguese_Brazil
+        String: A piloto da nave roubada da HopeTech se chama Grace Early, e ela gosta de passar o tempo no Madame Sauvage's em Neon. Preciso descobrir o que ela sabe sobre a 1.a.
+      - Language: ChineseSimplified
+        String: 失窃霍普科技飞船的驾驶员名叫格雷丝·厄尔利，她常常光顾霓虹城的索维奇夫人酒吧。我得弄清她对第一装甲兵团了解多少。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Move Jaylen to scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 740
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Grace SC Win
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 750
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Grace SC lose
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Grace confession
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 850
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Grace give slate
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Alex
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Durch meine Vernehmung von Grace Early habe ich die Namen zweier Lieutenants der First erfahren. Grace gab mir außerdem eine verschlüsselte Slate, die ich Alex Shadid bringen muss, damit sie analysiert werden kann.
+      - Language: English
+        String: During my interrogation of Grace Early, I learned the names of two lieutenants in the First. She also gave me an encrypted slate, which I need to take to Alex Shadid for analysis.
+      - Language: Spanish
+        String: Durante mi interrogatorio a Grace Early, he averiguado los nombres de dos tenientes del Primero. También me ha dado una tábula encriptada, tengo que llevársela a Alex Shadid para que la analice.
+      - Language: French
+        String: Pendant l'interrogatoire de Grace Early, j'ai appris le nom de deux lieutenants de la 1re. Elle m'a également confié une tablette chiffrée, que je dois remettre à Alex Shadid pour analyse.
+      - Language: Italian
+        String: Interrogando Grace Early, ho appreso i nomi di due tenenti del Primo. Mi ha anche consegnato una tabula criptata, che devo portare ad Alex Shadid perché la analizzi.
+      - Language: Japanese
+        String: グレース・アーリーを尋問し、第一部隊の二人の士官の名前を聞き出すことができた。暗号化されたスレートを渡されたが、これは分析のためにアレックス・シャディッドに渡そう
+      - Language: Polish
+        String: Podczas przesłuchania Grace Early padły nazwiska dwójki poruczników z Pierwszej. Dała mi też zaszyfrowaną tabliczkę, którą muszę zabrać do Alexa Shadida, żeby ją przeanalizował.
+      - Language: Portuguese_Brazil
+        String: Enquanto interrogava Grace Early, descobri os nomes de dois tenentes da 1.a. Ela também me deu um códice criptografado, o qual preciso levar para Alex Shadid para ser analisado.
+      - Language: ChineseSimplified
+        String: 在审问格雷丝·厄尔利的过程中，我得到了两个第一装甲兵团中尉的名字。她还给了我一块加密数据板，我得把它交给亚历克斯·沙地德进行分析。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 925
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Arrive at Akila
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 950
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Remove slate
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talk to Blake
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Meine Untersuchungen der Aktivitäten der First gehen weiter. Ich habe Ranger Alex Shadid die verschlüsselte Slate gebracht, die ich in Neon von Grace Early erhalten habe. Jetzt möchte der Marshal mit mir sprechen.
+      - Language: English
+        String: My investigation into the First's activities continues. I delivered the encrypted slate I got from Grace Early on Neon to Ranger Alex Shadid for analysis. Now the Marshal wants to see me.
+      - Language: Spanish
+        String: Continúo con mi investigación sobre las actividades del Primero. He entregado la tábula encriptada que me dio Grace Early en Neón al comando Alex Shadid para que la analice. Ahora quiere verme el mariscal.
+      - Language: French
+        String: Mon enquête sur les activités de la 1re continue. J'ai remis la tablette chiffrée que ma confiée Grace Early à Néon au ranger Alex Shadid pour analyse. Maintenant, le marshal voudrait me voir.
+      - Language: Italian
+        String: La mia indagine sulle attività del Primo continua. Ho consegnato al ranger Alex Shadid la tabula criptata che ho ricevuto da Grace Early su Neon perché la analizzi. Ora lo sceriffo vuole vedermi.
+      - Language: Japanese
+        String: 第一部隊の活動の調査が続いている。ネオンのグレース・アーリーから入手した暗号化されたスレートを、分析のためにレンジャーのアレックス・シャディッドへ届けた。次は同盟保安官が会いたがっているようだ
+      - Language: Polish
+        String: Moje śledztwo w sprawie działalności Pierwszej trwa. Tabliczka przekazana mi w Neonie przez Grace Early jest już w rękach Strażnika Alexa Shadida, który przeprowadzi jej analizę. Teraz chce się ze mną widzieć szeryf.
+      - Language: Portuguese_Brazil
+        String: Minha investigação sobre as atividades da 1.a continua. Entreguei o códice criptografado que consegui de Grace Early em Neon para a patrulheira Alex Shadid analisar. Agora o delegado quer me ver.
+      - Language: ChineseSimplified
+        String: 我对第一装甲兵团活动的调查仍在进行。我已经把霓虹城的格雷丝·厄尔利给我的加密数据板交给了游骑兵亚历克斯·沙地德，请他帮忙分析。现在治安官想要见我。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ready FC05
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ready FC06
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Complete quest
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: 'Meine Suche nach der First führte mich zuerst nach Neon. Dort habe ich Grace Early gefunden, die Diebin des HopeTech-Raumschiffs, das ich auf Montara Luna entdeckt hatte. Von Grace Early habe ich die Namen zweier Lieutenants der First erfahren: Maya Cruz und Marco Graziani. Grace gab mir außerdem eine verschlüsselte Slate, die ich Alex Shadid bringen muss, damit sie analysiert werden kann.'
+      - Language: English
+        String: My search for the First led me to Neon, where I tracked down Grace Early, the thief who stole the HopeTech starship I discovered on Montara Luna. From Grace I learned the names of two lieutenants in the First, Maya Cruz and Marco Graziani. She also gave me an encrypted slate, which I gave to Alex Shadid for analysis.
+      - Language: Spanish
+        String: Mi búsqueda del Primero me llevó a Neón, donde seguí el rastro de Grace Early, la ladrona que robó la nave de HopeTech que descubrí en Montara Luna. Con Grace averigüé los nombres de los dos tenientes del Primero, Maya Cruz y Marco Graziani. También me dio una tábula encriptada, que le entregué a Alex Shadid para que la analizara.
+      - Language: French
+        String: Mon enquête sur la 1re a guidé mes pas jusqu'à Néon, où j'ai retrouvé Grace Early, la voleuse du vaisseau HopeTech que j'avais découvert sur Montara Luna. Elle m'a appris le nom de deux lieutenants de la 1re, Maya Cruz et Marco Graziani. Elle m'a également confié une tablette chiffrée, que je dois remettre à Alex Shadid pour analyse.
+      - Language: Italian
+        String: La ricerca del Primo mi ha condotto a Neon, dove ho localizzato Grace Early, la responsabile del furto dell’astronave HopeTech che ho scoperto sulla luna di Montara. Da lei ho ottenuto i nomi di due tenenti del Primo, Maya Cruz e Marco Graziani. Mi ha anche dato una tabula criptata che ho consegnato ad Alex Shadid.
+      - Language: Japanese
+        String: 第一部隊を捜索する中でネオンにたどり着いた。モンターラ・ルナで発見したホープテックの船を盗み出した人物、グレース・アーリーがここにいた。グレースからは、第一部隊の副官2名の名前を聞き出せた。マヤ・クルスとマルコ・グラツィアーニだ。また、暗号化されたスレートも入手した。そのスレートの分析はアレックス・シャディッドに任せた
+      - Language: Polish
+        String: Moje poszukiwania Pierwszej doprowadziły mnie do Neonu, gdzie udało mi się namierzyć Grace Early, która ukradła statek kosmiczny HopeTechu znaleziony przeze mnie na Montara Lunie. Grace przekazała mi też imiona dwojga poruczników Pierwszej, Mayi Cruz i Marca Grazianiego. Dała mi również zaszyfrowaną tabliczkę. Obecnie analizuje ją Alex Shadid.
+      - Language: Portuguese_Brazil
+        String: 'Minha busca pela 1.a me levou até Neon, onde localizei Grace Early, a ladra que roubou a espaçonave da HopeTech que eu achei em Montara Luna. Com Grace, descobri os nomes de dois tenentes da 1.a: Maya Cruz e Marco Graziani. Ela também me deu um códice criptografado, que dei para Alex Shadid analisar.'
+      - Language: ChineseSimplified
+        String: 为了寻找第一装甲兵团，我来到了霓虹城。在那里我追踪到了格蕾丝·厄尔利，就是那个偷走我在蒙塔拉露娜星发现的霍普科技星舰的小偷。从格雷丝那里我得到了两个第一装甲兵团中尉的名字：玛雅·克鲁兹和马可·格拉齐亚尼。她还给了我一块加密数据板，我把它给了亚历克斯·沙地德进行分析。
+    StageCompleteDatas:
+    - QSRD: 0x02000000
+      RewardDatas:
+      - XpAwarded: 23DF3B:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0C:Starfield.esm
+          Count: 1
+      - XpAwarded: Null
+        BonusCredits: 1460FE:Starfield.esm
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: HasPerkConditionData
+            FirstParameter: 227FD5:Starfield.esm
+          ComparisonValue: 1
+    - QSRD: '[]'
+Objectives:
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich nach Neon.
+    - Language: English
+      String: Go to Neon
+    - Language: Spanish
+      String: Ve a Neón.
+    - Language: French
+      String: Rendez-vous à Néon.
+    - Language: Italian
+      String: Raggiungi Neon
+    - Language: Japanese
+      String: ネオンへ行く
+    - Language: Polish
+      String: Udaj się do Neonu
+    - Language: Portuguese_Brazil
+      String: Vá para Neon
+    - Language: ChineseSimplified
+      String: 前往霓虹城
+  Targets:
+  - {}
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Jaylen Pryce.
+    - Language: English
+      String: Talk to Jaylen Pryce
+    - Language: Spanish
+      String: Habla con Jaylen Pryce.
+    - Language: French
+      String: Parlez à Jaylen Pryce.
+    - Language: Italian
+      String: Parla con Jaylen Pryce
+    - Language: Japanese
+      String: ジェイレン・プライスと話す
+    - Language: Polish
+      String: Porozmawiaj z Jaylenem Pryce'em
+    - Language: Portuguese_Brazil
+      String: Fale com Jaylen Pryce
+    - Language: ChineseSimplified
+      String: 与杰伦·普莱斯交谈
+  Targets:
+  - {}
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Jaylen Pryce.
+    - Language: English
+      String: Follow Jaylen Pryce
+    - Language: Spanish
+      String: Sigue a Jaylen Pryce.
+    - Language: French
+      String: Suivez Jaylen Pryce.
+    - Language: Italian
+      String: Segui Jaylen Pryce
+    - Language: Japanese
+      String: ジェイレン・プライスについて行く
+    - Language: Polish
+      String: Podążaj za Jaylenem Pryce'em
+    - Language: Portuguese_Brazil
+      String: Siga Jaylen Pryce
+    - Language: ChineseSimplified
+      String: 跟随杰伦·普莱斯
+  Targets:
+  - {}
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Billy Clayton.
+    - Language: English
+      String: Talk to Billy Clayton
+    - Language: Spanish
+      String: Habla con Billy Clayton.
+    - Language: French
+      String: Parlez à Billy Clayton.
+    - Language: Italian
+      String: Parla con Billy Clayton
+    - Language: Japanese
+      String: ビリー・クレイトンと話す
+    - Language: Polish
+      String: Porozmawiaj z Billym Claytonem
+    - Language: Portuguese_Brazil
+      String: Fale com Billy Clayton
+    - Language: ChineseSimplified
+      String: 与比利·克莱顿交谈
+  Targets:
+  - AliasID: 1
+- Index: 250
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Beschaffe einen Lagerhausschlüssel.
+    - Language: English
+      String: Acquire a Warehouse Key
+    - Language: Spanish
+      String: Compra una llave del almacén.
+    - Language: French
+      String: Obtenez une clé de l'entrepôt.
+    - Language: Italian
+      String: Ottieni la chiave del magazzino
+    - Language: Japanese
+      String: 倉庫の鍵を手に入れる
+    - Language: Polish
+      String: Zdobądź klucz do magazynu
+    - Language: Portuguese_Brazil
+      String: Consiga uma chave do armazém
+    - Language: ChineseSimplified
+      String: 获得一把仓库钥匙
+  Targets:
+  - AliasID: 5
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Stelle Emmett Goodman zur Rede.
+    - Language: English
+      String: Confront Emmet Goodman
+    - Language: Spanish
+      String: Plántale cara a Emmet Goodman.
+    - Language: French
+      String: Confrontez Emmett Goodman.
+    - Language: Italian
+      String: Affronta Emmet Goodman
+    - Language: Japanese
+      String: エメット・グッドマンと対峙する
+    - Language: Polish
+      String: Spotkaj się z Emmetem Goodmanem
+    - Language: Portuguese_Brazil
+      String: Confronte Emmett Goodman
+    - Language: ChineseSimplified
+      String: 质问爱默特·古德曼
+  Targets:
+  - AliasID: 2
+- Index: 320
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Begleiche Billys Schulden.
+    - Language: English
+      String: (Optional) Pay off Billy's debt
+    - Language: Spanish
+      String: (Opcional) Salda la deuda de Billy.
+    - Language: French
+      String: (Optionnel) Soldez la dette de Billy.
+    - Language: Italian
+      String: (Opzionale) Salda il debito di Billy
+    - Language: Japanese
+      String: (オプション)ビリーの借金を返済する
+    - Language: Polish
+      String: (Opcj.) Spłać dług Billy'ego
+    - Language: Portuguese_Brazil
+      String: (Opc.) Pague a dívida do Billy
+    - Language: ChineseSimplified
+      String: （可选）付清比利的债款
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Billy Clayton.
+    - Language: English
+      String: Talk to Billy Clayton
+    - Language: Spanish
+      String: Habla con Billy Clayton.
+    - Language: French
+      String: Parlez à Billy Clayton.
+    - Language: Italian
+      String: Parla con Billy Clayton
+    - Language: Japanese
+      String: ビリー・クレイトンと話す
+    - Language: Polish
+      String: Porozmawiaj z Billym Claytonem
+    - Language: Portuguese_Brazil
+      String: Fale com Billy Clayton
+    - Language: ChineseSimplified
+      String: 与比利·克莱顿交谈
+  Targets:
+  - AliasID: 1
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Stelle Grace Early zur Rede.
+    - Language: English
+      String: Confront Grace Early
+    - Language: Spanish
+      String: Plántale cara a Grace Early.
+    - Language: French
+      String: Confrontez Grace Early
+    - Language: Italian
+      String: Affronta Grace Early
+    - Language: Japanese
+      String: グレース・アーリーと対峙する
+    - Language: Polish
+      String: Spotkaj się z Grace Early
+    - Language: Portuguese_Brazil
+      String: Confronte Grace Early
+    - Language: ChineseSimplified
+      String: 质问格雷丝·厄尔利
+  Targets:
+  - AliasID: 3
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Jaylen Pryce.
+    - Language: English
+      String: Talk to Jaylen Pryce
+    - Language: Spanish
+      String: Habla con Jaylen Pryce.
+    - Language: French
+      String: Parlez à Jaylen Pryce.
+    - Language: Italian
+      String: Parla con Jaylen Pryce
+    - Language: Japanese
+      String: ジェイレン・プライスと話す
+    - Language: Polish
+      String: Porozmawiaj z Jaylenem Pryce'em
+    - Language: Portuguese_Brazil
+      String: Fale com Jaylen Pryce
+    - Language: ChineseSimplified
+      String: 与杰伦·普莱斯交谈
+  Targets:
+  - {}
+- Index: 650
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich nach Akila City.
+    - Language: English
+      String: Go to Akila City
+    - Language: Spanish
+      String: Ve a la ciudad de Akila.
+    - Language: French
+      String: Rendez-vous à Akila City.
+    - Language: Italian
+      String: Raggiungi Akila City
+    - Language: Japanese
+      String: アキラ・シティに行く
+    - Language: Polish
+      String: Udaj się do miasta Akila
+    - Language: Portuguese_Brazil
+      String: Vá à cidade de Akila
+    - Language: ChineseSimplified
+      String: 前往阿基拉城
+  Targets:
+  - AliasID: 12
+- Index: 700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Alex Shadid.
+    - Language: English
+      String: Talk to Alex Shadid
+    - Language: Spanish
+      String: Habla con Alex Shadid.
+    - Language: French
+      String: Parlez à Alex Shadid.
+    - Language: Italian
+      String: Parla con Alex Shadid
+    - Language: Japanese
+      String: アレックス・シャディッドと話す
+    - Language: Polish
+      String: Porozmawiaj z Alexem Shadidem
+    - Language: Portuguese_Brazil
+      String: Fale com Alex Shadid
+    - Language: ChineseSimplified
+      String: 与亚历克斯·沙地德交谈
+  Targets:
+  - AliasID: 12
+- Index: 800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Daniel Blake.
+    - Language: English
+      String: Talk to Daniel Blake
+    - Language: Spanish
+      String: Habla con Daniel Blake.
+    - Language: French
+      String: Parlez à Daniel Blake.
+    - Language: Italian
+      String: Parla con Daniel Blake
+    - Language: Japanese
+      String: ダニエル・ブレイクと話す
+    - Language: Polish
+      String: Porozmawiaj z Danielem Blake'em
+    - Language: Portuguese_Brazil
+      String: Fale com Daniel Blake
+    - Language: ChineseSimplified
+      String: 与丹尼尔·布雷克交谈
+  Targets:
+  - AliasID: 13
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 6
+  Name: CityNeonLocation
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  SpecificLocation: 015FFE:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  Name: JaylenPryce
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2631AD:Starfield.esm
+  Keywords:
+  - 09C16D:Starfield.esm
+  PackageData:
+  - 25784A:Starfield.esm
+  - 0658E4:Starfield.esm
+  - 1F558D:Starfield.esm
+  - 1C51FE:Starfield.esm
+  - 040608:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: BillyClayton
+  Flags:
+  - Essential
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 20AE72:Starfield.esm
+  PackageData:
+  - 1F558B:Starfield.esm
+  - 0AA27F:Starfield.esm
+  - 002C80:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: EmmetGoodman
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - Protected
+  ALFG: 0
+  UniqueActor: 20AE6E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: GraceEarly
+  Flags:
+  - Essential
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 20AE6C:Starfield.esm
+  PackageData:
+  - 1C4E73:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: SyndicateDoorman
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 6
+    RefType: 20AE64:Starfield.esm
+  PackageData:
+  - 1C4E73:Starfield.esm
+  VoiceTypes: 2BCA52:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: WarehouseDoor
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2C57E9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: WarehouseKey
+  Flags:
+  - Optional
+  - QuestObject
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 20A927:Starfield.esm
+    AliasID: 5
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 10
+  Name: WarehouseLocation
+  Flags: []
+  ALFG: 0
+  SpecificLocation: 20BD94:Starfield.esm
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 11
+    ALAM: 0
+    ReferenceAlias:
+      ID: 11
+      Name: EmmettAndHenchman
+      Flags:
+      - AllowReuseInQuest
+      ALFG: 0
+      Location:
+        AliasID: 10
+        RefType: 208E37:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: AlexShadid
+  Flags: []
+  ALFG: 0
+  UniqueActor: 27AB13:Starfield.esm
+  PackageData:
+  - 002C80:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: DanielBlake
+  Flags: []
+  ALFG: 0
+  UniqueActor: 29A8EB:Starfield.esm
+  PackageData:
+  - 309B6E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: FC04QuestItemContainer
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0A54F1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: GraceSlate
+  Flags:
+  - QuestObject
+  - NoPickpocket
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 0AA27E:Starfield.esm
+    AliasID: 3
+    Create: In
+  VoiceTypes: Null

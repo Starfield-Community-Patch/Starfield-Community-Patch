@@ -1,0 +1,52 @@
+FormKey: 3233B7:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 13057619
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Unmittelbar, bevor du deinen Vater verloren hast.
+    - Language: English
+      String: That's right before you lost your father.
+    - Language: Spanish
+      String: Y eso fue justo antes de que perdieras a tu padre.
+    - Language: French
+      String: C'était juste avant que vous ne perdiez votre père.
+    - Language: Italian
+      String: È stato appena prima che perdessi tuo padre.
+    - Language: Japanese
+      String: …あんたが父親を亡くすまでは、か
+    - Language: Polish
+      String: To było tuż przed tym, gdy straciłaś ojca.
+    - Language: Portuguese_Brazil
+      String: Isso foi pouco antes de você perder seu pai.
+    - Language: ChineseSimplified
+      String: 没错，但之后你失去了你的父亲。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x1031C7A74C33D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    Unknown3: 0
+    FirstParameter: 3261341
+  ComparisonValue: 6
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1D7053:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low
+Perk: 1D7053:Starfield.esm

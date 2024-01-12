@@ -1,0 +1,52 @@
+FormKey: 3233A3:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 6771323
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ich bin überzeugt, dass diese Reise dir hilft, deine Dämonen zu vertreiben.
+    - Language: English
+      String: I'm confident this journey will help you exorcise your demons.
+    - Language: Spanish
+      String: Seguro que esta aventura te ayudará a exorcizar tus demonios.
+    - Language: French
+      String: Ce voyage vous aidera à exorciser vos démons, c'est certain.
+    - Language: Italian
+      String: Sicuramente questo viaggio ti aiuterà a esorcizzare i tuoi demoni.
+    - Language: Japanese
+      String: きっとこの旅で、サラの悪夢を祓えるだろう
+    - Language: Polish
+      String: Mam pewność, że ta podróż pomoże ci przezwyciężyć twoje wewnętrzne demony.
+    - Language: Portuguese_Brazil
+      String: Tô confiante que essa jornada vai te ajudar a exorcizar seus demônios.
+    - Language: ChineseSimplified
+      String: 我有把握这趟旅程能帮你驱除你的心魔。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x5044D26D4B33D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    Unknown3: 0
+    FirstParameter: 3261341
+  ComparisonValue: 4
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1D7053:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low
+Perk: 1D7053:Starfield.esm

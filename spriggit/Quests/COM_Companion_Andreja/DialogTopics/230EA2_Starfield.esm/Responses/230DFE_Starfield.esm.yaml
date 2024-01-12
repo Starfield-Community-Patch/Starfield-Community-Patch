@@ -1,0 +1,40 @@
+FormKey: 230DFE:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0C866C:Starfield.esm
+  WEMFile: 14331808
+  TRDAUnknown: 0.53333336
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ich habe mich an Vladimir gewandt und wurde aufgenommen.
+    - Language: English
+      String: I approached Vladimir, and was allowed into the organization.
+    - Language: Spanish
+      String: Contacté con Vladimir y me permitieron acceder a la organización.
+    - Language: French
+      String: J'ai contacté Vladimir et ai été admise dans l'organisation.
+    - Language: Italian
+      String: Contattai Vladimir e fui accolta nell’organizzazione.
+    - Language: Japanese
+      String: 私はウラジミールに近づき、組織に参加することができた
+    - Language: Polish
+      String: Po rozmowie z Vladimirem zostałam wcielona do organizacji.
+    - Language: Portuguese_Brazil
+      String: Eu me aproximei do Vladimir e fui aceita como integrante da organização.
+    - Language: ChineseSimplified
+      String: 我找到了弗拉迪米尔，接着被这个组织接受了。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA04C82EA7B84D601
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 036E00:Starfield.esm
+  ComparisonValue: 1234
+StartScenePhase: ''
+SubtitlePriority: Low

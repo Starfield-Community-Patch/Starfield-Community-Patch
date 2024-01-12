@@ -1,0 +1,494 @@
+FormKey: 091CF5:Starfield.esm
+EditorID: FFNewAtlantis04
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01295A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NPC
+      Object: 091609:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ring
+      Object: 091CF5:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thief
+      Object: 091CF5:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis02Misc
+      Object: 042C70:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis04_SpeechChallengeQuest
+      Object: 091609:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05
+      Object: 08E2D9:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0009_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0100_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 091CF5:Starfield.esm
+      Alias: 3
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Umsicht bei Morgengrauen
+  - Language: English
+    String: A Break at Dawn
+  - Language: Spanish
+    String: Jaleo en el Dawn
+  - Language: French
+    String: Combat de coqs
+  - Language: Italian
+    String: Rottura all’alba
+  - Language: Japanese
+    String: 夜明けの破局
+  - Language: Polish
+    String: Zwada o świcie
+  - Language: Portuguese_Brazil
+    String: Rompimento ao Amanhecer
+  - Language: ChineseSimplified
+    String: 黎明时分
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+QuestFaction: 0546DC:Starfield.esm
+UnusedConditions: []
+Stages:
+- Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest start
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Returned to New Atlantis
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Force ref to alias
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Spoke to Hugo once
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speech Check Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speech Check Failure
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player learns they were dating
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player gets quest
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi von der UC-Security gab mir einen weiteren Auftrag. Ich soll mit Royce Elgin im Dawn's Roost über eine Kneipenschlägerei sprechen, die sich dort zwischen zwei Gästen ereignet hatte. Anscheinend beschuldigt einer der Streithähne den anderen, seinen Ehering gestohlen zu haben.
+      - Language: English
+        String: Sergeant Yumi at UC Security has given me another task. I'm to speak to Royce Elgin at the Dawn's Roost about a bar fight that took place earlier between two patrons. Apparently one of them is claiming the other stole their wedding ring.
+      - Language: Spanish
+        String: El sargento Yumi, de la seguridad de las CU, me ha asignado otra tarea. He hablado con Royce Elgin en Dawn's Roost sobre una reyerta que se ha producido entre dos clientes. Al parecer, uno de ellos acusa al otro del robo de su alianza.
+      - Language: French
+        String: Le sergent Yumi, de la sécurité de l'UC, m'a donné une nouvelle tâche. Je dois parler à Royce Elgin au Coq matinal concernant une bagarre de bar qui s'est déroulée entre deux clients un peu plus tôt. Apparemment, l'un affirme que l'autre a volé sa bague de fiançailles.
+      - Language: Italian
+        String: 'Il sergente Yumi della Sicurezza UC mi ha dato un altro incarico. Devo parlare con Royce Elgin al Dawn’s Roost di una rissa avvenuta tra due avventori: a quanto pare, uno di loro sostiene che l’altro gli abbia rubato la fede nuziale.'
+      - Language: Japanese
+        String: UC警備隊のユミ軍曹にまた仕事を頼まれた。ドーンズ・ルーストのロイス・エルギンから、常連客の間で起こった酒場の喧嘩について話を聞きに行く。どちらかが、相手は結婚指輪を盗んだと訴えているらしい
+      - Language: Polish
+        String: Sierżant Yumi z ochrony ZK dał mi kolejne zadanie. Mam porozmawiać z Royce'em Elginem w Dawn's Roost na temat bójki, do której doszło wcześniej między dwoma klientami. Jeden z nich twierdzi ponoć, że drugi ukradł jego pierścionek zaręczynowy.
+      - Language: Portuguese_Brazil
+        String: Recebi outra tarefa do sargento Yumi da segurança da UC. Para começar, tenho que falar com Royce Elgin no Dawn's Roost sobre uma briga de bar que ocorreu entre dois clientes. Parece que um deles está acusando o outro de ter roubado a sua aliança de casamento.
+      - Language: ChineseSimplified
+        String: 联殖安保的由实中士给了我另一项任务。我要前往黎明烘焙和罗伊斯·埃尔金交谈，问他关于早些时候两位顾客在酒吧发生的一场斗殴。其中一人声称对方偷了自己的结婚戒指。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player given location of thief
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi von der UC-Security gab mir einen weiteren Auftrag. Ich sprach mit Royce Elgin im Dawn's Roost über eine Kneipenschlägerei, die sich dort zwischen zwei Gästen ereignet hatte. Er schickte mich daraufhin zum Athena Tower, einem großen Wohngebäude.
+      - Language: English
+        String: Sergeant Yumi at UC Security has given me another task. I spoke to Royce Elgin at the Dawn's Roost about a bar fight that took place earlier between two patrons. He directed me to the Athena Tower residential building.
+      - Language: Spanish
+        String: El sargento Yumi, de la seguridad de las CU, me ha asignado otra tarea. He hablado con Royce Elgin en Dawn's Roost sobre una reyerta que se ha producido entre dos clientes. Me ha sugerido que me dirija al edificio residencial de la Torre Atenea.
+      - Language: French
+        String: Le sergent Yumi, de la sécurité de l'UC, m'a donné une nouvelle tâche. J'ai parlé à Royce Elgin au Coq matinal concernant une bagarre de bar qui s'est déroulée entre deux clients un peu plus tôt. Il m'a dit de me rendre à la tour Athena, un bâtiment résidentiel.
+      - Language: Italian
+        String: Il sergente Yumi della Sicurezza UC mi ha dato un altro incarico. Ho parlato con Royce Elgin al Dawn’s Roost di una rissa avvenuta tra due avventori e mi ha indirizzato verso l’edificio residenziale dell’Athena Tower.
+      - Language: Japanese
+        String: UC警備隊のユミ軍曹にまた仕事を頼まれた。ドーンズ・ルーストのロイス・エルギンから、常連客2人の間で起こった酒場の喧嘩について話を聞いた。居住ビルのアテナ・タワーに行くよう伝えられた
+      - Language: Polish
+        String: Sierżant Yumi z ochrony ZK dał mi kolejne zadanie. Jestem już po rozmowie z Royce'em Elginem, który skierował mnie do budynku mieszkalnego zwanego Wieżą Atena.
+      - Language: Portuguese_Brazil
+        String: Recebi outra tarefa do sargento Yumi da segurança da UC. Para começar, falei com Royce Elgin no Dawn's Roost sobre uma briga de bar que ocorreu entre dois clientes. Ele me dirigiu ao residencial da Torre Athena.
+      - Language: ChineseSimplified
+        String: 联殖安保的由实中士给了我另一项任务。我前往黎明烘焙和罗伊斯·埃尔金交谈，问他关于早些时候两位顾客在酒吧发生的一场斗殴。他指引我前往雅典娜大厦的住宅楼。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player allows thief to keep the ring
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi von der UC-Security gab mir einen weiteren Auftrag. Ich sprach mit Royce Elgin und wurde daraufhin zum Athena Tower geschickt, wo ich mich mit Hugo Fournier traf. Nach unserem Gespräch entschied ich, dass er den Ring behalten sollte.
+      - Language: English
+        String: Sergeant Yumi at UC Security has given me another task. I spoke to Royce Elgin, who directed me to the Athena Tower, where I met Hugo Fournier. After speaking to Hugo, I decided the ring was his to keep.
+      - Language: Spanish
+        String: El sargento Yumi, de la seguridad de las CU, me ha asignado otra tarea. Hablé con Royce Elgin, que me dijo que buscase a Hugo Fournier en la Torre Atenea. Tras hablar con Hugo, decidí que el anillo le pertenecía a él.
+      - Language: French
+        String: Le sergent Yumi, de la sécurité de l'UC, m'a donné une nouvelle tâche. J'ai parlé à Royce Elgin, qui m'a dit de me rendre à la tour Athena, où j'ai rencontré Hugo Fournier. Après avoir discuté avec Hugo, j'ai décidé qu'il pouvait garder la bague.
+      - Language: Italian
+        String: Il sergente Yumi della Sicurezza UC mi ha dato un altro incarico. Ho parlato con Royce Elgin, che mi ha indirizzato verso l’Athena Tower, dove ho incontrato Hugo Fournier. Dopo aver parlato con Hugo, ho deciso che era suo diritto tenere l’anello.
+      - Language: Japanese
+        String: UC警備隊のユミ軍曹にまた仕事を頼まれた。ロイス・エルギンから話を聞き、居住ビルのアテナ・タワーに行くよう伝えられた。そこでヒューゴ・フルニエに会った。ヒューゴから話を聞いて、指輪は彼のものだと判断した
+      - Language: Polish
+        String: Sierżant Yumi z ochrony ZK dał mi kolejne zadanie. Jestem już po rozmowie z Royce'em Elginem, który skierował mnie do Wieży Atena, gdzie przebywał Hugo Fournier. Po rozmowie z nim wydało mi się słuszne, by zachował pierścionek dla siebie.
+      - Language: Portuguese_Brazil
+        String: Recebi outra tarefa do sargento Yumi da segurança da UC. Para começar, falei com Royce Elgin, que me dirigiu à Torre Athena, onde conheci Hugo Fournier. Nós conversamos e decidi que ele podia ficar com a aliança.
+      - Language: ChineseSimplified
+        String: 联殖安保的由实中士给了我另一项任务。我和罗伊斯·埃尔金谈过后，他指引我去雅典娜大厦，我在那里遇到了雨果·富尼耶。在和雨果谈过之后，我决定把戒指留给他。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player is given ring
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has ring in possession
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi von der UC-Security gab mir einen weiteren Auftrag. Ich sprach mit Royce Elgin und wurde daraufhin zum Athena Tower geschickt, wo ich mich mit Hugo Fournier traf. Ich erhielt den Ring und sollte ihn nun zu Sergeant Yumi zurückbringen.
+      - Language: English
+        String: Sergeant Yumi at UC Security has given me another task. I spoke to Royce Elgin, who directed me to the Athena Tower, where I met Hugo Fournier. I obtained the ring and should return it to Sergeant Yumi.
+      - Language: Spanish
+        String: El sargento Yumi, de la seguridad de las CU, me ha asignado otra tarea. Hablé con Royce Elgin, que me dijo que buscase a Hugo Fournier en la Torre Atenea. Ahora que he conseguido el anillo, debería devolvérselo al sargento Yumi.
+      - Language: French
+        String: Le sergent Yumi, de la sécurité de l'UC, m'a donné une nouvelle tâche. J'ai parlé à Royce Elgin, qui m'a dit de me rendre à la tour Athena, où j'ai rencontré Hugo Fournier. J'ai récupéré la bague et devrais maintenant la rapporter au sergent Yumi.
+      - Language: Italian
+        String: Il sergente Yumi della Sicurezza UC mi ha dato un altro incarico. Ho parlato con Royce Elgin, che mi ha indirizzato verso l’Athena Tower, dove ho incontrato Hugo Fournier. Ho ottenuto l’anello e dovrei tornare dal sergente Yumi.
+      - Language: Japanese
+        String: UC警備隊のユミ軍曹にまた仕事を頼まれた。ロイス・エルギンから話を聞き、居住ビルのアテナ・タワーに行くよう伝えられた。そこでヒューゴ・フルニエに会った。指輪を確保した。ユミ軍曹に返そう
+      - Language: Polish
+        String: Sierżant Yumi z ochrony ZK dał mi kolejne zadanie. Jestem już po rozmowie z Royce'em Elginem, który skierował mnie do Wieży Atena, gdzie przebywał Hugo Fournier. Mam już pierścionek. Muszę go zanieść sierżantowi Yumiemu.
+      - Language: Portuguese_Brazil
+        String: Recebi outra tarefa do sargento Yumi da segurança da UC. Para começar, falei com Royce Elgin, que me dirigiu à Torre Athena, onde conheci Hugo Fournier. Achei a aliança e agora tenho que voltar ao sargento Yumi.
+      - Language: ChineseSimplified
+        String: 联殖安保的由实中士给了我另一项任务。我和罗伊斯·埃尔金谈过后，他指引我去雅典娜大厦，我在那里遇到了雨果·富尼耶。我拿到了戒指，该把它还给由实中士。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ring removed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest complete
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Sergeant Yumi von der UC-Security gab mir einen weiteren Auftrag. Ich sprach mit Royce Elgin und wurde daraufhin zum Athena Tower geschickt, wo ich mich mit Hugo Fournier traf. Nach der Untersuchung des Falls kehrte ich zu Sergeant Yumi zurück, um Bericht zu erstatten.
+      - Language: English
+        String: Sergeant Yumi at UC Security has given me another task. I spoke to Royce Elgin, who directed me to the Athena Tower, where I met Hugo Fournier. After investigating the issue, I returned to Sergeant Yumi and gave my report.
+      - Language: Spanish
+        String: El sargento Yumi, de la seguridad de las CU, me ha asignado otra tarea. Hablé con Royce Elgin, que me dijo que buscase a Hugo Fournier en la Torre Atenea. Tras investigar el problema, regresé con el sargento Yumi y presenté mi informe.
+      - Language: French
+        String: Le sergent Yumi, de la sécurité de l'UC, m'a donné une nouvelle tâche. J'ai parlé à Royce Elgin, qui m'a dit de me rendre à la tour Athena, où j'ai rencontré Hugo Fournier. Après avoir enquêté sur cette affaire, j'ai fait mon rapport auprès du sergent Yumi.
+      - Language: Italian
+        String: Il sergente Yumi della Sicurezza UC mi ha dato un altro incarico. Ho parlato con Royce Elgin, che mi ha indirizzato verso l’Athena Tower, dove ho incontrato Hugo Fournier. Dopo aver indagato sulla questione, ho fatto ritorno dal sergente Yumi e ho fatto rapporto.
+      - Language: Japanese
+        String: UC警備隊のユミ軍曹にまた仕事を頼まれた。ロイス・エルギンから話を聞き、居住ビルのアテナ・タワーに行くよう伝えられた。そこでヒューゴ・フルニエに会った。問題を調査してからユミ軍曹のところに戻り、報告した
+      - Language: Polish
+        String: Sierżant Yumi z ochrony ZK dał mi kolejne zadanie. Jestem już po rozmowie z Royce'em Elginem, który skierował mnie do Wieży Atena, gdzie przebywał Hugo Fournier. Sierżant Yumi dostał już ode mnie meldunek ze śledztwa.
+      - Language: Portuguese_Brazil
+        String: Recebi outra tarefa do sargento Yumi da segurança da UC. Para começar, falei com Royce Elgin, que me dirigiu à Torre Athena, onde conheci Hugo Fournier. Após investigar a questão, retornei ao sargento Yumi e fiz meu relatório.
+      - Language: ChineseSimplified
+        String: 联殖安保的由实中士给了我另一项任务。我和罗伊斯·埃尔金谈过后，他指引我去雅典娜大厦，我在那里遇到了雨果·富尼耶。在调查完这个问题后，我回去找由实中士并向他汇报情况。
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF34:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B10:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Royce im Dawn's Roost.
+    - Language: English
+      String: Speak to Royce at the Dawn's Roost
+    - Language: Spanish
+      String: Habla con Royce en Dawn's Roost.
+    - Language: French
+      String: Parlez à Royce au Coq matinal.
+    - Language: Italian
+      String: Parla con Royce al Dawn’s Roost
+    - Language: Japanese
+      String: ドーンズ・ルーストのロイスと話す
+    - Language: Polish
+      String: Porozmawiaj z Royce'em w Dawn's Roost
+    - Language: Portuguese_Brazil
+      String: Fale com Royce no Dawn's Roost
+    - Language: ChineseSimplified
+      String: 前往黎明烘焙，与罗伊斯交谈
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Suche Hugo Fournier im Athena Tower auf.
+    - Language: English
+      String: Find Hugo Fournier at Athena Tower
+    - Language: Spanish
+      String: Busca a Hugo Fournier en la Torre Atenea.
+    - Language: French
+      String: Trouvez Hugo Fournier à la tour Athena.
+    - Language: Italian
+      String: Trova Hugo Fournier all’Athena Tower
+    - Language: Japanese
+      String: アテナ・タワーでヒューゴ・フルニエを探す
+    - Language: Polish
+      String: Znajdź Hugo Fourniera w Wieży Atena
+    - Language: Portuguese_Brazil
+      String: Encontre Hugo Fournier na Torre Athena
+    - Language: ChineseSimplified
+      String: 前往雅典娜大厦找雨果·富尼耶
+  Targets:
+  - AliasID: 2
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Erstatte Sergeant Yumi Bericht.
+    - Language: English
+      String: Report to Sergeant Yumi
+    - Language: Spanish
+      String: Informa al sargento Yumi.
+    - Language: French
+      String: Faites votre rapport au sergent Yumi.
+    - Language: Italian
+      String: Fai rapporto al Sergente Yumi
+    - Language: Japanese
+      String: ユミ軍曹に報告する
+    - Language: Polish
+      String: Zgłoś się do sierżanta Yumiego
+    - Language: Portuguese_Brazil
+      String: Apresente-se ao sargento Yumi
+    - Language: ChineseSimplified
+      String: 向由实中士汇报情况
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: SergeantYumi
+  Flags: []
+  ALFG: 0
+  UniqueActor: 24C49F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: RoyceElgin
+  Flags: []
+  ALFG: 0
+  UniqueActor: 1C2BAF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: ThiefSitLocation
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  ForcedReference: 091C9B:Starfield.esm
+  Factions:
+  - 05BD93:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Thief
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - InitiallyDisabled
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 091C9C:Starfield.esm
+    AliasID: 4
+  LinkedAliases:
+  - AliasID: 4
+  Factions:
+  - 05BD93:Starfield.esm
+  PackageData:
+  - 09AB05:Starfield.esm
+  - 107AEA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Ring
+  Flags:
+  - QuestObject
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 091C9D:Starfield.esm
+    AliasID: 2
+    Create: In
+  VoiceTypes: Null

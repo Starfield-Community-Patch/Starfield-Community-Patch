@@ -1,0 +1,40 @@
+FormKey: 230DE7:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0FA84C:Starfield.esm
+  WEMFile: 946533
+  TRDAUnknown: 3.266667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Und doch verspüre ich zunehmend den Drang dazu, um mich selbst zu verstehen.
+    - Language: English
+      String: I find myself increasingly compelled to do so, to make sense of myself.
+    - Language: Spanish
+      String: Cada vez me siento más obligada a hacerlo, a encontrarme sentido.
+    - Language: French
+      String: J'en ressens de plus en plus le besoin, pour comprendre où j'en suis.
+    - Language: Italian
+      String: Sento una spinta sempre più forte a farlo, a dare un senso a me stessa.
+    - Language: Japanese
+      String: 話したほうがいいと思うようになってきたの。自分を理解するために
+    - Language: Polish
+      String: Coraz bardziej czuję taką potrzebę, żeby zrozumieć siebie.
+    - Language: Portuguese_Brazil
+      String: Me sinto cada vez mais propensa a fazer isso, para dar sentido a mim mesma.
+    - Language: ChineseSimplified
+      String: 我现在越来越想讨论下过去，好真正看懂我自己。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x806B6EBD5281D601
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 036E00:Starfield.esm
+  ComparisonValue: 1234
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,24 @@
+FormKey: 00080A:StarfieldCommunityPatch.esm
+EditorID: RIR03_SuitCNDF
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 000809:StarfieldCommunityPatch.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 2BA8A7:Starfield.esm
+  ComparisonValue: 1
+Quest: 2BABF3:Starfield.esm

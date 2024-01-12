@@ -1,0 +1,262 @@
+FormKey: 216D35:Starfield.esm
+EditorID: FC_AC_TrackersAllianceAgent
+ObjectBounds:
+  First: -0.591797, -0.3623047, 0
+  Second: 0.59179676, 1.0341797, 1.2373047
+ODTY: 0
+Flags:
+- Essential
+- Unique
+XpValueOffset: 5
+Level:
+  MutagenObjectType: NpcLevel
+  Level: 2
+DispositionBase: 35
+UseTemplateActors: 23050
+Factions:
+- Faction: 0638E5:Starfield.esm
+- Faction: 29A8E9:Starfield.esm
+DeathItem: 00ABF8:Starfield.esm
+Voice: 27CBC6:Starfield.esm
+DefaultTemplate: 010B3A:Starfield.esm
+TemplateActors:
+  StatsTemplate: 010B3A:Starfield.esm
+  SpellListTemplate: 010B3A:Starfield.esm
+  ScriptTemplate: 010B3A:Starfield.esm
+  AttackDataTemplate: 010B3A:Starfield.esm
+  KeywordsTemplate: 010B3A:Starfield.esm
+  Unknown2: 010B3A:Starfield.esm
+Race: 00347D:Starfield.esm
+CombatOverridePackageList: 0102ED:Starfield.esm
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+  Value: 5
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+  Value: 5
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+  Value: 5
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
+- ActorValue: 0002CD:Starfield.esm
+  Value: 45
+- ActorValue: 0002D4:Starfield.esm
+  Value: 25
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+Items:
+- Item:
+    Item: 2B1A22:Starfield.esm
+    Count: 1
+Confidence: Average
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsAllies
+Packages:
+- 1C4E73:Starfield.esm
+- 003641:Starfield.esm
+Class: 010B2F:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Trackerallianz-Agent
+  - Language: English
+    String: Trackers Alliance Agent
+  - Language: Spanish
+    String: Agente de la Alianza de Rastreadores
+  - Language: French
+    String: Agent de l'Alliance des traqueurs
+  - Language: Italian
+    String: Agente Alleanza dei Liquidatori
+  - Language: Japanese
+    String: 追跡者同盟のエージェント
+  - Language: Polish
+    String: Agent Przymierza Tropicieli
+  - Language: Portuguese_Brazil
+    String: Agente da Aliança de Rastreadores
+  - Language: ChineseSimplified
+    String: 追踪者联盟探员
+ShortName:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Trackerallianz-Agent
+  - Language: English
+    String: Trackers Alliance Agent
+  - Language: Spanish
+    String: Agente de la Alianza de Rastreadores
+  - Language: French
+    String: Agent de l'Alliance des traqueurs
+  - Language: Italian
+    String: Agente Alleanza dei Liquidatori
+  - Language: Japanese
+    String: 追跡者同盟のエージェント
+  - Language: Polish
+    String: Agent Przymierza Tropicieli
+  - Language: Portuguese_Brazil
+    String: Agente da Aliança de Rastreadores
+  - Language: ChineseSimplified
+    String: 追踪者联盟探员
+GearedUpWeapons: 1
+Unused: 43
+HeadParts:
+- 062F07:Starfield.esm
+- 064D88:Starfield.esm
+- 15B02B:Starfield.esm
+- 15F5A6:Starfield.esm
+- 24A022:Starfield.esm
+- 24A023:Starfield.esm
+- 24A03D:Starfield.esm
+- 253FA3:Starfield.esm
+- 253FA5:Starfield.esm
+- 3A681C:Starfield.esm
+- 3BE58D:Starfield.esm
+CombatStyle: 178CA4:Starfield.esm
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight:
+  Muscular: 0.51
+  Fat: 0.32
+SpaceOutfit: 052B02:Starfield.esm
+DefaultPackageList: 2C55CA:Starfield.esm
+CrimeFaction: 0638E5:Starfield.esm
+Tints:
+- TintType: SimpleGroup
+  TintGroup: Dermaesthetic
+  TintName: male_as_md2_sk6_Derm_color
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/male_as_md2_sk6_derm_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 31
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask1
+  TintName: Freckles_Cheek
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/freckles_cheek_mask.dds
+  TintColor: '#58821525'
+  TintIntensity: 11
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask2
+  TintName: Complexion_Patchy
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/complexion_wholeface_mask.dds
+  TintColor: '#00000000'
+  TintIntensity: 11
+- TintType: ComplexGroup
+  TintGroup: Accents1
+  TintName: Accents_CrowsFeet
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/accents/accents_crowsfeet_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 17
+- TintType: ComplexGroup
+  TintGroup: Accents2
+  TintName: Accents_NasoLabialFolds
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/accents/accents_nasolabialfolds_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: MakeupFullPaintMask1
+  TintName: CyberLines
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/makeupfullpainttint/cyberlines_mask.dds
+  TintColor: '#00000000'
+  TintIntensity: 24
+- TintType: SimpleGroup
+  TintGroup: MakeupFullPaintMask2
+  TintName: ChinLine
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/makeupfullpainttint/chinline_mask.dds
+  TintColor: '#00000000'
+  TintIntensity: 24
+- TintType: SimpleGroup
+  TintGroup: Eyeshadow1
+  TintName: EyeShadow_Upper_01
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/eyeshadow1/testeyeshadowupper01_mask.dds
+  TintColor: '#00000000'
+  TintIntensity: 44
+BodyMorphRegionValues:
+  UpperTorso: 0.21
+FaceDialPositions:
+- Index: 24
+  Position: 0.41
+- Index: 27
+  Position: -0.02
+- Index: 29
+  Position: 0.39
+- Index: 31
+  Position: -1
+- Index: 32
+  Position: 0.36
+- Index: 35
+  Position: -0.39
+- Index: 39
+  Position: -0.21
+- Index: 53
+  Position: 0.64
+- Index: 58
+  Position: 0.8
+- Index: 60
+  Position: -0.69
+- Index: 63
+  Position: -0.58
+- Index: 64
+  Position: 0.18
+- Index: 67
+  Position: -0.39
+- Index: 69
+  Position: 0.48
+- Index: 70
+  Position: -0.99
+- Index: 74
+  Position: 0.28
+- Index: 75
+  Position: -0.61
+- Index: 76
+  Position: 0.41
+- Index: 78
+  Position: 0.33
+- Index: 79
+  Position: -0.72
+- Index: 80
+  Position: 0.39
+- Index: 83
+  Position: -0.47
+- Index: 86
+  Position: -0.19
+MorphBlends:
+- BlendName: female_eu_md2_Neck
+  Intensity: 0.1
+- BlendName: male_af_yo1_Cheeks
+  Intensity: 0.73
+- BlendName: male_af_yo1_Ears
+  Intensity: 0.26
+- BlendName: male_as_md1_Eyes
+  Intensity: 0.34
+- BlendName: male_as_md1_Forehead
+  Intensity: 0.76
+- BlendName: male_as_md1_Jaw
+  Intensity: 0.59
+- BlendName: male_as_ol1_Eyes
+  Intensity: 0.66
+- BlendName: male_eu_md2_Jaw
+  Intensity: 0.41
+- BlendName: male_eu_md2_Mouth
+  Intensity: 0.66
+- BlendName: male_eu_md2_Neck
+  Intensity: 0.61
+- BlendName: male_eu_ol1_Chin
+  Intensity: 0.8
+- BlendName: male_eu_ol1_Neck
+  Intensity: 0.34
+- BlendName: male_eu_ol1_Nose
+  Intensity: 0.74
+- BlendName: male_eu_yo1_Ears
+  Intensity: 0.39
+SkinToneIndex: 4
+HairColor: Black
+FacialHairColor: Black
+EyebrowColor: Black
+EyeColor: Iron
+Pronoun: Unspecified

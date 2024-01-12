@@ -1,0 +1,52 @@
+FormKey: 3233AC:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 9798111
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Du meinst vermutlich Aja.
+    - Language: English
+      String: You must be referring to Aja.
+    - Language: Spanish
+      String: Supongo que te refieres a Aja.
+    - Language: French
+      String: Vous devez parler d'Aja.
+    - Language: Italian
+      String: Ti riferisci ad Aja.
+    - Language: Japanese
+      String: アジャのことか
+    - Language: Polish
+      String: Masz na myśli Aję.
+    - Language: Portuguese_Brazil
+      String: Você deve estar falando da Aja.
+    - Language: ChineseSimplified
+      String: 你一定指的是艾贾。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xE036B43E3933D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    Unknown3: 0
+    FirstParameter: 3261341
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1D7053:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: AJA JUMP-IN
+SubtitlePriority: Low
+Perk: 1D7053:Starfield.esm

@@ -1,0 +1,73 @@
+FormKey: 0EBC65:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0C8672:Starfield.esm
+  WEMFile: 1884310
+  TROTs:
+  - UnknownVoiceType: 0059A6:Starfield.esm
+    UnknownFloat: 9.833334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Was wäre ich denn für ein Monster, wenn ich keine Angst um ein anderes Constellation-Mitglied hätte, das experimentelle Technologie im Kopf trägt?
+    - Language: English
+      String: What kind of monster would I be if I did not worry about any fellow member of Constellation with experimental technology in their head?
+    - Language: Spanish
+      String: ¿Qué clase de monstruo sería si no me preocupase por un miembro de Constelación con tecnología experimental en la cabeza?
+    - Language: French
+      String: Quel genre de monstre serais-je si je ne m'inquiétais pas pour quelqu'un dont le crâne est truffé de technologie expérimentale ?
+    - Language: Italian
+      String: Che razza di mostro sarei se non mi preoccupassi di un membro di Constellation con una tecnologia sperimentale impiantata nella testa?
+    - Language: Japanese
+      String: コンステレーションの仲間の頭に実験的な機械が埋め込まれてるのに心配しなかったら、それこそ私のほうが異常でしょう？
+    - Language: Polish
+      String: Byłabym potworem, gdybym nie martwiła się o innego członka Konstelacji, który pozwolił zainstalować sobie w głowie eksperymentalną technologię.
+    - Language: Portuguese_Brazil
+      String: Que tipo de monstro eu seria se não me preocupasse com integrantes da Constelação com tecnologia experimental na cabeça?
+    - Language: ChineseSimplified
+      String: 群星组织同伴的脑袋里装上了实验性的技术产品，要是我不担心，那还算是人吗？
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xF0FF4339659FD701
+- Emotion: 154F0E:Starfield.esm
+  WEMFile: 16637422
+  TROTs:
+  - UnknownVoiceType: 0059A6:Starfield.esm
+    UnknownFloat: 2.6333334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Nennst du mir einen Grund, warum ich ganz unbesorgt sein kann?
+    - Language: English
+      String: Can you give me a reason why I should not be concerned?
+    - Language: Spanish
+      String: ¿Me puedes decir por qué no debo preocuparme?
+    - Language: French
+      String: Donnez-moi une seule raison de ne pas m'inquiéter !
+    - Language: Italian
+      String: Puoi darmi un motivo per non preoccuparmi?
+    - Language: Japanese
+      String: 心配しなくてもいい理由を教えてよ？
+    - Language: Polish
+      String: Podasz mi powód, dla którego nie powinnam się obawiać?
+    - Language: Portuguese_Brazil
+      String: Pode me dar um motivo para eu não ficar preocupada?
+    - Language: ChineseSimplified
+      String: 请给我一个我不必担心的理由。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x00EF7B4D659FD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 2BFABA:Starfield.esm
+StartScene: 0EBC5C:Starfield.esm
+INTV: 0x05000000
+StartScenePhase: Isn't My Concern
+SubtitlePriority: Low
