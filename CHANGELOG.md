@@ -32,6 +32,7 @@ This is the first version created entirely by Spriggit!
 - Fixed a missing word in Emmet Goodman's dialogue. [00208E54] - [Reported by aurreth](https://www.starfieldpatch.dev/issues/693)
 ### Text Fixes (Polish)
 - Fixed mistranslation of "grandpa" as "Babcia" rather than "Dziadek" [0022722D] - [Reported by mrkox12321](https://www.starfieldpatch.dev/issues/787)
+- Fixed corrected translation from "Agentka Przymierza Tropicieli" to "Agent Przymierza Tropicieli" for male Tracker's Alliance Agents [00216D35] - [Reported by mrkox12321](https://www.starfieldpatch.dev/issues/780)
 
 ## [2023-12-21] Version 0.0.7
 ### Planet Fixes
