@@ -14,6 +14,7 @@ This is the first version created entirely by Spriggit!
 - Fixed the quest stage condition being incorrectly reversed on Andreja's dialogue [000FC974] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/811) - [Mod Page](https://www.nexusmods.com/starfield/mods/8044)
 - Fixed multiple cases where Andreja's dialogue was incorrect setup as new INFOs rather than additional responses on one INFO [00230E1E] [00230DE8] [00230DFB] [00230DC1] [00230DFF] [001F3B65] [00237002] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/811) - [Mod Page](https://www.nexusmods.com/starfield/mods/8044)
 - Added a condition to the redundant INFOs to ensure they're not accessible [00230E1D] [00230DE7] [00230DFC] [00230DC0] [00230DFE] [00230E06] [00230E07] [00237003] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/811) - [Mod Page](https://www.nexusmods.com/starfield/mods/8044)
+- Fixed the conditions on multiple [Starborn] options missing from Sarah Morgan's dialogue. [00097755] [003233B7] [003233A3] [00323391] [003233AA] [003233AC] -  - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/803)
 
 ## [2023-12-21] Version 0.0.7
 ### Planet Fixes
