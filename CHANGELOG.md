@@ -13,6 +13,7 @@ This is the first version created entirely by Spriggit!
 - Changed "A Break at Dawn" and "Keeping the Peace" quests to an "Activity" mission type to be consistent with Sgt Yumi's other quests [00091C9A] [0024C4A3] - [Reported by CrEaToXx](https://www.starfieldpatch.dev/issues/793)
 - Picking up "Gennady Ayton (Evidence)" before starting "Doctor's Orders" will no longer cause that quest to fail to start. The slate is now an optional alias. [001B6246] - [Reported by frogs345](https://www.starfieldpatch.dev/issues/752) - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840)
 - The player can no longer use the Commerce dialogue option during Sowing Discord if they have not unlocked the relevant skill [001E4D79] - [Reported by Drake0713](https://www.starfieldpatch.dev/issues/747) - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840)
+- During "Access is Key" the Va'ruun Ambassador Suit will now correctly update the quest objective, [RIR03_QuestScript] [RIR03_PlayerAliasScript] [002BA8A8] [002BA8A8] [00227CA2] [001DBE3B] [0X000809] [0X00080A] - [Reported by twistedresistor](https://www.starfieldpatch.dev/issues/735) - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840)
 ## Item Fixes
 - Corrected the name of the level 3 Rothicite extractor from "Extractor - Rothicite - Commerical" to "Extractor - Rothicite - Industrial" [0020276D] - [Reported by Senturus1983](https://www.starfieldpatch.dev/issues/784) - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840)
 ### Dialogue Fixes
