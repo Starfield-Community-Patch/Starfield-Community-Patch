@@ -26,6 +26,7 @@ This is the first version created entirely by Spriggit!
 ### Text Fixes (English)
 - Fixed incorrect use of "it's" in the Nario War information terminal. [0003B6B5] - [Reported by CrystalSharrd](https://www.starfieldpatch.dev/issues/789)
 - Fixed a misspelling of "something" in Jessamine Griffin's dialogue [001D8A03] -  [Reported by Senturus1983](https://www.starfieldpatch.dev/issues/783) - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840)
+- Fixed a mispelling of "Legrande's Liquors" in the name of the announcer voice in Neon [0030D630] - [Reported by Icyknightmare](https://www.starfieldpatch.dev/issues/661) - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840)
 ### Text Fixes (German)
 - Fixed a missing word in Emmet Goodman's dialogue. [00208E54] - [Reported by aurreth](https://www.starfieldpatch.dev/issues/693)
 ### Text Fixes (Polish)
