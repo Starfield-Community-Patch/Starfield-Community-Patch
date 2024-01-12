@@ -881,10 +881,6 @@ Function Fragment_Stage_0155_Item_01()
   kmyQuest.ShowHelpMessage("TogglePOV")
 EndFunction
 
-Function Fragment_Stage_0155_Item_02()
-  MQ_TutorialQuest.Start()
-EndFunction
-
 Function Fragment_Stage_0157_Item_00()
   Quest __temp = Self as Quest
   defaulttutorialquestscript kmyQuest = __temp as defaulttutorialquestscript
