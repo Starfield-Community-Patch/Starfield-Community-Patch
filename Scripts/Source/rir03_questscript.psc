@@ -15,6 +15,7 @@ Int Property iStageToSet Auto Const mandatory
 
 Function CheckPlayer()
   Actor PlayerRef = Game.GetPlayer() 
+  ; SFCP Fix #735 - Added an additional keyword to this check to trigger the stage update for any flagged item
   If PlayerRef.WornHasKeyword(RI_Outfit_BusinessAttireKeyword) || PlayerRef.WornHasKeyword(RI_Outfit_FCGuardAttireKeyword) || PlayerRef.WornHasKeyword(RI_Outfit_UCGuardAttireKeyword) || PlayerRef.WornHasKeyword(RI_Outfit_NeonGuardAttireKeyword) || PlayerRef.WornHasKeyword(RI_Outfit_MiscGuardAttireKeyword) || PlayerRef.WornHasKeyword(RIR03_Suit_Keyword)
     Self.SetStage(iStageToSet) 
   EndIf

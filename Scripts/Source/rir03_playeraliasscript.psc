@@ -18,6 +18,7 @@ Int Property iTurnOffStage Auto Const mandatory
 Event OnItemEquipped(Form akBaseObject, ObjectReference akReference)
   Quest OwningQuest = Self.GetOwningQuest() 
   If OwningQuest.GetStageDone(iPrereqStage) && !OwningQuest.GetStageDone(iTurnOffStage) 
+    ; SFCP Fix #735 - Added an additional keyword to this check to trigger the stage update for any flagged item
     If akBaseObject.HasKeyword(RI_Outfit_BusinessAttireKeyword) || akBaseObject.HasKeyword(RI_Outfit_FCGuardAttireKeyword) || akBaseObject.HasKeyword(RI_Outfit_UCGuardAttireKeyword) || akBaseObject.HasKeyword(RI_Outfit_MiscGuardAttireKeyword) || akBaseObject.HasKeyword(RI_Outfit_NeonGuardAttireKeyword) || akBaseObject.HasKeyword(RIR03_Suit_Keyword)
       OwningQuest.SetStage(iStageToSet) 
     EndIf
