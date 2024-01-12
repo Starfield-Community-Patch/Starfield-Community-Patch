@@ -7,7 +7,7 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
-## [TBC] Version 0.1.0
+## [2024-01-12] Version 0.1.0
 This is the first version created entirely by Spriggit!
 ### Quest Fixes
 - Fixed an issue where MQ101 would start MQ_TutorialQuest too early causing it to fail to register for certain events [Fragments:Quests:QF_MQ101_00003448] [00003448] - [Fix contributed by Wartortle](https://www.starfieldpatch.dev/issues/714)
@@ -16,7 +16,7 @@ This is the first version created entirely by Spriggit!
 - Picking up "Gennady Ayton (Evidence)" before starting "Doctor's Orders" will no longer cause that quest to fail to start. The slate is now an optional alias. [001B6246] - [Reported by frogs345](https://www.starfieldpatch.dev/issues/752) - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840)
 - The player can no longer use the Commerce dialogue option during Sowing Discord if they have not unlocked the relevant skill [001E4D79] - [Reported by Drake0713](https://www.starfieldpatch.dev/issues/747) - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840)
 - During "Access is Key" the Va'ruun Ambassador Suit will now correctly update the quest objective, [RIR03_QuestScript] [RIR03_PlayerAliasScript] [002BA8A8] [002BA8A8] [00227CA2] [001DBE3B] [0X000809] [0X00080A] - [Reported by twistedresistor](https://www.starfieldpatch.dev/issues/735) - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840)
-## Item Fixes
+### Item Fixes
 - Corrected the name of the level 3 Rothicite extractor from "Extractor - Rothicite - Commerical" to "Extractor - Rothicite - Industrial" [0020276D] - [Reported by Senturus1983](https://www.starfieldpatch.dev/issues/784) - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840)
 ### Dialogue Fixes
 - Fixed the IsRomantic condition being incorrectly reversed on Andreja's dialogue [000EBC65] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/811) - [Mod Page](https://www.nexusmods.com/starfield/mods/8044)
