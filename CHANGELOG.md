@@ -21,6 +21,7 @@ This is the first version created entirely by Spriggit!
 - Fixed the conditions on multiple [Starborn] options missing from Sarah Morgan's dialogue. [00097755] [003233B7] [003233A3] [00323391] [003233AA] [003233AC] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/803)
 ### Text Fixes (English)
 - Fixed incorrect use of "it's" in the Nario War information terminal. [0003B6B5] - [Reported by CrystalSharrd](https://www.starfieldpatch.dev/issues/789)
+- Fixed a misspelling of "something" in Jessamine Griffin's dialogue [001D8A03] -  [Reported by Senturus1983](https://www.starfieldpatch.dev/issues/783) - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840)
 ### Text Fixes (German)
 - Fixed a missing word in Emmet Goodman's dialogue. [00208E54] - [Reported by aurreth](https://www.starfieldpatch.dev/issues/693)
 ### Text Fixes (Polish)
