@@ -9,12 +9,22 @@ When adding items to the changelog try and use the template below:
 -->
 ## [TBC] Version 0.1.0
 This is the first version created entirely by Spriggit!
+### Quest Fixes
+- Changed "A Break at Dawn" and "Keeping the Peace" quests to an "Activity" mission type to be consistent with Sgt Yumi's other quests [00091C9A] [0024C4A3] - [Reported by CrEaToXx](https://www.starfieldpatch.dev/issues/793)
+## Item Fixes
+- Corrected the name of the level 3 Rothicite extractor from "Extractor - Rothicite - Commerical" to "Extractor - Rothicite - Industrial" [0020276D] - [Reported by Senturus1983](https://www.starfieldpatch.dev/issues/784) - [Fix contributed by Wartortle](https://www.nexusmods.com/users/42492840)
 ### Dialogue Fixes
 - Fixed the IsRomantic condition being incorrectly reversed on Andreja's dialogue [000EBC65] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/811) - [Mod Page](https://www.nexusmods.com/starfield/mods/8044)
 - Fixed the quest stage condition being incorrectly reversed on Andreja's dialogue [000FC974] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/811) - [Mod Page](https://www.nexusmods.com/starfield/mods/8044)
 - Fixed multiple cases where Andreja's dialogue was incorrect setup as new INFOs rather than additional responses on one INFO [00230E1E] [00230DE8] [00230DFB] [00230DC1] [00230DFF] [001F3B65] [00237002] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/811) - [Mod Page](https://www.nexusmods.com/starfield/mods/8044)
 - Added a condition to the redundant INFOs to ensure they're not accessible [00230E1D] [00230DE7] [00230DFC] [00230DC0] [00230DFE] [00230E06] [00230E07] [00237003] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/811) - [Mod Page](https://www.nexusmods.com/starfield/mods/8044)
-- Fixed the conditions on multiple [Starborn] options missing from Sarah Morgan's dialogue. [00097755] [003233B7] [003233A3] [00323391] [003233AA] [003233AC] -  - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/803)
+- Fixed the conditions on multiple [Starborn] options missing from Sarah Morgan's dialogue. [00097755] [003233B7] [003233A3] [00323391] [003233AA] [003233AC] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/803)
+### Text Fixes (English)
+- Fixed incorrect use of "it's" in the Nario War information terminal. [0003B6B5] - [Reported by CrystalSharrd](https://www.starfieldpatch.dev/issues/789)
+### Text Fixes (German)
+- Fixed a missing word in Emmet Goodman's dialogue. [00208E54] - [Reported by aurreth](https://www.starfieldpatch.dev/issues/693)
+### Text Fixes (Polish)
+- Fixed mistranslation of "grandpa" as "Babcia" rather than "Dziadek" [0022722D] - [Reported by mrkox12321](https://www.starfieldpatch.dev/issues/787)
 
 ## [2023-12-21] Version 0.0.7
 ### Planet Fixes
