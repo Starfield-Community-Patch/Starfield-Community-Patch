@@ -49,7 +49,7 @@ jobs:
 
       - name: run spriggit
         shell: bash
-        run: .github/spriggit/Spriggit.CLI deserialize --InputPath "spriggit" --OutputPath "${{ github.workspace }}/to-pack/StarfieldCommunityPatch.esm" --PackageName Spriggit.Yaml.Starfield
+        run: .github/spriggit/Spriggit.CLI deserialize --InputPath "spriggit" --OutputPath "${{ github.workspace }}/to-pack/StarfieldCommunityPatch.esm"
         
       - name: zip
         uses: vimtor/action-zip@v1

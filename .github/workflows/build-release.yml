@@ -71,7 +71,7 @@ jobs:
 
         - name: run spriggit
           shell: bash
-          run: .github/spriggit/Spriggit.CLI deserialize --InputPath "spriggit" --OutputPath "${{ github.workspace }}/to-pack/StarfieldCommunityPatch.esm" --PackageName Spriggit.Yaml.Starfield
+          run: .github/spriggit/Spriggit.CLI deserialize --InputPath "spriggit" --OutputPath "${{ github.workspace }}/to-pack/StarfieldCommunityPatch.esm"
           
         - name: Upload plugin and strings
           uses: actions/upload-artifact@v3
