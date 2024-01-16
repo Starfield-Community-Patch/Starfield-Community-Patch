@@ -125,7 +125,7 @@ jobs:
     package-mod:
       name: Package with BA2
       runs-on: windows-latest
-      if: ${{ always() }}
+      if: ${{ needs.check-changes.outputs.should_run >= 1 || (github.event_name == 'workflow_dispatch' && always()) }}
       needs: [build-plugin, compile-scripts]
       permissions: write-all
       steps: 
@@ -195,7 +195,7 @@ jobs:
     share-release:
       name: Share release
       needs: [package-mod]
-      if: ${{ inputs.publish-release == true && always() }}
+      if: ${{ inputs.publish-release == true && (needs.check-changes.outputs.should_run >= 1 || (github.event_name == 'workflow_dispatch' && always())) }}
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v4
