@@ -20,9 +20,8 @@ When adding items to the changelog try and use the template below:
 - The Star Eagle ship is now flagged as a Freestar Collective vessel. It was incorrectly to set to United Colonies. [001322D8] - [Fix contributed by Voodoo5150](https://www.starfieldpatch.dev/issues/860)
 ### Skill Fixes
 - The Targeting Control Systems Perk did not correctly decrease target lock-on time at ranks 2, 3, and 4. [002CCF94] [002CCF95] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/867)
-
 ### Text Fixes (English)
-
+- Reverted several typo fixes that did not match the dialogue spoken []
 
 
 ## [2024-01-12] Version 0.1.0
