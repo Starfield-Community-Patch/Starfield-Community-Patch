@@ -7,6 +7,24 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
+## [2024-02-16] Version 0.1.0
+### AI Fixes
+- Fixed a bug where companions would stop following the player after exiting dialogue until they performed an action such as sneaking. This was caused by an invalid condition checking if they were still in dialogue. [00054B37] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/870)
+- Fixed a bug where companions would stop following the player when a hostile creature was nearby. This was caused by an invalid interrupt flag set on the AI package. [002A9765] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/870)
+- Companions will now comment on alcohol or chems you consume (if they are addictive). - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/851)
+### Dialogue Fixes
+- Security guards will now correctly comment on the player's unholstered weapon. This dialogue was unused as it was condition to only play if the player had their fists up. [0006175C] [0006175D] [0006175E] [000447DA] [000447DB] [00217853] [00219AF1] [001569C9] [0015DA46] [0015DA47] - [Fix contributed by TERAB1T](https://www.starfieldpatch.dev/issues/866)
+### Item Fixes
+- Added the COM_ObjType_Drink [0007956D] KYWD to all alcoholic drink items, and the COM_ObjType_ChemBad [000A7296] KYWD to all "bad" chems which you can get addicted to. [0001BBAA] [0001BBAB] [0001BBAC] [00122EAD] [00139E43] [00139E44] [00139E45] [00139E4B] [00143CB2] [001DFCB4] [001EBE9E] [001FF69A] [001FF69C] [001FF69E] [001FF6A0] [0020675D] [0020675E] [00243FA5] [00249C0D] [00249C0E] [00249C0F] [00249C10] [00249C11] [00249C1A] [00249C1B] [00249C1E] [00249C25] [00249C26] [00249C27] [00249C28] [00249C2A] [00249C2B] [00249C2C] [00249C3A] [00249C51] [0029959D] [002995A1] [0029B00E] [0029B03F] [0029B041] [0029B042] [0029B04D] [0029B04E] [0029B04F] [002A9DE7] [002C5884] [002C5885] [002C7202] [002C7203] [002C7204] [002C7205] [002C7206] [002C7207] [002C7208] [002C7209] [002C720D] [002C7211] [002C7214] [002C7215] [002C7217] [002C7219] [003BF792] [003BF793] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/851)
+### Ship Fixes
+- The Star Eagle ship is now flagged as a Freestar Collective vessel. It was incorrectly to set to United Colonies. [001322D8] - [Fix contributed by Voodoo5150](https://www.starfieldpatch.dev/issues/860)
+### Skill Fixes
+- The Targeting Control Systems Perk did not correctly decrease target lock-on time at ranks 2, 3, and 4. [002CCF94] [002CCF95] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/867)
+
+### Text Fixes (English)
+
+
+
 ## [2024-01-12] Version 0.1.0
 This is the first version created entirely by Spriggit!
 ### Quest Fixes
