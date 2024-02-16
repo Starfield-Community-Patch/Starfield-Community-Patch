@@ -16,12 +16,22 @@ When adding items to the changelog try and use the template below:
 - Security guards will now correctly comment on the player's unholstered weapon. This dialogue was unused as it was condition to only play if the player had their fists up. [0006175C] [0006175D] [0006175E] [000447DA] [000447DB] [00217853] [00219AF1] [001569C9] [0015DA46] [0015DA47] - [Fix contributed by TERAB1T](https://www.starfieldpatch.dev/issues/866)
 ### Item Fixes
 - Added the COM_ObjType_Drink [0007956D] KYWD to all alcoholic drink items, and the COM_ObjType_ChemBad [000A7296] KYWD to all "bad" chems which you can get addicted to. [0001BBAA] [0001BBAB] [0001BBAC] [00122EAD] [00139E43] [00139E44] [00139E45] [00139E4B] [00143CB2] [001DFCB4] [001EBE9E] [001FF69A] [001FF69C] [001FF69E] [001FF6A0] [0020675D] [0020675E] [00243FA5] [00249C0D] [00249C0E] [00249C0F] [00249C10] [00249C11] [00249C1A] [00249C1B] [00249C1E] [00249C25] [00249C26] [00249C27] [00249C28] [00249C2A] [00249C2B] [00249C2C] [00249C3A] [00249C51] [0029959D] [002995A1] [0029B00E] [0029B03F] [0029B041] [0029B042] [0029B04D] [0029B04E] [0029B04F] [002A9DE7] [002C5884] [002C5885] [002C7202] [002C7203] [002C7204] [002C7205] [002C7206] [002C7207] [002C7208] [002C7209] [002C720D] [002C7211] [002C7214] [002C7215] [002C7217] [002C7219] [003BF792] [003BF793] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/851)
+### Location Fixes
+- Fixed an incorrect map marker type for "UC Listening Post". [002CA717] - [Fix contributed by Voodoo5150](https://www.starfieldpatch.dev/issues/845)
 ### Ship Fixes
 - The Star Eagle ship is now flagged as a Freestar Collective vessel. It was incorrectly to set to United Colonies. [001322D8] - [Fix contributed by Voodoo5150](https://www.starfieldpatch.dev/issues/860)
 ### Skill Fixes
 - The Targeting Control Systems Perk did not correctly decrease target lock-on time at ranks 2, 3, and 4. [002CCF94] [002CCF95] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/867)
 ### Text Fixes (English)
-- Reverted several typo fixes that did not match the dialogue spoken []
+- Reverted several typo fixes that did not match the dialogue spoken [0008DA85] [0011459D] [00146DCF] [00146DD8] [00146DD5] [00009645] [000F2ECE] [00115420] [0000498D] [0017C65C] [001E79E1] [001E79EB] [0000498E] [0004A4BE] [0004A544] [0004A47F] [0004A4B7] [0004A4ED] [0004A4FE] [001A0049] [001A0058] [001A1778] [0004A4CE] [0004A508] [0004A4DA] [001A6AA4] [0004A46C] [001A6A70] [001A6AC7] [001A69DB] [001A6A54] [0004A4A1] [0004A515] [001A6A85] [001A6A4D] [0004A4E9] [0004A4D4] [001A6A82] [0004A488] [0004A4F4] [0004A48A] [0004A517] [001A697E] [001A69E6] [0004A4A7] [001FC800]
+- Fixed a misspelling of "obliterating" in Vae Victis' dialogue [001B00B3] - [Fix contributed by JaeDLmods](https://www.starfieldpatch.dev/issues/869)
+- Removed an unnecessary ellipses from Hadrian's dialogue [001153FF]- [Fix contributed by JaeDLmods](https://www.starfieldpatch.dev/issues/869)
+- Replaced comma with full stop in Adrian Brasillia's dialogue [00149A45]- [Fix contributed by JaeDLmods](https://www.starfieldpatch.dev/issues/869)
+- Fixed misuse of "effectively" when "effective" was intended in Cabinet dialogue during A Legacy Forged [000E5513]- [Fix contributed by JaeDLmods](https://www.starfieldpatch.dev/issues/869)
+- Fixed duplicate "yet" in Eyewitness dialogue [00226481]- [Fix contributed by JaeDLmods](https://www.starfieldpatch.dev/issues/869)
+- Replaced "make due" with "make do" in President Abello's dialogue [0023FA74]- [Fix contributed by JaeDLmods](https://www.starfieldpatch.dev/issues/869)
+- Added missing comma in A Legacy Forged [000E54A6] [002AAE27]- [Fix contributed by JaeDLmods](https://www.starfieldpatch.dev/issues/869)
+- Fixed a mismatch between dialogue and speech [001F9BEB]- [Fix contributed by JaeDLmods](https://www.starfieldpatch.dev/issues/869)
 
 
 ## [2024-01-12] Version 0.1.0
