@@ -122,7 +122,11 @@ Function EnableUnityEndScenes()
   ElseIf MQ305_UC_SterilizationEnding.GetValueInt() >= 1
     MQ305EndingMarkerUC_Terrormorph.EnableNoWait(False)
   EndIf
-  MQ305EndingMarkerConstellation.EnableNoWait(False)
+  ; # MQ401_VariantCurrent variable and If Statement Added by SFCP - Issue #639
+  GlobalVariable MQ401_VariantCurrent = Game.GetForm(0x001D5AC7) as GlobalVariable
+  If MQ401_VariantCurrent.GetValue() as Int <= 1 
+    MQ305EndingMarkerConstellation.EnableNoWait(False)
+  EndIf
 EndFunction
 
 Function SavePlayerKnowledge()
