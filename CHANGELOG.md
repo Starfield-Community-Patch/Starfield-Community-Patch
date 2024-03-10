@@ -12,6 +12,58 @@ When adding items to the changelog try and use the template below:
 - Fixed a bug where companions would stop following the player after exiting dialogue until they performed an action such as sneaking. This was caused by an invalid condition checking if they were still in dialogue. [00054B37] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/870)
 - Fixed a bug where companions would stop following the player when a hostile creature was nearby. This was caused by an invalid interrupt flag set on the AI package. [002A9765] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/870)
 - Companions will now comment on alcohol or chems you consume (if they are addictive). - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/851)
+### Animation Fixes
+- Fixed an issue where NPCs can get stuck in a "walk/run to idle" animation state. This seems to happen because these animations lack a "rampout" value in ther `.afx` files. - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/875)
+    - meshes\actors\human\animations\gun\gripheavy\relaxed_runforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\gun\gripheavy\relaxed_runforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\gun\grippistol\female\relaxed_runforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\gun\grippistol\female\relaxed_runforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\gun\grippistol\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\gun\grippistol\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\gun\grippistol\sneak_runforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\gun\grippistol\sneak_runforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\gun\grippistol\sneak_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\gun\grippistol\sneak_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\gun\griprifle\ready_runforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\gun\griprifle\ready_runforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\gun\griprifle\ready_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\gun\griprifle\ready_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\gun\griprifle\relaxed_runforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\gun\griprifle\relaxed_runforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\gun\griprifle\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\gun\griprifle\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\andreja\female\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\andreja\female\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\angry\female\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\angry\female\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\angry\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\angry\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\confident\female\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\confident\female\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\confident\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\confident\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\depressed\female\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\depressed\female\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\depressed\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\depressed\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\executive\female\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\executive\female\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\executive\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\executive\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\female\relaxed_runforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\female\relaxed_runforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\macho\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\macho\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\ready_runforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\ready_runforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\ready_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\ready_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\relaxed_runforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\relaxed_runforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\relaxed_walkforward_stop_rightfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\sam\relaxed_walkforward_stop_leftfoot.afx
+    - meshes\actors\human\animations\melee\unarmed\sam\relaxed_walkforward_stop_rightfoot.afx
 ### Dialogue Fixes
 - Security guards will now correctly comment on the player's unholstered weapon. This dialogue was unused as it was condition to only play if the player had their fists up. [0006175C] [0006175D] [0006175E] [000447DA] [000447DB] [00217853] [00219AF1] [001569C9] [0015DA46] [0015DA47] - [Fix contributed by TERAB1T](https://www.starfieldpatch.dev/issues/866)
 ### Item Fixes

@@ -1,0 +1,20 @@
+<root>
+	<is_state>1</is_state>
+	<tag>WalkForward_Stop_LeftFoot</tag>
+	<filename>Sneak_WalkForward_Stop_LeftFoot.af</filename>
+	<prefix>Sneak</prefix>
+	<rampout>6</rampout>
+	<events>
+		<event><frame>0</frame><name>SyncLeftFoot</name><payload></payload></event>
+		<event><frame>0</frame><name>PathingBegin</name><payload></payload></event>
+		<event><frame>10</frame><name>FootRight</name><payload></payload></event>
+		<event><frame>31</frame><name>PathingEnd</name><payload></payload></event>
+		<event><frame>31</frame><name>FootLeft</name><payload></payload></event>
+		<event><frame>43</frame><name>FootRight</name><payload></payload></event>
+	</events>
+	<audios>
+		<audio><frame>4</frame><foley>FST_Foley_ArmorType_Sneak</foley></audio>
+		<audio><frame>25</frame><foley>FST_Foley_ArmorType_Sneak</foley></audio>
+		<audio><frame>37</frame><foley>FST_Foley_ArmorType_Sneak</foley></audio>
+	</audios>
+</root>
