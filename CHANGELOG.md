@@ -13,6 +13,7 @@ When adding items to the changelog try and use the template below:
 - Fixed a bug where companions would stop following the player when a hostile creature was nearby. This was caused by an invalid interrupt flag set on the AI package. [002A9765] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/870)
 - Companions will now comment on alcohol or chems you consume (if they are addictive). - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/851)
 ### Animation Fixes
+- Fixed an issue where the Starborn Guardian would play the incorrect animation when landing vertically on certain pads (e.g. Gargarin Landing). [0007BAE7] [0010A3C4] [00032200] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/892)
 - Fixed an issue where NPCs can get stuck in a "walk/run to idle" animation state. This seems to happen because these animations lack a "rampout" value in ther `.afx` files. - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/875)
     - meshes\actors\human\animations\gun\gripheavy\relaxed_runforward_stop_leftfoot.afx
     - meshes\actors\human\animations\gun\gripheavy\relaxed_runforward_stop_rightfoot.afx
