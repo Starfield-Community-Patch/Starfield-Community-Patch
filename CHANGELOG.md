@@ -80,6 +80,8 @@ When adding items to the changelog try and use the template below:
 - During Matters of the Hart the player's ship would be able to land at the incorrect marker to force the player into combat prematurely. [0022F4A2] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/885)
 ### Perk Fixes
 - Stabilizing Barrel Effect, Medic and Stabilizing Shock will no longer incorrectly show in the UI when applied to an item the player is wearing. [001462A3] [001CB592] [00374067] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/822)
+### Quest Fixes
+- Fixed [MQ305Script] - [Reported by X2357](https://www.starfieldpatch.dev/issues/639) - [Fix contributed by Aurelianis](https://github.com/Starfield-Community-Patch/Starfield-Community-Patch/pull/886/files)
 ### Ship Fixes
 - The Star Eagle ship is now flagged as a Freestar Collective vessel. It was incorrectly to set to United Colonies. [001322D8] - [Fix contributed by Voodoo5150](https://www.starfieldpatch.dev/issues/860)
 ### Skill Fixes
