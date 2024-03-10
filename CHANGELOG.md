@@ -67,6 +67,7 @@ When adding items to the changelog try and use the template below:
     - meshes\actors\human\animations\melee\unarmed\sam\relaxed_walkforward_stop_leftfoot.afx
     - meshes\actors\human\animations\melee\unarmed\sam\relaxed_walkforward_stop_rightfoot.afx
 ### Dialogue Fixes
+- During a conversation with Breyson Bayu, your companion will now correctly contribute. The conditions were set up incorrectly for this dialogue to be valid. [00182384] [00182385] [00182386] [00182387] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/888)
 - Guards will no longer comment on the player's smart suit when it is hidden beneath their spacesuit. [0015DA4C] - [Fix contributed by TERAB1T](https://www.starfieldpatch.dev/issues/898)
 - Security guards will now correctly comment on the player's unholstered weapon. This dialogue was unused as it was condition to only play if the player had their fists up. [0006175C] [0006175D] [0006175E] [000447DA] [000447DB] [00217853] [00219AF1] [001569C9] [0015DA46] [0015DA47] - [Fix contributed by TERAB1T](https://www.starfieldpatch.dev/issues/866)
 - Guards will no longer say "Evening" (and similar) when it's not actually the evening. [0015DA43] [0015DA44] [0015DA45] - [Fix contributed by TERAB1T](https://www.starfieldpatch.dev/issues/879)
@@ -75,6 +76,7 @@ When adding items to the changelog try and use the template below:
 - Added the COM_ObjType_Drink [0007956D] KYWD to all alcoholic drink items, and the COM_ObjType_ChemBad [000A7296] KYWD to all "bad" chems which you can get addicted to. [0001BBAA] [0001BBAB] [0001BBAC] [00122EAD] [00139E43] [00139E44] [00139E45] [00139E4B] [00143CB2] [001DFCB4] [001EBE9E] [001FF69A] [001FF69C] [001FF69E] [001FF6A0] [0020675D] [0020675E] [00243FA5] [00249C0D] [00249C0E] [00249C0F] [00249C10] [00249C11] [00249C1A] [00249C1B] [00249C1E] [00249C25] [00249C26] [00249C27] [00249C28] [00249C2A] [00249C2B] [00249C2C] [00249C3A] [00249C51] [0029959D] [002995A1] [0029B00E] [0029B03F] [0029B041] [0029B042] [0029B04D] [0029B04E] [0029B04F] [002A9DE7] [002C5884] [002C5885] [002C7202] [002C7203] [002C7204] [002C7205] [002C7206] [002C7207] [002C7208] [002C7209] [002C720D] [002C7211] [002C7214] [002C7215] [002C7217] [002C7219] [003BF792] [003BF793] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/851)
 ### Location Fixes
 - Fixed an incorrect map marker type for "UC Listening Post". [002CA717] - [Fix contributed by Voodoo5150](https://www.starfieldpatch.dev/issues/845)
+- During Matters of the Hart the player's ship would be able to land at the incorrect marker to force the player into combat prematurely. [0022F4A2] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/885)
 ### Perk Fixes
 - Stabilizing Barrel Effect, Medic and Stabilizing Shock will no longer incorrectly show in the UI when applied to an item the player is wearing. [001462A3] [001CB592] [00374067] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/822)
 ### Ship Fixes
