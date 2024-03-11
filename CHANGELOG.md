@@ -7,7 +7,7 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
-## [2024-02-16] Version 0.1.0
+## [2024-03-11] Version 0.1.1
 ### AI Fixes
 - Fixed a bug where companions would stop following the player after exiting dialogue until they performed an action such as sneaking. This was caused by an invalid condition checking if they were still in dialogue. [00054B37] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/870)
 - Companions will no longer be forced to stand up if the player speaks to them while they are seated inside their ship [002A9765] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/870)
