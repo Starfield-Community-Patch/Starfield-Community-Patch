@@ -1,0 +1,126 @@
+FormKey: 143CB2:Starfield.esm
+MajorRecordFlagsRaw: 536870912
+EditorID: Chem_Craft_Whiteout
+StarfieldMajorRecordFlags:
+- 0x20000000
+ObjectBounds:
+  First: -0.10290527, -0.14398164, -0.041655295
+  Second: 0.10284424, 0.144169, 0.041779764
+ODTY: 0
+Transforms:
+  InventoryIcon: 02FD74:Starfield.esm
+  Inventory: 03D204:Starfield.esm
+  Workbench: 068E83:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Whiteout
+  - Language: English
+    String: Whiteout
+  - Language: Spanish
+    String: Pálida
+  - Language: French
+    String: Voile blanc
+  - Language: Italian
+    String: Whiteout
+  - Language: Japanese
+    String: ホワイトアウト
+  - Language: Polish
+    String: Biel
+  - Language: Portuguese_Brazil
+    String: Whiteout
+  - Language: ChineseSimplified
+    String: 乳白天空
+Keywords:
+- 0F4AE7:Starfield.esm
+- 11A47A:Starfield.esm
+- 184C3D:Starfield.esm
+- 2CF28A:Starfield.esm
+- 2CF28E:Starfield.esm
+- 0A7296:Starfield.esm
+Model:
+  File: items/drugs_or_medical\Chem_Whiteout_01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: c06f4d7b-c1ab-c6e3-0fe2-9465dcdefbb7
+DropdownSound:
+  Start: 65e1437d-11f2-0e93-0eee-d59308067b9f
+CraftingSound:
+  Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Eine instabile raffinierte Version von Squall. Dieses Chem macht hochgradig abhängig und löst unkontrollierbare Aggressionen aus.
+  - Language: English
+    String: An unstable, refined form of the chem Squall. Dangerously addictive and associated with unchecked aggression.
+  - Language: Spanish
+    String: Un pedazo inestable y refinado del estupefaciente Borrasca. Es muy adictivo y suele provocar arranques de ira descontrolados.
+  - Language: French
+    String: De la Bourrasque instable raffinée. Dangereusement addictif et associé à des pulsions agressives incontrôlées.
+  - Language: Italian
+    String: Una forma raffinata e instabile della sostanza squall. Provoca dipendenza ed è associata a un’incontrollata aggressività.
+  - Language: Japanese
+    String: 薬品スコールの不安定な生成物。危険なまでに依存性が強く、抑制できない攻撃性につながる
+  - Language: Polish
+    String: Niestabilna, rafinowana forma farmaceutyku o nazwie szkwał. Niebezpiecznie uzależniająca i wywołująca niekontrolowaną agresję.
+  - Language: Portuguese_Brazil
+    String: Uma forma refinada e instável do químico Squall. Perigosamente viciante e associada à agressão incontida.
+  - Language: ChineseSimplified
+    String: 一种不稳定的精炼版药品“狂飑”。极易上瘾并伴有不受控制的攻击性。
+Weight: 0.1
+Value: 525
+Flags:
+- NoAutoCalc
+- Medicine
+Addiction: 268D35:Starfield.esm
+AddictionChance: 0.35
+ConsumeSound:
+  Start: 8cf04c5d-c356-4ba3-a202-018842a4c394
+AddictionName:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Stimulanzien
+  - Language: English
+    String: Stimulants
+  - Language: Spanish
+    String: Estimulantes
+  - Language: French
+    String: Stimulants
+  - Language: Italian
+    String: Stimolanti
+  - Language: Japanese
+    String: 興奮剤
+  - Language: Polish
+    String: Stymulanty
+  - Language: Portuguese_Brazil
+    String: Estimulantes
+  - Language: ChineseSimplified
+    String: 刺激剂
+Effects:
+- BaseEffect: 16AF61:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 120
+  Magnitude: 2D3968:Starfield.esm
+  Duration: 2D3976:Starfield.esm
+  EFIF: 0
+  MUID: 5
+- BaseEffect: 237E51:Starfield.esm
+  Data:
+    Magnitude: 35
+    Duration: 120
+  Magnitude: 2D395E:Starfield.esm
+  Duration: 2D3976:Starfield.esm
+  EFIF: 0
+  MUID: 6
+- BaseEffect: 25A8B6:Starfield.esm
+  Data:
+    Duration: 5
+  Duration: 2D397F:Starfield.esm
+  EFIF: 0
+  MUID: 4
+MajorFlags:
+- Medicine

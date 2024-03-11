@@ -1,0 +1,107 @@
+FormKey: 249C0E:Starfield.esm
+EditorID: NOCLUTTER_Drink_Alc_ExclMenuItem_Jakes_JakesStout
+ObjectBounds:
+  First: -0.029052734, -0.02911377, -0.00015258789
+  Second: 0.02911377, 0.029052734, 0.22058105
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 05451A:Starfield.esm
+  Workbench: 05451A:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Jake's Stout
+  - Language: English
+    String: Jake's Stout
+  - Language: Spanish
+    String: Cerveza negra del Jake's
+  - Language: French
+    String: Jake's Stout
+  - Language: Italian
+    String: Stout di Jake
+  - Language: Japanese
+    String: ジェイクズ・スタウト
+  - Language: Polish
+    String: Porter Jake'a
+  - Language: Portuguese_Brazil
+    String: Stout do Jake's
+  - Language: ChineseSimplified
+    String: 杰克酒吧黑啤
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF28A:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageMenu_JakesStout.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 25cb4e07-ffa4-cd07-7580-b84501b59188
+DropdownSound:
+  Start: 4abd479b-59e5-7b01-1570-d174e61549bd
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein starkes Stout-Bier. Gibt es bei Jake's in New Atlantis.
+  - Language: English
+    String: Strong, stout beer featured at Jake's in New Atlantis.
+  - Language: Spanish
+    String: La cerveza negra y fuerte que sirven en el Jake's de Nueva Atlántida.
+  - Language: French
+    String: Une bière brune forte vendue par Jake, à New Atlantis.
+  - Language: Italian
+    String: La peculiare birra stout del Jake’s di Nuova Atlantide.
+  - Language: Japanese
+    String: 度数の高いスタウトビール。ニューアトランティスにあるジェイクズの名物
+  - Language: Polish
+    String: Silny porter do kupienia w Jake's w Nowej Atlantydzie.
+  - Language: Portuguese_Brazil
+    String: Cerveja preta encorpada encontrada no Jake's, em Nova Atlântida.
+  - Language: ChineseSimplified
+    String: 口感浓烈的黑啤，新亚特兰蒂斯城杰克酒吧的经典。
+Weight: 0.3
+Value: 350
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 75
+    Duration: 180
+  Magnitude: 2B9812:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 10
+    Duration: 180
+  Magnitude: 2D87DB:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 10
+    Duration: 180
+  Magnitude: 2D87DB:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

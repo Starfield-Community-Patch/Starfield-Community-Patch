@@ -1,0 +1,260 @@
+FormKey: 042C70:Starfield.esm
+EditorID: FFNewAtlantis02Misc
+FormVersion: 556
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
+    FragmentName: Fragment_Stage_0100_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Hinweis
+  - Language: English
+    String: Misc Pointer
+  - Language: Spanish
+    String: Misc.
+  - Language: French
+    String: Curseur divers
+  - Language: Italian
+    String: Indicatore vario
+  - Language: Japanese
+    String: その他ポインター
+  - Language: Polish
+    String: Zwykły wskaźnik
+  - Language: Portuguese_Brazil
+    String: Indicador Adicional
+  - Language: ChineseSimplified
+    String: 指示器
+Data:
+  Flags:
+  - RunOnce
+  Priority: 90
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+QuestFaction: 0546DC:Starfield.esm
+Location: 01295A:Starfield.esm
+UnusedConditions: []
+Stages:
+- Index: 10
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: FFNewAtlantis04 Quest Start
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Laut der Security in New Atlantis könnte Sergeant Yumi noch mehr Arbeit für mich haben.
+      - Language: English
+        String: Security at New Atlantis mentioned Sergeant Yumi might have additional work for me.
+      - Language: Spanish
+        String: Alguien de la seguridad de Nueva Atlántida dejó caer que el sargento Yumi tal vez tenga más trabajo para mí.
+      - Language: French
+        String: La sécurité de New Atlantis a laissé entendre que le sergent Yumi avait peut-être du travail pour moi.
+      - Language: Italian
+        String: La sicurezza di Nuova Atlantide ha detto che il sergente Yumi potrebbe avere altri incarichi per me.
+      - Language: Japanese
+        String: ニューアトランティスのセキュリティから、ユミ軍曹が新しい仕事を依頼したがっていると聞いた
+      - Language: Polish
+        String: Ktoś z ochrony Nowej Atlantydy wspomniał, że sierżant Yumi może mieć dla mnie dodatkową pracę.
+      - Language: Portuguese_Brazil
+        String: O pessoal da segurança em Nova Atlântida falou que o sargento Yumi talvez tenha mais trabalho para mim.
+      - Language: ChineseSimplified
+        String: 新亚特兰蒂斯城的警卫提到，由实中士也许有多余差事可以安排给我。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: FFNewAtlantis04 Quest Complete
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: FFNewAtlantis05 Quest Start
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Laut der Security in New Atlantis könnte Sergeant Yumi noch mehr Arbeit für mich haben.
+      - Language: English
+        String: Security at New Atlantis mentioned Sergeant Yumi might have additional work for me.
+      - Language: Spanish
+        String: Alguien de la seguridad de Nueva Atlántida dejó caer que el sargento Yumi tal vez tenga más trabajo para mí.
+      - Language: French
+        String: La sécurité de New Atlantis a laissé entendre que le sergent Yumi avait peut-être du travail pour moi.
+      - Language: Italian
+        String: La sicurezza di Nuova Atlantide ha detto che il sergente Yumi potrebbe avere altri incarichi per me.
+      - Language: Japanese
+        String: ニューアトランティスのセキュリティから、ユミ軍曹が新しい仕事を依頼したがっていると聞いた
+      - Language: Polish
+        String: Ktoś z ochrony Nowej Atlantydy wspomniał, że sierżant Yumi może mieć dla mnie dodatkową pracę.
+      - Language: Portuguese_Brazil
+        String: O pessoal da segurança em Nova Atlântida falou que o sargento Yumi talvez tenha mais trabalho para mim.
+      - Language: ChineseSimplified
+        String: 新亚特兰蒂斯城的警卫提到，由实中士也许有多余差事可以安排给我。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: FFNewAtlantis05 Quest Complete
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: FFNewAtlantis06 Quest Start
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Laut der Security in New Atlantis könnte Sergeant Yumi noch mehr Arbeit für mich haben.
+      - Language: English
+        String: Security at New Atlantis mentioned Sergeant Yumi might have additional work for me.
+      - Language: Spanish
+        String: Alguien de la seguridad de Nueva Atlántida dejó caer que el sargento Yumi tal vez tenga más trabajo para mí.
+      - Language: French
+        String: La sécurité de New Atlantis a laissé entendre que le sergent Yumi avait peut-être du travail pour moi.
+      - Language: Italian
+        String: La sicurezza di Nuova Atlantide ha detto che il sergente Yumi potrebbe avere altri incarichi per me.
+      - Language: Japanese
+        String: ニューアトランティスのセキュリティから、ユミ軍曹が新しい仕事を依頼したがっていると聞いた
+      - Language: Polish
+        String: Ktoś z ochrony Nowej Atlantydy wspomniał, że sierżant Yumi może mieć dla mnie dodatkową pracę.
+      - Language: Portuguese_Brazil
+        String: O pessoal da segurança em Nova Atlântida falou que o sargento Yumi talvez tenha mais trabalho para mim.
+      - Language: ChineseSimplified
+        String: 新亚特兰蒂斯城的警卫提到，由实中士也许有多余差事可以安排给我。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 116
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Complete
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Sergeant Yumi.
+    - Language: English
+      String: Talk to Sergeant Yumi
+    - Language: Spanish
+      String: Habla con el sargento Yumi.
+    - Language: French
+      String: Parlez au sergent Yumi.
+    - Language: Italian
+      String: Parla con il sergente Yumi
+    - Language: Japanese
+      String: ユミ軍曹と話す
+    - Language: Polish
+      String: Porozmawiaj z sierżantem Yumim
+    - Language: Portuguese_Brazil
+      String: Fale com o Sargento Yumi
+    - Language: ChineseSimplified
+      String: 与由实中士交谈
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Sergeant Yumi.
+    - Language: English
+      String: Talk to Sergeant Yumi
+    - Language: Spanish
+      String: Habla con el sargento Yumi.
+    - Language: French
+      String: Parlez au sergent Yumi.
+    - Language: Italian
+      String: Parla con il sergente Yumi
+    - Language: Japanese
+      String: ユミ軍曹と話す
+    - Language: Polish
+      String: Porozmawiaj z sierżantem Yumim
+    - Language: Portuguese_Brazil
+      String: Fale com o Sargento Yumi
+    - Language: ChineseSimplified
+      String: 与由实中士交谈
+  Targets:
+  - {}
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Sergeant Yumi.
+    - Language: English
+      String: Talk to Sergeant Yumi
+    - Language: Spanish
+      String: Habla con el sargento Yumi.
+    - Language: French
+      String: Parlez au sergent Yumi.
+    - Language: Italian
+      String: Parla con il sergente Yumi
+    - Language: Japanese
+      String: ユミ軍曹と話す
+    - Language: Polish
+      String: Porozmawiaj z sierżantem Yumim
+    - Language: Portuguese_Brazil
+      String: Fale com o Sargento Yumi
+    - Language: ChineseSimplified
+      String: 与由实中士交谈
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: SergeantYumi
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 24C49F:Starfield.esm
+  VoiceTypes: Null

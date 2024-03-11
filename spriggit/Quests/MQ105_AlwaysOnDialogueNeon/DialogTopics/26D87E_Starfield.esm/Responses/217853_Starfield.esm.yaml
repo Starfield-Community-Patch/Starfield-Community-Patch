@@ -1,0 +1,56 @@
+FormKey: 217853:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - 0x4
+DialogGroup: 26D87D:Starfield.esm
+Responses:
+- Emotion: 0FA849:Starfield.esm
+  WEMFile: 3641096
+  TRDAUnknown: 2.2333333
+  TROTs:
+  - UnknownVoiceType: 2BCA3C:Starfield.esm
+    UnknownFloat: 1.6000001
+  - UnknownVoiceType: 2A2C75:Starfield.esm
+    UnknownFloat: 2.1333334
+  - UnknownVoiceType: 2A2C76:Starfield.esm
+    UnknownFloat: 2.1333334
+  - UnknownVoiceType: 2A2C77:Starfield.esm
+    UnknownFloat: 9.033334
+  - UnknownVoiceType: 2A2C78:Starfield.esm
+    UnknownFloat: 4.9
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Hey, steck die Waffe wieder ein.
+    - Language: English
+      String: Hey, keep the weapon holstered, will you?
+    - Language: Spanish
+      String: Eh, el arma enfundada, ¿vale?
+    - Language: French
+      String: Hé, vous là, rangez votre arme.
+    - Language: Italian
+      String: Ehi, metti via quell’arma, OK?
+    - Language: Japanese
+      String: おい、武器はしまっておいてくれないか？
+    - Language: Polish
+      String: Ej, schowaj tę broń, co?
+    - Language: Portuguese_Brazil
+      String: Ei, mantenha a arma no coldre, tá bom?
+    - Language: ChineseSimplified
+      String: 嘿，武器收好，好吗？
+  ScriptNotes: working as private security; player has their gun out
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x10EC57BBF8A6D601
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+StartScenePhase: ''
+SubtitlePriority: Low

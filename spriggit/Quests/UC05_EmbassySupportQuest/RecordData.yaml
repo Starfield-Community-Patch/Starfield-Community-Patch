@@ -1,0 +1,54 @@
+FormKey: 2A0E95:Starfield.esm
+EditorID: UC05_EmbassySupportQuest
+FormVersion: 556
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: '[UC05 – Unterstützungsquest]'
+  - Language: English
+    String: '[UC05 Support Quest]'
+  - Language: Spanish
+    String: '[Misión de apoyo UC05]'
+  - Language: French
+    String: '[UC05 Support Quest]'
+  - Language: Italian
+    String: '[Missione di supporto UC05]'
+  - Language: Japanese
+    String: '[UC05 支援クエスト]'
+  - Language: Polish
+    String: '[Zadanie wsparcia ZK05]'
+  - Language: Portuguese_Brazil
+    String: '[Missão Complementar UC05]'
+  - Language: ChineseSimplified
+    String: '[联殖05支援任务]'
+Data:
+  Flags:
+  - StartGameEnabled
+  - AllowRepeatedStages
+  - StartsEnabled
+  - RunOnce
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475FD:Starfield.esm
+QuestFaction: 0546DC:Starfield.esm
+Location: 01295A:Starfield.esm
+UnusedConditions: []
+Stages:
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Kick the player out of the Embassy (send them to "jail")
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player decided to fight the Freestar guards
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases: []

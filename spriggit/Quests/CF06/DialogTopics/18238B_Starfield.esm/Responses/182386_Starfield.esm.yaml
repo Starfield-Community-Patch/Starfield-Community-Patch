@@ -1,0 +1,54 @@
+FormKey: 182386:Starfield.esm
+FormVersion: 556
+Flags: {}
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  WEMFile: 2444732
+  TROTs:
+  - UnknownVoiceType: 26FDF5:Starfield.esm
+    UnknownFloat: 2.8333335
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ich hätte das schon beinahe getan ... aber er hat immer Neon Security bei sich. Außerdem würde das alles wahrscheinlich nur noch schlimmer machen.
+    - Language: English
+      String: I've come pretty close to doing just that... but he's always surrounded by Neon Security. Besides, it would probably just make matters worse.
+    - Language: Spanish
+      String: Me ha faltado poco para hacerlo, la verdad, pero siempre está rodeado de la seguridad de Neón. Además, seguro que empeoraría las cosas.
+    - Language: French
+      String: J'ai déjà été à deux doigts de le faire... mais il est toujours entouré par des agents de sécurité. Et puis, ça ne ferait qu'empirer les choses.
+    - Language: Italian
+      String: Sono arrivato parecchio vicino a farlo... ma è sempre circondato dalla sicurezza di Neon. E poi, peggiorerebbe solo le cose.
+    - Language: Japanese
+      String: そうしそうになったことはある… でも兄のそばにはいつもネオン・セキュリティがいた。それに、状況を悪化させるだけだと思ったんだ
+    - Language: Polish
+      String: Prawie sam to zrobiłem, ale zawsze jest koło niego ktoś z ochrony Neonu. Zresztą to by pewnie tylko pogorszyło sytuację.
+    - Language: Portuguese_Brazil
+      String: Cheguei muito perto de fazer... mas ele tá sempre cercado pela segurança de Neon. Além disso, provavelmente só pioraria as coisas.
+    - Language: ChineseSimplified
+      String: 我有次差点就得手了……但他身边总是有一大群霓虹城保安。再说，这可能会让事态恶化。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xE01AAD61D939D701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    RunOnType: QuestAlias
+    Unknown3: 36
+    FirstParameter: 005B85:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetDistanceConditionData
+    RunOnType: QuestAlias
+    Unknown3: 36
+    FirstParameter: 000014:Starfield.esm
+  ComparisonValue: 00D8A9:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

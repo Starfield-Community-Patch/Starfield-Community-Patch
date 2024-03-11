@@ -1,0 +1,110 @@
+FormKey: 249C1A:Starfield.esm
+EditorID: Drink_Alc_Bottle_Filburn_BeerCodosCrater
+ObjectBounds:
+  First: -0.029052734, -0.02911377, -0.00015258789
+  Second: 0.02911377, 0.029052734, 0.22058105
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 05451A:Starfield.esm
+  Workbench: 05451A:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Codos Crater
+  - Language: English
+    String: Codos Crater
+  - Language: Spanish
+    String: Codos Crater
+  - Language: French
+    String: Codos Crater
+  - Language: Italian
+    String: Codos Crater
+  - Language: Japanese
+    String: コドス・クレーター
+  - Language: Polish
+    String: Krater Codos
+  - Language: Portuguese_Brazil
+    String: Cratera de Codos
+  - Language: ChineseSimplified
+    String: 科多斯火山啤酒
+Keywords:
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+- 14253C:Starfield.esm
+- 249C1D:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageMenu_CodosCrater.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: a89d4d93-93b9-4c2e-56fb-6a4f8fb88982
+DropdownSound:
+  Start: d3b24339-670b-3933-e56f-3fc3189523a6
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein Bier von Filburn Agriculture, das im gesamten Freestar Collective beliebt ist.
+  - Language: English
+    String: A Filburn Agriculture beer, popular throughout the Freestar Collective.
+  - Language: Spanish
+    String: Una cerveza de Filburn Agricultural, muy popular en el Colectivo Freestar.
+  - Language: French
+    String: Une bière Filburn Agriculture, populaire dans toute la Confédération Liber Astra.
+  - Language: Italian
+    String: Una birra della Filburn Agriculture, popolare in tutto il Collettivo Freestar.
+  - Language: Japanese
+    String: フィルバーン・アグリカルチャーのビール。自由恒星同盟全域で人気を博している
+  - Language: Polish
+    String: Piwo firmy Filburn Agriculture popularne w Kolektywie Wolnych Gwiazd.
+  - Language: Portuguese_Brazil
+    String: Cerveja da Filburn Agricultural, popular por toda Confederação Freestar.
+  - Language: ChineseSimplified
+    String: 一款费尔本农业啤酒，风靡于自由星系联盟。
+Resources:
+- Resource: 29B02E:Starfield.esm
+  Count: 1
+Weight: 0.5
+Value: 210
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: f96641c4-fd61-393a-cfc9-7f25fc5ae988
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 100
+    Duration: 180
+  Magnitude: 2B9813:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 180
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 180
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

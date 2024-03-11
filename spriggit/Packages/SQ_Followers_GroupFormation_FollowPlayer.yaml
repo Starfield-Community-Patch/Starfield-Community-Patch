@@ -1,0 +1,132 @@
+FormKey: 2A9765:Starfield.esm
+EditorID: SQ_Followers_GroupFormation_FollowPlayer
+FormVersion: 556
+Flags:
+- TreatAsPlayerFollower
+- AllowSwimming
+- NoCombatAlert
+- 0x40000000
+Type: Package
+PreferredSpeed: Run
+InteruptFlags:
+- RandomConversations
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- WorldInteractions
+- OffForImportantScene
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleDayOfWeek: 255
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    FirstParameter: 09C16D:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 17F45B:Starfield.esm
+DataInputVersion: 2
+Data:
+- Key: 0
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Name: Target
+    Flags:
+    - Public
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetSpecificReference
+      Reference: 000014:Starfield.esm
+- Key: 1
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: Preferred Radius
+    Flags:
+    - Public
+    Data: 5
+- Key: 8
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Name: Formation
+    Flags:
+    - Public
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 2A975D:Starfield.esm
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: true
+    Flags: []
+    Data: True
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: false
+    Flags: []
+- Key: 2
+  Value:
+    MutagenObjectType: APackageData
+    Name: Max Radius
+    Flags:
+    - Public
+- Key: 10
+  Value:
+    MutagenObjectType: APackageData
+    Name: 'Sandbox: Energy'
+    Flags:
+    - Public
+- Key: 12
+  Value:
+    MutagenObjectType: APackageData
+    Name: 'Sandbox: MinWanderDistance'
+    Flags:
+    - Public
+- Key: 14
+  Value:
+    MutagenObjectType: APackageData
+    Name: 'Sandbox: HeightUp'
+    Flags:
+    - Public
+- Key: 16
+  Value:
+    MutagenObjectType: APackageData
+    Name: 'Sandbox: HeightDown'
+    Flags:
+    - Public
+PackageGroup: FollowPlayer
+ProcedureTree:
+- BranchType: Stacked
+  Root:
+    BranchCount: 1
+- BranchType: Procedure
+  ProcedureType: Follow
+  Flags: []
+  DataInputIndices:
+  - 0
+  - 1
+  - 1
+  - 6
+  - 6
+  - 6
+  - 8
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

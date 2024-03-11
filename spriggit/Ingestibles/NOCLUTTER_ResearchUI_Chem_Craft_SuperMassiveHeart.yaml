@@ -1,0 +1,131 @@
+FormKey: 29959D:Starfield.esm
+MajorRecordFlagsRaw: 536870912
+EditorID: NOCLUTTER_ResearchUI_Chem_Craft_SuperMassiveHeart
+StarfieldMajorRecordFlags:
+- 0x20000000
+ObjectBounds:
+  First: -0.018249359, -0.023867644, -9.860843E-06
+  Second: 0.018249664, 0.041684113, 0.10332731
+ODTY: 0
+Transforms:
+  InventoryIcon: 03D202:Starfield.esm
+  Inventory: 03D202:Starfield.esm
+  Workbench: 299597:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Herz der Schwarzen Supermasse
+  - Language: English
+    String: Supermassive Black Heart
+  - Language: Spanish
+    String: Corazón negro supermasivo
+  - Language: French
+    String: Cœur de trou noir supermassif
+  - Language: Italian
+    String: Cuore nero supermassiccio
+  - Language: Japanese
+    String: スーパーマッシブ・ブラックハート
+  - Language: Polish
+    String: Serce supermasywnej czarnej dziury
+  - Language: Portuguese_Brazil
+    String: Coração de Buraco Negro Supermassivo
+  - Language: ChineseSimplified
+    String: 超大质量黑洞之心
+Keywords:
+- 0F4AE7:Starfield.esm
+- 184C3D:Starfield.esm
+- 2CF28A:Starfield.esm
+- 0A7296:Starfield.esm
+Model:
+  File: Items\drugs_or_medical\Crafted_InHailer_White.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 2a214c30-f47e-9947-ec5a-ff6684b3db82
+DropdownSound:
+  Start: 669f4b70-1167-a6b1-bad2-79a667a1ed99
+CraftingSound:
+  Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein seltsames, selbstgemachtes Chem. Wer es einnimmt, kann seine Umgebung wie in „Zeitlupe“ wahrnehmen, gepaart mit extremer Wut.
+  - Language: English
+    String: A strange, homemade chem concoction. Users may experience a "slow motion"-like sensation coupled with intense rage.
+  - Language: Spanish
+    String: Un estupefaciente artesanal con el que experimentar la “ralentización” del tiempo y una ira casi incontrolable.
+  - Language: French
+    String: Une drogue maison étrange qui donne à son consommateur l'impression que le temps ralentit, ainsi qu'une rage intense.
+  - Language: Italian
+    String: Strano intruglio medicinale fatto in casa. Consumarlo può provocare la sensazione di muoversi al “rallentatore” e rabbia intensa.
+  - Language: Japanese
+    String: 奇妙な自家製調合薬。使用者は"スローモーション"のような感覚に加え、激しい怒りを覚えることがある
+  - Language: Polish
+    String: Domowej roboty dziwna mieszanina farmaceutyków. Użytkownicy mogą doświadczyć uczucia spowolnienia czasu oraz intensywnej wściekłości.
+  - Language: Portuguese_Brazil
+    String: Mistura caseira e estranha de químicos. Pode provocar uma sensação similar ao efeito de câmera lenta, assim como fúria intensa.
+  - Language: ChineseSimplified
+    String: 一种奇怪的自制药品混合物。使用后可能会有“慢动作”式的体验，伴随着难以遏制的愤怒情绪。
+Weight: 0.1
+Value: 665
+Flags:
+- NoAutoCalc
+- Medicine
+Addiction: 268D35:Starfield.esm
+AddictionChance: 0.15
+ConsumeSound:
+  Start: 7d1b4c45-9011-3520-19b6-c712198c2fa7
+AddictionName:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Narkotika
+  - Language: English
+    String: Narcotics
+  - Language: Spanish
+    String: Narcóticos
+  - Language: French
+    String: Narcotiques
+  - Language: Italian
+    String: Narcotici
+  - Language: Japanese
+    String: 薬物
+  - Language: Polish
+    String: Narkotyki
+  - Language: Portuguese_Brazil
+    String: Narcóticos
+  - Language: ChineseSimplified
+    String: 麻醉剂
+Effects:
+- BaseEffect: 2A34F1:Starfield.esm
+  Data:
+    Magnitude: 0.5
+    Duration: 10
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 237E51:Starfield.esm
+  Data:
+    Magnitude: 40
+    Duration: 10
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 122EB7:Starfield.esm
+  Data:
+    Magnitude: 5
+    Duration: 10
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 1253D5:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 10
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 25A8B6:Starfield.esm
+  Data:
+    Duration: 10
+  EFIF: 0
+  MUID: 5
+MajorFlags:
+- Medicine

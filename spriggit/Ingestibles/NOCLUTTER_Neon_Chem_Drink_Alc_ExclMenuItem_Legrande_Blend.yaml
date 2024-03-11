@@ -1,0 +1,121 @@
+FormKey: 249C2A:Starfield.esm
+EditorID: NOCLUTTER_Neon_Chem_Drink_Alc_ExclMenuItem_Legrande_Blend
+ObjectBounds:
+  First: -0.045684814, -0.045684837, 5.4496923E-09
+  Second: 0.045684814, 0.04571533, 0.20898436
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 1017B4:Starfield.esm
+  Workbench: 1017B4:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Blend
+  - Language: English
+    String: Blend
+  - Language: Spanish
+    String: Mezcla
+  - Language: French
+    String: Blend
+  - Language: Italian
+    String: Blend
+  - Language: Japanese
+    String: ブレンド
+  - Language: Polish
+    String: Melanż
+  - Language: Portuguese_Brazil
+    String: Blend
+  - Language: ChineseSimplified
+    String: 特调酒
+Keywords:
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+- 14253C:Starfield.esm
+- 2CF28A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragemenu_blend.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 82d44b6f-dd2e-ac48-94ff-d2e90b2dff96
+DropdownSound:
+  Start: 98fc4756-55dd-c609-39b9-b315de44d9bb
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein kohlensäurehaltiges alkoholisches Getränk, mit Koffein und einer Geheimzutat gemischt.
+  - Language: English
+    String: A carbonated alcoholic beverage blended with caffeine and a potent secret ingredient.
+  - Language: Spanish
+    String: Bebida alcohólica carbonatada con cafeína y un potente ingrediente secreto.
+  - Language: French
+    String: Une boisson gazeuse alcoolisée mélangée à de la caféine et à un puissant ingrédient secret.
+  - Language: Italian
+    String: Una bibita alcolica gassata miscelata con caffeina e un potente ingrediente segreto.
+  - Language: Japanese
+    String: 炭酸入りのアルコール飲料。カフェインのほか、強烈な秘密の材料も使われている
+  - Language: Polish
+    String: Gazowany napój alkoholowy zmieszany z kofeiną i silnym, tajemniczym składnikiem.
+  - Language: Portuguese_Brazil
+    String: Bebida alcoólica gaseificada misturada com cafeína e um ingrediente secreto potente.
+  - Language: ChineseSimplified
+    String: 一种含有咖啡因，以及一种烈性神秘材料的碳酸酒精饮料。
+Weight: 0.5
+Value: 380
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 534d4d1c-5a43-05f7-75ee-feb0fa7771b5
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2A34F1:Starfield.esm
+  Data:
+    Magnitude: 0.2
+    Duration: 10
+  Magnitude: 2B9808:Starfield.esm
+  Duration: 2B97FF:Starfield.esm
+  EFIF: 1
+  MUID: 6
+- BaseEffect: 139E4A:Starfield.esm
+  Data:
+    Magnitude: 10
+    Duration: 10
+  EFIF: 0
+  MUID: 10
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 75
+    Duration: 180
+  Magnitude: 2B9812:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 7
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 180
+  Magnitude: 2D87D9:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 8
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 180
+  Magnitude: 2D87D9:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 9
+- BaseEffect: 25A8AD:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2B97FF:Starfield.esm
+  EFIF: 0
+  MUID: 5

@@ -1,0 +1,110 @@
+FormKey: 1FF69E:Starfield.esm
+EditorID: Drink_Alc_Can_Erdebrau_Lager
+ObjectBounds:
+  First: -0.049865723, -0.049102783, 0
+  Second: 0.049865723, 0.049102783, 0.29589844
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0CC66F:Starfield.esm
+  Workbench: 0CC66F:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Erdebrau Lager (Dose)
+  - Language: English
+    String: Erdebrau Lager Can
+  - Language: Spanish
+    String: Lata de Erdebrau lager
+  - Language: French
+    String: Cannette d'Erdebrau blonde
+  - Language: Italian
+    String: Lattina di Erdebrau Lager
+  - Language: Japanese
+    String: アーデブローのラガー缶
+  - Language: Polish
+    String: Puszka Erdebrau Lager
+  - Language: Portuguese_Brazil
+    String: Lata de Erdebrau Lager
+  - Language: ChineseSimplified
+    String: 爱德堡精酿拉格罐装
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF289:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\Erdebrau_Beers\Erdebrau_Lager01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 82d44b6f-dd2e-ac48-94ff-d2e90b2dff96
+DropdownSound:
+  Start: 98fc4756-55dd-c609-39b9-b315de44d9bb
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein Lager von Erdebrau, mit Weizenimitatkulturen und simuliertem Hopfen gebraut.
+  - Language: English
+    String: Erdebrau's lager, brewed with imitation wheat cultures and simulated hops.
+  - Language: Spanish
+    String: Cerveza lager de Erdebrau, elaborada con trigo de imitación y lúpulo simulado.
+  - Language: French
+    String: Bière ambrée Erdebrau, brassée à base de succédané de blé et de houblon simulé.
+  - Language: Italian
+    String: Birra lager Erdebrau, preparata con frumento finto e luppoli simulati.
+  - Language: Japanese
+    String: アーデブローのラガー。模造栽培の小麦とシミュレートホップから醸造されている
+  - Language: Polish
+    String: Piwo Erdebrau lager uwarzone z imitacji pszenicy i symulowanego chmielu.
+  - Language: Portuguese_Brazil
+    String: A lager da Erdebrau, preparada com culturas de imitação de trigo e lúpulo simulado.
+  - Language: ChineseSimplified
+    String: 爱德堡精酿的拉格啤酒，使用模拟栽种小麦和模拟啤酒花酿制而成。
+Resources:
+- Resource: 29B02E:Starfield.esm
+  Count: 1
+Weight: 0.5
+Value: 155
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 534d4d1c-5a43-05f7-75ee-feb0fa7771b5
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 75
+    Duration: 180
+  Magnitude: 2B9812:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 10
+    Duration: 180
+  Magnitude: 2D87DB:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 10
+    Duration: 180
+  Magnitude: 2D87DB:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

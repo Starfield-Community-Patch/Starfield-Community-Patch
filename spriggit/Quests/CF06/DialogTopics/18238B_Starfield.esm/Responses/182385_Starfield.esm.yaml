@@ -1,0 +1,54 @@
+FormKey: 182385:Starfield.esm
+FormVersion: 556
+Flags: {}
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  WEMFile: 5737467
+  TROTs:
+  - UnknownVoiceType: 26FDF5:Starfield.esm
+    UnknownFloat: 1.9333334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: So ist Benjamin. Er macht alle krank, aber niemand kann etwas dagegen tun.
+    - Language: English
+      String: That's Benjamin. He makes everyone sick, but no one can do a damn thing about it.
+    - Language: Spanish
+      String: Así es Benjamin. Pone a todo el mundo enfermo, pero nadie puede hacer nada para remediarlo.
+    - Language: French
+      String: C'est tout lui. Il rend tout le monde malade, mais personne ne peut rien faire contre lui.
+    - Language: Italian
+      String: Benjamin è così. Fa star male tutti, ma nessuno può farci un bel niente.
+    - Language: Japanese
+      String: それがベンジャミンだ。みんな気分が悪くなるが、どうすることもできない
+    - Language: Polish
+      String: Cały Benjamin. Wszyscy się nim brzydzą, ale nikt nie może nic z tym zrobić.
+    - Language: Portuguese_Brazil
+      String: O Benjamin é assim. Ele enoja todo mundo, mas ninguém pode fazer nada a respeito.
+    - Language: ChineseSimplified
+      String: 这就是本杰明。大家都讨厌他，但没人能把他怎么样。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x501D6A8CD939D701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    RunOnType: QuestAlias
+    Unknown3: 36
+    FirstParameter: 00599A:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetDistanceConditionData
+    RunOnType: QuestAlias
+    Unknown3: 36
+    FirstParameter: 000014:Starfield.esm
+  ComparisonValue: 00D8A9:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

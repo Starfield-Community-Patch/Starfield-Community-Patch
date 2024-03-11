@@ -1,0 +1,82 @@
+FormKey: 15DA45:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 3330535
+  TRDAUnknown: 7.4000006
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 1.1666667
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 2.6000001
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.2333336
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 8.533334
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 2.3333335
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 1.2333333
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 4.066667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: N'abend, Sir.
+    - Language: English
+      String: Evening, sir.
+    - Language: Spanish
+      String: Buenas noches.
+    - Language: French
+      String: Bonsoir, monsieur.
+    - Language: Italian
+      String: Buonasera, signore.
+    - Language: Japanese
+      String: こんばんは
+    - Language: Polish
+      String: Dobry wieczór panu.
+    - Language: Portuguese_Brazil
+      String: Boa noite, senhor.
+    - Language: ChineseSimplified
+      String: 晚上好，先生。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x20C01297E14CD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 26FDEA:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTimeSpanSunsetConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTimeSpanNightConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTimeSpanMidnightConditionData
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 239CE7:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

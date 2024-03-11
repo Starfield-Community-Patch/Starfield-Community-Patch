@@ -1,0 +1,113 @@
+FormKey: 2C7203:Starfield.esm
+EditorID: Drink_Alc_Bottle_Chandra_WineMalbec
+ObjectBounds:
+  First: -0.03302002, -0.032958984, 0.00079345703
+  Second: 0.032958984, 0.032958984, 0.26904297
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 05451C:Starfield.esm
+  Workbench: 05451C:Starfield.esm
+XALG: 0x0800000000000000
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Chandra Malbec
+  - Language: English
+    String: Chandra Malbec
+  - Language: Spanish
+    String: Chandra malbec
+  - Language: French
+    String: Chandra Malbec
+  - Language: Italian
+    String: Malbec Chandra
+  - Language: Japanese
+    String: チャンドラ(マルベック)
+  - Language: Polish
+    String: Chandra Malbec
+  - Language: Portuguese_Brazil
+    String: Chandra Malbec
+  - Language: ChineseSimplified
+    String: 钱卓拉马尔贝克
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF288:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragefood_chandramelbec.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 6dda4007-c442-8f2f-b9ba-8425a92d2cac
+DropdownSound:
+  Start: 4abd479b-59e5-7b01-1570-d174e61549bd
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Vollmundiger Rotwein von Chandra Vineyards, mit Aromen von Schokolade und frischer Erde. '
+  - Language: English
+    String: "Chandra Vineyards' full-bodied red wine, with notes of chocolate and fresh earth. "
+  - Language: Spanish
+    String: 'Vino tinto con cuerpo de Chandra Vineyards, con notas de chocolate y tierra fresca. '
+  - Language: French
+    String: 'Vin rouge corsé Château Chandra, aux notes de chocolat et de terre fraîche. '
+  - Language: Italian
+    String: 'Vino rosso corposo di Chandra Vineyards, con note di cioccolato e terrose. '
+  - Language: Japanese
+    String: 'チャンドラ・バインヤーズのフルボディの赤ワイン。チョコレートと新鮮な土壌の風味が広がる '
+  - Language: Polish
+    String: 'Treściwe czerwone wino Chandra Vineyards z nutą czekolady i świeżej ziemi. '
+  - Language: Portuguese_Brazil
+    String: 'Vinho tinto encorpado da Chandra Vineyards, com notas terrosas e de chocolate. '
+  - Language: ChineseSimplified
+    String: '钱卓拉葡萄园出品的丰满酒体红葡萄酒，带有巧克力和新鲜泥土的味道。 '
+Resources:
+- Resource: 29B02F:Starfield.esm
+  Count: 1
+ComponentDisplayIndices:
+- 1
+Weight: 0.5
+Value: 380
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 049e4e48-ef25-50c1-f0bf-12128e5b9682
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.12
+    Duration: 300
+  Magnitude: 2D88BE:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

@@ -1,0 +1,32 @@
+MutagenObjectType: PlacedObject
+FormKey: 22F4A2:Starfield.esm
+MajorRecordFlagsRaw: 1024
+EditorID: BarrettLandingMarkerREF019
+FormVersion: 556
+StarfieldMajorRecordFlags:
+- 0x400
+VirtualMachineAdapter:
+  Scripts:
+  - Name: LandingPadBlastShields
+    Properties:
+    - MutagenObjectType: ScriptFloatProperty
+      Name: AnimSpeedVariance
+      Data: 0.06
+    - MutagenObjectType: ScriptFloatProperty
+      Name: BaseAnimSpeed
+      Data: 0.25
+    - MutagenObjectType: ScriptFloatProperty
+      Name: BeforeOpenTimer
+      Data: 3
+    - MutagenObjectType: ScriptFloatProperty
+      Name: OpenToCloseTimer
+      Data: 25
+Base: 007145:Starfield.esm
+Ownership:
+  Owner: 270274:Starfield.esm
+Layer: 00634A:Starfield.esm
+LinkedReferences:
+- Reference: 22F4A7:Starfield.esm
+IsLinkedRefTransient: True
+Position: 78.61143, 98.29166, 111.01633
+Rotation: 4.3772157E-08, 1.6298145E-07, 3.9462306

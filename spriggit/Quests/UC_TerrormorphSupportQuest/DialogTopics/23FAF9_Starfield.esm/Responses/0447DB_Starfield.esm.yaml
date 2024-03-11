@@ -1,0 +1,46 @@
+FormKey: 0447DB:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 23FA29:Starfield.esm
+Responses:
+- Emotion: 0FA84A:Starfield.esm
+  WEMFile: 8785857
+  TRDAUnknown: 3.5333335
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Du da! Runter damit! Waffe runter oder wir schießen!
+    - Language: English
+      String: You! Put it down! Put down the weapon or we shoot!
+    - Language: Spanish
+      String: ¡Tú! ¡Baja eso! ¡Baja el arma o disparamos!
+    - Language: French
+      String: Toi ! Baisse-la ! Baisse ton arme ou on tire !
+    - Language: Italian
+      String: Ehi! Abbassala! Abbassa l’arma o spariamo!
+    - Language: Japanese
+      String: 下ろせ！ 武器を下ろせ！ 下ろさないと撃つぞ！
+    - Language: Polish
+      String: Ty! Odłóż broń. Odłóż ją albo zaczniemy strzelać!
+    - Language: Portuguese_Brazil
+      String: Você! Pode largar! Larga a arma ou vamos atirar!
+    - Language: ChineseSimplified
+      String: 嘿你！赶紧放下！放下武器，不然就开枪了！
+  ScriptNotes: Enraged. You're an auditory hallucination, so crank up the emotion. The player's mind is playing tricks on them.
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA038C63ADBDFD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+Speaker: 23F94A:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

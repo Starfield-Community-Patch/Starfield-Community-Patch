@@ -1,0 +1,54 @@
+FormKey: 219AF1:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 219AF5:Starfield.esm
+Responses:
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 14230092
+  TRDAUnknown: 5.6000004
+  TROTs:
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 5.066667
+  - UnknownVoiceType: 2BCA42:Starfield.esm
+    UnknownFloat: 5.1333337
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 0.10000001
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 1.5666667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Leg die Waffe ab. Du bist in einer Botschaft, herrje!
+    - Language: English
+      String: Stash the weapon. You're in an embassy, for goodness' sake.
+    - Language: Spanish
+      String: Guarda el arma. Estás en una embajada, por favor te lo pido.
+    - Language: French
+      String: Rangez votre arme. Vous êtes dans une ambassade, bon sang de bois.
+    - Language: Italian
+      String: Riponi le armi. Sei in un’ambasciata, santo cielo.
+    - Language: Japanese
+      String: 武器を収めろ。ここは大使館だぞ
+    - Language: Polish
+      String: Schowaj broń. Na miłość boską, jesteś w ambasadzie.
+    - Language: Portuguese_Brazil
+      String: Guarde a arma. Você está na embaixada, pelo amor de Deus.
+    - Language: ChineseSimplified
+      String: 赶紧把武器收起来，你可是在大使馆啊，我的老天。
+  ScriptNotes: You're guarding the Freestar Embassy in New Atlantis.
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x30885B977F14D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,141 @@
+FormKey: 139E4B:Starfield.esm
+MajorRecordFlagsRaw: 536870912
+EditorID: Chem_Craft_Magz_STEVE
+StarfieldMajorRecordFlags:
+- 0x20000000
+ObjectBounds:
+  First: -0.018249206, -0.023867644, -9.860843E-06
+  Second: 0.018249817, 0.041684113, 0.10332731
+ODTY: 0
+Transforms:
+  InventoryIcon: 02FD73:Starfield.esm
+  Inventory: 0664B2:Starfield.esm
+  Workbench: 2B669B:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: S.T.E.V.E.
+  - Language: English
+    String: S.T.E.V.E.
+  - Language: Spanish
+    String: S.T.E.V.E.
+  - Language: French
+    String: S.T.E.V.E.
+  - Language: Italian
+    String: S.T.E.V.E.
+  - Language: Japanese
+    String: S.T.E.V.E.
+  - Language: Polish
+    String: STEVE
+  - Language: Portuguese_Brazil
+    String: S.T.E.V.E.
+  - Language: ChineseSimplified
+    String: 史蒂夫极光
+Keywords:
+- 0F4AE7:Starfield.esm
+- 11A47A:Starfield.esm
+- 184C3D:Starfield.esm
+- 2CF28A:Starfield.esm
+- 0A7296:Starfield.esm
+Model:
+  File: Items\Drugs_Or_Medical\Crafted_InHailer_Steve_01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 2a214c30-f47e-9947-ec5a-ff6684b3db82
+DropdownSound:
+  Start: 669f4b70-1167-a6b1-bad2-79a667a1ed99
+CraftingSound:
+  Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein Cocktail aus Aurora und dem Pharmazeutikum Panopticon. Dehnt die Zeitwahrnehmung und verbessert die Hand-Augen-Koordination.
+  - Language: English
+    String: A cocktail made from Aurora and the chem Panopticon. Dilates perception of time and improves hand-eye coordination.
+  - Language: Spanish
+    String: Cóctel consistente en Aurora mezclada con el estupefaciente Panóptico. Dilata la percepción del tiempo y mejora la coordinación.
+  - Language: French
+    String: Un cocktail d'Aurore et d'un autre produit, le Panopticon. Ralentit la perception du temps et améliore la coordination main-œil.
+  - Language: Italian
+    String: Cocktail formato da aurora e dalla sostanza panopticon. Dilata la percezione del tempo e migliora la coordinazione oculo-manuale.
+  - Language: Japanese
+    String: オーロラとパノプティコンという薬品から作った混合薬。時間の感覚を刺激し、反射神経を改善させる
+  - Language: Polish
+    String: Koktajl z mieszanki aurory i substancji zwanej panoptikonem. Odmienia percepcję czasu i poprawia koordynację wzrokowo-ruchową.
+  - Language: Portuguese_Brazil
+    String: Um coquetel feito com Aurora e o químico Panóptico. Dilata a percepção do tempo e melhora a coordenação motora.
+  - Language: ChineseSimplified
+    String: 使用极光和药品“环形监狱”制作的鸡尾酒。它能够放大饮用者的时间感知能力，还能改善手眼协调能力。
+Weight: 0.1
+Value: 450
+Flags:
+- NoAutoCalc
+- Medicine
+Addiction: 268D35:Starfield.esm
+AddictionChance: 0.25
+ConsumeSound:
+  Start: 3cd64f9d-032b-d344-2773-c652c620ef98
+AddictionName:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Stimulanzien
+  - Language: English
+    String: Stimulants
+  - Language: Spanish
+    String: Estimulantes
+  - Language: French
+    String: Stimulants
+  - Language: Italian
+    String: Stimolanti
+  - Language: Japanese
+    String: 興奮剤
+  - Language: Polish
+    String: Stymulanty
+  - Language: Portuguese_Brazil
+    String: Estimulantes
+  - Language: ChineseSimplified
+    String: 刺激剂
+Effects:
+- BaseEffect: 2A34F1:Starfield.esm
+  Data:
+    Magnitude: 0.4
+    Duration: 10
+  Magnitude: 2D397D:Starfield.esm
+  Duration: 2D3974:Starfield.esm
+  EFIF: 1
+  MUID: 3
+- BaseEffect: 139E4A:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 10
+  Magnitude: 2D395D:Starfield.esm
+  Duration: 2D3974:Starfield.esm
+  EFIF: 0
+  MUID: 5
+- BaseEffect: 2D398D:Starfield.esm
+  Data:
+    Magnitude: 40
+    Duration: 10
+  Magnitude: 2D3969:Starfield.esm
+  Duration: 2D3974:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2D3993:Starfield.esm
+  Data:
+    Magnitude: 50
+    Duration: 10
+  Magnitude: 2D3973:Starfield.esm
+  Duration: 2D3974:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 25A8AD:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3983:Starfield.esm
+  EFIF: 0
+  MUID: 4
+MajorFlags:
+- Medicine

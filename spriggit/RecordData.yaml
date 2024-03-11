@@ -8,16 +8,14 @@ ModHeader:
   - Master
   - Localized
   Stats:
-    NumRecords: 997
-    NextFormID: 2059
+    NumRecords: 1035
+    NextFormID: 2060
   Author: Starfield Modding Community
   Description: A compilation of bug fixes assembled by Starfield Modders
   MasterReferences:
   - Master: Starfield.esm
   - Master: BlueprintShips-Starfield.esm
   OverriddenForms:
-  - 00498D:Starfield.esm
-  - 00498E:Starfield.esm
   - 0049A3:Starfield.esm
   - 0049A8:Starfield.esm
   - 0049AF:Starfield.esm
@@ -26,14 +24,12 @@ ModHeader:
   - 0049ED:Starfield.esm
   - 0049F1:Starfield.esm
   - 0049F3:Starfield.esm
-  - 0066C8:Starfield.esm
   - 00962F:Starfield.esm
   - 00963B:Starfield.esm
   - 00963C:Starfield.esm
-  - 009645:Starfield.esm
   - 00964A:Starfield.esm
-  - 009652:Starfield.esm
   - 009653:Starfield.esm
+  - 00D59B:Starfield.esm
   - 010935:Starfield.esm
   - 0109AD:Starfield.esm
   - 0117E7:Starfield.esm
@@ -50,35 +46,22 @@ ModHeader:
   - 03C534:Starfield.esm
   - 03C547:Starfield.esm
   - 0413FE:Starfield.esm
-  - 04A46C:Starfield.esm
+  - 042C60:Starfield.esm
+  - 042C6F:Starfield.esm
+  - 042C72:Starfield.esm
+  - 0447DA:Starfield.esm
+  - 0447DB:Starfield.esm
   - 04A46D:Starfield.esm
-  - 04A47F:Starfield.esm
-  - 04A488:Starfield.esm
-  - 04A48A:Starfield.esm
-  - 04A4A1:Starfield.esm
-  - 04A4A7:Starfield.esm
-  - 04A4B7:Starfield.esm
-  - 04A4BE:Starfield.esm
-  - 04A4CE:Starfield.esm
-  - 04A4D4:Starfield.esm
-  - 04A4DA:Starfield.esm
-  - 04A4E9:Starfield.esm
-  - 04A4ED:Starfield.esm
-  - 04A4F4:Starfield.esm
-  - 04A4FE:Starfield.esm
   - 04A4FF:Starfield.esm
-  - 04A508:Starfield.esm
-  - 04A515:Starfield.esm
-  - 04A517:Starfield.esm
-  - 04A544:Starfield.esm
-  - 04A55A:Starfield.esm
-  - 04A55B:Starfield.esm
-  - 04A56C:Starfield.esm
-  - 04A592:Starfield.esm
-  - 04A5AC:Starfield.esm
   - 04A5B4:Starfield.esm
+  - 04A5BF:Starfield.esm
   - 051A6F:Starfield.esm
   - 051A7B:Starfield.esm
+  - 05AC0C:Starfield.esm
+  - 061757:Starfield.esm
+  - 06175C:Starfield.esm
+  - 06175D:Starfield.esm
+  - 06175E:Starfield.esm
   - 06876C:Starfield.esm
   - 068926:Starfield.esm
   - 06B256:Starfield.esm
@@ -92,8 +75,6 @@ ModHeader:
   - 08D107:Starfield.esm
   - 08D11D:Starfield.esm
   - 08D120:Starfield.esm
-  - 08DA85:Starfield.esm
-  - 08DA9A:Starfield.esm
   - 092C4C:Starfield.esm
   - 097755:Starfield.esm
   - 0A69C3:Starfield.esm
@@ -103,16 +84,17 @@ ModHeader:
   - 0B8627:Starfield.esm
   - 0D3AE9:Starfield.esm
   - 0E5443:Starfield.esm
+  - 0E54A6:Starfield.esm
+  - 0E5513:Starfield.esm
+  - 0E5551:Starfield.esm
   - 0EBC65:Starfield.esm
   - 0EBCC4:Starfield.esm
   - 0F2EC5:Starfield.esm
   - 0F2EC7:Starfield.esm
   - 0F2EC8:Starfield.esm
   - 0F2ECB:Starfield.esm
-  - 0F2ECE:Starfield.esm
   - 0F2ED0:Starfield.esm
   - 0F2ED2:Starfield.esm
-  - 0F2ED4:Starfield.esm
   - 0F2ED6:Starfield.esm
   - 0F2ED8:Starfield.esm
   - 0F2EDA:Starfield.esm
@@ -120,10 +102,8 @@ ModHeader:
   - 0FC974:Starfield.esm
   - 0FC99A:Starfield.esm
   - 10F644:Starfield.esm
-  - 11459D:Starfield.esm
-  - 1145ED:Starfield.esm
-  - 115420:Starfield.esm
-  - 11542E:Starfield.esm
+  - 1153FF:Starfield.esm
+  - 11542B:Starfield.esm
   - 126335:Starfield.esm
   - 1275BA:Starfield.esm
   - 12C618:Starfield.esm
@@ -133,67 +113,44 @@ ModHeader:
   - 146104:Starfield.esm
   - 14610C:Starfield.esm
   - 14612E:Starfield.esm
-  - 146DCF:Starfield.esm
-  - 146DD5:Starfield.esm
-  - 146DD8:Starfield.esm
-  - 146DE3:Starfield.esm
-  - 146DE8:Starfield.esm
-  - 146DE9:Starfield.esm
+  - 149A45:Starfield.esm
+  - 149B10:Starfield.esm
   - 155859:Starfield.esm
+  - 1569C9:Starfield.esm
   - 15B1B9:Starfield.esm
+  - 15DA43:Starfield.esm
+  - 15DA44:Starfield.esm
+  - 15DA45:Starfield.esm
+  - 15DA46:Starfield.esm
+  - 15DA47:Starfield.esm
+  - 15DA4C:Starfield.esm
+  - 15DA4D:Starfield.esm
   - 15E064:Starfield.esm
   - 15E18B:Starfield.esm
   - 16BF69:Starfield.esm
-  - 17C65C:Starfield.esm
-  - 17C664:Starfield.esm
   - 1801C3:Starfield.esm
   - 1801DD:Starfield.esm
+  - 182384:Starfield.esm
+  - 182385:Starfield.esm
+  - 182386:Starfield.esm
+  - 182387:Starfield.esm
+  - 18238B:Starfield.esm
   - 18E0C1:Starfield.esm
   - 18E0F5:Starfield.esm
   - 194ABD:Starfield.esm
   - 19B10C:Starfield.esm
   - 19B184:Starfield.esm
-  - 1A0049:Starfield.esm
-  - 1A0058:Starfield.esm
-  - 1A0071:Starfield.esm
-  - 1A007A:Starfield.esm
-  - 1A1778:Starfield.esm
-  - 1A17AA:Starfield.esm
-  - 1A17AF:Starfield.esm
-  - 1A2F25:Starfield.esm
-  - 1A2F27:Starfield.esm
   - 1A4630:Starfield.esm
   - 1A49B7:Starfield.esm
   - 1A4C5C:Starfield.esm
-  - 1A697E:Starfield.esm
-  - 1A69DB:Starfield.esm
-  - 1A69E6:Starfield.esm
-  - 1A6A4D:Starfield.esm
-  - 1A6A54:Starfield.esm
   - 1A6A65:Starfield.esm
-  - 1A6A70:Starfield.esm
-  - 1A6A82:Starfield.esm
-  - 1A6A85:Starfield.esm
   - 1A6A89:Starfield.esm
-  - 1A6AA4:Starfield.esm
   - 1A6AA7:Starfield.esm
-  - 1A6AC7:Starfield.esm
-  - 1A6AD0:Starfield.esm
   - 1A6AE7:Starfield.esm
-  - 1A6AE9:Starfield.esm
   - 1A6AF3:Starfield.esm
-  - 1A6B1B:Starfield.esm
   - 1A6B1E:Starfield.esm
-  - 1A6B5F:Starfield.esm
   - 1A6B72:Starfield.esm
-  - 1A6B7F:Starfield.esm
-  - 1A6B82:Starfield.esm
-  - 1A6BC0:Starfield.esm
-  - 1A6BC9:Starfield.esm
-  - 1A6BCA:Starfield.esm
-  - 1A6BD8:Starfield.esm
-  - 1A6BF0:Starfield.esm
-  - 1A6BF1:Starfield.esm
+  - 1B00B3:Starfield.esm
   - 1D56B1:Starfield.esm
   - 1D56B2:Starfield.esm
   - 1D56B3:Starfield.esm
@@ -202,6 +159,7 @@ ModHeader:
   - 1D7D6F:Starfield.esm
   - 1D8A03:Starfield.esm
   - 1D8AE0:Starfield.esm
+  - 1DC55F:Starfield.esm
   - 1E3F53:Starfield.esm
   - 1E3F57:Starfield.esm
   - 1E42F3:Starfield.esm
@@ -210,11 +168,7 @@ ModHeader:
   - 1E7139:Starfield.esm
   - 1E7146:Starfield.esm
   - 1E79D8:Starfield.esm
-  - 1E79E1:Starfield.esm
   - 1E79EA:Starfield.esm
-  - 1E79EB:Starfield.esm
-  - 1E79EF:Starfield.esm
-  - 1E79F0:Starfield.esm
   - 1E79F1:Starfield.esm
   - 1E79F4:Starfield.esm
   - 1E79F9:Starfield.esm
@@ -222,21 +176,20 @@ ModHeader:
   - 1E9E43:Starfield.esm
   - 1E9FC4:Starfield.esm
   - 1F3B65:Starfield.esm
-  - 1FA75B:Starfield.esm
-  - 1FC800:Starfield.esm
+  - 1F9BEB:Starfield.esm
+  - 1F9C00:Starfield.esm
   - 1FC819:Starfield.esm
   - 1FC830:Starfield.esm
-  - 1FC835:Starfield.esm
-  - 1FC843:Starfield.esm
-  - 1FC84A:Starfield.esm
   - 20614D:Starfield.esm
   - 2062A4:Starfield.esm
   - 2080BA:Starfield.esm
   - 2080E1:Starfield.esm
   - 208E54:Starfield.esm
   - 208E60:Starfield.esm
+  - 217853:Starfield.esm
   - 219542:Starfield.esm
   - 219573:Starfield.esm
+  - 219AF1:Starfield.esm
   - 21B154:Starfield.esm
   - 21B170:Starfield.esm
   - 21B21A:Starfield.esm
@@ -246,6 +199,8 @@ ModHeader:
   - 21EAF7:Starfield.esm
   - 21EAF8:Starfield.esm
   - 21EAF9:Starfield.esm
+  - 226481:Starfield.esm
+  - 2264BB:Starfield.esm
   - 22722D:Starfield.esm
   - 227278:Starfield.esm
   - 22B6E4:Starfield.esm
@@ -277,6 +232,7 @@ ModHeader:
   - 23EE62:Starfield.esm
   - 23FA74:Starfield.esm
   - 23FABB:Starfield.esm
+  - 23FAF9:Starfield.esm
   - 248C2F:Starfield.esm
   - 248C66:Starfield.esm
   - 248CAD:Starfield.esm
@@ -289,6 +245,7 @@ ModHeader:
   - 26C574:Starfield.esm
   - 26C5E4:Starfield.esm
   - 26C5E6:Starfield.esm
+  - 26D87E:Starfield.esm
   - 27104E:Starfield.esm
   - 271076:Starfield.esm
   - 27BC6F:Starfield.esm
@@ -304,6 +261,8 @@ ModHeader:
   - 299D6C:Starfield.esm
   - 299E2D:Starfield.esm
   - 299E4F:Starfield.esm
+  - 2AAE27:Starfield.esm
+  - 2AAE8B:Starfield.esm
   - 2B4AB4:Starfield.esm
   - 2BA8A8:Starfield.esm
   - 2C334A:Starfield.esm
@@ -335,6 +294,8 @@ ModHeader:
   - 33DD16:Starfield.esm
   - 33E986:Starfield.esm
   - 33EBEA:Starfield.esm
+  - 346E5F:Starfield.esm
+  - 346E60:Starfield.esm
   - 34B529:Starfield.esm
   - 35B249:Starfield.esm
   - 3690CF:Starfield.esm

@@ -1,0 +1,126 @@
+FormKey: 2C5884:Starfield.esm
+MajorRecordFlagsRaw: 536870912
+EditorID: Chem_Aurora
+StarfieldMajorRecordFlags:
+- 0x20000000
+ObjectBounds:
+  First: -0.027982483, -0.03276537, -3.047943E-05
+  Second: 0.027986756, 0.023234386, 0.17804837
+ODTY: 0
+Transforms:
+  InventoryIcon: 0BDE3A:Starfield.esm
+  Inventory: 054518:Starfield.esm
+  Workbench: 054518:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Aurora
+  - Language: English
+    String: Aurora
+  - Language: Spanish
+    String: Aurora
+  - Language: French
+    String: Aurore
+  - Language: Italian
+    String: Aurora
+  - Language: Japanese
+    String: オーロラ
+  - Language: Polish
+    String: Aurora
+  - Language: Portuguese_Brazil
+    String: Aurora
+  - Language: ChineseSimplified
+    String: 极光
+Keywords:
+- 0F4AE7:Starfield.esm
+- 11A47A:Starfield.esm
+- 184C3D:Starfield.esm
+- 2CD252:Starfield.esm
+- 2CF28F:Starfield.esm
+- 0A7296:Starfield.esm
+Model:
+  File: items/drugs_or_medical\chem_aurora_01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 433a4b0d-664c-391d-c00c-47689e4477b7
+DropdownSound:
+  Start: ee3a4562-9685-2f2c-1158-6a52df7efcad
+CraftingSound:
+  Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein starkes und abhängig machendes Halluzinogen, das aus dem Rissbarsch von Volii Alpha gewonnen wird. Ist nur in Neon legal.
+  - Language: English
+    String: A powerful and addictive hallucinogen derived from Volii Alpha's local Chasmbass population. Legal only in the city of Neon.
+  - Language: Spanish
+    String: Potente alucinógeno derivado de la población de chernas de Volii Alfa. Solo es legal en la ciudad de Neón.
+  - Language: French
+    String: Un puissant hallucinogène addictif extrait des perches abyssales qui nagent dans les eaux de Volii Alpha. Légal uniquement à Néon.
+  - Language: Italian
+    String: Potente allucinogeno che dà dipendenza, derivante dalla popolazione di baticernie di Volii Alfa. Legale solo nella città di Neon.
+  - Language: Japanese
+    String: ヴォライ・アルファに棲息するカズムバスの個体群から得た中毒性がある強力な幻覚剤。ネオンでのみ合法
+  - Language: Polish
+    String: Silny, uzależniający środek halucynogenny pochodzący od okoni szczelinowych z Volii Alfa. Można go legalnie używać jedynie w Neonie.
+  - Language: Portuguese_Brazil
+    String: Um alucinógeno poderoso e viciante, derivado da população de robalo-abisso de Volii Alfa. Legalizado apenas na cidade de Neon.
+  - Language: ChineseSimplified
+    String: 从沃利阿尔法星当地的裂隙鲈鱼身上提取的一种强效致幻剂，有成瘾性，只有在霓虹城合法。
+Weight: 0.1
+Value: 760
+Flags:
+- NoAutoCalc
+- Medicine
+Addiction: 268D35:Starfield.esm
+AddictionChance: 0.25
+ConsumeSound:
+  Start: 3cd64f9d-032b-d344-2773-c652c620ef98
+AddictionName:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Stimulanzien
+  - Language: English
+    String: Stimulants
+  - Language: Spanish
+    String: Estimulantes
+  - Language: French
+    String: Stimulants
+  - Language: Italian
+    String: Stimolanti
+  - Language: Japanese
+    String: 興奮剤
+  - Language: Polish
+    String: Stymulanty
+  - Language: Portuguese_Brazil
+    String: Estimulantes
+  - Language: ChineseSimplified
+    String: 刺激剂
+Effects:
+- BaseEffect: 2A34F1:Starfield.esm
+  Data:
+    Magnitude: 0.4
+    Duration: 10
+  Magnitude: 2D397D:Starfield.esm
+  Duration: 2D3974:Starfield.esm
+  EFIF: 1
+  MUID: 2
+- BaseEffect: 139E4A:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 10
+  Magnitude: 2D395D:Starfield.esm
+  Duration: 2D3974:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 25A8AD:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3983:Starfield.esm
+  EFIF: 0
+  MUID: 3
+MajorFlags:
+- Medicine

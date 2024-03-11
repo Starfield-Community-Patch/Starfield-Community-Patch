@@ -1,0 +1,75 @@
+FormKey: 00D59B:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 11112444
+  TRDAUnknown: 7.4000006
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 7.3
+  - UnknownVoiceType: 246C4C:Starfield.esm
+    UnknownFloat: 3.9
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 0.8333334
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 4.4666667
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 1.6333334
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 1.7333335
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Du warst da oben, ja? Im All? Das muss so cool sein. Ich war da noch nie.
+    - Language: English
+      String: Been up there, huh? Space? Must be cool. I never get to go to space.
+    - Language: Spanish
+      String: Has estado ahí arriba, ¿eh? En el espacio. Tiene que impresionar. Yo nunca he ido.
+    - Language: French
+      String: Vous allez là-haut, hein ? Dans l'espace ? Je vous envie. Je suis jamais allé dans l'espace.
+    - Language: Italian
+      String: Vieni da lassù, eh? Dallo spazio? Dev’essere fico. Io non ci vado mai.
+    - Language: Japanese
+      String: 宇宙に行ったことがあるんだっけ？ いい場所だろうな。俺は行かないけど
+    - Language: Polish
+      String: Bywasz tam, co? W kosmosie? Musi być super. Ja tam pewnie nigdy nie trafię.
+    - Language: Portuguese_Brazil
+      String: Já esteve lá em cima? No espaço? Deve ser legal. Nunca consigo ir pro espaço.
+    - Language: ChineseSimplified
+      String: 去过那里哈？太空？那一定很酷。我还从没去过太空。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x403EF5255AECD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 26FDEA:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 28B3AE:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsInSpaceConditionData
+    FirstParameter: 91982
+StartScenePhase: ''
+SubtitlePriority: Low

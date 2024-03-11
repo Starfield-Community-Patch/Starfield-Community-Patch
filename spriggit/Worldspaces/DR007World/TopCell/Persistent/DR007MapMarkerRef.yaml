@@ -1,0 +1,51 @@
+MutagenObjectType: PlacedObject
+FormKey: 2CA717:Starfield.esm
+MajorRecordFlagsRaw: 1024
+EditorID: DR007MapMarkerRef
+FormVersion: 556
+StarfieldMajorRecordFlags:
+- 0x400
+VirtualMachineAdapter:
+  Scripts:
+  - Name: MapMarkerLocationCooldownScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LocationCooldown
+      Object: 0F78AC:Starfield.esm
+Base: 000010:Starfield.esm
+Radius: 20
+MapMarker:
+  Flags:
+  - UseLocationName
+  Name:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Abhörposten
+    - Language: English
+      String: Listening Post
+    - Language: Spanish
+      String: Puesto de escucha
+    - Language: French
+      String: Poste d'écoute
+    - Language: Italian
+      String: Postazione d’ascolto
+    - Language: Japanese
+      String: 情報収集拠点
+    - Language: Polish
+      String: Posterunek nasłuchowy
+    - Language: Portuguese_Brazil
+      String: Posto de Escuta
+    - Language: ChineseSimplified
+      String: 听音哨
+  Type: 22
+  VNAM: 2
+  UNAM:
+    TargetLanguage: English
+  VISI: 0
+Layer: 2CA73B:Starfield.esm
+LinkedReferences:
+- Reference: 2CA718:Starfield.esm
+IsLinkedRefTransient: True
+Position: 45.1204, 47.89791, 44.524216
+Rotation: 0, -0, 3.926991

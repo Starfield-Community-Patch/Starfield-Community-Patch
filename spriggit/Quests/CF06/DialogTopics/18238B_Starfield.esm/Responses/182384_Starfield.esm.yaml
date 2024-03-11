@@ -1,0 +1,54 @@
+FormKey: 182384:Starfield.esm
+FormVersion: 556
+Flags: {}
+Responses:
+- Emotion: 0C866D:Starfield.esm
+  WEMFile: 14344683
+  TROTs:
+  - UnknownVoiceType: 26FDF5:Starfield.esm
+    UnknownFloat: 0.6666667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Es dauert schon Jahrzehnte. Ehrlich, ich weiß nicht, ob ich noch länger warten kann.
+    - Language: English
+      String: It's already been decades. I honestly don't know if I can wait much longer.
+    - Language: Spanish
+      String: Ya han pasado décadas, pero la verdad es que no sé si puedo esperar mucho más.
+    - Language: French
+      String: Ça fait déjà des décennies. Honnêtement, je ne sais pas si je peux attendre plus longtemps.
+    - Language: Italian
+      String: Sono già passati decenni. Onestamente non so se posso aspettare ancora a lungo.
+    - Language: Japanese
+      String: もう何十年も経った。正直、これ以上待ってられるかわからない
+    - Language: Polish
+      String: Minęły dziesięciolecia. Nie wiem, jak długo jeszcze mogę czekać.
+    - Language: Portuguese_Brazil
+      String: Já faz décadas. Sinceramente, não sei se aguento esperar mais.
+    - Language: ChineseSimplified
+      String: 已经几十年了，我真不知道自己还能等多久。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x70302E9DDB39D701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    RunOnType: QuestAlias
+    Unknown3: 36
+    FirstParameter: 005984:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetDistanceConditionData
+    RunOnType: QuestAlias
+    Unknown3: 36
+    FirstParameter: 000014:Starfield.esm
+  ComparisonValue: 00D8A9:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

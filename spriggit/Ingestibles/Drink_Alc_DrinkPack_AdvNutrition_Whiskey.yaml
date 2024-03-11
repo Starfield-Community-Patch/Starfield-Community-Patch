@@ -1,0 +1,110 @@
+FormKey: 2C7219:Starfield.esm
+EditorID: Drink_Alc_DrinkPack_AdvNutrition_Whiskey
+ObjectBounds:
+  First: -0.051879883, -0.023651123, 0
+  Second: 0.051879883, 0.023651123, 0.14038086
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 091C34:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Whiskey (Trinkpack)
+  - Language: English
+    String: 'Drink Pack: Whiskey'
+  - Language: Spanish
+    String: 'Paquete de bebidas: whiskey'
+  - Language: French
+    String: Pack Whisky
+  - Language: Italian
+    String: 'Confezione bevanda: whisky'
+  - Language: Japanese
+    String: ドリンクパック：ウィスキー
+  - Language: Polish
+    String: 'Pakiet do picia: whiskey'
+  - Language: Portuguese_Brazil
+    String: 'Pacote de Bebidas: Uísque'
+  - Language: ChineseSimplified
+    String: 饮料箱：威士忌
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF286:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageDrinkPack_Whiskey.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 9c0b4bd9-94a3-2830-95b8-a81a1a60e791
+DropdownSound:
+  Start: 9f4d405b-17a2-133b-d6b8-9f02bc4afa91
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Standardpack Whiskey von Advanced Nutrition.
+  - Language: English
+    String: Advanced Nutrition's standard pack of whiskey.
+  - Language: Spanish
+    String: Paquete de whiskey estándar de Advanced Nutrition.
+  - Language: French
+    String: Pack de whisky standard Advanced Nutrition.
+  - Language: Italian
+    String: Confezione di whisky standard di Advanced Nutrition.
+  - Language: Japanese
+    String: アドバンスド・ニュートリションのウィスキーのスタンダードパック
+  - Language: Polish
+    String: Standardowe opakowanie whiskey firmy Advanced Nutrition.
+  - Language: Portuguese_Brazil
+    String: Pacote padrão de uísque da Advanced Nutrition.
+  - Language: ChineseSimplified
+    String: 先进食品公司的标准包装威士忌。
+Resources:
+- Resource: 29B02D:Starfield.esm
+  Count: 1
+Weight: 0.3
+Value: 240
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BB407:Starfield.esm
+  Data:
+    Magnitude: 8
+    Duration: 300
+  Magnitude: 2B980D:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 4

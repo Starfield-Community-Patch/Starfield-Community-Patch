@@ -1,0 +1,48 @@
+FormKey: 0447DA:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 23FA29:Starfield.esm
+Responses:
+- Emotion: 0FDC77:Starfield.esm
+  WEMFile: 7526156
+  TROTs:
+  - UnknownVoiceType: 2BCA2A:Starfield.esm
+    UnknownFloat: 1.5000001
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Waffen runter. Wir wollen nur eure Freunde sein.
+    - Language: English
+      String: Put down your weapons. We just want to be friends.
+    - Language: Spanish
+      String: Bajad las armas. Solo queremos ser amigos vuestros.
+    - Language: French
+      String: Posez vos armes. Nous voulons juste être amis.
+    - Language: Italian
+      String: Abbassate le armi. Vogliamo solo fare amicizia.
+    - Language: Japanese
+      String: 武器を置いて。友達になろうよ
+    - Language: Polish
+      String: Odłóżcie broń. Chcemy być przyjaciółmi.
+    - Language: Portuguese_Brazil
+      String: Abaxem suas armas. Só queremos ser amigos.
+    - Language: ChineseSimplified
+      String: 放下武器。我们只是想和你做朋友。
+  ScriptNotes: Evil. You're an auditory hallucination, so crank up the emotion. The player's mind is playing tricks on them.
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x80D7B8D2DBDFD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+Speaker: 23F948:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

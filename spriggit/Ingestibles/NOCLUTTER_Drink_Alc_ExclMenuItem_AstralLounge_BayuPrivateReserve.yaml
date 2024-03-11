@@ -1,0 +1,110 @@
+FormKey: 249C2B:Starfield.esm
+EditorID: NOCLUTTER_Drink_Alc_ExclMenuItem_AstralLounge_BayuPrivateReserve
+ObjectBounds:
+  First: -0.071899414, -0.07055664, 0
+  Second: 0.071899414, 0.07055664, 0.23754883
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0E0360:Starfield.esm
+  Workbench: 0E0360:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Bayu Private Reserve
+  - Language: English
+    String: Bayu Private Reserve
+  - Language: Spanish
+    String: Reserva privada de Bayu
+  - Language: French
+    String: Bayu Réserve Privée
+  - Language: Italian
+    String: Bayu riserva privata
+  - Language: Japanese
+    String: バユー・プライベート・リザーブ
+  - Language: Polish
+    String: Bayu Private Reserve
+  - Language: Portuguese_Brazil
+    String: Reserva Particular do Bayu
+  - Language: ChineseSimplified
+    String: 巴尤私人珍藏
+Keywords:
+- 055ECC:Starfield.esm
+- 249C2F:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageMenu_BayuPrivateReserve.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 5b3c462c-dac3-709f-dfc3-81ee3893b7bc
+DropdownSound:
+  Start: 1c6e44d4-3b2a-8880-eba3-556cc385a9b9
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein seltener Cognac, möglicherweise erdzeitigen Ursprungs, der zum Dekantieren in einem Kristallgefäß aufbewahrt wird.
+  - Language: English
+    String: A rare cognac, possibly of Old Earth origin, kept in a crystal vessel for decanting.
+  - Language: Spanish
+    String: Un coñac poco común, seguramente proveniente de la vieja Tierra, en recipiente de cristal para decantarlo.
+  - Language: French
+    String: Un cognac très rare, sans doute d'origine terrestre. Conservé dans un récipient en cristal pour s'y décanter.
+  - Language: Italian
+    String: Un cognac raro, forse originario della Prima Casa, decantato in un recipiente di cristallo.
+  - Language: Japanese
+    String: 地球原産の可能性がある稀少なコニャック。デカンテーションのためクリスタル製の容器に保存されている
+  - Language: Polish
+    String: Rzadki koniak, być może pochodzący ze starej Ziemi, trzymany w kryształowym naczyniu do dekantacji.
+  - Language: Portuguese_Brazil
+    String: Conhaque raro, possivelmente originário da velha Terra, mantido num decantador de cristal.
+  - Language: ChineseSimplified
+    String: 一种稀有的干邑白兰地，可能源自旧地球，为了醒酒而被保存在水晶容器中。
+Resources:
+- Resource: 29B02D:Starfield.esm
+  Count: 1
+Weight: 0.5
+Value: 885
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 049e4e48-ef25-50c1-f0bf-12128e5b9682
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.15
+    Duration: 600
+  Magnitude: 2D88BF:Starfield.esm
+  Duration: 2B97FB:Starfield.esm
+  EFIF: 0
+  MUID: 5
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 600
+  Magnitude: 2D87D9:Starfield.esm
+  Duration: 2B97FB:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 600
+  Magnitude: 2D87D9:Starfield.esm
+  Duration: 2B97FB:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 6

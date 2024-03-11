@@ -1,0 +1,110 @@
+FormKey: 1FF6A0:Starfield.esm
+EditorID: Drink_Alc_Can_Erdebrau_Light
+ObjectBounds:
+  First: -0.049865723, -0.049102783, 0
+  Second: 0.049865723, 0.049102783, 0.29589844
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0CC66F:Starfield.esm
+  Workbench: 0CC66F:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Erdebrau Light (Dose)
+  - Language: English
+    String: Erdebrau Light Can
+  - Language: Spanish
+    String: Lata de Erdebrau light
+  - Language: French
+    String: Cannette d'Erdebrau légère
+  - Language: Italian
+    String: Lattina di Erdebrau Light
+  - Language: Japanese
+    String: アーデブローのライト缶
+  - Language: Polish
+    String: Puszka Erdebrau Light
+  - Language: Portuguese_Brazil
+    String: Lata de Erdebrau Clara
+  - Language: ChineseSimplified
+    String: 爱德堡精酿淡啤罐装
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF289:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\Erdebrau_Beers\Erdebrau_Light01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 82d44b6f-dd2e-ac48-94ff-d2e90b2dff96
+DropdownSound:
+  Start: 98fc4756-55dd-c609-39b9-b315de44d9bb
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein Leichtbier von Erdebrau, mit Weizenimitatkulturen und simuliertem Hopfen gebraut. Halb so viele Kalorien wie Erdebrau Ale.
+  - Language: English
+    String: Erdebrau's light beer, brewed with imitation wheat cultures and simulated hops. Half the calories of Erdebrau Ale.
+  - Language: Spanish
+    String: Cerveza light de Erdebrau, elaborada con trigo de imitación y lúpulo simulado. Tiene la mitad de calorías que la Erdebrau ale.
+  - Language: French
+    String: Bière blonde Erdebrau light à base de succédané de blé et de houblon simulé. Deux fois moins de calories qu'une bière Erdebrau.
+  - Language: Italian
+    String: Birra leggera Erdebrau, preparata con frumento finto e luppoli simulati. Con la metà delle calorie rispetto alla Erdebrau Ale.
+  - Language: Japanese
+    String: アーデブローのライトビール。模造栽培の小麦とシミュレートホップから醸造されている。カロリーはアーデブローエールの半分
+  - Language: Polish
+    String: Piwo Erdebrau jasny lager uwarzone z imitacji pszenicy i symulowanego chmielu. Ma o połowę mniej kalorii niż Erdebrau Ale.
+  - Language: Portuguese_Brazil
+    String: A cerveja clara da Erdebrau, preparada com culturas de imitação de trigo e lúpulo simulado. Apenas metade das calorias da Ale.
+  - Language: ChineseSimplified
+    String: 爱德堡精酿的淡啤酒，使用模拟栽种小麦和模拟啤酒花酿制而成。热量仅为爱德堡精酿麦芽啤酒的一半。
+Resources:
+- Resource: 29B02E:Starfield.esm
+  Count: 1
+Weight: 0.5
+Value: 155
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 534d4d1c-5a43-05f7-75ee-feb0fa7771b5
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 75
+    Duration: 180
+  Magnitude: 2B9812:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 10
+    Duration: 180
+  Magnitude: 2D87DB:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 10
+    Duration: 180
+  Magnitude: 2D87DB:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

@@ -1,0 +1,107 @@
+FormKey: 1DFCB4:Starfield.esm
+EditorID: Drink_Alc_Bottle_Generic_SpaceWine
+ObjectBounds:
+  First: -0.05316162, -0.04751587, 3.0517578E-05
+  Second: 0.05316162, 0.04751587, 0.25976562
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Sekt
+  - Language: English
+    String: Sparkling Wine
+  - Language: Spanish
+    String: Vino espumoso
+  - Language: French
+    String: Vin pétillant
+  - Language: Italian
+    String: Spumante
+  - Language: Japanese
+    String: スパークリングワイン
+  - Language: Polish
+    String: Wino musujące
+  - Language: Portuguese_Brazil
+    String: Vinho Frisante
+  - Language: ChineseSimplified
+    String: 气泡酒
+Keywords:
+- 14253C:Starfield.esm
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: SetDressing\Generic\GenericSpaceWine\GenericSpaceWine.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: a89d4d93-93b9-4c2e-56fb-6a4f8fb88982
+DropdownSound:
+  Start: d3b24339-670b-3933-e56f-3fc3189523a6
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Prickelnd spritziger Sekt mit einem Hauch tropischer Früchte.
+  - Language: English
+    String: Sparkling white wine. Bracing and effervescent with a hint of tropical fruits.
+  - Language: Spanish
+    String: Vino blanco espumoso. Estimulante y burbujeante con un toque de frutas tropicales.
+  - Language: French
+    String: Vin blanc pétillant. Tonique et effervescent, avec une touche de fruits tropicaux.
+  - Language: Italian
+    String: Vino spumante bianco. Tonico ed effervescente, con un sentore di frutti tropicali.
+  - Language: Japanese
+    String: スパークリングワイン(白)。さわやかな気泡の中に、果実のトロピカルな味わいをほのかに感じる
+  - Language: Polish
+    String: Białe wino musujące. Lekkie, orzeźwiające i z nutą owoców tropikalnych.
+  - Language: Portuguese_Brazil
+    String: Vinho branco espumante. Aguçado e efervescente com um toque de frutas tropicais.
+  - Language: ChineseSimplified
+    String: 气泡白葡萄酒。清爽而又充满气泡，带有一丝热带水果的味道。
+Resources:
+- Resource: 29B02F:Starfield.esm
+  Count: 1
+Weight: 0.5
+Value: 265
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.1
+    Duration: 300
+  Magnitude: 2D88BD:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

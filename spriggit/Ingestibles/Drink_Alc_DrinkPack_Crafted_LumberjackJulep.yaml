@@ -1,0 +1,114 @@
+FormKey: 29B04D:Starfield.esm
+EditorID: Drink_Alc_DrinkPack_Crafted_LumberjackJulep
+ObjectBounds:
+  First: -0.06793213, -0.034973145, -0.0027160645
+  Second: 0.070739746, 0.03692627, 0.2163086
+ODTY: 0
+Transforms:
+  InventoryIcon: 02958C:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Lumberjack Julep
+  - Language: English
+    String: Lumberjack Julep
+  - Language: Spanish
+    String: Lumberjack Julep
+  - Language: French
+    String: Julep de bûcheron
+  - Language: Italian
+    String: Julep del Boscaiolo
+  - Language: Japanese
+    String: ランバージャック・ジュレップ
+  - Language: Polish
+    String: Julep drwala
+  - Language: Portuguese_Brazil
+    String: Julep do Lenhador
+  - Language: ChineseSimplified
+    String: 伐木工药酒
+Keywords:
+- 055ECC:Starfield.esm
+- 14253C:Starfield.esm
+- 2CF28A:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_LumberJack_Julep.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 9c0b4bd9-94a3-2830-95b8-a81a1a60e791
+DropdownSound:
+  Start: 9f4d405b-17a2-133b-d6b8-9f02bc4afa91
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein klassischer Mint Julep, jedoch mit Ahornsirup statt Minze.
+  - Language: English
+    String: A classic mint julep that substitutes maple syrup for mint.
+  - Language: Spanish
+    String: Julepe de menta clásico que sustituye el sirope de arce por la menta.
+  - Language: French
+    String: Un whisky glacé à la menthe classique qui remplace la menthe par du sirop d'érable.
+  - Language: Italian
+    String: Un classico julep alla menta. La menta è sostituita dallo sciroppo d’acero.
+  - Language: Japanese
+    String: ミントの代わりにメープルシロップを使ったクラシカルなミントジュレップ
+  - Language: Polish
+    String: Klasyczny miętowy julep wykorzystujący syrop klonowy zamiast mięty.
+  - Language: Portuguese_Brazil
+    String: Um julep de hortelã clássico que substitui o xarope de bordo por hortelã.
+  - Language: ChineseSimplified
+    String: 经典的薄荷朱利酒，用枫糖浆代替了薄荷。
+Weight: 0.3
+Value: 350
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 150731:Starfield.esm
+  Data:
+    Magnitude: 10
+  Magnitude: 2B9833:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 100
+    Duration: 300
+  Magnitude: 2B9813:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 300
+  Magnitude: 2D87D9:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 300
+  Magnitude: 2D87D9:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 5

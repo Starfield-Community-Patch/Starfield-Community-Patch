@@ -1,0 +1,123 @@
+FormKey: 249C10:Starfield.esm
+EditorID: NOCLUTTER_Drink_Alc_ExclMenuItem_Viewport_ViewportOriginal
+ObjectBounds:
+  First: -0.045288086, -0.04617311, 0.00021362733
+  Second: 0.03656006, 0.085021965, 0.15563963
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Viewport Original
+  - Language: English
+    String: Viewport Original
+  - Language: Spanish
+    String: Original de Viewport
+  - Language: French
+    String: Viewport Original
+  - Language: Italian
+    String: Viewport Original
+  - Language: Japanese
+    String: ビューポート・オリジナル
+  - Language: Polish
+    String: Viewport Original
+  - Language: Portuguese_Brazil
+    String: Coquetel Portovista
+  - Language: ChineseSimplified
+    String: 观景港独创
+Keywords:
+- 055ECC:Starfield.esm
+- 249C12:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragemenu_viewport_original.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 5b3c462c-dac3-709f-dfc3-81ee3893b7bc
+DropdownSound:
+  Start: 1c6e44d4-3b2a-8880-eba3-556cc385a9b9
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Inspiriert vom Klassiker Wodka-Orange, nur mit Xeno-Früchten.
+  - Language: English
+    String: Inspired by the classic vodka screwdriver, made with alien fruit.
+  - Language: Spanish
+    String: Inspirado en el clásico destornillador con vodka, pero con fruta alienígena.
+  - Language: French
+    String: Inspiré par le classique vodka-orange, à partir de jus de fruit alien.
+  - Language: Italian
+    String: Ispirato al classico screwdriver alla vodka, arricchito con frutta aliena.
+  - Language: Japanese
+    String: クラシカルなウォッカスクリュードライバーに着想を得たもの。異星植物の果実が使用される
+  - Language: Polish
+    String: Inspirowany klasycznym Śrubokrętem z wódki, zrobiony z ksenoowoców.
+  - Language: Portuguese_Brazil
+    String: Inspirado no clássico Screwdriver de vodca, feito com frutas alienígenas.
+  - Language: ChineseSimplified
+    String: 灵感来自经典的伏特加橙汁鸡尾酒，选用外星水果。
+Weight: 0.3
+Value: 525
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: f96641c4-fd61-393a-cfc9-7f25fc5ae988
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BB407:Starfield.esm
+  Data:
+    Magnitude: 6
+    Duration: 300
+  Magnitude: 2B980C:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2B9839:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17624
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1BBAB0:Starfield.esm
+    ComparisonValue: 1
+  Magnitude: 2B9816:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 2
+  MUID: 2
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 300
+  Magnitude: 2D87D9:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 300
+  Magnitude: 2D87D9:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 5

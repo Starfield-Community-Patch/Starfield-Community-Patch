@@ -1,0 +1,68 @@
+FormKey: 15DA46:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 6462332
+  TRDAUnknown: 4
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 4.6000004
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 1.2666668
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 4.8
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 4.6000004
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 7.3333335
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 4.8333335
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 0.73333335
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Steck bitte die Waffe weg. Du machst mich nervös.
+    - Language: English
+      String: Want to put that weapon away? You're making me nervous.
+    - Language: Spanish
+      String: ¿Quieres guardar el arma? Me estás poniendo de los nervios.
+    - Language: French
+      String: Vous voulez bien ranger votre arme ? Ça me stresse.
+    - Language: Italian
+      String: Ti spiace mettere via quell’arma? Mi rendi nervoso.
+    - Language: Japanese
+      String: 武器をしまったらどうだ？ 不安にさせるなよ
+    - Language: Polish
+      String: Może tak schowasz tę broń? Trochę mnie stresujesz.
+    - Language: Portuguese_Brazil
+      String: Não quer guardar essa arma? Tá deixando os outros nervosos.
+    - Language: ChineseSimplified
+      String: 能把那武器放一边吗？你弄得我有点紧张。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA0B60D85E14CD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+StartScenePhase: ''
+SubtitlePriority: Low

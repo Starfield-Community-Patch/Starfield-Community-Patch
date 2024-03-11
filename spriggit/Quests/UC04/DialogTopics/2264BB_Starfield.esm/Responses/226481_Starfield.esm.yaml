@@ -1,0 +1,36 @@
+FormKey: 226481:Starfield.esm
+FormVersion: 556
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 12516518
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ich persönlich würde warten. Wir haben noch nicht genügend Informationen.
+    - Language: English
+      String: Personally, I would wait. We don't have enough information yet.
+    - Language: Spanish
+      String: Personalmente, yo esperaría. Todavía no tenemos suficiente información.
+    - Language: French
+      String: Personnellement, j'attendrais. Nous n'avons pas encore assez d'informations.
+    - Language: Italian
+      String: Personalmente, io aspetterei. Non abbiamo ancora informazioni sufficienti.
+    - Language: Japanese
+      String: 私だったら様子を見る。まだ情報が不十分だ
+    - Language: Polish
+      String: Osobiście sądzę, że lepiej zaczekać. Nie mamy jeszcze wystarczającej ilości informacji.
+    - Language: Portuguese_Brazil
+      String: Pessoalmente, eu esperaria. Ainda não temos informações suficientes.
+    - Language: ChineseSimplified
+      String: 换成我的话，会再等等看。毕竟现在的情报有所欠缺。
+  ScriptNotes: ''
+  Edits: Removed an extra "yet"
+  AlternateLipText: ''
+  TextHash: 0xB0044ECDB092D601
+SetParentQuestStage:
+  OnBegin: -1
+  OnEnd: 422
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,122 @@
+FormKey: 243FA5:Starfield.esm
+EditorID: NOCLUTTER_City_NA_Viewport01_Drink_Alc_ExclMenuItem_Viewport_Supernova
+ObjectBounds:
+  First: -0.031982422, -0.031903993, 0
+  Second: 0.031982422, 0.03206085, 0.17114258
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Supernova
+  - Language: English
+    String: Supernova
+  - Language: Spanish
+    String: Supernova
+  - Language: French
+    String: Supernova
+  - Language: Italian
+    String: Supernova
+  - Language: Japanese
+    String: スーパーノバ
+  - Language: Polish
+    String: Supernowa
+  - Language: Portuguese_Brazil
+    String: Supernova
+  - Language: ChineseSimplified
+    String: 超新星
+Keywords:
+- 055ECC:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\Viewport_SuperNova.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: a89d4d93-93b9-4c2e-56fb-6a4f8fb88982
+DropdownSound:
+  Start: d3b24339-670b-3933-e56f-3fc3189523a6
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein Likör-Slush trifft auf einen sauren Punsch aus exotisch fremden Früchten.
+  - Language: English
+    String: A liqueur slush floated over a sour punch of exotic alien fruits.
+  - Language: Spanish
+    String: Un granizado de licor flotaba sobre un ponche agrio de exóticas frutas alienígenas.
+  - Language: French
+    String: Un zeste de liqueur flottant sur un punch acide de fruits exotiques alien.
+  - Language: Italian
+    String: Una granita liquorosa galleggiava su un aspro punch di frutti esotici alieni.
+  - Language: Japanese
+    String: 変わった異星種の果物を使ったサワーパンチに浮かべたリキュールスラッシュ
+  - Language: Polish
+    String: To likierowy slush na kwaśnym ponczu z egzotycznych, ksenoowoców.
+  - Language: Portuguese_Brazil
+    String: Uma batida alcoólica boiando sobre um ponche azedo de frutas alienígenas exóticas.
+  - Language: ChineseSimplified
+    String: 一种漂浮在奇异外星水果酸爽潘趣酒上的利口酒雪泥。
+Weight: 0.3
+Value: 525
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: f96641c4-fd61-393a-cfc9-7f25fc5ae988
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.12
+    Duration: 300
+  Magnitude: 2D88BE:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 6
+- BaseEffect: 2B9839:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 300
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17624
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1BBAB0:Starfield.esm
+    ComparisonValue: 1
+  Magnitude: 2B9817:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 2
+  MUID: 2
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 7

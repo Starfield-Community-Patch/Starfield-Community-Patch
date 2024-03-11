@@ -143,6 +143,10 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: WwiseEvent_QST_UC04_NewAtlantis_Terrormorph_Alarm_Interior
       Object: 0E03CE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeDoorTriggers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 143
   - Name: UC04_ToggleHallScreens
     Properties:
     - MutagenObjectType: ScriptObjectProperty
@@ -855,6 +859,10 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: WwiseEvent_QST_UC04_NewAtlantis_Terrormorph_ShipDebris_On_State
       Object: 030A97:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeDoorTriggers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 143
   Fragments:
   - Stage: 1
     Unknown2: 1
@@ -1264,6 +1272,22 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UC04_002AAE8D
     FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 606
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0606_Item_00
+  - Stage: 607
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0607_Item_00
+  - Stage: 608
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0608_Item_00
+  - Stage: 609
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0609_Item_00
   Aliases:
   - Property:
       Name: ''
@@ -1759,6 +1783,14 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptObjectProperty
         Name: UC04_WeaponIsTypeEM
         Object: 0971FE:Starfield.esm
+    - Name: DefaultAliasOnEnterBleedout
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 608
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
@@ -1822,6 +1854,14 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptObjectProperty
         Name: UC04_WeaponIsTypeEM
         Object: 0971FE:Starfield.esm
+    - Name: DefaultAliasOnEnterBleedout
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 607
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
@@ -1885,6 +1925,14 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptObjectProperty
         Name: UC04_WeaponIsTypeEM
         Object: 0971FE:Starfield.esm
+    - Name: DefaultAliasOnEnterBleedout
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 606
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
@@ -1969,6 +2017,14 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptObjectProperty
         Name: UC04_WeaponIsTypeEM
         Object: 0971FE:Starfield.esm
+    - Name: DefaultAliasOnEnterBleedout
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 609
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
@@ -3114,6 +3170,38 @@ Stages:
   LogEntries:
   - Flags: []
     Note: 'PRE-FIGHT: Nat Station: Player hit scene trigger. Trigger broadcast.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 606
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '[SF-934] Thrall M02 in bleedout. Set via new alias script'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 607
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '[SF-934] Thrall M01 in bleedout. Set via new alias script'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 608
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '[SF-934] Thrall F01 in bleedout. Set via new alias script'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 609
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: '[SF-934] Thrall F02 in bleedout. Set via new alias script'
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5913,3 +6001,20 @@ Aliases:
     Quest: 2C6D74:Starfield.esm
     AliasID: 46
   VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 143
+    ALAM: 0
+    ReferenceAlias:
+      ID: 143
+      Name: LodgeDoorTriggers
+      Flags:
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      ALFG: 0
+      Location:
+        AliasID: 4
+        RefType: 2FBD42:Starfield.esm
+      VoiceTypes: Null
