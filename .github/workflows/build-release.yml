@@ -74,7 +74,7 @@ jobs:
           run: .github/spriggit/Spriggit.CLI deserialize --InputPath "spriggit" --OutputPath "${{ github.workspace }}/to-pack/StarfieldCommunityPatch.esm"
           
         - name: Upload plugin and strings
-          uses: actions/upload-artifact@v3
+          uses: actions/upload-artifact@v4
           with:
               name: plugin-and-strings
               path: |
@@ -117,7 +117,7 @@ jobs:
               run: .github/Caprica/Caprica.exe --game starfield --import ".github/Scripts" --output "Scripts" "Scripts/source" -R -q
             
             - name: Upload Output
-              uses: actions/upload-artifact@v3
+              uses: actions/upload-artifact@v4
               with: 
                 name: compiled-scripts
                 path: |
@@ -133,13 +133,13 @@ jobs:
           uses: actions/checkout@v4
 
         - name: Download Compiled Scripts
-          uses: actions/download-artifact@v3
+          uses: actions/download-artifact@v4
           with: 
             name: compiled-scripts
             path: Scripts
 
         - name: Download Compiled Plugin
-          uses: actions/download-artifact@v3
+          uses: actions/download-artifact@v4
           with: 
            name: plugin-and-strings
         
@@ -181,7 +181,7 @@ jobs:
             dest: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
 
         - name: Upload Output
-          uses: actions/upload-artifact@v3
+          uses: actions/upload-artifact@v4
           with: 
             name: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}
             path: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
