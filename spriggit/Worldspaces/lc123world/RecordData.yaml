@@ -1,0 +1,54 @@
+FormKey: 22F4C7:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: lc123world
+FormVersion: 556
+StarfieldMajorRecordFlags:
+- NotPlayable
+Components:
+- MutagenObjectType: WorldSpaceOverlayComponent
+  SNAM: 0x42D10100
+  PNAM: 0x02000000
+  SurfaceBlock: 22F4C5:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Victor Compound
+  - Language: English
+    String: Victor Compound
+  - Language: Spanish
+    String: Complejo Victor
+  - Language: French
+    String: Complexe Victor
+  - Language: Italian
+    String: Complesso Victor
+  - Language: Japanese
+    String: ヴィクター・コンパウンド
+  - Language: Polish
+    String: Victor Compound
+  - Language: Portuguese_Brazil
+    String: Complexo Victor
+  - Language: ChineseSimplified
+    String: 维克多设施
+Location: 22B6CF:Starfield.esm
+Biome: 1160F5:Starfield.esm
+Water: 000018:Starfield.esm
+LodWater: 000018:Starfield.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: -2048
+MapData: {}
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+FNAM: 0x00
+ObjectBoundsMin: -0.09765625, -0.12207031
+ObjectBoundsMax: 0.14648438, 0.09765625
+AmbienceSet: 24397A:Starfield.esm
+GNAM: 1
+XCLWs: []
+WHGTs: []
+HNAM: 0x05
+MajorFlags:
+- 0x4

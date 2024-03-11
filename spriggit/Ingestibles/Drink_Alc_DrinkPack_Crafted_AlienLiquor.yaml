@@ -1,0 +1,110 @@
+FormKey: 29B04F:Starfield.esm
+EditorID: Drink_Alc_DrinkPack_Crafted_AlienLiquor
+ObjectBounds:
+  First: -0.06793213, -0.034973145, -0.0027160645
+  Second: 0.070739746, 0.03692627, 0.2163086
+ODTY: 0
+Transforms:
+  InventoryIcon: 02958C:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Xeno-Schnaps
+  - Language: English
+    String: Alien Liquor
+  - Language: Spanish
+    String: Licor alienígena
+  - Language: French
+    String: Liqueur alien
+  - Language: Italian
+    String: Liquore alieno
+  - Language: Japanese
+    String: 異星の酒
+  - Language: Polish
+    String: Ksenoalkohol
+  - Language: Portuguese_Brazil
+    String: Destilado Alienígena
+  - Language: ChineseSimplified
+    String: 外星酒
+Keywords:
+- 055ECC:Starfield.esm
+- 14253C:Starfield.esm
+- 2CF28A:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_AlienLiquor.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 9c0b4bd9-94a3-2830-95b8-a81a1a60e791
+DropdownSound:
+  Start: 9f4d405b-17a2-133b-d6b8-9f02bc4afa91
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Destillierter Alkohol, gewonnen durch das Fermentieren bestimmter Xeno-Pflanzen.
+  - Language: English
+    String: Distilled alcohol, formed by fermenting certain alien plants.
+  - Language: Spanish
+    String: Alcohol destilado que se forma al fermentar ciertas plantas alienígenas.
+  - Language: French
+    String: De l'alcool distillé, créé à partir de plantes aliens fermentées.
+  - Language: Italian
+    String: Alcol distillato derivante dalla fermentazione di piante aliene.
+  - Language: Japanese
+    String: 異星植物をいくつか発酵させて作った蒸留酒
+  - Language: Polish
+    String: Destylowany alkohol wyprodukowany poprzez fermentację pewnych ksenoroślin.
+  - Language: Portuguese_Brazil
+    String: Álcool destilado criado ao fermentar certas plantas alienígenas.
+  - Language: ChineseSimplified
+    String: 蒸馏酒精，通过将特定的外星植物发酵制成。
+Resources:
+- Resource: 29B02D:Starfield.esm
+  Count: 1
+Weight: 0.3
+Value: 165
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BB407:Starfield.esm
+  Data:
+    Magnitude: 10
+    Duration: 300
+  Magnitude: 2B980E:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 4

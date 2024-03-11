@@ -1,0 +1,34 @@
+FormKey: 07BAE7:Starfield.esm
+EditorID: ShipTakeOffNeonStarborn
+FormVersion: 556
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    FirstParameter: 33DB7A:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    RunOnType: Target
+    FirstParameter: 10E8EE:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    RunOnType: Target
+    FirstParameter: 2E3E4D:Starfield.esm
+  ComparisonValue: 1
+BehaviorGraph: AnimTextData\Tables\Graphs\ShipRoot.agx
+AnimationEvent: TakeOff_Neon
+RelatedIdles:
+- 013CE7:Starfield.esm
+- Null
+FNAM: 0x00

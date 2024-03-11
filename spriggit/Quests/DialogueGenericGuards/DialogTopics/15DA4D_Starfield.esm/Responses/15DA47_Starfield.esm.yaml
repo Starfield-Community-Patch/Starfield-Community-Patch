@@ -1,0 +1,68 @@
+FormKey: 15DA47:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 13447631
+  TRDAUnknown: 4
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 4.8333335
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 4.6333337
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 3.966667
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 4.7000003
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 2.2333333
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Steck doch bitte die Waffe weg. Du machst mich ganz nervös.
+    - Language: English
+      String: Want to put that weapon away, chief? You're making me nervous.
+    - Language: Spanish
+      String: ¿Quieres guardar el arma? Me estás poniendo de los nervios.
+    - Language: French
+      String: Vous voulez bien ranger votre arme ? Ça me stresse.
+    - Language: Italian
+      String: Ti spiace mettere via quell’arma, capo? Mi rendi nervoso.
+    - Language: Japanese
+      String: 武器をしまったらどうだ？ 不安にさせるなよ
+    - Language: Polish
+      String: Może tak schowasz tę broń, szefuniu? Trochę mnie stresujesz.
+    - Language: Portuguese_Brazil
+      String: Não quer guardar essa arma, chefia? Tá deixando os outros nervosos.
+    - Language: ChineseSimplified
+      String: 能把那武器放一边吗，长官？你弄得我有点紧张。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x20E1B271E14CD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+StartScenePhase: ''
+SubtitlePriority: Low

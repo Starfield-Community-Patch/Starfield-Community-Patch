@@ -1,0 +1,114 @@
+FormKey: 249C27:Starfield.esm
+EditorID: NOCLUTTER_Drink_Alc_ExclMenuItem_MSauvage_VelocityRed
+ObjectBounds:
+  First: -0.058807373, -0.059020996, 0
+  Second: 0.058807373, 0.059020996, 0.14761256
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 07A9B3:Starfield.esm
+  Workbench: 07A9B3:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Velocity Red
+  - Language: English
+    String: Velocity Red
+  - Language: Spanish
+    String: Velocity rojo
+  - Language: French
+    String: Velocity rouge
+  - Language: Italian
+    String: Velocity Red
+  - Language: Japanese
+    String: ベロシティ(レッド)
+  - Language: Polish
+    String: Czerwona Prędkość
+  - Language: Portuguese_Brazil
+    String: Velocity Vermelho
+  - Language: ChineseSimplified
+    String: 高速运转烈焰红
+Keywords:
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+- 14253C:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\Velocity_Beverage\Food_RS_MSauvage_VelocityRed.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 6dda4007-c442-8f2f-b9ba-8425a92d2cac
+DropdownSound:
+  Start: 4abd479b-59e5-7b01-1570-d174e61549bd
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Starkes alkoholisches Getränk mit biotechnologisch erzeugtem leuchtendem Plankton.
+  - Language: English
+    String: Potent alcoholic beverage infused with bioengineered, luminescent plankton.
+  - Language: Spanish
+    String: Potente bebida alcohólica impregnada con plancton transgénico luminoso.
+  - Language: French
+    String: Une boisson alcoolisée forte infusée avec un plancton luminescent biologiquement modifié.
+  - Language: Italian
+    String: Bevanda alcolica molto forte infusa con plankton luminescente geneticamente modificato.
+  - Language: Japanese
+    String: 生物工学的に作られた発光プランクトンを漬け込んだ強烈なアルコール飲料
+  - Language: Polish
+    String: Mocny napój alkoholowy, nasycony genetycznie modyfikowanym, luminescencyjnym planktonem.
+  - Language: Portuguese_Brazil
+    String: Bebida alcoólica potente com plâncton luminescente biomodificado.
+  - Language: ChineseSimplified
+    String: 含有由生物工程制造的发光浮游生物的烈性酒精饮料。
+Weight: 0.3
+Value: 595
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: f96641c4-fd61-393a-cfc9-7f25fc5ae988
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.15
+    Duration: 180
+  Magnitude: 2D88BF:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 6
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 75
+    Duration: 180
+  Magnitude: 2B9812:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 180
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 180
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 7

@@ -1,0 +1,21 @@
+<root>
+	<is_state>1</is_state>
+	<tag>RunForward_Stop_RightFoot</tag>
+	<filename>Relaxed_RunForward_Stop_RightFoot.af</filename>
+	<prefix>Relaxed</prefix>
+	<rampout>6</rampout>
+	<events>
+		<event><frame>0</frame><name>PathingBegin</name><payload></payload></event>
+		<event><frame>0</frame><name>SyncRightFoot</name><payload></payload></event>
+		<event><frame>7</frame><name>FootLeft</name><payload></payload></event>
+		<event><frame>8</frame><name>SyncLeftFoot</name><payload></payload></event>
+		<event><frame>13</frame><name>FootRight</name><payload></payload></event>
+		<event><frame>19</frame><name>FootLeft</name><payload></payload></event>
+		<event><frame>20</frame><name>PathingEnd</name><payload></payload></event>
+	</events>
+	<audios>
+		<audio><frame>4</frame><foley>FST_Foley_ArmorType_Run</foley></audio>
+		<audio><frame>10</frame><foley>FST_Foley_ArmorType_Walk</foley></audio>
+		<audio><frame>16</frame><foley>FST_Foley_ArmorType_Walk</foley></audio>
+	</audios>
+</root>

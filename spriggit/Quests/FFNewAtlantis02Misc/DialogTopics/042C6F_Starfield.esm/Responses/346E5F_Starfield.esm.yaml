@@ -1,0 +1,48 @@
+FormKey: 346E5F:Starfield.esm
+FormVersion: 556
+Flags:
+  ResetHours: 3.999817
+SharedDialog: 042C73:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 042C70:Starfield.esm
+    SecondParameter: 10
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    FirstParameter: 2C5401:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 091CF5:Starfield.esm
+    SecondParameter: 1
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 091CF5:Starfield.esm
+    SecondParameter: 9
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 052ADC:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 24C46C:Starfield.esm
+    SecondParameter: 100
+  ComparisonValue: 1
+SetParentQuestStage:
+  OnBegin: -1
+  OnEnd: 10
+StartScenePhase: ''
+SubtitlePriority: Low

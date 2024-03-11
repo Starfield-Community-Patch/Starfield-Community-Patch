@@ -1,0 +1,109 @@
+FormKey: 01BBAA:Starfield.esm
+EditorID: Drink_Alc_DrinkPack_RedHarvest_BeerPaleAle
+ObjectBounds:
+  First: -0.051879883, -0.023651123, 0
+  Second: 0.051879883, 0.023651123, 0.14038086
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 091C34:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Red Harvest: Pale Ale'
+  - Language: English
+    String: Red Harvest Pale Ale
+  - Language: Spanish
+    String: Pale ale Red Harvest
+  - Language: French
+    String: Bière blonde Red Harvest
+  - Language: Italian
+    String: Birra chiara Red Harvest
+  - Language: Japanese
+    String: レッド・ハーベストのペールエール
+  - Language: Polish
+    String: Pale ale Red Harvest
+  - Language: Portuguese_Brazil
+    String: Pale Ale da Red Harvest
+  - Language: ChineseSimplified
+    String: 赤丰淡啤酒
+Keywords:
+- 055ECC:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragedrinkpack_redh_paleale.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 9c0b4bd9-94a3-2830-95b8-a81a1a60e791
+DropdownSound:
+  Start: 9f4d405b-17a2-133b-d6b8-9f02bc4afa91
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein köstliches, synthetisch gebrautes Pale Ale.
+  - Language: English
+    String: A delicious, synthetically-crafted pale ale.
+  - Language: Spanish
+    String: Una deliciosa pale ale de elaboración sintética.
+  - Language: French
+    String: Une bière blonde brassée synthétiquement tout à fait délicieuse.
+  - Language: Italian
+    String: Una deliziosa birra chiara prodotta sinteticamente.
+  - Language: Japanese
+    String: 合成的に作られた美味なペールエール
+  - Language: Polish
+    String: Pyszne, syntetycznie wytwarzane pale ale.
+  - Language: Portuguese_Brazil
+    String: Uma pale ale deliciosa criada sinteticamente.
+  - Language: ChineseSimplified
+    String: 口感出众、人工合成的淡啤酒。
+Resources:
+- Resource: 29B02E:Starfield.esm
+  Count: 1
+Weight: 0.3
+Value: 155
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 75
+    Duration: 180
+  Magnitude: 2B9812:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 10
+    Duration: 180
+  Magnitude: 2D87DB:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 10
+    Duration: 180
+  Magnitude: 2D87DB:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

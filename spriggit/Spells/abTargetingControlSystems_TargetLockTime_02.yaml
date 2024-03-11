@@ -1,0 +1,36 @@
+FormKey: 2CCF94:Starfield.esm
+EditorID: abTargetingControlSystems_TargetLockTime_02
+FormVersion: 556
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Zielerfassungszeit 02
+  - Language: English
+    String: Target Lock Time 02
+  - Language: Spanish
+    String: Tiempo de fijación de objetivo 2
+  - Language: French
+    String: Délai de verrouillage de la cible 02
+  - Language: Italian
+    String: Tempo di aggancio bersaglio 2
+  - Language: Japanese
+    String: ターゲットロックオン時間02
+  - Language: Polish
+    String: Czas namierzania celu 02
+  - Language: Portuguese_Brazil
+    String: Tempo de Trava no Alvo 02
+  - Language: ChineseSimplified
+    String: 目标锁定时间02
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+Type:
+- Ability
+Effects:
+- BaseEffect: 002965:Starfield.esm
+  Data:
+    Magnitude: 0.3
+  EFIF: 1
+  MUID: 2

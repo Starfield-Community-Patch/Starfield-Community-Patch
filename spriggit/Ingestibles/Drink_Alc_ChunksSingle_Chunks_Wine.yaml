@@ -1,0 +1,107 @@
+FormKey: 20675D:Starfield.esm
+EditorID: Drink_Alc_ChunksSingle_Chunks_Wine
+ObjectBounds:
+  First: -0.03594963, -0.036804233, -2.0861626E-09
+  Second: 0.035949778, 0.03680416, 0.062286366
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0664C5:Starfield.esm
+  Workbench: 0664C5:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Chunks Wein
+  - Language: English
+    String: Chunks Wine
+  - Language: Spanish
+    String: Chunks de vino
+  - Language: French
+    String: Crok au vin
+  - Language: Italian
+    String: Chunks vino
+  - Language: Japanese
+    String: チャンクスのワイン
+  - Language: Polish
+    String: Winny chunks
+  - Language: Portuguese_Brazil
+    String: Chunks de Vinho
+  - Language: ChineseSimplified
+    String: 块餐红酒
+Keywords:
+- 055ECC:Starfield.esm
+- 249C5C:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\FoodChunk\Chunk_Food_Wine_Single.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: cb8245c9-d0fb-05dc-a73c-8edc91e6d6a5
+DropdownSound:
+  Start: 8ae049c9-1b29-2f3f-24bb-be9916c31297
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Chunks-Nahrungswürfel mit Rotweingeschmack. '
+  - Language: English
+    String: 'A red wine-flavored Chunks food cube. '
+  - Language: Spanish
+    String: 'Un cubo de comida de Chunks con sabor a vino tinto. '
+  - Language: French
+    String: 'Un cube nutritif Crok goût vin rouge. '
+  - Language: Italian
+    String: 'Un cubo di Chunks al gusto di vino rosso. '
+  - Language: Japanese
+    String: '赤ワイン風味のチャンクス食品キューブ '
+  - Language: Polish
+    String: 'Kostka żywieniowa marki Chunks o smaku czerwonego wina. '
+  - Language: Portuguese_Brazil
+    String: 'Um cubo alimentício do Chunks sabor vinho tinto. '
+  - Language: ChineseSimplified
+    String: '块餐速食店红酒味的块状食物。 '
+Weight: 0.2
+Value: 265
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.08
+    Duration: 180
+  Magnitude: 2D88BC:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 180
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 180
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

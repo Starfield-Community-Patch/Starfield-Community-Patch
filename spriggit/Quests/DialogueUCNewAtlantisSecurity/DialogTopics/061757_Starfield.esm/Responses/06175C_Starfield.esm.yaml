@@ -1,0 +1,60 @@
+FormKey: 06175C:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+  ResetHours: 0.9997711
+Responses:
+- Emotion: None
+  WEMFile: 4155376
+  TRDAUnknown: 1.7666668
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 3.9
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 246C4C:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 24C3D9:Starfield.esm
+    UnknownFloat: 4.566667
+  - UnknownVoiceType: 26FDB9:Starfield.esm
+    UnknownFloat: 7.4000006
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Die Waffe ins Halfter, wenn ich bitten darf.
+    - Language: English
+      String: Gonna need you to holster that weapon.
+    - Language: Spanish
+      String: Te pido que enfundes esa arma.
+    - Language: French
+      String: Je vais vous demander de ranger cette arme.
+    - Language: Italian
+      String: Rinfodera quell’arma.
+    - Language: Japanese
+      String: その武器はしまってもらうぞ
+    - Language: Polish
+      String: Musisz schować tę broń.
+    - Language: Portuguese_Brazil
+      String: Vou precisar que você guarde essa arma.
+    - Language: ChineseSimplified
+      String: 你得把那武器放好。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xF0DA17D5C24ED501
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+StartScenePhase: ''
+SubtitlePriority: Low

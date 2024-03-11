@@ -1,0 +1,61 @@
+FormKey: 06175E:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+  ResetHours: 0.9997711
+Responses:
+- Emotion: None
+  WEMFile: 3814043
+  TRDAUnknown: 2.1666667
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 6.2333336
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 246C4C:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 24C3D9:Starfield.esm
+    UnknownFloat: 4
+  - UnknownVoiceType: 26FDB9:Starfield.esm
+    UnknownFloat: 6.966667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Mach bloß keinen Ärger.
+    - Language: English
+      String: Better not start any trouble.
+    - Language: Spanish
+      String: Mejor que no des problemas.
+    - Language: French
+      String: Ne nous créez pas d'ennuis.
+    - Language: Italian
+      String: Non combinare guai.
+    - Language: Japanese
+      String: 面倒は起こさない方がいい
+    - Language: Polish
+      String: Lepiej nie rób problemów.
+    - Language: Portuguese_Brazil
+      String: Melhor não criar confusão.
+    - Language: ChineseSimplified
+      String: 最好别惹麻烦。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x500789FFC24ED501
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

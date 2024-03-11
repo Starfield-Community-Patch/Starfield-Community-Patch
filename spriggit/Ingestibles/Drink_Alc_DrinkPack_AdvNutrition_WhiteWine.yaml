@@ -1,0 +1,112 @@
+FormKey: 2C7214:Starfield.esm
+EditorID: Drink_Alc_DrinkPack_AdvNutrition_WhiteWine
+ObjectBounds:
+  First: -0.051879883, -0.023651123, 0
+  Second: 0.051879883, 0.023651123, 0.14038086
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 091C34:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Weißwein (Trinkpack)
+  - Language: English
+    String: 'Drink Pack: White Wine'
+  - Language: Spanish
+    String: 'Paquete de bebidas: vino blanco'
+  - Language: French
+    String: Pack Vin blanc
+  - Language: Italian
+    String: 'Confezione bevanda: vino bianco'
+  - Language: Japanese
+    String: ドリンクパック：白ワイン
+  - Language: Polish
+    String: 'Pakiet do picia: białe wino'
+  - Language: Portuguese_Brazil
+    String: 'Pacote de Bebidas: Vinho Branco'
+  - Language: ChineseSimplified
+    String: 饮料箱：白葡萄酒
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF286:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageDrinkPack_WhiteWine.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 9c0b4bd9-94a3-2830-95b8-a81a1a60e791
+DropdownSound:
+  Start: 9f4d405b-17a2-133b-d6b8-9f02bc4afa91
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Standardpack Weißwein von Advanced Nutrition.
+  - Language: English
+    String: Advanced Nutrition's standard pack of white wine.
+  - Language: Spanish
+    String: Paquete de vino blanco estándar de Advanced Nutrition.
+  - Language: French
+    String: Pack de vin blanc standard Advanced Nutrition.
+  - Language: Italian
+    String: Confezione di vino bianco standard di Advanced Nutrition.
+  - Language: Japanese
+    String: アドバンスド・ニュートリションの白ワインのスタンダードパック
+  - Language: Polish
+    String: Standardowe opakowanie białego wina firmy Advanced Nutrition.
+  - Language: Portuguese_Brazil
+    String: Pacote padrão de vinho branco da Advanced Nutrition.
+  - Language: ChineseSimplified
+    String: 先进食品公司的标准包装白葡萄酒。
+Resources:
+- Resource: 29B02F:Starfield.esm
+  Count: 1
+ComponentDisplayIndices:
+- 1
+Weight: 0.3
+Value: 240
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.1
+    Duration: 180
+  Magnitude: 2D88BD:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 180
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 180
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

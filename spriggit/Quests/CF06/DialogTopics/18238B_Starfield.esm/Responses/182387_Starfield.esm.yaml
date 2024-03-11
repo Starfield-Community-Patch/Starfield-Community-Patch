@@ -1,0 +1,54 @@
+FormKey: 182387:Starfield.esm
+FormVersion: 556
+Flags: {}
+Responses:
+- Emotion: 0C866D:Starfield.esm
+  WEMFile: 7428152
+  TROTs:
+  - UnknownVoiceType: 26FDF5:Starfield.esm
+    UnknownFloat: 4.2000003
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ich hatte es überlegt, aber dann fragte ich mich, warum ich aus meinem Zuhause verjagt werden sollte. Das wäre nicht fair.
+    - Language: English
+      String: I've thought about it, but then I wondered why I should be chased away from my own home. It wouldn't be fair.
+    - Language: Spanish
+      String: Lo he pensado, pero me he preguntado por qué tendría que huir de mi propio hogar. No sería justo.
+    - Language: French
+      String: J'y ai pensé, mais pourquoi est-ce que ce serait à moi d'être chassé de mon propre foyer ? C'est injuste.
+    - Language: Italian
+      String: Ci ho pensato, ma poi mi sono chiesto perché dovrei essere cacciato da casa mia. Non sarebbe giusto.
+    - Language: Japanese
+      String: 考えてみたが、ふとなぜ私が故郷から追い出されなければいけないのかと思ってね。不公平だろう
+    - Language: Polish
+      String: Myślałem o tym, ale nie podoba mi się, że miałby mnie wygonić z mojego własnego domu. To nie w porządku.
+    - Language: Portuguese_Brazil
+      String: 'Eu refleti a respeito, mas depois pensei: por que eu deveria sair da minha própria casa? Não seria justo.'
+    - Language: ChineseSimplified
+      String: 我也想过。后来我却想到那是我的家，凭什么我要被赶出来？这不公平。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA0625516D939D701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    RunOnType: QuestAlias
+    Unknown3: 36
+    FirstParameter: 0059A6:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetDistanceConditionData
+    RunOnType: QuestAlias
+    Unknown3: 36
+    FirstParameter: 000014:Starfield.esm
+  ComparisonValue: 00D8A9:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,113 @@
+FormKey: 2C7209:Starfield.esm
+EditorID: Drink_Alc_Bottle_Chandra_WinePort
+ObjectBounds:
+  First: -0.033020172, -0.032958947, 0.00079345703
+  Second: 0.03295883, 0.03295902, 0.26904297
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 05451C:Starfield.esm
+  Workbench: 05451C:Starfield.esm
+XALG: 0x0800000000000000
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Chandra Port
+  - Language: English
+    String: Chandra Port
+  - Language: Spanish
+    String: Chandra oporto
+  - Language: French
+    String: Chandra Porto
+  - Language: Italian
+    String: Porto Chandra
+  - Language: Japanese
+    String: チャンドラ(ポート)
+  - Language: Polish
+    String: Chandra Port
+  - Language: Portuguese_Brazil
+    String: Vinho do Porto Chandra
+  - Language: ChineseSimplified
+    String: 钱卓拉波特酒
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF288:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragefood_chandraport.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 6dda4007-c442-8f2f-b9ba-8425a92d2cac
+DropdownSound:
+  Start: 4abd479b-59e5-7b01-1570-d174e61549bd
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Kräftiger Rotwein von Chandra Vineyards, mit Aromen von Karamell und Zimt. Ideal als Digestif.
+  - Language: English
+    String: Chandra Vineyards' strong red wine, with notes of caramel and cinnamon. Best enjoyed as a digestif.
+  - Language: Spanish
+    String: Fuerte vino tinto de Chandra Vineyards, con notas de caramelo y canela. Suele tomarse como digestivo.
+  - Language: French
+    String: Vin rouge corsé Château Chandra, aux notes de caramel et de cannelle. Mieux vaut le déguster en digestif.
+  - Language: Italian
+    String: Vino rosso forte di Chandra Vineyards, con note di caramello e cannella. Da gustare come digestivo.
+  - Language: Japanese
+    String: チャンドラ・バインヤーズの辛口の赤ワイン。キャラメルとシナモンの風味が広がる。食後酒として楽しむのに最適
+  - Language: Polish
+    String: Mocne czerwone wino Chandra Vineyards z nutą karmelu i cynamonu. Najlepiej spożyć jako digestif.
+  - Language: Portuguese_Brazil
+    String: Vinho tinto forte da Chandra Vineyards, com notas de caramelo e canela. Ideal para ser consumido como digestivo.
+  - Language: ChineseSimplified
+    String: 钱卓拉葡萄园出品的高度数红葡萄酒，带有焦糖和肉桂的味道，最适合作为餐后酒饮用。
+Resources:
+- Resource: 29B02F:Starfield.esm
+  Count: 1
+ComponentDisplayIndices:
+- 1
+Weight: 0.5
+Value: 380
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 049e4e48-ef25-50c1-f0bf-12128e5b9682
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.12
+    Duration: 300
+  Magnitude: 2D88BE:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

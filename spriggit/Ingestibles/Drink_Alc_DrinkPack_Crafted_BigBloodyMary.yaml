@@ -1,0 +1,130 @@
+FormKey: 29B03F:Starfield.esm
+EditorID: Drink_Alc_DrinkPack_Crafted_BigBloodyMary
+ObjectBounds:
+  First: -0.06793213, -0.034973145, -0.0027160645
+  Second: 0.070739746, 0.03692627, 0.2163086
+ODTY: 0
+Transforms:
+  InventoryIcon: 02958C:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Fully-Loaded Bloody Mary
+  - Language: English
+    String: Fully-Loaded Bloody Mary
+  - Language: Spanish
+    String: Bloody Mary completo
+  - Language: French
+    String: Bloody Mary complet
+  - Language: Italian
+    String: Very Bloody Mary
+  - Language: Japanese
+    String: フルロードのブラッディ・メアリー
+  - Language: Polish
+    String: W pełni załadowana Krwawa Mary
+  - Language: Portuguese_Brazil
+    String: Bloody Mary Completa
+  - Language: ChineseSimplified
+    String: 血腥玛丽满载版
+Keywords:
+- 055ECC:Starfield.esm
+- 14253C:Starfield.esm
+- 2CF28A:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_FLB_Mary.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 9c0b4bd9-94a3-2830-95b8-a81a1a60e791
+DropdownSound:
+  Start: 9f4d405b-17a2-133b-d6b8-9f02bc4afa91
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Wodka und gewürztes Tomatenpüree.
+  - Language: English
+    String: Vodka and spiced tomato puree.
+  - Language: Spanish
+    String: Puré de tomate especiado y vodka.
+  - Language: French
+    String: Vodka et purée de tomate épicée.
+  - Language: Italian
+    String: Vodka e passata di pomodoro speziata.
+  - Language: Japanese
+    String: ウォッカと香辛料の効いたトマトピューレ
+  - Language: Polish
+    String: Wódka i przyprawione puree pomidorowe.
+  - Language: Portuguese_Brazil
+    String: Vodca e suco de tomate temperado.
+  - Language: ChineseSimplified
+    String: 伏特加与调味番茄酱。
+Weight: 0.3
+Value: 350
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 150731:Starfield.esm
+  Data:
+    Magnitude: 15
+  Magnitude: 2B9834:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 2B9839:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17624
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1BBAB0:Starfield.esm
+    ComparisonValue: 1
+  Magnitude: 2B9818:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 2
+  MUID: 2
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 125
+    Duration: 300
+  Magnitude: 2B9814:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 5
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 6

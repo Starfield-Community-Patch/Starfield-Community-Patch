@@ -353,7 +353,7 @@ Stages:
       - Language: German
         String: Ich habe Percival die Proben übergeben und wurde bezahlt. Wenn ich noch mehr Proben einsammeln möchte, hat er sicher noch mehr Aufträge für mich.
       - Language: English
-        String: I handed the samples over to Percival and got my payment. If I'm looking to collect more, I'm sure he'd be willing to get me the specifics.
+        String: I handed over the samples to Percival and got my payment. If I'm looking to collect more, I'm sure he'd be willing to get me the specifics.
       - Language: Spanish
         String: Entregué las muestras a Percival y me pagó. Si quiero recoger más, seguro que estará dispuesto a darme los detalles.
       - Language: French
@@ -843,6 +843,7 @@ Aliases:
 - MutagenObjectType: QuestCollectionAlias
   Collection:
   - ID: 23
+    ALAM: 0
     ReferenceAlias:
       ID: 23
       Name: ActiveCreatureSamples

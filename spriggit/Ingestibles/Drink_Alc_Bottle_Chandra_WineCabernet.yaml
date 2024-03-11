@@ -1,0 +1,112 @@
+FormKey: 2C7202:Starfield.esm
+EditorID: Drink_Alc_Bottle_Chandra_WineCabernet
+ObjectBounds:
+  First: -0.03302002, -0.032958984, 0.00079345703
+  Second: 0.032958984, 0.032958984, 0.26904297
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 05451C:Starfield.esm
+  Workbench: 05451C:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Chandra Cabernet Sauvignon
+  - Language: English
+    String: Chandra Cabernet Sauvignon
+  - Language: Spanish
+    String: Chandra cabernet sauvignon
+  - Language: French
+    String: Chandra Cabernet Sauvignon
+  - Language: Italian
+    String: Cabernet Sauvignon Chandra
+  - Language: Japanese
+    String: チャンドラ(カベルネ・ソーヴィニョン)
+  - Language: Polish
+    String: Chandra Cabernet Sauvignon
+  - Language: Portuguese_Brazil
+    String: Chandra Cabernet Sauvignon
+  - Language: ChineseSimplified
+    String: 钱卓拉赤霞珠
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF288:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragefood_chandracabernet.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 6dda4007-c442-8f2f-b9ba-8425a92d2cac
+DropdownSound:
+  Start: 4abd479b-59e5-7b01-1570-d174e61549bd
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Dunkler Rotwein von Chandra Vineyards, mit Aromen von Brombeere und Zeder.
+  - Language: English
+    String: Chandra Vineyards' dark red wine, with notes of blackberry and cedar.
+  - Language: Spanish
+    String: Vino tinto oscuro de Chandra Vineyards, con notas de mora y cedro.
+  - Language: French
+    String: Vin rouge sombre Château Chandra, aux notes de mûre et de cèdre.
+  - Language: Italian
+    String: Vino rosso di Chandra Vineyards, con note di mora e cedro.
+  - Language: Japanese
+    String: チャンドラ・バインヤーズのダークの赤ワイン。ブラックベリーとシダーの風味が広がる
+  - Language: Polish
+    String: Ciemnoczerwone wino Chandra Vineyards z nutą jeżyny i cedru.
+  - Language: Portuguese_Brazil
+    String: Vinho tinto escuro da Chandra Vineyards, com notas de mirtilo e cedro.
+  - Language: ChineseSimplified
+    String: 钱卓拉葡萄园出品的干红葡萄酒，带有黑莓和雪松的味道。
+Resources:
+- Resource: 29B02F:Starfield.esm
+  Count: 1
+ComponentDisplayIndices:
+- 1
+Weight: 0.5
+Value: 380
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 049e4e48-ef25-50c1-f0bf-12128e5b9682
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.12
+    Duration: 300
+  Magnitude: 2D88BE:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 5
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 6
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 7

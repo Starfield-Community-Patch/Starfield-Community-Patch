@@ -1,0 +1,60 @@
+FormKey: 06175D:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+  ResetHours: 0.9997711
+Responses:
+- Emotion: None
+  WEMFile: 6674465
+  TRDAUnknown: 1.9000001
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 6.2000003
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 246C4C:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 24C3D9:Starfield.esm
+    UnknownFloat: 4
+  - UnknownVoiceType: 26FDB9:Starfield.esm
+    UnknownFloat: 1.2
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Hey, keine Waffen. Weg damit.
+    - Language: English
+      String: Hey, no weapons. Put that away.
+    - Language: Spanish
+      String: Nada de armas. Aleja eso.
+    - Language: French
+      String: Hé, les armes sont interdites. Rangez-moi ça.
+    - Language: Italian
+      String: Ehi, niente armi. Mettila via.
+    - Language: Japanese
+      String: おい、武器は禁止だ。しまえ
+    - Language: Polish
+      String: Hej, żadnej broni. Odłóż to.
+    - Language: Portuguese_Brazil
+      String: Ei, nada de armas. Guarda isso aí.
+    - Language: ChineseSimplified
+      String: 嘿，这里禁止武器。收起来。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xE0140AE6C24ED501
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+StartScenePhase: ''
+SubtitlePriority: Low

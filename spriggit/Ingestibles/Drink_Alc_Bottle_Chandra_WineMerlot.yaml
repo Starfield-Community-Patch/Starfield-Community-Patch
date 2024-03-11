@@ -1,0 +1,112 @@
+FormKey: 2C7208:Starfield.esm
+EditorID: Drink_Alc_Bottle_Chandra_WineMerlot
+ObjectBounds:
+  First: -0.03302002, -0.032958984, 0.00079345703
+  Second: 0.032958984, 0.032958984, 0.26904297
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 05451C:Starfield.esm
+  Workbench: 05451C:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Chandra Merlot
+  - Language: English
+    String: Chandra Merlot
+  - Language: Spanish
+    String: Chandra merlot
+  - Language: French
+    String: Chandra Merlot
+  - Language: Italian
+    String: Merlot Chandra
+  - Language: Japanese
+    String: チャンドラ(メルロー)
+  - Language: Polish
+    String: Chandra Merlot
+  - Language: Portuguese_Brazil
+    String: Chandra Merlot
+  - Language: ChineseSimplified
+    String: 钱卓拉墨尔乐
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF288:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragefood_merlot.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 6dda4007-c442-8f2f-b9ba-8425a92d2cac
+DropdownSound:
+  Start: 4abd479b-59e5-7b01-1570-d174e61549bd
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Lieblicher Rotwein von Chandra Vineyards, mit Aromen von Vanille und Schwarzkirschen.
+  - Language: English
+    String: Chandra Vineyards' sweet red wine, with notes of vanilla and black cherries.
+  - Language: Spanish
+    String: Vino tinto dulce de Chandra Vineyards, con notas de vainilla y cereza negra.
+  - Language: French
+    String: Vin rouge doux Château Chandra, aux notes de vanille et de cerise.
+  - Language: Italian
+    String: Vino rosso di Chandra Vineyards, con note di vaniglia e amarena.
+  - Language: Japanese
+    String: チャンドラ・バインヤーズの甘口の赤ワイン。バニラとブラックチェリーの風味が広がる
+  - Language: Polish
+    String: Słodkie czerwone wino Chandra Vineyards z nutą wanilii i czarnych wiśni.
+  - Language: Portuguese_Brazil
+    String: Vinho tinto doce da Chandra Vineyards, com notas de baunilha e cereja negra.
+  - Language: ChineseSimplified
+    String: 钱卓拉葡萄园出品的甜红葡萄酒，带有香草和黑樱桃的味道。
+Resources:
+- Resource: 29B02F:Starfield.esm
+  Count: 1
+ComponentDisplayIndices:
+- 1
+Weight: 0.5
+Value: 380
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 049e4e48-ef25-50c1-f0bf-12128e5b9682
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.12
+    Duration: 300
+  Magnitude: 2D88BE:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

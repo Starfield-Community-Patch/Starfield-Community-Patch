@@ -1,0 +1,38 @@
+FormKey: 0E54A6:Starfield.esm
+Flags:
+  Flags:
+  - 0x40
+Responses:
+- Emotion: 029A41:Starfield.esm
+  WEMFile: 7287337
+  TRDAUnknown: 5.1000004
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Im Namen der gesamten United Colonies sprechen wir dir unseren Dank aus. Das ist alles.
+    - Language: English
+      String: And, on behalf of the whole of the United Colonies, you have our thanks. You're dismissed.
+    - Language: Spanish
+      String: Y, de parte de todas las Colonias Unidas, tienes nuestro agradecimiento. Puedes retirarte.
+    - Language: French
+      String: Et au nom de toute l'Union coloniale, vous avez tous nos remerciements. Vous pouvez disposer.
+    - Language: Italian
+      String: Ti ringraziamo da parte dell’intera Unione Coloniale. Puoi andare.
+    - Language: Japanese
+      String: コロニー連合全体を代表して感謝するわ。以上よ
+    - Language: Polish
+      String: I masz nasze podziękowania w imieniu całych Zjednoczonych Kolonii. Możesz odejść.
+    - Language: Portuguese_Brazil
+      String: E, em nome de toda União das Colônias, eu agradeço, comandante. Pode ir.
+    - Language: ChineseSimplified
+      String: 我谨代表联合殖民地的全体成员，向你表示感谢。你可以离开了。
+  ScriptNotes: ''
+  Edits: Subjective
+  AlternateLipText: ''
+  TextHash: 0x9002233ECC9DD701
+SetParentQuestStage:
+  OnBegin: -1
+  OnEnd: 1000
+StartScenePhase: ''
+SubtitlePriority: Low

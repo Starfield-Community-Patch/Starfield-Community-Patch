@@ -1,0 +1,119 @@
+FormKey: 2995A1:Starfield.esm
+MajorRecordFlagsRaw: 536870912
+EditorID: NOCLUTTER_ResearchUI_Chem_Craft_Frostwolf
+StarfieldMajorRecordFlags:
+- 0x20000000
+ObjectBounds:
+  First: -0.018249359, -0.023867644, -9.860843E-06
+  Second: 0.018249664, 0.041684113, 0.10332731
+ODTY: 0
+Transforms:
+  InventoryIcon: 03D202:Starfield.esm
+  Inventory: 03D202:Starfield.esm
+  Workbench: 299597:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Frostwolf
+  - Language: English
+    String: Frostwolf
+  - Language: Spanish
+    String: Lobo gélido
+  - Language: French
+    String: Givreloup
+  - Language: Italian
+    String: Frostwolf
+  - Language: Japanese
+    String: フロストウルフ
+  - Language: Polish
+    String: Mroźny wilk
+  - Language: Portuguese_Brazil
+    String: Lobo Gélido
+  - Language: ChineseSimplified
+    String: 霜狼
+Keywords:
+- 0F4AE7:Starfield.esm
+- 184C3D:Starfield.esm
+- 2CF28A:Starfield.esm
+- 0A7296:Starfield.esm
+Model:
+  File: Items\Drugs_Or_Medical\crafted_inhailer_frost_wolf.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 2a214c30-f47e-9947-ec5a-ff6684b3db82
+DropdownSound:
+  Start: 669f4b70-1167-a6b1-bad2-79a667a1ed99
+CraftingSound:
+  Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein Cocktail aus dem Kampfrauschmittel Squall und dem militärischen leistungssteigernden Chem Reconstim.
+  - Language: English
+    String: A cocktail of the combat enhancer Squall and the military performance chem Reconstim.
+  - Language: Spanish
+    String: Cóctel del potenciador de combate Borrasca y el estupefaciente de rendimiento militar Reconstimulante.
+  - Language: French
+    String: Un cocktail de Bourrasque, un boost de combat et de Reconstim, un stimulant militaire.
+  - Language: Italian
+    String: Un cocktail del potenziatore di combattimento squall e della sostanza militare stimolante reconstim.
+  - Language: Japanese
+    String: 戦闘力向上薬のスコール、軍用能力増強薬、リコンスティムを混合したもの
+  - Language: Polish
+    String: Mieszanka szkwału - wzmacniacza bojowego - oraz rekonstymu - wojskowego środka wydajnościowego.
+  - Language: Portuguese_Brazil
+    String: Um coquetel do estimulante de combate Squall e do químico de performance militar Reconstimulante.
+  - Language: ChineseSimplified
+    String: 战斗用增强药物“狂飑”和军事表现药品“感知针剂”的混合物。
+Weight: 0.1
+Value: 525
+Flags:
+- NoAutoCalc
+- Medicine
+Addiction: 268D35:Starfield.esm
+AddictionChance: 0.75
+ConsumeSound:
+  Start: 7d1b4c45-9011-3520-19b6-c712198c2fa7
+AddictionName:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Stimulanzien
+  - Language: English
+    String: Stimulants
+  - Language: Spanish
+    String: Estimulantes
+  - Language: French
+    String: Stimulants
+  - Language: Italian
+    String: Stimolanti
+  - Language: Japanese
+    String: 興奮剤
+  - Language: Polish
+    String: Stymulanty
+  - Language: Portuguese_Brazil
+    String: Estimulantes
+  - Language: ChineseSimplified
+    String: 刺激剂
+Effects:
+- BaseEffect: 2AD404:Starfield.esm
+  Data:
+    Magnitude: 0.5
+    Duration: 300
+  EFIF: 1
+  MUID: 1
+- BaseEffect: 04696E:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 25A8B6:Starfield.esm
+  Data:
+    Duration: 300
+  EFIF: 0
+  MUID: 3
+MajorFlags:
+- Medicine

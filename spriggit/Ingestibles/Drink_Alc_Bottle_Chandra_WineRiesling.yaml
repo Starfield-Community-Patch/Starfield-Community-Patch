@@ -1,0 +1,112 @@
+FormKey: 2C7205:Starfield.esm
+EditorID: Drink_Alc_Bottle_Chandra_WineRiesling
+ObjectBounds:
+  First: -0.033020172, -0.032958984, 0.00079345703
+  Second: 0.03295883, 0.032958984, 0.26904297
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 05451C:Starfield.esm
+  Workbench: 05451C:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Chandra Riesling
+  - Language: English
+    String: Chandra Riesling
+  - Language: Spanish
+    String: Chandra riesling
+  - Language: French
+    String: Chandra Riesling
+  - Language: Italian
+    String: Riesling Chandra
+  - Language: Japanese
+    String: チャンドラ(リースリング)
+  - Language: Polish
+    String: Chandra Riesling
+  - Language: Portuguese_Brazil
+    String: Chandra Riesling
+  - Language: ChineseSimplified
+    String: 钱卓拉雷司令
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF288:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragefood_chandrariesling.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 6dda4007-c442-8f2f-b9ba-8425a92d2cac
+DropdownSound:
+  Start: 4abd479b-59e5-7b01-1570-d174e61549bd
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Lieblicher Weißwein von Chandra Vineyards, mit Aromen von Ananas und Zitrone. Wird oft als Aperitif getrunken.
+  - Language: English
+    String: Chandra Vineyards' sweet white wine, with notes of pineapple and lemon. Commonly enjoyed as an aperitif.
+  - Language: Spanish
+    String: Vino blanco dulce de Chandra Vineyards, con notas de piña y limón. Suele tomarse como aperitivo.
+  - Language: French
+    String: Vin blanc doux Château Chandra, aux notes d'ananas et de citron. Très apprécié à l'apéritif.
+  - Language: Italian
+    String: Vino bianco di Chandra Vineyards, con note di ananas e limone. Comunemente apprezzato come aperitivo.
+  - Language: Japanese
+    String: チャンドラ・バインヤーズの甘口の白ワイン。パイナップルとレモンの風味が広がる。食前酒として楽しむのが一般的
+  - Language: Polish
+    String: Słodkie białe wino Chandra Vineyards z nutą ananasa i cytryny. Często podawane jako aperitif.
+  - Language: Portuguese_Brazil
+    String: Vinho branco doce da Chandra Vineyards, com notas de abacaxi e limão. Normalmente consumido como aperitivo.
+  - Language: ChineseSimplified
+    String: 钱卓拉葡萄园出品的甜白葡萄酒，带有菠萝和柠檬的味道。通常作为开胃酒饮用。
+Resources:
+- Resource: 29B02F:Starfield.esm
+  Count: 1
+ComponentDisplayIndices:
+- 1
+Weight: 0.5
+Value: 380
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 049e4e48-ef25-50c1-f0bf-12128e5b9682
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.12
+    Duration: 300
+  Magnitude: 2D88BE:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 300
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F7:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

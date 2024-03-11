@@ -1,0 +1,92 @@
+FormKey: 2C8674:Starfield.esm
+EditorID: DR007World
+FormVersion: 556
+Components:
+- MutagenObjectType: WorldSpaceOverlayComponent
+  SNAM: 0x00000000
+  PNAM: 0x00000000
+  SurfaceBlock: 2C8C8E:Starfield.esm
+- MutagenObjectType: PlanetContentManagerContentPropertiesComponent
+  ZNAM: 0
+  YNAM: 0
+  XNAM: 0
+  WNAM: 0
+  VNAM: 1
+  UNAM: 0
+  NAM1: 0
+  Global: Null
+  NAM3: 0
+  NAM4: 0x00FF0000
+  NAM5: 0
+  NAM6: 0
+  NAM7: 0
+  NAM8: 0
+  NAM9: 0
+  Conditions:
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Unknown2: 17625
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 000039:Starfield.esm
+    ComparisonValue: 0F78AC:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17625
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1C3FB6:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17625
+    Data:
+      MutagenObjectType: SystemHasKeywordConditionData
+      FirstParameter: 1E79B9:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17625
+    Data:
+      MutagenObjectType: GetIsCurrentLocationConditionData
+      FirstParameter: 01A8E4:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Abhörposten
+  - Language: English
+    String: Listening Post
+  - Language: Spanish
+    String: Puesto de escucha
+  - Language: French
+    String: Poste d'écoute
+  - Language: Italian
+    String: Postazione d’ascolto
+  - Language: Japanese
+    String: 情報収集拠点
+  - Language: Polish
+    String: Posterunek nasłuchowy
+  - Language: Portuguese_Brazil
+    String: Posto de Escuta
+  - Language: ChineseSimplified
+    String: 听音哨
+Location: 2C86A8:Starfield.esm
+Water: 000018:Starfield.esm
+LodWater: 000018:Starfield.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: -2048
+  DefaultWaterHeight: -200
+MapData: {}
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+FNAM: 0x00
+ObjectBoundsMin: -0.048828125, -0.048828125
+ObjectBoundsMax: 0.07324219, 0.07324219
+GNAM: 1
+XCLWs: []
+WHGTs: []
+HNAM: 0x05

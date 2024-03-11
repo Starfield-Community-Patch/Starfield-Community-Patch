@@ -1,0 +1,19 @@
+<root>
+	<is_state>1</is_state>
+	<tag>WalkForward_Stop_RightFoot</tag>
+	<filename>Ready_WalkForward_Stop_RightFoot.af</filename>
+	<prefix>Ready</prefix>
+	<rampout>6</rampout>
+	<events>
+		<event><frame>0</frame><name>SyncRightFoot</name><payload></payload></event>
+		<event><frame>0</frame><name>PathingBegin</name><payload></payload></event>
+		<event><frame>9</frame><name>FootLeft</name><payload></payload></event>
+		<event><frame>16</frame><name>SyncLeftFoot</name><payload></payload></event>
+		<event><frame>20</frame><name>PathingEnd</name><payload></payload></event>
+		<event><frame>21</frame><name>FootRight</name><payload></payload></event>
+	</events>
+	<audios>
+		<audio><frame>6</frame><foley>FST_Foley_ArmorType_Walk</foley></audio>
+		<audio><frame>18</frame><foley>FST_Foley_ArmorType_Walk</foley></audio>
+	</audios>
+</root>

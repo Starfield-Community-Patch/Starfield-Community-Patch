@@ -1,0 +1,956 @@
+FormKey: 240431:Starfield.esm
+EditorID: DialogueNewHomestead
+FormVersion: 556
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 240431:Starfield.esm
+          Alias: 0
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 1
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 240431:Starfield.esm
+          Alias: 0
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: defaultquestdistancecheckscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: DistanceCheckStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: TargetDistance
+          Data: 15
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetAlias
+          Object: 240431:Starfield.esm
+          Alias: 3
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 10
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: TargetDistance
+          Data: 12.5
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetAlias
+          Object: 240431:Starfield.esm
+          Alias: 23
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 50
+  Script:
+    Name: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR04
+      Object: 21B1FA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_TourPrice
+      Object: 00B51D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ00Misc
+      Object: 2D2621:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR04MiscQuestStartKeyword
+      Object: 146259:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueNewHomestead_EstablishingScene01
+      Object: 21C6A0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cutter
+      Object: 016758:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR02Misc
+      Object: 14629B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Giuliana
+      Object: 240431:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR05_Foreknowledge_AV
+      Object: 025CCA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR02QuestStartKeyword
+      Object: 21A87C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR02
+      Object: 21A8B0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bill
+      Object: 240431:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01
+      Object: 21710B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Joyce
+      Object: 240431:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR04Misc
+      Object: 14629A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR04QuestStartKeyword
+      Object: 21B1C9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01QuestStartKeyword
+      Object: 00B557:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Luthor
+      Object: 240431:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR05QuestStartKeyword
+      Object: 21952A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR05
+      Object: 21952E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GiulianaIntroMarker
+      Object: 240431:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BillIntroMarker
+      Object: 240431:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01Misc
+      Object: 00B78A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR05Misc
+      Object: 14629C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NH_AdrianCredits
+      Object: 149A0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueNewHomestead_GreeterGuard_IntroScene
+      Object: 2D26A1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NH_SouvenirSlate
+      Object: 165BF3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+  Fragments:
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 201
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0201_Item_00
+  - Stage: 413
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0413_Item_00
+  - Stage: 51
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0051_Item_00
+  - Stage: 411
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0411_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 402
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0402_Item_00
+  - Stage: 102
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0102_Item_00
+  - Stage: 1711
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_1711_Item_00
+  - Stage: 202
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0202_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 1610
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_1610_Item_00
+  - Stage: 101
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0101_Item_00
+  - Stage: 599
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0599_Item_00
+  - Stage: 401
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0401_Item_00
+  - Stage: 501
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0501_Item_00
+  - Stage: 502
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_DialogueNewHomestead_00240431
+    FragmentName: Fragment_Stage_0502_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 240431:Starfield.esm
+      Alias: 13
+    Scripts:
+    - Name: NHAliasDisableOnUnloadScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StagePrereq
+        Data: 15
+  - Property:
+      Name: ''
+      Object: 240431:Starfield.esm
+      Alias: 14
+    Scripts:
+    - Name: NHAliasDisableOnUnloadScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StagePrereq
+        Data: 15
+  - Property:
+      Name: ''
+      Object: 240431:Starfield.esm
+      Alias: 15
+    Scripts:
+    - Name: NHAliasDisableOnUnloadScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StagePrereq
+        Data: 15
+  - Property:
+      Name: ''
+      Object: 240431:Starfield.esm
+      Alias: 22
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 412
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+Location: 21702B:Starfield.esm
+TextDisplayGlobals:
+- 149A0B:Starfield.esm
+Summary: New Homestead is a "Living History" community. Think Plymouth Plantation, or certain ccommunities in Amish country. It was originally a xenobiology research facility in the days before grav drive travel. Then, it transitioned into an off-world colony research facility after no significant alien life was found. Now, people just live here, preserving early colonial traditions and such. It serves as a tourist destination, and people come here because it's one of the closest communities to old Earth in the Sol system, the cradle of humanity.
+UnusedConditions: []
+Stages:
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Init Stage. Init Establishing scene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player arrived in New Homestead the first time. Start FFNewHomesteadR04Misc.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start Establishing Scene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Establishing Scene: Tourists walked away'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Establishing Scene Ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Greeter Guard says his line, directing the player inside.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 51
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ' Start FFNewHomesteadZ00Misc'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Debug: Move the player to Bill Starsap for FFNewHomesteadZ01'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Bill mentions the tour. Start FFNewHomesteadZ01Misc to point the player at the quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 102
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start FFNewHomesteadZ01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player told Bill that they've been on his tour before (Starborn)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player said they wanted to take a tour, And Bill told them the price
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Bill Starsap Speech Challenge Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 121
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Bill Starsap Speech Challenge Failure
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Debug: Move the player to Giuliana for FFNewHomesteadR02'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 201
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Giuliana mentioned her issues with the Tourists. Start FFNewHomesteadR02Misc
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 202
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start FFNewHomesteadR02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player backed out of helping Giuliana
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Debug: Move the player to Joyce for FFNewHomesteadR04'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 401
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Joyce greets the player and  mentioned her issue with the brownouts. Start FFNewHomesteadR04Misc.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 402
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start NewHomesteadR04
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 405
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player told Joyce that they were just here to chat
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 408
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 411
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player didn't have a cutter, so Joyce offered one.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 412
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player took the Cutter.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 413
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has no Cutter AND they have already taken the nearby Cutter
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Debug: Move the player to Luthor for FFNewHomesteadR05'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 501
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Luthor greeted the player and mentioned his issue with the Special Sauce. Start FFNewHomesteadR05Misc.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 502
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start FFNewHomesteadR05
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Luthor has explained his quest.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 599
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Luthor let it slip that the special sauce might have been mostly for him
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asked Claudio about the dangers of ice mining
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1001
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player pushed Claudio too far when questioning him.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player spoke to Maura
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player inspired Maura to think about going off-world
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player spoke to Nathaniel about Maura's desire to go off-world
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1201
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player promised Nathaniel not to talk up other worlds
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Anja told the player that Luthor runs the Chunks restaurant here
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player asked Sylvie about other kids, and she mentioned School
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Maurice told the player about his role here. Unlock stories!
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jae finished his greeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Jae gives the player a slate
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Adrian finished her greeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player offered to give Adrian money to go to Enhance!
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1711
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player gave Adrian credits
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1712
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player gave advice to Adrian
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Anja greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Maurice greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Sylvie greeted the player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2010
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  Name: NewHomestead
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 21702B:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Adrian
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEB0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Anja
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEAF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Bill
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEAE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Claudio
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEAD:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Giuliana
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEAC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: Jae
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEAB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Joyce
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEAA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: Luthor
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEA9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: Maura
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEA8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: Maurice
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEA7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: Nathaniel
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEA6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: Sylvie
+  Flags: []
+  ALFG: 0
+  UniqueActor: 21FEA5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: Tourist01
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 21C6A3:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  VoiceTypes: 2CD264:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: Tourist02
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 21C6A2:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  VoiceTypes: 2BCA2E:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: Tourist03
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 21C6A1:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  VoiceTypes: 2BCA2A:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: ExitMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 21C69F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: BillIntroMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 21C694:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: GiulianaIntroMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 21C695:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: ChunksEmployee
+  Flags:
+  - AllowReuseInQuest
+  - Essential
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 146DC9:Starfield.esm
+  Factions:
+  - 146DC3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: Cutter
+  Flags:
+  - Optional
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 027B66:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: GreeterGuard
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 2D269F:Starfield.esm
+  VoiceTypes: 21C670:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: GreeterGuardCounter
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 165D0F:Starfield.esm
+  VoiceTypes: 21D3D3:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: Patient
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 2E0871:Starfield.esm
+  PackageData:
+  - 2E0872:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 26
+    ALAM: 0
+    ReferenceAlias:
+      ID: 26
+      Name: IceMiners
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      - AllowDisabled
+      - AllowReserved
+      ALFG: 0
+      Location:
+        AliasID: 0
+        RefType: 06A040:Starfield.esm
+      Items:
+      - Item:
+          Item: 016758:Starfield.esm
+          Count: 1
+      PackageData:
+      - 06A03F:Starfield.esm
+      VoiceTypes: Null

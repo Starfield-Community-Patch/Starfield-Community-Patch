@@ -1,0 +1,34 @@
+FormKey: 26D87F:Starfield.esm
+EditorID: MQ105_AlwaysOnDialogueNeon
+FormVersion: 556
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Dialog nach Quest und Dungeon
+  - Language: English
+    String: Post Quest and Dungeon Dialogue
+  - Language: Spanish
+    String: Diálogo posterior a la misión y la mazmorra
+  - Language: French
+    String: Post Quest and Dungeon Dialogue
+  - Language: Italian
+    String: Post missione e dialoghi dungeon
+  - Language: Japanese
+    String: クエストとダンジョン終了後の会話
+  - Language: Polish
+    String: Dialog po misji i lochu
+  - Language: Portuguese_Brazil
+    String: Diálogo Pós-missão e Masmorra
+  - Language: ChineseSimplified
+    String: 任务与地牢后对话
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  Priority: 50
+  Unused: 0x000000
+Location: 015FFE:Starfield.esm
+UnusedConditions: []
+Aliases: []

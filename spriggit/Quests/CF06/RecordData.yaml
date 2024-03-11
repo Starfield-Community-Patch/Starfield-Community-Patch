@@ -1,0 +1,2731 @@
+FormKey: 01BD20:Starfield.esm
+EditorID: CF06
+FormVersion: 556
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 015FFE:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 20
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 30
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 10
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 22F281:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 30
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 20
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 40
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 22F281:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 235
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 230
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01535A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 310
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 280
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: CF06QuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_AstralLoungeLoadDoor
+      Object: 01BD20:Starfield.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityNeonTradeTowerAstralLounge
+      Object: 279D05:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: iStageToMoveBayu
+      Data: 190
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_BenjaminBayu
+      Object: 01BD20:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Confidence
+      Object: 0002BD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: iStageDoneWithBayu
+      Data: 230
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityNeonTradeTowerAstralLoungeLocation
+      Object: 2CDDFB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_AstralLoungeBayuMarker
+      Object: 01BD20:Starfield.esm
+      Alias: 44
+  Script:
+    Name: Fragments:Quests:QF_CF06_0001BD20
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06Evidence
+      Object: 01BD20:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_EstelleShareHigh
+      Object: 0B01B3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_EstelleShareMedium
+      Object: 09ACD9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_EstelleShareLow
+      Object: 0B01B2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_KomikoBribeLow
+      Object: 186ED7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_EPHMarker
+      Object: 1F68D0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_AstralLoungeBayuMarker
+      Object: 1F6FC6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06Naeva
+      Object: 01BD20:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_ASLMarker
+      Object: 1F68C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Small
+      Object: 275226:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_Stage200_BenjaminBayu_CalloutScene
+      Object: 1F77DF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainState_Estelle
+      Object: 278E84:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_Bodyguard01
+      Object: 01BD20:Starfield.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_BreysonBayu
+      Object: 01BD20:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_NaevaWaitsMarker
+      Object: 1F68C7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Large
+      Object: 275224:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06Microdrive
+      Object: 01BD20:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_Komiko
+      Object: 01BD20:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_ReceptionistPass
+      Object: 01BD20:Starfield.esm
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Medium
+      Object: 275225:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC082
+      Object: 2BF365:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_MykaRefund
+      Object: 223DDB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFKey
+      Object: 297E3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_Cypher
+      Object: 01BD20:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_TheKeyStartRef
+      Object: 229D62:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_EnablerRef
+      Object: 0028B3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06GenerdynePass
+      Object: 01BD20:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06Count
+      Object: 01E260:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF07_DelgadoSceneMarkerRef
+      Object: 1EB440:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_Bodyguard02
+      Object: 01BD20:Starfield.esm
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01
+      Object: 1E8E2A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Neon_Euphorika_LoungeCost
+      Object: 160043:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainStateDifficulty_Estelle
+      Object: 1F6FD5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_GenerdyneInnerDoorRef02
+      Object: 24AC9E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_Safe
+      Object: 01BD20:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC_Neon_BenjaminBayu
+      Object: 01BE38:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_CGSchematicsEncrypted
+      Object: 01BD20:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_KomikoBribeMedium
+      Object: 186ED9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_Estelle
+      Object: 01BD20:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_Main
+      Object: 178B1E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_GenerdyneInnerDoorRef01
+      Object: 24ACA0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF07
+      Object: 1EF7F2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_KomikoBribeHigh
+      Object: 186ED8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_Receptionist
+      Object: 01BD20:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Viewport02
+      Object: 270719:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_MSPMarker
+      Object: 1F68D1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_Delgado
+      Object: 01BD20:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_GDYMarker
+      Object: 1F68CB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_BenjaminBayu
+      Object: 01BD20:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF05
+      Object: 21D792:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC039
+      Object: 183F61:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PCF06_GenerdyneExecutiveElevatorKey
+      Object: 03425A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_CGSchematicsDecrypted
+      Object: 01BD20:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_Jazz
+      Object: 01BD20:Starfield.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_Stage170_BenjaminBayu_CalloutScene
+      Object: 1F77DF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF07_JazzSceneMarkerRef
+      Object: 1EB441:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 125
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0125_Item_00
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0140_Item_00
+  - Stage: 270
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0270_Item_00
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0160_Item_00
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0090_Item_00
+  - Stage: 280
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0280_Item_00
+  - Stage: 280
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0280_Item_01
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0180_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 185
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0185_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 175
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0175_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 227
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0227_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 42
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0042_Item_00
+  - Stage: 205
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0205_Item_00
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0006_Item_00
+  - Stage: 225
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0225_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 260
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0260_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0080_Item_00
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0045_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0220_Item_00
+  - Stage: 240
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0240_Item_00
+  - Stage: 47
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0047_Item_00
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0190_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0320_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0008_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0250_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0095_Item_00
+  - Stage: 230
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0230_Item_00
+  - Stage: 230
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0230_Item_02
+  - Stage: 230
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0230_Item_01
+  - Stage: 230
+    StageIndex: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0230_Item_03
+  - Stage: 235
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0235_Item_00
+  - Stage: 165
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0165_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0450_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0130_Item_00
+  - Stage: 195
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0195_Item_00
+  - Stage: 98
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0098_Item_00
+  - Stage: 93
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF06_0001BD20
+    FragmentName: Fragment_Stage_0093_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 01BD20:Starfield.esm
+      Alias: 2
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 70
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 40
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 110
+  - Property:
+      Name: ''
+      Object: 01BD20:Starfield.esm
+      Alias: 23
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 125
+  - Property:
+      Name: ''
+      Object: 01BD20:Starfield.esm
+      Alias: 4
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 110
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 40
+  - Property:
+      Name: ''
+      Object: 01BD20:Starfield.esm
+      Alias: 9
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 175
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 150
+  - Property:
+      Name: ''
+      Object: 01BD20:Starfield.esm
+      Alias: 6
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 80
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 40
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Absolute Macht
+  - Language: English
+    String: Absolute Power
+  - Language: Spanish
+    String: Poder absoluto
+  - Language: French
+    String: Pouvoir absolu
+  - Language: Italian
+    String: Potenza folgorante
+  - Language: Japanese
+    String: 圧倒的な力
+  - Language: Polish
+    String: Absolutna moc
+  - Language: Portuguese_Brazil
+    String: Energia Máxima
+  - Language: ChineseSimplified
+    String: 风驰电掣
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475FD:Starfield.esm
+QuestFaction: 0546E0:Starfield.esm
+TextDisplayGlobals:
+- 0B01B3:Starfield.esm
+- 0B01B2:Starfield.esm
+- 09ACD9:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 77
+  LogEntries:
+  - Flags: []
+    Note: =DEBUG QUEST START=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =DEBUG - Speak to Estelle at MSP=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =DEBUG - Talk to Myka at Euphorika=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =DEBUG - Generdyne Entered=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =DEBUG - Astral Lounge Surprise=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =DEBUG - Ending at MSP (Ratted Breyson)=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =DEBUG - Ending at MSP (Ratted Self)=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =DEBUG - Ending at Key (Ratted out Estelle)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 8
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =DEBUG - Key Wrap Up=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Note: Travel to Neon
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Um die Verteilernetztechnologie beschaffen zu können, werde ich nach Neon reisen und mich mit Estelle Vincent, Captain bei der Crimson Fleet außerhalb dieser hedonistischen Stadt, treffen müssen.
+      - Language: English
+        String: In order to retrieve the Conduction Grid technology, I need to travel to Neon and meet up with Estelle Vincent, the Crimson Fleet's Captain based out of the hedonistic city.
+      - Language: Spanish
+        String: Para recuperar la tecnología de la red de conducción tengo que viajar a Neón y reunirme con Estelle Vincent, la capitana de la Flota Carmesí que se encuentra en la ciudad hedonista.
+      - Language: French
+        String: Pour mettre la main sur la technologie du réseau conducteur, je dois me rendre à Néon et contacter Estelle Vincent, le capitaine de la Flotte écarlate stationné dans cette ville des plaisirs.
+      - Language: Italian
+        String: Per recuperare la tecnologia della griglia di conduzione, devo recarmi a Neon e incontrare Estelle Vincent, la capitana della Flotta Cremisi di stanza nella città edonistica.
+      - Language: Japanese
+        String: コンダクショングリッドの技術を手に入れるため、ネオンへ行ってエステル・ヴィンセントと会う。エステルは快楽主義の街を拠点に活動する、紅の艦隊の船長だ
+      - Language: Polish
+        String: Aby zdobyć technologię sieci przewodzącej, muszę udać się do Neonu i spotkać z kapitan Karmazynowej Floty Estelle Vincent, której bazą operacyjną jest to hedonistyczne miasto.
+      - Language: Portuguese_Brazil
+        String: Para obter os dados sobre a tecnologia da rede condutora, preciso viajar para a cidade hedonística de Neon e me encontrar com Estelle Vincent, a comandante da Frota Escarlate que atua no local.
+      - Language: ChineseSimplified
+        String: 为了取得输电网格技术，我需要前往霓虹城，与位于这个灯红酒绿之城的深红舰队船长、埃斯特尔·文森特见面。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 77
+  LogEntries:
+  - Flags: []
+    Note: Proceed to Madame Sauvage's Place
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Entered Madame Sauvage's Place - Speak to Estelle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Note: Done Speaking to Estelle - Acquire Generdyne Security Pass
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Die technischen Daten, die ich brauche, sind irgendwo in der Anlage von Generdyne, dem Energieversorgungsunternehmen von Neon, zu finden. Ich muss mit Myka, der Besitzerin eines Clubs namens Euphorika, sprechen. Sie kann mich mit einer Managerin von Generdyne bekannt machen.
+      - Language: English
+        String: The tech I need is within Generdyne, Neon's power utility company. I'll need to speak to Myka, the owner of a club named Euphorika, who can help me make contact with one of Generdyne's executives.
+      - Language: Spanish
+        String: La tecnología que necesito está en Generdyne, la proveedora de energía de Neón. Tendré que hablar con Myka, la propietaria de un club llamado Euphorika, que me ayudará a contactar con una de las ejecutivas de Generdyne.
+      - Language: French
+        String: La technologie dont j'ai besoin se trouve au sein de Generdyne, le fournisseur d'énergie de Néon. Je dois parler à Myka, la propriétaire d'un club appelé Euphorika, pour qu'elle m'aide à prendre contact avec une employée de Generdyne.
+      - Language: Italian
+        String: La tecnologia che cerco si trova all’interno della Generdyne, l’azienda elettrica di Neon. Dovrò parlare con Myka, la proprietaria di un club di nome Euphorika, che potrà aiutarmi a contattare uno dei dirigenti dell’azienda.
+      - Language: Japanese
+        String: 探している技術はネオンの電力会社ジェネルダインにある。ユーフォリカというクラブのオーナー、マイカと話をしよう。マイカはジェネルダインの重役と連絡をつけるのを手伝ってくれる
+      - Language: Polish
+        String: Technologia, której potrzebuję, znajduj się w Generdajnie - firmie dostarczającej Neonowi energię. Muszę porozmawiać z Myką, właścicielką klubu o nazwie Euphorika, która może pomóc mi w nawiązaniu kontaktu z jedną z kierowniczek Generdyne'a.
+      - Language: Portuguese_Brazil
+        String: Os dados de que preciso estão na Generdyne, a empresa que fornece energia para Neon. Myka, a dona de uma boate chamada Euphorika, pode me ajudar a fazer contato com alguém de dentro da Generdyne.
+      - Language: ChineseSimplified
+        String: 我需要的技术，就在霓虹城的电力公司捷能戴的内部。我得和“尤夫里卡”俱乐部的老板麦卡谈谈，她能帮我和捷能戴的一名高管取得联系。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 41
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ji Nashida Convo Unlock
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 42
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ji Nashida - Speech Challenge Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 43
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ji Nashida - Speech Challenge Failed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 44
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ji Nashida - Done (Block SC)
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 45
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Myka Info Given
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Myka hat angedeutet, dass ich Ayumi Komiko, die Generdyne-Managerin, die ich suche, vielleicht in der „Mitgliederlounge“ vom Euphorika finden könnte. Ich sollte mich unverzüglich dorthin begeben.
+      - Language: English
+        String: Myka has indicated that Ayumi Komiko, the Generdyne executive I am seeking, can be found within Euphorika's "Members' Lounge." I should proceed there immediately.
+      - Language: Spanish
+        String: Myka ha indicado que Ayumi Komiko, la ejecutiva de Generdyne que busco, se encuentra en la “sala vip” de Euphorika. Debería ir para allá de inmediato.
+      - Language: French
+        String: Myka m'a appris qu'Ayumi Komiko, l'employée de Generdyne que je recherche, se trouve dans le “salon VIP” de l'Euphorika. Je dois m'y rendre au plus vite.
+      - Language: Italian
+        String: Myka mi ha segnalato che Ayumi Komiko, la dirigente della Generdyne che sto cercando, si trova nell’“area VIP” dell’Euphorika. Devo recarmi immediatamente sul posto.
+      - Language: Japanese
+        String: マイカによると、探しているジェネルダインの重役アユミ・コミコはユーフォリカの"メンバーラウンジ"にいるらしい。ただちにそこへ向かおう
+      - Language: Polish
+        String: Myka powiedziała mi, że poszukiwaną przeze mnie kierowniczkę Generdyne'a, Ayumi Komiko, znajdę w „sali członkowskiej” klubu Euphorika. Muszę się tam jak najszybciej udać.
+      - Language: Portuguese_Brazil
+        String: Myka disse que Ayumi Komiko, a executiva da Generdyne que estou procurando, está na “sala VIP” da Euphorika. Preciso ir para lá imediatamente.
+      - Language: ChineseSimplified
+        String: 麦卡说，我要找的捷能戴主管小神子亚由美应该在尤夫里卡的“会员休息室”。我应该立即前去那里。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 46
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Myka - Free Membership Given
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 47
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Myka - Refunded Vermillion Club Money
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Ayumi Komiko Warned
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 52
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ayumi Komiko - Medium Payment Gate
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 55
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ayumi Komiko - Not enough cash or didn't want to pay
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Note: Auymi Komiko Combat Blocker
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 70
+  Unknown: 76
+  LogEntries:
+  - Flags: []
+    Note: Ayumi Komiko Killed - Take Pass
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Ayumi Komiko getötet. Ich sollte ihre Leiche nach dem Generdyne-Zugangspass durchsuchen.
+      - Language: English
+        String: I've killed Ayumi Komiko. I should retrieve the Generdyne Passkey from her body.
+      - Language: Spanish
+        String: He matado a Ayumi Komiko. Tengo que sustraer de su cadáver el pase de Generdyne.
+      - Language: French
+        String: J'ai tué Ayumi Komiko. Je dois récupérer le code d'accès de Generdyne sur son cadavre.
+      - Language: Italian
+        String: Ho ucciso Ayumi Komiko. Devo recuperare la chiave d’accesso Generdyne dal suo cadavere.
+      - Language: Japanese
+        String: アユミ・コミコを殺害した。彼女の死体からジェネルダインのパスキーを回収しよう
+      - Language: Polish
+        String: Ayumi Komiko nie żyje. Wezmę kartę do Generdyne'a z jej ciała.
+      - Language: Portuguese_Brazil
+        String: Matei Ayumi Komiko e agora vou pegar o passe da Generdyne que está com ela.
+      - Language: ChineseSimplified
+        String: 我杀死了小神子亚由美。我应该从她的尸体上取走捷能戴密钥。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 80
+  Unknown: 76
+  LogEntries:
+  - Flags: []
+    Note: Ayumi Komiko Evidence Found
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 90
+  LogEntries:
+  - Flags: []
+    Note: Ayumi Komiko Extorted with Evidence
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 93
+  LogEntries:
+  - Flags: []
+    Note: Komiko, Low Bribe Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 94
+  LogEntries:
+  - Flags: []
+    Note: Komiko, Skill Gate
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 95
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Komiko, Medium Bribe Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 96
+  LogEntries:
+  - Flags: []
+    Note: Komiko, Kyu Relationship Flag
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 98
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Komiko, Large Bribe Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Ayumi Komiko Bribed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 115
+  LogEntries:
+  - Flags: []
+    Note: Key for Generdyne Acquired - Enter Generdyne Facility
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe es geschafft, den Zugangspass für den Eingang zu Generdynes Lager von Ayumi Komiko zu beschaffen. Als Nächstes sollte ich mich zur Anlage in der „Unterstadt“ von Neon begeben.
+      - Language: English
+        String: I was able to acquire the passkey for Generdyne's Storage Room entrance from Ayumi Komiko. I should now head to their facility located in Neon's "Underbelly."
+      - Language: Spanish
+        String: Ayumi Komiko me proporcionó el pase para poder entrar al almacén de Generdyne. Ahora debería dirigirme a sus instalaciones en los “Fondos” de Neón.
+      - Language: French
+        String: J'ai obtenu le code d'accès de l'entrée de la salle de stockage de Generdyne auprès d'Ayumi Komiko. Plus qu'à atteindre leur complexe dans le “Bas-ventre” de Néon.
+      - Language: Italian
+        String: Ho ottenuto la chiave d’accesso al magazzino Generdyne da Ayumi Komiko. Ora dovrei dirigermi verso la loro struttura situata nel “Bassoventre” di Neon.
+      - Language: Japanese
+        String: アユミ・コミコからジェネルダインの倉庫室に入るパスキーを入手した。次はネオンの"アンダーベリー"にある、彼らの施設へ向かおう
+      - Language: Polish
+        String: Udało mi się zdobyć od Ayumi Komiko przepustkę do magazynu Generdyne'a. Pora udać się do ich ośrodka zlokalizowanego w Podbrzuszu Neonu.
+      - Language: Portuguese_Brazil
+        String: Consegui o passe de acesso ao depósito da Generdyne com Ayumi Komiko. Agora preciso entrar na instalação deles, que fica na “Sentina” de Neon.
+      - Language: ChineseSimplified
+        String: 我从小神子亚由美那里得到了捷能戴储藏室的密钥。现在我应该去霓虹城的“蔽日区”找到他们的设施。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 111
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Ayumi Komiko - Harada Trigger
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 77
+  LogEntries:
+  - Flags: []
+    Note: Generdyne Entered - Proceed to Power Core
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Jetzt, da ich in Generdyne reingekommen bin, sollte ich mich vorsichtig zum Energiekern der Anlage vorarbeiten und die Verteilernetz-Daten herunterladen.
+      - Language: English
+        String: Now that I've entered Generdyne, I should carefully make my way to the facility's Power Core and download the Conduction Grid data.
+      - Language: Spanish
+        String: Ahora que he entrado en Generdyne, debería acceder con cuidado al núcleo de energía de las instalaciones para descargar los datos de la red de conducción.
+      - Language: French
+        String: Me voilà chez Generdyne. Plus qu'à atteindre le noyau de l'installation et télécharger les données du réseau conducteur.
+      - Language: Italian
+        String: Ora che sono alla Generdyne, dovrei dirigermi con cautela verso il nucleo energetico della struttura e scaricare i dati della griglia di conduzione.
+      - Language: Japanese
+        String: ジェネルダインへ入った。次は施設のパワーコアへ行き、コンダクショングリッドのデータをダウンロードしよう
+      - Language: Polish
+        String: Jestem w ośrodku Generdyne'a. Teraz muszę ostrożnie dotrzeć do rdzenia mocy i pobrać dane sieci przewodzącej.
+      - Language: Portuguese_Brazil
+        String: Agora que entrei na Generdyne, preciso avançar com cuidado até o núcleo de energia da instalação e baixar os dados da rede condutora.
+      - Language: ChineseSimplified
+        String: 现在我进入了捷能戴，我应该小心地前往该设施的能量核心，并下载输电网格数据。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 125
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Receptionist Killed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Power Core Entered - Download Conduction Grid Data
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe es in Generdynes Energiekern geschafft. Jetzt sollte ich in der Lage sein, die technischen Daten zum Verteilernetz über den Computer-Zugangspunkt der Anlage herunterzuladen.
+      - Language: English
+        String: I've entered Generdyne's Power Core. I should be able to download the Conduction Grid's tech from the facility's computer access point.
+      - Language: Spanish
+        String: He accedido al núcleo de energía de Generdyne. Debería poder descargar la tecnología de la red de conducción desde el punto de acceso del ordenador de las instalaciones.
+      - Language: French
+        String: J'ai atteint le noyau de Generdyne. Je devrais pouvoir télécharger les données du réseau conducteur depuis le point d'accès à l'ordinateur de l'installation.
+      - Language: Italian
+        String: Ho raggiunto il nucleo energetico della Generdyne. Dovrei riuscire a scaricare la tecnologia della griglia di conduzione dal punto di accesso informatico della struttura.
+      - Language: Japanese
+        String: ジェネルダインのパワーコアへ侵入した。施設内のコンピューターアクセスポイントから、コンダクショングリッドのデータをダウンロードできるだろう
+      - Language: Polish
+        String: Udało mi się dotrzeć do rdzenia mocy Generdyne'a. Dane o technologii sieci przewodzącej powinno dać się pobrać z komputerowego punktu dostępowego ośrodka.
+      - Language: Portuguese_Brazil
+        String: Entrei no núcleo de energia da Generdyne. Devo conseguir baixar os dados da rede condutora pelo ponto de acesso do computador da instalação.
+      - Language: ChineseSimplified
+        String: 我已经进入了捷能戴的能量核心。我应该可以通过该设施的电脑接入点下载输电网格的技术。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 140
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Data Downloaded - Locate Breyson Bayu
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Verteilernetz-Daten heruntergeladen, sie sind leider stark verschlüsselt. Um die Daten nutzen zu können, werde ich mir von Breyson Bayu, dem Cheftechniker von Generdyne, einen Verschlüsselungscode besorgen müssen.
+      - Language: English
+        String: I've downloaded the Conduction Grid data, but unfortunately, it's heavily encrypted. In order to make use of the data, I'll need to acquire an Encryption Cipher from Breyson Bayu, Generdyne's Chief Technician.
+      - Language: Spanish
+        String: He descargado los datos de la red de conducción, pero por desgracia están encriptados a más no poder. Para acceder a los datos, necesito una clave de encriptación que puede proporcionarme Breyson Bayu, el técnico jefe de Generdyne.
+      - Language: French
+        String: J'ai téléchargé les données du réseau conducteur, mais malheureusement elles sont protégées par un système de chiffrement extrêmement avancé. Pour pouvoir tirer quelque chose de ces données, je vais devoir obtenir un code de chiffrement auprès de Breyson Bayu, le technicien en chef de Generdyne.
+      - Language: Italian
+        String: Ho scaricato i dati della griglia di conduzione, ma purtroppo sono pesantemente criptati. Per poterli utilizzare, dovrò recuperare un cifrario da Breyson Bayu, il capo tecnico della Generdyne.
+      - Language: Japanese
+        String: コンダクショングリッドのデータをダウンロードしたが、残念ながら強固な暗号が施されているようだ。データの中身を見るため、ジェネルダインの主任技術者ブレイソン・バユーから暗号解読キーを渡してもらう
+      - Language: Polish
+        String: Udało mi się pobrać dane sieci przewodzącej, ale niestety są bardzo mocno zaszyfrowane. Aby informacje były przydatne, muszę zdobyć szyfr kodujący od Breysona Bayu, głównego technika Generdyne'a.
+      - Language: Portuguese_Brazil
+        String: Infelizmente, os dados da rede condutora que baixei estão altamente criptografados. Para fazer uso deles, terei que conseguir um encriptador com Breyson Bayu, o técnico-chefe da Generdyne.
+      - Language: ChineseSimplified
+        String: 我下载了输电网格的数据，不幸的是，这东西经过严格加密。为了利用这些数据，我需要从捷能戴的首席技术员布瑞森·巴尤那里取得加密密码。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Breyson Bayu Located - Speak to Breyson Bayu
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Cheftechniker Breyson Bayu aufgespürt. Ich sollte mit ihm sprechen und versuchen, ihn davon zu überzeugen, mir den Verschlüsselungscode für die Verteilernetz-Daten zu geben.
+      - Language: English
+        String: I've located Chief Technician Breyson Bayu. I should speak to him and try to convince him to give me the Encryption Cipher for the Conduction Grid data.
+      - Language: Spanish
+        String: He encontrado al técnico jefe Breyson Bayu. Debería hablar con él para intentar convencerle de que me dé la clave de encriptación de los datos de la red de conducción.
+      - Language: French
+        String: J'ai repéré le technicien en chef Breyson Bayu. Je dois lui parler et tenter de le convaincre de me donner le code de chiffrement pour les données du réseau conducteur.
+      - Language: Italian
+        String: Ho trovato il capo tecnico Breyson Bayu. Dovrei parlargli e cercare di convincerlo a darmi il cifrario per i dati della griglia di conduzione.
+      - Language: Japanese
+        String: 主任技術者のブレイソン・バユーを見つけた。彼を説得して、コンダクショングリッドの暗号解読キーを渡してもらおう
+      - Language: Polish
+        String: Udało mi się zlokalizować głównego technika, Breysona Bayu. Muszę z nim porozmawiać i go przekonać, aby dał mi klucz kodujący do odszyfrowania danych sieci przewodzącej.
+      - Language: Portuguese_Brazil
+        String: Localizei o técnico-chefe Breyson Bayu. Preciso falar com ele e tentar convencê-lo a me entregar o encriptador para usar nos dados da rede condutora.
+      - Language: ChineseSimplified
+        String: 我已经找到了首席技术员布瑞森·巴尤。我应该和他谈谈，设法说服他把输电网格数据的加密密码给我。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 155
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Breyson Bayu Combat Blocker
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 160
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Breyson Done (Normal) - Upload Virus
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 165
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Breyson Idea Given
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 175
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Cipher Object Picked Up - Decrypt Data/Upload Virus
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe Breyson Bayus Verschlüsselungscode erhalten. Ich sollte jetzt auf seinen Computer zugreifen, um die Verteilernetz-Daten zu entschlüsseln und den Virus hochzuladen, den Estelle Vincent mir gegeben hat.
+      - Language: English
+        String: I've obtained the Encryption Cipher from Breyson Bayu. I should now access his computer to both decrypt the Conduction Grid data, and upload the virus Estelle Vincent provided.
+      - Language: Spanish
+        String: Breyson Bayu me ha proporcionado la clave de encriptación. Ahora debería acceder a su ordenador para descifrar los datos de la red de conducción y cargar el virus que me dio Estelle Vincent.
+      - Language: French
+        String: J'ai obtenu le code de chiffrement de Breyson Bayu. Je dois maintenant accéder à son ordinateur pour déchiffrer les données du réseau conducteur et télécharger le virus que m'a fourni Estelle Vincent.
+      - Language: Italian
+        String: Ho ottenuto il cifrario da Breyson Bayu. Ora dovrei accedere al suo computer per decodificare i dati della griglia di conduzione e caricare il virus fornitomi da Estelle Vincent.
+      - Language: Japanese
+        String: ブレイソン・バユーから暗号解読キーを入手した。後は彼のコンピューターを使ってコンダクショングリッドのデータを解読し、エステル・ヴィンセントのウイルスをアップロードしよう
+      - Language: Polish
+        String: Mam klucz kodujący od Breysona Bayu. Pora użyć jego komputera, aby odszyfrować dane sieci przewodzącej i wgrać wirusa od Estelle Vincent.
+      - Language: Portuguese_Brazil
+        String: Consegui o encriptador com Breyson Bayu. Agora preciso acessar o computador dele para decodificar os dados da rede condutora e inserir o vírus que Estelle Vincent me deu.
+      - Language: ChineseSimplified
+        String: 我已经从布瑞森·巴尤那里得到了加密密码，现在我应该打开他的电脑，破译输电网格数据并上传埃斯特尔·文森特提供的病毒。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 180
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Decrypt Conduction Grid Data
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 185
+  LogEntries:
+  - Flags: []
+    Note: Virus Uploaded
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 190
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Done in Generdyne - Return to Estelle
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Verteilernetz-Daten entschlüsselt und Estelle Vincents Virus auf Generdynes Mainframe hochgeladen. Ich sollte mich bei der Astral Lounge mit Estelle Vincent treffen.
+      - Language: English
+        String: I've decrypted the Conduction Grid data and uploaded Estelle Vincent's virus to Generdyne's mainframe. I should now meet Estelle Vincent at the Astral Lounge.
+      - Language: Spanish
+        String: Descifré los datos de la red de conducción y cargué el virus de Estelle Vincent en la unidad principal de Generdyne. Ahora debería reunirme con Estelle Vincent en el Astral Lounge.
+      - Language: French
+        String: J'ai déchiffré les données du réseau conducteur et téléchargé le virus d'Estelle Vincent sur l'ordinateur principal de Generdyne. Je dois maintenant retrouver Estelle Vincent dans l'Astral Lounge.
+      - Language: Italian
+        String: Ho decodificato i dati della griglia di conduzione e caricato il virus di Estelle Vincent sul mainframe della Generdyne. Non mi resta che incontrare Estelle Vincent all’Astral Lounge.
+      - Language: Japanese
+        String: コンダクショングリッドのデータを解読して、エステル・ヴィンセントのウイルスをジェネルダインのメインフレームにアップロードした。アストラル・ラウンジでエステル・ヴィンセントと会おう
+      - Language: Polish
+        String: Dane sieci przewodzącej są odszyfrowane, a wirus Estelle Vincent trafił do głównego komputera Generdyne'a. Teraz muszę spotkać się z Estelle Vincent w Astral Lounge.
+      - Language: Portuguese_Brazil
+        String: Decodifiquei os dados da rede condutora e inseri o vírus de Estelle Vincent no mainframe da Generdyne. Agora preciso me encontrar com a Estelle no Astral Lounge.
+      - Language: ChineseSimplified
+        String: 我已经破译了输电网格的数据，并将埃斯特尔·文森特的病毒上传至捷能戴的主机里。我现在应该去星光酒廊与埃斯特尔·文森特见面。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 195
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =COMBAT STARTED IN GENERDYNE=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  LogEntries:
+  - Flags: []
+    Note: Returned to Estelle - Speak to Benjamin Bayu
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin an dem Treffpunkt bei der Astral Lounge angekommen, den ich mit Estelle vereinbart hatte, und unerwartet auf Benjamin Bayu gestoßen. Ich sollte herausfinden, was er von mir will.
+      - Language: English
+        String: I've arrived at my predetermined meeting spot with Estelle at the Astral Lounge, and have unexpectedly run into Benjamin Bayu. I should see what he wants.
+      - Language: Spanish
+        String: Al llegar al lugar del Astral Lounge donde me cité con Estelle, me he topado de improvisto con Benjamin Bayu. Debería averiguar qué quiere.
+      - Language: French
+        String: J'ai atteint le lieu de rendez-vous convenu avec Estelle dans l'Astral Lounge, où j'ai rencontré par hasard Benjamin Bayu. Je devrais aller voir ce qu'il veut.
+      - Language: Italian
+        String: Sono all’Astral Lounge, nel luogo prestabilito per l’incontro con Estelle, e ho incontrato inaspettatamente Benjamin Bayu. Devo sentire cosa vuole.
+      - Language: Japanese
+        String: アストラル・ラウンジでエステルとの合流場所に到着すると、ベンジャミン・バユーに出くわした。彼の用件を聞いてみよう
+      - Language: Polish
+        String: Jestem w miejscu, w którym mam spotkać się z Estelle w Astral Lounge. Niespodziewanie wpadliśmy na siebie z Benjaminem Bayu. Zobaczmy, czego chce.
+      - Language: Portuguese_Brazil
+        String: Cheguei ao Astral Lounge para encontrar Estelle, como combinado, e acabei me deparando com o Benjamin Bayu. É melhor ver o que ele quer.
+      - Language: ChineseSimplified
+        String: 我已到达星光酒廊，也就是和埃斯特尔约定的见面地点，结果意外撞见了本杰明·巴尤。我应该看看他有何企图。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 205
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Benjamin Bayu - Forcegreet Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 77
+  LogEntries:
+  - Flags: []
+    Note: Gave up Estelle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Gave up Breyson
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 225
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Gave up Self
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 227
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Choice has been made
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 230
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 01BD20:Starfield.esm
+        SecondParameter: 210
+      ComparisonValue: 1
+    Note: Done Speaking to Benjamin Bayu - Leave Neon
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Benjamin Bayu hat mich bei der Astral Lounge überrumpelt. Er hat mich auf den Virus angesprochen und wollte wissen, woher er stammt. Ich habe angedeutet, dass Estelle Vincent etwas damit zu tun hat und habe die Erlaubnis erhalten, Neon zu verlassen.
+      - Language: English
+        String: I was ambushed by Administrator Benjamin Bayu at the Astral Lounge. He confronted me about the virus, demanding to know its origins. I've implicated Estelle Vincent, and now I've been allowed to leave Neon.
+      - Language: Spanish
+        String: El administrador Benjamin Bayu me abordó en el Astral Lounge. Me pidió explicaciones acerca del virus y exigió conocer sus orígenes. Le dije que Estelle Vincent era la culpable. Ahora tengo permiso para irme de Neón.
+      - Language: French
+        String: Benjamin Bayu m'a tendu une embuscade dans l'Astral Lounge. Il m'a dit qu'il savait pour le virus et m'a demandé de révéler son origine. J'ai dit qu'Estelle Vincent était la coupable, et j'ai obtenu l'autorisation de quitter Néon.
+      - Language: Italian
+        String: L’amministratore Benjamin Bayu mi ha teso un’imboscata all’Astral Lounge. Mi ha chiesto del virus, pretendendo di conoscerne le origini. Gli ho detto che la responsabile è Estelle Vincent, quindi mi è stato concesso di lasciare Neon.
+      - Language: Japanese
+        String: アストラル・ラウンジでベンジャミン・バユー行政官の待ち伏せを受けた。ウイルスの件で問い詰められ、どこで入手したのか聞かれた。エステル・ヴィンセントが犯人だと伝えた。ネオンを離れる許可を得た
+      - Language: Polish
+        String: Administrator Benjamin Bayu przygotował na mnie zasadzkę w Astral Lounge i zażądał informacji o źródle wirusa. Dowiedział się ode mnie, że za wszystkim stoi Estelle Vincent. Mogę teraz opuścić Neon.
+      - Language: Portuguese_Brazil
+        String: Sofri uma emboscada do administrador Benjamin Bayu no Astral Lounge. Ele me confrontou sobre o vírus e exigiu saber a origem dele. Eu botei a culpa em Estelle Vincent e agora já posso ir embora de Neon.
+      - Language: ChineseSimplified
+        String: 在星光酒廊，我中了行政官本杰明·巴尤的埋伏。他就病毒问题质问我，要求我说出源头。我揭发了埃斯特尔·文森特，现在我获准可以离开霓虹城了。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 01BD20:Starfield.esm
+        SecondParameter: 220
+      ComparisonValue: 1
+    Note: Done Speaking to Benjamin Bayu - Speak to Estelle
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Benjamin Bayu hat mich bei der Astral Lounge überrumpelt. Er hat mich auf den Virus angesprochen und wollte wissen, woher er stammt. Ich habe angedeutet, dass Breyson Bayu etwas damit zu tun hat. Ich sollte zu Estelle Vincent zurückkehren.
+      - Language: English
+        String: I was ambushed by Administrator Benjamin Bayu at the Astral Lounge. He confronted me about the virus, demanding to know its origins. I've implicated Breyson Bayu as the culprit, and should now return to Estelle Vincent.
+      - Language: Spanish
+        String: El administrador Benjamin Bayu me abordó en el Astral Lounge. Me pidió explicaciones acerca del virus y exigió conocer sus orígenes. Le dije que Breyson Bayu era el culpable. Ahora debería volver con Estelle Vincent.
+      - Language: French
+        String: Benjamin Bayu m'a tendu une embuscade dans l'Astral Lounge. Il m'a dit qu'il savait pour le virus et m'a demandé de révéler son origine. J'ai dit que Breyson Bayu était le coupable. Je dois retourner voir Estelle Vincent.
+      - Language: Italian
+        String: L’amministratore Benjamin Bayu mi ha teso un’imboscata all’Astral Lounge. Mi ha chiesto del virus, pretendendo di conoscerne le origini. Gli ho detto che il responsabile è Breyson Bayu. Ora non mi resta che tornare da Estelle Vincent.
+      - Language: Japanese
+        String: アストラル・ラウンジでベンジャミン・バユー行政官の待ち伏せを受けた。ウイルスの件で問い詰められ、どこで入手したのか聞かれた。ブレイソン・バユーが犯人だと伝えた。エステル・ヴィンセントのところへ戻る
+      - Language: Polish
+        String: Administrator Benjamin Bayu przygotował na mnie zasadzkę w Astral Lounge i zażądał informacji o źródle wirusa. Dowiedział się ode mnie, że za wszystkim stoi Breyson Bayu. Muszę wrócić do Estelle Vincent.
+      - Language: Portuguese_Brazil
+        String: Sofri uma emboscada do administrador Benjamin Bayu no Astral Lounge. Ele me confrontou sobre o vírus e exigiu saber a origem dele. Eu botei a culpa em Breyson Bayu e agora preciso voltar até Estelle Vincent.
+      - Language: ChineseSimplified
+        String: 在星光酒廊，我中了行政官本杰明·巴尤的埋伏。他就病毒问题质问我，要求我说出源头。我表明布瑞森·巴尤就是罪魁祸首，现在应该回去找埃斯特尔·文森特。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 01BD20:Starfield.esm
+        SecondParameter: 225
+      ComparisonValue: 1
+    Note: Done Speaking to Benjamin Bayu - Speak to Estelle
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Benjamin Bayu hat mich bei der Astral Lounge überrumpelt. Er hat mich auf den Virus angesprochen und wollte wissen, woher er stammt. Ich habe angedeutet, dass ich damit zu tun habe. Ich sollte zu Estelle Vincent zurückkehren und Neon so schnell wie möglich verlassen.
+      - Language: English
+        String: I was ambushed by Administrator Benjamin Bayu at the Astral Lounge. He confronted me about the virus, demanding to know its origins. I've implicated myself as the culprit, and should now return to Estelle Vincent then leave Neon as fast as possible.
+      - Language: Spanish
+        String: El administrador Benjamin Bayu me abordó en el Astral Lounge. Me pidió explicaciones acerca del virus y exigió conocer sus orígenes. Cargué con las culpas, así que debería volver con Estelle Vincent y salir de Neón lo antes posible.
+      - Language: French
+        String: Benjamin Bayu m'a tendu une embuscade dans l'Astral Lounge. Il m'a dit qu'il savait pour le virus et m'a demandé de révéler son origine. J'ai décidé de porter le chapeau et de ne donner le nom de personne d'autre. Je dois retourner voir Estelle Vincent et quitter Néon le plus vite possible.
+      - Language: Italian
+        String: L’amministratore Benjamin Bayu mi ha teso un’imboscata all’Astral Lounge. Mi ha chiesto del virus, pretendendo di conoscerne le origini. Gli ho detto che la responsabilità è tutta mia. Ora non mi resta che tornare da Estelle Vincent e lasciare Neon il più velocemente possibile.
+      - Language: Japanese
+        String: アストラル・ラウンジでベンジャミン・バユー行政官の待ち伏せを受けた。ウイルスの件で問い詰められ、どこで入手したのか聞かれた。自分が犯人だと伝えた。エステル・ヴィンセントのところへ戻って、すぐにネオンを離れる
+      - Language: Polish
+        String: Administrator Benjamin Bayu przygotował na mnie zasadzkę w Astral Lounge i zażądał informacji o źródle wirusa. Dowiedział się ode mnie, że to ja za wszystkim stoję. Muszę wrócić do Estelle Vincent oraz jak najszybciej opuścić Neon.
+      - Language: Portuguese_Brazil
+        String: Sofri uma emboscada do administrador Benjamin Bayu no Astral Lounge. Ele me confrontou sobre o vírus e exigiu saber a origem dele. Eu assumi a culpa e agora preciso voltar até Estelle Vincent e ir embora de Neon o quanto antes.
+      - Language: ChineseSimplified
+        String: 在星光酒廊，我中了行政官本杰明·巴尤的埋伏。他就病毒问题质问我，要求我说出源头。我表明自己就是罪魁祸首，现在应该回去找埃斯特尔·文森特，然后尽快离开霓虹城。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Note: Done Speaking to Benjamin Bayu - Release player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 235
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Estelle Located - Speak to Estelle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 240
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Estelle Low Amount Paid
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Estelle Medium Amount Paid
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 260
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Estelle High Amount Paid
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 270
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Estelle No Amount Paid
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 280
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 01BD20:Starfield.esm
+        SecondParameter: 210
+    Note: Done Speaking to Estelle - Return to the Key
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mit Estelle Vincent gesprochen und alles erledigt, was ich in Neon zu tun hatte. Ich sollte zum Schlüssel springen und Delgado und Naeva die Verteilernetz-Daten geben.
+      - Language: English
+        String: I've spoken to Estelle Vincent and wrapped up my business in Neon. I should now grav jump to the Key and hand over the Conduction Grid data to Delgado and Naeva.
+      - Language: Spanish
+        String: Hablé con Estelle Vincent y zanjé mis asuntos en Neón. Ahora debería hacer un salto gravitacional hasta la Llave para entregar los datos de la red de conducción a Delgado y Naeva.
+      - Language: French
+        String: J'ai parlé à Estelle Vincent et mis fin à ce que j'avais à faire à Néon. Je n'ai plus qu'à m'astroporter vers la Clé et remettre les données du réseau conducteur à Delgado et Naeva.
+      - Language: Italian
+        String: Ho parlato con Estelle Vincent e concluso i miei affari a Neon. Non mi resta che gravisaltare verso la Chiave e consegnare i dati della griglia di conduzione a Delgado e Naeva.
+      - Language: Japanese
+        String: エステル・ヴィンセントと話して、ネオンの問題にけりをつけた。〈キー〉へグラヴ・ジャンプして、コンダクショングリッドのデータをデルガドとネイヴァに渡そう
+      - Language: Polish
+        String: Mam za sobą rozmowę z Estelle Vincent. Wszystkie sprawy w Neonie zostały załatwione. Teraz muszę wykonać skok grawitonowy do Klucza i przekazać dane sieci przewodzącej Delgado oraz Naevie.
+      - Language: Portuguese_Brazil
+        String: Falei com Estelle Vincent e encerrei os assuntos que eu tinha para tratar em Neon. Agora preciso dobrar para a Chave e entregar os dados sobre a rede condutora ao Delgado e à Naeva.
+      - Language: ChineseSimplified
+        String: 我已经和埃斯特尔·文森特谈过了，并结束了我在霓虹城的工作。我现在应该重力跃迁至星钥站，把输电网格数据交给德尔加多和纳伊娃。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 01BD20:Starfield.esm
+        SecondParameter: 210
+      ComparisonValue: 1
+    Note: Done Speaking to Bayu - Return directly to the Key
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: =KEY SEGMENT=
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player at Key - Speak to Delgado
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Delgado isn't there - Speak with Naeva
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin auf dem Schlüssel angekommen. Ich sollte mit Naeva Mora sprechen, die ungeduldig auf meine Ankunft wartet.
+      - Language: English
+        String: I've arrived aboard the Key. I should now speak to Naeva Mora, who appears to be impatiently awaiting my arrival.
+      - Language: Spanish
+        String: He llegado a bordo de la Llave. Al parecer, Naeva Mora esperaba mi regreso con impaciencia. Tengo que hablar con ella.
+      - Language: French
+        String: Me voilà à bord de la Clé. Je dois aller voir Naeva Mora, qui semble attendre mon arrivée avec impatience.
+      - Language: Italian
+        String: Sono a bordo della Chiave. Devo parlare con Naeva Mora, che sembra aver atteso il mio arrivo con impazienza.
+      - Language: Japanese
+        String: 〈キー〉に乗り込んだ。次は、こちらの到着を待ちわびていた様子のネイヴァ・モーラと話をしよう
+      - Language: Polish
+        String: Jestem na Kluczu. Muszę porozmawiać z Naevą Morą, która z niecierpliwością wyczekuje mojego przybycia.
+      - Language: Portuguese_Brazil
+        String: Estou a bordo da Chave. Agora preciso falar com Naeva Mora, que parece estar aguardando ansiosamente a minha chegada.
+      - Language: ChineseSimplified
+        String: 我已抵达星钥站。我应当同纳伊娃·摩拉谈谈，她好像等我等得不耐烦了。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Crime Timer Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 450
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Call Crime
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Crime Called
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Done
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Als ich mit den Verteilernetz-Daten, die ich in Neon erhalten habe, zum Schlüssel zurückgekehrt bin, wurde ich über einen Notfall informiert. Delgado muss unverzüglich mit mir sprechen.
+      - Language: English
+        String: Upon arriving at the Key with the Conduction Grid data I acquired in Neon, I've been informed that there's some sort of emergency and Delagdo needs to speak to me immediately.
+      - Language: Spanish
+        String: Al llegar a la Llave con los datos de la red de conducción que conseguí en Neón, me informaron de que había algún tipo de emergencia y de que Delgado quería hablar conmigo de inmediato.
+      - Language: French
+        String: Juste après mon arrivée sur la Clé avec les données du réseau conducteur récupérées à Néon, j'ai appris qu'il y avait une espèce d'urgence et que Delgado voulait me parler sans délai.
+      - Language: Italian
+        String: All’arrivo sulla Chiave con i dati della griglia di conduzione acquisiti a Neon, mi hanno informato che c’è una sorta di emergenza e che Delgado ha bisogno di parlarmi immediatamente.
+      - Language: Japanese
+        String: ネオンで入手したコンダクショングリッドのデータを持って〈キー〉に到着すると、何らかの緊急事態が発生したと知らされた。すぐにデルガドに話を聞こう
+      - Language: Polish
+        String: Po przybyciu na Klucz ze zdobytymi w Neonie danymi sieci przewodzącej poinformowano mnie, że nastąpiła jakaś wyjątkowa sytuacja i Delgado chce natychmiast ze mną porozmawiać.
+      - Language: Portuguese_Brazil
+        String: Ao chegar à Chave com os dados que obtive em Neon sobre a rede condutora, recebi a informação de que estamos com algum tipo de emergência e que o Delgado precisa falar comigo imediatamente.
+      - Language: ChineseSimplified
+        String: 当我带着从霓虹城得到的输电网格数据抵达星钥站时，我得到通知，说是出现了紧急情况，德尔加多要立即见我。
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 0DF3DD:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B0E:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Reise nach Neon.
+    - Language: English
+      String: Travel to Neon
+    - Language: Spanish
+      String: Viaja a Neón.
+    - Language: French
+      String: Voyagez jusqu'à Néon.
+    - Language: Italian
+      String: Raggiungi Neon
+    - Language: Japanese
+      String: ネオンへ向かう
+    - Language: Polish
+      String: Udaj się do Neonu
+    - Language: Portuguese_Brazil
+      String: Viaje para Neon
+    - Language: ChineseSimplified
+      String: 前往霓虹城
+  Targets:
+  - AliasID: 26
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zu Madame Sauvage's Place.
+    - Language: English
+      String: Proceed to Madame Sauvage's Place
+    - Language: Spanish
+      String: Continúa hasta Madame Sauvage's Place.
+    - Language: French
+      String: Rendez-vous chez Madame Sauvage.
+    - Language: Italian
+      String: Raggiungi il Madame Sauvage
+    - Language: Japanese
+      String: マダム・ソバージュの店へ進む
+    - Language: Polish
+      String: Udaj się do Madame Sauvage's Place
+    - Language: Portuguese_Brazil
+      String: Vá para o Madame Sauvage's
+    - Language: ChineseSimplified
+      String: 前往索维奇夫人酒吧
+  Targets:
+  - AliasID: 1
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Estelle Vincent.
+    - Language: English
+      String: Speak to Estelle Vincent
+    - Language: Spanish
+      String: Habla con Estelle Vincent.
+    - Language: French
+      String: Parlez à Estelle Vincent.
+    - Language: Italian
+      String: Parla con Estelle Vincent
+    - Language: Japanese
+      String: エステル・ヴィンセントと話す
+    - Language: Polish
+      String: Porozmawiaj z Estelle Vincent
+    - Language: Portuguese_Brazil
+      String: Fale com Estelle Vincent
+    - Language: ChineseSimplified
+      String: 与埃斯特尔·文森特交谈
+  Targets:
+  - AliasID: 1
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Befrage Myka zu Ayumi Komiko.
+    - Language: English
+      String: Ask Myka about Ayumi Komiko’s whereabouts
+    - Language: Spanish
+      String: Pregunta a Myka acerca del paradero de Ayumi Komiko.
+    - Language: French
+      String: Demandez à Myka où se trouve Ayumi Komiko.
+    - Language: Italian
+      String: Chiedi a Myka degli spostamenti di Ayumi Komiko
+    - Language: Japanese
+      String: マイカからアユミ・コミコの居場所を聞き出す
+    - Language: Polish
+      String: Zapytaj Mykę o to, gdzie znajduje się Ayumi Komiko
+    - Language: Portuguese_Brazil
+      String: Pergunte o paradeiro de Ayumi Komiko para Myka
+    - Language: ChineseSimplified
+      String: 从麦卡那里打听小神子亚由美的下落
+  Targets:
+  - AliasID: 13
+- Index: 45
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Beschaffe dir den Generdyne-Zugangspass von Ayumi Komiko.
+    - Language: English
+      String: Acquire the Generdyne Passkey from Ayumi Komiko
+    - Language: Spanish
+      String: Consigue el pase de Generdyne de Ayumi Komiko.
+    - Language: French
+      String: Obtenez le code d'accès de Generdyne d'Ayumi Komiko.
+    - Language: Italian
+      String: Ottieni la chiave d’accesso Generdyne da Ayumi Komiko
+    - Language: Japanese
+      String: アユミ・コミコからジェネルダインのパスキーを入手する
+    - Language: Polish
+      String: Zdobądź przepustkę Ayumi Komiko
+    - Language: Portuguese_Brazil
+      String: Obtenha o passe da Generdyne com Ayumi Komiko
+    - Language: ChineseSimplified
+      String: 从小神子亚由美那里取得捷能戴的密钥
+  Targets:
+  - AliasID: 2
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Finde Beweise, mit denen du Ayumi Komiko erpressen kannst.
+    - Language: English
+      String: (Optional) Locate Evidence to Extort Ayumi Komiko
+    - Language: Spanish
+      String: (Opcional) Encuentra pruebas para extorsionar a Ayumi Komiko.
+    - Language: French
+      String: (Optionnel) Trouvez des preuves pour faire chanter Ayumi Komiko.
+    - Language: Italian
+      String: (Opzionale) Trova le prove per ricattare Ayumi Komiko
+    - Language: Japanese
+      String: (オプション)アユミ・コミコを脅すために使える証拠を探す
+    - Language: Polish
+      String: (Opcj.) Odszukaj dowody, aby zaszantażować Ayumi Komiko
+    - Language: Portuguese_Brazil
+      String: (Opc.) Ache evidências para extorquir Ayumi Komiko
+    - Language: ChineseSimplified
+      String: （可选）找到可勒索小神子亚由美的证据
+  Targets:
+  - AliasID: 25
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 01BD20:Starfield.esm
+        SecondParameter: 42
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 01BD20:Starfield.esm
+        SecondParameter: 43
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        Unknown3: 25
+  - AliasID: 39
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 01BD20:Starfield.esm
+        SecondParameter: 42
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 01BD20:Starfield.esm
+        SecondParameter: 43
+  - AliasID: 39
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 01BD20:Starfield.esm
+        SecondParameter: 42
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 01BD20:Starfield.esm
+        SecondParameter: 43
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDistanceConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 39
+      ComparisonValue: 15
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Töte Ayumi Komiko.
+    - Language: English
+      String: (Optional) Kill Ayumi Komiko
+    - Language: Spanish
+      String: (Opcional) Mata a Ayumi Komiko.
+    - Language: French
+      String: (Optionnel) Tuez Ayumi Komiko.
+    - Language: Italian
+      String: (Opzionale) Elimina Ayumi Komiko
+    - Language: Japanese
+      String: (オプション)アユミ・コミコを倒す
+    - Language: Polish
+      String: (Opcj.) Zabij Ayumi Komiko
+    - Language: Portuguese_Brazil
+      String: (Opc.) Mate Ayumi Komiko
+    - Language: ChineseSimplified
+      String: （可选）击杀小神子亚由美
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Verwende die Beweise, um Ayumi Komiko zu erpressen.
+    - Language: English
+      String: (Optional) Use Evidence to Extort Ayumi Komiko
+    - Language: Spanish
+      String: (Opcional) Usa las pruebas para extorsionar a Ayumi Komiko.
+    - Language: French
+      String: (Optionnel) Utilisez les preuves pour faire chanter Ayumi Komiko.
+    - Language: Italian
+      String: (Opzionale) Usa le prove per ricattare Ayumi Komiko
+    - Language: Japanese
+      String: (オプション)証拠を使ってアユミ・コミコを脅す
+    - Language: Polish
+      String: (Opcj.) Użyj dowodów, aby zaszantażować Ayumi Komiko
+    - Language: Portuguese_Brazil
+      String: (Opc.) Use evidências para extorquir Ayumi Komiko
+    - Language: ChineseSimplified
+      String: （可选）利用证据勒索小神子亚由美
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Verschaffe dir über den Eingang zum Lager Zugang zu Generdyne.
+    - Language: English
+      String: Enter Generdyne through the Storage Entrance
+    - Language: Spanish
+      String: Accede a Generdyne por la entrada del almacén.
+    - Language: French
+      String: Entrez dans Generdyne via l'entrée du stockage.
+    - Language: Italian
+      String: Entra alla Generdyne attraverso l’ingresso del magazzino
+    - Language: Japanese
+      String: 貨物搬入口からジェネルダインへ入る
+    - Language: Polish
+      String: Wejdź do Generdyne'a przez wejście magazynowe
+    - Language: Portuguese_Brazil
+      String: Entre na Generdyne pelo depósito
+    - Language: ChineseSimplified
+      String: 通过储藏室入口进入捷能戴
+  Targets:
+  - AliasID: 17
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Begib dich zu Generdynes Energiekern.
+    - Language: English
+      String: Proceed to Generdyne's Power Core
+    - Language: Spanish
+      String: Continúa hasta el núcleo de energía de Generdyne.
+    - Language: French
+      String: Allez au noyau de Generdyne.
+    - Language: Italian
+      String: Raggiungi il nucleo energetico della Generdyne
+    - Language: Japanese
+      String: ジェネルダインのパワーコアへ進む
+    - Language: Polish
+      String: Udaj się do rdzenia mocy Generdyne'a
+    - Language: Portuguese_Brazil
+      String: Vá para o núcleo de energia da Generdyne
+    - Language: ChineseSimplified
+      String: 前往捷能戴的能量核心
+  Targets:
+  - AliasID: 27
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 183F61:Starfield.esm
+      ComparisonValue: 200
+  - AliasID: 40
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 183F61:Starfield.esm
+      ComparisonValue: 250
+  - AliasID: 28
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 183F61:Starfield.esm
+      ComparisonValue: 300
+  - AliasID: 29
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 183F61:Starfield.esm
+      ComparisonValue: 400
+  - AliasID: 30
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 183F61:Starfield.esm
+      ComparisonValue: 500
+  - AliasID: 14
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 183F61:Starfield.esm
+      ComparisonValue: 600
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Beschaffe die Verteilernetz-Daten.
+    - Language: English
+      String: Obtain the Conduction Grid Data
+    - Language: Spanish
+      String: Consigue los datos de la red de conducción.
+    - Language: French
+      String: Obtenez les données du réseau conducteur.
+    - Language: Italian
+      String: Ottieni i dati della griglia di conduzione
+    - Language: Japanese
+      String: コンダクショングリッドのデータを入手する
+    - Language: Polish
+      String: Zdobądź dane sieci przewodzącej
+    - Language: Portuguese_Brazil
+      String: Obtenha os dados da rede condutora
+    - Language: ChineseSimplified
+      String: 获取输电网格数据
+  Targets:
+  - AliasID: 14
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde Breyson Bayu.
+    - Language: English
+      String: Locate Breyson Bayu
+    - Language: Spanish
+      String: Localiza a Breyson Bayu.
+    - Language: French
+      String: Localisez Breyson Bayu.
+    - Language: Italian
+      String: Trova Breyson Bayu
+    - Language: Japanese
+      String: ブレイソン・バユーを探す
+    - Language: Polish
+      String: Odszukaj Breysona Bayu
+    - Language: Portuguese_Brazil
+      String: Localize Breyson Bayu
+    - Language: ChineseSimplified
+      String: 找到布瑞森·巴尤
+  Targets:
+  - AliasID: 32
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 183F61:Starfield.esm
+      ComparisonValue: 700
+  - AliasID: 8
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageConditionData
+        FirstParameter: 183F61:Starfield.esm
+      ComparisonValue: 800
+- Index: 130
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Beschaffe den Verschlüsselungscode von Breyson Bayu.
+    - Language: English
+      String: Gain the Encryption Cipher from Breyson Bayu
+    - Language: Spanish
+      String: Consigue la clave de encriptación de Breyson Bayu.
+    - Language: French
+      String: Obtenez le code de déchiffrement de Breyson Bayu.
+    - Language: Italian
+      String: Acquisisci il cifrario da Breyson Bayu
+    - Language: Japanese
+      String: ブレイソン・バユーから暗号解読キーを入手する
+    - Language: Polish
+      String: Zdobądź szyfr kodujący od Breysona Bayu
+    - Language: Portuguese_Brazil
+      String: Obtenha o encriptador com Breyson Bayu
+    - Language: ChineseSimplified
+      String: 从布瑞森·巴尤那里得到加密密码
+  Targets:
+  - AliasID: 8
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Entschlüssle die Verteilernetz-Daten.
+    - Language: English
+      String: Decrypt the Conduction Grid Data
+    - Language: Spanish
+      String: Descifra los datos de la red de conducción.
+    - Language: French
+      String: Déchiffrez les données du réseau conducteur.
+    - Language: Italian
+      String: Decodifica i dati della griglia di conduzione
+    - Language: Japanese
+      String: コンダクショングリッドのデータを解読する
+    - Language: Polish
+      String: Odszyfruj dane sieci przewodzącej
+    - Language: Portuguese_Brazil
+      String: Decodifique os dados da rede condutora
+    - Language: ChineseSimplified
+      String: 破译输电网格数据
+  Targets:
+  - AliasID: 16
+- Index: 160
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Lade Estelles Virus hoch.
+    - Language: English
+      String: Upload Estelle's virus
+    - Language: Spanish
+      String: Carga el virus de Estelle.
+    - Language: French
+      String: Téléchargez le virus d'Estelle.
+    - Language: Italian
+      String: Carica il virus di Estelle
+    - Language: Japanese
+      String: エステルのウイルスをアップロードする
+    - Language: Polish
+      String: Wgraj wirusa Estelle
+    - Language: Portuguese_Brazil
+      String: Insira o vírus da Estelle
+    - Language: ChineseSimplified
+      String: 上传埃斯特尔的病毒
+  Targets:
+  - AliasID: 16
+- Index: 170
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kehre zu Estelle zurück.
+    - Language: English
+      String: Return to Estelle
+    - Language: Spanish
+      String: Vuelve con Estelle.
+    - Language: French
+      String: Retournez voir Estelle.
+    - Language: Italian
+      String: Torna da Estelle
+    - Language: Japanese
+      String: エステルのところに戻る
+    - Language: Polish
+      String: Wróć do Estelle
+    - Language: Portuguese_Brazil
+      String: Volte até Estelle
+    - Language: ChineseSimplified
+      String: 回去找埃斯特尔
+  Targets:
+  - AliasID: 35
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 285EBF:Starfield.esm
+      ComparisonValue: 1
+  - AliasID: 7
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 285EBF:Starfield.esm
+- Index: 180
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Benjamin Bayu.
+    - Language: English
+      String: Speak to Benjamin Bayu
+    - Language: Spanish
+      String: Habla con Benjamin Bayu.
+    - Language: French
+      String: Parlez à Benjamin Bayu.
+    - Language: Italian
+      String: Parla con Benjamin Bayu
+    - Language: Japanese
+      String: ベンジャミン・バユーと話す
+    - Language: Polish
+      String: Porozmawiaj z Benjaminem Bayu
+    - Language: Portuguese_Brazil
+      String: Fale com Benjamin Bayu
+    - Language: ChineseSimplified
+      String: 与本杰明·巴尤交谈
+  Targets:
+  - AliasID: 7
+- Index: 190
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Finde Estelle in Madame Sauvage's Place.
+    - Language: English
+      String: Locate Estelle at Madame Sauvage's Place
+    - Language: Spanish
+      String: Localiza a Estelle en Madame Sauvage's Place.
+    - Language: French
+      String: Localisez Estelle chez Madame Sauvage.
+    - Language: Italian
+      String: Trova Estelle al Madame Sauvage
+    - Language: Japanese
+      String: マダム・ソバージュの店でエステルを探す
+    - Language: Polish
+      String: Odszukaj Estelle w Madame Sauvage's Place
+    - Language: Portuguese_Brazil
+      String: Localize Estelle no Madame Sauvage's
+    - Language: ChineseSimplified
+      String: 在索维奇夫人酒吧找到埃斯特尔
+  Targets:
+  - AliasID: 1
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Estelle.
+    - Language: English
+      String: Speak to Estelle
+    - Language: Spanish
+      String: Habla con Estelle.
+    - Language: French
+      String: Parlez à Estelle.
+    - Language: Italian
+      String: Parla con Estelle
+    - Language: Japanese
+      String: エステルと話す
+    - Language: Polish
+      String: Porozmawiaj z Estelle
+    - Language: Portuguese_Brazil
+      String: Fale com Estelle
+    - Language: ChineseSimplified
+      String: 与埃斯特尔交谈
+  Targets:
+  - AliasID: 1
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kehre zum Schlüssel zurück.
+    - Language: English
+      String: Return to the Key
+    - Language: Spanish
+      String: Vuelve a la Llave.
+    - Language: French
+      String: Retournez à la Clé.
+    - Language: Italian
+      String: Torna alla Chiave
+    - Language: Japanese
+      String: 〈キー〉に戻る
+    - Language: Polish
+      String: Wróć na Klucz
+    - Language: Portuguese_Brazil
+      String: Volte para a Chave
+    - Language: ChineseSimplified
+      String: 返回星钥站
+  Targets:
+  - AliasID: 21
+- Index: 320
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Naeva.
+    - Language: English
+      String: Speak to Naeva
+    - Language: Spanish
+      String: Habla con Naeva.
+    - Language: French
+      String: Parlez à Naeva.
+    - Language: Italian
+      String: Parla con Naeva
+    - Language: Japanese
+      String: ネイヴァと話す
+    - Language: Polish
+      String: Porozmawiaj z Naevą
+    - Language: Portuguese_Brazil
+      String: Fale com Naeva
+    - Language: ChineseSimplified
+      String: 与纳伊娃交谈
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: CF06_TheKey
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueBaseForm: 032406:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 15
+  Name: CF06_GenerdyneLocation
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  SpecificLocation: 27CBB7:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 19
+  Name: CF06_TradeTowerGenerdyneLocation
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  SpecificLocation: 23447C:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 43
+  Name: CF06_AstralLoungeLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2CDDFB:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: CF06_Naeva
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 009138:Starfield.esm
+  PackageData:
+  - 1F68C6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: CF06_Estelle
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 279223:Starfield.esm
+  PackageData:
+  - 0BF55B:Starfield.esm
+  - 0BF55A:Starfield.esm
+  - 0BF558:Starfield.esm
+  - 1F6FC9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: CF06_Komiko
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 01BE3A:Starfield.esm
+  PackageData:
+  - 1F6FC2:Starfield.esm
+  - 0028B4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: CF06_BenjaminBayu
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 01BE38:Starfield.esm
+  CombatOverridePackageList: 298ED6:Starfield.esm
+  PackageData:
+  - 182C5B:Starfield.esm
+  - 182C5C:Starfield.esm
+  - 1F6FC5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: CF06_BreysonBayu
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 26FDF4:Starfield.esm
+  PackageData:
+  - 0DE76D:Starfield.esm
+  - 0DE76B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: CF06_Myka
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 26FDD6:Starfield.esm
+  PackageData:
+  - 001BDB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: CF06_JiNashida
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 26FDCE:Starfield.esm
+  Items:
+  - Item:
+      Item: 17ADC6:Starfield.esm
+      Count: 1
+  PackageData:
+  - 001BD7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: CF06_Receptionist
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 249C9E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: CF06_Jazz
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 01539E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: CF06_Delgado
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 015399:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: CF06_HoldingContainer
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 01BE5E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: CF06_GenerdynePass
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  - AllowReserved
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 01BE3B:Starfield.esm
+    AliasID: 3
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: CF06_Microdrive
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  - AllowReserved
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 01BE5F:Starfield.esm
+    AliasID: 3
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: CF06_Cipher
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  - AllowReserved
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 1F77DD:Starfield.esm
+    AliasID: 3
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: CF06_CGSchematicsEncypted
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  - AllowReserved
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 1F77DC:Starfield.esm
+    AliasID: 3
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: CF06_CGSchematicsDecrypted
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  - AllowReserved
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 1F77DB:Starfield.esm
+    AliasID: 3
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: CF06_ReceptionistPass
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 18279D:Starfield.esm
+    AliasID: 3
+    Create: In
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: CF06_PlansTerminal
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 15
+    RefType: 1F6FCD:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: CF06_CTTerminal
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 15
+    RefType: 1F6FCC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: CF06_Stage110Marker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 15
+    RefType: 1F6FC7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: CF06_Safe
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 19
+    RefType: 15B8C4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: CF06_Evidence_BayuGenerdyne
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  - AllowReserved
+  - CreateRefTemp
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 1E8E2A:Starfield.esm
+    AliasID: 15
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: CF06_NeonMarker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  ForcedReference: 26FB28:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: CF06_LC039_QTMarker200
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 15
+    RefType: 183F70:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: CF06_LC039_QTMarker250
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 15
+    RefType: 15B81C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: CF06_LC039_QTMarker300
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 15
+    RefType: 183F6F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: CF06_LC039_QTMarker400
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 15
+    RefType: 183F6E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: CF06_LC039_QTMarker500
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 15
+    RefType: 183F6D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: CF06_LC039_QTMarker700
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 15
+    RefType: 183F6B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 35
+  Name: CF06_LC039_ElevatorButton
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 15
+    RefType: 182D77:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 41
+  Name: EliteCrew
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - ExternalAliasLinked
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 25
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 45
+  Name: CF06_Bodyguard01
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 0021B8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: CF06_Bodyguard02
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 1BAA15:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 42
+  Name: CF06_AstralLoungeLoadDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 43
+    RefType: 05C898:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 44
+  Name: CF06_AstralLoungeBayuMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1F6FC6:Starfield.esm
+  VoiceTypes: Null

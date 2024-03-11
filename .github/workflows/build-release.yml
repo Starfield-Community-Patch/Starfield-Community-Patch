@@ -5,9 +5,9 @@ on:
   workflow_dispatch:
     inputs:
         papyrus-version:
-          description: 'Papyrus scripts version? (e.g. 1.9.51.0, Defaults to latest)'
+          description: 'Papyrus scripts version? (e.g. 1.10.30.0, Defaults to latest)'
           required: false
-          default: '1.9.51.0'
+          default: '1.10.30.0'
         version:
           description: 'Release version (defaults to "Nightly")'
           required: false

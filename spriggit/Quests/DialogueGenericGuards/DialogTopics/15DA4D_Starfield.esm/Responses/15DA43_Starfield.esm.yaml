@@ -1,0 +1,88 @@
+FormKey: 15DA43:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 5300438
+  TRDAUnknown: 4.9
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 7.066667
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 2.6000001
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 3.9
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 4.8
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 0.86666673
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 4.566667
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 2.4333334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: N'abend.
+    - Language: English
+      String: Evening.
+    - Language: Spanish
+      String: Buenas noches.
+    - Language: French
+      String: Bonsoir.
+    - Language: Italian
+      String: Buonasera.
+    - Language: Japanese
+      String: こんばんは
+    - Language: Polish
+      String: Dobry wieczór.
+    - Language: Portuguese_Brazil
+      String: Boa noite.
+    - Language: ChineseSimplified
+      String: 晚上好。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xE0255EADE14CD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 26FDEA:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 239CE5:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTimeSpanSunsetConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTimeSpanNightConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTimeSpanMidnightConditionData
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,88 @@
+FormKey: 15DA44:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 10091399
+  TRDAUnknown: 4.8
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 4.8333335
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 3.9333336
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.066667
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.2333336
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 7.3666673
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 8.533334
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 4.9
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 1.2333333
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 4.366667
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 0.26666668
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: N'abend, Ma'am.
+    - Language: English
+      String: Evening, ma'am.
+    - Language: Spanish
+      String: Buenas noches.
+    - Language: French
+      String: Bonsoir, madame.
+    - Language: Italian
+      String: Buonasera, signora.
+    - Language: Japanese
+      String: こんばんは
+    - Language: Polish
+      String: Dobry wieczór pani.
+    - Language: Portuguese_Brazil
+      String: Boa noite, senhora.
+    - Language: ChineseSimplified
+      String: 晚上好，女士。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x3013A6A0E14CD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 26FDEA:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTimeSpanSunsetConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTimeSpanNightConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTimeSpanMidnightConditionData
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 239CE6:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

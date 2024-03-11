@@ -1,0 +1,115 @@
+FormKey: 249C28:Starfield.esm
+EditorID: NOCLUTTER_Drink_Alc_ExclMenuItem_Euphorika_Chimera
+ObjectBounds:
+  First: -0.04095459, -0.04095459, 0
+  Second: 0.04095459, 0.04095459, 0.17810059
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D202:Starfield.esm
+  Workbench: 03D202:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Chimera
+  - Language: English
+    String: Chimera
+  - Language: Spanish
+    String: Chimera
+  - Language: French
+    String: Chimera
+  - Language: Italian
+    String: Chimera
+  - Language: Japanese
+    String: キメラ
+  - Language: Polish
+    String: Chimera
+  - Language: Portuguese_Brazil
+    String: Chimera
+  - Language: ChineseSimplified
+    String: 奇美拉
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF28A:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageMenu_Chimera.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 82d44b6f-dd2e-ac48-94ff-d2e90b2dff96
+DropdownSound:
+  Start: 98fc4756-55dd-c609-39b9-b315de44d9bb
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein Cocktail in der Dose, der drei verschiedene Spirituosen enthält.
+  - Language: English
+    String: A canned cocktail of three different liqueurs.
+  - Language: Spanish
+    String: Un cóctel enlatado con tres licores distintos.
+  - Language: French
+    String: Un cocktail de trois différentes liqueurs en cannette.
+  - Language: Italian
+    String: Un cocktail in lattina con tre diversi liquori.
+  - Language: Japanese
+    String: 三種類のリキュールからなる缶入りのカクテル
+  - Language: Polish
+    String: Puszkowany koktajl z trzech różnych likierów.
+  - Language: Portuguese_Brazil
+    String: Coquetel enlatado com três licores diferentes.
+  - Language: ChineseSimplified
+    String: 含有三种不同利口酒的罐装鸡尾酒。
+Weight: 0.3
+Value: 525
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 534d4d1c-5a43-05f7-75ee-feb0fa7771b5
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.1
+    Duration: 180
+  Magnitude: 2D88BD:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 6
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 50
+    Duration: 180
+  Magnitude: 2B9811:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 180
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 180
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 7

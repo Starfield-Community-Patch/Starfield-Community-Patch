@@ -1,0 +1,110 @@
+FormKey: 249C51:Starfield.esm
+EditorID: Drink_Alc_ChunksSingle_Chunks_CabernetChunkignon
+ObjectBounds:
+  First: -0.03698723, -0.037590384, -0.0020918734
+  Second: 0.03698738, 0.038154244, 0.062330734
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0664C5:Starfield.esm
+  Workbench: 0664C5:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Cabernet Kubignon
+  - Language: English
+    String: Cabernet Chunkignon
+  - Language: Spanish
+    String: Cabernet Chunkignon
+  - Language: French
+    String: Cabernet Crokignon
+  - Language: Italian
+    String: Cabernet Chunkignon
+  - Language: Japanese
+    String: カベルネ・チャンキニョン
+  - Language: Polish
+    String: Cabernet Chunkignon
+  - Language: Portuguese_Brazil
+    String: Cabernet Chunkignon
+  - Language: ChineseSimplified
+    String: 块餐赤霞珠
+Keywords:
+- 055ECC:Starfield.esm
+- 249C5C:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\FoodChunk\Chunk_Food_Wine_Cab.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: cb8245c9-d0fb-05dc-a73c-8edc91e6d6a5
+DropdownSound:
+  Start: 8ae049c9-1b29-2f3f-24bb-be9916c31297
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein edler synthetischer Wein in Würfelform.
+  - Language: English
+    String: A cube of synthetic fine wine.
+  - Language: Spanish
+    String: Un cubo de buen vino sintético.
+  - Language: French
+    String: Un cube de bon vin synthétique.
+  - Language: Italian
+    String: Un cubetto di pregevole vino sintetico.
+  - Language: Japanese
+    String: 合成された高級ワインのキューブ
+  - Language: Polish
+    String: Kostka syntetycznego, dobrego wina.
+  - Language: Portuguese_Brazil
+    String: Cubo de vinho fino sintético.
+  - Language: ChineseSimplified
+    String: 一块合成高级红酒。
+Resources:
+- Resource: 29B02F:Starfield.esm
+  Count: 1
+Weight: 0.3
+Value: 265
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 0.1
+    Duration: 180
+  Magnitude: 2D88BD:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 180
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 180
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

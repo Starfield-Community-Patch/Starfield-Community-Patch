@@ -1,0 +1,44 @@
+FormKey: 23FB04:Starfield.esm
+EditorID: UC_TerrormorphSupportQuest
+FormVersion: 556
+VirtualMachineAdapter:
+  Scripts:
+  - Name: UC_TerrormorphSupportScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SourceTerrormorph
+      Object: 23FB04:Starfield.esm
+      Alias: 0
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  Script:
+    Name: ''
+Data:
+  Unused: 0x000000
+UnusedConditions: []
+Stages:
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Force the player into the scene and get it playing.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: SourceTerrormorph
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Hadrian
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 29C17F:Starfield.esm
+  VoiceTypes: Null

@@ -1,0 +1,114 @@
+FormKey: 29B04E:Starfield.esm
+EditorID: Drink_Alc_DrinkPack_Crafted_ColonelsChoice
+ObjectBounds:
+  First: -0.06793213, -0.034973145, -0.0027160645
+  Second: 0.070739746, 0.03692627, 0.2163086
+ODTY: 0
+Transforms:
+  InventoryIcon: 02958C:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Colonel's Choice
+  - Language: English
+    String: Colonel's Choice
+  - Language: Spanish
+    String: Elección del coronel
+  - Language: French
+    String: Choix du colonel
+  - Language: Italian
+    String: Scelta del Colonnello
+  - Language: Japanese
+    String: カーネルズ・チョイス
+  - Language: Polish
+    String: Przysmak Pułkownika
+  - Language: Portuguese_Brazil
+    String: Escolha do Coronel
+  - Language: ChineseSimplified
+    String: 上校的选择
+Keywords:
+- 055ECC:Starfield.esm
+- 14253C:Starfield.esm
+- 2CF28A:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_ColonelsChoice.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 9c0b4bd9-94a3-2830-95b8-a81a1a60e791
+DropdownSound:
+  Start: 9f4d405b-17a2-133b-d6b8-9f02bc4afa91
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein würziger Cocktail aus Bourbon und Soße. Passt gut zu gebratenem Fleisch, insbesondere zu synthetischem Hühnchen.
+  - Language: English
+    String: A spiced cocktail of bourbon and gravy. Pairs well with fried meats, particularly with synthetic chicken.
+  - Language: Spanish
+    String: Cóctel especiado de bourbon y jugo de carne, perfecto para acompañar carnes fritas (especialmente, el pollo sintético).
+  - Language: French
+    String: Un cocktail épicé à base de bourbon et de sauce. Se marie très bien avec les viandes grillées, notamment le poulet synthétique.
+  - Language: Italian
+    String: Un cocktail speziato a base di bourbon e sugo d’arrosto. Si abbina con carni fritte, in particolare il pollo sintetico.
+  - Language: Japanese
+    String: バーボンとグレイビーソースからなる香辛料の効いたカクテル。フライにした肉、特に合成鶏肉とよく合う
+  - Language: Polish
+    String: Przyprawiony koktajl z burbonu i sosu. Dobrze łączy się ze smażonym mięsem, zwłaszcza syntetycznym kurczakiem.
+  - Language: Portuguese_Brazil
+    String: Um coquetel condimentado de uísque e molho. Combina bem com carnes fritas, especialmente galinha sintética.
+  - Language: ChineseSimplified
+    String: 用波本威士忌与肉汁做成的调味鸡尾酒，适合搭配煎炸肉食，尤其是合成鸡肉。
+Weight: 0.3
+Value: 350
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 150731:Starfield.esm
+  Data:
+    Magnitude: 5
+  Magnitude: 2B9832:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BB407:Starfield.esm
+  Data:
+    Magnitude: 12
+    Duration: 300
+  Magnitude: 2B980F:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 300
+  Magnitude: 2D87D9:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 300
+  Magnitude: 2D87D9:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 5

@@ -1,0 +1,15 @@
+<root>
+	<is_state>1</is_state>
+	<tag>WalkForward_Stop_RightFoot</tag>
+	<filename>Relaxed_WalkForward_Stop_RightFoot.af</filename>
+	<prefix>Relaxed</prefix>
+	<rampout>6</rampout>
+	<events>
+		<event><frame>0</frame><name>SyncRightFoot</name><payload></payload></event>
+		<event><frame>0</frame><name>PathingBegin</name><payload></payload></event>
+		<event><frame>8</frame><name>FootLeft</name><payload></payload></event>
+		<event><frame>28</frame><name>FootRight</name><payload></payload></event>
+		<event><frame>44</frame><name>PathingEnd</name><payload></payload></event>
+		<event><frame>48</frame><name>FootLeft</name><payload></payload></event>
+	</events>
+</root>

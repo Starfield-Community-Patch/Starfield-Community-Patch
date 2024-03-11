@@ -1,0 +1,115 @@
+FormKey: 249C1E:Starfield.esm
+EditorID: NOCLUTTER_Drink_Alc_ExclMenuItem_RedMile_RunnersRush
+ObjectBounds:
+  First: -0.034088135, -0.03408815, 4.0672603E-09
+  Second: 0.034088135, 0.03411865, 0.14843749
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0CC66F:Starfield.esm
+  Workbench: 0CC66F:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Runner's Rush
+  - Language: English
+    String: Runner's Rush
+  - Language: Spanish
+    String: Runner's Rush
+  - Language: French
+    String: Flash Jordon
+  - Language: Italian
+    String: Runner’s Rush
+  - Language: Japanese
+    String: ランナーズ・ラッシュ
+  - Language: Polish
+    String: Spurt Sprintera
+  - Language: Portuguese_Brazil
+    String: Hora do Rush
+  - Language: ChineseSimplified
+    String: 跑者快感
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF28A:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragemenu_runnersrush.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 82d44b6f-dd2e-ac48-94ff-d2e90b2dff96
+DropdownSound:
+  Start: 98fc4756-55dd-c609-39b9-b315de44d9bb
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein Cocktail aus einem Energydrink und Wodka. Gehört zur Red Mile wie Blut und Tränen.
+  - Language: English
+    String: A cocktail of an energy drink and vodka. A Red Mile staple.
+  - Language: Spanish
+    String: Un cóctel a base de bebida energética y vodka. Un clásico del Red Mile.
+  - Language: French
+    String: Un cocktail à base de boisson énergisante et de vodka. Un pilier de la Ligne rouge.
+  - Language: Italian
+    String: Un cocktail a base di energy drink e vodka. Un punto fermo del Miglio Rosso.
+  - Language: Japanese
+    String: エナジードリンクとウォッカのカクテル。レッドマイルの定番
+  - Language: Polish
+    String: Koktajl z napoju energetycznego i wódki. Standard w Czerwonej Mili.
+  - Language: Portuguese_Brazil
+    String: Coquetel de energético e vodca. Um clássico da Via Rubra.
+  - Language: ChineseSimplified
+    String: 由能量饮料与伏特加调制而成的鸡尾酒，是红里的主打饮品。
+Weight: 0.5
+Value: 155
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 534d4d1c-5a43-05f7-75ee-feb0fa7771b5
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 249C0B:Starfield.esm
+  Data:
+    Magnitude: 0.2
+    Duration: 180
+  Magnitude: 2D87CF:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 1
+  MUID: 2
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 50
+    Duration: 180
+  Magnitude: 2B9811:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 29A84D:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 180
+  Magnitude: 0B882E:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 2704CB:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 180
+  Magnitude: 0B882E:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 5

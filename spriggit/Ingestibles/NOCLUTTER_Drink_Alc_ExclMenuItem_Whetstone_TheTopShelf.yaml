@@ -1,0 +1,115 @@
+FormKey: 249C3A:Starfield.esm
+EditorID: NOCLUTTER_Drink_Alc_ExclMenuItem_Whetstone_TheTopShelf
+ObjectBounds:
+  First: -0.051086426, -0.051086426, 0
+  Second: 0.051086426, 0.051086426, 0.15185547
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Top Shelf
+  - Language: English
+    String: The Top Shelf
+  - Language: Spanish
+    String: The Top Shelf
+  - Language: French
+    String: Top Shelf
+  - Language: Italian
+    String: Il migliore
+  - Language: Japanese
+    String: トップシェルフ
+  - Language: Polish
+    String: Górna Półka
+  - Language: Portuguese_Brazil
+    String: Alto Nível
+  - Language: ChineseSimplified
+    String: 顶级酒
+Keywords:
+- 055ECC:Starfield.esm
+- 249C3E:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageMenu_TheTopShelf.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 5b3c462c-dac3-709f-dfc3-81ee3893b7bc
+DropdownSound:
+  Start: 1c6e44d4-3b2a-8880-eba3-556cc385a9b9
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein Cocktail aus Wodka, Gin und Rum, mit einem Spritzer Sour und Cola.
+  - Language: English
+    String: A vodka, gin, and rum cocktail with a splash of sour and cola.
+  - Language: Spanish
+    String: Un cóctel de vodka, ginebra y ron con un chorro de limón y cola.
+  - Language: French
+    String: Un mélange de vodka, de gin et de rhum. Avec une goutte de sour et de cola.
+  - Language: Italian
+    String: Un cocktail a base di vodka, gin e rum con un tocco di sour e cola.
+  - Language: Japanese
+    String: ウォッカ、ジン、およびラム酒のカクテル。サワーとコーラが少量加えられている
+  - Language: Polish
+    String: Koktajl z wódki, dżinu i rumu z dodatkiem kwasku i coli.
+  - Language: Portuguese_Brazil
+    String: Coquetel de vodca, gim e rum com um toque de cítricos e cola.
+  - Language: ChineseSimplified
+    String: 伏特加、金酒与朗姆酒调制而成的鸡尾酒，再加上一点酸酒与可乐。
+Weight: 0.3
+Value: 740
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: f96641c4-fd61-393a-cfc9-7f25fc5ae988
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 100
+    Duration: 180
+  Magnitude: 2B9813:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BB407:Starfield.esm
+  Data:
+    Magnitude: 8
+    Duration: 300
+  Magnitude: 2B980D:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 25
+    Duration: 300
+  Magnitude: 2D87D7:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 5

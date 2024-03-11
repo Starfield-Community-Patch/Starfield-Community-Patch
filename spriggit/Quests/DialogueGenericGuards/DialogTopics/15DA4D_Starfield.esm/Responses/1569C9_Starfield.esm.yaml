@@ -1,0 +1,85 @@
+FormKey: 1569C9:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 8496716
+  TRDAUnknown: 7.433334
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 4.9666667
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 4.566667
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 1.2666668
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 4.066667
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 7.8
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 3.966667
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 4.366667
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 0.26666668
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Woah, woah. Kannst du das Teil nicht wegstecken?
+    - Language: English
+      String: Whoa whoa. Any reason you can't holster that?
+    - Language: Spanish
+      String: Eh, eh. ¿Por qué no la guardas?
+    - Language: French
+      String: Oula. Pourquoi c'est pas rangé, ça ?
+    - Language: Italian
+      String: Ehi, ehi. C’è un motivo per cui non abbassi quell’affare?
+    - Language: Japanese
+      String: おいおい。そんなものしまったらどうだ？
+    - Language: Polish
+      String: Ejże, ejże. Dlaczego tego nie schowasz?
+    - Language: Portuguese_Brazil
+      String: Opa, opa. Algum motivo pra você não guardar isso aí?
+    - Language: ChineseSimplified
+      String: 哇哦哇哦。你就不能把那玩意在枪套里放好吗？
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x101B79EA2252D701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 05240E:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 04A0A4:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 04A0A5:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsWeaponOutConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 2
+StartScenePhase: ''
+SubtitlePriority: Low

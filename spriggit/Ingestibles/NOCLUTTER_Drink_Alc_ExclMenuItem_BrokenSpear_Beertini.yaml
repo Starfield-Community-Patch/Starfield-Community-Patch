@@ -1,0 +1,115 @@
+FormKey: 249C0D:Starfield.esm
+EditorID: NOCLUTTER_Drink_Alc_ExclMenuItem_BrokenSpear_Beertini
+ObjectBounds:
+  First: -0.050323486, -0.050323486, 0
+  Second: 0.05026245, 0.050231934, 0.1116333
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 054519:Starfield.esm
+  Workbench: 054519:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Beertini
+  - Language: English
+    String: Beertini
+  - Language: Spanish
+    String: Cervtini
+  - Language: French
+    String: Beertini
+  - Language: Italian
+    String: Beertini
+  - Language: Japanese
+    String: ビアティーニ
+  - Language: Polish
+    String: Piwtini
+  - Language: Portuguese_Brazil
+    String: Beertini
+  - Language: ChineseSimplified
+    String: 马天啤
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF28A:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageMenu_JacksBeertini.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: dff344ea-ea6d-50c5-fc05-7a80dc4ef5b7
+DropdownSound:
+  Start: ce69405a-0899-29e5-d5d2-7ffc28ae8dad
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Ein Mix aus Bier und Wodka. Schmeckt gewöhnungsbedürftig.
+  - Language: English
+    String: A mixture of beer and vodka. Definitely an acquired taste.
+  - Language: Spanish
+    String: Una mezcla de cerveza y vodka. Sin duda, un gusto adquirido.
+  - Language: French
+    String: Un mélange de bière et de vodka. Un cocktail qui ne plaît pas à tout le monde.
+  - Language: Italian
+    String: Una miscela di birra e vodka. Bisogna abituarsi al gusto.
+  - Language: Japanese
+    String: ビールとウォッカを混ぜたもの。味を覚えると癖になる
+  - Language: Polish
+    String: Mieszanina piwa i wódki. Zdecydowanie trzeba przywyknąć.
+  - Language: Portuguese_Brazil
+    String: Uma mistura de cerveja e vodca. Sem dúvida um gosto adquirido.
+  - Language: ChineseSimplified
+    String: 由啤酒与伏特加混调而成，口味绝对需要慢慢习惯。
+Weight: 0.3
+Value: 265
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: f96641c4-fd61-393a-cfc9-7f25fc5ae988
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 75
+    Duration: 180
+  Magnitude: 2B9812:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BB407:Starfield.esm
+  Data:
+    Magnitude: 6
+    Duration: 300
+  Magnitude: 2B980C:Starfield.esm
+  Duration: 2B97FA:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 180
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 15
+    Duration: 180
+  Magnitude: 2D87DA:Starfield.esm
+  Duration: 2B97F9:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3980:Starfield.esm
+  EFIF: 0
+  MUID: 5

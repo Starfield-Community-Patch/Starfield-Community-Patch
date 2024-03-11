@@ -1,0 +1,107 @@
+FormKey: 139E43:Starfield.esm
+EditorID: Drink_Alc_Bottle_Generic_BeerRedAle
+ObjectBounds:
+  First: -0.032836914, -0.032318115, -0.00039672852
+  Second: 0.032836914, 0.032318115, 0.24780273
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Red Ale
+  - Language: English
+    String: Red Ale
+  - Language: Spanish
+    String: Red ale
+  - Language: French
+    String: Bière rousse
+  - Language: Italian
+    String: Birra rossa
+  - Language: Japanese
+    String: レッドエール
+  - Language: Polish
+    String: Red ale
+  - Language: Portuguese_Brazil
+    String: Cerveja Vermelha
+  - Language: ChineseSimplified
+    String: 红啤酒
+Keywords:
+- 14253C:Starfield.esm
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+- 07956D:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\Generic_Bottles_Alcohol\Generic_Beer_03.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: a89d4d93-93b9-4c2e-56fb-6a4f8fb88982
+DropdownSound:
+  Start: d3b24339-670b-3933-e56f-3fc3189523a6
+Description:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Gewöhnliches, massenproduziertes Bier.
+  - Language: English
+    String: Mass-produced generic beer.
+  - Language: Spanish
+    String: Cerveza normal y corriente producida en masa.
+  - Language: French
+    String: Bière générique de masse.
+  - Language: Italian
+    String: Birra generica prodotta su larga scala.
+  - Language: Japanese
+    String: 大量生産された一般的なビール
+  - Language: Polish
+    String: Zwykłe masowo produkowane piwo.
+  - Language: Portuguese_Brazil
+    String: Cerveja genérica produzida em massa.
+  - Language: ChineseSimplified
+    String: 批量生产的普通啤酒。
+Resources:
+- Resource: 29B02E:Starfield.esm
+  Count: 1
+Weight: 0.5
+Value: 155
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+Effects:
+- BaseEffect: 1BF5AD:Starfield.esm
+  Data:
+    Magnitude: 50
+    Duration: 180
+  Magnitude: 2B9811:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1BF5AC:Starfield.esm
+  Data:
+    Magnitude: 10
+    Duration: 180
+  Magnitude: 2D87DB:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1BF5AA:Starfield.esm
+  Data:
+    Magnitude: 10
+    Duration: 180
+  Magnitude: 2D87DB:Starfield.esm
+  Duration: 2B97F6:Starfield.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4
