@@ -154,7 +154,7 @@ jobs:
           run: 7z x .github/xEdit.7z -o.github/xEdit
         
         - name: Create SFCP.bsarch (Assets.json) for BSArchPro
-          uses: actions/github-script@v6
+          uses: actions/github-script@v7
           with:
             script: |
               const generateAssets = require('./.github/workflows/generateAssets.js')
@@ -175,7 +175,7 @@ jobs:
             ls -R "${{ github.workspace }}\to-pack"
 
         - name: Zip up release files
-          uses: vimtor/action-zip@v1.1
+          uses: vimtor/action-zip@v1.2
           with: 
             files: to-pack/
             dest: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
@@ -187,7 +187,7 @@ jobs:
             path: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
         
         - name: Remove temporary artifacts
-          uses: geekyeggo/delete-artifact@v2
+          uses: geekyeggo/delete-artifact@v4
           with:
               name: |
                 plugin-and-strings
