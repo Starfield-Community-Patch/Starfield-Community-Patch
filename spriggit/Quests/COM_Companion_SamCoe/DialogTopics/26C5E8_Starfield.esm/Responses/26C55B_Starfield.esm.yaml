@@ -1,0 +1,48 @@
+FormKey: 26C55B:Starfield.esm
+FormVersion: 558
+Flags:
+  Flags:
+  - Random
+DialogGroup: 26C55D:Starfield.esm
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  WEMFile: 3943593
+  TRDAUnknown: 2.6666667
+  TROTs:
+  - UnknownVoiceType: 00599A:Starfield.esm
+    UnknownFloat: 7.166667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sarah Morgan hat gesagt, ich soll dir helfen. Also komme ich mit.
+    - Language: English
+      String: Sarah Morgan said I had to help you if you asked. So I'm coming.
+    - Language: Spanish
+      String: Sarah dijo que tendría que ayudarte si me lo pedías, así que iré.
+    - Language: French
+      String: Sarah Morgan m'a dit de vous aider, si vous me le demandiez. Alors, je m'exécute.
+    - Language: Italian
+      String: Sarah Morgan mi ha detto di aiutarti se me l’avessi chiesto. Per questo vengo.
+    - Language: Japanese
+      String: お前が頼んできたら手伝えってサラ・モーガンに言われちゃあな。行くさ
+    - Language: Polish
+      String: Sara Morgan kazała mi ci pomóc, jeśli poprosisz. Więc idę.
+    - Language: Portuguese_Brazil
+      String: A Sarah falou que era pra te ajudar se você pedisse. Então eu vou.
+    - Language: ChineseSimplified
+      String: 莎拉·摩根说如果你开口了我就得帮你，所以我会跟你走。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xF095766C8449D601
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: NotEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 2BB89F:Starfield.esm
+  ComparisonValue: 2BE2D8:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

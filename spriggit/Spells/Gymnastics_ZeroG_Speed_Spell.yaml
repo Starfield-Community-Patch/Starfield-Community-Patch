@@ -1,0 +1,45 @@
+FormKey: 2A4861:Starfield.esm
+EditorID: Gymnastics_ZeroG_Speed_Spell
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: 'Körpertraining: Tempo in der Schwerelosigkeit'
+  - Language: English
+    String: Gymnastics Zero-G Speed
+  - Language: Spanish
+    String: Velocidad de ingravidez gimnástica
+  - Language: French
+    String: Vitesse en apesanteur de Gymnastique
+  - Language: Italian
+    String: Velocità ginnica a gravità zero
+  - Language: Japanese
+    String: 体操無重力スピード
+  - Language: Polish
+    String: Prędkość gimnastyki w stanie nieważkości
+  - Language: Portuguese_Brazil
+    String: Ginástica - Velocidade em Gravidade Zero
+  - Language: ChineseSimplified
+    String: 体操零重力速度
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+Type:
+- Ability
+Effects:
+- BaseEffect: 2AD47F:Starfield.esm
+  Data:
+    Magnitude: 50
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: GetBodyGravityConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      FirstParameter: 2C5A7E:Starfield.esm
+  EFIF: 0
+  MUID: 1
