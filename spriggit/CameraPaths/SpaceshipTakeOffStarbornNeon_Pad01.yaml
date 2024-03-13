@@ -1,0 +1,26 @@
+FormKey: 032200:Starfield.esm
+EditorID: SpaceshipTakeOffStarbornNeon_Pad01
+FormVersion: 556
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    FirstParameter: 10E8EE:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    FirstParameter: 2E3E4D:Starfield.esm
+  ComparisonValue: 1
+RelatedPaths:
+- 210343:Starfield.esm
+- Null
+Shots:
+- 032202:Starfield.esm
+- 032201:Starfield.esm
