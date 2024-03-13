@@ -74,7 +74,7 @@ Name:
   - Language: Spanish
     String: Encuentra <Alias=PrimaryRef> en <Alias=TargetSystemLocation>.
   - Language: French
-    String: Dans le système <Alias=TargetSystemLocation>, localiser : <Alias=PrimaryRef>
+    String: "Dans le système <Alias=TargetSystemLocation>, localiser : <Alias=PrimaryRef>"
   - Language: Italian
     String: Trova <Alias=PrimaryRef> presso <Alias=TargetSystemLocation>
   - Language: Japanese
@@ -140,7 +140,7 @@ Objectives:
     - Language: Spanish
       String: Encuentra un planeta con <Alias=PrimaryRef> (<Alias=TraitCategory>).
     - Language: French
-      String: Localisez une planète présentant la caractéristique : <Alias=PrimaryRef> (<Alias=TraitCategory>).
+      String: "Localisez une planète présentant la caractéristique : <Alias=PrimaryRef> (<Alias=TraitCategory>)."
     - Language: Italian
       String: Individua un pianeta con <Alias=PrimaryRef> (<Alias=TraitCategory>)
     - Language: Japanese
@@ -294,49 +294,49 @@ MissionBoardDescription:
   Value:
   - Language: German
     String: >-
-    Wir suchen erfahrene Entdecker zur Ortung eines Planeten mit <Alias=PrimaryRef> im <Alias=TargetSystemLocation>-System. Dies erfordert unter Umständen die Untersuchung mehrerer Planeten innerhalb des Systems.
-    
-    Die Zahlung erfolgt automatisch direkt auf dein Konto, sobald ein passender Planet gefunden wurde.
+      Wir suchen erfahrene Entdecker zur Ortung eines Planeten mit <Alias=PrimaryRef> im <Alias=TargetSystemLocation>-System. Dies erfordert unter Umständen die Untersuchung mehrerer Planeten innerhalb des Systems.
+      
+      Die Zahlung erfolgt automatisch direkt auf dein Konto, sobald ein passender Planet gefunden wurde.
   - Language: English
     String: >-
-    We are looking for an experienced explorer to locate a planet with <Alias=PrimaryRef> in the <Alias=TargetSystemLocation> system. This may require surveying multiple planets within the system.
-
-    Payment will be automatically credited to your account once a planet has been located.
+      We are looking for an experienced explorer to locate a planet with <Alias=PrimaryRef> in the <Alias=TargetSystemLocation> system. This may require surveying multiple planets within the system.
+      
+      Payment will be automatically credited to your account once a planet has been located.
   - Language: Spanish
     String: >-
-    Buscamos a un explorador con experiencia para localizar un planeta con <Alias=PrimaryRef> en el sistema <Alias=TargetSystemLocation>. Esta labor puede entrañar el sondeo de varios planetas del sistema.
-    
-    El pago se transferirá automáticamente a su cuenta cuando el planeta haya sido encontrado.
+      Buscamos a un explorador con experiencia para localizar un planeta con <Alias=PrimaryRef> en el sistema <Alias=TargetSystemLocation>. Esta labor puede entrañar el sondeo de varios planetas del sistema.
+      
+      El pago se transferirá automáticamente a su cuenta cuando el planeta haya sido encontrado.
   - Language: French
     String: >-
-    Nous recherchons un ou une analyste expérimenté(e) pour localiser une planète dans le système <Alias=TargetSystemLocation> présentant la caractéristique suivante : <Alias=PrimaryRef>. Vous devrez peut-être analyser plusieurs planètes au sein de ce système.
-    
-    Le paiement sera automatiquement crédité sur votre compte une fois la planète localisée.
+      Nous recherchons un ou une analyste expérimenté(e) pour localiser une planète dans le système <Alias=TargetSystemLocation> présentant la caractéristique suivante : <Alias=PrimaryRef>. Vous devrez peut-être analyser plusieurs planètes au sein de ce système.
+      
+      Le paiement sera automatiquement crédité sur votre compte une fois la planète localisée.
   - Language: Italian
     String: >-
-    Cerchiamo un esploratore esperto che individui un pianeta con <Alias=PrimaryRef> nel sistema seguente: <Alias=TargetSystemLocation>. Potrebbe essere necessario ispezionare diversi pianeti all’interno del sistema.
-    
-    Il pagamento sarà automaticamente accreditato sul suo conto quando avrà trovato un pianeta.
+      Cerchiamo un esploratore esperto che individui un pianeta con <Alias=PrimaryRef> nel sistema seguente: <Alias=TargetSystemLocation>. Potrebbe essere necessario ispezionare diversi pianeti all’interno del sistema.
+      
+      Il pagamento sarà automaticamente accreditato sul suo conto quando avrà trovato un pianeta.
   - Language: Japanese
     String: >-
-    <Alias=TargetSystemLocation>星系で<Alias=PrimaryRef>のある惑星を探してくれる経験豊富な探検家を募集中。場合によっては、同星系で複数の惑星を調査する必要がある
-    
-    支払いは惑星発見後、自動的に口座に振り込まれる
+      <Alias=TargetSystemLocation>星系で<Alias=PrimaryRef>のある惑星を探してくれる経験豊富な探検家を募集中。場合によっては、同星系で複数の惑星を調査する必要がある
+      
+      支払いは惑星発見後、自動的に口座に振り込まれる
   - Language: Polish
     String: >-
-    Szukamy doświadczonego odkrywcy, który odnajdzie planetę z cechą <Alias=PrimaryRef> w układzie <Alias=TargetSystemLocation>. Konieczne może być zbadanie wielu planet w tym układzie.
-    
-    Płatność zostanie przekazana automatycznie na konto po zlokalizowaniu planety.
+      Szukamy doświadczonego odkrywcy, który odnajdzie planetę z cechą <Alias=PrimaryRef> w układzie <Alias=TargetSystemLocation>. Konieczne może być zbadanie wielu planet w tym układzie.
+      
+      Płatność zostanie przekazana automatycznie na konto po zlokalizowaniu planety.
   - Language: Portuguese_Brazil
     String: 
-    Procuramos uma pessoa com experiência em exploração para localizar um planeta com <Alias=PrimaryRef> no sistema <Alias=TargetSystemLocation>. Pode ser necessário inspecionar vários planetas no sistema para isso.
-    
-    O pagamento será creditado automaticamente à sua conta quando o planeta tiver sido localizado.
+      Procuramos uma pessoa com experiência em exploração para localizar um planeta com <Alias=PrimaryRef> no sistema <Alias=TargetSystemLocation>. Pode ser necessário inspecionar vários planetas no sistema para isso.
+      
+      O pagamento será creditado automaticamente à sua conta quando o planeta tiver sido localizado.
   - Language: ChineseSimplified
     String: >-
-    我们正在寻找经验丰富的探险家在<Alias=TargetSystemLocation>星系寻找有<Alias=PrimaryRef>的星球。该任务可能需要勘探星系中的多颗星球。
-    
-    成功定位该星球后，酬劳将自动汇入您的账户。
+      我们正在寻找经验丰富的探险家在<Alias=TargetSystemLocation>星系寻找有<Alias=PrimaryRef>的星球。该任务可能需要勘探星系中的多颗星球。
+      
+      成功定位该星球后，酬劳将自动汇入您的账户。
 MissionBoardInfoPanels:
 - Header:
     TargetLanguage: English
@@ -361,6 +361,7 @@ MissionBoardInfoPanels:
       String: 目标星系
   Line1:
     TargetLanguage: English
+    Value:
     - Language: German
       String: <Alias=TargetSystemLocation>
     - Language: English
@@ -402,6 +403,7 @@ MissionBoardInfoPanels:
       String: 目标特性
   Line1:
     TargetLanguage: English
+    Value:
     - Language: German
       String: <Alias=PrimaryRef>
     - Language: English
@@ -422,6 +424,7 @@ MissionBoardInfoPanels:
       String: <Alias=PrimaryRef>
 - Header:
     TargetLanguage: English
+    Value:
     - Language: German
       String: ''
     - Language: English
@@ -442,6 +445,7 @@ MissionBoardInfoPanels:
       String: ''
 - Header:
     TargetLanguage: English
+    Value:
     - Language: German
       String: ''
     - Language: English
@@ -462,6 +466,7 @@ MissionBoardInfoPanels:
       String: ''
 - Header:
     TargetLanguage: English
+    Value:
     - Language: German
       String: ''
     - Language: English
@@ -482,6 +487,7 @@ MissionBoardInfoPanels:
       String: ''
 - Header:
     TargetLanguage: English
+    Value:
     - Language: German
       String: ''
     - Language: English
