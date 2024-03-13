@@ -1,0 +1,435 @@
+FormKey: 1953FB:Starfield.esm
+EditorID: MB_SurveyTrait17
+FormVersion: 556
+VirtualMachineAdapter:
+  Scripts:
+  - Name: missionsurveytraitscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MissionParent
+      Object: 015300:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MissionStoryKeywordGetAllPlanets
+      Object: 38B5E7:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: MissionType
+      Data: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetTrait
+      Object: 29081A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 1953FB:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerStarSystemLocation
+      Object: 1953FB:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PrimaryRef
+      Object: 1953FB:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RewardAmountGlobal
+      Object: 21FD33:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RewardAmountGlobalActual
+      Object: 195413:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RewardXPAmountGlobalActual
+      Object: 16AB9A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Parent
+      Object: 07092C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TargetPlanetLocation
+      Object: 1953FB:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TargetSystemLocation
+      Object: 1953FB:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TraitCategory
+      Object: 1953FB:Starfield.esm
+      Alias: 17
+  Script:
+    Name: Fragments:Quests:QF_MB_SurveyTrait17_001953FB
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MB_SurveyTrait17_001953FB
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MB_SurveyTrait17_001953FB
+    FragmentName: Fragment_Stage_0100_Item_00
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Orte <Alias=PrimaryRef> im System <Alias=TargetSystemLocation>
+  - Language: English
+    String: Locate <Alias=PrimaryRef> in <Alias=TargetSystemLocation>
+  - Language: Spanish
+    String: Encuentra <Alias=PrimaryRef> en <Alias=TargetSystemLocation>.
+  - Language: French
+    String: 'Dans le système <Alias=TargetSystemLocation>, localiser : <Alias=PrimaryRef>'
+  - Language: Italian
+    String: Trova <Alias=PrimaryRef> presso <Alias=TargetSystemLocation>
+  - Language: Japanese
+    String: <Alias=TargetSystemLocation>で<Alias=PrimaryRef>を見つける
+  - Language: Polish
+    String: Zlokalizowanie planety z cechą <Alias=PrimaryRef> w układzie <Alias=TargetSystemLocation>
+  - Language: Portuguese_Brazil
+    String: Ache <Alias=PrimaryRef> em <Alias=TargetSystemLocation>
+  - Language: ChineseSimplified
+    String: 在<Alias=TargetSystemLocation>寻找<Alias=PrimaryRef>
+Data:
+  Flags:
+  - 0x80000
+  Priority: 15
+  Unused: 0x000000
+QuestType: 1E2D30:Starfield.esm
+QuestFaction: 0546E1:Starfield.esm
+Event: SCPT
+UnusedConditions: []
+Stages:
+- Index: 5
+  Flags:
+  - RunOnStart
+  - 0x40
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Run on Start Stage
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Flags:
+  - KeepInstanceDataFromHereOn
+  LogEntries:
+  - Flags: []
+    Note: Mission Accepted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 116
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Mission Complete
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 16AB9A:Starfield.esm
+        BonusCredits: 195413:Starfield.esm
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Orte einen Planeten mit <Alias=PrimaryRef>. (<Alias=TraitCategory>)
+    - Language: English
+      String: Locate a planet with <Alias=PrimaryRef> (<Alias=TraitCategory>)
+    - Language: Spanish
+      String: Encuentra un planeta con <Alias=PrimaryRef> (<Alias=TraitCategory>).
+    - Language: French
+      String: 'Localisez une planète présentant la caractéristique : <Alias=PrimaryRef> (<Alias=TraitCategory>).'
+    - Language: Italian
+      String: Individua un pianeta con <Alias=PrimaryRef> (<Alias=TraitCategory>)
+    - Language: Japanese
+      String: <Alias=PrimaryRef>のある惑星を探す(<Alias=TraitCategory>)
+    - Language: Polish
+      String: Zlokalizuj planetę z cechą <Alias=PrimaryRef> (<Alias=TraitCategory>)
+    - Language: Portuguese_Brazil
+      String: Localize um planeta com <Alias=PrimaryRef> (<Alias=TraitCategory>)
+    - Language: ChineseSimplified
+      String: 寻找有<Alias=PrimaryRef>的行星（<Alias=TraitCategory>）
+  Targets:
+  - AliasID: 15
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationAliasConditionData
+        RunOnType: PlayerShip
+        FirstParameter: 8
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 16
+  Name: EventLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  FindMatchingRefFromEvent:
+    FromEvent: SCPT
+    EventData: 0x4C310000
+- MutagenObjectType: QuestLocationAlias
+  Name: PlayerStarSystemLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 16
+  LocationTypeKeyword: 00149F:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 10
+  Name: SurveySourceLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x6E3634
+    Unknown2: 17626
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      FirstParameter: 070925:Starfield.esm
+    ComparisonValue: 1
+  SystemLocationAliasID: 16
+  LocationTypeKeyword: 070928:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: PrimaryRef
+  Flags:
+  - StoresText
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 21E6F1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 12
+  Name: TargetPlanetLocation
+  Flags:
+  - StoresText
+  - 0x10000000
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x6E3634
+    Unknown2: 17626
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 18B472:Starfield.esm
+    ComparisonValue: 1
+  LocationTypeKeyword: 29081A:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 8
+  Name: TargetSystemLocation
+  Flags:
+  - AllowReuseInQuest
+  - StoresText
+  - AllowReserved
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 12
+  LocationTypeKeyword: 00149F:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: PlayerShip
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 16
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 14
+    MaxInitialFillCount: 1
+    ALAM: 0
+    ReferenceAlias:
+      ID: 14
+      Name: SystemOrbital
+      Flags:
+      - Optional
+      - CreateRefTemp
+      ALFG: 0
+      CreateReferenceToObject:
+        Object: 212179:Starfield.esm
+        AliasID: 8
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: SystemMarker
+  Flags:
+  - Optional
+  ALFG: 0
+  ReferenceCollectionAliasID: 14
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 16627
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      FirstParameter: 212148:Starfield.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: TraitCategory
+  Flags:
+  - Optional
+  - StoresText
+  ALFG: 0
+  VoiceTypes: Null
+MissionTypeKeyword: 1E266C:Starfield.esm
+MissionBoardDescription:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: >-
+      Wir suchen erfahrene Entdecker zur Ortung eines Planeten mit <Alias=PrimaryRef> im <Alias=TargetSystemLocation>-System. Dies erfordert unter Umständen die Untersuchung mehrerer Planeten innerhalb des Systems.
+
+      Die Zahlung erfolgt automatisch direkt auf dein Konto, sobald ein passender Planet gefunden wurde.
+  - Language: English
+    String: >-
+      We are looking for an experienced explorer to locate a planet with <Alias=PrimaryRef> in the <Alias=TargetSystemLocation> system. This may require surveying multiple planets within the system.
+
+      Payment will be automatically credited to your account once a planet has been located.
+  - Language: Spanish
+    String: >-
+      Buscamos a un explorador con experiencia para localizar un planeta con <Alias=PrimaryRef> en el sistema <Alias=TargetSystemLocation>. Esta labor puede entrañar el sondeo de varios planetas del sistema.
+
+      El pago se transferirá automáticamente a su cuenta cuando el planeta haya sido encontrado.
+  - Language: French
+    String: >-
+      Nous recherchons un ou une analyste expérimenté(e) pour localiser une planète dans le système <Alias=TargetSystemLocation> présentant la caractéristique suivante : <Alias=PrimaryRef>. Vous devrez peut-être analyser plusieurs planètes au sein de ce système.
+
+      Le paiement sera automatiquement crédité sur votre compte une fois la planète localisée.
+  - Language: Italian
+    String: >-
+      Cerchiamo un esploratore esperto che individui un pianeta con <Alias=PrimaryRef> nel sistema seguente: <Alias=TargetSystemLocation>. Potrebbe essere necessario ispezionare diversi pianeti all’interno del sistema.
+
+      Il pagamento sarà automaticamente accreditato sul suo conto quando avrà trovato un pianeta.
+  - Language: Japanese
+    String: >-
+      <Alias=TargetSystemLocation>星系で<Alias=PrimaryRef>のある惑星を探してくれる経験豊富な探検家を募集中。場合によっては、同星系で複数の惑星を調査する必要がある
+
+      支払いは惑星発見後、自動的に口座に振り込まれる
+  - Language: Polish
+    String: >-
+      Szukamy doświadczonego odkrywcy, który odnajdzie planetę z cechą <Alias=PrimaryRef> w układzie <Alias=TargetSystemLocation>. Konieczne może być zbadanie wielu planet w tym układzie.
+
+      Płatność zostanie przekazana automatycznie na konto po zlokalizowaniu planety.
+  - Language: Portuguese_Brazil
+    String: >-
+      Procuramos uma pessoa com experiência em exploração para localizar um planeta com <Alias=PrimaryRef> no sistema <Alias=TargetSystemLocation>. Pode ser necessário inspecionar vários planetas no sistema para isso.
+
+      O pagamento será creditado automaticamente à sua conta quando o planeta tiver sido localizado.
+  - Language: ChineseSimplified
+    String: >-
+      我们正在寻找经验丰富的探险家在<Alias=TargetSystemLocation>星系寻找有<Alias=PrimaryRef>的星球。该任务可能需要勘探星系中的多颗星球。
+
+      成功定位该星球后，酬劳将自动汇入您的账户。
+MissionBoardInfoPanels:
+- Header:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Zielsystem
+    - Language: English
+      String: Target System
+    - Language: Spanish
+      String: Sistema objetivo
+    - Language: French
+      String: Système cible
+    - Language: Italian
+      String: Sistema
+    - Language: Japanese
+      String: ターゲット星系
+    - Language: Polish
+      String: Docelowy układ
+    - Language: Portuguese_Brazil
+      String: Sistema de Destino
+    - Language: ChineseSimplified
+      String: 目标星系
+  Line1:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: <Alias=TargetSystemLocation>
+    - Language: English
+      String: <Alias=TargetSystemLocation>
+    - Language: Spanish
+      String: <Alias=TargetSystemLocation>
+    - Language: French
+      String: <Alias=TargetSystemLocation>
+    - Language: Italian
+      String: <Alias=TargetSystemLocation>
+    - Language: Japanese
+      String: <Alias=TargetSystemLocation>
+    - Language: Polish
+      String: <Alias=TargetSystemLocation>
+    - Language: Portuguese_Brazil
+      String: <Alias=TargetSystemLocation>
+    - Language: ChineseSimplified
+      String: <Alias=TargetSystemLocation>
+- Header:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Zielmerkmal
+    - Language: English
+      String: Target Trait
+    - Language: Spanish
+      String: Rasgo objetivo
+    - Language: French
+      String: Trait recherché
+    - Language: Italian
+      String: Tratti bersaglio
+    - Language: Japanese
+      String: ターゲットの特徴
+    - Language: Polish
+      String: Docelowa cecha
+    - Language: Portuguese_Brazil
+      String: Atributo do Alvo
+    - Language: ChineseSimplified
+      String: 目标特性
+  Line1:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: <Alias=PrimaryRef>
+    - Language: English
+      String: <Alias=PrimaryRef>
+    - Language: Spanish
+      String: <Alias=PrimaryRef>
+    - Language: French
+      String: <Alias=PrimaryRef>
+    - Language: Italian
+      String: <Alias=PrimaryRef>
+    - Language: Japanese
+      String: <Alias=PrimaryRef>
+    - Language: Polish
+      String: <Alias=PrimaryRef>
+    - Language: Portuguese_Brazil
+      String: <Alias=PrimaryRef>
+    - Language: ChineseSimplified
+      String: <Alias=PrimaryRef>
+- Header:
+    TargetLanguage: English
+- Header:
+    TargetLanguage: English
+- Header:
+    TargetLanguage: English
+- Header:
+    TargetLanguage: English
+Keywords:
+- 13757A:Starfield.esm
+- 1E266C:Starfield.esm

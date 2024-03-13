@@ -1,0 +1,40 @@
+FormKey: 143173:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 13557777
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Neue Romanze? Du denkst, ich hätte dich betrogen?
+    - Language: English
+      String: Other romance? You think I cheated on you?
+    - Language: Spanish
+      String: ¿Otro romance? ¿Crees que te he engañado?
+    - Language: French
+      String: Quelqu'un d'autre ? Vous dites que je vous ai trompé ?
+    - Language: Italian
+      String: Un’altra relazione? Pensi che ti abbia tradito?
+    - Language: Japanese
+      String: 他の人と？ 浮気したと思っているのか？
+    - Language: Polish
+      String: Drugi romans? Podejrzewasz mnie o zdradę?
+    - Language: Portuguese_Brazil
+      String: Outro romance? Você acha que eu te traí?
+    - Language: ChineseSimplified
+      String: 另一段恋情？你觉得我背叛了你？
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x00DDFFC5B163D701
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Target
+    FirstParameter: 2894392
+  ComparisonValue: 2AAE98:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

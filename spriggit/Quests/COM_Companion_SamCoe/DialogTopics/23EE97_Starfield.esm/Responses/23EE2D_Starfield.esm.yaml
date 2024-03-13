@@ -1,0 +1,40 @@
+FormKey: 23EE2D:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 4614376
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Mord? Wovon redest du?
+    - Language: English
+      String: Murder? What are you talking about?
+    - Language: Spanish
+      String: ¿De qué hablas?
+    - Language: French
+      String: Un assassinat ? De quoi vous parlez ?
+    - Language: Italian
+      String: Assassinato? Di cosa stai parlando?
+    - Language: Japanese
+      String: 殺人？ 何のことだ？
+    - Language: Polish
+      String: Morderstwo? O czym ty mówisz?
+    - Language: Portuguese_Brazil
+      String: Assassinato? Do que você tá falando?
+    - Language: ChineseSimplified
+      String: 杀人？你在说什么？
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x905F484ED170D601
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Target
+    FirstParameter: 2894392
+  ComparisonValue: 2C2A36:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

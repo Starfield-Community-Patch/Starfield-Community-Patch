@@ -2,6 +2,7 @@ MutagenObjectType: PlacedObject
 FormKey: 23B8A5:Starfield.esm
 MajorRecordFlagsRaw: 1024
 EditorID: MQ207CLandingMarkerRef
+FormVersion: 556
 StarfieldMajorRecordFlags:
 - 0x400
 VirtualMachineAdapter:
@@ -17,14 +18,18 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptFloatProperty
       Name: BeforeOpenTimer
       Data: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LinkedRef_LandingPadShield_EnableMarker
+      Object: 28B2A0:Starfield.esm
     - MutagenObjectType: ScriptFloatProperty
       Name: OpenToCloseTimer
       Data: 25
 Base: 17DE66:Starfield.esm
-ReferenceGroup: 23B491:Starfield.esm
 Layer: 239D2E:Starfield.esm
 LinkedReferences:
 - Reference: 23B8A6:Starfield.esm
+- KeywordOrReference: 28B2A0:Starfield.esm
+  Reference: 00080C:StarfieldCommunityPatch - Unlocalised.esm
 IsLinkedRefTransient: True
 Position: -54, 54, 49.5664
 Rotation: 0, 0, 1.3089969

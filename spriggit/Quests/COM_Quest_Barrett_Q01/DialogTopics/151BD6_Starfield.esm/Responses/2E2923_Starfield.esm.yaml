@@ -1,0 +1,54 @@
+FormKey: 2E2923:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0D755E:Starfield.esm
+  WEMFile: 11676818
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Die Barkeeperin wird wissen, wo er ist. Die Leute hinter der Theke wissen so was immer.
+    - Language: English
+      String: The bartender will know where he is. Bartenders always know.
+    - Language: Spanish
+      String: La camarera sabrá dónde está. Los camareros siempre están enterados.
+    - Language: French
+      String: Le barman saura où le trouver. Les barmans savent tout.
+    - Language: Italian
+      String: La barista saprà dov’è. I baristi sanno sempre tutto.
+    - Language: Japanese
+      String: 居場所はバーテンダーが知っているはず。バーテンダーは何でも詳しい
+    - Language: Polish
+      String: Barmanka będzie wiedziała, gdzie on jest. Barmani zawsze wiedzą takie rzeczy.
+    - Language: Portuguese_Brazil
+      String: A moça do bar vai saber onde ele tá. Gente de bar sempre sabe.
+    - Language: ChineseSimplified
+      String: 酒保应该知道他在哪。酒保的消息都很灵通。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x0087EAB1BB32D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 3370012
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1D7053:Starfield.esm
+  ComparisonValue: 1
+SetParentQuestStage:
+  OnBegin: 6110
+  OnEnd: -1
+StartScenePhase: ''
+SubtitlePriority: Low
+Perk: 1D7053:Starfield.esm

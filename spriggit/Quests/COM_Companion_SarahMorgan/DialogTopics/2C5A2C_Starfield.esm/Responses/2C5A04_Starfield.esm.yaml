@@ -1,0 +1,41 @@
+FormKey: 2C5A04:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 13559347
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Was ich abziehe? Was ziehe ich denn ab?
+    - Language: English
+      String: Poor decisions? What poor decisions?
+    - Language: Spanish
+      String: ¿Decisiones pésimas? ¿Qué decisiones?
+    - Language: French
+      String: Des décisions catastrophiques ? De quoi parlez-vous ?
+    - Language: Italian
+      String: Decisioni sbagliate? Quali decisioni sbagliate?
+    - Language: Japanese
+      String: 誤った判断？ 何のことだ？
+    - Language: Polish
+      String: Złe decyzje? Jakie złe decyzje?
+    - Language: Portuguese_Brazil
+      String: Péssimas decisões? Que péssimas decisões?
+    - Language: ChineseSimplified
+      String: 不良行为？什么不良行为？
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xF0EE5A2FD002D601
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: NotEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Target
+    FirstParameter: 2894392
+  ComparisonValue: 2C2A36:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low
