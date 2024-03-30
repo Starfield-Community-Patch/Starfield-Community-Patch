@@ -2,7 +2,6 @@ MutagenObjectType: PlacedObject
 FormKey: 23B8A5:Starfield.esm
 MajorRecordFlagsRaw: 1024
 EditorID: MQ207CLandingMarkerRef
-FormVersion: 556
 StarfieldMajorRecordFlags:
 - 0x400
 VirtualMachineAdapter:
@@ -25,6 +24,7 @@ VirtualMachineAdapter:
       Name: OpenToCloseTimer
       Data: 25
 Base: 17DE66:Starfield.esm
+ReferenceGroup: 23B491:Starfield.esm
 Layer: 239D2E:Starfield.esm
 LinkedReferences:
 - Reference: 23B8A6:Starfield.esm

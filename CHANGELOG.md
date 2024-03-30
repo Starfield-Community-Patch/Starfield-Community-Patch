@@ -8,6 +8,8 @@ When adding items to the changelog try and use the template below:
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
 ## [TBC] Version 0.1.2
+### General Fixes
+- Spriggit updated to 0.18 in order to solve the dialogue bug introduced in game versions 1.10.30 and above. 
 ### AI Fixes
 - Fixed an issue where your NPC companion would start sandboxing if you remain still while sneaking for a short period of time. [0028BF2C] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/900)
 ### Dialogue Fixes

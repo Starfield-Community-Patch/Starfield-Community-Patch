@@ -5,126 +5,161 @@ VirtualMachineAdapter:
   - Name: com_companionquestscript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_HasBeenRomantic
-      Object: 2B4321:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PersonalQuest
-      Object: 2C7C11:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CommitmentRefusedPermanently
-      Object: 2B5ED0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AffinityLevel_1_Friendship
-      Object: 00D84F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CommitmentQuest
-      Object: 27B667:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Companion_Andreja
-      Object: 0059A7:Starfield.esm
+      Name: Alias_Companion
+      Object: 009E99:Starfield.esm
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PlayerShipCrewMarker
       Object: 009E99:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AffinityLevel_2_Affection
-      Object: 00D84E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_StarbornSaveActorValue_MaxStoryGate
-      Object: 31C39D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AffinityLevel_3_Commitment
-      Object: 2B5EC9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_PersonalQuest_Finished
-      Object: 073743:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Companion
-      Object: 009E99:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_FlirtCooldownExpiry
-      Object: 1EA0D6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AngerCoolDownTimerExpired
-      Object: 2C8DF2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_IsRomantic
-      Object: 2BFAB9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PlayerShipInteriorLocation
       Object: 009E99:Starfield.esm
       Alias: 4
     - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentQuest
+      Object: 27B667:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CompanionCheckPerk
+      Object: 1C514C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Companion_Andreja
+      Object: 0059A7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_1_Friendship
+      Object: 00D84F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_2_Affection
+      Object: 00D84E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_3_Commitment
+      Object: 2B5EC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerCoolDownTimerExpired
+      Object: 2C8DF2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerSceneCompleted
+      Object: 2C7AE3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerSecondChances
+      Object: 2C7AE7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: COM_CommitmentDesired
       Object: 27B78B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_StoryGatesCompleted
-      Object: 2B9006:Starfield.esm
+      Name: COM_CommitmentPossible
+      Object: 03016D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentQuest_Started
+      Object: 030167:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentRefusedPermanently
+      Object: 2B5ED0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CurrentStoryGateTimerExpired
+      Object: 2B9007:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_PlayerBecomesRomantic_AndrejaJealous
+      Object: 3EAD2E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_FlirtChoice
       Object: 1EA0D4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CompanionCheckPerk
-      Object: 1C514C:Starfield.esm
+      Name: COM_FlirtCooldownDays
+      Object: 1EA0D5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCooldownExpiry
+      Object: 1EA0D6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCount
+      Object: 2C8E56:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_HasBeenRomantic
+      Object: 2B4321:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsCommitted
+      Object: 27B78C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsRomantic
+      Object: 2BFAB9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PersonalQuest_Finished
+      Object: 073743:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PersonalQuest_Started
+      Object: 073742:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_StarbornSaveActorValue_MaxStoryGate
+      Object: 31C39D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_StoryGatesCompleted
+      Object: 2B9006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PersonalQuest
+      Object: 2C7C11:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: PrioritizedAngerReasons
+      Objects:
+      - Name: ''
+        Object: 2C2A36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
     - MutagenObjectType: ScriptStructListProperty
       Name: StoryGateData
       Structs:
       - Members:
-        - MutagenObjectType: ScriptObjectProperty
-          Name: TimerDuration
-          Object: 2B9008:Starfield.esm
         - MutagenObjectType: ScriptIntProperty
           Name: GateNumber
           Data: 1
-      - Members:
         - MutagenObjectType: ScriptObjectProperty
           Name: TimerDuration
-          Object: 2B9011:Starfield.esm
+          Object: 2B9008:Starfield.esm
+      - Members:
         - MutagenObjectType: ScriptIntProperty
           Name: GateNumber
           Data: 2
-      - Members:
         - MutagenObjectType: ScriptObjectProperty
           Name: TimerDuration
-          Object: 2B9012:Starfield.esm
+          Object: 2B9011:Starfield.esm
+      - Members:
         - MutagenObjectType: ScriptIntProperty
           Name: GateNumber
           Data: 3
-      - Members:
         - MutagenObjectType: ScriptObjectProperty
           Name: TimerDuration
-          Object: 2B9013:Starfield.esm
+          Object: 2B9012:Starfield.esm
+      - Members:
         - MutagenObjectType: ScriptIntProperty
           Name: GateNumber
           Data: 4
-      - Members:
         - MutagenObjectType: ScriptObjectProperty
           Name: TimerDuration
-          Object: 2B9014:Starfield.esm
+          Object: 2B9013:Starfield.esm
+      - Members:
         - MutagenObjectType: ScriptIntProperty
           Name: GateNumber
           Data: 5
-      - Members:
         - MutagenObjectType: ScriptObjectProperty
           Name: TimerDuration
-          Object: 2B9015:Starfield.esm
+          Object: 2B9014:Starfield.esm
+      - Members:
         - MutagenObjectType: ScriptIntProperty
           Name: GateNumber
           Data: 6
-      - Members:
         - MutagenObjectType: ScriptObjectProperty
           Name: TimerDuration
-          Object: 2B9016:Starfield.esm
+          Object: 2B9015:Starfield.esm
+      - Members:
         - MutagenObjectType: ScriptIntProperty
           Name: GateNumber
           Data: 7
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TimerDuration
+          Object: 2B9016:Starfield.esm
       - Members:
         - MutagenObjectType: ScriptIntProperty
           Name: GateNumber
@@ -133,59 +168,24 @@ VirtualMachineAdapter:
           Name: TimerDuration
           Object: 2B9017:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Event_PlayerBecomesRomantic_AndrejaJealous
-      Object: 3EAD2E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_IsCommitted
-      Object: 27B78C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AngerSceneCompleted
-      Object: 2C7AE3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AngerSecondChances
-      Object: 2C7AE7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: WantsToTalkConditionForm
-      Object: 2BCB91:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: WantsToTalkAnnouncementScene
       Object: 2BCB8F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CommitmentQuest_Started
-      Object: 030167:Starfield.esm
-    - MutagenObjectType: ScriptObjectListProperty
-      Name: PrioritizedAngerReasons
-      Objects:
-      - Name: ''
-        Object: 2C2A36:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CurrentStoryGateTimerExpired
-      Object: 2B9007:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_FlirtCount
-      Object: 2C8E56:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CommitmentPossible
-      Object: 03016D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_PersonalQuest_Started
-      Object: 073742:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_FlirtCooldownDays
-      Object: 1EA0D5:Starfield.esm
+      Name: WantsToTalkConditionForm
+      Object: 2BCB91:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
     Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SarahMorgan
+      Object: 009E99:Starfield.esm
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_Quest_SarahMorgan_Q01
       Object: 2C7C11:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Crew_Botany
       Object: 21B8CA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SarahMorgan
-      Object: 009E99:Starfield.esm
-      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
       Name: Crew_Lasers
       Object: 21B8E4:Starfield.esm
@@ -196,38 +196,10 @@ VirtualMachineAdapter:
       Name: SQ_Followers
       Object: 00D773:Starfield.esm
   Fragments:
-  - Stage: 415
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
-    FragmentName: Fragment_Stage_0415_Item_00
   - Stage: 105
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
     FragmentName: Fragment_Stage_0105_Item_00
-  - Stage: 705
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
-    FragmentName: Fragment_Stage_0705_Item_00
-  - Stage: 210
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
-    FragmentName: Fragment_Stage_0210_Item_00
-  - Stage: 205
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
-    FragmentName: Fragment_Stage_0205_Item_00
-  - Stage: 405
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
-    FragmentName: Fragment_Stage_0405_Item_00
-  - Stage: 750
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
-    FragmentName: Fragment_Stage_0750_Item_00
-  - Stage: 715
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
-    FragmentName: Fragment_Stage_0715_Item_00
   - Stage: 110
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
@@ -240,14 +212,42 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
     FragmentName: Fragment_Stage_0120_Item_00
-  - Stage: 710
+  - Stage: 205
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
-    FragmentName: Fragment_Stage_0710_Item_00
+    FragmentName: Fragment_Stage_0205_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 405
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0405_Item_00
   - Stage: 410
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
     FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 415
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0415_Item_00
+  - Stage: 705
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0705_Item_00
+  - Stage: 710
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0710_Item_00
+  - Stage: 715
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0715_Item_00
+  - Stage: 750
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SarahMorgan_00009E99
+    FragmentName: Fragment_Stage_0750_Item_00
 Name:
   TargetLanguage: English
   Values:
@@ -282,7 +282,7 @@ Filter: Followers\COM\Companion\
 DialogConditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
-  Unknown2: 17624
+  Unknown2: 17620
   Data:
     MutagenObjectType: GetIsAliasRefConditionData
   ComparisonValue: 1
