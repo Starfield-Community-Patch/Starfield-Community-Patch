@@ -1,0 +1,49 @@
+FormKey: 14320F:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 11410084
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Barrett, bist du etwa wütend genug, um mich zu verlassen?
+    - Language: English
+      String: Barrett, are you saying you're mad enough to leave?
+    - Language: Spanish
+      String: Barrett, ¿estás tan enfadado como para irte?
+    - Language: French
+      String: Barrett, vous seriez assez contrarié pour me quitter ?
+    - Language: Italian
+      String: Barrett, stai dicendo che potresti anche lasciarmi?
+    - Language: Japanese
+      String: バレット、別れたいほど怒っているのか？
+    - Language: Polish
+      String: Barrett... Twierdzisz, że jesteś na tyle zły, że odejdziesz?
+    - Language: Portuguese_Brazil
+      String: Barrett, você está me dizendo que está chateado o suficiente a ponto de ir embora?
+    - Language: ChineseSimplified
+      String: 巴雷特，你是指你已经生气到要离开吗？
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x90338840B463D701
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: NotEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Target
+    FirstParameter: 2894392
+  ComparisonValue: 2C2A36:Starfield.esm
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: NotEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Target
+    FirstParameter: 2894392
+  ComparisonValue: 2AAE98:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

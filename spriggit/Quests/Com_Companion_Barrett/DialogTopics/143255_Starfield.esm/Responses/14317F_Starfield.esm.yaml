@@ -1,0 +1,40 @@
+FormKey: 14317F:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 5067719
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Mörder? Wie bitte?
+    - Language: English
+      String: Murderers? What do you mean?
+    - Language: Spanish
+      String: ¿Asesinos? ¿A qué te refieres?
+    - Language: French
+      String: Les assassins ? Qu'est-ce que vous voulez dire ?
+    - Language: Italian
+      String: Omicidio? Di cosa stai parlando?
+    - Language: Japanese
+      String: 殺人？ どういうことだ？
+    - Language: Polish
+      String: Morderców? O czym ty mówisz?
+    - Language: Portuguese_Brazil
+      String: Assassinatos? Como assim?
+    - Language: ChineseSimplified
+      String: 杀人犯？你是什么意思？
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xC0653D55B063D701
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Target
+    FirstParameter: 2894392
+  ComparisonValue: 2C2A36:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

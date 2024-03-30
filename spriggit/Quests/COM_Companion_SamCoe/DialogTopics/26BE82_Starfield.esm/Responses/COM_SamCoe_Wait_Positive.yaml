@@ -1,0 +1,21 @@
+FormKey: 26BDF8:Starfield.esm
+MajorRecordFlagsRaw: 64
+EditorID: COM_SamCoe_Wait_Positive
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- 0x40
+Flags:
+  Flags:
+  - ChildInfosDontInheritResetData
+  - ForceAllChildrenRandom
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 2AF552:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: 0
+MajorFlags:
+- InfoGroup

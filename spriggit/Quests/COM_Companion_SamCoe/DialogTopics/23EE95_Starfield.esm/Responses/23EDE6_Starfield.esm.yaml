@@ -1,0 +1,41 @@
+FormKey: 23EDE6:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 10651100
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Was habe ich denn falsch gemacht?
+    - Language: English
+      String: What have I done wrong?
+    - Language: Spanish
+      String: ¿Qué he hecho?
+    - Language: French
+      String: Qu'est-ce que j'ai fait de mal ?
+    - Language: Italian
+      String: Cos’ho fatto di male?
+    - Language: Japanese
+      String: 私は何を間違えた？
+    - Language: Polish
+      String: O co mnie oskarżasz?
+    - Language: Portuguese_Brazil
+      String: O que eu fiz de errado?
+    - Language: ChineseSimplified
+      String: 我做错什么了？
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xF0431D94D170D601
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: NotEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetValueConditionData
+    RunOnType: Target
+    FirstParameter: 2894392
+  ComparisonValue: 2C2A36:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

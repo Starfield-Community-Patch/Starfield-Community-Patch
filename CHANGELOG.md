@@ -7,6 +7,25 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
+## [TBC] Version 0.1.2
+### General Fixes
+- Spriggit updated to 0.18 in order to solve the dialogue bug introduced in game versions 1.10.30 and above. 
+### AI Fixes
+- Fixed an issue where your NPC companion would start sandboxing if you remain still while sneaking for a short period of time. [0028BF2C] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/900)
+### Dialogue Fixes
+- Companions will now use the correct "romantic" dialogue lines when asking them to follow you after marrying them. [002AF54E] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/826)
+- Fixed an incorrectly conditioned Starborn dialogue option during Breach of Contract that appeared even if you hadn't done the quest before. [002E2923] - [Fix contributed by Wartortle](https://www.starfieldpatch.dev/issues/649)
+- When a companion is angry with the player and explains what the player did it to upset them it can be generic, murder, or jealousy. The player's follow-up question can now correctly be different based on the reason. [002C5A0C] [002C5A04] [0014317F] [00143173] [0014320F] [0023EDE6] [0023EE2D] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/804)
+- Andreja will now only say she's upset enough to leave if the player fails to convince her to stay. [001E9F5A] [001E9F5A] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/804)
+- Sam Coe's positive and negative wait dialogues are now correctly conditioned to play the correct dialogue [0026BDF2] [0026BDF2] - [Reported by VenpiTheGamer](https://www.starfieldpatch.dev/issues/772)
+- Sam Coe will no longer reference Sarah in his follower pickup lines if she has been killed. [0026C55B] - [Reported by VenpiTheGamer](https://www.starfieldpatch.dev/issues/771)
+### Location Fixes
+- Fixed an issue where one of the blast shields on Nishina would disappear when lowering. [0X00080C] [0023B8A7] [0023B8A9] [0023B8AB] [0023B8AD] [0023B8AF] [0023B8B0] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/631)
+### Quest Fixes
+- Fixed an issue where the radiant Constellation quest to locate a "Primordial Network" was actually looking for a "Gaseous Font" [001953FB] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/782)
+### Skill Fixes
+- The Gymnastics Zero-G perk (Rank 2) will no longer give the player a speed boost while the Earthbound Starborn ability is active. [002A4861] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/818)
+
 ## [2024-03-11] Version 0.1.1
 ### AI Fixes
 - Fixed a bug where companions would stop following the player after exiting dialogue until they performed an action such as sneaking. This was caused by an invalid condition checking if they were still in dialogue. [00054B37] - [Fix contributed by Deebz96](https://www.starfieldpatch.dev/issues/870)
