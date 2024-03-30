@@ -7,7 +7,7 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
-## [TBC] Version 0.1.2
+## [2024-03-30] Version 0.1.2
 ### General Fixes
 - Spriggit updated to 0.18 in order to solve the dialogue bug introduced in game versions 1.10.30 and above. 
 ### AI Fixes
