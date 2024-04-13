@@ -9,6 +9,8 @@ GlobalVariable Property SFCP_Version_Patch Auto Const
 { Patch SFCP Version }
 ConditionForm Property SFCP_CND_AllResearchCompleted Auto Const
 { Has the player completed all current research projects }
+Quest Property MQ401 Auto
+{ New Game Plus Standard Handler }
 
 ;-- Variables  --------------------------------------
 string sCurrentVersion = ""
@@ -23,12 +25,18 @@ bool b005HadrianFactionFix = false
 ; https://www.starfieldpatch.dev/issues/669
 bool b005ResearchTutorialFix = false
 ; https://www.starfieldpatch.dev/issues/725
+bool b012CoraCoreNewFix = false
+; https://www.starfieldpatch.dev/issues/924
 
 ;-- Functions ---------------------------------------
 
 Event OnQuestInit()
     ; When the quest starts up for the very first time, we need to check for updates.
     Self.CheckForUpdates()
+
+    ; Register for MQ401 hitting stage 450 or 455 so that we can start the Cora Core Crew Quest
+    ; Inital fix: #369. Revised fix: #924
+    Self.RegisterForRemoteEvent(MQ401 as ScriptObject, "OnStageSet")
 EndEvent
 
 Function CheckForUpdates()
@@ -121,6 +129,13 @@ Function ApplyMissingFixes(string sNewVersion)
         b005ResearchTutorialFix = true
     endif
 
+    ; Updated fix for https://www.starfieldpatch.dev/issues/924
+    if (!b012CoraCoreNewFix || (CurrentVersionGTE(0, 1, 2)))
+        SFCPUtil.WriteLog("Registered OnStageSet for MQ401 to apply Cora Coe Crew Fix")
+        Self.RegisterForRemoteEvent(MQ401 as ScriptObject, "OnStageSet")
+        b012CoraCoreNewFix = true
+    endif
+
 EndFunction
 
 int Function GetTimesEnteredUnity()
@@ -146,3 +161,15 @@ bool Function CurrentVersionGTE(int newMajor, int newMinor, int newPatch)
     endif
 
 EndFunction
+
+Event Quest.OnStageSet(Quest akSender, Int auiStageID, Int auiItemID)
+    if (akSender == MQ401 && (auiStageID == 450 || auiStageID == 455))
+        Quest CREW_EliteCrewCoraCoe = Game.GetForm(0x00187BF1) as Quest
+        if (!CREW_EliteCrewCoraCoe.IsRunning() && GetTimesEnteredUnity() > 0)                
+            SFCPUtil.WriteLog("Starting Cora Coe crew quest")
+            CREW_EliteCrewCoraCoe.Start()
+        else
+            SFCPUtil.WriteLog("Cora Coe crew quest is already running. Fix skipped.")
+        endif
+    endif
+EndEvent

@@ -7,6 +7,27 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
+## [TBC] Version 0.1.3
+This update is intended to update compatibility with 1.10.32 of the game. A roundup of the changes is available [here](https://www.starfieldpatch.dev/issues/924).
+## Reverted Fixes
+- Removed fix to Landing Marker ownership as this has been fixed by Bethesda. [0022F4A2] - [Original Fix](https://www.starfieldpatch.dev/issues/885)
+- Removed fix where Cora would refer to Barrett even if he was dead. [00187BF5] - [Original Fix](https://www.starfieldpatch.dev/issues/679)
+- Removed fix to the blast shield at Nishina Research Station [0X00080C] [0023B8A7] [0023B8A9] [0023B8AB] [0023B8AD] [0023B8AF] [0023B8B0] - [Original Fix](https://www.starfieldpatch.dev/issues/631)
+- Removed fix for the graffiti on Styx not appearing as this has been fixed by Bethesda. [000A91FE] [000A920E] - [Original Fix](https://www.starfieldpatch.dev/issues/32)
+- Removed a faction fix for the Star Eagle is this seems to cause an unexplained crash when editing the ship. [001322D8] - [Original Fix](https://www.starfieldpatch.dev/issues/860)
+- Removed the fix for the Coe Estate Door not opening when skipping the main story in NG+ as Bethesda tried to fix this (unsuccessfully!) [001DC45E] [Fragments:Quests:QF_MQ401_001DC45E]
+## Fowarded Changes
+- Forwarded script updates on CF02 [000192D2]
+- Forwarded script updates on City_Akila_Jansen [001A8B64]
+- Forwarded script updates on City_GG_Connections [0018E0F9]
+- Forwarded script updates on MQ101 [00003448]
+- Forwarded alias updates on MQ105 [002C1C9B]
+- Forwarded script and objective updates on MQ305 [0024EF9C]
+- Forwarded alias and objective updates on RJ04 [001FB85C]
+- Forwarded script, objective and stage updates in the Power From Beyond quests [000854E8] [0001C179] [0001C078] [0001C077] [0001C076] [0001C075]
+# Quest Fixes
+- Improved the fix which ensures that Cora Coe's Crew quest starts up on NG+ by using a remote stage registration rather than directly editing MQ401 [Fragments:Quests:QF_MQ401_001DC45E] [0x000805] [SFCP:UpdateHandler]
+
 ## [2024-03-30] Version 0.1.2
 ### General Fixes
 - Spriggit updated to 0.18 in order to solve the dialogue bug introduced in game versions 1.10.30 and above. 
