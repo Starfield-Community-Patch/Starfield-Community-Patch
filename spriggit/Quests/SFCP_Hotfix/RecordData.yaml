@@ -13,6 +13,9 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: SFCP_Version_Patch
       Object: 000803:StarfieldCommunityPatch.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401
+      Object: 1DC45E:Starfield.esm
   Script:
     Name: ''
   Aliases:
