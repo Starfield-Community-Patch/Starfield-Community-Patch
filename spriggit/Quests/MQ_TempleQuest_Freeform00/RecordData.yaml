@@ -155,8 +155,12 @@ VirtualMachineAdapter:
       Name: TempleStarbornMarker
       Object: 01C078:Starfield.esm
       Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnomalyLocation
+      Object: 01C078:Starfield.esm
+      Alias: 4
   Script:
-    Name: Fragments:Quests:QF_MQ_TempleQuest_Freefor_0001C078_13
+    Name: Fragments:Quests:QF_MQ_TempleQuest_Freefor_0001C078_14
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_AnomalyMapMarker
@@ -193,19 +197,19 @@ VirtualMachineAdapter:
   Fragments:
   - Stage: 10
     Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_Freefor_0001C078_13
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_Freefor_0001C078_14
     FragmentName: Fragment_Stage_0010_Item_00
   - Stage: 30
     Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_Freefor_0001C078_13
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_Freefor_0001C078_14
     FragmentName: Fragment_Stage_0030_Item_00
   - Stage: 50
     Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_Freefor_0001C078_13
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_Freefor_0001C078_14
     FragmentName: Fragment_Stage_0050_Item_00
   - Stage: 60
     Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_Freefor_0001C078_13
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_Freefor_0001C078_14
     FragmentName: Fragment_Stage_0060_Item_00
 Name:
   TargetLanguage: English
@@ -333,7 +337,7 @@ Stages:
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
-      - XpAwarded: 003DDC:Starfield.esm
+      - XpAwarded: 2EDFA6:Starfield.esm
         BonusCredits: Null
     - QSRD: '[]'
 Objectives:
@@ -560,5 +564,5 @@ Aliases:
   - Optional
   ALFG: 0
   PackageData:
-  - 22FB1E:Starfield.esm
+  - 2EDFAB:Starfield.esm
   VoiceTypes: Null

@@ -915,6 +915,10 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CF02_000192D2
     FragmentName: Fragment_Stage_1885_Item_00
+  - Stage: 508
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0508_Item_00
   Aliases:
   - Property:
       Name: ''
@@ -2106,6 +2110,14 @@ Stages:
   LogEntries:
   - Flags: []
     Note: 'QO: Destroy the Ragana'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 508
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Delete layer
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'

@@ -11,6 +11,8 @@ VirtualMachineAdapter:
         - MutagenObjectType: ScriptIntProperty
           Name: PrereqStage
           Data: 100
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
         - MutagenObjectType: ScriptIntProperty
           Name: StageToSet
           Data: 200

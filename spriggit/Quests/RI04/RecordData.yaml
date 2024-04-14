@@ -1744,6 +1744,14 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
       Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 29B71E:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 400
@@ -1762,6 +1770,14 @@ Objectives:
         SecondParameter: 430
   - AliasID: 31
     Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 29B71E:Starfield.esm
+      ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
       Data:
@@ -1786,6 +1802,14 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
       Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 29B71E:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 430
@@ -1804,6 +1828,14 @@ Objectives:
         SecondParameter: 420
   - AliasID: 13
     Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 29B71E:Starfield.esm
+      ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
       Data:
@@ -1833,6 +1865,14 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
       Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 29B71E:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 278F1A:Starfield.esm
         SecondParameter: 40
@@ -1843,6 +1883,49 @@ Objectives:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 278F1A:Starfield.esm
         SecondParameter: 30
+  - AliasID: 39
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInsidePrimitiveConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 313203:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInsidePrimitiveConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 313206:Starfield.esm
+  - AliasID: 64
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 29B71E:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInsidePrimitiveConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 313203:Starfield.esm
+  - AliasID: 41
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInsidePrimitiveConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 313206:Starfield.esm
+      ComparisonValue: 1
 - Index: 405
   Flags: []
   DisplayText:
@@ -1895,6 +1978,14 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
       Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 29B71E:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 500
@@ -1907,6 +1998,14 @@ Objectives:
         SecondParameter: 410
   - AliasID: 9
     Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 29B71E:Starfield.esm
+      ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
       Data:
@@ -1926,6 +2025,14 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
       Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 29B71E:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 278F1A:Starfield.esm
         SecondParameter: 40
@@ -1936,6 +2043,49 @@ Objectives:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 278F1A:Starfield.esm
         SecondParameter: 30
+  - AliasID: 39
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInsidePrimitiveConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 313206:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInsidePrimitiveConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 313203:Starfield.esm
+      ComparisonValue: 1
+  - AliasID: 64
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 29B71E:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInsidePrimitiveConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 313203:Starfield.esm
+  - AliasID: 41
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInsidePrimitiveConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 313206:Starfield.esm
+      ComparisonValue: 1
 - Index: 575
   Flags: []
   DisplayText:
@@ -2709,6 +2859,15 @@ Aliases:
     RefType: 03415E:Starfield.esm
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
+  ID: 67
+  Name: VentExitQTPrimitive
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 37
+    RefType: 313207:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
   ID: 38
   Name: CraneButton
   Flags: []
@@ -2751,3 +2910,21 @@ Aliases:
     AliasID: 43
     RefType: 3E2D79:Starfield.esm
   VoiceTypes: 2BCA48:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 64
+  Name: EbbsideDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 43
+    RefType: 3131FF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 66
+  Name: VentQTPrimitive
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 43
+    RefType: 313202:Starfield.esm
+  VoiceTypes: Null

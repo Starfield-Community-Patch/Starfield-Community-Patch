@@ -9,6 +9,8 @@ GlobalVariable Property SFCP_Version_Patch Auto Const
 { Patch SFCP Version }
 ConditionForm Property SFCP_CND_AllResearchCompleted Auto Const
 { Has the player completed all current research projects }
+Quest Property MQ401 Auto
+{ New Game Plus Standard Handler }
 
 ;-- Variables  --------------------------------------
 string sCurrentVersion = ""
@@ -23,12 +25,18 @@ bool b005HadrianFactionFix = false
 ; https://www.starfieldpatch.dev/issues/669
 bool b005ResearchTutorialFix = false
 ; https://www.starfieldpatch.dev/issues/725
+bool b012CoraCoreNewFix = false
+; https://www.starfieldpatch.dev/issues/924
 
 ;-- Functions ---------------------------------------
 
 Event OnQuestInit()
     ; When the quest starts up for the very first time, we need to check for updates.
     Self.CheckForUpdates()
+
+    ; Register for MQ401 hitting stage 450 or 455 so that we can start the Cora Core Crew Quest
+    ; Inital fix: #369. Revised fix: #924
+    Self.RegisterForRemoteEvent(MQ401 as ScriptObject, "OnStageSet")
 EndEvent
 
 Function CheckForUpdates()
@@ -68,7 +76,8 @@ Function ApplyMissingFixes(string sNewVersion)
     ; Fix for https://github.com/Starfield-Community-Patch/Starfield-Community-Patch/issues/369
     if (!b001CoraCoeFix || (CurrentVersionGTE(0,0,1)))
         Quest CREW_EliteCrewCoraCoe = Game.GetForm(0x00187BF1) as Quest
-        if (iTimesEnteredUnity > 0 && !CREW_EliteCrewCoraCoe.IsRunning())
+        ; (auiStageID == 450 || auiStageID == 455)
+        if ((MQ401.GetStageDone(450) || MQ401.GetStageDone(455)) && iTimesEnteredUnity > 0 && !CREW_EliteCrewCoraCoe.IsRunning())
             SFCPUtil.WriteLog("Starting Cora Coe crew quest")
             CREW_EliteCrewCoraCoe.Start()
         else 
@@ -79,21 +88,13 @@ Function ApplyMissingFixes(string sNewVersion)
 
     ; Fix for https://github.com/Starfield-Community-Patch/Starfield-Community-Patch/issues/370
     if (!b001CoeEstateFix || (CurrentVersionGTE(0,0,1)))
-        ObjectReference CoeEstateFrontDoorREF = Game.GetForm(0x002FC83E) as ObjectReference
+        ObjectReference CoeEstateFrontDoorREF = Game.GetForm(0x000E69EC) as ObjectReference
         GlobalVariable MQ401_SkipMQ = Game.GetForm(0x0017E006) as GlobalVariable
-        ; Check if the player has entered Unity and if the doors are locked after skipping the main quest
-        if (iTimesEnteredUnity > 0 && CoeEstateFrontDoorREF.IsLocked() && MQ401_SkipMQ.GetValue() as Int == 1)
+        Quest COM_Quest_SamCoe_Commitment = Game.GetForm(0x000DF7AD) as Quest
+        ; Check if the player has entered Unity, skipped the main quest, and COM_Quest_SamCoe_Commitment has already started
+        if (iTimesEnteredUnity > 0 && CoeEstateFrontDoorREF.IsLocked() && MQ401_SkipMQ.GetValue() as Int == 1 && COM_Quest_SamCoe_Commitment.IsRunning())
             SFCPUtil.WriteLog("Unlocking Coe Estate doors")
-            ObjectReference CoeEstateBalconyDoorREF = Game.GetForm(0x002D044F) as ObjectReference
-            ObjectReference CoeEstateFirstFloorDoorREF = Game.GetForm(0x002FC753) as ObjectReference
-            ObjectReference CoeEstateFirstFloorDoorTwo = Game.GetForm(0x002D0418) as ObjectReference
-            Faction CoeEstateDoorFaction = Game.GetForm(0x001260C3) as Faction
-            ; Make the changes
-            CoeEstateBalconyDoorREF.Lock(False, False, True)
-            CoeEstateFrontDoorREF.Lock(False, False, True)
-            CoeEstateFirstFloorDoorREF.Lock(False, False, True)
-            CoeEstateFirstFloorDoorTwo.Lock(False, False, True)
-            Game.GetPlayer().AddToFaction(CoeEstateDoorFaction)
+            CoeEstateFrontDoorREF.Lock(False, True, True)
         else
             SFCPUtil.WriteLog("Coe Estate doors do not require unlocking.")
         endif
@@ -121,6 +122,13 @@ Function ApplyMissingFixes(string sNewVersion)
         b005ResearchTutorialFix = true
     endif
 
+    ; Updated fix for https://www.starfieldpatch.dev/issues/924
+    if (!b012CoraCoreNewFix || (CurrentVersionGTE(0, 1, 3)))
+        SFCPUtil.WriteLog("Registered OnStageSet for MQ401 to apply Cora Coe Crew Fix")
+        Self.RegisterForRemoteEvent(MQ401 as ScriptObject, "OnStageSet")
+        b012CoraCoreNewFix = true
+    endif
+
 EndFunction
 
 int Function GetTimesEnteredUnity()
@@ -146,3 +154,15 @@ bool Function CurrentVersionGTE(int newMajor, int newMinor, int newPatch)
     endif
 
 EndFunction
+
+Event Quest.OnStageSet(Quest akSender, Int auiStageID, Int auiItemID)
+    if (akSender == MQ401 && (auiStageID == 450 || auiStageID == 455))
+        Quest CREW_EliteCrewCoraCoe = Game.GetForm(0x00187BF1) as Quest
+        if (!CREW_EliteCrewCoraCoe.IsRunning() && GetTimesEnteredUnity() > 0)                
+            SFCPUtil.WriteLog("Starting Cora Coe crew quest")
+            CREW_EliteCrewCoraCoe.Start()
+        else
+            SFCPUtil.WriteLog("Cora Coe crew quest is already running. Fix skipped.")
+        endif
+    endif
+EndEvent

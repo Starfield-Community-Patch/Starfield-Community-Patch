@@ -1,0 +1,113 @@
+FormKey: 23DFA5:Starfield.esm
+FormVersion: 558
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DefaultTopicInfoSetActorValue
+    Properties:
+    - MutagenObjectType: ScriptBoolProperty
+      Name: SetOnPlayer
+      Data: True
+    - MutagenObjectType: ScriptBoolProperty
+      Name: SetOnSpeaker
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ValueToModify
+      Object: 326C6E:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0FA847:Starfield.esm
+  WEMFile: 9159674
+  TRDAUnknown: 1.7666668
+  TROTs:
+  - UnknownVoiceType: 00599A:Starfield.esm
+    UnknownFloat: 19.966667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Okay, dann müssen wir eine Party schmeißen! Wenn du so weit bist, flieg nach Akila City.
+    - Language: English
+      String: Well, apparently we're having a ceremony! Any time you're ready, head over to Akila City.
+    - Language: Spanish
+      String: Bueno, ¡pues vamos a casarnos! Cuando puedas, ve a la ciudad de Akila.
+    - Language: French
+      String: Alors nous voilà partis pour une cérémonie ! Rendez-vous à Akila City dès que vous voudrez.
+    - Language: Italian
+      String: Beh, a quanto pare avremo una cerimonia! Quando è tutto pronto, raggiungi Akila City.
+    - Language: Japanese
+      String: さあ、いよいよ結婚式だな！ 準備ができたら、アキラ・シティに向かってくれ
+    - Language: Polish
+      String: Szykuje się nam uroczystość! Przygotuj się i ruszaj do miasta Akila.
+    - Language: Portuguese_Brazil
+      String: Bem, pelo jeito vamos ter uma cerimônia! Quando quiser, vá até a cidade de Akila.
+    - Language: ChineseSimplified
+      String: 我们肯定要办一场婚礼！等你什么时候准备好了，就去阿基拉城。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xB05A930DA5A8D701
+- Emotion: 112004:Starfield.esm
+  WEMFile: 3747137
+  TRDAUnknown: 6.1333337
+  TROTs:
+  - UnknownVoiceType: 00599A:Starfield.esm
+    UnknownFloat: 0.26666668
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Es wird Zeit, das Coe-Anwesen endlich mal mit guten Erinnerungen zu verknüpfen!
+    - Language: English
+      String: I figure it's about time to make some genuine good memories at the Coe Estate.
+    - Language: Spanish
+      String: Ya va siendo hora de crear buenos recuerdos en la finca Coe.
+    - Language: French
+      String: Il serait peut-être temps de créer enfin des souvenirs heureux au domaine Coe.
+    - Language: Italian
+      String: È finalmente giunto il momento di creare qualche bel ricordo nella tenuta dei Coe.
+    - Language: Japanese
+      String: そろそろコー家の屋敷で良い思い出でも作るか
+    - Language: Polish
+      String: Chyba czas stworzyć prawdziwie dobre wspomnienia w posiadłości rodziny Coe.
+    - Language: Portuguese_Brazil
+      String: Acho que já é hora de criar lembranças boas e genuínas na Propriedade Coe.
+    - Language: ChineseSimplified
+      String: 我想是时候在科尔庄园创造一些真正美好的回忆了。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xB062A318A5A8D701
+- Emotion: 0FA847:Starfield.esm
+  WEMFile: 4350325
+  TROTs:
+  - UnknownVoiceType: 00599A:Starfield.esm
+    UnknownFloat: 1.8000001
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ich kann's kaum erwarten!
+    - Language: English
+      String: I can't wait!
+    - Language: Spanish
+      String: ¡Qué ganas!
+    - Language: French
+      String: J'ai hâte !
+    - Language: Italian
+      String: Non vedo l’ora!
+    - Language: Japanese
+      String: 楽しみだ！
+    - Language: Polish
+      String: Nie mogę się doczekać!
+    - Language: Portuguese_Brazil
+      String: Mal posso esperar!
+    - Language: ChineseSimplified
+      String: 我等不及了！
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xB06B511BA5A8D701
+SetParentQuestStage:
+  OnBegin: -1
+  OnEnd: 825
+StartScenePhase: ''
+SubtitlePriority: Low
