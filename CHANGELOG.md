@@ -27,7 +27,7 @@ This update is intended to update compatibility with 1.10.32 of the game. A roun
 - Forwarded alias and objective updates on RJ04 [001FB85C]
 - Forwarded script, objective and stage updates in the Power From Beyond quests [000854E8] [0001C179] [0001C078] [0001C077] [0001C076] [0001C075]
 - Forwarded script updates while maintaining our fixes [bescript] [sq_playershipscript]
-# Quest Fixes
+## Quest Fixes
 - Improved the fix which ensures that Cora Coe's Crew quest starts up on NG+ by using a remote stage registration rather than directly editing MQ401 [Fragments:Quests:QF_MQ401_001DC45E] [0x000805] [SFCP:UpdateHandler]
 - Improved the fix where Lillian's Foreknowledge variable was not being set correctly by repairing the original dialogue line properties and removing the script/scene edits previously used [0026C506] [Fragments:Scenes:SF_COM_SamCoe_Story_SG02_0026C506] [0026C5A1]
 - Improved the fix where Sam's Commitment Foreknowledge variable was not being set correctly by repairing the original dialogue line properties and removing the script/quest edits previously used [000DF7AD] [Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD] [0023E003]
