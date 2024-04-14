@@ -16,6 +16,7 @@ This update is intended to update compatibility with 1.10.32 of the game. A roun
 - Removed fix for the graffiti on Styx not appearing as this has been fixed by Bethesda. [000A91FE] [000A920E] - [Original Fix](https://www.starfieldpatch.dev/issues/32)
 - Removed a faction fix for the Star Eagle is this seems to cause an unexplained crash when editing the ship. [001322D8] - [Original Fix](https://www.starfieldpatch.dev/issues/860)
 - Removed the fix for the Coe Estate Door not opening when skipping the main story in NG+ as Bethesda tried to fix this (unsuccessfully!) [001DC45E] [Fragments:Quests:QF_MQ401_001DC45E]
+- Removed the fix for Rejuvenation level 3 and 4 as this has been fixed by Bethesda. [0012601A] [0012601B] - [Original Fix](https://www.starfieldpatch.dev/issues/433)
 ## Fowarded Changes
 - Forwarded script updates on CF02 [000192D2]
 - Forwarded script updates on City_Akila_Jansen [001A8B64]
@@ -25,11 +26,13 @@ This update is intended to update compatibility with 1.10.32 of the game. A roun
 - Forwarded script and objective updates on MQ305 [0024EF9C]
 - Forwarded alias and objective updates on RJ04 [001FB85C]
 - Forwarded script, objective and stage updates in the Power From Beyond quests [000854E8] [0001C179] [0001C078] [0001C077] [0001C076] [0001C075]
+- Forwarded script updates while maintaining our fixes [bescript] [sq_playershipscript]
 # Quest Fixes
 - Improved the fix which ensures that Cora Coe's Crew quest starts up on NG+ by using a remote stage registration rather than directly editing MQ401 [Fragments:Quests:QF_MQ401_001DC45E] [0x000805] [SFCP:UpdateHandler]
 - Improved the fix where Lillian's Foreknowledge variable was not being set correctly by repairing the original dialogue line properties and removing the script/scene edits previously used [0026C506] [Fragments:Scenes:SF_COM_SamCoe_Story_SG02_0026C506] [0026C5A1]
 - Improved the fix where Sam's Commitment Foreknowledge variable was not being set correctly by repairing the original dialogue line properties and removing the script/quest edits previously used [000DF7AD] [Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD] [0023E003]
 - Fixed Bethesda's implementation of Coe Estate Door Fix by point the alias to the correct object and updating the script to use the correct function. [Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD] [000DF7AD]
+- Fixed the check for Cora Coe's CREW quest after entering which was starting it up too early. [SFCP:UpdateHandler]
 
 ## [2024-03-30] Version 0.1.2
 ### General Fixes

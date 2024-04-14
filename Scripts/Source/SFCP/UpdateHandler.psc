@@ -76,7 +76,8 @@ Function ApplyMissingFixes(string sNewVersion)
     ; Fix for https://github.com/Starfield-Community-Patch/Starfield-Community-Patch/issues/369
     if (!b001CoraCoeFix || (CurrentVersionGTE(0,0,1)))
         Quest CREW_EliteCrewCoraCoe = Game.GetForm(0x00187BF1) as Quest
-        if (iTimesEnteredUnity > 0 && !CREW_EliteCrewCoraCoe.IsRunning())
+        ; (auiStageID == 450 || auiStageID == 455)
+        if ((MQ401.GetStageDone(450) || MQ401.GetStageDone(455)) && iTimesEnteredUnity > 0 && !CREW_EliteCrewCoraCoe.IsRunning())
             SFCPUtil.WriteLog("Starting Cora Coe crew quest")
             CREW_EliteCrewCoraCoe.Start()
         else 
@@ -87,21 +88,13 @@ Function ApplyMissingFixes(string sNewVersion)
 
     ; Fix for https://github.com/Starfield-Community-Patch/Starfield-Community-Patch/issues/370
     if (!b001CoeEstateFix || (CurrentVersionGTE(0,0,1)))
-        ObjectReference CoeEstateFrontDoorREF = Game.GetForm(0x002FC83E) as ObjectReference
+        ObjectReference CoeEstateFrontDoorREF = Game.GetForm(0x000E69EC) as ObjectReference
         GlobalVariable MQ401_SkipMQ = Game.GetForm(0x0017E006) as GlobalVariable
-        ; Check if the player has entered Unity and if the doors are locked after skipping the main quest
-        if (iTimesEnteredUnity > 0 && CoeEstateFrontDoorREF.IsLocked() && MQ401_SkipMQ.GetValue() as Int == 1)
+        Quest COM_Quest_SamCoe_Commitment = Game.GetForm(0x000DF7AD) as Quest
+        ; Check if the player has entered Unity, skipped the main quest, and COM_Quest_SamCoe_Commitment has already started
+        if (iTimesEnteredUnity > 0 && CoeEstateFrontDoorREF.IsLocked() && MQ401_SkipMQ.GetValue() as Int == 1 && COM_Quest_SamCoe_Commitment.IsRunning())
             SFCPUtil.WriteLog("Unlocking Coe Estate doors")
-            ObjectReference CoeEstateBalconyDoorREF = Game.GetForm(0x002D044F) as ObjectReference
-            ObjectReference CoeEstateFirstFloorDoorREF = Game.GetForm(0x002FC753) as ObjectReference
-            ObjectReference CoeEstateFirstFloorDoorTwo = Game.GetForm(0x002D0418) as ObjectReference
-            Faction CoeEstateDoorFaction = Game.GetForm(0x001260C3) as Faction
-            ; Make the changes
-            CoeEstateBalconyDoorREF.Lock(False, False, True)
-            CoeEstateFrontDoorREF.Lock(False, False, True)
-            CoeEstateFirstFloorDoorREF.Lock(False, False, True)
-            CoeEstateFirstFloorDoorTwo.Lock(False, False, True)
-            Game.GetPlayer().AddToFaction(CoeEstateDoorFaction)
+            CoeEstateFrontDoorREF.Lock(False, True, True)
         else
             SFCPUtil.WriteLog("Coe Estate doors do not require unlocking.")
         endif

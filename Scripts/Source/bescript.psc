@@ -7,8 +7,8 @@ Struct GenericCrewDatum
   { The Actor to spawn. }
   Float ActorLevelModChanceEasy = 0.5
   { Default=0.5. Chance the actor's aiLevelMod will be 0, Easy. }
-  Float ActorLevelModChanceMedium = 0.5
-  { Default=0.5. Chance the actor's aiLevelMod will be 1, Medium. If not Easy or Medium, the actor will be 2, Hard. }
+  Float ActorLevelModChanceMedium = 0.400000006
+  { Default=0.4. Chance the actor's aiLevelMod will be 1, Medium. If not Easy or Medium, the actor will be 2, Hard. }
   Int InstancesToSpawn = -1
   { Default=-1 (Unlimited). The maximum number of instances of this actor to spawn on this ship. }
 EndStruct
@@ -526,7 +526,9 @@ Event OnQuestStarted()
     If OwnerFaction != None
       enemyShipCell.SetOffLimits(True)
     EndIf
-    crewSizePercent = enemyShipRef.GetValue(SpaceshipCrew) / enemyShipRef.GetBaseValue(SpaceshipCrew)
+    Float baseCrewSize = enemyShipRef.GetBaseValue(SpaceshipCrew)
+    Float currentCrewSize = enemyShipRef.GetValue(SpaceshipCrew)
+    crewSizePercent = currentCrewSize / baseCrewSize
     If ShouldSpawnCrew && CrewData != None
       genericCrewSize = Self.SetupGenericCrew(CrewData, CrewCountPercent, CrewCountOverride, CrewSpawnPattern, CONST_SpawnPrioritization_CockpitLargeSmall, False)
       Int spaceshipCrewValue = enemyShipRef.GetValue(SpaceshipCrew) as Int
@@ -534,7 +536,8 @@ Event OnQuestStarted()
         If ShowTraces
           
         EndIf
-        enemyShipRef.SetValue(SpaceshipCrew, genericCrewSize as Float)
+        Float crewLost = Math.Max((spaceshipCrewValue - genericCrewSize) as Float, 0.0)
+        enemyShipRef.ModValue(SpaceshipCrew, -crewLost)
       EndIf
     EndIf
     If ShouldSpawnCorpses
@@ -547,7 +550,7 @@ Event OnQuestStarted()
     EndIf
     If TurretData != None && TurretSpawnChance > 0.0 && TurretModulePercentChance > 0.0 && Utility.RandomFloat(0.0, 1.0) < TurretSpawnChance
       Int turretsSpawned = Self.SetupTurrets()
-      enemyShipRef.SetValue(SpaceshipCrew, enemyShipRef.GetValue(SpaceshipCrew) + turretsSpawned as Float)
+      enemyShipRef.ModValue(SpaceshipCrew, turretsSpawned as Float)
     EndIf
     If HeatLeechChance > 0.0 && Utility.RandomFloat(0.0, 1.0) < HeatLeechChance
       Self.SetupHeatLeeches()
@@ -1316,7 +1319,7 @@ Actor Function SpawnGenericActor(ObjectReference spawnPoint, bescript:genericcre
   Float actorLevelModChance = Utility.RandomFloat(0.0, 1.0)
   If actorLevelModChance < spawnData.ActorLevelModChanceEasy
     actorLevelMod = 0
-  ElseIf actorLevelModChance < spawnData.ActorLevelModChanceMedium
+  ElseIf actorLevelModChance < spawnData.ActorLevelModChanceEasy + spawnData.ActorLevelModChanceMedium
     actorLevelMod = 1
   Else
     actorLevelMod = 2
@@ -1343,8 +1346,8 @@ Actor Function SpawnGenericActor(ObjectReference spawnPoint, bescript:genericcre
       newActor.SetValue(Aggression, CONST_Aggression_VeryAggressive as Float)
     EndIf
 
-    ; Bug fix: remove any possibly erroneous crime faction the actor might be a part of.
-    ; Only use the ship's crime faction.
+    ; SFCP fix: remove any possibly erroneous crime faction the actor might be a part of.
+    ; Only use the ship's crime faction. https://www.starfieldpatch.dev/issues/323
     newActor.SetCrimeFaction(enemyShipCrimeFaction)
 
     ObjectReference spawnLink = spawnPoint.GetLinkedRef(None)
@@ -1753,7 +1756,7 @@ Function UpdateTakeoff()
     If !enemyShipRef.IsExteriorLoadDoorInaccessible()
       If !player.IsInLocation(enemyShipInteriorLoc)
         enemyShipRef.SetExteriorLoadDoorInaccessible(True)
-        If player.IsInLocation(enemyShipInteriorLoc)
+        If enemyShipInteriorLoc != None && player.IsInLocation(enemyShipInteriorLoc)
           enemyShipRef.SetExteriorLoadDoorInaccessible(False)
         EndIf
       EndIf
@@ -1765,12 +1768,16 @@ Function UpdateTakeoff()
         Self.RegisterForRemoteEvent(enemyShipRef as ScriptObject, "OnUnload")
       EndIf
       ObjectReference[] landingRamps = enemyShipRef.GetLandingRamps()
-      Int i = 0
-      While i < landingRamps.Length
-        Self.RegisterForRemoteEvent(landingRamps[i] as ScriptObject, "OnClose")
-        landingRamps[i].SetOpen(False)
-        i += 1
-      EndWhile
+      If landingRamps == None || landingRamps.Length == 0
+        Self.FinishTakeoff()
+      Else
+        Int i = 0
+        While i < landingRamps.Length
+          Self.RegisterForRemoteEvent(landingRamps[i] as ScriptObject, "OnClose")
+          landingRamps[i].SetOpen(False)
+          i += 1
+        EndWhile
+      EndIf
       Return 
     EndIf
   EndIf
@@ -1797,6 +1804,9 @@ Function FinishTakeoff()
     EndWhile
   EndIf
   enemyShipRef.DisableWithTakeoffOrLanding()
+  If ShutDownOnUnload
+    Self.CleanupAndStop()
+  EndIf
 EndFunction
 
 Function SetCrewPlayerFriend(Bool shouldBeFriends, Bool shouldStartOrStopCombat)
@@ -1840,10 +1850,7 @@ EndFunction
 
 Function DecompressShipAndKillCrew()
   Bool isPlayerInEnemyShip = Game.GetPlayer().GetParentCell() == enemyShipCell
-  Bool blockZeroG = GenericRobots != None
-  If blockZeroG
-    blockZeroG = GenericRobots.GetCount() > 0
-  EndIf
+  Bool blockZeroG = GenericRobots != None && GenericRobots.GetCount() > 0
   Actor[] allCrewRefs = AllCrew.GetArray() as Actor[]
   Int I = 0
   While I < allCrewRefs.Length
@@ -2047,4 +2054,12 @@ EndFunction
 
 Function DEBUG_SetDoorInaccessible(Bool shouldBeInaccessible)
   enemyShipRef.SetExteriorLoadDoorInaccessible(shouldBeInaccessible)
+EndFunction
+
+Function PATCH_RetryTakeoff()
+  If Self.IsRunning()
+    If isReadyForTakeoff
+      Self.UpdateTakeoff()
+    EndIf
+  EndIf
 EndFunction

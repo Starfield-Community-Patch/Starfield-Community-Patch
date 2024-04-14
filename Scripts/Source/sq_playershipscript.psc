@@ -260,7 +260,8 @@ EndFunction
 
 Function LoadVascoExterior()
   Actor VascoREF = Vasco.GetActorRef()
-  If VascoREF.IsInFaction(CurrentFollowerFaction) || VascoREF.IsInFaction(CurrentCrewFaction) || MQ101VascoQuestFollower.GetValueInt() == 1
+  spaceshipreference playerShipRef = PlayerShip.GetShipRef()
+  If VascoREF.IsInFaction(CurrentFollowerFaction) || playerShipRef.IsCrew(VascoREF) || MQ101VascoQuestFollower.GetValueInt() == 1
     ObjectReference movetoRef = None
     Location currentLoc = Game.GetPlayer().GetCurrentLocation()
     If currentLoc.HasRefType(Crew_VascoWaitRefType)
@@ -469,17 +470,23 @@ Event ReferenceAlias.OnShipTakeoff(ReferenceAlias akSender, Bool abComplete)
 EndEvent
 
 Event ReferenceAlias.OnShipDock(ReferenceAlias akSource, Bool abComplete, spaceshipreference akDocking, spaceshipreference akParent)
-  If abComplete == False
-    spaceshipreference playerShipRef = PlayerShip.GetShipRef()
-    spaceshipreference otherShipRef = None
-    If playerShipRef == akDocking
-      otherShipRef = akParent
-    Else
-      otherShipRef = akDocking
+  If abComplete
+    spaceshipreference currentShipRef = Game.GetPlayer().GetCurrentShipRef()
+    spaceshipreference otherShipRef = akParent
+    If otherShipRef.HasKeyword(IsStarstation)
+      Self.ResetHomeShip(currentShipRef)
     EndIf
-    BEEncounterTypeDocking.SendStoryEvent(None, akSource.GetRef(), otherShipRef as ObjectReference, 100, 0)
+  Else
+    spaceshipreference playerShipRef = PlayerShip.GetShipRef()
+    spaceshipreference othershipref = None
+    If playerShipRef == akDocking
+      othershipref = akParent
+    Else
+      othershipref = akDocking
+    EndIf
+    BEEncounterTypeDocking.SendStoryEvent(None, akSource.GetRef(), othershipref as ObjectReference, 100, 0)
     Actor player = Game.GetPlayer()
-    If otherShipRef as Bool && otherShipRef.GetActorFactionReaction(player) == 1
+    If othershipref as Bool && othershipref.GetActorFactionReaction(player) == 1
       Actor[] myCrew = playerShipRef.GetAllCrewMembers()
       BoardingCrew.AddArray(myCrew as ObjectReference[])
     EndIf
