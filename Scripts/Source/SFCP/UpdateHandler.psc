@@ -123,7 +123,7 @@ Function ApplyMissingFixes(string sNewVersion)
     endif
 
     ; Updated fix for https://www.starfieldpatch.dev/issues/924
-    if (!b012CoraCoreNewFix || (CurrentVersionGTE(0, 1, 2)))
+    if (!b012CoraCoreNewFix || (CurrentVersionGTE(0, 1, 3)))
         SFCPUtil.WriteLog("Registered OnStageSet for MQ401 to apply Cora Coe Crew Fix")
         Self.RegisterForRemoteEvent(MQ401 as ScriptObject, "OnStageSet")
         b012CoraCoreNewFix = true
