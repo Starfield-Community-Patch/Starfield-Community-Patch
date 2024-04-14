@@ -744,6 +744,10 @@ VirtualMachineAdapter:
       Alias: 27
     Scripts:
     - Name: ReturnUnityTriggerAliasScript
+  - Property:
+      Name: ''
+      Object: 24EF9C:Starfield.esm
+      Alias: 16
 Name:
   TargetLanguage: English
   Values:
@@ -1537,6 +1541,22 @@ Objectives:
       String: 移除天体仪以正常进行重力跃迁
   Targets:
   - AliasID: 50
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInSpaceshipConditionData
+        RunOnType: QuestAlias
+        Unknown3: 28
+      ComparisonValue: 1
+  - AliasID: 28
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInSpaceshipConditionData
+        RunOnType: QuestAlias
+        Unknown3: 28
 - Index: 100
   Flags: []
   DisplayText:

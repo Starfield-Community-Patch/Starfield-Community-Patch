@@ -155,6 +155,10 @@ VirtualMachineAdapter:
       Name: TempleStarbornMarker
       Object: 01C179:Starfield.esm
       Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnomalyLocation
+      Object: 01C179:Starfield.esm
+      Alias: 4
   Script:
     Name: Fragments:Quests:QF_MQ_TempleQuest_Freeform_0001C179
     Properties:

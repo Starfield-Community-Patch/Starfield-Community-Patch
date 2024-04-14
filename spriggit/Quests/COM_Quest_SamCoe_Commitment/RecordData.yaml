@@ -136,9 +136,6 @@ VirtualMachineAdapter:
       Object: 0174A2:Starfield.esm
       Alias: 24
     - MutagenObjectType: ScriptObjectProperty
-      Name: SamCoe_CommitmentForeknowledgeAV
-      Object: 326C6E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Companions
       Object: 2A567C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
@@ -147,6 +144,10 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Followers
       Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoeMainDoor
+      Object: 0DF7AD:Starfield.esm
+      Alias: 10
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
@@ -778,4 +779,12 @@ Aliases:
   - 0x80000000
   - 0x0
   ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: CoeMainDoor
+  Flags:
+  - Optional
+  ALFG: 0
+  ForcedReference: 0E69EC:Starfield.esm
   VoiceTypes: Null

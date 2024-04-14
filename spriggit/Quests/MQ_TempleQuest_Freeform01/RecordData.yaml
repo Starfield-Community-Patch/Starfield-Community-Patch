@@ -155,8 +155,12 @@ VirtualMachineAdapter:
       Name: TempleStarbornMarker
       Object: 01C077:Starfield.esm
       Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnomalyLocation
+      Object: 01C077:Starfield.esm
+      Alias: 4
   Script:
-    Name: Fragments:Quests:QF_MQ_TempleQuest_Freefor_0001C077_13
+    Name: Fragments:Quests:QF_MQ_TempleQuest_Freefor_0001C077_14
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_AnomalyMapMarker
@@ -333,7 +337,7 @@ Stages:
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
-      - XpAwarded: 002690:Starfield.esm
+      - XpAwarded: 2EDFA9:Starfield.esm
         BonusCredits: Null
     - QSRD: '[]'
 Objectives:
@@ -560,5 +564,5 @@ Aliases:
   - Optional
   ALFG: 0
   PackageData:
-  - 22FB1D:Starfield.esm
+  - 2EDFAD:Starfield.esm
   VoiceTypes: Null

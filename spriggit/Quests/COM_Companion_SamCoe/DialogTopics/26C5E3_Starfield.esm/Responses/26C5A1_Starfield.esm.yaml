@@ -1,0 +1,49 @@
+FormKey: 26C5A1:Starfield.esm
+FormVersion: 558
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DefaultTopicInfoSetActorValue
+    Properties:
+    - MutagenObjectType: ScriptBoolProperty
+      Name: SetOnPlayer
+      Data: True
+    - MutagenObjectType: ScriptBoolProperty
+      Name: SetOnSpeaker
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ValueToModify
+      Object: 326C6D:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: 0FA84E:Starfield.esm
+  WEMFile: 9928005
+  TRDAUnknown: 7.466667
+  TROTs:
+  - UnknownVoiceType: 00599A:Starfield.esm
+    UnknownFloat: 1.2333333
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Und wenn sie mal lernt, ihr Zeug aufzuräumen, lebt sie vielleicht auch, bis sie 13 ist.
+    - Language: English
+      String: And if she just learned to pick up after herself she just might live until she's 13.
+    - Language: Spanish
+      String: Y si ya ha aprendido a ordenar sus cosas, puede que viva hasta los trece.
+    - Language: French
+      String: Et si elle apprend à ramasser ce qu'elle laisse traîner, elle pourra peut-être bien vivre jusqu'à ses 13 ans.
+    - Language: Italian
+      String: E se imparasse a rimettere a posto le cose che usa, potrebbe anche sopravvivere fino ai 13 anni.
+    - Language: Japanese
+      String: それに後片づけさえ覚えりゃ、うっかり死ぬことはないさ。13歳までは
+    - Language: Polish
+      String: Wystarczy, że nauczy się zbierać rzeczy po sobie, to może zdoła przeżyć do 13. urodzin.
+    - Language: Portuguese_Brazil
+      String: E, se ela só aprender a limpar a própria bagunça, ela certamente vai viver além dos 13 anos.
+    - Language: ChineseSimplified
+      String: 如果她能学会自己收拾东西，也许能成功长到13岁。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x0065EA9A6749D601
+StartScenePhase: ''
+SubtitlePriority: Low
