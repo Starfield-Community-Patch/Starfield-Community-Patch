@@ -19,6 +19,9 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: SFCP_CND_AllResearchCompleted
       Object: 000808:StarfieldCommunityPatch.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A
+      Object: 2BACF9:Starfield.esm
   Script:
     Name: ''
   Aliases:
