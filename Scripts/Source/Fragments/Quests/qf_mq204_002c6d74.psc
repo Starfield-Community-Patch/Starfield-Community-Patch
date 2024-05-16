@@ -1506,8 +1506,6 @@ Function Fragment_Stage_0610_Item_00()
     Self.SetStage(492)
   EndIf
   MQ204xPostQuest.Start()
-  CityNewAtlantisLocation.Reset()
-  CityNewAtlantisWellLocation.Reset()
   Actor NoelREF = Alias_Noel.GetActorRef()
   NoelREF.SetGhost(False)
   MQ204_NA_StateChangeHandler.SetStageNoWait(10)
@@ -1700,4 +1698,5 @@ Function Fragment_Stage_2000_Item_00()
   If COM_SQ01_SonaLeft.GetValueInt() == 1
     Alias_Sona.GetActorRef().EnableNoWait(False)
   EndIf
+  kmyQuest.MQ204EnableLayer.Delete()
 EndFunction
