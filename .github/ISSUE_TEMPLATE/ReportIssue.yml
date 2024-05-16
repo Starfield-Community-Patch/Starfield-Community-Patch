@@ -103,7 +103,7 @@ body:
         new game, the community may not be able to identify and fix it."
       options:
         - Yes, I can recreate this issue.
-        - No, I cannot recreated this issue.
+        - No, I cannot recreate this issue.
     validations:
       required: true
   - type: textarea
