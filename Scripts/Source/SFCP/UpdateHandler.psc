@@ -11,6 +11,8 @@ ConditionForm Property SFCP_CND_AllResearchCompleted Auto Const
 { Has the player completed all current research projects }
 Quest Property MQ401 Auto
 { New Game Plus Standard Handler }
+Quest Property MQ206A Auto
+{ Missed Beyond Measure }
 
 ;-- Variables  --------------------------------------
 string sCurrentVersion = ""
@@ -37,6 +39,8 @@ Event OnQuestInit()
     ; Register for MQ401 hitting stage 450 or 455 so that we can start the Cora Core Crew Quest
     ; Inital fix: #369. Revised fix: #924
     Self.RegisterForRemoteEvent(MQ401 as ScriptObject, "OnStageSet")
+    ; Fix for https://www.starfieldpatch.dev/issues/545
+    Self.RegisterForRemoteEvent(MQ206A as ScriptObject, "OnStageSet")
 EndEvent
 
 Function CheckForUpdates()
@@ -163,6 +167,29 @@ Event Quest.OnStageSet(Quest akSender, Int auiStageID, Int auiItemID)
             CREW_EliteCrewCoraCoe.Start()
         else
             SFCPUtil.WriteLog("Cora Coe crew quest is already running. Fix skipped.")
+        endif
+    endif
+    ; Fix for https://www.starfieldpatch.dev/issues/545
+    ; Shuts down commitment quest for the dead companion if it is still running. This keeps the dead companion from being set as the active companion in stage 2000 of MQ206A.
+    if (akSender == MQ206A && auiStageID == 1000)
+        Quest COM_Quest_Andreja_Commitment = Game.GetForm(0x000B8633) as Quest
+        Quest COM_Quest_Barrett_Commitment = Game.GetForm(0x001C7185) as Quest
+        Quest COM_Quest_SamCoe_Commitment = Game.GetForm(0x000DF7AD) as Quest
+        Quest COM_Quest_SarahMorgan_Commitment = Game.GetForm(0x0027B667) as Quest
+        Quest MQ00 = Game.GetForm(0x00005790) as Quest
+        Actor DeadCompanionREF = (MQ00.GetAlias(4) as ReferenceAlias).getActorRef()
+        Actor AndrejaREF = (MQ206A.GetAlias(7) as ReferenceAlias).getActorRef()
+        Actor BarrettREF = (MQ206A.GetAlias(6) as ReferenceAlias).getActorRef()
+        Actor SamCoeREF = (MQ206A.GetAlias(4) as ReferenceAlias).getActorRef()
+        Actor SarahMorganREF = (MQ206A.GetAlias(5) as ReferenceAlias).getActorRef()
+        if (DeadCompanionREF == AndrejaREF && COM_Quest_Andreja_Commitment.IsRunning())
+           COM_Quest_Andreja_Commitment.Stop()
+        elseif (DeadCompanionREF == BarrettREF && COM_Quest_Barrett_Commitment.IsRunning())
+           COM_Quest_Barrett_Commitment.Stop()
+        elseif (DeadCompanionREF == SamCoeREF && COM_Quest_SamCoe_Commitment.IsRunning())
+           COM_Quest_SamCoe_Commitment.Stop()
+        elseif (DeadCompanionREF == SarahMorganREF && COM_Quest_SarahMorgan_Commitment.IsRunning())
+           COM_Quest_SarahMorgan_Commitment.Stop()
         endif
     endif
 EndEvent
