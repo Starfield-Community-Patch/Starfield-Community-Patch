@@ -10,6 +10,8 @@ When adding items to the changelog try and use the template below:
 ## [2024-04-14] Version 0.1.4
 This update is intended to update compatibility with 1.11.36 of the game. 
 ### Fowarded Changes
+- Removed the edit to the conditional function COM_CND_DIAL_Greeting_WantsToTalkQuest_MQ207 as Bethesda has fixed the issue(s) [001E8348]
+- Removed edits to the Lasers skill as Bethesda has fixed the issue(s) [2C59DD]
 - Forwarded script updates to MQ204 [qf_mq204_002c6d74]
 - Forwarded script updates to SQ_PlayerShipScript [SQ_PlayerShipScript]
 - Forwarded script updates to CompanionAffinityEventsScript [companionaffinityeventsscript]
