@@ -9,7 +9,14 @@ When adding items to the changelog try and use the template below:
 -->
 ## [2024-04-14] Version 0.1.4
 This update is intended to update compatibility with 1.11.36 of the game. 
+### Fowarded Changes
+- Forwarded script updates to MQ204 [qf_mq204_002c6d74]
+- Forwarded script updates to SQ_PlayerShipScript [SQ_PlayerShipScript]
+- Forwarded script updates to CompanionAffinityEventsScript [companionaffinityeventsscript]
+- Forwarded script updates to BEScript [bescript]
 
+# Quest Fixes
+- Fixes a dead companion being assigned to you after completing Missed Beyond Measure [] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/545)
 
 
 ## [2024-04-14] Version 0.1.3
