@@ -13,6 +13,8 @@ When adding items to the changelog try and use the template below:
 - Fixed an issue with the objective marker during "Back to the Grind" pointing to the wrong target if the Trewbrew employee is dead. [003250B5] - [Fix contrubited by TERAB1T](https://www.starfieldpatch.dev/issues/91)
 ### Dialogue Fixes
 - Fixed mutliple cases where NPCs would incorrectly comment on your space suit or weapon status [0000D599] [0000D59A] [000E8D7C] [000E8D7D] [0015DA34] [0015DA35] [0015DA36] [0015DA37] [0015DA38] [0015DA39] [0015DA48] [0015DA4A] [001FCB98] [003298C4] [00355452] [00355453] [00355454] [00355455] [003250AC] [003250B5] - [Fix contrubited by TERAB1T](https://www.starfieldpatch.dev/issues/91)
+### Perk Fixes
+- Fixed an issue where sneak attack damage was considerably higher than it should be when property hydrated. [00313272] - [Reported by MrFantastic](https://www.starfieldpatch.dev/issues/960) - [Fix contributed by youngneil1](https://www.nexusmods.com/starfield/mods/9251)
 
 ## [2024-05-18] Version 0.1.4
 This update is intended to update compatibility with 1.11.36 of the game. 
