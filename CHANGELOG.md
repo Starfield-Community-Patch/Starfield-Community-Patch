@@ -14,9 +14,14 @@ This update is intended to update compatibility with 1.11.36 of the game.
 - Forwarded script updates to SQ_PlayerShipScript [SQ_PlayerShipScript]
 - Forwarded script updates to CompanionAffinityEventsScript [companionaffinityeventsscript]
 - Forwarded script updates to BEScript [bescript]
-
+- Forwarded new flag and map component on "The Well" cell [000F4ED4]
+- Forwarded new flag and Image Space change on "Jemison Mercantile Store Room" cell [001928C2]
+- Added the new effects to all food and drink items [0001BBAA] [0001BBAB] [0001BBAC] [0003614B] [0003614C] [00139E43] [00139E44] [00139E45] [001DFCB4] [001EBE9E] [001FF69A] [001FF69C] [001FF69E] [001FF6A0] [0020675D] [0020675E] [00243FA5] [00249C0D] [00249C0E] [00249C0F] [00249C10] [00249C11] [00249C1A] [00249C1B] [00249C1E] [00249C25] [00249C26] [00249C27] [00249C28] [00249C2A] [00249C2B] [00249C2C] [00249C3A] [00249C49] [00249C51] [0029B00E] [0029B03F] [0029B041] [0029B042] [0029B04D] [0029B04E] [0029B04F] [002C7202] [002C7203] [002C7204] [002C7205] [002C7206] [002C7207] [002C7208] [002C7209] [002C720D] [002C7210] [002C7211] [002C7214] [002C7215] [002C7217] [002C7219] [003BF792] [003BF793]
+- Forward various location data changes [0002E373] [0009C57D] [0009C6C6] [00179DEB] [0018A2E4] [001C7752] [001E427B] [001EB454] [00219521] [00263C75] [0027A9A1] [0027A9A3] [00293417] [002A0EF4] [002B0801] [002B20C5]
 # Quest Fixes
 - Fixes a dead companion being assigned to you after completing Missed Beyond Measure [] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/545)
+# Item Fixes
+- Added missing COM_ObjType_Drink [KYWD:0007956D] keyword to Red Harvest Single Malt Whiskey and Red Harvest Single Malt Whiskey [0003614B] [0003614C]
 
 
 ## [2024-04-14] Version 0.1.3
