@@ -7,6 +7,13 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
+## [2024-05-18] Version 0.1.5
+### Quest Fixes
+- Fixed an issue from the previous update that prevented some of the Environmental Gameplay features from working correctly [00248D20]
+- Fixed an issue with the objective marker during "Back to the Grind" pointing to the wrong target if the Trewbrew employee is dead. [003250B5] - [Fix contrubited by TERAB1T](https://www.starfieldpatch.dev/issues/91)
+### Dialogue Fixes
+- Fixed mutliple cases where NPCs would incorrectly comment on your space suit or weapon status [0000D599] [0000D59A] [000E8D7C] [000E8D7D] [0015DA34] [0015DA35] [0015DA36] [0015DA37] [0015DA38] [0015DA39] [0015DA48] [0015DA4A] [001FCB98] [003298C4] [00355452] [00355453] [00355454] [00355455] [003250AC] [003250B5] - [Fix contrubited by TERAB1T](https://www.starfieldpatch.dev/issues/91)
+
 ## [2024-05-18] Version 0.1.4
 This update is intended to update compatibility with 1.11.36 of the game. 
 ### Fowarded Changes
