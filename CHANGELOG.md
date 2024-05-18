@@ -10,8 +10,10 @@ When adding items to the changelog try and use the template below:
 ## [2024-04-14] Version 0.1.4
 This update is intended to update compatibility with 1.11.36 of the game. 
 ### Fowarded Changes
+- Removed a fix for Sam Coe's romance scene preventing him from talking about a dead companion as this has been fixed by Bethesda [000D3AE9]
+- Removed a fix for the quest type on FFNewAtlantis02 [0024C46C]
 - Forwarded new script properties for MQ101 (One Small Step) [00003448]
-- Forwarded update quest type and faction for FFNewAtlantis05 (Search and Seizure) [00089F4E]
+- Forwarded update quest type and faction for FFNewAtlantis05 (Search and Seizur6e) [00089F4E]
 - Forwarded update quest type for FFNewAtlantis04 (A Break At Dawn) [00091CF5]
 - Forwarded alias changes for RI08 (Executive Level) [0018B717]
 - Forwarded script and alias updates for RI07 (Sabotage) [0018B718]
