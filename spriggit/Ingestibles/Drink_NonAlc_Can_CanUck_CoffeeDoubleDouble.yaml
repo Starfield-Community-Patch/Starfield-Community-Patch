@@ -84,6 +84,23 @@ Effects:
   Duration: 2B981A:Starfield.esm
   EFIF: 0
   MUID: 3
+- BaseEffect: 2EE837:Starfield.esm
+  Data:
+    Magnitude: 1
+    Duration: 1800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x000000
+    Unknown2: 17639
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 31324C:Starfield.esm
+    ComparisonValue: 1
+  Magnitude: 2EFD78:Starfield.esm
+  Duration: 31324B:Starfield.esm
+  EFIF: 0
+  MUID: 2
 - BaseEffect: 29A84D:Starfield.esm
   Data:
     Magnitude: 18
@@ -100,3 +117,7 @@ Effects:
   Duration: 2B97F6:Starfield.esm
   EFIF: 0
   MUID: 2
+- BaseEffect: 2EE49A:Starfield.esm
+  Data: {}
+  EFIF: 0
+  MUID: 5

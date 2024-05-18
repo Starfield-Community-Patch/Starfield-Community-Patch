@@ -1,11 +1,19 @@
 FormKey: 27A9A1:Starfield.esm
 EditorID: SettleStroudEklundStaryardLocation
 LocationCellPersistentReferences:
+- Actor: 167866:Starfield.esm
+  Location: 214668:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- Actor: 167867:Starfield.esm
+  Location: 214668:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
 - Actor: 31DCED:Starfield.esm
   Location: 214668:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-- Actor: 369D0C:Starfield.esm
+- Actor: 167869:Starfield.esm
   Location: 214668:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -13,7 +21,11 @@ LocationCellPersistentReferences:
   Location: 214668:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-- Actor: 1E2C1B:Starfield.esm
+- Actor: 167868:Starfield.esm
+  Location: 214668:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- Actor: 167865:Starfield.esm
   Location: 214668:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -25,19 +37,7 @@ LocationCellPersistentReferences:
   Location: 214668:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-- Actor: 167866:Starfield.esm
-  Location: 214668:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- Actor: 167867:Starfield.esm
-  Location: 214668:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- Actor: 167868:Starfield.esm
-  Location: 214668:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- Actor: 167869:Starfield.esm
+- Actor: 1E2C1B:Starfield.esm
   Location: 214668:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -45,7 +45,7 @@ LocationCellPersistentReferences:
   Location: 214668:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-- Actor: 167865:Starfield.esm
+- Actor: 369D0C:Starfield.esm
   Location: 214668:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -57,17 +57,17 @@ LocationCellUniques:
 - Actor: 299D18:Starfield.esm
   Ref: 167867:Starfield.esm
   Location: 27A9A1:Starfield.esm
-- Actor: 299D15:Starfield.esm
-  Ref: 167868:Starfield.esm
-  Location: 27A9A1:Starfield.esm
 - Actor: 299D1A:Starfield.esm
   Ref: 167869:Starfield.esm
   Location: 27A9A1:Starfield.esm
-- Actor: 27A98F:Starfield.esm
-  Ref: 27A985:Starfield.esm
+- Actor: 299D15:Starfield.esm
+  Ref: 167868:Starfield.esm
   Location: 27A9A1:Starfield.esm
 - Actor: 299D13:Starfield.esm
   Ref: 167865:Starfield.esm
+  Location: 27A9A1:Starfield.esm
+- Actor: 27A98F:Starfield.esm
+  Ref: 27A985:Starfield.esm
   Location: 27A9A1:Starfield.esm
 LocationCellStaticReferences:
 - LocationRefType: 06AC7F:Starfield.esm

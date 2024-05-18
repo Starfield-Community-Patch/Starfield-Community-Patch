@@ -90,7 +90,7 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
-    Unknown2: 17624
+    Unknown2: 17639
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1BBAB0:Starfield.esm
@@ -115,9 +115,30 @@ Effects:
   Duration: 2B97FA:Starfield.esm
   EFIF: 0
   MUID: 4
+- BaseEffect: 31325F:Starfield.esm
+  Data:
+    Magnitude: 1
+    Duration: 3600
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x000000
+    Unknown2: 17639
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 31324C:Starfield.esm
+    ComparisonValue: 1
+  Magnitude: 2EFD79:Starfield.esm
+  Duration: 2EE14C:Starfield.esm
+  EFIF: 0
+  MUID: 5
 - BaseEffect: 25A8B5:Starfield.esm
   Data:
     Duration: 10
   Duration: 2D3980:Starfield.esm
   EFIF: 0
   MUID: 5
+- BaseEffect: 2EE498:Starfield.esm
+  Data: {}
+  EFIF: 0
+  MUID: 7

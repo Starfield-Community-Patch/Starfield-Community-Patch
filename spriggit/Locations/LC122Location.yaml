@@ -1,15 +1,19 @@
 FormKey: 263C75:Starfield.esm
 EditorID: LC122Location
 LocationCellPersistentReferences:
+- Actor: 1CF652:Starfield.esm
+  Location: 121D02:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
 - Actor: 1CF677:Starfield.esm
   Location: 121D02:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-- Actor: 1CF653:Starfield.esm
+- Actor: 2672FF:Starfield.esm
   Location: 121D02:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-- Actor: 2672FF:Starfield.esm
+- Actor: 1CF653:Starfield.esm
   Location: 121D02:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -18,10 +22,6 @@ LocationCellPersistentReferences:
   Grid: 32767, 32767
   Unknown: -1
 - Actor: 1CF678:Starfield.esm
-  Location: 121D02:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- Actor: 1CF652:Starfield.esm
   Location: 121D02:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -37,13 +37,13 @@ LocationCellStaticReferences:
   Grid: 32767, 32767
   Unknown: -1
 LocationCellEnablePoint:
-- Actor: 1CF678:Starfield.esm
-  Ref: 155892:Starfield.esm
-- Actor: 1CF653:Starfield.esm
-  Ref: 155892:Starfield.esm
 - Actor: 1CF652:Starfield.esm
   Ref: 155892:Starfield.esm
 - Actor: 1CF677:Starfield.esm
+  Ref: 155892:Starfield.esm
+- Actor: 1CF653:Starfield.esm
+  Ref: 155892:Starfield.esm
+- Actor: 1CF678:Starfield.esm
   Ref: 155892:Starfield.esm
 Name:
   TargetLanguage: English
