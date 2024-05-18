@@ -7,6 +7,11 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
+## [2024-04-14] Version 0.1.4
+This update is intended to update compatibility with 1.11.36 of the game. 
+
+
+
 ## [2024-04-14] Version 0.1.3
 This update is intended to update compatibility with 1.10.32 of the game. A roundup of the changes is available [here](https://www.starfieldpatch.dev/issues/924).
 ## Reverted Fixes
