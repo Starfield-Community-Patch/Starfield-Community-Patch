@@ -10,6 +10,7 @@ When adding items to the changelog try and use the template below:
 ## [2024-04-14] Version 0.1.4
 This update is intended to update compatibility with 1.11.36 of the game. 
 ### Fowarded Changes
+- Removed animation fixes related to the player's head getting stuck looking left after sprinting [meshes/actors/human/animations/melee/unarmed/player/jumprunland.afx] [meshes/actors/human/animations/melee/unarmed/player/sprint.afx] [meshes/animtextdata/tables/graphs/sprinting.agx]
 - Removed a script property fix for SQ_Groups as Bethesda fixed it [001A9565]
 - Removed a fix for a MB_SurveyTrait17 as Bethesda fixed it [001953FB]
 - Removed a fix for Sam Coe's romance scene preventing him from talking about a dead companion as this has been fixed by Bethesda [000D3AE9]
