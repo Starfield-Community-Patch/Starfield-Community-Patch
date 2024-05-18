@@ -11,16 +11,6 @@ LocationCellUniqueReferences:
   Location: 1C7752:Starfield.esm
 LocationCellUniques: []
 LocationCellStaticReferences:
-- LocationRefType: 3B3CBB:Starfield.esm
-  Marker: 1C48D8:Starfield.esm
-  Location: 1C7766:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 1C71B4:Starfield.esm
-  Marker: 1C48D8:Starfield.esm
-  Location: 1C7766:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
 - LocationRefType: 21E682:Starfield.esm
   Marker: 167946:Starfield.esm
   Location: 1C7766:Starfield.esm
@@ -126,9 +116,17 @@ LocationCellStaticReferences:
   Location: 1C7766:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
+- LocationRefType: 3B3CBB:Starfield.esm
+  Marker: 1C48D8:Starfield.esm
+  Location: 1C7766:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 1C71B4:Starfield.esm
+  Marker: 1C48D8:Starfield.esm
+  Location: 1C7766:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
 LocationCellMarkerReference:
-- 1C48D8:Starfield.esm
-- 1C48D8:Starfield.esm
 - 1C48D8:Starfield.esm
 - 1C48D8:Starfield.esm
 - 167946:Starfield.esm
@@ -150,6 +148,8 @@ LocationCellMarkerReference:
 - 21C920:Starfield.esm
 - 167944:Starfield.esm
 - 167943:Starfield.esm
+- 1C48D8:Starfield.esm
+- 1C48D8:Starfield.esm
 Name:
   TargetLanguage: English
   Values:

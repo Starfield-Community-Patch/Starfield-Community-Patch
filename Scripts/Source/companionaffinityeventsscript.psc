@@ -149,7 +149,7 @@ Event ObjectReference.OnItemAdded(ObjectReference akSender, Form akBaseItem, Int
   If PlayerRef.IsOverEncumbered()
     Self.SendAffinityEvent(COM_Event_Action_BecomeOverEncumbered, None, False)
   EndIf
-  Self.GotoState("")
+  Self.GotoState("None")
 EndEvent
 
 Event OnTimer(Int aiTimerID)
@@ -193,7 +193,8 @@ Event OnQuestStarted()
   Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerCraftItem")
   Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerModArmorWeapon")
   Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerModifiedShip")
-  Self.RegisterForMenuOpenCloseEvent("ChargenMenu") ; Formerly called for "LooksMenu", which is what ChargenMenu was called in Fallout 4 - Bobbyclue 9/21/23
+  ; LooksMenu was changed to ChargenMenu in Starfield
+  Self.RegisterForMenuOpenCloseEvent("ChargenMenu")
   Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerFireWeapon")
   Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnPlayerScannedObject")
   Self.RegisterForRemoteEvent(PlayerRef as ScriptObject, "OnSpellCast")
@@ -290,7 +291,7 @@ Event ObjectReference.OnSpellCast(ObjectReference akSender, Form akSpell)
   If akSpell.HasKeyword(Artifact_Power)
     Self.SendAffinityEvent(COM_Event_Action_UseStarbornPower, None, False)
   EndIf
-  Self.GotoState("")
+  Self.GotoState("None")
 EndEvent
 
 Event actor.OnPlayerCraftItem(Actor akSender, ObjectReference akBench, Location akLocation, Form akCreatedItem)
@@ -310,8 +311,9 @@ Event Actor.OnPlayerModifiedShip(Actor akSender, spaceshipreference akShip)
 EndEvent
 
 Event OnMenuOpenCloseEvent(String asMenuName, Bool abOpening)
-  If asMenuName == "ChargenMenu" && abOpening == False ; Formerly called for "LooksMenu", which is what ChargenMenu was called in Fallout 4 - Bobbyclue 9/21/23
-    Self.SendAffinityEvent(COM_Event_Action_Enhance_PlayerChangeAppearance, None, False, True)
+  ; LooksMenu has been changed to ChargenMenu
+  If asMenuName == "ChargenMenu" && abOpening == False
+    Self.SendAffinityEvent(COM_Event_Action_Enhance_PlayerChangeAppearance, None, False)
   EndIf
 EndEvent
 
@@ -420,13 +422,10 @@ Event Actor.OnPickLock(Actor akSender, ObjectReference akLockedRef, Bool abCrime
   EndIf
 EndEvent
 
-Function SendAffinityEvent(affinityevent EventToSend, ObjectReference targetRef, Bool ignoreCooldown, Bool ignorePlayerInDialogue = False)
-  Bool PlayerInDialogue = False
+Function SendAffinityEvent(affinityevent EventToSend, ObjectReference targetRef, Bool ignoreCooldown)
+  Bool PlayerInDialogue = Game.IsPlayerInDialogue()
   Bool CompanionInScene = False
   Actor CompanionRef = ActiveCompanion.GetActorReference()
-  If !ignorePlayerInDialogue ; Added optional bypass of dialogue check for the sake of appearance change dialogue. All appearance changes occur in dialogue, and Game.IsPlayerInDialogue() can return true even if the dialogue menu is closed - Bobbyclue 9/22/23
-    PlayerInDialogue = Game.IsPlayerInDialogue()
-  EndIf
   If CompanionRef
     CompanionInScene = CompanionRef.IsInScene()
   EndIf

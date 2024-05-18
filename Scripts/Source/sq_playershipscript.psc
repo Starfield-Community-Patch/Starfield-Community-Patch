@@ -263,7 +263,8 @@ Function LoadVascoExterior()
   spaceshipreference playerShipRef = PlayerShip.GetShipRef()
   If VascoREF.IsInFaction(CurrentFollowerFaction) || playerShipRef.IsCrew(VascoREF) || MQ101VascoQuestFollower.GetValueInt() == 1
     ObjectReference movetoRef = None
-    Location currentLoc = Game.GetPlayer().GetCurrentLocation()
+    Actor playerRef = Game.GetPlayer()
+    Location currentLoc = playerRef.GetCurrentLocation()
     If currentLoc.HasRefType(Crew_VascoWaitRefType)
       VascoWaitLocation.ForceLocationTo(currentLoc)
       VascoWaitMarker.RefillAlias()
@@ -272,6 +273,9 @@ Function LoadVascoExterior()
       movetoRef = LandingDeckNearRobotBay.GetRef()
       If movetoRef.IsInSpace()
         movetoRef = None
+      EndIf
+      If !movetoRef && !playerRef.IsInSpace() && (VascoREF.IsInFaction(CurrentFollowerFaction) || MQ101VascoQuestFollower.GetValueInt() == 1)
+        movetoRef = playerRef as ObjectReference
       EndIf
     EndIf
     If movetoRef
@@ -287,7 +291,7 @@ Function LoadVascoInterior()
   If playerShipRef.IsCrew(VascoREF) || SQ_Crew.IsActiveEliteCrew(VascoREF) || MQ101VascoQuestFollower.GetValueInt() == 1
     ObjectReference RobotBayREF = InteriorRobotBay.GetRef()
     If RobotBayREF as Bool && playerShipInteriorLocation != None
-      If VascoREF.IsInLocation(playerShipInteriorLocation.GetLocation()) == False
+      If Game.GetPlayer().IsInLocation(playerShipInteriorLocation.GetLocation()) && (VascoREF.IsInLocation(playerShipInteriorLocation.GetLocation()) == False || !VascoREF.IsDisabled())
         VascoREF.MoveToFurniture(RobotBayREF)
         VascoREF.EvaluatePackage(False)
       EndIf
@@ -307,6 +311,7 @@ Function ResetPlayerShip(spaceshipreference newPlayerShip)
     If newPlayerShip == HomeShip.GetShipRef()
       Self.RefillHomeShipAliases()
     EndIf
+    Self.LoadVascoInterior()
     Self.SendPlayerShipChangedEvent(newPlayerShip)
     If PlayerShipLandingMarker.GetRef() as Bool && newPlayerShip.IsInSpace()
       Self.HandleShipTakeOff(False, False)
@@ -347,23 +352,23 @@ EndFunction
 Function ResetHomeShipArmillary()
   ObjectReference ArmillaryREF = MQ00_Armillary.GetRef()
   ObjectReference HomeShipArmillaryREF = HomeShipArmillary.GetRef()
-  Actor PlayerREF = Game.GetPlayer()
+  Actor playerRef = Game.GetPlayer()
   Bool bArmillaryOnHomeShip = False
   If MQArmillaryLocation.GetValueInt() == 1 && HomeShipArmillaryREF != ArmillaryREF
-    (ArmillaryREF as armillaryscript).PackupArmillary(PlayerREF)
-    (HomeShipArmillaryREF as armillaryscript).BuildArmillary(PlayerREF, HomeShipArmillaryScreenTrigger.GetRef())
+    (ArmillaryREF as armillaryscript).PackupArmillary(playerRef)
+    (HomeShipArmillaryREF as armillaryscript).BuildArmillary(playerRef, HomeShipArmillaryScreenTrigger.GetRef())
   EndIf
 EndFunction
 
 Event OnQuestInit()
-  Actor PlayerREF = Game.GetPlayer()
-  Self.RegisterForRemoteEvent(PlayerREF as ScriptObject, "OnHomeShipSet")
-  Self.RegisterForRemoteEvent(PlayerREF as ScriptObject, "OnPlayerModifiedShip")
-  Self.RegisterForRemoteEvent(PlayerREF as ScriptObject, "OnExitShipInterior")
-  Self.RegisterForRemoteEvent(PlayerREF as ScriptObject, "OnEnterShipInterior")
-  Self.RegisterForRemoteEvent(PlayerREF as ScriptObject, "OnSit")
-  Self.RegisterForRemoteEvent(PlayerREF as ScriptObject, "OnPlayerBuyShip")
-  Self.RegisterForRemoteEvent(PlayerREF as ScriptObject, "OnPlayerSellShip")
+  Actor playerRef = Game.GetPlayer()
+  Self.RegisterForRemoteEvent(playerRef as ScriptObject, "OnHomeShipSet")
+  Self.RegisterForRemoteEvent(playerRef as ScriptObject, "OnPlayerModifiedShip")
+  Self.RegisterForRemoteEvent(playerRef as ScriptObject, "OnExitShipInterior")
+  Self.RegisterForRemoteEvent(playerRef as ScriptObject, "OnEnterShipInterior")
+  Self.RegisterForRemoteEvent(playerRef as ScriptObject, "OnSit")
+  Self.RegisterForRemoteEvent(playerRef as ScriptObject, "OnPlayerBuyShip")
+  Self.RegisterForRemoteEvent(playerRef as ScriptObject, "OnPlayerSellShip")
   Self.RegisterForRemoteEvent(PlayerShip as ScriptObject, "OnShipLanding")
   Self.RegisterForRemoteEvent(PlayerShip as ScriptObject, "OnShipTakeOff")
   Self.RegisterForRemoteEvent(PlayerShip as ScriptObject, "OnShipDock")
@@ -506,10 +511,10 @@ Event ReferenceAlias.OnShipGravJump(ReferenceAlias akSender, Location aDestinati
       Self.ResetHomeShip(currentPlayerShip)
     EndIf
   EndIf
-  Actor PlayerREF = Game.GetPlayer()
-  If aState == 2 && PlayerREF.HasPerk(TRAIT_SerpentsEmbrace)
-    PlayerREF.DispelSpell(Trait_SerpentsEmbrace_Buff)
-    Trait_SerpentsEmbrace_Buff.Cast(PlayerREF as ObjectReference, PlayerREF as ObjectReference)
+  Actor playerRef = Game.GetPlayer()
+  If aState == 2 && playerRef.HasPerk(TRAIT_SerpentsEmbrace)
+    playerRef.DispelSpell(Trait_SerpentsEmbrace_Buff)
+    Trait_SerpentsEmbrace_Buff.Cast(playerRef as ObjectReference, playerRef as ObjectReference)
   EndIf
   RE_Parent.SendCleanupEvent()
 EndEvent

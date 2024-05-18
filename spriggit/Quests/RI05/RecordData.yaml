@@ -989,6 +989,19 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: PrereqStage
         Data: 600
+  - Property:
+      Name: ''
+      Object: 1EE0C8:Starfield.esm
+      Alias: 76
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 666
 Name:
   TargetLanguage: English
   Values:
@@ -4317,6 +4330,8 @@ Aliases:
   - AllowDisabled
   ALFG: 0
   UniqueActor: 19B088:Starfield.esm
+  PackageData:
+  - 20D237:Starfield.esm
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 74
@@ -4641,6 +4656,15 @@ Aliases:
   Location:
     AliasID: 35
     RefType: 3AABC9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 76
+  Name: FrankiesSweepingFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 35
+    RefType: 20D238:Starfield.esm
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 66

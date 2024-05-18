@@ -7,6 +7,40 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
+## [2024-04-14] Version 0.1.4
+This update is intended to update compatibility with 1.11.36 of the game. 
+### Fowarded Changes
+- Removed animation fixes related to the player's head getting stuck looking left after sprinting [meshes/actors/human/animations/melee/unarmed/player/jumprunland.afx] [meshes/actors/human/animations/melee/unarmed/player/sprint.afx] [meshes/animtextdata/tables/graphs/sprinting.agx]
+- Removed a script property fix for SQ_Groups as Bethesda fixed it [001A9565]
+- Removed a fix for a MB_SurveyTrait17 as Bethesda fixed it [001953FB]
+- Removed a fix for Sam Coe's romance scene preventing him from talking about a dead companion as this has been fixed by Bethesda [000D3AE9]
+- Removed a fix for the quest type on FFNewAtlantis02 [0024C46C]
+- Forwarded new script properties for MQ101 (One Small Step) [00003448]
+- Forwarded update quest type and faction for FFNewAtlantis05 (Search and Seizur6e) [00089F4E]
+- Forwarded update quest type for FFNewAtlantis04 (A Break At Dawn) [00091CF5]
+- Forwarded alias changes for RI08 (Executive Level) [0018B717]
+- Forwarded script and alias updates for RI07 (Sabotage) [0018B718]
+- Forwarded script and alias updates for RI05 (Guilty Parties) [001EE0C8]
+- Forwarded script updates for DialogueFCNeon [0022DAD6]
+- Forwarded scene updates for Sarah's friendship scene [002B4AB4]
+- Removed the edit to the conditional function COM_CND_DIAL_Greeting_WantsToTalkQuest_MQ207 as Bethesda has fixed the issue(s) [001E8348]
+- Removed edits to the Lasers skill as Bethesda has fixed the issue(s) [002C59DD]
+- Forwarded script updates to MQ204 [qf_mq204_002c6d74]
+- Forwarded script updates to SQ_PlayerShipScript [SQ_PlayerShipScript]
+- Forwarded script updates to CompanionAffinityEventsScript [companionaffinityeventsscript]
+- Forwarded script updates to BEScript [bescript]
+- Forwarded new flag and map component on "The Well" cell [000F4ED4]
+- Forwarded new flag and Image Space change on "Jemison Mercantile Store Room" cell [001928C2]
+- Added the new effects to all food and drink items [0001BBAA] [0001BBAB] [0001BBAC] [0003614B] [0003614C] [00139E43] [00139E44] [00139E45] [001DFCB4] [001EBE9E] [001FF69A] [001FF69C] [001FF69E] [001FF6A0] [0020675D] [0020675E] [00243FA5] [00249C0D] [00249C0E] [00249C0F] [00249C10] [00249C11] [00249C1A] [00249C1B] [00249C1E] [00249C25] [00249C26] [00249C27] [00249C28] [00249C2A] [00249C2B] [00249C2C] [00249C3A] [00249C49] [00249C51] [0029B00E] [0029B03F] [0029B041] [0029B042] [0029B04D] [0029B04E] [0029B04F] [002C7202] [002C7203] [002C7204] [002C7205] [002C7206] [002C7207] [002C7208] [002C7209] [002C720D] [002C7210] [002C7211] [002C7214] [002C7215] [002C7217] [002C7219] [003BF792] [003BF793]
+- Forward various location data changes [0002E373] [0009C57D] [0009C6C6] [00179DEB] [0018A2E4] [001C7752] [001E427B] [001EB454] [00219521] [00263C75] [0027A9A1] [0027A9A3] [00293417] [002A0EF4] [002B0801] [002B20C5]
+### Quest Fixes
+- Fixes a dead companion being assigned to you after completing Missed Beyond Measure [SFCP:UpdateHandler] - [Fix contributed by Aurelianis](https://www.starfieldpatch.dev/issues/545)
+- Marked "Two Tales, Two Cities" as a Misc quest [00089F4E]
+- Marked "Search and Seizure" as a Misc quest [0008E2D9]
+### Item Fixes
+- Added missing COM_ObjType_Drink [KYWD:0007956D] keyword to Red Harvest Single Malt Whiskey and Red Harvest Single Malt Whiskey [0003614B] [0003614C]
+
+
 ## [2024-04-14] Version 0.1.3
 This update is intended to update compatibility with 1.10.32 of the game. A roundup of the changes is available [here](https://www.starfieldpatch.dev/issues/924).
 ## Reverted Fixes

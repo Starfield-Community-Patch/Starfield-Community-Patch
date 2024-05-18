@@ -1345,11 +1345,17 @@ Actor Function SpawnGenericActor(ObjectReference spawnPoint, bescript:genericcre
     If ShouldCrewStartInCombat && OwnerFaction == None && !isSurfaceEncounter
       newActor.SetValue(Aggression, CONST_Aggression_VeryAggressive as Float)
     EndIf
-
-    ; SFCP fix: remove any possibly erroneous crime faction the actor might be a part of.
-    ; Only use the ship's crime faction. https://www.starfieldpatch.dev/issues/323
-    newActor.SetCrimeFaction(enemyShipCrimeFaction)
-
+    ; --------------------------------------------------------------------------------------
+    ; SFCP removed If statement
+    ; Bug fix: remove any possibly erroneous crime faction the actor might be a part of.
+    ; Only use the ship's crime faction.
+    ; --------------------------------------------------------------------------------------
+    ;If enemyShipCrimeFaction != None
+      newActor.SetCrimeFaction(enemyShipCrimeFaction)
+    ;EndIf
+    ; --------------------------------------------------------------------------------------
+    ; End SFCP Edit
+    ; --------------------------------------------------------------------------------------
     ObjectReference spawnLink = spawnPoint.GetLinkedRef(None)
     If spawnLink != None
       newActor.SetLinkedRef(spawnLink, None, True)

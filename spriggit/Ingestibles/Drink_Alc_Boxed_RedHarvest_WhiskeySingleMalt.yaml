@@ -33,6 +33,7 @@ Keywords:
 - 055ECC:Starfield.esm
 - 14253C:Starfield.esm
 - 11A47A:Starfield.esm
+- 07956D:Starfield.esm
 Model:
   File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragedrinkpack_redh_singlem_whiskey.nif
   FLLD: 0x01000000
@@ -106,3 +107,24 @@ Effects:
   Duration: 2D3980:Starfield.esm
   EFIF: 0
   MUID: 4
+- BaseEffect: 2EE936:Starfield.esm
+  Data:
+    Magnitude: 1
+    Duration: 1200
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x000000
+    Unknown2: 17639
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 31324C:Starfield.esm
+    ComparisonValue: 1
+  Magnitude: 2EFD77:Starfield.esm
+  Duration: 313264:Starfield.esm
+  EFIF: 0
+  MUID: 5
+- BaseEffect: 2EE4B2:Starfield.esm
+  Data: {}
+  EFIF: 0
+  MUID: 6

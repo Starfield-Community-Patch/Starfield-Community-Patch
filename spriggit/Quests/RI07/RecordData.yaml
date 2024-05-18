@@ -553,6 +553,18 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: Tutorial_Manipulation
       Object: 15DF51:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_David
+      Object: 18B718:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DavidFurniture
+      Object: 18B718:Starfield.esm
+      Alias: 146
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Location_InfinityLTD
+      Object: 18B718:Starfield.esm
+      Alias: 37
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
@@ -1366,6 +1378,19 @@ VirtualMachineAdapter:
     - Name: RI07_PlayerAliasScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
+        Name: CityNewAtlantisLocation
+        Object: 01295A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: David
+        Object: 18B718:Starfield.esm
+        Alias: 41
+      - MutagenObjectType: ScriptIntProperty
+        Name: DavidDoneStage
+        Data: 1900
+      - MutagenObjectType: ScriptIntProperty
+        Name: DavidStartStage
+        Data: 1800
+      - MutagenObjectType: ScriptObjectProperty
         Name: LC051InfinityLTDPEnemyFaction
         Object: 3899C5:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
@@ -1735,6 +1760,9 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: iTurnOffStage
         Data: 800
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStageToSet
+        Data: 710
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
@@ -7164,6 +7192,7 @@ Aliases:
   ID: 1
   Name: Ularu
   Flags:
+  - Optional
   - AllowDead
   - AllowDisabled
   ALFG: 0
@@ -7197,6 +7226,7 @@ Aliases:
   ID: 70
   Name: Imogene
   Flags:
+  - Optional
   - AllowDead
   - AllowDisabled
   ALFG: 0
@@ -7221,6 +7251,8 @@ Aliases:
   Flags: []
   ALFG: 0
   UniqueActor: 0124AB:Starfield.esm
+  PackageData:
+  - 310ABE:Starfield.esm
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 82
@@ -7287,6 +7319,7 @@ Aliases:
   ID: 110
   Name: Nina
   Flags:
+  - Optional
   - AllowDead
   - AllowDisabled
   - AllowDestroyed
@@ -8369,4 +8402,13 @@ Aliases:
   Location:
     AliasID: 80
     RefType: 20043B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 146
+  Name: DavidFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 80
+    RefType: 310ABD:Starfield.esm
   VoiceTypes: Null

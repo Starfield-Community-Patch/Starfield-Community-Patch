@@ -1427,6 +1427,9 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ101SaveOff
       Object: 049420:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PERK_StarterHome
+      Object: 227FDF:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
