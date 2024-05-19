@@ -58,6 +58,8 @@ State hasbeentriggered
   EndEvent
 
   Event OnUnload()
-    Self.gotostate("WaitingForPlayer")
+    ; SFCP - Fix for Issue #522 - Comment out the line below. The state does not need to be changed back as everything in the OnLoad() event only needs to happen once.
+    ; This keeps Other You? from changing appearance when the player changes their appearance.
+    ; Self.gotostate("WaitingForPlayer")
   EndEvent
 EndState
