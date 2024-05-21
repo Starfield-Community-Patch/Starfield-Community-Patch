@@ -178,7 +178,7 @@ Event Quest.OnStageSet(Quest akSender, Int auiStageID, Int auiItemID)
     if (akSender == MQ401 && auiStageID == 10)
         Perk CompanionCheckAndrejaPerk = Game.GetForm(0x001C5150) as Perk
         Perk CompanionCheckBarrettPerk = Game.GetForm(0x001C514E) as Perk
-        Perk CompanionCheckSamCoePerk = Game.GetForm(0x0001C514D) as Perk
+        Perk CompanionCheckSamCoePerk = Game.GetForm(0x001C514D) as Perk
         Perk CompanionCheckSarahMorganPerk = Game.GetForm(0x001C514C) as Perk
         Actor PlayerRef = Game.GetPlayer()
         If PlayerRef.HasPerk(CompanionCheckAndrejaPerk)
