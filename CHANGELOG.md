@@ -7,6 +7,10 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
+## [2024-05-24] Version 0.1.6
+### Perk Fixes:
+- Removes any lingering companion perks when starting NG+ [001C5150] [001C514E] [001C514D] [001C514C] - [Reported by CivisRomanus](https://www.starfieldpatch.dev/issues/940) -  [Fix contributed by CivisRomanus](https://next.nexusmods.com/profile/CivisRomanus)
+
 ## [2024-05-18] Version 0.1.5
 ### Quest Fixes
 - Fixed an issue from the previous update that prevented some of the Environmental Gameplay features from working correctly [00248D20]
