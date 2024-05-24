@@ -8,7 +8,9 @@ When adding items to the changelog try and use the template below:
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
 ## [2024-05-24] Version 0.1.6
-### Perk Fixes:
+### NPC Fixes
+- Fixes an issue where changing the player appearance at Enhance! would also change You?'s appearance. [CrewEliteOtherPlayerScript] - [Reported by ](https://www.starfieldpatch.dev/issues/522) [Linnsanity](https://next.nexusmods.com/profile/Linnsanity) -  [Fix contributed by EpicestGamer](https://next.nexusmods.com/profile/EpicestGamer)
+### Perk Fixes
 - Removes any lingering companion perks when starting NG+ [001C5150] [001C514E] [001C514D] [001C514C] - [Reported by CivisRomanus](https://www.starfieldpatch.dev/issues/940) -  [Fix contributed by CivisRomanus](https://next.nexusmods.com/profile/CivisRomanus)
 
 ## [2024-05-18] Version 0.1.5
