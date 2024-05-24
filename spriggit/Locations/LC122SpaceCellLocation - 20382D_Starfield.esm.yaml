@@ -1,0 +1,48 @@
+FormKey: 20382D:Starfield.esm
+EditorID: LC122SpaceCellLocation
+MasterPersistLocationReferences:
+- Actor: 14C164:Starfield.esm
+  Location: 203B4E:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+LocationCellUniqueReferences:
+- GenericBaseForm: 203B4C:Starfield.esm
+  Ref: 14C164:Starfield.esm
+  Location: 20382D:Starfield.esm
+MasterUniqueNpcs: []
+MasterSpecialReferences:
+- LocationRefType: 02271F:Starfield.esm
+  Marker: 20382A:Starfield.esm
+  Location: 203B4E:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Sternenstation UCN-48
+  - Language: English
+    String: Starstation UCN-48
+  - Language: Spanish
+    String: Estación estelar UCN-48
+  - Language: French
+    String: Station UCN-48
+  - Language: Italian
+    String: Stazione UCN-48
+  - Language: Japanese
+    String: スターステーションUCN-48
+  - Language: Polish
+    String: Stacja gwiezdna ZKN-48
+  - Language: Portuguese_Brazil
+    String: Estação Estelar UCN-48
+  - Language: ChineseSimplified
+    String: UCN-48星际站
+Keywords:
+- 2253D1:Starfield.esm
+- 01674D:Starfield.esm
+- 08A8F9:Starfield.esm
+UnknownDATA2: 16
+ParentLocation: 01AA29:Starfield.esm
+WorldLocationRadius: 0
+ActorFadeMult: 1
+TNAM: 0

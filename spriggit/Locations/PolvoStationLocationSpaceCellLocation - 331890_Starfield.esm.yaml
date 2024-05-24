@@ -1,0 +1,74 @@
+FormKey: 331890:Starfield.esm
+EditorID: PolvoStationLocationSpaceCellLocation
+MasterPersistLocationReferences:
+- Actor: 1FECBA:Starfield.esm
+  Location: 21616E:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+LocationCellUniqueReferences:
+- GenericBaseForm: 1A8DA8:Starfield.esm
+  Ref: 1FECBA:Starfield.esm
+  Location: 331890:Starfield.esm
+MasterUniqueNpcs: []
+MasterSpecialReferences:
+- LocationRefType: 0713BD:Starfield.esm
+  Marker: 1B1822:Starfield.esm
+  Location: 21616E:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 0713BD:Starfield.esm
+  Marker: 1B1821:Starfield.esm
+  Location: 21616E:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 209872:Starfield.esm
+  Marker: 1B1829:Starfield.esm
+  Location: 21616E:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 1FB27E:Starfield.esm
+  Marker: 1FECBA:Starfield.esm
+  Location: 21616E:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 1FB27E:Starfield.esm
+  Marker: 1FECBA:Starfield.esm
+  Location: 21616E:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+MasterInitiallyDisabledReferences:
+- 1FECBA:Starfield.esm
+- 1FECBA:Starfield.esm
+- 1FECBA:Starfield.esm
+- 1FECBA:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Station Polvo
+  - Language: English
+    String: Polvo Station
+  - Language: Spanish
+    String: Estación de Polvo
+  - Language: French
+    String: Station de Polvo
+  - Language: Italian
+    String: Stazione di Polvo
+  - Language: Japanese
+    String: ポルヴォステーション
+  - Language: Polish
+    String: Stacja Polvo
+  - Language: Portuguese_Brazil
+    String: Estação de Polvo
+  - Language: ChineseSimplified
+    String: 波尔沃星星际站
+Keywords:
+- 2253D1:Starfield.esm
+- 3946A0:Starfield.esm
+- 01674D:Starfield.esm
+- 08A8F9:Starfield.esm
+UnknownDATA2: 16
+ParentLocation: 01B1DF:Starfield.esm
+WorldLocationRadius: 0
+ActorFadeMult: 1
+TNAM: 0

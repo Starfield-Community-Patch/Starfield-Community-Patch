@@ -1,0 +1,75 @@
+FormKey: 0E8D7C:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+  ResetHours: 24
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: 0C8673:Starfield.esm
+  WEMFile: 10082679
+  TROTs:
+  - UnknownVoiceType: 2BCA49:Starfield.esm
+    UnknownFloat: 1.8666668
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 9.500001
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Was für ein Anzug ist das? Ich sage dir, die Mode in Neon ist mir einfach zu hoch ...
+    - Language: English
+      String: What kind of suit is that? Neon fashion is getting too elaborate for me, I swear...
+    - Language: Spanish
+      String: ¿Qué traje es ese? La moda de Neón cada vez me parece más rebuscada, de verdad...
+    - Language: French
+      String: C'est quoi cette combinaison ? La mode sur Néon devient vraiment trop pointue pour moi...
+    - Language: Italian
+      String: Che genere di tuta è quella? Bah. La moda fluo sta diventando fin troppo sofisticata per me.
+    - Language: Japanese
+      String: ひどい宇宙服だな。ネオンのファッションは凝りすぎてて、ついていけない…
+    - Language: Polish
+      String: Co to za strój? Moda w Neonie robi się dla mnie zbyt odjechana, naprawdę...
+    - Language: Portuguese_Brazil
+      String: Que tipo de traje é esse? A moda de Neon tá ficando elaborada demais pra mim, pelamor...
+    - Language: ChineseSimplified
+      String: 你这是什么衣服？霓虹城的流行款式对我来说太精致了，真的……
+  ScriptNotes: player is wearing a Starborn suit, which looks almost alien
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xB031511E1849D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 12E72E:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 35545C:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    FirstParameter: 2891D2:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

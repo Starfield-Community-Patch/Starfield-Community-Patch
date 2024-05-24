@@ -1,0 +1,78 @@
+FormKey: 355455:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: 0FA854:Starfield.esm
+  WEMFile: 8620638
+  TROTs:
+  - UnknownVoiceType: 2BCA42:Starfield.esm
+    UnknownFloat: 3.2000003
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 2.8000002
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 9.766667
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 6.7000003
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: So eine Panzerung habe ich noch nie gesehen. Sieh zu, dass wir sie nicht testen müssen.
+    - Language: English
+      String: Never seen armor like that. Just don't give us any reason to test it, you understand?
+    - Language: Spanish
+      String: Jamás había visto un blindaje así. No nos des motivos para ponerlo a prueba, ¿entendido?
+    - Language: French
+      String: Je n'ai jamais vu une combi pareille. Ne nous donnez aucune raison de la mettre à l'épreuve, compris ?
+    - Language: Italian
+      String: Mai vista una corazza simile. Non darci motivo di metterla alla prova, intesi?
+    - Language: Japanese
+      String: 初めて見るアーマーだな。くれぐれも、試させるようなことはするなよ？
+    - Language: Polish
+      String: Pierwszy raz widzę taki pancerz. Tylko nie każ nam go testować, rozumiemy się?
+    - Language: Portuguese_Brazil
+      String: Nunca vi uma armadura como essa. Não vá nos dar motivo pra testar ela, entendido?
+    - Language: ChineseSimplified
+      String: 我从没见过这样的护甲。我们不想测试它的性能，你懂我的意思吧？
+  ScriptNotes: player is wearing a Starborn suit, which looks almost alien
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x4080F9201649D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 12E72E:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 35545C:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    FirstParameter: 2891D1:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

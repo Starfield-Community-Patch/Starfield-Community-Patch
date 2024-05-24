@@ -1,0 +1,82 @@
+FormKey: 15DA34:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 8570012
+  TRDAUnknown: 4
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 4.8
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 4.566667
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 4.066667
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 4.266667
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 2.2
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Für so was werde ich wirklich nicht gut genug bezahlt.
+    - Language: English
+      String: Oh, I do NOT get paid enough to deal with stuff like THAT.
+    - Language: Spanish
+      String: No me pagan lo suficiente para aguantar esas cosas.
+    - Language: French
+      String: On me paie vraiment pas assez pour gérer ce genre de choses.
+    - Language: Italian
+      String: Oh, non mi pagano abbastanza per occuparmi di cose del genere.
+    - Language: Japanese
+      String: おい、こんなのに対処するほど給料もらっていないぞ
+    - Language: Polish
+      String: Ooo, za mało mi płacą, takich spraw załatwiać nie będę.
+    - Language: Portuguese_Brazil
+      String: Ah, não me pagam o suficiente pra lidar com coisas assim.
+    - Language: ChineseSimplified
+      String: 哦，我的薪水可没高到能处理这东西的地步！
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xB012378FE24CD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1C8E67:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

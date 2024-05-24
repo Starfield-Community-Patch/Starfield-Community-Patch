@@ -1,0 +1,48 @@
+FormKey: 213CD7:Starfield.esm
+EditorID: StationTheDenSpaceLocation
+MasterPersistLocationReferences:
+- Actor: 2AB7CF:Starfield.esm
+  Location: 214664:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+LocationCellUniqueReferences:
+- GenericBaseForm: 128D5E:Starfield.esm
+  Ref: 2AB7CF:Starfield.esm
+  Location: 213CD7:Starfield.esm
+MasterUniqueNpcs: []
+MasterSpecialReferences:
+- LocationRefType: 02271F:Starfield.esm
+  Marker: 213CD5:Starfield.esm
+  Location: 214664:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Der Bau
+  - Language: English
+    String: The Den
+  - Language: Spanish
+    String: La Guarida
+  - Language: French
+    String: La Tanière
+  - Language: Italian
+    String: La Den
+  - Language: Japanese
+    String: 〈デン〉
+  - Language: Polish
+    String: Legowisko
+  - Language: Portuguese_Brazil
+    String: Alcova
+  - Language: ChineseSimplified
+    String: 巢穴站
+Keywords:
+- 2253D1:Starfield.esm
+- 01674D:Starfield.esm
+- 08A8F9:Starfield.esm
+UnknownDATA2: 16
+ParentLocation: 00ADD9:Starfield.esm
+WorldLocationRadius: 0
+ActorFadeMult: 1
+TNAM: 0

@@ -1,0 +1,75 @@
+FormKey: 15DA38:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 6965002
+  TRDAUnknown: 3.9
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 4.8333335
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 1.2666668
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 1.6000001
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 4.6000004
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 2.6000001
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Okay, jetzt hab ich alles erlebt.
+    - Language: English
+      String: Okay, now I've seen everything.
+    - Language: Spanish
+      String: Vale, ya lo he visto todo.
+    - Language: French
+      String: J'aurai tout vu !
+    - Language: Italian
+      String: OK, ora le ho viste tutte.
+    - Language: Japanese
+      String: うわ、驚いたな
+    - Language: Polish
+      String: No dobra, nic mnie już nie zdziwi.
+    - Language: Portuguese_Brazil
+      String: Tá, agora eu vi de tudo.
+    - Language: ChineseSimplified
+      String: 得了，现在我什么都看到了。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x20DEEC57E24CD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1C8E67:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

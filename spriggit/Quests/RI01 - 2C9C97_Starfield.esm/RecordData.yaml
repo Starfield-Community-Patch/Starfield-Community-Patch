@@ -1,0 +1,2991 @@
+FormKey: 2C9C97:Starfield.esm
+EditorID: RI01
+FormVersion: 556
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 015FFE:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 200
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 150
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: RI01_QuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NeonTerraBrewEmployee
+      Object: 2C9C97:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_TerraBrewOrder
+      Object: 2C9BCD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TerraBrewCoffeeOrder
+      Object: 2C9C97:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC_Neon_TerraBrewEmployee
+      Object: 2C9BC1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NeonTerraBrewEmployeeFurniture
+      Object: 2C9C97:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TrueGlobal
+      Object: 036E00:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_RI01_002C9C97
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_500_Customer02_CommentScene
+      Object: 102F2C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinCoffeeMarker
+      Object: 2C9C97:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_Track_PlayerWillRunThePlace
+      Object: 2783CC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonStartMarker
+      Object: 2C9C97:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TomoHigashi
+      Object: 2C9C97:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_Track_PlayerPromisedTomo
+      Object: 26F884:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_500_Customer03_CommentScene
+      Object: 102F2B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerKnows_Bayu
+      Object: 01BE63:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_YukoSerrano
+      Object: 2C9C97:Starfield.esm
+      Alias: 67
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_TomoDead
+      Object: 18534D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AlexisPryce
+      Object: 2C9C97:Starfield.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_250_Imogene_IntroScene
+      Object: 2C9B7B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Confidence
+      Object: 0002BD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR01
+      Object: 2C572B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LaneGarza
+      Object: 2C9C97:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_TerraBrewOrder
+      Object: 2C9BCD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoffeeCamden
+      Object: 2C9C97:Starfield.esm
+      Alias: 63
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_JobAdRadio
+      Object: 2C9C96:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_GenevieveCoffee
+      Object: 140987:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_YukoCoffee
+      Object: 14098A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GenevieveMonohan
+      Object: 2C9C97:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewCustomer02
+      Object: 2C9C97:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_700_Companion_TomoPromiseScene
+      Object: 26F881:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_LindenCoffee
+      Object: 140986:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CamdenCho
+      Object: 2C9C97:Starfield.esm
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinPlayerChair
+      Object: 2C9C97:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewTomoMarker
+      Object: 2C9C97:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_Completed
+      Object: 32F8D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_AlexisCoffee
+      Object: 140985:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewSceneMarker01
+      Object: 2C9C97:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RyujinIndustriesFaction
+      Object: 2C9BF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PathingOperative
+      Object: 2C9C97:Starfield.esm
+      Alias: 73
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewCustomer04
+      Object: 2C9C97:Starfield.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_510_Tomo_ConfrontationScene
+      Object: 2C9B79:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewCustomer03
+      Object: 2C9C97:Starfield.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_200_Lane_GreetingScene
+      Object: 2083C2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerJoined_Ryujin
+      Object: 2AACA7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinCounter
+      Object: 2C9C97:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewTomoStartMarker
+      Object: 2C9C97:Starfield.esm
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_400_Imogene_InterviewScene
+      Object: 2C9B7A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC044
+      Object: 22F264:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinAlexisConferenceChair
+      Object: 2C9C97:Starfield.esm
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_Track_PlayerWhateverItTakes
+      Object: 2783CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityNeonLocation
+      Object: 015FFE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinGenevieveConferenceChair
+      Object: 2C9C97:Starfield.esm
+      Alias: 57
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinLindenConferenceChair
+      Object: 2C9C97:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewCustomer01
+      Object: 2C9C97:Starfield.esm
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_CamdenCoffee
+      Object: 140989:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoffeeLinden
+      Object: 2C9C97:Starfield.esm
+      Alias: 64
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinCamdenConferenceChair
+      Object: 2C9C97:Starfield.esm
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TerraBrewCoffeeOrder
+      Object: 2C9C97:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LindenCalderi
+      Object: 2C9C97:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_230_Lane_FollowScene
+      Object: 2083B8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneSalzo
+      Object: 2C9C97:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionRyujinIndustriesPerk
+      Object: 1C5152:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoffeeImogene
+      Object: 2C9C97:Starfield.esm
+      Alias: 61
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_ImogeneCoffee
+      Object: 140988:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinImogeneQS
+      Object: 2C9C97:Starfield.esm
+      Alias: 60
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewEmployee
+      Object: 2C9C97:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoffeeGenevieve
+      Object: 2C9C97:Starfield.esm
+      Alias: 65
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NewAtlantisStartMarker
+      Object: 2C9C97:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoffeeAlexis
+      Object: 2C9C97:Starfield.esm
+      Alias: 66
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_500_Tomo_ConfrontationScene
+      Object: 2C9B79:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 520
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0520_Item_00
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0250_Item_00
+  - Stage: 1200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_1200_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0550_Item_00
+  - Stage: 705
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0705_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 910
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0910_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 640
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0640_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 1100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_1100_Item_00
+  - Stage: 1105
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_1105_Item_00
+  - Stage: 411
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0411_Item_00
+  - Stage: 515
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0515_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 950
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0950_Item_00
+  - Stage: 260
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0260_Item_00
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0220_Item_00
+  - Stage: 1050
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_1050_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 230
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0230_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 240
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0240_Item_00
+  - Stage: 905
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0905_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0650_Item_00
+  - Stage: 530
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0530_Item_00
+  - Stage: 516
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0516_Item_00
+  - Stage: 710
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0710_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 1250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_1250_Item_00
+  - Stage: 850
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0850_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 1150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_1150_Item_00
+  - Stage: 1205
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_1205_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 630
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0630_Item_00
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 235
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0235_Item_00
+  - Stage: 10000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_10000_Item_00
+  - Stage: 628
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0628_Item_00
+  - Stage: 1005
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_1005_Item_00
+  - Stage: 1300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_1300_Item_00
+  - Stage: 629
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0629_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI01_002C9C97
+    FragmentName: Fragment_Stage_0700_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 71
+    Scripts:
+    - Name: DefaultAliasOnSit
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SitTarget
+        Object: 2C9C97:Starfield.esm
+        Alias: 6
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 400
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 500
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NotAllowedDuringCombat
+        Object: 1413FD:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 1
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 650
+    - Name: RI01_TomoAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 640
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WeaponTypeEM
+        Object: 27DF95:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 20
+    Scripts:
+    - Name: DefaultAliasOnMenuItemRun
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: MenuItemData
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetTerminalMenu
+            Object: 227D8D:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: ItemID
+            Data: 1
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 150
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 10
+    Scripts:
+    - Name: DefaultAliasOnMenuItemRun
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: MenuItemData
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: ItemID
+            Data: 1
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetTerminalMenu
+            Object: 227D8D:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 200
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 2
+    Scripts:
+    - Name: RI01_TBEmployeeAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: iPrereqStage
+        Data: 500
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStageToSet
+        Data: 520
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 24
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 530
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 44
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 515
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 500
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 45
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 516
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 500
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 34
+    Scripts:
+    - Name: DefaultAliasOnMenuItemRun
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: MenuItemData
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: ItemID
+            Data: 1
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetTerminalMenu
+            Object: 227D8D:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 200
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 27
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 210
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 32
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 235
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 230
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: AliasesToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 2C9C97:Starfield.esm
+          Alias: 26
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 72
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 260
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 21
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 300
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 250
+    - Name: DefaultAliasOnTriggerLeave
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 500
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 510
+  - Property:
+      Name: ''
+      Object: 2C9C97:Starfield.esm
+      Alias: 6
+    Scripts:
+    - Name: RyujinPlayerChairAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: iPrereqStage
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStageToSet
+        Data: 350
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Zurück an die Arbeit
+  - Language: English
+    String: Back to the Grind
+  - Language: Spanish
+    String: De vuelta al curro
+  - Language: French
+    String: Retour aux fourneaux !
+  - Language: Italian
+    String: Si torna a sgobbare
+  - Language: Japanese
+    String: 仕事への復帰
+  - Language: Polish
+    String: Powrót do roboty
+  - Language: Portuguese_Brazil
+    String: De Volta ao Trabalho
+  - Language: ChineseSimplified
+    String: 重返职场
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+QuestType: 0475FD:Starfield.esm
+QuestFaction: 0546DD:Starfield.esm
+Summary: >-
+  This is the intro quest to the Ryujin Industries faction. The player hears an ad playing in either New Atlantis or Neon which starts the quest to apply for a job. After filling out the application at a computer kiosk, the player gets an interview with Imogene Salzo, attends the interview, and then gets their first task as an administrative assistant: go pick up a coffee order at the nearby TerraBrew.
+
+
+  However, while picking up coffee, the player is held at gunpoint by a freshly fired employee. The employee believes it's just a matter of time before Ryujin sends the player after him, so he's trying to get a jump on things and take out the player before the player takes out him. The player can try to talk him down, or outright attack. Either way, the player resolves the situation, picks up the coffee order, delivers it, and then reports back to Imogene. Imogene, having heard of what the player did at TerraBrew, now sees greater potential in the player as more than just an administrative assistant which will launch the player into their new role in the next quest.
+UnusedConditions: []
+Stages:
+- LogEntries:
+  - Flags: []
+    Note: Debug - Neon Start
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - New Atlantis Start
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Attend Your Interview
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Pick up Coffee
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Deliver the Coffee
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug - Talk to Imogene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Apply for a Job at Ryujin Industries'
+    ScriptFlagComment: Set by Stage 100 in Quest RI01_JobAdRadio --- OR--- by activating Terminal RI01_InformationKiosk_Terminal placed in Neon and New Atlantis.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Als ich in der Stadt herumstreifte, hörte ich eine Jobanzeige für Ryujin Industries. Ich sollte einen Ryujin-Automaten in der Nähe suchen, wenn ich mich auf den Job bewerben möchte.
+      - Language: English
+        String: While roaming the city, I heard a job advertisement for Ryujin Industries. I should find a Ryujin kiosk nearby if I'd like to apply for the job.
+      - Language: Spanish
+        String: Rondando por la ciudad, he oído que Ryujin Industries busca empleados. Si quiero presentar mi candidatura, tengo que buscar un quiosco de Ryujin por la zona.
+      - Language: French
+        String: En me baladant dans la ville, j'ai entendu une annonce de recrutement chez Ryujin Industries. Je devrais chercher un kiosque Ryujin si je veux poser ma candidature.
+      - Language: Italian
+        String: Girando per la città, ho sentito un annuncio di lavoro delle Ryujin Industries. Se mai volessi fare domanda di assunzione, dovrei cercare un chiosco della Ryujin nei paraggi.
+      - Language: Japanese
+        String: 街を探索していたところ、リュウジン・インダストリーズという会社の求人広告を耳にした。この仕事に応募したければ、リュウジン社の端末を見つけよう
+      - Language: Polish
+        String: W trakcie przechadzki po mieście w ucho wpadła mi reklama korporacji Ryujin Industries. Muszę znaleźć budkę tej firmy i sprawdzić, czy mogę uzyskać zatrudnienie.
+      - Language: Portuguese_Brazil
+        String: Enquanto passeava pela cidade, ouvi um anúncio de vaga de trabalho na Ryujin Industries. Se quiser me candidatar, preciso achar um guichê da Ryujin aqui perto.
+      - Language: ChineseSimplified
+        String: 在城市里漫游时，我听到龙神集团的招聘广告。要想申请这份工作的话，我得在附近找到龙神集团的求职站。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Travel to Neon'
+    ScriptFlagComment: Set by script on Alias NewAtlantisKioskTerminal.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe eine Bewerbung bei einem Automaten von Ryujin Industries abgesendet und mich für ein Gespräch qualifiziert. Jetzt muss ich zum Ryujin Tower in Neon reisen und mich mit Imogene Salzo auf der Operations-Etage treffen. Neon ist auf Volii Alpha im Volii-System.
+      - Language: English
+        String: I filled out an application at a Ryujin Industries kiosk and qualified for an interview. I need to travel to Ryujin Tower in Neon and meet with Imogene Salzo on the Operations floor. Neon is on Volii Alpha in the Volii System.
+      - Language: Spanish
+        String: He presentado mi candidatura en el quiosco de Ryujin Industries y me han seleccionado para una entrevista. Tengo que dirigirme a la Torre Ryujin, en Neón, donde me reuniré con Imogene Salzo en la planta de Operaciones. Neón se encuentra en Volii Alfa, parte del sistema Volii.
+      - Language: French
+        String: J'ai déposé une candidature dans l'un des kiosques Ryujin Industries et ai décroché un entretien. Je dois me rendre à la tour Ryujin à Néon pour y rencontrer Imogene Salzo, à l'étage des opérations. Néon se trouve sur Volii Alpha, dans le système Volii.
+      - Language: Italian
+        String: Ho compilato la domanda d’assunzione presso il chiosco delle Ryujin Industries e fissato un colloquio. Devo recarmi alla Torre Ryujin di Neon e incontrare Imogene Salzo al piano operativo. Neon si trova su Volii Alfa, nel sistema Volii.
+      - Language: Japanese
+        String: リュウジン・インダストリーズの端末で求人に応募したところ、面接を受けられることになった。ネオンにあるリュウジン・タワーに行き、事業部フロアのイモジェン・サルゾという人物と会おう。ネオンはヴォライ星系のヴォライ・アルファにある
+      - Language: Polish
+        String: Po wypełnieniu zgłoszenia w budce należącej do firmy Ryujin Industries udało mi się umówić na rozmowę kwalifikacyjną. Muszę jechać do Wieży Ryujina w Neonie i spotkać się z Imogene Salzo na piętrze działu operacyjnego. Neon znajduje się na planecie Volii Alfa w układzie Volii.
+      - Language: Portuguese_Brazil
+        String: Preenchi um formulário em um guichê da Ryujin Industries e me chamaram para uma entrevista de emprego. Preciso ir à Torre Ryujin em Neon e falar com Imogene Salzo no departamento de operações. Neon fica em Volii Alfa no sistema Volii.
+      - Language: ChineseSimplified
+        String: 我在龙神集团求职站填了一份申请，获得了一次面试机会。我得前往霓虹城的龙神大楼，去运营楼层找伊莫金·萨尔佐。霓虹城位于沃利星系的沃利阿尔法星。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Attend Your Interview'
+    ScriptFlagComment: Set by script on Alias NeonKioskTerminal.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe eine Bewerbung bei einem Automaten von Ryujin Industries abgesendet und mich für ein Gespräch qualifiziert. Jetzt muss ich zum Ryujin Tower in Neon reisen und mich mit Imogene Salzo auf der Operations-Etage treffen.
+      - Language: English
+        String: I filled out an application at a Ryujin Industries kiosk and qualified for an interview. I need to travel to Ryujin Tower in Neon and meet with Imogene Salzo on the Operations floor.
+      - Language: Spanish
+        String: He presentado mi candidatura en el quiosco de Ryujin Industries y me han seleccionado para una entrevista. Tengo que dirigirme a la Torre Ryujin, en Neón, donde me reuniré con Imogene Salzo en la planta de Operaciones.
+      - Language: French
+        String: J'ai déposé une candidature dans l'un des kiosques Ryujin Industries et ai décroché un entretien. Je dois me rendre à la tour Ryujin à Néon pour y rencontrer Imogene Salzo, à l'étage des opérations.
+      - Language: Italian
+        String: Ho compilato la domanda d’assunzione presso il chiosco delle Ryujin Industries e fissato un colloquio. Devo recarmi alla Torre Ryujin di Neon e incontrare Imogene Salzo al piano operativo.
+      - Language: Japanese
+        String: リュウジン・インダストリーズの端末で求人に応募したところ、面接を受けられることになった。ネオンにあるリュウジン・タワーに行き、事業部フロアのイモジェン・サルゾという人物と会おう
+      - Language: Polish
+        String: Po wypełnieniu zgłoszenia w budce należącej do firmy Ryujin Industries udało mi się umówić na rozmowę kwalifikacyjną. Muszę jechać do Wieży Ryujina w Neonie i spotkać się z Imogene Salzo na piętrze działu operacyjnego.
+      - Language: Portuguese_Brazil
+        String: Preenchi um formulário em um guichê da Ryujin Industries e me chamaram para uma entrevista de emprego. Preciso ir à Torre Ryujin em Neon e falar com Imogene Salzo no departamento de operações.
+      - Language: ChineseSimplified
+        String: 我在龙神集团求职站填了一份申请，获得了一次面试机会。我得前往霓虹城的龙神大楼，去运营楼层找伊莫金·萨尔佐。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: (Optional) Check in with Lane Garza'
+    ScriptFlagComment: Set by script on Alias RyujinLaneSceneTrigger --- OR --- set by scene RI01_200_Lane_GreetingScene.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe die Operations-Etage im Ryujin Tower erreicht. Nun könnte ich mit dem Rezeptionisten sprechen, der mich begrüßt hat, oder versuchen, Imogene Salzos Büro selbst zu finden.
+      - Language: English
+        String: I arrived at the Operations floor in Ryujin Tower. I could speak to the receptionist that greeted me, or find Imogene Salzo's office myself.
+      - Language: Spanish
+        String: He llegado a la planta de Operaciones de la Torre Ryujin. Puedo hablar con el recepcionista que me ha recibido, o bien buscar por mi cuenta el despacho de Imogene Salzo.
+      - Language: French
+        String: Me voilà à l'étage des opérations de la tour Ryujin. Je pourrais m'adresser au réceptionniste ou trouver moi-même le bureau d'Imogene Salzo.
+      - Language: Italian
+        String: Ho raggiunto il piano operativo della Torre Ryujin. Posso parlare col receptionist che mi ha accolto, oppure trovare l’ufficio di Imogene Salzo per conto mio.
+      - Language: Japanese
+        String: リュウジン・タワーの事業部フロアに到着した。挨拶してくれた受付担当と話をしてもいいし、自分でイモジェン・サルゾの部屋を探すこともできる
+      - Language: Polish
+        String: Jestem na piętrze działu operacyjnego w Wieży Ryujina. Mogę porozmawiać z recepcjonistą, który mnie przywitał, albo na własną rękę znaleźć biuro Imogene Salzo.
+      - Language: Portuguese_Brazil
+        String: 'Cheguei ao departamento de operações da Torre Ryujin. Agora tenho duas opções: falar com o recepcionista que me cumprimentou ou tentar achar o escritório de Imogene Salzo por minha conta.'
+      - Language: ChineseSimplified
+        String: 我抵达龙神大楼的运营楼层。我可以跟欢迎我的接待员谈谈，或者自己去找伊莫金·萨尔佐的办公室。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 215
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player started Lane's scene
+    ScriptFlagComment: Set in scene RI01_210_Lane_IntroScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Lane
+    ScriptFlagComment: Set in scene RI01_210_Lane_IntroScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 230
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Follow Lane'
+    ScriptFlagComment: Set in scene RI01_210_Lane_IntroScene.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mir dem Rezeptionisten Lane in der Operations-Etage gesprochen, und er hat angeboten, mich zum Büro von Imogene Salzo zu bringen. Ich sollte sein Angebot annehmen.
+      - Language: English
+        String: I spoke to the receptionist, Lane, on the Operations floor, and he offered to take me to Imogene Salzo's office. I should allow him to show me the way.
+      - Language: Spanish
+        String: He hablado con Lane, el recepcionista de la planta de Operaciones, y se ha ofrecido a acompañarme al despacho de Imogene Salzo. Será mejor que le siga.
+      - Language: French
+        String: J'ai parlé au réceptionniste, Lane, à l'étage des opérations et il m'a proposé de m'accompagner jusqu'au bureau d'Imogene Salzo. Je ferais bien de le laisser m'y conduire.
+      - Language: Italian
+        String: Ho parlato con Lane, il receptionist, al piano operativo. Si è offerto di condurmi all’ufficio di Imogene Salzo. Non mi resta che seguirlo.
+      - Language: Japanese
+        String: 事業部のフロアで受付のレーンと話をしたところ、イモジェン・サルゾの部屋まで案内すると提案してくれた。この提案を受けよう
+      - Language: Polish
+        String: Recepcjonista Lane z piętra działu operacyjnego zaoferował, że zaprowadzi mnie do biura Imogene Salzo. Chyba lepiej pozwolić mu wskazać sobie drogę.
+      - Language: Portuguese_Brazil
+        String: Falei com o recepcionista do departamento de operações, Lane, e ele se ofereceu para me levar ao escritório de Imogene Salzo. Tenho que acompanhá-lo até lá.
+      - Language: ChineseSimplified
+        String: 我在运营楼层跟接待员雷恩谈了，他提出带我去伊莫金·萨尔佐的办公室。我应该让他带我去。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 235
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: "Play Lane's walking scene "
+    ScriptFlagComment: Set by script on Alias RyujinLaneWalkingSceneTrigger.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 240
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Lane lead player to Imogene
+    ScriptFlagComment: Set by script on Package RI01_230_Lane_TravelPKG.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Lane hat mich zum Büro von Imogene Salzo geführt. Dann kann mein Bewerbungsgespräch mit ihr ja beginnen.
+      - Language: English
+        String: Lane led me to Imogene Salzo's office. It's time to start my interview with Imogene Salzo.
+      - Language: Spanish
+        String: Lane me ha llevado al despacho de Imogene Salzo. Es hora de empezar mi entrevista con ella.
+      - Language: French
+        String: Lane m'a montré le chemin jusqu'au bureau d'Imogene Salzo. Il est temps de commencer mon entretien avec elle.
+      - Language: Italian
+        String: Lane mi ha condotto all’ufficio di Imogene Salzo. È ora di affrontare il colloquio.
+      - Language: Japanese
+        String: レーンに連れられてイモジェン・サルゾの部屋まで来た。イモジェン・サルゾとの面接をはじめよう
+      - Language: Polish
+        String: Lane zaprowadził mnie do biura Imogene Salzo. Czas rozpocząć rozmowę kwalifikacyjną z Imogene Salzo.
+      - Language: Portuguese_Brazil
+        String: Lane me levou ao escritório de Imogene Salzo. Hora de começar minha entrevista com ela.
+      - Language: ChineseSimplified
+        String: 雷恩带我去伊莫金·萨尔佐的办公室。该去跟伊莫金·萨尔佐面谈了。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 250
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: Player entered Imogene's office
+    ScriptFlagComment: Set by script on Alias RyujinImogeneSceneTrigger.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 260
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player skipped Lane initially - This is so the Operative waiting to path for flavor will move
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Take a Seat'
+    ScriptFlagComment: Set by Scene RI01_250_Imogene_IntroScene.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich bin bei meinem Bewerbungsgespräch angekommen und Imogene hat mich gebeten, Platz zu nehmen.
+      - Language: English
+        String: I've arrived at my interview and Imogene has asked me to take a seat.
+      - Language: Spanish
+        String: He llegado a la entrevista, e Imogene me ha pedido que me siente.
+      - Language: French
+        String: Une fois sur les lieux de l'entretien, Imogene m'a proposé de m'asseoir.
+      - Language: Italian
+        String: Ho raggiunto il luogo del colloquio. Imogene mi ha chiesto di accomodarmi.
+      - Language: Japanese
+        String: 面接会場に到着した。イモジェンに椅子を勧められた
+      - Language: Polish
+        String: Czekam na rozmowę kwalifikacyjną. Imogene poprosiła mnie o zajęcie miejsca.
+      - Language: Portuguese_Brazil
+        String: Cheguei ao local da entrevista e a Imogene me disse para sentar.
+      - Language: ChineseSimplified
+        String: 我来参加面试了，伊莫金让我落座。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 350
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player activated chair - Disable controls
+    ScriptFlagComment: Controls are disabled here to prevent bad camera angles for Imogene's scene if the player gets out of the chair prior to the scene starting.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Complete Your Interview'
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich sollte mein Bewerbungsgespräch mit Imogene beenden.
+      - Language: English
+        String: I should complete my interview with Imogene.
+      - Language: Spanish
+        String: Tengo que terminar mi entrevista con Imogene.
+      - Language: French
+        String: Je devrais boucler mon entretien avec Imogene.
+      - Language: Italian
+        String: Devo completare il colloquio con Imogene.
+      - Language: Japanese
+        String: イモジェンとの面接を終わらせよう
+      - Language: Polish
+        String: Muszę dokończyć rozmowę kwalifikacyjną z Imogene.
+      - Language: Portuguese_Brazil
+        String: Preciso terminar minha entrevista com a Imogene.
+      - Language: ChineseSimplified
+        String: 我得去和伊莫金面谈了。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player said they'll do whatever it takes
+    ScriptFlagComment: Set in Scene RI01_400_Imogene_InterviewScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 411
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player said they'll be running the place
+    ScriptFlagComment: Set in Scene RI01_400_Imogene_InterviewScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Interview scene ended prematurely
+    ScriptFlagComment: Set in Scene RI01_400_Imogene_InterviewScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 430
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player at Question 1
+    ScriptFlagComment: Set in Scene RI01_400_Imogene_InterviewScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 431
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player at Question 2
+    ScriptFlagComment: Set in Scene RI01_400_Imogene_InterviewScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 432
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player at Question 3
+    ScriptFlagComment: Set in Scene RI01_400_Imogene_InterviewScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 433
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player at Question 4
+    ScriptFlagComment: Set in Scene RI01_400_Imogene_InterviewScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 440
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player chose Leadership
+    ScriptFlagComment: Set in Scene RI01_400_Imogene_InterviewScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 441
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player chose Bargaining
+    ScriptFlagComment: Set in Scene RI01_400_Imogene_InterviewScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 442
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player chose Negotiation
+    ScriptFlagComment: Set in Scene RI01_400_Imogene_InterviewScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 443
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player chose Diplomat
+    ScriptFlagComment: Set in Scene RI01_400_Imogene_InterviewScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Pick Up Coffee at TerraBrew'
+    ScriptFlagComment: Set in Scene RI01_400_Imogene_InterviewScene.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe einen Job! Und als erste „Amtshandlung“ soll ich im TerraBrew gleich ums Eck Kaffee besorgen.
+      - Language: English
+        String: I got a job! My first order of business is to pick up a coffee order at the nearby TerraBrew.
+      - Language: Spanish
+        String: ¡Me han contratado! Mi primera tarea es ir a recoger cafés al TerraBrew que hay cerca.
+      - Language: French
+        String: J'ai décroché un boulot ! Ma première mission consiste à aller récupérer une commande de cafés au TerraBrew voisin.
+      - Language: Italian
+        String: Ho un lavoro! Il mio primo incarico è ritirare l’ordinazione di caffè presso la vicina TerraBrew.
+      - Language: Japanese
+        String: 仕事に受かった！ 最初の依頼は近くのテラブリューまで行ってコーヒーの注文を受け取ることだ
+      - Language: Polish
+        String: Mam pracę! Pierwsze zlecenie to odebrać zamówienie na kawę w pobliskim TerraBrew.
+      - Language: Portuguese_Brazil
+        String: Consegui um emprego! E minha primeira tarefa é pegar café no TerraBrew aqui perto.
+      - Language: ChineseSimplified
+        String: 我有工作啦！我的第一个任务就是去附近的地球经典咖啡取咖啡。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player left Imogene's office
+    ScriptFlagComment: Set by script on Alias RyujinImogeneSceneTrigger.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 515
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player entered TerraBrew
+    ScriptFlagComment: Set by script on Alias NeonTerraBrewEntrance.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 516
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player approached TerraBrew Employee
+    ScriptFlagComment: Set by script on Alias NeonTerraBrewCounter.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 520
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: TerraBrew Employee dead
+    ScriptFlagComment: Set by script on Alias NeonTerraBrewEmployee.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 28B96A:Starfield.esm
+- Index: 530
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has the TerraBrew Coffee order
+    ScriptFlagComment: Set by script on Alias TerraBrewCoffeeOrder.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 550
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player started scene at TerraBrew, enable Tomo
+    ScriptFlagComment: Set on Scene RI01_500_TBEmployee_IntroScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Deal with Tomo'
+    ScriptFlagComment: Set in Scene RI01_500_Tomo_ConfrontationScene.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Als ich die Kaffeebestellung für Ryujin abholen wollte, kam ein Mann mit gezogener Waffe auf mich zu. Ich muss die Lage jetzt entschärfen, indem ich mit ihm spreche oder indem ich ihn unschädlich mache.
+      - Language: English
+        String: While picking up the Ryujin coffee order, a  man approached me at gun point. I need to deal with this situation by either talking him down or taking him out.
+      - Language: Spanish
+        String: Cuando iba a recoger el café para los ejecutivos de Ryujin, un hombre me ha encañonado. Tengo que resolver esta situación, ya sea dialogando o por la fuerza.
+      - Language: French
+        String: Alors que je récupérais la commande de cafés pour Ryujin, un homme s'est approché de moi une arme à la main. Je dois me dépêtrer de cette situation soit par la persuasion, soit par la force.
+      - Language: Italian
+        String: 'Mentre ritiravo l’ordinazione di caffè per la Ryujin, un uomo mi si è avvicinato puntandomi una pistola. Non ho scelta: o la risolvo con la diplomazia, o col sangue.'
+      - Language: Japanese
+        String: リュウジンの注文したコーヒーを受け取る際に男が接近してきて銃を突きつけてきた。この男に対して言葉で説得するか、倒すかして対処する
+      - Language: Polish
+        String: W trakcie odbierania zamówienia na kawę dla Ryujina pojawił się jakiś człowiek i wziął mnie na muszkę. Muszę jakoś załatwić tę sprawę - porozmawiać z nim albo go zneutralizować.
+      - Language: Portuguese_Brazil
+        String: Um homem se aproximou de mim e me ameaçou com uma arma quando fui pegar café para os executivos da Ryujin. Preciso resolver a situação, seja acalmando ou neutralizando o cara.
+      - Language: ChineseSimplified
+        String: 在去取龙神集团点的咖啡时，一名男子拿着枪逼近我。我要么说服他，要么干掉他，反正得赶紧解决这问题。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 604
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: First customer leaves
+    ScriptFlagComment: Set in Scene RI01_500_Tomo_ConfrontationScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 605
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tomo pulls gun
+    ScriptFlagComment: Set in Scene RI01_500_Tomo_ConfrontationScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: 'Player Choice: Attack Tomo'
+    ScriptFlagComment: Set in Scene RI01_500_Tomo_ConfrontationScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 129766:Starfield.esm
+- Index: 620
+  LogEntries:
+  - Flags: []
+    Note: 'Player Choice: Talk to Tomo'
+    ScriptFlagComment: Set in Scene RI01_500_Tomo_ConfrontationScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 28B96B:Starfield.esm
+- Index: 625
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: 'Tomo Speech Challenge: Fail'
+    ScriptFlagComment: Set by SpeechChallenge RI01_Tomo_SpeechChallenge in Scene RI01_500_Tomo_ConfrontationScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 627
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Tomo Speech Challenge: Pass'
+    ScriptFlagComment: Set by SpeechChallenge RI01_Tomo_SpeechChallenge in Scene RI01_500_Tomo_ConfrontationScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 628
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player promises Tomo
+    ScriptFlagComment: Set in Scene RI01_500_Tomo_ConfrontationScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 129765:Starfield.esm
+- Index: 629
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player does NOT promise Tomo
+    ScriptFlagComment: Set in Scene RI01_500_Tomo_ConfrontationScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 129764:Starfield.esm
+- Index: 630
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Kill Tomo - Tomo to Hostile state'
+    ScriptFlagComment: Set in Scene RI01_500_Tomo_ConfrontationScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17625
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C9C97:Starfield.esm
+        SecondParameter: 625
+      ComparisonValue: 1
+    Note: Log Entry - Player failed speech challenge
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich konnte Tomo nicht davon überzeugen, dass ich keine Gefahr bin. Ich muss ihn töten, bevor er mich tötet.
+      - Language: English
+        String: I failed to convince Tomo that I wasn't a threat. I'll need to kill him before he kills me.
+      - Language: Spanish
+        String: No he logrado hacer ver a Tomo que no soy una amenaza. Tengo que matarle antes de que me mate él a mí.
+      - Language: French
+        String: J'ai échoué à convaincre Tomo que je n'étais pas une menace. Je dois le tuer avant qu'il ne me tue.
+      - Language: Italian
+        String: Non ho convinto Tomo sul fatto che non fossi una minaccia. Ho dovuto ucciderlo prima che facesse lo stesso con me.
+      - Language: Japanese
+        String: 自分は敵でないとトモを説得しようとしたが失敗した。やられる前にやろう
+      - Language: Polish
+        String: Tomo nie dał się przekonać, że nie stanowię zagrożenia. Muszę go zabić, zanim on zabije mnie.
+      - Language: Portuguese_Brazil
+        String: Não consegui convencer Tomo de que não sou uma ameaça. Agora é matar ou morrer.
+      - Language: ChineseSimplified
+        String: 我没能说服东智我并不是威胁。我得先下手杀了他。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2C9C97:Starfield.esm
+        SecondParameter: 610
+      ComparisonValue: 1
+    Note: Log Entry - Player chose to attack
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Tomo hat gedroht, mich zu töten, aber ich werde nicht kampflos untergehen.
+      - Language: English
+        String: Tomo threatened to kill me, but I won't go down without a fight.
+      - Language: Spanish
+        String: Tomo amenaza con matarme, pero no se lo pienso poner fácil.
+      - Language: French
+        String: Tomo a menacé de me tuer, mais je ne me laisserai pas abattre.
+      - Language: Italian
+        String: Tomo ha minacciato di uccidermi, ma venderò cara la pelle.
+      - Language: Japanese
+        String: トモに殺すと脅されたが、黙ってやられるつもりはない
+      - Language: Polish
+        String: Tomo zagroził, że mnie zabije, lecz ja nie poddam się bez walki.
+      - Language: Portuguese_Brazil
+        String: Tomo me ameaçou de morte, mas não vou me entregar sem lutar.
+      - Language: ChineseSimplified
+        String: 东智威胁要杀了我，但我不会束手就擒。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 640
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tomo hit
+    ScriptFlagComment: Set by script on Alias TomoHigashi. Tomo is set to be a one hit kill to prevent drawn out combat in Neon.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 650
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tomo dead
+    ScriptFlagComment: Set by script on Alias TomoHigashi.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Pick Up the Coffee at TerraBrew'
+    ScriptFlagComment: Set in Scene RI01_500_Tomo_ConfrontationScene.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe mich um Tomo gekümmert, der mir mit der Waffe im Gesicht herumgefuchtelt hat. Jetzt muss ich noch die Kaffeebestellung abholen und zum Ryujin Tower zurückkehren.
+      - Language: English
+        String: I was able to deal with Tomo, the man who held me at gunpoint. Now, I still need to pick up the coffee order and get back to Ryujin Tower.
+      - Language: Spanish
+        String: He logrado desembarazarme de Tomo, el hombre que me amenazaba a punta de pistola. Ahora tengo que recoger el café y volver a la Torre Ryujin.
+      - Language: French
+        String: J'ai réussi à négocier avec Tomo, le type qui me menaçait de son arme. Il me reste à récupérer la commande de cafés et à retourner à la tour Ryujin.
+      - Language: Italian
+        String: Ho saputo affrontare Tomo, il tizio che mi teneva sotto tiro. Ora devo ritirare l’ordinazione di caffè e tornare alla Torre Ryujin.
+      - Language: Japanese
+        String: 銃を突きつけてきた男、トモにうまく対処できた。次は注文したコーヒーを受け取ってリュウジン・タワーへ戻ろう
+      - Language: Polish
+        String: Udało mi się rozprawić z Tomo, człowiekiem, który wziął mnie na muszkę. Muszę teraz odebrać kawę i wrócić do Wieży Ryujina.
+      - Language: Portuguese_Brazil
+        String: Consegui lidar com o Tomo, o homem que me ameaçou com uma arma. Agora preciso pegar o café e voltar à Torre Ryujin.
+      - Language: ChineseSimplified
+        String: 我终于解决了东智，也就是那个拿枪指着我的人。现在，我还得去拿咖啡，然后返回龙神大楼。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 705
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: TerraBrew Employee forcegreeted
+    ScriptFlagComment: Set in Scene RI01_700_TBEmployee_TomoAlive_PickUpScene --- OR --- Scene RI01_700_TBEmployee_TomoDead_PickUpScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Give coffee to player
+    ScriptFlagComment: Set in Scene RI01_700_TBEmployee_TomoAlive_PickUpScene --- OR --- Scene RI01_700_TBEmployee_TomoDead_PickUpScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Imogene'
+    ScriptFlagComment: Set by Stage 530 or 700.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Endlich habe ich die Kaffeebestellung. Nun muss ich zum Ryujin Tower zurückkehren und mit Imogene sprechen.
+      - Language: English
+        String: I finally have the coffee order. I need to return to Ryujin Tower and talk to Imogene.
+      - Language: Spanish
+        String: Por fin he recogido el café. Tengo que volver a la Torre Ryujin y hablar con Imogene.
+      - Language: French
+        String: J'ai enfin récupéré la commande de cafés. Je dois retourner à la tour Ryujin et parler à Imogene.
+      - Language: Italian
+        String: Finalmente ho recuperato l’ordinazione di caffè. Devo tornare alla Torre Ryujin e parlare con Imogene.
+      - Language: Japanese
+        String: 注文のコーヒーを受け取った。リュウジン・タワーへ戻ってイモジェンの話を聞こう
+      - Language: Polish
+        String: Nareszcie mam zamówioną kawę. Muszę wrócić do Wieży Ryujina i porozmawiać z Imogene.
+      - Language: Portuguese_Brazil
+        String: Finalmente peguei o café. Agora preciso voltar à Torre Ryujin e falar com a Imogene.
+      - Language: ChineseSimplified
+        String: 我终于拿到咖啡了。我得返回龙神大楼并跟伊莫金谈一谈。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 805
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player started Imogene's scene
+    ScriptFlagComment: Set in Scene RI01_800_Imogene_Return01Scene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player withheld the truth
+    ScriptFlagComment: Set in Scene RI01_800_Imogene_Return01Scene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player told the truth
+    ScriptFlagComment: Set in Scene RI01_800_Imogene_Return01Scene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 830
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player transitioned to 2nd scene
+    ScriptFlagComment: Set in Scene RI01_800_Imogene_Return01Scene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 840
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene re-entry
+    ScriptFlagComment: Set in Scene RI01_800_Imogene_Return02Scene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 850
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Imogene
+    ScriptFlagComment: Set in Scene RI01_800_Imogene_Return02Scene.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Imogene hat mich zum Nachwuchs-Agent befördert, weil ich mich im TerraBrew um Tomo gekümmert habe. Aber ich muss den Kaffee immer noch in den Konferenzsaal bringen und mit den hohen Tieren sprechen.
+      - Language: English
+        String: Imogene promoted me to junior operative for handling Tomo at the TerraBrew, but I still have to deliver the coffee and meet the executives in the conference room.
+      - Language: Spanish
+        String: Imogene me ha ascendido a agente júnior por haberme encargado de Tomo en el TerraBrew, pero aún tengo que llevar el café y presentarme a los ejecutivos de la sala de conferencias.
+      - Language: French
+        String: Imogene a fait de moi un agent junior depuis que j'ai géré Tomo au TerraBrew, mais je dois encore apporter le café et rencontrer les dirigeants dans la salle de conférence.
+      - Language: Italian
+        String: Imogene mi ha promosso ad agente junior per come ho saputo gestire Tomo alla TerraBrew ma, per fare la loro conoscenza, mi tocca comunque portare il caffè ai dirigenti in sala conferenze.
+      - Language: Japanese
+        String: テラブリューのトモに対処したことで、イモジェンから下級工作員へ昇進させられた。会議室にいる重役たちにコーヒーを届ける
+      - Language: Polish
+        String: Imogene zdecydowała, że awansuje mnie na stanowisko młodszego agenta za załatwienie sprawy Tomo w TerraBrew. Muszę jeszcze dostarczyć kawę i spotkać się z dyrekcją w sali konferencyjnej.
+      - Language: Portuguese_Brazil
+        String: Imogene me promoveu a agente iniciante por eu ter lidado com o Tomo no TerraBrew, mas ainda preciso levar café e falar com os executivos na sala de conferências.
+      - Language: ChineseSimplified
+        String: 伊莫金提拔我为初级特工，负责处理地球经典咖啡的东智，但我还是得给会议室里的高管端下咖啡，并跟他们谈一谈。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Meet Alexis Pryce'
+    ScriptFlagComment: Set by Stage 850.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 905
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Remove Alexis coffee
+    ScriptFlagComment: Set in Scene RI01_900_Alexis_IntroScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 910
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asked about Bayu
+    ScriptFlagComment: Set in Scene RI01_900_Alexis_IntroScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 920
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene re-entry 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 950
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Alexis
+    ScriptFlagComment: Set in Scene RI01_900_Alexis_IntroScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Meet Camden Cho'
+    ScriptFlagComment: Set by Stage 850.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1005
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Remove Camden coffee
+    ScriptFlagComment: Set in Scene RI01_1000_Camden_IntroScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1020
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene re-entry 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1050
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Camden
+    ScriptFlagComment: Set in Scene RI01_1000_Camden_IntroScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Meet Genevieve Monohan'
+    ScriptFlagComment: Set by Stage 850.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Remove Genevieve coffee
+    ScriptFlagComment: Set in Scene RI01_1100_Genevieve_IntroScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene re-entry 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Genevieve
+    ScriptFlagComment: Set in Scene RI01_1100_Genevieve_IntroScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Meet Linden Calderi'
+    ScriptFlagComment: Set by Stage 850.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1205
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Remove Linden coffee
+    ScriptFlagComment: Set in Scene RI01_1200_Linden_IntroScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene re-entry 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1250
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Linden
+    ScriptFlagComment: Set in Scene RI01_1200_Linden_IntroScene.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'QO: Talk to Imogene'
+    ScriptFlagComment: Set by Stage 950, 1050, 1150, or 1250.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe den Leuten im Konferenzsaal wie gewünscht Kaffee gebracht und mit ihnen geredet. Nun sollte ich mit Imogene in ihrem Büro sprechen und sie fragen, was jetzt ansteht.
+      - Language: English
+        String: I've spoken and delivered coffee to the people Imogene wanted me to meet in the conference room. I should return to her office and find out what's next.
+      - Language: Spanish
+        String: Tal y como me pidió Imogene, he llevado su café y hablado con las personas de la sala de conferencias. Tengo que volver a su despacho y averiguar qué es lo siguiente.
+      - Language: French
+        String: J'ai parlé et apporté le café aux gens qu'Imogene voulait que je rencontre dans la salle de conférence. Je dois maintenant regagner son bureau pour la suite.
+      - Language: Italian
+        String: Ho consegnato il caffè e parlato con i dirigenti che Imogene voleva che incontrassi in sala conferenze. Devo tornare da lei per scoprire cosa mi attende adesso.
+      - Language: Japanese
+        String: 会議室へ行き、イモジェンに会うよう言われていた人たちにコーヒーを届けて話もした。イモジェンの部屋へ戻って次の指示を受けよう
+      - Language: Polish
+        String: Udało mi się porozmawiać i podać kawę ludziom, do których wysłała mnie Imogene. Muszę teraz wrócić do jej biura i zapytać, co dalej.
+      - Language: Portuguese_Brazil
+        String: Falei com as pessoas na sala de conferências que a Imogene me pediu e levei café para elas. Tenho que voltar ao escritório dela para receber minha próxima tarefa.
+      - Language: ChineseSimplified
+        String: 我跟伊莫金让我去会议室里去见一见的人谈过了，还送了咖啡过去。现在我该回她的办公室，看看接下来的安排。
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10000
+  Unknown: 85
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Complete Quest
+    ScriptFlagComment: Set in Scene RI01_1300_Imogene_FinalScene.
+    Entry:
+      TargetLanguage: English
+      Values:
+      - Language: German
+        String: Ich habe eine Stelle bei Ryujin Industries bekommen und auch gleich meine erste Beförderung. Jetzt bin ich offiziell ein Nachwuchs-Agent und arbeite für Imogene Salzo.
+      - Language: English
+        String: I got a job at Ryujin Industries along with my very first promotion. I'm now officially a junior operative working for Imogene Salzo.
+      - Language: Spanish
+        String: Conseguí un empleo en Ryujin Industries y también mi primer ascenso. Soy oficialmente agente júnior al servicio de Imogene Salzo.
+      - Language: French
+        String: J'ai décroché un poste chez Ryujin Industries ainsi que ma toute première promotion. Je suis désormais agent junior sous la houlette d'Imogene Salzo.
+      - Language: Italian
+        String: Ho ottenuto un lavoro e la mia primissima promozione alle Ryujin Industries. Ora ricopro ufficialmente il ruolo di agente junior per Imogene Salzo.
+      - Language: Japanese
+        String: リュウジン・インダストリーズでの仕事に受かり、最初の昇進もした。これで正式にイモジェン・サルゾの下で働く下級工作員だ
+      - Language: Polish
+        String: Mam pracę i pierwszy awans w firmie Ryujin Industries. Mam oficjalne stanowisko młodszego agenta, a moją zwierzchniczką jest Imogene Salzo.
+      - Language: Portuguese_Brazil
+        String: Consegui um emprego na Ryujin Industries e também a minha primeira promoção. Agora eu oficialmente trabalho como agente iniciante para Imogene Salzo.
+      - Language: ChineseSimplified
+        String: 我在龙神集团找到了一份工作，并获得了第一次晋升。我现在正式成为伊莫金·萨尔佐手下的初级特工了。
+    StageCompleteDatas:
+    - QSRD: 0x02000000
+      RewardDatas:
+      - XpAwarded: Null
+        BonusCredits: 1460FE:Starfield.esm
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Unknown1: 0x000000
+          Data:
+            MutagenObjectType: HasPerkConditionData
+            FirstParameter: 227FD3:Starfield.esm
+          ComparisonValue: 1
+      - XpAwarded: 23DF3B:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 08C792:Starfield.esm
+          Count: 1
+        - Item: 026B0C:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Bewirb dich auf einen Job bei einem Automaten von Ryujin Industries.
+    - Language: English
+      String: Apply for a Job at a Ryujin Industries Kiosk
+    - Language: Spanish
+      String: Postúlate para trabajar en el quiosco de Ryujin Industries.
+    - Language: French
+      String: Postulez à un emploi au kiosque Ryujin Industries.
+    - Language: Italian
+      String: Candidati per un lavoro presso il chiosco delle Ryujin Industries
+    - Language: Japanese
+      String: リュウジン・インダストリーズの端末で求人に応募する
+    - Language: Polish
+      String: Aplikuj o pracę w budce firmy Ryujin Industries
+    - Language: Portuguese_Brazil
+      String: Candidate-se a uma vaga no guichê da Ryujin
+    - Language: ChineseSimplified
+      String: 在龙神集团求职站找份工作
+  Targets:
+  - AliasID: 10
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: QuestAlias
+        Unknown3: -2
+        FirstParameter: 01295A:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: QuestAlias
+        Unknown3: -2
+        FirstParameter: 17CFC9:Starfield.esm
+  - AliasID: 20
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: QuestAlias
+        Unknown3: -2
+        FirstParameter: 01295A:Starfield.esm
+      ComparisonValue: 1
+  - AliasID: 34
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: QuestAlias
+        Unknown3: -2
+        FirstParameter: 17CFC9:Starfield.esm
+      ComparisonValue: 1
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Reise nach Neon auf Volii Alpha im Volii-System.
+    - Language: English
+      String: Travel to Neon on Volii Alpha in the Volii System
+    - Language: Spanish
+      String: Viaja a Neón, en Volii Alfa (sistema Volii).
+    - Language: French
+      String: Rendez-vous à Néon, sur Volii Alpha, dans le système Volii.
+    - Language: Italian
+      String: Raggiungi Neon, su Volii Alfa, nel sistema Volii
+    - Language: Japanese
+      String: ヴォライ星系のヴォライ・アルファにあるネオンまで行く
+    - Language: Polish
+      String: Ruszaj do Neonu na planecie Volii Alfa w układzie Volii
+    - Language: Portuguese_Brazil
+      String: Viaje para Neon em Volii Alfa no sistema Volii
+    - Language: ChineseSimplified
+      String: 前往沃利星系沃利阿尔法星的霓虹城
+  Targets:
+  - {}
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Führe dein Bewerbungsgespräch im Ryujin Tower.
+    - Language: English
+      String: Attend Your Interview at Ryujin Tower
+    - Language: Spanish
+      String: Acude a la Torre Ryujin para tu entrevista.
+    - Language: French
+      String: Effectuez votre entretien à la tour Ryujin.
+    - Language: Italian
+      String: Presentati al colloquio presso la Torre Ryujin
+    - Language: Japanese
+      String: リュウジン・タワーで面接を受ける
+    - Language: Polish
+      String: Weź udział w rozmowie kwalifikacyjnej w Wieży Ryujina
+    - Language: Portuguese_Brazil
+      String: Compareça à sua entrevista na Torre Ryujin
+    - Language: ChineseSimplified
+      String: 去龙神大楼参加面试
+  Targets:
+  - {}
+- Index: 210
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: (Optional) Sprich mit Lane Garza.
+    - Language: English
+      String: (Optional) Check in with Lane Garza
+    - Language: Spanish
+      String: (Opcional) Habla con Lane Garza.
+    - Language: French
+      String: (Optionnel) Présentez-vous à Lane Garza.
+    - Language: Italian
+      String: (Opzionale) Parla con Lane Garza
+    - Language: Japanese
+      String: (オプション)レーン・ガーザの様子を確認する
+    - Language: Polish
+      String: (Opcj.) Skontaktuj się z Lane'em Garzą
+    - Language: Portuguese_Brazil
+      String: (Opc.) Fale com Lane Garza
+    - Language: ChineseSimplified
+      String: （可选）去看看雷恩·加尔萨
+  Targets:
+  - AliasID: 26
+- Index: 230
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Folge Lane.
+    - Language: English
+      String: Follow Lane
+    - Language: Spanish
+      String: Sigue a Lane.
+    - Language: French
+      String: Suivez Lane.
+    - Language: Italian
+      String: Segui Lane
+    - Language: Japanese
+      String: レーンについて行く
+    - Language: Polish
+      String: Podążaj za Lane'em
+    - Language: Portuguese_Brazil
+      String: Siga Lane
+    - Language: ChineseSimplified
+      String: 跟随雷恩
+  Targets:
+  - AliasID: 26
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Setz dich.
+    - Language: English
+      String: Take a Seat
+    - Language: Spanish
+      String: Siéntate.
+    - Language: French
+      String: Asseyez-vous.
+    - Language: Italian
+      String: Accomodati
+    - Language: Japanese
+      String: 席に座る
+    - Language: Polish
+      String: Usiądź
+    - Language: Portuguese_Brazil
+      String: Sente-se
+    - Language: ChineseSimplified
+      String: 坐下
+  Targets:
+  - AliasID: 6
+- Index: 400
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Beende dein Bewerbungsgespräch.
+    - Language: English
+      String: Complete Your Interview
+    - Language: Spanish
+      String: Lleva a cabo tu entrevista.
+    - Language: French
+      String: Terminez votre entretien.
+    - Language: Italian
+      String: Completa il colloquio
+    - Language: Japanese
+      String: 面接を完了する
+    - Language: Polish
+      String: Dokończ rozmowę kwalifikacyjną
+    - Language: Portuguese_Brazil
+      String: Termine sua entrevista
+    - Language: ChineseSimplified
+      String: 完成你的面试
+  Targets:
+  - {}
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Hole Kaffee bei TerraBrew ab.
+    - Language: English
+      String: Pick Up Coffee at TerraBrew
+    - Language: Spanish
+      String: Recoge café en el TerraBrew.
+    - Language: French
+      String: Récupérez les cafés au TerraBrew.
+    - Language: Italian
+      String: Ritira il caffè presso la TerraBrew
+    - Language: Japanese
+      String: テラブリューでコーヒーを受け取る
+    - Language: Polish
+      String: Odbierz kawę z TerraBrew
+    - Language: Portuguese_Brazil
+      String: Pegue café no TerraBrew
+    - Language: ChineseSimplified
+      String: 去地球经典咖啡拿咖啡
+  Targets:
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        Unknown3: 2
+  - AliasID: 24
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        Unknown3: 2
+      ComparisonValue: 1
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Kümmere dich um Tomo.
+    - Language: English
+      String: Deal With Tomo
+    - Language: Spanish
+      String: Sácate de encima a Tomo.
+    - Language: French
+      String: Occupez-vous de Tomo.
+    - Language: Italian
+      String: Occupati di Tomo
+    - Language: Japanese
+      String: トモに対処する
+    - Language: Polish
+      String: Rozpraw się z Tomo
+    - Language: Portuguese_Brazil
+      String: Lide com Tomo
+    - Language: ChineseSimplified
+      String: 解决东智
+  Targets:
+  - AliasID: 1
+- Index: 630
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Töte Tomo.
+    - Language: English
+      String: Kill Tomo
+    - Language: Spanish
+      String: Mata a Tomo.
+    - Language: French
+      String: Tuez Tomo.
+    - Language: Italian
+      String: Uccidi Tomo
+    - Language: Japanese
+      String: トモを倒す
+    - Language: Polish
+      String: Zabij Tomo
+    - Language: Portuguese_Brazil
+      String: Mate Tomo
+    - Language: ChineseSimplified
+      String: 击杀东智
+  Targets:
+  - AliasID: 1
+- Index: 700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Hole Kaffee bei TerraBrew ab.
+    - Language: English
+      String: Pick Up Coffee at TerraBrew
+    - Language: Spanish
+      String: Recoge café en el TerraBrew.
+    - Language: French
+      String: Récupérez les cafés au TerraBrew.
+    - Language: Italian
+      String: Ritira il caffè presso la TerraBrew
+    - Language: Japanese
+      String: テラブリューでコーヒーを受け取る
+    - Language: Polish
+      String: Odbierz kawę z TerraBrew
+    - Language: Portuguese_Brazil
+      String: Pegue café no TerraBrew
+    - Language: ChineseSimplified
+      String: 去地球经典咖啡拿咖啡
+  Targets:
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        Unknown3: 2
+  - AliasID: 24
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        Unknown3: 2
+      ComparisonValue: 1
+- Index: 800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Imogene.
+    - Language: English
+      String: Talk to Imogene
+    - Language: Spanish
+      String: Habla con Imogene.
+    - Language: French
+      String: Parlez à Imogene.
+    - Language: Italian
+      String: Parla con Imogene
+    - Language: Japanese
+      String: イモジェンと話す
+    - Language: Polish
+      String: Porozmawiaj z Imogene
+    - Language: Portuguese_Brazil
+      String: Fale com Imogene
+    - Language: ChineseSimplified
+      String: 与伊莫金交谈
+  Targets:
+  - {}
+- Index: 900
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Triff dich mit Alexis Pryce.
+    - Language: English
+      String: Meet Alexis Pryce
+    - Language: Spanish
+      String: Conoce a Alexis Pryce.
+    - Language: French
+      String: Rencontrez Alexis Pryce.
+    - Language: Italian
+      String: Incontra Alexis Pryce
+    - Language: Japanese
+      String: アレクシス・プライスに会う
+    - Language: Polish
+      String: Spotkaj się z Alexis Pryce
+    - Language: Portuguese_Brazil
+      String: Encontre-se com Alexis Pryce
+    - Language: ChineseSimplified
+      String: 与亚历克西斯·普莱斯会面
+  Targets:
+  - AliasID: 53
+- Index: 1000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Triff dich mit Camden Cho.
+    - Language: English
+      String: Meet Camden Cho
+    - Language: Spanish
+      String: Conoce a Camden Cho.
+    - Language: French
+      String: Rencontrez Camden Cho.
+    - Language: Italian
+      String: Incontra Camden Cho
+    - Language: Japanese
+      String: カムデン・チョウに会う
+    - Language: Polish
+      String: Spotkaj się z Camdenem Cho
+    - Language: Portuguese_Brazil
+      String: Encontre-se com Camden Cho
+    - Language: ChineseSimplified
+      String: 与卡姆登·曹会面
+  Targets:
+  - AliasID: 54
+- Index: 1100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Triff dich mit Genevieve Monohan.
+    - Language: English
+      String: Meet Genevieve Monohan
+    - Language: Spanish
+      String: Conoce a Genevieve Monohan.
+    - Language: French
+      String: Rencontrez Genevieve Monohan.
+    - Language: Italian
+      String: Incontra Genevieve Monohan
+    - Language: Japanese
+      String: ジェヌビエーブ・モノハンに会う
+    - Language: Polish
+      String: Spotkaj się z Genevieve Monohan
+    - Language: Portuguese_Brazil
+      String: Encontre-se com Genevieve Monohan
+    - Language: ChineseSimplified
+      String: 与吉纳维芙·莫纳翰会面
+  Targets:
+  - AliasID: 51
+- Index: 1200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Triff dich mit Linden Calderi.
+    - Language: English
+      String: Meet Linden Calderi
+    - Language: Spanish
+      String: Conoce a Linden Calderi.
+    - Language: French
+      String: Rencontrez Linden Calderi.
+    - Language: Italian
+      String: Incontra Linden Calderi
+    - Language: Japanese
+      String: リンデン・カルデリに会う
+    - Language: Polish
+      String: Spotkaj się z Linden Calderi
+    - Language: Portuguese_Brazil
+      String: Encontre-se com Linden Calderi
+    - Language: ChineseSimplified
+      String: 与林登·卡尔德利会面
+  Targets:
+  - AliasID: 52
+- Index: 1300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sprich mit Imogene.
+    - Language: English
+      String: Talk to Imogene
+    - Language: Spanish
+      String: Habla con Imogene.
+    - Language: French
+      String: Parlez à Imogene.
+    - Language: Italian
+      String: Parla con Imogene
+    - Language: Japanese
+      String: イモジェンと話す
+    - Language: Polish
+      String: Porozmawiaj z Imogene
+    - Language: Portuguese_Brazil
+      String: Fale com Imogene
+    - Language: ChineseSimplified
+      String: 与伊莫金交谈
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  ID: 71
+  Name: Player
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  Name: ImogeneSalzo
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2C9BFB:Starfield.esm
+  LinkedAliases:
+  - AliasID: 5
+  PackageData:
+  - 0D4887:Starfield.esm
+  - 2C9BBA:Starfield.esm
+  - 2C9BBB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: TomoHigashi
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 2C9BC4:Starfield.esm
+  CombatOverridePackageList: 0F0E68:Starfield.esm
+  PackageData:
+  - 024C14:Starfield.esm
+  - 2C72CB:Starfield.esm
+  - 0A1067:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: LaneGarza
+  Flags: []
+  ALFG: 0
+  UniqueActor: 2083C1:Starfield.esm
+  PackageData:
+  - 2083BA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 51
+  Name: GenevieveMonohan
+  Flags: []
+  ALFG: 0
+  UniqueActor: 295EE3:Starfield.esm
+  PackageData:
+  - 140977:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 52
+  Name: LindenCalderi
+  Flags: []
+  ALFG: 0
+  UniqueActor: 1FB7A7:Starfield.esm
+  PackageData:
+  - 140978:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 53
+  Name: AlexisPryce
+  Flags: []
+  ALFG: 0
+  UniqueActor: 18B63B:Starfield.esm
+  PackageData:
+  - 140974:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 54
+  Name: CamdenCho
+  Flags: []
+  ALFG: 0
+  UniqueActor: 1A951B:Starfield.esm
+  PackageData:
+  - 140975:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 67
+  Name: YukoSerrano
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 1EDF76:Starfield.esm
+  PackageData:
+  - 140975:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  PackageData:
+  - 27A562:Starfield.esm
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: '----- New Atlantis Aliases -----'
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 17
+  Name: Location_NewAtlantis
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01295A:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: NewAtlantisStartMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 17
+    RefType: 2C9B7D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: NewAtlantisKioskTerminal
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 17
+    RefType: 2C9BB7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: '----- Neon Aliases -----'
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 16
+  Name: Location_Neon
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 015FFE:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: NeonStartMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 16
+    RefType: 2C9B7D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: NeonKioskTerminal
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 16
+    RefType: 2C9BB7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: NeonTerraBrewEmployeeFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 16
+    RefType: 26F182:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: NeonTerraBrewEmployee
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ALFG: 0
+  Location:
+    AliasID: 16
+    RefType: 27A579:Starfield.esm
+  Keywords:
+  - 21B1FC:Starfield.esm
+  CombatOverridePackageList: 0D783A:Starfield.esm
+  PackageData:
+  - 0D850B:Starfield.esm
+  - 0D4889:Starfield.esm
+  - 0D488A:Starfield.esm
+  VoiceTypes: 2C9BC1:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: NeonTerraBrewPlayerMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 16
+    RefType: 2C72C8:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: NeonTerraBrewTomoMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 16
+    RefType: 2C9BA4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 70
+  Name: NeonTerraBrewTomoStartMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 07990E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: TerraBrewCoffeeOrder
+  Flags:
+  - Optional
+  - QuestObject
+  - NoPickpocket
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 36
+  Name: NeonTerraBrewSceneMarker01
+  Flags: []
+  ALFG: 0
+  ForcedReference: 10CAC6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 37
+  Name: NeonTerraBrewSceneMarker02
+  Flags: []
+  ALFG: 0
+  ForcedReference: 10CAC5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 38
+  Name: NeonTerraBrewSceneMarker03
+  Flags: []
+  ALFG: 0
+  ForcedReference: 10CAC4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 39
+  Name: NeonTerraBrewSceneMarker04
+  Flags: []
+  ALFG: 0
+  ForcedReference: 10CAC3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 40
+  Name: NeonTerraBrewCustomer01
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - InitiallyDisabled
+  - CreateRefTemp
+  - 0x2000000
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 10CAC2:Starfield.esm
+    AliasID: 36
+  PackageData:
+  - 102F2A:Starfield.esm
+  - 10CABE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 41
+  Name: NeonTerraBrewCustomer02
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - InitiallyDisabled
+  - CreateRefTemp
+  - 0x2000000
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 10CAC1:Starfield.esm
+    AliasID: 37
+  PackageData:
+  - 102F25:Starfield.esm
+  - 10CABD:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 42
+  Name: NeonTerraBrewCustomer03
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - InitiallyDisabled
+  - CreateRefTemp
+  - 0x2000000
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 10CAC0:Starfield.esm
+    AliasID: 38
+  PackageData:
+  - 102F24:Starfield.esm
+  - 10CABC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 43
+  Name: NeonTerraBrewCustomer04
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - InitiallyDisabled
+  - CreateRefTemp
+  - 0x2000000
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 10CABF:Starfield.esm
+    AliasID: 39
+  PackageData:
+  - 102F23:Starfield.esm
+  - 10CABB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 44
+  Name: NeonTerraBrewEntrance
+  Flags:
+  - CreateRefTemp
+  ALFG: 0
+  Location:
+    AliasID: 16
+    RefType: 102F2E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 45
+  Name: NeonTerraBrewCounter
+  Flags:
+  - CreateRefTemp
+  ALFG: 0
+  Location:
+    AliasID: 16
+    RefType: 102F2D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: NeonCustomerFleeMarker01
+  Flags: []
+  ALFG: 0
+  ForcedReference: 102F29:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 47
+  Name: NeonCustomerFleeMarker02
+  Flags: []
+  ALFG: 0
+  ForcedReference: 102F28:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 48
+  Name: NeonCustomerFleeMarker03
+  Flags: []
+  ALFG: 0
+  ForcedReference: 102F26:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 49
+  Name: NeonCustomerFleeMarker04
+  Flags: []
+  ALFG: 0
+  ForcedReference: 102F27:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: '----- Ryujin Tower Aliases -----'
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 3
+  Name: Location_RyujinTower
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 29B71E:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 35
+  Name: Location_RyujinTowerExterior
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 015FFE:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 73
+  Name: PathingOperative
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 2DC107:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 34
+  Name: RyujinKioskTerminal
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 35
+    RefType: 2C9BB7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 50
+  Name: RyujinLaneQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0F0E6B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 60
+  Name: RyujinImogeneQS
+  Flags: []
+  ALFG: 0
+  ForcedReference: 0E8D54:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: RyujinLaneSceneTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 2083BD:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 32
+  Name: RyujinLaneWalkingSceneTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 2083B7:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 72
+  Name: RyujinPlayerSkippedLane
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 2DC106:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: RyujinLaneTravelMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 2083BB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: RyujinImogeneSceneTrigger
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 27BB9A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: RyujinImogeneChair
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 2C9BB9:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 68
+  Name: RyujinImogeneReturnFurniture
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 0D4886:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: RyujinCompanionChair
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 27A563:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 69
+  Name: RyujinCompanionSceneMarker
+  Flags:
+  - AllowReuseInQuest
+  ALFG: 0
+  ForcedReference: 0D4884:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: RyujinPlayerChair
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 2C9BB8:Starfield.esm
+  Keywords:
+  - 0BA2F6:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 55
+  Name: RyujinAlexisConferenceChair
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 14096F:Starfield.esm
+  PackageData:
+  - 140974:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 56
+  Name: RyujinCamdenConferenceChair
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 140970:Starfield.esm
+  PackageData:
+  - 140975:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 57
+  Name: RyujinGenevieveConferenceChair
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 140971:Starfield.esm
+  PackageData:
+  - 140977:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 59
+  Name: RyujinLindenConferenceChair
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 140972:Starfield.esm
+  PackageData:
+  - 140978:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 61
+  Name: CoffeeImogene
+  Flags:
+  - Optional
+  - QuestObject
+  - NoPickpocket
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 62
+  Name: CoffeeYuko
+  Flags:
+  - Optional
+  - QuestObject
+  - NoPickpocket
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 63
+  Name: CoffeeCamden
+  Flags:
+  - Optional
+  - QuestObject
+  - NoPickpocket
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 64
+  Name: CoffeeLinden
+  Flags:
+  - Optional
+  - QuestObject
+  - NoPickpocket
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 65
+  Name: CoffeeGenevieve
+  Flags:
+  - Optional
+  - QuestObject
+  - NoPickpocket
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 66
+  Name: CoffeeAlexis
+  Flags:
+  - Optional
+  - QuestObject
+  - NoPickpocket
+  ALFG: 0
+  VoiceTypes: Null

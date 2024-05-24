@@ -1,0 +1,78 @@
+FormKey: 0E8D7D:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 16601955
+  TROTs:
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 1.2333333
+  - UnknownVoiceType: 2BCA49:Starfield.esm
+    UnknownFloat: 4.566667
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 4.9666667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Ja, ja, du siehst sehr mysteriös und tough aus. Stell dich hinten an.
+    - Language: English
+      String: Yeah yeah, you look strange and tough. Got a lot of that in this town...
+    - Language: Spanish
+      String: Sí, sí, tu aspecto es extraño y amenazador. Aquí hay mucha gente así...
+    - Language: French
+      String: Ouais, ouais, avoir l'air bizarre et faire peur. Tout le monde s'est passé le mot ici...
+    - Language: Italian
+      String: Sì, sì, hai un aspetto strano e un’aria minacciosa. Sai quanti ce ne sono in città, come te...
+    - Language: Japanese
+      String: ああ、本当に。奇抜で強そうだな。この街にはそんな奴ばっかりだ…
+    - Language: Polish
+      String: Tak, tak, wyglądasz dziwnie i groźnie. W tym mieście to norma...
+    - Language: Portuguese_Brazil
+      String: É, é, você parece uma pessoa estranha e braba. Temos bastante desse tipo pela cidade...
+    - Language: ChineseSimplified
+      String: 嗯嗯，你看起来古怪又强悍，这座城市早见怪不怪了……
+  ScriptNotes: player is wearing a Starborn suit, which looks almost alien
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA063862B1849D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 12E72E:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 35545C:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    FirstParameter: 2891D2:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low
