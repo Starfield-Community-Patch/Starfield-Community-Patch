@@ -38,6 +38,7 @@ Event OnQuestInit()
 
     ; Register for MQ401 hitting stage 450 or 455 so that we can start the Cora Core Crew Quest
     ; Inital fix: #369. Revised fix: #924
+    ; Also used for fix #940
     Self.RegisterForRemoteEvent(MQ401 as ScriptObject, "OnStageSet")
     ; Fix for https://www.starfieldpatch.dev/issues/545
     Self.RegisterForRemoteEvent(MQ206A as ScriptObject, "OnStageSet")
@@ -169,6 +170,31 @@ Event Quest.OnStageSet(Quest akSender, Int auiStageID, Int auiItemID)
             SFCPUtil.WriteLog("Cora Coe crew quest is already running. Fix skipped.")
         endif
     endif
+
+    ; Fix for https://www.starfieldpatch.dev/issues/940
+    ; Removes all companion perks when starting NG+. 
+    ; If you had an active companion when entering the Untiy these perks are not removed.
+    ; This can cause player dialogue options to be available when they should not be.
+    if (akSender == MQ401 && auiStageID == 10)
+        Perk CompanionCheckAndrejaPerk = Game.GetForm(0x001C5150) as Perk
+        Perk CompanionCheckBarrettPerk = Game.GetForm(0x001C514E) as Perk
+        Perk CompanionCheckSamCoePerk = Game.GetForm(0x001C514D) as Perk
+        Perk CompanionCheckSarahMorganPerk = Game.GetForm(0x001C514C) as Perk
+        Actor PlayerRef = Game.GetPlayer()
+        If PlayerRef.HasPerk(CompanionCheckAndrejaPerk)
+            PlayerRef.RemovePerk(CompanionCheckAndrejaPerk)
+        EndIf
+        If PlayerRef.HasPerk(CompanionCheckBarrettPerk)
+            PlayerRef.RemovePerk(CompanionCheckBarrettPerk)
+        EndIf
+        If PlayerRef.HasPerk(CompanionCheckSamCoePerk)
+            PlayerRef.RemovePerk(CompanionCheckSamCoePerk)
+        EndIf
+        If PlayerRef.HasPerk(CompanionCheckSarahMorganPerk)
+            PlayerRef.RemovePerk(CompanionCheckSarahMorganPerk)
+        EndIf
+    endif
+
     ; Fix for https://www.starfieldpatch.dev/issues/545
     ; Shuts down commitment quest for the dead companion if it is still running. This keeps the dead companion from being set as the active companion in stage 2000 of MQ206A.
     if (akSender == MQ206A && auiStageID == 1000)
