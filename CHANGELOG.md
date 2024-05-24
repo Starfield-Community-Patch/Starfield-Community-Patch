@@ -8,6 +8,25 @@ When adding items to the changelog try and use the template below:
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
 ## [2024-05-24] Version 0.1.6
+### Dialogue Fixes:
+- Fixed multiple cases where guards would incorrectly comment on your weapon status [001569CA] [001569CB] [0015DA2E] [0015DA2F] [0015DA30] [0015DA32] [0015DA4B] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/970) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
+- Fixed an issue where guards that are not in New Atlantis would comment about "running away from that crazy guy" when this event occurs in New Atlantis [0000D595] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/969) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
+- Fixed an issue where guards would say "Nice hat" when wearing a Neuroamp [0015DA49] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/964) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
+- Fixed multiple cases where guards that are not in New Atlantis would incorrectly comment about the recent attack which occurs in New Atlantis [003E5C0D] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/961) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
+- Fixed in issue where medical robots would comment about the player being dehydrated when they are not [003650B6] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/965) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
+- Fixed incorrect companion responses to player dialogue in "High Price to Pay" [0023E8DA] - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/968) -  [Fix contributed by Aurelianis](https://next.nexusmods.com/profile/Aurelianis)
+- Modified idle chatter for Mathis while exploring the Locke during "Echoes of the Past" so they only will be said once. This will keep him from saying the same dialogue lines over and over. [00207E95] [00207E96] [00207E97] [00207E98] [00207E99] [00207E9A] [00207E9B] [00207E9C] [00207E9D] [00207E9E] [00207E9F] [00207EA0] [00207EA1] [00207EA2] [00207EA3] - [Reported by Voodoo5150]((https://www.starfieldpatch.dev/issues/907) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+- Added the "Say Once" flag to companion's dialogue when entering the Den so they do not repeat themselves [001A4A3A] [001E9CD4] [0023EB98] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/908) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+### Quest Fixes
+- Fixed an issue where the player's ship might land on the incorrect marker at Valerie's Cache during "Matters of the Hart" [00101D8D] - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/934) -  [Fix contributed by Aurelianis](https://next.nexusmods.com/profile/Aurelianis)
+- Fixed an issue that might cause Eyewitness not to start [002AAE8D] - [Reported by Crushurpride24](https://www.starfieldpatch.dev/issues/129) -  [Fix contributed by ferrari365](https://next.nexusmods.com/profile/ferrari365)
+### Placed Object Fixes:
+- Disabled Barrett's Personal slates in SMS_Hab_Nova_BerthingAll_2L1W1H_A as they should only be present in the Frontier's original hab module [0021302B] [0021302C] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/840) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+- Moved Vasco's wait marker at the Den so his arm doesn't clip through the wall [0008C2D8] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/843) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+- Moved a duplicate storage cooler in the Abandoned Industrial Compound to the ground [000EF7BC] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/848) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+- Moved floating loot containers at The Pit Stop in Hopetown [0003D28A] [0003D28B] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/910) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+### Misc Fixes
+- Removed the previous fix for The Well not inheriting Jemison's gravity. This fix caused an issue with the local map for The Well added in Starfield v1.11.36.0. Removed: [000F4ED4] - [Reported by m1idy](https://www.starfieldpatch.dev/issues/967) -  [Fix contributed by Aurelianis](https://next.nexusmods.com/profile/Aurelianis)
 ### NPC Fixes
 - Fixes an issue where changing the player appearance at Enhance! would also change You?'s appearance. [CrewEliteOtherPlayerScript] - [Reported by ](https://www.starfieldpatch.dev/issues/522) [Linnsanity](https://next.nexusmods.com/profile/Linnsanity) -  [Fix contributed by EpicestGamer](https://next.nexusmods.com/profile/EpicestGamer)
 ### Perk Fixes
