@@ -1,0 +1,78 @@
+FormKey: 15DA4A:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 11398670
+  TRDAUnknown: 4.8333335
+  TROTs:
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 0.8333334
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 7.166667
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 7.3666673
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 0.86666673
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 8.333334
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 0.26666668
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Cooler Raumanzug.
+    - Language: English
+      String: Cool spacesuit.
+    - Language: Spanish
+      String: Qué chulo el traje.
+    - Language: French
+      String: Sympa, la combinaison.
+    - Language: Italian
+      String: Bella tuta spaziale.
+    - Language: Japanese
+      String: いい宇宙服だ
+    - Language: Polish
+      String: Fajowy skafander.
+    - Language: Portuguese_Brazil
+      String: Traje da hora.
+    - Language: ChineseSimplified
+      String: 宇航服真酷。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA027433EE14CD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 26FDEA:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 23C7C0:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

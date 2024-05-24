@@ -1,0 +1,79 @@
+FormKey: 355452:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+  ResetHours: 24
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: 18E865:Starfield.esm
+  WEMFile: 5934401
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 6.7333336
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.6000004
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 5.4
+  - UnknownVoiceType: 246C4C:Starfield.esm
+    UnknownFloat: 6.7000003
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Schicke Panzerung. Da könnten die Marines fast neidisch werden. Fast.
+    - Language: English
+      String: Fancy armor you got there. Almost puts the Marines to shame. Almost.
+    - Language: Spanish
+      String: Menudo blindaje tan sofisticado. Casi deja mal a los marines. Casi.
+    - Language: French
+      String: Vous en avez une belle combi. Les marines pourraient presque être jaloux.
+    - Language: Italian
+      String: Bella corazza. Quasi ridicolizza quella dei marine. Quasi.
+    - Language: Japanese
+      String: 立派なアーマーだな。海兵隊も形無しかもな、もしかしたら
+    - Language: Polish
+      String: Masz niezłą zbroję. Mogłaby zawstydzić marines. Prawie.
+    - Language: Portuguese_Brazil
+      String: Que bela armadura você tem aí. Quase põe os fuzileiros no chinelo. Quase.
+    - Language: ChineseSimplified
+      String: 你这身护甲真酷炫，海军陆战队的装备和它一比也相形见绌，真的。
+  ScriptNotes: player is wearing a Starborn suit, which looks almost alien
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x1033F4FD1549D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 12E72E:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 35545C:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    FirstParameter: 2891D3:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

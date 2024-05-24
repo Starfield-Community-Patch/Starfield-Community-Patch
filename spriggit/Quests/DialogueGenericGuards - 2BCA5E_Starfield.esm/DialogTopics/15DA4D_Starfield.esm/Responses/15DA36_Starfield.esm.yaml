@@ -1,0 +1,82 @@
+FormKey: 15DA36:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 14571338
+  TRDAUnknown: 3.966667
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 4.4
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 4.8333335
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 4.9333334
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 6.6000004
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 5.4
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Whoa, whoa, whoa! Waaas?
+    - Language: English
+      String: Whoa whoa whoa! Whhhhaaat?
+    - Language: Spanish
+      String: ¡Eh, eh, eh! ¿Quééééé?
+    - Language: French
+      String: Wow, wow, wow ! Quoi ?
+    - Language: Italian
+      String: Ehi, ehi, ehi! Cooosa?
+    - Language: Japanese
+      String: おいおい！ 何だ！？
+    - Language: Polish
+      String: Łoł, łoł, łoł! Co do...?
+    - Language: Portuguese_Brazil
+      String: Opa, opa, opa! Como é?
+    - Language: ChineseSimplified
+      String: 哇哇哦哇哦！什么鬼？
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x20E35E72E24CD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1C8E67:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

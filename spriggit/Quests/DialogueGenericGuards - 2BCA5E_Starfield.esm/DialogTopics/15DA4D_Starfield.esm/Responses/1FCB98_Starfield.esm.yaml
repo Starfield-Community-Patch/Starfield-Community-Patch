@@ -1,0 +1,99 @@
+FormKey: 1FCB98:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 3218733
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 2.4333334
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.3666673
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 28.666668
+  - UnknownVoiceType: 246C4C:Starfield.esm
+    UnknownFloat: 28.666668
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 6.3
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 9.033334
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 6.266667
+  - UnknownVoiceType: 2BCA49:Starfield.esm
+    UnknownFloat: 28.666668
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: ''
+    - Language: English
+      String: "You don't... need to wear your helmet. You know that, right? "
+    - Language: Spanish
+      String: ''
+    - Language: French
+      String: ''
+    - Language: Italian
+      String: ''
+    - Language: Japanese
+      String: ''
+    - Language: Polish
+      String: ''
+    - Language: Portuguese_Brazil
+      String: ''
+    - Language: ChineseSimplified
+      String: ''
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x102E40238239D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0BEA53:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    FirstParameter: 2891D1:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsInInteriorConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 23C7B8:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 23C7C1:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,0 +1,48 @@
+FormKey: 1671E6:Starfield.esm
+EditorID: DR033SpaceCellLocation
+MasterPersistLocationReferences:
+- Actor: 0AE91B:Starfield.esm
+  Location: 16728F:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+LocationCellUniqueReferences:
+- GenericBaseForm: 08CE68:Starfield.esm
+  Ref: 0AE91B:Starfield.esm
+  Location: 1671E6:Starfield.esm
+MasterUniqueNpcs: []
+MasterSpecialReferences:
+- LocationRefType: 02271F:Starfield.esm
+  Marker: 166EDB:Starfield.esm
+  Location: 16728F:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Der Almagest
+  - Language: English
+    String: The Almagest
+  - Language: Spanish
+    String: El Almagesto
+  - Language: French
+    String: L'Almagest
+  - Language: Italian
+    String: L’Almagesto
+  - Language: Japanese
+    String: アルマゲスト
+  - Language: Polish
+    String: Almagest
+  - Language: Portuguese_Brazil
+    String: O Almagesto
+  - Language: ChineseSimplified
+    String: 至高
+Keywords:
+- 2253D1:Starfield.esm
+- 01674D:Starfield.esm
+- 08A8F9:Starfield.esm
+UnknownDATA2: 16
+ParentLocation: 01AC7E:Starfield.esm
+WorldLocationRadius: 0
+ActorFadeMult: 1
+TNAM: 0

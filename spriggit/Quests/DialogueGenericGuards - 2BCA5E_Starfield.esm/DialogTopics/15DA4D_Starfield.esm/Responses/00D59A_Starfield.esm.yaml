@@ -1,0 +1,80 @@
+FormKey: 00D59A:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 13101469
+  TRDAUnknown: 0.86666673
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 2.1666667
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 0.7666667
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 4.9666667
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.066667
+  - UnknownVoiceType: 246C4C:Starfield.esm
+    UnknownFloat: 5.366667
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 4.4666667
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 2.1000001
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 7.2333336
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 2.1333334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Woooaaah, Vorsicht, Leute! Ein Alien! He he he.
+    - Language: English
+      String: Whoooaaa. Look out! It's an alien! Heh heh.
+    - Language: Spanish
+      String: Oooh. ¡Cuidado! ¡Alienígena a la vista! Je, je, je.
+    - Language: French
+      String: Waouh. Attention ! Un alien ! Héhé.
+    - Language: Italian
+      String: Wooow. Attenti! C’è un alieno! Eh eh.
+    - Language: Japanese
+      String: うわあああ。危ない！ エイリアンだ！ ははっ
+    - Language: Polish
+      String: Łoooo, uważajcie! Obcy! He, he.
+    - Language: Portuguese_Brazil
+      String: Opaaaa. Cuidado! Alienígena à vista! He, he.
+    - Language: ChineseSimplified
+      String: 哇哦。当心！是个外星人！呵呵。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x101E82DF59ECD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 28B3AE:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetEquippedConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 225FC9:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

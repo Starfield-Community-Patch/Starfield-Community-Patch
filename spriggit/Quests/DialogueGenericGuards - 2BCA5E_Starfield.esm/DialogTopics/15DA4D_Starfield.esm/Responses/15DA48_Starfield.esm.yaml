@@ -1,0 +1,101 @@
+FormKey: 15DA48:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 13006339
+  TRDAUnknown: 7.466667
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 3.9
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 4.9666667
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 7.033334
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 4.8333335
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 4.6000004
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 3.966667
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 7.3666673
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 5.1333337
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: 'Du musst ... auf diesem Planeten keinen Helm tragen. Das weißt du schon, oder? '
+    - Language: English
+      String: "You don't... need to wear your helmet on this planet. You know that, right? "
+    - Language: Spanish
+      String: 'No es necesario llevar casco en este planeta. Lo sabes, ¿no? '
+    - Language: French
+      String: "Vous n'avez pas... besoin de porter de casque sur cette planète. Vous êtes au courant, j'espère ? "
+    - Language: Italian
+      String: 'Non... serve indossare il casco su questo pianeta. Lo sai, no? '
+    - Language: Japanese
+      String: ヘルメットは… この星では必要ない。知ってるだろ？
+    - Language: Polish
+      String: 'Nie musisz... nosić na tej planecie hełmu. Wiesz o tym, prawda? '
+    - Language: Portuguese_Brazil
+      String: 'Você não... precisa usar o capacete nesse planeta. Sabia disso, né? '
+    - Language: ChineseSimplified
+      String: '你……不需要在这个星球上戴头盔的。你知道的，对吧？ '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xB0EAE05EE14CD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0BEA53:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 23C7B8:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 28B3AE:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 23C7C1:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

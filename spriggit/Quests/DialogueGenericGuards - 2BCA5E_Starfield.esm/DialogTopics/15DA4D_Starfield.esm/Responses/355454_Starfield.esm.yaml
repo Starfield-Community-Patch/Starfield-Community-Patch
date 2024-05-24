@@ -1,0 +1,78 @@
+FormKey: 355454:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: 01EB91:Starfield.esm
+  WEMFile: 6803237
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 2.0666668
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 9.533334
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 2.3000002
+  - UnknownVoiceType: 246C4C:Starfield.esm
+    UnknownFloat: 1.1666667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Panzerung nicht registriert ... Kein bekannter Hersteller? Wer auch immer das produziert hat, muss sich eine MAST-Lizenz holen.
+    - Language: English
+      String: Unregistered armor... What? No known manufacturer? Well, whoever made that, tell them to get a license from MAST next time.
+    - Language: Spanish
+      String: Blindaje sin registrar... ¿Fabricante desconocido? No sé quién la habrá hecho, pero dile que adquiera una licencia del TAMC.
+    - Language: French
+      String: Une combinaison non agréée... Quoi ? Un fabricant inconnu ? Je sais pas qui vous a fait ça, mais dites-lui de s'enregistrer auprès du TAMS.
+    - Language: Italian
+      String: Corazza non registrata... Cosa? Produttore ignoto? Beh, chiunque l’abbia realizzata, la prossima volta digli di chiedere prima la licenza al TASM.
+    - Language: Japanese
+      String: 未登録のアーマー… なんだと？ 製造元不明？ よくわからないが、今度からはMASTに登録するよう伝えてくれ
+    - Language: Polish
+      String: Niezarejestrowana zbroja... Co? Producent nieznany? Cóż, ktokolwiek ją zrobił, niech następnym razem wystąpi o licencję WNAT-u.
+    - Language: Portuguese_Brazil
+      String: Armadura não registrada... Quê? Fabricante desconhecido? Bem, seja lá quem for, diga pra obterem uma licença do TAMC da próxima vez.
+    - Language: ChineseSimplified
+      String: 未登记的盔甲……什么？未知制造商？呃，无论是谁做的，请叫他们下次去三头同盟办个执照。
+  ScriptNotes: player is wearing a Starborn suit, which looks almost alien
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x900EFCF41549D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 12E72E:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 35545C:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    FirstParameter: 2891D3:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

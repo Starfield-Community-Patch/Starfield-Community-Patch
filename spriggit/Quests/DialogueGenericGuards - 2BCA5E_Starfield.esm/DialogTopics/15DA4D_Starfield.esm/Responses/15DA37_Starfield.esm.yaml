@@ -1,0 +1,80 @@
+FormKey: 15DA37:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 12177115
+  TRDAUnknown: 4
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 7.766667
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 4.9333334
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 4.4
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 2.6000001
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Heilige Scheiße!
+    - Language: English
+      String: Holy shit!
+    - Language: Spanish
+      String: ¡La hostia!
+    - Language: French
+      String: Nom d'un chien !
+    - Language: Italian
+      String: Porca miseria!
+    - Language: Japanese
+      String: どうなっている！
+    - Language: Polish
+      String: O w mordę!
+    - Language: Portuguese_Brazil
+      String: Puta merda!
+    - Language: ChineseSimplified
+      String: 天哪！
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xB012B665E24CD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 1C8E67:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

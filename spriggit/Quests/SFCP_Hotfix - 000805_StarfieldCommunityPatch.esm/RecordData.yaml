@@ -1,0 +1,100 @@
+FormKey: 000805:StarfieldCommunityPatch.esm
+EditorID: SFCP_Hotfix
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SFCP:UpdateHandler
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFCP_Version_Major
+      Object: 000801:StarfieldCommunityPatch.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFCP_Version_Minor
+      Object: 000802:StarfieldCommunityPatch.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFCP_Version_Patch
+      Object: 000803:StarfieldCommunityPatch.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401
+      Object: 1DC45E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFCP_CND_AllResearchCompleted
+      Object: 000808:StarfieldCommunityPatch.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A
+      Object: 2BACF9:Starfield.esm
+  Script:
+    Name: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000805:StarfieldCommunityPatch.esm
+      Alias: 0
+    Scripts:
+    - Name: SFCP:PlayerLoadGameAliasScript
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Starfield Community Patch Handler
+  - Language: English
+    String: Starfield Community Patch Handler
+  - Language: Spanish
+    String: Starfield Community Patch Handler
+  - Language: French
+    String: Starfield Community Patch Handler
+  - Language: Italian
+    String: Starfield Community Patch Handler
+  - Language: Japanese
+    String: Starfield Community Patch Handler
+  - Language: Polish
+    String: Kontroler Starfield Community Patch
+  - Language: Portuguese_Brazil
+    String: Starfield Community Patch Handler
+  - Language: ChineseSimplified
+    String: Starfield Community Patch Handler
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  Unused: 0x000000
+UnusedConditions: []
+Stages:
+- Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Run on startup
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+Objectives:
+- DisplayText:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Starfield Community Patch ist installiert
+    - Language: English
+      String: Starfield Community Patch is installed
+    - Language: Spanish
+      String: Starfield Community Patch está instalado
+    - Language: French
+      String: Starfield Community Patch est installé.
+    - Language: Italian
+      String: Starfield Community Patch è installata
+    - Language: Japanese
+      String: Starfield Community Patch インストールされています
+    - Language: Polish
+      String: Starfield Community Patch został zainstalowany
+    - Language: Portuguese_Brazil
+      String: Starfield Community Patch está instalado
+    - Language: ChineseSimplified
+      String: Starfield Community Patch 已安装
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Player
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm

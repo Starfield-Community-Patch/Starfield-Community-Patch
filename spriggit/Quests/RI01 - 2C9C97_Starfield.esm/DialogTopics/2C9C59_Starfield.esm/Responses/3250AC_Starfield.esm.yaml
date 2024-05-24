@@ -1,0 +1,53 @@
+FormKey: 3250AC:Starfield.esm
+FormVersion: 556
+Flags: {}
+Responses:
+- Emotion: 0FA84E:Starfield.esm
+  WEMFile: 4737650
+  TROTs:
+  - UnknownVoiceType: 2C9BF8:Starfield.esm
+    UnknownFloat: 7.4000006
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Soll das Kostüm ein Witz sein? Und ich dachte, schlimmer kann der Tag nicht mehr werden ...
+    - Language: English
+      String: Are you kidding me with that costume? Just when I thought this day couldn't get any worse...
+    - Language: Spanish
+      String: ¿Me estás tomando el pelo con esas pintas? Y yo que pensaba que el día no podía ir a peor...
+    - Language: French
+      String: C'est quoi cette tenue ? Vous plaisantez ? Je pensais pas que cette journée pouvait être pire...
+    - Language: Italian
+      String: Mi prendi in giro con quel costume? Proprio quando pensavo che la giornata non potesse peggiorare...
+    - Language: Japanese
+      String: その衣装、ふざけてるの？ これ以上ひどい日にはならないと思ってたのに…
+    - Language: Polish
+      String: Ty tak na poważnie z tym kostiumem? A już mi się wydawało, że ten dzień nie może być gorszy...
+    - Language: Portuguese_Brazil
+      String: Que roupa é essa? Tá de palhaçada? E eu achando que o dia não podia ficar pior...
+    - Language: ChineseSimplified
+      String: 你穿成这样是想和我开玩笑吗？没想到今天还能碰到更倒霉的事……
+  ScriptNotes: Player walked in to the interview with a monster costume on.
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xE08246B6F381D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetEquippedConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 225FC9:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

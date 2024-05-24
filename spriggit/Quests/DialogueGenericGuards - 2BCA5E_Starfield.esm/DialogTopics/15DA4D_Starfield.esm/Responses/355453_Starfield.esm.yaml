@@ -1,0 +1,79 @@
+FormKey: 355453:Starfield.esm
+FormVersion: 556
+Flags:
+  Flags:
+  - Random
+  ResetHours: 24
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: 18E866:Starfield.esm
+  WEMFile: 5860844
+  TROTs:
+  - UnknownVoiceType: 2BCA42:Starfield.esm
+    UnknownFloat: 0.9333334
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 0.9333334
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 4.566667
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 1.1666667
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Okay, ich muss zugeben, deine Panzerung ist echt schick. Da kriege ich direkt Muffensausen.
+    - Language: English
+      String: All right. I'll admit it. That's a damn fine suit you got on. I'm honestly shaking a little bit.
+    - Language: Spanish
+      String: Vale. Tengo que admitirlo. Tu traje está muy bien. Sinceramente, estoy temblando ligeramente.
+    - Language: French
+      String: OK, je l'admets, vous avez une sacrée combinaison. Franchement, j'en tremble un peu.
+    - Language: Italian
+      String: Va bene, lo ammetto. Hai proprio una tuta coi fiocchi. Onestamente, mette anche un po’ paura.
+    - Language: Japanese
+      String: わかった、認めるよ。その宇宙服はかなりイケてる。少し動揺するくらいな
+    - Language: Polish
+      String: Dobra. Przyznaję, masz świetny strój. Aż się trochę trzęsę.
+    - Language: Portuguese_Brazil
+      String: Certo. Vou admitir. Que belo traje que você tem. Tô me tremendo um pouco aqui.
+    - Language: ChineseSimplified
+      String: 好吧，我承认你这身行头很强大，吓得我都有点腿软了。
+  ScriptNotes: player is wearing a Starborn suit, which looks almost alien
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x80C09E0F1649D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 12E72E:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 35545C:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    FirstParameter: 2891D1:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

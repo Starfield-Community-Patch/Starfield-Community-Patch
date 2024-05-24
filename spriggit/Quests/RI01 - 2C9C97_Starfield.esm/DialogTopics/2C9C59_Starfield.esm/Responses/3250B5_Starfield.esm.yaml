@@ -1,0 +1,70 @@
+FormKey: 3250B5:Starfield.esm
+FormVersion: 556
+Flags: {}
+Responses:
+- Emotion: 0FA84E:Starfield.esm
+  WEMFile: 6100091
+  TROTs:
+  - UnknownVoiceType: 2C9BF8:Starfield.esm
+    UnknownFloat: 2.8000002
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Man soll zu einem Vorstellungsgespräch zwar einen Anzug tragen, aber doch keinen Raumanzug ...
+    - Language: English
+      String: You know when they recommend suits for interviews, they're not talking about spacesuits...
+    - Language: Spanish
+      String: Está bien ponerse traje para las entrevistas de trabajo, pero no sé yo si uno espacial...
+    - Language: French
+      String: Vous savez que quand on recommande de bien s'habiller pour un entretien, ce n'est pas ça qu'on a en tête...
+    - Language: Italian
+      String: Sai, quando consigliano di vestirsi come si deve per i colloqui di lavoro, non parlano di tute spaziali.
+    - Language: Japanese
+      String: 面接にはスーツの着用が推奨されてるけど、スペーススーツじゃないわ…
+    - Language: Polish
+      String: Wiesz co, jak mówią, żeby ubrać się odpowiednio na rozmowę, to nie mają na myśli skafandrów...
+    - Language: Portuguese_Brazil
+      String: Sabe, o traje a rigor que se recomenda pra entrevistas não é o espacial...
+    - Language: ChineseSimplified
+      String: 你知道吗，一般人都不会推荐面试时穿宇航服……
+  ScriptNotes: Player walked into their interview with a spacesuit on, no helmet.
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x20EBAB0BF081D801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 23C7C0:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 23C7C1:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0B1208:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low
