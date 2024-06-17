@@ -1,21 +1,120 @@
 FormKey: 0D6927:Starfield.esm
 EditorID: FFCydoniaZ05
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 015FF7:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 5
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 10
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01B737:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 30
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 15
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 40
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01B73A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 30
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 15
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 40
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01B73F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 30
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 15
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 40
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 0D6927:Starfield.esm
+          Alias: 20
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 30
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 25
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 40
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 015FF7:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 60
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 70
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 70
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 150
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01B735:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 200
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 66
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01B735:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 200
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
   - Name: DefaultFollowerToggleQuestScript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: FollowConditions
-      Object: 1077DA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PotentialFollower
-      Object: 0D6927:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: StopFollowConditions
       Object: 1077DA:Starfield.esm
     - MutagenObjectType: ScriptObjectListProperty
       Name: Triggering_LocationAliases
@@ -29,171 +128,77 @@ VirtualMachineAdapter:
       - Name: ''
         Object: 0D6927:Starfield.esm
         Alias: 18
-  - Name: defaultquestchangelocationscript
-    Properties:
-    - MutagenObjectType: ScriptStructListProperty
-      Name: ChangeLocationStages
-      Structs:
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 5
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 10
-        - MutagenObjectType: ScriptObjectProperty
-          Name: TargetLocation
-          Object: 015FF7:Starfield.esm
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 30
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 15
-        - MutagenObjectType: ScriptObjectProperty
-          Name: TargetLocation
-          Object: 01B737:Starfield.esm
-        - MutagenObjectType: ScriptIntProperty
-          Name: TurnOffStage
-          Data: 40
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 30
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 15
-        - MutagenObjectType: ScriptObjectProperty
-          Name: TargetLocation
-          Object: 01B73A:Starfield.esm
-        - MutagenObjectType: ScriptIntProperty
-          Name: TurnOffStage
-          Data: 40
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 30
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 15
-        - MutagenObjectType: ScriptObjectProperty
-          Name: TargetLocation
-          Object: 01B73F:Starfield.esm
-        - MutagenObjectType: ScriptIntProperty
-          Name: TurnOffStage
-          Data: 40
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 30
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 25
-        - MutagenObjectType: ScriptObjectProperty
-          Name: targetLocationAlias
-          Object: 0D6927:Starfield.esm
-          Alias: 20
-        - MutagenObjectType: ScriptIntProperty
-          Name: TurnOffStage
-          Data: 40
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 60
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 70
-        - MutagenObjectType: ScriptObjectProperty
-          Name: TargetLocation
-          Object: 015FF7:Starfield.esm
-        - MutagenObjectType: ScriptIntProperty
-          Name: TurnOffStage
-          Data: 70
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 150
-        - MutagenObjectType: ScriptBoolProperty
-          Name: RequireExactLocation
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 200
-        - MutagenObjectType: ScriptObjectProperty
-          Name: TargetLocation
-          Object: 01B735:Starfield.esm
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 66
-        - MutagenObjectType: ScriptBoolProperty
-          Name: RequireExactLocation
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 200
-        - MutagenObjectType: ScriptObjectProperty
-          Name: TargetLocation
-          Object: 01B735:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
+      Name: PotentialFollower
+      Object: 0D6927:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StopFollowConditions
+      Object: 1077DA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_FFCydoniaZ05_000D6927
     Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CaptainMarker
-      Object: 0D6927:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_passengerMarker
-      Object: 0D6927:Starfield.esm
-      Alias: 11
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_RailLeanMarker
       Object: 0D6927:Starfield.esm
       Alias: 1
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Sivan
-      Object: 0D6927:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_NewAtlantis_Z_PartingGift
-      Object: 0D5430:Starfield.esm
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FFCydoniaZ05_Scene01_Space
       Object: 0C9F4F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFCydoniaZ05_SceneIntro
-      Object: 0D2499:Starfield.esm
+      Name: Alias_CaptainMarker
+      Object: 0D6927:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NewAtlantis_Z_PartingGift
+      Object: 0D5430:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SivanActorBase
       Object: 0D2875:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: SQ_GuardShipsScene
       Object: 2CE195:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_passengerMarker
+      Object: 0D6927:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ05_SceneIntro
+      Object: 0D2499:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sivan
+      Object: 0D6927:Starfield.esm
+      Alias: 0
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 2
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
-    FragmentName: Fragment_Stage_0002_Item_00
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
-    FragmentName: Fragment_Stage_0010_Item_00
-  - Stage: 15
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
-    FragmentName: Fragment_Stage_0015_Item_00
   - Stage: 20
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
     FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0035_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0100_Item_00
   - Stage: 25
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
@@ -203,52 +208,48 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
     FragmentName: Fragment_Stage_0025_Item_01
-  - Stage: 30
+  - Stage: 15
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
-    FragmentName: Fragment_Stage_0030_Item_00
-  - Stage: 35
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
-    FragmentName: Fragment_Stage_0035_Item_00
-  - Stage: 40
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
-    FragmentName: Fragment_Stage_0040_Item_00
-  - Stage: 50
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
-    FragmentName: Fragment_Stage_0050_Item_00
+    FragmentName: Fragment_Stage_0015_Item_00
   - Stage: 60
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
     FragmentName: Fragment_Stage_0060_Item_00
-  - Stage: 66
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
-    FragmentName: Fragment_Stage_0066_Item_00
   - Stage: 70
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
     FragmentName: Fragment_Stage_0070_Item_00
   - Stage: 70
-    StageIndex: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
-    FragmentName: Fragment_Stage_0070_Item_01
-  - Stage: 70
     StageIndex: 2
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
     FragmentName: Fragment_Stage_0070_Item_02
-  - Stage: 100
+  - Stage: 70
+    StageIndex: 1
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
-    FragmentName: Fragment_Stage_0100_Item_00
+    FragmentName: Fragment_Stage_0070_Item_01
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0010_Item_00
   - Stage: 200
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
     FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 66
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
+    FragmentName: Fragment_Stage_0066_Item_00
   Aliases:
   - Property:
       Name: ''
@@ -346,7 +347,7 @@ Stages:
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: LessThan
-      Unknown1: 0x554C4C
+      Unknown1: 0x4D3FA1
       Data:
         MutagenObjectType: GetStageConditionData
         FirstParameter: 0D6927:Starfield.esm
@@ -361,14 +362,14 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x4D3FA1
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0D6927:Starfield.esm
         SecondParameter: 30
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x4D3FA1
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0D6927:Starfield.esm
@@ -391,7 +392,7 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x4D3FA1
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0D6927:Starfield.esm
@@ -406,7 +407,7 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x554C4C
+      Unknown1: 0x4D3FA1
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: PlayerShip
@@ -415,7 +416,7 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x554C4C
+      Unknown1: 0x4D3FA1
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: PlayerShip
@@ -424,7 +425,7 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x554C4C
+      Unknown1: 0x4D3FA1
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: PlayerShip

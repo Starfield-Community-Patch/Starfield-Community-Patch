@@ -1,16 +1,11 @@
 FormKey: 1C7752:Starfield.esm
 EditorID: StationTheKeyDefensiveBatteryAlphaSpaceCellLocation
-MasterPersistLocationReferences:
-- Actor: 1C48D8:Starfield.esm
-  Location: 1C7766:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-LocationCellUniqueReferences:
+FormVersion: 559
+AddedUniqueBaseForms:
 - GenericBaseForm: 1C48D7:Starfield.esm
   Ref: 1C48D8:Starfield.esm
   Location: 1C7752:Starfield.esm
-MasterUniqueNpcs: []
-MasterSpecialReferences:
+AddedSpecialReferences:
 - LocationRefType: 21E682:Starfield.esm
   Marker: 167946:Starfield.esm
   Location: 1C7766:Starfield.esm
@@ -48,11 +43,6 @@ MasterSpecialReferences:
   Unknown: -1
 - LocationRefType: 1C71B4:Starfield.esm
   Marker: 1C71AA:Starfield.esm
-  Location: 1C7766:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 3E60A1:Starfield.esm
-  Marker: 3E60AF:Starfield.esm
   Location: 1C7766:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -96,26 +86,6 @@ MasterSpecialReferences:
   Location: 1C7766:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-- LocationRefType: 21E692:Starfield.esm
-  Marker: 21E693:Starfield.esm
-  Location: 1C7766:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 02271F:Starfield.esm
-  Marker: 21C920:Starfield.esm
-  Location: 1C7766:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 167941:Starfield.esm
-  Marker: 167944:Starfield.esm
-  Location: 1C7766:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 167942:Starfield.esm
-  Marker: 167943:Starfield.esm
-  Location: 1C7766:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
 - LocationRefType: 3B3CBB:Starfield.esm
   Marker: 1C48D8:Starfield.esm
   Location: 1C7766:Starfield.esm
@@ -126,8 +96,7 @@ MasterSpecialReferences:
   Location: 1C7766:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-MasterInitiallyDisabledReferences:
-- 1C48D8:Starfield.esm
+AddedInitiallyDisabledReferences:
 - 1C48D8:Starfield.esm
 - 167946:Starfield.esm
 - 167946:Starfield.esm
@@ -145,9 +114,6 @@ MasterInitiallyDisabledReferences:
 - 3E6059:Starfield.esm
 - 3E605C:Starfield.esm
 - 3E605C:Starfield.esm
-- 21C920:Starfield.esm
-- 167944:Starfield.esm
-- 167943:Starfield.esm
 - 1C48D8:Starfield.esm
 - 1C48D8:Starfield.esm
 Name:

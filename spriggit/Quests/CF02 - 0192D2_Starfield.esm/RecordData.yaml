@@ -1,5 +1,6 @@
 FormKey: 0192D2:Starfield.esm
 EditorID: CF02
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -105,369 +106,9 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_CF02_000192D2
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ComTriggerKey
+      Name: Alias_CF02_Aludra
       Object: 0192D2:Starfield.esm
-      Alias: 111
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_JustinRake
-      Object: 0192D2:Starfield.esm
-      Alias: 70
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FactionUnitedColoniesSysDefPerk
-      Object: 147DBD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_OpsGuard03
-      Object: 0192D2:Starfield.esm
-      Alias: 124
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_0700_Naeva_CallForHelp
-      Object: 1105F6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_DelgadoQS
-      Object: 0192D2:Starfield.esm
-      Alias: 66
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_DelgadoStanding
-      Object: 0192D2:Starfield.esm
-      Alias: 80
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_TheKeyMapMarker
-      Object: 0192D2:Starfield.esm
-      Alias: 65
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_NaevaToShinyaMarker
-      Object: 0192D2:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02SuppliesValue
-      Object: 0C90E8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_OpsGuard04
-      Object: 0192D2:Starfield.esm
-      Alias: 125
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_JasmineSpeaker
-      Object: 0192D2:Starfield.esm
-      Alias: 38
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_MedicalSupplies
-      Object: 22EF02:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SysDefHallway
-      Object: 0192D2:Starfield.esm
-      Alias: 93
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFaction
-      Object: 01C21C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1900_Shinya_IntroScene
-      Object: 22EEFE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_Ragana_SpeechChallenge03
-      Object: 10A75C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_KibweMarker
-      Object: 0192D2:Starfield.esm
-      Alias: 46
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_TheVigilanceStart
-      Object: 0192D2:Starfield.esm
-      Alias: 45
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_MedicalSuppliesContainer
-      Object: 22EEDE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_OpsGuard02
-      Object: 0192D2:Starfield.esm
-      Alias: 123
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_OpsGuard05
-      Object: 0192D2:Starfield.esm
-      Alias: 127
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipCrew
-      Object: 040CE0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_310_Ragana_HailScene
-      Object: 22EF07:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_CargoContainer
-      Object: 0192D2:Starfield.esm
-      Alias: 33
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1845_Naeva_Tour05ClinicScene
-      Object: 229D6E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF_TheKey_GenericNPCFaction
-      Object: 1C2250:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_Toft
-      Object: 0192D2:Starfield.esm
-      Alias: 14
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_0400_Ragana_AcceptHailScene_Action03_Choice05
-      Object: 050C98:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFKey_TerminalQuest
-      Object: 1FE5C5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CargoBayDoor
-      Object: 0192D2:Starfield.esm
-      Alias: 120
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_NaevaToDelgadoMarker
-      Object: 0192D2:Starfield.esm
-      Alias: 41
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_Ragana_SpeechChallenge01
-      Object: 110F35:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LocTypeSENotAllowed
-      Object: 2253D1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_NaevaShip
-      Object: 0192D2:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_Mathis
-      Object: 0192D2:Starfield.esm
-      Alias: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DockingPermission
-      Object: 00039D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_Ragana_SpeechChallenge04
-      Object: 10A75C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_NaevaIntroMarker
-      Object: 0192D2:Starfield.esm
-      Alias: 19
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_RaganaEscort
-      Object: 0192D2:Starfield.esm
-      Alias: 59
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1200_Kibwe_ReportScene
-      Object: 22EF00:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_0600_Companion_CommentScene
-      Object: 2288A9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC082
-      Object: 2BF365:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_EnceladusOrbit
-      Object: 0192D2:Starfield.esm
-      Alias: 54
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LL_Aid_Any_Leveled
-      Object: 160D2F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCVigilance
-      Object: 1ACBBA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_Ragana_SpaceEncounter
-      Object: 22EF4E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MarinePatrol
-      Object: 0192D2:Starfield.esm
-      Alias: 98
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_110_Naeva_HailScene
-      Object: 22EF0A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC088_Quickstart_Voss
-      Object: 21FD02:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_NaevaDelgadoSceneTrigger
-      Object: 0192D2:Starfield.esm
-      Alias: 27
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_OpsGuard01
-      Object: 0192D2:Starfield.esm
-      Alias: 122
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_0310_Ragana_HailScene
-      Object: 22EF07:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_TheRaganaShip
-      Object: 22EF0F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_PlayerShip
-      Object: 0192D2:Starfield.esm
-      Alias: 58
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BE_CF02_RaganaShipKeyword
-      Object: 10CB7C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_TheVigilanceShip
-      Object: 0192D2:Starfield.esm
-      Alias: 73
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02RaganaValue
-      Object: 0C82C8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SysDefRecruit
-      Object: 0192D2:Starfield.esm
-      Alias: 96
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_Delgado
-      Object: 0192D2:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueCFTheKey_EstablishingScene
-      Object: 1C224F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DockingBayActor02
-      Object: 0192D2:Starfield.esm
-      Alias: 129
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_Jasmine
-      Object: 0192D2:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_KibweFurniture01
-      Object: 0192D2:Starfield.esm
-      Alias: 75
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03
-      Object: 24EEF8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_TheRaganaShip
-      Object: 0192D2:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_MathisMarker
-      Object: 0192D2:Starfield.esm
-      Alias: 51
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MauraderFurniture
-      Object: 0192D2:Starfield.esm
-      Alias: 116
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimsonFleetFaction
-      Object: 010B30:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LvlShip_Ecliptic_A_Fighter
-      Object: 17EEF0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_JasmineAnnouncementSceneTrigger
-      Object: 0192D2:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_NaevaTeleportMarkerREF
-      Object: 10DC3C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_TheKeyStart
-      Object: 0192D2:Starfield.esm
-      Alias: 39
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_Kibwe
-      Object: 0192D2:Starfield.esm
-      Alias: 13
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1840_Naeva_Tour04TradeAuthorityScene
-      Object: 229D6B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC030LockLocation
-      Object: 2B2BAA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_ToftMarker
-      Object: 0192D2:Starfield.esm
-      Alias: 47
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_ShinyaChair
-      Object: 0192D2:Starfield.esm
-      Alias: 48
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1860_Naeva_DoorAnnouncementScene
-      Object: 229D69:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1810_Naeva_Tour01JasmineScene
-      Object: 229D70:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1885_Naeva_CalloutScene
-      Object: 229D59:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LL_Loot_Mfg_Any_Same_Stack
-      Object: 1C7190:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1895_Naeva_Tour11DelgadoIntroScene
-      Object: 0FE0A4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF08_NaevaSurrenderWaitMarker
-      Object: 0192D2:Starfield.esm
-      Alias: 100
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF_Main
-      Object: 178B1E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_EuropaOrbit
-      Object: 0192D2:Starfield.esm
-      Alias: 132
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Reaver
-      Object: 0192D2:Starfield.esm
-      Alias: 115
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCSysDefFaction
-      Object: 2733AF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_JasmineClashChair
-      Object: 0192D2:Starfield.esm
-      Alias: 131
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Clothes_CrimsonFleet_SpacePirate_02
-      Object: 16D50B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_NaevaOperationsSceneTrigger
-      Object: 0192D2:Starfield.esm
-      Alias: 26
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_Enceladus_ArrivalMarker
-      Object: 0192D2:Starfield.esm
-      Alias: 61
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1850_Naeva_Tour06ShinyaScene
-      Object: 229D6A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1820_Naeva_Tour02DepotScene
-      Object: 229D6D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_600_Companion_CommentScene
-      Object: 2288A9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1800_Naeva_Tour00StartScene
-      Object: 229D71:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_NaevaToElevator
-      Object: 0192D2:Starfield.esm
-      Alias: 25
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_NaevaToOperationsMarker01
-      Object: 0192D2:Starfield.esm
-      Alias: 79
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_NaevaTourTeleportMarker
-      Object: 0192D2:Starfield.esm
-      Alias: 114
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueCFTheKey
-      Object: 015358:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFKey
-      Object: 297E3A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_NaevaUpperElevatorMarker
-      Object: 0192D2:Starfield.esm
-      Alias: 43
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_NaevaOrbitMapMarker
-      Object: 0192D2:Starfield.esm
-      Alias: 36
+      Alias: 3
     - MutagenObjectType: ScriptObjectListProperty
       Name: DebugPerks
       Objects:
@@ -500,62 +141,422 @@ VirtualMachineAdapter:
       - Name: ''
         Object: 147DBD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SysDefPatrolLink
-      Object: 0192D2:Starfield.esm
-      Alias: 99
+      Name: CF02_Ragana_SpeechChallenge04
+      Object: 10A75C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DockingBayActor01
-      Object: 0192D2:Starfield.esm
-      Alias: 128
+      Name: BE_CF02_RaganaShipKeyword
+      Object: 10CB7C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_Naeva
+      Name: CF02_1900_Shinya_IntroScene
+      Object: 22EEFE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Reaver
       Object: 0192D2:Starfield.esm
-      Alias: 1
+      Alias: 115
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_OpsGuard01
+      Object: 0192D2:Starfield.esm
+      Alias: 122
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DockingPermission
+      Object: 00039D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JasmineClashChair
+      Object: 0192D2:Starfield.esm
+      Alias: 131
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_Ragana_SpeechChallenge01
+      Object: 110F35:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCFTheKey_EstablishingScene
+      Object: 1C224F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TheKey
       Object: 0192D2:Starfield.esm
       Alias: 134
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1700_Naeva_KeyIntroScene
-      Object: 22EEFF:Starfield.esm
+      Name: CF02_TheRaganaShip
+      Object: 22EF0F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: alias_CF02_MarineEscort
+      Name: Alias_CF02_ShinyaChair
       Object: 0192D2:Starfield.esm
-      Alias: 52
+      Alias: 48
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1830_Naeva_Tour03ZuriScene
-      Object: 229D6C:Starfield.esm
+      Name: CF02_1840_Naeva_Tour04TradeAuthorityScene
+      Object: 229D6B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_TheVigilanceShip
+      Object: 0192D2:Starfield.esm
+      Alias: 73
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaIntroMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_TheKeyStart
+      Object: 0192D2:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Clothes_CrimsonFleet_SpacePirate_02
+      Object: 16D50B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_ToftMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetFaction
+      Object: 010B30:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_JasmineSpeaker
+      Object: 0192D2:Starfield.esm
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MarinePatrol
+      Object: 0192D2:Starfield.esm
+      Alias: 98
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Loot_Mfg_Any_Same_Stack
+      Object: 1C7190:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaOperationsSceneTrigger
+      Object: 0192D2:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC082
+      Object: 2BF365:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CF02_Ragana_SpeechChallenge02
       Object: 10D427:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_EclipticShips
-      Object: 0192D2:Starfield.esm
-      Alias: 69
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_Aludra
-      Object: 0192D2:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF02_Shinya
-      Object: 0192D2:Starfield.esm
-      Alias: 7
+      Name: LC030LockLocation
+      Object: 2B2BAA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF02_MedicalSupplies
       Object: 0192D2:Starfield.esm
       Alias: 10
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_1900_Shinya_ChairScene
-      Object: 0E2AB0:Starfield.esm
+      Name: Alias_CF02_JustinRake
+      Object: 0192D2:Starfield.esm
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaToOperationsMarker01
+      Object: 0192D2:Starfield.esm
+      Alias: 79
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_MedicalSupplies
+      Object: 22EF02:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_Ragana_SpeechChallenge03
+      Object: 10A75C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_TheRaganaShip
+      Object: 0192D2:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFKey
+      Object: 297E3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_TheKeyMapMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 65
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC088_Quickstart_Voss
+      Object: 21FD02:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_PlayerShip
+      Object: 0192D2:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_CargoContainer
+      Object: 0192D2:Starfield.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02RaganaValue
+      Object: 0C82C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_NaevaTeleportMarkerREF
+      Object: 10DC3C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaOrbitMapMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaToElevator
+      Object: 0192D2:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Toft
+      Object: 0192D2:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Naeva
+      Object: 0192D2:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_0400_Ragana_AcceptHailScene_Action03_Choice05
+      Object: 050C98:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LvlShip_Ecliptic_A_Fighter
+      Object: 17EEF0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_KibweMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaToShinyaMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DockingBayActor01
+      Object: 0192D2:Starfield.esm
+      Alias: 128
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_MedicalSuppliesContainer
+      Object: 22EEDE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_JasmineAnnouncementSceneTrigger
+      Object: 0192D2:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaDelgadoSceneTrigger
+      Object: 0192D2:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Delgado
+      Object: 0192D2:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCSysDefFaction
+      Object: 2733AF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCVigilance
+      Object: 1ACBBA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: alias_CF02_MarineEscort
+      Object: 0192D2:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_OpsGuard04
+      Object: 0192D2:Starfield.esm
+      Alias: 125
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Mathis
+      Object: 0192D2:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_KibweFurniture01
+      Object: 0192D2:Starfield.esm
+      Alias: 75
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LocTypeSENotAllowed
+      Object: 2253D1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_0310_Ragana_HailScene
+      Object: 22EF07:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF08_NaevaSurrenderWaitMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 100
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Kibwe
+      Object: 0192D2:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_0600_Companion_CommentScene
+      Object: 2288A9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_EclipticShips
+      Object: 0192D2:Starfield.esm
+      Alias: 69
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_EnceladusOrbit
+      Object: 0192D2:Starfield.esm
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_DelgadoQS
+      Object: 0192D2:Starfield.esm
+      Alias: 66
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1850_Naeva_Tour06ShinyaScene
+      Object: 229D6A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ComTriggerKey
+      Object: 0192D2:Starfield.esm
+      Alias: 111
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_310_Ragana_HailScene
+      Object: 22EF07:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_OpsGuard05
+      Object: 0192D2:Starfield.esm
+      Alias: 127
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_TheVigilanceStart
+      Object: 0192D2:Starfield.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1845_Naeva_Tour05ClinicScene
+      Object: 229D6E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_Ragana_SpaceEncounter
+      Object: 22EF4E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaShip
+      Object: 0192D2:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_RaganaEscort
+      Object: 0192D2:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_0700_Naeva_CallForHelp
+      Object: 1105F6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1885_Naeva_CalloutScene
+      Object: 229D59:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03
+      Object: 24EEF8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1810_Naeva_Tour01JasmineScene
+      Object: 229D70:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1895_Naeva_Tour11DelgadoIntroScene
+      Object: 0FE0A4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_EuropaOrbit
+      Object: 0192D2:Starfield.esm
+      Alias: 132
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1820_Naeva_Tour02DepotScene
+      Object: 229D6D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1800_Naeva_Tour00StartScene
+      Object: 229D71:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_TheKey_GenericNPCFaction
+      Object: 1C2250:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SysDefPatrolLink
+      Object: 0192D2:Starfield.esm
+      Alias: 99
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaTourTeleportMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 114
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCFTheKey
+      Object: 015358:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaUpperElevatorMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SysDefRecruit
+      Object: 0192D2:Starfield.esm
+      Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SysDefHallway
+      Object: 0192D2:Starfield.esm
+      Alias: 93
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Enceladus_ArrivalMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 61
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipCrew
+      Object: 040CE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionUnitedColoniesSysDefPerk
+      Object: 147DBD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_CF_CriminalProfiles
+      Object: 29384D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_OpsGuard02
+      Object: 0192D2:Starfield.esm
+      Alias: 123
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFKey_TerminalQuest
+      Object: 1FE5C5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02SuppliesValue
+      Object: 0C90E8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: BE_CF02_Ragana_BoardingQuest
       Object: 10CB89:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LL_CF_CriminalProfiles
-      Object: 29384D:Starfield.esm
+      Name: Alias_DockingBayActor02
+      Object: 0192D2:Starfield.esm
+      Alias: 129
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Aid_Any_Leveled
+      Object: 160D2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MauraderFurniture
+      Object: 0192D2:Starfield.esm
+      Alias: 116
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Jasmine
+      Object: 0192D2:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1900_Shinya_ChairScene
+      Object: 0E2AB0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1860_Naeva_DoorAnnouncementScene
+      Object: 229D69:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1700_Naeva_KeyIntroScene
+      Object: 22EEFF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_Shinya
+      Object: 0192D2:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_600_Companion_CommentScene
+      Object: 2288A9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_DelgadoStanding
+      Object: 0192D2:Starfield.esm
+      Alias: 80
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1200_Kibwe_ReportScene
+      Object: 22EF00:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CargoBayDoor
+      Object: 0192D2:Starfield.esm
+      Alias: 120
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_Main
+      Object: 178B1E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_OpsGuard03
+      Object: 0192D2:Starfield.esm
+      Alias: 124
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_NaevaToDelgadoMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF02_MathisMarker
+      Object: 0192D2:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_1830_Naeva_Tour03ZuriScene
+      Object: 229D6C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF02_110_Naeva_HailScene
+      Object: 22EF0A:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_CF02_000192D2
@@ -749,6 +750,10 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CF02_000192D2
     FragmentName: Fragment_Stage_0755_Item_00
+  - Stage: 508
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CF02_000192D2
+    FragmentName: Fragment_Stage_0508_Item_00
   - Stage: 14
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CF02_000192D2
@@ -915,10 +920,6 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CF02_000192D2
     FragmentName: Fragment_Stage_1885_Item_00
-  - Stage: 508
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CF02_000192D2
-    FragmentName: Fragment_Stage_0508_Item_00
   Aliases:
   - Property:
       Name: ''
@@ -1023,13 +1024,13 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptFloatProperty
         Name: TargetDistance
         Data: 30000
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 300
       - MutagenObjectType: ScriptObjectProperty
         Name: TargetAlias
         Object: 0192D2:Starfield.esm
         Alias: 58
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 300
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 305
@@ -1144,7 +1145,6 @@ VirtualMachineAdapter:
       Object: 0192D2:Starfield.esm
       Alias: 58
     Scripts:
-    - Name: DefaultAliasOnShipDockA
     - Name: DefaultAliasOnShipDock
       Properties:
       - MutagenObjectType: ScriptIntProperty
@@ -1159,6 +1159,7 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptBoolProperty
         Name: ShowTraces
         Data: True
+    - Name: DefaultAliasOnShipDockA
   - Property:
       Name: ''
       Object: 0192D2:Starfield.esm
@@ -1360,7 +1361,7 @@ Stages:
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: NotEqualTo
-      Unknown1: 0x554C4C
+      Unknown1: 0xA062A0
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: QuestAlias
@@ -1377,14 +1378,14 @@ Stages:
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: NotEqualTo
-      Unknown1: 0x554C4C
+      Unknown1: 0xA062A0
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: QuestAlias
         Unknown3: 9
         FirstParameter: 265440
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0xA062A0
       Data:
         MutagenObjectType: GetCombatStateConditionData
         RunOnType: QuestAlias
@@ -1400,7 +1401,7 @@ Stages:
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: LessThan
-      Unknown1: 0x554C4C
+      Unknown1: 0xA062A0
       Data:
         MutagenObjectType: GetOpenStateConditionData
         RunOnType: QuestAlias
@@ -1416,13 +1417,13 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0xA062A0
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0192D2:Starfield.esm
         SecondParameter: 1815
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0xA062A0
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0192D2:Starfield.esm
@@ -4113,8 +4114,8 @@ Aliases:
   ReferenceCollectionAliasID: 62
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Unknown2: 16625
+    Unknown1: 0x5C5500
+    Unknown2: 4616
     Data:
       MutagenObjectType: GetIsIDConditionData
       FirstParameter: 212148:Starfield.esm
@@ -4495,15 +4496,15 @@ Aliases:
       ALFG: 0
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0xF64899
-        Unknown2: 16625
+        Unknown1: 0x5C5500
+        Unknown2: 16488
         Data:
           MutagenObjectType: GetInCellConditionData
           FirstParameter: 22EF35:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0xF64899
-        Unknown2: 16625
+        Unknown1: 0x5C5500
+        Unknown2: 16488
         Data:
           MutagenObjectType: GetInFactionConditionData
           FirstParameter: 27028D:Starfield.esm
@@ -4891,3 +4892,4 @@ Aliases:
   ALFG: 0
   UniqueBaseForm: 032406:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

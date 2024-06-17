@@ -1,0 +1,166 @@
+FormKey: 17F7AE:Starfield.esm
+EditorID: MQ401c_OtherYou_Constellation_NoAppearanceData
+FormVersion: 559
+VirtualMachineAdapter:
+  Scripts:
+  - Name: MQ401C_OtherYou_Script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCXOtherPlayer_2
+      Object: 2592CE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCXOtherPlayer
+      Object: 1A93A4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCMOtherPlayer
+      Object: 1A93A7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCFOtherPlayer
+      Object: 1A93A6:Starfield.esm
+ObjectBounds:
+  First: -0.591797, -0.3623047, 0
+  Second: 0.59179676, 1.0341797, 1.2373047
+ODTY: 0
+Flags:
+- Essential
+- DoesntAffectStealthMeter
+XpValueOffset: 60
+Level:
+  MutagenObjectType: NpcLevel
+  Level: 30
+DispositionBase: 35
+UseTemplateActors: 19466
+Factions:
+- Faction: 17F7AD:Starfield.esm
+Voice: 1A93A7:Starfield.esm
+TemplateActors:
+  StatsTemplate: 27025D:Starfield.esm
+  SpellListTemplate: 27025D:Starfield.esm
+  DefPackListTemplate: 27025D:Starfield.esm
+  AttackDataTemplate: 27025D:Starfield.esm
+  Unknown2: 27025D:Starfield.esm
+Race: 00347D:Starfield.esm
+CombatOverridePackageList: 0102ED:Starfield.esm
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+  Value: 5
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+  Value: 5
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+  Value: 5
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002D4:Starfield.esm
+  Value: 570
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+- ActorValue: 0002CC:Starfield.esm
+  Value: 5
+- ActorValue: 0002CD:Starfield.esm
+  Value: 45
+- ActorValue: 000385:Starfield.esm
+  Value: 100
+- ActorValue: 0002EB:Starfield.esm
+  Value: -100
+- ActorValue: 000392:Starfield.esm
+  Value: -100
+- ActorValue: 0002E3:Starfield.esm
+  Value: -100
+Items:
+- Item:
+    Item: 2B1A22:Starfield.esm
+    Count: 1
+Aggression: Aggressive
+Confidence: Foolhardy
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsAllies
+Packages:
+- 0059A8:Starfield.esm
+Keywords:
+- 1EA944:Starfield.esm
+- 270729:Starfield.esm
+- 28D935:Starfield.esm
+Class: 010B2F:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Constellation-Du
+  - Language: English
+    String: Constellation You
+  - Language: Spanish
+    String: Constelación Tú
+  - Language: French
+    String: Vous de Constellation
+  - Language: Italian
+    String: Tu Constellation
+  - Language: Japanese
+    String: コンステレーションのあなた
+  - Language: Polish
+    String: Ty z Konstelacji
+  - Language: Portuguese_Brazil
+    String: Você da Constelação
+  - Language: ChineseSimplified
+    String: 群星组织的你
+GearedUpWeapons: 1
+HeadParts:
+- 256F62:Starfield.esm
+CombatStyle: 270265:Starfield.esm
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight:
+  Muscular: 0.76
+SpaceOutfit: 15DEDD:Starfield.esm
+DefaultPackageList: 2C55CA:Starfield.esm
+Tints: []
+FaceDialPositions:
+- Index: 51
+  Position: 0.6
+FaceMorphs:
+- Index: 12
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 1
+  - MorphGroup: Chin
+    BlendIntensity: 1
+  - MorphGroup: Ears
+    BlendIntensity: 1
+  - MorphGroup: Eyes
+    BlendIntensity: 1
+  - MorphGroup: Forehead
+    BlendIntensity: 1
+  - MorphGroup: Jaw
+    BlendIntensity: 1
+  - MorphGroup: Mouth
+    BlendIntensity: 1
+  - MorphGroup: Neck
+    BlendIntensity: 1
+  - MorphGroup: Nose
+    BlendIntensity: 1
+MorphBlends:
+- BlendName: male_eu_md2_Cheeks
+  Intensity: 1
+- BlendName: male_eu_md2_Chin
+  Intensity: 1
+- BlendName: male_eu_md2_Ears
+  Intensity: 1
+- BlendName: male_eu_md2_Eyes
+  Intensity: 1
+- BlendName: male_eu_md2_Forehead
+  Intensity: 1
+- BlendName: male_eu_md2_Jaw
+  Intensity: 1
+- BlendName: male_eu_md2_Mouth
+  Intensity: 1
+- BlendName: male_eu_md2_Neck
+  Intensity: 1
+- BlendName: male_eu_md2_Nose
+  Intensity: 1
+SkinToneIndex: 2
+Pronoun: Unspecified

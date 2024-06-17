@@ -1,5 +1,6 @@
 FormKey: 2C720D:Starfield.esm
 EditorID: Drink_Alc_Can_Canuck_BeerCPilsner
+FormVersion: 559
 ObjectBounds:
   First: -0.048292566, -0.041992188, 0.00012207031
   Second: 0.048442837, 0.041992188, 0.12023926
@@ -115,8 +116,8 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm

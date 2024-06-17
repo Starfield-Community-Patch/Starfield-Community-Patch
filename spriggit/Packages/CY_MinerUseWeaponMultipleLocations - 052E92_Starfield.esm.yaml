@@ -1,5 +1,6 @@
 FormKey: 052E92:Starfield.esm
 EditorID: CY_MinerUseWeaponMultipleLocations
+FormVersion: 559
 Flags:
 - WeaponDrawn
 Type: Package
@@ -27,7 +28,8 @@ ScheduleMinute: -1
 Unknown3: 0x000000
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: HasLinkedRefConditionData
     FirstParameter: 05CA96:Starfield.esm

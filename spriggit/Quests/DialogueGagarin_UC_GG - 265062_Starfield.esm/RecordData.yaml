@@ -1,5 +1,6 @@
 FormKey: 265062:Starfield.esm
 EditorID: DialogueGagarin_UC_GG
+FormVersion: 559
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
@@ -9,43 +10,43 @@ VirtualMachineAdapter:
       Object: 265062:Starfield.esm
       Alias: 27
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Bonifac
-      Object: 265062:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_GG_Bet_PlayerNegotiatedBonus
-      Object: 14EAA6:Starfield.esm
+      Name: UC_GG_Bet_Liquor
+      Object: 18A86B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_LizziePoster
       Object: 265062:Starfield.esm
       Alias: 28
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EllieYankton
-      Object: 265062:Starfield.esm
-      Alias: 25
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_GG_Bet_Liquor
-      Object: 18A86B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DalitsoPoster
-      Object: 265062:Starfield.esm
-      Alias: 26
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Dalitso
       Object: 265062:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundExplorer
+      Object: 22EC79:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: City_GG_Bet
       Object: 18BC55:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundExplorer
-      Object: 22EC79:Starfield.esm
+      Name: UC_GG_Bet_PlayerNegotiatedBonus
+      Object: 14EAA6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bonifac
+      Object: 265062:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EllieYankton
+      Object: 265062:Starfield.esm
+      Alias: 25
     - MutagenObjectType: ScriptObjectProperty
       Name: DialogueGagarin_GG_IntroScene_TakeTwo
       Object: 15CF62:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: BackgroundHunter
       Object: 22EC76:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DalitsoPoster
+      Object: 265062:Starfield.esm
+      Alias: 26
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Lawan
       Object: 265062:Starfield.esm
@@ -537,7 +538,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 19
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -620,3 +621,4 @@ Aliases:
     AliasID: 22
     RefType: 13776F:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

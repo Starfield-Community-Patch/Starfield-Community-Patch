@@ -1,5 +1,6 @@
 FormKey: 0A91FA:Starfield.esm
 EditorID: OEBB021World
+FormVersion: 559
 Components:
 - MutagenObjectType: WorldSpaceOverlayComponent
   SNAM: 0xFFFFFFFF
@@ -24,14 +25,12 @@ Components:
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
-    Unknown2: 17624
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1C3FB6:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
-    Unknown2: 17624
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1ABF53:Starfield.esm
@@ -75,3 +74,4 @@ GNAM: 1
 XCLWs: []
 WHGTs: []
 HNAM: 0x05
+SubCellsTimestamp: 12497

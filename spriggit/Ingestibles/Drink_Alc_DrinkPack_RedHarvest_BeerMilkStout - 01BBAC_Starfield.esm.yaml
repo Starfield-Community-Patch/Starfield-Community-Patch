@@ -1,5 +1,6 @@
 FormKey: 01BBAC:Starfield.esm
 EditorID: Drink_Alc_DrinkPack_RedHarvest_BeerMilkStout
+FormVersion: 559
 ObjectBounds:
   First: -0.051879883, -0.023651123, 0
   Second: 0.051879883, 0.023651123, 0.14038086
@@ -114,8 +115,8 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm

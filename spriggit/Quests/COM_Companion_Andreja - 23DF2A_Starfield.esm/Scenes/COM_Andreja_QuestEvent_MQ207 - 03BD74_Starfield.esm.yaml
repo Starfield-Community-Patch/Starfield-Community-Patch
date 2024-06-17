@@ -1,5 +1,6 @@
 FormKey: 03BD74:Starfield.esm
 EditorID: COM_Andreja_QuestEvent_MQ207
+FormVersion: 559
 VirtualMachineAdapter:
   ScriptFragments:
     Script:
@@ -27,6 +28,7 @@ Phases:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
     Unknown1: 0x000000
+    Unknown2: 31277
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       RunOnType: QuestAlias

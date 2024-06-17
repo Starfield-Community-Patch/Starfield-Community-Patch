@@ -1,0 +1,94 @@
+FormKey: 00D595:Starfield.esm
+FormVersion: 559
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 9728455
+  TRDAUnknown: 7.433334
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 246C4C:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 4.066667
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 4.566667
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 7.066667
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 7.466667
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 0.86666673
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Hey, dich habe ich doch vor diesem Freak weglaufen sehen. Mann, New Atlantis wird immer verrückter ...
+    - Language: English
+      String: Aren't you the one I saw running away from that crazy guy? Man, New Atlantis gets crazier by the day...
+    - Language: Spanish
+      String: ¿No eras tú quien huía del tarado aquel antes? Madre mía, Nueva Atlántida está peor cada día que pasa...
+    - Language: French
+      String: C'est pas vous qui vous faisiez courir après par ce taré ? Mince alors, New Atlantis court vraiment à sa perte...
+    - Language: Italian
+      String: Non è te che ho visto scappare da quel pazzoide? Cacchio, Nuova Atlantide è sempre più fuori di testa...
+    - Language: Japanese
+      String: あのどうかしてる奴から逃げてた人だよな？ ああ、ニューアトランティスは日ごとにおかしくなっていく…
+    - Language: Polish
+      String: To nie ciebie pamiętam? Jak gonił cię tamten świr? Rany, Nowa Atlantyda to coraz bardziej wariackie miejsce...
+    - Language: Portuguese_Brazil
+      String: Não foi você que eu vi fugindo daquele malucão? Cara, Nova Atlântida tá cada dia mais doida...
+    - Language: ChineseSimplified
+      String: 你不是从那疯子底下逃走的那个人吗？天哪，新亚特兰蒂斯城越来越疯狂了……
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x2064230560ECD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    FirstParameter: 2C6D74:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 28B3AE:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetIsCurrentLocationConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 01295A:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetIsCurrentLocationConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 19A5C2:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,5 +1,6 @@
 FormKey: 249C2A:Starfield.esm
 EditorID: NOCLUTTER_Neon_Chem_Drink_Alc_ExclMenuItem_Legrande_Blend
+FormVersion: 559
 ObjectBounds:
   First: -0.045684814, -0.045684837, 5.4496923E-09
   Second: 0.045684814, 0.04571533, 0.20898436
@@ -112,8 +113,8 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm

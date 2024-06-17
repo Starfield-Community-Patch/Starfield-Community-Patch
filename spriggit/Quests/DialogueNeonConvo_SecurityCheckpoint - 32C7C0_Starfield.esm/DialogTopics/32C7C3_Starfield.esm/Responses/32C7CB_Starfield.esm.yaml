@@ -1,4 +1,5 @@
 FormKey: 32C7CB:Starfield.esm
+FormVersion: 559
 Flags: {}
 Responses:
 - Emotion: 0FA849:Starfield.esm
@@ -34,6 +35,7 @@ Responses:
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetInFactionConditionData
     RunOnType: QuestAlias
@@ -45,6 +47,7 @@ Conditions:
   Flags:
   - OR
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     RunOnType: Reference
@@ -55,6 +58,7 @@ Conditions:
   Flags:
   - OR
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     RunOnType: Reference
@@ -65,6 +69,7 @@ Conditions:
   Flags:
   - OR
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     RunOnType: Reference
@@ -73,6 +78,7 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   CompareOperator: GreaterThan
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     RunOnType: Reference
@@ -80,6 +86,7 @@ Conditions:
     FirstParameter: 26310C:Starfield.esm
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: IsWeaponOutConditionData
     RunOnType: Reference

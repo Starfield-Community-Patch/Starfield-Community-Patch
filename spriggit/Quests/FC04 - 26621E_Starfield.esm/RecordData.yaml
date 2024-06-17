@@ -1,5 +1,6 @@
 FormKey: 26621E:Starfield.esm
 EditorID: FC04
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -72,46 +73,40 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_FC04_0026621E
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: FC01_PostQuest
-      Object: 10ACEE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FC04_JaylenBillyChatScene
-      Object: 1F558A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Small
-      Object: 275226:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FC04_JaylenBillyIntroductionScene
-      Object: 1C71BA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Companion
-      Object: 26621E:Starfield.esm
-      Alias: 4
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FC04_JaylenSt800SceneMarker
-      Object: 0A54F2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_EmmettAndHenchman
       Object: 26621E:Starfield.esm
       Alias: 11
     - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Small
+      Object: 275226:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_JaylenBackupScene
+      Object: 43CAA0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_JaylenWalkTalkScene
+      Object: 1C71BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Credits
       Object: 00000F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EmmetGoodman
+      Name: Alias_GraceSlate
       Object: 26621E:Starfield.esm
-      Alias: 2
+      Alias: 15
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_GraceEarly
-      Object: 26621E:Starfield.esm
-      Alias: 3
+      Name: FC04_OpenWarehouseDoor
+      Object: 20A928:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_WarehouseDoor
-      Object: 26621E:Starfield.esm
-      Alias: 8
+      Name: COM_Quest_SamCoe_Q01
+      Object: 263262:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_JaylenBillyIntroductionScene
+      Object: 1C71BA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FC04_Completed
       Object: 1427B3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityNeonWarehouseEmmetsLair
+      Object: 20BD9B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FC01
       Object: 29A8F0:Starfield.esm
@@ -123,49 +118,57 @@ VirtualMachineAdapter:
       Object: 26621E:Starfield.esm
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: FC04_JaylenWalkTalkScene
-      Object: 1C71BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BillyClayton
+      Name: Alias_Player
       Object: 26621E:Starfield.esm
-      Alias: 1
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_CompanionStandMarker
+      Object: 1AA894:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_WarehouseKey
       Object: 26621E:Starfield.esm
       Alias: 9
     - MutagenObjectType: ScriptObjectProperty
+      Name: FC05
+      Object: 1F0267:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: NPCDemandMoney_Large
       Object: 275224:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FC04_JaylenBackupScene
-      Object: 43CAA0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FC04_OpenWarehouseDoor
-      Object: 20A928:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_GraceSlate
+      Name: Alias_WarehouseDoor
       Object: 26621E:Starfield.esm
-      Alias: 15
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GraceEarly
+      Object: 26621E:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BillyClayton
+      Object: 26621E:Starfield.esm
+      Alias: 1
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SyndicateDoorman
       Object: 26621E:Starfield.esm
       Alias: 5
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EmmetGoodman
+      Object: 26621E:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_EmmettEnemyFaction
+      Object: 208E38:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: FC04_JaylenTalkToBilly
       Object: 1F558E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FC04_CompanionStandMarker
-      Object: 1AA894:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_SamCoe_Q01
-      Object: 263262:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FC04_PT1
       Object: 1F68E8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Player
-      Object: 26621E:Starfield.esm
-      Alias: 7
+      Name: FC01_PostQuest
+      Object: 10ACEE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC04_JaylenBillyChatScene
+      Object: 1F558A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FC_EncryptedSlateQuest
       Object: 1D5AAF:Starfield.esm
@@ -173,20 +176,18 @@ VirtualMachineAdapter:
       Name: FC06
       Object: 1F0266:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FC_EvidenceSlateHolderQuest
-      Object: 007EAD:Starfield.esm
+      Name: Alias_Companion
+      Object: 26621E:Starfield.esm
+      Alias: 4
     - MutagenObjectType: ScriptObjectProperty
       Name: FC04_GraceConfessScene
       Object: 1F08AA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FC05
-      Object: 1F0267:Starfield.esm
+      Name: FC04_JaylenSt800SceneMarker
+      Object: 0A54F2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CityNeonWarehouseEmmetsLair
-      Object: 20BD9B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FC04_EmmettEnemyFaction
-      Object: 208E38:Starfield.esm
+      Name: FC_EvidenceSlateHolderQuest
+      Object: 007EAD:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_FC04_0026621E
@@ -945,7 +946,7 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0xB420A6
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD5:Starfield.esm
@@ -1340,7 +1341,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 4
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -1443,3 +1444,4 @@ Aliases:
     AliasID: 3
     Create: In
   VoiceTypes: Null
+Timestamp: 12497

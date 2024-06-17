@@ -1,5 +1,6 @@
 FormKey: 203BF2:Starfield.esm
 EditorID: CY_HankWorkUseWeaponMultipleLocations
+FormVersion: 559
 Flags:
 - WeaponDrawn
 Type: Package
@@ -27,12 +28,14 @@ Unknown3: 0x000000
 ScheduleDurationInMinutes: 900
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: GetQuestRunningConditionData
     FirstParameter: 23748F:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 23748F:Starfield.esm

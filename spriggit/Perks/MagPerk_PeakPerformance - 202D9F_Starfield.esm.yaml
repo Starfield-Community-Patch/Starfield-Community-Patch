@@ -1,5 +1,6 @@
 FormKey: 202D9F:Starfield.esm
 EditorID: MagPerk_PeakPerformance
+FormVersion: 559
 Description:
   TargetLanguage: English
 Flags:
@@ -43,15 +44,15 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A5:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A4:Starfield.esm
@@ -98,15 +99,15 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A5:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A4:Starfield.esm
@@ -129,8 +130,8 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 05240E:Starfield.esm
@@ -170,15 +171,15 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A5:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A4:Starfield.esm
@@ -208,8 +209,8 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 05240E:Starfield.esm
@@ -249,15 +250,15 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A5:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A4:Starfield.esm
@@ -287,8 +288,8 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 05240E:Starfield.esm
@@ -306,22 +307,22 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasPerkSkillGroupConditionData
           SecondParameter: Basic
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasPerkSkillGroupConditionData
           SecondParameter: Advanced
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0xF0525F
-        Unknown2: 17620
+        Unknown1: 0x8BE1A8
+        Unknown2: 16610
         Data:
           MutagenObjectType: HasPerkCategoryConditionData
           FirstParameter: Physical

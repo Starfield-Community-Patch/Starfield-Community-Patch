@@ -1,63 +1,56 @@
 FormKey: 24EF9C:Starfield.esm
 EditorID: MQ305
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: mq305script
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Andreja
+      Name: UnityCameraFadeIn_AO
+      Object: 03B53D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_FSC_RonHopeBribeAccepted
+      Object: 1F8193:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: playerShipInteriorLocation
       Object: 24EF9C:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AvailableCompanionFaction
-      Object: 00D875:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Barrett
-      Object: 24EF9C:Starfield.esm
-      Alias: 7
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_IsRomantic
-      Object: 2BFAB9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CoraCoe
-      Object: 24EF9C:Starfield.esm
-      Alias: 19
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CureAddictions
-      Object: 1C9A6A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: idleartifacttouch
-      Object: 34C6E6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ302_SidedWithChoice
-      Object: 0B2E3A:Starfield.esm
+      Alias: 22
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ305EndingMarkerAndreja
       Object: 36E6C6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305EndingMarkerBarrett
-      Object: 36E6C7:Starfield.esm
+      Name: CureAddictions
+      Object: 1C9A6A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305EndingMarkerCF_Delgado
-      Object: 36E6CD:Starfield.esm
+      Name: MQ305_UC_PlagueEnding
+      Object: 1F8197:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_PlayerEntersUnityA
+      Object: 02B47C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ302_SidedWithChoice
+      Object: 0B2E3A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ305EndingMarkerCF_SysDef
       Object: 36E6CB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305EndingMarkerCompanionAny
-      Object: 285D82:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305EndingMarkerConstellation
-      Object: 0FE9FA:Starfield.esm
+      Name: MQ305EndingMarkerFSC_HopeLetGo
+      Object: 36E6CF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ305EndingMarkerEmissary
       Object: 36E6C2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305EndingMarkerFSC_HopeDead
-      Object: 23AF6C:Starfield.esm
+      Name: MQ305EndingMarkerCF_Delgado
+      Object: 36E6CD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305EndingMarkerFSC_HopeLetGo
-      Object: 36E6CF:Starfield.esm
+      Name: MQ305EndingMarkerConstellation
+      Object: 0FE9FA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvailableCompanionFaction
+      Object: 00D875:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerUC_Terrormorph
+      Object: 08E871:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ305EndingMarkerFSC_HopeNotDead
       Object: 24EF28:Starfield.esm
@@ -68,17 +61,28 @@ VirtualMachineAdapter:
       Name: MQ305EndingMarkerNeither
       Object: 36E6C4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305EndingMarkerRI_NeuroAmp
-      Object: 36E6D7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: MQ305EndingMarkerRI_NeuroAmp_Masako
       Object: 36E6D8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305EndingMarkerRI_NeuroAmp_Ularu
-      Object: 36E6D9:Starfield.esm
+      Name: UnityMovetoMarker
+      Object: 214C7D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ305EndingMarkerRI_NoNeuroAmp
       Object: 36E6D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Vasco
+      Object: 24EF9C:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305JumpedToUnity
+      Object: 1F3C3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CoraCoe
+      Object: 24EF9C:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerUC_Aceles
+      Object: 0785E6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ305EndingMarkerRI_NoNeuroAmp_Masako
       Object: 36E6D4:Starfield.esm
@@ -92,26 +96,20 @@ VirtualMachineAdapter:
       Name: MQ305EndingMarkerSarahMorgan
       Object: 36E6C9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305EndingMarkerUC_Aceles
-      Object: 0785E6:Starfield.esm
+      Name: MQ305EndingMarkerFSC_HopeDead
+      Object: 23AF6C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305EndingMarkerUC_Terrormorph
-      Object: 08E871:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305JumpedToUnity
-      Object: 1F3C3A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_002_Unity_05
-      Object: 14CE9B:Starfield.esm
+      Name: COM_IsRomantic
+      Object: 2BFAB9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ305_CF_PirateEnding
       Object: 1F8196:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_RI_NeuroampPromoted
+      Object: 1F8198:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: MQ305_CF_SysDefEnding
       Object: 1F8199:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_FSC_RonHopeBribeAccepted
-      Object: 1F8193:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ305_FSC_RonHopeJailed
       Object: 1F8195:Starfield.esm
@@ -119,20 +117,11 @@ VirtualMachineAdapter:
       Name: MQ305_FSC_RonHopeKilled
       Object: 1F8194:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_RI_NeuroampNotPromoted
-      Object: 1F8192:Starfield.esm
+      Name: idleartifacttouch
+      Object: 34C6E6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_RI_NeuroampPromoted
-      Object: 1F8198:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_UC_AcelesEnding
-      Object: 1F8191:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_UC_PlagueEnding
-      Object: 1F8197:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_UC_SterilizationEnding
-      Object: 04A45D:Starfield.esm
+      Name: UnityActorEffect
+      Object: 071A63:Starfield.esm
     - MutagenObjectType: ScriptStructListProperty
       Name: PlayerKnowledgeArray
       Structs:
@@ -214,12 +203,31 @@ VirtualMachineAdapter:
           Name: PlayerKnowledgeGlobal
           Object: 0506C4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: playerShipInteriorLocation
+      Name: Barrett
       Object: 24EF9C:Starfield.esm
-      Alias: 22
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Andreja
+      Object: 24EF9C:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_AcelesEnding
+      Object: 1F8191:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerRI_NeuroAmp
+      Object: 36E6D7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerUnityTimesEntered
       Object: 219529:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_SterilizationEnding
+      Object: 04A45D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerBarrett
+      Object: 36E6C7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_RI_NeuroampNotPromoted
+      Object: 1F8192:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI08_MasakoRemainedCEO
       Object: 17F175:Starfield.esm
@@ -232,375 +240,368 @@ VirtualMachineAdapter:
       Object: 24EF9C:Starfield.esm
       Alias: 9
     - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_002_Unity_05
+      Object: 14CE9B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerRI_NeuroAmp_Ularu
+      Object: 36E6D9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305EndingMarkerCompanionAny
+      Object: 285D82:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: SQ_ENV
       Object: 248D20:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UnityActorEffect
-      Object: 071A63:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UnityCameraFadeIn_AO
-      Object: 03B53D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UnityMovetoMarker
-      Object: 214C7D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Vasco
-      Object: 24EF9C:Starfield.esm
-      Alias: 13
-    - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_QST_PlayerEntersUnityA
-      Object: 02B47C:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_MQ305_0024EF9C
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Andreja
-      Object: 24EF9C:Starfield.esm
-      Alias: 5
+      Name: MQ305_MSG_UC
+      Object: 1F818C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Barrett
-      Object: 24EF9C:Starfield.esm
-      Alias: 7
+      Name: MQ305_UC_AcelesEnding
+      Object: 1F8191:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CoraCoe
-      Object: 24EF9C:Starfield.esm
-      Alias: 19
+      Name: MQ305ReturnFromUnityMSG
+      Object: 018B7F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Emissary
-      Object: 24EF9C:Starfield.esm
-      Alias: 0
+      Name: UnityMovetoMarker
+      Object: 214C7D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EmissaryShip
-      Object: 24EF9C:Starfield.esm
-      Alias: 26
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Hunter
-      Object: 24EF9C:Starfield.esm
-      Alias: 24
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HunterShip
-      Object: 24EF9C:Starfield.esm
-      Alias: 25
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerShip
-      Object: 24EF9C:Starfield.esm
-      Alias: 15
+      Name: ScorpiusOborumMarker
+      Object: 06E07C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PlayerShipArmillary
       Object: 24EF9C:Starfield.esm
       Alias: 44
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SamCoe
+      Name: Alias_Barrett
       Object: 24EF9C:Starfield.esm
-      Alias: 8
+      Alias: 7
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SarahMorgan
-      Object: 24EF9C:Starfield.esm
-      Alias: 9
+      Name: MQ_CompanionDead
+      Object: 2BB89F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: AvailableCompanionFaction
-      Object: 00D875:Starfield.esm
+      Name: MQ206C
+      Object: 256B02:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionID_Andreja
-      Object: 2BE2D3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionID_Barrett
-      Object: 2BE2D6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionID_SamCoe
-      Object: 2BE2D7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionID_SarahMorgan
-      Object: 2BE2D8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_IsRomantic
-      Object: 2BFAB9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_SamCoeRecruited
-      Object: 26180E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: EyeBoardingFaction
-      Object: 136F9F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Frontier_ModularREF
-      Object: 03F7E8:Starfield.esm
+      Name: MQ305_Unity_01b
+      Object: 05BB1D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: HelixOborumMarker
       Object: 06E07B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LodgeStartMarker
-      Object: 2824E5:Starfield.esm
+      Name: COM_IsRomantic
+      Object: 2BFAB9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Mfg_Structural_Frame
-      Object: 246B6A:Starfield.esm
+      Name: MQ304_PostQuestDialogue
+      Object: 20E581:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ00_ArtifactsHolder
-      Object: 005790:Starfield.esm
-      Alias: 16
+      Name: Alias_CoraCoe
+      Object: 24EF9C:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_002_Unity_06
+      Object: 0EFF48:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQAllArtifacts
+      Object: 0D0528:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_SamCoeRecruited
+      Object: 26180E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NewAtlantisShipLandingMarker
+      Object: 023605:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ00_CompanionWhoDies
       Object: 005790:Starfield.esm
       Alias: 4
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101
-      Object: 003448:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101Debug
-      Object: 0A7D31:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ102
-      Object: 0114CD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ206C
-      Object: 256B02:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ207_EmissaryMarker01
-      Object: 220E6E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ207_HunterMarker01
-      Object: 220E6D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ302_SidedWithChoice
-      Object: 0B2E3A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ303
-      Object: 254243:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ303EmissaryMarker01
-      Object: 1627F7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ303_StarbornHunterMarker01
-      Object: 20E49F:Starfield.esm
+      Name: TestMQ303Marker01
+      Object: 20D0D4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ304b
       Object: 15D399:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ304_PostQuestDialogue
-      Object: 20E581:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305InitialCollisionEnableMarker
-      Object: 0EF489:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305JumpToUnityMSG
-      Object: 1F8189:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305ReturnFromUnityMSG
-      Object: 018B7F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_002_Unity_01
-      Object: 24EF7A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_002_Unity_04
-      Object: 0812DA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_002_Unity_05
-      Object: 14CE9B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_002_Unity_06
-      Object: 0EFF48:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_CF_PirateEnding
-      Object: 1F8196:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_CF_SysDefEnding
-      Object: 1F8199:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_FSC_RonHopeBribeAccepted
-      Object: 1F8193:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_FSC_RonHopeJailed
-      Object: 1F8195:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_FSC_RonHopeKilled
-      Object: 1F8194:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_MSG_CF
-      Object: 1F818F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_MSG_FSC
-      Object: 1F818E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_MSG_RI
-      Object: 1F818D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_MSG_Romance
-      Object: 1F8190:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_MSG_Starborn
-      Object: 07E99F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_MSG_UC
-      Object: 1F818C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_RI_NeuroampNotPromoted
-      Object: 1F8192:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_RI_NeuroampPromoted
-      Object: 1F8198:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_UC_AcelesEnding
-      Object: 1F8191:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_UC_PlagueEnding
-      Object: 1F8197:Starfield.esm
+      Name: EyeBoardingFaction
+      Object: 136F9F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ305_UC_SterilizationEnding
       Object: 04A45D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_Unity_01b
-      Object: 05BB1D:Starfield.esm
+      Name: Alias_EmissaryShip
+      Object: 24EF9C:Starfield.esm
+      Alias: 26
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ401_SkipMQ
-      Object: 17E006:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQAllArtifacts
-      Object: 0D0528:Starfield.esm
+      Name: MQ305_MSG_RI
+      Object: 1F818D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQAlllowArmillaryGravDrive
       Object: 3E5D36:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ_CompanionDead
-      Object: 2BB89F:Starfield.esm
+      Name: Alias_Emissary
+      Object: 24EF9C:Starfield.esm
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: NewAtlantisShipLandingMarker
-      Object: 023605:Starfield.esm
+      Name: Alias_SarahMorgan
+      Object: 24EF9C:Starfield.esm
+      Alias: 9
     - MutagenObjectType: ScriptObjectProperty
-      Name: NPCFAndreja
-      Object: 0059A6:Starfield.esm
+      Name: MQ305_CF_SysDefEnding
+      Object: 1F8199:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_MSG_Starborn
+      Object: 07E99F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_SkipMQ
+      Object: 17E006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HunterShip
+      Object: 24EF9C:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hunter
+      Object: 24EF9C:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_PlagueEnding
+      Object: 1F8197:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305JumpToUnityMSG
+      Object: 1F8189:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID_SamCoe
+      Object: 2BE2D7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: NPCFSarahMorgan
       Object: 005984:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: NPCMBarrett
-      Object: 005B85:Starfield.esm
+      Name: Alias_Andreja
+      Object: 24EF9C:Starfield.esm
+      Alias: 5
     - MutagenObjectType: ScriptObjectProperty
-      Name: NPCMSamCoe
-      Object: 00599A:Starfield.esm
+      Name: MQ207_HunterMarker01
+      Object: 220E6D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: ScorpiusOborumMarker
-      Object: 06E07C:Starfield.esm
+      Name: MQ305_002_Unity_04
+      Object: 0812DA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipEnabledLandingLink
-      Object: 01448D:Starfield.esm
+      Name: Alias_SamCoe
+      Object: 24EF9C:Starfield.esm
+      Alias: 8
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_ENV
-      Object: 248D20:Starfield.esm
+      Name: MQ305_RI_NeuroampPromoted
+      Object: 1F8198:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
+      Name: MQ305_002_Unity_05
+      Object: 14CE9B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: TestMQ206AMSG
       Object: 2B6522:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: TestMQ303Marker01
-      Object: 20D0D4:Starfield.esm
+      Name: Alias_PlayerShip
+      Object: 24EF9C:Starfield.esm
+      Alias: 15
     - MutagenObjectType: ScriptObjectProperty
-      Name: UnityMovetoMarker
-      Object: 214C7D:Starfield.esm
+      Name: MQ101Debug
+      Object: 0A7D31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_FSC_RonHopeJailed
+      Object: 1F8195:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_MSG_Romance
+      Object: 1F8190:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID_Andreja
+      Object: 2BE2D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_FSC_RonHopeBribeAccepted
+      Object: 1F8193:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ00_ArtifactsHolder
+      Object: 005790:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305InitialCollisionEnableMarker
+      Object: 0EF489:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_002_Unity_01
+      Object: 24EF7A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCMSamCoe
+      Object: 00599A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 003448:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCMBarrett
+      Object: 005B85:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ303_StarbornHunterMarker01
+      Object: 20E49F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID_Barrett
+      Object: 2BE2D6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeStartMarker
+      Object: 2824E5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCFAndreja
+      Object: 0059A6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_CF_PirateEnding
+      Object: 1F8196:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ207_EmissaryMarker01
+      Object: 220E6E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ102
+      Object: 0114CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Mfg_Structural_Frame
+      Object: 246B6A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ302_SidedWithChoice
+      Object: 0B2E3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_FSC_RonHopeKilled
+      Object: 1F8194:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ303
+      Object: 254243:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipEnabledLandingLink
+      Object: 01448D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ303EmissaryMarker01
+      Object: 1627F7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ENV
+      Object: 248D20:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_MSG_CF
+      Object: 1F818F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID_SarahMorgan
+      Object: 2BE2D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_MSG_FSC
+      Object: 1F818E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvailableCompanionFaction
+      Object: 00D875:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_RI_NeuroampNotPromoted
+      Object: 1F8192:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0001_Item_00
-  - Stage: 2
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0002_Item_00
-  - Stage: 3
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0003_Item_00
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0010_Item_00
-  - Stage: 30
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0030_Item_00
-  - Stage: 40
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0040_Item_00
-  - Stage: 50
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0050_Item_00
-  - Stage: 51
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0051_Item_00
-  - Stage: 53
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0053_Item_00
-  - Stage: 54
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0054_Item_00
-  - Stage: 55
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0055_Item_00
-  - Stage: 56
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0056_Item_00
-  - Stage: 57
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0057_Item_00
   - Stage: 58
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
     FragmentName: Fragment_Stage_0058_Item_00
-  - Stage: 59
+  - Stage: 2
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0059_Item_00
-  - Stage: 60
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 56
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0060_Item_00
-  - Stage: 61
+    FragmentName: Fragment_Stage_0056_Item_00
+  - Stage: 51
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0061_Item_00
-  - Stage: 100
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0100_Item_00
-  - Stage: 110
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0110_Item_00
-  - Stage: 200
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0200_Item_00
-  - Stage: 205
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0205_Item_00
+    FragmentName: Fragment_Stage_0051_Item_00
   - Stage: 207
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
     FragmentName: Fragment_Stage_0207_Item_00
-  - Stage: 300
+  - Stage: 40
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_0300_Item_00
-  - Stage: 1000
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 53
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
-    FragmentName: Fragment_Stage_1000_Item_00
+    FragmentName: Fragment_Stage_0053_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0055_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 205
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0205_Item_00
   - Stage: 2000
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
     FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 59
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0059_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 57
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0057_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 61
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0061_Item_00
+  - Stage: 54
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_0054_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ305_0024EF9C
+    FragmentName: Fragment_Stage_1000_Item_00
   Aliases:
   - Property:
       Name: ''
@@ -610,18 +611,18 @@ VirtualMachineAdapter:
     - Name: MQ305PlayerShipAliasScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305_000_GravJumpUnity
+        Object: 05490F:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
         Name: Armillary
         Object: 24EF9C:Starfield.esm
         Alias: 44
       - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305_000_GravJumpUnity
-        Object: 05490F:Starfield.esm
+        Name: SpaceshipGravJumpPower
+        Object: 1B02CF:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: MQArmillaryCompleteGlobal
         Object: 07994F:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: SpaceshipGravJumpPower
-        Object: 1B02CF:Starfield.esm
   - Property:
       Name: ''
       Object: 24EF9C:Starfield.esm
@@ -644,43 +645,40 @@ VirtualMachineAdapter:
     - Name: LeaveUnityTriggerAliasScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: Armillary
-        Object: 24EF9C:Starfield.esm
-        Alias: 17
+        Name: MQ305_002_Unity_04
+        Object: 0812DA:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerCF_Delgado
+        Object: 36E6CD:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerEmissary
+        Object: 36E6C2:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerUC_Aceles
+        Object: 0785E6:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerUC_Terrormorph
+        Object: 08E871:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: HomeShipArmillaryScreen
         Object: 0174A2:Starfield.esm
         Alias: 36
       - MutagenObjectType: ScriptObjectProperty
-        Name: LodgeStartMarker
-        Object: 2824E5:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: MQ00
-        Object: 005790:Starfield.esm
+        Name: MQ305EndingMarkerFSC_HopeDead
+        Object: 23AF6C:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: MQ305EndingMarkerAndreja
         Object: 36E6C6:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305EndingMarkerBarrett
-        Object: 36E6C7:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305EndingMarkerCF_Delgado
-        Object: 36E6CD:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
         Name: MQ305EndingMarkerCF_SysDef
         Object: 36E6CB:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305EndingMarkerConstellation
-        Object: 0FE9FA:Starfield.esm
+        Name: Armillary
+        Object: 24EF9C:Starfield.esm
+        Alias: 17
       - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305EndingMarkerEmissary
-        Object: 36E6C2:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305EndingMarkerFSC_HopeDead
-        Object: 23AF6C:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305EndingMarkerFSC_HopeLetGo
-        Object: 36E6CF:Starfield.esm
+        Name: MQ00
+        Object: 005790:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: MQ305EndingMarkerFSC_HopeNotDead
         Object: 24EF28:Starfield.esm
@@ -691,8 +689,12 @@ VirtualMachineAdapter:
         Name: MQ305EndingMarkerNeither
         Object: 36E6C4:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305EndingMarkerRI_NeuroAmp
-        Object: 36E6D7:Starfield.esm
+        Name: PlayerShipPilotSeat
+        Object: 24EF9C:Starfield.esm
+        Alias: 16
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerFSC_HopeLetGo
+        Object: 36E6CF:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: MQ305EndingMarkerRI_NeuroAmp_Masako
         Object: 36E6D8:Starfield.esm
@@ -709,45 +711,40 @@ VirtualMachineAdapter:
         Name: MQ305EndingMarkerRI_NoNeuroAmp_Ularu
         Object: 36E6D5:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305EndingMarkerSamCoe
-        Object: 36E6C8:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305EndingMarkerSarahMorgan
-        Object: 36E6C9:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305EndingMarkerUC_Aceles
-        Object: 0785E6:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305EndingMarkerUC_Terrormorph
-        Object: 08E871:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305FinalSceneInt
-        Object: 36BC89:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: MQ305_002_Unity_04
-        Object: 0812DA:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: PlayerShip
-        Object: 24EF9C:Starfield.esm
-        Alias: 15
+        Name: MQ305EndingMarkerBarrett
+        Object: 36E6C7:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: PlayerShipCockpitEntrance
         Object: 24EF9C:Starfield.esm
         Alias: 49
       - MutagenObjectType: ScriptObjectProperty
-        Name: PlayerShipPilotSeat
+        Name: MQ305EndingMarkerSamCoe
+        Object: 36E6C8:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305FinalSceneInt
+        Object: 36BC89:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerSarahMorgan
+        Object: 36E6C9:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LodgeStartMarker
+        Object: 2824E5:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerConstellation
+        Object: 0FE9FA:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerShip
         Object: 24EF9C:Starfield.esm
-        Alias: 16
+        Alias: 15
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ305EndingMarkerRI_NeuroAmp
+        Object: 36E6D7:Starfield.esm
   - Property:
       Name: ''
       Object: 24EF9C:Starfield.esm
       Alias: 27
     Scripts:
     - Name: ReturnUnityTriggerAliasScript
-  - Property:
-      Name: ''
-      Object: 24EF9C:Starfield.esm
-      Alias: 16
 Name:
   TargetLanguage: English
   Values:
@@ -1302,6 +1299,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 24EF9C:Starfield.esm
+        SecondUnusedIntParameter: -1184951072
         SecondParameter: ::MQ305_FriendTalkCount_var_var
       ComparisonValue: 3
   - AliasID: 7
@@ -1322,6 +1320,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 24EF9C:Starfield.esm
+        SecondUnusedIntParameter: -1184951080
         SecondParameter: ::MQ305_FriendTalkCount_var_var
       ComparisonValue: 3
   - AliasID: 10
@@ -1342,6 +1341,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 24EF9C:Starfield.esm
+        SecondUnusedIntParameter: -1184951088
         SecondParameter: ::MQ305_FriendTalkCount_var_var
       ComparisonValue: 3
   - AliasID: 8
@@ -1362,6 +1362,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 24EF9C:Starfield.esm
+        SecondUnusedIntParameter: -1184951096
         SecondParameter: ::MQ305_FriendTalkCount_var_var
       ComparisonValue: 3
   - AliasID: 9
@@ -1382,6 +1383,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 24EF9C:Starfield.esm
+        SecondUnusedIntParameter: -1184951104
         SecondParameter: ::MQ305_FriendTalkCount_var_var
       ComparisonValue: 3
   - AliasID: 13
@@ -1402,6 +1404,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 24EF9C:Starfield.esm
+        SecondUnusedIntParameter: -1184951112
         SecondParameter: ::MQ305_FriendTalkCount_var_var
       ComparisonValue: 3
   - AliasID: 11
@@ -1422,6 +1425,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 24EF9C:Starfield.esm
+        SecondUnusedIntParameter: -1184951120
         SecondParameter: ::MQ305_FriendTalkCount_var_var
       ComparisonValue: 3
   - AliasID: 12
@@ -1442,6 +1446,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 24EF9C:Starfield.esm
+        SecondUnusedIntParameter: -1184951128
         SecondParameter: ::MQ305_FriendTalkCount_var_var
       ComparisonValue: 3
   - AliasID: 19
@@ -1468,6 +1473,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 24EF9C:Starfield.esm
+        SecondUnusedIntParameter: -1184951136
         SecondParameter: ::MQ305_FriendTalkCount_var_var
       ComparisonValue: 3
   - AliasID: 14
@@ -1488,6 +1494,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 24EF9C:Starfield.esm
+        SecondUnusedIntParameter: -1184951144
         SecondParameter: ::MQ305_FriendTalkCount_var_var
       ComparisonValue: 3
 - Index: 60

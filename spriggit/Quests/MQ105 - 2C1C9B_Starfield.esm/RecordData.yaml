@@ -1,5 +1,6 @@
 FormKey: 2C1C9B:Starfield.esm
 EditorID: MQ105
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -8,27 +9,27 @@ VirtualMachineAdapter:
       Name: ChangeLocationStages
       Structs:
       - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 20
         - MutagenObjectType: ScriptBoolProperty
           Name: RequireExactLocation
         - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 30
+          Name: PrereqStage
+          Data: 20
         - MutagenObjectType: ScriptObjectProperty
           Name: TargetLocation
           Object: 015FFE:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 30
       - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 2CDDFB:Starfield.esm
         - MutagenObjectType: ScriptIntProperty
           Name: PrereqStage
           Data: 310
         - MutagenObjectType: ScriptIntProperty
           Name: StageToSet
           Data: 320
-        - MutagenObjectType: ScriptObjectProperty
-          Name: TargetLocation
-          Object: 2CDDFB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_PlayerShip
       Object: 0174A2:Starfield.esm
@@ -37,250 +38,177 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_MQ105_002C1C9B
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
+      Name: MQ105_025y_HackerScene
+      Object: 26FE28:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ArtifactCollection
-      Object: 2C1C9B:Starfield.esm
-      Alias: 30
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AstralLoungeBriefcase
-      Object: 2C1C9B:Starfield.esm
-      Alias: 92
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AstraLoungeHackedDoor01
-      Object: 2C1C9B:Starfield.esm
-      Alias: 39
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Companion
-      Object: 2C1C9B:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DeadBot
-      Object: 2C1C9B:Starfield.esm
-      Alias: 57
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DoorToMusgroveInjured
-      Object: 2C1C9B:Starfield.esm
-      Alias: 68
+      Name: LC165_Slayton_Faction
+      Object: 103C4D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_DoorToMusgroveInjured01
       Object: 2C1C9B:Starfield.esm
       Alias: 75
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ElevatorManager_LobbyExec
-      Object: 2C1C9B:Starfield.esm
-      Alias: 91
+      Name: MQ105_025a_HackerScene_Combat
+      Object: 1C2146:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ElevatorManager_LobbyMiddle
-      Object: 2C1C9B:Starfield.esm
-      Alias: 90
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundIndustrialist
+      Object: 22EC7A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105Debug1MarkerPlayer
+      Object: 26FB27:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_ExecutiveElev01
       Object: 2C1C9B:Starfield.esm
       Alias: 76
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ExitElevatorDoor01
-      Object: 2C1C9B:Starfield.esm
-      Alias: 80
+      Name: MQ105MusgroveAnimationREF
+      Object: 036803:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FirstFloorDoor
+      Name: Alias_AstralLoungeBriefcase
       Object: 2C1C9B:Starfield.esm
-      Alias: 96
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FirstFloorGateDoor
-      Object: 2C1C9B:Starfield.esm
-      Alias: 79
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HackerMaintenanceDoor
-      Object: 2C1C9B:Starfield.esm
-      Alias: 66
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HackerSequenceChoiceDoor
-      Object: 2C1C9B:Starfield.esm
-      Alias: 65
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HackerSequenceDoor01
-      Object: 2C1C9B:Starfield.esm
-      Alias: 69
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HackerSequenceDoor02
-      Object: 2C1C9B:Starfield.esm
-      Alias: 70
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_IssaEklund
-      Object: 2C1C9B:Starfield.esm
-      Alias: 7
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_JamesNewill
-      Object: 2C1C9B:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MQ105Artifact
-      Object: 2C1C9B:Starfield.esm
-      Alias: 37
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Musgrove
-      Object: 2C1C9B:Starfield.esm
-      Alias: 13
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MusgroveInjuredMarker
-      Object: 2C1C9B:Starfield.esm
-      Alias: 42
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MusgroveNote01
-      Object: 2C1C9B:Starfield.esm
-      Alias: 44
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MusgroveNote02
-      Object: 2C1C9B:Starfield.esm
-      Alias: 45
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeonSecurityF01
-      Object: 2C1C9B:Starfield.esm
-      Alias: 17
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeonTradeTowerLocation
-      Object: 2C1C9B:Starfield.esm
-      Alias: 35
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NicolausDoor
-      Object: 2C1C9B:Starfield.esm
-      Alias: 95
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NicolausSlayton
-      Object: 2C1C9B:Starfield.esm
-      Alias: 24
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerShipPassengerMarker
-      Object: 2C1C9B:Starfield.esm
-      Alias: 58
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Ryleigh
-      Object: 2C1C9B:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SlaytonAgentM01
-      Object: 2C1C9B:Starfield.esm
-      Alias: 15
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SlaytonBodyguards
-      Object: 2C1C9B:Starfield.esm
-      Alias: 41
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SlaytonIntercom
-      Object: 2C1C9B:Starfield.esm
-      Alias: 19
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_StroudEklundDoor
-      Object: 2C1C9B:Starfield.esm
-      Alias: 72
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TacticalBot01
-      Object: 2C1C9B:Starfield.esm
-      Alias: 54
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TacticalBot02
-      Object: 2C1C9B:Starfield.esm
-      Alias: 55
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TacticalBot03
-      Object: 2C1C9B:Starfield.esm
-      Alias: 56
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TEMPSarahMorganCompanion
-      Object: 2C1C9B:Starfield.esm
-      Alias: 43
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TradeTowerDoor
-      Object: 2C1C9B:Starfield.esm
-      Alias: 67
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VoliiGuardShip01
-      Object: 2C1C9B:Starfield.esm
-      Alias: 87
+      Alias: 92
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_VoliiGuardShip02
       Object: 2C1C9B:Starfield.esm
       Alias: 86
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_WalterStroud
-      Object: 2C1C9B:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ArmillaryMountSwapEnableMarker
-      Object: 0D0AFD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundIndustrialist
-      Object: 22EC7A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_NA_Viewport01
-      Object: 2926D2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_NA_Viewport02
-      Object: 270719:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionNeon
-      Object: 26FDEA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionSlaytonExecutive
-      Object: 1ABC66:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCTheLodge
-      Object: 2956BB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Frontier_ModularREF
-      Object: 03F7E8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Health
-      Object: 0002D4:Starfield.esm
+      Name: MQ105SlaytonFirstFloorFaction
+      Object: 26D869:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: LC008Slayton_LoadDoor_Rooftop
       Object: 354B83:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LC008_EavesdroppingScenes
-      Object: 25C610:Starfield.esm
+      Name: Credits
+      Object: 00000F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LC008_LoadDoor_Rooftop
-      Object: 337B2B:Starfield.esm
+      Name: Alias_TacticalBot01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 54
     - MutagenObjectType: ScriptObjectProperty
-      Name: LC165_Slayton_Faction
-      Object: 103C4D:Starfield.esm
+      Name: MQ105_019_OutsideAstralLounge
+      Object: 2C5FFE:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LodgeStartMarker
-      Object: 2824E5:Starfield.esm
+      Name: SQ_TrafficManagerHeavy_LocType
+      Object: 3902DC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ00_MQ105ArtifactHolder
-      Object: 005790:Starfield.esm
-      Alias: 1
+      Name: MQ105_025b_HackerScene
+      Object: 219415:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101
-      Object: 003448:Starfield.esm
+      Name: MQ105_018_SlaytonAgentAftermath
+      Object: 2C5FFD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101Debug
-      Object: 0A7D31:Starfield.esm
+      Name: Alias_MusgroveInjuredMarker
+      Object: 2C1C9B:Starfield.esm
+      Alias: 42
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_PlayerMarker01
-      Object: 0059B0:Starfield.esm
+      Name: NeonPlayerShipLandingMarkerRef
+      Object: 26FB29:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ102
-      Object: 0114CD:Starfield.esm
+      Name: MQ105SlaytonSecondFloorFaction
+      Object: 26D868:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105Artifact
-      Object: 005790:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105ArtifactSpawnMarker
-      Object: 1E6690:Starfield.esm
+      Name: TraitNeonStreetRat
+      Object: 227FD3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ105AstralLodgeTableEnableMarker
       Object: 01B27B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105AstralLoungeMarkerWalter
-      Object: 26FB24:Starfield.esm
+      Name: MQ105_013_Negotiation
+      Object: 2C5C4A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonEnemyFaction
+      Object: 21894E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ArtifactCollection
+      Object: 2C1C9B:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NewAtlantisShipLandingMarker
+      Object: 023605:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Medium
+      Object: 275225:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TacticalBot02
+      Object: 2C1C9B:Starfield.esm
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DoorToMusgroveInjured
+      Object: 2C1C9B:Starfield.esm
+      Alias: 68
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_026c_WalterRespondScene
+      Object: 278F21:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_023_SecondFloorScene
+      Object: 2C6496:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 003448:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_006_IssaWalterEavesdrop
+      Object: 2C4882:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmillaryMountSwapEnableMarker
+      Object: 0D0AFD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Large
+      Object: 275224:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HackerSequenceDoor02
+      Object: 2C1C9B:Starfield.esm
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTradeTowerLocation
+      Object: 2C1C9B:Starfield.esm
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonFaction
+      Object: 2C5FF8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_016_AfterNegotiation
+      Object: 2C5FF6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC008_LoadDoor_Rooftop
+      Object: 337B2B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ102
+      Object: 0114CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WalterStroud
+      Object: 2C1C9B:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_032_WalterWrapUp_Murder
+      Object: 278F1F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_Debug3_WalterMarker
+      Object: 26D871:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025g_HackerScene
+      Object: 219409:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HackerSequenceDoor01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 69
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105ExecFloorStart003
+      Object: 333699:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025h_HackerScene
+      Object: 219407:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ105AstralLoungeVIPSecurity01
       Object: 1AC324:Starfield.esm
@@ -288,32 +216,169 @@ VirtualMachineAdapter:
       Name: MQ105BriefcaseStaticEnableMarker
       Object: 323290:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HackerSequenceChoiceDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 65
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FirstFloorGateDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 79
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_Debug3_PlayerMarker
+      Object: 257D9E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_026_SlaytonScene
+      Object: 2C73AC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Health
+      Object: 0002D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VoliiGuardShip01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 87
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_031_SlaytonResolvedScene
+      Object: 2CA6C6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonElevatorID
+      Object: 219260:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExitElevatorDoor01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 80
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105Artifact
+      Object: 005790:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionSlaytonExecutive
+      Object: 1ABC66:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonSecurityF01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonDoorToExteriorRoof
+      Object: 2CE0F4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HackerMaintenanceDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 66
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StroudEklundDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 72
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ryleigh
+      Object: 2C1C9B:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
       Name: MQ105Debug1Marker
       Object: 0FA5EF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105Debug1MarkerPlayer
-      Object: 26FB27:Starfield.esm
+      Name: Alias_SlaytonAgentM01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 15
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105Debug1MarkerWalter
-      Object: 26FB26:Starfield.esm
+      Name: Alias_DeadBot
+      Object: 2C1C9B:Starfield.esm
+      Alias: 57
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105Debug2MarkerPlayer
-      Object: 26FB25:Starfield.esm
+      Name: City_NA_Viewport02
+      Object: 270719:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105Debug2MarkerWalter
-      Object: 26FB24:Starfield.esm
+      Name: MQ105WalterSceneMarker02
+      Object: 1FDD1B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105ExecFloorStart003
-      Object: 333699:Starfield.esm
+      Name: MQ105_025y_HackerScene_Bots
+      Object: 26FE28:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeStartMarker
+      Object: 2824E5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TradeTowerDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 67
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaytonBodyguards
+      Object: 2C1C9B:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025i_HackerScene
+      Object: 219403:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105NeonSlaytonExtEnableMarker
+      Object: 029DB5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaytonIntercom
+      Object: 2C1C9B:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShipPassengerMarker
+      Object: 2C1C9B:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NicolausSlayton
+      Object: 2C1C9B:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MusgroveNote02
+      Object: 2C1C9B:Starfield.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MusgroveNote01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JamesNewill
+      Object: 2C1C9B:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ106
+      Object: 021BEF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105ArtifactSpawnMarker
+      Object: 1E6690:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_WalterNeonArriveMarker
+      Object: 123429:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FirstFloorDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TEMPSarahMorganCompanion
+      Object: 2C1C9B:Starfield.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ElevatorManager_LobbyMiddle
+      Object: 2C1C9B:Starfield.esm
+      Alias: 90
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ElevatorManager_LobbyExec
+      Object: 2C1C9B:Starfield.esm
+      Alias: 91
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VoliiStationLocation
+      Object: 216D26:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105MusgroveBloodSpatterEnableMarker
+      Object: 21950A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ105IssaTradeTowerMarkerREF
       Object: 2CDE37:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105MusgroveAnimationREF
-      Object: 036803:Starfield.esm
+      Name: MQ105_014_NegotiationBriefcase
+      Object: 2C5C4B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105MusgroveBloodSpatterEnableMarker
-      Object: 21950A:Starfield.esm
+      Name: MQ105_Slayton_SecondFloor_Actors
+      Object: 139E53:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ105MusgroveChairREF
       Object: 036803:Starfield.esm
@@ -321,95 +386,47 @@ VirtualMachineAdapter:
       Name: MQ105MusgroveSleepEnableMarker
       Object: 218138:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105NegotiationRoomMarker
-      Object: 2B97F3:Starfield.esm
+      Name: MQ00_MQ105ArtifactHolder
+      Object: 005790:Starfield.esm
+      Alias: 1
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105NeonSlaytonExtEnableMarker
-      Object: 029DB5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105SlaytonBodyguardFaction
-      Object: 219262:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105SlaytonDoorToExteriorRoof
-      Object: 2CE0F4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105SlaytonElevatorID
-      Object: 219260:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105SlaytonEnemyFaction
-      Object: 21894E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105SlaytonFaction
-      Object: 2C5FF8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105SlaytonFirstFloorFaction
-      Object: 26D869:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105SlaytonIntercomMarker02
-      Object: 1C2149:Starfield.esm
+      Name: NPCDemandMoney_Small
+      Object: 275226:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ105SlaytonLogoSlate
       Object: 329A3A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105SlaytonOfficeID
-      Object: 17DA1B:Starfield.esm
+      Name: MQ105Debug2MarkerPlayer
+      Object: 26FB25:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025j_HackkerScene
+      Object: 219402:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MQ105Artifact
+      Object: 2C1C9B:Starfield.esm
+      Alias: 37
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ105SlaytonRoofElevataorEnableMarker
       Object: 01F744:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105SlaytonSecondFloorFaction
-      Object: 26D868:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105WalterChairREF
-      Object: 2CDDF9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105WalterSceneMarker02
-      Object: 1FDD1B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: MQ105_000_AttractScene
       Object: 0FA5F0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_001_IntroScene
-      Object: 2C33DC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ105_002_NeonArrival
       Object: 2C33DD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_003_StroudOfficeScene
-      Object: 2C33DE:Starfield.esm
+      Name: LC008_EavesdroppingScenes
+      Object: 25C610:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ105_004_IssaIntro
       Object: 2C33DF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_006_IssaWalterEavesdrop
-      Object: 2C4882:Starfield.esm
+      Name: MQ105SlaytonIntercomMarker02
+      Object: 1C2149:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_013_Negotiation
-      Object: 2C5C4A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_014_NegotiationBriefcase
-      Object: 2C5C4B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_016_AfterNegotiation
-      Object: 2C5FF6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_017_SlaytonAmbush
-      Object: 2C5FF9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_018_SlaytonAgentAftermath
-      Object: 2C5FFD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_019_OutsideAstralLounge
-      Object: 2C5FFE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_023_SecondFloorScene
-      Object: 2C6496:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025a_HackerScene_Combat
-      Object: 1C2146:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025b_HackerScene
-      Object: 219415:Starfield.esm
+      Name: Alias_IssaEklund
+      Object: 2C1C9B:Starfield.esm
+      Alias: 7
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ105_025c_HackerScene
       Object: 219413:Starfield.esm
@@ -417,305 +434,501 @@ VirtualMachineAdapter:
       Name: MQ105_025d_HackerScene
       Object: 219410:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025e_HackerScene
-      Object: 21940F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025f_HackerScene
-      Object: 21940D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025g_HackerScene
-      Object: 219409:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025h_HackerScene
-      Object: 219407:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025i_HackerScene
-      Object: 219403:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025j_HackkerScene
-      Object: 219402:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025k_HackerScene
-      Object: 219400:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025l_HackerScene
-      Object: 2193FA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025m_HackerScene
-      Object: 2193F9:Starfield.esm
+      Name: MQ105_025_SavilleScene
+      Object: 2C73A8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ105_025n_HackerScene
       Object: 2193F6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025y_HackerScene
-      Object: 26FE28:Starfield.esm
+      Name: MQ101_PlayerMarker01
+      Object: 0059B0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025y_HackerScene_Bots
-      Object: 26FE28:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025zzz_HackerScene_Exec
-      Object: 138F35:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025z_HackerScene
-      Object: 26FE2E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_025_SavilleScene
-      Object: 2C73A8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_026c_WalterRespondScene
-      Object: 278F21:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_026_SlaytonScene
-      Object: 2C73AC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_030_MusgroveDeadScene
-      Object: 2C73B4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_031_SlaytonResolvedScene
-      Object: 2CA6C6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_032_WalterWrapUp
-      Object: 2CA6C7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_032_WalterWrapUp_Murder
-      Object: 278F1F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_Debug3_PlayerMarker
-      Object: 257D9E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_Debug3_WalterMarker
-      Object: 26D871:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_PostQuestLodge
-      Object: 11E106:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_Slayton_FirstFloor_Actors
-      Object: 139E55:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_Slayton_SecondFloor_Actors
-      Object: 139E53:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_WalterNeonArriveMarker
-      Object: 123429:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ105_WalterStroudOfficeMarker
-      Object: 1FDD17:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ106
-      Object: 021BEF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NeonPlayerShipLandingMarkerRef
-      Object: 26FB29:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NewAtlantisShipLandingMarker
-      Object: 023605:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Large
-      Object: 275224:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Medium
-      Object: 275225:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Small
-      Object: 275226:Starfield.esm
+      Name: MQ105Debug2MarkerWalter
+      Object: 26FB24:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerEnemyFaction
       Object: 106C2F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFaction
-      Object: 01C21C:Starfield.esm
+      Name: MQ105_025l_HackerScene
+      Object: 2193FA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipEnabledLandingLink
-      Object: 01448D:Starfield.esm
+      Name: MQ105_032_WalterWrapUp
+      Object: 2CA6C7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
+      Name: MQ105_025m_HackerScene
+      Object: 2193F9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
+      Name: MQ105_PostQuestLodge
+      Object: 11E106:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_TrafficManagerHeavy_LocType
-      Object: 3902DC:Starfield.esm
+      Name: MQ105_025zzz_HackerScene_Exec
+      Object: 138F35:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: StarbornTempleQuest
       Object: 214707:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: TraitNeonStreetRat
-      Object: 227FD3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: VoliiAlphaTrafficManagerREF
       Object: 1B1820:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: VoliiStationLocation
-      Object: 216D26:Starfield.esm
+      Name: MQ105_WalterStroudOfficeMarker
+      Object: 1FDD17:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Musgrove
+      Object: 2C1C9B:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AstraLoungeHackedDoor01
+      Object: 2C1C9B:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_Slayton_FirstFloor_Actors
+      Object: 139E55:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105AstralLoungeMarkerWalter
+      Object: 26FB24:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105NegotiationRoomMarker
+      Object: 2B97F3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105WalterChairREF
+      Object: 2CDDF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_030_MusgroveDeadScene
+      Object: 2C73B4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NicolausDoor
+      Object: 2C1C9B:Starfield.esm
+      Alias: 95
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_003_StroudOfficeScene
+      Object: 2C33DE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TacticalBot03
+      Object: 2C1C9B:Starfield.esm
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Viewport01
+      Object: 2926D2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonBodyguardFaction
+      Object: 219262:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025e_HackerScene
+      Object: 21940F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105SlaytonOfficeID
+      Object: 17DA1B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_017_SlaytonAmbush
+      Object: 2C5FF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipEnabledLandingLink
+      Object: 01448D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101Debug
+      Object: 0A7D31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025z_HackerScene
+      Object: 26FE2E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 2C1C9B:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_001_IntroScene
+      Object: 2C33DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025f_HackerScene
+      Object: 21940D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCTheLodge
+      Object: 2956BB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105_025k_HackerScene
+      Object: 219400:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105Debug1MarkerWalter
+      Object: 26FB26:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 1
+  - Stage: 430
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0001_Item_00
-  - Stage: 2
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0002_Item_00
-  - Stage: 3
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0003_Item_00
-  - Stage: 4
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0004_Item_00
-  - Stage: 5
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0005_Item_00
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0010_Item_00
-  - Stage: 15
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0015_Item_00
-  - Stage: 17
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0017_Item_00
-  - Stage: 20
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0020_Item_00
-  - Stage: 30
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0030_Item_00
-  - Stage: 40
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0040_Item_00
-  - Stage: 45
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0045_Item_00
-  - Stage: 50
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0050_Item_00
-  - Stage: 52
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0052_Item_00
-  - Stage: 60
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0060_Item_00
-  - Stage: 70
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0070_Item_00
-  - Stage: 95
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0095_Item_00
-  - Stage: 100
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0100_Item_00
-  - Stage: 110
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0110_Item_00
-  - Stage: 200
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0200_Item_00
-  - Stage: 210
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0210_Item_00
-  - Stage: 215
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0215_Item_00
-  - Stage: 217
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0217_Item_00
-  - Stage: 218
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0218_Item_00
-  - Stage: 220
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0220_Item_00
-  - Stage: 300
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0300_Item_00
-  - Stage: 305
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0305_Item_00
-  - Stage: 310
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0310_Item_00
+    FragmentName: Fragment_Stage_0430_Item_00
   - Stage: 320
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
     FragmentName: Fragment_Stage_0320_Item_00
-  - Stage: 330
+  - Stage: 217
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0330_Item_00
-  - Stage: 340
+    FragmentName: Fragment_Stage_0217_Item_00
+  - Stage: 632
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0340_Item_00
-  - Stage: 342
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0342_Item_00
-  - Stage: 350
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0350_Item_00
-  - Stage: 352
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0352_Item_00
-  - Stage: 355
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0355_Item_00
-  - Stage: 365
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0365_Item_00
+    FragmentName: Fragment_Stage_0632_Item_00
   - Stage: 370
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
     FragmentName: Fragment_Stage_0370_Item_00
-  - Stage: 377
+  - Stage: 220
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0377_Item_00
+    FragmentName: Fragment_Stage_0220_Item_00
+  - Stage: 595
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0595_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0650_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 860
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0860_Item_00
+  - Stage: 342
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0342_Item_00
+  - Stage: 631
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0631_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 622
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0622_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0420_Item_00
+  - Stage: 330
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0330_Item_00
+  - Stage: 626
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0626_Item_00
+  - Stage: 690
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0690_Item_00
+  - Stage: 520
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0520_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0550_Item_00
+  - Stage: 895
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0895_Item_00
+  - Stage: 634
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0634_Item_00
+  - Stage: 660
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0660_Item_00
+  - Stage: 890
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0890_Item_00
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 570
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0570_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 629
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0629_Item_00
+  - Stage: 340
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0340_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 560
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0560_Item_00
+  - Stage: 620
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0620_Item_00
+  - Stage: 355
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0355_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 624
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0624_Item_00
+  - Stage: 670
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0670_Item_00
+  - Stage: 17
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0017_Item_00
+  - Stage: 810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0810_Item_00
+  - Stage: 580
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0580_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0210_Item_00
   - Stage: 380
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
     FragmentName: Fragment_Stage_0380_Item_00
-  - Stage: 390
+  - Stage: 60
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0390_Item_00
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 627
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0627_Item_00
+  - Stage: 215
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0215_Item_00
+  - Stage: 377
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0377_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 822
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0822_Item_00
+  - Stage: 630
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0630_Item_00
+  - Stage: 352
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0352_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 623
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0623_Item_00
+  - Stage: 594
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0594_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 910
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0910_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 1100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_1100_Item_00
+  - Stage: 590
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0590_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 850
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0850_Item_00
+  - Stage: 825
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0825_Item_00
+  - Stage: 633
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0633_Item_00
+  - Stage: 530
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0530_Item_00
+  - Stage: 680
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0680_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_1000_Item_00
   - Stage: 400
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
     FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 625
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0625_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0510_Item_00
+  - Stage: 628
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0628_Item_00
+  - Stage: 602
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0602_Item_00
+  - Stage: 820
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0820_Item_00
+  - Stage: 621
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0621_Item_00
+  - Stage: 710
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0710_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 592
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0592_Item_00
+  - Stage: 390
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0390_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 615
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0615_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0045_Item_00
+  - Stage: 610
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0610_Item_00
+  - Stage: 905
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0905_Item_00
+  - Stage: 365
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0365_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 305
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0305_Item_00
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0095_Item_00
+  - Stage: 52
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0052_Item_00
   - Stage: 410
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
@@ -725,226 +938,14 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
     FragmentName: Fragment_Stage_0410_Item_01
-  - Stage: 420
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0420_Item_00
-  - Stage: 430
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0430_Item_00
-  - Stage: 500
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0500_Item_00
-  - Stage: 510
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0510_Item_00
-  - Stage: 520
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0520_Item_00
-  - Stage: 530
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0530_Item_00
   - Stage: 540
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
     FragmentName: Fragment_Stage_0540_Item_00
-  - Stage: 550
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0550_Item_00
-  - Stage: 560
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0560_Item_00
-  - Stage: 570
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0570_Item_00
-  - Stage: 580
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0580_Item_00
-  - Stage: 590
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0590_Item_00
-  - Stage: 592
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0592_Item_00
-  - Stage: 594
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0594_Item_00
-  - Stage: 595
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0595_Item_00
-  - Stage: 600
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0600_Item_00
-  - Stage: 602
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0602_Item_00
-  - Stage: 610
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0610_Item_00
-  - Stage: 615
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0615_Item_00
-  - Stage: 620
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0620_Item_00
-  - Stage: 621
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0621_Item_00
-  - Stage: 622
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0622_Item_00
-  - Stage: 623
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0623_Item_00
-  - Stage: 624
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0624_Item_00
-  - Stage: 625
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0625_Item_00
-  - Stage: 626
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0626_Item_00
-  - Stage: 627
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0627_Item_00
-  - Stage: 628
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0628_Item_00
-  - Stage: 629
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0629_Item_00
-  - Stage: 630
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0630_Item_00
-  - Stage: 631
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0631_Item_00
-  - Stage: 632
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0632_Item_00
-  - Stage: 633
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0633_Item_00
-  - Stage: 634
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0634_Item_00
   - Stage: 635
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
     FragmentName: Fragment_Stage_0635_Item_00
-  - Stage: 650
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0650_Item_00
-  - Stage: 660
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0660_Item_00
-  - Stage: 670
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0670_Item_00
-  - Stage: 680
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0680_Item_00
-  - Stage: 690
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0690_Item_00
-  - Stage: 700
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0700_Item_00
-  - Stage: 710
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0710_Item_00
-  - Stage: 720
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0720_Item_00
-  - Stage: 800
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0800_Item_00
-  - Stage: 810
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0810_Item_00
-  - Stage: 820
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0820_Item_00
-  - Stage: 822
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0822_Item_00
-  - Stage: 825
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0825_Item_00
-  - Stage: 850
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0850_Item_00
-  - Stage: 860
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0860_Item_00
-  - Stage: 890
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0890_Item_00
-  - Stage: 895
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0895_Item_00
-  - Stage: 900
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0900_Item_00
-  - Stage: 905
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0905_Item_00
-  - Stage: 910
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_0910_Item_00
   - Stage: 915
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
@@ -954,23 +955,39 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
     FragmentName: Fragment_Stage_0915_Item_01
+  - Stage: 720
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0720_Item_00
+  - Stage: 218
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
+    FragmentName: Fragment_Stage_0218_Item_00
   - Stage: 920
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
     FragmentName: Fragment_Stage_0920_Item_00
-  - Stage: 1000
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_1000_Item_00
-  - Stage: 1100
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
-    FragmentName: Fragment_Stage_1100_Item_00
   - Stage: 2000
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ105_002C1C9B
     FragmentName: Fragment_Stage_2000_Item_00
   Aliases:
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
+      Alias: 97
+    Scripts:
+    - Name: DefaultAliasOnEnterFurniture
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NotAllowedDuringCombat
+        Object: 1413FD:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 910
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 915
   - Property:
       Name: ''
       Object: 2C1C9B:Starfield.esm
@@ -1026,6 +1043,11 @@ VirtualMachineAdapter:
       Object: 2C1C9B:Starfield.esm
       Alias: 13
     Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 410
     - Name: DefaultAliasOnCombatStateChanged
       Properties:
       - MutagenObjectType: ScriptIntProperty
@@ -1037,11 +1059,6 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: TurnOffStageDone
         Data: 500
-    - Name: DefaultAliasOnDeath
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 410
   - Property:
       Name: ''
       Object: 2C1C9B:Starfield.esm
@@ -1057,16 +1074,16 @@ VirtualMachineAdapter:
       Object: 2C1C9B:Starfield.esm
       Alias: 24
     Scripts:
-    - Name: DefaultAliasOnCombatStateChanged
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 850
     - Name: DefaultAliasOnDeath
       Properties:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 860
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 850
   - Property:
       Name: ''
       Object: 2C1C9B:Starfield.esm
@@ -1129,6 +1146,39 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 2C1C9B:Starfield.esm
+      Alias: 61
+    Scripts:
+    - Name: defaultaliasonlocationchange
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 015FFE:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 20
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 30
+    - Name: defaultaliasonlocationchangeA
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 01A97C:Starfield.esm
+        - Name: ''
+          Object: 216D26:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 920
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1000
+  - Property:
+      Name: ''
+      Object: 2C1C9B:Starfield.esm
       Alias: 59
     Scripts:
     - Name: DefaultAliasOnCombatStateChanged
@@ -1181,54 +1231,8 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 2C1C9B:Starfield.esm
-      Alias: 61
-    Scripts:
-    - Name: defaultaliasonlocationchange
-      Properties:
-      - MutagenObjectType: ScriptObjectListProperty
-        Name: LocationsToCheckAgainst
-        Objects:
-        - Name: ''
-          Object: 015FFE:Starfield.esm
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 20
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 30
-    - Name: defaultaliasonlocationchangeA
-      Properties:
-      - MutagenObjectType: ScriptObjectListProperty
-        Name: LocationsToCheckAgainst
-        Objects:
-        - Name: ''
-          Object: 01A97C:Starfield.esm
-        - Name: ''
-          Object: 216D26:Starfield.esm
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 920
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1000
-  - Property:
-      Name: ''
-      Object: 2C1C9B:Starfield.esm
       Alias: 79
     Scripts:
-    - Name: DefaultAliasOnClose
-      Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: PlayerOnly
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 590
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 592
-      - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStageDone
-        Data: 600
     - Name: defaultaliasonopen
       Properties:
       - MutagenObjectType: ScriptBoolProperty
@@ -1242,22 +1246,19 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: TurnOffStageDone
         Data: 600
-  - Property:
-      Name: ''
-      Object: 2C1C9B:Starfield.esm
-      Alias: 97
-    Scripts:
-    - Name: DefaultAliasOnEnterFurniture
+    - Name: DefaultAliasOnClose
       Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: NotAllowedDuringCombat
-        Object: 1413FD:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
       - MutagenObjectType: ScriptIntProperty
         Name: PrereqStage
-        Data: 910
+        Data: 590
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
-        Data: 915
+        Data: 592
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 600
 Name:
   TargetLanguage: English
   Values:
@@ -3786,7 +3787,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 3
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - CreateRefTemp
@@ -4328,3 +4329,4 @@ Aliases:
     AliasID: 49
     RefType: 048C5F:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

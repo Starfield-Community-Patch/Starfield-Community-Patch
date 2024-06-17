@@ -1,5 +1,6 @@
 FormKey: 2C7209:Starfield.esm
 EditorID: Drink_Alc_Bottle_Chandra_WinePort
+FormVersion: 559
 ObjectBounds:
   First: -0.033020172, -0.032958947, 0.00079345703
   Second: 0.03295883, 0.03295902, 0.26904297
@@ -118,8 +119,8 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm

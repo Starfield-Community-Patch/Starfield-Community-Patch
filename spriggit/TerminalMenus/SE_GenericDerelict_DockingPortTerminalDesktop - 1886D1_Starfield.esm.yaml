@@ -1,30 +1,21 @@
 FormKey: 1886D1:Starfield.esm
 EditorID: SE_GenericDerelict_DockingPortTerminalDesktop
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: SE_DerelictTextReplacementScript
     Properties:
-    - MutagenObjectType: ScriptIntProperty
-      Name: LargeIntMax
-      Data: 100
-    - MutagenObjectType: ScriptIntProperty
-      Name: LargeIntMin
-      Data: 50
-    - MutagenObjectType: ScriptIntProperty
-      Name: MediumIntMax
-      Data: 12
-    - MutagenObjectType: ScriptIntProperty
-      Name: MediumIntMin
-      Data: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SE_GenericDerelict_TerminalGlobal
-      Object: 0171CC:Starfield.esm
-    - MutagenObjectType: ScriptIntProperty
-      Name: SmallIntMax
-      Data: 9
-    - MutagenObjectType: ScriptIntProperty
-      Name: SmallIntMin
-      Data: 2
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: TextReplacement02
+      Objects:
+      - Name: ''
+        Object: 1886C2:Starfield.esm
+      - Name: ''
+        Object: 1886C0:Starfield.esm
+      - Name: ''
+        Object: 1886BE:Starfield.esm
+      - Name: ''
+        Object: 1886B9:Starfield.esm
     - MutagenObjectType: ScriptObjectListProperty
       Name: TextReplacement00
       Objects:
@@ -38,26 +29,36 @@ VirtualMachineAdapter:
         Object: 1886BD:Starfield.esm
       - Name: ''
         Object: 1886A6:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: LargeIntMin
+      Data: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SE_GenericDerelict_TerminalGlobal
+      Object: 0171CC:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: LargeIntMax
+      Data: 100
+    - MutagenObjectType: ScriptIntProperty
+      Name: SmallIntMin
+      Data: 2
+    - MutagenObjectType: ScriptIntProperty
+      Name: MediumIntMax
+      Data: 12
+    - MutagenObjectType: ScriptIntProperty
+      Name: SmallIntMax
+      Data: 9
     - MutagenObjectType: ScriptObjectListProperty
-      Name: TextReplacement01
+      Name: TextReplacement05
       Objects:
       - Name: ''
-        Object: 137322:Starfield.esm
+        Object: 265ADA:Starfield.esm
       - Name: ''
-        Object: 137325:Starfield.esm
+        Object: 265AF7:Starfield.esm
       - Name: ''
-        Object: 1886B8:Starfield.esm
-    - MutagenObjectType: ScriptObjectListProperty
-      Name: TextReplacement02
-      Objects:
-      - Name: ''
-        Object: 1886C2:Starfield.esm
-      - Name: ''
-        Object: 1886C0:Starfield.esm
-      - Name: ''
-        Object: 1886BE:Starfield.esm
-      - Name: ''
-        Object: 1886B9:Starfield.esm
+        Object: 265AE0:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: MediumIntMin
+      Data: 1
     - MutagenObjectType: ScriptObjectListProperty
       Name: TextReplacement03
       Objects:
@@ -93,14 +94,14 @@ VirtualMachineAdapter:
       - Name: ''
         Object: 015FFE:Starfield.esm
     - MutagenObjectType: ScriptObjectListProperty
-      Name: TextReplacement05
+      Name: TextReplacement01
       Objects:
       - Name: ''
-        Object: 265ADA:Starfield.esm
+        Object: 137322:Starfield.esm
       - Name: ''
-        Object: 265AF7:Starfield.esm
+        Object: 137325:Starfield.esm
       - Name: ''
-        Object: 265AE0:Starfield.esm
+        Object: 1886B8:Starfield.esm
 Name:
   TargetLanguage: English
   Values:
@@ -391,8 +392,8 @@ MenuItems:
   ItemId: 24
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 036E00:Starfield.esm
@@ -507,14 +508,14 @@ MenuItems:
         <Token.Title=MiscText00>.
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
@@ -629,8 +630,8 @@ MenuItems:
         <Token.Title=MiscText00>。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -638,16 +639,16 @@ MenuItems:
   - MutagenObjectType: ConditionFloat
     Flags:
     - OR
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
   - MutagenObjectType: ConditionFloat
     Flags:
     - OR
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
@@ -763,8 +764,8 @@ MenuItems:
         <Token.Title=MiscText00>。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -772,16 +773,16 @@ MenuItems:
   - MutagenObjectType: ConditionFloat
     Flags:
     - OR
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
   - MutagenObjectType: ConditionFloat
     Flags:
     - OR
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
@@ -897,15 +898,15 @@ MenuItems:
         <Token.Title=MiscText00>.
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -1020,15 +1021,15 @@ MenuItems:
         公司告诉我们，这艘飞船拥有最先进的自动修复系统，所以应该没什么可担心的。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -1144,15 +1145,15 @@ MenuItems:
         <Token.Title=MiscText00>.
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 2
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -1276,15 +1277,15 @@ MenuItems:
 
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 2
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -1400,15 +1401,15 @@ MenuItems:
         <Token.Title=MiscText00>.
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 3
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -1523,15 +1524,15 @@ MenuItems:
         <Token.Title=MiscText00>。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x020000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 3
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x020000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -1647,15 +1648,15 @@ MenuItems:
         <Token.Title=MiscText00>.
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 3
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -1771,15 +1772,15 @@ MenuItems:
         <Token.Title=MiscText00>。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 4
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -1921,15 +1922,15 @@ MenuItems:
 
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 4
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -2045,15 +2046,15 @@ MenuItems:
         <Token.Title=MiscText00>
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 4
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -2196,15 +2197,15 @@ MenuItems:
         <Token.Title=MiscText00>.
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x020000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 5
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x020000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -2301,15 +2302,15 @@ MenuItems:
 
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 5
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -2425,15 +2426,15 @@ MenuItems:
         我相信他们的话。我给了其中一个人一份<Token.Name=MiscText03>，那家伙慌忙把食物抢了过去，差点没把我的胳膊也一起扯下来。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x020000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 5
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x020000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -2549,15 +2550,15 @@ MenuItems:
         但是现在飞船的内部系统都一塌糊涂。我怀疑那些刮擦声现在已经进来了。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 6
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -2672,15 +2673,15 @@ MenuItems:
         从那以后已经过去了<Token.Value=RandomInt00>天，我们也回到了自己的本职工作，但总觉得有点不对劲。我们没有遇到过任何撞击或是风暴，但是飞船还是受到了损伤。我们得运行一次诊断，然后查看一下维护日志，也许扫描能够发现什么。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x020000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 6
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x020000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -2796,15 +2797,15 @@ MenuItems:
         <Alias.CurrentName=DerelictCaptain>叫我别喂了，但我觉得没什么不好。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 6
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -2920,15 +2921,15 @@ MenuItems:
         我在想也许把它们的系统关闭再重新校准会比较明智，但是<Alias.CurrentName=DerelictCaptain>觉得我们需要它们的支援来完成修复工作。我就快要晋升了，所以我不打算和<Alias.PronounObj=DerelictCaptain>争论，或是提出其他反对意见，但那并不代表我不担心。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x020000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 7
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x020000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -3043,15 +3044,15 @@ MenuItems:
         <Token.Title=MiscText00>
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm
     ComparisonValue: 7
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
@@ -3167,15 +3168,15 @@ MenuItems:
         与此同时，我准备启动一些机器人船员来帮我们恢复一部分系统，希望它们没有在风暴中受损。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AE:Starfield.esm
     ComparisonValue: 2
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010000
-    Unknown2: 16669
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 37E1AD:Starfield.esm

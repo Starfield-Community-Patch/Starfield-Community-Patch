@@ -1,6 +1,7 @@
 FormKey: 23ED95:Starfield.esm
 MajorRecordFlagsRaw: 64
 EditorID: COM_SamCoe_ShipEmbark
+FormVersion: 559
 StarfieldMajorRecordFlags:
 - 0x40
 Flags:
@@ -10,12 +11,14 @@ Flags:
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 073E58:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: IsOnPlayerHomeSpaceShipConditionData
     RunOnType: QuestAlias
@@ -23,6 +26,7 @@ Conditions:
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 214D8A:Starfield.esm

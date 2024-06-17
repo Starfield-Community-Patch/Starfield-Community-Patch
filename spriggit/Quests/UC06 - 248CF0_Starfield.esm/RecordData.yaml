@@ -1,5 +1,6 @@
 FormKey: 248CF0:Starfield.esm
 EditorID: UC06
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: uc06_questscript
@@ -30,29 +31,37 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_UC06_00248CF0
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_430_OrlaseBoardingScene
-      Object: 215DBD:Starfield.esm
+      Name: SpaceshipEngineHealth
+      Object: 1EF0CD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_OrlaseCaptainLocker
-      Object: 248CF0:Starfield.esm
-      Alias: 47
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_DebugMarker02
-      Object: 246B86:Starfield.esm
+      Name: UC06_OrlaseFaction
+      Object: 215DB8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_Debug_TravelingToOrlase
+      Object: 2129F8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_570_System_TransferAccepted
+      Object: 0ADE00:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC07_HadrianVVRevealQuest
+      Object: 1F44B2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Orlase
       Object: 248CF0:Starfield.esm
       Alias: 17
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_OrlaseFaction
-      Object: 215DB8:Starfield.esm
+      Name: UC06_140_PlayerExitsVVChamber
+      Object: 1D7CC5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LL_BE_ShipCaptainsLockerLoot_Small
-      Object: 2BADC6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FloorManager
+      Name: Alias_MacIntyre
       Object: 248CF0:Starfield.esm
-      Alias: 32
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_430_OrlaseBoardingScene
+      Object: 215DBD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC06_90_VaeVictis_Attract
       Object: 246B85:Starfield.esm
@@ -61,73 +70,61 @@ VirtualMachineAdapter:
       Object: 248CF0:Starfield.esm
       Alias: 34
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_570_System_TransferAccepted
-      Object: 0ADE00:Starfield.esm
+      Name: UC06_SpaceBattleTeleportMarker
+      Object: 248BF9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_Debug_TroubleTravelingToDen
-      Object: 2129FF:Starfield.esm
+      Name: QST_Orlase_Ship_HostileTransmission_WEF
+      Object: 0348D5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MacIntyreSlateLookMarker
+      Name: UC_PlayerKnows_HowVVFoundResearchTeam
+      Object: 1F3238:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChiefYasin
       Object: 248CF0:Starfield.esm
-      Alias: 16
+      Alias: 42
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_140_PlayerExitsVVChamber
-      Object: 1D7CC5:Starfield.esm
+      Name: MQ_TutorialQuest
+      Object: 045640:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_560_VV_ApproachTransfer
-      Object: 0ADE1B:Starfield.esm
+      Name: TestMQ101HelperQuest
+      Object: 019089:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VaeVictis
-      Object: 248CF0:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipEngineHealth
-      Object: 1EF0CD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MacIntyre
-      Object: 248CF0:Starfield.esm
-      Alias: 15
+      Name: LL_BE_ShipCaptainsLockerLoot_Small
+      Object: 2BADC6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_EthereaMines
       Object: 248CF0:Starfield.esm
       Alias: 36
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FloorManager
+      Object: 248CF0:Starfield.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrlaseCabinDoor
+      Object: 248CF0:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC05_DebugMarker01
+      Object: 2A0E42:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_500_OrlaseDeath
+      Object: 248C07:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: NewAtlantisShipLandingMarker
       Object: 023605:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_OrlaseShip
+      Name: UC_PlayerKnows_KaiserIsARobot
+      Object: 20B7D9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_560_VV_ApproachTransfer
+      Object: 0ADE1B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MacIntyreSlateLookMarker
       Object: 248CF0:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_95_SS7Guard_PlayerApproachesDoor
-      Object: 0ADE05:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: QST_Orlase_Ship_HostileTransmission_WEF
-      Object: 0348D5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ_TutorialQuest
-      Object: 045640:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_DebugMarker01
-      Object: 246B87:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TestMQ101HelperQuest
-      Object: 019089:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipEnabledLandingLink
-      Object: 01448D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_420_OrlaseEngineDisabled
-      Object: 215DBC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_400_OrlaseGreetingScene
-      Object: 248C09:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_PlayerKnows_VVSurvivedExecution
-      Object: 1F42E6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Frontier_ModularREF
-      Object: 03F7E8:Starfield.esm
+      Alias: 16
     - MutagenObjectType: ScriptObjectProperty
       Name: SpaceshipCrew
       Object: 040CE0:Starfield.esm
@@ -136,68 +133,72 @@ VirtualMachineAdapter:
       Object: 248CF0:Starfield.esm
       Alias: 37
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_Debug_DebrisField
-      Object: 212A02:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_500_OrlaseDeath
-      Object: 248C07:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_OrlaseCabinKey
-      Object: 212A00:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VVChamberDoor
+      Name: Alias_VaeVictis
       Object: 248CF0:Starfield.esm
-      Alias: 41
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
       Name: UC07
       Object: 215E93:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC05_DebugMarker01
-      Object: 2A0E42:Starfield.esm
+      Name: UC06_Debug_DebrisField
+      Object: 212A02:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_OrlaseCabinDoor
+      Name: UC06_DebugMarker02
+      Object: 246B86:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrlaseCaptainLocker
       Object: 248CF0:Starfield.esm
-      Alias: 25
+      Alias: 47
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerShip
-      Object: 248CF0:Starfield.esm
-      Alias: 26
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_PlayerKnows_HowVVFoundResearchTeam
-      Object: 1F3238:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_PlayerKnows_KaiserIsARobot
-      Object: 20B7D9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_OrlaseID
-      Object: 248CF0:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Health
-      Object: 0002D4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_Debug_TravelingToOrlase
-      Object: 2129F8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_100_VaeVictisIntro
-      Object: 248C11:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ChiefYasin
-      Object: 248CF0:Starfield.esm
-      Alias: 42
+      Name: UC06_95_SS7Guard_PlayerApproachesDoor
+      Object: 0ADE05:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_NamelessAlias
       Object: 248CF0:Starfield.esm
       Alias: 1
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC07_HadrianVVRevealQuest
-      Object: 1F44B2:Starfield.esm
+      Name: UC06_100_VaeVictisIntro
+      Object: 248C11:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_SpaceBattleTeleportMarker
-      Object: 248BF9:Starfield.esm
+      Name: Alias_VVChamberDoor
+      Object: 248CF0:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShip
+      Object: 248CF0:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_PlayerKnows_VVSurvivedExecution
+      Object: 1F42E6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipEnabledLandingLink
+      Object: 01448D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_400_OrlaseGreetingScene
+      Object: 248C09:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Health
+      Object: 0002D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_420_OrlaseEngineDisabled
+      Object: 215DBC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrlaseShip
+      Object: 248CF0:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrlaseID
+      Object: 248CF0:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_DebugMarker01
+      Object: 246B87:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_Debug_TroubleTravelingToDen
+      Object: 2129FF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_OrlaseCabinKey
+      Object: 212A00:Starfield.esm
   Fragments:
   - Stage: 430
     Unknown2: 1
@@ -1502,7 +1503,7 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0xA17FA2
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD4:Starfield.esm
@@ -2180,7 +2181,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 14
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -2440,3 +2441,4 @@ Aliases:
   ALFG: 0
   UniqueActor: 0124B4:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

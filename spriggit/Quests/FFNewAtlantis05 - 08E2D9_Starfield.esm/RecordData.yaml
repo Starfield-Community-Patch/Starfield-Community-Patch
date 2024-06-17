@@ -1,5 +1,6 @@
 FormKey: 08E2D9:Starfield.esm
 EditorID: FFNewAtlantis05
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -37,56 +38,87 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_FFNewAtlantis05_0008E2D9
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis02Misc
-      Object: 042C70:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: EclipticFaction
-      Object: 27028D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Captain
+      Name: Alias_Chest
       Object: 08E2D9:Starfield.esm
-      Alias: 13
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerEnemyFaction
-      Object: 106C2F:Starfield.esm
+      Alias: 18
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Crew02
       Object: 08E2D9:Starfield.esm
       Alias: 25
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis05_LandingFactionShip
-      Object: 041C5F:Starfield.esm
+      Name: FFNewAtlantis05_Slate
+      Object: 08D0E9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SmugglerShip
-      Object: 08E2D9:Starfield.esm
-      Alias: 5
+      Name: FFNewAtlantis05_070_Move_Captain
+      Object: 042C71:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis05_Credits_Medium
-      Object: 089FB2:Starfield.esm
+      Name: FFNewAtlantis05_MissionCargoTypeContraband
+      Object: 08B011:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Slate
       Object: 08E2D9:Starfield.esm
       Alias: 17
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis05_Credits_Small
-      Object: 089FB4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Contraband
-      Object: 08E2D9:Starfield.esm
-      Alias: 19
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis05_Slate
-      Object: 08D0E9:Starfield.esm
+      Name: FFNewAtlantis05_LandingFactionShip
+      Object: 041C5F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_landingMarker
       Object: 08E2D9:Starfield.esm
       Alias: 4
     - MutagenObjectType: ScriptObjectProperty
+      Name: EclipticFaction
+      Object: 27028D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: FFNewAtlantis06
       Object: 089F4E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05_Credits_Medium
+      Object: 089FB2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpawnMarker
+      Object: 08E2D9:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis02Misc
+      Object: 042C70:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SmugglerShip
+      Object: 08E2D9:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05_TL_Captain_Greet
+      Object: 089FB3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ShipInterior
+      Object: 08E2D9:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ShipCrew
+      Object: 08E2D9:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05_Credits_Small
+      Object: 089FB4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Captain
+      Object: 08E2D9:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis05_Global
+      Object: 08B012:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Contraband
+      Object: 08E2D9:Starfield.esm
+      Alias: 19
     - MutagenObjectType: ScriptObjectProperty
       Name: Credits
       Object: 00000F:Starfield.esm
@@ -95,39 +127,8 @@ VirtualMachineAdapter:
       Object: 08E2D9:Starfield.esm
       Alias: 24
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis05_TL_Captain_Greet
-      Object: 089FB3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis05_MissionCargoTypeContraband
-      Object: 08B011:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Chest
-      Object: 08E2D9:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ShipInterior
-      Object: 08E2D9:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
       Name: PlayerFriendFaction
       Object: 106C31:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis05_070_Move_Captain
-      Object: 042C71:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ShipCrew
-      Object: 08E2D9:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpawnMarker
-      Object: 08E2D9:Starfield.esm
-      Alias: 10
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFaction
-      Object: 01C21C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis05_Global
-      Object: 08B012:Starfield.esm
   Fragments:
   - Stage: 90
     Unknown2: 1
@@ -901,7 +902,7 @@ Stages:
     - CompleteQuest
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
+      Unknown1: 0xB330A0
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 08B012:Starfield.esm
@@ -1536,3 +1537,4 @@ Aliases:
     AliasID: 9
     RefType: 2C0FDA:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

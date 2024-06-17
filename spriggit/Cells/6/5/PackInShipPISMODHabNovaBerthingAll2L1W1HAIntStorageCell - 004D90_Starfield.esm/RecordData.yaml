@@ -1,0 +1,47 @@
+FormKey: 004D90:Starfield.esm
+EditorID: PackInShipPISMODHabNovaBerthingAll2L1W1HAIntStorageCell
+FormVersion: 559
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  DirectionalFade: 1
+  FogPower: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Unknown1: 1951
+  NearHeightRange: 10000
+  ForColorHighNear: '#00000000'
+  ForColorHighFar: '#00000000'
+  HighDensityScale: 1
+  FogNearScale: 1
+  FogFarScale: 1
+  FogHighNearScale: 1
+  FogHighFarScale: 1
+  FarHeightRange: 10000
+  Unknown2: -253
+WaterHeight: 3.4028235E+38
+XILS: 1
+ImageSpace: 06AD68:Starfield.esm
+Traversals:
+- Unknown1: 24
+  From: -1.4823776, -1.0532758, -1.1755404
+  To: -1.6981177, 3.0458093, -1.1755404
+  UnknownVector: 3.753807, 5.363579, 0.9601577
+  Unknown: 0x3B463B46B43CAE37
+- Unknown1: 33
+  From: -1.8335915, 3.0463815, -1.1755406
+  To: -1.8335915, -0.97705716, -1.1755404
+  UnknownVector: 3.713097, 5.3149614, 0.96100235
+  Unknown: 0x484248425D361A3A
+- Unknown1: 81
+  From: -1.3085916, 3.1480095, -1.1755404
+  To: -1.3085916, -1.1406691, -1.1755403
+  UnknownVector: 4.0477962, 5.1968946, 0.9090621
+  Unknown: 0x484248421A3B263D
+NumTraversalFluffBytes: 12
+Timestamp: 12497
+TemporaryTimestamp: 12497
+TemporaryUnknownGroupData: 1

@@ -1,6 +1,6 @@
 FormKey: 2C9C97:Starfield.esm
 EditorID: RI01
-FormVersion: 556
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -51,242 +51,242 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_RI01_002C9C97
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_500_Customer02_CommentScene
-      Object: 102F2C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RyujinCoffeeMarker
-      Object: 2C9C97:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_Track_PlayerWillRunThePlace
-      Object: 2783CC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeonStartMarker
-      Object: 2C9C97:Starfield.esm
-      Alias: 12
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionNeon
-      Object: 26FDEA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TomoHigashi
-      Object: 2C9C97:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_Track_PlayerPromisedTomo
-      Object: 26F884:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_500_Customer03_CommentScene
-      Object: 102F2B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerKnows_Bayu
-      Object: 01BE63:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_YukoSerrano
-      Object: 2C9C97:Starfield.esm
-      Alias: 67
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_TomoDead
-      Object: 18534D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AlexisPryce
-      Object: 2C9C97:Starfield.esm
-      Alias: 53
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_250_Imogene_IntroScene
-      Object: 2C9B7B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Confidence
-      Object: 0002BD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR01
-      Object: 2C572B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LaneGarza
-      Object: 2C9C97:Starfield.esm
-      Alias: 26
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_TerraBrewOrder
-      Object: 2C9BCD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CoffeeCamden
-      Object: 2C9C97:Starfield.esm
-      Alias: 63
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_JobAdRadio
-      Object: 2C9C96:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_GenevieveCoffee
-      Object: 140987:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_YukoCoffee
-      Object: 14098A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_GenevieveMonohan
-      Object: 2C9C97:Starfield.esm
-      Alias: 51
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeonTerraBrewCustomer02
-      Object: 2C9C97:Starfield.esm
-      Alias: 41
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_700_Companion_TomoPromiseScene
-      Object: 26F881:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_LindenCoffee
-      Object: 140986:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CamdenCho
-      Object: 2C9C97:Starfield.esm
-      Alias: 54
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerEnemyFaction
-      Object: 106C2F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RyujinPlayerChair
-      Object: 2C9C97:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeonTerraBrewTomoMarker
-      Object: 2C9C97:Starfield.esm
-      Alias: 13
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_Completed
-      Object: 32F8D8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_AlexisCoffee
-      Object: 140985:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeonTerraBrewSceneMarker01
-      Object: 2C9C97:Starfield.esm
-      Alias: 36
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RyujinIndustriesFaction
-      Object: 2C9BF9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PathingOperative
-      Object: 2C9C97:Starfield.esm
-      Alias: 73
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeonTerraBrewCustomer04
-      Object: 2C9C97:Starfield.esm
-      Alias: 43
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_510_Tomo_ConfrontationScene
-      Object: 2C9B79:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeonTerraBrewCustomer03
-      Object: 2C9C97:Starfield.esm
-      Alias: 42
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_200_Lane_GreetingScene
-      Object: 2083C2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerJoined_Ryujin
-      Object: 2AACA7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_RyujinCounter
       Object: 2C9C97:Starfield.esm
       Alias: 8
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeonTerraBrewTomoStartMarker
-      Object: 2C9C97:Starfield.esm
-      Alias: 70
+      Name: RI01_AlexisCoffee
+      Object: 140985:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_400_Imogene_InterviewScene
-      Object: 2C9B7A:Starfield.esm
+      Name: RI01_510_Tomo_ConfrontationScene
+      Object: 2C9B79:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFaction
-      Object: 01C21C:Starfield.esm
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: LC044
       Object: 22F264:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RyujinAlexisConferenceChair
-      Object: 2C9C97:Starfield.esm
-      Alias: 55
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_Track_PlayerWhateverItTakes
-      Object: 2783CD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CityNeonLocation
-      Object: 015FFE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RyujinGenevieveConferenceChair
-      Object: 2C9C97:Starfield.esm
-      Alias: 57
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RyujinLindenConferenceChair
-      Object: 2C9C97:Starfield.esm
-      Alias: 59
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeonTerraBrewCustomer01
-      Object: 2C9C97:Starfield.esm
-      Alias: 40
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_CamdenCoffee
-      Object: 140989:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CoffeeLinden
-      Object: 2C9C97:Starfield.esm
-      Alias: 64
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RyujinCamdenConferenceChair
-      Object: 2C9C97:Starfield.esm
-      Alias: 56
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TerraBrewCoffeeOrder
-      Object: 2C9C97:Starfield.esm
-      Alias: 24
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LindenCalderi
-      Object: 2C9C97:Starfield.esm
-      Alias: 52
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_230_Lane_FollowScene
-      Object: 2083B8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneSalzo
-      Object: 2C9C97:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FactionRyujinIndustriesPerk
-      Object: 1C5152:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CoffeeImogene
-      Object: 2C9C97:Starfield.esm
-      Alias: 61
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_ImogeneCoffee
-      Object: 140988:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Assistance
-      Object: 0002C1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_RyujinImogeneQS
       Object: 2C9C97:Starfield.esm
       Alias: 60
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeonTerraBrewEmployee
+      Name: Alias_RyujinCoffeeMarker
       Object: 2C9C97:Starfield.esm
-      Alias: 2
+      Alias: 9
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CoffeeGenevieve
+      Name: Alias_RyujinAlexisConferenceChair
       Object: 2C9C97:Starfield.esm
-      Alias: 65
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NewAtlantisStartMarker
-      Object: 2C9C97:Starfield.esm
-      Alias: 22
+      Alias: 55
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CoffeeAlexis
       Object: 2C9C97:Starfield.esm
       Alias: 66
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GenevieveMonohan
+      Object: 2C9C97:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_250_Imogene_IntroScene
+      Object: 2C9B7B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_YukoCoffee
+      Object: 14098A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: RI01_500_Tomo_ConfrontationScene
       Object: 2C9B79:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_Track_PlayerWhateverItTakes
+      Object: 2783CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AlexisPryce
+      Object: 2C9C97:Starfield.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_TomoDead
+      Object: 18534D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TerraBrewCoffeeOrder
+      Object: 2C9C97:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoffeeGenevieve
+      Object: 2C9C97:Starfield.esm
+      Alias: 65
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_700_Companion_TomoPromiseScene
+      Object: 26F881:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CamdenCho
+      Object: 2C9C97:Starfield.esm
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_Track_PlayerWillRunThePlace
+      Object: 2783CC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewCustomer04
+      Object: 2C9C97:Starfield.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_500_Customer03_CommentScene
+      Object: 102F2B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonStartMarker
+      Object: 2C9C97:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_400_Imogene_InterviewScene
+      Object: 2C9B7A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_CamdenCoffee
+      Object: 140989:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR01
+      Object: 2C572B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_230_Lane_FollowScene
+      Object: 2083B8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_JobAdRadio
+      Object: 2C9C96:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LaneGarza
+      Object: 2C9C97:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_ImogeneCoffee
+      Object: 140988:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewCustomer03
+      Object: 2C9C97:Starfield.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LindenCalderi
+      Object: 2C9C97:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_200_Lane_GreetingScene
+      Object: 2083C2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoffeeCamden
+      Object: 2C9C97:Starfield.esm
+      Alias: 63
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_GenevieveCoffee
+      Object: 140987:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_Track_PlayerPromisedTomo
+      Object: 26F884:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerKnows_Bayu
+      Object: 01BE63:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PathingOperative
+      Object: 2C9C97:Starfield.esm
+      Alias: 73
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_500_Customer02_CommentScene
+      Object: 102F2C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewCustomer02
+      Object: 2C9C97:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TomoHigashi
+      Object: 2C9C97:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Confidence
+      Object: 0002BD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewTomoMarker
+      Object: 2C9C97:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinGenevieveConferenceChair
+      Object: 2C9C97:Starfield.esm
+      Alias: 57
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinPlayerChair
+      Object: 2C9C97:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinLindenConferenceChair
+      Object: 2C9C97:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_YukoSerrano
+      Object: 2C9C97:Starfield.esm
+      Alias: 67
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneSalzo
+      Object: 2C9C97:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerJoined_Ryujin
+      Object: 2AACA7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewEmployee
+      Object: 2C9C97:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoffeeLinden
+      Object: 2C9C97:Starfield.esm
+      Alias: 64
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_TerraBrewOrder
+      Object: 2C9BCD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewSceneMarker01
+      Object: 2C9C97:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_LindenCoffee
+      Object: 140986:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinCamdenConferenceChair
+      Object: 2C9C97:Starfield.esm
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RyujinIndustriesFaction
+      Object: 2C9BF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionRyujinIndustriesPerk
+      Object: 1C5152:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_Completed
+      Object: 32F8D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewTomoStartMarker
+      Object: 2C9C97:Starfield.esm
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonTerraBrewCustomer01
+      Object: 2C9C97:Starfield.esm
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityNeonLocation
+      Object: 015FFE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NewAtlantisStartMarker
+      Object: 2C9C97:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoffeeImogene
+      Object: 2C9C97:Starfield.esm
+      Alias: 61
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI01_002C9C97
@@ -1407,7 +1407,6 @@ Stages:
     Conditions:
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
-      Unknown2: 17625
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C9C97:Starfield.esm
@@ -1857,7 +1856,7 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0x8037A8
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD3:Starfield.esm
@@ -2457,7 +2456,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 15
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -2989,3 +2988,4 @@ Aliases:
   - NoPickpocket
   ALFG: 0
   VoiceTypes: Null
+Timestamp: 12497

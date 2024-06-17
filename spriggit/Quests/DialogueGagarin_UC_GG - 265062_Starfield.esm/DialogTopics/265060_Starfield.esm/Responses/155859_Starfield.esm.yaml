@@ -1,4 +1,5 @@
 FormKey: 155859:Starfield.esm
+FormVersion: 559
 Flags:
   Flags:
   - 0x4
@@ -37,6 +38,7 @@ Responses:
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 2AAE8D:Starfield.esm
@@ -44,12 +46,14 @@ Conditions:
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 1FC858:Starfield.esm
     SecondParameter: 500
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetIsIDConditionData
     FirstParameter: 26502C:Starfield.esm

@@ -1,22 +1,14 @@
 FormKey: 042C70:Starfield.esm
 EditorID: FFNewAtlantis02Misc
-FormVersion: 556
+FormVersion: 559
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
   Fragments:
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
-    FragmentName: Fragment_Stage_0010_Item_00
   - Stage: 20
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
     FragmentName: Fragment_Stage_0020_Item_00
-  - Stage: 30
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
-    FragmentName: Fragment_Stage_0030_Item_00
   - Stage: 40
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
@@ -25,6 +17,14 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
     FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
+    FragmentName: Fragment_Stage_0030_Item_00
   - Stage: 100
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis02Misc_00042C70
@@ -258,3 +258,4 @@ Aliases:
   ALFG: 0
   UniqueActor: 24C49F:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

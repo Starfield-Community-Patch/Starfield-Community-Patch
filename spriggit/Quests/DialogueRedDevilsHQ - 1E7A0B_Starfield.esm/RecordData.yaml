@@ -1,5 +1,6 @@
 FormKey: 1E7A0B:Starfield.esm
 EditorID: DialogueRedDevilsHQ
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: RHQ_QuestScript
@@ -7,76 +8,61 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_DialogueRedDevilsHQ_001E7A0B
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Hadrian
+      Name: Alias_RHQ_FloorMarker_Ext
       Object: 1E7A0B:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_PostQuestline_HadrianScene
-      Object: 1A2F81:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CREW_EliteCrew_Hadrian
-      Object: 1B3F7E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_RHQ_TMDNameOverride
-      Object: 0B968A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09
-      Object: 1FC858:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ExteriorGuard
-      Object: 1E7A0B:Starfield.esm
-      Alias: 10
+      Alias: 35
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_RHQEnableMarker_General_Stage03_PostUC09
       Object: 1E7A0B:Starfield.esm
       Alias: 13
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_DebugMarker
-      Object: 1E79A7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RHQEnableMarker_Mine_Stage03_PostUC09
-      Object: 1E7A0B:Starfield.esm
-      Alias: 27
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_IntroSceneNPCs
-      Object: 1E7A0B:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RHQ_FloorMarker_Int
-      Object: 1E7A0B:Starfield.esm
-      Alias: 34
+      Name: UC03_RedDevilsHQKey
+      Object: 257EB6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_InteriorCellNameOverride
       Object: 1E7A0B:Starfield.esm
       Alias: 32
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RHQ_FloorMarker_Ext
-      Object: 1E7A0B:Starfield.esm
-      Alias: 35
+      Name: UC08
+      Object: 2062C3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC03_RedDevilsHQKey
-      Object: 257EB6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RHQ_ExtDebugMarker
-      Object: 1617FF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC05_HadrianSandboxing_PostUC05
-      Object: 20B7C0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_POI064RedDevilsHQ
-      Object: 1E7A0B:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RHQEnableMarker_Aliens_Stage02_LateUC07
-      Object: 1E7A0B:Starfield.esm
-      Alias: 16
+      Name: UC09_KaiserTeleportMarker
+      Object: 1E79A9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_RHQElevatorManager
       Object: 1E7A0B:Starfield.esm
       Alias: 33
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04
-      Object: 1E7A0A:Starfield.esm
+      Name: Alias_RHQ_FloorMarker_Int
+      Object: 1E7A0B:Starfield.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RHQ_ExtDebugMarker
+      Object: 1617FF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_RHQ_TMDNameOverride
+      Object: 0B968A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hadrian
+      Object: 1E7A0B:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_Aliens_Stage02_LateUC07
+      Object: 1E7A0B:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_Mine_Stage03_PostUC09
+      Object: 1E7A0B:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_RHQ_RCAllowed
+      Object: 182C49:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCNewAtlantisUCFaction
+      Object: 2C5402:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC05_HadrianSandboxing_PostUC05
+      Object: 20B7C0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Jakob
       Object: 1E7A0B:Starfield.esm
@@ -94,15 +80,25 @@ VirtualMachineAdapter:
       Object: 1E7A0B:Starfield.esm
       Alias: 17
     - MutagenObjectType: ScriptObjectProperty
+      Name: UC07_JakobTeleportMarker
+      Object: 20B7DB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_POI064RedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PostQuestline_HadrianScene
+      Object: 1A2F81:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: UCR04_MiscPointer
       Object: 17C672:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_EliteCrew_Hadrian
+      Object: 1B3F7E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_ShipServices
       Object: 1E7A0B:Starfield.esm
       Alias: 29
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_RHQ_RCAllowed
-      Object: 182C49:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_RHQEnableMarker_FCObservers_Stage03_PostUC09
       Object: 1E7A0B:Starfield.esm
@@ -112,19 +108,26 @@ VirtualMachineAdapter:
       Object: 1E7A0B:Starfield.esm
       Alias: 23
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExteriorGuard
+      Object: 1E7A0B:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_JakobSandboxing_PostUC03
+      Object: 20B7DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04
+      Object: 1E7A0A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_General_Stage01_PostUC06_DeepMines
+      Object: 1E7A0B:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
       Name: UC09_KaiserSandboxing_PostUC08
       Object: 1E79AA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HQMapMarker
+      Name: Alias_RHQEnableMarker_General_Stage01_PostUC06
       Object: 1E7A0B:Starfield.esm
-      Alias: 30
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RHQEnableMarker_General_Stage02_LateUC07
-      Object: 1E7A0B:Starfield.esm
-      Alias: 12
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_KaiserTeleportMarker
-      Object: 1E79A9:Starfield.esm
+      Alias: 11
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_LandingCellNameOverride
       Object: 1E7A0B:Starfield.esm
@@ -141,6 +144,17 @@ VirtualMachineAdapter:
       Object: 1E7A0B:Starfield.esm
       Alias: 18
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQEnableMarker_General_Stage02_LateUC07
+      Object: 1E7A0B:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HQMapMarker
+      Object: 1E7A0B:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09
+      Object: 1FC858:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_LC028FreightElevatorLoc
       Object: 1E7A0B:Starfield.esm
       Alias: 25
@@ -152,25 +166,12 @@ VirtualMachineAdapter:
       Object: 1E7A0B:Starfield.esm
       Alias: 26
     - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCNewAtlantisUCFaction
-      Object: 2C5402:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08
-      Object: 2062C3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RHQEnableMarker_General_Stage01_PostUC06
+      Name: Alias_IntroSceneNPCs
       Object: 1E7A0B:Starfield.esm
-      Alias: 11
+      Alias: 28
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC07_JakobTeleportMarker
-      Object: 20B7DB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RHQEnableMarker_General_Stage01_PostUC06_DeepMines
-      Object: 1E7A0B:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_JakobSandboxing_PostUC03
-      Object: 20B7DC:Starfield.esm
+      Name: UCR04_DebugMarker
+      Object: 1E79A7:Starfield.esm
   Fragments:
   - Stage: 500
     Unknown2: 1
@@ -864,3 +865,4 @@ Aliases:
     AliasID: 25
     RefType: 0B96C1:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

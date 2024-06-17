@@ -1,21 +1,10 @@
 FormKey: 223325:Starfield.esm
 EditorID: SettleTridentLuxuryStaryardSpaceCellLocation
-MasterPersistLocationReferences:
-- Actor: 3120D5:Starfield.esm
-  Location: 2233C8:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-LocationCellUniqueReferences:
+FormVersion: 559
+AddedUniqueBaseForms:
 - GenericBaseForm: 0090B8:Starfield.esm
   Ref: 3120D5:Starfield.esm
   Location: 223325:Starfield.esm
-MasterUniqueNpcs: []
-MasterSpecialReferences:
-- LocationRefType: 02271F:Starfield.esm
-  Marker: 223321:Starfield.esm
-  Location: 2233C8:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
 Name:
   TargetLanguage: English
   Values:

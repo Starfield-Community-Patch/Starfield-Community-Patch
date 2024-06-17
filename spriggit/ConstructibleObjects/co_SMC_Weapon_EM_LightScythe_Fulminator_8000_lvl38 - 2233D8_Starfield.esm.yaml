@@ -1,5 +1,6 @@
 FormKey: 2233D8:Starfield.esm
 EditorID: co_SMC_Weapon_EM_LightScythe_Fulminator_8000_lvl38
+FormVersion: 559
 Description:
   TargetLanguage: English
   Values:
@@ -25,7 +26,6 @@ WorkbenchKeyword: 29C480:Starfield.esm
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
-  Unknown2: 17624
   Data:
     MutagenObjectType: HasKeywordConditionData
     FirstParameter: 1453A7:Starfield.esm
@@ -33,7 +33,6 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   CompareOperator: GreaterThanOrEqualTo
   Unknown1: 0x000000
-  Unknown2: 17624
   Data:
     MutagenObjectType: GetLevelConditionData
     RunOnType: Reference

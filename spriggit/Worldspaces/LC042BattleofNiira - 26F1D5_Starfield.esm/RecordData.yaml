@@ -1,0 +1,57 @@
+FormKey: 26F1D5:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: LC042BattleofNiira
+FormVersion: 559
+StarfieldMajorRecordFlags:
+- NotPlayable
+Components:
+- MutagenObjectType: WorldSpaceOverlayComponent
+  SNAM: 0x07590100
+  PNAM: 0x01000000
+  SurfaceBlock: 26F1D4:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Schlacht von Niira
+  - Language: English
+    String: Battle of Niira
+  - Language: Spanish
+    String: Batalla de Niira
+  - Language: French
+    String: Bataille de Niira
+  - Language: Italian
+    String: Battaglia di Niira
+  - Language: Japanese
+    String: ニーラの戦い
+  - Language: Polish
+    String: Bitwa o Niirę
+  - Language: Portuguese_Brazil
+    String: Batalha de Niira
+  - Language: ChineseSimplified
+    String: 涅伊拉星之战
+Location: 2AC0E2:Starfield.esm
+Biome: 0B2D7D:Starfield.esm
+Climate: 174E32:Starfield.esm
+LodWater: 000018:Starfield.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: -2048
+  DefaultWaterHeight: -1000
+MapData: {}
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+- NoGrass
+FNAM: 0x00
+ObjectBoundsMin: -0.09765625, -0.09765625
+ObjectBoundsMax: 0.09765625, 0.09765625
+Music: 1F324B:Starfield.esm
+GNAM: 1
+XCLWs: []
+WHGTs: []
+HNAM: 0x05
+SubCellsTimestamp: 12497
+MajorFlags:
+- 0x4

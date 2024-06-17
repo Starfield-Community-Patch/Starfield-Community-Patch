@@ -1,0 +1,65 @@
+FormKey: 3E5C0D:Starfield.esm
+MajorRecordFlagsRaw: 64
+EditorID: MQ204_Stage610Hellos_Guards
+FormVersion: 559
+StarfieldMajorRecordFlags:
+- 0x40
+Flags:
+  Flags:
+  - ChildInfosDontInheritResetData
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 27AD57:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 2C6D74:Starfield.esm
+    SecondParameter: 610
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 2C6D74:Starfield.esm
+    SecondParameter: 1000
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    FirstParameter: 2891D3:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetIsCurrentLocationConditionData
+    FirstParameter: 01295A:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetIsCurrentLocationConditionData
+    FirstParameter: 19A5C2:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: IsTrespassingConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: 0
+MajorFlags:
+- InfoGroup

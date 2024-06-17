@@ -1,5 +1,6 @@
 FormKey: 00118F:Starfield.esm
 EditorID: MQ_TutorialQuest_Misc06
+FormVersion: 559
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_MQ_TutorialQuest_Misc06_0000118F
@@ -55,7 +56,7 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
+      Unknown1: 0xE66D9F
       Data:
         MutagenObjectType: IsTrueForConditionFormConditionData
         FirstParameter: 000808:StarfieldCommunityPatch.esm
@@ -66,7 +67,7 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
+      Unknown1: 0xE66D9F
       Data:
         MutagenObjectType: IsTrueForConditionFormConditionData
         FirstParameter: 000808:StarfieldCommunityPatch.esm

@@ -1,5 +1,6 @@
 FormKey: 2BACF9:Starfield.esm
 EditorID: MQ206A
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -56,79 +57,37 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_MQ206A_002BACF9
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PictureBarrett
-      Object: 2BACF9:Starfield.esm
-      Alias: 27
+      Name: MQ206A_007a_SarahSpeech
+      Object: 2295B1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_PlayerContemplatesMarker
+      Object: 22AB81:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_Quest_Barrett_Q02
       Object: 002FAE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ00_CompanionWhoDies
-      Object: 005790:Starfield.esm
-      Alias: 4
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ206A_007b_BarrettSpeech
-      Object: 2295B0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnimFaceArchetypeDepressed
-      Object: 0C866D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LodgeBed
-      Object: 2BACF9:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MemorialEaselTrigger
-      Object: 2BACF9:Starfield.esm
-      Alias: 30
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_SarahMorgan_Q01_Post
-      Object: 1046E6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DisembarkingCrew
-      Object: 0174A2:Starfield.esm
-      Alias: 29
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_WalterStroud
-      Object: 2BACF9:Starfield.esm
-      Alias: 10
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ206A_002b_PlayerSkip
-      Object: 19B859:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Vasco
-      Object: 2BACF9:Starfield.esm
-      Alias: 11
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_SarahMorgan_Commitment
-      Object: 27B667:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ206A_002_TransitionFuneral
-      Object: 2BA7A3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ_CompanionDead
-      Object: 2BB89F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SetStage35Trigger
       Object: 2BACF9:Starfield.esm
       Alias: 19
     - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCTheLodge
-      Object: 2956BB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: MQ204xPostQuest
       Object: 19D83A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ206A_007b_MatteoSpeech
-      Object: 2295AF:Starfield.esm
+      Name: Alias_Barrett
+      Object: 2BACF9:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_006_PodiumDone
+      Object: 22AB82:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ206A_004_Casket
       Object: 2BA796:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_Quest_Barrett_Commitment
       Object: 1C7185:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_007b_MatteoSpeech
+      Object: 2295AF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: LodgeStartMarker
       Object: 2824E5:Starfield.esm
@@ -137,93 +96,162 @@ VirtualMachineAdapter:
       Object: 2BACF9:Starfield.esm
       Alias: 4
     - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_CompanionDead
+      Object: 2BB89F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_007b_BarrettSpeech
+      Object: 2295B0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_VladimirSall
       Object: 2BACF9:Starfield.esm
       Alias: 9
     - MutagenObjectType: ScriptObjectProperty
-      Name: LL_Drink_Alcohol_Expensive
-      Object: 309DA5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_Barrett_Q01
-      Object: 0369AB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MatteoKhatri
+      Name: Alias_PictureBarrett
       Object: 2BACF9:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AvailableCompanionFaction
-      Object: 00D875:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_SamCoe_Commitment
-      Object: 0DF7AD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Sona
-      Object: 2BACF9:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AjaMamasa
-      Object: 2BACF9:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ102
-      Object: 0114CD:Starfield.esm
+      Alias: 27
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_JacobCoe
       Object: 2BACF9:Starfield.esm
       Alias: 1
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Andreja
+      Name: MQ00_CompanionWhoDies
+      Object: 005790:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Drink_Alcohol_Expensive
+      Object: 309DA5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vasco
       Object: 2BACF9:Starfield.esm
-      Alias: 7
+      Alias: 11
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_SarahMorgan_Q01
-      Object: 2C7C11:Starfield.esm
+      Name: AvailableCompanionFaction
+      Object: 00D875:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ206A_PlayerContemplatesMarker
-      Object: 22AB81:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CoraCoe
+      Name: Alias_PictureSarahMorgan
       Object: 2BACF9:Starfield.esm
-      Alias: 2
+      Alias: 29
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ206A_006_PodiumDone
-      Object: 22AB82:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TestMQ206AMSG
-      Object: 2B6522:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101
-      Object: 003448:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SarahMorgan
+      Name: Alias_MatteoKhatri
       Object: 2BACF9:Starfield.esm
-      Alias: 5
+      Alias: 8
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PictureAndreja
+      Name: DisembarkingCrew
+      Object: 0174A2:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SamCoe_Commitment
+      Object: 0DF7AD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204
+      Object: 2C6D74:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SarahMorgan_Q01_Post
+      Object: 1046E6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sona
       Object: 2BACF9:Starfield.esm
-      Alias: 26
+      Alias: 23
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ204LodgeAttackClutterEnableMarker
       Object: 15D44B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204EyeAttackEnableMarker
-      Object: 0C907A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PictureSamCoe
-      Object: 2BACF9:Starfield.esm
-      Alias: 28
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PodiumFurniture
       Object: 2BACF9:Starfield.esm
       Alias: 25
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Andreja
+      Object: 2BACF9:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MemorialEaselTrigger
+      Object: 2BACF9:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SarahMorgan
+      Object: 2BACF9:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ102
+      Object: 0114CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCTheLodge
+      Object: 2956BB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SarahMorgan_Q01
+      Object: 2C7C11:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101Debug
+      Object: 0A7D31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PictureSamCoe
+      Object: 2BACF9:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q01
+      Object: 0369AB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WalterStroud
+      Object: 2BACF9:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 003448:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_002b_PlayerSkip
+      Object: 19B859:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SamCoe_Q01
+      Object: 263262:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoraCoe
+      Object: 2BACF9:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TestMQ206AMSG
+      Object: 2B6522:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Andreja_Commitment
+      Object: 0B8633:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeBed
+      Object: 2BACF9:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimFaceArchetypeDepressed
+      Object: 0C866D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Podium
+      Object: 2BACF9:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Andreja_Q01
+      Object: 21ECD0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PictureAndreja
+      Object: 2BACF9:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A_002_TransitionFuneral
+      Object: 2BA7A3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Casket
+      Object: 2BACF9:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
       Name: DismissedCrew
       Object: 0174A2:Starfield.esm
       Alias: 24
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Barrett
+      Name: COM_Quest_SarahMorgan_Commitment
+      Object: 27B667:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Noel
       Object: 2BACF9:Starfield.esm
-      Alias: 6
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Companion
       Object: 2BACF9:Starfield.esm
@@ -233,39 +261,12 @@ VirtualMachineAdapter:
       Object: 2BACF9:Starfield.esm
       Alias: 15
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ206A_007a_SarahSpeech
-      Object: 2295B1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101Debug
-      Object: 0A7D31:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Casket
+      Name: Alias_AjaMamasa
       Object: 2BACF9:Starfield.esm
-      Alias: 12
+      Alias: 3
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PictureSarahMorgan
-      Object: 2BACF9:Starfield.esm
-      Alias: 29
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Noel
-      Object: 2BACF9:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_Andreja_Commitment
-      Object: 0B8633:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_Andreja_Q01
-      Object: 21ECD0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_SamCoe_Q01
-      Object: 263262:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Podium
-      Object: 2BACF9:Starfield.esm
-      Alias: 16
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204
-      Object: 2C6D74:Starfield.esm
+      Name: MQ204EyeAttackEnableMarker
+      Object: 0C907A:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ206A_002BACF9
@@ -1188,6 +1189,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951336
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1204,6 +1206,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951328
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1240,6 +1243,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951312
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1264,6 +1268,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951368
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1288,6 +1293,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951376
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1311,6 +1317,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951384
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1334,6 +1341,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951392
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1350,6 +1358,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951400
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1365,6 +1374,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951408
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1381,6 +1391,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951416
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1404,6 +1415,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951424
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1427,6 +1439,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951432
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1443,6 +1456,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951440
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1459,6 +1473,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951448
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1475,6 +1490,7 @@ Objectives:
       Data:
         MutagenObjectType: GetVMQuestVariableConditionData
         FirstParameter: 2BACF9:Starfield.esm
+        SecondUnusedIntParameter: -1184951456
         SecondParameter: ::MemorialTalksCount_var
       ComparisonValue: 5
     - MutagenObjectType: ConditionFloat
@@ -1804,7 +1820,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 24
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -1854,3 +1870,4 @@ Aliases:
     AliasID: 13
     RefType: 08A108:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

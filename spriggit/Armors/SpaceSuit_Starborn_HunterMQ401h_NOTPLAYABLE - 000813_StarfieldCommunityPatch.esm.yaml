@@ -1,0 +1,93 @@
+FormKey: 000813:StarfieldCommunityPatch.esm
+MajorRecordFlagsRaw: 68
+EditorID: SpaceSuit_Starborn_HunterMQ401h_NOTPLAYABLE
+FormVersion: 559
+StarfieldMajorRecordFlags:
+- NotPlayable
+- 0x40
+ObjectBounds:
+  First: -0.37475586, -0.27148438, -0.0026855469
+  Second: 0.37475586, 0.28295898, 0.27197266
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EB9:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Starborn Spacesuit Venator
+  - Language: English
+    String: Starborn Spacesuit Venator
+  - Language: Spanish
+    String: Traje Estelar de Venator
+  - Language: French
+    String: Combinaison spatiale astrienne Venator
+  - Language: Italian
+    String: Tuta spaziale da Astrale Venator
+  - Language: Japanese
+    String: スターボーン宇宙服ヴェネター
+  - Language: Polish
+    String: Astrański skafander Venator
+  - Language: Portuguese_Brazil
+    String: Traje Espacial Estelar Venator
+  - Language: ChineseSimplified
+    String: 星裔宇航服（维纳托）
+ObjectEffect: 015420:Starfield.esm
+WorldModel:
+  Male:
+    File: SetDressing\SpaceSuitContainer_black.nif
+    FLLD: 0x01000000
+  Female:
+    File: SetDressing\SpaceSuitContainer_black.nif
+    FLLD: 0x01000000
+FirstPersonFlags: 240518168576
+PickupSound:
+  Start: de17433a-89a8-16f1-86d6-7114a3b197bb
+DropdownSound:
+  Start: c02d4adb-7d05-caf3-0f67-b157fe214496
+Race: 00347D:Starfield.esm
+Keywords:
+- 03ED74:Starfield.esm
+- 07FACA:Starfield.esm
+- 11A479:Starfield.esm
+- 23C7C0:Starfield.esm
+- 23C7C1:Starfield.esm
+- 35545C:Starfield.esm
+- 3A0B3B:Starfield.esm
+- 3E612E:Starfield.esm
+Description:
+  TargetLanguage: English
+Armatures:
+- AddonModel: 3E3DB0:Starfield.esm
+- AddonModel: 3E3DAB:Starfield.esm
+- AddonModel: 3E3DAC:Starfield.esm
+- AddonModel: 3E3DAE:Starfield.esm
+- AddonModel: 3E3DB2:Starfield.esm
+- AddonModel: 1E7E74:Starfield.esm
+- AddonModel: 1EA95B:Starfield.esm
+Value: 68340
+Weight: 17.4
+ArmorRating: 580
+Unused: 0x000000
+Resistances:
+- DamageType: 023190:Starfield.esm
+  Value: 580
+- DamageType: 060A81:Starfield.esm
+  Value: 580
+AttachParentSlots:
+- 3E612D:Starfield.esm
+ObjectTemplates:
+- Default: True
+  Properties:
+  - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+    Property: 14
+    Record: 1CBA48:Starfield.esm
+Voice:
+  Category: f828402d-35bb-87db-b72d-890dbded3599
+  Value: 247f475e-a7a8-439f-0465-8fa0412ab886
+Footstep:
+  Category: 7fa543ba-e67b-6976-6d4b-ded8b66e20ac
+  Value: d8874247-6cd7-7f1b-7540-a4bf3b3fa28d
+MajorFlags:
+- NonPlayable
+- Shield

@@ -1,5 +1,6 @@
 FormKey: 227CA2:Starfield.esm
 EditorID: Clothes_Varuun_Ambassador
+FormVersion: 559
 ObjectBounds:
   First: -0.26464844, -0.20669045, 0.0009460449
   Second: 0.26416016, 0.20712791, 0.23083496
@@ -30,8 +31,10 @@ Name:
 WorldModel:
   Male:
     File: SetDressing\OutfitContainer01.nif
+    FLLD: 0x01000000
   Female:
     File: SetDressing\OutfitContainer01.nif
+    FLLD: 0x01000000
 FirstPersonFlags: 104
 Race: 00347D:Starfield.esm
 Keywords:
@@ -41,12 +44,9 @@ Keywords:
 Description:
   TargetLanguage: English
 Armatures:
-- AddonIndex: 0
-  AddonModel: 1E299C:Starfield.esm
-- AddonIndex: 0
-  AddonModel: 001846:Starfield.esm
-- AddonIndex: 0
-  AddonModel: 001C64:Starfield.esm
+- AddonModel: 1E299C:Starfield.esm
+- AddonModel: 001846:Starfield.esm
+- AddonModel: 001C64:Starfield.esm
 Value: 675
 Weight: 1.3
 Unused: 0x000000

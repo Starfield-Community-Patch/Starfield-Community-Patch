@@ -1,36 +1,40 @@
 FormKey: 21710B:Starfield.esm
 EditorID: FFNewHomesteadZ01
+FormVersion: 559
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_Bill_Tour01
-      Object: 00B536:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: FFNewHomesteadZ01_Bill_Tour05
       Object: 00B53D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_TourTip
-      Object: 00B51B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_Bill_Tour04
-      Object: 00B53F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_Bill_Tour03
-      Object: 00B53E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNewHomesteadZ01_Bill_Tour09
       Object: 00B532:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_Bill_Tour02
-      Object: 00B54B:Starfield.esm
+      Name: FFNewHomesteadZ01_Bill_Tour03
+      Object: 00B53E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_TourTip
+      Object: 00B51B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNewHomesteadZ01_Bill_Tour06
       Object: 00B53A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour02
+      Object: 00B54B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour01
+      Object: 00B536:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: FFNewHomesteadZ01_Bill_Tour07
       Object: 00B538:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour04
+      Object: 00B53F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Bill
       Object: 21710B:Starfield.esm
@@ -44,9 +48,6 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNewHomesteadZ01_Foreknowledge_AV
       Object: 00B554:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
   Fragments:
   - Stage: 250
     Unknown2: 1
@@ -1009,7 +1010,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 13
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -1020,3 +1021,4 @@ Aliases:
     Quest: 2A567C:Starfield.esm
     AliasID: 0
   VoiceTypes: 02935D:Starfield.esm
+Timestamp: 12497

@@ -1,91 +1,85 @@
 FormKey: 2AAC9C:Starfield.esm
 EditorID: RI02
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: ri_crimetrackingquestscript
     Properties:
-    - MutagenObjectType: ScriptIntProperty
-      Name: iCompletionStage
-      Data: 10000
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountLarge
-      Object: 03EED7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsReward
-      Object: 03EECF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionSmall
-      Object: 0E5193:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RewardGlobal
       Object: 23DF3A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountMedium
-      Object: 03EED5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalArrestCount
-      Object: 23DE15:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI08_MasakoRemainedCEO
-      Object: 17F175:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionLarge
-      Object: 03EED0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_CreditsRewardDeductionMedium
       Object: 0BCFBE:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_TotalBountiesCount
       Object: 3B3CC1:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: iCompletionStage
+      Data: 10000
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_TotalBodyCount
       Object: 23DE16:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CrimeCountLarge
+      Object: 03EED7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_MasakoRemainedCEO
+      Object: 17F175:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: RI_CrimeCountSmall
       Object: 03EED6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsRewardDeductionLarge
+      Object: 03EED0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalArrestCount
+      Object: 23DE15:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsRewardDeductionSmall
+      Object: 0E5193:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CrimeCountMedium
+      Object: 03EED5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsReward
+      Object: 03EECF:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_RI02_002AAC9C
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AstralLoungeStartMarker
+      Name: Alias_AngeloMarker
       Object: 2AAC9C:Starfield.esm
-      Alias: 28
+      Alias: 23
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RyujinTowerStartMarker
+      Name: Alias_NinaHart
       Object: 2AAC9C:Starfield.esm
-      Alias: 27
+      Alias: 4
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_NinaPresentation
-      Object: 2AAC2C:Starfield.esm
+      Name: NPCDemandMoney_Small
+      Object: 275226:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_NinaPresentationReplacement
       Object: 2AAC9C:Starfield.esm
       Alias: 14
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NinaPresentationStatic
+      Name: Alias_AstralLoungeStartMarker
       Object: 2AAC9C:Starfield.esm
-      Alias: 6
+      Alias: 28
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_FinalResult
-      Object: 25D675:Starfield.esm
+      Name: RIR03_QuestStartKeyword
+      Object: 0C407D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Small
-      Object: 275226:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NinaMarker
+      Name: Alias_RyujinTowerStartMarker
       Object: 2AAC9C:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_LaneUnlockTLs
-      Object: 094B6B:Starfield.esm
+      Alias: 27
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_InfinityLTDMarker
       Object: 2AAC9C:Starfield.esm
       Alias: 34
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AngeloMarker
-      Object: 2AAC9C:Starfield.esm
-      Alias: 23
+      Name: RI02_NinaPresentation
+      Object: 2AAC2C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI02_NinaHartDead
       Object: 25D676:Starfield.esm
@@ -94,24 +88,24 @@ VirtualMachineAdapter:
       Object: 2AAC9C:Starfield.esm
       Alias: 16
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_ZolaAdisaDead
-      Object: 25D678:Starfield.esm
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ZolaAdisa
+      Object: 2AAC9C:Starfield.esm
+      Alias: 1
     - MutagenObjectType: ScriptObjectProperty
       Name: RI01_JobAdRadio
       Object: 2C9C96:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: FactionRyujinIndustriesPerk
+      Object: 1C5152:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI02_ArthurCruzDead
+      Object: 25D677:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: RIR03
       Object: 2BABF3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ArthurCruz
-      Object: 2AAC9C:Starfield.esm
-      Alias: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_500_NinaAngeloScene
-      Object: 25081E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC044
-      Object: 22F264:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_BooneMorgan
       Object: 2AAC9C:Starfield.esm
@@ -121,9 +115,6 @@ VirtualMachineAdapter:
       Object: 2AAC9C:Starfield.esm
       Alias: 17
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_AngeloSoldaniDead
-      Object: 25D674:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_BusinessSuit
       Object: 2AAC9C:Starfield.esm
       Alias: 19
@@ -131,21 +122,17 @@ VirtualMachineAdapter:
       Name: RI02_PlayerMetAngelo
       Object: 13E413:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FactionRyujinIndustriesPerk
-      Object: 1C5152:Starfield.esm
+      Name: LC044
+      Object: 22F264:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_LaneUnlockTLs
+      Object: 094B6B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: NPCDemandMoney_Medium
       Object: 275225:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RIR03_QuestStartKeyword
-      Object: 0C407D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: RI02_PlayerMetNina
       Object: 13E414:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NinaPresentationActivator
-      Object: 2AAC9C:Starfield.esm
-      Alias: 9
     - MutagenObjectType: ScriptObjectProperty
       Name: RI02_NinaRoomKey
       Object: 2AAC2B:Starfield.esm
@@ -153,6 +140,27 @@ VirtualMachineAdapter:
       Name: Alias_AngeloSoldani
       Object: 2AAC9C:Starfield.esm
       Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Large
+      Object: 275224:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NinaMarker
+      Object: 2AAC9C:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI02_ZolaAdisaDead
+      Object: 25D678:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR04
+      Object: 2A8319:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NinaPresentationActivator
+      Object: 2AAC9C:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NinaPresentationStatic
+      Object: 2AAC9C:Starfield.esm
+      Alias: 6
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_DossierArthurCruz
       Object: 2AAC9C:Starfield.esm
@@ -164,37 +172,30 @@ VirtualMachineAdapter:
       Name: RI02_NinaHartDrunk
       Object: 1E0E6A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Large
-      Object: 275224:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR04
-      Object: 2A8319:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NinaHart
-      Object: 2AAC9C:Starfield.esm
-      Alias: 4
+      Name: RI02_500_NinaAngeloScene
+      Object: 25081E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: LC051InfinityLTDFaction
       Object: 27AD57:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ArthurCruz
+      Object: 2AAC9C:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI02_FinalResult
+      Object: 25D675:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: RI01
       Object: 2C9C97:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ZolaAdisa
-      Object: 2AAC9C:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionNeon
-      Object: 26FDEA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_ArthurCruzDead
-      Object: 25D677:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RIR01
       Object: 2C572B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Credits
       Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI02_AngeloSoldaniDead
+      Object: 25D674:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI02_002AAC9C
@@ -1367,7 +1368,7 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0x7939A7
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD3:Starfield.esm
@@ -1607,7 +1608,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 10
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -1882,3 +1883,4 @@ Aliases:
   ALFG: 0
   ForcedReference: 159C4C:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

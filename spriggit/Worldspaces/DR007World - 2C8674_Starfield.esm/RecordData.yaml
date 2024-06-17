@@ -1,6 +1,6 @@
 FormKey: 2C8674:Starfield.esm
 EditorID: DR007World
-FormVersion: 556
+FormVersion: 559
 Components:
 - MutagenObjectType: WorldSpaceOverlayComponent
   SNAM: 0x00000000
@@ -26,27 +26,23 @@ Components:
   - MutagenObjectType: ConditionGlobal
     CompareOperator: GreaterThan
     Unknown1: 0x000000
-    Unknown2: 17625
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 000039:Starfield.esm
     ComparisonValue: 0F78AC:Starfield.esm
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
-    Unknown2: 17625
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1C3FB6:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
-    Unknown2: 17625
     Data:
       MutagenObjectType: SystemHasKeywordConditionData
       FirstParameter: 1E79B9:Starfield.esm
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
-    Unknown2: 17625
     Data:
       MutagenObjectType: GetIsCurrentLocationConditionData
       FirstParameter: 01A8E4:Starfield.esm
@@ -90,3 +86,4 @@ GNAM: 1
 XCLWs: []
 WHGTs: []
 HNAM: 0x05
+SubCellsTimestamp: 12497

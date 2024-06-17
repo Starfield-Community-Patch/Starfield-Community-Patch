@@ -1,5 +1,6 @@
 FormKey: 29EF60:Starfield.esm
 EditorID: RAD02
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: RAD02Script
@@ -1166,7 +1167,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 1
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -1177,3 +1178,4 @@ Aliases:
     Quest: 2A567C:Starfield.esm
     AliasID: 0
   VoiceTypes: Null
+Timestamp: 12497

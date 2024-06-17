@@ -1,5 +1,6 @@
 FormKey: 299E79:Starfield.esm
 EditorID: MS05
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -29,56 +30,56 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_MS05_00299E79
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: DebugStaryardMarker
-      Object: 27A99F:Starfield.esm
+      Name: PMS05_Stage500Temp_Message
+      Object: 299D03:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05Market
+      Object: 17CE3D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MS05_Foreknowledge_FrankConvinceAV
       Object: 11C57B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MS05Budget
-      Object: 299D05:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS05_Stage300Temp_Message
-      Object: 299D04:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: SE_Player_ZW16a_Timestamp
       Object: 212CFA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MS05_RDIntroScene
       Object: 299D10:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SE_Player_ZW16b_Timestamp
-      Object: 212D09:Starfield.esm
+      Name: MS05Reward
+      Object: 11D452:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MS05_Stage500Temp_Message
-      Object: 299D03:Starfield.esm
+      Name: DebugStaryardMarker
+      Object: 27A99F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05Budget
+      Object: 299D05:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05_Foreknowledge_JulesConvinceAV
+      Object: 11C57C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MS05ShipDesign
       Object: 299D06:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MS05Market
-      Object: 17CE3D:Starfield.esm
+      Name: MS05_Stage500Temp_Message
+      Object: 299D03:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05Interpersonal
+      Object: 17CE3C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SE_Player_ZW16b_Timestamp
+      Object: 212D09:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS05_Stage300Temp_Message
+      Object: 299D04:Starfield.esm
     - MutagenObjectType: ScriptFloatProperty
       Name: cooldownDays
       Data: 2
     - MutagenObjectType: ScriptObjectProperty
       Name: MS05BudgetPlayerPay
       Object: 16E1D7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS05Interpersonal
-      Object: 17CE3C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS05Reward
-      Object: 11D452:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS05_Foreknowledge_JulesConvinceAV
-      Object: 11C57C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PMS05_Stage500Temp_Message
-      Object: 299D03:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_MS05_00299E79
@@ -252,7 +253,7 @@ VirtualMachineAdapter:
         Structs:
         - Members:
           - MutagenObjectType: ScriptIntProperty
-            Name: itemID
+            Name: ItemID
             Data: 4
           - MutagenObjectType: ScriptIntProperty
             Name: StageToSet
@@ -1383,7 +1384,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 12
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -1495,3 +1496,4 @@ Aliases:
     AliasID: 0
     RefType: 16786B:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

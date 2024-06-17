@@ -1,5 +1,6 @@
 FormKey: 21B201:Starfield.esm
 EditorID: MQ_HunterPreMQ106
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: MQHunterPreMQ106Script
@@ -11,11 +12,11 @@ VirtualMachineAdapter:
       Object: 21B201:Starfield.esm
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: LC165_ScriptedTeleportSourceExplosion
-      Object: 12033D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: MQHoldingCellCenterMarker
       Object: 2A04E3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC165_ScriptedTeleportSourceExplosion
+      Object: 12033D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PreMQ106_Akila_HunterMarker
       Object: 21C5BB:Starfield.esm
@@ -23,26 +24,26 @@ VirtualMachineAdapter:
       Name: PreMQ106_NA_HunterMarker
       Object: 0008B8:Starfield.esm
   Fragments:
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
-    FragmentName: Fragment_Stage_0010_Item_00
   - Stage: 125
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
     FragmentName: Fragment_Stage_0125_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
+    FragmentName: Fragment_Stage_0010_Item_00
   - Stage: 225
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
     FragmentName: Fragment_Stage_0225_Item_00
-  - Stage: 700
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
-    FragmentName: Fragment_Stage_0700_Item_00
   - Stage: 1000
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
     FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_HunterPreMQ106_0021B201
+    FragmentName: Fragment_Stage_0700_Item_00
   Aliases:
   - Property:
       Name: ''
@@ -74,11 +75,11 @@ VirtualMachineAdapter:
     - Name: MQ204HunterScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: Health
-        Object: 0002D4:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
         Name: LC165_ScriptedTeleportSourceExplosion
         Object: 12033D:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Health
+        Object: 0002D4:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: MQHoldingCellCenterMarker
         Object: 2A04E3:Starfield.esm
@@ -159,3 +160,4 @@ Aliases:
   ALFG: 0
   UniqueActor: 21C5B4:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

@@ -1,44 +1,48 @@
 FormKey: 270717:Starfield.esm
 EditorID: City_NA_Botany03
+FormVersion: 559
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_City_NA_Botany03_00270717
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_NA_Botany01
-      Object: 270718:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_NA_Botany03_005_Kelton
-      Object: 25E05D:Starfield.esm
+      Name: Alias_Branch_Earl
+      Object: 270717:Starfield.esm
+      Alias: 9
     - MutagenObjectType: ScriptObjectProperty
       Name: RAD02_InterviewCount
       Object: 1829F7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Botany03Pointer
-      Object: 0980E8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TreeSoundMarker
-      Object: 0E997D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: KioskSoundMarker
-      Object: 0E997C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: City_NA_Botany02
       Object: 27071B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: TreeSap_Enabler
-      Object: 04DA43:Starfield.esm
+      Name: Alias_DebugAkilaMarker02
+      Object: 270717:Starfield.esm
+      Alias: 11
     - MutagenObjectType: ScriptObjectProperty
-      Name: pCity_NA_Botany03_FlowerStateChange
-      Object: 06D59B:Starfield.esm
+      Name: Alias_SSNNDebugMarker
+      Object: 270717:Starfield.esm
+      Alias: 12
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_DebugAkilaMarker01
       Object: 270717:Starfield.esm
       Alias: 10
     - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Botany01
+      Object: 270718:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TreeSoundMarker
+      Object: 0E997D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_KeltonFrush
       Object: 270717:Starfield.esm
       Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pCity_NA_Botany03_FlowerStateChange
+      Object: 06D59B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Botany03Pointer
+      Object: 0980E8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Branch
       Object: 270717:Starfield.esm
@@ -48,29 +52,26 @@ VirtualMachineAdapter:
       Object: 270717:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DebugAkilaMarker02
-      Object: 270717:Starfield.esm
-      Alias: 11
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_EarlFulton
       Object: 270717:Starfield.esm
       Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SSNNDebugMarker
-      Object: 270717:Starfield.esm
-      Alias: 12
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Kelton_Slate
-      Object: 270717:Starfield.esm
-      Alias: 7
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Leah_Safe
       Object: 270717:Starfield.esm
       Alias: 14
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Branch_Earl
+      Name: Alias_Kelton_Slate
       Object: 270717:Starfield.esm
-      Alias: 9
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Botany03_005_Kelton
+      Object: 25E05D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TreeSap_Enabler
+      Object: 04DA43:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KioskSoundMarker
+      Object: 0E997C:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_NA_Botany03_00270717
@@ -208,21 +209,21 @@ TextDisplayGlobals:
 - 092FE9:Starfield.esm
 UnusedConditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 17623
+  Unknown1: 0x8C1400
+  Unknown2: 16650
   Data:
     MutagenObjectType: GetQuestRunningConditionData
     FirstParameter: 270717:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 17623
+  Unknown1: 0x8C1400
+  Unknown2: 16650
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 270717:Starfield.esm
     SecondParameter: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 17623
+  Unknown1: 0x8C1400
+  Unknown2: 16650
   Data:
     MutagenObjectType: GetQuestCompletedConditionData
     FirstParameter: 27071B:Starfield.esm
@@ -1243,7 +1244,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 16
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -1254,3 +1255,4 @@ Aliases:
     Quest: 2A567C:Starfield.esm
     AliasID: 0
   VoiceTypes: 02935D:Starfield.esm
+Timestamp: 12497

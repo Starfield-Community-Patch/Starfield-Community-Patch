@@ -1,6 +1,7 @@
 FormKey: 166407:Starfield.esm
 MajorRecordFlagsRaw: 64
 EditorID: Spacesuit_Ecliptic_Backpack
+FormVersion: 559
 StarfieldMajorRecordFlags:
 - 0x40
 ObjectBounds:
@@ -35,7 +36,9 @@ Name:
 WorldModel:
   Male:
     File: Clothes\Spacesuit_Ecliptic\SpaceSuit_Ecliptic_Backpack_GO.nif
-  Female: {}
+    FLLD: 0x01000000
+  Female:
+    FLLD: 0x01000000
 FirstPersonFlags: SSBackpack
 PickupSound:
   Start: de17433a-89a8-16f1-86d6-7114a3b197bb
@@ -52,8 +55,7 @@ Description:
   TargetLanguage: English
 InstanceNaming: 184BC1:Starfield.esm
 Armatures:
-- AddonIndex: 0
-  AddonModel: 166408:Starfield.esm
+- AddonModel: 166408:Starfield.esm
 Value: 3125
 Weight: 8.3
 ArmorRating: 29

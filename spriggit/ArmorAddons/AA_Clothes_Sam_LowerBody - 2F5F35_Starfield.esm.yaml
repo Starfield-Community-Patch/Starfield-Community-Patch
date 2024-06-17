@@ -1,0 +1,34 @@
+FormKey: 2F5F35:Starfield.esm
+EditorID: AA_Clothes_Sam_LowerBody
+FormVersion: 559
+FirstPersonFlags: LowerBodyVisOnly
+Race: 00347D:Starfield.esm
+DNAMData: 0x00000000000000000000000000
+WorldModel:
+  Male:
+    File: Clothes\outfit_sam\Outfit_Sam_Pants_M.nif
+    FLLD: 0x01000000
+  Female:
+    File: Clothes\outfit_sam\Outfit_Sam_Pants_F.nif
+    FLLD: 0x01000000
+FirstPersonModel:
+  Male:
+    FLLD: 0x01000000
+  Female:
+    FLLD: 0x01000000
+Skeleton:
+  FLLD: 0x01000000
+UnknownModel7:
+  FLLD: 0x01000000
+Morphs:
+  Male:
+    WorldMorph: 2F5F37:Starfield.esm
+  Female:
+    WorldMorph: 3F828A:Starfield.esm
+AdditionalRaces:
+- 034FB1:Starfield.esm
+- 1EE4DA:Starfield.esm
+TintColorMapping: ''
+TintEntryName: ''
+TintEntryValue: ''
+BoneDataModifiers: {}

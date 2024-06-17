@@ -1,7 +1,18 @@
 FormKey: 29C17F:Starfield.esm
 EditorID: Crew_Elite_Hadrian
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
+  - Name: EliteCrew_StartQuestonLoadScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ECQuest
+      Object: 1B3F7E:Starfield.esm
+  - Name: elitecrewdebugscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrewQuest
+      Object: 1B3F7E:Starfield.esm
   - Name: com_crew_giveitemactorscript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
@@ -28,29 +39,20 @@ VirtualMachineAdapter:
   - Name: EliteCrewCrimeResponseScript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: AffinityEventOnCombat
-      Object: 180F0A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AffinityEventOnKill
-      Object: 180F0B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Assistance
-      Object: 0002C1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: COM_AngerReason_Common_1_Murder
       Object: 2C2A36:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_NotCivilian
       Object: 0F223F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CREW_Elite_IsAngry
-      Object: 06D17D:Starfield.esm
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CurrentCompanionFaction
-      Object: 023C01:Starfield.esm
+      Name: AffinityEventOnCombat
+      Object: 180F0A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: EliteCrew_Angry_Message
       Object: 0C6587:Starfield.esm
@@ -58,59 +60,58 @@ VirtualMachineAdapter:
       Name: SQ_Companions
       Object: 2A567C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_Elite_IsAngry
+      Object: 06D17D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnKill
+      Object: 180F0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentCompanionFaction
+      Object: 023C01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Crew
       Object: 2A567D:Starfield.esm
-  - Name: elitecrewdebugscript
-    Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrewQuest
-      Object: 1B3F7E:Starfield.esm
-  - Name: EliteCrew_StartQuestonLoadScript
-    Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ECQuest
-      Object: 1B3F7E:Starfield.esm
   - Name: UC_HadrianSupportScript
     Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CREW_EliteCrew_Hadrian
-      Object: 1B3F7E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueRedDevilsHQ
-      Object: 1E7A0B:Starfield.esm
-    - MutagenObjectType: ScriptBoolProperty
-      Name: DisableOnECPickup
-      Data: True
-    - MutagenObjectType: ScriptObjectProperty
-      Name: POI064RedDevilHq01
-      Object: 28DC4A:Starfield.esm
-    - MutagenObjectType: ScriptBoolProperty
-      Name: SetStageOnRHQQuest
-      Data: True
-    - MutagenObjectType: ScriptBoolProperty
-      Name: TeleportAfterUC05
-      Data: True
     - MutagenObjectType: ScriptBoolProperty
       Name: TeleportAfterUC08
       Data: True
     - MutagenObjectType: ScriptBoolProperty
-      Name: TeleportAfterUC09
+      Name: SetStageOnRHQQuest
       Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09SecondayTeleportDestination
+      Object: 1A0C05:Starfield.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: DisableOnECPickup
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueRedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: TeleportDestination
       Object: 299CF0:Starfield.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: TeleportAfterUC05
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08
+      Object: 2062C3:Starfield.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: TeleportAfterUC09
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: POI064RedDevilHq01
+      Object: 28DC4A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC05
       Object: 2A39BC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08
-      Object: 2062C3:Starfield.esm
+      Name: CREW_EliteCrew_Hadrian
+      Object: 1B3F7E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC09
       Object: 1FC858:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09SecondayTeleportDestination
-      Object: 1A0C05:Starfield.esm
 ObjectBounds:
   First: -0.31000048, -0.31000048, -4.7683716E-07
   Second: 0.31000048, 0.31000048, 1.8000004
@@ -163,14 +164,14 @@ Properties:
 - ActorValue: 0002C6:Starfield.esm
 - ActorValue: 0002C7:Starfield.esm
 - ActorValue: 0002C8:Starfield.esm
-- ActorValue: 0002CC:Starfield.esm
-  Value: 15
 - ActorValue: 0002D4:Starfield.esm
   Value: 300
 - ActorValue: 0002D5:Starfield.esm
   Value: 50
 - ActorValue: 0002DA:Starfield.esm
   Value: 100
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
 - ActorValue: 000385:Starfield.esm
   Value: 100
 Items:

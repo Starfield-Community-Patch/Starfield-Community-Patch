@@ -1,21 +1,20 @@
 FormKey: 014E5B:Starfield.esm
 EditorID: Crew_Elite_GideonAker
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
-  - Name: EliteCrewCrimeResponseScript
+  - Name: EliteCrew_StartQuestonLoadScript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: AffinityEventOnCombat
-      Object: 180F0A:Starfield.esm
+      Name: ECQuest
+      Object: 014E55:Starfield.esm
+  - Name: elitecrewdebugscript
+    Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: AffinityEventOnKill
-      Object: 180F0B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Assistance
-      Object: 0002C1:Starfield.esm
+      Name: CrewQuest
+      Object: 014E55:Starfield.esm
+  - Name: EliteCrewCrimeResponseScript
+    Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_AngerReason_Common_1_Murder
       Object: 2C2A36:Starfield.esm
@@ -23,11 +22,14 @@ VirtualMachineAdapter:
       Name: COM_NotCivilian
       Object: 0F223F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CREW_Elite_IsAngry
-      Object: 06D17D:Starfield.esm
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CurrentCompanionFaction
-      Object: 023C01:Starfield.esm
+      Name: AffinityEventOnCombat
+      Object: 180F0A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: EliteCrew_Angry_Message
       Object: 0C6587:Starfield.esm
@@ -35,18 +37,17 @@ VirtualMachineAdapter:
       Name: SQ_Companions
       Object: 2A567C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_Elite_IsAngry
+      Object: 06D17D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnKill
+      Object: 180F0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentCompanionFaction
+      Object: 023C01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Crew
       Object: 2A567D:Starfield.esm
-  - Name: elitecrewdebugscript
-    Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrewQuest
-      Object: 014E55:Starfield.esm
-  - Name: EliteCrew_StartQuestonLoadScript
-    Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ECQuest
-      Object: 014E55:Starfield.esm
 ObjectBounds:
   First: -0.31000048, -0.31000048, -4.7683716E-07
   Second: 0.31000048, 0.31000048, 1.8000004
@@ -90,14 +91,14 @@ Properties:
 - ActorValue: 0002C6:Starfield.esm
 - ActorValue: 0002C7:Starfield.esm
 - ActorValue: 0002C8:Starfield.esm
-- ActorValue: 0002CC:Starfield.esm
-  Value: 15
 - ActorValue: 0002D4:Starfield.esm
   Value: 300
 - ActorValue: 0002D5:Starfield.esm
   Value: 50
 - ActorValue: 0002DA:Starfield.esm
   Value: 100
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
 - ActorValue: 000385:Starfield.esm
   Value: 100
 Items:

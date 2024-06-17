@@ -1,5 +1,6 @@
 FormKey: 2BA8A8:Starfield.esm
 EditorID: RIR03_200_Guard_KeycardScene
+FormVersion: 559
 Flags:
 - Interruptable
 - DisableDialogueCamera
@@ -14,7 +15,8 @@ Phases:
   - MutagenObjectType: ConditionFloat
     Flags:
     - OR
-    Unknown1: 0x000000
+    Unknown1: 0x5C5500
+    Unknown2: 17624
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 00080A:StarfieldCommunityPatch.esm
@@ -23,7 +25,8 @@ Phases:
 - Name: Guard Uniform
   StartConditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
+    Unknown1: 0x5C5500
+    Unknown2: 17624
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1DBE3C:Starfield.esm

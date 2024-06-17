@@ -1,88 +1,8 @@
 FormKey: 0059A7:Starfield.esm
 EditorID: Companion_Andreja
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
-  - Name: companionactorscript
-    Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Affinity
-      Object: 0A1B80:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionID
-      Object: 2BE2D3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionQuest
-      Object: 23DF2A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_PQ_TxtReplace_QuestName
-      Object: 0963E2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_PreventStoryGateScenes
-      Object: 28A168:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
-  - Name: CompanionAffinityScript
-    Properties:
-    - MutagenObjectType: ScriptStructListProperty
-      Name: AngerEventData
-      Structs:
-      - Members:
-        - MutagenObjectType: ScriptObjectProperty
-          Name: AngerLevel
-          Object: 01061B:Starfield.esm
-        - MutagenObjectType: ScriptObjectProperty
-          Name: EventCausingAnger
-          Object: 180F0A:Starfield.esm
-      - Members:
-        - MutagenObjectType: ScriptObjectProperty
-          Name: AngerLevel
-          Object: 01061B:Starfield.esm
-        - MutagenObjectType: ScriptObjectProperty
-          Name: AngerReason
-          Object: 2C2A36:Starfield.esm
-        - MutagenObjectType: ScriptObjectProperty
-          Name: EventCausingAnger
-          Object: 180F0B:Starfield.esm
-      - Members:
-        - MutagenObjectType: ScriptObjectProperty
-          Name: AngerLevel
-          Object: 01061B:Starfield.esm
-        - MutagenObjectType: ScriptObjectProperty
-          Name: AngerReason
-          Object: 2AAE98:Starfield.esm
-        - MutagenObjectType: ScriptObjectProperty
-          Name: EventCausingAnger
-          Object: 3EAD2E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
-  - Name: companioncrimeresponsescript
-    Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AffinityEventOnCombat
-      Object: 180F0A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AffinityEventOnKill
-      Object: 180F0B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Assistance
-      Object: 0002C1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AngerReason_Common_1_Murder
-      Object: 2C2A36:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_NotCivilian
-      Object: 0F223F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CurrentCompanionFaction
-      Object: 023C01:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
   - Name: CompanionDebugScript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
@@ -137,6 +57,87 @@ VirtualMachineAdapter:
         - MutagenObjectType: ScriptIntProperty
           Name: StageToSet
           Data: 6000
+  - Name: CompanionAffinityScript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: AngerEventData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 180F0A:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerReason
+          Object: 2C2A36:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 180F0B:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerReason
+          Object: 2AAE98:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: EventCausingAnger
+          Object: 3EAD2E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: companionactorscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Affinity
+      Object: 0A1B80:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID
+      Object: 2BE2D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionQuest
+      Object: 23DF2A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_TxtReplace_QuestName
+      Object: 0963E2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PreventStoryGateScenes
+      Object: 28A168:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+  - Name: companioncrimeresponsescript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnCombat
+      Object: 180F0A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnKill
+      Object: 180F0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerReason_Common_1_Murder
+      Object: 2C2A36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_NotCivilian
+      Object: 0F223F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentCompanionFaction
+      Object: 023C01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
   - Name: com_crew_giveitemactorscript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
@@ -218,14 +219,14 @@ Properties:
 - ActorValue: 0002C6:Starfield.esm
 - ActorValue: 0002C7:Starfield.esm
 - ActorValue: 0002C8:Starfield.esm
-- ActorValue: 0002CC:Starfield.esm
-  Value: 15
 - ActorValue: 0002D4:Starfield.esm
   Value: 300
 - ActorValue: 0002D5:Starfield.esm
   Value: 50
 - ActorValue: 0002DA:Starfield.esm
   Value: 100
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
 - ActorValue: 000385:Starfield.esm
   Value: 100
 Items:

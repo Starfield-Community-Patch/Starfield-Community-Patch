@@ -1,5 +1,6 @@
 FormKey: 014E55:Starfield.esm
 EditorID: CREW_EliteCrew_GideonAker
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: Crew_EliteCrewQuestScript
@@ -93,8 +94,8 @@ TextDisplayGlobals:
 - 27072B:Starfield.esm
 DialogConditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 17620
+  Unknown1: 0x8C1400
+  Unknown2: 16650
   Data:
     MutagenObjectType: GetIsIDConditionData
     FirstParameter: 014E5B:Starfield.esm
@@ -250,3 +251,4 @@ Aliases:
     Quest: 2A567D:Starfield.esm
     AliasID: 30
   VoiceTypes: Null
+Timestamp: 12497

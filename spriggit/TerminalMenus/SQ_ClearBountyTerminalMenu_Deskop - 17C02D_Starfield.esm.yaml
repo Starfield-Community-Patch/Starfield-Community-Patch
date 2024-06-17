@@ -1,5 +1,6 @@
 FormKey: 17C02D:Starfield.esm
 EditorID: SQ_ClearBountyTerminalMenu_Deskop
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: SQ_ClearBountyTerminalScript
@@ -57,17 +58,17 @@ VirtualMachineAdapter:
           Name: theFaction
           Object: 26310C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ClearBountyTerminalMenu_Submenu
+      Object: 17C02F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: KioskTerminalNoSaleFlag
       Object: 0D0F42:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_ClearBountyConvenienceFee
-      Object: 04297B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_ClearBountyTerminalMenu_Deskop
       Object: 17C02D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_ClearBountyTerminalMenu_Submenu
-      Object: 17C02F:Starfield.esm
+      Name: SQ_ClearBountyConvenienceFee
+      Object: 04297B:Starfield.esm
 Name:
   TargetLanguage: English
   Values:
@@ -184,8 +185,8 @@ BodyTexts:
     CompareOperator: GreaterThan
     Flags:
     - OR
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 17C032:Starfield.esm
@@ -193,8 +194,8 @@ BodyTexts:
     CompareOperator: GreaterThan
     Flags:
     - OR
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 17C036:Starfield.esm
@@ -202,8 +203,8 @@ BodyTexts:
     CompareOperator: GreaterThan
     Flags:
     - OR
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 17C031:Starfield.esm
@@ -211,8 +212,8 @@ BodyTexts:
     CompareOperator: GreaterThan
     Flags:
     - OR
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 0C997B:Starfield.esm
@@ -220,8 +221,8 @@ BodyTexts:
     CompareOperator: GreaterThan
     Flags:
     - OR
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 0C997C:Starfield.esm
@@ -229,8 +230,8 @@ BodyTexts:
     CompareOperator: GreaterThan
     Flags:
     - OR
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 0C997D:Starfield.esm
@@ -238,8 +239,8 @@ BodyTexts:
     CompareOperator: GreaterThan
     Flags:
     - OR
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 0C997F:Starfield.esm
@@ -247,8 +248,8 @@ BodyTexts:
     CompareOperator: GreaterThan
     Flags:
     - OR
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 0C997E:Starfield.esm
@@ -393,15 +394,15 @@ MenuItems:
   Submenu: 17C02F:Starfield.esm
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: SystemHasKeywordConditionData
       FirstParameter: 05BD8B:Starfield.esm
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThan
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 17C031:Starfield.esm
@@ -434,14 +435,14 @@ MenuItems:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThan
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 17C032:Starfield.esm
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: SystemHasKeywordConditionData
       FirstParameter: 1E79B9:Starfield.esm
@@ -474,14 +475,14 @@ MenuItems:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThan
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 17C036:Starfield.esm
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: SystemHasKeywordConditionData
       FirstParameter: 1E79B9:Starfield.esm
@@ -514,14 +515,14 @@ MenuItems:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThan
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 0C997B:Starfield.esm
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: SystemHasKeywordConditionData
       FirstParameter: 1E79B8:Starfield.esm
@@ -554,8 +555,8 @@ MenuItems:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThan
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 0C997C:Starfield.esm
@@ -588,8 +589,8 @@ MenuItems:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThan
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 0C997D:Starfield.esm
@@ -622,8 +623,8 @@ MenuItems:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThan
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 0C997F:Starfield.esm
@@ -656,14 +657,14 @@ MenuItems:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThan
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 0C997E:Starfield.esm
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Unknown2: 17620
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: SystemHasKeywordConditionData
       FirstParameter: 1E79B6:Starfield.esm
@@ -715,16 +716,16 @@ MenuItems:
       String: 遗憾的是，根据本地法律法规，我们不得在联合殖民地领空内提供此服务。欲解决司法困境，请联系联合殖民地当局。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: SystemHasKeywordConditionData
       FirstParameter: 05BD8B:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThan
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 17C031:Starfield.esm
@@ -776,16 +777,16 @@ MenuItems:
       String: 遗憾的是，根据本地法律法规，我们不得在自由星系联盟领空内提供此服务。欲解决司法困境，请联系自由星系联盟当局。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: SystemHasKeywordConditionData
       FirstParameter: 1E79B9:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThan
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 17C032:Starfield.esm
@@ -837,16 +838,16 @@ MenuItems:
       String: 遗憾的是，根据本地法律法规，我们不得在自由星系联盟领空内提供此服务。欲解决司法困境，请联系自由星系联盟当局。
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: SystemHasKeywordConditionData
       FirstParameter: 1E79B9:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThan
-    Unknown1: 0x000000
-    Unknown2: 16667
+    Unknown1: 0x8C1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 17C036:Starfield.esm

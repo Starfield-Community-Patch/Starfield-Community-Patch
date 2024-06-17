@@ -1,5 +1,6 @@
 FormKey: 1336BF:Starfield.esm
 EditorID: Ench_Legendary_Armor_Chameleon
+FormVersion: 559
 ODTY: 0
 Name:
   TargetLanguage: English
@@ -29,14 +30,14 @@ Effects:
     Magnitude: 50
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010812
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 269A0B:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     CompareOperator: LessThan
-    Unknown1: 0x010812
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: GetPerkRankConditionData
       FirstParameter: 2C555E:Starfield.esm
@@ -48,14 +49,14 @@ Effects:
     Magnitude: 20
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010812
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 269A0B:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x010812
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: GetPerkRankConditionData
       FirstParameter: 2C555E:Starfield.esm

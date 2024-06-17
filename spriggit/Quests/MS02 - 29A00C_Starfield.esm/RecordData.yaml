@@ -1,5 +1,6 @@
 FormKey: 29A00C:Starfield.esm
 EditorID: MS02
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -65,23 +66,38 @@ VirtualMachineAdapter:
       Object: 29A00C:Starfield.esm
       Alias: 31
     - MutagenObjectType: ScriptObjectProperty
-      Name: Pragmatists
-      Object: 29A00C:Starfield.esm
-      Alias: 32
+      Name: CrucibleFaction
+      Object: 299F71:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: GenghisKhan
       Object: 29A00C:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_RenegadesFaction
-      Object: 245902:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: AmeliaEarhart
       Object: 29A00C:Starfield.esm
       Alias: 1
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionCrucible
-      Object: 299F72:Starfield.esm
+      Name: Renegades
+      Object: 29A00C:Starfield.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Neutral
+      Object: 29A00C:Starfield.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_PragmatistsFaction
+      Object: 245903:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AdaLovelace
+      Object: 29A00C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Pragmatists
+      Object: 29A00C:Starfield.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_BelieversFaction
+      Object: 245904:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Amanirenas
       Object: 29A00C:Starfield.esm
@@ -91,40 +107,25 @@ VirtualMachineAdapter:
       Object: 29A00C:Starfield.esm
       Alias: 54
     - MutagenObjectType: ScriptObjectProperty
-      Name: Neutral
-      Object: 29A00C:Starfield.esm
-      Alias: 53
+      Name: CrimeFactionCrucible
+      Object: 299F72:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_PragmatistsFaction
-      Object: 245903:Starfield.esm
+      Name: MS02_RenegadesFaction
+      Object: 245902:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FDR
-      Object: 29A00C:Starfield.esm
-      Alias: 6
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFriendFaction
+      Object: 106C31:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: HH_Holmes
       Object: 29A00C:Starfield.esm
       Alias: 4
     - MutagenObjectType: ScriptObjectProperty
-      Name: AdaLovelace
+      Name: FDR
       Object: 29A00C:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerEnemyFaction
-      Object: 106C2F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_BelieversFaction
-      Object: 245904:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Renegades
-      Object: 29A00C:Starfield.esm
-      Alias: 33
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrucibleFaction
-      Object: 299F71:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFriendFaction
-      Object: 106C31:Starfield.esm
+      Alias: 6
     - MutagenObjectType: ScriptObjectProperty
       Name: MS02_CluesCollected
       Object: 29554D:Starfield.esm
@@ -132,49 +133,30 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_MS02_0029A00C
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AdaTempName
+      Name: MS02_Foreknowledge
+      Object: 0F59A9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrucibleFaction
+      Object: 299F71:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EncryptedOverrideCode
       Object: 29A00C:Starfield.esm
-      Alias: 26
+      Alias: 43
     - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_1900_PC_Kills_Crucible
-      Object: 245626:Starfield.esm
+      Name: MS02_GenghisReactivity
+      Object: 04B54E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_SecurityOverrideCode
-      Object: 0F72D1:Starfield.esm
+      Name: MS02_0610_GenghisApproaches
+      Object: 0FC843:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Pragmatists
-      Object: 29A00C:Starfield.esm
-      Alias: 32
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FDRTempName
-      Object: 29A00C:Starfield.esm
-      Alias: 27
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_EncryptedSecurityOverrideCode
-      Object: 0F72D2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_PragmatistsFaction
-      Object: 245903:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_CluesCollected
-      Object: 29554D:Starfield.esm
-    - MutagenObjectType: ScriptFloatProperty
-      Name: cooldownDays
-      Data: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_0100_EmergencyBroadcast
-      Object: 299F5E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AdaLovelace
-      Object: 29A00C:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Believers
-      Object: 29A00C:Starfield.esm
-      Alias: 31
+      Name: PlayerAllyFaction
+      Object: 106C30:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Crucible01
       Object: 0BD77E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_BackdoorFacility
       Object: 29A00C:Starfield.esm
@@ -184,26 +166,43 @@ VirtualMachineAdapter:
       Object: 29A00C:Starfield.esm
       Alias: 34
     - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_1900_PC_Kills_Crucible
+      Object: 245626:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_0100_EmergencyBroadcast
+      Object: 299F5E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_OverrideCode
       Object: 29A00C:Starfield.esm
       Alias: 44
     - MutagenObjectType: ScriptObjectProperty
-      Name: AmeliaEliteCrewQuest
-      Object: 18E24F:Starfield.esm
+      Name: Alias_Renegades
+      Object: 29A00C:Starfield.esm
+      Alias: 33
     - MutagenObjectType: ScriptObjectProperty
       Name: MS02_LeaderReadyToFight
       Object: 1B84A1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerAllyFaction
-      Object: 106C30:Starfield.esm
+      Name: MS02_EncryptedSecurityOverrideCode
+      Object: 0F72D2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GenghisAliens
+      Object: 29A00C:Starfield.esm
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_BeagleNavBeaconMessage
+      Object: 243A0E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionCrucible
+      Object: 299F72:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BeagleMapMarker
+      Object: 29A00C:Starfield.esm
+      Alias: 47
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_NeutralClones
       Object: 29A00C:Starfield.esm
       Alias: 53
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FacilityMapMarker
-      Object: 29A00C:Starfield.esm
-      Alias: 38
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CrucibleCOC
       Object: 29A00C:Starfield.esm
@@ -213,9 +212,26 @@ VirtualMachineAdapter:
       Object: 29A00C:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pragmatists
+      Object: 29A00C:Starfield.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_BelieversFaction
+      Object: 245904:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_CluesCollected
+      Object: 29554D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_DoorPragmatists
       Object: 29A00C:Starfield.esm
       Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Believers
+      Object: 29A00C:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_Delivery
+      Object: 2534D4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerFriendFaction
       Object: 106C31:Starfield.esm
@@ -228,86 +244,71 @@ VirtualMachineAdapter:
       Object: 29A00C:Starfield.esm
       Alias: 2
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EncryptedOverrideCode
+      Name: Alias_FDR
       Object: 29A00C:Starfield.esm
-      Alias: 43
+      Alias: 6
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Beacon01_MapMarker
-      Object: 29A00C:Starfield.esm
-      Alias: 39
+      Name: MS02_SecurityOverrideCode
+      Object: 0F72D1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS02_PragmatistsFaction
+      Object: 245903:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Beagle
       Object: 29A00C:Starfield.esm
       Alias: 52
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Beacon01_MapMarker
+      Object: 29A00C:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AmeliaEliteCrewQuest
+      Object: 18E24F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AdaTempName
+      Object: 29A00C:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AdaLovelace
+      Object: 29A00C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_InitiallyHiddenPeople
       Object: 29A00C:Starfield.esm
       Alias: 37
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Renegades
+      Name: Alias_FDRTempName
       Object: 29A00C:Starfield.esm
-      Alias: 33
+      Alias: 27
     - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_BeagleNavBeaconMessage
-      Object: 243A0E:Starfield.esm
+      Name: Crew_Elite_CanHireAmelia
+      Object: 18E137:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MS02_1090_OriginDoorWarning
       Object: 24CB11:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrucibleFaction
-      Object: 299F71:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FDR
+      Name: Alias_FacilityMapMarker
       Object: 29A00C:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_GenghisAliens
-      Object: 29A00C:Starfield.esm
-      Alias: 35
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_Delivery
-      Object: 2534D4:Starfield.esm
+      Alias: 38
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerEnemyFaction
       Object: 106C2F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_RenegadesFaction
-      Object: 245902:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_Foreknowledge
-      Object: 0F59A9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SE_Player_FAB18a_Timestamp
-      Object: 212C71:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_0610_GenghisApproaches
-      Object: 0FC843:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionCrucible
-      Object: 299F72:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_GenghisReactivity
-      Object: 04B54E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BeagleMapMarker
-      Object: 29A00C:Starfield.esm
-      Alias: 47
-    - MutagenObjectType: ScriptObjectProperty
       Name: MS02_1550_WarningMessage
       Object: 28FE34:Starfield.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: cooldownDays
+      Data: 2
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_FacilityRestrictedTerminal
       Object: 29A00C:Starfield.esm
       Alias: 42
     - MutagenObjectType: ScriptObjectProperty
-      Name: MS02_BelieversFaction
-      Object: 245904:Starfield.esm
+      Name: MS02_RenegadesFaction
+      Object: 245902:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Crew_Elite_CanHireAmelia
-      Object: 18E137:Starfield.esm
+      Name: SE_Player_FAB18a_Timestamp
+      Object: 212C71:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_MS02_0029A00C
@@ -3871,7 +3872,7 @@ Aliases:
       VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 24
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -4003,3 +4004,4 @@ Aliases:
       PackageData:
       - 30A333:Starfield.esm
       VoiceTypes: Null
+Timestamp: 12497

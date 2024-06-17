@@ -1,4 +1,5 @@
 FormKey: 21EAF7:Starfield.esm
+FormVersion: 559
 Flags: {}
 Responses:
 - Emotion: None
@@ -35,12 +36,14 @@ Responses:
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     FirstParameter: 05BD93:Starfield.esm
 - MutagenObjectType: ConditionFloat
   CompareOperator: LessThan
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: IsWeaponOutConditionData
     RunOnType: Reference

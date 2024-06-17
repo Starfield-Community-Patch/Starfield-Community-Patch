@@ -1,5 +1,6 @@
 FormKey: 2956BB:Starfield.esm
 EditorID: DialogueUCTheLodge
+FormVersion: 559
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_DialogueUCTheLodge_002956BB
@@ -68,8 +69,8 @@ Data:
   Unused: 0x000000
 DialogConditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16667
+  Unknown1: 0x8C1400
+  Unknown2: 16650
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 003448:Starfield.esm
@@ -255,3 +256,4 @@ Aliases:
   PackageData:
   - 1F0B87:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

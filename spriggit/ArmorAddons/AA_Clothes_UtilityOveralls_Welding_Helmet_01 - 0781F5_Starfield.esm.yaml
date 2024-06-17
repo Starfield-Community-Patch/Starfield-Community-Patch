@@ -1,17 +1,31 @@
 FormKey: 0781F5:Starfield.esm
 EditorID: AA_Clothes_UtilityOveralls_Welding_Helmet_01
+FormVersion: 559
 FirstPersonFlags: 524305
 Race: 00347D:Starfield.esm
 DNAMData: 0x00000000000000000000000000
 WorldModel:
   Male:
     File: Clothes\Outfit_UtilityOveralls_01\Outfit_UtilityOveralls_Welding_Helmet_01_M.nif
+    FLLD: 0x01000000
+    XFLG: 0x01
     Flags:
     - HasFaceBonesModel
   Female:
     File: Clothes\Outfit_UtilityOveralls_01\Outfit_UtilityOveralls_Welding_Helmet_01_F.nif
+    FLLD: 0x01000000
+    XFLG: 0x01
     Flags:
     - HasFaceBonesModel
+FirstPersonModel:
+  Male:
+    FLLD: 0x01000000
+  Female:
+    FLLD: 0x01000000
+Skeleton:
+  FLLD: 0x01000000
+UnknownModel7:
+  FLLD: 0x01000000
 Morphs:
   Male:
     WorldMorph: 3D9D7B:Starfield.esm

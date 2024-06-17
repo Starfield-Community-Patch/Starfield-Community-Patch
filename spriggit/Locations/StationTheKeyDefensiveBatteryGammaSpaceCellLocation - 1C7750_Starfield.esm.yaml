@@ -1,6 +1,7 @@
 FormKey: 1C7750:Starfield.esm
 EditorID: StationTheKeyDefensiveBatteryGammaSpaceCellLocation
-MasterSpecialReferences:
+FormVersion: 559
+AddedSpecialReferences:
 - LocationRefType: 1C71A7:Starfield.esm
   Marker: 167947:Starfield.esm
   Location: 1C7768:Starfield.esm
@@ -81,11 +82,6 @@ MasterSpecialReferences:
   Location: 1C7768:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-- LocationRefType: 3E60A3:Starfield.esm
-  Marker: 3E60CC:Starfield.esm
-  Location: 1C7768:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
 - LocationRefType: 21E687:Starfield.esm
   Marker: 3E6067:Starfield.esm
   Location: 1C7768:Starfield.esm
@@ -116,17 +112,7 @@ MasterSpecialReferences:
   Location: 1C7768:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-- LocationRefType: 21E688:Starfield.esm
-  Marker: 1C7753:Starfield.esm
-  Location: 1C7768:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 02271F:Starfield.esm
-  Marker: 1C7755:Starfield.esm
-  Location: 1C7768:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-MasterInitiallyDisabledReferences:
+AddedInitiallyDisabledReferences:
 - 167947:Starfield.esm
 - 167947:Starfield.esm
 - 16AE31:Starfield.esm
@@ -149,7 +135,6 @@ MasterInitiallyDisabledReferences:
 - 3E6066:Starfield.esm
 - 3E6065:Starfield.esm
 - 3E6065:Starfield.esm
-- 1C7755:Starfield.esm
 Name:
   TargetLanguage: English
   Values:

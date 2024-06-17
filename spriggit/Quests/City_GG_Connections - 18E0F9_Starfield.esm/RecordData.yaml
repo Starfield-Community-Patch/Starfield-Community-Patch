@@ -1,39 +1,37 @@
 FormKey: 18E0F9:Starfield.esm
 EditorID: City_GG_Connections
+FormVersion: 559
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_City_GG_Connections_0018E0F9
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Bonifac
+      Name: Alias_ScanPoints
       Object: 18E0F9:Starfield.esm
-      Alias: 7
+      Alias: 12
     - MutagenObjectType: ScriptObjectProperty
       Name: City_GG_Connections_Companion_250_RxnToCorpse
       Object: 153DA3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_GG_Mark
+      Object: 18BC56:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_GG_Connect_HelenaKnowsCourierIsDead
+      Object: 1434E4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Package
       Object: 18E0F9:Starfield.esm
       Alias: 9
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC_GG_Connect_HelenaKnowsCourierIsDead
-      Object: 1434E4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ScanPoints
+      Name: Alias_CourierSlate
       Object: 18E0F9:Starfield.esm
-      Alias: 12
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_GG_Connect_DebugMarker01
-      Object: 18E0A7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_GG_Connect_Misc
-      Object: 14AFC2:Starfield.esm
+      Alias: 2
     - MutagenObjectType: ScriptObjectProperty
       Name: UC_GG_Connect_DebugMarker02
       Object: 18E0A6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_GG_Mark
-      Object: 18BC56:Starfield.esm
+      Name: UC_GG_Connect_DebugMarker01
+      Object: 18E0A7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_MurderEnableMarker
       Object: 18E0F9:Starfield.esm
@@ -46,12 +44,15 @@ VirtualMachineAdapter:
       Object: 18E0F9:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CourierSlate
+      Name: Alias_Bonifac
       Object: 18E0F9:Starfield.esm
-      Alias: 2
+      Alias: 7
     - MutagenObjectType: ScriptObjectProperty
       Name: City_GG_Connections_Helena_120_Leads
       Object: 18E0B3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_GG_Connect_Misc
+      Object: 14AFC2:Starfield.esm
   Fragments:
   - Stage: 250
     Unknown2: 1
@@ -441,7 +442,7 @@ Stages:
         BonusCredits: 153DA6:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0x3B52A2
           Data:
             MutagenObjectType: GetGlobalValueConditionData
             FirstParameter: 153DA5:Starfield.esm
@@ -709,7 +710,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 8
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -813,3 +814,4 @@ Aliases:
   ALFG: 0
   ForcedReference: 0DD7A0:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

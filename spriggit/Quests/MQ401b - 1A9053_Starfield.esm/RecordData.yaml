@@ -1,5 +1,6 @@
 FormKey: 1A9053:Starfield.esm
 EditorID: MQ401b
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: MQ401VariantQuestScript
@@ -19,8 +20,8 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_MQ401b_001A9053
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: ConstellationFaction
-      Object: 0191DC:Starfield.esm
+      Name: LodgeKey
+      Object: 293A7D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ401
       Object: 1DC45E:Starfield.esm
@@ -28,30 +29,30 @@ VirtualMachineAdapter:
       Name: MQ401B_OtherPlayerMarker
       Object: 0EAF20:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PotentialCrewFaction
-      Object: 0143A2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ401b_001_LodgeIntro
-      Object: 1801BA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LodgeKey
-      Object: 293A7D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: OtherYouEliteCrewQuest
-      Object: 187431:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ401_SkipMQ
-      Object: 17E006:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AvailableCrewFaction
-      Object: 014314:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ402
-      Object: 1DC418:Starfield.esm
+      Name: ConstellationFaction
+      Object: 0191DC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_OtherPlayer
       Object: 1A9053:Starfield.esm
       Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_SkipMQ
+      Object: 17E006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialCrewFaction
+      Object: 0143A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ402
+      Object: 1DC418:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OtherYouEliteCrewQuest
+      Object: 187431:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvailableCrewFaction
+      Object: 014314:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401b_001_LodgeIntro
+      Object: 1801BA:Starfield.esm
   Fragments:
   - Stage: 110
     Unknown2: 1
@@ -251,3 +252,4 @@ Aliases:
   PackageData:
   - 15DEDC:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

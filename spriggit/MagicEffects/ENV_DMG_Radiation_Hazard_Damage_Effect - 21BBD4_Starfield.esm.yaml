@@ -1,5 +1,6 @@
 FormKey: 21BBD4:Starfield.esm
 EditorID: ENV_DMG_Radiation_Hazard_Damage_Effect
+FormVersion: 559
 Name:
   TargetLanguage: English
   Values:
@@ -44,6 +45,7 @@ Flags:
 - 0x80000
 - Painless
 Unknown: 0x00000000000000000000000000000000000000000000
+Unknown2: '[]'
 Description:
   TargetLanguage: English
   Values:
@@ -67,9 +69,11 @@ Description:
     String: 正在承受环境伤害！
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16667
+  Unknown1: 0x8C1400
+  Unknown2: 16650
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 223D0B:Starfield.esm
   ComparisonValue: 1
+DATADataTypeState:
+- Break0

@@ -1,4 +1,5 @@
 FormKey: 1A6A65:Starfield.esm
+FormVersion: 559
 Flags: {}
 Responses:
 - Emotion: 0D755D:Starfield.esm
@@ -32,6 +33,7 @@ Responses:
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetGlobalValueConditionData
     FirstParameter: 04A45C:Starfield.esm

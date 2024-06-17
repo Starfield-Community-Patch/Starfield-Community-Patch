@@ -1,0 +1,139 @@
+FormKey: 15DA49:Starfield.esm
+FormVersion: 559
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3E5E42:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 2972071
+  TRDAUnknown: 4.8
+  TROTs:
+  - UnknownVoiceType: 052C15:Starfield.esm
+    UnknownFloat: 4.6333337
+  - UnknownVoiceType: 052C16:Starfield.esm
+    UnknownFloat: 0.86666673
+  - UnknownVoiceType: 052C17:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 052C18:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA41:Starfield.esm
+    UnknownFloat: 1.7333335
+  - UnknownVoiceType: 2BCA43:Starfield.esm
+    UnknownFloat: 7.4000006
+  - UnknownVoiceType: 2BCA46:Starfield.esm
+    UnknownFloat: 7.3666673
+  - UnknownVoiceType: 2BCA47:Starfield.esm
+    UnknownFloat: 0.90000004
+  - UnknownVoiceType: 2BCA48:Starfield.esm
+    UnknownFloat: 7.433334
+  - UnknownVoiceType: 2BCA44:Starfield.esm
+    UnknownFloat: 4.566667
+  - UnknownVoiceType: 133CF6:Starfield.esm
+    UnknownFloat: 4.033334
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sehr schick.
+    - Language: English
+      String: Nice hat.
+    - Language: Spanish
+      String: Bonito sombrero.
+    - Language: French
+      String: Joli chapeau.
+    - Language: Italian
+      String: Bel cappello.
+    - Language: Japanese
+      String: いい帽子だ
+    - Language: Polish
+      String: Ładna czapeczka.
+    - Language: Portuguese_Brazil
+      String: Belo chapéu.
+    - Language: ChineseSimplified
+      String: 帽子真不错。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x3091184CE14CD701
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    FirstParameter: 26FDEA:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0E048B:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0BEA53:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 194ABF:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: WornCoversBipedSlotConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 4
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 33B2DD:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: WornApparelHasKeywordCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0E048B:Starfield.esm
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetEquippedConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 02E554:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: GetEquippedConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 24EF42:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

@@ -1,5 +1,6 @@
 FormKey: 1A8B64:Starfield.esm
 EditorID: City_Akila_Jansen
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -8,18 +9,18 @@ VirtualMachineAdapter:
       Name: ChangeLocationStages
       Structs:
       - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 100
         - MutagenObjectType: ScriptBoolProperty
           Name: RequireExactLocation
         - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 200
+          Name: PrereqStage
+          Data: 100
         - MutagenObjectType: ScriptObjectProperty
           Name: targetLocationAlias
           Object: 1A8B64:Starfield.esm
           Alias: 4
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 200
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_PlayerShip
       Object: 0174A2:Starfield.esm
@@ -31,12 +32,12 @@ VirtualMachineAdapter:
       Object: 1A8B64:Starfield.esm
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
+      Name: AnimArchetypeFriendly
+      Object: 03D290:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SimoneJansen
       Object: 1A8B64:Starfield.esm
       Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnimArchetypeFriendly
-      Object: 03D290:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: City_Akila_Jansen_MilenaSpace
       Object: 1A8B65:Starfield.esm
@@ -44,14 +45,34 @@ VirtualMachineAdapter:
       Name: Credits
       Object: 00000F:Starfield.esm
   Fragments:
-  - Stage: 25
+  - Stage: 520
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
-    FragmentName: Fragment_Stage_0025_Item_00
+    FragmentName: Fragment_Stage_0520_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0400_Item_00
   - Stage: 100
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
     FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0025_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_0510_Item_00
+  - Stage: 9000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
+    FragmentName: Fragment_Stage_9000_Item_00
   - Stage: 200
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
@@ -60,30 +81,10 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
     FragmentName: Fragment_Stage_0300_Item_00
-  - Stage: 400
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
-    FragmentName: Fragment_Stage_0400_Item_00
-  - Stage: 500
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
-    FragmentName: Fragment_Stage_0500_Item_00
-  - Stage: 510
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
-    FragmentName: Fragment_Stage_0510_Item_00
-  - Stage: 520
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
-    FragmentName: Fragment_Stage_0520_Item_00
   - Stage: 600
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
     FragmentName: Fragment_Stage_0600_Item_00
-  - Stage: 9000
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_Akila_Jansen_001A8B64
-    FragmentName: Fragment_Stage_9000_Item_00
 Name:
   TargetLanguage: English
   Values:
@@ -555,8 +556,7 @@ Aliases:
   ALFG: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x0A0000
-    Unknown2: 17624
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: BodyHasKeywordConditionData
       FirstParameter: 070A54:Starfield.esm
@@ -599,7 +599,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 7
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - StoresText
@@ -619,7 +619,6 @@ Aliases:
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
-    Unknown2: 16626
     Data:
       MutagenObjectType: GetIsIDConditionData
       FirstParameter: 212148:Starfield.esm

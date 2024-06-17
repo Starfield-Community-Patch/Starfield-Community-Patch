@@ -1,5 +1,6 @@
 FormKey: 013497:Starfield.esm
 EditorID: DialogueUCNewAtlantis
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: DialogueUCNewAtlantisQuestScript
@@ -11,34 +12,43 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_DialogueUCNewAtlantis_00013497
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerHouseSystem
-      Object: 1ABF4E:Starfield.esm
+      Name: UC_NA_Home_Well_Misc
+      Object: 0D37B6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_WellApartmentActivator
-      Object: 013497:Starfield.esm
-      Alias: 60
+      Name: CityNewAtlantisWellApartmentKey
+      Object: 119AA8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerHouse_NA_HomeCost
       Object: 0A62BB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC_NA_Home_Well_Misc
-      Object: 0D37B6:Starfield.esm
+      Name: PlayerHouseSystem
+      Object: 1ABF4E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerHouse_NA_WellCost
-      Object: 0A62BC:Starfield.esm
+      Name: Credits
+      Object: 00000F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerPenthouseDoor
       Object: 013497:Starfield.esm
       Alias: 23
     - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCFactionNewAtlantis
-      Object: 2C5402:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: CityNewAtlantisPenthouseKey
       Object: 0C368B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CityNewAtlantisWellApartmentKey
-      Object: 119AA8:Starfield.esm
+      Name: Alias_ZoraSangweni
+      Object: 013497:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerHouseDoor
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PenthouseDoor
+      Object: 1B1365:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WellApartmentActivator
+      Object: 013497:Starfield.esm
+      Alias: 60
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerHouse_NA_WellCost
+      Object: 0A62BC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC_NA_Home_Penthouse_Misc
       Object: 0C3689:Starfield.esm
@@ -50,17 +60,8 @@ VirtualMachineAdapter:
       Name: RAD03
       Object: 21710A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ZoraSangweni
-      Object: 013497:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PenthouseDoor
-      Object: 1B1365:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerHouseDoor
+      Name: DialogueUCFactionNewAtlantis
+      Object: 2C5402:Starfield.esm
   Fragments:
   - Stage: 365
     Unknown2: 1
@@ -787,3 +788,4 @@ Aliases:
     AliasID: 59
     RefType: 024DC8:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

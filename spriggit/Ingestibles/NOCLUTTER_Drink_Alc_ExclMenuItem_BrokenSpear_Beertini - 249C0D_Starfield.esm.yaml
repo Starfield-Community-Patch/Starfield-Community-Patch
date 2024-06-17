@@ -1,5 +1,6 @@
 FormKey: 249C0D:Starfield.esm
 EditorID: NOCLUTTER_Drink_Alc_ExclMenuItem_BrokenSpear_Beertini
+FormVersion: 559
 ObjectBounds:
   First: -0.050323486, -0.050323486, 0
   Second: 0.05026245, 0.050231934, 0.1116333
@@ -114,8 +115,8 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm

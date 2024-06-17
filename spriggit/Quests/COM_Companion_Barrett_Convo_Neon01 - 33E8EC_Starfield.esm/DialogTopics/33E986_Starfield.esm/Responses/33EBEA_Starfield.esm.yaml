@@ -1,4 +1,5 @@
 FormKey: 33EBEA:Starfield.esm
+FormVersion: 559
 Flags: {}
 Responses:
 - Emotion: 0FA84F:Starfield.esm
@@ -34,6 +35,7 @@ Responses:
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 22DAD6:Starfield.esm
@@ -41,6 +43,7 @@ Conditions:
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 22DAD6:Starfield.esm
@@ -49,6 +52,7 @@ Conditions:
 - MutagenObjectType: ConditionGlobal
   CompareOperator: LessThanOrEqualTo
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetGlobalValueConditionData
     FirstParameter: 06ACEB:Starfield.esm
@@ -56,6 +60,7 @@ Conditions:
 - MutagenObjectType: ConditionGlobal
   CompareOperator: GreaterThanOrEqualTo
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetGlobalValueConditionData
     FirstParameter: 001255:Starfield.esm

@@ -1,100 +1,127 @@
 FormKey: 1E7A0A:Starfield.esm
 EditorID: UCR04
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: UCR04QuestScript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: ActiveCreatureSamples
+      Name: PatrolingEnemies
       Object: 1E7A0A:Starfield.esm
-      Alias: 23
+      Alias: 38
     - MutagenObjectType: ScriptObjectProperty
-      Name: Confidence
-      Object: 0002BD:Starfield.esm
+      Name: REScenePatrolStartLocRef
+      Object: 260E06:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CreatureSamples
+      Name: UCR04_Critters_ReduceIncomingDamage_c75
+      Object: 1CBA53:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_MinSamplesRequired
+      Object: 1E79AC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_MaxSamplesRequired
+      Object: 1E79AD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UnsampledEnemies
       Object: 1E7A0A:Starfield.esm
-      Alias: 21
+      Alias: 27
     - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCFactionAlwaysOn
-      Object: 14618F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: enemies
-      Object: 1E7A0A:Starfield.esm
-      Alias: 3
+      Name: UCR04_SamplesTotalRequired
+      Object: 1E79B2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: LegendaryAlias
       Object: 1E7A0A:Starfield.esm
       Alias: 31
     - MutagenObjectType: ScriptObjectProperty
-      Name: NotAllowedDuringCombat
-      Object: 1413FD:Starfield.esm
+      Name: Confidence
+      Object: 0002BD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PatrolingEnemies
+      Name: UCR04_LegendaryCritterChance
+      Object: 1D0384:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: enemies
       Object: 1E7A0A:Starfield.esm
-      Alias: 38
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_MinPatrollingEnemies
+      Object: 2CD563:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PatrolingEnemy
       Object: 1E7A0A:Starfield.esm
       Alias: 17
     - MutagenObjectType: ScriptObjectProperty
-      Name: PatrolStartMarker
-      Object: 1E7A0A:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
       Name: Player
       Object: 1E7A0A:Starfield.esm
       Alias: 24
     - MutagenObjectType: ScriptObjectProperty
-      Name: REScenePatrolStartLocRef
-      Object: 260E06:Starfield.esm
+      Name: DialogueUCFactionAlwaysOn
+      Object: 14618F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SpawnMarkers
       Object: 1E7A0A:Starfield.esm
       Alias: 9
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04SpecimenTarget
-      Object: 0066AB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_Critters_ReduceIncomingDamage_c75
-      Object: 1CBA53:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_LegendaryCritterChance
-      Object: 1D0384:Starfield.esm
+      Name: UCR04_RequireOutOfCombatHarvesting
+      Object: 06AB7C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UCR04_MaxPatrollingEnemies
       Object: 2CD562:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_MaxSamplesRequired
-      Object: 1E79AD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_MinPatrollingEnemies
-      Object: 2CD563:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_MinSamplesRequired
-      Object: 1E79AC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_RequireOutOfCombatHarvesting
-      Object: 06AB7C:Starfield.esm
+      Name: CreatureSamples
+      Object: 1E7A0A:Starfield.esm
+      Alias: 21
     - MutagenObjectType: ScriptObjectProperty
       Name: UCR04_SamplesHarvested
       Object: 1E79B1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_SamplesTotalRequired
-      Object: 1E79B2:Starfield.esm
+      Name: UCR04_TotalPatrollingEnemies
+      Object: 2CD564:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04SpecimenTarget
+      Object: 0066AB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PatrolStartMarker
+      Object: 1E7A0A:Starfield.esm
+      Alias: 18
     - MutagenObjectType: ScriptObjectProperty
       Name: UCR04_SpecimenSample
       Object: 1E79B0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_TotalPatrollingEnemies
-      Object: 2CD564:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UnsampledEnemies
+      Name: ActiveCreatureSamples
       Object: 1E7A0A:Starfield.esm
-      Alias: 27
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NotAllowedDuringCombat
+      Object: 1413FD:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_UCR04_001E7A0A
     Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DropOffNPC
+      Object: 1E7A0A:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCFaction
+      Object: 2C5402:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_DEBUG_HadrianForKaiser
+      Object: 1868D0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RDHQMapMarker
+      Object: 1E7A0A:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_SamplesTotalRequired
+      Object: 1E79B2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueRedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_100_Jakob_StartUp
+      Object: 1E79B3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_TimesCompleted
+      Object: 1E79B4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_ActiveUCR04Instance
       Object: 1E7A0A:Starfield.esm
@@ -104,45 +131,19 @@ VirtualMachineAdapter:
       Object: 1E7A0A:Starfield.esm
       Alias: 25
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DropOffNPC
-      Object: 1E7A0A:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RDHQMapMarker
-      Object: 1E7A0A:Starfield.esm
-      Alias: 30
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueRedDevilsHQ
-      Object: 1E7A0B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCFaction
-      Object: 2C5402:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_100_Jakob_StartUp
-      Object: 1E79B3:Starfield.esm
+      Name: UCR04_HarvestSamplePerk
+      Object: 0066AA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UCR04_DebugMarker
       Object: 1E79A7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_DEBUG_HadrianForKaiser
-      Object: 1868D0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_HarvestSamplePerk
-      Object: 0066AA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_SamplesTotalRequired
-      Object: 1E79B2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: UCR04_SpecimenSample
       Object: 1E79B0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_TimesCompleted
-      Object: 1E79B4:Starfield.esm
   Fragments:
-  - Stage: 1
+  - Stage: 999
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UCR04_001E7A0A
-    FragmentName: Fragment_Stage_0001_Item_00
+    FragmentName: Fragment_Stage_0999_Item_00
   - Stage: 2
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UCR04_001E7A0A
@@ -151,18 +152,18 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UCR04_001E7A0A
     FragmentName: Fragment_Stage_0100_Item_00
-  - Stage: 500
+  - Stage: 1
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UCR04_001E7A0A
-    FragmentName: Fragment_Stage_0500_Item_00
-  - Stage: 999
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UCR04_001E7A0A
-    FragmentName: Fragment_Stage_0999_Item_00
+    FragmentName: Fragment_Stage_0001_Item_00
   - Stage: 1000
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UCR04_001E7A0A
     FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UCR04_001E7A0A
+    FragmentName: Fragment_Stage_0500_Item_00
   Aliases:
   - Property:
       Name: ''
@@ -173,14 +174,14 @@ VirtualMachineAdapter:
       Properties:
       - MutagenObjectType: ScriptBoolProperty
         Name: CheckNewLocation
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 999
       - MutagenObjectType: ScriptObjectListProperty
         Name: LocationsToCheckAgainst
         Objects:
         - Name: ''
           Object: 2CE18D:Starfield.esm
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 999
       - MutagenObjectType: ScriptIntProperty
         Name: TurnOffStage
         Data: 100
@@ -380,7 +381,7 @@ Stages:
         BonusCredits: 1460FD:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0x71C3A3
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD4:Starfield.esm
@@ -557,8 +558,7 @@ Aliases:
   ALFG: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x0F0000
-    Unknown2: 17624
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: BiomeSupportsCreatureConditionData
       FirstParameter: 06E06A:Starfield.esm
@@ -566,27 +566,23 @@ Aliases:
   ALPS:
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x0F0000
-      Unknown2: 17624
+      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsEncounterAbovePlayerLevelConditionData
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x0F0000
-      Unknown2: 17624
+      Unknown1: 0x000000
       Data:
         MutagenObjectType: BiomeSupportsCreatureConditionData
         FirstParameter: 06E06A:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x0F0000
-      Unknown2: 17624
+      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInSameCurrentLocationAsRefConditionData
         FirstParameter: 000014:Starfield.esm
         SecondParameter: 070A54:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x0F0000
-      Unknown2: 17624
+      Unknown1: 0x000000
       Data:
         MutagenObjectType: BodyHasKeywordConditionData
         FirstParameter: 070A54:Starfield.esm
@@ -602,15 +598,13 @@ Aliases:
   ALFG: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x0F0000
-    Unknown2: 17624
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: BodyHasKeywordConditionData
       FirstParameter: 070A54:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x0F0000
-    Unknown2: 17624
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsInSameCurrentLocationAsAliasConditionData
       FirstParameter: 5
@@ -937,3 +931,4 @@ Aliases:
   Keywords:
   - 1AA357:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

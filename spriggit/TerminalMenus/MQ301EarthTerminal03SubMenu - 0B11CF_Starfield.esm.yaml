@@ -1,5 +1,6 @@
 FormKey: 0B11CF:Starfield.esm
 EditorID: MQ301EarthTerminal03SubMenu
+FormVersion: 559
 VirtualMachineAdapter:
   ScriptFragments:
     Script:
@@ -24,14 +25,14 @@ VirtualMachineAdapter:
         Name: MQ301
         Object: 2A8001:Starfield.esm
     Fragments:
-    - FragmentIndex: 1
-      Unknown2: 1
-      ScriptName: Fragments:Terminals:TERM_MQ301EarthTerminal03Sub_000B11CF
-      FragmentName: Fragment_TerminalMenu_01
     - FragmentIndex: 2
       Unknown2: 1
       ScriptName: Fragments:Terminals:TERM_MQ301EarthTerminal03Sub_000B11CF
       FragmentName: Fragment_TerminalMenu_02
+    - FragmentIndex: 1
+      Unknown2: 1
+      ScriptName: Fragments:Terminals:TERM_MQ301EarthTerminal03Sub_000B11CF
+      FragmentName: Fragment_TerminalMenu_01
     - FragmentIndex: 3
       Unknown2: 1
       ScriptName: Fragments:Terminals:TERM_MQ301EarthTerminal03Sub_000B11CF

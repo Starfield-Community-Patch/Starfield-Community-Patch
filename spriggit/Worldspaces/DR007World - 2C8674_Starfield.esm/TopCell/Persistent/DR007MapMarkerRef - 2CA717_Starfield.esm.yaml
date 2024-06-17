@@ -2,7 +2,7 @@ MutagenObjectType: PlacedObject
 FormKey: 2CA717:Starfield.esm
 MajorRecordFlagsRaw: 1024
 EditorID: DR007MapMarkerRef
-FormVersion: 556
+FormVersion: 559
 StarfieldMajorRecordFlags:
 - 0x400
 VirtualMachineAdapter:
@@ -44,6 +44,7 @@ MapMarker:
     TargetLanguage: English
   VISI: 0
 Layer: 2CA73B:Starfield.esm
+Location: 2C86A8:Starfield.esm
 LinkedReferences:
 - Reference: 2CA718:Starfield.esm
 IsLinkedRefTransient: True

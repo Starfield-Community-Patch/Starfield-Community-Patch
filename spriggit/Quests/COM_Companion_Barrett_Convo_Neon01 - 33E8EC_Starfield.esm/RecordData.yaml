@@ -1,5 +1,6 @@
 FormKey: 33E8EC:Starfield.esm
 EditorID: COM_Companion_Barrett_Convo_Neon01
+FormVersion: 559
 Name:
   TargetLanguage: English
   Values:
@@ -44,11 +45,12 @@ Aliases:
   Conditions:
   - MutagenObjectType: ConditionGlobal
     CompareOperator: LessThanOrEqualTo
-    Unknown1: 0xFFFFFF
-    Unknown2: 17620
+    Unknown1: 0xE83300
+    Unknown2: 16596
     Data:
       MutagenObjectType: GetDistanceConditionData
       UseAliases: True
       FirstParameter: 1
     ComparisonValue: 297E24:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

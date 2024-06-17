@@ -1,5 +1,6 @@
 FormKey: 24AFED:Starfield.esm
 EditorID: DialogueCydonia
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -79,65 +80,50 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_DialogueCydonia_0024AFED
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFCydoniaZ07Misc
-      Object: 30270A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_PlayerKnows_RedDevils
-      Object: 25CDF9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFCydoniaZ08
-      Object: 30B819:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aid_MedPack
-      Object: 00ABF9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_CY_RedTape01_Misc
-      Object: 11500C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueCydonia_Detonation_Helper
-      Object: 0FB71F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_CY_Psych01_Foreknowledge_AV
-      Object: 0E8D3A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SaoirseBowden
+      Name: Alias_TiaWu
       Object: 24AFED:Starfield.esm
-      Alias: 44
+      Alias: 27
     - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueCydonia_EstablishingScene02
-      Object: 11500B:Starfield.esm
+      Name: CY_HurstGone
+      Object: 23481C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AllMiners
-      Object: 24AFED:Starfield.esm
-      Alias: 51
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_CY_Psych01
-      Object: 225130:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ReneeShelby
-      Object: 24AFED:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RivkahOvadia
-      Object: 24AFED:Starfield.esm
-      Alias: 24
+      Name: CY_DetonationCountConditionForm
+      Object: 0FB72E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_OldMiningEquipment
       Object: 24AFED:Starfield.esm
       Alias: 50
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFCydoniaZ08Misc
-      Object: 30B81A:Starfield.esm
+      Name: DialogueCydonia_EstablishingScene02
+      Object: 11500B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFCydoniaZ04
-      Object: 23F810:Starfield.esm
+      Name: DialogueCydonia_Detonation_Helper
+      Object: 0FB71F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_RedTape03
+      Object: 23748F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_StartUp01
+      Object: 222E40:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: DialogueCydoniaDetonationQuestStartKeyword
       Object: 0FB72B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ07
+      Object: 30270B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ04
+      Object: 23F810:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: DenisAverin
       Object: 24AFED:Starfield.esm
       Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ08
+      Object: 30B819:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCydonia_Psych01_Tia_OverhearTopic
+      Object: 0E8D4C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_GillySeong
       Object: 24AFED:Starfield.esm
@@ -147,51 +133,74 @@ VirtualMachineAdapter:
       Object: 24AFED:Starfield.esm
       Alias: 16
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_CY_RedTape03
-      Object: 23748F:Starfield.esm
+      Name: LL_CY_HorusGift
+      Object: 24348C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CY_Anna_CreditsAmount
-      Object: 243491:Starfield.esm
+      Name: Alias_SupervisorIntroMarker
+      Object: 24AFED:Starfield.esm
+      Alias: 33
     - MutagenObjectType: ScriptObjectProperty
       Name: DialogueCydonia_Rivkah_Greeting_CityCYRunaway01_Start
       Object: 2266DC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SaoirseBowden
+      Object: 24AFED:Starfield.esm
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
       Name: City_CY_Runaway01_Whiskey
       Object: 2266DB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CY_Hurst_Donation
-      Object: 20B4B9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueCydonia_Trevor_City_CY_Runaway01_Topic
-      Object: 041175:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: DialogueCydonia_EstablishingScene01
       Object: 24AFD5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_RedTape01_Misc
+      Object: 11500C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CY_Hurst_Donation
+      Object: 20B4B9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_RedTape01
+      Object: 237490:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_RedTape02_HurstNote
+      Object: 23591C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundIndustrialist
+      Object: 22EC7A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: FFCydoniaZ01
       Object: 22E140:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LL_CY_HorusGift
-      Object: 24348C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CY_DetonationCountConditionForm
-      Object: 0FB72E:Starfield.esm
+      Name: City_CY_Psych01Misc
+      Object: 20217B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TrevorMarker
       Object: 24AFED:Starfield.esm
       Alias: 43
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_CY_Runaway01
-      Object: 22686C:Starfield.esm
+      Name: Alias_AllMiners
+      Object: 24AFED:Starfield.esm
+      Alias: 51
     - MutagenObjectType: ScriptObjectProperty
-      Name: CY_HurstGone
-      Object: 23481C:Starfield.esm
+      Name: UC_PlayerKnows_RedDevils
+      Object: 25CDF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TrevorPetyarre
+      Object: 24AFED:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aid_MedPack
+      Object: 00ABF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RivkahOvadia
+      Object: 24AFED:Starfield.esm
+      Alias: 24
     - MutagenObjectType: ScriptObjectProperty
       Name: City_CY_RedTape02_Blackmail
       Object: 0F437A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFCydoniaZ07
-      Object: 30270B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RAD03
       Object: 21710A:Starfield.esm
@@ -199,17 +208,43 @@ VirtualMachineAdapter:
       Name: FFCydoniaZ04Misc
       Object: 1E7A5A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_CY_Runaway01_Misc
-      Object: 0E2802:Starfield.esm
+      Name: City_CY_Psych01
+      Object: 225130:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: DialogueCydonia_RedEyes
       Object: 20B4C3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ08Misc
+      Object: 30B81A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCydonia_Trevor_City_CY_Runaway01_Topic
+      Object: 041175:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_Runaway01
+      Object: 22686C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_Runaway01_Misc
+      Object: 0E2802:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFCydoniaZ07Misc
+      Object: 30270A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_Runaway01_Foreknowledge_RivkahSickAV
+      Object: 0E27DA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_CY_Psych01_Foreknowledge_AV
+      Object: 0E8D3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: DialogueCydonia_ErickJane_NoShip
       Object: 0B214B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_CY_RedTape02_HurstNote
-      Object: 23591C:Starfield.esm
+      Name: MitchBenjamin
+      Object: 24AFED:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReneeShelby
+      Object: 24AFED:Starfield.esm
+      Alias: 23
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TrackerAgent
       Object: 24AFED:Starfield.esm
@@ -224,46 +259,12 @@ VirtualMachineAdapter:
       Name: RAD04
       Object: 216D3D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_CY_Psych01Misc
-      Object: 20217B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_CY_RedTape01
-      Object: 237490:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TiaWu
-      Object: 24AFED:Starfield.esm
-      Alias: 27
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueCydonia_Psych01_Tia_OverhearTopic
-      Object: 0E8D4C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TrevorPetyarre
-      Object: 24AFED:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MitchBenjamin
-      Object: 24AFED:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_CY_StartUp01
-      Object: 222E40:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundIndustrialist
-      Object: 22EC7A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_CY_Runaway01_Foreknowledge_RivkahSickAV
-      Object: 0E27DA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_LaylahPulaski
       Object: 24AFED:Starfield.esm
       Alias: 18
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SupervisorIntroMarker
-      Object: 24AFED:Starfield.esm
-      Alias: 33
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
+      Name: CY_Anna_CreditsAmount
+      Object: 243491:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_DialogueCydonia_0024AFED
@@ -1692,7 +1693,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 35
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -1800,3 +1801,4 @@ Aliases:
         AliasID: 0
         RefType: 18DD98:Starfield.esm
       VoiceTypes: Null
+Timestamp: 12497

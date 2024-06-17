@@ -1,6 +1,6 @@
 FormKey: 01BD20:Starfield.esm
 EditorID: CF06
-FormVersion: 556
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -59,6 +59,9 @@ VirtualMachineAdapter:
       Object: 0174A2:Starfield.esm
   - Name: CF06QuestScript
     Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: iStageDoneWithBayu
+      Data: 230
     - MutagenObjectType: ScriptObjectProperty
       Name: CF06_AstralLoungeLoadDoor
       Object: 01BD20:Starfield.esm
@@ -66,31 +69,28 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: CityNeonTradeTowerAstralLounge
       Object: 279D05:Starfield.esm
-    - MutagenObjectType: ScriptIntProperty
-      Name: iStageToMoveBayu
-      Data: 190
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityNeonTradeTowerAstralLoungeLocation
+      Object: 2CDDFB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Assistance
       Object: 0002C1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_BenjaminBayu
-      Object: 01BD20:Starfield.esm
-      Alias: 7
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: iStageToMoveBayu
+      Data: 190
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Confidence
       Object: 0002BD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFaction
-      Object: 01C21C:Starfield.esm
-    - MutagenObjectType: ScriptIntProperty
-      Name: iStageDoneWithBayu
-      Data: 230
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionNeon
-      Object: 26FDEA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CityNeonTradeTowerAstralLoungeLocation
-      Object: 2CDDFB:Starfield.esm
+      Name: CF06_BenjaminBayu
+      Object: 01BD20:Starfield.esm
+      Alias: 7
     - MutagenObjectType: ScriptObjectProperty
       Name: CF06_AstralLoungeBayuMarker
       Object: 01BD20:Starfield.esm
@@ -106,53 +106,36 @@ VirtualMachineAdapter:
       Name: CF06_EstelleShareHigh
       Object: 0B01B3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_EstelleShareMedium
-      Object: 09ACD9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_EstelleShareLow
-      Object: 0B01B2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_KomikoBribeLow
-      Object: 186ED7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_EPHMarker
-      Object: 1F68D0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_AstralLoungeBayuMarker
-      Object: 1F6FC6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
+      Name: CF06_GenerdyneInnerDoorRef02
+      Object: 24AC9E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF06Naeva
       Object: 01BD20:Starfield.esm
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_ASLMarker
-      Object: 1F68C8:Starfield.esm
+      Name: CF06_EstelleShareMedium
+      Object: 09ACD9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Small
-      Object: 275226:Starfield.esm
+      Name: Credits
+      Object: 00000F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_Stage200_BenjaminBayu_CalloutScene
-      Object: 1F77DF:Starfield.esm
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrimsonFleetCaptainState_Estelle
-      Object: 278E84:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF06_Bodyguard01
-      Object: 01BD20:Starfield.esm
-      Alias: 45
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF06_BreysonBayu
-      Object: 01BD20:Starfield.esm
-      Alias: 8
+      Name: PCF06_GenerdyneExecutiveElevatorKey
+      Object: 03425A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CF06_NaevaWaitsMarker
       Object: 1F68C7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: NPCDemandMoney_Large
       Object: 275224:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_GenerdyneInnerDoorRef01
+      Object: 24ACA0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06Count
+      Object: 01E260:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF06Microdrive
       Object: 01BD20:Starfield.esm
@@ -162,28 +145,53 @@ VirtualMachineAdapter:
       Object: 01BD20:Starfield.esm
       Alias: 2
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF06_ReceptionistPass
-      Object: 01BD20:Starfield.esm
-      Alias: 38
+      Name: CFKey
+      Object: 297E3A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: NPCDemandMoney_Medium
       Object: 275225:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LC082
-      Object: 2BF365:Starfield.esm
+      Name: Alias_CF06_Bodyguard02
+      Object: 01BD20:Starfield.esm
+      Alias: 46
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_MykaRefund
-      Object: 223DDB:Starfield.esm
+      Name: CF02_TheKeyStartRef
+      Object: 229D62:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CFKey
-      Object: 297E3A:Starfield.esm
+      Name: CF06_MSPMarker
+      Object: 1F68D1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_ReceptionistPass
+      Object: 01BD20:Starfield.esm
+      Alias: 38
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF06_Cypher
       Object: 01BD20:Starfield.esm
       Alias: 9
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF02_TheKeyStartRef
-      Object: 229D62:Starfield.esm
+      Name: Alias_CF06_Bodyguard01
+      Object: 01BD20:Starfield.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_EstelleShareLow
+      Object: 0B01B2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_MykaRefund
+      Object: 223DDB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC039
+      Object: 183F61:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_Jazz
+      Object: 01BD20:Starfield.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_EPHMarker
+      Object: 1F68D0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_Receptionist
+      Object: 01BD20:Starfield.esm
+      Alias: 23
     - MutagenObjectType: ScriptObjectProperty
       Name: CF06_EnablerRef
       Object: 0028B3:Starfield.esm
@@ -192,104 +200,96 @@ VirtualMachineAdapter:
       Object: 01BD20:Starfield.esm
       Alias: 4
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06Count
-      Object: 01E260:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF07_DelgadoSceneMarkerRef
-      Object: 1EB440:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF06_Bodyguard02
-      Object: 01BD20:Starfield.esm
-      Alias: 46
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01
-      Object: 1E8E2A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Neon_Euphorika_LoungeCost
-      Object: 160043:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimsonFleetCaptainStateDifficulty_Estelle
-      Object: 1F6FD5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_GenerdyneInnerDoorRef02
-      Object: 24AC9E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF06_Safe
-      Object: 01BD20:Starfield.esm
-      Alias: 39
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FC_Neon_BenjaminBayu
-      Object: 01BE38:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF06_CGSchematicsEncrypted
       Object: 01BD20:Starfield.esm
       Alias: 10
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_KomikoBribeMedium
-      Object: 186ED9:Starfield.esm
+      Name: CF06_AstralLoungeBayuMarker
+      Object: 1F6FC6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_KomikoBribeHigh
+      Object: 186ED8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC082
+      Object: 2BF365:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_ASLMarker
+      Object: 1F68C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01
+      Object: 1E8E2A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainState_Estelle
+      Object: 278E84:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF06_Estelle
       Object: 01BD20:Starfield.esm
       Alias: 1
     - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Small
+      Object: 275226:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_KomikoBribeLow
+      Object: 186ED7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC_Neon_BenjaminBayu
+      Object: 01BE38:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_GDYMarker
+      Object: 1F68CB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF05
+      Object: 21D792:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainStateDifficulty_Estelle
+      Object: 1F6FD5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF06_BreysonBayu
+      Object: 01BD20:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_KomikoBribeMedium
+      Object: 186ED9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: CF_Main
       Object: 178B1E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_GenerdyneInnerDoorRef01
-      Object: 24ACA0:Starfield.esm
+      Name: Neon_Euphorika_LoungeCost
+      Object: 160043:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CF07
       Object: 1EF7F2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_KomikoBribeHigh
-      Object: 186ED8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF06_Receptionist
-      Object: 01BD20:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerEnemyFaction
-      Object: 106C2F:Starfield.esm
+      Name: CF07_DelgadoSceneMarkerRef
+      Object: 1EB440:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: City_NA_Viewport02
       Object: 270719:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_MSPMarker
-      Object: 1F68D1:Starfield.esm
+      Name: CF06_Stage200_BenjaminBayu_CalloutScene
+      Object: 1F77DF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF06_Delgado
       Object: 01BD20:Starfield.esm
       Alias: 12
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_GDYMarker
-      Object: 1F68CB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF06_BenjaminBayu
       Object: 01BD20:Starfield.esm
       Alias: 7
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF05
-      Object: 21D792:Starfield.esm
+      Name: Alias_CF06_Safe
+      Object: 01BD20:Starfield.esm
+      Alias: 39
     - MutagenObjectType: ScriptObjectProperty
-      Name: LC039
-      Object: 183F61:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PCF06_GenerdyneExecutiveElevatorKey
-      Object: 03425A:Starfield.esm
+      Name: CF06_Stage170_BenjaminBayu_CalloutScene
+      Object: 1F77DF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF06_CGSchematicsDecrypted
       Object: 01BD20:Starfield.esm
       Alias: 11
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF06_Jazz
-      Object: 01BD20:Starfield.esm
-      Alias: 37
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_Stage170_BenjaminBayu_CalloutScene
-      Object: 1F77DF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CF07_JazzSceneMarkerRef
       Object: 1EB441:Starfield.esm
@@ -2666,7 +2666,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 36
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -2729,3 +2729,4 @@ Aliases:
   ALFG: 0
   ForcedReference: 1F6FC6:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

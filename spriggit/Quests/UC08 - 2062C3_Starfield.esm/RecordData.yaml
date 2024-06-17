@@ -1,5 +1,6 @@
 FormKey: 2062C3:Starfield.esm
 EditorID: UC08
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: uc08questscript
@@ -25,299 +26,266 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_UC08_002062C3
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: QST_UC08_ResetButtonReboot
-      Object: 00C5EC:Starfield.esm
+      Name: Alias_TransformationRoomDoor
+      Object: 2062C3:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_PostStage150_KaiserMarker
+      Object: 1C5398:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_160_FrontGateGuard_Hustle
+      Object: 1C537E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC07_HadrianTeleportMarker
+      Object: 20B78F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DEBUG_HeatLeechesScatter
+      Object: 2060F1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TTCellSample
+      Object: 2062C3:Starfield.esm
+      Alias: 32
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_DEBUG_HadrianSceneVariant
       Object: 2060CD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SupplyCache01
+      Name: PlayerKnows_HeatLeeches
+      Object: 1F0989:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NonHostileTT
       Object: 2062C3:Starfield.esm
-      Alias: 19
+      Alias: 55
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TransformMorphSpawn
+      Name: UC08_KaiserMarker_Scene150
+      Object: 206139:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_380_Kaiser_UnlockDoor
+      Object: 2060FC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_410_Hadrian_BloomingPlant
+      Object: 2060F2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_HadrianDamageIncreased
+      Object: 085FE6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_TransformedTerrormorphTeleportMarker
+      Object: 1B6359:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueRedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UndergroundDoorInt
       Object: 2062C3:Starfield.esm
-      Alias: 28
+      Alias: 108
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers_UseFollowPlayerCustom
-      Object: 09C16D:Starfield.esm
+      Name: UC07_JakobTeleportMarker
+      Object: 20B7DB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker07
-      Object: 01713A:Starfield.esm
+      Name: UC09
+      Object: 1FC858:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker01
-      Object: 206143:Starfield.esm
+      Name: UC08_570_Hadrian_UtilityPanel
+      Object: 2060D8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_110_Hadrian_ThePlan_Main
-      Object: 206147:Starfield.esm
+      Name: UC09_KaiserSandboxing_PostUC08
+      Object: 1E79AA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundCyberRunner
-      Object: 22EC7D:Starfield.esm
+      Name: Alias_TriggerStage255
+      Object: 2062C3:Starfield.esm
+      Alias: 62
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSGenesisStingerDread4TerrormorphTransform
+      Object: 007D99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_UC08_TowerPing
+      Object: 028FBA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_DEBUG_PortPowerRestored
       Object: 2060D1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DEBUG_TerrormorphTransformation
-      Object: 2060F0:Starfield.esm
+      Name: UC07_HadrianKnowsVVLives
+      Object: 1F42E4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TransformedTerrormorph
-      Object: 2062C3:Starfield.esm
-      Alias: 27
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC05_HadrianSandboxing_PostUC05
-      Object: 20B7C0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_SupportQuest
-      Object: 1C54EA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AceleSampleContainerGamma
-      Object: 2062C3:Starfield.esm
-      Alias: 97
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AcelesSampleTwoINV
-      Object: 2062C3:Starfield.esm
-      Alias: 49
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TestVSWeapons
-      Object: 24AA02:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC07_HadrianVVRevealQuest
-      Object: 1F44B2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_550_HadrianKaiser_SealedChamber
-      Object: 441975:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipEnabledLandingLink
-      Object: 01448D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RDHQShipLandingMarker
-      Object: 2239D3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_HadrianMarker_Scene150
-      Object: 20613B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PortUtilityControls
-      Object: 2062C3:Starfield.esm
-      Alias: 41
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_510_Hadrian_UtilityPanel
-      Object: 2060D8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Ammo777mm
-      Object: 04AD3E:Starfield.esm
+      Name: QST_UC08_UtilityControlFail
+      Object: 00C5EB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TriggerStage521
       Object: 2062C3:Starfield.esm
       Alias: 112
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_318_Hadrian_MoreThralls
-      Object: 085FE4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_KaiserMarker_Scene150
-      Object: 206139:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_410_Hadrian_BloomingPlant
-      Object: 2060F2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_Outfit_Percival_WinterGear
-      Object: 1183ED:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker02
-      Object: 206133:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_KaiserSocialImmune
-      Object: 2062C3:Starfield.esm
-      Alias: 129
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueRedDevilsHQ
-      Object: 1E7A0B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceportGate
-      Object: 2062C3:Starfield.esm
-      Alias: 56
-    - MutagenObjectType: ScriptObjectProperty
-      Name: QST_UC08_Terrormorph_Queen_Death_Scream
-      Object: 02204A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_HadrianMarker_Scene250
-      Object: 206119:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PercivalFinalSceneMarker
-      Object: 1B57AB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_535_Kaiser_ExitUnlocked
-      Object: 1C1189:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UndergroundDoor
-      Object: 2062C3:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Jakob
-      Object: 2062C3:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerKnows_HeatLeeches
-      Object: 1F0989:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FrontAirlock
-      Object: 2062C3:Starfield.esm
-      Alias: 87
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Kaiser
-      Object: 2062C3:Starfield.esm
-      Alias: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VVAudioLog
-      Object: 2062C3:Starfield.esm
-      Alias: 102
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LL_Weapon_Reward_UC08_X989
-      Object: 08AF5D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AceleSampleContainerBeta
-      Object: 2062C3:Starfield.esm
-      Alias: 96
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_PostStage150_KaiserMarker
-      Object: 1C5398:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_330_KaiserHadrianPercival_FindTheManifest
-      Object: 1C5370:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC07_HadrianTeleportMarker
-      Object: 20B78F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HadriansShip_RHQ
-      Object: 2062C3:Starfield.esm
-      Alias: 116
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MUSGenesisStingerDread4TerrormorphTransform
-      Object: 007D99:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AcelesSampleOneINV
-      Object: 2062C3:Starfield.esm
-      Alias: 16
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_TransformedTerrormorphTeleportMarker
-      Object: 1B6359:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_100_Hadrian_WalkIntoMainRoom
-      Object: 206148:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_KaiserMarker_Scene250
-      Object: 206117:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker03
-      Object: 202451:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RangeGuard
-      Object: 2062C3:Starfield.esm
-      Alias: 118
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_HadrianDamageIncrease
-      Object: 085FE7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AceleSampleContainer
-      Object: 2062C3:Starfield.esm
-      Alias: 69
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_520_KaiserHadrian_Queen
-      Object: 44196C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundXenobiologist
-      Object: 22EC6E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_525_Hadrian_QueenAggro
-      Object: 202458:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SecurityOfficeDoor
-      Object: 2062C3:Starfield.esm
-      Alias: 77
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AirlockGate
-      Object: 2062C3:Starfield.esm
-      Alias: 51
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NPC_Terrormorph_Scream_WEF
-      Object: 07F619:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_Hadrian_ECCombatDialogueActive
-      Object: 1477CE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_660_HadrianJakob_ReturnToBase
-      Object: 441995:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC03_RedDevilsHQKey
-      Object: 257EB6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Hadrian
-      Object: 2062C3:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_380_Kaiser_UnlockDoor
-      Object: 2060FC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_KaiserSandboxing_PostUC08
-      Object: 1E79AA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AntiXenoSuit
-      Object: 2062C3:Starfield.esm
-      Alias: 10
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_320_KaiserHadrian_ApproachAcelesPlant
-      Object: 1C5371:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_640_Kaiser_PopChamber
-      Object: 441991:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TransformationLeech
       Object: 2062C3:Starfield.esm
       Alias: 114
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CommanderHatoum
-      Object: 2062C3:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SecurityRebootButton
-      Object: 2062C3:Starfield.esm
-      Alias: 100
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SupplyCaches
-      Object: 2062C3:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DEBUG_TransmitUnlockSound
-      Object: 1C538D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_570_Hadrian_UtilityPanel
-      Object: 2060D8:Starfield.esm
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_AcelesSampleTwoAct
       Object: 2062C3:Starfield.esm
       Alias: 48
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_317_Hadrian_1stThrall
-      Object: 085FE1:Starfield.esm
+      Name: Alias_Hadrian
+      Object: 2062C3:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DebugMarker02a
+      Object: 1B636E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_405_Hadrian_HeatLeeches
+      Object: 2060F3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_JakobSandboxing_PostUC03
+      Object: 20B7DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AcelesSampleTwoINV
+      Object: 2062C3:Starfield.esm
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AceleSampleContainer
+      Object: 2062C3:Starfield.esm
+      Alias: 69
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DebugMarker01
+      Object: 206143:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_535_Kaiser_ExitUnlocked
+      Object: 1C1189:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers_UseFollowPlayerCustom
+      Object: 09C16D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPC_Terrormorph_Scream_WEF
+      Object: 07F619:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_331_KaiserHadrian_FindAcelesSamples
+      Object: 085FCE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_SupportQuest
+      Object: 1C54EA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TransformMorphSpawn
+      Object: 2062C3:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQAceles
+      Object: 2062C3:Starfield.esm
+      Alias: 107
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_JakobMarker_Scene150
+      Object: 20613A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SecurityRebootButton
+      Object: 2062C3:Starfield.esm
+      Alias: 100
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC05_HadrianSandboxing_PostUC05
+      Object: 20B7C0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TrainyardTerrormorphs
+      Object: 2062C3:Starfield.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AceleSampleContainerBeta
+      Object: 2062C3:Starfield.esm
+      Alias: 96
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Agent
       Object: 2062C3:Starfield.esm
       Alias: 99
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceportMapMarker
+      Name: UC08_520_KaiserHadrian_Queen
+      Object: 44196C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_660_HadrianJakob_ReturnToBase
+      Object: 441995:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_379_PercivalKaiser_IntoTheTunnels_Combat
+      Object: 085FC4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_510_Hadrian_UtilityPanel
+      Object: 2060D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_310_HadrianJakob_PointOne
+      Object: 206112:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VVAudioLog
       Object: 2062C3:Starfield.esm
-      Alias: 127
+      Alias: 102
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_405_Hadrian_HeatLeeches
-      Object: 2060F3:Starfield.esm
+      Name: Alias_TMSampleOneACT
+      Object: 2062C3:Starfield.esm
+      Alias: 20
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DEBUG_HeatLeechesScatter
-      Object: 2060F1:Starfield.esm
+      Name: UC08_HadrianDamageIncrease
+      Object: 085FE7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC09
-      Object: 1FC858:Starfield.esm
+      Name: TestVSWeapons
+      Object: 24AA02:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundXenobiologist
+      Object: 22EC6E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UndergroundHeatleeches
+      Object: 2062C3:Starfield.esm
+      Alias: 82
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_HadrianMarker_Scene250
+      Object: 206119:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RecorderTrigger
+      Object: 2062C3:Starfield.esm
+      Alias: 101
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_UC08_LargeDoor_Remote_Unlock
+      Object: 000818:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UndergroundDoor
+      Object: 2062C3:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AceleSampleContainerGamma
+      Object: 2062C3:Starfield.esm
+      Alias: 97
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC07_HadrianVVRevealQuest
+      Object: 1F44B2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DebugMarker07
+      Object: 01713A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TransformedTerrormorph
+      Object: 2062C3:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DEBUG_TerrormorphTransformation
+      Object: 2060F0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AirlockGate
+      Object: 2062C3:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_550_HadrianKaiser_SealedChamber
+      Object: 441975:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_Hadrian_ECCombatDialogueActive
+      Object: 1477CE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_600_HadrianThrowsPower
+      Object: 2060D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Kaiser
+      Object: 2062C3:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SupplyCaches
+      Object: 2062C3:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_317_Hadrian_1stThrall
+      Object: 085FE1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: BackgroundSoldier
       Object: 22EC70:Starfield.esm
@@ -326,29 +294,21 @@ VirtualMachineAdapter:
       Object: 2062C3:Starfield.esm
       Alias: 75
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TriggerStage255
-      Object: 2062C3:Starfield.esm
-      Alias: 62
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AirlockSwitch
-      Object: 2062C3:Starfield.esm
-      Alias: 50
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_507_PowerRestoredScene
-      Object: 085FBB:Starfield.esm
+      Name: UC08_DEBUG_BouncingQueen
+      Object: 1B6354:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_465_HadrianKaiser_HandOverSample
       Object: 2060E7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TransformationRoomDoor
+      Name: UC_NA_CL_PostTerrormorphAttackScene
+      Object: 2ED3A7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundProfessor
+      Object: 22EC72:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportMapMarker
       Object: 2062C3:Starfield.esm
-      Alias: 52
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC07_HadrianKnowsVVLives
-      Object: 1F42E4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_160_FrontGateGuard_Hustle
-      Object: 1C537E:Starfield.esm
+      Alias: 127
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_530_Hadrian_BackToTheSample
       Object: 202457:Starfield.esm
@@ -359,23 +319,33 @@ VirtualMachineAdapter:
       Name: WwiseEvent_QST_UC08_Door_Remote_Unlock
       Object: 000817:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_460_Hadrian_CheerOnDeadTT
+      Object: 1B6358:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: UC08_500_HadrianKaiserJakob_ThirdSample
       Object: 441967:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_365_KaiserHadrian_SampleCollected
       Object: 1C5359:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_460_Hadrian_CheerOnDeadTT
-      Object: 1B6358:Starfield.esm
+      Name: RDHQShipLandingMarker
+      Object: 2239D3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_PercyTeleportMarker_Stage171
       Object: 1C537A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CacheDoors
+      Object: 2062C3:Starfield.esm
+      Alias: 128
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_DebugMarker13
       Object: 202454:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_DebugMarker06
       Object: 1E6E19:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PercivalFinalSceneMarker
+      Object: 1B57AB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_FinalSampleDoor
       Object: 2062C3:Starfield.esm
@@ -384,24 +354,25 @@ VirtualMachineAdapter:
       Name: WwiseEvent_QST_UC08_Robot_Remote_Unlock
       Object: 000B26:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_331_KaiserHadrian_FindAcelesSamples
-      Object: 085FCE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: UC08_330_HadrianJakob_SampleOneAcquired
       Object: 44192C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_531_Hadrian_HandOverFinalSample
       Object: 085FB2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DebugMarker04
+      Object: 20244A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: UC08_DebugMarker11
       Object: 1B6355:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC07_JakobTeleportMarker
-      Object: 20B7DB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_AcelesSampleOne
       Object: 2062C3:Starfield.esm
       Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TerrormorphQueen
+      Object: 2062C3:Starfield.esm
+      Alias: 36
     - MutagenObjectType: ScriptObjectProperty
       Name: FB441BaseMapMarker
       Object: 2BE3BA:Starfield.esm
@@ -409,50 +380,30 @@ VirtualMachineAdapter:
       Name: UC08_530_Hadrian_CollectSample
       Object: 202457:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker15
-      Object: 1B6353:Starfield.esm
+      Name: UC08_HadrianMarker_Scene150
+      Object: 20613B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: ActorShouldHideSpacesuitHelmetCosmeticBreathable_AV
       Object: 0B120B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_165_FrontGateGuard_Direction
-      Object: 1C537D:Starfield.esm
+      Name: UC08_DEBUG_TransmitUnlockSound
+      Object: 1C538D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_FB441OwnerFaction
-      Object: 0648AC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RecorderTrigger
+      Name: Alias_CommanderHatoum
       Object: 2062C3:Starfield.esm
-      Alias: 101
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Weapon_Reward_UC08_X989
+      Object: 08AF5D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_KaiserTeleportMarker_Stage176
       Object: 1B636D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TMSampleOneINV
-      Object: 2062C3:Starfield.esm
-      Alias: 21
-    - MutagenObjectType: ScriptObjectProperty
       Name: ActorShouldShowSpacesuitCosmetic_AV
       Object: 0A73F8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_379_PercivalKaiser_IntoTheTunnels_Combat
-      Object: 085FC4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UndergroundDoorInt
-      Object: 2062C3:Starfield.esm
-      Alias: 108
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DEBUG_RadarSweepSound
-      Object: 206111:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: UC08_382_Hadrian_HandOverSamples
       Object: 085FC3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_QST_UC08_LargeDoor_Remote_Unlock
-      Object: 000818:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker02a
-      Object: 1B636E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_AntiXenoPack
       Object: 2062C3:Starfield.esm
@@ -465,11 +416,15 @@ VirtualMachineAdapter:
       Object: 2062C3:Starfield.esm
       Alias: 86
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
+      Name: Alias_FrontAirlock
+      Object: 2062C3:Starfield.esm
+      Alias: 87
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_371_JakobHadrianKaiser_ScanTwo
       Object: 1F9BCC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundCyberRunner
+      Object: 22EC7D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_400_HadrianKaiser_LazarusPlant
       Object: 2060F4:Starfield.esm
@@ -486,22 +441,23 @@ VirtualMachineAdapter:
       Name: UC08_QueenBattle
       Object: 03E832:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TrainyardTerrormorphs
+      Name: Alias_TMSampleOneINV
       Object: 2062C3:Starfield.esm
-      Alias: 53
+      Alias: 21
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NonHostileTT
+      Name: Alias_TransformRoomDoor
       Object: 2062C3:Starfield.esm
-      Alias: 55
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AcelesSampleOneINV
+      Object: 2062C3:Starfield.esm
+      Alias: 16
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_366_Hadrian_GiveKaiserSample
       Object: 1BA6D1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Outfit_Clothes_Colonist_CroppedVest_01
       Object: 133D6B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DEBUG_BouncingQueen
-      Object: 1B6354:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SecurityOfficeEnableMarker
       Object: 2062C3:Starfield.esm
@@ -511,12 +467,8 @@ VirtualMachineAdapter:
       Object: 2062C3:Starfield.esm
       Alias: 122
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TerrormorphQueen
-      Object: 2062C3:Starfield.esm
-      Alias: 36
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_NA_CL_PostTerrormorphAttackScene
-      Object: 2ED3A7:Starfield.esm
+      Name: UC08_110_Hadrian_ThePlan_Main
+      Object: 206147:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_HadrianTeleportMarker_Stage171
       Object: 1C537B:Starfield.esm
@@ -524,11 +476,13 @@ VirtualMachineAdapter:
       Name: UC08_378_Hadrian_AllSamplesCollected
       Object: 085FC5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_TolimanGuard_UseRange
-      Object: 2D1C9A:Starfield.esm
+      Name: Alias_AirlockSwitch
+      Object: 2062C3:Starfield.esm
+      Alias: 50
     - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_QST_UC08_LargeDoor_Remote_Unlock_Fail
-      Object: 000819:Starfield.esm
+      Name: Alias_ContainerDoors
+      Object: 2062C3:Starfield.esm
+      Alias: 85
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_AntiXenoHelmet
       Object: 2062C3:Starfield.esm
@@ -541,102 +495,149 @@ VirtualMachineAdapter:
       Object: 2062C3:Starfield.esm
       Alias: 91
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ContainerDoors
-      Object: 2062C3:Starfield.esm
-      Alias: 85
+      Name: QST_UC08_ResetButtonReboot
+      Object: 00C5EC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: QST_UC08_UtilityControlFail
-      Object: 00C5EB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UndergroundHeatleeches
-      Object: 2062C3:Starfield.esm
-      Alias: 82
+      Name: WwiseEvent_QST_UC08_LargeDoor_Remote_Unlock_Fail
+      Object: 000819:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_180_KaiserHatoum_CodeHandoff
       Object: 1C5374:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker04
-      Object: 20244A:Starfield.esm
+      Name: UC08_318_Hadrian_MoreThralls
+      Object: 085FE4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SpaceportExit
       Object: 2062C3:Starfield.esm
       Alias: 81
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_ConvincedYasin
-      Object: 21CA91:Starfield.esm
+      Name: Alias_SupplyCache01
+      Object: 2062C3:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_100_Hadrian_WalkIntoMainRoom
+      Object: 206148:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_367_JakobHadrianKaiser_ScanThree
       Object: 1F9BCC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TTCellSample
+      Name: Alias_SecurityOfficeDoor
       Object: 2062C3:Starfield.esm
-      Alias: 32
+      Alias: 77
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TMSampleTwoINV
       Object: 2062C3:Starfield.esm
       Alias: 33
     - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundProfessor
-      Object: 22EC72:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_JakobSandboxing_PostUC03
-      Object: 20B7DC:Starfield.esm
+      Name: UC08_HadrianKaiserFollowingPlayer
+      Object: 1C5362:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TMSampleTwoACT
       Object: 2062C3:Starfield.esm
       Alias: 34
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_HadrianDamageIncreased
-      Object: 085FE6:Starfield.esm
+      Name: UC08_165_FrontGateGuard_Direction
+      Object: 1C537D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TransformRoomDoor
+      Name: UC08_525_Hadrian_QueenAggro
+      Object: 202458:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KaiserSocialImmune
       Object: 2062C3:Starfield.esm
-      Alias: 52
+      Alias: 129
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AntiXenoSuit
+      Object: 2062C3:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_360_HadrianKaiserJakob_SampleThreeScene
       Object: 44193A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TMSampleOneACT
-      Object: 2062C3:Starfield.esm
-      Alias: 20
-    - MutagenObjectType: ScriptObjectProperty
-      Name: QST_UC08_TowerPing
-      Object: 028FBA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_310_HadrianJakob_PointOne
-      Object: 206112:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_HadrianKaiserFollowingPlayer
-      Object: 1C5362:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_JakobMarker_Scene150
-      Object: 20613A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AntiXenoWeapon
-      Object: 2062C3:Starfield.esm
-      Alias: 11
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_AcelesPlantThralls
       Object: 2062C3:Starfield.esm
       Alias: 92
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RHQAceles
+      Name: Alias_PortUtilityControls
       Object: 2062C3:Starfield.esm
-      Alias: 107
+      Alias: 41
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_600_HadrianThrowsPower
-      Object: 2060D3:Starfield.esm
+      Name: UC08_DebugMarker03
+      Object: 202451:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CacheDoors
+      Name: Alias_HadriansShip_RHQ
       Object: 2062C3:Starfield.esm
-      Alias: 128
+      Alias: 116
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AntiXenoWeapon
+      Object: 2062C3:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_ConvincedYasin
+      Object: 21CA91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_320_KaiserHadrian_ApproachAcelesPlant
+      Object: 1C5371:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DebugMarker02
+      Object: 206133:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_TolimanGuard_UseRange
+      Object: 2D1C9A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_Outfit_Percival_WinterGear
+      Object: 1183ED:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_AcelesSampleGammaINV
       Object: 2062C3:Starfield.esm
       Alias: 98
     - MutagenObjectType: ScriptObjectProperty
-      Name: Frontier_ModularREF
-      Object: 03F7E8:Starfield.esm
+      Name: UC08_507_PowerRestoredScene
+      Object: 085FBB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DebugMarker15
+      Object: 1B6353:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_RedDevilsHQKey
+      Object: 257EB6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_UC08_Terrormorph_Queen_Death_Scream
+      Object: 02204A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_640_Kaiser_PopChamber
+      Object: 441991:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipEnabledLandingLink
+      Object: 01448D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportGate
+      Object: 2062C3:Starfield.esm
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jakob
+      Object: 2062C3:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DEBUG_RadarSweepSound
+      Object: 206111:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_KaiserMarker_Scene250
+      Object: 206117:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RangeGuard
+      Object: 2062C3:Starfield.esm
+      Alias: 118
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_330_KaiserHadrianPercival_FindTheManifest
+      Object: 1C5370:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_FB441OwnerFaction
+      Object: 0648AC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ammo777mm
+      Object: 04AD3E:Starfield.esm
   Fragments:
   - Stage: 430
     Unknown2: 1
@@ -1183,28 +1184,6 @@ VirtualMachineAdapter:
       Object: 2062C3:Starfield.esm
       Alias: 5
     Scripts:
-    - Name: DefaultAliasOnItemAddedScriptA
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: itemFilter
-        Object: 206109:Starfield.esm
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 350
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 375
-    - Name: DefaultAliasOnItemAddedScriptC
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: itemFilter
-        Object: 085FCF:Starfield.esm
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 350
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 377
     - Name: DefaultAliasOnItemAddedScriptB
       Properties:
       - MutagenObjectType: ScriptObjectProperty
@@ -1216,6 +1195,28 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 376
+    - Name: DefaultAliasOnItemAddedScriptC
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: itemFilter
+        Object: 085FCF:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 350
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 377
+    - Name: DefaultAliasOnItemAddedScriptA
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: itemFilter
+        Object: 206109:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 350
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 375
     - Name: DefaultAliasOnItemAddedScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
@@ -4455,7 +4456,7 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0x9DF2A1
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD4:Starfield.esm
@@ -6770,7 +6771,7 @@ Aliases:
   VoiceTypes: 215DB9:Starfield.esm
 - MutagenObjectType: QuestReferenceAlias
   ID: 47
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -7432,3 +7433,4 @@ Aliases:
   Keywords:
   - 21B1FC:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

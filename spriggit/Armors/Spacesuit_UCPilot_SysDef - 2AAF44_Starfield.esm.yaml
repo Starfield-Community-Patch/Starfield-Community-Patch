@@ -1,6 +1,7 @@
 FormKey: 2AAF44:Starfield.esm
 MajorRecordFlagsRaw: 64
 EditorID: Spacesuit_UCPilot_SysDef
+FormVersion: 559
 StarfieldMajorRecordFlags:
 - 0x40
 ODTY: 0
@@ -31,8 +32,10 @@ Name:
 WorldModel:
   Male:
     File: SetDressing\SpaceSuitContainer_Green.nif
+    FLLD: 0x01000000
   Female:
     File: SetDressing\SpaceSuitContainer_Green.nif
+    FLLD: 0x01000000
 FirstPersonFlags: SSBODY
 PickupSound:
   Start: de17433a-89a8-16f1-86d6-7114a3b197bb
@@ -49,16 +52,11 @@ Description:
   TargetLanguage: English
 InstanceNaming: 184BC1:Starfield.esm
 Armatures:
-- AddonIndex: 0
-  AddonModel: 009ECC:Starfield.esm
-- AddonIndex: 0
-  AddonModel: 009ECB:Starfield.esm
-- AddonIndex: 0
-  AddonModel: 009ECD:Starfield.esm
-- AddonIndex: 0
-  AddonModel: 162B9D:Starfield.esm
-- AddonIndex: 0
-  AddonModel: 398092:Starfield.esm
+- AddonModel: 009ECC:Starfield.esm
+- AddonModel: 009ECB:Starfield.esm
+- AddonModel: 009ECD:Starfield.esm
+- AddonModel: 162B9D:Starfield.esm
+- AddonModel: 398092:Starfield.esm
 Value: 6325
 Weight: 7.4
 ArmorRating: 64

@@ -1,0 +1,305 @@
+FormKey: 01E5D6:Starfield.esm
+EditorID: UC_NA_KeeperAquilus
+FormVersion: 559
+ObjectBounds:
+  First: -0.31000048, -0.31000048, -4.7683716E-07
+  Second: 0.31000048, 0.31000048, 1.8000004
+ODTY: 0
+ObjectPlacementDefaults:
+  Unknown5: 4E-45
+  Unknown6: 1
+  Unknown14: 1
+  Unknown16: 1
+  Unknown17: 1
+  Unknown20: 3.4028235E+38
+Flags:
+- Essential
+- AutoCalcStats
+- Unique
+Level:
+  MutagenObjectType: NpcLevel
+  Level: 6
+DispositionBase: 35
+Factions:
+- Faction: 05BD93:Starfield.esm
+- Faction: 28193B:Starfield.esm
+Voice: 01E5D7:Starfield.esm
+Race: 00347D:Starfield.esm
+ActorEffect:
+- 02E551:Starfield.esm
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002CC:Starfield.esm
+  Value: 5
+- ActorValue: 0002D4:Starfield.esm
+  Value: 100
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+Items:
+- Item:
+    Item: 2B1A22:Starfield.esm
+    Count: 1
+Confidence: Foolhardy
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsAllies
+Packages:
+- 07BE0B:Starfield.esm
+- 0D53F3:Starfield.esm
+- 002CB5:Starfield.esm
+Keywords:
+- 21B1FC:Starfield.esm
+- 28D935:Starfield.esm
+ObjectTemplates:
+- Includes:
+  - Mod: 044DC7:Starfield.esm
+    Optional: True
+    DontUseAll: True
+Class: 01326B:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Hüter Aquilus
+  - Language: English
+    String: Keeper Aquilus
+  - Language: Spanish
+    String: Custodio Aquilus
+  - Language: French
+    String: Prévôt Aquilus
+  - Language: Italian
+    String: Custode Aquilus
+  - Language: Japanese
+    String: 守護者アキラス
+  - Language: Polish
+    String: Opiekun Aquilus
+  - Language: Portuguese_Brazil
+    String: Pontífice Aquilus
+  - Language: ChineseSimplified
+    String: 守护者阿奎勒斯
+CalculatedHealth: 220
+CalculatedActionPoints: 50
+GearedUpWeapons: 1
+HeadParts:
+- 062F07:Starfield.esm
+- 064D88:Starfield.esm
+- 10D9DA:Starfield.esm
+- 24A022:Starfield.esm
+- 24A023:Starfield.esm
+- 24A03D:Starfield.esm
+- 253FA3:Starfield.esm
+- 253FA5:Starfield.esm
+- 3A681C:Starfield.esm
+- 3BE58D:Starfield.esm
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight:
+  Thin: 0.41
+  Muscular: 0.08
+DefaultOutfit: 133D63:Starfield.esm
+CrimeFaction: 05BD93:Starfield.esm
+Tints:
+- TintType: SimpleGroup
+  TintGroup: Dermaesthetic
+  TintName: Asian_Male_Ol1_Sk1
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/dermaesthetic/male_as_ol1_sk1_derm_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 50
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask1
+  TintName: Liver_Spots
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/liverspots_01_mask.dds
+  TintColor: '#00000000'
+  TintIntensity: 31
+- TintType: SimpleGroup
+  TintGroup: Complexion1
+  TintName: Crevice_Complexion_Cool
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/complexioncool_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 68
+- TintType: SimpleGroup
+  TintGroup: Complexion2
+  TintName: TriColor
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/tricolor_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 64
+- TintType: SimpleGroup
+  TintGroup: ComplexionMask2
+  TintName: Complexion_Patchy_2
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/complexion/complexion_wholeface_02_mask.dds
+  TintColor: '#00000000'
+  TintIntensity: 80
+- TintType: ComplexGroup
+  TintGroup: Accents1
+  TintName: Accents_Fullface_Wrinkles
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/accents/accents_fullface_wrinkles_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 37
+- TintType: ComplexGroup
+  TintGroup: Accents2
+  TintName: Accents_NasoLabialFolds
+  TintTexture: textures/actors/human/faces/chargen/postblenddetails/accents/accents_nasolabialfolds_color.dds
+  TintColor: '#00000000'
+  TintIntensity: 56
+FaceDialPositions:
+- Index: 24
+  Position: 0.18604669
+- Index: 25
+  Position: 0.29726517
+- Index: 27
+  Position: 0.39232475
+- Index: 28
+  Position: 0.22036888
+- Index: 29
+  Position: -0.30783254
+- Index: 31
+  Position: -0.44542643
+- Index: 32
+  Position: 0.44442764
+- Index: 35
+  Position: 0.00712587
+- Index: 36
+  Position: -0.18581496
+- Index: 37
+  Position: 0.19201867
+- Index: 39
+  Position: -0.024078116
+- Index: 58
+  Position: -0.16463673
+- Index: 60
+  Position: 0.3208286
+- Index: 63
+  Position: 0.0031434589
+- Index: 64
+  Position: 0.40425682
+- Index: 65
+  Position: -0.076496206
+- Index: 67
+  Position: 0.004223708
+- Index: 68
+  Position: 0.4988071
+- Index: 69
+  Position: 0.32297847
+- Index: 70
+  Position: -0.36800638
+- Index: 71
+  Position: 0.11283312
+- Index: 73
+  Position: 0.2694488
+- Index: 74
+  Position: 0.04483124
+- Index: 75
+  Position: 0.12577604
+- Index: 76
+  Position: -0.34178516
+- Index: 77
+  Position: 0.05649512
+- Index: 78
+  Position: 0.40200883
+- Index: 79
+  Position: 0.050433047
+- Index: 80
+  Position: 0.45589998
+- Index: 83
+  Position: -0.21495755
+- Index: 84
+  Position: 0.36
+- Index: 85
+  Position: -0.031272747
+- Index: 86
+  Position: 0.25832072
+- Index: 87
+  Position: -0.47872517
+- Index: 88
+  Position: 0.17286806
+- Index: 89
+  Position: -0.32107288
+FaceMorphs:
+- Index: 14
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 0.47266692
+  - MorphGroup: Chin
+    BlendIntensity: 0.45236674
+  - MorphGroup: Ears
+    BlendIntensity: 0.39015508
+  - MorphGroup: Eyes
+    BlendIntensity: 0.049408577
+  - MorphGroup: Forehead
+    BlendIntensity: 0.49
+  - MorphGroup: Jaw
+    BlendIntensity: 0.07793567
+  - MorphGroup: Mouth
+    BlendIntensity: 0.17269635
+  - MorphGroup: Neck
+    BlendIntensity: 0.21514712
+  - MorphGroup: Nose
+    BlendIntensity: 0.46830678
+- Index: 46
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 0.13629855
+  - MorphGroup: Chin
+    BlendIntensity: 0.27235273
+  - MorphGroup: Ears
+    BlendIntensity: 0.092140056
+  - MorphGroup: Eyes
+    BlendIntensity: 0.2886151
+  - MorphGroup: Forehead
+    BlendIntensity: 0.42820397
+  - MorphGroup: Jaw
+    BlendIntensity: 0.41551536
+  - MorphGroup: Mouth
+    BlendIntensity: 0.46971688
+  - MorphGroup: Neck
+    BlendIntensity: 0.41619825
+  - MorphGroup: Nose
+    BlendIntensity: 0.2776907
+MorphBlends:
+- BlendName: male_as_yo1_Chin
+  Intensity: 0.03
+- BlendName: male_as_yo1_Ears
+  Intensity: 0.4257986
+- BlendName: male_as_yo1_Eyes
+  Intensity: 0.43687588
+- BlendName: male_as_yo1_Forehead
+  Intensity: 0.30972335
+- BlendName: male_as_yo1_Mouth
+  Intensity: 0.19
+- BlendName: male_as_yo1_Neck
+  Intensity: 0.047541633
+- BlendName: male_as_yo1_Nose
+  Intensity: 0.27017686
+- BlendName: male_eu_ol1_Cheeks
+  Intensity: 0.66
+- BlendName: male_eu_ol1_Chin
+  Intensity: 0.73
+- BlendName: male_eu_ol1_Ears
+  Intensity: 0.3535818
+- BlendName: male_eu_ol1_Eyes
+  Intensity: 0.5
+- BlendName: male_eu_ol1_Forehead
+  Intensity: 0.49
+- BlendName: male_eu_ol1_Jaw
+  Intensity: 0.43
+- BlendName: male_eu_ol1_Mouth
+  Intensity: 0.58
+- BlendName: male_eu_ol1_Neck
+  Intensity: 0.47623768
+- BlendName: male_eu_ol1_Nose
+  Intensity: 0.25200015
+SkinToneIndex: 0
+HairColor: Grey
+EyebrowColor: Grey
+EyeColor: Iron
+TeethColor: Teeth_Clean
+Pronoun: Unspecified

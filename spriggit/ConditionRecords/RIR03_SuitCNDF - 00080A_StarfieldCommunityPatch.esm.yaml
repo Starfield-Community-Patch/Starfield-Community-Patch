@@ -1,10 +1,12 @@
 FormKey: 00080A:StarfieldCommunityPatch.esm
 EditorID: RIR03_SuitCNDF
+FormVersion: 559
 Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -14,7 +16,8 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference

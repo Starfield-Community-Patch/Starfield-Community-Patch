@@ -1,18 +1,60 @@
 FormKey: 2BABF3:Starfield.esm
 EditorID: RIR03
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
+  - Name: ri_crimetrackingquestscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RewardGlobal
+      Object: 23DF2E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsRewardDeductionMedium
+      Object: 0BCFBE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalBountiesCount
+      Object: 3B3CC1:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: iCompletionStage
+      Data: 10000
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CrimeCountSmall
+      Object: 03EED6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CrimeCountLarge
+      Object: 03EED7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_MasakoRemainedCEO
+      Object: 17F175:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalBodyCount
+      Object: 23DE16:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalArrestCount
+      Object: 23DE15:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsRewardDeductionLarge
+      Object: 03EED0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsRewardDeductionSmall
+      Object: 0E5193:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CrimeCountMedium
+      Object: 03EED5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsReward
+      Object: 03EECF:Starfield.esm
   - Name: RIR03_QuestScript
     Properties:
     - MutagenObjectType: ScriptIntProperty
       Name: iStageToSet
       Data: 120
     - MutagenObjectType: ScriptObjectProperty
-      Name: RIR03_Suit_Keyword
-      Object: 000809:StarfieldCommunityPatch.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: RI_Outfit_BusinessAttireKeyword
       Object: 2BA8A7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR03_Suit_Keyword
+      Object: 000809:StarfieldCommunityPatch.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_Outfit_FCGuardAttireKeyword
       Object: 2B55A6:Starfield.esm
@@ -25,94 +67,49 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_Outfit_UCGuardAttireKeyword
       Object: 2BA8A6:Starfield.esm
-  - Name: ri_crimetrackingquestscript
-    Properties:
-    - MutagenObjectType: ScriptIntProperty
-      Name: iCompletionStage
-      Data: 10000
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RewardGlobal
-      Object: 23DF2E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI08_MasakoRemainedCEO
-      Object: 17F175:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsReward
-      Object: 03EECF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionLarge
-      Object: 03EED0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionMedium
-      Object: 0BCFBE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionSmall
-      Object: 0E5193:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountLarge
-      Object: 03EED7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountMedium
-      Object: 03EED5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountSmall
-      Object: 03EED6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalArrestCount
-      Object: 23DE15:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalBodyCount
-      Object: 23DE16:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalBountiesCount
-      Object: 3B3CC1:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_RIR03_002BABF3
     Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ChosenLocation
-      Object: 2BABF3:Starfield.esm
-      Alias: 15
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ChosenMapMarker
-      Object: 2BABF3:Starfield.esm
-      Alias: 24
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Guard
-      Object: 2BABF3:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Imogene
-      Object: 2BABF3:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneQS
-      Object: 2BABF3:Starfield.esm
-      Alias: 19
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Keycard
       Object: 2BABF3:Starfield.esm
       Alias: 7
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ularu
+      Object: 2BABF3:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_KeyCardSafe
       Object: 2BABF3:Starfield.esm
       Alias: 28
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Masako
-      Object: 2BABF3:Starfield.esm
-      Alias: 10
+      Name: RIR03_Keycard
+      Object: 2BA8AD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_MasakoQS
       Object: 2BABF3:Starfield.esm
       Alias: 20
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_QuestGiver
-      Object: 2BABF3:Starfield.esm
-      Alias: 3
+      Name: Clothes_UCPolice
+      Object: 25E8D4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Ularu
+      Name: Alias_ChosenLocation
       Object: 2BABF3:Starfield.esm
-      Alias: 11
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR03_RadiantCount
+      Object: 2B55A7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_JobAdRadio
+      Object: 2C9C96:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneQS
+      Object: 2BABF3:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChosenMapMarker
+      Object: 2BABF3:Starfield.esm
+      Alias: 24
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_UlaruQS
       Object: 2BABF3:Starfield.esm
@@ -124,50 +121,12 @@ VirtualMachineAdapter:
       Name: Clothes_BusinessFashionable_Male_01
       Object: 250C86:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Clothes_UCPolice
-      Object: 25E8D4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FactionRyujinIndustriesPerk
-      Object: 1C5152:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC044
-      Object: 22F264:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LocTypeStarstationInterior
-      Object: 01674E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Manipulation
-      Object: 2C5555:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01
-      Object: 2C9C97:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_JobAdRadio
-      Object: 2C9C96:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI02
-      Object: 2AAC9C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_PlayerHasInternalNeuroamp
-      Object: 0D6B04:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI08
-      Object: 18B717:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR01
-      Object: 2C572B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR02
-      Object: 2C2561:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR03
+      Name: Alias_Guard
       Object: 2BABF3:Starfield.esm
+      Alias: 8
     - MutagenObjectType: ScriptObjectProperty
-      Name: RIR03_Keycard
-      Object: 2BA8AD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR03_RadiantCount
-      Object: 2B55A7:Starfield.esm
+      Name: RI_RadiantSupport
+      Object: 2A8318:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_LastChosenRadiant
       Object: 0C4081:Starfield.esm
@@ -175,27 +134,69 @@ VirtualMachineAdapter:
       Name: RI_RadiantPointerQuest
       Object: 0C41A3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: LC044
+      Object: 22F264:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01
+      Object: 2C9C97:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI02
+      Object: 2AAC9C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionRyujinIndustriesPerk
+      Object: 1C5152:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08
+      Object: 18B717:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR01
+      Object: 2C572B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_PlayerHasInternalNeuroamp
+      Object: 0D6B04:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR02
+      Object: 2C2561:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR03
+      Object: 2BABF3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Imogene
+      Object: 2BABF3:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QuestGiver
+      Object: 2BABF3:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Masako
+      Object: 2BABF3:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LocTypeStarstationInterior
+      Object: 01674E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Manipulation
+      Object: 2C5555:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: RI_RadiantQuestGiver
       Object: 2BA8AC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_RadiantSupport
-      Object: 2A8318:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_RIR03_002BABF3
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RIR03_002BABF3
-    FragmentName: Fragment_Stage_0001_Item_00
   - Stage: 2
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RIR03_002BABF3
     FragmentName: Fragment_Stage_0002_Item_00
-  - Stage: 3
+  - Stage: 210
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RIR03_002BABF3
-    FragmentName: Fragment_Stage_0003_Item_00
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RIR03_002BABF3
+    FragmentName: Fragment_Stage_0100_Item_00
   - Stage: 4
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RIR03_002BABF3
@@ -204,30 +205,10 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RIR03_002BABF3
     FragmentName: Fragment_Stage_0010_Item_00
-  - Stage: 100
+  - Stage: 1
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RIR03_002BABF3
-    FragmentName: Fragment_Stage_0100_Item_00
-  - Stage: 120
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RIR03_002BABF3
-    FragmentName: Fragment_Stage_0120_Item_00
-  - Stage: 150
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RIR03_002BABF3
-    FragmentName: Fragment_Stage_0150_Item_00
-  - Stage: 200
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RIR03_002BABF3
-    FragmentName: Fragment_Stage_0200_Item_00
-  - Stage: 210
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RIR03_002BABF3
-    FragmentName: Fragment_Stage_0210_Item_00
-  - Stage: 300
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RIR03_002BABF3
-    FragmentName: Fragment_Stage_0300_Item_00
+    FragmentName: Fragment_Stage_0001_Item_00
   - Stage: 350
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RIR03_002BABF3
@@ -236,129 +217,31 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RIR03_002BABF3
     FragmentName: Fragment_Stage_9000_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RIR03_002BABF3
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RIR03_002BABF3
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RIR03_002BABF3
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RIR03_002BABF3
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RIR03_002BABF3
+    FragmentName: Fragment_Stage_0150_Item_00
   - Stage: 10000
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RIR03_002BABF3
     FragmentName: Fragment_Stage_10000_Item_00
   Aliases:
-  - Property:
-      Name: ''
-      Object: 2BABF3:Starfield.esm
-      Alias: 7
-    Scripts:
-    - Name: DefaultAliasOnContainerChangedTo
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 300
-  - Property:
-      Name: ''
-      Object: 2BABF3:Starfield.esm
-      Alias: 8
-    Scripts:
-    - Name: DefaultAliasOnDeath
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 230
-    - Name: RIR03_GuardAliasScript
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: ChosenLocation
-        Object: 2BABF3:Starfield.esm
-        Alias: 15
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionAkilaCity_Keyword
-        Object: 04AC08:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionFreestar
-        Object: 0638E5:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionFreestar_Keyword
-        Object: 1F324E:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionHopeTown_Keyword
-        Object: 1AB1C3:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionNeon
-        Object: 26FDEA:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionNeon_Keyword
-        Object: 1F324D:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionParadiso
-        Object: 26310C:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionParadiso_Keyword
-        Object: 028D0D:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionUC
-        Object: 05BD93:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionUC_Keyword
-        Object: 1F324F:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: GuardFaction
-        Object: 0A179C:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Keycard
-        Object: 2BABF3:Starfield.esm
-        Alias: 7
-      - MutagenObjectType: ScriptObjectProperty
-        Name: KeyCardSafe
-        Object: 2BABF3:Starfield.esm
-        Alias: 28
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Outfit_Clothes_Akila_Security_NoHeadwear
-        Object: 1341DF:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Outfit_Clothes_Neon_Security_NoHelmet
-        Object: 133DA2:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Outfit_Clothes_NewAtlantis_Security_NoHelmet
-        Object: 133DA1:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Outfit_Clothes_Security_Guard_01_with_Helmet
-        Object: 133D62:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Outfit_Freestar_Militia_NoHat
-        Object: 26FB5F:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_KeycardName_AkilaCity
-        Object: 2BA8AA:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_KeycardName_Freestar
-        Object: 04AC09:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_KeycardName_HopeTown
-        Object: 04AC10:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_KeycardName_Neon
-        Object: 04AC06:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_KeycardName_Paradiso
-        Object: 04AC0A:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_KeycardName_UC
-        Object: 04AC0B:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_SecurityGuardName_AkilaCity
-        Object: 2BA8AB:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_SecurityGuardName_Freestar
-        Object: 04AC0C:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_SecurityGuardName_HopeTown
-        Object: 0575A7:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_SecurityGuardName_Neon
-        Object: 04AC05:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_SecurityGuardName_Paradiso
-        Object: 04AC0D:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_SecurityGuardName_UC
-        Object: 04AC0E:Starfield.esm
   - Property:
       Name: ''
       Object: 2BABF3:Starfield.esm
@@ -372,52 +255,23 @@ VirtualMachineAdapter:
         - Name: ''
           Object: 2BABF3:Starfield.esm
           Alias: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 150
       - MutagenObjectType: ScriptBoolProperty
         Name: LocationMatchIfChild
         Data: True
       - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 150
-      - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 200
-    - Name: RIR03_PlayerAliasScript
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: iPrereqStage
-        Data: 150
-      - MutagenObjectType: ScriptIntProperty
-        Name: iStageToSet
-        Data: 120
-      - MutagenObjectType: ScriptIntProperty
-        Name: iTurnOffStage
-        Data: 300
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_Suit_Keyword
-        Object: 000809:StarfieldCommunityPatch.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RI_Outfit_BusinessAttireKeyword
-        Object: 2BA8A7:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RI_Outfit_FCGuardAttireKeyword
-        Object: 2B55A6:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RI_Outfit_MiscGuardAttireKeyword
-        Object: 1DBE3A:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RI_Outfit_NeonGuardAttireKeyword
-        Object: 1DBE39:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RI_Outfit_UCGuardAttireKeyword
-        Object: 2BA8A6:Starfield.esm
     - Name: RI_CrimeTrackingPlayerAliasScript
       Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: ActorTypeHuman
-        Object: 25E194:Starfield.esm
       - MutagenObjectType: ScriptIntProperty
         Name: iPreReqTrackingStage
         Data: 150
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI_BountyTrackingPerk
+        Object: 2AEE3B:Starfield.esm
       - MutagenObjectType: ScriptIntProperty
         Name: iStartTrackingStage
         Data: 200
@@ -429,8 +283,155 @@ VirtualMachineAdapter:
         Object: 2BABF3:Starfield.esm
         Alias: 15
       - MutagenObjectType: ScriptObjectProperty
-        Name: RI_BountyTrackingPerk
-        Object: 2AEE3B:Starfield.esm
+        Name: ActorTypeHuman
+        Object: 25E194:Starfield.esm
+    - Name: RIR03_PlayerAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStageToSet
+        Data: 120
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI_Outfit_BusinessAttireKeyword
+        Object: 2BA8A7:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_Suit_Keyword
+        Object: 000809:StarfieldCommunityPatch.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI_Outfit_FCGuardAttireKeyword
+        Object: 2B55A6:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: iTurnOffStage
+        Data: 300
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI_Outfit_MiscGuardAttireKeyword
+        Object: 1DBE3A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI_Outfit_NeonGuardAttireKeyword
+        Object: 1DBE39:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: iPrereqStage
+        Data: 150
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI_Outfit_UCGuardAttireKeyword
+        Object: 2BA8A6:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2BABF3:Starfield.esm
+      Alias: 8
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 230
+    - Name: RIR03_GuardAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_KeycardName_Paradiso
+        Object: 04AC0A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrimeFactionFreestar_Keyword
+        Object: 1F324E:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_KeycardName_Freestar
+        Object: 04AC09:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrimeFactionFreestar
+        Object: 0638E5:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Outfit_Clothes_Neon_Security_NoHelmet
+        Object: 133DA2:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrimeFactionParadiso_Keyword
+        Object: 028D0D:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_KeycardName_HopeTown
+        Object: 04AC10:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: GuardFaction
+        Object: 0A179C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Outfit_Clothes_NewAtlantis_Security_NoHelmet
+        Object: 133DA1:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrimeFactionUC
+        Object: 05BD93:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ChosenLocation
+        Object: 2BABF3:Starfield.esm
+        Alias: 15
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrimeFactionUC_Keyword
+        Object: 1F324F:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_KeycardName_AkilaCity
+        Object: 2BA8AA:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrimeFactionNeon
+        Object: 26FDEA:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrimeFactionHopeTown_Keyword
+        Object: 1AB1C3:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Keycard
+        Object: 2BABF3:Starfield.esm
+        Alias: 7
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_SecurityGuardName_Neon
+        Object: 04AC05:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: KeyCardSafe
+        Object: 2BABF3:Starfield.esm
+        Alias: 28
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_SecurityGuardName_UC
+        Object: 04AC0E:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Outfit_Clothes_Akila_Security_NoHeadwear
+        Object: 1341DF:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Outfit_Freestar_Militia_NoHat
+        Object: 26FB5F:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_KeycardName_Neon
+        Object: 04AC06:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_KeycardName_UC
+        Object: 04AC0B:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Outfit_Clothes_Security_Guard_01_with_Helmet
+        Object: 133D62:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_SecurityGuardName_AkilaCity
+        Object: 2BA8AB:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_SecurityGuardName_Freestar
+        Object: 04AC0C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_SecurityGuardName_HopeTown
+        Object: 0575A7:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_SecurityGuardName_Paradiso
+        Object: 04AC0D:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrimeFactionNeon_Keyword
+        Object: 1F324D:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrimeFactionAkilaCity_Keyword
+        Object: 04AC08:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrimeFactionParadiso
+        Object: 26310C:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2BABF3:Starfield.esm
+      Alias: 7
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 300
 Name:
   TargetLanguage: English
   Values:
@@ -753,7 +754,7 @@ Stages:
         BonusCredits: 1460FD:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0xC701A3
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD3:Starfield.esm
@@ -943,7 +944,7 @@ Aliases:
   VoiceTypes: 2BA8A3:Starfield.esm
 - MutagenObjectType: QuestReferenceAlias
   ID: 4
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -964,15 +965,13 @@ Aliases:
   AliasIDToForceIntoWhenFilled: 15
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x190000
-    Unknown2: 17624
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasRefTypeConditionData
       FirstParameter: 25050C:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x190000
-    Unknown2: 17624
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasKeywordConditionData
       FirstParameter: 2D6B82:Starfield.esm
@@ -989,14 +988,12 @@ Aliases:
   AliasIDToForceIntoWhenFilled: 15
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x190000
-    Unknown2: 17624
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasKeywordConditionData
       FirstParameter: 2D6B82:Starfield.esm
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x190000
-    Unknown2: 17624
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasRefTypeConditionData
       FirstParameter: 25050C:Starfield.esm
@@ -1075,13 +1072,11 @@ Aliases:
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
-    Unknown2: 17624
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 2B55A7:Starfield.esm
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
-    Unknown2: 17624
     Data:
       MutagenObjectType: LocationHasRefTypeConditionData
       FirstParameter: 2A3905:Starfield.esm
@@ -1103,14 +1098,12 @@ Aliases:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
     Unknown1: 0x000000
-    Unknown2: 17624
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 2B55A7:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
-    Unknown2: 17624
     Data:
       MutagenObjectType: LocationHasRefTypeConditionData
       FirstParameter: 2A3905:Starfield.esm
@@ -1245,3 +1238,5 @@ Aliases:
     AliasID: 31
     Create: In
   VoiceTypes: Null
+Timestamp: 12497
+Unknown: 2

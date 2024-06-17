@@ -1,21 +1,10 @@
 FormKey: 1DE8C0:Starfield.esm
 EditorID: StationTheClinicSpaceCellLocation
-MasterPersistLocationReferences:
-- Actor: 1DE8BE:Starfield.esm
-  Location: 1DEBE8:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-LocationCellUniqueReferences:
+FormVersion: 559
+AddedUniqueBaseForms:
 - GenericBaseForm: 1DEBE4:Starfield.esm
   Ref: 1DE8BE:Starfield.esm
   Location: 1DE8C0:Starfield.esm
-MasterUniqueNpcs: []
-MasterSpecialReferences:
-- LocationRefType: 02271F:Starfield.esm
-  Marker: 1DE8BC:Starfield.esm
-  Location: 1DEBE8:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
 Name:
   TargetLanguage: English
   Values:
