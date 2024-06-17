@@ -7,30 +7,41 @@ When adding items to the changelog try and use the template below:
 [YYYY-MM-DD] Version 1.0.0
 - *Fix Summary* <link to issue>  - [Contributor Name](Profile URL)
 -->
-## [2024-05-24] Version 0.1.6
-### Dialogue Fixes:
-- Fixed multiple cases where guards would incorrectly comment on your weapon status [001569CA] [001569CB] [0015DA2E] [0015DA2F] [0015DA30] [0015DA32] [0015DA4B] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/970) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
-- Fixed an issue where guards that are not in New Atlantis would comment about "running away from that crazy guy" when this event occurs in New Atlantis [0000D595] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/969) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
-- Fixed an issue where guards would say "Nice hat" when wearing a Neuroamp [0015DA49] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/964) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
-- Fixed multiple cases where guards that are not in New Atlantis would incorrectly comment about the recent attack which occurs in New Atlantis [003E5C0D] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/961) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
-- Fixed in issue where medical robots would comment about the player being dehydrated when they are not [003650B6] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/965) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
-- Fixed incorrect companion responses to player dialogue in "High Price to Pay" [0023E8DA] - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/968) -  [Fix contributed by Aurelianis](https://next.nexusmods.com/profile/Aurelianis)
-- Modified idle chatter for Mathis while exploring the Locke during "Echoes of the Past" so they only will be said once. This will keep him from saying the same dialogue lines over and over. [00207E95] [00207E96] [00207E97] [00207E98] [00207E99] [00207E9A] [00207E9B] [00207E9C] [00207E9D] [00207E9E] [00207E9F] [00207EA0] [00207EA1] [00207EA2] [00207EA3] - [Reported by Voodoo5150]((https://www.starfieldpatch.dev/issues/907) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
-- Added the "Say Once" flag to companion's dialogue when entering the Den so they do not repeat themselves [001A4A3A] [001E9CD4] [0023EB98] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/908) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
-### Quest Fixes
-- Fixed an issue where the player's ship might land on the incorrect marker at Valerie's Cache during "Matters of the Hart" [00101D8D] - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/934) -  [Fix contributed by Aurelianis](https://next.nexusmods.com/profile/Aurelianis)
-- Fixed an issue that might cause Eyewitness not to start [002AAE8D] - [Reported by Crushurpride24](https://www.starfieldpatch.dev/issues/129) -  [Fix contributed by ferrari365](https://next.nexusmods.com/profile/ferrari365)
-### Placed Object Fixes:
-- Disabled Barrett's Personal slates in SMS_Hab_Nova_BerthingAll_2L1W1H_A as they should only be present in the Frontier's original hab module [0021302B] [0021302C] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/840) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
-- Moved Vasco's wait marker at the Den so his arm doesn't clip through the wall [0008C2D8] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/843) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
-- Moved a duplicate storage cooler in the Abandoned Industrial Compound to the ground [000EF7BC] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/848) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
-- Moved floating loot containers at The Pit Stop in Hopetown [0003D28A] [0003D28B] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/910) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+## [2024-06-17] Version 0.1.6
+### Reverted Fixes
+- Removed mannequin scaling fix, as this has been officially fixed by Bethesda. [001EE4D6]
+### Dialogue Fixes
+- Fixed an incorrect condition causing a Starborn dialogue option with Sarah to appear before having previously had that conversation with her. [003233A3]
+- Enabled "Say Once" flag for multiple idle lines said by Mathis in The Lock, to prevent hearing constant repeats. [00207E95] [00207E96] [00207E97] [00207E98] [00207E99] [00207E9A] [00207E9B] [00207E9C] [00207E9D] [00207E9E] [00207E9F] [00207EA0] [00207EA1] [00207EA2] [00207EA3] - [Reported by Voodoo5150]((https://www.starfieldpatch.dev/issues/907) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+- Enabled "Say Once" flag to certain companion lines in The Den, to prevent hearing constant repeats. [001A4A3A] [001E9CD4] [0023EB98] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/908) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+- Fixed an incorrect condition which could cause guards outside of New Atlantis to refer to an ongoing attack in New Atlantis. [003E5C0D] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/961) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
+- Guards should no longer make comments about you wearing a hat in certain circumstances (e.g. when wearing a Neuroamp), if you are not actually wearing a hat. [0015DA49] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/964) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
+- Medic robots should no longer say that you appear to be dehydrated, if you are not currently dehydrated. [003650B6] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/965) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
+- Companions should now react correctly to what you say during Andreja's death scene. [0023E8DA] - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/968) -  [Fix contributed by Aurelianis](https://next.nexusmods.com/profile/Aurelianis)
+- Guards outside of New Atlantis should no longer make comments about seeing you "running away from that crazy guy" after High Price to Pay. [0000D595] - [Reported by TERAB1T](https://www.starfieldpatch.dev/issues/969) -  [Fix contributed by TERAB1T](https://next.nexusmods.com/profile/TERAB1T)
+### Item Fixes
+- Fixed player footstep sounds missing while wearing a companion's outfit. [00014DE6] [0007BB8F] [00134734] [0020CEAB] [002F5F35] - [Reported by frippon01](https://www.starfieldpatch.dev/issues/978)
+- Fixed "evil you" missing their Starborn suit's voice modulation. [00045F82]
+### Location Fixes
+- Fixed a misplaced vial in the Kreet Research Lab. [0011304A] - [Reported by Ghastly13](https://www.starfieldpatch.dev/issues/007)
+- Fixed floating items on Niira. [0001FE3A] [0001FE3C] [0001FE41] [0001FE43] - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/520)
+- Disabled erroneously placed Barrett Personal Slate 2 and 3 in the standard Nova 2X1 AIOA hab. [0021302B] [0021302C] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/840) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+- Moved Vasco's wait marker in The Den to prevent his right arm from clipping. [0008C2D8] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/843) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+- Moved a duplicated cooler container in the Abandoned Industrial Compound POI. [000EF7BC] - [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/848) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+- Moved some contraband and aid items in Pit Stop out of container that cannot be opened. [0003D28A] [0003D28B] -  [Reported by Voodoo5150](https://www.starfieldpatch.dev/issues/910) -  [Fix contributed by Voodoo5150](https://next.nexusmods.com/profile/Voodoo5150)
+- Fixed incorrect landing marker at Valerie's Cache, fixing a potential issue with landing too far away during the Matters of the Hart quest. [00101D8D] - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/934) -  [Fix contributed by Aurelianis](https://next.nexusmods.com/profile/Aurelianis)
+- The Well's local map should now appear correctly while using the SFCP (fix remade with CK). [000F4ED4] - [Reported by m1idy](https://www.starfieldpatch.dev/issues/967)
 ### Misc Fixes
-- Removed the previous fix for The Well not inheriting Jemison's gravity. This fix caused an issue with the local map for The Well added in Starfield v1.11.36.0. Removed: [000F4ED4] - [Reported by m1idy](https://www.starfieldpatch.dev/issues/967) -  [Fix contributed by Aurelianis](https://next.nexusmods.com/profile/Aurelianis)
+- Fixed the Sustenance gameplay option not working in variant universes. [002EEA4D] - [Reported by Jay33721](https://www.starfieldpatch.dev/issues/957)
 ### NPC Fixes
-- Fixes an issue where changing the player appearance at Enhance! would also change You?'s appearance. [CrewEliteOtherPlayerScript] - [Reported by ](https://www.starfieldpatch.dev/issues/522) [Linnsanity](https://next.nexusmods.com/profile/Linnsanity) -  [Fix contributed by EpicestGamer](https://next.nexusmods.com/profile/EpicestGamer)
+- Added missing ActorTypeStarborn keyword to certain Starborn characters, to make them glow blue with the SSS power. [0001E5D6] [0004BCE8] [0017F7A8] [0017F7A9] [0017F7AA] [0017F7AB] [0017F7AC] [0017F7AE]
+- Fixes an issue where changing the player appearance at Enhance! would also change You?'s appearance. [CrewEliteOtherPlayerScript] - [Reported by Linnsanity](https://www.starfieldpatch.dev/issues/522) -  [Fix contributed by EpicestGamer](https://next.nexusmods.com/profile/EpicestGamer)
 ### Perk Fixes
 - Removes any lingering companion perks when starting NG+ [001C5150] [001C514E] [001C514D] [001C514C] - [Reported by CivisRomanus](https://www.starfieldpatch.dev/issues/940) -  [Fix contributed by CivisRomanus](https://next.nexusmods.com/profile/CivisRomanus)
+### Quest Fixes
+- Fixed an incorrect script property in Breach of Contract, which caused the outcome of the trial to always be the same. [000369AB] - [Reported by Aurelianis](https://www.starfieldpatch.dev/issues/980) - [Fix contributed by Aurelianis](https://next.nexusmods.com/profile/Aurelianis)
+- Adjusted flags on some quest aliases which could prevent Eyewitness from starting up. [002AAE8D] - [Reported by Crushurpride24](https://www.starfieldpatch.dev/issues/129) -  [Fix contributed by ferrari365](https://next.nexusmods.com/profile/ferrari365)
+
 
 ## [2024-05-18] Version 0.1.5
 ### Quest Fixes
@@ -40,6 +51,7 @@ When adding items to the changelog try and use the template below:
 - Fixed mutliple cases where NPCs would incorrectly comment on your space suit or weapon status [0000D599] [0000D59A] [000E8D7C] [000E8D7D] [0015DA34] [0015DA35] [0015DA36] [0015DA37] [0015DA38] [0015DA39] [0015DA48] [0015DA4A] [001FCB98] [003298C4] [00355452] [00355453] [00355454] [00355455] [003250AC] [003250B5] - [Fix contrubited by TERAB1T](https://www.starfieldpatch.dev/issues/91)
 ### Perk Fixes
 - Fixed an issue where sneak attack damage was considerably higher than it should be when property hydrated. [00313272] - [Reported by MrFantastic](https://www.starfieldpatch.dev/issues/960) - [Fix contributed by youngneil1](https://www.nexusmods.com/starfield/mods/9251)
+
 
 ## [2024-05-18] Version 0.1.4
 This update is intended to update compatibility with 1.11.36 of the game. 
