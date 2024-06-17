@@ -1,5 +1,6 @@
 FormKey: 22DAD6:Starfield.esm
 EditorID: DialogueFCNeon
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: FCNeon_KosmosOrgResourcesScript
@@ -105,38 +106,73 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_DialogueFCNeon_0022DAD6
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNeonZ11
-      Object: 2E8298:Starfield.esm
+      Name: FFNeonZ06
+      Object: 082D5A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FCNeon_EuphorikaMembersDoorRef
-      Object: 089F63:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNeonZ04
-      Object: 0B2A74:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Neon_VoliiHotel_PermCost
-      Object: 16004B:Starfield.esm
+      Name: City_NE_EuphorikaMemberPass
+      Object: 089F60:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNeonZ08
       Object: 063F4C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNeonZ09
-      Object: 00351A:Starfield.esm
+      Name: NPCDemandMoney_Small
+      Object: 275226:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FC_Neon_BeggarDonationCountGlobal
-      Object: 057982:Starfield.esm
+      Name: PlayerHouseSystem
+      Object: 1ABF4E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNeonZ05
-      Object: 089076:Starfield.esm
+      Name: FCNeon_EuphorikaMembersDoorRef
+      Object: 089F63:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Credits
       Object: 00000F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ06_Controller
+      Object: 1CEDC2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ02
+      Object: 0A316E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: CF06
       Object: 01BD20:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ11
+      Object: 2E8298:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FCNeon_TradeTowerPlayerHomeKey
+      Object: 370988:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC_Neon_BeggarDonationCountGlobal
+      Object: 057982:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FCNeonFranchescaMoore
+      Object: 22DAD6:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
       Name: FFNeonZ07
       Object: 06E0A1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ09
+      Object: 00351A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ12
+      Object: 25544A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ04
+      Object: 0B2A74:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FCNeonMiguelReeves
+      Object: 22DAD6:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RAD03
+      Object: 21710A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ03
+      Object: 0A935F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ05
+      Object: 089076:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FC_Neon_BeggarDonationGlobal
       Object: 05797F:Starfield.esm
@@ -144,50 +180,14 @@ VirtualMachineAdapter:
       Name: DialogueFCNeon_PlayerHomeQuest
       Object: 370965:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FCNeonKolmanLang
-      Object: 22DAD6:Starfield.esm
-      Alias: 12
-    - MutagenObjectType: ScriptObjectProperty
       Name: FFNeonZ10
       Object: 2E8297:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNeonZ03
-      Object: 0A935F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNeonZ02
-      Object: 0A316E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNeonZ06_Controller
-      Object: 1CEDC2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNeonZ12
-      Object: 25544A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Neon_Euphorika_LoungeCost
-      Object: 160043:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FCNeonMiguelReeves
-      Object: 22DAD6:Starfield.esm
-      Alias: 41
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNeonZ06
-      Object: 082D5A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Small
-      Object: 275226:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RAD03
-      Object: 21710A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FCNeonFranchescaMoore
-      Object: 22DAD6:Starfield.esm
-      Alias: 36
+      Name: Neon_VoliiHotel_PermCost
+      Object: 16004B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNeonZ01
       Object: 0B2A73:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_NE_EuphorikaMemberPass
-      Object: 089F60:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Neon_VoliiHotel_RentCount
       Object: 160046:Starfield.esm
@@ -195,11 +195,12 @@ VirtualMachineAdapter:
       Name: FCNeon_TradeTowerHomeGlobal
       Object: 370987:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FCNeon_TradeTowerPlayerHomeKey
-      Object: 370988:Starfield.esm
+      Name: Alias_FCNeonKolmanLang
+      Object: 22DAD6:Starfield.esm
+      Alias: 12
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerHouseSystem
-      Object: 1ABF4E:Starfield.esm
+      Name: Neon_Euphorika_LoungeCost
+      Object: 160043:Starfield.esm
   Fragments:
   - Stage: 135
     Unknown2: 1
@@ -1833,7 +1834,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 46
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -1976,3 +1977,4 @@ Aliases:
   ALFG: 0
   UniqueActor: 000007:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

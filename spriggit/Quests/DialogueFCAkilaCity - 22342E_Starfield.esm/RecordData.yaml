@@ -1,5 +1,6 @@
 FormKey: 22342E:Starfield.esm
 EditorID: DialogueFCAkilaCity
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -24,24 +25,9 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_AkilaLife08
-      Object: 2D2517:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FC01_BankRobbersEnableMarker
-      Object: 20C554:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AkilaCityLife_2010_Davis
-      Object: 2798F4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_JustinSnead
       Object: 22342E:Starfield.esm
       Alias: 39
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CityAkilaCityCoreHouseKey
-      Object: 0C368D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_AC_LowHouseDonation
-      Object: 2AB31E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: City_AkilaLife03
       Object: 112373:Starfield.esm
@@ -50,17 +36,20 @@ VirtualMachineAdapter:
       Object: 22342E:Starfield.esm
       Alias: 4
     - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
+      Name: PlayerHouse_AC_MidtownCost
+      Object: 09B0F4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FC01
-      Object: 29A8F0:Starfield.esm
+      Name: City_AkilaLife06
+      Object: 2E18CE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityAkilaCityCoreHouseKey
+      Object: 0C368D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC_AC_Home_CoreHouse_Misc
       Object: 0C3688:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_AkilaLife02
-      Object: 112ACE:Starfield.esm
+      Name: FC01
+      Object: 29A8F0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_DuncanLynch
       Object: 22342E:Starfield.esm
@@ -69,20 +58,17 @@ VirtualMachineAdapter:
       Name: PlayerHouseSystem
       Object: 1ABF4E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_Akila_Jansen
-      Object: 1A8B64:Starfield.esm
+      Name: RAD03
+      Object: 21710A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_AkilaLife07
-      Object: 00DBE9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_AkilaLife06
-      Object: 2E18CE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FC_AC_Home_MidtownHouse_Misc
-      Object: 0C3687:Starfield.esm
+      Name: City_AkilaLife01
+      Object: 11463F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: AkilaCity_Earl_SnuckIn
       Object: 095D2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_Akila_Jansen
+      Object: 1A8B64:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_AugustBowen
       Object: 22342E:Starfield.esm
@@ -91,27 +77,42 @@ VirtualMachineAdapter:
       Name: City_AkilaLife04
       Object: 0F24FA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: City_AkilaLife07
+      Object: 00DBE9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: City_AC_FAB_Quest18
       Object: 37C5A7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RAD03
-      Object: 21710A:Starfield.esm
+      Name: City_AkilaLife08
+      Object: 2D2517:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CityAkilaCityMidtownHouseKey
       Object: 0C3690:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_AkilaLife01
-      Object: 11463F:Starfield.esm
+      Name: PlayerHouse_AC_CoreCost
+      Object: 09B0F3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerHouse_AC_MidtownCost
-      Object: 09B0F4:Starfield.esm
+      Name: City_AkilaLife02
+      Object: 112ACE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AkilaCityLife_2010_Davis
+      Object: 2798F4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_EarlFulton
       Object: 22342E:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerHouse_AC_CoreCost
-      Object: 09B0F3:Starfield.esm
+      Name: City_AC_LowHouseDonation
+      Object: 2AB31E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC_AC_Home_MidtownHouse_Misc
+      Object: 0C3687:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FC01_BankRobbersEnableMarker
+      Object: 20C554:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_DialogueFCAkilaCity_0022342E
@@ -854,7 +855,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 25
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -977,3 +978,4 @@ Aliases:
   PackageData:
   - 325D66:Starfield.esm
   VoiceTypes: 2BCA42:Starfield.esm
+Timestamp: 12497

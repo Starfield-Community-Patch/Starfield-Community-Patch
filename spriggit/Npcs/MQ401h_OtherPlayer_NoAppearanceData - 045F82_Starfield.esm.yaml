@@ -1,0 +1,157 @@
+FormKey: 045F82:Starfield.esm
+EditorID: MQ401h_OtherPlayer_NoAppearanceData
+FormVersion: 559
+ObjectBounds:
+  First: -0.591797, -0.3623047, 0
+  Second: 0.59179676, 1.0341797, 1.2373047
+ODTY: 0
+Flags:
+- Respawn
+XpValueOffset: 60
+Level:
+  MutagenObjectType: NpcLevel
+  Level: 30
+DispositionBase: 35
+UseTemplateActors: 32290
+DeathItem: 27025F:Starfield.esm
+Voice: 1A93A7:Starfield.esm
+DefaultTemplate: 15E245:Starfield.esm
+TemplateActors:
+  StatsTemplate: 15E245:Starfield.esm
+  AiPackagesTemplate: 15E245:Starfield.esm
+  ScriptTemplate: 15E245:Starfield.esm
+  DefPackListTemplate: 15E245:Starfield.esm
+  AttackDataTemplate: 15E245:Starfield.esm
+  KeywordsTemplate: 15E245:Starfield.esm
+  Unknown1: 15E245:Starfield.esm
+  Unknown2: 15E245:Starfield.esm
+Race: 00347D:Starfield.esm
+ActorEffect:
+- 02E551:Starfield.esm
+- 138560:Starfield.esm
+- 18B81F:Starfield.esm
+- 23AF02:Starfield.esm
+- 23AF05:Starfield.esm
+- 23AF0D:Starfield.esm
+CombatOverridePackageList: 0102ED:Starfield.esm
+Perks:
+- Perk: 12A089:Starfield.esm
+  Rank: 1
+Properties:
+- ActorValue: 0002C2:Starfield.esm
+- ActorValue: 0002C3:Starfield.esm
+  Value: 5
+- ActorValue: 0002C4:Starfield.esm
+- ActorValue: 0002C5:Starfield.esm
+  Value: 5
+- ActorValue: 0002C6:Starfield.esm
+- ActorValue: 0002C7:Starfield.esm
+  Value: 5
+- ActorValue: 0002C8:Starfield.esm
+- ActorValue: 0002D4:Starfield.esm
+  Value: 300
+- ActorValue: 0002D5:Starfield.esm
+  Value: 50
+- ActorValue: 0002DA:Starfield.esm
+  Value: 100
+- ActorValue: 0002CC:Starfield.esm
+  Value: 5
+- ActorValue: 0002CD:Starfield.esm
+  Value: 45
+- ActorValue: 000385:Starfield.esm
+  Value: 100
+Items:
+- Item:
+    Item: 0F15BF:Starfield.esm
+    Count: 1
+- Item:
+    Item: 2B4B0B:Starfield.esm
+    Count: 1
+Aggression: Aggressive
+Confidence: Foolhardy
+EnergyLevel: 50
+Responsibility: NoCrime
+Assistance: HelpsAllies
+Packages:
+- 0059A8:Starfield.esm
+Class: 010B2F:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Du?
+  - Language: English
+    String: You?
+  - Language: Spanish
+    String: ¿Tú?
+  - Language: French
+    String: Vous ?
+  - Language: Italian
+    String: Tu?
+  - Language: Japanese
+    String: あなた？
+  - Language: Polish
+    String: Ty?
+  - Language: Portuguese_Brazil
+    String: Você?
+  - Language: ChineseSimplified
+    String: 是你？
+CalculatedHealth: 320
+CalculatedActionPoints: 50
+GearedUpWeapons: 1
+HeadParts:
+- 256F62:Starfield.esm
+CombatStyle: 334536:Starfield.esm
+NAM5: 0xFF00
+HeightMin: 1
+HeightMax: 1
+Weight:
+  Muscular: 0.76
+SpaceOutfit: 000814:StarfieldCommunityPatch.esm
+DefaultPackageList: 2C55CA:Starfield.esm
+Tints: []
+FaceDialPositions:
+- Index: 51
+  Position: 0.6
+FaceMorphs:
+- Index: 12
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 1
+  - MorphGroup: Chin
+    BlendIntensity: 1
+  - MorphGroup: Ears
+    BlendIntensity: 1
+  - MorphGroup: Eyes
+    BlendIntensity: 1
+  - MorphGroup: Forehead
+    BlendIntensity: 1
+  - MorphGroup: Jaw
+    BlendIntensity: 1
+  - MorphGroup: Mouth
+    BlendIntensity: 1
+  - MorphGroup: Neck
+    BlendIntensity: 1
+  - MorphGroup: Nose
+    BlendIntensity: 1
+MorphBlends:
+- BlendName: male_eu_md2_Cheeks
+  Intensity: 1
+- BlendName: male_eu_md2_Chin
+  Intensity: 1
+- BlendName: male_eu_md2_Ears
+  Intensity: 1
+- BlendName: male_eu_md2_Eyes
+  Intensity: 1
+- BlendName: male_eu_md2_Forehead
+  Intensity: 1
+- BlendName: male_eu_md2_Jaw
+  Intensity: 1
+- BlendName: male_eu_md2_Mouth
+  Intensity: 1
+- BlendName: male_eu_md2_Neck
+  Intensity: 1
+- BlendName: male_eu_md2_Nose
+  Intensity: 1
+SkinToneIndex: 2
+Pronoun: Unspecified

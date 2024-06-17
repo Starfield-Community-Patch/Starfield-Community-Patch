@@ -1,5 +1,6 @@
 FormKey: 1CDAFB:Starfield.esm
 EditorID: CREW_EliteCrew_DaniGarcia
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: Crew_EliteCrewQuestScript
@@ -9,12 +10,12 @@ VirtualMachineAdapter:
       Object: 1CDAFB:Starfield.esm
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: Crew_HireSpeechChallengeAttempted
-      Object: 2636B7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: PlayerShip
       Object: 0174A2:Starfield.esm
       Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_HireSpeechChallengeAttempted
+      Object: 2636B7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: TRAIT_Taskmaster
       Object: 227FE0:Starfield.esm
@@ -106,8 +107,8 @@ TextDisplayGlobals:
 - 27072B:Starfield.esm
 DialogConditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 17624
+  Unknown1: 0x8C1400
+  Unknown2: 16650
   Data:
     MutagenObjectType: GetIsIDConditionData
     FirstParameter: 1CDAFD:Starfield.esm
@@ -287,3 +288,4 @@ Aliases:
     Quest: 2A567D:Starfield.esm
     AliasID: 30
   VoiceTypes: Null
+Timestamp: 12497

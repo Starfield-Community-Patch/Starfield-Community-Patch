@@ -1,107 +1,108 @@
 FormKey: 1B6246:Starfield.esm
 EditorID: FFKeyZ02
+FormVersion: 559
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_FFKeyZ02_001B6246
     Properties:
     - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCFTheKey
+      Object: 015358:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_Main
+      Object: 178B1E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gennady
+      Object: 14A813:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CFSD01Evidence
       Object: 1B6246:Starfield.esm
       Alias: 12
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_GennadyStartMarker
-      Object: 1B6246:Starfield.esm
-      Alias: 10
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_MedicalSupplies_Container
       Object: 1B6246:Starfield.esm
       Alias: 5
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SaminaStartMarker
-      Object: 1B6246:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SuppliesStartMarker
       Object: 1B6246:Starfield.esm
       Alias: 11
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SupplyStorageKey
+      Name: FFKeyZ02_MedicalSupplies
+      Object: 1B6159:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GennadyStartMarker
       Object: 1B6246:Starfield.esm
-      Alias: 7
+      Alias: 10
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TheClinicMapMarker
       Object: 1B6246:Starfield.esm
       Alias: 13
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF_Main
-      Object: 178B1E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueCFTheKey
-      Object: 015358:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: FactionCrimsonFleetPerk
       Object: 1C5151:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFKeyZ02_MedicalSupplies
-      Object: 1B6159:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Gennady
-      Object: 14A813:Starfield.esm
+      Name: Alias_SaminaStartMarker
+      Object: 1B6246:Starfield.esm
+      Alias: 9
     - MutagenObjectType: ScriptObjectProperty
       Name: LC082
       Object: 2BF365:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SupplyStorageKey
+      Object: 1B6246:Starfield.esm
+      Alias: 7
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
-    FragmentName: Fragment_Stage_0001_Item_00
   - Stage: 2
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
     FragmentName: Fragment_Stage_0002_Item_00
-  - Stage: 3
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
-    FragmentName: Fragment_Stage_0003_Item_00
   - Stage: 40
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
     FragmentName: Fragment_Stage_0040_Item_00
-  - Stage: 50
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
-    FragmentName: Fragment_Stage_0050_Item_00
-  - Stage: 66
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
-    FragmentName: Fragment_Stage_0066_Item_00
   - Stage: 100
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
     FragmentName: Fragment_Stage_0100_Item_00
-  - Stage: 190
+  - Stage: 1
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
-    FragmentName: Fragment_Stage_0190_Item_00
-  - Stage: 200
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
-    FragmentName: Fragment_Stage_0200_Item_00
-  - Stage: 300
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
-    FragmentName: Fragment_Stage_0300_Item_00
+    FragmentName: Fragment_Stage_0001_Item_00
   - Stage: 350
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
     FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0190_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 66
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0066_Item_00
   - Stage: 10000
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
     FragmentName: Fragment_Stage_10000_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFKeyZ02_001B6246
+    FragmentName: Fragment_Stage_0200_Item_00
   Aliases:
   - Property:
       Name: ''
@@ -211,7 +212,7 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0xADD7A2
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1B6246:Starfield.esm
@@ -409,7 +410,7 @@ Stages:
           Count: 1
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0xADD7A2
           Data:
             MutagenObjectType: GetStageDoneConditionData
             FirstParameter: 1B6246:Starfield.esm
@@ -422,7 +423,7 @@ Stages:
           Count: 1
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0xADD7A2
           Data:
             MutagenObjectType: GetStageDoneConditionData
             FirstParameter: 1B6246:Starfield.esm

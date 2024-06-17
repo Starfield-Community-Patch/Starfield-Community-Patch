@@ -1,6 +1,6 @@
 FormKey: 061754:Starfield.esm
 EditorID: DialogueUCNewAtlantisSecurity
-FormVersion: 556
+FormVersion: 559
 Data:
   Flags:
   - StartGameEnabled
@@ -11,11 +11,12 @@ Data:
 Location: 01295A:Starfield.esm
 DialogConditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 17625
+  Unknown1: 0x3F739F
+  Unknown2: 16650
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 052ADC:Starfield.esm
   ComparisonValue: 1
 UnusedConditions: []
 Aliases: []
+Timestamp: 12497

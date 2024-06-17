@@ -1,4 +1,5 @@
 FormKey: 20614D:Starfield.esm
+FormVersion: 559
 Flags: {}
 Responses:
 - Emotion: 0FA84C:Starfield.esm
@@ -64,6 +65,7 @@ Responses:
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetIsVoiceTypeConditionData
     FirstParameter: 005B85:Starfield.esm
@@ -71,6 +73,7 @@ Conditions:
 - MutagenObjectType: ConditionGlobal
   CompareOperator: LessThan
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetDistanceConditionData
     FirstParameter: 000014:Starfield.esm

@@ -1,5 +1,6 @@
 FormKey: 0854E8:Starfield.esm
 EditorID: MQ_TempleQuest_01
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -8,102 +9,43 @@ VirtualMachineAdapter:
       Name: ChangeLocationStages
       Structs:
       - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 10
         - MutagenObjectType: ScriptBoolProperty
           Name: RequireExactLocation
         - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 20
+          Name: PrereqStage
+          Data: 10
         - MutagenObjectType: ScriptObjectProperty
           Name: targetLocationAlias
           Object: 0854E8:Starfield.esm
           Alias: 2
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 20
       - Members:
         - MutagenObjectType: ScriptBoolProperty
           Name: CheckPlayerShip
         - MutagenObjectType: ScriptIntProperty
           Name: PrereqStage
           Data: 30
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 50
         - MutagenObjectType: ScriptObjectProperty
           Name: targetLocationAlias
           Object: 0854E8:Starfield.esm
           Alias: 3
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 50
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_PlayerShip
       Object: 0174A2:Starfield.esm
-  - Name: MQCheckGravJumpQuestScript
-    Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerShip
-      Object: 0854E8:Starfield.esm
-      Alias: 8
   - Name: MQ_Temple_SubScript
     Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnomalyMapMarker
-      Object: 0854E8:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LocTypeMajorOrbital
-      Object: 070A54:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LvlStarborn_Boss_Aggro
-      Object: 15E245:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ106
-      Object: 021BEF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ401_SkipMQ
-      Object: 17E006:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQTempleQuestActive
-      Object: 08691D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ_TempleQuest_SpawnTemple
-      Object: 032898:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ_TempleTutorial_DistanceMSG
-      Object: 0328A2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MUSGenesisStingerStarbornAppearB
-      Object: 1BC2BF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: OutpostScannerMultiplier
-      Object: 2CBE73:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlanetTrait26GravitationalAnomaly
-      Object: 111F62:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlanetWithTrait
-      Object: 0854E8:Starfield.esm
-      Alias: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerShip
-      Object: 0854E8:Starfield.esm
-      Alias: 8
     - MutagenObjectType: ScriptIntProperty
       Name: QuestInitStage
       Data: 5
     - MutagenObjectType: ScriptObjectProperty
-      Name: StarbornTempleQuest
-      Object: 214707:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TempleLocation
+      Name: PlayerShip
       Object: 0854E8:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TempleMapMarker
-      Object: 0854E8:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TemplePowerTrigger
-      Object: 0854E8:Starfield.esm
-      Alias: 14
+      Alias: 8
     - MutagenObjectType: ScriptStructListProperty
       Name: TempleScanImods
       Structs:
@@ -135,128 +77,154 @@ VirtualMachineAdapter:
           Name: requiredAngleExtent
           Data: 85
     - MutagenObjectType: ScriptObjectProperty
-      Name: TempleStarborn
+      Name: LvlStarborn_Boss_Aggro
+      Object: 15E245:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TemplePowerTrigger
       Object: 0854E8:Starfield.esm
-      Alias: 20
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleLocation
+      Object: 0854E8:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetTrait26GravitationalAnomaly
+      Object: 111F62:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnomalyLocation
+      Object: 0854E8:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_SkipMQ
+      Object: 17E006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TempleQuest_SpawnTemple
+      Object: 032898:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LocTypeMajorOrbital
+      Object: 070A54:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: TempleStarbornMarker
       Object: 0854E8:Starfield.esm
       Alias: 19
     - MutagenObjectType: ScriptObjectProperty
-      Name: AnomalyLocation
+      Name: MQ106
+      Object: 021BEF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnomalyMapMarker
       Object: 0854E8:Starfield.esm
-      Alias: 4
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TempleTutorial_DistanceMSG
+      Object: 0328A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSGenesisStingerStarbornAppearB
+      Object: 1BC2BF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StarbornTempleQuest
+      Object: 214707:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleMapMarker
+      Object: 0854E8:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleStarborn
+      Object: 0854E8:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQTempleQuestActive
+      Object: 08691D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OutpostScannerMultiplier
+      Object: 2CBE73:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetWithTrait
+      Object: 0854E8:Starfield.esm
+      Alias: 2
+  - Name: MQCheckGravJumpQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 0854E8:Starfield.esm
+      Alias: 8
   Script:
     Name: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AnomalyMapMarker
-      Object: 0854E8:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EyeScanner
-      Object: 0854E8:Starfield.esm
-      Alias: 17
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlanetExploredTrait
-      Object: 0854E8:Starfield.esm
+      Name: MQ401EyeScanMSG
+      Object: 07C802:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PlanetUnexploredTrait
       Object: 0854E8:Starfield.esm
       Alias: 21
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlanetUnexploredTraitClose
-      Object: 0854E8:Starfield.esm
-      Alias: 0
+      Name: LvlStarborn_Boss_Aggro
+      Object: 15E245:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerShip
-      Object: 0854E8:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TempleLocation
-      Object: 0854E8:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TempleMapMarker
-      Object: 0854E8:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TemplePrayMarker
-      Object: 0854E8:Starfield.esm
-      Alias: 19
+      Name: MQ_TutorialQuest
+      Object: 045640:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TempleStarborn
       Object: 0854E8:Starfield.esm
       Alias: 20
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VladimirSall
+      Name: Alias_TempleMapMarker
       Object: 0854E8:Starfield.esm
-      Alias: 16
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LvlStarborn_Boss_Aggro
-      Object: 15E245:Starfield.esm
+      Alias: 6
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ104A
       Object: 0160A9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ401EyeScanMSG
-      Object: 07C802:Starfield.esm
+      Name: Alias_PlanetUnexploredTraitClose
+      Object: 0854E8:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EyeScanner
+      Object: 0854E8:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TemplePrayMarker
+      Object: 0854E8:Starfield.esm
+      Alias: 19
     - MutagenObjectType: ScriptObjectProperty
       Name: MQTempleQuest_HaveTempleObj
       Object: 12AB19:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VladimirSall
+      Object: 0854E8:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TempleLocation
+      Object: 0854E8:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
       Name: MQ_TempleTutorialMSG
       Object: 10F8F2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ_TurnOnTemples
-      Object: 07CC50:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ_TutorialQuest
-      Object: 045640:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: StarbornTempleQuest
       Object: 214707:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AnomalyMapMarker
+      Object: 0854E8:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShip
+      Object: 0854E8:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlanetExploredTrait
+      Object: 0854E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TurnOnTemples
+      Object: 07CC50:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 5
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
-    FragmentName: Fragment_Stage_0005_Item_00
-  - Stage: 5
-    StageIndex: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
-    FragmentName: Fragment_Stage_0005_Item_01
-  - Stage: 7
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
-    FragmentName: Fragment_Stage_0007_Item_00
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
-    FragmentName: Fragment_Stage_0010_Item_00
-  - Stage: 12
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
-    FragmentName: Fragment_Stage_0012_Item_00
-  - Stage: 13
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
-    FragmentName: Fragment_Stage_0013_Item_00
   - Stage: 20
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
     FragmentName: Fragment_Stage_0020_Item_00
-  - Stage: 30
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
-    FragmentName: Fragment_Stage_0030_Item_00
-  - Stage: 50
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
-    FragmentName: Fragment_Stage_0050_Item_00
   - Stage: 60
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
@@ -266,6 +234,39 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
     FragmentName: Fragment_Stage_0060_Item_01
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0013_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 5
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0005_Item_01
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ_TempleQuest_01_000854E8
+    FragmentName: Fragment_Stage_0007_Item_00
   Aliases:
   - Property:
       Name: ''
@@ -337,13 +338,13 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0xE5F5A0
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0854E8:Starfield.esm
         SecondParameter: 10
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0xE5F5A0
       Data:
         MutagenObjectType: GetDisabledConditionData
         RunOnType: QuestAlias
@@ -591,7 +592,7 @@ Stages:
     - CompleteQuest
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
+      Unknown1: 0xE5F5A0
       Data:
         MutagenObjectType: GetDisabledConditionData
         RunOnType: QuestAlias
@@ -798,7 +799,8 @@ Aliases:
   AliasIDToForceIntoWhenFilled: 2
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x880024
+    Unknown1: 0xA78535
+    Unknown2: 35864
     Data:
       MutagenObjectType: BodyHasKeywordConditionData
       FirstParameter: 08691D:Starfield.esm
@@ -814,8 +816,8 @@ Aliases:
   AliasIDToForceIntoWhenFilled: 2
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x880024
-    Unknown2: 17620
+    Unknown1: 0xA78535
+    Unknown2: 35864
     Data:
       MutagenObjectType: BodyHasKeywordConditionData
       FirstParameter: 08691D:Starfield.esm
@@ -830,8 +832,8 @@ Aliases:
   AliasIDToForceIntoWhenFilled: 2
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x880024
-    Unknown2: 17620
+    Unknown1: 0xA78535
+    Unknown2: 35864
     Data:
       MutagenObjectType: BodyHasKeywordConditionData
       FirstParameter: 08691D:Starfield.esm
@@ -852,8 +854,8 @@ Aliases:
   ALFG: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x880024
-    Unknown2: 17620
+    Unknown1: 0xA78535
+    Unknown2: 35864
     Data:
       MutagenObjectType: LocationHasKeywordConditionData
       FirstParameter: 20C59F:Starfield.esm
@@ -990,3 +992,4 @@ Aliases:
   ALFG: 0
   UniqueActor: 000007:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

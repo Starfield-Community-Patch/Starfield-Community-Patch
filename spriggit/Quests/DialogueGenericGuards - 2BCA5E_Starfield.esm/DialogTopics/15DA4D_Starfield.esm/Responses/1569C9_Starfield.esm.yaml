@@ -1,5 +1,5 @@
 FormKey: 1569C9:Starfield.esm
-FormVersion: 556
+FormVersion: 559
 Flags:
   Flags:
   - Random
@@ -55,6 +55,7 @@ Responses:
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -62,6 +63,7 @@ Conditions:
     FirstParameter: 05240E:Starfield.esm
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -69,6 +71,7 @@ Conditions:
     FirstParameter: 04A0A4:Starfield.esm
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -76,6 +79,7 @@ Conditions:
     FirstParameter: 04A0A5:Starfield.esm
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: IsWeaponOutConditionData
     RunOnType: Reference

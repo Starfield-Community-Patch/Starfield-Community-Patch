@@ -1,6 +1,7 @@
 MutagenObjectType: WeaponModification
 FormKey: 1230EF:Starfield.esm
 EditorID: mod_Kraken_Barrel_Bull
+FormVersion: 559
 Name:
   TargetLanguage: English
   Values:
@@ -60,9 +61,8 @@ FilterKeywords:
 - 03E063:Starfield.esm
 Properties:
 - MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
-  Property: AimModelConeMinDegrees
-  Value: -0.15
-  Value2: -0.15
+  Property: AimModelBaseStability
+  Value: 0.075
   FunctionType: MultAndAdd
 - MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
   Property: AimModelConeMaxDegrees
@@ -70,22 +70,23 @@ Properties:
   Value2: -0.15
   FunctionType: MultAndAdd
 - MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
-  Property: Weight
-  Value: 0.75
-  FunctionType: Add
-- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
-  Property: Value
-  Value: 0.035
-  FunctionType: MultAndAdd
-- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
-  Property: AimModelBaseStability
-  Value: 0.075
+  Property: AimModelConeMinDegrees
+  Value: -0.15
+  Value2: -0.15
   FunctionType: MultAndAdd
 - MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
   Property: SightedTransitionSeconds
   Value: 0.1
   Value2: 0.1
   FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: Value
+  Value: 0.035
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: Weight
+  Value: 0.75
+  FunctionType: Add
 - MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
   Property: Keyword
   Record: 003774:Starfield.esm

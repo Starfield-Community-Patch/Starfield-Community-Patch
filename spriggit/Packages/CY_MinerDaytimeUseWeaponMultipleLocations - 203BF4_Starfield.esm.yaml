@@ -1,5 +1,6 @@
 FormKey: 203BF4:Starfield.esm
 EditorID: CY_MinerDaytimeUseWeaponMultipleLocations
+FormVersion: 559
 Flags:
 - WeaponDrawn
 Type: Package
@@ -28,7 +29,8 @@ Unknown3: 0x000000
 ScheduleDurationInMinutes: 900
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: HasLinkedRefConditionData
     FirstParameter: 05CA96:Starfield.esm

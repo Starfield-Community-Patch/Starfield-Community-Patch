@@ -1,6 +1,7 @@
 FormKey: 000806:StarfieldCommunityPatch.esm
 MajorRecordFlagsRaw: 32768
 EditorID: LLI_Security_Freestar_DavisWilson
+FormVersion: 559
 StarfieldMajorRecordFlags:
 - VisibleWhenDistant
 ODTY: 0
@@ -9,9 +10,11 @@ Flags:
 - UseAll
 Entries:
 - Level: 1
+  Unused: 19903
   Reference: 0367C5:Starfield.esm
   Count: 1
 - Level: 1
+  Unused: 19903
   Reference: 3D2651:Starfield.esm
   Count: 1
 Model:

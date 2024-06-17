@@ -1,0 +1,58 @@
+FormKey: 231AC5:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: LC124World
+FormVersion: 559
+StarfieldMajorRecordFlags:
+- NotPlayable
+Components:
+- MutagenObjectType: WorldSpaceOverlayComponent
+  SNAM: 0xB1520100
+  PNAM: 0x03000000
+  SurfaceBlock: 231AC0:Starfield.esm
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Valeries Lager
+  - Language: English
+    String: Valerie's Cache
+  - Language: Spanish
+    String: Alijo de Valerie
+  - Language: French
+    String: Cache de Valerie
+  - Language: Italian
+    String: Deposito di Valerie
+  - Language: Japanese
+    String: ヴァレリーの貯蔵庫
+  - Language: Polish
+    String: Skrytka Valerie
+  - Language: Portuguese_Brazil
+    String: Estoque da Valerie
+  - Language: ChineseSimplified
+    String: 瓦莱丽的藏货点
+Location: 2318E1:Starfield.esm
+Biome: 0FD00D:Starfield.esm
+Climate: 13EC24:Starfield.esm
+Water: 000018:Starfield.esm
+LodWater: 000018:Starfield.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: -2048
+  DefaultWaterHeight: -100
+MapData: {}
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+FNAM: 0x00
+ObjectBoundsMin: -0.07324219, -0.07324219
+ObjectBoundsMax: 0.09765625, 0.09765625
+Music: 1A6EF2:Starfield.esm
+AmbienceSet: 243976:Starfield.esm
+GNAM: 1
+XCLWs: []
+WHGTs: []
+HNAM: 0x05
+SubCellsTimestamp: 12497
+MajorFlags:
+- 0x4

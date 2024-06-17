@@ -1,44 +1,17 @@
 FormKey: 331890:Starfield.esm
 EditorID: PolvoStationLocationSpaceCellLocation
-MasterPersistLocationReferences:
-- Actor: 1FECBA:Starfield.esm
-  Location: 21616E:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-LocationCellUniqueReferences:
+FormVersion: 559
+AddedUniqueBaseForms:
 - GenericBaseForm: 1A8DA8:Starfield.esm
   Ref: 1FECBA:Starfield.esm
   Location: 331890:Starfield.esm
-MasterUniqueNpcs: []
-MasterSpecialReferences:
-- LocationRefType: 0713BD:Starfield.esm
-  Marker: 1B1822:Starfield.esm
-  Location: 21616E:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 0713BD:Starfield.esm
-  Marker: 1B1821:Starfield.esm
-  Location: 21616E:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 209872:Starfield.esm
-  Marker: 1B1829:Starfield.esm
-  Location: 21616E:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
+AddedSpecialReferences:
 - LocationRefType: 1FB27E:Starfield.esm
   Marker: 1FECBA:Starfield.esm
   Location: 21616E:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-- LocationRefType: 1FB27E:Starfield.esm
-  Marker: 1FECBA:Starfield.esm
-  Location: 21616E:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-MasterInitiallyDisabledReferences:
-- 1FECBA:Starfield.esm
-- 1FECBA:Starfield.esm
+AddedInitiallyDisabledReferences:
 - 1FECBA:Starfield.esm
 - 1FECBA:Starfield.esm
 Name:

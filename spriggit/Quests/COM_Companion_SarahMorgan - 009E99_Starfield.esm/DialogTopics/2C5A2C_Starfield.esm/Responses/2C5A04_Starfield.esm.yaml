@@ -1,4 +1,5 @@
 FormKey: 2C5A04:Starfield.esm
+FormVersion: 559
 Flags: {}
 Responses:
 - Emotion: None
@@ -32,6 +33,7 @@ Conditions:
 - MutagenObjectType: ConditionGlobal
   CompareOperator: NotEqualTo
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetValueConditionData
     RunOnType: Target

@@ -1,0 +1,32 @@
+FormKey: 2EEA4D:Starfield.esm
+EditorID: PEO_SustenanceAllowed
+FormVersion: 559
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x8D1400
+  Unknown2: 86
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 31324C:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x8D1400
+  Unknown2: 86
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 003448:Starfield.esm
+    SecondParameter: 310
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x8D1400
+  Unknown2: 86
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 003448:Starfield.esm
+    SecondParameter: 9000
+  ComparisonValue: 1

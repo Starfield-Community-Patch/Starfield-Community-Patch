@@ -1,5 +1,6 @@
 FormKey: 091CF5:Starfield.esm
 EditorID: FFNewAtlantis04
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -8,16 +9,16 @@ VirtualMachineAdapter:
       Name: ChangeLocationStages
       Structs:
       - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
         - MutagenObjectType: ScriptBoolProperty
           Name: SetStageOnEnterLocation
         - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 1
+          Name: PrereqStage
         - MutagenObjectType: ScriptObjectProperty
           Name: TargetLocation
           Object: 01295A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_PlayerShip
       Object: 0174A2:Starfield.esm
@@ -49,42 +50,42 @@ VirtualMachineAdapter:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 4
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
-    FragmentName: Fragment_Stage_0004_Item_00
-  - Stage: 9
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
-    FragmentName: Fragment_Stage_0009_Item_00
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
-    FragmentName: Fragment_Stage_0010_Item_00
   - Stage: 20
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
     FragmentName: Fragment_Stage_0020_Item_00
-  - Stage: 30
+  - Stage: 9
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
-    FragmentName: Fragment_Stage_0030_Item_00
+    FragmentName: Fragment_Stage_0009_Item_00
   - Stage: 40
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
     FragmentName: Fragment_Stage_0040_Item_00
-  - Stage: 50
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
-    FragmentName: Fragment_Stage_0050_Item_00
-  - Stage: 60
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
-    FragmentName: Fragment_Stage_0060_Item_00
   - Stage: 100
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
     FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis04_00091CF5
+    FragmentName: Fragment_Stage_0030_Item_00
   Aliases:
   - Property:
       Name: ''

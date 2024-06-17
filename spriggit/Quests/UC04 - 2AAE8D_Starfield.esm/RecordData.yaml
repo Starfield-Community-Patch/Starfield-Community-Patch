@@ -1,65 +1,87 @@
 FormKey: 2AAE8D:Starfield.esm
 EditorID: UC04
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
+  - Name: uc09questscript
+    Properties:
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: CabinetNPCAliases
+      Objects:
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 7
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 9
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 6
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 8
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 10
+      - Name: ''
+        Object: 2AAE8D:Starfield.esm
+        Alias: 15
+  - Name: UC04_ToggleHallScreens
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MinisterHall_Screens
+      Object: 2AAE8D:Starfield.esm
+      Alias: 107
   - Name: uc04_questscript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: AttackPathFloorManagers
-      Object: 2AAE8D:Starfield.esm
-      Alias: 70
+      Name: CityNewAtlantisLocation
+      Object: 01295A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: AvailableCrewFaction
-      Object: 014314:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BackUpMinisterHallGuards
+      Name: VanguardCourseFloorManagers
       Object: 2AAE8D:Starfield.esm
-      Alias: 115
+      Alias: 66
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CaptiveCollection
       Object: 2AAE8D:Starfield.esm
       Alias: 60
     - MutagenObjectType: ScriptObjectProperty
-      Name: CityNewAtlantisLocation
-      Object: 01295A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CoweringNPCs
-      Object: 2AAE8D:Starfield.esm
-      Alias: 43
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrTerrormorphMindControlEffect_NPC
-      Object: 23F94D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCFactionAlwaysOn
-      Object: 14618F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: DisableNPCs
       Object: 2AAE8D:Starfield.esm
       Alias: 44
     - MutagenObjectType: ScriptObjectProperty
-      Name: EmergencyLights
-      Object: 2AAE8D:Starfield.esm
-      Alias: 112
+      Name: CrTerrormorphMindControlEffect_NPC
+      Object: 23F94D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FireTeamMarine
+      Name: AttackPathFloorManagers
       Object: 2AAE8D:Starfield.esm
-      Alias: 39
+      Alias: 70
     - MutagenObjectType: ScriptObjectProperty
-      Name: FireTeamMarineCaptain
+      Name: KneelingNPCs
       Object: 2AAE8D:Starfield.esm
-      Alias: 40
+      Alias: 45
     - MutagenObjectType: ScriptObjectProperty
-      Name: Hadrian
+      Name: BackUpMinisterHallGuards
       Object: 2AAE8D:Starfield.esm
-      Alias: 12
+      Alias: 115
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_MarineFollowerState
+      Object: 0E53AD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shutters
+      Object: 2AAE8D:Starfield.esm
+      Alias: 63
     - MutagenObjectType: ScriptObjectProperty
       Name: IACrew
       Object: 2AAE8D:Starfield.esm
       Alias: 79
     - MutagenObjectType: ScriptObjectProperty
-      Name: KneelingNPCs
+      Name: CoweringNPCs
       Object: 2AAE8D:Starfield.esm
-      Alias: 45
+      Alias: 43
     - MutagenObjectType: ScriptObjectListProperty
       Name: MinisterHallNPCs
       Objects:
@@ -89,37 +111,24 @@ VirtualMachineAdapter:
       Object: 2AAE8D:Starfield.esm
       Alias: 37
     - MutagenObjectType: ScriptObjectProperty
+      Name: FireTeamMarineCaptain
+      Object: 2AAE8D:Starfield.esm
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
       Name: PrimaryFloorManagers
       Object: 2AAE8D:Starfield.esm
       Alias: 65
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RunInGuards
-      Object: 2AAE8D:Starfield.esm
-      Alias: 131
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Shutters
-      Object: 2AAE8D:Starfield.esm
-      Alias: 63
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceportCrew
-      Object: 2AAE8D:Starfield.esm
-      Alias: 78
     - MutagenObjectType: ScriptObjectProperty
       Name: SpaceportGuards
       Object: 2AAE8D:Starfield.esm
       Alias: 19
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
+      Name: SpaceportCrew
+      Object: 2AAE8D:Starfield.esm
+      Alias: 78
     - MutagenObjectType: ScriptObjectProperty
       Name: UC04_HadrianWarningShoutDistance
       Object: 0E539D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_MarineFollowerState
-      Object: 0E53AD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_SecurityDeathCount
-      Object: 0E53C1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC04_Spaceport_RunIn_Start_LinkedRef
       Object: 1EF56A:Starfield.esm
@@ -127,9 +136,15 @@ VirtualMachineAdapter:
       Name: UC04_UCSecurity_WitnessMindControl
       Object: 01080A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: VanguardCourseFloorManagers
+      Name: FireTeamMarine
       Object: 2AAE8D:Starfield.esm
-      Alias: 66
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvailableCrewFaction
+      Object: 014314:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WEF_QST_UC04_Shutters_Close
+      Object: 052AD8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: VanguardRecruitmentFloorManagers
       Object: 2AAE8D:Starfield.esm
@@ -138,306 +153,413 @@ VirtualMachineAdapter:
       Name: VoicesDialogueUCSecurity
       Object: 2BCA40:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: WEF_QST_UC04_Shutters_Close
-      Object: 052AD8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: WwiseEvent_QST_UC04_NewAtlantis_Terrormorph_Alarm_Interior
       Object: 0E03CE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EmergencyLights
+      Object: 2AAE8D:Starfield.esm
+      Alias: 112
     - MutagenObjectType: ScriptObjectProperty
       Name: LodgeDoorTriggers
       Object: 2AAE8D:Starfield.esm
       Alias: 143
-  - Name: UC04_ToggleHallScreens
-    Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: MinisterHall_Screens
-      Object: 2AAE8D:Starfield.esm
-      Alias: 107
-  - Name: uc09questscript
-    Properties:
-    - MutagenObjectType: ScriptObjectListProperty
-      Name: CabinetNPCAliases
-      Objects:
-      - Name: ''
-        Object: 2AAE8D:Starfield.esm
-        Alias: 7
-      - Name: ''
-        Object: 2AAE8D:Starfield.esm
-        Alias: 9
-      - Name: ''
-        Object: 2AAE8D:Starfield.esm
-        Alias: 6
-      - Name: ''
-        Object: 2AAE8D:Starfield.esm
-        Alias: 8
-      - Name: ''
-        Object: 2AAE8D:Starfield.esm
-        Alias: 10
-      - Name: ''
-        Object: 2AAE8D:Starfield.esm
-        Alias: 15
-  Script:
-    Name: Fragments:Quests:QF_UC04_002AAE8D
-    Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AdmiralLogan
-      Object: 2AAE8D:Starfield.esm
-      Alias: 7
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AdoringFan
-      Object: 2AAE8D:Starfield.esm
-      Alias: 137
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AlliedGuards
-      Object: 2AAE8D:Starfield.esm
-      Alias: 84
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AttackPathFloorManagers
-      Object: 2AAE8D:Starfield.esm
-      Alias: 70
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BackUpMinisterHallGuards
-      Object: 2AAE8D:Starfield.esm
-      Alias: 115
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ChiefPatel
-      Object: 2AAE8D:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ChiefSarkin
-      Object: 2AAE8D:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ChiefYasin
-      Object: 2AAE8D:Starfield.esm
-      Alias: 10
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Companion
-      Object: 2AAE8D:Starfield.esm
-      Alias: 32
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EliteCrew
-      Object: 2AAE8D:Starfield.esm
-      Alias: 117
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EMOrion
-      Object: 2AAE8D:Starfield.esm
-      Alias: 138
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EMWeapon
-      Object: 2AAE8D:Starfield.esm
-      Alias: 90
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EssentialGuards
-      Object: 2AAE8D:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FireTeamMarine
-      Object: 2AAE8D:Starfield.esm
-      Alias: 39
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FireTeamMarineCaptain
-      Object: 2AAE8D:Starfield.esm
-      Alias: 40
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FireTeamMarineCaptain_Essential
-      Object: 2AAE8D:Starfield.esm
-      Alias: 42
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FireTeamMarine_Essential
-      Object: 2AAE8D:Starfield.esm
-      Alias: 41
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FollowerThrallFriendFaction
-      Object: 2AAE8D:Starfield.esm
-      Alias: 109
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_GagarinBusinessman
-      Object: 2AAE8D:Starfield.esm
-      Alias: 130
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_GagarinBusinesswoman
-      Object: 2AAE8D:Starfield.esm
-      Alias: 129
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Hadrian
+      Name: Hadrian
       Object: 2AAE8D:Starfield.esm
       Alias: 12
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HadrianData
-      Object: 2AAE8D:Starfield.esm
-      Alias: 34
+      Name: DialogueUCFactionAlwaysOn
+      Object: 14618F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HadrianShip
+      Name: RunInGuards
       Object: 2AAE8D:Starfield.esm
-      Alias: 103
+      Alias: 131
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_IACrew
-      Object: 2AAE8D:Starfield.esm
-      Alias: 79
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_KillFurniture
-      Object: 2AAE8D:Starfield.esm
-      Alias: 118
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LodgeDoorsExt
-      Object: 2AAE8D:Starfield.esm
-      Alias: 75
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LodgeSecretDoor
-      Object: 2AAE8D:Starfield.esm
-      Alias: 76
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MASTMaleWorker04
-      Object: 2AAE8D:Starfield.esm
-      Alias: 123
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MinisterHallElevator
-      Object: 2AAE8D:Starfield.esm
-      Alias: 59
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MinisterHallEmergencyDoor
-      Object: 2AAE8D:Starfield.esm
-      Alias: 30
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MinisterHallFloorManager
-      Object: 2AAE8D:Starfield.esm
-      Alias: 124
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MinisterHallGuard
-      Object: 2AAE8D:Starfield.esm
-      Alias: 15
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MQ204Ship
-      Object: 2AAE8D:Starfield.esm
-      Alias: 142
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NACrewSpawner
-      Object: 2AAE8D:Starfield.esm
-      Alias: 56
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NATActivator
-      Object: 2AAE8D:Starfield.esm
-      Alias: 96
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NATGateEnableMarker
-      Object: 2AAE8D:Starfield.esm
-      Alias: 132
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NATGuard
-      Object: 2AAE8D:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NatGuard01Furniture
-      Object: 2AAE8D:Starfield.esm
-      Alias: 127
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NATGuard02
-      Object: 2AAE8D:Starfield.esm
-      Alias: 87
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NatGuard02Furniture
-      Object: 2AAE8D:Starfield.esm
-      Alias: 126
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NATStationEnableMarker
-      Object: 2AAE8D:Starfield.esm
-      Alias: 16
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NATThrallF01
-      Object: 2AAE8D:Starfield.esm
-      Alias: 89
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NATThrallF02
-      Object: 2AAE8D:Starfield.esm
-      Alias: 113
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NATThrallM01
-      Object: 2AAE8D:Starfield.esm
-      Alias: 92
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NATThrallM02
-      Object: 2AAE8D:Starfield.esm
-      Alias: 94
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NewAtlantisLocation
-      Object: 2AAE8D:Starfield.esm
-      Alias: 4
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_OfficerSaleh
-      Object: 2AAE8D:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_OverhangEnableMarker
-      Object: 2AAE8D:Starfield.esm
-      Alias: 106
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Player
-      Object: 2AAE8D:Starfield.esm
-      Alias: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerFriendFaction
-      Object: 2AAE8D:Starfield.esm
-      Alias: 73
+      Name: UC04_SecurityDeathCount
+      Object: 0E53C1:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_UC04_002AAE8D
+    Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PresidentAbello
       Object: 2AAE8D:Starfield.esm
       Alias: 6
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PrimaryFloorManagers
-      Object: 2AAE8D:Starfield.esm
-      Alias: 65
+      Name: UC04_NATThrallEnemyFaction
+      Object: 32986F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ReconstructionMarker
-      Object: 2AAE8D:Starfield.esm
-      Alias: 86
+      Name: DebugMarker01
+      Object: 0224CA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ResourceOfficer
+      Name: IdleChatterTimeMin
+      Object: 0002CC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_PlayerKnows_TerrormorphProjectFailed
+      Object: 0E53C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terrormorph_Spaceport_AmbushTrigger01
       Object: 2AAE8D:Starfield.esm
-      Alias: 1
+      Alias: 119
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_Thrall_KnockedOutKeyword
+      Object: 32987B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_602_NATGuard_OntoTheNAT
+      Object: 32986A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_TurnOffArrestScene
+      Object: 28DC0D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_610_HadrianShout
+      Object: 2AAD96:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KillFurniture
+      Object: 2AAE8D:Starfield.esm
+      Alias: 118
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MQ204Ship
+      Object: 2AAE8D:Starfield.esm
+      Alias: 142
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrowdDisableNA
+      Object: 1451A1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_RunInGuards
       Object: 2AAE8D:Starfield.esm
       Alias: 131
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terrormorph_Viewport
+      Object: 2AAE8D:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_PostAttackDialogueActive
+      Object: 23F92A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATThrallF02
+      Object: 2AAE8D:Starfield.esm
+      Alias: 113
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATGuard
+      Object: 2AAE8D:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC05
+      Object: 2A39BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeDoorsExt
+      Object: 2AAE8D:Starfield.esm
+      Alias: 75
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terrormorph_Spaceport_AmbushTrigger02
+      Object: 2AAE8D:Starfield.esm
+      Alias: 120
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_ConvincedYasin
+      Object: 21CA91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EMOrion
+      Object: 2AAE8D:Starfield.esm
+      Alias: 138
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_DEBUG_PaintTheScene800
+      Object: 2AAD8C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_DebugMarker08a
+      Object: 22345A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SpaceportCrew
       Object: 2AAE8D:Starfield.esm
       Alias: 78
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceportDoorToWell
-      Object: 2AAE8D:Starfield.esm
-      Alias: 72
+      Name: SQ_CargoShipsStayInOrbit
+      Object: 23F86A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceportEnableMarker
-      Object: 2AAE8D:Starfield.esm
-      Alias: 31
+      Name: UC04_583_Hadrian_FirstStunned
+      Object: 329885:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceportGuards
-      Object: 2AAE8D:Starfield.esm
-      Alias: 19
+      Name: IdleChatterTimeMax
+      Object: 0002CD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceportMedic
+      Name: UC04_NAT_ThrallsKilled
+      Object: 329878:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MASTMaleWorker04
       Object: 2AAE8D:Starfield.esm
-      Alias: 48
+      Alias: 123
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 2AAE8D:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeSecretDoor
+      Object: 2AAE8D:Starfield.esm
+      Alias: 76
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker04a
+      Object: 23F9B4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WeaponTypeEM
+      Object: 27DF95:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EliteCrew
+      Object: 2AAE8D:Starfield.esm
+      Alias: 117
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_PlayerKilledAnyGuard
+      Object: 0E53C5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_600_Hadrian_ConfirmOrders
+      Object: 0E53BA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_NATThrallFaction
+      Object: 329856:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SpaceportNATCar
       Object: 2AAE8D:Starfield.esm
       Alias: 135
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceportSecurityDoor
+      Name: Alias_ReconstructionMarker
       Object: 2AAE8D:Starfield.esm
-      Alias: 140
+      Alias: 86
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_LockdownActive
+      Object: 219A81:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 2AAE8D:Starfield.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hadrian
+      Object: 2AAE8D:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC02_HadrianKnowsPlayerIsVanguard
+      Object: 26DD0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis01
+      Object: 24C3A1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_Terrormorph_CustomLoc
+      Object: 04AEC8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_JakobSandboxing_PostUC03
+      Object: 20B7DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATThrallF01
+      Object: 2AAE8D:Starfield.esm
+      Alias: 89
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_AdmiralLogan_Scene900
+      Object: 23F977:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_IACrew
+      Object: 2AAE8D:Starfield.esm
+      Alias: 79
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_DisableSpaceportCrowds
+      Object: 01BC03:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EssentialGuards
+      Object: 2AAE8D:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_AttackActive
+      Object: 23F985:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker03a
+      Object: 23C0D0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker07
+      Object: 2A9493:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TriggerStationInterior
+      Object: 2AAE8D:Starfield.esm
+      Alias: 134
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_DEBUG_MoveToNATStation
+      Object: 223459:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_ContrabandLockerKey
+      Object: 23F92B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportGuards
+      Object: 2AAE8D:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_DEBUG_LastTimeOnTheUC
+      Object: 1FF68C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_UC04_Distant_Explosion
+      Object: 2D4441:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_910_PresAttract
+      Object: 23F973:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker04
+      Object: 2AABCA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204
+      Object: 2C6D74:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_NewAtlantis_EmergencyAlarm_On_State
+      Object: 030A99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_Hadrian_Scene400Marker
+      Object: 23F9AF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NatGuard01Furniture
+      Object: 2AAE8D:Starfield.esm
+      Alias: 127
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATActivator
+      Object: 2AAE8D:Starfield.esm
+      Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_690_CompanionRxn_FirstTerrormorphDead
+      Object: 23F59F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker05
+      Object: 035242:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_TurnOffCF01Arrest
+      Object: 07C702:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_UC04_NewAtlantis_Terrormorph_ShipDebris_On_State
+      Object: 030A97:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_NA_CL_DiplomatScene
+      Object: 373072:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_StarbornHunter
       Object: 2AAE8D:Starfield.esm
       Alias: 101
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TableGoodies
+      Name: Alias_Terrormorph_Spaceport02
       Object: 2AAE8D:Starfield.esm
-      Alias: 121
+      Alias: 98
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ResourceOfficer
+      Object: 2AAE8D:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Invulnerable
+      Object: 000390:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadrianNATMarker
+      Object: 2AADAF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_NewAtlantis_EmergencyAlarm_Off_State
+      Object: 030A9C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_MarinesDied
+      Object: 23F9C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GagarinBusinessman
+      Object: 2AAE8D:Starfield.esm
+      Alias: 130
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_NA_CL_RealtyOfficeScene
+      Object: 0EC514:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATThrallM02
+      Object: 2AAE8D:Starfield.esm
+      Alias: 94
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATGateEnableMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 132
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HadrianShip
+      Object: 2AAE8D:Starfield.esm
+      Alias: 103
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MinisterHallElevator
+      Object: 2AAE8D:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_848_CompanionRxn_FinalTerrormorphDead
+      Object: 23F59C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terrormorph_Spaceport
+      Object: 2AAE8D:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PrimaryFloorManagers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 65
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerFriendFaction
+      Object: 2AAE8D:Starfield.esm
+      Alias: 73
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_DEBUG_AnimationIssues
+      Object: 22345B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FireTeamMarine_Essential
+      Object: 2AAE8D:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugMarker03
+      Object: 2AABC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATThrallM01
+      Object: 2AAE8D:Starfield.esm
+      Alias: 92
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BackUpMinisterHallGuards
+      Object: 2AAE8D:Starfield.esm
+      Alias: 115
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GagarinBusinesswoman
+      Object: 2AAE8D:Starfield.esm
+      Alias: 129
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FollowerThrallFriendFaction
+      Object: 2AAE8D:Starfield.esm
+      Alias: 109
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FireTeamMarine
+      Object: 2AAE8D:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCFactionAlwaysOn
+      Object: 14618F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NACrewSpawner
+      Object: 2AAE8D:Starfield.esm
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChiefPatel
+      Object: 2AAE8D:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_PlayerDealthwithCFConsequences
+      Object: 0E53B7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AlliedGuards
+      Object: 2AAE8D:Starfield.esm
+      Alias: 84
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_605_EmergencyAnnouncementScene
+      Object: 23F81E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_820_Hadrian_MarinesMindControlled
+      Object: 0E53AE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_NA_CL_TolimanScene
+      Object: 0068AD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TarmacEnableMarker
       Object: 2AAE8D:Starfield.esm
@@ -447,25 +569,11 @@ VirtualMachineAdapter:
       Object: 2AAE8D:Starfield.esm
       Alias: 21
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Terrormorph_Spaceport
-      Object: 2AAE8D:Starfield.esm
-      Alias: 26
+      Name: UC04_860_SituationResolvedScene
+      Object: 223432:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Terrormorph_Spaceport02
-      Object: 2AAE8D:Starfield.esm
-      Alias: 98
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Terrormorph_Spaceport_AmbushTrigger01
-      Object: 2AAE8D:Starfield.esm
-      Alias: 119
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Terrormorph_Spaceport_AmbushTrigger02
-      Object: 2AAE8D:Starfield.esm
-      Alias: 120
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Terrormorph_Viewport
-      Object: 2AAE8D:Starfield.esm
-      Alias: 20
+      Name: UC04_615_EmergencyBroadcast02
+      Object: 23F811:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Terrormorph_Viewport_Protected
       Object: 2AAE8D:Starfield.esm
@@ -483,21 +591,17 @@ VirtualMachineAdapter:
       Object: 2AAE8D:Starfield.esm
       Alias: 122
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TriggerStationInterior
-      Object: 2AAE8D:Starfield.esm
-      Alias: 134
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_VanguardCourseFloorManagers
       Object: 2AAE8D:Starfield.esm
       Alias: 66
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VanguardRecruitmentFloorManagers
+      Name: Alias_AdoringFan
       Object: 2AAE8D:Starfield.esm
-      Alias: 67
+      Alias: 137
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ViewportTMKillPartner
+      Name: Alias_HadrianData
       Object: 2AAE8D:Starfield.esm
-      Alias: 102
+      Alias: 34
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_WarningSignsEnableMarker
       Object: 2AAE8D:Starfield.esm
@@ -511,27 +615,18 @@ VirtualMachineAdapter:
       Object: 2AAE8D:Starfield.esm
       Alias: 13
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_WoundedSoliders
-      Object: 2AAE8D:Starfield.esm
-      Alias: 51
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AmmoLaser
-      Object: 00E8EC:Starfield.esm
+      Name: UC04_695_Yumi_Post2ndMorphKilled
+      Object: 0E53C2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CF05
       Object: 21D792:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Crew_Elite_Orion
-      Object: 215F41:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrowdDisableNA
-      Object: 1451A1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: CrTerrormorphMindControl
       Object: 23F94C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: DebugMarker01
-      Object: 0224CA:Starfield.esm
+      Name: Alias_NatGuard02Furniture
+      Object: 2AAE8D:Starfield.esm
+      Alias: 126
     - MutagenObjectType: ScriptObjectProperty
       Name: DebugMarker02
       Object: 2AAD88:Starfield.esm
@@ -539,50 +634,30 @@ VirtualMachineAdapter:
       Name: DebugMarker02a
       Object: 23C0D3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: DebugMarker03
-      Object: 2AABC9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DebugMarker03a
-      Object: 23C0D0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DebugMarker04
-      Object: 2AABCA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DebugMarker04a
-      Object: 23F9B4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DebugMarker05
-      Object: 035242:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DebugMarker07
-      Object: 2A9493:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCFactionAlwaysOn
-      Object: 14618F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: DialogueUCNAConvo_SecurityOffice
       Object: 06422E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: DialogueUCNewAtlantisUC01Vanguard
       Object: 2C5402:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis01
-      Object: 24C3A1:Starfield.esm
+      Name: Alias_OfficerSaleh
+      Object: 2AAE8D:Starfield.esm
+      Alias: 23
     - MutagenObjectType: ScriptObjectProperty
-      Name: Frontier_ModularREF
-      Object: 03F7E8:Starfield.esm
+      Name: Alias_TableGoodies
+      Object: 2AAE8D:Starfield.esm
+      Alias: 121
     - MutagenObjectType: ScriptObjectProperty
-      Name: HadrianAdminTeleportMarker
-      Object: 23F9B4:Starfield.esm
+      Name: Alias_SpaceportMedic
+      Object: 2AAE8D:Starfield.esm
+      Alias: 48
     - MutagenObjectType: ScriptObjectProperty
-      Name: HadrianInitialSceneMarker
-      Object: 23F9CB:Starfield.esm
+      Name: Alias_OverhangEnableMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 106
     - MutagenObjectType: ScriptObjectProperty
       Name: HadrianMASTNATMarker
       Object: 069481:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: HadrianNATMarker
-      Object: 2AADAF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: HadrianSceneMarker
       Object: 23F9CB:Starfield.esm
@@ -590,56 +665,19 @@ VirtualMachineAdapter:
       Name: HadrianStarportMarker
       Object: 2AAD94:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: HadrianTeleportMarker
-      Object: 2AAD97:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: IdleChatterTimeMax
-      Object: 0002CD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: IdleChatterTimeMin
-      Object: 0002CC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Invulnerable
-      Object: 000390:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204
-      Object: 2C6D74:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_TurnOffCF01Arrest
-      Object: 07C702:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NewAtlantisShipLandingMarker
-      Object: 023605:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFaction
-      Object: 01C21C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: QST_UC04_Distant_Explosion
-      Object: 2D4441:Starfield.esm
+      Name: Alias_NATStationEnableMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 16
     - MutagenObjectType: ScriptObjectProperty
       Name: RAD02
       Object: 29EF60:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipEnabledLandingLink
-      Object: 01448D:Starfield.esm
+      Name: Alias_NATGuard02
+      Object: 2AAE8D:Starfield.esm
+      Alias: 87
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_CargoShipsStayInOrbit
-      Object: 23F86A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TestVSWeapons
-      Object: 24AA02:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TraitUnwantedHero
-      Object: 0EFFCF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC02_HadrianKnowsPlayerIsVanguard
-      Object: 26DD0B:Starfield.esm
+      Name: UC03_650_SalehShout
+      Object: 2AAD8D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC03_400_MinisterScene
       Object: 23F9B5:Starfield.esm
@@ -647,20 +685,9 @@ VirtualMachineAdapter:
       Name: UC03_450_MinistersSceneCont
       Object: 2AADC8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC03_610_HadrianShout
-      Object: 2AAD96:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC03_650_SalehShout
-      Object: 2AAD8D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC03_AdmiralLogan_Scene900
-      Object: 23F977:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC03_ChiefSarkin_Scene900
-      Object: 23F970:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC03_DebugMarker08a
-      Object: 22345A:Starfield.esm
+      Name: Alias_MinisterHallGuard
+      Object: 2AAE8D:Starfield.esm
+      Alias: 15
     - MutagenObjectType: ScriptObjectProperty
       Name: UC03_DEBUG_AdditionalMurderToys
       Object: 2AAD91:Starfield.esm
@@ -668,20 +695,18 @@ VirtualMachineAdapter:
       Name: UC03_DEBUG_ExplosionInTheDistance
       Object: 2AADC9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC03_DEBUG_MoveToSpaceport
-      Object: 2A9497:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC03_DEBUG_PaintTheScene800
-      Object: 2AAD8C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC03_PlayerKnows_TerrormorphProjectFailed
-      Object: 0E53C8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: UC03_Spaceport_EnableMarker_Actors
       Object: 03FD15:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_200_HadrianAttractScene
-      Object: 23F9CA:Starfield.esm
+      Name: UC04_DEBUG_WhatsChanged
+      Object: 1FF68D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_NATGuardFriendFaction
+      Object: 329870:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeDoorTriggers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 143
     - MutagenObjectType: ScriptObjectProperty
       Name: UC04_350_AnnoucementScene
       Object: 23F9BB:Starfield.esm
@@ -689,8 +714,8 @@ VirtualMachineAdapter:
       Name: UC04_350_HadrianPreCabinetScene
       Object: 23F9BF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_550_CabinetPostMainScene
-      Object: 2AADAC:Starfield.esm
+      Name: NewAtlantisShipLandingMarker
+      Object: 023605:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC04_577_NATGuards_SpeakToPlayer
       Object: 32985D:Starfield.esm
@@ -701,501 +726,549 @@ VirtualMachineAdapter:
       Name: UC04_582_Hadrian_UseEMWeapon
       Object: 329883:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_583_Hadrian_FirstStunned
-      Object: 329885:Starfield.esm
+      Name: UC03_ChiefSarkin_Scene900
+      Object: 23F970:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FireTeamMarineCaptain
+      Object: 2AAE8D:Starfield.esm
+      Alias: 40
     - MutagenObjectType: ScriptObjectProperty
       Name: UC04_590_Hadrian_EMWeaponAcquired
       Object: 329862:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_600_Hadrian_ConfirmOrders
-      Object: 0E53BA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_602_NATGuard_OntoTheNAT
-      Object: 32986A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_605_EmergencyAnnouncementScene
-      Object: 23F81E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_610a_TerrormorphPairedKillAnim
-      Object: 0714DD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_615_EmergencyBroadcast02
-      Object: 23F811:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_615_MedicScene
-      Object: 23F932:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_690_CompanionRxn_FirstTerrormorphDead
-      Object: 23F59F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_695_Yumi_Post2ndMorphKilled
-      Object: 0E53C2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_820_Hadrian_MarinesMindControlled
-      Object: 0E53AE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_848_CompanionRxn_FinalTerrormorphDead
-      Object: 23F59C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_860_SituationResolvedScene
-      Object: 223432:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_910_PresAttract
-      Object: 23F973:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_AttackActive
-      Object: 23F985:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_CabinetConvincePoints
-      Object: 226452:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_ContrabandLockerKey
-      Object: 23F92B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_ConvincedYasin
-      Object: 21CA91:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_DEBUG_AnimationIssues
-      Object: 22345B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_DEBUG_LastTimeOnTheUC
-      Object: 1FF68C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_DEBUG_MoveToNATStation
-      Object: 223459:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_DEBUG_WhatsChanged
-      Object: 1FF68D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_DisableSpaceportCrowds
-      Object: 01BC03:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_HadrianNameUpdate
-      Object: 146116:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_Hadrian_Scene400Marker
-      Object: 23F9AF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_JakobSandboxing_PostUC03
-      Object: 20B7DC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_LockdownActive
-      Object: 219A81:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_MarinesDied
-      Object: 23F9C8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_MASTNatActive
-      Object: 10D181:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_NATGuardFriendFaction
-      Object: 329870:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_NATThrallEnemyFaction
-      Object: 32986F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_NATThrallFaction
-      Object: 329856:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_NAT_ThrallsKilled
-      Object: 329878:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_OfficerYumi_Scene700Marker
-      Object: 2A9496:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_PlayerKilledAnyGuard
-      Object: 0E53C5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_PostAttackDialogueActive
-      Object: 23F92A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_SpaceportGuard_ReduceMorphDamage
-      Object: 057B59:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_Terrormorph_CustomLoc
-      Object: 04AEC8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_Thrall_KnockedOutKeyword
-      Object: 32987B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_TurnOffArrestScene
-      Object: 28DC0D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC05
-      Object: 2A39BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC05_DebugMarker13
-      Object: 1D7CC7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_Hadrian_ECCombatDialogueActive
-      Object: 1477CE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_NA_CL_DiplomatScene
-      Object: 373072:Starfield.esm
+      Name: TraitUnwantedHero
+      Object: 0EFFCF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC_NA_CL_GagarinTransferScene
       Object: 235D2F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC_NA_CL_RealtyOfficeScene
-      Object: 0EC514:Starfield.esm
+      Name: UC04_610a_TerrormorphPairedKillAnim
+      Object: 0714DD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC_NA_CL_TolimanScene
-      Object: 0068AD:Starfield.esm
+      Name: UC04_615_MedicScene
+      Object: 23F932:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC_PlayerDealthwithCFConsequences
-      Object: 0E53B7:Starfield.esm
+      Name: Alias_WoundedSoliders
+      Object: 2AAE8D:Starfield.esm
+      Alias: 51
     - MutagenObjectType: ScriptObjectProperty
-      Name: WeaponTypeEM
-      Object: 27DF95:Starfield.esm
+      Name: UC_Hadrian_ECCombatDialogueActive
+      Object: 1477CE:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_QST_NewAtlantis_EmergencyAlarm_Off_State
-      Object: 030A9C:Starfield.esm
+      Name: Alias_ChiefSarkin
+      Object: 2AAE8D:Starfield.esm
+      Alias: 8
     - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_QST_NewAtlantis_EmergencyAlarm_On_State
-      Object: 030A99:Starfield.esm
+      Name: UC04_200_HadrianAttractScene
+      Object: 23F9CA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_HadrianNameUpdate
+      Object: 146116:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_MASTNatActive
+      Object: 10D181:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportEnableMarker
+      Object: 2AAE8D:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_SpaceportGuard_ReduceMorphDamage
+      Object: 057B59:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadrianInitialSceneMarker
+      Object: 23F9CB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_OfficerYumi_Scene700Marker
+      Object: 2A9496:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AmmoLaser
+      Object: 00E8EC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VanguardRecruitmentFloorManagers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 67
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MinisterHallFloorManager
+      Object: 2AAE8D:Starfield.esm
+      Alias: 124
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC03_DEBUG_MoveToSpaceport
+      Object: 2A9497:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FireTeamMarineCaptain_Essential
+      Object: 2AAE8D:Starfield.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NewAtlantisLocation
+      Object: 2AAE8D:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AttackPathFloorManagers
+      Object: 2AAE8D:Starfield.esm
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TestVSWeapons
+      Object: 24AA02:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadrianTeleportMarker
+      Object: 2AAD97:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AdmiralLogan
+      Object: 2AAE8D:Starfield.esm
+      Alias: 7
     - MutagenObjectType: ScriptObjectProperty
       Name: WwiseEvent_QST_UC04_NewAtlantis_Terrormorph_ShipDebris_Off_State
       Object: 030A98:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_QST_UC04_NewAtlantis_Terrormorph_ShipDebris_On_State
-      Object: 030A97:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LodgeDoorTriggers
+      Name: Alias_ChiefYasin
       Object: 2AAE8D:Starfield.esm
-      Alias: 143
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportSecurityDoor
+      Object: 2AAE8D:Starfield.esm
+      Alias: 140
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EMWeapon
+      Object: 2AAE8D:Starfield.esm
+      Alias: 90
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_CabinetConvincePoints
+      Object: 226452:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipEnabledLandingLink
+      Object: 01448D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MinisterHallEmergencyDoor
+      Object: 2AAE8D:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportDoorToWell
+      Object: 2AAE8D:Starfield.esm
+      Alias: 72
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_550_CabinetPostMainScene
+      Object: 2AADAC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Elite_Orion
+      Object: 215F41:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ViewportTMKillPartner
+      Object: 2AAE8D:Starfield.esm
+      Alias: 102
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HadrianAdminTeleportMarker
+      Object: 23F9B4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC05_DebugMarker13
+      Object: 1D7CC7:Starfield.esm
   Fragments:
-  - Stage: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0001_Item_00
-  - Stage: 2
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0002_Item_00
-  - Stage: 3
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0003_Item_00
-  - Stage: 4
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0004_Item_00
-  - Stage: 5
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0005_Item_00
-  - Stage: 7
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0007_Item_00
-  - Stage: 8
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0008_Item_00
-  - Stage: 9
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0009_Item_00
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0010_Item_00
-  - Stage: 11
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0011_Item_00
-  - Stage: 12
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0012_Item_00
-  - Stage: 13
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0013_Item_00
-  - Stage: 15
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0015_Item_00
-  - Stage: 16
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0016_Item_00
-  - Stage: 100
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0100_Item_00
-  - Stage: 105
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0105_Item_00
-  - Stage: 225
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0225_Item_00
-  - Stage: 250
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0250_Item_00
-  - Stage: 301
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0301_Item_00
-  - Stage: 305
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0305_Item_00
-  - Stage: 343
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0343_Item_00
-  - Stage: 345
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0345_Item_00
-  - Stage: 347
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0347_Item_00
-  - Stage: 350
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0350_Item_00
-  - Stage: 351
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0351_Item_00
-  - Stage: 360
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0360_Item_00
-  - Stage: 400
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0400_Item_00
-  - Stage: 402
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0402_Item_00
-  - Stage: 403
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0403_Item_00
-  - Stage: 405
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0405_Item_00
-  - Stage: 407
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0407_Item_00
-  - Stage: 408
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0408_Item_00
-  - Stage: 410
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0410_Item_00
-  - Stage: 415
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0415_Item_00
-  - Stage: 416
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0416_Item_00
-  - Stage: 420
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0420_Item_00
-  - Stage: 421
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0421_Item_00
-  - Stage: 422
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0422_Item_00
-  - Stage: 423
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0423_Item_00
-  - Stage: 424
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0424_Item_00
-  - Stage: 425
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0425_Item_00
   - Stage: 430
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UC04_002AAE8D
     FragmentName: Fragment_Stage_0430_Item_00
-  - Stage: 452
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0452_Item_00
-  - Stage: 455
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0455_Item_00
-  - Stage: 456
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0456_Item_00
-  - Stage: 500
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0500_Item_00
-  - Stage: 550
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0550_Item_00
-  - Stage: 551
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0551_Item_00
-  - Stage: 556
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0556_Item_00
-  - Stage: 570
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0570_Item_00
-  - Stage: 575
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0575_Item_00
-  - Stage: 577
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0577_Item_00
-  - Stage: 580
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0580_Item_00
-  - Stage: 581
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0581_Item_00
-  - Stage: 582
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0582_Item_00
-  - Stage: 585
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0585_Item_00
-  - Stage: 586
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0586_Item_00
-  - Stage: 587
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0587_Item_00
-  - Stage: 588
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0588_Item_00
-  - Stage: 589
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0589_Item_00
-  - Stage: 590
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0590_Item_00
-  - Stage: 591
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0591_Item_00
-  - Stage: 592
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0592_Item_00
-  - Stage: 593
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0593_Item_00
-  - Stage: 594
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0594_Item_00
-  - Stage: 595
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0595_Item_00
-  - Stage: 599
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0599_Item_00
-  - Stage: 600
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0600_Item_00
-  - Stage: 601
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0601_Item_00
-  - Stage: 602
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0602_Item_00
-  - Stage: 603
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0603_Item_00
-  - Stage: 610
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0610_Item_00
-  - Stage: 615
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0615_Item_00
-  - Stage: 620
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0620_Item_00
-  - Stage: 625
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0625_Item_00
-  - Stage: 650
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0650_Item_00
-  - Stage: 651
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0651_Item_00
   - Stage: 655
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UC04_002AAE8D
     FragmentName: Fragment_Stage_0655_Item_00
-  - Stage: 689
+  - Stage: 591
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0689_Item_00
+    FragmentName: Fragment_Stage_0591_Item_00
+  - Stage: 609
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0609_Item_00
+  - Stage: 851
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0851_Item_00
+  - Stage: 345
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0345_Item_00
+  - Stage: 595
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0595_Item_00
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0650_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 911
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0911_Item_00
+  - Stage: 586
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0586_Item_00
+  - Stage: 860
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0860_Item_00
+  - Stage: 601
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0601_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 225
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0225_Item_00
+  - Stage: 581
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0581_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0420_Item_00
+  - Stage: 403
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0403_Item_00
   - Stage: 690
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UC04_002AAE8D
     FragmentName: Fragment_Stage_0690_Item_00
-  - Stage: 715
+  - Stage: 455
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0715_Item_00
-  - Stage: 716
+    FragmentName: Fragment_Stage_0455_Item_00
+  - Stage: 105
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0716_Item_00
+    FragmentName: Fragment_Stage_0105_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0550_Item_00
+  - Stage: 589
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0589_Item_00
+  - Stage: 347
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0347_Item_00
+  - Stage: 575
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0575_Item_00
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 593
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0593_Item_00
+  - Stage: 570
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0570_Item_00
   - Stage: 717
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UC04_002AAE8D
     FragmentName: Fragment_Stage_0717_Item_00
+  - Stage: 425
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0425_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0250_Item_00
+  - Stage: 603
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0603_Item_00
+  - Stage: 620
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0620_Item_00
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0013_Item_00
+  - Stage: 456
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0456_Item_00
+  - Stage: 556
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0556_Item_00
+  - Stage: 422
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0422_Item_00
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0008_Item_00
+  - Stage: 606
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0606_Item_00
+  - Stage: 421
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0421_Item_00
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0011_Item_00
+  - Stage: 810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0810_Item_00
+  - Stage: 580
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0580_Item_00
+  - Stage: 402
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0402_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 407
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0407_Item_00
+  - Stage: 343
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0343_Item_00
+  - Stage: 815
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0815_Item_00
+  - Stage: 416
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0416_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 577
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0577_Item_00
+  - Stage: 594
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0594_Item_00
+  - Stage: 910
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0910_Item_00
+  - Stage: 587
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0587_Item_00
+  - Stage: 651
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0651_Item_00
+  - Stage: 805
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0805_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 590
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0590_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 452
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0452_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 715
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0715_Item_00
+  - Stage: 608
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0608_Item_00
+  - Stage: 850
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0850_Item_00
+  - Stage: 825
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0825_Item_00
+  - Stage: 599
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0599_Item_00
+  - Stage: 408
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0408_Item_00
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0009_Item_00
+  - Stage: 423
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0423_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 582
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0582_Item_00
+  - Stage: 689
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0689_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 625
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0625_Item_00
+  - Stage: 607
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0607_Item_00
+  - Stage: 16
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0016_Item_00
+  - Stage: 405
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0405_Item_00
+  - Stage: 602
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0602_Item_00
+  - Stage: 820
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0820_Item_00
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 351
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0351_Item_00
+  - Stage: 415
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0415_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 830
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0830_Item_00
+  - Stage: 592
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0592_Item_00
+  - Stage: 716
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0716_Item_00
+  - Stage: 301
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0301_Item_00
+  - Stage: 585
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0585_Item_00
+  - Stage: 360
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0360_Item_00
+  - Stage: 424
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0424_Item_00
+  - Stage: 610
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0610_Item_00
+  - Stage: 551
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0551_Item_00
+  - Stage: 588
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0588_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 305
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0305_Item_00
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 615
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
+    FragmentName: Fragment_Stage_0615_Item_00
   - Stage: 720
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UC04_002AAE8D
@@ -1204,34 +1277,6 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UC04_002AAE8D
     FragmentName: Fragment_Stage_0730_Item_00
-  - Stage: 800
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0800_Item_00
-  - Stage: 805
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0805_Item_00
-  - Stage: 810
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0810_Item_00
-  - Stage: 815
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0815_Item_00
-  - Stage: 820
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0820_Item_00
-  - Stage: 825
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0825_Item_00
-  - Stage: 830
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0830_Item_00
   - Stage: 835
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UC04_002AAE8D
@@ -1244,50 +1289,6 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_UC04_002AAE8D
     FragmentName: Fragment_Stage_0847_Item_00
-  - Stage: 850
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0850_Item_00
-  - Stage: 851
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0851_Item_00
-  - Stage: 860
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0860_Item_00
-  - Stage: 900
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0900_Item_00
-  - Stage: 910
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0910_Item_00
-  - Stage: 911
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0911_Item_00
-  - Stage: 1000
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_1000_Item_00
-  - Stage: 606
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0606_Item_00
-  - Stage: 607
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0607_Item_00
-  - Stage: 608
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0608_Item_00
-  - Stage: 609
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_UC04_002AAE8D
-    FragmentName: Fragment_Stage_0609_Item_00
   Aliases:
   - Property:
       Name: ''
@@ -1322,14 +1323,6 @@ VirtualMachineAdapter:
     Scripts:
     - Name: defaultaliasontriggerentermultiactor
       Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: PlayerOnly
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 105
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 225
       - MutagenObjectType: ScriptObjectListProperty
         Name: TriggerAliases
         Objects:
@@ -1339,6 +1332,14 @@ VirtualMachineAdapter:
         - Name: ''
           Object: 2AAE8D:Starfield.esm
           Alias: 12
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 105
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 225
       - MutagenObjectType: ScriptIntProperty
         Name: TurnOffStageDone
         Data: 300
@@ -1382,50 +1383,52 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
-      Alias: 18
-    Scripts:
-    - Name: DefaultAliasOnDeath
-      Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: PlayerOnly
-        Data: True
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 594
-      - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStageDone
-        Data: 595
-    - Name: DefaultAliasOnHit
-      Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: PlayerOnly
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 586
-      - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStageDone
-        Data: 590
-  - Property:
-      Name: ''
-      Object: 2AAE8D:Starfield.esm
       Alias: 19
     Scripts:
-    - Name: UC04_GuardDeathCount
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: UC04_AttackActive
-        Object: 23F985:Starfield.esm
     - Name: UC04_KilledByPlayerCollScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
         Name: UC04_AttackActive
         Object: 23F985:Starfield.esm
+    - Name: UC04_GuardDeathCount
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_AttackActive
+        Object: 23F985:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 28
+    Scripts:
+    - Name: uc03_spaceportguardrefcoll
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 27
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 650
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 21
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: UseOnDyingInstead
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 690
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
@@ -1454,16 +1457,82 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
-      Alias: 21
+      Alias: 85
     Scripts:
     - Name: DefaultAliasOnDeath
       Properties:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 690
+    - Name: DefaultAliasOnHit
+      Properties:
       - MutagenObjectType: ScriptBoolProperty
-        Name: UseOnDyingInstead
+        Name: FailOnDeadActor
         Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 610
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 689
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 800
+    - Name: UC04_TerrormorphAliasScript
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 26
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 830
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 815
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 119
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 815
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 98
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 835
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 815
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 120
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 815
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
@@ -1482,49 +1551,8 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
-      Alias: 26
-    Scripts:
-    - Name: DefaultAliasOnCombatStateChanged
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 815
-    - Name: DefaultAliasOnDeath
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 830
-  - Property:
-      Name: ''
-      Object: 2AAE8D:Starfield.esm
-      Alias: 27
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: DeleteWhenTriggeredSuccessfully
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 650
-  - Property:
-      Name: ''
-      Object: 2AAE8D:Starfield.esm
-      Alias: 28
-    Scripts:
-    - Name: uc03_spaceportguardrefcoll
-  - Property:
-      Name: ''
-      Object: 2AAE8D:Starfield.esm
       Alias: 29
     Scripts:
-    - Name: DefaultAliasOnActivate
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 259
     - Name: DefaultAliasOnActivateA
       Properties:
       - MutagenObjectType: ScriptIntProperty
@@ -1533,6 +1561,11 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 959
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 259
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
@@ -1646,22 +1679,6 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
-      Alias: 53
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 570
-      - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStageDone
-        Data: 850
-  - Property:
-      Name: ''
-      Object: 2AAE8D:Starfield.esm
       Alias: 55
     Scripts:
     - Name: DefaultAliasOnTriggerEnter
@@ -1693,28 +1710,248 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
-      Alias: 85
+      Alias: 89
     Scripts:
     - Name: DefaultAliasOnDeath
       Properties:
       - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
-        Data: 690
+        Data: 592
     - Name: DefaultAliasOnHit
       Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: FailOnDeadActor
-        Data: True
       - MutagenObjectType: ScriptIntProperty
         Name: PrereqStage
-        Data: 610
+        Data: 600
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
-        Data: 689
+        Data: 585
       - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStage
-        Data: 800
-    - Name: UC04_TerrormorphAliasScript
+        Name: TurnOffStageDone
+        Data: 590
+    - Name: AliasSetStageOnActorValueChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: AVThreshold
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WatchedValue
+        Object: 00039E:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 589
+    - Name: DefaultAliasOnEnterBleedout
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 608
+    - Name: UC04_ThrallAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TriggerStationInterior
+        Object: 2AAE8D:Starfield.esm
+        Alias: 134
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_WeaponIsTypeEM
+        Object: 0971FE:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_Thrall_TeleportMarker_LinkedRef
+        Object: 004E2A:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 113
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 603
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 585
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 590
+    - Name: AliasSetStageOnActorValueChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: AVThreshold
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WatchedValue
+        Object: 00039E:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 602
+    - Name: DefaultAliasOnEnterBleedout
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 609
+    - Name: UC04_ThrallAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TriggerStationInterior
+        Object: 2AAE8D:Starfield.esm
+        Alias: 134
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_WeaponIsTypeEM
+        Object: 0971FE:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_Thrall_TeleportMarker_LinkedRef
+        Object: 004E2A:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 92
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 591
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 585
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 590
+    - Name: AliasSetStageOnActorValueChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: AVThreshold
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WatchedValue
+        Object: 00039E:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 588
+    - Name: DefaultAliasOnEnterBleedout
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 607
+    - Name: UC04_ThrallAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TriggerStationInterior
+        Object: 2AAE8D:Starfield.esm
+        Alias: 134
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_WeaponIsTypeEM
+        Object: 0971FE:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_Thrall_TeleportMarker_LinkedRef
+        Object: 004E2A:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 94
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 593
+    - Name: DefaultAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 585
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 590
+    - Name: AliasSetStageOnActorValueChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: AVThreshold
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WatchedValue
+        Object: 00039E:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 587
+    - Name: DefaultAliasOnEnterBleedout
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 606
+    - Name: UC04_ThrallAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TriggerStationInterior
+        Object: 2AAE8D:Starfield.esm
+        Alias: 134
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_WeaponIsTypeEM
+        Object: 0971FE:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: UC04_Thrall_TeleportMarker_LinkedRef
+        Object: 004E2A:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 2AAE8D:Starfield.esm
+      Alias: 90
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 580
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
@@ -1736,132 +1973,51 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
-      Alias: 89
+      Alias: 18
     Scripts:
-    - Name: AliasSetStageOnActorValueChanged
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: AVThreshold
-        Data: 1
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 589
-      - MutagenObjectType: ScriptObjectProperty
-        Name: WatchedValue
-        Object: 00039E:Starfield.esm
     - Name: DefaultAliasOnDeath
       Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+        Data: True
       - MutagenObjectType: ScriptIntProperty
         Name: PrereqStage
         Data: 600
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
-        Data: 592
+        Data: 594
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 595
     - Name: DefaultAliasOnHit
       Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
       - MutagenObjectType: ScriptIntProperty
         Name: PrereqStage
         Data: 600
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
-        Data: 585
+        Data: 586
       - MutagenObjectType: ScriptIntProperty
         Name: TurnOffStageDone
         Data: 590
-    - Name: UC04_ThrallAliasScript
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: TriggerStationInterior
-        Object: 2AAE8D:Starfield.esm
-        Alias: 134
-      - MutagenObjectType: ScriptObjectProperty
-        Name: UC04_Thrall_TeleportMarker_LinkedRef
-        Object: 004E2A:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: UC04_WeaponIsTypeEM
-        Object: 0971FE:Starfield.esm
-    - Name: DefaultAliasOnEnterBleedout
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 608
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
-      Alias: 90
+      Alias: 53
     Scripts:
-    - Name: DefaultAliasOnContainerChangedTo
+    - Name: DefaultAliasOnTriggerEnter
       Properties:
       - MutagenObjectType: ScriptIntProperty
         Name: PrereqStage
         Data: 600
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
-        Data: 580
-  - Property:
-      Name: ''
-      Object: 2AAE8D:Starfield.esm
-      Alias: 92
-    Scripts:
-    - Name: AliasSetStageOnActorValueChanged
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: AVThreshold
-        Data: 1
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 588
-      - MutagenObjectType: ScriptObjectProperty
-        Name: WatchedValue
-        Object: 00039E:Starfield.esm
-    - Name: DefaultAliasOnDeath
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 591
-    - Name: DefaultAliasOnHit
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 585
+        Data: 570
       - MutagenObjectType: ScriptIntProperty
         Name: TurnOffStageDone
-        Data: 590
-    - Name: UC04_ThrallAliasScript
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: TriggerStationInterior
-        Object: 2AAE8D:Starfield.esm
-        Alias: 134
-      - MutagenObjectType: ScriptObjectProperty
-        Name: UC04_Thrall_TeleportMarker_LinkedRef
-        Object: 004E2A:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: UC04_WeaponIsTypeEM
-        Object: 0971FE:Starfield.esm
-    - Name: DefaultAliasOnEnterBleedout
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 607
+        Data: 850
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
@@ -1875,79 +2031,6 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 577
-  - Property:
-      Name: ''
-      Object: 2AAE8D:Starfield.esm
-      Alias: 94
-    Scripts:
-    - Name: AliasSetStageOnActorValueChanged
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: AVThreshold
-        Data: 1
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 587
-      - MutagenObjectType: ScriptObjectProperty
-        Name: WatchedValue
-        Object: 00039E:Starfield.esm
-    - Name: DefaultAliasOnDeath
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 593
-    - Name: DefaultAliasOnHit
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 585
-      - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStageDone
-        Data: 590
-    - Name: UC04_ThrallAliasScript
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: TriggerStationInterior
-        Object: 2AAE8D:Starfield.esm
-        Alias: 134
-      - MutagenObjectType: ScriptObjectProperty
-        Name: UC04_Thrall_TeleportMarker_LinkedRef
-        Object: 004E2A:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: UC04_WeaponIsTypeEM
-        Object: 0971FE:Starfield.esm
-    - Name: DefaultAliasOnEnterBleedout
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 606
-  - Property:
-      Name: ''
-      Object: 2AAE8D:Starfield.esm
-      Alias: 98
-    Scripts:
-    - Name: DefaultAliasOnCombatStateChanged
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 815
-    - Name: DefaultAliasOnDeath
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 835
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
@@ -1967,88 +2050,6 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptObjectProperty
         Name: WeaponTypeEM
         Object: 27DF95:Starfield.esm
-  - Property:
-      Name: ''
-      Object: 2AAE8D:Starfield.esm
-      Alias: 113
-    Scripts:
-    - Name: AliasSetStageOnActorValueChanged
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: AVThreshold
-        Data: 1
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 602
-      - MutagenObjectType: ScriptObjectProperty
-        Name: WatchedValue
-        Object: 00039E:Starfield.esm
-    - Name: DefaultAliasOnDeath
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 603
-    - Name: DefaultAliasOnHit
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 585
-      - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStageDone
-        Data: 590
-    - Name: UC04_ThrallAliasScript
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: TriggerStationInterior
-        Object: 2AAE8D:Starfield.esm
-        Alias: 134
-      - MutagenObjectType: ScriptObjectProperty
-        Name: UC04_Thrall_TeleportMarker_LinkedRef
-        Object: 004E2A:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: UC04_WeaponIsTypeEM
-        Object: 0971FE:Starfield.esm
-    - Name: DefaultAliasOnEnterBleedout
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 609
-  - Property:
-      Name: ''
-      Object: 2AAE8D:Starfield.esm
-      Alias: 119
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: DeleteWhenTriggeredSuccessfully
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 815
-  - Property:
-      Name: ''
-      Object: 2AAE8D:Starfield.esm
-      Alias: 120
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: DeleteWhenTriggeredSuccessfully
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 815
   - Property:
       Name: ''
       Object: 2AAE8D:Starfield.esm
@@ -3833,7 +3834,7 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0x3D42A7
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD4:Starfield.esm
@@ -4582,14 +4583,20 @@ Aliases:
 - MutagenObjectType: QuestReferenceAlias
   ID: 5
   Name: ShipTech02
-  Flags: []
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
   ALFG: 0
   UniqueActor: 252347:Starfield.esm
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 6
   Name: PresidentAbello
-  Flags: []
+  Flags:
+  - AllowDisabled
   ALFG: 0
   UniqueActor: 0124B1:Starfield.esm
   Keywords:
@@ -4603,7 +4610,8 @@ Aliases:
 - MutagenObjectType: QuestReferenceAlias
   ID: 7
   Name: AdmiralLogan
-  Flags: []
+  Flags:
+  - AllowDisabled
   ALFG: 0
   UniqueActor: 0124AD:Starfield.esm
   PackageData:
@@ -4614,7 +4622,8 @@ Aliases:
 - MutagenObjectType: QuestReferenceAlias
   ID: 8
   Name: ChiefSarkin
-  Flags: []
+  Flags:
+  - AllowDisabled
   ALFG: 0
   UniqueActor: 0124B0:Starfield.esm
   Keywords:
@@ -4627,7 +4636,8 @@ Aliases:
 - MutagenObjectType: QuestReferenceAlias
   ID: 9
   Name: ChiefPatel
-  Flags: []
+  Flags:
+  - AllowDisabled
   ALFG: 0
   UniqueActor: 0124B5:Starfield.esm
   Keywords:
@@ -4640,7 +4650,8 @@ Aliases:
 - MutagenObjectType: QuestReferenceAlias
   ID: 10
   Name: ChiefYasin
-  Flags: []
+  Flags:
+  - AllowDisabled
   ALFG: 0
   UniqueActor: 0124B4:Starfield.esm
   Keywords:
@@ -4702,7 +4713,12 @@ Aliases:
 - MutagenObjectType: QuestReferenceAlias
   ID: 15
   Name: MinisterHallGuard
-  Flags: []
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
   ALFG: 0
   UniqueActor: 2AADDB:Starfield.esm
   PackageData:
@@ -4935,7 +4951,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 32
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -5825,7 +5841,12 @@ Aliases:
 - MutagenObjectType: QuestReferenceAlias
   ID: 123
   Name: MASTFemaleWorker03
-  Flags: []
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
   ALFG: 0
   Location:
     AliasID: 4
@@ -6018,3 +6039,4 @@ Aliases:
         AliasID: 4
         RefType: 2FBD42:Starfield.esm
       VoiceTypes: Null
+Timestamp: 12497

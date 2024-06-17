@@ -1,6 +1,6 @@
 FormKey: 2BCA5E:Starfield.esm
 EditorID: DialogueGenericGuards
-FormVersion: 556
+FormVersion: 559
 Name:
   TargetLanguage: English
   Values:
@@ -31,23 +31,24 @@ Data:
   Unused: 0x000000
 DialogConditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16670
+  Unknown1: 0x8C1400
+  Unknown2: 16650
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 0F1EF7:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16670
+  Unknown1: 0x8C1400
+  Unknown2: 16650
   Data:
     MutagenObjectType: IsSpaceshipConditionData
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16670
+  Unknown1: 0x8C1400
+  Unknown2: 16650
   Data:
     MutagenObjectType: GetIsVoiceTypeConditionData
     FirstParameter: 28FF88:Starfield.esm
   ComparisonValue: 1
 UnusedConditions: []
 Aliases: []
+Timestamp: 12497

@@ -1,27 +1,17 @@
 FormKey: 005787:Starfield.esm
 EditorID: Companion_Barrett
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
-  - Name: companionactorscript
+  - Name: CompanionDebugScript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Affinity
-      Object: 0A1B80:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionID
-      Object: 2BE2D6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionQuest
-      Object: 1C7187:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_PQ_TxtReplace_QuestName
-      Object: 0963E1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_PreventStoryGateScenes
-      Object: 28A168:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
+      Name: ActiveCompanion
       Object: 2A567C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_DEBUG_OnPlayerShip
+      Object: 2C4C96:Starfield.esm
   - Name: CompanionAffinityScript
     Properties:
     - MutagenObjectType: ScriptStructListProperty
@@ -47,17 +37,37 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Companions
       Object: 2A567C:Starfield.esm
+  - Name: companionactorscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Affinity
+      Object: 0A1B80:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID
+      Object: 2BE2D6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionQuest
+      Object: 1C7187:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_TxtReplace_QuestName
+      Object: 0963E1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PreventStoryGateScenes
+      Object: 28A168:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
   - Name: companioncrimeresponsescript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: AffinityEventOnCombat
       Object: 180F0A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: AffinityEventOnKill
-      Object: 180F0B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Aggression
       Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnKill
+      Object: 180F0B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Assistance
       Object: 0002C1:Starfield.esm
@@ -73,15 +83,6 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Companions
       Object: 2A567C:Starfield.esm
-  - Name: CompanionDebugScript
-    Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ActiveCompanion
-      Object: 2A567C:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_DEBUG_OnPlayerShip
-      Object: 2C4C96:Starfield.esm
   - Name: com_crew_giveitemactorscript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
@@ -164,14 +165,14 @@ Properties:
 - ActorValue: 0002C6:Starfield.esm
 - ActorValue: 0002C7:Starfield.esm
 - ActorValue: 0002C8:Starfield.esm
-- ActorValue: 0002CC:Starfield.esm
-  Value: 15
 - ActorValue: 0002D4:Starfield.esm
   Value: 300
 - ActorValue: 0002D5:Starfield.esm
   Value: 50
 - ActorValue: 0002DA:Starfield.esm
   Value: 100
+- ActorValue: 0002CC:Starfield.esm
+  Value: 15
 - ActorValue: 000385:Starfield.esm
   Value: 100
 Items:

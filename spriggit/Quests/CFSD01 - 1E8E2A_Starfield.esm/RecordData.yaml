@@ -1,135 +1,10 @@
 FormKey: 1E8E2A:Starfield.esm
 EditorID: CFSD01
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: CFSD01_QuestScript
     Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF01
-      Object: 009136:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF04
-      Object: 23C6F1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF05
-      Object: 21D792:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF06
-      Object: 01BD20:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01Evidence
-      Object: 1E0656:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01EvidenceTotal
-      Object: 1DEDB4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_AdlerKemp
-      Object: 1E8E2A:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_AyumiKomiko
-      Object: 1E8E2A:Starfield.esm
-      Alias: 31
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Delgado
-      Object: 1E8E2A:Starfield.esm
-      Alias: 30
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_EstelleVincent
-      Object: 1E8E2A:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_EvgenyRokov
-      Object: 1E8E2A:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF01_Kemp
-      Object: 1E8E2A:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF03_Carter
-      Object: 1E8E2A:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF03_LockRiots
-      Object: 1E8E2A:Starfield.esm
-      Alias: 10
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF04_GalbankScheme
-      Object: 1E8E2A:Starfield.esm
-      Alias: 12
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF04_Rokov
-      Object: 1E8E2A:Starfield.esm
-      Alias: 11
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF05_ComSpike
-      Object: 1E8E2A:Starfield.esm
-      Alias: 14
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF05_Daiyu
-      Object: 1E8E2A:Starfield.esm
-      Alias: 13
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF06_AyumiKomiko
-      Object: 1E8E2A:Starfield.esm
-      Alias: 16
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF06_BayuGenerdyne
-      Object: 1E8E2A:Starfield.esm
-      Alias: 15
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF06_EstelleVincent
-      Object: 1E8E2A:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF07_KryxFate
-      Object: 1E8E2A:Starfield.esm
-      Alias: 17
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CFKeyZ01_Maddie
-      Object: 1E8E2A:Starfield.esm
-      Alias: 21
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CFKeyZ02_Kirova
-      Object: 1E8E2A:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_Chiroptera
-      Object: 1E8E2A:Starfield.esm
-      Alias: 25
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_Chunks
-      Object: 1E8E2A:Starfield.esm
-      Alias: 24
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_Durand
-      Object: 1E8E2A:Starfield.esm
-      Alias: 19
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_HopeTown
-      Object: 1E8E2A:Starfield.esm
-      Alias: 26
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_Jaso
-      Object: 1E8E2A:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_Kreet
-      Object: 1E8E2A:Starfield.esm
-      Alias: 27
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_Voss
-      Object: 1E8E2A:Starfield.esm
-      Alias: 20
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_HuanDaiyu
-      Object: 1E8E2A:Starfield.esm
-      Alias: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_LarryDumbrosky
-      Object: 1E8E2A:Starfield.esm
-      Alias: 29
     - MutagenObjectType: ScriptObjectListProperty
       Name: EvidenceList
       Objects:
@@ -174,46 +49,176 @@ VirtualMachineAdapter:
       - Name: ''
         Object: 1DEDA8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LC082
-      Object: 2BF365:Starfield.esm
+      Name: CFSD01_Evidence_MSC_Jaso
+      Object: 1E8E2A:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF07_KryxFate
+      Object: 1E8E2A:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF03_Carter
+      Object: 1E8E2A:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Voss
+      Object: 1E8E2A:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CFKeyZ02_Kirova
+      Object: 1E8E2A:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Durand
+      Object: 1E8E2A:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF01_Kemp
+      Object: 1E8E2A:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06
+      Object: 01BD20:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_AyumiKomiko
+      Object: 1E8E2A:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01EvidenceTotal
+      Object: 1DEDB4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Kreet
+      Object: 1E8E2A:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF05_Daiyu
+      Object: 1E8E2A:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF04
+      Object: 23C6F1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_AdlerKemp
+      Object: 1E8E2A:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_EstelleVincent
+      Object: 1E8E2A:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_EvgenyRokov
+      Object: 1E8E2A:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF05_ComSpike
+      Object: 1E8E2A:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF01
+      Object: 009136:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Chiroptera
+      Object: 1E8E2A:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01Evidence
+      Object: 1E0656:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF04_GalbankScheme
+      Object: 1E8E2A:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF06_AyumiKomiko
+      Object: 1E8E2A:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF06_BayuGenerdyne
+      Object: 1E8E2A:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF06_EstelleVincent
+      Object: 1E8E2A:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF05
+      Object: 21D792:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CFKeyZ01_Maddie
+      Object: 1E8E2A:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_HopeTown
+      Object: 1E8E2A:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF03_LockRiots
+      Object: 1E8E2A:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_HuanDaiyu
+      Object: 1E8E2A:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_LarryDumbrosky
+      Object: 1E8E2A:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF04_Rokov
+      Object: 1E8E2A:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Delgado
+      Object: 1E8E2A:Starfield.esm
+      Alias: 30
     - MutagenObjectType: ScriptObjectProperty
       Name: LC088_Key
       Object: 2BF36B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC082
+      Object: 2BF365:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Chunks
+      Object: 1E8E2A:Starfield.esm
+      Alias: 24
   Script:
     Name: Fragments:Quests:QF_CFSD01_001E8E2A
     Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Kreet
+      Object: 1E8E2A:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Weapon_Reward_CFSD01_Tofts
+      Object: 316416:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF06_BayuGenerdyne
+      Object: 1E8E2A:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_TTGWallSafeRef
+      Object: 1AD528:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CFSD01_AdlerKemp
       Object: 1E8E2A:Starfield.esm
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_EstelleVincent
-      Object: 1E8E2A:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_EvgenyRokov
-      Object: 1E8E2A:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF01_Kemp
-      Object: 1E8E2A:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF03_Carter
-      Object: 1E8E2A:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF03_LockRiots
-      Object: 1E8E2A:Starfield.esm
-      Alias: 10
+      Name: CydoniaFaction
+      Object: 255CF7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CFSD01_Evidence_CF04_GalbankScheme
       Object: 1E8E2A:Starfield.esm
       Alias: 12
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF04_Rokov
+      Name: CrimsonFleetCaptainState_Adler
+      Object: 278E85:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Paradiso
       Object: 1E8E2A:Starfield.esm
-      Alias: 11
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Chunks
+      Object: 1E8E2A:Starfield.esm
+      Alias: 24
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CFSD01_Evidence_CF05_ComSpike
       Object: 1E8E2A:Starfield.esm
@@ -223,21 +228,22 @@ VirtualMachineAdapter:
       Object: 1E8E2A:Starfield.esm
       Alias: 13
     - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_HopeTownRef
+      Object: 1DDF99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CFSD01_Evidence_CF06_AyumiKomiko
       Object: 1E8E2A:Starfield.esm
       Alias: 16
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF06_BayuGenerdyne
-      Object: 1E8E2A:Starfield.esm
-      Alias: 15
+      Name: CrimsonFleetCaptainState_Estelle
+      Object: 278E84:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF06_EstelleVincent
+      Name: Alias_CFSD01_Evidence_MSC_Jaso
       Object: 1E8E2A:Starfield.esm
-      Alias: 18
+      Alias: 23
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF07_KryxFate
-      Object: 1E8E2A:Starfield.esm
-      Alias: 17
+      Name: CF05_Evidence_HuanDaiyuRef
+      Object: 1DDFA3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CFSD01_Evidence_CFKeyZ01_Maddie
       Object: 1E8E2A:Starfield.esm
@@ -251,207 +257,98 @@ VirtualMachineAdapter:
       Object: 1E8E2A:Starfield.esm
       Alias: 25
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_MSC_Chunks
-      Object: 1E8E2A:Starfield.esm
-      Alias: 24
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_MSC_Durand
-      Object: 1E8E2A:Starfield.esm
-      Alias: 19
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_MSC_Jaso
-      Object: 1E8E2A:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_MSC_Kreet
-      Object: 1E8E2A:Starfield.esm
-      Alias: 27
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_MSC_Paradiso
-      Object: 1E8E2A:Starfield.esm
-      Alias: 26
+      Name: CFSD01_Evidence_MSC_KreetRef
+      Object: 1DDF9A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CFSD01_Evidence_MSC_Voss
       Object: 1E8E2A:Starfield.esm
       Alias: 20
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF01_Evidence_KempRef
-      Object: 1DDFA7:Starfield.esm
+      Name: Player
+      Object: 000007:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF05_Evidence_HuanDaiyuRef
-      Object: 1DDFA3:Starfield.esm
+      Name: Alias_CFSD01_EvgenyRokov
+      Object: 1E8E2A:Starfield.esm
+      Alias: 5
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_Evidence_AyumiKomikoRef
-      Object: 1DDFA2:Starfield.esm
+      Name: Alias_CFSD01_Evidence_MSC_Durand
+      Object: 1E8E2A:Starfield.esm
+      Alias: 19
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_Evidence_EstelleVincentRef
-      Object: 1DDFA1:Starfield.esm
+      Name: Alias_CFSD01_Evidence_CF06_EstelleVincent
+      Object: 1E8E2A:Starfield.esm
+      Alias: 18
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_TTGWallSafeRef
-      Object: 1AD528:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFKeyZ02_Evidence_AytonRef
-      Object: 1DDF9F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_ChiopteraRef
-      Object: 1DDF9E:Starfield.esm
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CFSD01_Evidence_MSC_ChunksRef
       Object: 1DDF9D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_HopeTownRef
-      Object: 1DDF99:Starfield.esm
+      Name: CrimsonFleetCaptainState_Huan
+      Object: 278E83:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_KreetRef
-      Object: 1DDF9A:Starfield.esm
+      Name: Alias_CFSD01_Evidence_CF01_Kemp
+      Object: 1E8E2A:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF01_Evidence_KempRef
+      Object: 1DDFA7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CF_Main
       Object: 178B1E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionCrimsonFleet
-      Object: 010B30:Starfield.esm
+      Name: CrimsonFleetCaptainState_Rokov
+      Object: 278E88:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionNeon
-      Object: 26FDEA:Starfield.esm
+      Name: CF06_Evidence_EstelleVincentRef
+      Object: 1DDFA1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF03_LockRiots
+      Object: 1E8E2A:Starfield.esm
+      Alias: 10
     - MutagenObjectType: ScriptObjectProperty
       Name: CrimeFactionUC
       Object: 05BD93:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrimsonFleetCaptainState_Adler
-      Object: 278E85:Starfield.esm
+      Name: CFKeyZ02_Evidence_AytonRef
+      Object: 1DDF9F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrimsonFleetCaptainState_Estelle
-      Object: 278E84:Starfield.esm
+      Name: Alias_CFSD01_Evidence_CF04_Rokov
+      Object: 1E8E2A:Starfield.esm
+      Alias: 11
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrimsonFleetCaptainState_Huan
-      Object: 278E83:Starfield.esm
+      Name: CrimeFactionCrimsonFleet
+      Object: 010B30:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrimsonFleetCaptainState_Rokov
-      Object: 278E88:Starfield.esm
+      Name: Alias_CFSD01_Evidence_CF07_KryxFate
+      Object: 1E8E2A:Starfield.esm
+      Alias: 17
     - MutagenObjectType: ScriptObjectProperty
-      Name: CydoniaFaction
-      Object: 255CF7:Starfield.esm
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LL_Weapon_Reward_CFSD01_Tofts
-      Object: 316416:Starfield.esm
+      Name: CFSD01_Evidence_MSC_ChiopteraRef
+      Object: 1DDF9E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Player
-      Object: 000007:Starfield.esm
+      Name: CF06_Evidence_AyumiKomikoRef
+      Object: 1DDFA2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFaction
-      Object: 01C21C:Starfield.esm
+      Name: Alias_CFSD01_EstelleVincent
+      Object: 1E8E2A:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF03_Carter
+      Object: 1E8E2A:Starfield.esm
+      Alias: 9
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0001_Item_00
-  - Stage: 5
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0005_Item_00
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0010_Item_00
-  - Stage: 15
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0015_Item_00
-  - Stage: 20
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0020_Item_00
-  - Stage: 25
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0025_Item_00
-  - Stage: 30
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0030_Item_00
-  - Stage: 35
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0035_Item_00
-  - Stage: 40
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0040_Item_00
-  - Stage: 45
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0045_Item_00
-  - Stage: 50
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0050_Item_00
-  - Stage: 55
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0055_Item_00
-  - Stage: 60
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0060_Item_00
-  - Stage: 65
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0065_Item_00
-  - Stage: 70
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0070_Item_00
-  - Stage: 75
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0075_Item_00
-  - Stage: 80
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0080_Item_00
-  - Stage: 85
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0085_Item_00
-  - Stage: 90
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0090_Item_00
-  - Stage: 95
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0095_Item_00
-  - Stage: 100
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0100_Item_00
-  - Stage: 105
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0105_Item_00
-  - Stage: 110
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0110_Item_00
-  - Stage: 115
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0115_Item_00
-  - Stage: 120
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0120_Item_00
   - Stage: 125
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
     FragmentName: Fragment_Stage_0125_Item_00
-  - Stage: 130
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0130_Item_00
   - Stage: 135
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
@@ -460,62 +357,178 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
     FragmentName: Fragment_Stage_0140_Item_00
-  - Stage: 145
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0145_Item_00
-  - Stage: 150
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0150_Item_00
-  - Stage: 155
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0155_Item_00
   - Stage: 160
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
     FragmentName: Fragment_Stage_0160_Item_00
-  - Stage: 165
+  - Stage: 90
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0165_Item_00
-  - Stage: 170
+    FragmentName: Fragment_Stage_0090_Item_00
+  - Stage: 20
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0170_Item_00
-  - Stage: 175
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 105
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0175_Item_00
+    FragmentName: Fragment_Stage_0105_Item_00
+  - Stage: 1500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_1500_Item_00
   - Stage: 180
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
     FragmentName: Fragment_Stage_0180_Item_00
-  - Stage: 185
+  - Stage: 1000
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0185_Item_00
-  - Stage: 190
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 35
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0190_Item_00
-  - Stage: 195
+    FragmentName: Fragment_Stage_0035_Item_00
+  - Stage: 40
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0195_Item_00
-  - Stage: 200
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 175
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_0200_Item_00
+    FragmentName: Fragment_Stage_0175_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0025_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0055_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0060_Item_00
   - Stage: 205
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
     FragmentName: Fragment_Stage_0205_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0080_Item_00
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0045_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 195
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0195_Item_00
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0190_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0065_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0085_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0130_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0115_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0095_Item_00
+  - Stage: 145
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0145_Item_00
+  - Stage: 155
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0155_Item_00
+  - Stage: 165
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0165_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0150_Item_00
   - Stage: 410
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
     FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0170_Item_00
+  - Stage: 185
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0185_Item_00
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
+    FragmentName: Fragment_Stage_0075_Item_00
   - Stage: 420
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
@@ -528,19 +541,20 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
     FragmentName: Fragment_Stage_0440_Item_00
-  - Stage: 1000
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_1000_Item_00
-  - Stage: 1500
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_1500_Item_00
-  - Stage: 2000
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
-    FragmentName: Fragment_Stage_2000_Item_00
   Aliases:
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 28
+    Scripts:
+    - Name: CFSD01_PlayerAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CFSD01
+        Object: 1E8E2A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LC082VigilanceLocation
+        Object: 2BF36E:Starfield.esm
   - Property:
       Name: ''
       Object: 1E8E2A:Starfield.esm
@@ -664,19 +678,6 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 1E8E2A:Starfield.esm
-      Alias: 17
-    Scripts:
-    - Name: DefaultAliasOnContainerChangedTo
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 5
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 110
-  - Property:
-      Name: ''
-      Object: 1E8E2A:Starfield.esm
       Alias: 18
     Scripts:
     - Name: DefaultAliasOnContainerChangedTo
@@ -690,7 +691,7 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 1E8E2A:Starfield.esm
-      Alias: 19
+      Alias: 17
     Scripts:
     - Name: DefaultAliasOnContainerChangedTo
       Properties:
@@ -699,20 +700,7 @@ VirtualMachineAdapter:
         Data: 5
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
-        Data: 120
-  - Property:
-      Name: ''
-      Object: 1E8E2A:Starfield.esm
-      Alias: 20
-    Scripts:
-    - Name: DefaultAliasOnContainerChangedTo
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 5
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 130
+        Data: 110
   - Property:
       Name: ''
       Object: 1E8E2A:Starfield.esm
@@ -739,6 +727,32 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 150
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 19
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 120
+  - Property:
+      Name: ''
+      Object: 1E8E2A:Starfield.esm
+      Alias: 20
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 130
   - Property:
       Name: ''
       Object: 1E8E2A:Starfield.esm
@@ -804,19 +818,6 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 200
-  - Property:
-      Name: ''
-      Object: 1E8E2A:Starfield.esm
-      Alias: 28
-    Scripts:
-    - Name: CFSD01_PlayerAliasScript
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CFSD01
-        Object: 1E8E2A:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: LC082VigilanceLocation
-        Object: 2BF36E:Starfield.esm
 Name:
   TargetLanguage: English
   Values:

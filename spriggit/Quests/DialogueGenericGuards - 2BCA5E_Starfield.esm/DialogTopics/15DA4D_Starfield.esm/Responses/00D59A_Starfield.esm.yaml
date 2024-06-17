@@ -1,5 +1,5 @@
 FormKey: 00D59A:Starfield.esm
-FormVersion: 556
+FormVersion: 559
 Flags:
   Flags:
   - Random
@@ -57,11 +57,13 @@ Responses:
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 28B3AE:Starfield.esm
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetEquippedConditionData
     RunOnType: Reference
@@ -70,6 +72,7 @@ Conditions:
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference

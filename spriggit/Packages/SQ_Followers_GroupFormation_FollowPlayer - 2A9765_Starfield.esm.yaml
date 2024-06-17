@@ -1,6 +1,6 @@
 FormKey: 2A9765:Starfield.esm
 EditorID: SQ_Followers_GroupFormation_FollowPlayer
-FormVersion: 556
+FormVersion: 559
 Flags:
 - TreatAsPlayerFollower
 - AllowSwimming
@@ -27,12 +27,14 @@ ScheduleMinute: -1
 Unknown3: 0x000000
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: HasKeywordConditionData
     FirstParameter: 09C16D:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 17F45B:Starfield.esm

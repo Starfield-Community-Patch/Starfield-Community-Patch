@@ -1,5 +1,6 @@
 FormKey: 2A4861:Starfield.esm
 EditorID: Gymnastics_ZeroG_Speed_Spell
+FormVersion: 559
 ODTY: 0
 Name:
   TargetLanguage: English
@@ -33,7 +34,7 @@ Effects:
     Magnitude: 50
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010812
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: GetBodyGravityConditionData
   - MutagenObjectType: ConditionFloat

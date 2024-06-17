@@ -1,5 +1,5 @@
 FormKey: 355455:Starfield.esm
-FormVersion: 556
+FormVersion: 559
 Flags:
   Flags:
   - Random
@@ -44,16 +44,19 @@ Responses:
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 27AD57:Starfield.esm
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 12E72E:Starfield.esm
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -62,12 +65,14 @@ Conditions:
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetIsVoiceTypeConditionData
     FirstParameter: 2891D1:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference

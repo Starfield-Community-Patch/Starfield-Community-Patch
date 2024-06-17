@@ -1,5 +1,6 @@
 FormKey: 249C49:Starfield.esm
 EditorID: Drink_NonAlc_Can_CanUck_CoffeeDoubleDouble
+FormVersion: 559
 ObjectBounds:
   First: -0.04199272, -0.041992206, 0.00012207031
   Second: 0.041991655, 0.04199217, 0.12023926
@@ -91,8 +92,8 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm

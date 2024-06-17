@@ -1,13 +1,25 @@
 FormKey: 08AE0E:Starfield.esm
 EditorID: AA_Clothes_Hazmat_Suit_01_Hood
+FormVersion: 559
 FirstPersonFlags: 65557
 Race: 00347D:Starfield.esm
 DNAMData: 0x00000000000000000000000000
 WorldModel:
   Male:
     File: Clothes\outfit_hazmat_suit_01\Outfit_Hazmat_Suit_01_Helmet_M.nif
+    FLLD: 0x01000000
   Female:
     File: Clothes\outfit_hazmat_suit_01\Outfit_Hazmat_Suit_01_Helmet_F.nif
+    FLLD: 0x01000000
+FirstPersonModel:
+  Male:
+    FLLD: 0x01000000
+  Female:
+    FLLD: 0x01000000
+Skeleton:
+  FLLD: 0x01000000
+UnknownModel7:
+  FLLD: 0x01000000
 Morphs:
   Male:
     WorldMorph: 08AE15:Starfield.esm

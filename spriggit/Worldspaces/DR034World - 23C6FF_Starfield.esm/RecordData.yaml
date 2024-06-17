@@ -1,0 +1,72 @@
+FormKey: 23C6FF:Starfield.esm
+EditorID: DR034World
+FormVersion: 559
+Components:
+- MutagenObjectType: WorldSpaceOverlayComponent
+  SNAM: 0x00000000
+  PNAM: 0x00000000
+  SurfaceBlock: 23C6FE:Starfield.esm
+- MutagenObjectType: PlanetContentManagerContentPropertiesComponent
+  ZNAM: 0
+  YNAM: 0
+  XNAM: 0
+  WNAM: 0
+  VNAM: 1
+  UNAM: 0
+  NAM1: 0
+  Global: Null
+  NAM3: 1
+  NAM4: 0x00FF0000
+  NAM5: 0
+  NAM6: 0
+  NAM7: 0
+  NAM8: 0
+  NAM9: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1C3FB6:Starfield.esm
+    ComparisonValue: 1
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Verlassenes Industriegelände
+  - Language: English
+    String: Abandoned Industrial Compound
+  - Language: Spanish
+    String: Complejo industrial abandonado
+  - Language: French
+    String: Complexe industriel abandonné
+  - Language: Italian
+    String: Complesso industriale abbandonato
+  - Language: Japanese
+    String: 放棄された工業区域
+  - Language: Polish
+    String: Porzucony kompleks przemysłowy
+  - Language: Portuguese_Brazil
+    String: Complexo Industrial Abandonado
+  - Language: ChineseSimplified
+    String: 废弃工业设施
+Location: 23B198:Starfield.esm
+NAM7: materials/water/watersmooth.mat
+LodWater: 000018:Starfield.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: -2048
+  DefaultWaterHeight: -500
+MapData: {}
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+FNAM: 0x00
+ObjectBoundsMin: -0.07324219, -0.07324219
+ObjectBoundsMax: 0.09765625, 0.07324219
+GNAM: 1
+XCLWs: []
+WHGTs: []
+HNAM: 0x05
+SubCellsTimestamp: 12497

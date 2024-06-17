@@ -1,0 +1,289 @@
+FormKey: 23E8DA:Starfield.esm
+EditorID: MQ204A_030_DeathAndreja
+FormVersion: 559
+VirtualMachineAdapter:
+  ScriptFragments:
+    Script:
+      Name: Fragments:Scenes:SF_MQ204A_030_DeathAndreja_0023E8DA
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Andreja
+        Object: 2C6D74:Starfield.esm
+        Alias: 16
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ExitToDeath
+        Object: 07B5A7:Starfield.esm
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: Fragments:Scenes:SF_MQ204A_030_DeathAndreja_0023E8DA
+      FragmentName: Fragment_Begin
+Flags:
+- Interruptable
+- 0x20
+- 0x400
+- DisableDialogueCamera
+- NoFollowerIdleChatter
+Phases:
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+  PhaseSetParentQuestStage:
+    OnBegin: -1
+    OnEnd: 310
+Actors:
+- ID: 16
+  Flags:
+  - RunOnlyScenePackages
+  - NoCommandState
+  BehaviorFlags:
+  - CombatEnd
+- ID: 33
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 16
+  Index: 1
+  Flags: []
+  Topic: 23E8EC:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    - -2
+    - -2
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 33
+  Index: 6
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 1A7FB4:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - 16
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 16
+  Index: 7
+  Flags: []
+  StartPhase: 4
+  EndPhase: 4
+  Topic: 1A7FBD:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    - -2
+    - -2
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 33
+  Index: 8
+  Flags: []
+  StartPhase: 7
+  EndPhase: 7
+  Topic: 1A7FBE:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - 16
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 16
+  Index: 12
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 16
+  DialogueList:
+  - PlayerChoice: 10C283:Starfield.esm
+    NpcResponse: 10C284:Starfield.esm
+  - PlayerChoice: 1A0D75:Starfield.esm
+    NpcResponse: 1A0D76:Starfield.esm
+  - PlayerChoice: 1A0D77:Starfield.esm
+    NpcResponse: 1A0D78:Starfield.esm
+  - PlayerChoice: 1A0D79:Starfield.esm
+    NpcResponse: 1A0D7A:Starfield.esm
+  - PlayerChoice: 1A0D7B:Starfield.esm
+    NpcResponse: 1A0D7C:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 16
+  Index: 13
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  Topic: 1A0D7D:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+    - -2
+    - -2
+    - -2
+    FNAM: '[]'
+    PNAM: '[]'
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 16
+  Index: 14
+  Flags: []
+  StartPhase: 5
+  EndPhase: 5
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 16
+  DialogueList:
+  - PlayerChoice: 1A0D7E:Starfield.esm
+    NpcResponse: 1A0D7F:Starfield.esm
+  - PlayerChoice: 1A0D80:Starfield.esm
+    NpcResponse: 1A0D81:Starfield.esm
+  - PlayerChoice: 1A0D82:Starfield.esm
+    NpcResponse: 1A0D83:Starfield.esm
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 33
+  Index: 15
+  Flags: []
+  StartPhase: 6
+  EndPhase: 6
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 33
+  DialogueList:
+  - PlayerChoice: 1A0D7E:Starfield.esm
+    NpcResponse: 00080C:StarfieldCommunityPatch.esm
+  - PlayerChoice: 1A0D80:Starfield.esm
+    NpcResponse: 1A0D84:Starfield.esm
+  - PlayerChoice: 1A0D82:Starfield.esm
+    NpcResponse: 1A0D85:Starfield.esm
+  ATTR: 0x0E000000
+  ACBS: True
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 33
+  Index: 16
+  Flags: []
+  StartPhase: 8
+  EndPhase: 8
+  Topic: 1A0D87:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 33
+  Index: 17
+  Flags: []
+  StartPhase: 9
+  EndPhase: 9
+  DialogueTargetActor: 33
+  DialogueList:
+  - PlayerChoice: 1A0B57:Starfield.esm
+    NpcResponse: 1A0B58:Starfield.esm
+  - PlayerChoice: 1A0B59:Starfield.esm
+    NpcResponse: 1A0B5A:Starfield.esm
+  - PlayerChoice: 1A0B5B:Starfield.esm
+    NpcResponse: 1A0B5C:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 33
+  Index: 18
+  Flags: []
+  StartPhase: 10
+  EndPhase: 10
+  Topic: 1A0B5E:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+- MutagenObjectType: PackageSceneAction
+  Name: ''
+  AliasID: 33
+  Index: 20
+  Flags:
+  - IgnoreForCompletion
+  EndPhase: 9
+  Packages:
+  - 10DC5C:Starfield.esm
+  - 10E791:Starfield.esm
+- MutagenObjectType: PackageSceneAction
+  Name: ''
+  AliasID: 33
+  Index: 22
+  Flags:
+  - IgnoreForCompletion
+  StartPhase: 10
+  EndPhase: 10
+  Packages:
+  - 019AA2:Starfield.esm
+Quest: 2C6D74:Starfield.esm
+LastActionIndex: 23
+VNAM: 0x0300000003000000000000000300000000000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    FirstParameter: 22
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 2C6D74:Starfield.esm
+    SecondParameter: 300
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 0059A7:Starfield.esm
+  ComparisonValue: 1
+Notes: Andreja's death scene. She has been critically injured by the Hunter and the player arrives too late to save her.
+Index: 0
+DEVT: True

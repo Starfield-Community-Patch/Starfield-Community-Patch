@@ -1,4 +1,5 @@
 FormKey: 2953F6:Starfield.esm
+FormVersion: 559
 Flags:
   Flags:
   - Random
@@ -36,6 +37,7 @@ Conditions:
 - MutagenObjectType: ConditionGlobal
   CompareOperator: NotEqualTo
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetGlobalValueConditionData
     FirstParameter: 2BB89F:Starfield.esm

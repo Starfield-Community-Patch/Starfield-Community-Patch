@@ -1,5 +1,6 @@
 FormKey: 07C747:Starfield.esm
 EditorID: co_gun_mod_UrbanEagle_Mag_Penetrator
+FormVersion: 559
 Description:
   TargetLanguage: English
   Values:
@@ -25,7 +26,6 @@ WorkbenchKeyword: 2CE1C0:Starfield.esm
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
-  Unknown2: 17620
   Data:
     MutagenObjectType: IsResearchCompleteConditionData
     FirstParameter: 380C4D:Starfield.esm

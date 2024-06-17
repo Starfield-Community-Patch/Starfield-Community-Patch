@@ -1,5 +1,6 @@
 FormKey: 1D5CF5:Starfield.esm
 EditorID: ENV_DMG_Water_Ability_Heat
+FormVersion: 559
 ODTY: 0
 Name:
   TargetLanguage: English
@@ -37,13 +38,13 @@ Effects:
     Magnitude: 10
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010812
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 2452A6:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010812
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1F761A:Starfield.esm
@@ -55,13 +56,13 @@ Effects:
     Magnitude: 10
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010812
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 248D23:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010812
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1F761A:Starfield.esm
@@ -72,13 +73,13 @@ Effects:
   Data: {}
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010812
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 248D23:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x010812
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1F761A:Starfield.esm

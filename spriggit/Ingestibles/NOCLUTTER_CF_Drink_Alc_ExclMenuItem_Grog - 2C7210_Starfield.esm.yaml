@@ -1,5 +1,6 @@
 FormKey: 2C7210:Starfield.esm
 EditorID: NOCLUTTER_CF_Drink_Alc_ExclMenuItem_Grog
+FormVersion: 559
 ObjectBounds:
   First: -0.053497303, -0.053283703, 0
   Second: 0.05377196, 0.053375255, 0.19494629
@@ -112,8 +113,8 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm

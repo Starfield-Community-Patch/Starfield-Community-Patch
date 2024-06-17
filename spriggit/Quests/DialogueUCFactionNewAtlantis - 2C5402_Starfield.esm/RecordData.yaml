@@ -1,5 +1,6 @@
 FormKey: 2C5402:Starfield.esm
 EditorID: DialogueUCFactionNewAtlantis
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: UC01_OrientationDisplayQuestScript
@@ -16,50 +17,43 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_PostQuest_Percival_Misc
-      Object: 2D3952:Starfield.esm
+      Name: UC_CitizenVendorDiscount_Rank02
+      Object: 2119C1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CreditsRewardFactionQuestLarge
       Object: 23DF36:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC_CitizenVendorDiscount_Rank02
-      Object: 2119C1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_PostAttackDialogueActive
-      Object: 23F92A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_PostQuest_VaeVictis_Misc
-      Object: 2D3950:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: UC09_PostQuest_Tuala_Misc
       Object: 2D3951:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueRedDevilsHQ
-      Object: 1E7A0B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Pacifist
-      Object: 2C5402:Starfield.esm
-      Alias: 62
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09
-      Object: 1FC858:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_Result
-      Object: 24377D:Starfield.esm
+      Name: UC04_PostAttackDialogueActive
+      Object: 23F92A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_MuseumPatron_Child
       Object: 2C5402:Starfield.esm
       Alias: 58
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR01
-      Object: 1EBDD5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: UC_CitizenVendorDiscount_Rank01
       Object: 219A56:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ZoraSangweni
+      Name: UC09_Result
+      Object: 24377D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SS7FloorManager
       Object: 2C5402:Starfield.esm
-      Alias: 40
+      Alias: 107
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC01
+      Object: 2C5401:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR05_DebugMarker
+      Object: 1E6B87:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PostQuest_VaeVictis_Misc
+      Object: 2D3950:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR01
+      Object: 1EBDD5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC02
       Object: 2B1808:Starfield.esm
@@ -68,12 +62,6 @@ VirtualMachineAdapter:
       Object: 2C5402:Starfield.esm
       Alias: 96
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_DEBUG_Zora
-      Object: 1A2E61:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_TualaTravelMaker
-      Object: 2928D3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TualaLookatMarker
       Object: 2C5402:Starfield.esm
       Alias: 39
@@ -81,8 +69,18 @@ VirtualMachineAdapter:
       Name: UC01_MuralsViewedGlobal
       Object: 3979B3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC01
-      Object: 2C5401:Starfield.esm
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_TualaTravelMaker
+      Object: 2928D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ZoraSangweni
+      Object: 2C5402:Starfield.esm
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PostQuest_Percival_Misc
+      Object: 2D3952:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC09_DEBUG_TualasContinuance
       Object: 1F986A:Starfield.esm
@@ -96,10 +94,6 @@ VirtualMachineAdapter:
       Name: UC09_PlayerChoiceResult
       Object: 24377D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MuseumPatron_Dad
-      Object: 2C5402:Starfield.esm
-      Alias: 59
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_VVEntrance
       Object: 2C5402:Starfield.esm
       Alias: 51
@@ -108,25 +102,32 @@ VirtualMachineAdapter:
       Object: 2C5402:Starfield.esm
       Alias: 33
     - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
+      Name: UC09_DEBUG_Zora
+      Object: 1A2E61:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: LL_Credits_Medium
       Object: 27926A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR05_DebugMarker
-      Object: 1E6B87:Starfield.esm
+      Name: Alias_MuseumPatron_Dad
+      Object: 2C5402:Starfield.esm
+      Alias: 59
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Tuala
       Object: 2C5402:Starfield.esm
       Alias: 29
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SS7FloorManager
-      Object: 2C5402:Starfield.esm
-      Alias: 107
-    - MutagenObjectType: ScriptObjectProperty
       Name: UCR01_DebugMarker
       Object: 1EA2B7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueRedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pacifist
+      Object: 2C5402:Starfield.esm
+      Alias: 62
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09
+      Object: 1FC858:Starfield.esm
   Fragments:
   - Stage: 1020
     Unknown2: 1
@@ -482,39 +483,39 @@ VirtualMachineAdapter:
     - Name: UC06_CompanionWaitScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: SQ_Followers
-        Object: 00D773:Starfield.esm
-      - MutagenObjectType: ScriptIntProperty
-        Name: CompanionResponsePrereqStage
-        Data: 102
-      - MutagenObjectType: ScriptObjectProperty
         Name: Alias_WaitingCompanions
         Object: 2C5402:Starfield.esm
         Alias: 106
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Alias_ResumeTrigger
-        Object: 2C5402:Starfield.esm
-        Alias: 89
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Alias_WaitHereMarker
-        Object: 2C5402:Starfield.esm
-        Alias: 90
       - MutagenObjectType: ScriptBoolProperty
         Name: PlayCompanionResponseScene
         Data: True
       - MutagenObjectType: ScriptObjectProperty
+        Name: SQ_Followers
+        Object: 00D773:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
         Name: WaitTriggerKeyword
         Object: 3B0016:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: companion
+        Name: Alias_WaitHereMarker
+        Object: 2C5402:Starfield.esm
+        Alias: 90
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Companion
         Object: 2C5402:Starfield.esm
         Alias: 28
       - MutagenObjectType: ScriptObjectProperty
         Name: CompanionResponseScene
         Object: 04A457:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: CompanionResponsePrereqStage
+        Data: 102
       - MutagenObjectType: ScriptObjectProperty
         Name: CompanionResponsePrereqQuest
         Object: 248CF0:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Alias_ResumeTrigger
+        Object: 2C5402:Starfield.esm
+        Alias: 89
   - Property:
       Name: ''
       Object: 2C5402:Starfield.esm
@@ -523,39 +524,39 @@ VirtualMachineAdapter:
     - Name: UC06_CompanionWaitScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: SQ_Followers
-        Object: 00D773:Starfield.esm
-      - MutagenObjectType: ScriptIntProperty
-        Name: CompanionResponsePrereqStage
-        Data: 102
-      - MutagenObjectType: ScriptObjectProperty
         Name: Alias_WaitingCompanions
         Object: 2C5402:Starfield.esm
         Alias: 106
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Alias_ResumeTrigger
-        Object: 2C5402:Starfield.esm
-        Alias: 89
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Alias_WaitHereMarker
-        Object: 2C5402:Starfield.esm
-        Alias: 90
       - MutagenObjectType: ScriptBoolProperty
         Name: PlayCompanionResponseScene
         Data: True
       - MutagenObjectType: ScriptObjectProperty
+        Name: SQ_Followers
+        Object: 00D773:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
         Name: WaitTriggerKeyword
         Object: 3B0016:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: companion
+        Name: Alias_WaitHereMarker
+        Object: 2C5402:Starfield.esm
+        Alias: 90
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Companion
         Object: 2C5402:Starfield.esm
         Alias: 28
       - MutagenObjectType: ScriptObjectProperty
         Name: CompanionResponseScene
         Object: 04A457:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: CompanionResponsePrereqStage
+        Data: 102
       - MutagenObjectType: ScriptObjectProperty
         Name: CompanionResponsePrereqQuest
         Object: 248CF0:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Alias_ResumeTrigger
+        Object: 2C5402:Starfield.esm
+        Alias: 89
 Data:
   Flags:
   - StartGameEnabled
@@ -1285,7 +1286,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 28
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -1726,3 +1727,4 @@ Aliases:
     AliasID: 46
     RefType: 0E53C4:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

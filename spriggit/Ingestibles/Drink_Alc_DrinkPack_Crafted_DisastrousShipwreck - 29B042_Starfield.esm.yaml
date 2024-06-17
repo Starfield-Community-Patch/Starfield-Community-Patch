@@ -1,5 +1,6 @@
 FormKey: 29B042:Starfield.esm
 EditorID: Drink_Alc_DrinkPack_Crafted_DisastrousShipwreck
+FormVersion: 559
 ObjectBounds:
   First: -0.068115234, -0.03515625, -0.00289917
   Second: 0.07092285, 0.037139893, 0.21643066
@@ -89,8 +90,8 @@ Effects:
     Duration: 300
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1BBAB0:Starfield.esm
@@ -122,8 +123,8 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm

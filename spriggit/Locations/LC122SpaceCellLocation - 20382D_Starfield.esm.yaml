@@ -1,21 +1,10 @@
 FormKey: 20382D:Starfield.esm
 EditorID: LC122SpaceCellLocation
-MasterPersistLocationReferences:
-- Actor: 14C164:Starfield.esm
-  Location: 203B4E:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-LocationCellUniqueReferences:
+FormVersion: 559
+AddedUniqueBaseForms:
 - GenericBaseForm: 203B4C:Starfield.esm
   Ref: 14C164:Starfield.esm
   Location: 20382D:Starfield.esm
-MasterUniqueNpcs: []
-MasterSpecialReferences:
-- LocationRefType: 02271F:Starfield.esm
-  Marker: 20382A:Starfield.esm
-  Location: 203B4E:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
 Name:
   TargetLanguage: English
   Values:

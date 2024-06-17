@@ -1,16 +1,18 @@
 FormKey: 10A3C4:Starfield.esm
 EditorID: Ship_Landing_Vertical
-FormVersion: 556
+FormVersion: 559
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
+  Unknown1: 0x7A5600
+  Unknown2: 86
   Data:
     MutagenObjectType: HasKeywordConditionData
     RunOnType: Target
     FirstParameter: 2E3E4D:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
+  Unknown1: 0x7A5600
+  Unknown2: 86
   Data:
     MutagenObjectType: HasKeywordConditionData
     FirstParameter: 33DB7A:Starfield.esm

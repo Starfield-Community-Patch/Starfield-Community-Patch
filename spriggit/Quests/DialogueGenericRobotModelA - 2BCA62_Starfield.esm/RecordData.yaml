@@ -1,0 +1,42 @@
+FormKey: 2BCA62:Starfield.esm
+EditorID: DialogueGenericRobotModelA
+FormVersion: 559
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Shared lines across Generic Voicetypes
+  - Language: English
+    String: Shared lines across Generic Voicetypes
+  - Language: Spanish
+    String: Diálogos compartidos en tipos de voz genéricos
+  - Language: French
+    String: Shared lines across Generic Voicetypes
+  - Language: Italian
+    String: Linee condivise di tipi di voce generici
+  - Language: Japanese
+    String: 汎用ボイスタイプの共通セリフ
+  - Language: Polish
+    String: Wspólne kwestie dla generycznych głosów
+  - Language: Portuguese_Brazil
+    String: Linhas compartilhadas entre Tipos de Vozes Genéricas
+  - Language: ChineseSimplified
+    String: 普通声音类型的共享内容
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  Priority: 10
+  Unused: 0x000000
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x8C1400
+  Unknown2: 16650
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    FirstParameter: 2BCA57:Starfield.esm
+  ComparisonValue: 1
+UnusedConditions: []
+Aliases: []
+Timestamp: 12497

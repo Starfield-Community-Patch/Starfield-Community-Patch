@@ -1,5 +1,6 @@
 FormKey: 1EE0C8:Starfield.esm
 EditorID: RI05
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -22,60 +23,263 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_RI05_001EE0C8
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MaeveSceneMarker
-      Object: 1EE0C8:Starfield.esm
-      Alias: 39
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_1000_Ularu_ConfrontationPartIIScene
-      Object: 1008F7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_PlayerSidedWithMasako
-      Object: 18B5E9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_UlaruDead
-      Object: 19B08A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SyndicateGuard02
-      Object: 1EE0C8:Starfield.esm
-      Alias: 44
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UlaruChairSwapEnableMarker
-      Object: 1EE0C8:Starfield.esm
-      Alias: 71
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_BayuDispleased
-      Object: 19F0CD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_MaeveGuardFurniture
       Object: 1EE0C8:Starfield.esm
       Alias: 51
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FrankiesDoor
+      Name: Alias_Imogene
       Object: 1EE0C8:Starfield.esm
-      Alias: 36
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_0915_Companion_PlayerKilledImogeneScene
-      Object: 1EC6DB:Starfield.esm
+      Name: LC115SeokguhHideout
+      Object: 2C19AA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC115SeokguhFaction
+      Object: 17E22F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC044
+      Object: 22F264:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC044RyujinGuardCrimeFaction
+      Object: 22F214:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ularu
+      Object: 1EE0C8:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_PlayerSidedWithUlaru
+      Object: 18B5EA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneOfficeQS
+      Object: 1EE0C8:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Bayu_Credits
+      Object: 19B09A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_YukoReturnQS
+      Object: 1EE0C8:Starfield.esm
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionRyujinIndustriesPerk
+      Object: 1C5152:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_BayuFavorRefused
+      Object: 1EDF5C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC115Location
+      Object: 2C184C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RyujinIndustriesFaction
+      Object: 2C9BF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_1150_Companion_RespondToBayuDecisionScene
+      Object: 1EC6D9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_KumihoSlate
+      Object: 1EDF69:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MaeveSceneMarker
+      Object: 1EE0C8:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_BayuBypassed
+      Object: 1EDF5D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI06
+      Object: 1A9560:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_BayuPlayerKeptSlate
+      Object: 19F0CE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SyndicateGuard01
+      Object: 1EE0C8:Starfield.esm
+      Alias: 43
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerFaction
       Object: 01C21C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_YukoStartMarker
+      Name: RI05_ImogeneDead
+      Object: 1EDF5B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruOfficeQS
       Object: 1EE0C8:Starfield.esm
-      Alias: 61
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_BayuDispleased
+      Object: 19F0CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_0600_Frankie_ForceGreetScene
+      Object: 19B084:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_Support
+      Object: 2A8318:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_FrankiesQS
       Object: 1EE0C8:Starfield.esm
       Alias: 33
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_YukoDoor
+      Object: 1EE0C8:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MaeveGuard
+      Object: 1EE0C8:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SeokguhQS
+      Object: 1EE0C8:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_PlayerSidedWithMasako
+      Object: 18B5E9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_YukoStartMarker
+      Object: 1EE0C8:Starfield.esm
+      Alias: 61
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC115SeokguhTrespassFaction
+      Object: 17E225:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EnableFriendlyAddsMarker
+      Object: 1EE0C8:Starfield.esm
+      Alias: 64
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_0550_Companion_ReactToRejectingBayuScene
+      Object: 1EC6DD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Frankie
+      Object: 1EE0C8:Starfield.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_0800_Imogene_PlayerAddressScene
+      Object: 1EDF51:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Maeve
+      Object: 1EE0C8:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC115
+      Object: 22F263:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_UlaruDead
+      Object: 19B08A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_YukoTravelMarker
+      Object: 1EE0C8:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_0100_Yuko_PlayerAddressScene
+      Object: 1EDF52:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_YukoReturnStartMarker
+      Object: 1EE0C8:Starfield.esm
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FrankiesDoor
+      Object: 1EE0C8:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04
+      Object: 1FB85C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Artifact_GravImmune
+      Object: 12B50D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_UlaruKeycard
+      Object: 19A33C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Frankie_LargeCredits
+      Object: 19A342:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KumihoSlate
+      Object: 1EE0C8:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_930_Companion_PlayerLetImogeneLiveScene
+      Object: 1EC6DA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_1000_Ularu_ConfrontationPartIIScene
+      Object: 1008F7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_0550_Compantion_ReactToDoingBayuFavorScene
+      Object: 1EC6DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueFCNeon
+      Object: 22DAD6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SyndicateGuard02
+      Object: 1EE0C8:Starfield.esm
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneSeokguhQS
+      Object: 1EE0C8:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Kumiho
+      Object: 1EE0C8:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneEvidenceSlate
+      Object: 1EE0C8:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneMarker
+      Object: 1EE0C8:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_ImogeneEvidenceSlate
+      Object: 1EDDDA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueFCSeokguhSyndicateHideout_RI05
+      Object: 19F1C4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruChairSwapEnableMarker
+      Object: 1EE0C8:Starfield.esm
+      Alias: 71
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruDoor
+      Object: 1EE0C8:Starfield.esm
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneOfficeDoor
+      Object: 1EE0C8:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_Foreknowledge_ImogeneInnocentAV
+      Object: 32F8DD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DaltonOfficeQS
+      Object: 1EE0C8:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Yuko
+      Object: 1EE0C8:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_ImogeneSpared
+      Object: 1EDF5A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Imogene_Credits
+      Object: 19B09B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_0915_Companion_PlayerKilledImogeneScene
+      Object: 1EC6DB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: RI05_LC115PreviouslyExplored
       Object: 052515:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_1150_Companion_RespondToBayuDecisionScene
-      Object: 1EC6D9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC044RyujinGuardCrimeFaction
-      Object: 22F214:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TradeTowerQS
       Object: 1EE0C8:Starfield.esm
@@ -83,209 +287,6 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: RI05_SeokguhSyndicateHideoutKey
       Object: 19B082:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Imogene
-      Object: 1EE0C8:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UlaruOfficeQS
-      Object: 1EE0C8:Starfield.esm
-      Alias: 40
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Maeve
-      Object: 1EE0C8:Starfield.esm
-      Alias: 31
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueFCSeokguhSyndicateHideout_RI05
-      Object: 19F1C4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneOfficeDoor
-      Object: 1EE0C8:Starfield.esm
-      Alias: 24
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI04
-      Object: 1FB85C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_930_Companion_PlayerLetImogeneLiveScene
-      Object: 1EC6DA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Artifact_GravImmune
-      Object: 12B50D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_YukoTravelMarker
-      Object: 1EE0C8:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Kumiho
-      Object: 1EE0C8:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneSeokguhQS
-      Object: 1EE0C8:Starfield.esm
-      Alias: 16
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Imogene_Credits
-      Object: 19B09B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC115Location
-      Object: 2C184C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MaeveGuard
-      Object: 1EE0C8:Starfield.esm
-      Alias: 52
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_ImogeneEvidenceSlate
-      Object: 1EDDDA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerEnemyFaction
-      Object: 106C2F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_KumihoSlate
-      Object: 1EE0C8:Starfield.esm
-      Alias: 17
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Bayu_Credits
-      Object: 19B09A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SeokguhQS
-      Object: 1EE0C8:Starfield.esm
-      Alias: 21
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC115SeokguhTrespassFaction
-      Object: 17E225:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI06
-      Object: 1A9560:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RyujinIndustriesFaction
-      Object: 2C9BF9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UlaruDoor
-      Object: 1EE0C8:Starfield.esm
-      Alias: 38
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_0550_Companion_ReactToRejectingBayuScene
-      Object: 1EC6DD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_Foreknowledge_ImogeneInnocentAV
-      Object: 32F8DD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_BayuFavorRefused
-      Object: 1EDF5C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_YukoReturnQS
-      Object: 1EE0C8:Starfield.esm
-      Alias: 54
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FactionRyujinIndustriesPerk
-      Object: 1C5152:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_BayuBypassed
-      Object: 1EDF5D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC115SeokguhFaction
-      Object: 17E22F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_0550_Compantion_ReactToDoingBayuFavorScene
-      Object: 1EC6DC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Frankie_LargeCredits
-      Object: 19A342:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueFCNeon
-      Object: 22DAD6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_PlayerSidedWithUlaru
-      Object: 18B5EA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_YukoReturnStartMarker
-      Object: 1EE0C8:Starfield.esm
-      Alias: 49
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_0100_Yuko_PlayerAddressScene
-      Object: 1EDF52:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_YukoDoor
-      Object: 1EE0C8:Starfield.esm
-      Alias: 58
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_KumihoSlate
-      Object: 1EDF69:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionNeon
-      Object: 26FDEA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Frankie
-      Object: 1EE0C8:Starfield.esm
-      Alias: 34
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SyndicateGuard01
-      Object: 1EE0C8:Starfield.esm
-      Alias: 43
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_0600_Frankie_ForceGreetScene
-      Object: 19B084:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DaltonOfficeQS
-      Object: 1EE0C8:Starfield.esm
-      Alias: 14
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_Support
-      Object: 2A8318:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_ImogeneSpared
-      Object: 1EDF5A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC044
-      Object: 22F264:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC115
-      Object: 22F263:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Yuko
-      Object: 1EE0C8:Starfield.esm
-      Alias: 7
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_0800_Imogene_PlayerAddressScene
-      Object: 1EDF51:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneMarker
-      Object: 1EE0C8:Starfield.esm
-      Alias: 15
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC115SeokguhHideout
-      Object: 2C19AA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_BayuPlayerKeptSlate
-      Object: 19F0CE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EnableFriendlyAddsMarker
-      Object: 1EE0C8:Starfield.esm
-      Alias: 64
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneEvidenceSlate
-      Object: 1EE0C8:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_UlaruKeycard
-      Object: 19A33C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneOfficeQS
-      Object: 1EE0C8:Starfield.esm
-      Alias: 13
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Ularu
-      Object: 1EE0C8:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_ImogeneDead
-      Object: 1EDF5B:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI05_001EE0C8
@@ -878,6 +879,19 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 1EE0C8:Starfield.esm
+      Alias: 76
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 666
+  - Property:
+      Name: ''
+      Object: 1EE0C8:Starfield.esm
       Alias: 22
     Scripts:
     - Name: DefaultAliasOnTriggerEnter
@@ -989,19 +1003,6 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: PrereqStage
         Data: 600
-  - Property:
-      Name: ''
-      Object: 1EE0C8:Starfield.esm
-      Alias: 76
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 600
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 666
 Name:
   TargetLanguage: English
   Values:
@@ -2564,7 +2565,6 @@ Stages:
       Flags:
       - OR
       Unknown1: 0x000000
-      Unknown2: 17620
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2573,7 +2573,6 @@ Stages:
       Flags:
       - OR
       Unknown1: 0x000000
-      Unknown2: 17620
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -3018,7 +3017,6 @@ Stages:
     Conditions:
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
-      Unknown2: 17620
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 18B5EA:Starfield.esm
@@ -3753,7 +3751,7 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0x9AD2A3
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD3:Starfield.esm
@@ -4344,7 +4342,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 29
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -4894,3 +4892,4 @@ Aliases:
   ALFG: 0
   ForcedReference: 25D670:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

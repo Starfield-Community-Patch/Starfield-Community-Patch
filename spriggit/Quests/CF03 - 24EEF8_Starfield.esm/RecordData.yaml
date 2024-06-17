@@ -1,5 +1,6 @@
 FormKey: 24EEF8:Starfield.esm
 EditorID: CF03
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -49,214 +50,240 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_CF03_0024EEF8
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_DeskLamp
-      Object: 24EEF8:Starfield.esm
-      Alias: 52
+      Name: CF03_Stage130_EndLockdown
+      Object: 0F9D51:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: BE_CF03_Shuttle
-      Object: 08AF1A:Starfield.esm
+      Name: CF03DelgadoTransferAreaMarker
+      Object: 245AEC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF03NaevaWrapUpMarker
-      Object: 245ACC:Starfield.esm
+      Name: CF03_Stage060_Delgado_AttackScene
+      Object: 24EA7E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage080_Mathis_CollapseScene
-      Object: 24EA7C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_Shuttle
-      Object: 24EEF8:Starfield.esm
-      Alias: 49
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03DelgadoWrapUpMarker
-      Object: 245ACB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03DelgadoStartMarker
-      Object: 245AF4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage999_Mathis_OptionalCacheScene
-      Object: 0B659E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_DeskLampDummy
-      Object: 24EEF8:Starfield.esm
-      Alias: 53
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03DelgadoInsideLockEntranceMarkerRef
-      Object: 1F9826:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: QST_CF03_Stage3_Ambush
-      Object: 3DABA5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03PlayerStartAtBarracks
-      Object: 168A90:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage220_Mathis_WardenOfficeCallout
-      Object: 24EA71:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisStartAtBarracks
-      Object: 168A8F:Starfield.esm
+      Name: CF03MathisStartAtIntake
+      Object: 168A9B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CF03MathisStartMarker
       Object: 245AF3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_Toft
-      Object: 24EEF8:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFaction
-      Object: 01C21C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_QST_CF03_PryOpenLamp
-      Object: 108250:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LL_Weapon_Reward_CF03_Kryx
-      Object: 08D850:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_Delgado
-      Object: 24EEF8:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisInsideLockEntranceMarkerRef
-      Object: 1F9827:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Outfit_Spacesuit_Elite_CF03_MathisCastillo
-      Object: 37A341:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisCatchupArmoryMarker01
-      Object: 168AA6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC030TheLockDoorMainEntranceRef
-      Object: 260A4E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03TempCollapseBlockerRef
-      Object: 2458CA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC030_VentilationRoomPassword
-      Object: 1F91FB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF04
-      Object: 23C6F1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_LLI_MathisMagstorm
-      Object: 168A9D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisStartAtWarden
-      Object: 168A8A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC030Lock01
-      Object: 2A6C55:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_ExteriorDoor
-      Object: 24EEF8:Starfield.esm
-      Alias: 58
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage215_Mathis_BarracksCreatureRush
-      Object: 168A8E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC030LockLocation
-      Object: 2B2BAA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_PlayerStartKryxCell
-      Object: 0BC855:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF05
-      Object: 21D792:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisTowerTopOverrideMarker
-      Object: 003ED3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisOuterDoorMarker01
-      Object: 245AF2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage145_Mathis_TowerScenePreCallout
-      Object: 207E8D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage130_EndLockdown
-      Object: 0F9D51:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC030_LockerPasscode
-      Object: 1F91FA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_MathisStartKryxCell
-      Object: 0BC855:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisCatchupArmoryMarker02
-      Object: 168AA5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage211_Mathis_ArmoryScene
-      Object: 168AA9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC082
-      Object: 2BF365:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: QST_CF03_Stage1_DoorUnlock
-      Object: 3DAC61:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: CF03_LLI_MathisMagstormAmmo
       Object: 168A9C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_Mathis
+      Name: CF03PlayerStartAtWarden
+      Object: 168A8B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerStartAtBarracks
+      Object: 168A90:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisStartAtBarracks
+      Object: 168A8F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage100_Delgado_PACallout
+      Object: 24EA79:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_ArmoryWeaponCase
       Object: 24EEF8:Starfield.esm
-      Alias: 3
+      Alias: 39
     - MutagenObjectType: ScriptObjectProperty
-      Name: MagStorm
-      Object: 26035E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisCatchupBarracksMarker
-      Object: 168A91:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage105_Mathis_WallPanelFallsCallout
-      Object: 168ACF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisTowerOverrideMarker
-      Object: 1EC4E5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03DelgadoShuttleOverlookMarker
-      Object: 245AD2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03ControlRoomExitDoorRef
-      Object: 2A74E5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC030_LockerCode
-      Object: 1F91FA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_IDReader
-      Object: 24EEF8:Starfield.esm
-      Alias: 57
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03ActorsUseGroupTravelGlobal
-      Object: 168AD8:Starfield.esm
+      Name: CF03_Stage270_ShuttleAnnounceScene
+      Object: 0BC85A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF03_GenericAlly01
       Object: 24EEF8:Starfield.esm
       Alias: 36
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF_SysDefShutdown
-      Object: 216625:Starfield.esm
+      Name: SpaceshipPreventRampOpenOnLanding
+      Object: 09DE4F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CFKey
-      Object: 297E3A:Starfield.esm
+      Name: CF03MathisStartAtWarden
+      Object: 168A8A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF03PlayerStartInLock
-      Object: 2458C6:Starfield.esm
+      Name: CF03_Stage220_Mathis_WardenOfficeCallout
+      Object: 24EA71:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisCatchupIntakeMarker
-      Object: 168A99:Starfield.esm
+      Name: CF03ActorsUseGroupTravelGlobal
+      Object: 168AD8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisStartAtIntake
-      Object: 168A9B:Starfield.esm
+      Name: Alias_CF03_Mathis
+      Object: 24EEF8:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisCatchupArmoryMarker01
+      Object: 168AA6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030_LockerCode
+      Object: 1F91FA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_DeskLampDummy
+      Object: 24EEF8:Starfield.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisShuttleStart
+      Object: 12F2F9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_Toft
+      Object: 24EEF8:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoInsideLockEntranceMarkerRef
+      Object: 1F9826:Starfield.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: cooldownDays
+      Data: 2
+    - MutagenObjectType: ScriptFloatProperty
+      Name: waitTime
+      Data: 3.25
     - MutagenObjectType: ScriptObjectProperty
       Name: CF03MathisStartAtArmory
       Object: 168AAE:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisTransferAreaMarker
-      Object: 245AED:Starfield.esm
+      Name: WwiseEvent_QST_CF03_PryOpenLamp
+      Object: 108250:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoTransferAreaPAMarker
+      Object: 2458E7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerShuttleStart
+      Object: 12F2FE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage211_Mathis_ArmoryScene
+      Object: 168AA9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SE_Player_FAB20_Timestamp
+      Object: 1EFCEF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_CF03_Stage3_Ambush
+      Object: 3DABA5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030LockLocation
+      Object: 2B2BAA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage215_Mathis_BarracksCreatureRush
+      Object: 168A8E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BE_CF03_Shuttle
+      Object: 08AF1A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage080_Mathis_CollapseScene
+      Object: 24EA7C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Weapon_Reward_CF03_Kryx
+      Object: 08D850:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030
+      Object: 2B67E9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage050_StairsScene
+      Object: 0D0806:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030_VentilationRoomPassword
+      Object: 1F91FB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisWrapUpMarker
+      Object: 245ACA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFKey
+      Object: 297E3A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage180_Mathis_TowerCellCallout
+      Object: 24EA76:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisCatchupBarracksMarker
+      Object: 168A91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisTowerOverrideMarker
+      Object: 1EC4E5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030TheLockDoorMainEntranceRef
+      Object: 260A4E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03ControlRoomExitDoorRef
+      Object: 2A74E5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF03_GenericAlly02
       Object: 24EEF8:Starfield.esm
       Alias: 37
     - MutagenObjectType: ScriptObjectProperty
+      Name: LC030Lock01
+      Object: 2A6C55:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainState_Mathis
+      Object: 278E87:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerInsideLockMarkerRef
+      Object: 168AB7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage145_Mathis_TowerScenePreCallout
+      Object: 207E8D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisCatchupIntakeMarker
+      Object: 168A99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisTransferAreaMarker
+      Object: 245AED:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCSysDefFaction
+      Object: 2733AF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_Shuttle
+      Object: 24EEF8:Starfield.esm
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03NaevaWrapUpMarker
+      Object: 245ACC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoShuttleOverlookMarker
+      Object: 245AD2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_MathisStartKryxCell
+      Object: 0BC855:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_SysDefShutdown
+      Object: 216625:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_Kibwe
+      Object: 24EEF8:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_TAAmbushSFXMarkerRefCol
+      Object: 24EEF8:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_KryxSlate
+      Object: 24EEF8:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_LLI_MathisMagstorm
+      Object: 168A9D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisTowerTopOverrideMarker
+      Object: 003ED3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_ExteriorDoor
+      Object: 24EEF8:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_ArmoryWeaponCaseCollision
+      Object: 24EEF8:Starfield.esm
+      Alias: 61
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Spacesuit_CrimsonFleet_Assault_Helmet_NOTPLAYABLE
+      Object: 1ED06C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Magstorm
+      Object: 26035E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF03_TADelgadoIntercom
       Object: 24EEF8:Starfield.esm
       Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Outfit_Spacesuit_Elite_CF03_MathisCastillo
+      Object: 37A341:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CF03_Naeva
       Object: 24EEF8:Starfield.esm
@@ -268,51 +295,14 @@ VirtualMachineAdapter:
       Name: CF03_Stage040_Delgado_LockExtOutroScene
       Object: 2458CB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCSysDefFaction
-      Object: 2733AF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimsonFleetFaction
-      Object: 010B30:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SE_Player_FAB20_Timestamp
-      Object: 1EFCEF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03PlayerOuterDoorMarker
-      Object: 2458CE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage100_Delgado_PACallout
-      Object: 24EA79:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: CF03_Stage140_Mathis_TowerCallout
       Object: 24EA78:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage050_StairsScene
-      Object: 0D0806:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03DelgadoTransferAreaPAMarker
-      Object: 2458E7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_KryxSlate
-      Object: 24EEF8:Starfield.esm
-      Alias: 14
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03ToftWrapUpMarker
-      Object: 245AC6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipPreventRampOpenOnLanding
-      Object: 09DE4F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CF03_WardenExitDoorRef
       Object: 1FB695:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage270_ShuttleAnnounceScene
-      Object: 0BC85A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage060_Delgado_AttackScene
-      Object: 24EA7E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03PlayerShuttleStart
-      Object: 12F2FE:Starfield.esm
+      Name: CF03PlayerStartInLock
+      Object: 2458C6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CF03_Stage135_Mathis_TowerCallout
       Object: 24EA78:Starfield.esm
@@ -324,84 +314,95 @@ VirtualMachineAdapter:
       Name: CF03_Stage175_Mathis_CellCallout
       Object: 24EA75:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF03_Stage180_Mathis_TowerCellCallout
-      Object: 24EA76:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_ArmoryWeaponCaseCollision
-      Object: 24EEF8:Starfield.esm
-      Alias: 61
-    - MutagenObjectType: ScriptObjectProperty
       Name: CF03_Stage219_Delgado_WardenPACallout
       Object: 207E8A:Starfield.esm
-    - MutagenObjectType: ScriptFloatProperty
-      Name: waitTime
-      Data: 3.25
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03PlayerStartAtIntake
-      Object: 168A9A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03PlayerStartAtWarden
-      Object: 168A8B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CF03_Stage085_Mathis_PostCollapseScene
       Object: 0D080A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF03DelgadoOuterDoorMarker01
-      Object: 245AF1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03PlayerInsideLockMarkerRef
-      Object: 168AB7:Starfield.esm
-    - MutagenObjectType: ScriptFloatProperty
-      Name: cooldownDays
-      Data: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_TAAmbushSFXMarkerRefCol
-      Object: 24EEF8:Starfield.esm
-      Alias: 59
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03DelgadoTransferAreaMarker
-      Object: 245AEC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisWrapUpMarker
-      Object: 245ACA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03PlayerStartAtArmory
-      Object: 168AAF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_Kibwe
-      Object: 24EEF8:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimsonFleetCaptainState_Mathis
-      Object: 278E87:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: CF03KibweWrapUpMarker
       Object: 245AC8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CF03_ArmoryWeaponCase
-      Object: 24EEF8:Starfield.esm
-      Alias: 39
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF03MathisShuttleStart
-      Object: 12F2F9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF_Main
-      Object: 178B1E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CF03PlayerStartMarker
       Object: 2458CF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Spacesuit_CrimsonFleet_Assault_Helmet_NOTPLAYABLE
-      Object: 1ED06C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: CF03_Stage180_Mathis_CellCallout
       Object: 24EA75:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LC030
-      Object: 2B67E9:Starfield.esm
+      Name: CF03ToftWrapUpMarker
+      Object: 245AC6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage999_Mathis_OptionalCacheScene
+      Object: 0B659E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_Stage105_Mathis_WallPanelFallsCallout
+      Object: 168ACF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_Delgado
+      Object: 24EEF8:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_DeskLamp
+      Object: 24EEF8:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisOuterDoorMarker01
+      Object: 245AF2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC030_LockerPasscode
+      Object: 1F91FA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoWrapUpMarker
+      Object: 245ACB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoStartMarker
+      Object: 245AF4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetFaction
+      Object: 010B30:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisInsideLockEntranceMarkerRef
+      Object: 1F9827:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerStartAtArmory
+      Object: 168AAF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF05
+      Object: 21D792:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF04
+      Object: 23C6F1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03DelgadoOuterDoorMarker01
+      Object: 245AF1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_CF03_Stage1_DoorUnlock
+      Object: 3DAC61:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03_PlayerStartKryxCell
+      Object: 0BC855:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC082
+      Object: 2BF365:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03TempCollapseBlockerRef
+      Object: 2458CA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_Main
+      Object: 178B1E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03MathisCatchupArmoryMarker02
+      Object: 168AA5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerOuterDoorMarker
+      Object: 2458CE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF03PlayerStartAtIntake
+      Object: 168A9A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CF03_IDReader
+      Object: 24EEF8:Starfield.esm
+      Alias: 57
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_CF03_0024EEF8
@@ -3639,7 +3640,7 @@ Aliases:
   VoiceTypes: 219359:Starfield.esm
 - MutagenObjectType: QuestReferenceAlias
   ID: 22
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -4221,3 +4222,4 @@ Aliases:
     Quest: 2A567C:Starfield.esm
     AliasID: 25
   VoiceTypes: Null
+Timestamp: 12497

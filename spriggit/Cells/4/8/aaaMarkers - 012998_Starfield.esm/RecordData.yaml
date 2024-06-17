@@ -1,0 +1,77 @@
+FormKey: 012998:Starfield.esm
+EditorID: aaaMarkers
+FormVersion: 559
+Version2: 8
+Name:
+  TargetLanguage: English
+  Values:
+  - Language: German
+    String: Marker
+  - Language: English
+    String: Markers
+  - Language: Spanish
+    String: Marcadores
+  - Language: French
+    String: Marqueurs
+  - Language: Italian
+    String: Indicatori
+  - Language: Japanese
+    String: マーカー
+  - Language: Polish
+    String: Znaczniki
+  - Language: Portuguese_Brazil
+    String: Marcadores
+  - Language: ChineseSimplified
+    String: 标记
+Flags:
+- IsInteriorCell
+- 0x80000
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 0.7
+  FogFarColor: '#002C2418'
+  Unknown1: 659731
+  ForColorHighNear: '#00000080'
+  ForColorHighFar: '#00635F4B'
+  HighDensityScale: 0.7
+  FarHeightMid: 10000
+LightingTemplate: 0300E2:Starfield.esm
+WaterHeight: 3.4028235E+38
+XILS: 1
+XCLAs:
+- XCLA: 1
+  XCLD: Default Layer Name 1
+- XCLA: 2
+  XCLD: Default Layer Name 2
+- XCLA: 3
+  XCLD: Default Layer Name 3
+- XCLA: 4
+  XCLD: Default Layer Name 4
+ImageSpace: 0432DF:Starfield.esm
+EnvironmentMap: Data\Textures\cubemaps\blackcube.dds
+Traversals:
+- Unknown1: 1
+  From: 11.338663, 24.716667, 24.09057
+  To: 8.6886635, 24.716667, 24.09057
+  UnknownVector: 3.5551662, 3.6561577, 0.7994018
+  Unknown: 0xB644B6442B3D2B3D
+- Unknown1: 15
+  From: 8.6886635, 24.2, 24.090569
+  To: 11.338663, 24.2, 24.090569
+  UnknownVector: 3.5551662, 3.6561577, 0.7994018
+  Unknown: 0x483E483E333A333A
+- Unknown1: 22
+  From: 8.6886635, 24.716667, 24.09057
+  To: 11.338663, 24.716667, 24.09057
+  UnknownVector: 3.5551662, 3.6561577, 0.7994018
+  Unknown: 0x483E483E2B3D2B3D
+- Unknown1: 28
+  From: 11.338663, 24.2, 24.090569
+  To: 8.6886635, 24.2, 24.090569
+  UnknownVector: 3.5551662, 3.6561577, 0.7994018
+  Unknown: 0xB644B644333A333A
+NumTraversalFluffBytes: 16

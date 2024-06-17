@@ -1,26 +1,10 @@
 FormKey: 1EC462:Starfield.esm
 EditorID: SettleDeimosStaryardSpaceCellLocation
-MasterPersistLocationReferences:
-- Actor: 3120D6:Starfield.esm
-  Location: 219DFF:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-LocationCellUniqueReferences:
+FormVersion: 559
+AddedUniqueBaseForms:
 - GenericBaseForm: 0090B3:Starfield.esm
   Ref: 3120D6:Starfield.esm
   Location: 1EC462:Starfield.esm
-MasterUniqueNpcs: []
-MasterSpecialReferences:
-- LocationRefType: 209872:Starfield.esm
-  Marker: 1AC7D7:Starfield.esm
-  Location: 219DFF:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 02271F:Starfield.esm
-  Marker: 219DE0:Starfield.esm
-  Location: 219DFF:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
 Name:
   TargetLanguage: English
   Values:

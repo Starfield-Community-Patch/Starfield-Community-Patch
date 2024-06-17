@@ -1,22 +1,26 @@
 FormKey: 1E8342:Starfield.esm
 EditorID: COM_CND_DIAL_Greeting_WantsToTalkQuest_RyujinFaction
+FormVersion: 559
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 2BE3E4:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   CompareOperator: GreaterThanOrEqualTo
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: GetValueConditionData
     FirstParameter: 2005418
   ComparisonValue: 1
 - MutagenObjectType: ConditionGlobal
   CompareOperator: LessThanOrEqualTo
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: GetValueConditionData
     FirstParameter: 829001

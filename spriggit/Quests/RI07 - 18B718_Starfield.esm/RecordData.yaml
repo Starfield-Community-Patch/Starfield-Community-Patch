@@ -1,5 +1,6 @@
 FormKey: 18B718:Starfield.esm
 EditorID: RI07
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -8,18 +9,59 @@ VirtualMachineAdapter:
       Name: ChangeLocationStages
       Structs:
       - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01295A:Starfield.esm
         - MutagenObjectType: ScriptIntProperty
           Name: PrereqStage
           Data: 1300
         - MutagenObjectType: ScriptIntProperty
           Name: StageToSet
           Data: 1310
-        - MutagenObjectType: ScriptObjectProperty
-          Name: TargetLocation
-          Object: 01295A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_PlayerShip
       Object: 0174A2:Starfield.esm
+  - Name: ri_crimetrackingquestscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RewardGlobal
+      Object: 23DF36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsRewardDeductionMedium
+      Object: 0BCFBE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalBountiesCount
+      Object: 3B3CC1:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: iCompletionStage
+      Data: 10000
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CrimeCountSmall
+      Object: 03EED6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CrimeCountLarge
+      Object: 03EED7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08_MasakoRemainedCEO
+      Object: 17F175:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalBodyCount
+      Object: 23DE16:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalArrestCount
+      Object: 23DE15:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsRewardDeductionLarge
+      Object: 03EED0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsRewardDeductionSmall
+      Object: 0E5193:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CrimeCountMedium
+      Object: 03EED5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsReward
+      Object: 03EECF:Starfield.esm
   - Name: ri07_questscript
     Properties:
     - MutagenObjectType: ScriptIntProperty
@@ -28,318 +70,311 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptIntProperty
       Name: iTurnOffStage
       Data: 999
-  - Name: ri_crimetrackingquestscript
-    Properties:
-    - MutagenObjectType: ScriptIntProperty
-      Name: iCompletionStage
-      Data: 10000
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RewardGlobal
-      Object: 23DF36:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI08_MasakoRemainedCEO
-      Object: 17F175:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsReward
-      Object: 03EECF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionLarge
-      Object: 03EED0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionMedium
-      Object: 0BCFBE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionSmall
-      Object: 0E5193:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountLarge
-      Object: 03EED7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountMedium
-      Object: 03EED5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountSmall
-      Object: 03EED6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalArrestCount
-      Object: 23DE15:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalBodyCount
-      Object: 23DE16:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalBountiesCount
-      Object: 3B3CC1:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_RI07_0018B718
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Aelys
-      Object: 18B718:Starfield.esm
-      Alias: 90
+      Name: RI07_1430_Aelys_LeavingScene
+      Object: 159C48:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AelysQS
-      Object: 18B718:Starfield.esm
-      Alias: 109
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Alexis
-      Object: 18B718:Starfield.esm
-      Alias: 4
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AlexisChair
-      Object: 18B718:Starfield.esm
-      Alias: 14
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AmirLockerKeycard
-      Object: 18B718:Starfield.esm
-      Alias: 87
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Angelo
-      Object: 18B718:Starfield.esm
-      Alias: 130
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Companion
-      Object: 18B718:Starfield.esm
-      Alias: 19
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ConferenceRoomChairsEnableMarker
-      Object: 18B718:Starfield.esm
-      Alias: 135
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ConferenceRoomDoor
-      Object: 18B718:Starfield.esm
-      Alias: 17
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Dalton
-      Object: 18B718:Starfield.esm
-      Alias: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DaltonComputer
-      Object: 18B718:Starfield.esm
-      Alias: 20
+      Name: RI07_1446_AelysNinaHarper_AppointmentScene
+      Object: 2FB10A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_DaltonMeetingMarker
       Object: 18B718:Starfield.esm
       Alias: 16
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DaltonOfficeQS
-      Object: 18B718:Starfield.esm
-      Alias: 62
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DaltonWaitFurniture
-      Object: 18B718:Starfield.esm
-      Alias: 63
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DaltonWaitMarker
-      Object: 18B718:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DeMarcus
-      Object: 18B718:Starfield.esm
-      Alias: 7
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DeMarcusPostManipulationMarker
-      Object: 18B718:Starfield.esm
-      Alias: 68
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DeMarcusSceneMarker01
-      Object: 18B718:Starfield.esm
-      Alias: 25
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DeMarcusTestRoomMarker
-      Object: 18B718:Starfield.esm
-      Alias: 48
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Dezi
-      Object: 18B718:Starfield.esm
-      Alias: 82
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DeziEnableMarker
-      Object: 18B718:Starfield.esm
-      Alias: 128
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DisplayScreen
-      Object: 18B718:Starfield.esm
-      Alias: 67
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ExecutiveGenericNPCs
-      Object: 18B718:Starfield.esm
-      Alias: 121
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Faye
-      Object: 18B718:Starfield.esm
-      Alias: 126
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FayeTerminal
-      Object: 18B718:Starfield.esm
-      Alias: 38
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FayOfficeQS
-      Object: 18B718:Starfield.esm
-      Alias: 52
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Genevieve
-      Object: 18B718:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_GenevieveChair
-      Object: 18B718:Starfield.esm
-      Alias: 13
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Harper
-      Object: 18B718:Starfield.esm
-      Alias: 111
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_IDCardKey
-      Object: 18B718:Starfield.esm
-      Alias: 118
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Imogene
-      Object: 18B718:Starfield.esm
-      Alias: 70
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneFurniture
-      Object: 18B718:Starfield.esm
-      Alias: 86
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_InfinityLobbyQS
-      Object: 18B718:Starfield.esm
-      Alias: 97
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_InfinityRoofAccessQS
-      Object: 18B718:Starfield.esm
-      Alias: 98
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_InternalNeuroampCase
-      Object: 18B718:Starfield.esm
-      Alias: 134
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Linden
-      Object: 18B718:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LindenChair
-      Object: 18B718:Starfield.esm
-      Alias: 15
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LockerQS
-      Object: 18B718:Starfield.esm
-      Alias: 101
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Lucas
-      Object: 18B718:Starfield.esm
-      Alias: 106
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LucasDoor
-      Object: 18B718:Starfield.esm
-      Alias: 132
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LucasDoorKey
-      Object: 18B718:Starfield.esm
-      Alias: 133
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LucasOfficeQS
-      Object: 18B718:Starfield.esm
-      Alias: 51
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LucasTerminal
-      Object: 18B718:Starfield.esm
-      Alias: 36
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Masako
-      Object: 18B718:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MasakoChair
-      Object: 18B718:Starfield.esm
-      Alias: 11
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MasakoIntercom
-      Object: 18B718:Starfield.esm
-      Alias: 43
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MasakoOfficeQS
-      Object: 18B718:Starfield.esm
-      Alias: 56
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_MasakoPlanSceneMarker
       Object: 18B718:Starfield.esm
       Alias: 65
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeuroampDivisionQS
-      Object: 18B718:Starfield.esm
-      Alias: 27
+      Name: RI02_NinaHartDead
+      Object: 25D676:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NeuroampOperatingTable
-      Object: 18B718:Starfield.esm
-      Alias: 28
+      Name: LC044
+      Object: 22F264:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_PlayerHasInternalNeuroamp
+      Object: 0D6B04:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Nina
       Object: 18B718:Starfield.esm
       Alias: 110
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ObservationQS
+      Name: Alias_InternalNeuroampCase
       Object: 18B718:Starfield.esm
-      Alias: 34
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerChairQT
-      Object: 18B718:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Program
-      Object: 18B718:Starfield.esm
-      Alias: 30
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Prototype
-      Object: 18B718:Starfield.esm
-      Alias: 40
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PrototypeQS
-      Object: 18B718:Starfield.esm
-      Alias: 53
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RI07_StartMarker
-      Object: 18B718:Starfield.esm
-      Alias: 10
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SkylerLuminID
-      Object: 18B718:Starfield.esm
-      Alias: 114
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SSNNQS
-      Object: 18B718:Starfield.esm
-      Alias: 55
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Stanley
-      Object: 18B718:Starfield.esm
-      Alias: 131
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TestRoomDoor
-      Object: 18B718:Starfield.esm
-      Alias: 47
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TestRoomDoorKeycard
-      Object: 18B718:Starfield.esm
-      Alias: 46
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TestRoomDoorKeycardMarker
-      Object: 18B718:Starfield.esm
-      Alias: 45
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TestRoomTerminal
-      Object: 18B718:Starfield.esm
-      Alias: 115
+      Alias: 134
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Ularu
       Object: 18B718:Starfield.esm
       Alias: 1
     - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_PlayerSidedWithUlaru
+      Object: 18B5EA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08
+      Object: 18B717:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruPostPlanSceneMarker
+      Object: 18B718:Starfield.esm
+      Alias: 78
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_Masako_Credits
+      Object: 158624:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SSNNQS
+      Object: 18B718:Starfield.esm
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Harper
+      Object: 18B718:Starfield.esm
+      Alias: 111
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LucasTerminal
+      Object: 18B718:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneFurniture
+      Object: 18B718:Starfield.esm
+      Alias: 86
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TestRoomDoorKeycard
+      Object: 18B718:Starfield.esm
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionRyujinIndustriesPerk
+      Object: 1C5152:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LockerQS
+      Object: 18B718:Starfield.esm
+      Alias: 101
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RyujinIndustriesFaction
+      Object: 2C9BF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ViewportQS
+      Object: 18B718:Starfield.esm
+      Alias: 99
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_MaintenancePasscode
+      Object: 15DF49:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DeMarcusSceneMarker01
+      Object: 18B718:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Manipulation
+      Object: 2C5555:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ObservationQS
+      Object: 18B718:Starfield.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Stanley
+      Object: 18B718:Starfield.esm
+      Alias: 131
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Veena
+      Object: 18B718:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_0700_Veena_OperationScene
+      Object: 0933D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aelys
+      Object: 18B718:Starfield.esm
+      Alias: 90
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PrototypeQS
+      Object: 18B718:Starfield.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TestRoomDoorKeycardMarker
+      Object: 18B718:Starfield.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_ImogeneDead
+      Object: 1EDF5B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_Manipulation
+      Object: 15DF51:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_RDKeycard
+      Object: 15DF42:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Angelo
+      Object: 18B718:Starfield.esm
+      Alias: 130
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_OverseerProgram
+      Object: 11C0EC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerChairQT
+      Object: 18B718:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Neuroamp_Ryujin01
+      Object: 1434EB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_Support
+      Object: 2A8318:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Linden
+      Object: 18B718:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LucasDoorKey
+      Object: 18B718:Starfield.esm
+      Alias: 133
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VeenaSceneMarker01
+      Object: 18B718:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Genevieve
+      Object: 18B718:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_UpdatedOverseerProgram
+      Object: 1D8FED:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LucasDoor
+      Object: 18B718:Starfield.esm
+      Alias: 132
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TestRoomDoor
+      Object: 18B718:Starfield.esm
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scanner_SocialSkill_Manipulation
+      Object: 2638B1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LindenChair
+      Object: 18B718:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Faye
+      Object: 18B718:Starfield.esm
+      Alias: 126
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_SkylerLuminID
+      Object: 15DF4A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Location_InfinityLTD
+      Object: 18B718:Starfield.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_PlayerStealthSuit
+      Object: 18B54A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Disruptor
+      Object: 26D968:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_UlaruChair
       Object: 18B718:Starfield.esm
       Alias: 12
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UlaruChairPlayer
+      Name: RI07_PlayerStealthSuitHelmet
+      Object: 16E0C3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DeMarcusTestRoomMarker
       Object: 18B718:Starfield.esm
-      Alias: 136
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_LockerKeyCard
+      Object: 15DF43:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_IDCardKey
+      Object: 18B718:Starfield.esm
+      Alias: 118
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MasakoIntercom
+      Object: 18B718:Starfield.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ConferenceRoomChairsEnableMarker
+      Object: 18B718:Starfield.esm
+      Alias: 135
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_0700_Companion_NeurosurgeryCommentScene
+      Object: 186E24:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_Prototype
+      Object: 18B5F6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_1100_Masako_CommentLineScene
+      Object: 15DF4E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RI07_StartMarker
+      Object: 18B718:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AelysQS
+      Object: 18B718:Starfield.esm
+      Alias: 109
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Program
+      Object: 18B718:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AlexisChair
+      Object: 18B718:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Imogene
+      Object: 18B718:Starfield.esm
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_UlaruDead
+      Object: 19B08A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_1432_Aelys_PlayerLeftScene
+      Object: 2FB10B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GenevieveChair
+      Object: 18B718:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DeziEnableMarker
+      Object: 18B718:Starfield.esm
+      Alias: 128
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SkylerLuminID
+      Object: 18B718:Starfield.esm
+      Alias: 114
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DeMarcus
+      Object: 18B718:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dalton
+      Object: 18B718:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AmirLockerKeycard
+      Object: 18B718:Starfield.esm
+      Alias: 87
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_LucasDead
+      Object: 15DF37:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lucas
+      Object: 18B718:Starfield.esm
+      Alias: 106
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Masako
+      Object: 18B718:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 18B718:Starfield.esm
+      Alias: 19
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_UlaruChairSwapMarker
       Object: 18B718:Starfield.esm
@@ -349,14 +384,6 @@ VirtualMachineAdapter:
       Object: 18B718:Starfield.esm
       Alias: 66
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UlaruOfficeQS
-      Object: 18B718:Starfield.esm
-      Alias: 77
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UlaruPostPlanSceneMarker
-      Object: 18B718:Starfield.esm
-      Alias: 78
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_UpdatedProgram
       Object: 18B718:Starfield.esm
       Alias: 137
@@ -365,80 +392,41 @@ VirtualMachineAdapter:
       Object: 18B718:Starfield.esm
       Alias: 100
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Veena
-      Object: 18B718:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_VeenaPostManipulationMarker
       Object: 18B718:Starfield.esm
       Alias: 69
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VeenaSceneMarker01
+      Name: Alias_NeuroampDivisionQS
       Object: 18B718:Starfield.esm
-      Alias: 26
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FayeTerminal
+      Object: 18B718:Starfield.esm
+      Alias: 38
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_VeenaSceneMarker02
       Object: 18B718:Starfield.esm
       Alias: 29
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ViewportQS
+      Name: Alias_DeMarcusPostManipulationMarker
       Object: 18B718:Starfield.esm
-      Alias: 99
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Yuko
-      Object: 18B718:Starfield.esm
-      Alias: 59
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
+      Alias: 68
     - MutagenObjectType: ScriptObjectProperty
       Name: DialogueCrimeGuardsForcegreetingScene
       Object: 269BD5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Digipick
-      Object: 00000A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Disruptor
-      Object: 26D968:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FactionRyujinIndustriesPerk
-      Object: 1C5152:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC044
-      Object: 22F264:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: LC051
       Object: 2892E9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Manipulation
-      Object: 2C5555:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Neuroamp_Ryujin01
-      Object: 1434EB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFaction
-      Object: 01C21C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_NinaHartDead
-      Object: 25D676:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI03_SimonDead
-      Object: 196526:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_ImogeneDead
-      Object: 1EDF5B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_PlayerSidedWithMasako
-      Object: 18B5E9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_PlayerSidedWithUlaru
-      Object: 18B5EA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_UlaruDead
-      Object: 19B08A:Starfield.esm
+      Name: RI07_1000_DeMarcus_ManipulationScene
+      Object: 18B605:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI06
       Object: 1A9560:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DaltonWaitFurniture
+      Object: 18B718:Starfield.esm
+      Alias: 63
     - MutagenObjectType: ScriptObjectProperty
       Name: RI07_0100_Dalton_CommentLineScene
       Object: 18B61D:Starfield.esm
@@ -452,455 +440,540 @@ VirtualMachineAdapter:
       Name: RI07_0500_Veena_CommentLineScene
       Object: 18B60E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_0700_Companion_NeurosurgeryCommentScene
-      Object: 186E24:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_0700_Veena_OperationScene
-      Object: 0933D4:Starfield.esm
+      Name: RI07_1460_Announcer_EvacuateScene
+      Object: 13E41E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI07_1000_Companion_NeuroampCommentScene
       Object: 186E23:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_1000_DeMarcus_ManipulationScene
-      Object: 18B605:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_1100_Masako_CommentLineScene
-      Object: 15DF4E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_1305_Companion_PostPlanCommentScene
-      Object: 12311B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_1430_Aelys_GreetingScene
-      Object: 159C49:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_1430_Aelys_LeavingScene
-      Object: 159C48:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_1432_Aelys_PlayerLeftScene
-      Object: 2FB10B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_1446_AelysNinaHarper_AppointmentScene
-      Object: 2FB10A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_1460_Announcer_EvacuateScene
-      Object: 13E41E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_2000_Intercom_ListeningScene
-      Object: 18B5ED:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_FayeDead
-      Object: 15DF36:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_Foreknowledge_ImogeneInnocentAV
-      Object: 32F8DD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_LockerKeyCard
-      Object: 15DF43:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_LucasDead
-      Object: 15DF37:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_MaintenancePasscode
-      Object: 15DF49:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_Masako_Credits
-      Object: 158624:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_OverseerProgram
-      Object: 11C0EC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_PlayerHasInternalNeuroamp
-      Object: 0D6B04:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_PlayerStealthSuit
-      Object: 18B54A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_PlayerStealthSuitHelmet
-      Object: 16E0C3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_Prototype
-      Object: 18B5F6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_RDAccessMessage
-      Object: 13E41A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_RDKeycard
-      Object: 15DF42:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_SkylerLuminID
-      Object: 15DF4A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_UpdatedOverseerProgram
-      Object: 1D8FED:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI08
-      Object: 18B717:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR06
-      Object: 24FB39:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_Support
-      Object: 2A8318:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RyujinIndustriesFaction
-      Object: 2C9BF9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scanner_SocialSkill_Manipulation
-      Object: 2638B1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Skill_Manipulation_InternalNeuroampBonus
-      Object: 184968:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_Manipulation
-      Object: 15DF51:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_David
+      Name: Alias_InfinityRoofAccessQS
       Object: 18B718:Starfield.esm
-      Alias: 41
+      Alias: 98
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DaltonComputer
+      Object: 18B718:Starfield.esm
+      Alias: 20
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_DavidFurniture
       Object: 18B718:Starfield.esm
       Alias: 146
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Location_InfinityLTD
+      Name: RI07_1305_Companion_PostPlanCommentScene
+      Object: 12311B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_2000_Intercom_ListeningScene
+      Object: 18B5ED:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TestRoomTerminal
       Object: 18B718:Starfield.esm
-      Alias: 37
+      Alias: 115
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_Foreknowledge_ImogeneInnocentAV
+      Object: 32F8DD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_David
+      Object: 18B718:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI03_SimonDead
+      Object: 196526:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_RDAccessMessage
+      Object: 13E41A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR06
+      Object: 24FB39:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DaltonWaitMarker
+      Object: 18B718:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_PlayerSidedWithMasako
+      Object: 18B5E9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MasakoOfficeQS
+      Object: 18B718:Starfield.esm
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExecutiveGenericNPCs
+      Object: 18B718:Starfield.esm
+      Alias: 121
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruOfficeQS
+      Object: 18B718:Starfield.esm
+      Alias: 77
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_FayeDead
+      Object: 15DF36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DaltonOfficeQS
+      Object: 18B718:Starfield.esm
+      Alias: 62
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LucasOfficeQS
+      Object: 18B718:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ConferenceRoomDoor
+      Object: 18B718:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FayOfficeQS
+      Object: 18B718:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Skill_Manipulation_InternalNeuroampBonus
+      Object: 184968:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Digipick
+      Object: 00000A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alexis
+      Object: 18B718:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dezi
+      Object: 18B718:Starfield.esm
+      Alias: 82
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Yuko
+      Object: 18B718:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruChairPlayer
+      Object: 18B718:Starfield.esm
+      Alias: 136
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeuroampOperatingTable
+      Object: 18B718:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_InfinityLobbyQS
+      Object: 18B718:Starfield.esm
+      Alias: 97
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MasakoChair
+      Object: 18B718:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Prototype
+      Object: 18B718:Starfield.esm
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DisplayScreen
+      Object: 18B718:Starfield.esm
+      Alias: 67
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI07_1430_Aelys_GreetingScene
+      Object: 159C49:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 1
+  - Stage: 1480
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0001_Item_00
-  - Stage: 2
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0002_Item_00
-  - Stage: 3
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0003_Item_00
-  - Stage: 4
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0004_Item_00
-  - Stage: 5
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0005_Item_00
-  - Stage: 6
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0006_Item_00
-  - Stage: 7
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0007_Item_00
-  - Stage: 8
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0008_Item_00
-  - Stage: 9
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0009_Item_00
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0010_Item_00
-  - Stage: 11
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0011_Item_00
-  - Stage: 12
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0012_Item_00
-  - Stage: 13
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0013_Item_00
-  - Stage: 14
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0014_Item_00
-  - Stage: 15
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0015_Item_00
-  - Stage: 16
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0016_Item_00
-  - Stage: 17
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0017_Item_00
-  - Stage: 18
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0018_Item_00
-  - Stage: 19
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0019_Item_00
-  - Stage: 20
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0020_Item_00
-  - Stage: 21
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0021_Item_00
-  - Stage: 22
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0022_Item_00
-  - Stage: 23
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0023_Item_00
-  - Stage: 24
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0024_Item_00
-  - Stage: 25
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0025_Item_00
-  - Stage: 26
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0026_Item_00
-  - Stage: 27
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0027_Item_00
-  - Stage: 28
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0028_Item_00
-  - Stage: 29
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0029_Item_00
-  - Stage: 30
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0030_Item_00
-  - Stage: 31
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0031_Item_00
-  - Stage: 100
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0100_Item_00
-  - Stage: 110
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0110_Item_00
-  - Stage: 150
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0150_Item_00
-  - Stage: 200
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0200_Item_00
-  - Stage: 205
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0205_Item_00
-  - Stage: 210
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0210_Item_00
-  - Stage: 300
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0300_Item_00
-  - Stage: 350
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0350_Item_00
-  - Stage: 360
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0360_Item_00
-  - Stage: 370
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0370_Item_00
-  - Stage: 400
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0400_Item_00
-  - Stage: 500
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0500_Item_00
-  - Stage: 510
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0510_Item_00
-  - Stage: 600
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0600_Item_00
-  - Stage: 700
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0700_Item_00
-  - Stage: 705
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0705_Item_00
-  - Stage: 710
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0710_Item_00
-  - Stage: 720
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0720_Item_00
-  - Stage: 750
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0750_Item_00
-  - Stage: 800
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0800_Item_00
-  - Stage: 850
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0850_Item_00
-  - Stage: 900
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0900_Item_00
-  - Stage: 910
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0910_Item_00
-  - Stage: 999
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_0999_Item_00
-  - Stage: 1000
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1000_Item_00
-  - Stage: 1100
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1100_Item_00
-  - Stage: 1110
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1110_Item_00
-  - Stage: 1115
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1115_Item_00
-  - Stage: 1150
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1150_Item_00
-  - Stage: 1155
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1155_Item_00
+    FragmentName: Fragment_Stage_1480_Item_00
   - Stage: 1160
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
     FragmentName: Fragment_Stage_1160_Item_00
-  - Stage: 1170
+  - Stage: 1510
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1170_Item_00
-  - Stage: 1180
+    FragmentName: Fragment_Stage_1510_Item_00
+  - Stage: 25
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1180_Item_00
-  - Stage: 1185
+    FragmentName: Fragment_Stage_0025_Item_00
+  - Stage: 370
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1185_Item_00
-  - Stage: 1200
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1200_Item_00
-  - Stage: 1250
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1250_Item_00
+    FragmentName: Fragment_Stage_0370_Item_00
   - Stage: 1300
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
     FragmentName: Fragment_Stage_1300_Item_00
-  - Stage: 1305
+  - Stage: 1492
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1305_Item_00
-  - Stage: 1310
+    FragmentName: Fragment_Stage_1492_Item_00
+  - Stage: 28
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1310_Item_00
-  - Stage: 1350
+    FragmentName: Fragment_Stage_0028_Item_00
+  - Stage: 1530
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1350_Item_00
-  - Stage: 1360
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1360_Item_00
-  - Stage: 1370
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1370_Item_00
-  - Stage: 1400
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1400_Item_00
-  - Stage: 1410
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1410_Item_00
-  - Stage: 1415
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1415_Item_00
-  - Stage: 1420
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1420_Item_00
+    FragmentName: Fragment_Stage_1530_Item_00
   - Stage: 1425
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
     FragmentName: Fragment_Stage_1425_Item_00
-  - Stage: 1430
+  - Stage: 110
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1430_Item_00
-  - Stage: 1431
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 5
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1431_Item_00
-  - Stage: 1432
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 1799
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1432_Item_00
+    FragmentName: Fragment_Stage_1799_Item_00
+  - Stage: 1900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1900_Item_00
+  - Stage: 1850
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1850_Item_00
+  - Stage: 22
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0022_Item_00
+  - Stage: 1200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1200_Item_00
+  - Stage: 1310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1310_Item_00
   - Stage: 1435
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
     FragmentName: Fragment_Stage_1435_Item_00
-  - Stage: 1440
+  - Stage: 100
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1440_Item_00
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 1699
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1699_Item_00
+  - Stage: 1410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1410_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 750
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0750_Item_00
+  - Stage: 1415
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1415_Item_00
+  - Stage: 1800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1800_Item_00
+  - Stage: 19
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0019_Item_00
+  - Stage: 1499
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1499_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 1115
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1115_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 1600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1600_Item_00
+  - Stage: 1430
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1430_Item_00
+  - Stage: 1400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1400_Item_00
+  - Stage: 27
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0027_Item_00
+  - Stage: 1110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1110_Item_00
+  - Stage: 1650
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1650_Item_00
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0350_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 1185
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1185_Item_00
+  - Stage: 1180
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1180_Item_00
+  - Stage: 1555
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1555_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 1500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1500_Item_00
+  - Stage: 205
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0205_Item_00
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0013_Item_00
+  - Stage: 1700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1700_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 1472
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1472_Item_00
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0008_Item_00
+  - Stage: 1750
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1750_Item_00
+  - Stage: 17
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0017_Item_00
+  - Stage: 1305
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1305_Item_00
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0011_Item_00
+  - Stage: 1475
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1475_Item_00
+  - Stage: 1155
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1155_Item_00
+  - Stage: 1350
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1350_Item_00
+  - Stage: 705
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0705_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 18
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0018_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 23
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0023_Item_00
+  - Stage: 1370
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1370_Item_00
+  - Stage: 14
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0014_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 1493
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1493_Item_00
+  - Stage: 29
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0029_Item_00
+  - Stage: 1360
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1360_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 910
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0910_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 1100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1100_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 1420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1420_Item_00
+  - Stage: 1250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1250_Item_00
+  - Stage: 850
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0850_Item_00
+  - Stage: 1150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1150_Item_00
+  - Stage: 1550
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1550_Item_00
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0009_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 16
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0016_Item_00
+  - Stage: 1432
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1432_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0510_Item_00
+  - Stage: 21
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0021_Item_00
+  - Stage: 710
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0710_Item_00
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 1560
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1560_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 31
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0031_Item_00
+  - Stage: 1495
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1495_Item_00
+  - Stage: 999
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0999_Item_00
+  - Stage: 360
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0360_Item_00
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0006_Item_00
+  - Stage: 1540
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1540_Item_00
+  - Stage: 24
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0024_Item_00
   - Stage: 1441
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
@@ -909,10 +982,22 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
     FragmentName: Fragment_Stage_1445_Item_00
-  - Stage: 1446
+  - Stage: 1620
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1446_Item_00
+    FragmentName: Fragment_Stage_1620_Item_00
+  - Stage: 1440
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1440_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 1595
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1595_Item_00
   - Stage: 1447
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
@@ -921,134 +1006,50 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
     FragmentName: Fragment_Stage_1448_Item_00
-  - Stage: 1450
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1450_Item_00
-  - Stage: 1460
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1460_Item_00
   - Stage: 1470
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
     FragmentName: Fragment_Stage_1470_Item_00
+  - Stage: 1170
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1170_Item_00
+  - Stage: 1460
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1460_Item_00
+  - Stage: 1450
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1450_Item_00
+  - Stage: 1431
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_1431_Item_00
+  - Stage: 720
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RI07_0018B718
+    FragmentName: Fragment_Stage_0720_Item_00
   - Stage: 1471
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
     FragmentName: Fragment_Stage_1471_Item_00
-  - Stage: 1472
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1472_Item_00
-  - Stage: 1475
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1475_Item_00
-  - Stage: 1480
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1480_Item_00
   - Stage: 1490
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
     FragmentName: Fragment_Stage_1490_Item_00
-  - Stage: 1492
+  - Stage: 10000
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1492_Item_00
-  - Stage: 1493
+    FragmentName: Fragment_Stage_10000_Item_00
+  - Stage: 26
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1493_Item_00
-  - Stage: 1495
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1495_Item_00
-  - Stage: 1499
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1499_Item_00
-  - Stage: 1500
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1500_Item_00
-  - Stage: 1510
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1510_Item_00
-  - Stage: 1530
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1530_Item_00
-  - Stage: 1540
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1540_Item_00
-  - Stage: 1550
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1550_Item_00
-  - Stage: 1555
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1555_Item_00
-  - Stage: 1560
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1560_Item_00
-  - Stage: 1595
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1595_Item_00
-  - Stage: 1600
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1600_Item_00
-  - Stage: 1620
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1620_Item_00
-  - Stage: 1650
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1650_Item_00
-  - Stage: 1699
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1699_Item_00
-  - Stage: 1700
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1700_Item_00
-  - Stage: 1750
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1750_Item_00
+    FragmentName: Fragment_Stage_0026_Item_00
   - Stage: 1755
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
     FragmentName: Fragment_Stage_1755_Item_00
-  - Stage: 1799
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1799_Item_00
-  - Stage: 1800
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1800_Item_00
-  - Stage: 1850
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1850_Item_00
-  - Stage: 1900
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_1900_Item_00
-  - Stage: 2000
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_2000_Item_00
   - Stage: 2100
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
@@ -1057,11 +1058,82 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
     FragmentName: Fragment_Stage_9000_Item_00
-  - Stage: 10000
+  - Stage: 1446
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI07_0018B718
-    FragmentName: Fragment_Stage_10000_Item_00
+    FragmentName: Fragment_Stage_1446_Item_00
   Aliases:
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 74
+    Scripts:
+    - Name: DefaultAliasOnItemAddedScriptA
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: itemFilter
+        Object: 15DF42:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1755
+    - Name: DefaultAliasOnItemAddedScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: itemFilter
+        Object: 18B5F6:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1799
+    - Name: RI_CrimeTrackingPlayerAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: iPreReqTrackingStage
+        Data: 1400
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI_BountyTrackingPerk
+        Object: 2AEE3B:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStartTrackingStage
+        Data: 1499
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStopTrackingStage
+        Data: 2000
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RadiantLocation
+        Object: 18B718:Starfield.esm
+        Alias: 37
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeHuman
+        Object: 25E194:Starfield.esm
+    - Name: RI07_PlayerAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CityNewAtlantisLocation
+        Object: 01295A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LC051InfinityLTDPEnemyFaction
+        Object: 3899C5:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: DavidDoneStage
+        Data: 1900
+      - MutagenObjectType: ScriptIntProperty
+        Name: DavidStartStage
+        Data: 1800
+      - MutagenObjectType: ScriptObjectProperty
+        Name: David
+        Object: 18B718:Starfield.esm
+        Alias: 41
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Prototype
+        Object: 18B718:Starfield.esm
+        Alias: 40
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RDEngineers
+        Object: 18B718:Starfield.esm
+        Alias: 138
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI07_Prototype
+        Object: 18B5F6:Starfield.esm
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
@@ -1084,6 +1156,26 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
+      Alias: 106
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1555
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 126
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1650
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
       Alias: 20
     Scripts:
     - Name: DefaultAliasOnTriggerEnter
@@ -1101,36 +1193,64 @@ VirtualMachineAdapter:
     Scripts:
     - Name: RI07_PlayerChairsAliasScript
       Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: iPreReqStage01
-        Data: 300
-      - MutagenObjectType: ScriptIntProperty
-        Name: iPreReqStage03
-        Data: 300
-      - MutagenObjectType: ScriptIntProperty
-        Name: iStageToSet01
-        Data: 350
-      - MutagenObjectType: ScriptIntProperty
-        Name: iStageToSet03
-        Data: 370
-      - MutagenObjectType: ScriptIntProperty
-        Name: iStartSceneStage
-        Data: 400
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RI05_Track_PlayerSidedWithMasako
-        Object: 18B5E9:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: RI05_Track_PlayerSidedWithUlaru
         Object: 18B5EA:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: RI05_UlaruDead
-        Object: 19B08A:Starfield.esm
+        Name: RI07_0400_Dalton_ConferenceRoomBScene
+        Object: 1592EF:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStageToSet01
+        Data: 350
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI05_Track_PlayerSidedWithMasako
+        Object: 18B5E9:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStageToSet03
+        Data: 370
+      - MutagenObjectType: ScriptIntProperty
+        Name: iPreReqStage03
+        Data: 300
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStartSceneStage
+        Data: 400
       - MutagenObjectType: ScriptObjectProperty
         Name: RI07_0400_Dalton_ConferenceRoomACScene
         Object: 18B617:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: iPreReqStage01
+        Data: 300
       - MutagenObjectType: ScriptObjectProperty
-        Name: RI07_0400_Dalton_ConferenceRoomBScene
-        Object: 1592EF:Starfield.esm
+        Name: RI05_UlaruDead
+        Object: 19B08A:Starfield.esm
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 58
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 850
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 900
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 44
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 500
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 510
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
@@ -1153,62 +1273,19 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
-      Alias: 36
+      Alias: 134
     Scripts:
-    - Name: DefaultAliasOnMenuItemRun
-      Properties:
-      - MutagenObjectType: ScriptStructListProperty
-        Name: MenuItemData
-        Structs:
-        - Members:
-          - MutagenObjectType: ScriptIntProperty
-            Name: itemID
-            Data: 1
-          - MutagenObjectType: ScriptIntProperty
-            Name: PrereqStage
-            Data: 1499
-          - MutagenObjectType: ScriptIntProperty
-            Name: StageToSet
-            Data: 1550
-          - MutagenObjectType: ScriptObjectProperty
-            Name: TargetTerminalMenu
-            Object: 18B601:Starfield.esm
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 38
-    Scripts:
-    - Name: DefaultAliasOnMenuItemRun
-      Properties:
-      - MutagenObjectType: ScriptStructListProperty
-        Name: MenuItemData
-        Structs:
-        - Members:
-          - MutagenObjectType: ScriptIntProperty
-            Name: itemID
-            Data: 1
-          - MutagenObjectType: ScriptIntProperty
-            Name: PrereqStage
-            Data: 1499
-          - MutagenObjectType: ScriptIntProperty
-            Name: StageToSet
-            Data: 1699
-          - MutagenObjectType: ScriptObjectProperty
-            Name: TargetTerminalMenu
-            Object: 18B600:Starfield.esm
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 44
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
+    - Name: RI07_OperatingTableAliasScript
       Properties:
       - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 500
+        Name: iPrereqStage
+        Data: 700
       - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 510
+        Name: iTurnOffStage
+        Data: 800
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStageToSet
+        Data: 710
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
@@ -1227,7 +1304,7 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
-      Alias: 58
+      Alias: 68
     Scripts:
     - Name: DefaultAliasOnTriggerEnter
       Properties:
@@ -1235,10 +1312,40 @@ VirtualMachineAdapter:
         Name: DeleteWhenTriggeredSuccessfully
       - MutagenObjectType: ScriptIntProperty
         Name: PrereqStage
-        Data: 850
+        Data: 900
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
+        Data: 910
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 69
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
         Data: 900
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 910
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 139
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: DeleteWhenTriggeredSuccessfully
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 900
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 910
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
@@ -1257,7 +1364,7 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
-      Alias: 61
+      Alias: 62
     Scripts:
     - Name: DefaultAliasOnTriggerEnter
       Properties:
@@ -1272,7 +1379,7 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
-      Alias: 62
+      Alias: 61
     Scripts:
     - Name: DefaultAliasOnTriggerEnter
       Properties:
@@ -1317,7 +1424,7 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
-      Alias: 68
+      Alias: 125
     Scripts:
     - Name: DefaultAliasOnTriggerEnter
       Properties:
@@ -1329,102 +1436,6 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 910
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 69
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: DeleteWhenTriggeredSuccessfully
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 900
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 910
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 73
-    Scripts:
-    - Name: defaultaliasonopen
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1473
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 74
-    Scripts:
-    - Name: DefaultAliasOnItemAddedScript
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: itemFilter
-        Object: 18B5F6:Starfield.esm
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1799
-    - Name: DefaultAliasOnItemAddedScriptA
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: itemFilter
-        Object: 15DF42:Starfield.esm
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1755
-    - Name: RI07_PlayerAliasScript
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CityNewAtlantisLocation
-        Object: 01295A:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: David
-        Object: 18B718:Starfield.esm
-        Alias: 41
-      - MutagenObjectType: ScriptIntProperty
-        Name: DavidDoneStage
-        Data: 1900
-      - MutagenObjectType: ScriptIntProperty
-        Name: DavidStartStage
-        Data: 1800
-      - MutagenObjectType: ScriptObjectProperty
-        Name: LC051InfinityLTDPEnemyFaction
-        Object: 3899C5:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Prototype
-        Object: 18B718:Starfield.esm
-        Alias: 40
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RDEngineers
-        Object: 18B718:Starfield.esm
-        Alias: 138
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RI07_Prototype
-        Object: 18B5F6:Starfield.esm
-    - Name: RI_CrimeTrackingPlayerAliasScript
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: ActorTypeHuman
-        Object: 25E194:Starfield.esm
-      - MutagenObjectType: ScriptIntProperty
-        Name: iPreReqTrackingStage
-        Data: 1400
-      - MutagenObjectType: ScriptIntProperty
-        Name: iStartTrackingStage
-        Data: 1499
-      - MutagenObjectType: ScriptIntProperty
-        Name: iStopTrackingStage
-        Data: 2000
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RadiantLocation
-        Object: 18B718:Starfield.esm
-        Alias: 37
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RI_BountyTrackingPerk
-        Object: 2AEE3B:Starfield.esm
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
@@ -1457,6 +1468,77 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
+      Alias: 142
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1400
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1490
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1494
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 145
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1493
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1495
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 143
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1492
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 144
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1495
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 85
+    Scripts:
+    - Name: DefaultAliasOnMenuItemRun
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: MenuItemData
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: ItemID
+            Data: 1
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetTerminalMenu
+            Object: 15DF3D:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 1460
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
       Alias: 84
     Scripts:
     - Name: RI07_MarketingTriggerAliasScript
@@ -1476,7 +1558,17 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
-      Alias: 85
+      Alias: 91
+    Scripts:
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1440
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 92
     Scripts:
     - Name: DefaultAliasOnMenuItemRun
       Properties:
@@ -1485,14 +1577,169 @@ VirtualMachineAdapter:
         Structs:
         - Members:
           - MutagenObjectType: ScriptIntProperty
-            Name: itemID
+            Name: ItemID
             Data: 1
           - MutagenObjectType: ScriptIntProperty
-            Name: StageToSet
-            Data: 1460
+            Name: PrereqStage
+            Data: 1499
           - MutagenObjectType: ScriptObjectProperty
             Name: TargetTerminalMenu
-            Object: 15DF3D:Starfield.esm
+            Object: 18B601:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 1599
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 95
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: AliasesToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 18B718:Starfield.esm
+          Alias: 90
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1445
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 113
+    Scripts:
+    - Name: DefaultAliasOnTriggerLeave
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1431
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1432
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1440
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 112
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 1446
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1447
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 1444
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 36
+    Scripts:
+    - Name: DefaultAliasOnMenuItemRun
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: MenuItemData
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: ItemID
+            Data: 1
+          - MutagenObjectType: ScriptIntProperty
+            Name: PrereqStage
+            Data: 1499
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetTerminalMenu
+            Object: 18B601:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 1550
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 132
+    Scripts:
+    - Name: DefaultAliasOnMenuItemRun
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: MenuItemData
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: ItemID
+            Data: 1
+          - MutagenObjectType: ScriptIntProperty
+            Name: PrereqStage
+            Data: 1499
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetTerminalMenu
+            Object: 18B601:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 1550
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 133
+    Scripts:
+    - Name: DefaultAliasOnMenuItemRun
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: MenuItemData
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: ItemID
+            Data: 1
+          - MutagenObjectType: ScriptIntProperty
+            Name: PrereqStage
+            Data: 1499
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetTerminalMenu
+            Object: 18B601:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 1550
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 38
+    Scripts:
+    - Name: DefaultAliasOnMenuItemRun
+      Properties:
+      - MutagenObjectType: ScriptStructListProperty
+        Name: MenuItemData
+        Structs:
+        - Members:
+          - MutagenObjectType: ScriptIntProperty
+            Name: ItemID
+            Data: 1
+          - MutagenObjectType: ScriptIntProperty
+            Name: PrereqStage
+            Data: 1499
+          - MutagenObjectType: ScriptObjectProperty
+            Name: TargetTerminalMenu
+            Object: 18B600:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 1699
+  - Property:
+      Name: ''
+      Object: 18B718:Starfield.esm
+      Alias: 73
+    Scripts:
+    - Name: defaultaliasonopen
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1473
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
@@ -1517,54 +1764,29 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
-      Alias: 91
+      Alias: 117
     Scripts:
-    - Name: DefaultAliasOnActivate
+    - Name: RI07_IDCardReadersScript
       Properties:
       - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1440
+        Name: iPrereqStage
+        Data: 1700
+      - MutagenObjectType: ScriptIntProperty
+        Name: iStageToSet
+        Data: 1750
+      - MutagenObjectType: ScriptIntProperty
+        Name: iTurnOffStage
+        Data: 1755
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
-      Alias: 92
+      Alias: 118
     Scripts:
-    - Name: DefaultAliasOnMenuItemRun
+    - Name: DefaultAliasOnContainerChangedTo
       Properties:
-      - MutagenObjectType: ScriptStructListProperty
-        Name: MenuItemData
-        Structs:
-        - Members:
-          - MutagenObjectType: ScriptIntProperty
-            Name: itemID
-            Data: 1
-          - MutagenObjectType: ScriptIntProperty
-            Name: PrereqStage
-            Data: 1499
-          - MutagenObjectType: ScriptIntProperty
-            Name: StageToSet
-            Data: 1599
-          - MutagenObjectType: ScriptObjectProperty
-            Name: TargetTerminalMenu
-            Object: 18B601:Starfield.esm
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 95
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptObjectListProperty
-        Name: AliasesToCheckAgainst
-        Objects:
-        - Name: ''
-          Object: 18B718:Starfield.esm
-          Alias: 90
-      - MutagenObjectType: ScriptBoolProperty
-        Name: PlayerOnly
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
-        Data: 1445
+        Data: 1620
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
@@ -1598,16 +1820,6 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 18B718:Starfield.esm
-      Alias: 106
-    Scripts:
-    - Name: DefaultAliasOnDeath
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1555
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
       Alias: 108
     Scripts:
     - Name: DefaultAliasOnTriggerEnter
@@ -1618,217 +1830,6 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 1411
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 112
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 1446
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1447
-      - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStageDone
-        Data: 1444
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 113
-    Scripts:
-    - Name: DefaultAliasOnTriggerLeave
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 1431
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1432
-      - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStageDone
-        Data: 1440
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 117
-    Scripts:
-    - Name: RI07_IDCardReadersScript
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: iPrereqStage
-        Data: 1700
-      - MutagenObjectType: ScriptIntProperty
-        Name: iStageToSet
-        Data: 1750
-      - MutagenObjectType: ScriptIntProperty
-        Name: iTurnOffStage
-        Data: 1755
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 118
-    Scripts:
-    - Name: DefaultAliasOnContainerChangedTo
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1620
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 125
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: DeleteWhenTriggeredSuccessfully
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 900
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 910
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 126
-    Scripts:
-    - Name: DefaultAliasOnDeath
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1650
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 132
-    Scripts:
-    - Name: DefaultAliasOnMenuItemRun
-      Properties:
-      - MutagenObjectType: ScriptStructListProperty
-        Name: MenuItemData
-        Structs:
-        - Members:
-          - MutagenObjectType: ScriptIntProperty
-            Name: itemID
-            Data: 1
-          - MutagenObjectType: ScriptIntProperty
-            Name: PrereqStage
-            Data: 1499
-          - MutagenObjectType: ScriptIntProperty
-            Name: StageToSet
-            Data: 1550
-          - MutagenObjectType: ScriptObjectProperty
-            Name: TargetTerminalMenu
-            Object: 18B601:Starfield.esm
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 133
-    Scripts:
-    - Name: DefaultAliasOnMenuItemRun
-      Properties:
-      - MutagenObjectType: ScriptStructListProperty
-        Name: MenuItemData
-        Structs:
-        - Members:
-          - MutagenObjectType: ScriptIntProperty
-            Name: itemID
-            Data: 1
-          - MutagenObjectType: ScriptIntProperty
-            Name: PrereqStage
-            Data: 1499
-          - MutagenObjectType: ScriptIntProperty
-            Name: StageToSet
-            Data: 1550
-          - MutagenObjectType: ScriptObjectProperty
-            Name: TargetTerminalMenu
-            Object: 18B601:Starfield.esm
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 134
-    Scripts:
-    - Name: RI07_OperatingTableAliasScript
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: iPrereqStage
-        Data: 700
-      - MutagenObjectType: ScriptIntProperty
-        Name: iTurnOffStage
-        Data: 800
-      - MutagenObjectType: ScriptIntProperty
-        Name: iStageToSet
-        Data: 710
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 139
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: DeleteWhenTriggeredSuccessfully
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 900
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 910
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 142
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 1400
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1490
-      - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStageDone
-        Data: 1494
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 143
-    Scripts:
-    - Name: DefaultAliasOnActivate
-      Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: PlayerOnly
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1492
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 144
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1495
-  - Property:
-      Name: ''
-      Object: 18B718:Starfield.esm
-      Alias: 145
-    Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1493
-      - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStageDone
-        Data: 1495
 Name:
   TargetLanguage: English
   Values:
@@ -5957,7 +5958,7 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0x1C3AA2
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD3:Starfield.esm
@@ -7338,7 +7339,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 19
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - StoresText
@@ -8412,3 +8413,4 @@ Aliases:
     AliasID: 80
     RefType: 310ABD:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

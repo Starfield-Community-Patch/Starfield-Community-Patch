@@ -1,5 +1,6 @@
 FormKey: 000804:StarfieldCommunityPatch.esm
 EditorID: Chameleon_Effect_NoVisual
+FormVersion: 559
 Name:
   TargetLanguage: English
   Values:
@@ -34,6 +35,7 @@ Flags:
 - FXPersist
 - HideInUI
 Unknown: 0x00000000000000000000000000000000000000000000
+Unknown2: '[]'
 Description:
   TargetLanguage: English
   Values:
@@ -55,3 +57,5 @@ Description:
     String: Praticamente invisível quando não se move ou quando se esgueira.
   - Language: ChineseSimplified
     String: 潜行和静止时几乎隐形。
+DATADataTypeState:
+- Break0

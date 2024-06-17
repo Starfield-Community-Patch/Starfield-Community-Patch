@@ -1,0 +1,46 @@
+FormKey: 3650B6:Starfield.esm
+FormVersion: 559
+Flags:
+  Flags:
+  - Random
+DialogGroup: 3650B1:Starfield.esm
+Responses:
+- Emotion: None
+  WEMFile: 14490950
+  Text:
+    TargetLanguage: English
+    Values:
+    - Language: German
+      String: Sie scheinen dehydriert. Ich empfehle die sofortige Einnahme einer mäßigen Menge Wasser.
+    - Language: English
+      String: You appear dehydrated. I suggest the immediate ingestion of a moderate quantity of water.
+    - Language: Spanish
+      String: Parece que sufre deshidratación. Sugiero la ingesta inmediata de una cantidad moderada de agua.
+    - Language: French
+      String: Vous souffrez de déshydratation. Je suggère l'absorption immédiate d'une quantité modérée d'eau.
+    - Language: Italian
+      String: Sei in stato di disidratazione. Suggerisco l’immediata ingestione di una moderata quantità d’acqua.
+    - Language: Japanese
+      String: どうやらあなたは脱水状態です。適量の水を今すぐ摂取することをおすすめします
+    - Language: Polish
+      String: Widać po tobie odwodnienie. Zalecam natychmiastowe spożycie umiarkowanej ilości wody.
+    - Language: Portuguese_Brazil
+      String: Você apresenta sinais de desidratação. Sugiro a ingestão imediata de uma quantidade moderada de água.
+    - Language: ChineseSimplified
+      String: 你处于脱水状态。建议立即摄入适量水分。
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x90FC309DBC4AD801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 16493
+  Data:
+    MutagenObjectType: HasMagicEffectOrSpellKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 3132AE:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

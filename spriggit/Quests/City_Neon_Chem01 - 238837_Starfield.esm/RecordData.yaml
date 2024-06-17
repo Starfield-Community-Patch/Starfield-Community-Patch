@@ -1,5 +1,6 @@
 FormKey: 238837:Starfield.esm
 EditorID: City_Neon_Chem01
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -41,55 +42,46 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_City_Neon_Drug01_00238837
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NesharStart
-      Object: 238837:Starfield.esm
-      Alias: 11
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_XenofreshFisheriesDoor
-      Object: 238837:Starfield.esm
-      Alias: 20
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Neon_EvictedSleepcrate_Global
-      Object: 0246D3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Drug02_AmpResearch
-      Object: 238226:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BadGuys
-      Object: 238837:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Yannick
       Object: 238837:Starfield.esm
       Alias: 2
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Neshar
+      Name: Alias_Felix
       Object: 238837:Starfield.esm
-      Alias: 0
+      Alias: 1
     - MutagenObjectType: ScriptObjectProperty
-      Name: Drug01_NesharDoorRef
-      Object: 11FB4D:Starfield.esm
+      Name: Drug02_AmpResearch
+      Object: 238226:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_C153Container
-      Object: 238837:Starfield.esm
-      Alias: 7
+      Name: Neon_EvictedSleepcrate_Global
+      Object: 0246D3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Credits
       Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Drug01_550_SyndicateGreeting
+      Object: 12C5F9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimArchetypeDepressed
+      Object: 03D292:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Drug01_NesharDoorRef
+      Object: 11FB4D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_XenofreshGuard00
       Object: 238837:Starfield.esm
       Alias: 18
     - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueFCNeon
-      Object: 22DAD6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Felix
+      Name: Alias_BadGuys
       Object: 238837:Starfield.esm
-      Alias: 1
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NesharStart
+      Object: 238837:Starfield.esm
+      Alias: 11
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_NesharsPackage
       Object: 238837:Starfield.esm
@@ -99,15 +91,19 @@ VirtualMachineAdapter:
       Object: 238837:Starfield.esm
       Alias: 21
     - MutagenObjectType: ScriptObjectProperty
+      Name: Neon_Drug01_Package
+      Object: 2387A4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueFCNeon
+      Object: 22DAD6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Neshar
+      Object: 238837:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_XenofreshGuard_NoTrespass
       Object: 238837:Starfield.esm
       Alias: 19
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Neon_Drug01_NesharCrateDoor
-      Object: 0443D5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Neon_Drug01_Package
-      Object: 2387A4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_XenofreshGuard01
       Object: 238837:Starfield.esm
@@ -119,15 +115,20 @@ VirtualMachineAdapter:
       Name: SleepcrateMinigameQuest
       Object: 0246D2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_C153Container
+      Object: 238837:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_C203Container
       Object: 238837:Starfield.esm
       Alias: 12
     - MutagenObjectType: ScriptObjectProperty
-      Name: Drug01_550_SyndicateGreeting
-      Object: 12C5F9:Starfield.esm
+      Name: Neon_Drug01_NesharCrateDoor
+      Object: 0443D5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: AnimArchetypeDepressed
-      Object: 03D292:Starfield.esm
+      Name: Alias_XenofreshFisheriesDoor
+      Object: 238837:Starfield.esm
+      Alias: 20
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_Neon_Drug01_00238837
@@ -1022,7 +1023,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 9
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -1104,3 +1105,4 @@ Aliases:
   ALFG: 0
   ForcedReference: 11FB4D:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

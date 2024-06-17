@@ -3,36 +3,6 @@ EditorID: FFNewAtlantis06
 FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
-  - Name: DefaultFollowerToggleQuestScript
-    Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FollowConditions
-      Object: 02712C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PotentialFollower
-      Object: 089F4E:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: StopFollowConditions
-      Object: 02712C:Starfield.esm
-    - MutagenObjectType: ScriptObjectListProperty
-      Name: Triggering_LocationAliases
-      Objects:
-      - Name: ''
-        Object: 089F4E:Starfield.esm
-        Alias: 19
-      - Name: ''
-        Object: 089F4E:Starfield.esm
-        Alias: 18
-    - MutagenObjectType: ScriptIntListProperty
-      Name: Triggering_Stages
-      Data:
-      - 40
-      - 80
-      - 89
   - Name: defaultquestchangelocationscript
     Properties:
     - MutagenObjectType: ScriptStructListProperty
@@ -51,49 +21,64 @@ VirtualMachineAdapter:
           Name: TurnOffStage
           Data: 10
       - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01295A:Starfield.esm
         - MutagenObjectType: ScriptIntProperty
           Name: PrereqStage
           Data: 100
         - MutagenObjectType: ScriptIntProperty
           Name: StageToSet
           Data: 200
-        - MutagenObjectType: ScriptObjectProperty
-          Name: TargetLocation
-          Object: 01295A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_PlayerShip
       Object: 0174A2:Starfield.esm
+  - Name: DefaultFollowerToggleQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FollowConditions
+      Object: 02712C:Starfield.esm
+    - MutagenObjectType: ScriptIntListProperty
+      Name: Triggering_Stages
+      Data:
+      - 40
+      - 80
+      - 89
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialFollower
+      Object: 089F4E:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StopFollowConditions
+      Object: 02712C:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Triggering_LocationAliases
+      Objects:
+      - Name: ''
+        Object: 089F4E:Starfield.esm
+        Alias: 19
+      - Name: ''
+        Object: 089F4E:Starfield.esm
+        Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Book
-      Object: 089F4E:Starfield.esm
-      Alias: 8
+      Name: FFNewAtlantis06_TL_Mark_Stage80
+      Object: 088A23:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Chair
-      Object: 089F4E:Starfield.esm
-      Alias: 9
+      Name: UC_NA_DonnaRain
+      Object: 113905:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FunctionaryEndMarker
+      Name: Alias_TahirVala
       Object: 089F4E:Starfield.esm
-      Alias: 22
+      Alias: 10
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MarkannenMarker
-      Object: 089F4E:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Markkanen
-      Object: 089F4E:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MASTMarker
-      Object: 089F4E:Starfield.esm
-      Alias: 4
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NATenableMarker
-      Object: 089F4E:Starfield.esm
-      Alias: 5
+      Name: FFNewAtlantis06Faction
+      Object: 088B6D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_OfficerSweep
       Object: 089F4E:Starfield.esm
@@ -103,9 +88,23 @@ VirtualMachineAdapter:
       Object: 089F4E:Starfield.esm
       Alias: 14
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PrisonDoor
+      Name: FFNewAtlantis02Misc
+      Object: 042C70:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book
       Object: 089F4E:Starfield.esm
-      Alias: 21
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis06_StartingScene01
+      Object: 088D43:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FunctionaryEndMarker
+      Object: 089F4E:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MarkannenMarker
+      Object: 089F4E:Starfield.esm
+      Alias: 23
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PrisonFunctionary
       Object: 089F4E:Starfield.esm
@@ -115,13 +114,21 @@ VirtualMachineAdapter:
       Object: 089F4E:Starfield.esm
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Markkanen
+      Object: 089F4E:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vandal
+      Object: 089F4E:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SuspectArrested
       Object: 089F4E:Starfield.esm
       Alias: 15
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TahirVala
+      Name: Alias_NATenableMarker
       Object: 089F4E:Starfield.esm
-      Alias: 10
+      Alias: 5
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Terminal
       Object: 089F4E:Starfield.esm
@@ -131,27 +138,32 @@ VirtualMachineAdapter:
       Object: 089F4E:Starfield.esm
       Alias: 7
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Vandal
-      Object: 089F4E:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
       Name: City_NewAtlantis_Z_TheKindnessOfStrangers
       Object: 09BD47:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNewAtlantis02
       Object: 24C46C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis02Misc
-      Object: 042C70:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis06Faction
-      Object: 088B6D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: FFNewAtlantis06_080_TL_Mark_Stage80
       Object: 088A23:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MASTMarker
+      Object: 089F4E:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chair
+      Object: 089F4E:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
       Name: FFNewAtlantis06_085_SC_TahirValaNoCameraEND
       Object: 088A22:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis06_TL_Mark_Stage60
+      Object: 088B66:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PrisonDoor
+      Object: 089F4E:Starfield.esm
+      Alias: 21
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNewAtlantis06_Greet_TahirValaNoCamera
       Object: 088A24:Starfield.esm
@@ -159,43 +171,15 @@ VirtualMachineAdapter:
       Name: FFNewAtlantis06_SpeechChallengeQuest
       Object: 088B26:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis06_StartingScene01
-      Object: 088D43:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: FFNewAtlantis06_TL_Functionary_Greet
       Object: 088B6A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis06_TL_Mark_Stage60
-      Object: 088B66:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis06_TL_Mark_Stage80
-      Object: 088A23:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Followers
       Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_NA_DonnaRain
-      Object: 113905:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 3
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0003_Item_00
-  - Stage: 4
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0004_Item_00
-  - Stage: 8
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0008_Item_00
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0010_Item_00
   - Stage: 11
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
@@ -204,74 +188,90 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
     FragmentName: Fragment_Stage_0020_Item_00
-  - Stage: 40
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0040_Item_00
-  - Stage: 45
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0045_Item_00
   - Stage: 46
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
     FragmentName: Fragment_Stage_0046_Item_00
-  - Stage: 50
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0050_Item_00
-  - Stage: 60
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0060_Item_00
-  - Stage: 65
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0065_Item_00
-  - Stage: 70
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0070_Item_00
-  - Stage: 75
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0075_Item_00
   - Stage: 78
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
     FragmentName: Fragment_Stage_0078_Item_00
-  - Stage: 79
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0079_Item_00
-  - Stage: 80
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0080_Item_00
   - Stage: 85
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
     FragmentName: Fragment_Stage_0085_Item_00
-  - Stage: 88
+  - Stage: 40
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0088_Item_00
-  - Stage: 89
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0089_Item_00
-  - Stage: 95
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
-    FragmentName: Fragment_Stage_0095_Item_00
+    FragmentName: Fragment_Stage_0040_Item_00
   - Stage: 100
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
     FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0004_Item_00
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0065_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0060_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0080_Item_00
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0045_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 89
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0089_Item_00
   - Stage: 200
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
     FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 79
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0079_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0008_Item_00
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0095_Item_00
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0075_Item_00
+  - Stage: 88
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
+    FragmentName: Fragment_Stage_0088_Item_00
   Aliases:
   - Property:
       Name: ''
@@ -290,19 +290,19 @@ VirtualMachineAdapter:
     Scripts:
     - Name: defaultaliasondistancelessthan
       Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 40
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 45
       - MutagenObjectType: ScriptObjectProperty
         Name: TargetAlias
         Object: 089F4E:Starfield.esm
         Alias: 11
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 40
       - MutagenObjectType: ScriptFloatProperty
         Name: TargetDistance
         Data: 3
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 45
   - Property:
       Name: ''
       Object: 089F4E:Starfield.esm
@@ -310,19 +310,19 @@ VirtualMachineAdapter:
     Scripts:
     - Name: defaultaliasondistancelessthan
       Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 40
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 45
       - MutagenObjectType: ScriptObjectProperty
         Name: TargetAlias
         Object: 089F4E:Starfield.esm
         Alias: 11
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 40
       - MutagenObjectType: ScriptFloatProperty
         Name: TargetDistance
         Data: 9
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 45
     - Name: DefaultAliasOnMenuItemRun
       Properties:
       - MutagenObjectType: ScriptStructListProperty
@@ -335,12 +335,12 @@ VirtualMachineAdapter:
           - MutagenObjectType: ScriptIntProperty
             Name: PrereqStage
             Data: 40
-          - MutagenObjectType: ScriptIntProperty
-            Name: StageToSet
-            Data: 50
           - MutagenObjectType: ScriptObjectProperty
             Name: TargetTerminalMenu
             Object: 088B69:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 50
         - Members:
           - MutagenObjectType: ScriptIntProperty
             Name: ItemID
@@ -348,12 +348,12 @@ VirtualMachineAdapter:
           - MutagenObjectType: ScriptIntProperty
             Name: PrereqStage
             Data: 40
-          - MutagenObjectType: ScriptIntProperty
-            Name: StageToSet
-            Data: 50
           - MutagenObjectType: ScriptObjectProperty
             Name: TargetTerminalMenu
             Object: 088B69:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 50
         - Members:
           - MutagenObjectType: ScriptIntProperty
             Name: ItemID
@@ -361,12 +361,12 @@ VirtualMachineAdapter:
           - MutagenObjectType: ScriptIntProperty
             Name: PrereqStage
             Data: 40
-          - MutagenObjectType: ScriptIntProperty
-            Name: StageToSet
-            Data: 6
           - MutagenObjectType: ScriptObjectProperty
             Name: TargetTerminalMenu
             Object: 05D701:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 6
         - Members:
           - MutagenObjectType: ScriptIntProperty
             Name: ItemID
@@ -374,12 +374,12 @@ VirtualMachineAdapter:
           - MutagenObjectType: ScriptIntProperty
             Name: PrereqStage
             Data: 40
-          - MutagenObjectType: ScriptIntProperty
-            Name: StageToSet
-            Data: 5
           - MutagenObjectType: ScriptObjectProperty
             Name: TargetTerminalMenu
             Object: 05D701:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 5
         - Members:
           - MutagenObjectType: ScriptIntProperty
             Name: ItemID
@@ -387,12 +387,12 @@ VirtualMachineAdapter:
           - MutagenObjectType: ScriptIntProperty
             Name: PrereqStage
             Data: 40
-          - MutagenObjectType: ScriptIntProperty
-            Name: StageToSet
-            Data: 7
           - MutagenObjectType: ScriptObjectProperty
             Name: TargetTerminalMenu
             Object: 088B67:Starfield.esm
+          - MutagenObjectType: ScriptIntProperty
+            Name: StageToSet
+            Data: 7
   - Property:
       Name: ''
       Object: 089F4E:Starfield.esm

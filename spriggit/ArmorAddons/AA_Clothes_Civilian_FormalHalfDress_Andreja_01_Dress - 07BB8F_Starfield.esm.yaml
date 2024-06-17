@@ -1,0 +1,36 @@
+FormKey: 07BB8F:Starfield.esm
+EditorID: AA_Clothes_Civilian_FormalHalfDress_Andreja_01_Dress
+FormVersion: 559
+FirstPersonFlags: UpperBody2VisOnly
+Race: 00347D:Starfield.esm
+DNAMData: 0x00000000000000000000000000
+WorldModel:
+  Male:
+    File: Clothes\Outfit_Civilian_FormalHalfDress_01\Outfit_Civilian_FormalHalfDress_01_Dress_M.nif
+    FLLD: 0x01000000
+  Female:
+    File: Clothes\Outfit_Civilian_FormalHalfDress_01\Outfit_Civilian_FormalHalfDress_01_Dress_F.nif
+    FLLD: 0x01000000
+FirstPersonModel:
+  Male:
+    File: Clothes\Outfit_Civilian_FormalHalfDress_01\Outfit_Civilian_FormalHalfDress_01_Bodysuit_M_1st.nif
+    FLLD: 0x01000000
+  Female:
+    File: Clothes\Outfit_Civilian_FormalHalfDress_01\Outfit_Civilian_FormalHalfDress_01_Bodysuit_F_1st.nif
+    FLLD: 0x01000000
+Skeleton:
+  FLLD: 0x01000000
+UnknownModel7:
+  FLLD: 0x01000000
+Morphs:
+  Male:
+    WorldMorph: 134728:Starfield.esm
+  Female:
+    WorldMorph: 1347AC:Starfield.esm
+AdditionalRaces:
+- 034FB1:Starfield.esm
+- 1EE4DA:Starfield.esm
+TintColorMapping: ''
+TintEntryName: ''
+TintEntryValue: ''
+BoneDataModifiers: {}

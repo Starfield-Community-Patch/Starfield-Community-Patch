@@ -1,5 +1,6 @@
 FormKey: 003448:Starfield.esm
 EditorID: MQ101
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -64,6 +65,134 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_PlayerShip
       Object: 0174A2:Starfield.esm
+  - Name: mq101script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettShipSmallItemMarker03
+      Object: 003448:Starfield.esm
+      Alias: 134
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_Scene05_MarkerPlayer
+      Object: 052D2E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettShip_InteriorLocation
+      Object: 003448:Starfield.esm
+      Alias: 75
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettShip_ExteriorLocation
+      Object: 003448:Starfield.esm
+      Alias: 76
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Vasco
+      Object: 003448:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettShipSmallItemMarker01
+      Object: 003448:Starfield.esm
+      Alias: 132
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQPlayerStarbornShipREF
+      Object: 180F16:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_FastTravel_03
+      Object: 23CA33:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_SetCourse02
+      Object: 07DB10:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MineBoringMachine
+      Object: 003448:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101Debug
+      Object: 0A7D31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_LGT_B
+      Object: 1ED523:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_SetCourse01
+      Object: 07DB0E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_Inventory03
+      Object: 210A99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettShipCrewMarker
+      Object: 003448:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettShipSmallItemMarker02
+      Object: 003448:Starfield.esm
+      Alias: 133
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_Inventory02
+      Object: 210A98:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_FastTravel_02
+      Object: 23CA29:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerUnityTimesEntered
+      Object: 219529:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharGenFurniture
+      Object: 003448:Starfield.esm
+      Alias: 63
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_SetCourse03
+      Object: 07DB0F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettShipDoor
+      Object: 003448:Starfield.esm
+      Alias: 100
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_Inventory04
+      Object: 287920:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: MQ101_013A_FlightScenes
+      Objects:
+      - Name: ''
+        Object: 01E76F:Starfield.esm
+      - Name: ''
+        Object: 24E1CF:Starfield.esm
+      - Name: ''
+        Object: 24E1D1:Starfield.esm
+      - Name: ''
+        Object: 24E1D2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101VascoQuestFollower
+      Object: 11876D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BarrettShip
+      Object: 003448:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_FastTravel_01
+      Object: 23CA1A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_Inventory
+      Object: 04FC1F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101SaveOff
+      Object: 049420:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_LGT_A
+      Object: 1ED524:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettPilotChair
+      Object: 003448:Starfield.esm
+      Alias: 62
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Heller
+      Object: 003448:Starfield.esm
+      Alias: 1
   - Name: defaulttutorialquestscript
     Properties:
     - MutagenObjectType: ScriptStructListProperty
@@ -73,47 +202,47 @@ VirtualMachineAdapter:
         - MutagenObjectType: ScriptObjectProperty
           Name: TutorialMessageMouseAndKeyboardSpecific
           Object: 02B728:Starfield.esm
+        - MutagenObjectType: ScriptStringProperty
+          Name: asEvent
+          Data: Move
         - MutagenObjectType: ScriptObjectProperty
           Name: TutorialMessage
           Object: 02B724:Starfield.esm
         - MutagenObjectType: ScriptStringProperty
           Name: asUserEventToEnd
           Data: Move
-        - MutagenObjectType: ScriptStringProperty
-          Name: asEvent
-          Data: Move
       - Members:
         - MutagenObjectType: ScriptObjectProperty
           Name: TutorialMessage
           Object: 123CEB:Starfield.esm
         - MutagenObjectType: ScriptStringProperty
-          Name: asUserEventToEnd
-          Data: Flashlight
+          Name: asEvent
+          Data: Light
         - MutagenObjectType: ScriptObjectProperty
           Name: TutorialMessageMouseAndKeyboardSpecific
           Object: 02B726:Starfield.esm
         - MutagenObjectType: ScriptStringProperty
-          Name: asEvent
-          Data: Light
+          Name: asUserEventToEnd
+          Data: Flashlight
       - Members:
         - MutagenObjectType: ScriptObjectProperty
           Name: TutorialMessage
           Object: 02B727:Starfield.esm
         - MutagenObjectType: ScriptStringProperty
-          Name: asUserEventToEnd
-          Data: PrimaryAttack
-        - MutagenObjectType: ScriptStringProperty
           Name: asEvent
           Data: LaserCutter
-      - Members:
         - MutagenObjectType: ScriptStringProperty
           Name: asUserEventToEnd
-          Data: TogglePOV
+          Data: PrimaryAttack
+      - Members:
         - MutagenObjectType: ScriptObjectProperty
           Name: TutorialMessage
           Object: 02B729:Starfield.esm
         - MutagenObjectType: ScriptStringProperty
           Name: asEvent
+          Data: TogglePOV
+        - MutagenObjectType: ScriptStringProperty
+          Name: asUserEventToEnd
           Data: TogglePOV
       - Members:
         - MutagenObjectType: ScriptObjectProperty
@@ -238,11 +367,11 @@ VirtualMachineAdapter:
           Name: TutorialMessage
           Object: 02B725:Starfield.esm
         - MutagenObjectType: ScriptStringProperty
-          Name: asUserEventToEnd
-          Data: TakeOff
-        - MutagenObjectType: ScriptStringProperty
           Name: asEvent
           Data: ShipTakeoff
+        - MutagenObjectType: ScriptStringProperty
+          Name: asUserEventToEnd
+          Data: TakeOff
       - Members:
         - MutagenObjectType: ScriptObjectProperty
           Name: TutorialMessage
@@ -291,14 +420,14 @@ VirtualMachineAdapter:
           Name: asEvent
           Data: MedPackFav
       - Members:
-        - MutagenObjectType: ScriptStringProperty
-          Name: asUserEventToEnd
-          Data: Monocle
         - MutagenObjectType: ScriptObjectProperty
           Name: TutorialMessage
           Object: 05D1E2:Starfield.esm
         - MutagenObjectType: ScriptStringProperty
           Name: asEvent
+          Data: Monocle
+        - MutagenObjectType: ScriptStringProperty
+          Name: asUserEventToEnd
           Data: Monocle
       - Members:
         - MutagenObjectType: ScriptObjectProperty
@@ -370,257 +499,241 @@ VirtualMachineAdapter:
         - MutagenObjectType: ScriptObjectProperty
           Name: TutorialMessage
           Object: 0042EE:Starfield.esm
-  - Name: mq101script
-    Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_FastTravel_03
-      Object: 23CA33:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettShipSmallItemMarker03
-      Object: 003448:Starfield.esm
-      Alias: 134
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQPlayerStarbornShipREF
-      Object: 180F16:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettPilotChair
-      Object: 003448:Starfield.esm
-      Alias: 62
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_LGT_A
-      Object: 1ED524:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Heller
-      Object: 003448:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_Inventory04
-      Object: 287920:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Vasco
-      Object: 003448:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettShipSmallItemMarker01
-      Object: 003448:Starfield.esm
-      Alias: 132
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101VascoQuestFollower
-      Object: 11876D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_SetCourse02
-      Object: 07DB10:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_SetCourse03
-      Object: 07DB0F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MineBoringMachine
-      Object: 003448:Starfield.esm
-      Alias: 41
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettShipSmallItemMarker02
-      Object: 003448:Starfield.esm
-      Alias: 133
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettShip_ExteriorLocation
-      Object: 003448:Starfield.esm
-      Alias: 76
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerUnityTimesEntered
-      Object: 219529:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CharGenFurniture
-      Object: 003448:Starfield.esm
-      Alias: 63
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettShipCrewMarker
-      Object: 003448:Starfield.esm
-      Alias: 58
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_Inventory02
-      Object: 210A98:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_FastTravel_02
-      Object: 23CA29:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_SetCourse01
-      Object: 07DB0E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettShipDoor
-      Object: 003448:Starfield.esm
-      Alias: 100
-    - MutagenObjectType: ScriptObjectListProperty
-      Name: MQ101_013A_FlightScenes
-      Objects:
-      - Name: ''
-        Object: 01E76F:Starfield.esm
-      - Name: ''
-        Object: 24E1CF:Starfield.esm
-      - Name: ''
-        Object: 24E1D1:Starfield.esm
-      - Name: ''
-        Object: 24E1D2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BarrettShip
-      Object: 003448:Starfield.esm
-      Alias: 16
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_FastTravel_01
-      Object: 23CA1A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_Inventory
-      Object: 04FC1F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_Inventory03
-      Object: 210A99:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettShip_InteriorLocation
-      Object: 003448:Starfield.esm
-      Alias: 75
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101Debug
-      Object: 0A7D31:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_Scene05_MarkerPlayer
-      Object: 052D2E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_LGT_B
-      Object: 1ED523:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Crew
-      Object: 2A567D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101SaveOff
-      Object: 049420:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_MQ101_00003448
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: SAlphaCentauri_PJemison_Surface
-      Object: 01AB2B:Starfield.esm
+      Name: MQ101_019_EnoughFuelScene
+      Object: 019241:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Clothes_Chronomark_Mq101
+      Object: 0D4893:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_014A_SecondCombatStarts
+      Object: 0011EF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeKey
+      Object: 293A7D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceEncounter01_Ship02
+      Object: 003448:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_017c_ApproachOutpostScene
+      Object: 05CB18:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aid_MedPack
+      Object: 00ABF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_005_FaceGenScene
+      Object: 005743:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Spacesuit_Miner_Helmet_Orange
+      Object: 06ABFF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFLodge01
+      Object: 1C0F26:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Clothes_Miner_Jumpsuit
+      Object: 01D1D7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BarrettShipDoor
+      Object: 003448:Starfield.esm
+      Alias: 100
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Troy
+      Object: 003448:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleStop
+      Object: 0A12CC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Spacesuit_Miner
+      Object: 05278E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101LandingEncounter01
+      Object: 068EA8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FrontierShipKey
+      Object: 0191DD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_035_SarahMorganScene
+      Object: 0059AF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Clothes_GenWare_01
+      Object: 165722:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BarrettShipSmallItemMarker01
+      Object: 003448:Starfield.esm
+      Alias: 132
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_014_SpaceCombatOverScene
+      Object: 0058C2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Spacesuit_Miner_Backpack_NoBoostPack
+      Object: 029C7A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VecteraAirlock03
+      Object: 003448:Starfield.esm
+      Alias: 151
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101Scene10PlayerMarker01
+      Object: 0057B9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101ArtifactLinMarker02
+      Object: 068E68:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_030b_ArriveAtJemisonScene
+      Object: 05ED74:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_012_VascoShipScene
+      Object: 0058BD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ101MagicDoortoVecteraExt
       Object: 012EBC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_Scene05_MarkerHeller
-      Object: 24A1F1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101Debug
-      Object: 0A7D31:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FactionUnitedColoniesVanguardPerk
-      Object: 19651A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_KreetBoss
-      Object: 003448:Starfield.esm
-      Alias: 145
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Health
-      Object: 0002D4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_LodgeTableActivator
       Object: 003448:Starfield.esm
       Alias: 107
     - MutagenObjectType: ScriptObjectProperty
-      Name: Spacesuit_Miner
-      Object: 05278E:Starfield.esm
+      Name: MQ101KreetShipLandingMarkerREF
+      Object: 13D12D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MUSGenesisStingerReveal2Medium
-      Object: 06D203:Starfield.esm
+      Name: MQ101_BarrettAudioLog01new
+      Object: 0753E5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: GameHour
-      Object: 000038:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SamCoe
+      Name: Alias_Vasco
       Object: 003448:Starfield.esm
-      Alias: 10
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101Medstims
+      Object: 2C02FE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_NewGamePlusMSGBox
+      Object: 05D1E3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101VascoQuestFollower
+      Object: 11876D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Outfit_Elite_Lin
+      Object: 288976:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_AMBArtifactVisionA
+      Object: 1E2ADC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: VecteraElevatorButtonREF
       Object: 0175BC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lin
+      Object: 003448:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NewAtlantisShipLandingMarker
+      Object: 023605:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_006_DiscoveryArrivesScene
+      Object: 00575C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipRegistration
+      Object: 0C55B1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC003RoofFaction
+      Object: 221151:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Spacesuit_Miner_Backpack
+      Object: 029C7A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_Scene05_MarkerHeller
+      Object: 24A1F1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101ArtifactSpawnMarker
+      Object: 1D078F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: SAlphaCentauri_PJemison_Orbit
       Object: 01AB2C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Clothes_GenWare_01
-      Object: 165722:Starfield.esm
+      Name: MQ101_016_KreetOrbitScene
+      Object: 063800:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ_TutorialQuest_Misc08
-      Object: 31C06F:Starfield.esm
+      Name: NewGameLodgeMarker
+      Object: 051F88:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_BarrettFinishedLandingEnableMarker
-      Object: 05C5EF:Starfield.esm
+      Name: MUSGenesisStingerReveal2Medium
+      Object: 06D203:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FactionUnitedColoniesPerk
-      Object: 1C5154:Starfield.esm
+      Name: VS_NewAtlantisVascoStartMarker
+      Object: 05E5B4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_Scene05_MarkerLin
-      Object: 005745:Starfield.esm
+      Name: MQ101DebugMSG01
+      Object: 0243E1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MUSGenesisStingerReveal3Long
-      Object: 05B524:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_NA_Landing_ShipTechs
-      Object: 252335:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_NA_Aquilus01
-      Object: 07BDBF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_013d_ShieldsDownScene
-      Object: 0FED06:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: VecteraInteriorNPCEnableMarker
-      Object: 2B69DA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_014A_SecondCombatStarts
-      Object: 0011EF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_VascoMarker01
-      Object: 009128:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_LowHealthMSG
-      Object: 2FC36E:Starfield.esm
+      Name: PlayerUnityTimesEntered
+      Object: 219529:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ101VascoScene08Marker02
       Object: 05C5F0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_039c_ArtifactsTogether03
-      Object: 2276BB:Starfield.esm
+      Name: ArtifactNotYetTakenEnableMarker
+      Object: 1E8756:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101LinScene08Marker01
-      Object: 00578B:Starfield.esm
+      Name: Alias_Bening
+      Object: 003448:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101SpaceEncounter01
+      Object: 0143B4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_013B_SpaceCombatScene
+      Object: 0058C0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MedBench
+      Object: 003448:Starfield.esm
+      Alias: 71
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101LaserCutter
+      Object: 010E47:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TutorialQuest_Misc04
+      Object: 021353:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: TestVSWeapons
       Object: 24AA02:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Clothes_Chronomark_Mq101
-      Object: 0D4893:Starfield.esm
+      Name: MQ101LinScene08Marker01
+      Object: 00578B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: TraitQuest
-      Object: 1687DB:Starfield.esm
+      Name: Alias_MineBoringMachine
+      Object: 003448:Starfield.esm
+      Alias: 41
     - MutagenObjectType: ScriptObjectProperty
-      Name: LC003_Lab2Marker
-      Object: 05C708:Starfield.esm
+      Name: Alias_BarrettShipCrewMarker
+      Object: 003448:Starfield.esm
+      Alias: 58
     - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_ShipDamagedSystemMSG
-      Object: 1B8996:Starfield.esm
+      Name: Eon
+      Object: 0476C4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_001b_MiningWalkScene
-      Object: 017F63:Starfield.esm
+      Name: MQ101_VascoShipServicesScene
+      Object: 05C81A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Spacesuit_Miner_Backpack_NoBoostPack
-      Object: 029C7A:Starfield.esm
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_NewGamePlusMSGBox
-      Object: 05D1E3:Starfield.esm
+      Name: DNMQ101_Kreet
+      Object: 051ABA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VS_NewAtlantisStartMarker
+      Object: 00B7F7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BarrettShipSmallItemMarker02
+      Object: 003448:Starfield.esm
+      Alias: 133
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_002_LinSupervisorScene
+      Object: 005646:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ101_034c_Stage1600Scene
       Object: 1D078E:Starfield.esm
@@ -628,128 +741,39 @@ VirtualMachineAdapter:
       Name: MQ101DrillHellerMarker01
       Object: 013D57:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Spacesuit_Miner_Outfit
-      Object: 25176F:Starfield.esm
+      Name: MQ101_017b_ExitRampScene
+      Object: 05CB17:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Noel
-      Object: 003448:Starfield.esm
-      Alias: 11
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101BarrettScene08Marker02
-      Object: 05C5F1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_002_LinSupervisorScene
-      Object: 005646:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BarrettShipCaptainsLocker
-      Object: 003448:Starfield.esm
-      Alias: 158
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_BarrettAudioLog02new
-      Object: 0753E6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101ArtifactLinMarker01
-      Object: 013D57:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VecteraExteriorMiners
-      Object: 003448:Starfield.esm
-      Alias: 121
-    - MutagenObjectType: ScriptObjectProperty
-      Name: IdleStop
-      Object: 0A12CC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: VecteraMineStarMarkerHeller
-      Object: 057F17:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MineBoringMachine
-      Object: 003448:Starfield.esm
-      Alias: 41
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_PlayerQuickstart9Marker
-      Object: 01403A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceEncounter01_Ship02
-      Object: 003448:Starfield.esm
-      Alias: 51
-    - MutagenObjectType: ScriptObjectProperty
-      Name: idleartifacttouch
-      Object: 34C6E6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101DebugMSG01
-      Object: 0243E1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101VascoScene10Marker01
-      Object: 0057BF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_StarMapKreet_MSGBox
-      Object: 20C2BF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Clothes_Miner_UtilitySuit
-      Object: 01D1E7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SBarnardsStar_PFrost_Orbit
-      Object: 060904:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101Artifact
-      Object: 005790:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnimArchetypePlayer
-      Object: 06B508:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SarahMorgan
-      Object: 003448:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: VecteraMineStarMarkerLin
-      Object: 057F18:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_KreetQuickstart_Player
-      Object: 114017:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101Scene004LinMarker01
-      Object: 01403B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_010_BarrettScene2
-      Object: 00853E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101KreetShipLandingMarkerREF
-      Object: 13D12D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC003_InteriorBaseActorEnableMarker
-      Object: 332AFE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ConstellationFaction
-      Object: 0191DC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_017a_LandingScene
-      Object: 01923D:Starfield.esm
+      Name: MQ101_034b_InsideLodgeScene
+      Object: 05E5A7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Armillary
       Object: 003448:Starfield.esm
       Alias: 112
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101BarrettScene08Marker01
-      Object: 005789:Starfield.esm
+      Name: MQ101_004_WallDownScene
+      Object: 013D4A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MedBench
-      Object: 003448:Starfield.esm
-      Alias: 71
+      Name: NewGameShipMarkerREF
+      Object: 027306:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_018_CFCaptainScene
-      Object: 20EED9:Starfield.esm
+      Name: MQ101HellerScene08Marker02
+      Object: 05BD0D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FactionUnitedColoniesSysDefPerk
-      Object: 147DBD:Starfield.esm
+      Name: MQ101_017a_LandingScene
+      Object: 01923D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101BarrettScene10Marker01
-      Object: 0057BA:Starfield.esm
+      Name: AnimArchetypeFastWalk
+      Object: 12AC06:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LC003PirateBossFaction
-      Object: 234998:Starfield.esm
+      Name: SpaceshipGravJumpFuel
+      Object: 00854F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_008_BarrettScene
-      Object: 005786:Starfield.esm
+      Name: City_NA_Landing_ShipTechs
+      Object: 252335:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SBarnardsStar_PFrost_Orbit
+      Object: 060904:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQPlayerStarbornShipREF
       Object: 180F16:Starfield.esm
@@ -768,77 +792,36 @@ VirtualMachineAdapter:
       Name: MQ101_012b_VascoAtStationScene
       Object: 012F84:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: GameDay
-      Object: 000037:Starfield.esm
+      Name: MQ101BarrettScene10Marker01
+      Object: 0057BA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Troy
+      Name: Tutorial_Inventory05
+      Object: 287921:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KreetGuardLeft
       Object: 003448:Starfield.esm
-      Alias: 24
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Crew_Elite_Cutter
-      Object: 1F9662:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BarrettShipSmallItemMarker01
-      Object: 003448:Starfield.esm
-      Alias: 132
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NewAtlantisShipLandingMarker
-      Object: 023605:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FactionFreestarCollectivePerk
-      Object: 1C5153:Starfield.esm
+      Alias: 155
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Barrett
       Object: 003448:Starfield.esm
       Alias: 2
     - MutagenObjectType: ScriptObjectProperty
-      Name: FactionCrimsonFleetPerk
-      Object: 1C5151:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_013B_SpaceCombatScene
-      Object: 0058C0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DataSlate
-      Object: 003448:Starfield.esm
-      Alias: 110
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC003RoofFaction
-      Object: 221151:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_LodgeArtifact01
       Object: 003448:Starfield.esm
       Alias: 113
     - MutagenObjectType: ScriptObjectProperty
-      Name: NewGameLodgeMarker
-      Object: 051F88:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101MagicDoortoVectaraMine
-      Object: 1ED51E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_017c_ApproachAliens
-      Object: 05F3ED:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipGravJumpFuel
-      Object: 00854F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: idleexaminewatch
-      Object: 0C154F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101ShipAlarmKlaxonREF
-      Object: 1ED519:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_001_MiningScene
-      Object: 005636:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BarrettShipSmallItemMarker02
+      Name: Alias_NoelArtifact02
       Object: 003448:Starfield.esm
-      Alias: 133
+      Alias: 139
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_012_VascoShipScene
-      Object: 0058BD:Starfield.esm
+      Name: MQ101MagicDoortoVectaraExt
+      Object: 012EBC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_030b_ArriveAtJemisonScene
-      Object: 05ED74:Starfield.esm
+      Name: SNarion_PAnselon_MKreet
+      Object: 01B1D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101LinScene08Marker02
+      Object: 05BD0C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_LaserDrill
       Object: 003448:Starfield.esm
@@ -847,23 +830,24 @@ VirtualMachineAdapter:
       Name: MQ101_017d_ApproachOutpostScene02
       Object: 252EE5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: FactionUnitedColoniesVanguardPerk
+      Object: 19651A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: MQ101_034_OutsideLodgeScene
       Object: 005989:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Matteo
+      Object: 003448:Starfield.esm
+      Alias: 9
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ101_Scene05_MarkerPlayer
       Object: 052D2E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101KreetBossTravelMarkerLeft
-      Object: 22114F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101KreetBossTravelMarker
-      Object: 20EEDC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TestMQ101HelperQuest
-      Object: 019089:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: BarrettShipCaptainsLockerContents
       Object: 0B8728:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101BarrettScene08Marker02
+      Object: 05C5F1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PlayerShip
       Object: 003448:Starfield.esm
@@ -872,101 +856,126 @@ VirtualMachineAdapter:
       Name: MQ101_013_SpaceScene
       Object: 0058C0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFaction
-      Object: 01C21C:Starfield.esm
+      Name: MQ101PlayerScene08Marker02
+      Object: 05BD0E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_037_ReactToArtifactScene
-      Object: 27C8F3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
+      Name: Alias_SarahMorgan
+      Object: 003448:Starfield.esm
+      Alias: 6
     - MutagenObjectType: ScriptObjectProperty
       Name: MUSGenesisStingerDread3Long
       Object: 05B523:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FrontierShipKey
-      Object: 0191DD:Starfield.esm
+      Name: MUSGenesisSpecialCardTitleOpening
+      Object: 066316:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_019_EnoughFuelScene
-      Object: 019241:Starfield.esm
+      Name: GameHour
+      Object: 000038:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CharGenStartMarker
-      Object: 00346B:Starfield.esm
+      Name: MQ401
+      Object: 1DC45E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ConstellationFaction
+      Object: 0191DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_Scene08_HellerLean
+      Object: 069987:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_VectaraLocation
       Object: 003448:Starfield.esm
       Alias: 14
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101PlayerScene08Marker02
-      Object: 05BD0E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101MagicDoortoVectaraExt
-      Object: 012EBC:Starfield.esm
+      Name: MQ101_017c_ApproachAliens
+      Object: 05F3ED:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MUSGenesisSpecialChargenWakeUp
       Object: 00A1B5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_017b_ExitRampScene
-      Object: 05CB17:Starfield.esm
+      Name: MQ101_001_MiningScene
+      Object: 005636:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101Medstims
-      Object: 2C02FE:Starfield.esm
+      Name: VecteraMineStarMarkerHeller
+      Object: 057F17:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_WalterStroud
-      Object: 003448:Starfield.esm
-      Alias: 8
+      Name: SAlphaCentauri_PJemison_Surface
+      Object: 01AB2B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_037_ReactToArtifactScene
+      Object: 27C8F3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SAlphaCentauri_PJemison
       Object: 01AB29:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PirateLandingShip
+      Name: Alias_DataSlate
       Object: 003448:Starfield.esm
-      Alias: 30
+      Alias: 110
     - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_ScannerMSGBox
-      Object: 15E0A4:Starfield.esm
+      Name: MQ101_010_BarrettScene2
+      Object: 00853E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NoelArtifact02
+      Name: Alias_VecteraExteriorMiners
       Object: 003448:Starfield.esm
-      Alias: 139
+      Alias: 121
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_BarrettShip_ExteriorLocation
       Object: 003448:Starfield.esm
       Alias: 76
     - MutagenObjectType: ScriptObjectProperty
+      Name: Spacesuit_Miner_Helmet_Lin_NOTPLAYABLE
+      Object: 27D004:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_Inventory_MSGBox
+      Object: 1B0164:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Crew
       Object: 2A567D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: VS_NewAtlantisVascoStartMarker
-      Object: 05E5B4:Starfield.esm
+      Name: Tutorial_Inventory_MKB_MSGBox
+      Object: 1B0166:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_016_KreetOrbitScene
-      Object: 063800:Starfield.esm
+      Name: MUSGenesisStingerReveal1Short
+      Object: 05E5A3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Stage35Trigger
+      Object: 003448:Starfield.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cutter
+      Object: 016758:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VecteraAirlock01
+      Object: 003448:Starfield.esm
+      Alias: 149
     - MutagenObjectType: ScriptObjectProperty
       Name: Tutorial_LowHealthMSG_PC
       Object: 2FC371:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101LaserCutter
-      Object: 010E47:Starfield.esm
+      Name: MQ101_001b_MiningWalkScene
+      Object: 017F63:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ104B_LinSandbox_CenterMarker
+      Object: 1ED1BD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ_TutorialQuest_Misc07
       Object: 31C070:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Bening
-      Object: 003448:Starfield.esm
-      Alias: 26
-    - MutagenObjectType: ScriptObjectProperty
       Name: BarrettLandingMarkerREF
       Object: 0150D7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LC003_CafeteriaMarker
-      Object: 05C6FD:Starfield.esm
+      Name: FactionRyujinIndustriesPerk
+      Object: 1C5152:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Spacesuit_Miner_Helmet_Orange
-      Object: 06ABFF:Starfield.esm
+      Name: MQ101_BarrettAudioLog02new
+      Object: 0753E6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SNarion_PAnselon_MKreet_Surface
-      Object: 01B1D4:Starfield.esm
+      Name: AnimArchetypePlayer
+      Object: 06B508:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Clothes_Miner_UtilitySuit
+      Object: 01D1E7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_Scene05_MarkerLin
+      Object: 005745:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ101_005B_FaceGenComplete
       Object: 05B22C:Starfield.esm
@@ -974,9 +983,6 @@ VirtualMachineAdapter:
       Name: Alias_ShipServicesNPC
       Object: 003448:Starfield.esm
       Alias: 65
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_Inventory_MSGBox
-      Object: 1B0164:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_MQ101Artifact
       Object: 003448:Starfield.esm
@@ -989,8 +995,17 @@ VirtualMachineAdapter:
       Name: MQ101LinDefenseMarker01
       Object: 0132AC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: VS_NewAtlantisStartMarker
-      Object: 00B7F7:Starfield.esm
+      Name: MQ101VascoScene08Marker01
+      Object: 0057BD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_BarrettAudioLog03new
+      Object: 0753E7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_039c_ArtifactsTogether03
+      Object: 2276BB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Health
+      Object: 0002D4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Tutorial_Light_MKB_MSGBox
       Object: 1B015B:Starfield.esm
@@ -998,15 +1013,27 @@ VirtualMachineAdapter:
       Name: MQ_TutorialQuest_Misc01
       Object: 021356:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipEnabledLandingLink
-      Object: 01448D:Starfield.esm
+      Name: Tutorial_ShipPower_MSGBox
+      Object: 1B017E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_AllowPlayerSuffocation
+      Object: 23AED3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ_TutorialQuest
       Object: 045640:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Stage35Trigger
+      Name: LC003_CafeteriaMarker
+      Object: 05C6FD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_ShipDamagedSystemMSG
+      Object: 1B8996:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SamCoe
       Object: 003448:Starfield.esm
-      Alias: 37
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VecteraMineStarMarkerLin
+      Object: 057F18:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_NoelArtifact01
       Object: 003448:Starfield.esm
@@ -1015,122 +1042,103 @@ VirtualMachineAdapter:
       Name: Spacesuit_Miner_Helmet_Orange_Heller_NOTPLAYABLE
       Object: 27D005:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101SaveOff
+      Object: 049420:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101MagicDoortoVectaraMine
+      Object: 1ED51E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_BarrettShipSmallItemMarker03
       Object: 003448:Starfield.esm
       Alias: 134
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_006_DiscoveryArrivesScene
-      Object: 00575C:Starfield.esm
+      Name: MQ101KreetBossTravelMarker
+      Object: 20EEDC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: TestBarrettScene
-      Object: 1ED1DE:Starfield.esm
+      Name: LC003PirateBossFaction
+      Object: 234998:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Outfit_Starborn
-      Object: 12E186:Starfield.esm
+      Name: MQ101_LGT_B
+      Object: 1ED523:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101ArtifactSpawnMarker
-      Object: 1D078F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: VecteraMineStarMarker
-      Object: 057F16:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VecteraAirlockCollision
-      Object: 003448:Starfield.esm
-      Alias: 152
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RAD02
-      Object: 29EF60:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101Scene004HellerMarker02
-      Object: 0642F1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_ShipPower_MSGBox_PC
-      Object: 115242:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Lin
-      Object: 003448:Starfield.esm
-      Alias: 0
+      Name: StarbornTempleQuest
+      Object: 214707:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ101PostQuest
       Object: 06A960:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_Inventory05
-      Object: 287921:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: MQ101_006b_SandwhichScene
       Object: 253970:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Spacesuit_Miner_Helmet_Lin_NOTPLAYABLE
-      Object: 27D004:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ104B_LinSandbox_CenterMarker
-      Object: 1ED1BD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Companion_Eon
-      Object: 0D0F70:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_BarrettShip_InteriorLocation
       Object: 003448:Starfield.esm
       Alias: 75
     - MutagenObjectType: ScriptObjectProperty
+      Name: idleartifacttouch
+      Object: 34C6E6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_013c_ShipDamageTutorialScene
+      Object: 068F48:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: MQ101BerrettScene10Marker01
       Object: 0057BA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_014_SpaceCombatOverScene
-      Object: 0058C2:Starfield.esm
+      Name: MQ101_008_BarrettScene
+      Object: 005786:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_ArtifactDeposit
       Object: 003448:Starfield.esm
       Alias: 29
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101SpaceEncounter01
-      Object: 0143B4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_PlanetLandingMSGBox
-      Object: 07DB0C:Starfield.esm
+      Name: Tutorial_LowHealthMSG
+      Object: 2FC36E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: WEF_MQ101_Exit_Airlock_Music_UnMute
       Object: 00A1B3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101VascoScene08Marker01
-      Object: 0057BD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_KreetQuickstart_Vasco
-      Object: 114016:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: MQ101_013A_FlightScene
       Object: 01E76F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Outfit_Elite_Lin
-      Object: 288976:Starfield.esm
+      Name: MQ101Scene004LinMarker01
+      Object: 01403B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: AnimArchetypeFastWalk
-      Object: 12AC06:Starfield.esm
+      Name: MQ101Artifact
+      Object: 005790:Starfield.esm
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: StarbornTempleQuest
-      Object: 214707:Starfield.esm
+      Name: RAD02
+      Object: 29EF60:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PERK_StarterHome
+      Object: 227FDF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: VascoEliteCrewQuest
       Object: 256F51:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_008C_BarrettPiratesArrive
-      Object: 069986:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ00
-      Object: 005790:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_VecteraAirlock02
       Object: 003448:Starfield.esm
       Alias: 150
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerUnityTimesEntered
-      Object: 219529:Starfield.esm
+      Name: MQ_TutorialQuest_Misc08
+      Object: 31C06F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Aquilus01
+      Object: 07BDBF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC003_InteriorBaseActorEnableMarker
+      Object: 332AFE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionFreestarCollectivePerk
+      Object: 1C5153:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSGenesisStingerReveal3Long
+      Object: 05B524:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: LC003_RoofMarker001
       Object: 13D2E3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_005_FaceGenScene
-      Object: 005743:Starfield.esm
+      Name: MQ101_BarrettFinishedLandingEnableMarker
+      Object: 05C5EF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ102
       Object: 0114CD:Starfield.esm
@@ -1141,47 +1149,44 @@ VirtualMachineAdapter:
       Name: MQ101_017g_SafeScene
       Object: 03220E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Aid_MedPack
-      Object: 00ABF9:Starfield.esm
+      Name: MQ101Debug
+      Object: 0A7D31:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_Inventory_MKB_MSGBox
-      Object: 1B0166:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ArtifactNotYetTakenEnableMarker
-      Object: 1E8756:Starfield.esm
+      Name: MQ101ArtifactLinMarker01
+      Object: 013D57:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Tutorial_City_MSGBox
       Object: 31C071:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_KreetGuardLeft
-      Object: 003448:Starfield.esm
-      Alias: 155
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VecteraAirlock01
-      Object: 003448:Starfield.esm
-      Alias: 149
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ForemanBrock
-      Object: 003448:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
       Name: Tutorial_ShipLowHealthMSG
       Object: 1B8760:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: ENV_AllowPlayerSuffocation
-      Object: 23AED3:Starfield.esm
+      Name: Tutorial_ScannerMSGBox
+      Object: 15E0A4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ101_030_JumpAgainScene
       Object: 0058C6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_017e_InBaseScene
-      Object: 05F3EE:Starfield.esm
+      Name: Tutorial_PlanetLandingMSGBox
+      Object: 07DB0C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_PlayerQuickstart9Marker
+      Object: 01403A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQProgress
+      Object: 26AE33:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_017f_Helium3Scene
+      Object: 05F3EF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101SpaceEncounter02
+      Object: 023187:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Tutorial_ShipCombatMSG
       Object: 1B9050:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_Scene08_HellerLean
-      Object: 069987:Starfield.esm
+      Name: MQ101_011b_VascoEscort
+      Object: 2CB1C6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MUSGenesisStingerReveal4PlayerExitsHab
       Object: 04565E:Starfield.esm
@@ -1189,62 +1194,62 @@ VirtualMachineAdapter:
       Name: MUSGenesisSpecialChargenComplete
       Object: 251F4B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101LandingEncounter01
-      Object: 068EA8:Starfield.esm
+      Name: Alias_Noel
+      Object: 003448:Starfield.esm
+      Alias: 11
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ101KreetBossTravelMarkerRight
       Object: 22114E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_ShipPower_MSGBox
-      Object: 1B017E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SNarion_PAnselon_MKreet
-      Object: 01B1D3:Starfield.esm
+      Name: MUSGenesisStingerFlightStart
+      Object: 05B862:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_KreetGuardRight
       Object: 003448:Starfield.esm
       Alias: 156
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_017f_Helium3Scene
-      Object: 05F3EF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Outfit_Elite_Heller
       Object: 288975:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KreetBoss
+      Object: 003448:Starfield.esm
+      Alias: 145
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_KreetQuickstart_Player
+      Object: 114017:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Elite_Cutter
+      Object: 1F9662:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Heller
       Object: 003448:Starfield.esm
       Alias: 1
     - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_AMBArtifactVisionA
-      Object: 1E2ADC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: MQ101_034_DockedScene
       Object: 005989:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_013d_ShieldsDownScene
+      Object: 0FED06:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: StarbornSkillCheck
       Object: 1D7053:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101VascoQuestFollower
-      Object: 11876D:Starfield.esm
+      Name: SQ_ActorRoles_SuppressMessages
+      Object: 2073D9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MUSGenesisStingerFlightStart
-      Object: 05B862:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_VascoShipServicesScene
-      Object: 05C81A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQProgress
-      Object: 26AE33:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ401
-      Object: 1DC45E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerShipPilotSeat
+      Name: Alias_VecteraMapMarker
       Object: 003448:Starfield.esm
-      Alias: 39
+      Alias: 117
     - MutagenObjectType: ScriptObjectProperty
-      Name: LodgeKey
-      Object: 293A7D:Starfield.esm
+      Name: Alias_PirateLandingShip
+      Object: 003448:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: idleexaminewatch
+      Object: 0C154F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_BoringCollision
+      Object: 250EE3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: TestMQ101Drill
       Object: 016758:Starfield.esm
@@ -1259,38 +1264,32 @@ VirtualMachineAdapter:
       Name: DNMQ101
       Object: 02465E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_PlanetMapKreet_MSGBox
-      Object: 20E6C6:Starfield.esm
+      Name: SNarion_PAnselon_MKreet_Surface
+      Object: 01B1D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WalterStroud
+      Object: 003448:Starfield.esm
+      Alias: 8
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Calvert
       Object: 003448:Starfield.esm
       Alias: 25
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_LGT_B
-      Object: 1ED523:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: idletakewatch
-      Object: 00155B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: MQ101_006c_SlateScene
       Object: 2CF3DE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VecteraMineStarMarker
+      Object: 057F16:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SNarion_PAnselon_MKreet_Orbit
+      Object: 01B1D5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_BarrettShip_LandDeck_RobotBay
       Object: 003448:Starfield.esm
       Alias: 111
     - MutagenObjectType: ScriptObjectProperty
-      Name: Cutter
-      Object: 016758:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_017c_ApproachOutpostScene
-      Object: 05CB18:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Vasco
-      Object: 003448:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Spacesuit_Miner_Backpack
-      Object: 029C7A:Starfield.esm
+      Name: TestMQ101HelperQuest
+      Object: 019089:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ101TakeWatchMSG
       Object: 098EB4:Starfield.esm
@@ -1299,137 +1298,139 @@ VirtualMachineAdapter:
       Object: 003448:Starfield.esm
       Alias: 141
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BarrettShipCrewMarker
-      Object: 003448:Starfield.esm
-      Alias: 58
-    - MutagenObjectType: ScriptObjectProperty
       Name: MUSGenesisCombat_MQ101SpaceBattle
       Object: 25AF25:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerShipQuest
       Object: 0174A2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_StarMapKreet_MSGBox
+      Object: 20C2BF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tutorial_PlanetMapKreet_MSGBox
+      Object: 20E6C6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Tutorial_Light_Gamepad_MSGBox
       Object: 1B015A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VecteraMapMarker
-      Object: 003448:Starfield.esm
-      Alias: 117
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_013c_ShipDamageTutorialScene
-      Object: 068F48:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101LinScene08Marker02
-      Object: 05BD0C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101Scene10PlayerMarker01
-      Object: 0057B9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MUSGenesisStingerReveal1Short
-      Object: 05E5A3:Starfield.esm
+      Name: VecteraInteriorNPCEnableMarker
+      Object: 2B69DA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Clothes_Argos_Jumpsuit
       Object: 21BBEC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101SpaceEncounter02
-      Object: 023187:Starfield.esm
+      Name: MQ101BarrettScene08Marker01
+      Object: 005789:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_BarrettAudioLog01new
-      Object: 0753E5:Starfield.esm
+      Name: idletakewatch
+      Object: 00155B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FactionRyujinIndustriesPerk
-      Object: 1C5152:Starfield.esm
+      Name: LC003_Lab2Marker
+      Object: 05C708:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFLodge01
-      Object: 1C0F26:Starfield.esm
+      Name: MQ101_017e_InBaseScene
+      Object: 05F3EE:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101HellerScene08Marker02
-      Object: 05BD0D:Starfield.esm
+      Name: MQ101ShipAlarmKlaxonREF
+      Object: 1ED519:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Spacesuit_Miner_Helmet
       Object: 052792:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Tutorial_Boostpack_MSGBox
-      Object: 05E5B6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BarrettShipDoor
+      Name: Alias_VecteraAirlockCollision
       Object: 003448:Starfield.esm
-      Alias: 100
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TraitKidStuff
-      Object: 10C2FA:Starfield.esm
+      Alias: 152
     - MutagenObjectType: ScriptObjectProperty
       Name: TraitStarterHome
       Object: 0A47B8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: NewGameShipMarkerREF
-      Object: 027306:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DNMQ101_Kreet
-      Object: 051ABA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VecteraAirlock03
+      Name: Alias_ForemanBrock
       Object: 003448:Starfield.esm
-      Alias: 151
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_BarrettAudioLog03new
-      Object: 0753E7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_034b_InsideLodgeScene
-      Object: 05E5A7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_011b_VascoEscort
-      Object: 2CB1C6:Starfield.esm
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ101_IsabelleHellerFurnitureREF
       Object: 0540E7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_BoringCollision
-      Object: 250EE3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SetStageTrigger170
       Object: 003448:Starfield.esm
       Alias: 73
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Matteo
+      Name: FactionUnitedColoniesSysDefPerk
+      Object: 147DBD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_018_CFCaptainScene
+      Object: 20EED9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_VascoMarker01
+      Object: 009128:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Companion_Eon
+      Object: 0D0F70:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionCrimsonFleetPerk
+      Object: 1C5151:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Spacesuit_Miner_Outfit
+      Object: 25176F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101VascoScene10Marker01
+      Object: 0057BF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TraitKidStuff
+      Object: 10C2FA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShipPilotSeat
       Object: 003448:Starfield.esm
-      Alias: 9
+      Alias: 39
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_035_SarahMorganScene
-      Object: 0059AF:Starfield.esm
+      Name: Outfit_Starborn
+      Object: 12E186:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101ArtifactLinMarker02
-      Object: 068E68:Starfield.esm
+      Name: MQ101Scene004HellerMarker02
+      Object: 0642F1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SNarion_PAnselon_MKreet_Orbit
-      Object: 01B1D5:Starfield.esm
+      Name: MQ101_KreetQuickstart_Vasco
+      Object: 114016:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ_TutorialQuest_Misc04
-      Object: 021353:Starfield.esm
+      Name: Tutorial_Boostpack_MSGBox
+      Object: 05E5B6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipRegistration
-      Object: 0C55B1:Starfield.esm
+      Name: CharGenStartMarker
+      Object: 00346B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_004_WallDownScene
-      Object: 013D4A:Starfield.esm
+      Name: FactionUnitedColoniesPerk
+      Object: 1C5154:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Clothes_Miner_Jumpsuit
-      Object: 01D1D7:Starfield.esm
+      Name: SpaceshipEnabledLandingLink
+      Object: 01448D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Eon
-      Object: 0476C4:Starfield.esm
+      Name: MQ101KreetBossTravelMarkerLeft
+      Object: 22114F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MUSGenesisSpecialCardTitleOpening
-      Object: 066316:Starfield.esm
+      Name: TestBarrettScene
+      Object: 1ED1DE:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_ActorRoles_SuppressMessages
-      Object: 2073D9:Starfield.esm
+      Name: TraitQuest
+      Object: 1687DB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101SaveOff
-      Object: 049420:Starfield.esm
+      Name: Tutorial_ShipPower_MSGBox_PC
+      Object: 115242:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PERK_StarterHome
-      Object: 227FDF:Starfield.esm
+      Name: MQ101_008C_BarrettPiratesArrive
+      Object: 069986:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GameDay
+      Object: 000037:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BarrettShipCaptainsLocker
+      Object: 003448:Starfield.esm
+      Alias: 158
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ00
+      Object: 005790:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
@@ -1478,38 +1479,136 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0000_Item_07
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0320_Item_00
   - Stage: 46
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0046_Item_00
+  - Stage: 1510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1510_Item_00
+  - Stage: 1510
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1510_Item_01
   - Stage: 25
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0025_Item_00
+  - Stage: 345
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0345_Item_00
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0220_Item_00
+  - Stage: 1300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1300_Item_00
   - Stage: 50
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0650_Item_00
   - Stage: 5
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 302
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0302_Item_00
   - Stage: 22
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0022_Item_00
+  - Stage: 1310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1310_Item_00
+  - Stage: 540
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0540_Item_00
+  - Stage: 695
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0695_Item_00
+  - Stage: 2100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_2100_Item_00
+  - Stage: 640
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0640_Item_00
   - Stage: 33
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0033_Item_00
+  - Stage: 225
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0225_Item_00
+  - Stage: 1635
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1635_Item_00
+  - Stage: 161
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0161_Item_00
   - Stage: 10
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0420_Item_00
+  - Stage: 420
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0420_Item_01
+  - Stage: 645
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0645_Item_00
+  - Stage: 1800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1800_Item_00
+  - Stage: 403
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0403_Item_00
+  - Stage: 690
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0690_Item_00
+  - Stage: 520
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0520_Item_00
   - Stage: 105
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0105_Item_00
+  - Stage: 1600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1600_Item_00
   - Stage: 27
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
@@ -1522,326 +1621,112 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0155_Item_00
-  - Stage: 157
+  - Stage: 155
+    StageIndex: 2
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0157_Item_00
-  - Stage: 160
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0160_Item_00
+    FragmentName: Fragment_Stage_0155_Item_02
   - Stage: 155
     StageIndex: 1
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0155_Item_01
-  - Stage: 161
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0161_Item_00
-  - Stage: 163
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0163_Item_00
-  - Stage: 30
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0030_Item_00
-  - Stage: 165
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0165_Item_00
-  - Stage: 165
-    StageIndex: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0165_Item_01
-  - Stage: 166
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0166_Item_00
-  - Stage: 41
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0041_Item_00
-  - Stage: 168
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0168_Item_00
-  - Stage: 168
-    StageIndex: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0168_Item_01
-  - Stage: 7
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0007_Item_00
-  - Stage: 170
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0170_Item_00
-  - Stage: 180
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0180_Item_00
-  - Stage: 200
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0200_Item_00
-  - Stage: 203
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0203_Item_00
-  - Stage: 205
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0205_Item_00
-  - Stage: 20
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0020_Item_00
-  - Stage: 210
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0210_Item_00
-  - Stage: 220
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0220_Item_00
-  - Stage: 225
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0225_Item_00
   - Stage: 240
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0240_Item_00
-  - Stage: 250
+  - Stage: 30
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0250_Item_00
-  - Stage: 280
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0280_Item_00
-  - Stage: 290
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0290_Item_00
+    FragmentName: Fragment_Stage_0030_Item_00
   - Stage: 300
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0300_Item_00
-  - Stage: 302
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0302_Item_00
-  - Stage: 305
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0305_Item_00
-  - Stage: 63
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0063_Item_00
-  - Stage: 310
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0310_Item_00
-  - Stage: 310
-    StageIndex: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0310_Item_01
-  - Stage: 315
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0315_Item_00
-  - Stage: 320
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0320_Item_00
-  - Stage: 340
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0340_Item_00
-  - Stage: 345
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0345_Item_00
-  - Stage: 11
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0011_Item_00
-  - Stage: 400
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0400_Item_00
-  - Stage: 400
-    StageIndex: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0400_Item_01
-  - Stage: 400
-    StageIndex: 2
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0400_Item_02
-  - Stage: 400
-    StageIndex: 3
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0400_Item_03
-  - Stage: 37
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0037_Item_00
-  - Stage: 400
-    StageIndex: 4
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0400_Item_04
-  - Stage: 403
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0403_Item_00
-  - Stage: 405
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0405_Item_00
-  - Stage: 60
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0060_Item_00
-  - Stage: 407
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0407_Item_00
-  - Stage: 408
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0408_Item_00
-  - Stage: 410
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0410_Item_00
-  - Stage: 419
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0419_Item_00
-  - Stage: 14
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0014_Item_00
-  - Stage: 420
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0420_Item_00
-  - Stage: 420
-    StageIndex: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0420_Item_01
-  - Stage: 421
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0421_Item_00
-  - Stage: 422
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0422_Item_00
-  - Stage: 423
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0423_Item_00
-  - Stage: 424
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0424_Item_00
-  - Stage: 485
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0485_Item_00
-  - Stage: 32
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0032_Item_00
-  - Stage: 490
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0490_Item_00
-  - Stage: 492
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0492_Item_00
-  - Stage: 495
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0495_Item_00
-  - Stage: 500
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0500_Item_00
-  - Stage: 500
-    StageIndex: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0500_Item_01
-  - Stage: 510
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0510_Item_00
-  - Stage: 51
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0051_Item_00
-  - Stage: 510
-    StageIndex: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0510_Item_01
-  - Stage: 65
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0065_Item_00
-  - Stage: 510
-    StageIndex: 2
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0510_Item_02
-  - Stage: 515
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0515_Item_00
-  - Stage: 520
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0520_Item_00
-  - Stage: 47
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0047_Item_00
   - Stage: 525
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0525_Item_00
-  - Stage: 530
+  - Stage: 41
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0530_Item_00
-  - Stage: 535
+    FragmentName: Fragment_Stage_0041_Item_00
+  - Stage: 492
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0535_Item_00
-  - Stage: 540
+    FragmentName: Fragment_Stage_0492_Item_00
+  - Stage: 7
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0540_Item_00
-  - Stage: 605
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 1605
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0605_Item_00
+    FragmentName: Fragment_Stage_1605_Item_00
+  - Stage: 1330
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1330_Item_00
+  - Stage: 340
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0340_Item_00
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0250_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 1500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1500_Item_00
+  - Stage: 620
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0620_Item_00
+  - Stage: 166
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0166_Item_00
+  - Stage: 205
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0205_Item_00
+  - Stage: 419
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0419_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 163
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0163_Item_00
+  - Stage: 647
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0647_Item_00
+  - Stage: 422
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0422_Item_00
+  - Stage: 63
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0063_Item_00
+  - Stage: 670
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0670_Item_00
+  - Stage: 1305
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1305_Item_00
   - Stage: 606
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
@@ -1851,91 +1736,58 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0606_Item_01
-  - Stage: 607
+  - Stage: 421
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0607_Item_00
-  - Stage: 608
+    FragmentName: Fragment_Stage_0421_Item_00
+  - Stage: 11
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0608_Item_00
-  - Stage: 9
+    FragmentName: Fragment_Stage_0011_Item_00
+  - Stage: 160
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0009_Item_00
-  - Stage: 610
+    FragmentName: Fragment_Stage_0160_Item_00
+  - Stage: 203
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0610_Item_00
-  - Stage: 9
-    StageIndex: 1
+    FragmentName: Fragment_Stage_0203_Item_00
+  - Stage: 1325
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0009_Item_01
-  - Stage: 615
+    FragmentName: Fragment_Stage_1325_Item_00
+  - Stage: 37
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0615_Item_00
-  - Stage: 620
+    FragmentName: Fragment_Stage_0037_Item_00
+  - Stage: 605
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0620_Item_00
-  - Stage: 625
+    FragmentName: Fragment_Stage_0605_Item_00
+  - Stage: 210
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0625_Item_00
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0060_Item_00
   - Stage: 627
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0627_Item_00
-  - Stage: 62
+  - Stage: 407
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0062_Item_00
+    FragmentName: Fragment_Stage_0407_Item_00
   - Stage: 630
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0630_Item_00
-  - Stage: 640
+  - Stage: 14
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0640_Item_00
-  - Stage: 645
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0645_Item_00
-  - Stage: 647
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0647_Item_00
-  - Stage: 650
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0650_Item_00
-  - Stage: 670
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0670_Item_00
-  - Stage: 680
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0680_Item_00
-  - Stage: 690
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0690_Item_00
-  - Stage: 695
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0695_Item_00
-  - Stage: 700
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0700_Item_00
-  - Stage: 80
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0080_Item_00
+    FragmentName: Fragment_Stage_0014_Item_00
   - Stage: 900
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
@@ -1945,83 +1797,257 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0900_Item_01
-  - Stage: 930
+  - Stage: 165
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0930_Item_00
-  - Stage: 1000
+    FragmentName: Fragment_Stage_0165_Item_00
+  - Stage: 165
+    StageIndex: 1
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1000_Item_00
-  - Stage: 12
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0012_Item_00
-  - Stage: 1300
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1300_Item_00
-  - Stage: 49
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0049_Item_00
-  - Stage: 1305
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1305_Item_00
-  - Stage: 1310
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1310_Item_00
+    FragmentName: Fragment_Stage_0165_Item_01
   - Stage: 1320
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_1320_Item_00
-  - Stage: 1325
+  - Stage: 485
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1325_Item_00
+    FragmentName: Fragment_Stage_0485_Item_00
+  - Stage: 32
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0032_Item_00
+  - Stage: 280
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0280_Item_00
+  - Stage: 535
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0535_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 310
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0310_Item_01
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 51
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0051_Item_00
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0065_Item_00
+  - Stage: 495
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0495_Item_00
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0170_Item_00
+  - Stage: 47
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0047_Item_00
+  - Stage: 490
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0490_Item_00
+  - Stage: 608
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0608_Item_00
+  - Stage: 157
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0157_Item_00
+  - Stage: 530
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0530_Item_00
+  - Stage: 408
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0408_Item_00
+  - Stage: 515
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0515_Item_00
+  - Stage: 290
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0290_Item_00
+  - Stage: 680
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0680_Item_00
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0009_Item_00
+  - Stage: 9
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0009_Item_01
+  - Stage: 423
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0423_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 1810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1810_Item_00
+  - Stage: 62
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0062_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 400
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0400_Item_02
+  - Stage: 400
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0400_Item_01
+  - Stage: 400
+    StageIndex: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0400_Item_03
+  - Stage: 400
+    StageIndex: 4
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0400_Item_04
+  - Stage: 1660
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1660_Item_00
+  - Stage: 315
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0315_Item_00
+  - Stage: 607
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0607_Item_00
+  - Stage: 405
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0405_Item_00
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0080_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0510_Item_00
+  - Stage: 510
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0510_Item_02
+  - Stage: 510
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0510_Item_01
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 49
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0049_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 500
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0500_Item_01
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0180_Item_00
   - Stage: 40
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0040_Item_00
-  - Stage: 1330
+  - Stage: 615
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1330_Item_00
-  - Stage: 1340
+    FragmentName: Fragment_Stage_0615_Item_00
+  - Stage: 930
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1340_Item_00
-  - Stage: 1500
+    FragmentName: Fragment_Stage_0930_Item_00
+  - Stage: 424
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1500_Item_00
-  - Stage: 1510
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1510_Item_00
+    FragmentName: Fragment_Stage_0424_Item_00
   - Stage: 70
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0070_Item_00
-  - Stage: 1510
-    StageIndex: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1510_Item_01
   - Stage: 45
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_0045_Item_00
-  - Stage: 1600
+  - Stage: 610
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1600_Item_00
-  - Stage: 1605
+    FragmentName: Fragment_Stage_0610_Item_00
+  - Stage: 168
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1605_Item_00
+    FragmentName: Fragment_Stage_0168_Item_00
+  - Stage: 168
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0168_Item_01
+  - Stage: 1340
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_1340_Item_00
+  - Stage: 305
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0305_Item_00
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 625
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ101_00003448
+    FragmentName: Fragment_Stage_0625_Item_00
   - Stage: 1610
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
@@ -2034,39 +2060,14 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_1630_Item_00
-  - Stage: 1635
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1635_Item_00
-  - Stage: 1660
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1660_Item_00
-  - Stage: 1800
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1800_Item_00
-  - Stage: 1810
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_1810_Item_00
   - Stage: 2000
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_2000_Item_00
-  - Stage: 2100
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_2100_Item_00
   - Stage: 9000
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ101_00003448
     FragmentName: Fragment_Stage_9000_Item_00
-  - Stage: 155
-    StageIndex: 2
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_MQ101_00003448
-    FragmentName: Fragment_Stage_0155_Item_02
   Aliases:
   - Property:
       Name: ''
@@ -2109,32 +2110,9 @@ VirtualMachineAdapter:
     - Name: mq101playeraliasscript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: BarrettShip
-        Object: 003448:Starfield.esm
-        Alias: 16
-      - MutagenObjectType: ScriptObjectProperty
         Name: PlayerShip
         Object: 003448:Starfield.esm
         Alias: 38
-      - MutagenObjectType: ScriptObjectProperty
-        Name: MineralType
-        Object: 0057D9:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Health
-        Object: 0002D4:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Cutter
-        Object: 016758:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: SystemNarionPlanetAnselonMoonNexumSurface
-        Object: 01B1D4:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: VascoStartMarker
-        Object: 003448:Starfield.esm
-        Alias: 58
-      - MutagenObjectType: ScriptObjectProperty
-        Name: NewAtlantisLocation
-        Object: 01295A:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: ArmorTypeHelmet
         Object: 12EEE9:Starfield.esm
@@ -2147,9 +2125,32 @@ VirtualMachineAdapter:
         Object: 003448:Starfield.esm
         Alias: 71
       - MutagenObjectType: ScriptObjectProperty
+        Name: NewAtlantisLocation
+        Object: 01295A:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: BarrettShip
+        Object: 003448:Starfield.esm
+        Alias: 16
+      - MutagenObjectType: ScriptObjectProperty
+        Name: VascoStartMarker
+        Object: 003448:Starfield.esm
+        Alias: 58
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SystemNarionPlanetAnselonMoonNexumSurface
+        Object: 01B1D4:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Health
+        Object: 0002D4:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MineralType
+        Object: 0057D9:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
         Name: Vasco
         Object: 003448:Starfield.esm
         Alias: 5
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Cutter
+        Object: 016758:Starfield.esm
     - Name: DefaultAliasOnItemAddedScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
@@ -2183,11 +2184,6 @@ VirtualMachineAdapter:
       Object: 003448:Starfield.esm
       Alias: 94
     Scripts:
-    - Name: defaultcollectionaliasondeath
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 280
     - Name: DefaultCollectionOnCombatStateChanged
       Properties:
       - MutagenObjectType: ScriptIntProperty
@@ -2204,6 +2200,11 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 275
+    - Name: defaultcollectionaliasondeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 280
   - Property:
       Name: ''
       Object: 003448:Starfield.esm
@@ -2212,45 +2213,45 @@ VirtualMachineAdapter:
     - Name: mq101playershipscript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: SNarionA_PAnselon_MKreet
-        Object: 01B1D3:Starfield.esm
+        Name: KreetWorldSpaceLocation
+        Object: 028A08:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: SpaceshipBuildableEnginePower
-        Object: 00ACD9:Starfield.esm
+        Name: SpaceshipBuildableThrusterPower
+        Object: 00ACDA:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: SpaceshipWeaponMissileLauncherPower
-        Object: 219623:Starfield.esm
+        Name: SAlphaCentauri_PJemison_Orbit
+        Object: 01AB2C:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: SpaceshipWeaponGunPower
-        Object: 219624:Starfield.esm
+        Name: NewAtlantisLocation
+        Object: 01295A:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: TheLodge
         Object: 003448:Starfield.esm
         Alias: 31
       - MutagenObjectType: ScriptObjectProperty
-        Name: KreetWorldSpaceLocation
-        Object: 028A08:Starfield.esm
+        Name: SpaceshipGravJumpPower
+        Object: 1B02CF:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: SAlphaCentauri_PJemison_Orbit
-        Object: 01AB2C:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: SpaceshipBuildableShieldPower
-        Object: 01ECCE:Starfield.esm
+        Name: SpaceshipWeaponGunPower
+        Object: 219624:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: SNarionA_PAnselon_MKreet_Orbit
         Object: 01B1D5:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: SpaceshipBuildableThrusterPower
-        Object: 00ACDA:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: SpaceshipGravJumpPower
-        Object: 1B02CF:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: NewAtlantisLocation
-        Object: 01295A:Starfield.esm
+        Name: SpaceshipBuildableShieldPower
+        Object: 01ECCE:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: SpaceshipWeaponGatlingGunPower
         Object: 219625:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SpaceshipWeaponMissileLauncherPower
+        Object: 219623:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SpaceshipBuildableEnginePower
+        Object: 00ACD9:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SNarionA_PAnselon_MKreet
+        Object: 01B1D3:Starfield.esm
   - Property:
       Name: ''
       Object: 003448:Starfield.esm
@@ -2376,6 +2377,11 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 695
+    - Name: DefaultAliasOnCombatStateChanged
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 690
     - Name: defaultaliaschangeavoninit
       Properties:
       - MutagenObjectType: ScriptStructListProperty
@@ -2388,11 +2394,6 @@ VirtualMachineAdapter:
           - MutagenObjectType: ScriptFloatProperty
             Name: newValue
             Data: 9
-    - Name: DefaultAliasOnCombatStateChanged
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 690
   - Property:
       Name: ''
       Object: 003448:Starfield.esm
@@ -2474,7 +2475,7 @@ Stages:
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThanOrEqualTo
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: Reference
@@ -2488,40 +2489,40 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 2200873
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetStageConditionData
         FirstParameter: 003448:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 028A08:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 001116:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 01295A:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 0A7D31:Starfield.esm
@@ -2533,35 +2534,35 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 2200873
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 001116:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 028A08:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 01295A:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 0A7D31:Starfield.esm
@@ -2572,14 +2573,14 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 2200873
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 0A7D31:Starfield.esm
@@ -2591,14 +2592,14 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 2200873
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 0A7D31:Starfield.esm
@@ -2610,14 +2611,14 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 2200873
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 0A7D31:Starfield.esm
@@ -2629,14 +2630,14 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 2200873
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 0A7D31:Starfield.esm
@@ -2648,14 +2649,14 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 2200873
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 0A7D31:Starfield.esm
@@ -2667,14 +2668,14 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 2200873
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 0A7D31:Starfield.esm
@@ -2686,14 +2687,14 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 2200873
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 0A7D31:Starfield.esm
@@ -2705,40 +2706,40 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetValueConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 2200873
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetStageConditionData
         FirstParameter: 003448:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 028A08:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 001116:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 01295A:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 0A7D31:Starfield.esm
@@ -2783,14 +2784,14 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 0A7D31:Starfield.esm
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x554C4C
+      Unknown1: 0x3E729F
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 0A7D31:Starfield.esm
@@ -4847,7 +4848,7 @@ Stages:
           Count: 1
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0x3E729F
           Data:
             MutagenObjectType: GetValueConditionData
             RunOnType: Reference
@@ -4863,7 +4864,7 @@ Stages:
         Conditions:
         - MutagenObjectType: ConditionFloat
           CompareOperator: GreaterThanOrEqualTo
-          Unknown1: 0x000000
+          Unknown1: 0x3E729F
           Data:
             MutagenObjectType: GetValueConditionData
             RunOnType: Reference
@@ -7132,3 +7133,4 @@ Aliases:
   ALFG: 0
   ForcedReference: 00C358:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

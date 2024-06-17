@@ -1,37 +1,43 @@
 FormKey: 27071C:Starfield.esm
 EditorID: City_NA_Well01
+FormVersion: 559
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_City_NA_Well01_0027071C
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BoxDoor01
+      Name: Alias_LouisaReyez
       Object: 27071C:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BoxDoor02
-      Object: 27071C:Starfield.esm
-      Alias: 19
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_BoxDoor03
       Object: 27071C:Starfield.esm
       Alias: 20
     - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Well02
+      Object: 270716:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_BoxDoor04
       Object: 27071C:Starfield.esm
       Alias: 21
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LouisaReyez
-      Object: 27071C:Starfield.esm
-      Alias: 0
+      Name: StoryManager_NewAtlantisLoad
+      Object: 0C9EEC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Puzzle_BlockingDoor
+      Name: City_NA_Well01_003_Stage50Scene
+      Object: 24F4F6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BoxDoor02
       Object: 27071C:Starfield.esm
-      Alias: 26
+      Alias: 19
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Puzzle_BoxDoor01
       Object: 27071C:Starfield.esm
       Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BoxDoor01
+      Object: 27071C:Starfield.esm
+      Alias: 18
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Puzzle_BoxDoor02
       Object: 27071C:Starfield.esm
@@ -49,14 +55,11 @@ VirtualMachineAdapter:
       Object: 27071C:Starfield.esm
       Alias: 7
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_NA_GuardPointer_Well
-      Object: 352CB8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: City_NA_Well01_003_Stage50Scene
-      Object: 24F4F6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: City_NA_Well01_005_Stage100Scene
       Object: 24F4F2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_GuardPointer_Well
+      Object: 352CB8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: City_NA_Well01_007_Stage150Scene
       Object: 24F4F0:Starfield.esm
@@ -64,91 +67,89 @@ VirtualMachineAdapter:
       Name: City_NA_Well01_009_Stage190Scene
       Object: 24F4EE:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_NA_Well02
-      Object: 270716:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: JunctionBox01Scene
       Object: 24F4F7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: JunctionBox02Scene
       Object: 24F4F5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: JunctionBox03Scene
-      Object: 24F4F1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: JunctionBox04Scene
       Object: 24F4EF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: StoryManager_NewAtlantisLoad
-      Object: 0C9EEC:Starfield.esm
+      Name: JunctionBox03Scene
+      Object: 24F4F1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Puzzle_BlockingDoor
+      Object: 27071C:Starfield.esm
+      Alias: 26
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0001_Item_00
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0010_Item_00
-  - Stage: 20
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0020_Item_00
-  - Stage: 30
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0030_Item_00
-  - Stage: 35
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0035_Item_00
-  - Stage: 50
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0050_Item_00
-  - Stage: 80
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0080_Item_00
-  - Stage: 85
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0085_Item_00
-  - Stage: 100
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0100_Item_00
-  - Stage: 130
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0130_Item_00
   - Stage: 135
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
     FragmentName: Fragment_Stage_0135_Item_00
-  - Stage: 150
+  - Stage: 20
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0150_Item_00
-  - Stage: 170
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 35
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0170_Item_00
+    FragmentName: Fragment_Stage_0035_Item_00
   - Stage: 175
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
     FragmentName: Fragment_Stage_0175_Item_00
-  - Stage: 185
+  - Stage: 100
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
-    FragmentName: Fragment_Stage_0185_Item_00
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0170_Item_00
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0080_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0001_Item_00
   - Stage: 190
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
     FragmentName: Fragment_Stage_0190_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0130_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0085_Item_00
+  - Stage: 185
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
+    FragmentName: Fragment_Stage_0185_Item_00
   - Stage: 200
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_City_NA_Well01_0027071C
@@ -215,44 +216,45 @@ VirtualMachineAdapter:
     - Name: City_NA_Well01_Lever01Script
       Properties:
       - MutagenObjectType: ScriptObjectProperty
+        Name: Lever04
+        Object: 27071C:Starfield.esm
+        Alias: 12
+      - MutagenObjectType: ScriptObjectProperty
         Name: ActiveLight
         Object: 27071C:Starfield.esm
         Alias: 13
       - MutagenObjectType: ScriptObjectProperty
-        Name: City_NA_Well01
+        Name: Light01
         Object: 27071C:Starfield.esm
+        Alias: 13
       - MutagenObjectType: ScriptObjectProperty
         Name: City_NA_Well01_Light01State
         Object: 13DD03:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: City_NA_Well01_Light02State
-        Object: 13DD02:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
         Name: City_NA_Well01_Light03State
         Object: 13DD04:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: City_NA_Well01_Light04State
-        Object: 13DD05:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Lever01
-        Object: 27071C:Starfield.esm
-        Alias: 9
       - MutagenObjectType: ScriptObjectProperty
         Name: Lever02
         Object: 27071C:Starfield.esm
         Alias: 10
       - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light04State
+        Object: 13DD05:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01
+        Object: 27071C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light04
+        Object: 27071C:Starfield.esm
+        Alias: 16
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LightIndicator
+        Object: 27071C:Starfield.esm
+        Alias: 17
+      - MutagenObjectType: ScriptObjectProperty
         Name: Lever03
         Object: 27071C:Starfield.esm
         Alias: 11
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Lever04
-        Object: 27071C:Starfield.esm
-        Alias: 12
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Light01
-        Object: 27071C:Starfield.esm
-        Alias: 13
       - MutagenObjectType: ScriptObjectProperty
         Name: Light02
         Object: 27071C:Starfield.esm
@@ -262,13 +264,12 @@ VirtualMachineAdapter:
         Object: 27071C:Starfield.esm
         Alias: 15
       - MutagenObjectType: ScriptObjectProperty
-        Name: Light04
-        Object: 27071C:Starfield.esm
-        Alias: 16
+        Name: City_NA_Well01_Light02State
+        Object: 13DD02:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: LightIndicator
+        Name: Lever01
         Object: 27071C:Starfield.esm
-        Alias: 17
+        Alias: 9
   - Property:
       Name: ''
       Object: 27071C:Starfield.esm
@@ -277,48 +278,29 @@ VirtualMachineAdapter:
     - Name: City_NA_Well01_Lever01Script
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: City_NA_Well01
+        Name: Lever04
         Object: 27071C:Starfield.esm
+        Alias: 12
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light03
+        Object: 27071C:Starfield.esm
+        Alias: 15
       - MutagenObjectType: ScriptObjectProperty
         Name: City_NA_Well01_Light01State
         Object: 13DD03:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: City_NA_Well01_Light02State
-        Object: 13DD02:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
         Name: City_NA_Well01_Light03State
         Object: 13DD04:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: City_NA_Well01_Light04State
-        Object: 13DD05:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Lever01
-        Object: 27071C:Starfield.esm
-        Alias: 9
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Lever02
-        Object: 27071C:Starfield.esm
-        Alias: 10
       - MutagenObjectType: ScriptObjectProperty
         Name: Lever03
         Object: 27071C:Starfield.esm
         Alias: 11
       - MutagenObjectType: ScriptObjectProperty
-        Name: Lever04
-        Object: 27071C:Starfield.esm
-        Alias: 12
+        Name: City_NA_Well01_Light04State
+        Object: 13DD05:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: Light01
+        Name: City_NA_Well01
         Object: 27071C:Starfield.esm
-        Alias: 13
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Light02
-        Object: 27071C:Starfield.esm
-        Alias: 14
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Light03
-        Object: 27071C:Starfield.esm
-        Alias: 15
       - MutagenObjectType: ScriptObjectProperty
         Name: Light04
         Object: 27071C:Starfield.esm
@@ -327,6 +309,25 @@ VirtualMachineAdapter:
         Name: LightIndicator
         Object: 27071C:Starfield.esm
         Alias: 17
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light01
+        Object: 27071C:Starfield.esm
+        Alias: 13
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever02
+        Object: 27071C:Starfield.esm
+        Alias: 10
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light02
+        Object: 27071C:Starfield.esm
+        Alias: 14
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light02State
+        Object: 13DD02:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever01
+        Object: 27071C:Starfield.esm
+        Alias: 9
   - Property:
       Name: ''
       Object: 27071C:Starfield.esm
@@ -335,48 +336,29 @@ VirtualMachineAdapter:
     - Name: City_NA_Well01_Lever01Script
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: City_NA_Well01
+        Name: Lever04
         Object: 27071C:Starfield.esm
+        Alias: 12
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light03
+        Object: 27071C:Starfield.esm
+        Alias: 15
       - MutagenObjectType: ScriptObjectProperty
         Name: City_NA_Well01_Light01State
         Object: 13DD03:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: City_NA_Well01_Light02State
-        Object: 13DD02:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
         Name: City_NA_Well01_Light03State
         Object: 13DD04:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: City_NA_Well01_Light04State
-        Object: 13DD05:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Lever01
-        Object: 27071C:Starfield.esm
-        Alias: 9
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Lever02
-        Object: 27071C:Starfield.esm
-        Alias: 10
       - MutagenObjectType: ScriptObjectProperty
         Name: Lever03
         Object: 27071C:Starfield.esm
         Alias: 11
       - MutagenObjectType: ScriptObjectProperty
-        Name: Lever04
-        Object: 27071C:Starfield.esm
-        Alias: 12
+        Name: City_NA_Well01_Light04State
+        Object: 13DD05:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: Light01
+        Name: City_NA_Well01
         Object: 27071C:Starfield.esm
-        Alias: 13
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Light02
-        Object: 27071C:Starfield.esm
-        Alias: 14
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Light03
-        Object: 27071C:Starfield.esm
-        Alias: 15
       - MutagenObjectType: ScriptObjectProperty
         Name: Light04
         Object: 27071C:Starfield.esm
@@ -385,6 +367,25 @@ VirtualMachineAdapter:
         Name: LightIndicator
         Object: 27071C:Starfield.esm
         Alias: 17
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light01
+        Object: 27071C:Starfield.esm
+        Alias: 13
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever02
+        Object: 27071C:Starfield.esm
+        Alias: 10
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light02
+        Object: 27071C:Starfield.esm
+        Alias: 14
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light02State
+        Object: 13DD02:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever01
+        Object: 27071C:Starfield.esm
+        Alias: 9
   - Property:
       Name: ''
       Object: 27071C:Starfield.esm
@@ -393,48 +394,29 @@ VirtualMachineAdapter:
     - Name: City_NA_Well01_Lever01Script
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: City_NA_Well01
+        Name: Lever04
         Object: 27071C:Starfield.esm
+        Alias: 12
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light03
+        Object: 27071C:Starfield.esm
+        Alias: 15
       - MutagenObjectType: ScriptObjectProperty
         Name: City_NA_Well01_Light01State
         Object: 13DD03:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: City_NA_Well01_Light02State
-        Object: 13DD02:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
         Name: City_NA_Well01_Light03State
         Object: 13DD04:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: City_NA_Well01_Light04State
-        Object: 13DD05:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Lever01
-        Object: 27071C:Starfield.esm
-        Alias: 9
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Lever02
-        Object: 27071C:Starfield.esm
-        Alias: 10
       - MutagenObjectType: ScriptObjectProperty
         Name: Lever03
         Object: 27071C:Starfield.esm
         Alias: 11
       - MutagenObjectType: ScriptObjectProperty
-        Name: Lever04
-        Object: 27071C:Starfield.esm
-        Alias: 12
+        Name: City_NA_Well01_Light04State
+        Object: 13DD05:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: Light01
+        Name: City_NA_Well01
         Object: 27071C:Starfield.esm
-        Alias: 13
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Light02
-        Object: 27071C:Starfield.esm
-        Alias: 14
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Light03
-        Object: 27071C:Starfield.esm
-        Alias: 15
       - MutagenObjectType: ScriptObjectProperty
         Name: Light04
         Object: 27071C:Starfield.esm
@@ -443,6 +425,25 @@ VirtualMachineAdapter:
         Name: LightIndicator
         Object: 27071C:Starfield.esm
         Alias: 17
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light01
+        Object: 27071C:Starfield.esm
+        Alias: 13
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever02
+        Object: 27071C:Starfield.esm
+        Alias: 10
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Light02
+        Object: 27071C:Starfield.esm
+        Alias: 14
+      - MutagenObjectType: ScriptObjectProperty
+        Name: City_NA_Well01_Light02State
+        Object: 13DD02:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Lever01
+        Object: 27071C:Starfield.esm
+        Alias: 9
   - Property:
       Name: ''
       Object: 27071C:Starfield.esm
@@ -774,7 +775,7 @@ Stages:
           Count: 1
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x000000
+          Unknown1: 0xA388A6
           Data:
             MutagenObjectType: GetStageDoneConditionData
             FirstParameter: 27071C:Starfield.esm

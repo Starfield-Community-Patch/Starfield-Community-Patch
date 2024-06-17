@@ -1,26 +1,10 @@
 FormKey: 2101AA:Starfield.esm
 EditorID: SettleStroudEklundStaryardSpaceLocation
-MasterPersistLocationReferences:
-- Actor: 2DF456:Starfield.esm
-  Location: 218949:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-LocationCellUniqueReferences:
+FormVersion: 559
+AddedUniqueBaseForms:
 - GenericBaseForm: 0090B0:Starfield.esm
   Ref: 2DF456:Starfield.esm
   Location: 2101AA:Starfield.esm
-MasterUniqueNpcs: []
-MasterSpecialReferences:
-- LocationRefType: 10DAC7:Starfield.esm
-  Marker: 10DAC8:Starfield.esm
-  Location: 218949:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 02271F:Starfield.esm
-  Marker: 218944:Starfield.esm
-  Location: 218949:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
 Name:
   TargetLanguage: English
   Values:

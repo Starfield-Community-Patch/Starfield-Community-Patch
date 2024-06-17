@@ -1,5 +1,6 @@
 FormKey: 0B8633:Starfield.esm
 EditorID: COM_Quest_Andreja_Commitment
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -413,15 +414,13 @@ Aliases:
   ALFG: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x090000
-    Unknown2: 17620
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasKeywordConditionData
       FirstParameter: 0C6928:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x090000
-    Unknown2: 17620
+    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasRefTypeConditionData
       FirstParameter: 207489:Starfield.esm
@@ -477,3 +476,4 @@ Aliases:
   - 0x0
   ALFG: 0
   VoiceTypes: Null
+Timestamp: 12497

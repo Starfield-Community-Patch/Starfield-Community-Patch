@@ -1,16 +1,57 @@
 FormKey: 002FAE:Starfield.esm
 EditorID: COM_Quest_Barrett_Q02
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 002FAE:Starfield.esm
+          Alias: 96
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 8000
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 8010
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 002FAE:Starfield.esm
+          Alias: 97
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 8300
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 8301
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 002FAE:Starfield.esm
+          Alias: 96
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 8300
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 8301
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
   - Name: bq01_questscript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
+      Name: StarbornTempleQuest
+      Object: 214707:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: BQ01_Keyword_TempleLocation
       Object: 2F54FE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Location_Temple
-      Object: 002FAE:Starfield.esm
-      Alias: 96
     - MutagenObjectType: ScriptObjectProperty
       Name: Location_TemplePlanet
       Object: 002FAE:Starfield.esm
@@ -30,49 +71,9 @@ VirtualMachineAdapter:
       Object: 002FAE:Starfield.esm
       Alias: 105
     - MutagenObjectType: ScriptObjectProperty
-      Name: StarbornTempleQuest
-      Object: 214707:Starfield.esm
-  - Name: defaultquestchangelocationscript
-    Properties:
-    - MutagenObjectType: ScriptStructListProperty
-      Name: ChangeLocationStages
-      Structs:
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 8000
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 8010
-        - MutagenObjectType: ScriptObjectProperty
-          Name: targetLocationAlias
-          Object: 002FAE:Starfield.esm
-          Alias: 96
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 8300
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 8301
-        - MutagenObjectType: ScriptObjectProperty
-          Name: targetLocationAlias
-          Object: 002FAE:Starfield.esm
-          Alias: 97
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 8300
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 8301
-        - MutagenObjectType: ScriptObjectProperty
-          Name: targetLocationAlias
-          Object: 002FAE:Starfield.esm
-          Alias: 96
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
+      Name: Location_Temple
+      Object: 002FAE:Starfield.esm
+      Alias: 96
   - Name: gamedayspassedglobalsquestscript
     Properties:
     - MutagenObjectType: ScriptStructListProperty
@@ -82,51 +83,36 @@ VirtualMachineAdapter:
         - MutagenObjectType: ScriptObjectProperty
           Name: DaysToAdd
           Object: 074DDC:Starfield.esm
-        - MutagenObjectType: ScriptObjectProperty
-          Name: NextAllowed
-          Object: 07D9EB:Starfield.esm
         - MutagenObjectType: ScriptIntProperty
           Name: QuestStage
           Data: 230
+        - MutagenObjectType: ScriptObjectProperty
+          Name: NextAllowed
+          Object: 07D9EB:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: AbStarbornDeath
-      Object: 3A289F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AbStarbornTeleport
-      Object: 3A289E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AbStarbornTeleportAlt
-      Object: 3A289E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AIPower_ParallelSelf
+      Name: BarrettSpell
       Object: 23AF08:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Activator_Temple_Puzzle
+      Name: Alias_Marker_Temple_Barrett
       Object: 002FAE:Starfield.esm
-      Alias: 100
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Activator_Temple_Trigger
-      Object: 002FAE:Starfield.esm
-      Alias: 135
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Activator_Temple_TriggerEntry
-      Object: 002FAE:Starfield.esm
-      Alias: 139
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Actor_Starborn
-      Object: 002FAE:Starfield.esm
-      Alias: 108
+      Alias: 132
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Barrett
       Object: 002FAE:Starfield.esm
       Alias: 6
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CollisionMarkers
+      Name: Alias_Activator_Temple_Puzzle
       Object: 002FAE:Starfield.esm
-      Alias: 144
+      Alias: 100
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_SolvedPuzzle
+      Object: 005B8B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AbStarbornTeleport
+      Object: 3A289E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Location_Temple
       Object: 002FAE:Starfield.esm
@@ -136,33 +122,34 @@ VirtualMachineAdapter:
       Object: 002FAE:Starfield.esm
       Alias: 98
     - MutagenObjectType: ScriptObjectProperty
+      Name: StarbornPerk
+      Object: 1D7053:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettTempleLocationAlias
+      Object: 1C7187:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Marker_HoldingCell
       Object: 002FAE:Starfield.esm
       Alias: 85
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Temple_Barrett
-      Object: 002FAE:Starfield.esm
-      Alias: 132
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Temple_LandingPad
-      Object: 002FAE:Starfield.esm
-      Alias: 101
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Marker_Temple_OtherBarrett
       Object: 002FAE:Starfield.esm
       Alias: 111
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Temple_Player
-      Object: 002FAE:Starfield.esm
-      Alias: 133
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Temple_Starborn
-      Object: 002FAE:Starfield.esm
-      Alias: 145
+      Name: BQ02CompanionLockInOverMSG
+      Object: 005BA3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_OtherBarrett
       Object: 002FAE:Starfield.esm
       Alias: 106
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Activator_Temple_TriggerEntry
+      Object: 002FAE:Starfield.esm
+      Alias: 139
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_AlreadyDo
+      Object: 005B91:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PlayerPilotSeat
       Object: 002FAE:Starfield.esm
@@ -172,8 +159,8 @@ VirtualMachineAdapter:
       Object: 002FAE:Starfield.esm
       Alias: 107
     - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettQuest
-      Object: 002FAE:Starfield.esm
+      Name: AbStarbornTeleportAlt
+      Object: 3A289E:Starfield.esm
     - MutagenObjectType: ScriptObjectListProperty
       Name: BarrettSpacesuitForms
       Objects:
@@ -452,15 +439,29 @@ VirtualMachineAdapter:
       - Name: ''
         Object: 16D3D1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettSpell
-      Object: 23AF08:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettTempleLocationAlias
-      Object: 1C7187:Starfield.esm
-      Alias: 12
-    - MutagenObjectType: ScriptObjectProperty
       Name: BE_KT02_ExplosionHavok
       Object: 01B283:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CollisionMarkers
+      Object: 002FAE:Starfield.esm
+      Alias: 144
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettQuest
+      Object: 002FAE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Actor_Starborn
+      Object: 002FAE:Starfield.esm
+      Alias: 108
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_OtherBarrettAppears
+      Object: 005B8E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Activator_Temple_Trigger
+      Object: 002FAE:Starfield.esm
+      Alias: 135
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AIPower_ParallelSelf
+      Object: 23AF08:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: BQ01_Scene_BARK_8499_Barrett_Temple_PuzzleSolved
       Object: 028349:Starfield.esm
@@ -471,11 +472,28 @@ VirtualMachineAdapter:
       Name: BQ02CompanionLockInMSG
       Object: 005BA2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: BQ02CompanionLockInOverMSG
-      Object: 005BA3:Starfield.esm
+      Name: Alias_Marker_Temple_LandingPad
+      Object: 002FAE:Starfield.esm
+      Alias: 101
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_BQ01_WaitToggle
-      Object: 09ACD6:Starfield.esm
+      Name: AbStarbornDeath
+      Object: 3A289F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_CherishThem
+      Object: 005B94:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Temple_Starborn
+      Object: 002FAE:Starfield.esm
+      Alias: 145
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_InsideTemple
+      Object: 005B7E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_HelloBarrett
+      Object: 005B8E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_OtherBarrettExitWarning
+      Object: 005B93:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_Quest_Barrett_Q01
       Object: 0369AB:Starfield.esm
@@ -486,14 +504,20 @@ VirtualMachineAdapter:
       Name: COM_Quest_Barrett_Q02_Complete_AV
       Object: 034C13:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: ScenePuzzleSolved
-      Object: 005BA5:Starfield.esm
+      Name: Scene_LosingPower
+      Object: 005B99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SceneThankYou
       Object: 005B95:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_AlreadyDo
-      Object: 005B91:Starfield.esm
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ScenePuzzleSolved
+      Object: 005BA5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Scene_ArrivedAtTemple
       Object: 005B8C:Starfield.esm
@@ -501,246 +525,179 @@ VirtualMachineAdapter:
       Name: Scene_BarrettReplies
       Object: 005B8D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Temple_Player
+      Object: 002FAE:Starfield.esm
+      Alias: 133
+    - MutagenObjectType: ScriptObjectProperty
       Name: Scene_BarrettUsesPower
       Object: 005B8B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_CherishThem
-      Object: 005B94:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_HelloBarrett
-      Object: 005B8E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_InsideTemple
-      Object: 005B7E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_LosingPower
-      Object: 005B99:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_OtherBarrettAppears
-      Object: 005B8E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_OtherBarrettExitWarning
-      Object: 005B93:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_SolvedPuzzle
-      Object: 005B8B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: StarbornPerk
-      Object: 1D7053:Starfield.esm
+      Name: COM_BQ01_WaitToggle
+      Object: 09ACD6:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 2
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_0002_Item_00
   - Stage: 11
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
     FragmentName: Fragment_Stage_0011_Item_00
-  - Stage: 7401
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_7401_Item_00
-  - Stage: 8000
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8000_Item_00
-  - Stage: 8001
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8001_Item_00
-  - Stage: 8010
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8010_Item_00
-  - Stage: 8100
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8100_Item_00
-  - Stage: 8101
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8101_Item_00
-  - Stage: 8111
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8111_Item_00
-  - Stage: 8112
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8112_Item_00
-  - Stage: 8120
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8120_Item_00
-  - Stage: 8200
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8200_Item_00
-  - Stage: 8300
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8300_Item_00
-  - Stage: 8301
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8301_Item_00
-  - Stage: 8310
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8310_Item_00
-  - Stage: 8400
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8400_Item_00
-  - Stage: 8401
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8401_Item_00
-  - Stage: 8405
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8405_Item_00
-  - Stage: 8410
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8410_Item_00
-  - Stage: 8415
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8415_Item_00
-  - Stage: 8500
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8500_Item_00
   - Stage: 8501
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
     FragmentName: Fragment_Stage_8501_Item_00
-  - Stage: 8502
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8502_Item_00
-  - Stage: 8505
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8505_Item_00
   - Stage: 8510
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
     FragmentName: Fragment_Stage_8510_Item_00
-  - Stage: 8600
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8600_Item_00
-  - Stage: 8601
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8601_Item_00
-  - Stage: 8605
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8605_Item_00
-  - Stage: 8615
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8615_Item_00
-  - Stage: 8620
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8620_Item_00
-  - Stage: 8625
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8625_Item_00
   - Stage: 8700
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
     FragmentName: Fragment_Stage_8700_Item_00
-  - Stage: 8701
+  - Stage: 2
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8701_Item_00
-  - Stage: 8713
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8713_Item_00
-  - Stage: 8714
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8714_Item_00
-  - Stage: 8720
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8720_Item_00
+    FragmentName: Fragment_Stage_0002_Item_00
   - Stage: 8800
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
     FragmentName: Fragment_Stage_8800_Item_00
-  - Stage: 8801
+  - Stage: 8200
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8801_Item_00
-  - Stage: 8805
+    FragmentName: Fragment_Stage_8200_Item_00
+  - Stage: 8720
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8805_Item_00
-  - Stage: 8812
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8812_Item_00
-  - Stage: 8820
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8820_Item_00
-  - Stage: 8830
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8830_Item_00
-  - Stage: 8850
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8850_Item_00
+    FragmentName: Fragment_Stage_8720_Item_00
   - Stage: 8860
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
     FragmentName: Fragment_Stage_8860_Item_00
-  - Stage: 8900
+  - Stage: 8010
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8900_Item_00
-  - Stage: 8901
+    FragmentName: Fragment_Stage_8010_Item_00
+  - Stage: 8001
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8901_Item_00
-  - Stage: 8920
+    FragmentName: Fragment_Stage_8001_Item_00
+  - Stage: 8405
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8920_Item_00
-  - Stage: 8930
+    FragmentName: Fragment_Stage_8405_Item_00
+  - Stage: 8112
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_8930_Item_00
-  - Stage: 9000
+    FragmentName: Fragment_Stage_8112_Item_00
+  - Stage: 8600
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_9000_Item_00
-  - Stage: 9100
+    FragmentName: Fragment_Stage_8600_Item_00
+  - Stage: 8111
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
-    FragmentName: Fragment_Stage_9100_Item_00
+    FragmentName: Fragment_Stage_8111_Item_00
+  - Stage: 8100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8100_Item_00
+  - Stage: 8300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8300_Item_00
+  - Stage: 8401
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8401_Item_00
+  - Stage: 8410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8410_Item_00
   - Stage: 9200
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
     FragmentName: Fragment_Stage_9200_Item_00
+  - Stage: 8900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8900_Item_00
+  - Stage: 8310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8310_Item_00
+  - Stage: 8500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8500_Item_00
+  - Stage: 8713
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8713_Item_00
+  - Stage: 8101
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8101_Item_00
+  - Stage: 8601
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8601_Item_00
+  - Stage: 8120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8120_Item_00
+  - Stage: 7401
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_7401_Item_00
+  - Stage: 8625
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8625_Item_00
+  - Stage: 9000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_9000_Item_00
+  - Stage: 8502
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8502_Item_00
+  - Stage: 8620
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8620_Item_00
+  - Stage: 8615
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8615_Item_00
+  - Stage: 8830
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8830_Item_00
+  - Stage: 8701
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8701_Item_00
+  - Stage: 8605
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8605_Item_00
+  - Stage: 8415
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8415_Item_00
+  - Stage: 8000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8000_Item_00
+  - Stage: 8820
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8820_Item_00
+  - Stage: 8714
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8714_Item_00
   - Stage: 9999
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
@@ -749,23 +706,56 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
     FragmentName: Fragment_Stage_20000_Item_00
+  - Stage: 8812
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8812_Item_00
+  - Stage: 8850
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8850_Item_00
+  - Stage: 8801
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8801_Item_00
+  - Stage: 8920
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8920_Item_00
+  - Stage: 8400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8400_Item_00
+  - Stage: 8901
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8901_Item_00
+  - Stage: 9100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_9100_Item_00
+  - Stage: 8505
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8505_Item_00
+  - Stage: 8930
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8930_Item_00
+  - Stage: 8301
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8301_Item_00
+  - Stage: 8805
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
+    FragmentName: Fragment_Stage_8805_Item_00
   Aliases:
   - Property:
       Name: ''
       Object: 002FAE:Starfield.esm
       Alias: 5
     Scripts:
-    - Name: DefaultAliasOnItemAddedScriptA
-      Properties:
-      - MutagenObjectType: ScriptObjectProperty
-        Name: itemFilter
-        Object: 17C11F:Starfield.esm
-      - MutagenObjectType: ScriptBoolProperty
-        Name: ShowTraces
-        Data: True
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1228
     - Name: DefaultAliasOnItemAddedScriptB
       Properties:
       - MutagenObjectType: ScriptObjectProperty
@@ -788,6 +778,17 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 134
+    - Name: DefaultAliasOnItemAddedScriptA
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: itemFilter
+        Object: 17C11F:Starfield.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: ShowTraces
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1228
   - Property:
       Name: ''
       Object: 002FAE:Starfield.esm
@@ -801,6 +802,46 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 100
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 142
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 002FAE:Starfield.esm
+        Alias: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 8400
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 40
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8410
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 132
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 002FAE:Starfield.esm
+        Alias: 6
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 8501
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8502
   - Property:
       Name: ''
       Object: 002FAE:Starfield.esm
@@ -823,6 +864,25 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 8501
+  - Property:
+      Name: ''
+      Object: 002FAE:Starfield.esm
+      Alias: 139
+    Scripts:
+    - Name: DefaultAliasOnTriggerEnter
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: AliasesToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 002FAE:Starfield.esm
+          Alias: 6
+        - Name: ''
+          Object: 002FAE:Starfield.esm
+          Alias: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8410
   - Property:
       Name: ''
       Object: 002FAE:Starfield.esm
@@ -852,36 +912,6 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 002FAE:Starfield.esm
-      Alias: 132
-    Scripts:
-    - Name: defaultaliasondistancelessthan
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 8501
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 8502
-      - MutagenObjectType: ScriptObjectProperty
-        Name: TargetAlias
-        Object: 002FAE:Starfield.esm
-        Alias: 6
-      - MutagenObjectType: ScriptFloatProperty
-        Name: TargetDistance
-        Data: 15
-  - Property:
-      Name: ''
-      Object: 002FAE:Starfield.esm
-      Alias: 137
-    Scripts:
-    - Name: DefaultAliasOnActivateA
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 8405
-  - Property:
-      Name: ''
-      Object: 002FAE:Starfield.esm
       Alias: 138
     Scripts:
     - Name: DefaultAliasOnActivate
@@ -892,42 +922,13 @@ VirtualMachineAdapter:
   - Property:
       Name: ''
       Object: 002FAE:Starfield.esm
-      Alias: 139
+      Alias: 137
     Scripts:
-    - Name: DefaultAliasOnTriggerEnter
-      Properties:
-      - MutagenObjectType: ScriptObjectListProperty
-        Name: AliasesToCheckAgainst
-        Objects:
-        - Name: ''
-          Object: 002FAE:Starfield.esm
-          Alias: 6
-        - Name: ''
-          Object: 002FAE:Starfield.esm
-          Alias: 5
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 8410
-  - Property:
-      Name: ''
-      Object: 002FAE:Starfield.esm
-      Alias: 142
-    Scripts:
-    - Name: defaultaliasondistancelessthan
+    - Name: DefaultAliasOnActivateA
       Properties:
       - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 8400
-      - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
-        Data: 8410
-      - MutagenObjectType: ScriptObjectProperty
-        Name: TargetAlias
-        Object: 002FAE:Starfield.esm
-        Alias: 5
-      - MutagenObjectType: ScriptFloatProperty
-        Name: TargetDistance
-        Data: 40
+        Data: 8405
 Name:
   TargetLanguage: English
   Values:
@@ -3196,7 +3197,6 @@ Aliases:
     - MutagenObjectType: ConditionGlobal
       CompareOperator: LessThan
       Unknown1: 0x000000
-      Unknown2: 17620
       Data:
         MutagenObjectType: GetDistanceGalacticLightYearsConditionData
         FirstParameter: 012894:Starfield.esm
@@ -3204,13 +3204,11 @@ Aliases:
     - MutagenObjectType: ConditionFloat
       CompareOperator: LessThanOrEqualTo
       Unknown1: 0x000000
-      Unknown2: 17620
       Data:
         MutagenObjectType: GetLevelConditionData
       ComparisonValue: 40
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
-      Unknown2: 17620
       Data:
         MutagenObjectType: IsTrueForConditionFormConditionData
         FirstParameter: 12C5AB:Starfield.esm
@@ -3228,7 +3226,6 @@ Aliases:
   Conditions:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
-    Unknown2: 17620
     Data:
       MutagenObjectType: IsInSameCurrentLocationAsAliasConditionData
       FirstParameter: 96
@@ -3236,7 +3233,6 @@ Aliases:
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
-    Unknown2: 17620
     Data:
       MutagenObjectType: LocationHasKeywordConditionData
       FirstParameter: 070A54:Starfield.esm
@@ -3465,7 +3461,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 141
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked

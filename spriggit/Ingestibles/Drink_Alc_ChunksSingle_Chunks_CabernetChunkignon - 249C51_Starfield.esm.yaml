@@ -1,5 +1,6 @@
 FormKey: 249C51:Starfield.esm
 EditorID: Drink_Alc_ChunksSingle_Chunks_CabernetChunkignon
+FormVersion: 559
 ObjectBounds:
   First: -0.03698723, -0.037590384, -0.0020918734
   Second: 0.03698738, 0.038154244, 0.062330734
@@ -115,8 +116,8 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm

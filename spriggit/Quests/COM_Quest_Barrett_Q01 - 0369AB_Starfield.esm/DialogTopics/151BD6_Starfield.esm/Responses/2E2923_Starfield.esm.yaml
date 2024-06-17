@@ -1,4 +1,5 @@
 FormKey: 2E2923:Starfield.esm
+FormVersion: 559
 Flags: {}
 Responses:
 - Emotion: 0D755E:Starfield.esm
@@ -32,6 +33,7 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   CompareOperator: GreaterThanOrEqualTo
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetValueConditionData
     RunOnType: Reference
@@ -40,6 +42,7 @@ Conditions:
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: HasPerkConditionData
     RunOnType: Reference

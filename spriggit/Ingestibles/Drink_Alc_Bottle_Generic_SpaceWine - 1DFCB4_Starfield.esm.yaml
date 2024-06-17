@@ -1,5 +1,6 @@
 FormKey: 1DFCB4:Starfield.esm
 EditorID: Drink_Alc_Bottle_Generic_SpaceWine
+FormVersion: 559
 ObjectBounds:
   First: -0.05316162, -0.04751587, 3.0517578E-05
   Second: 0.05316162, 0.04751587, 0.25976562
@@ -112,8 +113,8 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm

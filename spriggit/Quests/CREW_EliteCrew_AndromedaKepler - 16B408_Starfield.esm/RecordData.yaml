@@ -1,5 +1,6 @@
 FormKey: 16B408:Starfield.esm
 EditorID: CREW_EliteCrew_AndromedaKepler
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: Crew_EliteCrewQuestScript
@@ -9,11 +10,11 @@ VirtualMachineAdapter:
       Object: 16B408:Starfield.esm
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: Crew_HireSpeechChallengeAttempted
-      Object: 2636B7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Crew_RecruitCost_TextReplacementValue
       Object: 27072B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_HireSpeechChallengeAttempted
+      Object: 2636B7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerShip
       Object: 0174A2:Starfield.esm
@@ -22,11 +23,11 @@ VirtualMachineAdapter:
       Name: SQ_Crew
       Object: 2A567D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: TRAIT_Taskmaster
       Object: 227FE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
     Properties:
@@ -41,10 +42,6 @@ VirtualMachineAdapter:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 1
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
-    FragmentName: Fragment_Stage_0001_Item_00
   - Stage: 50
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
@@ -58,6 +55,10 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
     FragmentName: Fragment_Stage_0100_Item_01
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
+    FragmentName: Fragment_Stage_0001_Item_00
   - Stage: 500
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_CREW_EliteCrew_AndromedaK_0016B408
@@ -93,8 +94,8 @@ TextDisplayGlobals:
 - 27072B:Starfield.esm
 DialogConditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 17620
+  Unknown1: 0x8C1400
+  Unknown2: 16650
   Data:
     MutagenObjectType: GetIsIDConditionData
     FirstParameter: 16B3D3:Starfield.esm
@@ -274,3 +275,4 @@ Aliases:
     Quest: 2A567D:Starfield.esm
     AliasID: 30
   VoiceTypes: Null
+Timestamp: 12497

@@ -1,5 +1,5 @@
 FormKey: 15DA45:Starfield.esm
-FormVersion: 556
+FormVersion: 559
 Flags:
   Flags:
   - Random
@@ -53,6 +53,7 @@ Responses:
 Conditions:
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 26FDEA:Starfield.esm
@@ -60,20 +61,24 @@ Conditions:
   Flags:
   - OR
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: IsTimeSpanSunsetConditionData
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: IsTimeSpanNightConditionData
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: IsTimeSpanMidnightConditionData
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
+  Unknown2: 16493
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 239CE7:Starfield.esm

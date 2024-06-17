@@ -1,16 +1,19 @@
 FormKey: 2AF54E:Starfield.esm
 EditorID: COM_CND_DIAL_PickupDismiss_Positive
+FormVersion: 559
 Conditions:
 - MutagenObjectType: ConditionGlobal
   CompareOperator: LessThanOrEqualTo
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: GetValueConditionData
     FirstParameter: 186898
   ComparisonValue: 010919:Starfield.esm
 - MutagenObjectType: ConditionGlobal
   CompareOperator: LessThan
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: GetValueConditionData
     FirstParameter: 2842312

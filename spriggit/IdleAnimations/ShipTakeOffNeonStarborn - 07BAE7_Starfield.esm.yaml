@@ -1,9 +1,10 @@
 FormKey: 07BAE7:Starfield.esm
 EditorID: ShipTakeOffNeonStarborn
-FormVersion: 556
+FormVersion: 559
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
+  Unknown1: 0x7A5600
+  Unknown2: 86
   Data:
     MutagenObjectType: HasKeywordConditionData
     FirstParameter: 33DB7A:Starfield.esm
@@ -11,7 +12,8 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x000000
+  Unknown1: 0x7A5600
+  Unknown2: 86
   Data:
     MutagenObjectType: HasKeywordConditionData
     RunOnType: Target
@@ -20,7 +22,8 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x000000
+  Unknown1: 0x7A5600
+  Unknown2: 86
   Data:
     MutagenObjectType: HasKeywordConditionData
     RunOnType: Target

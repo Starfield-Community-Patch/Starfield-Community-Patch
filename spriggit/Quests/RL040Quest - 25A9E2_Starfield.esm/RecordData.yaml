@@ -1,5 +1,6 @@
 FormKey: 25A9E2:Starfield.esm
 EditorID: RL040Quest
+FormVersion: 559
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_RL040Quest_0025A9E2
@@ -34,14 +35,14 @@ VirtualMachineAdapter:
       Name: RL040Quest_VictimScene
       Object: 25C91C:Starfield.esm
   Fragments:
-  - Stage: 10
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_RL040Quest_0025A9E2
-    FragmentName: Fragment_Stage_0010_Item_00
   - Stage: 20
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RL040Quest_0025A9E2
     FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RL040Quest_0025A9E2
+    FragmentName: Fragment_Stage_0010_Item_00
   - Stage: 30
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_RL040Quest_0025A9E2

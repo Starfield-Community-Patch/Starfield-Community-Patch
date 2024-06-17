@@ -1,5 +1,6 @@
 FormKey: 243FA5:Starfield.esm
 EditorID: NOCLUTTER_City_NA_Viewport01_Drink_Alc_ExclMenuItem_Viewport_Supernova
+FormVersion: 559
 ObjectBounds:
   First: -0.031982422, -0.031903993, 0
   Second: 0.031982422, 0.03206085, 0.17114258
@@ -88,8 +89,8 @@ Effects:
     Duration: 300
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1BBAB0:Starfield.esm
@@ -121,8 +122,8 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm

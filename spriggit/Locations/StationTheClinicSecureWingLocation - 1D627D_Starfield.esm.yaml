@@ -1,70 +1,7 @@
 FormKey: 1D627D:Starfield.esm
 EditorID: StationTheClinicSecureWingLocation
-MasterPersistLocationReferences:
-- Actor: 02130F:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- Actor: 2E2F30:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-MasterSpecialReferences:
-- LocationRefType: 170BC4:Starfield.esm
-  Marker: 172260:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 0106A7:Starfield.esm
-  Marker: 0106A8:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 04CE8E:Starfield.esm
-  Marker: 02130F:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 04CE8F:Starfield.esm
-  Marker: 021315:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 173AD6:Starfield.esm
-  Marker: 173AD7:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 1A7982:Starfield.esm
-  Marker: 1A7983:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 173ACE:Starfield.esm
-  Marker: 173ACF:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 2E2F31:Starfield.esm
-  Marker: 2E2F30:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 04E012:Starfield.esm
-  Marker: 04CE92:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 1A7988:Starfield.esm
-  Marker: 155BF3:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 173AD3:Starfield.esm
-  Marker: 173AD4:Starfield.esm
-  Location: 155C6B:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
+FormVersion: 559
+AddedSpecialReferences:
 - LocationRefType: 04CE8E:Starfield.esm
   Marker: 02130F:Starfield.esm
   Location: 155C6B:Starfield.esm
@@ -75,9 +12,7 @@ MasterSpecialReferences:
   Location: 155C6B:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-MasterInitiallyDisabledReferences:
-- 2E2F30:Starfield.esm
-- 2E2F30:Starfield.esm
+AddedInitiallyDisabledReferences:
 - 2E2F30:Starfield.esm
 Name:
   TargetLanguage: English

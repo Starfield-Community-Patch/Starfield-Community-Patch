@@ -1,5 +1,6 @@
 FormKey: 249C1E:Starfield.esm
 EditorID: NOCLUTTER_Drink_Alc_ExclMenuItem_RedMile_RunnersRush
+FormVersion: 559
 ObjectBounds:
   First: -0.034088135, -0.03408815, 4.0672603E-09
   Second: 0.034088135, 0.03411865, 0.14843749
@@ -114,8 +115,8 @@ Effects:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
-    Unknown2: 17639
+    Unknown1: 0x8D1400
+    Unknown2: 16650
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm

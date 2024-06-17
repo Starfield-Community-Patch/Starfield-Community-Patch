@@ -1,6 +1,6 @@
 FormKey: 240431:Starfield.esm
 EditorID: DialogueNewHomestead
-FormVersion: 556
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -61,26 +61,85 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_DialogueNewHomestead_00240431
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadR04
-      Object: 21B1FA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_TourPrice
-      Object: 00B51D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: FFNewHomesteadZ00Misc
       Object: 2D2621:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadR04MiscQuestStartKeyword
-      Object: 146259:Starfield.esm
+      Name: Alias_Bill
+      Object: 240431:Starfield.esm
+      Alias: 3
     - MutagenObjectType: ScriptObjectProperty
       Name: DialogueNewHomestead_EstablishingScene01
       Object: 21C6A0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR02QuestStartKeyword
+      Object: 21A87C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Luthor
+      Object: 240431:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Joyce
+      Object: 240431:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR04QuestStartKeyword
+      Object: 21B1C9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR04
+      Object: 21B1FA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Cutter
       Object: 016758:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01
+      Object: 21710B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR04Misc
+      Object: 14629A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NH_SouvenirSlate
+      Object: 165BF3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01Misc
+      Object: 00B78A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01QuestStartKeyword
+      Object: 00B557:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR05QuestStartKeyword
+      Object: 21952A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR05
+      Object: 21952E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BillIntroMarker
+      Object: 240431:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR05Misc
+      Object: 14629C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR02
+      Object: 21A8B0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: FFNewHomesteadR02Misc
       Object: 14629B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueNewHomestead_GreeterGuard_IntroScene
+      Object: 2D26A1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadR04MiscQuestStartKeyword
+      Object: 146259:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GiulianaIntroMarker
+      Object: 240431:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_TourPrice
+      Object: 00B51D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Giuliana
       Object: 240431:Starfield.esm
@@ -89,67 +148,8 @@ VirtualMachineAdapter:
       Name: FFNewHomesteadR05_Foreknowledge_AV
       Object: 025CCA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadR02QuestStartKeyword
-      Object: 21A87C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadR02
-      Object: 21A8B0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Bill
-      Object: 240431:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01
-      Object: 21710B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Joyce
-      Object: 240431:Starfield.esm
-      Alias: 7
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadR04Misc
-      Object: 14629A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadR04QuestStartKeyword
-      Object: 21B1C9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01QuestStartKeyword
-      Object: 00B557:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Luthor
-      Object: 240431:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadR05QuestStartKeyword
-      Object: 21952A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadR05
-      Object: 21952E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_GiulianaIntroMarker
-      Object: 240431:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BillIntroMarker
-      Object: 240431:Starfield.esm
-      Alias: 17
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01Misc
-      Object: 00B78A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadR05Misc
-      Object: 14629C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: NH_AdrianCredits
       Object: 149A0B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueNewHomestead_GreeterGuard_IntroScene
-      Object: 2D26A1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NH_SouvenirSlate
-      Object: 165BF3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
   Fragments:
   - Stage: 500
     Unknown2: 1
@@ -864,7 +864,7 @@ Aliases:
   VoiceTypes: Null
 - MutagenObjectType: QuestReferenceAlias
   ID: 19
-  Name: companion
+  Name: Companion
   Flags:
   - Optional
   - ExternalAliasLinked
@@ -954,3 +954,4 @@ Aliases:
       PackageData:
       - 06A03F:Starfield.esm
       VoiceTypes: Null
+Timestamp: 12497

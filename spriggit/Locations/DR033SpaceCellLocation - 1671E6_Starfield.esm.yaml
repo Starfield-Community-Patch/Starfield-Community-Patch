@@ -1,21 +1,10 @@
 FormKey: 1671E6:Starfield.esm
 EditorID: DR033SpaceCellLocation
-MasterPersistLocationReferences:
-- Actor: 0AE91B:Starfield.esm
-  Location: 16728F:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-LocationCellUniqueReferences:
+FormVersion: 559
+AddedUniqueBaseForms:
 - GenericBaseForm: 08CE68:Starfield.esm
   Ref: 0AE91B:Starfield.esm
   Location: 1671E6:Starfield.esm
-MasterUniqueNpcs: []
-MasterSpecialReferences:
-- LocationRefType: 02271F:Starfield.esm
-  Marker: 166EDB:Starfield.esm
-  Location: 16728F:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
 Name:
   TargetLanguage: English
   Values:

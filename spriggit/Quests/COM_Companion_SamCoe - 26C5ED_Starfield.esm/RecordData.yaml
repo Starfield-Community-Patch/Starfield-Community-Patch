@@ -1,39 +1,41 @@
 FormKey: 26C5ED:Starfield.esm
 EditorID: COM_Companion_SamCoe
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
   - Name: com_companionquestscript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Companion
-      Object: 26C5ED:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerShipCrewMarker
-      Object: 26C5ED:Starfield.esm
-      Alias: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerShipInteriorLocation
-      Object: 26C5ED:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CommitmentQuest
-      Object: 0DF7AD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: CompanionCheckPerk
       Object: 1C514D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Companion_Andreja
-      Object: 0059A7:Starfield.esm
+      Name: PersonalQuest
+      Object: 263262:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AffinityLevel_1_Friendship
-      Object: 00D84F:Starfield.esm
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentDesired
+      Object: 27B78B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsCommitted
+      Object: 27B78C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCooldownDays
+      Object: 1EA0D5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerSecondChances
+      Object: 2C7AE7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCooldownExpiry
+      Object: 1EA0D6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_AffinityLevel_2_Affection
       Object: 00D84E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AffinityLevel_3_Commitment
-      Object: 2B5EC9:Starfield.esm
+      Name: Alias_PlayerShipInteriorLocation
+      Object: 26C5ED:Starfield.esm
+      Alias: 3
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_AngerCoolDownTimerExpired
       Object: 2C8DF2:Starfield.esm
@@ -41,35 +43,30 @@ VirtualMachineAdapter:
       Name: COM_AngerSceneCompleted
       Object: 2C7AE3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AngerSecondChances
-      Object: 2C7AE7:Starfield.esm
+      Name: Alias_PlayerShipCrewMarker
+      Object: 26C5ED:Starfield.esm
+      Alias: 2
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CommitmentDesired
-      Object: 27B78B:Starfield.esm
+      Name: WantsToTalkAnnouncementScene
+      Object: 26BDB4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CommitmentPossible
-      Object: 03016D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CommitmentQuest_Started
-      Object: 030167:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CommitmentRefusedPermanently
-      Object: 2B5ED0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CurrentStoryGateTimerExpired
-      Object: 2B9007:Starfield.esm
+      Name: WantsToTalkConditionForm
+      Object: 2BCB91:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_Event_PlayerBecomesRomantic_AndrejaJealous
       Object: 3EAD2E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_FlirtChoice
-      Object: 1EA0D4:Starfield.esm
+      Name: COM_IsRomantic
+      Object: 2BFAB9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_FlirtCooldownDays
-      Object: 1EA0D5:Starfield.esm
+      Name: COM_CommitmentRefusedPermanently
+      Object: 2B5ED0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_FlirtCooldownExpiry
-      Object: 1EA0D6:Starfield.esm
+      Name: COM_CommitmentPossible
+      Object: 03016D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Companion_Andreja
+      Object: 0059A7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_FlirtCount
       Object: 2C8E56:Starfield.esm
@@ -77,37 +74,38 @@ VirtualMachineAdapter:
       Name: COM_HasBeenRomantic
       Object: 2B4321:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_IsCommitted
-      Object: 27B78C:Starfield.esm
+      Name: COM_CurrentStoryGateTimerExpired
+      Object: 2B9007:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_IsRomantic
-      Object: 2BFAB9:Starfield.esm
+      Name: COM_CommitmentQuest_Started
+      Object: 030167:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_PersonalQuest_Finished
       Object: 073743:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: COM_StarbornSaveActorValue_MaxStoryGate
+      Object: 31C39C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: COM_PersonalQuest_Started
       Object: 073742:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_StarbornSaveActorValue_MaxStoryGate
-      Object: 31C39C:Starfield.esm
+      Name: COM_AffinityLevel_3_Commitment
+      Object: 2B5EC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentQuest
+      Object: 0DF7AD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_StoryGatesCompleted
       Object: 2B9006:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PersonalQuest
-      Object: 263262:Starfield.esm
+      Name: Alias_Companion
+      Object: 26C5ED:Starfield.esm
+      Alias: 0
     - MutagenObjectType: ScriptObjectListProperty
       Name: PrioritizedAngerReasons
       Objects:
       - Name: ''
         Object: 2C2A36:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
     - MutagenObjectType: ScriptStructListProperty
       Name: StoryGateData
       Structs:
@@ -168,11 +166,14 @@ VirtualMachineAdapter:
           Name: TimerDuration
           Object: 2B9017:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: WantsToTalkAnnouncementScene
-      Object: 26BDB4:Starfield.esm
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: WantsToTalkConditionForm
-      Object: 2BCB91:Starfield.esm
+      Name: COM_FlirtChoice
+      Object: 1EA0D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_1_Friendship
+      Object: 00D84F:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
     Properties:
@@ -196,70 +197,34 @@ VirtualMachineAdapter:
       Name: CREW_Ship_Piloting
       Object: 2CE1A0:Starfield.esm
   Fragments:
-  - Stage: 105
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0105_Item_00
-  - Stage: 110
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0110_Item_00
-  - Stage: 115
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0115_Item_00
-  - Stage: 120
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0120_Item_00
-  - Stage: 205
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0205_Item_00
-  - Stage: 210
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0210_Item_00
-  - Stage: 215
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0215_Item_00
-  - Stage: 305
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0305_Item_00
-  - Stage: 310
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0310_Item_00
-  - Stage: 315
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0315_Item_00
-  - Stage: 320
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0320_Item_00
-  - Stage: 505
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0505_Item_00
-  - Stage: 510
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0510_Item_00
   - Stage: 515
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
     FragmentName: Fragment_Stage_0515_Item_00
+  - Stage: 801
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0801_Item_00
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0105_Item_00
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0310_Item_00
+  - Stage: 799
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0799_Item_00
   - Stage: 605
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
     FragmentName: Fragment_Stage_0605_Item_00
-  - Stage: 610
+  - Stage: 210
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0610_Item_00
+    FragmentName: Fragment_Stage_0210_Item_00
   - Stage: 615
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
@@ -268,26 +233,34 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
     FragmentName: Fragment_Stage_0620_Item_00
-  - Stage: 650
+  - Stage: 315
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0650_Item_00
+    FragmentName: Fragment_Stage_0315_Item_00
+  - Stage: 505
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0505_Item_00
+  - Stage: 205
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0205_Item_00
+  - Stage: 215
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0215_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0510_Item_00
   - Stage: 750
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
     FragmentName: Fragment_Stage_0750_Item_00
-  - Stage: 798
+  - Stage: 610
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0798_Item_00
-  - Stage: 799
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0799_Item_00
-  - Stage: 801
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
-    FragmentName: Fragment_Stage_0801_Item_00
+    FragmentName: Fragment_Stage_0610_Item_00
   - Stage: 802
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
@@ -296,6 +269,34 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
     FragmentName: Fragment_Stage_0820_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0650_Item_00
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0115_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 798
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0798_Item_00
+  - Stage: 305
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0305_Item_00
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
+    FragmentName: Fragment_Stage_0320_Item_00
   - Stage: 825
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Companion_SamCoe_0026C5ED
@@ -335,8 +336,8 @@ DialogConditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x000000
-  Unknown2: 17620
+  Unknown1: 0x8C1400
+  Unknown2: 16650
   Data:
     MutagenObjectType: GetIsAliasRefConditionData
   ComparisonValue: 1
@@ -873,3 +874,4 @@ Aliases:
   ALFG: 0
   ForcedReference: 21D003:Starfield.esm
   VoiceTypes: Null
+Timestamp: 12497

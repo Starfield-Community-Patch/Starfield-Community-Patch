@@ -1,7 +1,42 @@
 FormKey: 0DF7AD:Starfield.esm
 EditorID: COM_Quest_SamCoe_Commitment
+FormVersion: 559
 VirtualMachineAdapter:
   Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 800
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 0DF7AD:Starfield.esm
+          Alias: 7
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 9000
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 100
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 0DF7AD:Starfield.esm
+          Alias: 7
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 150
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
   - Name: com_commitmentquestscript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
@@ -18,129 +53,86 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Companions
       Object: 2A567C:Starfield.esm
-  - Name: defaultquestchangelocationscript
-    Properties:
-    - MutagenObjectType: ScriptStructListProperty
-      Name: ChangeLocationStages
-      Structs:
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 800
-        - MutagenObjectType: ScriptBoolProperty
-          Name: SetStageOnEnterLocation
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 9000
-        - MutagenObjectType: ScriptObjectProperty
-          Name: targetLocationAlias
-          Object: 0DF7AD:Starfield.esm
-          Alias: 7
-      - Members:
-        - MutagenObjectType: ScriptIntProperty
-          Name: PrereqStage
-          Data: 100
-        - MutagenObjectType: ScriptBoolProperty
-          Name: RequireExactLocation
-        - MutagenObjectType: ScriptIntProperty
-          Name: StageToSet
-          Data: 150
-        - MutagenObjectType: ScriptObjectProperty
-          Name: targetLocationAlias
-          Object: 0DF7AD:Starfield.esm
-          Alias: 7
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
     Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AhnjongSinclair
-      Object: 0DF7AD:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CoraCoe
-      Object: 0DF7AD:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EliasCartwright
-      Object: 0DF7AD:Starfield.esm
-      Alias: 4
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_JacobCoe
-      Object: 0DF7AD:Starfield.esm
-      Alias: 2
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_LillianHart
       Object: 0DF7AD:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentCeremonyMarker_Jacob
+      Object: 0DF484:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SamCoe
       Object: 0DF7AD:Starfield.esm
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: CommitmentCeremonyEnableMarker
-      Object: 0E56D1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: CommitmentCeremonyMarker_Elias
       Object: 0DF487:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CommitmentCeremonyMarker_Jacob
-      Object: 0DF484:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CommitmentCeremonyMarker_Player
-      Object: 0DF486:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CommitmentCeremonyMarker_Sam
-      Object: 0DF485:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Commitment_OverrideMarker
-      Object: 1BE9E7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Commitment_SamCoe_0325_CoraSinclair_BarkScene
-      Object: 0DF48B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Commitment_SamCoe_Cora_Start_Marker
-      Object: 1BE9EA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Commitment_SamCoe_Marker_RoundUp_Cora
-      Object: 0DF47A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Commitment_SamCoe_Marker_RoundUp_Lillian
-      Object: 0DF47B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Commitment_SamCoe_Player_Start_Marker
-      Object: 1BE9E9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Commitment_SamCoe_PreCeremony
-      Object: 0DF481:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Commitment_SamCoe_RoundUp
-      Object: 0DF47F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Commitment_SamCoe_State
       Object: 0DF47D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentCeremonyMarker_Player
+      Object: 0DF486:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: COM_CQ_TxtReplace_QuestName_SamCoe
       Object: 2CCF99:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrewReassignDisabled
-      Object: 172F8E:Starfield.esm
+      Name: Alias_AhnjongSinclair
+      Object: 0DF7AD:Starfield.esm
+      Alias: 5
     - MutagenObjectType: ScriptObjectProperty
-      Name: DisembarkingCrew
-      Object: 0174A2:Starfield.esm
-      Alias: 29
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_0325_CoraSinclair_BarkScene
+      Object: 0DF48B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EliasCartwright
+      Object: 0DF7AD:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_OverrideMarker
+      Object: 1BE9E7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentCeremonyEnableMarker
+      Object: 0E56D1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_Marker_RoundUp_Cora
+      Object: 0DF47A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_Player_Start_Marker
+      Object: 1BE9E9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoraCoe
+      Object: 0DF7AD:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_PreCeremony
+      Object: 0DF481:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_Marker_RoundUp_Lillian
+      Object: 0DF47B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_RoundUp
+      Object: 0DF47F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JacobCoe
+      Object: 0DF7AD:Starfield.esm
+      Alias: 2
     - MutagenObjectType: ScriptObjectProperty
       Name: DismissedCrew
       Object: 0174A2:Starfield.esm
       Alias: 24
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Crew
-      Object: 2A567D:Starfield.esm
+      Name: DisembarkingCrew
+      Object: 0174A2:Starfield.esm
+      Alias: 29
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Followers
       Object: 00D773:Starfield.esm
@@ -148,46 +140,39 @@ VirtualMachineAdapter:
       Name: Alias_CoeMainDoor
       Object: 0DF7AD:Starfield.esm
       Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Commitment_SamCoe_Cora_Start_Marker
+      Object: 1BE9EA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentCeremonyMarker_Sam
+      Object: 0DF485:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrewReassignDisabled
+      Object: 172F8E:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
     FragmentName: Fragment_Stage_0000_Item_00
-  - Stage: 100
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
-    FragmentName: Fragment_Stage_0100_Item_00
-  - Stage: 150
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
-    FragmentName: Fragment_Stage_0150_Item_00
-  - Stage: 200
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
-    FragmentName: Fragment_Stage_0200_Item_00
-  - Stage: 300
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
-    FragmentName: Fragment_Stage_0300_Item_00
-  - Stage: 325
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
-    FragmentName: Fragment_Stage_0325_Item_00
-  - Stage: 400
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
-    FragmentName: Fragment_Stage_0400_Item_00
   - Stage: 500
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
     FragmentName: Fragment_Stage_0500_Item_00
-  - Stage: 600
-    Unknown2: 1
-    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
-    FragmentName: Fragment_Stage_0600_Item_00
   - Stage: 700
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
     FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0600_Item_00
   - Stage: 800
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
@@ -196,6 +181,22 @@ VirtualMachineAdapter:
     Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
     FragmentName: Fragment_Stage_9000_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 325
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_COM_Quest_SamCoe_Commitme_000DF7AD
+    FragmentName: Fragment_Stage_0325_Item_00
   Aliases:
   - Property:
       Name: ''
@@ -204,19 +205,19 @@ VirtualMachineAdapter:
     Scripts:
     - Name: defaultaliasondistancelessthan
       Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 200
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 325
       - MutagenObjectType: ScriptObjectProperty
         Name: TargetAlias
         Object: 0DF7AD:Starfield.esm
         Alias: 8
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 200
       - MutagenObjectType: ScriptFloatProperty
         Name: TargetDistance
         Data: 20
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 325
 Name:
   TargetLanguage: English
   Values:

@@ -1,23 +1,27 @@
 FormKey: 333D8D:Starfield.esm
 EditorID: COM_CND_DIAL_Personal_Romance
+FormVersion: 559
 Conditions:
 - MutagenObjectType: ConditionFloat
   CompareOperator: GreaterThanOrEqualTo
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: GetValueConditionData
     FirstParameter: 2882233
   ComparisonValue: 1
 - MutagenObjectType: ConditionGlobal
   CompareOperator: GreaterThanOrEqualTo
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: GetValueConditionData
     FirstParameter: 2842312
   ComparisonValue: 00D84E:Starfield.esm
 - MutagenObjectType: ConditionGlobal
   CompareOperator: LessThanOrEqualTo
-  Unknown1: 0x000000
+  Unknown1: 0x8D1400
+  Unknown2: 86
   Data:
     MutagenObjectType: GetValueConditionData
     FirstParameter: 186898
