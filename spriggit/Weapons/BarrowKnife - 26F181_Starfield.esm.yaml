@@ -1,0 +1,190 @@
+FormKey: 26F181:Starfield.esm
+EditorID: BarrowKnife
+FormVersion: 559
+Version2: 11
+ObjectBounds:
+  First: -0.015716553, -0.039520264, -0.085510254
+  Second: 0.015716553, 0.039520264, 0.3251953
+ODTY: 0
+Transforms:
+  InventoryIcon: 2EFD81:Starfield.esm
+  Inventory: 039A28:Starfield.esm
+  Workbench: 2EFD7E:Starfield.esm
+  MainGameUI: 2BE581:Starfield.esm
+Components:
+- MutagenObjectType: EffectSequenceComponent
+  REFL: 0x4245544808000000040000000900000053545254A400000042475345666665637453657175656E6365466F726D436F6D706F6E656E740075704D61700045666665637453657175656E63654D61700053657175656E6365730070506172656E74466F726D0045666665637453657175656E63654D61704D657461646174610054696D656C696E65537461727454696D650054696D656C696E65556E697473506572506978656C004D61704D65746164617461004D6574616461746100545950450400000003000000434C41533C0000002500000000000000000004003700000004FFFFFF080030004100000005FFFFFF480008008F0000004D000000500008009B00000004FFFFFF58005800434C4153180000000000000000000000000001001F00000005FFFFFF48000800434C4153240000004D00000000000000000002006700000011FFFFFF000004007900000011FFFFFF040004004F424A541800000000000000250000000DFFFFFF00000000000000000000803F4D4150430C00000001FFFFFF01FFFFFF000000004D4150430C00000001FFFFFF01FFFFFF00000000
+- MutagenObjectType: ParticleSystemComponent
+  PTCL: 0x42455448080000000400000007000000535452542F0000005061727469636C65466F726D436F6D706F6E656E7400446566696E6573005265666572656E6365446566696E657300545950450400000001000000434C4153240000000000000000000000000002001600000003FFFFFF400018001E00000003FFFFFF580018004F424A5404000000000000004C4953540800000001FFFFFF000000004C4953540800000001FFFFFF00000000
+Name:
+  TargetLanguage: English
+  Value: Barrow Knife
+Model:
+  File: Weapons\BarrowKnife\barrowknife.nif
+  FLLD: 0x01000000
+EquipmentType: 013F45:Starfield.esm
+AlternateBlockMaterial: 0D525E:Starfield.esm
+PickupSound:
+  Start: 467042a4-18b3-03e1-c466-0c8fd79a4fb1
+DropdownSound:
+  Start: 13134dbb-97f3-2d76-ce72-910bd19c05a3
+Keywords:
+- 00B0A1:Starfield.esm
+- 0143AA:Starfield.esm
+- 230326:Starfield.esm
+- 244895:Starfield.esm
+- 1F70E7:Starfield.esm
+- 077C2C:Starfield.esm
+- 0F4AEA:Starfield.esm
+- 23771E:Starfield.esm
+- 2811D0:Starfield.esm
+- 04A0A4:Starfield.esm
+- 0245A3:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+InstanceNaming: 2FBE25:Starfield.esm
+AttachParentSlots:
+- 1E32C8:Starfield.esm
+- 329ABC:Starfield.esm
+- 329ABD:Starfield.esm
+- 2FB3C0:Starfield.esm
+- 2FB3C2:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Fallback
+  Default: True
+  Includes:
+  - Mod: 2FB414:Starfield.esm
+    DontUseAll: True
+  - Mod: 2FB41A:Starfield.esm
+    DontUseAll: True
+  - Mod: 2EF2BC:Starfield.esm
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: UpgradeLow
+  AddonIndex: 0
+  LevelMin: 12
+  LevelMax: 23
+  Keywords:
+  - 2FB491:Starfield.esm
+  Includes:
+  - Mod: 2FB46E:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: UpgradeMed
+  AddonIndex: 1
+  LevelMin: 24
+  LevelMax: 35
+  Includes:
+  - Mod: 2FB46E:Starfield.esm
+    DontUseAll: True
+  - Mod: 2FB46F:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: UpgradeHigh
+  AddonIndex: 2
+  LevelMin: 36
+  Includes:
+  - Mod: 2FB46E:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 2FB46F:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: FoldedSteel
+  AddonIndex: 0
+  LevelMin: 12
+  LevelMax: 24
+  Keywords:
+  - 2FB493:Starfield.esm
+  Includes:
+  - Mod: 2FB410:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: AlienBone
+  AddonIndex: 0
+  LevelMin: 30
+  Keywords:
+  - 2FB494:Starfield.esm
+  Includes:
+  - Mod: 2FB416:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Simple
+  AddonIndex: 0
+  Keywords:
+  - 28C0C8:Starfield.esm
+EmbeddedWeaponMod: Null
+SightedTransitionSeconds: 0.25
+MeleeAimAssistModel: 1E810B:Starfield.esm
+ReticleType: 1
+ProjectilesCount: 1
+WAM2Unknown1: 1
+MeleeOrCreature:
+  Start: f5e84b52-ee28-c2bc-7adc-c792180945a1
+PrimedExplosive: {}
+DryFire: {}
+Idle: {}
+Equip:
+  Start: 26884133-215f-9a96-ffe7-9d26fb7308a5
+Unequip:
+  Start: f01f4089-c4b1-9be1-adb1-5f48b25ccfa4
+FastEquip: {}
+SoundLevel: Normal
+WAUDUnknown2: 1
+WTUR: 0x00000034C3000034430000B4C20000B44200003443000034430000803F
+ChargeCritBonus: 1
+AttackDamage: 22
+OutOfRangeDamageMult: 1
+CritDamageMult: 2
+CritEffectOnDeathOnly: True
+HitBehavior: DismemberOnly
+WDMGUnknown4: 1
+WDMGUnknown5: 1
+WDMGUnknown6: 1
+WDMGUnknown7: 1
+WDMGUnknown8: 1
+WDMGUnknown9: 1
+CritChanceIncMult: 1
+DamageTypes:
+- DamageType: 208DCD:Starfield.esm
+  Value: 1
+AttackSeconds: 2.016667
+TriggerThresholdPrimaryTrigger: 0.33
+TriggerThresholdSecondStage: 0.33
+BurstDelaySeconds: 0.3
+WGENUnknown1: 2
+BaseWeight: 0.34
+BaseValue: 1220
+BaseSpeed: 1
+AttackOxygenCost: 40
+WMELUnknown1: 4
+MeleeReach: 0.6
+MeleeStagger: Small
+QNAMUnknown5: 1
+ReloadSpeed: 1
+FirstPersonModel:
+  File: Weapons\BarrowKnife\barrowknife.nif
+  FLLD: 0x01000000
+ImpactDataSet: 055DC3:Starfield.esm
+ColorRemappingIndex: 3.4028235E+38
+WTRMUnknown1: 20
+WTRMUnknown3: 0.3
+WTRMUnknown4: 0.5
+WTRMUnknown5: 30
